@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-02",
+  "positioning": "TAS资料站：作品、制作、美术、声音、出版与现代延续比较",
+  "sources": [
+    {
+      "id": "tas-dc-series",
+      "title": "DC：BTAS系列主创",
+      "url": "https://www.dc.com/tv/batman-the-animated-series-1992-1995",
+      "evidence": "官方公开资料",
+      "access": "官方搜索结果可读；直接打开403",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-radomski",
+      "title": "Eric Radomski本人访谈／Jim Harvey，2012年9月",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-interviews/btas-interview-eric-radomski/",
+      "evidence": "主创口述一手材料，发表于The World’s Finest",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-emmy",
+      "title": "Television Academy：Batman: The Series",
+      "url": "https://www.televisionacademy.com/shows/batman-series",
+      "evidence": "奖项主办机构记录",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-subzero",
+      "title": "DC：Batman & Mr. Freeze: SubZero (1998)",
+      "url": "https://www.dc.com/movies/batman-and-mr-freeze-sub-zero-1998",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-batwoman",
+      "title": "DC：Mystery of the Batwoman (2003)",
+      "url": "https://www.dc.com/movies/batman-mystery-of-the-batwoman-2003",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-harley",
+      "title": "DC／Rosie Knight：Harley Quinn Comes Into her Own",
+      "url": "https://www.dc.com/blog/2019/05/22/brilliant-women-of-batman-harley-quinn-comes-into-her-own",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-mad-deluxe",
+      "title": "DC：Mad Love Deluxe Edition，2015版",
+      "url": "https://www.dc.com/graphic-novels/batman-adventures-1992/batman-adventures-mad-love-deluxe-edition",
+      "evidence": "官方公开资料",
+      "access": "官方搜索结果可读；直接打开403",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-mad-stories",
+      "title": "DC：Mad Love and Other Stories，2011平装",
+      "url": "https://www.dc.com/graphic-novels/batman-adventures-1992/batman-mad-love-and-other-stories",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-continue-announcement",
+      "title": "DC：Adventures Continue，2020发布公告",
+      "url": "https://www.dc.com/blog/2020/02/13/batman-the-adventures-continue-arrives-from-paul-dini-alan-burnett-and-ty-templeton",
+      "evidence": "官方公开资料",
+      "access": "官方搜索结果可读；直接打开失败；历史计划",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-continue-one",
+      "title": "DC：Adventures Continue Season One合集",
+      "url": "https://www.dc.com/graphic-novels/batman-the-adventures-continue-season-one",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-continue-two",
+      "title": "DC：Adventures Continue Season Two合集",
+      "url": "https://www.dc.com/graphic-novels/batman-the-adventures-continue-season-two",
+      "evidence": "官方公开资料",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-omnibus",
+      "title": "Penguin Random House：The Batman Adventures Omnibus",
+      "url": "https://www.penguinrandomhouse.com/books/735666/the-batman-adventures-omnibus-by-kelley-puckett/",
+      "evidence": "官方发行商书目；简介疑似错配，不采用其剧情",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tas-score-vol2",
+      "title": "La-La Land Records：BTAS Vol. 2唱片与分集署名",
+      "url": "https://lalalandrecords.com/batman-the-animated-series-vol-2-limited-edition/",
+      "evidence": "唱片发行厂牌一手曲目表",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "wf-guide",
+      "title": "The World’s Finest · Episode Guide 01–30",
+      "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-01-30/",
+      "type": "分集索引辅助来源",
+      "scope": "该指南第001–030条的英文名称、指南编号与来源所载日期；不代填完整制作代码、播出地区或影音序号。",
+      "checked": "2026-10-02",
+      "reused": true
+    },
+    {
+      "id": "wf-tnba-guide",
+      "title": "The World’s Finest · TNBA 24集指南",
+      "url": "https://dcanimated.com/tnba/tnba-guides/tnba-guides-episode-guide-01-26/",
+      "type": "分集索引辅助来源",
+      "scope": "正文24条英文名、辅助指南编号、来源所载日期；网址／标题中的01–26不作为集数。电影与跨作客串另编。",
+      "checked": "2026-10-02",
+      "reused": true
+    },
+    {
+      "id": "wb-btas-blu",
+      "title": "Warner Bros. · BTAS 全集蓝光历史公告（WF转载）",
+      "url": "https://dcanimated.com/btas/btas-releases/btas-releases-blu/btas-blu-complete-series/btas-blu-complete-press-release/",
+      "type": "官方公告转载",
+      "scope": "109集盒装与两部另附电影、主要制作／配音人员；2018年早期公告预定日不当作最终上市日。",
+      "checked": "2026-10-02",
+      "reused": true
+    },
+    {
+      "id": "dc-interview",
+      "title": "DC · Behind the Bat: An Interview with Kevin Conroy",
+      "url": "https://www.dc.com/blog/2014/02/21/behind-the-bat-an-interview-with-kevin-conroy",
+      "type": "本人访谈",
+      "scope": "TAS 与游戏经历、双重声音、集体录音及 Perchance to Dream。",
+      "checked": "2026-10-02",
+      "reused": true
+    },
+    {
+      "id": "dc-caped-intro",
+      "title": "DC：披风斗士的创作与角色重释",
+      "url": "https://www.dc.com/blog/2024/08/02/batman-caped-crusader-builds-on-all-that-s-come-before",
+      "type": "DC官方介绍",
+      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音；不作为DCAU连续性证明。",
+      "checked": "2026-10-02",
+      "reused": true
+    }
+  ],
+  "works": [
+    {
+      "id": "btas",
+      "title": "Batman: The Animated Series",
+      "kind": "电视动画",
+      "relationship": "专题主体",
+      "facts": {
+        "officialYears": "1992–1995",
+        "catalogEpisodes": 85,
+        "executiveProducers": [
+          "Jean MacCurdy",
+          "Tom Ruegger"
+        ],
+        "producers": [
+          "Alan Burnett",
+          "Eric Radomski",
+          "Bruce Timm"
+        ]
+      },
+      "sourceRefs": [
+        "tas-dc-series",
+        "wf-guide"
+      ],
+      "gaps": "85条既有目录不等于85篇深档；制作代码、地区首播与版本顺序待片尾／发行材料核对。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "tnba",
+      "title": "The New Batman Adventures",
+      "kind": "电视动画",
+      "relationship": "BTAS后续系列，独立编目",
+      "facts": {
+        "catalogEpisodes": 24,
+        "combinedBluRayTVEpisodes": 109
+      },
+      "sourceRefs": [
+        "wf-tnba-guide",
+        "wb-btas-blu"
+      ],
+      "gaps": "109是合辑电视集数85+24，不把随附电影计算为剧集。逐集片尾与造型比较尚待核。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "subzero",
+      "title": "Batman & Mr. Freeze: SubZero",
+      "kind": "动画电影",
+      "relationship": "TAS关联长片",
+      "facts": {
+        "year": 1998,
+        "director": "Boyd Kirkland",
+        "writersAsListedByDC": [
+          "Boyd Kirkland",
+          "Randy Rogel",
+          "Bob Kane"
+        ],
+        "cast": [
+          "Kevin Conroy",
+          "Michael Ansara",
+          "Loren Lester",
+          "Efrem Zimbalist Jr."
+        ]
+      },
+      "sourceRefs": [
+        "tas-subzero"
+      ],
+      "gaps": "DC列名未区分原著角色与具体剧本署名；精确日期、时长及完整片尾仍待核。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "batwoman",
+      "title": "Batman: Mystery of the Batwoman",
+      "kind": "动画电影",
+      "relationship": "关联动画电影；不并入85/24集",
+      "facts": {
+        "year": 2003,
+        "director": "Curt Geda",
+        "writers": [
+          "Michael Reaves",
+          "Alan Burnett"
+        ],
+        "cast": [
+          "Kevin Conroy",
+          "Hector Elizondo",
+          "Kyra Sedgwick",
+          "Kelly Ripa"
+        ]
+      },
+      "sourceRefs": [
+        "tas-batwoman"
+      ],
+      "gaps": "不依据片名推定Batwoman是Kate Kane；角色身份与完整配音对应待片尾核对。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "mad-deluxe",
+      "title": "Batman Adventures: Mad Love Deluxe Edition",
+      "kind": "漫画再版",
+      "relationship": "独立版本书目",
+      "facts": {
+        "editionOnSale": "2015-04-15",
+        "pages": 96,
+        "writers": [
+          "Paul Dini",
+          "Bruce Timm"
+        ],
+        "artist": "Bruce Timm"
+      },
+      "sourceRefs": [
+        "tas-mad-deluxe"
+      ],
+      "gaps": "日期是本版上架日，不是原始Mad Love故事首发日；原刊版权页尚未读取。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "mad-stories",
+      "title": "Batman: Mad Love and Other Stories",
+      "kind": "漫画合集",
+      "relationship": "Mad Love与其他短篇合辑",
+      "facts": {
+        "editionOnSale": "2011-08-31",
+        "pages": 208,
+        "otherContents": [
+          "Batman Adventures Annual #1–2",
+          "Batman Adventures Holiday Special",
+          "Adventures in the DC Universe #3",
+          "Batman Black and White #1"
+        ]
+      },
+      "sourceRefs": [
+        "tas-mad-stories"
+      ],
+      "gaps": "合集多位画师署名不自动套用到Mad Love单篇；逐篇署名及页码待内页核对。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "continue-one",
+      "title": "Batman: The Adventures Continue Season One",
+      "kind": "漫画合集",
+      "relationship": "由动画主创扩展其世界的新漫画故事",
+      "facts": {
+        "editionOnSale": "2021-06-01",
+        "pages": 208,
+        "collects": "Batman: The Adventures Continue #1–8",
+        "announcementWriters": [
+          "Paul Dini",
+          "Alan Burnett"
+        ],
+        "announcementArtist": "Ty Templeton",
+        "originalPlanIssues": 6
+      },
+      "sourceRefs": [
+        "tas-continue-one",
+        "tas-continue-announcement"
+      ],
+      "gaps": "公告六期与最终收八期分开记录；不等于新电视季，不以纸本期号推算数字章节数。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "continue-two",
+      "title": "Batman: The Adventures Continue Season Two",
+      "kind": "漫画合集",
+      "relationship": "上一漫画项目的后续合集",
+      "facts": {
+        "editionOnSale": "2022-06-14",
+        "pages": 192,
+        "collects": "Season Two #1–7及’Tis the Season to Be Freezin’ #1短篇",
+        "writers": [
+          "Alan Burnett",
+          "Paul Dini"
+        ],
+        "artistsAsCollected": [
+          "Ty Templeton",
+          "Rick Burchett",
+          "Jordan Gibson"
+        ]
+      },
+      "sourceRefs": [
+        "tas-continue-two"
+      ],
+      "gaps": "合集画师列表不等于每期逐一署名。标题Season Two是漫画项目，不是电视动画季号。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "adventures-omnibus",
+      "title": "The Batman Adventures Omnibus",
+      "kind": "漫画合集",
+      "relationship": "动画衍生漫画版本书目",
+      "facts": {
+        "isbn": "9781779521194",
+        "editionOnSale": "2023-09-05",
+        "pages": 1192,
+        "creditedAuthor": "Kelley Puckett",
+        "creditedIllustrators": [
+          "Michael Parobeck",
+          "Ty Templeton"
+        ],
+        "publisherCollection": "#1–36、Annual #1–2、Holiday Special #1、Mad Love #1，以及Batman: Black & White Omnibus故事"
+      },
+      "sourceRefs": [
+        "tas-omnibus"
+      ],
+      "gaps": "发行商简介涉及企鹅市长等情节，疑似混入另一漫画系列，暂不采用；电影改编是否收录需目录／版权页核对。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "score-vol2",
+      "title": "Batman: The Animated Series Vol. 2",
+      "kind": "配乐唱片",
+      "relationship": "声音档案与署名核查材料",
+      "facts": {
+        "sku": "LLLCD1218",
+        "discs": 4,
+        "historicalEditionUnits": 3500,
+        "linerNotesPages": 36,
+        "linerNotesWriter": "John Takis",
+        "producer": "MV Gerhard",
+        "mastering": "James Nelson"
+      },
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "gaps": "只记录厂牌公开元数据，不复制整份曲目或册子；无音频文件，不表示当前库存或购买建议。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    },
+    {
+      "id": "caped-crusader",
+      "title": "Batman: Caped Crusader",
+      "kind": "电视动画",
+      "relationship": "本站策划的TAS现代延续尝试／审美比较",
+      "facts": {
+        "approach": "Bruce Timm参与、1940年代背景与黑色电影视角"
+      },
+      "sourceRefs": [
+        "dc-caped-intro"
+      ],
+      "gaps": "现代延续是专题编辑视角，不作为DCAU同一连续性或BTAS剧情续集确认。两季目录沿用既有资料。",
+      "originalReleaseDate": null,
+      "runtimeMinutes": null
+    }
+  ],
+  "notes": [
+    {
+      "id": "dark-backgrounds",
+      "title": "从暗处塑造哥谭",
+      "sourceRefs": [
+        "tas-radomski"
+      ],
+      "text": "Radomski将从暗处以光色引出形象的思路联系到Monet、Bernie Fuchs、Coppola与Fleischer动画；他解释这也能用有限细节维持气氛与制作一致性。资料站可比较背景、标题卡与人物剪影，但不能把所有片尾美术岗位归给他。",
+      "status": "主创口述摘述；具体画稿待补"
+    },
+    {
+      "id": "production-team",
+      "title": "试片到系列：共同制作的证据",
+      "sourceRefs": [
+        "tas-radomski",
+        "tas-dc-series"
+      ],
+      "text": "Radomski回忆与Timm制作90秒试片后获任制片，首批目标65集；Alan Burnett加入带来经验与合作。他回忆最多七家工作室在四国同时工作，主体为传统手工二维与胶片拍摄。这里记录受访者回忆，不据此推导每集外包工作室。",
+      "status": "制作史入口；原始试片未取得"
+    },
+    {
+      "id": "harley-migration",
+      "title": "哈莉：从动画走向漫画",
+      "sourceRefs": [
+        "tas-harley"
+      ],
+      "text": "DC回顾将哈莉的动画登场定位在1992年Joker’s Favor，归于Dini与Timm创作，并指出Arleen Sorkin的声音与Timm造型。文章区分The Batman Adventures #12的早期漫画登场和Batman: Harley Quinn #1进入主连续性。角色相同不表示这些作品处于同一个宇宙。",
+      "status": "官方回顾；原刊与片尾未逐项核验"
+    },
+    {
+      "id": "voice-performance",
+      "title": "声音表演需要独立档案",
+      "sourceRefs": [
+        "dc-interview"
+      ],
+      "text": "沿用康罗伊本人访谈，整理布鲁斯／蝙蝠侠表演、共同录音与代表篇目作为声音专题入口。配音演员、角色、系列、语种、版本和片尾证据分别存储；其他语言配音不套用英语演员表。",
+      "status": "已有主档案回用；完整演员表待补"
+    },
+    {
+      "id": "awards-scope",
+      "title": "艾美奖记录的范围",
+      "sourceRefs": [
+        "tas-emmy"
+      ],
+      "text": "Television Academy在Batman: The Series条目下列1993年Outstanding Animated Program (For Programming One Hour Or Less)获奖。该页未标出具体获奖集，不单凭此页写成Robin’s Reckoning获奖；该记录也不是所有日间艾美奖的总表。",
+      "status": "机构记录已核；分集与其他奖项待核"
+    },
+    {
+      "id": "mad-love-media",
+      "title": "Mad Love：故事与版本不能合并",
+      "sourceRefs": [
+        "tas-mad-deluxe",
+        "tas-mad-stories",
+        "wf-tnba-guide"
+      ],
+      "text": "TNBA目录里的Mad Love、原始漫画故事与2011／2015再版分别编目。可做漫画到动画的改编比较，但本批仅取得书目和版本封面，未完成漫画内页与动画镜头对照。",
+      "status": "比较框架；内页与镜头证据待补"
+    },
+    {
+      "id": "continuations",
+      "title": "两种延续：漫画与新动画",
+      "sourceRefs": [
+        "tas-continue-announcement",
+        "tas-continue-one",
+        "tas-continue-two",
+        "dc-caped-intro"
+      ],
+      "text": "Adventures Continue由原动画主创拓展既有动画世界，其Season One／Two是漫画命名。Caped Crusader另列现代审美延续尝试；可比较年代氛围、设计和人物重写，不建立与DCAU的剧情接续年表。",
+      "status": "关系已区分；不做统一宇宙推断"
+    }
+  ],
+  "musicCredits": [
+    {
+      "title": "Main Title",
+      "albumGroupCredit": [
+        "Danny Elfman"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "Beware the Gray Ghost",
+      "albumGroupCredit": [
+        "Carl Swander Johnson"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "The Cat and the Claw Part I",
+      "albumGroupCredit": [
+        "Harvey R. Cohen",
+        "Wayne Coster",
+        "Shirley Walker"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "The Cat and the Claw Part II",
+      "albumGroupCredit": [
+        "Harvey R. Cohen"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "Nothing to Fear",
+      "albumGroupCredit": [
+        "Shirley Walker"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "Heart of Ice",
+      "albumGroupCredit": [
+        "Todd Hayen",
+        "Shirley Walker"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    },
+    {
+      "title": "Appointment in Crime Alley",
+      "albumGroupCredit": [
+        "Stuart Balcomb"
+      ],
+      "sourceRefs": [
+        "tas-score-vol2"
+      ],
+      "scope": "厂牌曲目分组署名；不等于已核每段配乐的具体作曲分工"
+    }
+  ],
+  "images": [
+    {
+      "id": "harley-tas",
+      "file": "tas-research-harley-tas.jpg",
+      "sourceRefs": [
+        "tas-harley"
+      ],
+      "originalUrl": "https://static.dc.com/sites/default/files/imce/2019/05-MAY/fullres-harade10_5ce44265bdd845.58542102.jpg",
+      "caption": "哈莉与小丑的动画画面／DC文章配图；该页未指明分集，不标为Joker’s Favor截图",
+      "width": 900,
+      "height": 682,
+      "sha256": "5aa565ab00e15d0a03d08ecd3c1e7568e3343d7c5d3ebe73cb54331790fab3ff",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "subzero",
+      "file": "tas-research-subzero.jpg",
+      "sourceRefs": [
+        "tas-subzero"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/batmanandmrfreeze_thumb_192x291_52ac0c1cb55ac7.72468344.jpg?w=160",
+      "caption": "SubZero电影封面缩略图",
+      "width": 160,
+      "height": 243,
+      "sha256": "e2b8b7b0b15eb08a21b3ae2c54166aeb862148a27b598ced1817e88e926533b5",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "batwoman",
+      "file": "tas-research-batwoman.jpg",
+      "sourceRefs": [
+        "tas-batwoman"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/batmanbatwoman_thumb_192x291_52ac1710b7aba3.86797187.jpg?w=160",
+      "caption": "Mystery of the Batwoman电影封面缩略图",
+      "width": 160,
+      "height": 243,
+      "sha256": "fdabca9818b7cb84b37dfa8a02a2366fd2a639a7e614465d3bc3a28695d15678",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "continue-one",
+      "file": "tas-research-continue-one.jpg",
+      "sourceRefs": [
+        "tas-continue-one"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/BTMADVC_S1_CV_60b025792515a6.16294638.jpg?w=160",
+      "caption": "Adventures Continue Season One合集封面缩略图",
+      "width": 160,
+      "height": 246,
+      "sha256": "3cdc6da54da0c910a6d2ca763cf9d42265039e6921a569c9610cbd8f80608f4d",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "continue-two",
+      "file": "tas-research-continue-two.jpg",
+      "sourceRefs": [
+        "tas-continue-two"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/BMTACS2%2520%2528Cover%2529_629120acaab344.82682916.jpg?w=160",
+      "caption": "Adventures Continue Season Two合集封面缩略图",
+      "width": 160,
+      "height": 246,
+      "sha256": "bb09a9f60f5f5588d36eb5ce4cfea4f76946dde0158199ca5edbefb20044baa0",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "mad-love-stories",
+      "file": "tas-research-mad-love-stories.jpg",
+      "sourceRefs": [
+        "tas-mad-stories"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/19055_400x600.jpg?w=160",
+      "caption": "Mad Love and Other Stories封面缩略图",
+      "width": 160,
+      "height": 240,
+      "sha256": "2d893959bc298eb09ba0df5f1b5b481ee4326ab91da75e97417d0823031e2b8f",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "mad-love-deluxe",
+      "file": "tas-research-mad-love-deluxe.jpg",
+      "sourceRefs": [
+        "tas-mad-deluxe"
+      ],
+      "originalUrl": "https://static.dc.com/dc/files/default_images/bm_dlx_madlove_deluxe_5b035c91edcd70.55282279.jpg?w=160",
+      "caption": "Mad Love Deluxe封面缩略图；图由DC同系列推荐区取得，封面年份未据图片推定",
+      "width": 160,
+      "height": 248,
+      "sha256": "015ad3d6be81a147441be93df49c1c77817c6eac6c9dc201e80015a0fd6f5f19",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    },
+    {
+      "id": "adventures-omnibus",
+      "file": "tas-research-adventures-omnibus.jpg",
+      "sourceRefs": [
+        "tas-omnibus"
+      ],
+      "originalUrl": "https://images3.penguinrandomhouse.com/cover/9781779521194",
+      "caption": "The Batman Adventures Omnibus出版社封面",
+      "width": 298,
+      "height": 450,
+      "sha256": "aa299adbc0a28cb5c5bcf443cbf3ba88b1f6e3ae26d8a15e0b856d00bcd7296c",
+      "rights": "DC／各权利人；官网公开不等于开放授权；保留原图、不去水印",
+      "visualChecked": true
+    }
+  ],
+  "gaps": [
+    "BTAS85集与TNBA24集逐集片尾署名、制作代码、地区首播、发行顺序尚未全核。",
+    "Mask of the Phantasm沿用已有图文入口，本批没有新增该片完整制作档案；其他关联电影亦非已穷尽。",
+    "标题卡、角色设定、背景稿、分镜及制作文件原件尚缺；主创访谈不能替代原画证据。",
+    "逐角色造型变化、完整英语及中文配音、作曲分工与其他奖项记录尚缺。",
+    "漫画只核公开书目和封面，未阅读完整内页；原刊日期、页码和漫画／动画逐镜比较仍为空。",
+    "Batman Animated制作书尚未取得可核官方书目和内页；不收录来源不明的整本PDF。",
+    "图片为1张动画画面与7张封面，其中6张宽160px；没有逐集截图覆盖，也没有高清设定稿。"
+  ],
+  "siteIntegration": "独立研究包，未生成新网页；站点仍30页／115搜索记录／41来源／24图库图。"
+}
