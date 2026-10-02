@@ -1,0 +1,796 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-02",
+  "positioning": "阿卡姆资料站：人物、地点、游戏内档案、版本书目与跨媒介比较",
+  "priorResearch": "riddler-research.json",
+  "sources": [
+    {
+      "id": "dc-riddler-history",
+      "title": "DC / Alex Jaffe：Who is the Riddler?",
+      "url": "https://www.dc.com/blog/2022/02/23/who-is-the-riddler",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-city-comic",
+      "title": "DC：Arkham City平装合集",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-city-2011/batman-arkham-city",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-city-announcement",
+      "title": "DC：2011年City漫画公告",
+      "url": "https://www.dc.com/blog/2011/02/09/batman-arkham-city-comic-book-miniseries-announced",
+      "evidence": "官方书目／公开文章",
+      "access": "搜索返回官方公开正文；直接打开403",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-unhinged",
+      "title": "DC：Arkham Unhinged Vol. 1平装版",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-unhinged-2012/batman-arkham-unhinged-vol-1",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-knight-comic",
+      "title": "DC：Arkham Knight #1",
+      "url": "https://www.dc.com/comics/batman-arkham-knight-2015/batman-arkham-knight-1",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-knight-genesis",
+      "title": "DC：Arkham Knight – Genesis合集",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-knight-genesis-2015/batman-arkham-knight-genesis",
+      "evidence": "官方书目／公开文章",
+      "access": "搜索返回官方书目正文；直接打开403",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-city-endgame",
+      "title": "DC：Arkham City – End Game #1",
+      "url": "https://www.dc.com/comics/batman-arkham-city-2011/batman-arkham-city-end-game-1",
+      "evidence": "官方书目／公开文章",
+      "access": "搜索返回官方书目正文；直接打开403",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-origins-dc2",
+      "title": "DC：Origins DC² MultiVerse发布公告",
+      "url": "https://www.dc.com/blog/2013/12/19/batman-arrives-on-the-app-store-in-epic-new-interactive-graphic-novel-batman-arkham-origins-a-dc2-multi-verse-graphic-novel",
+      "evidence": "官方书目／公开文章",
+      "access": "搜索返回官方公告正文；直接打开403；历史功能不代表当前服务可用",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "prh-arkham-saga",
+      "title": "PRH / DC：The Arkham Saga Omnibus新版本",
+      "url": "https://www.penguinrandomhouse.com/books/771863/batman-the-arkham-saga-omnibus-new-edition-by-peter-j-tomasi/9781779529503/",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-asylum-comic25",
+      "title": "DC：Arkham Asylum 25周年豪华版",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-asylum-25th-anniversary-deluxe-edition",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-riddler-anthology",
+      "title": "DC：Batman: Arkham – The Riddler",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-2015/batman-arkham-the-riddler",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-freeze-anthology",
+      "title": "DC：Batman: Arkham – Mr. Freeze",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-2015/batman-arkham-mr-freeze",
+      "evidence": "官方书目／公开文章",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-story-text-index",
+      "title": "Arkham Wiki：Knight哥谭故事转录",
+      "url": "https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_Knight",
+      "evidence": "社区转录，待游戏核对",
+      "access": "公开正文已读取",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-stories",
+      "title": "Arkham Wiki：City Stories检索",
+      "url": "https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_City",
+      "level": "社区索引",
+      "checked": "2026-10-02"
+    }
+  ],
+  "works": [
+    {
+      "id": "city-tpb",
+      "title": "Batman: Arkham City",
+      "type": "游戏配套漫画合集",
+      "editionDate": "2012-09-12",
+      "creators": [
+        "Paul Dini",
+        "Carlos D’Anda等"
+      ],
+      "scope": "官方定位为Asylum与City之间的桥梁；此版收5期正篇及5篇数字先行章节。",
+      "sources": [
+        "dc-city-comic"
+      ],
+      "caveat": "版本日期不作游戏发行年；不同数字版编号另查。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "unhinged-v1",
+      "title": "Batman: Arkham Unhinged Vol. 1",
+      "type": "游戏相关衍生漫画",
+      "editionDate": "2013-08-07",
+      "creators": [
+        "Derek Fridolfs等",
+        "Mike S. Miller等"
+      ],
+      "scope": "此版收#1—5，官方简介列Strange、Harley、Freeze及Hammer/Sickle等。",
+      "sources": [
+        "dc-unhinged"
+      ],
+      "caveat": "这是Vol.1平装资料，不把出版顺序直接转换为游戏时间线。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "knight-01",
+      "title": "Batman: Arkham Knight #1",
+      "type": "游戏前传漫画单期",
+      "editionDate": "2015-03-11",
+      "creators": [
+        "Peter J. Tomasi",
+        "Viktor Bogdanovic",
+        "Art Thibert"
+      ],
+      "scope": "官方明确定位为Knight游戏之前、与游戏连续性相连的前传。",
+      "sources": [
+        "dc-knight-comic"
+      ],
+      "caveat": "出版宣传定位不替代逐场连续性核查。",
+      "spoiler": "City结局",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "knight-genesis",
+      "title": "Batman: Arkham Knight – Genesis",
+      "type": "角色起源前传合集",
+      "editionDate": "2016-03-23",
+      "creators": [
+        "Peter J. Tomasi",
+        "Dexter Soy",
+        "Alisson Borges"
+      ],
+      "scope": "收6期迷你系列，围绕游戏主反派的起源。",
+      "sources": [
+        "dc-knight-genesis"
+      ],
+      "caveat": "此为合集日期；具体身份与页码暂不写入无剧透目录。",
+      "spoiler": "Knight身份",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "city-endgame",
+      "title": "Batman: Arkham City – End Game #1",
+      "type": "游戏结局相关漫画",
+      "editionDate": "2012-11-14",
+      "creators": [
+        "Derek Fridolfs",
+        "Jason Shawn Alexander"
+      ],
+      "scope": "官方说明围绕City最终冲突的后果；60页数字故事以印刷本推出。",
+      "sources": [
+        "dc-city-endgame"
+      ],
+      "caveat": "书目总页数64与故事60页是不同口径。",
+      "spoiler": "City结局",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "origins-dc2",
+      "title": "Batman: Arkham Origins – A DC² MultiVerse Graphic Novel",
+      "type": "历史互动数字漫画",
+      "editionDate": "2013-12-19",
+      "creators": [
+        "DC Entertainment",
+        "Madefire"
+      ],
+      "scope": "2013年公告说明为游戏前传，计划8章、多分支、动态画面及声音。",
+      "sources": [
+        "dc-origins-dc2"
+      ],
+      "caveat": "只记录当年公告；未确认现在可购买、下载或领取皮肤。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "saga-2024",
+      "title": "Batman: The Arkham Saga Omnibus (New Edition)",
+      "type": "游戏配套漫画总集",
+      "editionDate": "2024-09-24",
+      "creators": [
+        "多位作者"
+      ],
+      "scope": "此版1648页，ISBN 9781779529503；出版目录包含Road to Arkham、City、End Game、Knight、Genesis、Origins、Unhinged等。",
+      "sources": [
+        "prh-arkham-saga"
+      ],
+      "caveat": "合集收录只证明书目范围，不证明每一细节与后续游戏均无冲突。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "asylum-comic-25",
+      "title": "Batman: Arkham Asylum 25th Anniversary Deluxe Edition",
+      "type": "独立漫画作品／背景比较",
+      "editionDate": "2014-11-05",
+      "creators": [
+        "Grant Morrison",
+        "Dave McKean"
+      ],
+      "scope": "224页周年版本，可作疯人院题材与视觉的比较书目。",
+      "sources": [
+        "dc-asylum-comic25"
+      ],
+      "caveat": "不是2009游戏剧情小说化；未据标题判定游戏改编了全部情节。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "riddler-anthology",
+      "title": "Batman: Arkham – The Riddler",
+      "type": "历代角色故事选集",
+      "editionDate": "2015-05-13",
+      "creators": [
+        "多位作者",
+        "Guillem March封面"
+      ],
+      "scope": "296页；收Detective Comics #140、#142、#822等不同年代故事。",
+      "sources": [
+        "dc-riddler-anthology"
+      ],
+      "caveat": "不按Arkham标题将其归为游戏配套前传。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    },
+    {
+      "id": "freeze-anthology",
+      "title": "Batman: Arkham – Mr. Freeze",
+      "type": "历代角色故事选集",
+      "editionDate": "2017-05-10",
+      "creators": [
+        "多位作者",
+        "Jae Lee封面"
+      ],
+      "scope": "248页；官方目录包含Batman #121、Mr. Freeze #1等故事。",
+      "sources": [
+        "dc-freeze-anthology"
+      ],
+      "caveat": "供角色背景检索，不能以合集标题证明漫画细节属于游戏设定。",
+      "spoiler": "无剧情细节",
+      "interiorPagesVerified": false
+    }
+  ],
+  "stories": [
+    {
+      "id": "city-island-sold",
+      "game": "city",
+      "title": "Arkham Island Sold",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-amusement-mile-08"
+      ],
+      "gist": "旧岛售予TYGER并用作航空基地。",
+      "editorialAngle": "远景怎样交代旧地点的新用途？",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-medical",
+      "game": "city",
+      "title": "Arkham City Medical Team",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-church-intro"
+      ],
+      "gist": "教堂医疗队获得Wayne捐助，供给受阻。",
+      "editorialAngle": "用医疗设施观察监狱城的日常生活。",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-seismic",
+      "game": "city",
+      "title": "Seismic Disturbances",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-park-row-02"
+      ],
+      "gist": "沉降引发居住条件争议，调查受阻。",
+      "editorialAngle": "告示和解锁故事能否共同解释地形？",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-purchase",
+      "game": "city",
+      "title": "Compulsory Purchase",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-industrial-04"
+      ],
+      "gist": "市政动议推动圈地征收。",
+      "editorialAngle": "研究报摊与城市治理叙事的联系。",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-study",
+      "game": "city",
+      "title": "Studying the Bat",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-bowery-07"
+      ],
+      "gist": "Strange借TYGER行动研究Batman。",
+      "editorialAngle": "把行为分析室放回Strange的研究计划。",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-robin",
+      "game": "city",
+      "title": "A New Robin",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-amusement-mile-02"
+      ],
+      "gist": "格雷森家庭经历连接Robin与Nightwing。",
+      "editorialAngle": "同一人物在不同阶段的身份应分开标注。",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-ratcatcher",
+      "game": "city",
+      "title": "The Ratcatcher",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-industrial-06"
+      ],
+      "gist": "捕鼠者的小生意与Penguin发生冲突。",
+      "editorialAngle": "广告与角色缺席怎样组成场景叙事？",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "city-broker",
+      "game": "city",
+      "title": "Brokering Deals",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-industrial-05"
+      ],
+      "gist": "Broker替罪犯安排地产，包括谜语人。",
+      "editorialAngle": "研究挑战场所的世界观解释，勿推定所有设施同一来历。",
+      "sources": [
+        "city-stories"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "knight-alfred",
+      "game": "knight",
+      "title": "Faithful Servant",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-10"
+      ],
+      "gist": "Alfred察觉Bruce在Joker死后异常。",
+      "editorialAngle": "从照护者视角整理Bruce的状态。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "City结局"
+    },
+    {
+      "id": "knight-tower",
+      "game": "knight",
+      "title": "Wonder Tower",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-miagani-01"
+      ],
+      "gist": "Strange与Ra’s讨论Arkham City计划。",
+      "editorialAngle": "同一建筑怎样连接两作的权力结构？",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "City后期"
+    },
+    {
+      "id": "knight-bane",
+      "game": "knight",
+      "title": "Homecoming",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-02"
+      ],
+      "gist": "Bane回到Santa Prisca打击毒品势力。",
+      "editorialAngle": "联系遗留装备与异地去向；容器位置仍有攻略冲突。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "knight-batgirl",
+      "game": "knight",
+      "title": "The Trap",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-bleake-06"
+      ],
+      "gist": "Batgirl救人时遇到Joker设下的圈套。",
+      "editorialAngle": "旧战衣承载谁的历史？不把这段等同Killing Joke。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "knight-calendar",
+      "game": "knight",
+      "title": "Resolutions",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-06"
+      ],
+      "gist": "日历人以日记记录另类节日。",
+      "editorialAngle": "比较City节日人物与Knight日记叙事。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "knight-nora",
+      "game": "knight",
+      "title": "Frozen Out",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-04"
+      ],
+      "gist": "故事转向Nora的意识与感受。",
+      "editorialAngle": "与Heart of Ice比较叙事视角，不宣称同一连续性。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "背景剧情"
+    },
+    {
+      "id": "knight-sharp",
+      "game": "knight",
+      "title": "Visiting Hours",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-miagani-09"
+      ],
+      "gist": "Sharp在囚禁中仍受Strange暗示影响。",
+      "editorialAngle": "区分心理暗示、幻象与字面复活。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "Sharp结局暗示"
+    },
+    {
+      "id": "knight-riddler",
+      "game": "knight",
+      "title": "Social Outcast",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-miagani-04"
+      ],
+      "gist": "谜语人受挫后获准购买地下设施。",
+      "editorialAngle": "整理羞辱、报复和挑战场地之间的联系。",
+      "sources": [
+        "knight-story-text-index"
+      ],
+      "evidence": "社区转录条目已读；游戏解锁画面未核",
+      "gameCaptureVerified": false,
+      "originalText": null,
+      "spoiler": "City谜语人支线结局"
+    }
+  ],
+  "notes": [
+    {
+      "id": "riddler-as-designer",
+      "title": "谜语人为何总要把Batman变成玩家",
+      "body": "谜语人的机关可以先当作人物表达来读：他需要有人参与，才能证明自己的聪明。DC的Alex Jaffe在2022年回顾中，把TAS的“游戏设计者”塑造与阿卡姆游戏中的两人关系明确联系起来。这给跨站阅读提供了一条有出处的线索。它支持讨论人物处理的延续，不能据此声称某个游戏关卡直接改编了某集动画。",
+      "sources": [
+        "dc-riddler-history"
+      ],
+      "images": [
+        "riddler-tas"
+      ],
+      "status": "可作短档案底稿；逐关对应未证实"
+    },
+    {
+      "id": "riddler-other-career",
+      "title": "问号之外：谜语人也曾是侦探",
+      "body": "整理谜语人时，可以加入他作为解题者的版本。DC回顾将Dini在2006年Detective Comics中的处理概括为：让Nygma抢先破案，以另一种方式与Batman竞争。官方文章展示了一页相关漫画，并链接#822。资料站可以把它作为人物比较入口；这段漫画经历不能自动移植成阿卡姆游戏人物的过去。",
+      "sources": [
+        "dc-riddler-history"
+      ],
+      "images": [
+        "riddler-dini-detective"
+      ],
+      "status": "可作人物比较底稿；图片页码待核"
+    },
+    {
+      "id": "poster-graysons",
+      "title": "格雷森海报：城市里留下的家庭记忆",
+      "body": "《城》的Amusement Mile有Flying Graysons海报，已有攻略图片可辨认。这张海报适合与官方Robin历史资料并置，说明Dick Grayson的家庭与身份背景。社区哥谭故事目录还将它对应到A New Robin，可作为补核入口。正式档案应保留海报原貌，并将人物背景、游戏解锁关系和本站解读分别写清。",
+      "sources": [
+        "city-amusement-mile",
+        "dc-robin",
+        "city-stories"
+      ],
+      "images": [
+        "prior:city-flying-graysons",
+        "prior:comic-robin-detective38"
+      ],
+      "status": "可作场景档案底稿；游戏解锁页待核"
+    },
+    {
+      "id": "city-subsidence-note",
+      "title": "沉降告示：一个警示牌能讲多少城市历史",
+      "body": "这块告示值得保留为城市资料，而不仅是扫描答案。现有游戏截图和社区Seismic Disturbances条目，可以引导后续核对环境变化与居民处境。与漫画Cataclysm的比较目前仍是编辑研究问题。出现地震、沉降等相似题材，并不足以确认游戏引用了该漫画事件；档案不宜给它加上已证实的改编标签。",
+      "sources": [
+        "city-park-row",
+        "city-stories",
+        "dc-cataclysm"
+      ],
+      "images": [
+        "prior:city-subsidence"
+      ],
+      "status": "研究注释；Cataclysm联系仍未证实"
+    },
+    {
+      "id": "barbara-suit-note",
+      "title": "旧战衣：先确认Barbara的不同身份",
+      "body": "《骑士》的旧Batgirl战衣可以成为Barbara人物档案的入口。社区目录列出对应故事The Trap，后续应补取游戏解锁页。此前索引中的Batgirl是人物归类，不能冒充故事的正式标题。比较漫画时，应分别核对Batgirl经历、The Killing Joke事件和Oracle身份形成；这几项关联不宜合并成一段未经验证的游戏身世。",
+      "sources": [
+        "knight-bleake",
+        "knight-story-text-index",
+        "dc-oracle"
+      ],
+      "images": [
+        "prior:knight-batgirl"
+      ],
+      "status": "研究注释；故事标题来自社区目录，游戏待核"
+    },
+    {
+      "id": "arkham-book-boundaries",
+      "title": "书名里的Arkham，不总是游戏系列",
+      "body": "资料站需要给相关漫画注明作品性质。《Arkham City》是官方说明连接两款游戏的漫画；《Arkham Knight #1》被介绍为游戏前传。相比之下，《Batman: Arkham – The Riddler》收录不同年代的角色故事。标题相似不能替代作品关系：配套漫画可用于补充游戏背景，角色选集用于查人物历史，Morrison/McKean的疯人院漫画则另列比较阅读。",
+      "sources": [
+        "dc-city-comic",
+        "dc-knight-comic",
+        "dc-riddler-anthology",
+        "dc-asylum-comic25"
+      ],
+      "images": [
+        "city-comic",
+        "knight-comic01",
+        "riddler-anthology",
+        "asylum-comic25"
+      ],
+      "status": "可作书目导读底稿"
+    }
+  ],
+  "images": [
+    {
+      "id": "riddler-tas",
+      "file": "archive-riddler-tas.jpg",
+      "source": "dc-riddler-history",
+      "imageUrl": "https://static.dc.com/sites/default/files/imce/2022/02-FEB/RiddlerBTAS_6215c0cae5b261.19787466.jpg",
+      "caption": "DC官方回顾中的TAS谜语人与Batman画面；具体集数未凭截图认定",
+      "type": "动画画面",
+      "width": 800,
+      "height": 607,
+      "sha256": "68ce4b1b8c7befd8bf0479ea77632ba4fac108e4a092cf879996b966aae143a4",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "riddler-dini-detective",
+      "file": "archive-riddler-dini-detective.jpg",
+      "source": "dc-riddler-history",
+      "imageUrl": "https://static.dc.com/sites/default/files/imce/2022/02-FEB/DiniDetective_6215c0de9b9e12.60899512.jpg",
+      "caption": "官方文章中Dini侦探时期配图；文章链接指向Detective Comics #822，印刷页码未核",
+      "type": "官方文章展示的漫画页",
+      "width": 700,
+      "height": 1079,
+      "sha256": "56266fe9fb52e91a90e6d3ceac3fad1ac4c19e7013ad332b4d051e767bcd436e",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "city-comic",
+      "file": "archive-arkham-city-comic.jpg",
+      "source": "dc-city-comic",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/BACD_case_r2.jpg?w=160",
+      "caption": "Arkham City合集封面；官网160px缩略图",
+      "type": "封面缩略图",
+      "width": 160,
+      "height": 251,
+      "sha256": "ab3b8191c8c96ea4fb1327ff35615b110fa1f35d5bd03f62b331462e66fa9a13",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "knight-comic01",
+      "file": "archive-arkham-knight-comic01.jpg",
+      "source": "dc-knight-comic",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/batman_ak_1_5b2840981b3da8.91651813.jpg?w=160",
+      "caption": "Arkham Knight #1封面；官网160px缩略图",
+      "type": "封面缩略图",
+      "width": 160,
+      "height": 246,
+      "sha256": "2773701df04fcf585c30a14fdb36f3465d591b54ee6feab15a39558a6e809509",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "unhinged-v1",
+      "file": "archive-arkham-unhinged-vol1.jpg",
+      "source": "dc-unhinged",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/batman_arkunhing_vol1_5b0465d459b926.17630488.jpg?w=160",
+      "caption": "Arkham Unhinged Vol.1封面；官网160px缩略图",
+      "type": "封面缩略图",
+      "width": 160,
+      "height": 247,
+      "sha256": "53f152015f05d33a21e7b41f98995b032538072840b7d861796fcf6f358f26b6",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "asylum-comic25",
+      "file": "archive-arkham-asylum-comic25.jpg",
+      "source": "dc-asylum-comic25",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/bm_arkhamasylum_25thann_5b036bcd1e9553.56930246.jpg?w=160",
+      "caption": "Morrison/McKean漫画25周年版封面，不是游戏封面",
+      "type": "封面缩略图",
+      "width": 160,
+      "height": 246,
+      "sha256": "7e9db93fa84875282eba42bf9c3fc72fde2dc39df4132367efcea04b2fd84e1f",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "riddler-anthology",
+      "file": "archive-arkham-riddler-anthology.jpg",
+      "source": "dc-riddler-anthology",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/batmanarkham_riddler_5ade4e7ac84b87.40851090.jpg?w=160",
+      "caption": "Batman: Arkham – The Riddler角色选集封面",
+      "type": "封面缩略图",
+      "width": 160,
+      "height": 246,
+      "sha256": "ddf4231e5dc3385f85e3cf3142fb20fa3c5e21aa17270cbbbb83f1f2c8dcdc28",
+      "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
+      "use": "私有GitHub研究素材；未接入公开网站",
+      "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    }
+  ],
+  "counts": {
+    "newSources": 13,
+    "packageSources": 14,
+    "uniqueSourcesAcrossResearch": 50,
+    "works": 10,
+    "storyRecords": 16,
+    "editorialNotes": 6,
+    "newImages": 7
+  },
+  "priority": [
+    "游戏解锁故事页及人物传记截图",
+    "场景海报、铭牌、档案的原文与近景",
+    "选题对应漫画期号、版本与页码",
+    "同一人物／地点的跨作差异"
+  ],
+  "outOfScopeForLaunch": [
+    "全奖杯收集路线",
+    "全机关解法与重置步骤",
+    "Origins逐个数据包拿取教学"
+  ],
+  "remaining": [
+    "本轮游戏故事依据社区转录，尚未直接读取游戏解锁页面",
+    "人物传记／访谈录音原始资料仍缺，本轮未宣称已经补齐",
+    "书目仅核官方公开目录与简介，不代表全本阅读完成",
+    "5张封面为160px缩略图，适合书目识别，不能作高清主视觉",
+    "公开网站尚未接入该包；30页／115搜索记录／41站点来源不变"
+  ]
+}
