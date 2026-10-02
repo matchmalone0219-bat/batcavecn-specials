@@ -29,7 +29,7 @@ def editable(data):
         obj = data["sites"][site]
         fields = [{"label": LABELS[key], "path": ["sites", site, key]} for key in obj if key in LABELS]
         entries.append({"label": obj["name"] + " / 首页", "url": f"/{site}/", "fields": fields})
-    for group in ("games", "episodes", "person", "capedCrusader"):
+    for group in ("games", "episodes", "tnbaEpisodes", "person", "capedCrusader"):
         rows = [data[group]] if group in ("person", "capedCrusader") else data[group]
         for index, row in enumerate(rows):
             prefix = [group] if group in ("person", "capedCrusader") else [group, index]

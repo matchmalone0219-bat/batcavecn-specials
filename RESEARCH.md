@@ -53,3 +53,14 @@
 按用户要求纳入TAS站，单独以“延续与再诠释”编目。“现代延续尝试”为本站策展视角，不等于剧情续作或DCAU连续性。DC两篇介绍／评论、Amazon官方更新与Prime Video第一季节目单为4条新增来源。首季10集仅登记英文原名与平台顺序；不加入BTAS85条。Prime第7集日期显示与其他集不同，不据此批量填写首播日。Amazon核查时已更新为第二季10集上线，第二季逐集目录待补。新增配音Hamish Linklater独立记录。
 
 增量检查：20页、91搜索记录、297内部链接与锚点；BTAS数量85保留；新系列实际详情页可达，康罗伊作品列表未增加本作。
+
+## 文字与图片增补（2026-10-02）
+
+- BTAS新增8篇：Heart of Ice、Beware the Gray Ghost、Joker’s Favor、Almost Got ’Im、Two-Face上下篇、Robin’s Reckoning上下篇。共11篇可阅读选集档案，署名来自逐集辅助资料，原创导读与来源评论分开。
+- 两篇Story／Teleplay分别记录；Heart of Ice作曲Todd Hayen、监制Shirley Walker；Robin’s Reckoning两篇作曲Carlos Rodriguez／Peter Tomashek不同。幼年Dick年龄来源不一致，留空。
+- TNBA24条英文名、辅助指南编号及来源日期单独编目，网址中的01–26不当成26集；电影及其他系列客串不加入24条。
+- 披风斗士第二季10集英文原名与平台顺序已补；Prime美国页面日期与Amazon公告相差一天，不把差异抹去后填成全球首播。
+- Origins补Cold, Cold Heart与PC在线服务退役说明；Knight区分Harley Quinn／Red Hood角色故事包与Prototype Batmobile外观皮肤。尚未完成全DLC清单。
+- 图片24张：游戏每作4张，共16张；DC经典动画配图3张；披风斗士系列美术1张、第二季宣传图4张。每张实际解码、尺寸核查、目视检查、来源及归属登记。
+- 图片主要来源Steam发行商商品页／公开资料接口、DC文章及Amazon官方报道；The World’s Finest截图本轮仅作为参考入口，不搬运其图库。
+- 30页、115条搜索记录、41条文字来源；24张图片另有逐张来源记录。不宣称全文主创、全部分集或图片库已完整。

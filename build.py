@@ -26,14 +26,14 @@ def paragraphs(text):
 
 
 def validate(data):
-    ids = [i["id"] for i in data["games"] + data["episodes"]]
+    ids = [i["id"] for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] + [data["person"], data["capedCrusader"]]]
     assert len(ids) == len(set(ids)), "Duplicate archive ID"
     source_ids = [s["id"] for s in data["sources"]]
     assert len(source_ids) == len(set(source_ids)), "Duplicate source ID"
     for site in ("arkham", "tas"):
         for key in ("name", "english", "eyebrow", "title", "intro", "prologue", "conroyTitle", "conroyText"):
             assert isinstance(data["sites"][site][key], str) and data["sites"][site][key].strip()
-    for item in data["games"] + data["episodes"] + [data["person"], data["capedCrusader"]]:
+    for item in data["games"] + data["episodes"] + data["tnbaEpisodes"] + [data["person"], data["capedCrusader"]]:
         for key in ("id", "title", "original", "sources"):
             assert item[key], f'Missing {key}: {item["id"]}'
         assert set(item["sources"]) <= set(source_ids), "Unknown source"
@@ -66,6 +66,8 @@ def shell(data, site, title, body, active=""):
     nav = [("主菜单" if site == "arkham" else "首页", "/arkham/menu/" if site == "arkham" else f"/{site}/", "home"), ("作品档案" if site == "arkham" else "分集目录", f"/{site}/catalog/", "catalog"), ("蝙蝠侠之声", "/people/kevin-conroy/", "person"), ("资料来源", f"/{site}/sources/", "sources"), ("搜索", f"/{site}/search/", "search")] if site in data["sites"] else [("阿卡姆档案", "/arkham/", "arkham"), ("TAS 动画档案", "/tas/", "tas"), ("共同档案", "/people/kevin-conroy/", "person")]
     if site == "tas":
         nav.insert(2, ("披风斗士", "/tas/series/caped-crusader/", "caped"))
+    if site in ("arkham", "tas"):
+        nav.insert(-1, ("图片资料", f"/{site}/gallery/", "gallery"))
     nav_html = "".join(f'<a href="{url}" {"aria-current=page" if key == active else ""}>{label}</a>' for label, url, key in nav)
     return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title><link rel="stylesheet" href="/assets/style.css"><script src="/assets/app.js" defer></script></head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else "people/kevin-conroy/"}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(info["name"])}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main><footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">本地建设样板 · 更新 {esc(data["updated"])} · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links"><a href="/arkham/">阿卡姆</a><a href="/tas/">TAS</a><a href="/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a></div></footer></body></html>'
 
@@ -87,9 +89,9 @@ def home(data, site):
             tag = "a" if item["status"] == "详情样板" else "article"
             href = f' href="{route(item)}"' if tag == "a" else ""
             body += f'<{tag}{href} class="programme-row"><span class="programme-number">0{index + 1}</span><div class="programme-title"><p>{esc(item["original"])}</p><h3>{esc(item["title"])}</h3><span>{esc(item["nameNote"])}</span></div><div class="programme-description"><p>{esc(item["summary"])}</p><span>{"详情样板 · 可阅读" if tag == "a" else "基础条目 · 深度档案待补"}</span></div></{tag}>'
-        body += '<p class="programme-footnote">这是一份策展选集，编号是本期节目位置，不能作为制作或首播顺序。<br>BTAS85条基础目录已登记；TNBA24集及电影后续分别编目。</p></section>'
+        body += '<p class="programme-footnote">这是一份策展选集，编号是本期节目位置，不能作为制作或首播顺序。<br>BTAS85条与TNBA24条基础目录分别编目；动画电影另列。</p></section>'
         modern = data["capedCrusader"]
-        body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 第一季十集节目单</span></a></section>'
+        body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
         body += f'<section class="section"><a href="/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 共同人物档案</span></div></a></section>'
         body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>从片尾到档案</h3><p>英文原名、署名、编号与出处，保持各自的资料口径。</p></a></section>'
     return shell(data, site, info["name"], body, "home")
@@ -124,7 +126,15 @@ def episode_catalog(items):
         if item["status"] == "详情样板":
             title = f'<a href="{route(item)}">{title}<span> · {esc(item["title"])}</span></a>'
         rows.append(f'<li id="{esc(item["id"])}"><span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {esc(item["status"])} · {esc(item["nameNote"])}</p></div></li>')
-    return '<ol class="episode-register" aria-label="BTAS基础目录">' + "".join(rows) + '</ol>'
+    return '<ol class="episode-register" aria-label="分集基础目录">' + "".join(rows) + '</ol>'
+
+
+def image_gallery(site, item_id=None):
+    assets = json.loads((ROOT / "media.json").read_text())["assets"]
+    assets = [a for a in assets if a["site"] == site and (item_id is None or a["item"] == item_id)]
+    if not assets:
+        return ""
+    return '<div class="archive-gallery">' + ''.join(f'<figure><a href="/assets/media/{esc(a["file"])}"><img src="/assets/media/{esc(a["file"])}" width="{a["width"]}" height="{a["height"]}" loading="lazy" alt="{esc(a["alt"])}"></a><figcaption><strong>{esc(a["title"])}</strong><span>{esc(a["caption"])}</span><span>{esc(a["credit"])}</span><a href="{esc(a["sourcePage"])}">图片出处 ↗</a></figcaption></figure>' for a in assets) + '</div>'
 
 
 def detail(data, item):
@@ -137,6 +147,12 @@ def detail(data, item):
     body += '<dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value or "待核")}</dd></div>' for key, value in fields) + f'<div><dt>蝙蝠侠英语配音</dt><dd>{actor_markup(item)}</dd></div></dl>'
     body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
     body += '<div class="reading">' + "".join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
+    if item.get("related"):
+        linked = [e for e in data["episodes"] if e["id"] in item["related"]]
+        body += '<section><h2>同一双集故事</h2>' + ''.join(f'<a class="route-card" href="{route(e)}"><h3>{esc(e["title"])}</h3><p>{esc(e["original"])}</p></a>' for e in linked) + '</section>'
+    gallery = image_gallery(site, item["id"])
+    if gallery:
+        body += '<section><h2>图片资料</h2>' + gallery + '</section>'
     body += f'<details class="spoiler"><summary>剧情与结局 · 含剧透，展开阅读</summary>{paragraphs(item["spoiler"])}</details>'
     if item["actorLink"]:
         body += '<section><h2>继续沿着声音阅读</h2><a class="route-card" href="/people/kevin-conroy/#works"><span class="label">共同演员 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>从这份作品档案回到共同人物档案，再走向另一站的已建作品。</p></a></section>'
@@ -146,9 +162,11 @@ def detail(data, item):
 
 def caped_series(data):
     item = data["capedCrusader"]
-    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#sources">资料来源</a></nav><div class="reading">'
+    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a><a href="#sources">资料来源</a></nav><div class="reading">'
     body += ''.join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
     body += '<section id="programme"><h2>第一季节目单</h2><p>Prime Video显示顺序；英文原名，不作为制作代码。</p><ol class="episode-register" aria-label="披风斗士第一季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["episodes"]) + '</ol></section>'
+    body += '<section id="programme-season2"><h2>第二季节目单</h2><p>Prime Video显示顺序；日期口径与第一季分别记录。</p><ol class="episode-register" aria-label="披风斗士第二季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["season2Episodes"]) + '</ol></section>'
+    body += '<section><h2>图片资料</h2>' + image_gallery("tas", "caped-crusader") + '</section>'
     body += f'<section class="gaps"><h2>资料边界</h2><p>{esc(item["gaps"])}</p></section><section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>阅读BTAS分集目录，比较两座动画哥谭。</p></a></section><section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></section>'
     return shell(data, "tas", item["title"], body, "caped")
 
@@ -173,10 +191,11 @@ def build(data=None):
     for site in ("arkham", "tas"):
         info = data["sites"][site]
         pages[f"{site}/index.html"] = home(data, site)
-        items = data["games"] if site == "arkham" else data["episodes"]
-        note = "按原作年份排列；移植与合集不计为新故事。" if site == "arkham" else "BTAS85条基础目录与3篇详情样板；按辅助指南编号排列，并非首播日期排序。TNBA与电影另编。完整制作代码、首播地区、影音序号仍待核。"
-        pages[f"{site}/catalog/index.html"] = shell(data, site, "作品档案" if site == "arkham" else "分集目录", f'<section class="section"><p class="label">ARCHIVE INDEX</p><h1>{"作品档案" if site == "arkham" else "分集目录"}</h1><p class="lead">{note}</p>{episode_catalog(items) if site == "tas" else chr(60) + 'div class="grid">' + cards(items, True) + '</div>'}</section>', "catalog")
+        items = data["games"] if site == "arkham" else data["episodes"] + data["tnbaEpisodes"]
+        note = "按原作年份排列；移植与合集不计为新故事。" if site == "arkham" else "BTAS85条基础目录与11篇详情样板；TNBA24条基础目录单独排列。按各自辅助指南编号排列，并非首播日期排序。电影另编。完整制作代码、首播地区、影音序号仍待核。"
+        pages[f"{site}/catalog/index.html"] = shell(data, site, "作品档案" if site == "arkham" else "分集目录", f'<section class="section"><p class="label">ARCHIVE INDEX</p><h1>{"作品档案" if site == "arkham" else "分集目录"}</h1><p class="lead">{note}</p>{'<h2>BTAS · 85集</h2>' + episode_catalog(data["episodes"]) + '<h2>TNBA · 24集</h2>' + episode_catalog(data["tnbaEpisodes"]) if site == "tas" else chr(60) + 'div class="grid">' + cards(items, True) + '</div>'}</section>', "catalog")
         pages[f"{site}/sources/index.html"] = shell(data, site, "资料来源", f'<section class="section"><p class="label">SOURCES / EDITORIAL NOTES</p><h1>每条资料，都有来处。</h1><p class="lead">官方事实、辅助索引与本站评论分开记录。以下是本轮实际使用的资料，核查日期并不表示所有字段均已确认。</p>{sources(data, {sid for i in items + [data["person"]] + ([data["capedCrusader"]] if site == "tas" else []) for sid in i["sources"]})}</section>', "sources")
+        pages[f"{site}/gallery/index.html"] = shell(data, site, "图片资料", '<section class="section"><p class="label">IMAGE ARCHIVE</p><h1>图片资料</h1><p class="lead">游戏截图、动画画面与官方宣传图，按作品分别记录。</p><p class="fine">图片保留原始比例与来源；版权归原权利人。当前收录素材不代表完整图库。</p>' + image_gallery(site) + '</section>', "gallery")
         pages[f"{site}/search/index.html"] = shell(data, site, "搜索档案", f'<section class="section"><p class="label">SEARCH / {esc(info["english"])}</p><h1>寻找一段故事。</h1><form id="search-form" class="search-form"><label for="query">集名、作品名、人物或主题</label><div><input id="query" name="q" type="search" placeholder="试试：康罗伊、稻草人、Nothing to Fear"><button class="button">搜索</button></div><label for="scope">检索范围</label><select id="scope"><option value="{site}">当前专题＋共同人物</option><option value="all">两个专题＋共同人物</option></select></form><p id="search-count" role="status"></p><div id="search-results" class="grid routes"></div></section>', "search")
         for item in items:
             if item["status"] == "详情样板":
@@ -194,9 +213,14 @@ def build(data=None):
     (DIST / "assets").mkdir(exist_ok=True)
     for filename in ("style.css", "app.js", "arkham-city-background.jpg"):
         shutil.copyfile(ROOT / filename, DIST / "assets" / filename)
+    (DIST / "assets/media").mkdir(exist_ok=True)
+    media = json.loads((ROOT / "media.json").read_text())
+    for asset in media["assets"]:
+        shutil.copyfile(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
     (DIST / "content").mkdir(exist_ok=True)
+    shutil.copyfile(ROOT / "media.json", DIST / "content/media.json")
     (DIST / "content/archive.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-    index = [{"title": i["title"], "original": i["original"], "summary": i["summary"], "tags": i["tags"], "site": i["site"], "status": i["status"], "url": route(i)} for i in data["games"] + data["episodes"] + [data["capedCrusader"]]]
+    index = [{"title": i["title"], "original": i["original"], "summary": i["summary"], "tags": i["tags"], "site": i["site"], "status": i["status"], "url": route(i)} for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] + [data["capedCrusader"]]]
     index.append({"title": data["person"]["title"], "original": data["person"]["original"], "summary": data["person"]["intro"], "tags": ["蝙蝠侠之声", "Kevin Conroy", "共同演员"], "site": "shared", "status": "共同档案样板", "url": "/people/kevin-conroy/"})
     (DIST / "content/search.json").write_text(json.dumps(index, ensure_ascii=False))
     print(f"Built {len(pages)} pages, {len(index)} searchable records")

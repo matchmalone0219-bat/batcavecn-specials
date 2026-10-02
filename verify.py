@@ -1,5 +1,7 @@
 """Focused content and internal-link checks for generated static pages."""
 import json
+import hashlib
+from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from build import CONTENT, DIST, build, validate
@@ -42,12 +44,16 @@ for path, page in parsed.items():
             assert url.scheme == "https", link
             continue
         target = unquote(url.path) or path
+        if target.startswith("/assets/media/"):
+            assert (DIST / target.lstrip("/")).is_file(), link
+            links += 1
+            continue
         assert target in parsed, f"Missing page: {target}"
         if url.fragment:
             assert unquote(url.fragment) in parsed[target].ids, f"Missing anchor: {link}"
         links += 1
 search = json.loads((DIST / "content/search.json").read_text())
-assert len(search) == len(data["games"]) + len(data["episodes"]) + 2
+assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2
 assert len(data["episodes"]) == 85
 assert sorted(int(item["guideNumber"]) for item in data["episodes"]) == list(range(1, 86))
 assert all(item["productionCode"] == "" and item["mediaOrder"] == "" for item in data["episodes"])
@@ -68,3 +74,20 @@ assert len(caped["episodes"]) == 10
 assert caped["actor"] == "Hamish Linklater" and not caped["actorLink"]
 assert any(i["url"] == "/tas/series/caped-crusader/" for i in search)
 assert "caped-crusader" not in {i["id"] for i in data["episodes"]}
+
+assert len(data["tnbaEpisodes"]) == 24
+assert sum(e["status"] == "详情样板" for e in data["episodes"]) == 11
+assert len(data["capedCrusader"]["season2Episodes"]) == 10
+for e in data["episodes"]:
+    for other in e.get("related", []):
+        partner = next(p for p in data["episodes"] if p["id"] == other)
+        assert e["id"] in partner["related"]
+media = json.loads((CONTENT.parent / "media.json").read_text())
+assert len(media["assets"]) == 24
+assert len({a["sha256"] for a in media["assets"]}) == 24
+for a in media["assets"]:
+    assert a["width"] >= 800 and a["height"] >= 400
+    assert a["imageUrl"].startswith("https://") and a["sourcePage"].startswith("https://")
+    assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
+    assert (DIST / "assets/media" / a["file"]).is_file()
+print("PASS: 24 sourced original images; TNBA separate; paired episode links reciprocal")

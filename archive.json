@@ -222,6 +222,134 @@
       "type": "平台节目单",
       "scope": "第一季10集英文原名和显示顺序；第7集页面日期与其他集不同，未采作统一首播依据。",
       "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-heart-of-ice",
+      "title": "The World’s Finest · 冰之心",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-beware-the-gray-ghost",
+      "title": "The World’s Finest · 小心灰色幽灵",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/bewarethegrayghost/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-joker-s-favor",
+      "title": "The World’s Finest · 小丑的人情",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-almost-got-im",
+      "title": "The World’s Finest · 差一点就抓到他",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/almostgotim/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-two-face-part-1",
+      "title": "The World’s Finest · 双面人·上篇",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep1/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-two-face-part-2",
+      "title": "The World’s Finest · 双面人·下篇",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep2/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-robin-s-reckoning-part-1",
+      "title": "The World’s Finest · 罗宾的清算·上篇",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp1/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-robin-s-reckoning-part-2",
+      "title": "The World’s Finest · 罗宾的清算·下篇",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp2/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧／导演／音乐／动画与部分配音署名；辅助指南编号与完整制作代码分开，待片尾交叉核查。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-tnba-guide",
+      "title": "The World’s Finest · TNBA 24集指南",
+      "url": "https://dcanimated.com/tnba/tnba-guides/tnba-guides-episode-guide-01-26/",
+      "type": "分集索引辅助来源",
+      "scope": "正文24条英文名、辅助指南编号、来源所载日期；网址／标题中的01–26不作为集数。电影与跨作客串另编。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "prime-caped-s2",
+      "title": "Prime Video · 披风斗士第二季节目单",
+      "url": "https://www.primevideo.com/detail/0M8A366P4I025R61REB4E3FVRE",
+      "type": "平台节目单",
+      "scope": "第二季10集英文原名及平台顺序；页面日期与Amazon公告相差一天，暂不填逐集首播日。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-origins",
+      "title": "Steam · Arkham Origins",
+      "url": "https://store.steampowered.com/app/209000/",
+      "type": "发行商商店",
+      "scope": "发行商公开商店与公开资料接口：截图、DLC目录；商店日期为对应PC商品，不代填各地区首发。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-knight",
+      "title": "Steam · Arkham Knight",
+      "url": "https://store.steampowered.com/app/208650/",
+      "type": "发行商商店",
+      "scope": "发行商公开商店与公开资料接口：截图、DLC目录；商店日期为对应PC商品，不代填各地区首发。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-dlc-277830",
+      "title": "Batman™: Arkham Origins - Cold, Cold Heart",
+      "url": "https://store.steampowered.com/app/277830/",
+      "type": "发行商商店",
+      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-dlc-313100",
+      "title": "Batman™: Arkham Knight - Harley Quinn Story Pack",
+      "url": "https://store.steampowered.com/app/313100/",
+      "type": "发行商商店",
+      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-dlc-313101",
+      "title": "Batman™: Arkham Knight - Red Hood Story Pack",
+      "url": "https://store.steampowered.com/app/313101/",
+      "type": "发行商商店",
+      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-dlc-350171",
+      "title": "Batman™: Arkham Knight - Prototype Batmobile Skin",
+      "url": "https://store.steampowered.com/app/350171/",
+      "type": "发行商商店",
+      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "checked": "2026-10-02"
     }
   ],
   "games": [
@@ -362,13 +490,20 @@
           "id": "versions",
           "title": "原作与扩展分别编目",
           "body": "本页记录2013年的主游戏与DC所列PS3、Xbox 360、PC及Wii U平台。《Blackgate》、剧情DLC与不同平台版本后续分别建档；在取得对应发行记录前，不把它们混入主游戏日期或主创字段。"
+        },
+        {
+          "id": "dlc",
+          "title": "扩展故事与服务状态",
+          "body": "Cold, Cold Heart是《起源》的故事扩展，围绕急冻人与GothCorp事件展开。它与独立的Blackgate作品分开记录。\nSteam公开说明：本作在线服务于2016年12月4日退役，单人战役仍可离线游玩。此记录不代表其他平台所有功能的现状。"
         }
       ],
       "spoiler": "剧情任务与结局解析待整理。",
       "gaps": "完整片尾、各版本发行差异、DLC及Blackgate关联待补；已确认蝙蝠侠与小丑的英语演员，未声称完整配音名单。",
       "sources": [
         "dc-origins",
-        "rcs-origins-interview"
+        "rcs-origins-interview",
+        "steam-origins",
+        "steam-dlc-277830"
       ]
     },
     {
@@ -408,13 +543,22 @@
           "id": "versions",
           "title": "原作与合集的范围",
           "body": "本页记录2015年6月23日及DC所列PS4、Xbox One与PC平台。Rocksteady三部曲合集与本站首批四部核心游戏的范围不同：《起源》属于核心建档名单，但不因此被算进Rocksteady三部曲。DLC、移植与合集各自的日期仍须独立核查。"
+        },
+        {
+          "id": "dlc",
+          "title": "DLC的不同类型",
+          "body": "本轮核对Harley Quinn Story Pack与Red Hood Story Pack两份角色故事包，分别以哈莉与红头罩为可玩角色。Prototype Batmobile Skin属于车辆外观内容，另列为皮肤。\n故事包、皮肤和赛道不能笼统合并为新增剧情；完整DLC列表仍待逐项核对。"
         }
       ],
       "spoiler": "涉及阿卡姆骑士身份与结局的分析尚未入库。资料来源中的三部曲评论本身含剧透，打开前请留意。",
       "gaps": "完整演职员、剧情DLC、首发平台差异及移植资料待补；当前只完成基本玩法、声音与版本边界。",
       "sources": [
         "dc-knight",
-        "dc-trilogy"
+        "dc-trilogy",
+        "steam-knight",
+        "steam-dlc-313100",
+        "steam-dlc-313101",
+        "steam-dlc-350171"
       ]
     }
   ],
@@ -844,33 +988,55 @@
       "id": "two-face-part-1",
       "site": "tas",
       "series": "BTAS",
-      "title": "Two-Face: Part 1",
+      "title": "双面人·上篇",
       "original": "Two-Face: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "010",
       "productionCode": "",
       "airDate": "1992-09-25",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 010 · 来源所载日期 1992-09-25；单集内容与片尾待补。",
+      "writer": "Story：Alan Burnett；Teleplay：Randy Rogel",
+      "director": "Kevin Altieri",
+      "animation": "Tokyo Movie Shinsha Co., LTD.",
+      "music": "Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Richard Moll — Harvey Dent / Two-Face；Murphy Cross — Grace；John Vernon — Rupert Thorne",
+      "status": "详情样板",
+      "summary": "哈维·丹特面对私人秘密与外部威胁，布鲁斯的朋友逐渐走向危机。",
       "tags": [
         "BTAS",
-        "Two-Face: Part 1"
+        "双面人·上篇",
+        "Kevin Conroy",
+        "朋友与公众人物"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "朋友与公众人物",
+          "body": "作为双集故事的开端，本页从哈维的公共身份与私人生活进入；后篇接续同一条人物线。本站导读不在目录简介中展开转折结局。"
+        },
+        {
+          "id": "craft",
+          "title": "编剧署名分开",
+          "body": "本篇Story与Teleplay分别署名Alan Burnett和Randy Rogel。故事与成稿不是同一个署名字段，后篇也需单独核查。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide"
+        "wf-guide",
+        "wf-two-face-part-1"
+      ],
+      "related": [
+        "two-face-part-2"
       ]
     },
     {
@@ -976,33 +1142,52 @@
       "id": "heart-of-ice",
       "site": "tas",
       "series": "BTAS",
-      "title": "Heart of Ice",
+      "title": "冰之心",
       "original": "Heart of Ice",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "014",
       "productionCode": "",
       "airDate": "1992-09-07",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 014 · 来源所载日期 1992-09-07；单集内容与片尾待补。",
+      "writer": "Paul Dini",
+      "director": "Bruce W. Timm",
+      "animation": "Spectrum Animation Studio",
+      "music": "作曲：Todd Hayen；配乐监制：Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Michael Ansara — Mr. Freeze / Victor Fries；Mark Hamill — Ferris Boyle",
+      "status": "详情样板",
+      "summary": "哥谭企业遭遇一连串设备失窃，蝙蝠侠追查急冻人的行动。",
       "tags": [
         "BTAS",
-        "Heart of Ice"
+        "冰之心",
+        "Kevin Conroy",
+        "悲剧反派"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "悲剧反派",
+          "body": "从一桩调查进入急冻人的故事，可以留意危险与同情如何同时落在同一个人物身上。这里的观看问题是：理解一个人的伤痛，是否也意味着认同他的行动？"
+        },
+        {
+          "id": "craft",
+          "title": "冷与暖的画面",
+          "body": "本站策展提示：观看时观察冷色、玻璃和人物之间的距离，再将画面与声音对照；具体镜头分析待逐帧核对。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide"
+        "wf-guide",
+        "wf-heart-of-ice"
       ]
     },
     {
@@ -1075,66 +1260,107 @@
       "id": "two-face-part-2",
       "site": "tas",
       "series": "BTAS",
-      "title": "Two-Face: Part 2",
+      "title": "双面人·下篇",
       "original": "Two-Face: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "017",
       "productionCode": "",
       "airDate": "1992-09-28",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 017 · 来源所载日期 1992-09-28；单集内容与片尾待补。",
+      "writer": "Randy Rogel",
+      "director": "Kevin Altieri",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "music": "Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Richard Moll — Two-Face；Murphy Cross — Grace；John Vernon — Rupert Thorne",
+      "status": "详情样板",
+      "summary": "哈维与索恩之间的冲突继续，蝙蝠侠试图找到并保护旧友。",
       "tags": [
         "BTAS",
-        "Two-Face: Part 2"
+        "双面人·下篇",
+        "Kevin Conroy",
+        "接着上篇阅读"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "接着上篇阅读",
+          "body": "这是一份人物关系延续的档案，适合与上篇连读。关注蝙蝠侠面对敌对行动时，是否仍能看见过去的朋友。"
+        },
+        {
+          "id": "craft",
+          "title": "两篇制作差异",
+          "body": "两篇导演与配乐署名相同，动画制作公司不同：上篇Tokyo Movie Shinsha，后篇Dong Yang。双集关系不意味着所有制作人员完全一致。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide"
+        "wf-guide",
+        "wf-two-face-part-2"
+      ],
+      "related": [
+        "two-face-part-1"
       ]
     },
     {
       "id": "beware-the-gray-ghost",
       "site": "tas",
       "series": "BTAS",
-      "title": "Beware the Gray Ghost",
+      "title": "小心灰色幽灵",
       "original": "Beware the Gray Ghost",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "018",
       "productionCode": "",
       "airDate": "1992-11-04",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 018 · 来源所载日期 1992-11-04；单集内容与片尾待补。",
+      "writer": "Story：D. O’Flaherty / T. Ruegger；Teleplay：G. Wolf / T. Ruegger",
+      "director": "B. Kirkland",
+      "animation": "Spectrum Animation Studio",
+      "music": "Carl Johnson；配乐监制：Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Adam West — Gray Ghost / Simon Trent；Bruce W. Timm — Ted Dymer",
+      "status": "详情样板",
+      "summary": "一串案件把蝙蝠侠带回童年看过的电视英雄，也带向扮演英雄的演员。",
       "tags": [
         "BTAS",
-        "Beware the Gray Ghost"
+        "小心灰色幽灵",
+        "Kevin Conroy",
+        "英雄也有自己的英雄"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "英雄也有自己的英雄",
+          "body": "本集适合放在演员与角色的阅读路线中：Kevin Conroy与Adam West在同一份配音名单出现，连接了不同的蝙蝠侠表演历史。"
+        },
+        {
+          "id": "craft",
+          "title": "银幕记忆",
+          "body": "本站策展提示：将电视里的英雄形象与演员的日常生活并置阅读，观察布鲁斯如何面对童年记忆与现实人物之间的距离。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide"
+        "wf-guide",
+        "wf-beware-the-gray-ghost"
       ]
     },
     {
@@ -1240,33 +1466,52 @@
       "id": "joker-s-favor",
       "site": "tas",
       "series": "BTAS",
-      "title": "Joker's Favor",
+      "title": "小丑的人情",
       "original": "Joker's Favor",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "022",
       "productionCode": "",
       "airDate": "1992-09-11",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 022 · 来源所载日期 1992-09-11；单集内容与片尾待补。",
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "animation": "Dong Yang Animation Co., LTD.；Layout：NOA Animation",
+      "music": "Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Ed Begley Jr. — Charlie Collins；Mark Hamill — Joker；Arleen Sorkin — Harley Quinn",
+      "status": "详情样板",
+      "summary": "普通市民与小丑的一次偶遇，变成无法轻易摆脱的承诺。",
       "tags": [
         "BTAS",
-        "Joker's Favor"
+        "小丑的人情",
+        "Kevin Conroy",
+        "从普通人看哥谭"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "从普通人看哥谭",
+          "body": "本集以Charlie Collins作为进入危险的起点。本站阅读提示：关注普通人的生活尺度，如何与小丑制造的失序发生碰撞。"
+        },
+        {
+          "id": "craft",
+          "title": "人物与声音",
+          "body": "Charlie、小丑与Harley Quinn分别由Ed Begley Jr.、Mark Hamill和Arleen Sorkin配音。可沿声音阅读不同角色如何占据同一个场景；这里只登记已查到的角色署名。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide"
+        "wf-guide",
+        "wf-joker-s-favor"
       ]
     },
     {
@@ -1537,33 +1782,55 @@
       "id": "robin-s-reckoning-part-1",
       "site": "tas",
       "series": "BTAS",
-      "title": "Robin's Reckoning: Part 1",
+      "title": "罗宾的清算·上篇",
       "original": "Robin's Reckoning: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1993",
       "guideNumber": "032",
       "productionCode": "",
       "airDate": "1993-02-07",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 032 · 来源所载日期 1993-02-07；单集内容与片尾待补。",
+      "writer": "Randy Rogel",
+      "director": "Dick Sebast",
+      "animation": "Spectrum Animation Studio",
+      "music": "Carlos Rodriguez",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Loren Lester — Robin；Joey Simmrin — young Robin；Thomas Wilson — Zucco",
+      "status": "详情样板",
+      "summary": "一次调查触及迪克的过去，蝙蝠侠与罗宾对继续追查产生分歧。",
       "tags": [
         "BTAS",
-        "Robin's Reckoning: Part 1"
+        "罗宾的清算·上篇",
+        "Kevin Conroy",
+        "过去与现在"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "过去与现在",
+          "body": "本篇让人物的过去进入当下的调查。本站策展问题：面对相似的失去，布鲁斯如何既成为搭档，也承担保护者的角色？"
+        },
+        {
+          "id": "craft",
+          "title": "声音路线",
+          "body": "成年罗宾与年幼角色分别有演员署名；不把同一人物的不同年龄表演合并为一个配音条目。后篇继续记录自己的演员与配乐。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide-31-60"
+        "wf-guide-31-60",
+        "wf-robin-s-reckoning-part-1"
+      ],
+      "related": [
+        "robin-s-reckoning-part-2"
       ]
     },
     {
@@ -1702,33 +1969,55 @@
       "id": "robin-s-reckoning-part-2",
       "site": "tas",
       "series": "BTAS",
-      "title": "Robin's Reckoning: Part 2",
+      "title": "罗宾的清算·下篇",
       "original": "Robin's Reckoning: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1993",
       "guideNumber": "037",
       "productionCode": "",
       "airDate": "1993-02-14",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 037 · 来源所载日期 1993-02-14；单集内容与片尾待补。",
+      "writer": "Randy Rogel",
+      "director": "Dick Sebast",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "music": "Peter Tomashek",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Loren Lester — Robin；Joey Simmrin — young Dick Grayson；Thomas Wilson — Zucco",
+      "status": "详情样板",
+      "summary": "罗宾继续追查祖科，搭档之间的分歧与关切来到新的关口。",
       "tags": [
         "BTAS",
-        "Robin's Reckoning: Part 2"
+        "罗宾的清算·下篇",
+        "Kevin Conroy",
+        "搭档之间"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "搭档之间",
+          "body": "接续上篇时，可以把调查线与搭档关系分开观察：目标相近的人，也可能以不同方式理解保护与信任。此处为本站观看提示。"
+        },
+        {
+          "id": "craft",
+          "title": "双集声音差异",
+          "body": "本篇配乐署名Peter Tomashek，与上篇Carlos Rodriguez不同；动画公司也由Spectrum换为Dong Yang。来源对幼年迪克年龄的标注有差异，本页不填写年龄。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide-31-60"
+        "wf-guide-31-60",
+        "wf-robin-s-reckoning-part-2"
+      ],
+      "related": [
+        "robin-s-reckoning-part-1"
       ]
     },
     {
@@ -1999,33 +2288,52 @@
       "id": "almost-got-im",
       "site": "tas",
       "series": "BTAS",
-      "title": "Almost Got 'Im",
+      "title": "差一点就抓到他",
       "original": "Almost Got 'Im",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "本站暂译",
       "year": "1992",
       "guideNumber": "046",
       "productionCode": "",
       "airDate": "1992-11-10",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "",
-      "director": "",
-      "animation": "",
-      "music": "",
-      "actor": "",
-      "actorLink": "",
-      "guests": "",
-      "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 046 · 来源所载日期 1992-11-10；单集内容与片尾待补。",
+      "writer": "Paul Dini",
+      "director": "Eric Radomski",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "music": "Stuart V. Balcomb",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Mark Hamill — Joker；Paul Williams — Penguin；Richard Moll — Two-Face；Diane Pershing — Poison Ivy；Aron Kincaid — Killer Croc",
+      "status": "详情样板",
+      "summary": "反派们在牌桌旁回忆自己差一点击败蝙蝠侠的经历。",
       "tags": [
         "BTAS",
-        "Almost Got 'Im"
+        "差一点就抓到他",
+        "Kevin Conroy",
+        "一张牌桌，多种叙述"
       ],
-      "sections": [],
-      "spoiler": "",
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "一张牌桌，多种叙述",
+          "body": "这集适合放入叙事形式的专题：相同对手在不同讲述者口中，呈现不同的面貌。本站观看提示是比较讲述者希望别人怎样理解自己。"
+        },
+        {
+          "id": "craft",
+          "title": "群像与节奏",
+          "body": "角色署名提供了一条群像配音路线。留意对话交接、停顿和各段故事的转换，不把本集当成从旧集拼接而来的目录。"
+        },
+        {
+          "id": "records",
+          "title": "档案口径",
+          "body": "英文原名、辅助指南编号与来源所载日期沿用目录；本轮补充署名和原创观看提示。原始制作代码、播出地区与影音目录序号保留待核。"
+        }
+      ],
+      "spoiler": "完整剧情分析待逐镜头核对；本轮导读不披露结局。",
       "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
       "sources": [
-        "wf-guide-31-60"
+        "wf-guide-31-60",
+        "wf-almost-got-im"
       ]
     },
     {
@@ -3353,7 +3661,8 @@
       "dc-caped-intro",
       "dc-caped-generation",
       "amazon-caped",
-      "prime-caped-s1"
+      "prime-caped-s1",
+      "prime-caped-s2"
     ],
     "sections": [
       {
@@ -3374,7 +3683,7 @@
       {
         "id": "seasons",
         "title": "季数与编目口径",
-        "body": "第一季共10集，下方按Prime Video节目单顺序登记英文原名。中文分集名、逐集片尾署名与深度导读暂未入库。\n截至2026年10月2日，Amazon官方更新称第二季10集已在Prime Video上线；本页仅登记这一系列状态，第二季分集目录待另行核对。平台页面的个别日期存在差异，不逐集推算首播日期。"
+        "body": "两季各10集，下方分别按Prime Video节目单显示顺序登记英文原名。中文分集名、逐集片尾署名与深度导读待核。\n官方报道与平台页面的日期显示存在差异，本页不逐集推算首播日期。系列美术宣传图和第二季宣传图分别标明，图片不冒充具体分集画面。"
       }
     ],
     "episodes": [
@@ -3419,6 +3728,842 @@
         "original": "Savage Night"
       }
     ],
-    "gaps": "当前为系列概览和第一季英文节目单；第二季分集、中文译名、完整片尾与逐集深度内容待补。TAS比较评论由本站另撰，不复制官方剧情梗概。"
-  }
+    "gaps": "两季20集英文节目单已登记；中文译名、完整片尾与逐集深度内容待补。",
+    "season2Episodes": [
+      {
+        "number": 1,
+        "original": "Brute Force"
+      },
+      {
+        "number": 2,
+        "original": "Rocket’s Red Glare"
+      },
+      {
+        "number": 3,
+        "original": "Deep Cover"
+      },
+      {
+        "number": 4,
+        "original": "The Devil’s Due"
+      },
+      {
+        "number": 5,
+        "original": "The Spectral Hand"
+      },
+      {
+        "number": 6,
+        "original": "Sudden Fear"
+      },
+      {
+        "number": 7,
+        "original": "Her Dark Reflection"
+      },
+      {
+        "number": 8,
+        "original": "Zero Hour"
+      },
+      {
+        "number": 9,
+        "original": "Dead Before Dawn"
+      },
+      {
+        "number": 10,
+        "original": "The Laughing Death"
+      }
+    ]
+  },
+  "tnbaEpisodes": [
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-holiday-knights",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Holiday Knights",
+      "original": "Holiday Knights",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "001",
+      "airDate": "1997-09-13",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 001；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Holiday Knights"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-sins-of-the-father",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Sins of the Father",
+      "original": "Sins of the Father",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "002",
+      "airDate": "1997-09-20",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 002；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Sins of the Father"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-cold-comfort",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Cold Comfort",
+      "original": "Cold Comfort",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "003",
+      "airDate": "1997-10-11",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 003；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Cold Comfort"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-double-talk",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Double Talk",
+      "original": "Double Talk",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "004",
+      "airDate": "1997-11-22",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 004；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Double Talk"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-you-scratch-my-back",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "You Scratch My Back",
+      "original": "You Scratch My Back",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "005",
+      "airDate": "1997-11-15",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 005；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "You Scratch My Back"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-never-fear",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Never Fear",
+      "original": "Never Fear",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1997",
+      "guideNumber": "006",
+      "airDate": "1997-11-01",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 006；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Never Fear"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-joker-s-millions",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Joker’s Millions",
+      "original": "Joker’s Millions",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "007",
+      "airDate": "1998-02-21",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 007；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Joker’s Millions"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-growing-pains",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Growing Pains",
+      "original": "Growing Pains",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "008",
+      "airDate": "1998-02-28",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 008；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Growing Pains"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-love-is-a-croc",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Love is a Croc",
+      "original": "Love is a Croc",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "009",
+      "airDate": "1998-07-11",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 009；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Love is a Croc"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-torch-song",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Torch Song",
+      "original": "Torch Song",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "010",
+      "airDate": "1998-06-13",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 010；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Torch Song"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-the-ultimate-thrill",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "The Ultimate Thrill",
+      "original": "The Ultimate Thrill",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "011",
+      "airDate": "1998-09-14",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 011；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "The Ultimate Thrill"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-over-the-edge",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Over the Edge",
+      "original": "Over the Edge",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "012",
+      "airDate": "1998-05-23",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 012；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Over the Edge"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-mean-seasons",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Mean Seasons",
+      "original": "Mean Seasons",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "013",
+      "airDate": "1998-04-25",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 013；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Mean Seasons"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-critters",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Critters",
+      "original": "Critters",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "014",
+      "airDate": "1998-09-19",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 014；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Critters"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-cult-of-the-cat",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Cult of the Cat",
+      "original": "Cult of the Cat",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "015",
+      "airDate": "1998-09-18",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 015；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Cult of the Cat"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-animal-act",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Animal Act",
+      "original": "Animal Act",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "016",
+      "airDate": "1998-09-26",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 016；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Animal Act"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-old-wounds",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Old Wounds",
+      "original": "Old Wounds",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "017",
+      "airDate": "1998-10-03",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 017；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Old Wounds"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-the-demon-within",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "The Demon Within",
+      "original": "The Demon Within",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "018",
+      "airDate": "1998-05-09",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 018；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "The Demon Within"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-legends-of-the-dark-knight",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Legends of the Dark Knight",
+      "original": "Legends of the Dark Knight",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "019",
+      "airDate": "1998-10-10",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 019；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Legends of the Dark Knight"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-girls-nite-out",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Girls’ Nite Out",
+      "original": "Girls’ Nite Out",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "020",
+      "airDate": "1998-10-17",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 020；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Girls’ Nite Out"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-mad-love",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Mad Love",
+      "original": "Mad Love",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1999",
+      "guideNumber": "021",
+      "airDate": "1999-01-16",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 021；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Mad Love"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-chemistry",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Chemistry",
+      "original": "Chemistry",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "022",
+      "airDate": "1998-10-24",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 022；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Chemistry"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-beware-the-creeper",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Beware the Creeper",
+      "original": "Beware the Creeper",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "023",
+      "airDate": "1998-11-07",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 023；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Beware the Creeper"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    },
+    {
+      "productionCode": "",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "spoiler": "",
+      "id": "tnba-judgment-day",
+      "site": "tas",
+      "series": "TNBA",
+      "title": "Judgment Day",
+      "original": "Judgment Day",
+      "nameNote": "英文原名；中文译名待核",
+      "year": "1998",
+      "guideNumber": "024",
+      "airDate": "1998-10-31",
+      "status": "基础条目",
+      "summary": "TNBA基础目录 · 辅助指南 024；单集内容与片尾待补。",
+      "tags": [
+        "TNBA",
+        "Judgment Day"
+      ],
+      "sections": [],
+      "gaps": "完整制作代码、地区、影音序号、演职员与逐集导读待核。",
+      "sources": [
+        "wf-tnba-guide"
+      ]
+    }
+  ]
 }
