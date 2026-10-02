@@ -1,0 +1,3229 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-02",
+  "stage": "研究资料库；未完成全系列逐题游戏及漫画内页核对",
+  "sources": [
+    {
+      "id": "asylum-guide",
+      "title": "GamesRadar：Asylum分区攻略",
+      "url": "https://www.gamesradar.com/batman-arkham-asylum-riddler-guide/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "asylum-player",
+      "title": "GameFAQs：Asylum谜语人指南",
+      "url": "https://gamefaqs.gamespot.com/xbox360/952337-batman-arkham-asylum/faqs/57696",
+      "level": "玩家指南",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "asylum-sample",
+      "title": "BradyGames官方攻略公开样章，Doug Walsh，2009",
+      "url": "https://ptgmedia.pearsoncmg.com/images/9780744011111/samplepages/1111-1_batman.pdf",
+      "level": "出版社公开资料",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-index",
+      "title": "GamesRadar：City攻略目录",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-wiki",
+      "title": "Arkham Wiki：City扫描物检索",
+      "url": "https://arkhamcity.fandom.com/wiki/Batman:_Arkham_City_Riddles",
+      "level": "社区索引",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-stories",
+      "title": "Arkham Wiki：City Stories检索",
+      "url": "https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_City",
+      "level": "社区索引",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "origins-guide",
+      "title": "GamesRadar：Origins数据包指南",
+      "url": "https://www.gamesradar.com/batman-arkham-origins-enigma-data-pack-locations-guide/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-player",
+      "title": "Push Square：Knight扫描谜题指南",
+      "url": "https://www.pushsquare.com/news/2015/06/guide_how_to_solve_every_riddle_in_batman_arkham_knight_on_ps4",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-stories",
+      "title": "Prima：Knight Gotham City Stories前置表",
+      "url": "https://primagames.com/eguides/batman-arkham-knight-eguide/achievements-trophies-and-unlocks/gotham-city-stories",
+      "level": "出版社攻略公开表",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-living-hell",
+      "title": "DC：Living Hell豪华合集",
+      "url": "https://www.dc.com/graphic-novels/batman-arkham-asylum-living-hell-deluxe-edition",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-ratcatcher",
+      "title": "DCUI：Detective Comics #585",
+      "url": "https://www.dcuniverseinfinite.com/comics/book/detective-comics-1937-585/7e7e3761-a778-4225-b4f5-2a4cde9af092",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-robin",
+      "title": "DC：Robin 101",
+      "url": "https://www.dc.com/blog/2015/06/24/robin-101-one-name-many-heroes",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-calendar",
+      "title": "DC：Calendar Man",
+      "url": "https://www.dc.com/characters/calendar-man",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-oracle",
+      "title": "DC：Oracle身份揭晓书目",
+      "url": "https://www.dc.com/blog/2025/03/05/in-what-comic-did-barbara-gordon-officially-become-oracle",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-cataclysm",
+      "title": "DC：Surviving No Man’s Land",
+      "url": "https://www.dc.com/blog/2019/01/17/gotham-surviving-no-mans-land",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-scarface",
+      "title": "DCUI：Detective Comics #583",
+      "url": "https://www.dcuniverseinfinite.com/comics/book/detective-comics-1937-583/326bdbb6-9378-4ec8-af46-09f61ddf28b2",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-riddler",
+      "title": "DC：Riddler角色档案",
+      "url": "https://www.dc.com/characters/riddler",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-clayface",
+      "title": "DC：Clayface角色档案",
+      "url": "https://www.dc.com/characters/clayface",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-scarecrow",
+      "title": "DC：Scarecrow角色档案",
+      "url": "https://www.dc.com/characters/scarecrow",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-debuts",
+      "title": "DC：Detective Comics的八项贡献",
+      "url": "https://www.dc.com/blog/2019/03/28/eight-gifts-that-detective-comics-has-given-to-batman",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-freeze",
+      "title": "DC：Gotham Mr. Freeze与Heart of Ice背景",
+      "url": "https://www.dc.com/blog/2016/02/29/the-dctv-secrets-of-gotham-ep-2-12-mr-freeze",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-cult",
+      "title": "DC：Batman The Cult豪华合集",
+      "url": "https://www.dc.com/graphic-novels/batman-the-cult-the-deluxe-edition",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "aux-zeus",
+      "title": "DCU Guide：Maxie Zeus书目",
+      "url": "https://dcuguide.com/Maxie_Zeus",
+      "level": "非官方书目索引",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-park-row",
+      "title": "GamesRadar：City Park Row扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/4/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-bowery",
+      "title": "GamesRadar：City The Bowery扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/7/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-amusement-mile",
+      "title": "GamesRadar：City Amusement Mile扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/10/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-industrial",
+      "title": "GamesRadar：City Industrial District扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/13/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-subway",
+      "title": "GamesRadar：City Subway扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/16/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-steel-mill",
+      "title": "GamesRadar：City Steel Mill扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/19/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-museum",
+      "title": "GamesRadar：City Museum扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/22/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "city-wonder-city",
+      "title": "GamesRadar：City Wonder City扫描谜题",
+      "url": "https://www.gamesradar.com/batman-arkham-city-riddler-guide/24/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-bleake",
+      "title": "GamesRadar：Knight Bleake Island",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-miagani",
+      "title": "GamesRadar：Knight Miagani Island",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/2/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-founders",
+      "title": "GamesRadar：Knight Founders’ Island",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/3/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-hq",
+      "title": "GamesRadar：Knight Arkham Knight HQ",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/6/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-airships",
+      "title": "GamesRadar：Knight Stagg Airships",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/4/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-studios",
+      "title": "GamesRadar：Knight Panessa Studios",
+      "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/5/",
+      "level": "辅助攻略",
+      "checked": "2026-10-02"
+    }
+  ],
+  "cityRegions": [
+    {
+      "game": "city",
+      "region": "Park Row",
+      "source": "city-park-row",
+      "guideEntries": 14
+    },
+    {
+      "game": "city",
+      "region": "The Bowery",
+      "source": "city-bowery",
+      "guideEntries": 11
+    },
+    {
+      "game": "city",
+      "region": "Amusement Mile",
+      "source": "city-amusement-mile",
+      "guideEntries": 9
+    },
+    {
+      "game": "city",
+      "region": "Industrial District",
+      "source": "city-industrial",
+      "guideEntries": 9
+    },
+    {
+      "game": "city",
+      "region": "Subway",
+      "source": "city-subway",
+      "guideEntries": 5
+    },
+    {
+      "game": "city",
+      "region": "Steel Mill",
+      "source": "city-steel-mill",
+      "guideEntries": 7
+    },
+    {
+      "game": "city",
+      "region": "Museum",
+      "source": "city-museum",
+      "guideEntries": 8
+    },
+    {
+      "game": "city",
+      "region": "Wonder City",
+      "source": "city-wonder-city",
+      "guideEntries": 6
+    }
+  ],
+  "entries": [
+    {
+      "id": "asylum-great-white",
+      "game": "asylum",
+      "region": "Medical Facility / Morgue",
+      "type": "物件扫描",
+      "object": "大白鲨标本",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-ratcatcher",
+      "game": "asylum",
+      "region": "Botanical Gardens / Ventilation System",
+      "type": "物件扫描",
+      "object": "捕鼠人遗物",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-hatter",
+      "game": "asylum",
+      "region": "Botanical Gardens / Botanical Glasshouse",
+      "type": "物件扫描",
+      "object": "疯帽匠茶具",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-humpty",
+      "game": "asylum",
+      "region": "Botanical Gardens / Flooded Corridor",
+      "type": "物件扫描",
+      "object": "破碎玩具士兵",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-killer-moth",
+      "game": "asylum",
+      "region": "Botanical Gardens / Aviary",
+      "type": "物件扫描",
+      "object": "虫茧骸骨",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-hush",
+      "game": "asylum",
+      "region": "Medical Facility / Surgery Room",
+      "type": "物件扫描",
+      "object": "Elliot白板",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-firefly",
+      "game": "asylum",
+      "region": "Medical Facility / Patient Observation",
+      "type": "物件扫描",
+      "object": "Firefly剪报",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "asylum-wayne",
+      "game": "asylum",
+      "region": "Medical Facility / Medical Foyer",
+      "type": "物件扫描",
+      "object": "Wayne捐赠铭牌",
+      "sources": [
+        "asylum-guide",
+        "asylum-player"
+      ],
+      "verification": "样例定位；本轮未建立全作扫描目录",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-01",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "猫女公寓",
+      "sourceOrder": 1,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-02",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "沉降告示",
+      "sourceOrder": 2,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-03",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "Dent竞选处",
+      "sourceOrder": 3,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-04",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "爱丽丝书",
+      "sourceOrder": 4,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-05",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "Baudelaire店",
+      "sourceOrder": 5,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-06",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "TYGER库",
+      "sourceOrder": 6,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-07",
+      "game": "city",
+      "region": "Park Row",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 7,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-08",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "Strange招牌",
+      "sourceOrder": 8,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-09",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "The Terror海报",
+      "sourceOrder": 9,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-10",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "犯罪巷牌",
+      "sourceOrder": 10,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-11",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "Ace招牌",
+      "sourceOrder": 11,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-12",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "双枪法槌",
+      "sourceOrder": 12,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-13",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "日历人牢房",
+      "sourceOrder": 13,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-park-row-14",
+      "game": "city",
+      "region": "Park Row",
+      "type": "物件扫描",
+      "object": "Cash家庭照",
+      "sourceOrder": 14,
+      "sources": [
+        "city-park-row",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-01",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "Jezebel商场",
+      "sourceOrder": 1,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-02",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "Wayne通缉令",
+      "sourceOrder": 2,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-03",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "帽店",
+      "sourceOrder": 3,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-04",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "Maroni餐厅",
+      "sourceOrder": 4,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-05",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "道具店",
+      "sourceOrder": 5,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-06",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "Sharp竞选牌",
+      "sourceOrder": 6,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-07",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "行为分析室",
+      "sourceOrder": 7,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-08",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "建城铭牌",
+      "sourceOrder": 8,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-09",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 9,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-10",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "TYGER遗体",
+      "sourceOrder": 10,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-bowery-11",
+      "game": "city",
+      "region": "The Bowery",
+      "type": "物件扫描",
+      "object": "Wonder Tower",
+      "sourceOrder": 11,
+      "sources": [
+        "city-bowery",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-01",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 1,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-02",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "格雷森海报",
+      "sourceOrder": 2,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-03",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "Olympus楼",
+      "sourceOrder": 3,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-04",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "稻草人面具",
+      "sourceOrder": 4,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-05",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "Krank玩具",
+      "sourceOrder": 5,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-06",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "蝙蝠信号",
+      "sourceOrder": 6,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-07",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "Ivy容器",
+      "sourceOrder": 7,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-08",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "Arkham岛",
+      "sourceOrder": 8,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-amusement-mile-09",
+      "game": "city",
+      "region": "Amusement Mile",
+      "type": "物件扫描",
+      "object": "Gordon车位",
+      "sourceOrder": 9,
+      "sources": [
+        "city-amusement-mile",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-01",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "Falcone船",
+      "sourceOrder": 1,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-02",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "Freeze夫妇",
+      "sourceOrder": 2,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-03",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 3,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-04",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "报摊",
+      "sourceOrder": 4,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-05",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "Broker名片",
+      "sourceOrder": 5,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-06",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "灭鼠广告",
+      "sourceOrder": 6,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-07",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "Falcone仓储",
+      "sourceOrder": 7,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-08",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "电话亭遗体",
+      "sourceOrder": 8,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-industrial-09",
+      "game": "city",
+      "region": "Industrial District",
+      "type": "物件扫描",
+      "object": "黑面具墙",
+      "sourceOrder": 9,
+      "sources": [
+        "city-industrial",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-subway-01",
+      "game": "city",
+      "region": "Subway",
+      "type": "物件扫描",
+      "object": "Vale广告",
+      "sourceOrder": 1,
+      "sources": [
+        "city-subway",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-subway-02",
+      "game": "city",
+      "region": "Subway",
+      "type": "透视扫描",
+      "object": "镜像问号",
+      "sourceOrder": 2,
+      "sources": [
+        "city-subway",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-subway-03",
+      "game": "city",
+      "region": "Subway",
+      "type": "物件扫描",
+      "object": "Grundy画像",
+      "sourceOrder": 3,
+      "sources": [
+        "city-subway",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-subway-04",
+      "game": "city",
+      "region": "Subway",
+      "type": "物件扫描",
+      "object": "Santa Prisca广告",
+      "sourceOrder": 4,
+      "sources": [
+        "city-subway",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-subway-05",
+      "game": "city",
+      "region": "Subway",
+      "type": "物件扫描",
+      "object": "鳄鱼遗物",
+      "sourceOrder": 5,
+      "sources": [
+        "city-subway",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-01",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "Boyle海报",
+      "sourceOrder": 1,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-02",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 2,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-03",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "Harley锤",
+      "sourceOrder": 3,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-04",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "Quinzel文凭",
+      "sourceOrder": 4,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-05",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "双胞胎",
+      "sourceOrder": 5,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-06",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "Harley旧服",
+      "sourceOrder": 6,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-steel-mill-07",
+      "game": "city",
+      "region": "Steel Mill",
+      "type": "物件扫描",
+      "object": "Joker道具箱",
+      "sourceOrder": 7,
+      "sources": [
+        "city-steel-mill",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-01",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "Scarface",
+      "sourceOrder": 1,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-02",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "家族画像",
+      "sourceOrder": 2,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-03",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "鬣狗标本",
+      "sourceOrder": 3,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-04",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "双胞胎海报",
+      "sourceOrder": 4,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-05",
+      "game": "city",
+      "region": "Museum",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 5,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-06",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "雨伞",
+      "sourceOrder": 6,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-07",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "礼帽模型",
+      "sourceOrder": 7,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-museum-08",
+      "game": "city",
+      "region": "Museum",
+      "type": "物件扫描",
+      "object": "三骷髅",
+      "sourceOrder": 8,
+      "sources": [
+        "city-museum",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-01",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "物件扫描",
+      "object": "地球仪",
+      "sourceOrder": 1,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-02",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "物件扫描",
+      "object": "Times报牌",
+      "sourceOrder": 2,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-03",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "物件扫描",
+      "object": "Grundy通缉令",
+      "sourceOrder": 3,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-04",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "物件扫描",
+      "object": "Ra’s双雕像",
+      "sourceOrder": 4,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-05",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "物件扫描",
+      "object": "哥谭旧图",
+      "sourceOrder": 5,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-wonder-city-06",
+      "game": "city",
+      "region": "Wonder City",
+      "type": "透视扫描",
+      "object": "透视问号",
+      "sourceOrder": 6,
+      "sources": [
+        "city-wonder-city",
+        "city-wiki"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "city-church-intro",
+      "game": "city",
+      "region": "Park Row / Church",
+      "type": "任务开场谜题",
+      "object": "教堂管风琴",
+      "sourceOrder": null,
+      "sources": [
+        "city-wiki"
+      ],
+      "verification": "社区列为额外开场题，独立于GamesRadar的69项分区索引；不与奖杯总数相加",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-01",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "灯塔残骸",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Killer Croc",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-02",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "Deacon布道所",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Deacon Blackfire",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-03",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "Langstrom白板",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Man-Bat",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-04",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "远景疯人院",
+      "sourceOrder": {
+        "pushSquare": 4
+      },
+      "storyCandidate": "Oracle",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-05",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "化装舞会广告",
+      "sourceOrder": {
+        "pushSquare": 5
+      },
+      "storyCandidate": "The Joker",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-06",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "Batgirl战衣",
+      "sourceOrder": {
+        "pushSquare": 6
+      },
+      "storyCandidate": "Batgirl",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-07",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "哥谭女神像",
+      "sourceOrder": {
+        "pushSquare": 7
+      },
+      "storyCandidate": "Lady of Gotham",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-08",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "蝙蝠信号",
+      "sourceOrder": {
+        "pushSquare": 8
+      },
+      "storyCandidate": "Gordon",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-09",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "Ryder办公处",
+      "sourceOrder": {
+        "pushSquare": 9
+      },
+      "storyCandidate": "Jack Ryder",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-bleake-10",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "Cash桌面纪念物",
+      "sourceOrder": {
+        "pushSquare": 10
+      },
+      "storyCandidate": "Aaron Cash",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null,
+      "conflict": "GamesRadar写Arkham杯；Push Square写家庭照片。只登记桌面纪念物，待扫描提示核对。"
+    },
+    {
+      "id": "knight-bleake-11",
+      "game": "knight",
+      "region": "Bleake Island",
+      "type": "物件扫描",
+      "object": "雇佣兵照片",
+      "sourceOrder": {
+        "pushSquare": 11
+      },
+      "storyCandidate": "Deathstroke",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-bleake",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "Push Square与Prima均有条目；GamesRadar本次可读Bleake扫描段未见此项。",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-01",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Wonder Tower",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Arkham City",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-02",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Wayne家庭画像",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Martha and Thomas Wayne",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-03",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "猫女项圈",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Catwoman",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-04",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "谜语人头盔",
+      "sourceOrder": {
+        "pushSquare": 4
+      },
+      "storyCandidate": "Riddler",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-05",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Elliot医院",
+      "sourceOrder": {
+        "pushSquare": 5
+      },
+      "storyCandidate": "Hush",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-06",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Ivy新花",
+      "sourceOrder": {
+        "pushSquare": 6
+      },
+      "storyCandidate": "Poison Ivy",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-07",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Vale霓虹牌",
+      "sourceOrder": {
+        "pushSquare": 7
+      },
+      "storyCandidate": "Vicki Vale",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-08",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Hell’s Gate",
+      "sourceOrder": {
+        "pushSquare": 8
+      },
+      "storyCandidate": "Two-Face",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-09",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "Sharp竞选牌",
+      "sourceOrder": {
+        "pushSquare": 9
+      },
+      "storyCandidate": "Quincy Sharp",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-miagani-10",
+      "game": "knight",
+      "region": "Miagani Island",
+      "type": "物件扫描",
+      "object": "刺客海报",
+      "sourceOrder": {
+        "pushSquare": 10
+      },
+      "storyCandidate": "Ra’s",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-miagani",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-01",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "蝙蝠车",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Lucius Fox",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-02",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Bane遗物",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Bane",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null,
+      "conflict": "Push Square正文写Sionis集装箱；其读者更正与GamesRadar写Santa Prisca。保留冲突，优先回游戏核对。"
+    },
+    {
+      "id": "knight-founders-03",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Cobblepot宅",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Penguin",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-04",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "GothCorp牌",
+      "sourceOrder": {
+        "pushSquare": 4
+      },
+      "storyCandidate": "Mr. Freeze",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-05",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Pyg马戏海报",
+      "sourceOrder": {
+        "pushSquare": 5
+      },
+      "storyCandidate": "Professor Pyg",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-06",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "日历人桌",
+      "sourceOrder": {
+        "pushSquare": 6
+      },
+      "storyCandidate": "Calendar Man",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-07",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Grundy唱机",
+      "sourceOrder": {
+        "pushSquare": 7
+      },
+      "storyCandidate": "Solomon Grundy",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-08",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "垂钓姿势遗体",
+      "sourceOrder": {
+        "pushSquare": 8
+      },
+      "storyCandidate": "Zsasz",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-09",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Dumas墓",
+      "sourceOrder": {
+        "pushSquare": 9
+      },
+      "storyCandidate": "Azrael",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-founders-10",
+      "game": "knight",
+      "region": "Founders’ Island",
+      "type": "物件扫描",
+      "object": "Wayne庄园远景",
+      "sourceOrder": {
+        "pushSquare": 10
+      },
+      "storyCandidate": "Alfred",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-founders",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-hq-01",
+      "game": "knight",
+      "region": "Arkham Knight HQ",
+      "type": "物件扫描",
+      "object": "兔面具陈列",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Mad Hatter",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-hq",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-hq-02",
+      "game": "knight",
+      "region": "Arkham Knight HQ",
+      "type": "物件扫描",
+      "object": "恐惧研究物",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Scarecrow",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-hq",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-hq-03",
+      "game": "knight",
+      "region": "Arkham Knight HQ",
+      "type": "物件扫描",
+      "object": "复仇照片墙",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Jason Todd",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-hq",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-airships-01",
+      "game": "knight",
+      "region": "Stagg Airships",
+      "type": "物件扫描",
+      "object": "白化猴",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Simon Stagg",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-airships",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-airships-02",
+      "game": "knight",
+      "region": "Stagg Airships",
+      "type": "物件扫描",
+      "object": "冷藏广告",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Nightwing",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-airships",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-airships-03",
+      "game": "knight",
+      "region": "Stagg Airships",
+      "type": "物件扫描",
+      "object": "Ryder封面杂志",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Deadshot",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-airships",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-studios-01",
+      "game": "knight",
+      "region": "Panessa Studios",
+      "type": "物件扫描",
+      "object": "Robin折断长棍",
+      "sourceOrder": {
+        "pushSquare": 1
+      },
+      "storyCandidate": "Tim Drake",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-studios",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null,
+      "conflict": "Push Square描述隔离牢房；GamesRadar明确后期折断长棍。页面主物件暂按后者，需解锁提示确认。"
+    },
+    {
+      "id": "knight-studios-02",
+      "game": "knight",
+      "region": "Panessa Studios",
+      "type": "物件扫描",
+      "object": "Joker祭坛",
+      "sourceOrder": {
+        "pushSquare": 2
+      },
+      "storyCandidate": "Harley Quinn",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-studios",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "knight-studios-03",
+      "game": "knight",
+      "region": "Panessa Studios",
+      "type": "物件扫描",
+      "object": "Inferno海报",
+      "sourceOrder": {
+        "pushSquare": 3
+      },
+      "storyCandidate": "Firefly",
+      "storyVerification": "以目标含义与Prima公开表交叉匹配，待游戏解锁页截图；不按两家攻略号码直接拼表",
+      "sources": [
+        "knight-studios",
+        "knight-player",
+        "knight-stories"
+      ],
+      "verification": "攻略定位；未完成游戏逐题核对",
+      "riddleOriginal": null,
+      "comicPage": null
+    },
+    {
+      "id": "origins-file-01",
+      "game": "origins",
+      "region": "Park Row",
+      "type": "勒索档案组",
+      "file": 1,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-02",
+      "game": "origins",
+      "region": "Park Row",
+      "type": "勒索档案组",
+      "file": 2,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-03",
+      "game": "origins",
+      "region": "The Bowery",
+      "type": "勒索档案组",
+      "file": 3,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-04",
+      "game": "origins",
+      "region": "The Bowery",
+      "type": "勒索档案组",
+      "file": 4,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-05",
+      "game": "origins",
+      "region": "Amusement Mile",
+      "type": "勒索档案组",
+      "file": 5,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-06",
+      "game": "origins",
+      "region": "Amusement Mile",
+      "type": "勒索档案组",
+      "file": 6,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-07",
+      "game": "origins",
+      "region": "Amusement Mile",
+      "type": "勒索档案组",
+      "file": 7,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-08",
+      "game": "origins",
+      "region": "Industrial District / Sheldon Park",
+      "type": "勒索档案组",
+      "file": 8,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-09",
+      "game": "origins",
+      "region": "Industrial District / Sheldon Park",
+      "type": "勒索档案组",
+      "file": 9,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-10",
+      "game": "origins",
+      "region": "Industrial District / Sheldon Park",
+      "type": "勒索档案组",
+      "file": 10,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-11",
+      "game": "origins",
+      "region": "Pioneers’ Bridge",
+      "type": "勒索档案组",
+      "file": 11,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-12",
+      "game": "origins",
+      "region": "Pioneers’ Bridge",
+      "type": "勒索档案组",
+      "file": 12,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-13",
+      "game": "origins",
+      "region": "Coventry",
+      "type": "勒索档案组",
+      "file": 13,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-14",
+      "game": "origins",
+      "region": "Coventry",
+      "type": "勒索档案组",
+      "file": 14,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-15",
+      "game": "origins",
+      "region": "Diamond District",
+      "type": "勒索档案组",
+      "file": 15,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-16",
+      "game": "origins",
+      "region": "Diamond District",
+      "type": "勒索档案组",
+      "file": 16,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-17",
+      "game": "origins",
+      "region": "Diamond District",
+      "type": "勒索档案组",
+      "file": 17,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-18",
+      "game": "origins",
+      "region": "Burnley",
+      "type": "勒索档案组",
+      "file": 18,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-19",
+      "game": "origins",
+      "region": "Burnley",
+      "type": "勒索档案组",
+      "file": 19,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    },
+    {
+      "id": "origins-file-20",
+      "game": "origins",
+      "region": "Burnley",
+      "type": "勒索档案组",
+      "file": 20,
+      "packCountInGuide": 10,
+      "sources": [
+        "origins-guide"
+      ],
+      "verification": "已核对攻略20组目录；组内200包尚未逐一回游戏验证",
+      "audioTranscript": null
+    }
+  ],
+  "cases": [
+    {
+      "id": "great-white",
+      "title": "大白鲨：一只罐子怎样交代一个反派",
+      "entries": [
+        "asylum-great-white"
+      ],
+      "conclusion": "停尸房标本可定位到Great White Shark；官方Living Hell简介能支持Warren White与疯人院的故事背景。",
+      "researchQuestion": "逐页核对身体损伤与标本内容，区分游戏借用角色设定与复刻具体画格。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "asylum-guide",
+        "dc-living-hell"
+      ],
+      "images": [
+        "asylum-great-white-shark"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "ratcatcher",
+      "title": "捕鼠人：从装备到灭鼠广告",
+      "entries": [
+        "asylum-ratcatcher",
+        "city-industrial-06"
+      ],
+      "conclusion": "两作分别使用遗物和职业广告指向捕鼠人；#585官方条目可作漫画书目起点。",
+      "researchQuestion": "装备的具体式样、游戏内人物档案与广告是否相互承接；不能把出现广告写成角色存活证明。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "asylum-guide",
+        "city-industrial",
+        "dc-ratcatcher"
+      ],
+      "images": [
+        "asylum-ratcatcher"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "graysons",
+      "title": "格雷森海报：失去双亲的杂技演员",
+      "entries": [
+        "city-amusement-mile-02"
+      ],
+      "conclusion": "两个攻略均归Amusement Mile。DC官方文章把Flying Graysons与Dick起源、Detective Comics #38（1940）联系起来。",
+      "researchQuestion": "核海报细字、Haly’s／Grayson姓名与漫画起源画格；海报构图是否来源于具体出版物尚未证明。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-amusement-mile",
+        "dc-robin"
+      ],
+      "images": [
+        "city-flying-graysons",
+        "comic-robin-detective38"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "calendar",
+      "title": "日历人：牢房、日期与缺席",
+      "entries": [
+        "city-park-row-13",
+        "knight-founders-06"
+      ],
+      "conclusion": "City牢房和Knight桌面可组成角色环境线索；DC角色页列#259（1958）。",
+      "researchQuestion": "The Long Halloween只列候选对照读物，需证明对话或构图对应；节日彩蛋录制另成条目，不算每个节日一枚扫描谜题。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-park-row",
+        "knight-founders",
+        "dc-calendar"
+      ],
+      "images": [
+        "city-calendar-man"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "oracle",
+      "title": "Batgirl空战衣：身份转换与游戏改编",
+      "entries": [
+        "knight-bleake-06"
+      ],
+      "conclusion": "钟楼战衣提供Barbara的过去身份线索。DC官方考据区分The Killing Joke与Suicide Squad #38的Oracle身份揭晓。",
+      "researchQuestion": "核游戏解锁故事和受伤叙述；“战衣出现”不足以证明整段游戏情节逐格改编漫画。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "knight-bleake",
+        "knight-stories",
+        "dc-oracle"
+      ],
+      "images": [
+        "knight-batgirl"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "zeus",
+      "title": "Olympus：靠招牌和双关识别宙斯",
+      "entries": [
+        "city-amusement-mile-03"
+      ],
+      "conclusion": "建筑招牌可读Gotham City Olympus；Maxie Zeus初登场#483仍采用非官方书目线索。",
+      "researchQuestion": "比对建筑命名、角色档案及漫画内页；先完成角色辨认，再判定游戏是否引用某一集动画或漫画。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-amusement-mile",
+        "aux-zeus"
+      ],
+      "images": [
+        "city-olympus"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "subsidence",
+      "title": "地面沉降是否指向Cataclysm",
+      "entries": [
+        "city-park-row-02"
+      ],
+      "conclusion": "告示明确写Catastrophic Subsidence。DC官方文章能解释灾变与无人之地背景，但不能证明游戏借鉴意图。",
+      "researchQuestion": "优先找City Stories和开发者说明。没有直接证据时只并列比较城市受损主题。",
+      "evidenceGrade": "待证假说；不可作确定典故",
+      "sources": [
+        "city-park-row",
+        "dc-cataclysm"
+      ],
+      "images": [
+        "city-subsidence"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "scarface",
+      "title": "Scarface：谁是木偶，谁在控制",
+      "entries": [
+        "city-museum-01"
+      ],
+      "conclusion": "博物馆陈列物可作Scarface识别。DCUI明确#583为Scarface和Ventriloquist首次登场。",
+      "researchQuestion": "核陈列标签、游戏人物档案和漫画木偶形象；区别木偶与腹语者本人的身份。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-museum",
+        "dc-scarface"
+      ],
+      "images": [
+        "city-scarface"
+      ],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "clayface",
+      "title": "The Terror：电影海报与泥面身份",
+      "entries": [
+        "city-park-row-09"
+      ],
+      "conclusion": "游戏海报指向Basil Karlo的演艺身份；DC官方列Clayface初登场#40（1940）并提醒多位角色使用该名。",
+      "researchQuestion": "核#40原故事中的电影名称与杀人设定；不能把初代Karlo与后来的所有泥面能力混成同一段起源。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-park-row",
+        "dc-clayface"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "freeze",
+      "title": "Boyle、GothCorp与Nora：动画到游戏",
+      "entries": [
+        "city-steel-mill-01",
+        "city-industrial-02",
+        "knight-founders-04"
+      ],
+      "conclusion": "DC官方文章概述Heart of Ice中的GothCorp、Victor与Nora关系，可作为跨媒介对照入口。",
+      "researchQuestion": "分别核动画、City、Origins Cold Cold Heart和Knight解锁故事的公司／事故／婚姻设定。游戏不是动画同一连续性。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-steel-mill",
+        "city-industrial",
+        "knight-founders",
+        "dc-freeze"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "blackfire",
+      "title": "Deacon’s Mission与The Cult",
+      "entries": [
+        "knight-bleake-02"
+      ],
+      "conclusion": "游戏地点与Prima解锁标题指向Deacon Blackfire；官方The Cult合集可提供原作入口。",
+      "researchQuestion": "比较布道、收容与操控的叙事；实际改编细节需原作内页和游戏支线录像。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "knight-bleake",
+        "knight-stories",
+        "dc-cult"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "manbat",
+      "title": "Langstrom白板：研究目标与怪物结果",
+      "entries": [
+        "knight-bleake-03"
+      ],
+      "conclusion": "扫描物是实验室白板；官方DC文章确认Man-Bat首次登场Detective Comics #400。",
+      "researchQuestion": "比对失聪研究、药剂动机与漫画起源；不把游戏白板上的简图说成漫画原画。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "knight-bleake",
+        "dc-debuts"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "scarecrow",
+      "title": "面具、藏身处与恐惧研究",
+      "entries": [
+        "city-amusement-mile-04",
+        "knight-hq-02"
+      ],
+      "conclusion": "扫描目标可串联稻草人的环境痕迹；官方角色页列Jonathan Crane及World’s Finest #3（1941）。",
+      "researchQuestion": "分别保存角色设定、系列剧情与每作环境证据；DC当前角色简介不能自动代入阿卡姆宇宙的童年史。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-amusement-mile",
+        "knight-hq",
+        "dc-scarecrow"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "hatter",
+      "title": "茶具、爱丽丝书与兔面具",
+      "entries": [
+        "asylum-hatter",
+        "city-park-row-04",
+        "knight-hq-01"
+      ],
+      "conclusion": "三种物件适合比较爱丽丝意象；它们是扫描目标，不等于三个物件都复刻某一漫画画格。",
+      "researchQuestion": "先核Lewis Carroll原著的茶会／白兔意象，再核Jervis Tetch的游戏与漫画改编；#49初登场书目需进一步官方核对。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "asylum-guide",
+        "city-park-row",
+        "knight-hq"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "humpty",
+      "title": "Humpty Dumpty：破碎士兵与修复主题",
+      "entries": [
+        "asylum-humpty"
+      ],
+      "conclusion": "植物园破碎玩具可作角色识别线索；Living Hell可作为阅读范围。",
+      "researchQuestion": "游戏人物档案是否解释拆解与修复；核具体期号，不用角色名字直接推导整段故事。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "asylum-guide",
+        "dc-living-hell"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "arkham-distance",
+      "title": "隔海扫描旧作：系列自己的历史",
+      "entries": [
+        "knight-bleake-04",
+        "knight-miagani-01",
+        "city-amusement-mile-08"
+      ],
+      "conclusion": "远景目标是旧作地点，可讨论游戏系列空间连续性。",
+      "researchQuestion": "同一地点在不同地图的方向／尺度／轮廓怎样变化；不把游戏地图测量推作漫画城市的固定地理。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "knight-bleake",
+        "knight-miagani",
+        "city-amusement-mile"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "harley",
+      "title": "文凭、锤子、旧服和祭坛",
+      "entries": [
+        "city-steel-mill-03",
+        "city-steel-mill-04",
+        "city-steel-mill-06",
+        "knight-studios-02"
+      ],
+      "conclusion": "适合讨论职业身份、视觉造型与人物关系如何通过物件呈现。",
+      "researchQuestion": "可对读Mad Love，但要另核漫画、动画和游戏版本；旧服扫描优先作前作回顾，不能凭外观定为直接致敬动画。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-steel-mill",
+        "knight-studios"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "jason",
+      "title": "照片墙：复仇对象和身份叙事",
+      "entries": [
+        "knight-hq-03"
+      ],
+      "conclusion": "照片墙与Prima的Jason Todd解锁标题构成核对方向；为高剧透条目。",
+      "researchQuestion": "对读A Death in the Family与Under the Hood时区分死亡／生还机制；DC Robin回顾只证明漫画出版背景。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "knight-hq",
+        "knight-stories",
+        "dc-robin"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "hush",
+      "title": "Elliot白板与纪念医院",
+      "entries": [
+        "asylum-hush",
+        "knight-miagani-05"
+      ],
+      "conclusion": "游戏用姓名和机构呈现Thomas Elliot线索。",
+      "researchQuestion": "核人物档案、医院创办人和漫画Hush身份；医院名字不自动证明扫描物是他的本人肖像。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "asylum-guide",
+        "knight-miagani",
+        "knight-stories"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    },
+    {
+      "id": "grayson-tim",
+      "title": "Dick与Tim：不要把所有Robin物件混为一谈",
+      "entries": [
+        "city-amusement-mile-02",
+        "knight-studios-01"
+      ],
+      "conclusion": "格雷森海报和折断长棍是不同人物线索；Prima将长棍题列Tim Drake。",
+      "researchQuestion": "分别核游戏角色身份、武器与漫画起源。TAS中的Robin身份变化也应单独列，不合并为阿卡姆宇宙。",
+      "evidenceGrade": "角色或背景对应；具体改编关系待核",
+      "sources": [
+        "city-amusement-mile",
+        "knight-studios",
+        "knight-stories",
+        "dc-robin"
+      ],
+      "images": [],
+      "comicPagesVerified": false
+    }
+  ],
+  "mechanics": [
+    {
+      "id": "mechanic-01",
+      "name": "视角拼合",
+      "games": "Asylum / City",
+      "description": "拆开的问号必须在某一观察点合为整体。",
+      "captureRequirement": "相机位置、扫描构图与侦探模式分别记录。",
+      "sources": [
+        "asylum-guide",
+        "city-index"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-02",
+      "name": "镜面拼合",
+      "games": "City / Subway",
+      "description": "把空间物件与反射同时纳入观察。",
+      "captureRequirement": "保留镜面方向，不能把图片水平翻转后当有效视角。",
+      "sources": [
+        "city-subway"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-03",
+      "name": "时间窗",
+      "games": "City / Knight",
+      "description": "机关触发与抵达目标存在时间限制。",
+      "captureRequirement": "录像保存触发、路线、取得三段时间点，攻略秒数待实测。",
+      "sources": [
+        "city-index",
+        "knight-miagani"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-04",
+      "name": "踩板顺序",
+      "games": "City / Origins / Knight",
+      "description": "动作顺序影响机关状态。",
+      "captureRequirement": "记录能否落地、能否复踩和重置条件。",
+      "sources": [
+        "city-index",
+        "origins-guide",
+        "knight-miagani"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-05",
+      "name": "遥控蝙蝠镖",
+      "games": "Asylum / City / Knight",
+      "description": "投掷路线与开关、导电点相互结合。",
+      "captureRequirement": "入口、充电点、目标开关分图记录。",
+      "sources": [
+        "asylum-guide",
+        "city-index",
+        "knight-hq"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-06",
+      "name": "遥控电荷",
+      "games": "City / Knight",
+      "description": "机械的吸引／排斥或转动方向构成机关。",
+      "captureRequirement": "统一装备中英文名；平台按键另列。",
+      "sources": [
+        "city-index",
+        "knight-studios"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-07",
+      "name": "滑索与空中转向",
+      "games": "City / Knight",
+      "description": "在不落地或避开电地板的条件下移动。",
+      "captureRequirement": "明确所需升级与空中转向，不写成默认装备能力。",
+      "sources": [
+        "city-index",
+        "knight-studios"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-08",
+      "name": "声纹与机器人",
+      "games": "Knight",
+      "description": "机器人可以成为机关中的可操纵对象。",
+      "captureRequirement": "记录Voice Synthesizer与复活开关的顺序。",
+      "sources": [
+        "knight-miagani"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-09",
+      "name": "蝙蝠车绞盘",
+      "games": "Knight",
+      "description": "车与人分处空间，通过绞盘或遥控配合。",
+      "captureRequirement": "将机械操作与车辆通路分开取证。",
+      "sources": [
+        "knight-bleake",
+        "knight-miagani"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-10",
+      "name": "飞艇倾斜",
+      "games": "Knight / Stagg",
+      "description": "整座房间的姿态改变物体运动。",
+      "captureRequirement": "截图记录倾斜方向、箱体限制与房间状态。",
+      "sources": [
+        "knight-airships"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-11",
+      "name": "灯阵与状态切换",
+      "games": "Knight / Panessa",
+      "description": "触发一个开关会改变其他开关。",
+      "captureRequirement": "保留初始状态；解法不是适用于全部灯阵的通用口诀。",
+      "sources": [
+        "knight-studios"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    },
+    {
+      "id": "mechanic-12",
+      "name": "升级与回访门槛",
+      "games": "全系列",
+      "description": "目标可能可见但暂时不可取得。",
+      "captureRequirement": "分清剧情进度、装备、升级、角色与返回路线。",
+      "sources": [
+        "asylum-sample",
+        "origins-guide",
+        "knight-bleake"
+      ],
+      "verification": "研究分类；非逐题完整解法"
+    }
+  ],
+  "images": [
+    {
+      "id": "asylum-great-white-shark",
+      "file": "riddler-asylum-great-white-shark.jpg",
+      "caption": "大白鲨标本：停尸房罐子",
+      "source": "asylum-guide",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/b483fc29347118423f195208a4cd9574.jpg",
+      "width": 418,
+      "height": 235,
+      "sha256": "60a9ce89d2e1bcdf2f0370e098eccc7d3c8a674db17a5505997b0ddeb13e1380",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "asylum-ratcatcher",
+      "file": "riddler-asylum-ratcatcher.jpg",
+      "caption": "捕鼠人遗物：通风道下方",
+      "source": "asylum-guide",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/b55d5567c6d696d90854f094b33d989f.jpg",
+      "width": 418,
+      "height": 235,
+      "sha256": "4304e3c0d3b8d904a65919d17f610a0389e212a89edadd67675c8e9c9c9b90a1",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "city-flying-graysons",
+      "file": "riddler-city-flying-graysons.jpg",
+      "caption": "Flying Graysons海报；文字需更高清特写",
+      "source": "city-amusement-mile",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/e6640f64268b2a9026cbba0822896227.jpg",
+      "width": 619,
+      "height": 345,
+      "sha256": "038b0d4701c44c5a22cc18c20dfd25882de55aefef0b2967c89304488d6e3905",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "city-calendar-man",
+      "file": "riddler-city-calendar-man.jpg",
+      "caption": "日历人牢房；未截扫描成功界面",
+      "source": "city-park-row",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/ab434a5e2c02771de89c1d55ca3c3d36.jpg",
+      "width": 620,
+      "height": 341,
+      "sha256": "4e6ddce4e0edbaf4c79f02389b2ac078b2e4749392fda7d60b288acddcb79de9",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "city-olympus",
+      "file": "riddler-city-olympus.jpg",
+      "caption": "Gotham City Olympus建筑招牌",
+      "source": "city-amusement-mile",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/1a704b750cf2a1a8f1501230e1a49667.jpg",
+      "width": 619,
+      "height": 345,
+      "sha256": "42fac5f3fddd059e5edf1d0f351f09f03470c5a9639381c6ab4401112c0a0cae",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "city-subsidence",
+      "file": "riddler-city-subsidence.jpg",
+      "caption": "Catastrophic Subsidence现场告示",
+      "source": "city-park-row",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/bf3994dad2b65203d01bb126db6ac542.jpg",
+      "width": 619,
+      "height": 348,
+      "sha256": "9290370988ad74091a012d13cce37b65b36564de55ec47a67a510cc92fc91548",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "city-scarface",
+      "file": "riddler-city-scarface.jpg",
+      "caption": "博物馆Scarface陈列柜；需要标签特写",
+      "source": "city-museum",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/23e4c689c76d684b942c366ca837f20d.jpg",
+      "width": 619,
+      "height": 345,
+      "sha256": "f7a5b71aba6be43ab3d80e638792a60db521f843879ddaab7fc11e626a3c067e",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "knight-batgirl",
+      "file": "riddler-knight-batgirl.jpg",
+      "caption": "钟楼Batgirl战衣及装备说明",
+      "source": "knight-bleake",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/47b13319a7a84890dd6cbb6ccc792f07.jpg",
+      "width": 620,
+      "height": 350,
+      "sha256": "a8cb5cb09533ae426b1b4066d55eff21f830cd1367ea3ffc77155a26ad226875",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "origins-file01-pack01",
+      "file": "riddler-origins-file01-pack01.jpg",
+      "caption": "勒索档案1的第1包场景，非地图",
+      "source": "origins-guide",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/6d2cedfa4830dc29025397a00b054029.jpg",
+      "width": 620,
+      "height": 350,
+      "sha256": "fc1a0f8a3b0430640aada2745f4bfae3e7c5b4383d1e6ea814829f5ddf911606",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "origins-file11-pack01",
+      "file": "riddler-origins-file11-pack01.jpg",
+      "caption": "勒索档案11的第1包场景，非地图",
+      "source": "origins-guide",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/f984cd4d1e79a206010b2562968233bb.jpg",
+      "width": 620,
+      "height": 350,
+      "sha256": "f6d3702ffa17dd7bcd9e61633978ef9bba879edbe4ef1b23d5e56589d24bcf29",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "comic-riddler-character",
+      "file": "riddler-comic-riddler-character.jpg",
+      "caption": "DC官方谜语人角色图；不是1948年原始画格",
+      "source": "dc-riddler",
+      "imageUrl": "https://static.dc.com/dc/files/default_images/Char_Thumb_Riddler_5c53a3b5e018c4.92974885.jpg?w=160",
+      "width": 160,
+      "height": 243,
+      "sha256": "b787d70b8f9acedd3bb7bf29149208629bd45b5471c7bae0be86b8a3cd74fc87",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    },
+    {
+      "id": "comic-robin-detective38",
+      "file": "riddler-comic-robin-detective38.jpg",
+      "caption": "DC Robin文章配图，Detective Comics #38封面",
+      "source": "dc-robin",
+      "imageUrl": "https://static.dc.com/sites/default/files/imce/2015/06-JUN/DTC38_DECC_DCB_558a02aec1c614.74712608.jpg",
+      "width": 600,
+      "height": 849,
+      "sha256": "16800b421dffd487948c4bf8814b0d6a2b4601c1d90dd4845c2b74ea095f0d87",
+      "rights": "DC / WB / 游戏及原截图来源保留权利；研究参考，未取得转载授权",
+      "use": "私有GitHub研究资料；未接入公开网页",
+      "review": "已解码及目视核查；联络表保留在本地"
+    }
+  ],
+  "counts": {
+    "asylumSelected": 8,
+    "cityRegional": 69,
+    "cityIntro": 1,
+    "knightIndexed": 40,
+    "originsFileGroups": 20,
+    "cases": 20,
+    "mechanicThemes": 12,
+    "savedImages": 12
+  },
+  "gaps": [
+    "Asylum完整扫描目录和游戏进度表",
+    "City与Knight原文逐题游戏读回",
+    "每个绿色奖杯的具体位置、解法、失败与重置条件",
+    "Origins200数据包逐项录像及勒索录音对象／字幕核对",
+    "漫画对应内页、版本、页码与画格证据",
+    "全部资料的正式网页入口与GitHub同步"
+  ]
+}
