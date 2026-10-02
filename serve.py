@@ -29,10 +29,10 @@ def editable(data):
         obj = data["sites"][site]
         fields = [{"label": LABELS[key], "path": ["sites", site, key]} for key in obj if key in LABELS]
         entries.append({"label": obj["name"] + " / 首页", "url": f"/{site}/", "fields": fields})
-    for group in ("games", "episodes", "person"):
-        rows = [data[group]] if group == "person" else data[group]
+    for group in ("games", "episodes", "person", "capedCrusader"):
+        rows = [data[group]] if group in ("person", "capedCrusader") else data[group]
         for index, row in enumerate(rows):
-            prefix = [group] if group == "person" else [group, index]
+            prefix = [group] if group in ("person", "capedCrusader") else [group, index]
             fields = [{"label": LABELS[key], "path": prefix + [key]} for key in row if key in LABELS and isinstance(row[key], str)]
             for section_index, section in enumerate(row["sections"]):
                 for key in ("title", "body"):

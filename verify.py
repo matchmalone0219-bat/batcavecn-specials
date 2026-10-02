@@ -47,7 +47,7 @@ for path, page in parsed.items():
             assert unquote(url.fragment) in parsed[target].ids, f"Missing anchor: {link}"
         links += 1
 search = json.loads((DIST / "content/search.json").read_text())
-assert len(search) == len(data["games"]) + len(data["episodes"]) + 1
+assert len(search) == len(data["games"]) + len(data["episodes"]) + 2
 assert len(data["episodes"]) == 85
 assert sorted(int(item["guideNumber"]) for item in data["episodes"]) == list(range(1, 86))
 assert all(item["productionCode"] == "" and item["mediaOrder"] == "" for item in data["episodes"])
@@ -62,3 +62,9 @@ assert data["episodes"][0]["productionCode"] == ""
 assert data["episodes"][0]["mediaOrder"] == ""
 assert data["games"][2]["actor"] != "Kevin Conroy"
 print(f"PASS: {len(pages)} pages; {links} internal links and anchors; content boundaries; {len(search)} search records")
+
+caped = data["capedCrusader"]
+assert len(caped["episodes"]) == 10
+assert caped["actor"] == "Hamish Linklater" and not caped["actorLink"]
+assert any(i["url"] == "/tas/series/caped-crusader/" for i in search)
+assert "caped-crusader" not in {i["id"] for i in data["episodes"]}

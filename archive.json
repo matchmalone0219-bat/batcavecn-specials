@@ -190,6 +190,38 @@
       "type": "官方公告转载",
       "scope": "109集盒装与两部另附电影、主要制作／配音人员；2018年早期公告预定日不当作最终上市日。",
       "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-caped-intro",
+      "title": "DC：披风斗士的创作与角色重释",
+      "url": "https://www.dc.com/blog/2024/08/02/batman-caped-crusader-builds-on-all-that-s-come-before",
+      "type": "DC官方介绍",
+      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音；不作为DCAU连续性证明。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-caped-generation",
+      "title": "DC：一代动画观众的回望",
+      "url": "https://www.dc.com/blog/2024/08/06/batman-caped-crusader-is-a-full-circle-moment-for-a-generation-of-fans",
+      "type": "DC网站评论",
+      "scope": "主创背景及作者对BTAS美术传统的评论；审美观点不视为官方连续性声明。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "amazon-caped",
+      "title": "Amazon：披风斗士观看与主创信息",
+      "url": "https://www.aboutamazon.com/news/entertainment/batman-caped-crusader-release-date-trailer-prime-video",
+      "type": "平台官方介绍",
+      "scope": "核查当日页面为第二季更新：10集已上线、执行制片人与主要演员；保留更新口径，不用旧标题推断只有第一季。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "prime-caped-s1",
+      "title": "Prime Video：披风斗士第一季节目单",
+      "url": "https://www.primevideo.com/detail/0LNIBWJBQOUDUHI58KYUJ92R5T",
+      "type": "平台节目单",
+      "scope": "第一季10集英文原名和显示顺序；第7集页面日期与其他集不同，未采作统一首播依据。",
+      "checked": "2026-10-02"
     }
   ],
   "games": [
@@ -3300,5 +3332,93 @@
       "rcs-origins-interview",
       "wb-btas-blu"
     ]
+  },
+  "capedCrusader": {
+    "id": "caped-crusader",
+    "site": "tas",
+    "title": "蝙蝠侠：披风斗士",
+    "original": "Batman: Caped Crusader",
+    "status": "系列档案",
+    "summary": "TAS的现代延续尝试：沿着布鲁斯·蒂姆、黑色电影美术与声音表演，走进一座重新诠释的哥谭。",
+    "tags": [
+      "披风斗士",
+      "Caped Crusader",
+      "Bruce Timm",
+      "现代延续",
+      "黑色电影"
+    ],
+    "actor": "Hamish Linklater",
+    "actorLink": "",
+    "sources": [
+      "dc-caped-intro",
+      "dc-caped-generation",
+      "amazon-caped",
+      "prime-caped-s1"
+    ],
+    "sections": [
+      {
+        "id": "legacy",
+        "title": "从TAS走向现代",
+        "body": "本站把《披风斗士》看作TAS的现代延续尝试，关注的是创作传统：布鲁斯·蒂姆回归，以及动画如何再次处理哥谭的气氛、侦探故事和角色表演。\n这是一条策展阅读路线；本页单独编目，不将它列入BTAS／TNBA的集数，也不将它写成经典动画剧情的接续。"
+      },
+      {
+        "id": "gotham",
+        "title": "重新诠释的哥谭",
+        "body": "DC官方介绍将这部动画放在1940年代黑色电影的美术语境中。布鲁斯仍处于蝙蝠侠生涯早期，这为读者提供了一个与经典TAS对照的起点：同样的城市与人物，如何在不同的创作选择下形成新的气质。\n后续对照文章将分别讨论画面、侦探叙事和人物关系；本页先登记官方信息，不提前把审美判断写成制作事实。"
+      },
+      {
+        "id": "creators",
+        "title": "主创与声音",
+        "body": "核心执行制片人包括Bruce Timm、J.J. Abrams与Matt Reeves。英语版Bruce Wayne／Batman由Hamish Linklater配音。\n第一季角色重释也体现在配音中：Jamie Chung饰Harleen Quinzel，Minnie Driver饰Oswalda Cobblepot。角色与演员按本作记录，声音阅读路线另行展开。"
+      },
+      {
+        "id": "seasons",
+        "title": "季数与编目口径",
+        "body": "第一季共10集，下方按Prime Video节目单顺序登记英文原名。中文分集名、逐集片尾署名与深度导读暂未入库。\n截至2026年10月2日，Amazon官方更新称第二季10集已在Prime Video上线；本页仅登记这一系列状态，第二季分集目录待另行核对。平台页面的个别日期存在差异，不逐集推算首播日期。"
+      }
+    ],
+    "episodes": [
+      {
+        "number": 1,
+        "original": "In Treacherous Waters"
+      },
+      {
+        "number": 2,
+        "original": "…And Be A Villain"
+      },
+      {
+        "number": 3,
+        "original": "Kiss of the Catwoman"
+      },
+      {
+        "number": 4,
+        "original": "The Night of the Hunters"
+      },
+      {
+        "number": 5,
+        "original": "The Stress of Her Regard"
+      },
+      {
+        "number": 6,
+        "original": "Night Ride"
+      },
+      {
+        "number": 7,
+        "original": "Moving Target"
+      },
+      {
+        "number": 8,
+        "original": "Nocturne"
+      },
+      {
+        "number": 9,
+        "original": "The Killer Inside Me"
+      },
+      {
+        "number": 10,
+        "original": "Savage Night"
+      }
+    ],
+    "gaps": "当前为系列概览和第一季英文节目单；第二季分集、中文译名、完整片尾与逐集深度内容待补。TAS比较评论由本站另撰，不复制官方剧情梗概。"
   }
 }
