@@ -1,0 +1,3304 @@
+{
+  "updated": "2026-10-02",
+  "sites": {
+    "arkham": {
+      "name": "阿卡姆档案",
+      "english": "ARKHAM ARCHIVES",
+      "eyebrow": "BATCAVECN / INTERACTIVE GOTHAM",
+      "title": "进入哥谭。\n成为蝙蝠侠。",
+      "intro": "从阿卡姆岛到整座哥谭，循着作品、人物与制作故事，重新走进这个可以亲自探索的蝙蝠侠世界。",
+      "prologue": "游戏把读者变成了行动者。调查现场、隐入阴影、掠过屋顶：这份档案从四部核心作品出发，逐步记录阿卡姆世界的叙事与创作。",
+      "conroyTitle": "哥谭的回声",
+      "conroyText": "面具后的声音，把屏幕里的英雄带到玩家身边。从游戏出发，回到凯文·康罗伊的动画表演与本人讲述。"
+    },
+    "tas": {
+      "name": "TAS 动画档案",
+      "english": "THE ANIMATED ARCHIVE",
+      "eyebrow": "BATCAVECN / ANIMATED GOTHAM",
+      "title": "当夜色降临，\n故事开始。",
+      "intro": "一座用阴影、线条与声音构成的哥谭。以分集为入口，寻找蝙蝠侠动画里的角色、创作与记忆。",
+      "prologue": "有时，一个短篇就足以打开一个人的内心。这份档案把单集放回创作与表演的语境，循着故事去看城市，也去看面具之下的人。",
+      "conroyTitle": "声音的起点",
+      "conroyText": "从布鲁斯的日常语气，到黑暗骑士的坚定低音。循着这段声音，走向凯文·康罗伊的共同档案与阿卡姆游戏。"
+    }
+  },
+  "sources": [
+    {
+      "id": "dc-asylum",
+      "title": "DC · Batman: Arkham Asylum (2009)",
+      "url": "https://www.dc.com/games/batman-arkham-asylum-2009",
+      "type": "官方作品资料",
+      "scope": "作品名、开发与发行、官方发售日、平台；角色通用推荐列表不作完整出场证据。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-origins",
+      "title": "DC · Batman: Arkham Origins (2013)",
+      "url": "https://www.dc.com/games/batman-arkham-origins-2013",
+      "type": "官方作品资料",
+      "scope": "开发、发行、发售日、平台及前传定位。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-knight",
+      "title": "DC · Batman: Arkham Knight (2015)",
+      "url": "https://www.dc.com/games/batman-arkham-knight-2015",
+      "type": "官方作品资料",
+      "scope": "开发、发行、发售日、平台、蝙蝠车与稻草人宣传简介。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-interview",
+      "title": "DC · Behind the Bat: An Interview with Kevin Conroy",
+      "url": "https://www.dc.com/blog/2014/02/21/behind-the-bat-an-interview-with-kevin-conroy",
+      "type": "本人访谈",
+      "scope": "TAS 与游戏经历、双重声音、集体录音及 Perchance to Dream。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-performance",
+      "title": "DC · How Kevin Conroy Became Our Batman",
+      "url": "https://www.dc.com/blog/2022/12/05/how-kevin-conroy-became-our-batman",
+      "type": "官方编辑回顾",
+      "scope": "表演路线、Nothing to Fear、Perchance to Dream、I Am the Night。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-memorial",
+      "title": "DC · Kevin Conroy, Preeminent Voice of Batman, Passes Away at Age 66",
+      "url": "https://www.dc.com/blog/2022/11/11/kevin-conroy-preeminent-voice-of-batman-passes-away-at-age-66",
+      "type": "官方纪念公告",
+      "scope": "生平、舞台经历与动画、游戏参与记录。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-finding",
+      "title": "DC · Read Finding Batman",
+      "url": "https://www.dc.com/blog/2022/11/11/read-finding-batman-by-kevin-conroy-j-bone-and-aditya-bidikar",
+      "type": "官方作品介绍",
+      "scope": "Finding Batman 的作者、创作与官方阅读入口。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-fear",
+      "title": "The World’s Finest · Nothing to Fear",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/nothingtofear/",
+      "type": "分集资料辅助来源",
+      "scope": "分集署名与日期；编号为该站指南编号，原始制作代码与首播地区仍待交叉核对。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-guide",
+      "title": "The World’s Finest · Episode Guide 01–30",
+      "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-01-30/",
+      "type": "分集索引辅助来源",
+      "scope": "该指南第001–030条的英文名称、指南编号与来源所载日期；不代填完整制作代码、播出地区或影音序号。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-city-announcement",
+      "title": "DC · Arkham City 2011 首发公告",
+      "url": "https://www.dc.com/blog/2011/03/11/batman-arkham-city-tm-launches-in-stores-beginning-october-18",
+      "type": "官方历史公告",
+      "scope": "开发、发行及原版地区发售计划；早期公告不用于证明后来调整的PC实际发售日。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-city-history",
+      "title": "DC · Batman, a History of Heroics: The 2010s",
+      "url": "https://www.dc.com/blog/2019/04/17/batman-a-history-of-heroics-the-2010s",
+      "type": "官方历史回顾",
+      "scope": "City 的康罗伊／哈米尔配音及 Paul Dini、Paul Crocker、Sefton Hill 的故事创作署名。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-trilogy",
+      "title": "DC · The Arkham Trilogy Defined what the Joker Means to Batman",
+      "url": "https://www.dc.com/blog/2023/12/07/the-arkham-trilogy-defined-what-the-joker-means-to-batman",
+      "type": "官方站刊编辑文章 · 含剧透",
+      "scope": "三部Rocksteady游戏的演员合作、前两作Dini故事创作及与动画连续性的区分；评价归作者，不作官方设定声明。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "rcs-origins-interview",
+      "title": "Roger Craig Smith · Arkham Origins 本人访谈",
+      "url": "https://www.superherohype.com/features/179235-exclusive-interview-with-roger-craig-smith-the-voice-of-batman-in-arkham-origins",
+      "type": "本人访谈 · SuperHeroHype",
+      "scope": "蝙蝠侠演员本人确认参与、与Troy Baker的小丑表演及年轻角色的表演定位。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-asylum",
+      "title": "Steam · Arkham Asylum GOTY",
+      "url": "https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/",
+      "type": "发行商商店介绍",
+      "scope": "自由流战斗、侦探工具、潜行与GOTY四张挑战地图；2010-03-26只作为此商店版本日期。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "steam-city",
+      "title": "Steam · Arkham City GOTY",
+      "url": "https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/",
+      "type": "发行商商店介绍",
+      "scope": "GOTY所含六类DLC及可操作角色；2012-09-07只作为此商店版本日期。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wb-return",
+      "title": "Warner Bros. · Return to Arkham 2016 公告",
+      "url": "https://www.warnerbros.it/blog/warner-bros-interactive-entertainment-annuncia-batman-return-to-arkham/",
+      "type": "发行商地区公告",
+      "scope": "Virtuos重制、Asylum与City合集、PS4／Xbox One；2016-10-18明确为意大利上市日期。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-guide-31-60",
+      "title": "The World’s Finest · Episode Guide 31–60",
+      "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-31-60/",
+      "type": "分集索引辅助来源",
+      "scope": "该指南第031–060条的英文名称、指南编号及来源所载日期；不代填完整制作代码或影音编号。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-guide-61-85",
+      "title": "The World’s Finest · Episode Guide 61–85 + Movies",
+      "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-61-85/",
+      "type": "分集索引辅助来源",
+      "scope": "仅提取第061–085电视条目；该页电影不并入BTAS85条目录。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-dream",
+      "title": "The World’s Finest · Perchance to Dream",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/perchancetodream/",
+      "type": "分集署名辅助来源",
+      "scope": "故事与teleplay分开记录、导演、音乐、动画制作、主要配音与日期；待片尾交叉核对。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wf-night",
+      "title": "The World’s Finest · I Am the Night",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/iamthenight/",
+      "type": "分集署名辅助来源",
+      "scope": "指南049、日期、Michael Reaves、Boyd Kirkland、Michael McCuistion、Sunrise及主要演员。",
+      "checked": "2026-10-02"
+    },
+    {
+      "id": "wb-btas-blu",
+      "title": "Warner Bros. · BTAS 全集蓝光历史公告（WF转载）",
+      "url": "https://dcanimated.com/btas/btas-releases/btas-releases-blu/btas-blu-complete-series/btas-blu-complete-press-release/",
+      "type": "官方公告转载",
+      "scope": "109集盒装与两部另附电影、主要制作／配音人员；2018年早期公告预定日不当作最终上市日。",
+      "checked": "2026-10-02"
+    }
+  ],
+  "games": [
+    {
+      "id": "arkham-asylum",
+      "site": "arkham",
+      "title": "蝙蝠侠：阿卡姆疯人院",
+      "original": "Batman: Arkham Asylum",
+      "nameNote": "中文名沿用本站常用译名；未标为官方简体中文名称。",
+      "year": "2009",
+      "date": "2009-08-25",
+      "dateNote": "DC 官方资料页发售日；PC 与各地区首发日期尚待分别核对。",
+      "developer": "Rocksteady Studios",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "platforms": "PlayStation 3 / Xbox 360 / PC（官方列出的原版平台）",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "status": "详情样板",
+      "summary": "首批档案从阿卡姆岛出发：一处封闭空间，成为探索蝙蝠侠游戏叙事与表演的入口。",
+      "tags": [
+        "蝙蝠侠",
+        "游戏",
+        "凯文·康罗伊",
+        "阿卡姆岛"
+      ],
+      "sections": [
+        {
+          "id": "experience",
+          "title": "岛上的三种行动方式",
+          "body": "作品资料：本作围绕阿卡姆岛展开探索。自由流战斗强调连续应对敌人；潜行利用高处观察与不同制服手段；侦探工具支持追踪和环境谜题。三个系统分别对应正面交战、隐蔽行动和调查，不把游戏里的全部行动简化为格斗。\n本站导读：从发行顺序进入系列时，可以先观察封闭岛屿如何串起角色与地点，再比较《之城》的城区结构。"
+        },
+        {
+          "id": "voice",
+          "title": "面具之后的声音",
+          "body": "DC 的康罗伊访谈将动画与阿卡姆游戏放在同一段表演经历中。作品之间的声音关联可以帮助我们比较表演，但不能据此把两个世界解释成同一连续性。"
+        },
+        {
+          "id": "versions",
+          "title": "原版、年度版与重制合集",
+          "body": "原作记录保留2009年及DC资料页的发售口径。Steam的GOTY条目另列2010年3月26日，不能替换原作年份。该商店介绍列出四张额外挑战地图：Crime Alley、Scarecrow Nightmare、Totally Insane与Nocturnal Hunter。\n2016年的Return to Arkham由Virtuos重制《疯人院》与《之城》，面向PS4和Xbox One；这是合集版本，与两部原作分别建档。"
+        }
+      ],
+      "spoiler": "本轮未整理结局与剧情解析。后续剧透内容放在这里，默认收起，不混入首页或搜索摘要。",
+      "gaps": "原版各地区／PC实际首发日期、完整片尾主创与配音、任务与地点明细待继续核对；本页已有玩法及版本基础资料，仍属详情样板。",
+      "sources": [
+        "dc-asylum",
+        "dc-interview",
+        "dc-memorial",
+        "steam-asylum",
+        "wb-return",
+        "dc-trilogy"
+      ]
+    },
+    {
+      "id": "arkham-city",
+      "site": "arkham",
+      "title": "蝙蝠侠：阿卡姆之城",
+      "original": "Batman: Arkham City",
+      "nameNote": "本站常用译名",
+      "year": "2011",
+      "date": "2011-10-18",
+      "dateNote": "DC早期公告的北美首发日期，主机版本口径；PC实际发售日期待最终公告核对，不沿用早期计划。",
+      "developer": "Rocksteady Studios",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "platforms": "PlayStation 3 / Xbox 360 / PC（原版平台，日期分别记录）",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "status": "详情样板",
+      "summary": "封闭的阿卡姆岛扩展为被高墙围起的城区。蝙蝠侠在街道与屋顶之间追查危机，面对哥谭熟悉的敌人。",
+      "tags": [
+        "游戏",
+        "凯文·康罗伊",
+        "小丑",
+        "猫女",
+        "城区探索"
+      ],
+      "sections": [
+        {
+          "id": "world",
+          "title": "从岛屿到城区",
+          "body": "官方介绍将故事放在哥谭的一片高戒备围墙区域中，罪犯与不同势力被集中到这里。城市空间扩大，探索视角从机构内部走向街道与屋顶。\n本站导读：本档案先记录无剧透的环境和作品边界；任务结局、人物身份与支线解析后续放入折叠章节。"
+        },
+        {
+          "id": "creators",
+          "title": "故事创作与英语声音",
+          "body": "DC历史回顾列出故事创作的Paul Dini、Paul Crocker与Sefton Hill，并确认Kevin Conroy与Mark Hamill分别继续为蝙蝠侠和小丑配音。这条合作关系连接动画与游戏的创作史，不代表两者属于同一剧情连续性。"
+        },
+        {
+          "id": "versions",
+          "title": "年度版收录什么",
+          "body": "Steam的GOTY介绍列出Catwoman Pack、Nightwing Bundle Pack、Robin Bundle Pack、Harley Quinn’s Revenge、Challenge Map Pack及Arkham City Skins Pack。猫女、罗宾、夜翼的可操作内容需按各自包区分，不能统称为同一段主线故事。\n该商店GOTY条目标记2012年9月7日，原作仍单独记录2011年。Return to Arkham属于后来的重制合集，不是新的续作。"
+        }
+      ],
+      "spoiler": "剧情与结局解析尚未入库；本页仅展示无剧透基础资料。",
+      "gaps": "PC及各地区最终首发记录、完整主创片尾、DLC独立日期、地点与支线关系待补；早期发售计划不作为最终PC日期。",
+      "sources": [
+        "dc-city-announcement",
+        "dc-city-history",
+        "steam-city",
+        "wb-return",
+        "dc-trilogy"
+      ]
+    },
+    {
+      "id": "arkham-origins",
+      "site": "arkham",
+      "title": "蝙蝠侠：阿卡姆起源",
+      "original": "Batman: Arkham Origins",
+      "nameNote": "本站常用译名",
+      "year": "2013",
+      "date": "2013-10-25",
+      "dateNote": "DC 官方资料页发售日；地区差异待核。",
+      "developer": "WB Games Montréal",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "platforms": "PlayStation 3 / Xbox 360 / PC / Wii U",
+      "actor": "Roger Craig Smith",
+      "actorLink": "",
+      "status": "详情样板",
+      "summary": "官方将其定位为发生在《疯人院》与《之城》数年前的前传，呈现较年轻的蝙蝠侠。",
+      "tags": [
+        "游戏",
+        "前传",
+        "Roger Craig Smith",
+        "Troy Baker"
+      ],
+      "sections": [
+        {
+          "id": "world",
+          "title": "年轻蝙蝠侠的哥谭",
+          "body": "DC官方将本作定位为《疯人院》与《之城》事件发生数年前的前传。作品由WB Games Montréal开发，以尚未成熟的蝙蝠侠为主角，关注他与重要人物关系的形成。\n本站导读：发行顺序与故事顺序是两条不同路线。前传定位不能让2013年的作品变成系列最早发行的游戏。"
+        },
+        {
+          "id": "voice",
+          "title": "两位新演员的表演方向",
+          "body": "Roger Craig Smith在2013年的本人访谈中确认担任蝙蝠侠，谈到与配音指导共同确定年轻角色的声音。他将目标描述为让这个阶段的角色能够走向玩家熟悉的版本，而不是直接模仿上一位演员。访谈同时确认Troy Baker饰演小丑。\n本作的演员关系单独记录，不计入康罗伊参与作品列表。"
+        },
+        {
+          "id": "versions",
+          "title": "原作与扩展分别编目",
+          "body": "本页记录2013年的主游戏与DC所列PS3、Xbox 360、PC及Wii U平台。《Blackgate》、剧情DLC与不同平台版本后续分别建档；在取得对应发行记录前，不把它们混入主游戏日期或主创字段。"
+        }
+      ],
+      "spoiler": "剧情任务与结局解析待整理。",
+      "gaps": "完整片尾、各版本发行差异、DLC及Blackgate关联待补；已确认蝙蝠侠与小丑的英语演员，未声称完整配音名单。",
+      "sources": [
+        "dc-origins",
+        "rcs-origins-interview"
+      ]
+    },
+    {
+      "id": "arkham-knight",
+      "site": "arkham",
+      "title": "蝙蝠侠：阿卡姆骑士",
+      "original": "Batman: Arkham Knight",
+      "nameNote": "本站常用译名",
+      "year": "2015",
+      "date": "2015-06-23",
+      "dateNote": "DC 官方资料页发售日；地区差异待核。",
+      "developer": "Rocksteady",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "platforms": "PlayStation 4 / Xbox One / PC",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "status": "详情样板",
+      "summary": "稻草人重返哥谭；可驾驶的蝙蝠车进入核心体验。这里记录官方宣传范围内的信息。",
+      "tags": [
+        "游戏",
+        "稻草人",
+        "蝙蝠车",
+        "凯文·康罗伊"
+      ],
+      "sections": [
+        {
+          "id": "experience",
+          "title": "蝙蝠车进入核心体验",
+          "body": "DC作品介绍把可驾驶蝙蝠车作为本作的重要特点，结合哥谭街道上的行动、战斗和调查。稻草人组织的威胁是官方无剧透简介的起点；神秘阿卡姆骑士的身份不在公开摘要中展开。"
+        },
+        {
+          "id": "voice",
+          "title": "三部作品的声音关系",
+          "body": "DC刊载的三部曲回顾讨论康罗伊与哈米尔在《疯人院》《之城》《骑士》中的合作。这支持一条演员与表演主题的阅读路线；文章的优劣评价仍归署名作者，不作为发行商对游戏排名的声明。"
+        },
+        {
+          "id": "versions",
+          "title": "原作与合集的范围",
+          "body": "本页记录2015年6月23日及DC所列PS4、Xbox One与PC平台。Rocksteady三部曲合集与本站首批四部核心游戏的范围不同：《起源》属于核心建档名单，但不因此被算进Rocksteady三部曲。DLC、移植与合集各自的日期仍须独立核查。"
+        }
+      ],
+      "spoiler": "涉及阿卡姆骑士身份与结局的分析尚未入库。资料来源中的三部曲评论本身含剧透，打开前请留意。",
+      "gaps": "完整演职员、剧情DLC、首发平台差异及移植资料待补；当前只完成基本玩法、声音与版本边界。",
+      "sources": [
+        "dc-knight",
+        "dc-trilogy"
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "id": "nothing-to-fear",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "无所畏惧",
+      "original": "Nothing to Fear",
+      "nameNote": "本站暂译",
+      "year": "1992",
+      "guideNumber": "003",
+      "productionCode": "",
+      "airDate": "1992-09-15",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "Henry T. Gilroy / Sean Catherine Derek",
+      "director": "Boyd Kirkland",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "music": "Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Henry Polic II — Scarecrow / Jonathan Crane",
+      "status": "详情样板",
+      "summary": "稻草人的恐惧气体侵袭哥谭州立大学。蝙蝠侠必须在追查危机的同时，面对自己内心的恐惧。",
+      "tags": [
+        "蝙蝠侠",
+        "稻草人",
+        "凯文·康罗伊",
+        "恐惧与意志"
+      ],
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "观看之前",
+          "body": "这个短篇以恐惧为切口，把行动中的蝙蝠侠与承受失去的布鲁斯放在一起。可以从这里进入康罗伊的表演路线，再回到游戏中同样围绕恐惧展开的段落。"
+        },
+        {
+          "id": "voice",
+          "title": "同一个人，两个声音",
+          "body": "本站观察：角色面对外部危险时的坚定，与触及私人创伤时的不安，在同一集里并存。这里的阅读路线连接演员与表演主题，不构成动画和游戏的剧情接续。"
+        },
+        {
+          "id": "order",
+          "title": "三种编号分开阅读",
+          "body": "辅助指南列为 Episode #003；这不是本档案确认的原始制作代码。该来源记首播日期为1992年9月15日，播出地区仍待核；家庭影音目录序号没有用指南编号代填。"
+        }
+      ],
+      "spoiler": "本站分析：本集让布鲁斯面对父亲形象带来的自责。宣告身份的瞬间，既是对敌人的回应，也是一次重新确认使命的过程。此段为本站评论，未复制来源网站的评价。",
+      "gaps": "原始制作代码、首播地区、影音目录序号及片尾交叉核查待补。",
+      "sources": [
+        "wf-fear",
+        "wf-guide",
+        "dc-performance"
+      ]
+    },
+    {
+      "id": "perchance-to-dream",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "梦境之间",
+      "original": "Perchance to Dream",
+      "nameNote": "本站暂译",
+      "year": "1992",
+      "guideNumber": "030",
+      "productionCode": "",
+      "airDate": "1992-10-19",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "故事：Laren Bright / Michael Reaves；Teleplay：Joe R. Lansdale",
+      "director": "Boyd Kirkland",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "music": "Shirley Walker",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Roddy McDowall — Mad Hatter；Adrienne Barbeau — Catwoman",
+      "status": "详情样板",
+      "summary": "布鲁斯面对一个不必成为蝙蝠侠的可能世界。康罗伊在本人访谈中提到这集带来的表演挑战。",
+      "tags": [
+        "布鲁斯·韦恩",
+        "凯文·康罗伊",
+        "双重身份"
+      ],
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "如果布鲁斯不必成为蝙蝠侠",
+          "body": "无剧透导读：本集从布鲁斯熟悉的私人生活出发，让他面对一种与现实不同的可能。先关注他如何判断眼前世界，再回看蝙蝠侠身份与失去之间的联系。"
+        },
+        {
+          "id": "voice",
+          "title": "演员谈到的多重声音",
+          "body": "康罗伊在DC本人访谈中谈到这集对声音表演的要求：布鲁斯与蝙蝠侠在同一故事里形成对照，还涉及父亲的声音。这是演员本人的创作回顾；辅助分集页将Thomas Wayne的表演标为未署名，本页不把它包装为已核片尾署名。"
+        },
+        {
+          "id": "credits",
+          "title": "故事与剧本分开署名",
+          "body": "辅助分集资料区分Story与Teleplay：前者为Laren Bright、Michael Reaves，后者为Joe R. Lansdale。导演为Boyd Kirkland，配乐为Shirley Walker，动画制作为Dong Yang。以上待与片尾交叉核查。指南030、来源所载日期1992年10月19日、完整制作代码与影音目录编号仍分开保存。"
+        }
+      ],
+      "spoiler": "剧情结局与场景分析尚未整理。",
+      "gaps": "已补主创辅助署名；完整制作代码、首播地区、影音顺序及片尾交叉核查仍待完成。",
+      "sources": [
+        "wf-guide",
+        "wf-dream",
+        "dc-interview"
+      ]
+    },
+    {
+      "id": "i-am-the-night",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "我是黑夜",
+      "original": "I Am the Night",
+      "nameNote": "本站暂译",
+      "year": "1992",
+      "guideNumber": "049",
+      "productionCode": "",
+      "airDate": "1992-11-09",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "Michael Reaves",
+      "director": "Boyd Kirkland",
+      "animation": "Sunrise",
+      "music": "Michael McCuistion",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "guests": "Bob Hastings — Commissioner Gordon；Loren Lester — Robin；Seth Green — Wizard",
+      "status": "详情样板",
+      "summary": "一条关于使命与自我怀疑的表演路线。DC 的康罗伊回顾将本集列入观察布鲁斯内心的选集。",
+      "tags": [
+        "蝙蝠侠",
+        "凯文·康罗伊",
+        "使命"
+      ],
+      "sections": [
+        {
+          "id": "viewing",
+          "title": "使命也有沉重的时候",
+          "body": "无剧透导读：本集把布鲁斯的纪念日与哥谭警方的危险行动交织起来。关注他的疲惫与责任感，以及身边的人如何回应这些压力；故事并不只是一次反派追逐。"
+        },
+        {
+          "id": "voice",
+          "title": "从行动者到怀疑者",
+          "body": "本站阅读角度：把本集与《Nothing to Fear》并读，可以观察坚定宣告与自我怀疑两种情绪。路线连接的是同一演员的表演主题，不是两集之间的直接续篇关系。DC的康罗伊表演回顾提供了这条选集路线的依据。"
+        },
+        {
+          "id": "credits",
+          "title": "本集的制作资料",
+          "body": "辅助分集页列编剧Michael Reaves、导演Boyd Kirkland、配乐Michael McCuistion与动画公司Sunrise。不能因系列音乐常与Shirley Walker关联，就给每一集统一填写她的名字。该页列指南049和1992年11月9日，完整制作代码、播出地区与影音顺序仍待核。"
+        }
+      ],
+      "spoiler": "警方案件与结局解析待整理。",
+      "gaps": "已补日期及主要制作署名，仍待完整制作代码、播出地区、影音编号与片尾核查。",
+      "sources": [
+        "wf-guide-31-60",
+        "wf-night",
+        "dc-performance"
+      ]
+    },
+    {
+      "id": "on-leather-wings",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "On Leather Wings",
+      "original": "On Leather Wings",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "001",
+      "productionCode": "",
+      "airDate": "1992-09-06",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 001 · 来源所载日期 1992-09-06；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "On Leather Wings"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "christmas-with-the-joker",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Christmas With The Joker",
+      "original": "Christmas With The Joker",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "002",
+      "productionCode": "",
+      "airDate": "1992-11-13",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 002 · 来源所载日期 1992-11-13；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Christmas With The Joker"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-last-laugh",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Last Laugh",
+      "original": "The Last Laugh",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "004",
+      "productionCode": "",
+      "airDate": "1992-09-22",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 004 · 来源所载日期 1992-09-22；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Last Laugh"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "pretty-poison",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Pretty Poison",
+      "original": "Pretty Poison",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "005",
+      "productionCode": "",
+      "airDate": "1992-09-14",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 005 · 来源所载日期 1992-09-14；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Pretty Poison"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-underdwellers",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Underdwellers",
+      "original": "The Underdwellers",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "006",
+      "productionCode": "",
+      "airDate": "1992-10-21",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 006 · 来源所载日期 1992-10-21；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Underdwellers"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "p-o-v",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "P.O.V.",
+      "original": "P.O.V.",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "007",
+      "productionCode": "",
+      "airDate": "1992-09-18",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 007 · 来源所载日期 1992-09-18；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "P.O.V."
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-forgotten",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Forgotten",
+      "original": "The Forgotten",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "008",
+      "productionCode": "",
+      "airDate": "1992-10-08",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 008 · 来源所载日期 1992-10-08；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Forgotten"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "be-a-clown",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Be A Clown",
+      "original": "Be A Clown",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "009",
+      "productionCode": "",
+      "airDate": "1992-09-16",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 009 · 来源所载日期 1992-09-16；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Be A Clown"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "two-face-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Two-Face: Part 1",
+      "original": "Two-Face: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "010",
+      "productionCode": "",
+      "airDate": "1992-09-25",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 010 · 来源所载日期 1992-09-25；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Two-Face: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "it-s-never-too-late",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "It's Never Too Late",
+      "original": "It's Never Too Late",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "011",
+      "productionCode": "",
+      "airDate": "1992-09-10",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 011 · 来源所载日期 1992-09-10；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "It's Never Too Late"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "i-ve-got-batman-in-my-basement",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "I've Got Batman In My Basement",
+      "original": "I've Got Batman In My Basement",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "012",
+      "productionCode": "",
+      "airDate": "1992-09-30",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 012 · 来源所载日期 1992-09-30；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "I've Got Batman In My Basement"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-cat-and-the-claw-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Cat and the Claw: Part 1",
+      "original": "The Cat and the Claw: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "013",
+      "productionCode": "",
+      "airDate": "1992-09-05",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 013 · 来源所载日期 1992-09-05；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Cat and the Claw: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "heart-of-ice",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Heart of Ice",
+      "original": "Heart of Ice",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "014",
+      "productionCode": "",
+      "airDate": "1992-09-07",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 014 · 来源所载日期 1992-09-07；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Heart of Ice"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "see-no-evil",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "See No Evil",
+      "original": "See No Evil",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "015",
+      "productionCode": "",
+      "airDate": "1993-02-24",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 015 · 来源所载日期 1993-02-24；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "See No Evil"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-cat-and-the-claw-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Cat and the Claw: Part 2",
+      "original": "The Cat and the Claw: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "016",
+      "productionCode": "",
+      "airDate": "1992-09-12",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 016 · 来源所载日期 1992-09-12；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Cat and the Claw: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "two-face-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Two-Face: Part 2",
+      "original": "Two-Face: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "017",
+      "productionCode": "",
+      "airDate": "1992-09-28",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 017 · 来源所载日期 1992-09-28；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Two-Face: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "beware-the-gray-ghost",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Beware the Gray Ghost",
+      "original": "Beware the Gray Ghost",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "018",
+      "productionCode": "",
+      "airDate": "1992-11-04",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 018 · 来源所载日期 1992-11-04；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Beware the Gray Ghost"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "prophecy-of-doom",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Prophecy of Doom",
+      "original": "Prophecy of Doom",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "019",
+      "productionCode": "",
+      "airDate": "1992-10-06",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 019 · 来源所载日期 1992-10-06；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Prophecy of Doom"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "feat-of-clay-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Feat of Clay: Part 1",
+      "original": "Feat of Clay: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "020",
+      "productionCode": "",
+      "airDate": "1992-09-08",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 020 · 来源所载日期 1992-09-08；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Feat of Clay: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "feat-of-clay-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Feat of Clay: Part 2",
+      "original": "Feat of Clay: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "021",
+      "productionCode": "",
+      "airDate": "1992-09-09",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 021 · 来源所载日期 1992-09-09；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Feat of Clay: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "joker-s-favor",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Joker's Favor",
+      "original": "Joker's Favor",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "022",
+      "productionCode": "",
+      "airDate": "1992-09-11",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 022 · 来源所载日期 1992-09-11；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Joker's Favor"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "vendetta",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Vendetta",
+      "original": "Vendetta",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "023",
+      "productionCode": "",
+      "airDate": "1992-10-05",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 023 · 来源所载日期 1992-10-05；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Vendetta"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "fear-of-victory",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Fear of Victory",
+      "original": "Fear of Victory",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "024",
+      "productionCode": "",
+      "airDate": "1992-09-29",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 024 · 来源所载日期 1992-09-29；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Fear of Victory"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-clock-king",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Clock King",
+      "original": "The Clock King",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "025",
+      "productionCode": "",
+      "airDate": "1992-09-21",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 025 · 来源所载日期 1992-09-21；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Clock King"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "appointment-in-crime-alley",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Appointment in Crime Alley",
+      "original": "Appointment in Crime Alley",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "026",
+      "productionCode": "",
+      "airDate": "1992-09-17",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 026 · 来源所载日期 1992-09-17；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Appointment in Crime Alley"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "mad-as-a-hatter",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Mad As A Hatter",
+      "original": "Mad As A Hatter",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "027",
+      "productionCode": "",
+      "airDate": "1992-10-12",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 027 · 来源所载日期 1992-10-12；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Mad As A Hatter"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "dreams-in-darkness",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Dreams In Darkness",
+      "original": "Dreams In Darkness",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "028",
+      "productionCode": "",
+      "airDate": "1992-11-03",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 028 · 来源所载日期 1992-11-03；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Dreams In Darkness"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "eternal-youth",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Eternal Youth",
+      "original": "Eternal Youth",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "029",
+      "productionCode": "",
+      "airDate": "1992-09-23",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 029 · 来源所载日期 1992-09-23；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Eternal Youth"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide"
+      ]
+    },
+    {
+      "id": "the-cape-and-cowl-conspiracy",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Cape and Cowl Conspiracy",
+      "original": "The Cape and Cowl Conspiracy",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "031",
+      "productionCode": "",
+      "airDate": "1992-10-14",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 031 · 来源所载日期 1992-10-14；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Cape and Cowl Conspiracy"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "robin-s-reckoning-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Robin's Reckoning: Part 1",
+      "original": "Robin's Reckoning: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "032",
+      "productionCode": "",
+      "airDate": "1993-02-07",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 032 · 来源所载日期 1993-02-07；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Robin's Reckoning: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "the-laughing-fish",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Laughing Fish",
+      "original": "The Laughing Fish",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "033",
+      "productionCode": "",
+      "airDate": "1993-01-10",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 033 · 来源所载日期 1993-01-10；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Laughing Fish"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "night-of-the-ninja",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Night of the Ninja",
+      "original": "Night of the Ninja",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "034",
+      "productionCode": "",
+      "airDate": "1992-10-26",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 034 · 来源所载日期 1992-10-26；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Night of the Ninja"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "cat-scratch-fever",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Cat Scratch Fever",
+      "original": "Cat Scratch Fever",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "035",
+      "productionCode": "",
+      "airDate": "1992-11-05",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 035 · 来源所载日期 1992-11-05；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Cat Scratch Fever"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "the-strange-secret-of-bruce-wayne",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Strange Secret of Bruce Wayne",
+      "original": "The Strange Secret of Bruce Wayne",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "036",
+      "productionCode": "",
+      "airDate": "1992-10-29",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 036 · 来源所载日期 1992-10-29；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Strange Secret of Bruce Wayne"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "robin-s-reckoning-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Robin's Reckoning: Part 2",
+      "original": "Robin's Reckoning: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "037",
+      "productionCode": "",
+      "airDate": "1993-02-14",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 037 · 来源所载日期 1993-02-14；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Robin's Reckoning: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "heart-of-steel-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Heart of Steel: Part 1",
+      "original": "Heart of Steel: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "038",
+      "productionCode": "",
+      "airDate": "1992-11-16",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 038 · 来源所载日期 1992-11-16；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Heart of Steel: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "if-you-re-so-smart-why-aren-t-you-rich",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "If You're So Smart, Why Aren't You Rich?",
+      "original": "If You're So Smart, Why Aren't You Rich?",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "039",
+      "productionCode": "",
+      "airDate": "1992-11-18",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 039 · 来源所载日期 1992-11-18；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "If You're So Smart, Why Aren't You Rich?"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "joker-s-wild",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Joker's Wild",
+      "original": "Joker's Wild",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "040",
+      "productionCode": "",
+      "airDate": "1992-11-19",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 040 · 来源所载日期 1992-11-19；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Joker's Wild"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "tyger-tyger",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Tyger, Tyger",
+      "original": "Tyger, Tyger",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "041",
+      "productionCode": "",
+      "airDate": "1992-10-30",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 041 · 来源所载日期 1992-10-30；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Tyger, Tyger"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "moon-of-the-wolf",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Moon of the Wolf",
+      "original": "Moon of the Wolf",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "042",
+      "productionCode": "",
+      "airDate": "1992-11-11",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 042 · 来源所载日期 1992-11-11；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Moon of the Wolf"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "day-of-the-samurai",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Day of the Samurai",
+      "original": "Day of the Samurai",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "043",
+      "productionCode": "",
+      "airDate": "1993-02-23",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 043 · 来源所载日期 1993-02-23；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Day of the Samurai"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "heart-of-steel-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Heart of Steel: Part 2",
+      "original": "Heart of Steel: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "044",
+      "productionCode": "",
+      "airDate": "1992-11-17",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 044 · 来源所载日期 1992-11-17；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Heart of Steel: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "terror-in-the-sky",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Terror in the Sky",
+      "original": "Terror in the Sky",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "045",
+      "productionCode": "",
+      "airDate": "1992-11-12",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 045 · 来源所载日期 1992-11-12；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Terror in the Sky"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "almost-got-im",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Almost Got 'Im",
+      "original": "Almost Got 'Im",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "046",
+      "productionCode": "",
+      "airDate": "1992-11-10",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 046 · 来源所载日期 1992-11-10；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Almost Got 'Im"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "birds-of-a-feather",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Birds of a Feather",
+      "original": "Birds of a Feather",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "047",
+      "productionCode": "",
+      "airDate": "1993-02-08",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 047 · 来源所载日期 1993-02-08；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Birds of a Feather"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "what-is-reality",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "What Is Reality?",
+      "original": "What Is Reality?",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "048",
+      "productionCode": "",
+      "airDate": "1992-11-24",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 048 · 来源所载日期 1992-11-24；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "What Is Reality?"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "off-balance",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Off Balance",
+      "original": "Off Balance",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "050",
+      "productionCode": "",
+      "airDate": "1992-11-23",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 050 · 来源所载日期 1992-11-23；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Off Balance"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "the-man-who-killed-batman",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Man Who Killed Batman",
+      "original": "The Man Who Killed Batman",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "051",
+      "productionCode": "",
+      "airDate": "1993-02-01",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 051 · 来源所载日期 1993-02-01；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Man Who Killed Batman"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "mudslide",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Mudslide",
+      "original": "Mudslide",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "052",
+      "productionCode": "",
+      "airDate": "1993-09-15",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 052 · 来源所载日期 1993-09-15；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Mudslide"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "paging-the-crime-doctor",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Paging The Crime Doctor",
+      "original": "Paging The Crime Doctor",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "053",
+      "productionCode": "",
+      "airDate": "1993-09-17",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 053 · 来源所载日期 1993-09-17；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Paging The Crime Doctor"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "zatanna",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Zatanna",
+      "original": "Zatanna",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "054",
+      "productionCode": "",
+      "airDate": "1993-02-02",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 054 · 来源所载日期 1993-02-02；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Zatanna"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "the-mechanic",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Mechanic",
+      "original": "The Mechanic",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "055",
+      "productionCode": "",
+      "airDate": "1993-01-24",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 055 · 来源所载日期 1993-01-24；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Mechanic"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "harley-and-ivy",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Harley and Ivy",
+      "original": "Harley and Ivy",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "056",
+      "productionCode": "",
+      "airDate": "1993-01-18",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 056 · 来源所载日期 1993-01-18；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Harley and Ivy"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "shadow-of-the-bat-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Shadow of the Bat: Part 1",
+      "original": "Shadow of the Bat: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "057",
+      "productionCode": "",
+      "airDate": "1993-09-13",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 057 · 来源所载日期 1993-09-13；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Shadow of the Bat: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "blind-as-a-bat",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Blind As A Bat",
+      "original": "Blind As A Bat",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "058",
+      "productionCode": "",
+      "airDate": "1993-02-22",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 058 · 来源所载日期 1993-02-22；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Blind As A Bat"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "the-demon-s-quest-part-1",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Demon's Quest: Part 1",
+      "original": "The Demon's Quest: Part 1",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "059",
+      "productionCode": "",
+      "airDate": "1993-05-03",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 059 · 来源所载日期 1993-05-03；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Demon's Quest: Part 1"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "his-silicon-soul",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "His Silicon Soul",
+      "original": "His Silicon Soul",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1992",
+      "guideNumber": "060",
+      "productionCode": "",
+      "airDate": "1992-11-20",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 060 · 来源所载日期 1992-11-20；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "His Silicon Soul"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-31-60"
+      ]
+    },
+    {
+      "id": "shadow-of-the-bat-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Shadow of the Bat: Part 2",
+      "original": "Shadow of the Bat: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "061",
+      "productionCode": "",
+      "airDate": "1993-09-14",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 061 · 来源所载日期 1993-09-14；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Shadow of the Bat: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "fire-from-olympus",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Fire From Olympus",
+      "original": "Fire From Olympus",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "062",
+      "productionCode": "",
+      "airDate": "1993-05-24",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 062 · 来源所载日期 1993-05-24；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Fire From Olympus"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "the-demon-s-quest-part-2",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Demon's Quest: Part 2",
+      "original": "The Demon's Quest: Part 2",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "063",
+      "productionCode": "",
+      "airDate": "1993-05-04",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 063 · 来源所载日期 1993-05-04；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Demon's Quest: Part 2"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "read-my-lips",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Read My Lips",
+      "original": "Read My Lips",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "064",
+      "productionCode": "",
+      "airDate": "1993-05-10",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 064 · 来源所载日期 1993-05-10；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Read My Lips"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "the-worry-men",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Worry Men",
+      "original": "The Worry Men",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1993",
+      "guideNumber": "065",
+      "productionCode": "",
+      "airDate": "1993-09-16",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 065 · 来源所载日期 1993-09-16；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Worry Men"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "sideshow",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Sideshow",
+      "original": "Sideshow",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "066",
+      "productionCode": "",
+      "airDate": "1994-05-03",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 066 · 来源所载日期 1994-05-03；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Sideshow"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "a-bullet-for-bullock",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "A Bullet For Bullock",
+      "original": "A Bullet For Bullock",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1995",
+      "guideNumber": "067",
+      "productionCode": "",
+      "airDate": "1995-09-14",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 067 · 来源所载日期 1995-09-14；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "A Bullet For Bullock"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "trial",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Trial",
+      "original": "Trial",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "068",
+      "productionCode": "",
+      "airDate": "1994-05-16",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 068 · 来源所载日期 1994-05-16；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Trial"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "avatar",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Avatar",
+      "original": "Avatar",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "069",
+      "productionCode": "",
+      "airDate": "1994-05-09",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 069 · 来源所载日期 1994-05-09；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Avatar"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "house-and-garden",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "House and Garden",
+      "original": "House and Garden",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "070",
+      "productionCode": "",
+      "airDate": "1994-05-02",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 070 · 来源所载日期 1994-05-02；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "House and Garden"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "the-terrible-trio",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Terrible Trio",
+      "original": "The Terrible Trio",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1995",
+      "guideNumber": "071",
+      "productionCode": "",
+      "airDate": "1995-09-11",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 071 · 来源所载日期 1995-09-11；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Terrible Trio"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "harlequinade",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Harlequinade",
+      "original": "Harlequinade",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "072",
+      "productionCode": "",
+      "airDate": "1994-05-23",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 072 · 来源所载日期 1994-05-23；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Harlequinade"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "time-out-of-joint",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Time Out Of Joint",
+      "original": "Time Out Of Joint",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "073",
+      "productionCode": "",
+      "airDate": "1994-10-08",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 073 · 来源所载日期 1994-10-08；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Time Out Of Joint"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "catwalk",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Catwalk",
+      "original": "Catwalk",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1995",
+      "guideNumber": "074",
+      "productionCode": "",
+      "airDate": "1995-09-13",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 074 · 来源所载日期 1995-09-13；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Catwalk"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "bane",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Bane",
+      "original": "Bane",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "075",
+      "productionCode": "",
+      "airDate": "1994-09-10",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 075 · 来源所载日期 1994-09-10；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Bane"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "baby-doll",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Baby-Doll",
+      "original": "Baby-Doll",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "076",
+      "productionCode": "",
+      "airDate": "1994-10-01",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 076 · 来源所载日期 1994-10-01；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Baby-Doll"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "the-lion-and-the-unicorn",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "The Lion and the Unicorn",
+      "original": "The Lion and the Unicorn",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1995",
+      "guideNumber": "077",
+      "productionCode": "",
+      "airDate": "1995-09-15",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 077 · 来源所载日期 1995-09-15；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "The Lion and the Unicorn"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "showdown",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Showdown",
+      "original": "Showdown",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1995",
+      "guideNumber": "078",
+      "productionCode": "",
+      "airDate": "1995-09-12",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 078 · 来源所载日期 1995-09-12；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Showdown"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "riddler-s-reform",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Riddler's Reform",
+      "original": "Riddler's Reform",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "079",
+      "productionCode": "",
+      "airDate": "1994-09-24",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 079 · 来源所载日期 1994-09-24；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Riddler's Reform"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "second-chance",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Second Chance",
+      "original": "Second Chance",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "080",
+      "productionCode": "",
+      "airDate": "1994-09-17",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 080 · 来源所载日期 1994-09-17；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Second Chance"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "harley-s-holiday",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Harley's Holiday",
+      "original": "Harley's Holiday",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "081",
+      "productionCode": "",
+      "airDate": "1994-10-15",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 081 · 来源所载日期 1994-10-15；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Harley's Holiday"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "lock-up",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Lock-Up",
+      "original": "Lock-Up",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "082",
+      "productionCode": "",
+      "airDate": "1994-11-19",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 082 · 来源所载日期 1994-11-19；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Lock-Up"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "make-em-laugh",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Make 'Em Laugh",
+      "original": "Make 'Em Laugh",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "083",
+      "productionCode": "",
+      "airDate": "1994-11-05",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 083 · 来源所载日期 1994-11-05；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Make 'Em Laugh"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "deep-freeze",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Deep Freeze",
+      "original": "Deep Freeze",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "084",
+      "productionCode": "",
+      "airDate": "1994-11-26",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 084 · 来源所载日期 1994-11-26；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Deep Freeze"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    },
+    {
+      "id": "batgirl-returns",
+      "site": "tas",
+      "series": "BTAS",
+      "title": "Batgirl Returns",
+      "original": "Batgirl Returns",
+      "nameNote": "中文译名待核，暂显示英文原名",
+      "year": "1994",
+      "guideNumber": "085",
+      "productionCode": "",
+      "airDate": "1994-11-12",
+      "airRegion": "",
+      "mediaOrder": "",
+      "writer": "",
+      "director": "",
+      "animation": "",
+      "music": "",
+      "actor": "",
+      "actorLink": "",
+      "guests": "",
+      "status": "基础条目",
+      "summary": "BTAS基础目录 · 指南 085 · 来源所载日期 1994-11-12；单集内容与片尾待补。",
+      "tags": [
+        "BTAS",
+        "Batgirl Returns"
+      ],
+      "sections": [],
+      "spoiler": "",
+      "gaps": "仅有英文名称、辅助指南编号及来源所载日期；演职员与深度档案待核。",
+      "sources": [
+        "wf-guide-61-85"
+      ]
+    }
+  ],
+  "person": {
+    "id": "kevin-conroy",
+    "title": "凯文·康罗伊",
+    "original": "Kevin Conroy",
+    "years": "1955—2022",
+    "subtitle": "蝙蝠侠之声",
+    "intro": "一段声音，可以陪伴人们走过很长的夜。这里从康罗伊的本人讲述出发，连接动画、游戏，以及面具背后的表演者。",
+    "sections": [
+      {
+        "id": "life",
+        "title": "01 / 凯文其人",
+        "body": "康罗伊受过专业戏剧训练，拥有舞台与电视表演经历。1992年开播的《蝙蝠侠：动画系列》让他的声音成为许多人认识蝙蝠侠的入口；2022年，DC发布了他的纪念公告。"
+      },
+      {
+        "id": "voice",
+        "title": "02 / 声音的诞生",
+        "body": "在2014年DC访谈中，他回忆自己提出用不同声音区分布鲁斯和蝙蝠侠。他也强调，表演需要建立在人物的情绪与经历之上。Andrea Romano组织的集体录音，让演员得以相互回应。"
+      },
+      {
+        "id": "works",
+        "title": "03 / 动画与游戏",
+        "body": "下方作品入口依据本轮已建条目生成。它是可继续阅读的样板路线，不是康罗伊完整作品年表。《起源》等作品不因属于阿卡姆系列就自动列入。"
+      },
+      {
+        "id": "comparison",
+        "title": "04 / 一段声音，两种媒介",
+        "body": "本站策展：动画让声音跟随镜头和对白，游戏让声音伴随玩家的行动。由单集走向游戏，比较的是表演的节奏与角色经验；两个世界的连续性分别记录。"
+      },
+      {
+        "id": "finding",
+        "title": "05 / 本人讲述与共同创作",
+        "body": "《Finding Batman》由康罗伊讲述自身经历，J. Bone绘画，Aditya Bidikar担任文字设计。通过官方介绍进入原作，读到他如何把个人生活与表演联系起来。本站不转载完整漫画。"
+      },
+      {
+        "id": "memory",
+        "title": "06 / 留下的回声",
+        "body": "回到作品，是继续认识他的方式。官方纪念、本人访谈与表演回顾共同保留在来源区；影片与音频的片段、时间码及合作人员回忆将在核查后继续整理。"
+      }
+    ],
+    "sources": [
+      "dc-memorial",
+      "dc-interview",
+      "dc-performance",
+      "dc-finding",
+      "dc-city-history",
+      "dc-trilogy",
+      "rcs-origins-interview",
+      "wb-btas-blu"
+    ]
+  }
+}
