@@ -1,0 +1,617 @@
+{
+  "title": "TAS制作、角色声音与幽灵的面具资料补充",
+  "checked": "2026-10-02",
+  "sources": [
+    {
+      "id": "opening-print",
+      "title": "DC Shop：片头分镜商业复制品",
+      "url": "https://shop.dc.com/products/batman-the-animated-series-title-sequence-storyboard-mightyprint-wall-art",
+      "evidence": "官方商品说明与图片",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "twoface-print",
+      "title": "DC Shop：Two-Face标题卡组合装饰画",
+      "url": "https://shop.dc.com/products/batman-the-animated-series-two-face-framed-wall-art",
+      "evidence": "官方商品说明与图片",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "production-index",
+      "title": "The World’s Finest：主创提供的剧本、未制作故事与制作资料索引",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-unproduced/",
+      "evidence": "档案站来源声明；附Michael Reaves本人回忆",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "models-scan",
+      "title": "BTAS Models扫描合集",
+      "url": "https://dcanimated.com/WF/batman/btas/backstage/unproduced/02%20BTAS%20Models.pdf",
+      "evidence": "由上述档案索引链接的制作资料扫描",
+      "access": "下载完成、PDF解码41页；查看封面及前12页，不表示全册逐项核查",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "board-scan",
+      "title": "On Leather Wings Storyboard 01扫描",
+      "url": "https://dcanimated.com/WF/batman/btas/backstage/unproduced/25%20BTAS%20On%20Leather%20Wings%20Storyboard%2001.pdf",
+      "evidence": "由上述档案索引链接的分镜扫描",
+      "access": "下载完成、PDF解码6页，六页概览及节选目视核查",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "writers-bible",
+      "title": "BTAS Writing Bible现行图片目录",
+      "url": "https://dcanimated.com/btas/batman-the-animated-series-btas-writing-bible/",
+      "evidence": "档案站图像目录",
+      "access": "目录已读；未全文读取，旧PDF为迁移通知，不是指南正文",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "tnba-design",
+      "title": "TNBA造型变化比较入口",
+      "url": "https://dcanimated.com/tnba/tnba-backstage/tnba-backstage-designchanges/",
+      "evidence": "档案站比较索引",
+      "access": "入口已确认，尚未逐图研究",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "timm-book",
+      "title": "TwoMorrows：Modern Masters Volume 3 Bruce Timm",
+      "url": "https://twomorrows.com/index.php?cPath=70&main_page=product_info&products_id=250",
+      "evidence": "出版方书目",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "timm-preview",
+      "title": "Modern Masters Volume 3出版方公开样章",
+      "url": "https://www.twomorrows.com/media/MMV3TimmPreview.pdf",
+      "evidence": "出版方公开主创访谈样章",
+      "access": "网页解析30页；部分访谈已读，本地下载406，未取得完整书籍",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "phantasm-dc",
+      "title": "DC：Mask of the Phantasm (1993)",
+      "url": "https://www.dc.com/movies/batman-mask-of-the-phantasm-1993",
+      "evidence": "官方电影条目",
+      "access": "官方搜索摘要可读，直接访问403",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "phantasm-2014",
+      "title": "DC／Tim Beedle：Batman’s Feature-Length Phantasm，2014-02-19",
+      "url": "https://www.dc.com/blog/2014/02/19/batmans-feature-length-phantasm",
+      "evidence": "官方历史回顾",
+      "access": "浏览器正文已读；发行状态只代表2014年",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "burnett-interview",
+      "title": "Alan Burnett：Phantasm十五周年访谈",
+      "url": "https://dcanimated.com/btas/mask-of-the-phantasm/motpanniv-backstage/motpanniv-backstage-burnett/",
+      "evidence": "编剧本人访谈",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "phantasm-4k",
+      "title": "华纳2023-07-26《幽灵的面具》4K公告（Screen-Connections转载）",
+      "url": "https://screen-connections.com/2023/07/26/batman-mask-of-the-phantasm-4k-uhd-release-details/",
+      "evidence": "华纳发行新闻稿的媒体转载与包装图",
+      "access": "正文已读",
+      "checked": "2026-10-02",
+      "reused": false
+    },
+    {
+      "id": "wb-btas-blu",
+      "title": "Warner Bros. · BTAS 全集蓝光历史公告（WF转载）",
+      "url": "https://dcanimated.com/btas/btas-releases/btas-releases-blu/btas-blu-complete-series/btas-blu-complete-press-release/",
+      "type": "官方公告转载",
+      "scope": "109集盒装与两部另附电影、主要制作／配音人员；2018年早期公告预定日不当作最终上市日。",
+      "checked": "2026-10-02",
+      "reused": true
+    }
+  ],
+  "materials": [
+    {
+      "id": "batman-model",
+      "title": "Batman Main Models：蝙蝠侠三视图",
+      "kind": "制作设定扫描",
+      "sourceRefs": [
+        "models-scan",
+        "production-index"
+      ],
+      "text": "选取PDF第3页，纸面圈号2，编号406-006 BATMAN；印有MAR 15 1991与APR 04 1991 REVISED。保留扫描方向、标记和徽标；前者为纸面日期，后者为修订章，不推算整册完成时间。封面另标REVISED 7/3/91。",
+      "status": "已核节选；作者签名与原始收藏链未确认"
+    },
+    {
+      "id": "leather-board",
+      "title": "On Leather Wings：实验室段落分镜",
+      "kind": "制作分镜扫描",
+      "sourceRefs": [
+        "board-scan",
+        "production-index"
+      ],
+      "text": "本文件共6页，节选PDF第2页：纸面PAGE圈号1、SCENE 1–3，画面为蝙蝠侠与Langstrom实验室段落。文件首张却写page 18，不能把文件页序当成完整故事板页序。",
+      "status": "已核节选；没有与成片逐镜对齐，不称完整集分镜"
+    },
+    {
+      "id": "opening-board",
+      "title": "片头分镜展示图",
+      "kind": "商业复制品",
+      "sourceRefs": [
+        "opening-print"
+      ],
+      "text": "商品将画稿归于Bruce Timm／1992；图中展示片头布局，可用于片头构图研究。商品型号MP17240993。",
+      "status": "已取得商品图，不是制作原件扫描；年代与作者依据商品说明"
+    },
+    {
+      "id": "twoface-card",
+      "title": "Two-Face标题卡与双集画面组合",
+      "kind": "商业复制品",
+      "sourceRefs": [
+        "twoface-print"
+      ],
+      "text": "官方说明组合两集剧照与中心标题卡，型号WAF0002。可作为标题卡风格入口。",
+      "status": "已取得完整商品图；不等同单独原始标题卡或赛璐珞原件"
+    },
+    {
+      "id": "writing-bible",
+      "title": "编剧指南目录",
+      "kind": "制作规范入口",
+      "sourceRefs": [
+        "writers-bible"
+      ],
+      "text": "现行入口是分页面图片目录，标签有重复与缺号；旧下载PDF仅有迁移提示。",
+      "status": "只完成入口编目，未确认完整页数、作者分工及逐页文字"
+    },
+    {
+      "id": "midnight",
+      "title": "The Midnight Hour",
+      "kind": "未制作故事",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "Reaves回忆：第二季阶段写作，借鉴其1987年Teen Titans Spotlight #14的Nightwing故事；因已有足够蝙蝠侠／罗宾矛盾而取消。",
+      "status": "主创回忆，未读取全部原稿；不并入85集目录或DCAU事件线"
+    },
+    {
+      "id": "mindgames",
+      "title": "Mind Games",
+      "kind": "未制作故事",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "Reaves回忆与Len Wein共同构思，为The Strange Secret of Bruce Wayne的后续想法，涉及失忆的Bruce与Dick；未制作。",
+      "status": "主创回忆，未读取全部原稿；不并入85集目录或DCAU事件线"
+    },
+    {
+      "id": "vigil",
+      "title": "Vigil",
+      "kind": "未制作故事",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "Reaves称与Pasko于1993年5月发展构想，未到剧本阶段；他已不记得停止原因，对电视网顾虑的解释属于猜测。",
+      "status": "主创回忆，未读取全部原稿；不并入85集目录或DCAU事件线"
+    },
+    {
+      "id": "masks",
+      "title": "Masks",
+      "kind": "剧本／大纲目录",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "索引列大纲、不完整终稿与多份扫描；仅记录题名，不以草稿代替电影最终剧本。",
+      "status": "目录已核；正文与最终版本待核"
+    },
+    {
+      "id": "clay",
+      "title": "Feat of Clay Part 1",
+      "kind": "剧本／大纲目录",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "索引提供大纲入口；不据此推定最终画面、配音或原稿完整性。",
+      "status": "目录已核；正文与最终版本待核"
+    },
+    {
+      "id": "invisible",
+      "title": "See No Evil",
+      "kind": "剧本／大纲目录",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "索引列beat outline、一稿与二稿，可以建立版本比较；尚未读取具体改写。",
+      "status": "目录已核；正文与最终版本待核"
+    },
+    {
+      "id": "other-drafts",
+      "title": "Off Balance／The Terrible Trio",
+      "kind": "剧本／大纲目录",
+      "sourceRefs": [
+        "production-index"
+      ],
+      "text": "索引列剧本与大纲入口；后续需逐页读稿与成片比较。",
+      "status": "目录已核；正文与最终版本待核"
+    },
+    {
+      "id": "timm-masters",
+      "title": "Modern Masters Volume 3: Bruce Timm",
+      "kind": "访谈书目",
+      "sourceRefs": [
+        "timm-book",
+        "timm-preview"
+      ],
+      "text": "编者Eric Nolen-Weathington；120页，ISBN 9781893905306。公开样章PDF第13页讨论Baby-Doll与心理设计，第15页回忆Trial一度作为长片想法，但认为不足以撑足长片；Timm对Phantasm构思时间的说法含推测。",
+      "status": "书目与部分公开访谈已读；非全书研究，出版日期待核"
+    },
+    {
+      "id": "tnba-comparison",
+      "title": "BTAS→TNBA角色造型比较",
+      "kind": "比较入口",
+      "sourceRefs": [
+        "tnba-design"
+      ],
+      "text": "独立保存后续系列造型比较入口；可以研究轮廓、色块、服装，不把差异自动解释成剧情内换装或某位画师个人决定。",
+      "status": "尚未取得可单独编目的比较图片"
+    }
+  ],
+  "roles": [
+    {
+      "id": "role-1",
+      "characterAsListed": "Batman",
+      "englishActorAsListed": "Kevin Conroy",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-2",
+      "characterAsListed": "Alfred",
+      "englishActorAsListed": "Efrem Zimbalist Jr.",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-3",
+      "characterAsListed": "Commissioner Gordon",
+      "englishActorAsListed": "Robert Hastings",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-4",
+      "characterAsListed": "Robin",
+      "englishActorAsListed": "Loren Lester",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-5",
+      "characterAsListed": "Harvey Bullock",
+      "englishActorAsListed": "Robert Costanzo",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-6",
+      "characterAsListed": "Joker",
+      "englishActorAsListed": "Mark Hamill",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-7",
+      "characterAsListed": "Harvey Dent",
+      "englishActorAsListed": "Richard Moll",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-8",
+      "characterAsListed": "Catwoman",
+      "englishActorAsListed": "Adrienne Barbeau",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-9",
+      "characterAsListed": "Harley Quinn",
+      "englishActorAsListed": "Arleen Sorkin",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-10",
+      "characterAsListed": "Penguin",
+      "englishActorAsListed": "Paul Williams",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-11",
+      "characterAsListed": "Barbara Gordon",
+      "englishActorAsListed": "Melissa Gilbert",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-12",
+      "characterAsListed": "Clayface",
+      "englishActorAsListed": "Ron Perlman",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-13",
+      "characterAsListed": "Dr. Victor Fries",
+      "englishActorAsListed": "Michael Ansara",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-14",
+      "characterAsListed": "Ra’s al Ghul",
+      "englishActorAsListed": "David Warner",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    },
+    {
+      "id": "role-15",
+      "characterAsListed": "Edward Nygma",
+      "englishActorAsListed": "John Glover",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "华纳合辑公告列名；非逐集片尾核对，不自动套用TNBA配音",
+      "episodeCreditsVerified": false
+    }
+  ],
+  "film": {
+    "id": "mask-of-the-phantasm",
+    "title": "Batman: Mask of the Phantasm",
+    "originalTheatricalDate": "1993-12-25",
+    "directors": [
+      "Eric Radomski",
+      "Bruce Timm"
+    ],
+    "story": "Alan Burnett",
+    "screenplay": [
+      "Alan Burnett",
+      "Paul Dini",
+      "Martin Pasko",
+      "Michael Reaves"
+    ],
+    "runtimeMinutesAs2023Edition": 76,
+    "englishLeadCast": {
+      "Batman": "Kevin Conroy",
+      "Andrea Beaumont": "Dana Delany",
+      "Joker": "Mark Hamill"
+    },
+    "sourceRefs": [
+      "phantasm-dc",
+      "phantasm-4k"
+    ],
+    "spoilerIdentityIncluded": false,
+    "gaps": "地区首映、原版片尾逐项核对、1993院线材料与电影漫画改编内页待补。DC页面Delaney拼写按华纳Delany列名处理。"
+  },
+  "edition": {
+    "id": "phantasm-4k-2023",
+    "workRef": "mask-of-the-phantasm",
+    "announcementDate": "2023-07-26",
+    "announcedReleaseDate": "2023-09-12",
+    "aspectRatio": "1.85:1",
+    "restoration": "公告称自1993年原始剪辑摄影底片作4K扫描，保留胶片颗粒与动画素材痕迹",
+    "extrasAnnounced": [
+      "Kevin Conroy: I Am the Knight纪念短片",
+      "一集Justice League Unlimited，公告未列片名"
+    ],
+    "sourceRefs": [
+      "phantasm-4k"
+    ],
+    "status": "历史发行公告与包装图；未观看修复版及附录，不代表已核当前销售状态"
+  },
+  "notes": [
+    {
+      "id": "burnett-origin",
+      "title": "电影创作：起源与爱情",
+      "text": "Burnett回忆希望以爱情故事从另一角度探索蝙蝠侠起源；先写详细treatment与剧本前40页，Pasko接墓地段落，Dini承担小丑引入。此口述并非完整四位编剧逐场分工表。",
+      "sourceRefs": [
+        "burnett-interview"
+      ],
+      "status": "主创回忆；本文不揭示面具人物身份"
+    },
+    {
+      "id": "burnett-rating",
+      "title": "PG尺度与院线决定",
+      "text": "Burnett回忆为PG尺度间接处理暴力；他将院线决定与Radomski的电脑制作片头联系起来，但以“据我所知”表述。访谈用DVD谈1993阶段，不能据此认定1993年已有DVD发行。",
+      "sourceRefs": [
+        "burnett-interview"
+      ],
+      "status": "口述历史；管理层决定与历史载体需另核"
+    },
+    {
+      "id": "historical-release",
+      "title": "回顾文章与版本时间",
+      "text": "2014年DC回顾中的“尚无蓝光”属于当时状态；2023年华纳已宣布4K版。原片上映与修复版发行分开，包装图片只标2023版，不冒充1993海报。",
+      "sourceRefs": [
+        "phantasm-2014",
+        "phantasm-4k"
+      ],
+      "status": "历史时间层次已区分"
+    },
+    {
+      "id": "voice-scope",
+      "title": "角色声音与配音导演",
+      "text": "15条演员记录取自合辑新闻稿，不替代逐集片尾。公告另列Andrea Romano为casting/dialogue director；Barbara与Robin的配音不能直接套用到TNBA。",
+      "sourceRefs": [
+        "wb-btas-blu"
+      ],
+      "status": "作品层面确认；逐集确认待补"
+    }
+  ],
+  "images": [
+    {
+      "id": "image-1",
+      "title": "片头分镜商业复制品",
+      "file": "tas-production-opening-storyboard.jpg",
+      "originalUrl": "https://shop.dc.com/cdn/shop/files/MP17240993_fc6cd7e5-b770-480d-a266-43425a1fb444.jpg?v=1738598531&width=1946",
+      "sourceRefs": [
+        "opening-print"
+      ],
+      "kind": "商品宣传图",
+      "width": 1000,
+      "height": 1000,
+      "sha256": "751611f9edbe0ff1ac69248ea841fda9fcf1f8ebdd52b50d57c7f804295e1af6",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": null,
+      "scanArtistVerified": false
+    },
+    {
+      "id": "image-2",
+      "title": "Two-Face标题卡组合装饰画",
+      "file": "tas-production-two-face-title.jpg",
+      "originalUrl": "https://cdn.shopify.com/s/files/1/0268/8129/4530/files/WAF0002_frame_3ec3d749-fe8d-4029-8dfb-62972eaaff73.jpg?v=1738599159",
+      "sourceRefs": [
+        "twoface-print"
+      ],
+      "kind": "商品宣传图",
+      "width": 1000,
+      "height": 1000,
+      "sha256": "05fcf9e9e5364632b1bc33ae9db2b82bb59e9dc143e2368ac13b190922018bcb",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": null,
+      "scanArtistVerified": false
+    },
+    {
+      "id": "image-3",
+      "title": "2023《幽灵的面具》4K版正面包装",
+      "file": "tas-production-phantasm-4k-front.jpg",
+      "originalUrl": "https://i0.wp.com/screen-connections.com/wp-content/uploads/2023/07/Batman.Mask_.Of_.The_.Phantasm-4K.Ultra_.HD_.Cover_.jpg?fit=1593%2C2131&ssl=1",
+      "sourceRefs": [
+        "phantasm-4k"
+      ],
+      "kind": "发行包装图",
+      "width": 1593,
+      "height": 2131,
+      "sha256": "70f94da1cebf2681c5cfa279b7478222a85e27b0d51920f2c66d3630bb120d43",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": null,
+      "scanArtistVerified": false
+    },
+    {
+      "id": "image-4",
+      "title": "2023《幽灵的面具》4K版背面包装",
+      "file": "tas-production-phantasm-4k-back.jpg",
+      "originalUrl": "https://i0.wp.com/screen-connections.com/wp-content/uploads/2023/07/Batman.Mask_.Of_.The_.Phantasm-4K.Ultra_.HD_.Cover-Back.jpg?fit=1186%2C1500&ssl=1",
+      "sourceRefs": [
+        "phantasm-4k"
+      ],
+      "kind": "发行包装图",
+      "width": 1186,
+      "height": 1500,
+      "sha256": "4556d2a881faeac6ff1abd84200944f4dbd5b90ad465f23a03f7af42aa3e802d",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": null,
+      "scanArtistVerified": false
+    },
+    {
+      "id": "image-5",
+      "title": "Batman模型扫描：PDF第3页／纸面圈号2",
+      "file": "tas-production-batman-model-turnaround.png",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/backstage/unproduced/02%20BTAS%20Models.pdf",
+      "sourceRefs": [
+        "models-scan"
+      ],
+      "kind": "制作设定扫描节选",
+      "width": 918,
+      "height": 1188,
+      "sha256": "f20d36ade382708f8528d849ce9bb15a223c9a9b0f5428cdddc6ee0646d5416f",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": 3,
+      "scanArtistVerified": false
+    },
+    {
+      "id": "image-6",
+      "title": "On Leather Wings：PDF第2页／纸面PAGE 1",
+      "file": "tas-production-on-leather-wings-storyboard.png",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/backstage/unproduced/25%20BTAS%20On%20Leather%20Wings%20Storyboard%2001.pdf",
+      "sourceRefs": [
+        "board-scan"
+      ],
+      "kind": "制作分镜扫描节选",
+      "width": 1512,
+      "height": 918,
+      "sha256": "7f7b127806d9ee5e148fb3cd36fe73516550484d258294f96fec41770d96e5e7",
+      "rights": "Batman及相关形象：DC／Warner Bros.；商品复制品由Trend Setters提供。公开可见不等于开放授权；保存原标记，不去水印。",
+      "pdfPageOneBased": 2,
+      "scanArtistVerified": false
+    }
+  ],
+  "gaps": [
+    "109集片尾、制作代码和地区首播未逐项核对",
+    "编剧指南与剧本只完成目录编目，未全文研究",
+    "扫描节选尚未与成片镜头对齐；原始收藏链未确认",
+    "1993原始海报、电影改编漫画内页、各集原始标题卡待补",
+    "披风斗士保持独立连续性，现代延续是编辑比较角度"
+  ]
+}
