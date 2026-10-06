@@ -42,12 +42,13 @@
   sound.setAttribute('aria-pressed', String(soundEnabled));
   sound.textContent = soundEnabled ? '转场音效：开' : '转场音效：关';
   [play, music, sound].forEach(button => { button.hidden = false; });
-  video.addEventListener('play', () => { play.textContent = '暂停开场'; });
-  video.addEventListener('pause', () => { play.textContent = '播放开场'; });
+  video.addEventListener('play', () => { play.textContent = '暂停开场'; document.body.classList.remove('intro-motion-paused'); });
+  video.addEventListener('pause', () => { play.textContent = '播放开场'; document.body.classList.add('intro-motion-paused'); });
   video.addEventListener('error', () => {
     status.textContent = '开场暂时无法播放，仍可点击进入档案。';
   });
   if (!motion.matches) safePlay(video);
+  else document.body.classList.add('intro-motion-paused');
   play.addEventListener('click', () => {
     if (video.paused) {
       safePlay(video);

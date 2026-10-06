@@ -14,7 +14,7 @@ def arkham_menu_background():
         ("arkham-city-03.jpg", "《阿卡姆之城》官方商店截图"),
     ]
     images = [{"src": f"/assets/media/{image}", "caption": caption} for image, caption in slides]
-    return f'<div class="game-scene menu-backdrop" aria-hidden="true" data-slides="{esc(json.dumps(images, ensure_ascii=False))}"><img class="menu-background-base" src="{images[0]["src"]}" alt=""><img class="menu-background-next" alt=""></div>'
+    return f'<div class="game-scene menu-backdrop" aria-hidden="true" data-slides="{esc(json.dumps(images, ensure_ascii=False))}"><img class="menu-background-base" src="{images[0]["src"]}" alt=""><img class="menu-background-next" alt=""></div><div class="game-fog" aria-hidden="true"></div><div class="game-rain" aria-hidden="true"></div>'
 
 
 def arkham_menu(heading="h1"):
@@ -35,7 +35,7 @@ def arkham_catalog(data):
     rows = []
     for item in data["games"]:
         rows.append(f'<a class="arkham-game-card" href="{route(item)}"><div class="arkham-game-image"><img src="/assets/media/{item["id"]}-01.jpg" width="1280" height="720" alt="{esc(item["title"])}官方商店截图"><span>{esc(item["year"])}</span></div><div class="arkham-game-copy"><p class="game-eyebrow">{esc(item["original"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["summary"])}</p><div class="arkham-game-meta"><span>{esc(item["developer"])}</span><span>{esc(item["date"])}</span></div></div></a>')
-    body = '<section class="section arkham-game-catalog"><a class="breadcrumb" href="/arkham/menu/">返回主菜单</a><div class="arkham-catalog-heading"><div><p class="game-eyebrow">CORE GAMES / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>按原作年份排列。<br>移植与合集不计为新故事。</p></div><div class="arkham-games-grid">'+''.join(rows)+'</div></section>'
+    body = '<section class="section arkham-game-catalog"><a class="breadcrumb menu-return" href="/arkham/menu/" aria-label="返回主菜单"><kbd>Esc</kbd><span>MAIN MENU</span></a><div class="arkham-catalog-heading"><div><p class="game-eyebrow">CORE GAMES / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>按原作年份排列。<br>移植与合集不计为新故事。</p></div><div class="arkham-games-grid">'+''.join(rows)+'</div></section>'
     return shell(data, "arkham", "作品档案", body, "catalog")
 
 
@@ -45,4 +45,4 @@ def arkham_screen(data, menu=False):
         body += '<section id="intro-menu" hidden>' + arkham_menu("h2") + '</section>'
         return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>阿卡姆档案 · 启动画面</title>{stylesheets("arkham")}{arkham_scripts()}<script src="/assets/arkham-intro.js" defer></script></head><body class="arkham game-screen arkham-intro"><a class="skip" href="#main">跳到正文</a>{arkham_menu_background()}<main id="main">{body}</main>{arkham_effects()}<a class="screen-home" href="https://www.batcavecn.com/">BATCAVECN ↗</a><p class="screen-note">非商业影迷档案 · 建设样板</p></body></html>'
     body = arkham_menu()
-    return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>阿卡姆档案 · {"主菜单" if menu else "启动画面"}</title>{stylesheets("arkham")}{arkham_scripts()}</head><body class="arkham game-screen {"menu-screen" if menu else "start-screen"}"><a class="skip" href="#main">跳到正文</a>{arkham_menu_background()}<div class="game-fog" aria-hidden="true"></div><div class="game-rain" aria-hidden="true"></div><main id="main">{body}</main>{arkham_effects()}<a class="screen-home" href="https://www.batcavecn.com/">BATCAVECN ↗</a><p class="screen-note">非商业影迷档案 · 建设样板</p></body></html>'
+    return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>阿卡姆档案 · {"主菜单" if menu else "启动画面"}</title>{stylesheets("arkham")}{arkham_scripts()}</head><body class="arkham game-screen {"menu-screen" if menu else "start-screen"}"><a class="skip" href="#main">跳到正文</a>{arkham_menu_background()}<main id="main">{body}</main>{arkham_effects()}<a class="screen-home" href="https://www.batcavecn.com/">BATCAVECN ↗</a><p class="screen-note">非商业影迷档案 · 建设样板</p></body></html>'

@@ -56,5 +56,10 @@ def shell(data, site, title, body, active=""):
     footer_links = '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>' if site == "arkham" else '<a href="/arkham/">阿卡姆</a><a href="/tas/">TAS</a><a href="/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>'
     scripts = arkham_scripts() if site == "arkham" else '<script src="/assets/app.js" defer></script>'
     effects = arkham_effects() if site == "arkham" else ''
-    nav_html = "".join(f'<a href="{url}" {"aria-current=page" if key == active else ""}>{label}</a>' for label, url, key in nav)
+    nav_html = ""
+    for label, url, key in nav:
+        menu_return = site == "arkham" and key == "home"
+        attributes = 'class="menu-return" aria-label="返回主菜单" title="Esc 返回主菜单"' if menu_return else ""
+        text = '<kbd>Esc</kbd><span>MAIN MENU</span>' if menu_return else label
+        nav_html += f'<a href="{url}" {"aria-current=page" if key == active else ""} {attributes}>{text}</a>' if site == "arkham" else f'<a href="{url}" {"aria-current=page" if key == active else ""}>{label}</a>'
     return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else "people/kevin-conroy/"}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(info["name"])}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">本地建设样板 · 更新 {esc(data["updated"])} · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'

@@ -154,9 +154,16 @@ if (start) document.addEventListener('keydown', event => {
   if (event.key === 'Enter' && event.target === document.body) start.click();
 });
 function selectArkhamMenu(tile) {
+  const changed = !tile.classList.contains('selected');
   document.querySelectorAll('.menu-tile').forEach(item => item.classList.toggle('selected', item === tile));
   document.querySelector('#menu-title').textContent = tile.dataset.title;
   document.querySelector('#menu-description').textContent = tile.dataset.description;
+  const preview = document.querySelector('.menu-preview');
+  if (changed && preview) {
+    preview.classList.remove('menu-preview-refresh');
+    void preview.offsetWidth;
+    preview.classList.add('menu-preview-refresh');
+  }
   window.ArkhamMenuBackground?.select({src: tile.dataset.image, caption: tile.dataset.caption});
 }
 function initialiseArkhamMenu() {
