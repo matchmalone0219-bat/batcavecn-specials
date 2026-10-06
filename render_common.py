@@ -32,14 +32,14 @@ def cards(items, catalog=False):
         title = item["original"].replace("Batman: ", "")
         fields = ""
         if catalog and item["site"] == "tas":
-            fields = f'<p class="fine">指南编号 {esc(item["guideNumber"] or "待核")} · 日期 {esc(item["airDate"] or "待核")}<br>原始制作代码 / 地区 / 影音序号：待核</p>'
-        rendered.append(f'<a class="card" id="{esc(item["id"])}" href="{route(item)}"><div class="card-art art-{esc(item["id"])}" aria-hidden="true"><span>{esc(item["year"] or item.get("series", ""))}</span><strong>{esc(title)}</strong></div><div class="card-copy"><span class="label">{esc(item["status"])} · {esc(item.get("series", "CORE GAME"))}</span><h3>{esc(item["title"])}</h3><p>{esc(item["summary"])}</p>{fields}</div></a>' if item["status"] == "详情样板" else f'<article class="card basic" id="{esc(item["id"])}"><div class="card-art art-{esc(item["id"])}" aria-hidden="true"><span>{esc(item["year"] or item.get("series", ""))}</span><strong>{esc(title)}</strong></div><div class="card-copy"><span class="label">基础条目 · {esc(item.get("series", "CORE GAME"))}</span><h3>{esc(item["title"])}</h3><p>{esc(item["summary"])}</p>{fields}<p class="fine">{esc(item["gaps"])}</p></div></article>')
+            fields = f'<p class="fine">指南编号 {esc(item["guideNumber"] or "待核")} · 日期 {esc(item["airDate"] or "待核")}</p>'
+        rendered.append(f'<a class="card" id="{esc(item["id"])}" href="{route(item)}"><div class="card-art art-{esc(item["id"])}" aria-hidden="true"><span>{esc(item["year"] or item.get("series", ""))}</span><strong>{esc(title)}</strong></div><div class="card-copy"><span class="label">{"分集档案" if item["site"] == "tas" else "作品档案"} · {esc(item.get("series", "CORE GAME"))}</span><h3>{esc(item["title"])}</h3><p>{esc(item["summary"])}</p>{fields}</div></a>' if item["status"] == "详情样板" else f'<article class="card basic" id="{esc(item["id"])}"><div class="card-art art-{esc(item["id"])}" aria-hidden="true"><span>{esc(item["year"] or item.get("series", ""))}</span><strong>{esc(title)}</strong></div><div class="card-copy"><span class="label">基础条目 · {esc(item.get("series", "CORE GAME"))}</span><h3>{esc(item["title"])}</h3><p>{esc(item["summary"])}</p>{fields}</div></article>')
     return "".join(rendered)
 
 
 def sources(data, ids=None):
     rows = [s for s in data["sources"] if ids is None or s["id"] in ids]
-    return '<div class="source-list">' + "".join(f'<article><span class="label">{esc(s["type"])} · 核查 {esc(s["checked"])}</span><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3><p>{esc(s["scope"])}</p></article>' for s in rows) + '</div>'
+    return '<div class="source-list">' + "".join(f'<article><span class="label">{esc(s["type"])}</span><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3><p>{esc(s["scope"])}</p></article>' for s in rows) + '</div>'
 
 
 def section_header(number, english, title, text=""):
@@ -60,7 +60,7 @@ def episode_catalog(items):
         title = f'<strong>{esc(item["original"])}</strong>'
         if item["status"] == "详情样板":
             title = f'<a href="{route(item)}">{title}<span> · {esc(item["title"])}</span></a>'
-        rows.append(f'<li id="{esc(item["id"])}"><span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {esc(item["status"])} · {esc(item["nameNote"])}</p></div></li>')
+        rows.append(f'<li id="{esc(item["id"])}"><span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if item["status"] == "详情样板" else "分集条目"} · {esc(item["nameNote"])}</p></div></li>')
     return '<ol class="episode-register" aria-label="分集基础目录">' + "".join(rows) + '</ol>'
 
 

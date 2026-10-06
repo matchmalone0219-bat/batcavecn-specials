@@ -2,9 +2,9 @@
   "updated": "2026-10-03",
   "sites": {
     "arkham": {
-      "name": "阿卡姆档案",
-      "english": "ARKHAM ARCHIVES",
-      "eyebrow": "BATCAVECN / INTERACTIVE GOTHAM",
+      "name": "Protocol Arkham",
+      "english": "PROTOCOL ARKHAM",
+      "eyebrow": "BATCAVECN // PROTOCOL ARKHAM",
       "title": "进入哥谭。\n成为蝙蝠侠。",
       "intro": "从阿卡姆岛到整座哥谭，循着作品、人物与制作故事，重新走进这个可以亲自探索的蝙蝠侠世界。",
       "prologue": "游戏把读者变成了行动者。调查现场、隐入阴影、掠过屋顶：这份档案从四部核心作品出发，逐步记录阿卡姆世界的叙事与创作。",
@@ -12,9 +12,9 @@
       "conroyText": "面具后的声音，把屏幕里的英雄带到玩家身边。从游戏出发，回到凯文·康罗伊的动画表演与本人讲述。"
     },
     "tas": {
-      "name": "TAS 动画档案",
-      "english": "THE ANIMATED ARCHIVE",
-      "eyebrow": "BATCAVECN / ANIMATED GOTHAM",
+      "name": "Dark Deco · TAS 动画档案",
+      "english": "DARK DECO",
+      "eyebrow": "BATCAVECN / DARK DECO",
       "title": "当夜色降临，\n故事开始。",
       "intro": "一座用阴影、线条与声音构成的哥谭。以分集为入口，寻找蝙蝠侠动画里的角色、创作与记忆。",
       "prologue": "有时，一个短篇就足以打开一个人的内心。这份档案把单集放回创作与表演的语境，循着故事去看城市，也去看面具之下的人。",
@@ -28,7 +28,7 @@
       "title": "DC · Batman: Arkham Asylum (2009)",
       "url": "https://www.dc.com/games/batman-arkham-asylum-2009",
       "type": "官方作品资料",
-      "scope": "作品名、开发与发行、官方发售日、平台；角色通用推荐列表不作完整出场证据。",
+      "scope": "作品名称、开发与发行、发售日期及平台。",
       "checked": "2026-10-02"
     },
     {
@@ -84,7 +84,7 @@
       "title": "The World’s Finest · Nothing to Fear",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/nothingtofear/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -92,7 +92,7 @@
       "title": "The World’s Finest · Episode Guide 01–30",
       "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-01-30/",
       "type": "分集索引辅助来源",
-      "scope": "该指南第001–030条的英文名称、指南编号与来源所载日期；不代填完整制作代码、播出地区或影音序号。",
+      "scope": "指南001–030条的英文名称、编号与所载播出日期。",
       "checked": "2026-10-02"
     },
     {
@@ -100,7 +100,7 @@
       "title": "DC · Arkham City 2011 首发公告",
       "url": "https://www.dc.com/blog/2011/03/11/batman-arkham-city-tm-launches-in-stores-beginning-october-18",
       "type": "官方历史公告",
-      "scope": "开发、发行及原版地区发售计划；早期公告不用于证明后来调整的PC实际发售日。",
+      "scope": "开发、发行及早期地区发售计划。",
       "checked": "2026-10-02"
     },
     {
@@ -116,7 +116,7 @@
       "title": "DC · The Arkham Trilogy Defined what the Joker Means to Batman",
       "url": "https://www.dc.com/blog/2023/12/07/the-arkham-trilogy-defined-what-the-joker-means-to-batman",
       "type": "官方站刊编辑文章 · 含剧透",
-      "scope": "三部Rocksteady游戏的演员合作、前两作Dini故事创作及与动画连续性的区分；评价归作者，不作官方设定声明。",
+      "scope": "三部Rocksteady游戏的演员合作、前两作Dini故事创作及与动画连续性的区分。",
       "checked": "2026-10-02"
     },
     {
@@ -132,7 +132,7 @@
       "title": "Steam · Arkham Asylum GOTY",
       "url": "https://store.steampowered.com/app/35140/Batman_Arkham_Asylum_Game_of_the_Year_Edition/",
       "type": "发行商商店介绍",
-      "scope": "自由流战斗、侦探工具、潜行与GOTY四张挑战地图；2010-03-26只作为此商店版本日期。",
+      "scope": "Steam GOTY版：自由流战斗、侦探工具、潜行与四张挑战地图；商店版本日期2010-03-26。",
       "checked": "2026-10-02"
     },
     {
@@ -140,7 +140,7 @@
       "title": "Steam · Arkham City GOTY",
       "url": "https://store.steampowered.com/app/200260/Batman_Arkham_City__Game_of_the_Year_Edition/",
       "type": "发行商商店介绍",
-      "scope": "GOTY所含六类DLC及可操作角色；2012-09-07只作为此商店版本日期。",
+      "scope": "Steam GOTY版：六类DLC、可操作角色与商店版本日期2012-09-07。",
       "checked": "2026-10-02"
     },
     {
@@ -156,7 +156,7 @@
       "title": "The World’s Finest · Episode Guide 31–60",
       "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-31-60/",
       "type": "分集索引辅助来源",
-      "scope": "该指南第031–060条的英文名称、指南编号及来源所载日期；不代填完整制作代码或影音编号。",
+      "scope": "指南031–060条的英文名称、编号与所载播出日期。",
       "checked": "2026-10-02"
     },
     {
@@ -164,7 +164,7 @@
       "title": "The World’s Finest · Episode Guide 61–85 + Movies",
       "url": "https://dcanimated.com/btas/btas-guides/btas-episode-guide-61-85/",
       "type": "分集索引辅助来源",
-      "scope": "仅提取第061–085电视条目；该页电影不并入BTAS85条目录。",
+      "scope": "指南061–085电视条目的英文名称、编号与所载播出日期。",
       "checked": "2026-10-02"
     },
     {
@@ -172,7 +172,7 @@
       "title": "The World’s Finest · Perchance to Dream",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/perchancetodream/",
       "type": "分集署名辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -180,7 +180,7 @@
       "title": "The World’s Finest · I Am the Night",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/iamthenight/",
       "type": "分集署名辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -188,7 +188,7 @@
       "title": "Warner Bros. · BTAS 全集蓝光历史公告（WF转载）",
       "url": "https://dcanimated.com/btas/btas-releases/btas-releases-blu/btas-blu-complete-series/btas-blu-complete-press-release/",
       "type": "官方公告转载",
-      "scope": "109集盒装与两部另附电影、主要制作／配音人员；2018年早期公告预定日不当作最终上市日。",
+      "scope": "2018年蓝光盒装公告：109集电视动画、两部电影及主要制作／配音人员。",
       "checked": "2026-10-02"
     },
     {
@@ -196,7 +196,7 @@
       "title": "DC：披风斗士的创作与角色重释",
       "url": "https://www.dc.com/blog/2024/08/02/batman-caped-crusader-builds-on-all-that-s-come-before",
       "type": "DC官方介绍",
-      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音；不作为DCAU连续性证明。",
+      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音。",
       "checked": "2026-10-02"
     },
     {
@@ -204,7 +204,7 @@
       "title": "DC：一代动画观众的回望",
       "url": "https://www.dc.com/blog/2024/08/06/batman-caped-crusader-is-a-full-circle-moment-for-a-generation-of-fans",
       "type": "DC网站评论",
-      "scope": "主创背景及作者对BTAS美术传统的评论；审美观点不视为官方连续性声明。",
+      "scope": "主创背景与BTAS美术传统评论。",
       "checked": "2026-10-02"
     },
     {
@@ -212,7 +212,7 @@
       "title": "Amazon：披风斗士观看与主创信息",
       "url": "https://www.aboutamazon.com/news/entertainment/batman-caped-crusader-release-date-trailer-prime-video",
       "type": "平台官方介绍",
-      "scope": "核查当日页面为第二季更新：10集已上线、执行制片人与主要演员；保留更新口径，不用旧标题推断只有第一季。",
+      "scope": "第二季更新：10集、执行制片人与主要演员。",
       "checked": "2026-10-02"
     },
     {
@@ -220,7 +220,7 @@
       "title": "Prime Video：披风斗士第一季节目单",
       "url": "https://www.primevideo.com/detail/0LNIBWJBQOUDUHI58KYUJ92R5T",
       "type": "平台节目单",
-      "scope": "第一季10集英文原名和显示顺序；第7集页面日期与其他集不同，未采作统一首播依据。",
+      "scope": "第一季10集英文原名与平台节目单顺序。",
       "checked": "2026-10-02"
     },
     {
@@ -228,7 +228,7 @@
       "title": "The World’s Finest · 冰之心",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -236,7 +236,7 @@
       "title": "The World’s Finest · 小心灰色幽灵",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/bewarethegrayghost/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -244,7 +244,7 @@
       "title": "The World’s Finest · 小丑的人情",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -252,7 +252,7 @@
       "title": "The World’s Finest · 差一点就抓到他",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/almostgotim/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -260,7 +260,7 @@
       "title": "The World’s Finest · 双面人·上篇",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep1/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -268,7 +268,7 @@
       "title": "The World’s Finest · 双面人·下篇",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep2/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -276,7 +276,7 @@
       "title": "The World’s Finest · 罗宾的清算·上篇",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp1/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -284,7 +284,7 @@
       "title": "The World’s Finest · 罗宾的清算·下篇",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp2/",
       "type": "分集资料辅助来源",
-      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名；页面评论不作为本站分析引语。辅助编号与完整制作代码分开，署名仍待片尾交叉核查。",
+      "scope": "分集剧情概要与编剧／导演／音乐／动画及部分配音署名。",
       "checked": "2026-10-02"
     },
     {
@@ -292,7 +292,7 @@
       "title": "The World’s Finest · TNBA 24集指南",
       "url": "https://dcanimated.com/tnba/tnba-guides/tnba-guides-episode-guide-01-26/",
       "type": "分集索引辅助来源",
-      "scope": "正文24条英文名、辅助指南编号、来源所载日期；网址／标题中的01–26不作为集数。电影与跨作客串另编。",
+      "scope": "TNBA的24条英文名称、指南编号与所载播出日期。",
       "checked": "2026-10-02"
     },
     {
@@ -300,7 +300,7 @@
       "title": "Prime Video · 披风斗士第二季节目单",
       "url": "https://www.primevideo.com/detail/0M8A366P4I025R61REB4E3FVRE",
       "type": "平台节目单",
-      "scope": "第二季10集英文原名及平台顺序；页面日期与Amazon公告相差一天，暂不填逐集首播日。",
+      "scope": "第二季10集英文原名与平台节目单顺序。",
       "checked": "2026-10-02"
     },
     {
@@ -308,7 +308,7 @@
       "title": "Steam · Arkham Origins",
       "url": "https://store.steampowered.com/app/209000/",
       "type": "发行商商店",
-      "scope": "发行商公开商店与公开资料接口：截图、DLC目录；商店日期为对应PC商品，不代填各地区首发。",
+      "scope": "PC商店条目与公开资料接口：截图、DLC目录及对应商店版本日期。",
       "checked": "2026-10-02"
     },
     {
@@ -316,7 +316,7 @@
       "title": "Steam · Arkham Knight",
       "url": "https://store.steampowered.com/app/208650/",
       "type": "发行商商店",
-      "scope": "发行商公开商店与公开资料接口：截图、DLC目录；商店日期为对应PC商品，不代填各地区首发。",
+      "scope": "PC商店条目与公开资料接口：截图、DLC目录及对应商店版本日期。",
       "checked": "2026-10-02"
     },
     {
@@ -324,7 +324,7 @@
       "title": "Batman™: Arkham Origins - Cold, Cold Heart",
       "url": "https://store.steampowered.com/app/277830/",
       "type": "发行商商店",
-      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "scope": "商品名称、所属游戏、DLC类型。",
       "checked": "2026-10-02"
     },
     {
@@ -332,7 +332,7 @@
       "title": "Batman™: Arkham Knight - Harley Quinn Story Pack",
       "url": "https://store.steampowered.com/app/313100/",
       "type": "发行商商店",
-      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "scope": "商品名称、所属游戏、DLC类型。",
       "checked": "2026-10-02"
     },
     {
@@ -340,7 +340,7 @@
       "title": "Batman™: Arkham Knight - Red Hood Story Pack",
       "url": "https://store.steampowered.com/app/313101/",
       "type": "发行商商店",
-      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "scope": "商品名称、所属游戏、DLC类型。",
       "checked": "2026-10-02"
     },
     {
@@ -348,7 +348,7 @@
       "title": "Batman™: Arkham Knight - Prototype Batmobile Skin",
       "url": "https://store.steampowered.com/app/350171/",
       "type": "发行商商店",
-      "scope": "商品名称、所属游戏、DLC类型；不记录实时价格，不据此认定完整DLC清单。",
+      "scope": "商品名称、所属游戏、DLC类型。",
       "checked": "2026-10-02"
     },
     {
@@ -356,7 +356,7 @@
       "title": "DC · The DCTV Secrets of Gotham：Mr. Freeze",
       "url": "https://www.dc.com/blog/2016/02/29/the-dctv-secrets-of-gotham-ep-2-12-mr-freeze",
       "type": "官方角色回顾",
-      "scope": "Paul Dini在《Heart of Ice》中重塑急冻人与诺拉的背景；不作为其他版本连续性的依据。",
+      "scope": "Paul Dini在《Heart of Ice》中重塑急冻人与诺拉的背景。",
       "checked": "2026-10-02"
     },
     {
@@ -372,7 +372,7 @@
       "title": "Anime Superhero · Kevin Conroy圆桌访谈（2011）",
       "url": "https://animesuperhero.com/nycc2011-roundtable-interview-with-kevin-conroy-the-voice-batman/",
       "type": "演员本人访谈",
-      "scope": "回顾《Perchance to Dream》录音时切换不同角色声音；依据可检索访谈片段，不代替录音与片尾。",
+      "scope": "康罗伊回顾《Perchance to Dream》录音时切换不同角色声音的经历。",
       "checked": "2026-10-02"
     },
     {
@@ -380,7 +380,7 @@
       "title": "DCAU Wiki · Perchance to Dream",
       "url": "https://dcau.fandom.com/wiki/Perchance_to_Dream",
       "type": "社区剧情辅助来源",
-      "scope": "交叉核对梦境、文字线索与结局；制作传闻与科学解释不作为确认事实。",
+      "scope": "剧情概要：梦境、文字线索与结局。",
       "checked": "2026-10-02"
     },
     {
@@ -388,7 +388,7 @@
       "title": "DC Database · Two-Face, Part II",
       "url": "https://dc.fandom.com/wiki/Batman_%281992_TV_Series%29_Episode%3A_Two-Face%2C_Part_II",
       "type": "社区剧情辅助来源",
-      "scope": "交叉核对格蕾丝被设局、硬币与许愿池结局；不作为片尾署名依据。",
+      "scope": "剧情概要：格蕾丝被设局、硬币与许愿池结局。",
       "checked": "2026-10-02"
     },
     {
@@ -396,7 +396,7 @@
       "title": "Wikipedia · Joker’s Favor",
       "url": "https://en.wikipedia.org/wiki/Joker%27s_Favor",
       "type": "百科剧情辅助来源",
-      "scope": "交叉核对查理的承诺、活动陷阱与彩纸炸弹逆转；人物首次登场另引DC官方回顾。",
+      "scope": "剧情概要：查理的承诺、活动陷阱与彩纸炸弹逆转。",
       "checked": "2026-10-02"
     },
     {
@@ -404,7 +404,7 @@
       "title": "DCAU Wiki · Robin’s Reckoning",
       "url": "https://dcau.fandom.com/wiki/Robin%27s_Reckoning",
       "type": "社区剧情辅助来源",
-      "scope": "交叉核对两篇的过去／现在时间线、祖科被捕与搭档和解；年龄与制作代码不据此填入。",
+      "scope": "两篇的过去／现在时间线、祖科被捕与搭档和解。",
       "checked": "2026-10-02"
     },
     {
@@ -412,7 +412,7 @@
       "title": "The Reel World · I Am the Night重看记录",
       "url": "https://enterthereelworld.com/2020/12/26/the-matt-signal-episode-49-i-am-the-night/",
       "type": "观影记录辅助来源",
-      "scope": "辅助核对医院袭击与Wizard结尾；仅用于剧情交叉核对，不引用作者评论作本站分析。",
+      "scope": "剧情概要：医院袭击与Wizard结尾。",
       "checked": "2026-10-02"
     },
     {
@@ -421,15 +421,15 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/btas/batman-the-animated-series-episodes/batman-the-animated-series-episode-001-on-leather-wings/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     },
     {
       "id": "dcau-plot-on-leather-wings",
-      "title": "DCAU Wiki：On Leather Wings 剧情辅助核对",
+      "title": "DCAU Wiki：On Leather Wings 剧情资料",
       "type": "社区剧情辅助资料",
       "url": "https://dcau.fandom.com/wiki/On_Leather_Wings",
       "checked": "2026-10-03",
-      "scope": "本轮搜索返回的剧情摘要用于结局交叉核对；直接打开失败，不作为游戏或动画原始片尾证据。"
+      "scope": "《On Leather Wings》剧情摘要。"
     },
     {
       "id": "wf-detail-the-laughing-fish",
@@ -437,7 +437,7 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/laughingfish/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     },
     {
       "id": "wf-detail-if-you-re-so-smart-why-aren-t-you-rich",
@@ -445,7 +445,7 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/ifyouresosmart/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     },
     {
       "id": "wf-detail-what-is-reality",
@@ -453,15 +453,15 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/whatisreality/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     },
     {
       "id": "dcau-plot-what-is-reality",
-      "title": "DCAU Wiki：What Is Reality? 剧情辅助核对",
+      "title": "DCAU Wiki：What Is Reality? 剧情资料",
       "type": "社区剧情辅助资料",
       "url": "https://dcau.fandom.com/wiki/What_Is_Reality%3F",
       "checked": "2026-10-03",
-      "scope": "本轮搜索返回的剧情摘要用于结局交叉核对；直接打开失败，不作为游戏或动画原始片尾证据。"
+      "scope": "《What Is Reality?》剧情摘要。"
     },
     {
       "id": "wf-detail-harley-and-ivy",
@@ -469,7 +469,7 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/harleyandivy/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     },
     {
       "id": "wf-detail-riddler-s-reform",
@@ -477,7 +477,7 @@
       "type": "辅助分集档案／署名汇编",
       "url": "https://dcanimated.com/WF/batman/btas/episodes/riddlersreform/",
       "checked": "2026-10-03",
-      "scope": "剧情、分集制作列名与配音；完整原始片尾待核，评论不作为主创意图。"
+      "scope": "剧情、分集制作列名与配音。"
     }
   ],
   "games": [
@@ -486,17 +486,17 @@
       "site": "arkham",
       "title": "蝙蝠侠：阿卡姆疯人院",
       "original": "Batman: Arkham Asylum",
-      "nameNote": "中文名沿用本站常用译名；未标为官方简体中文名称。",
+      "nameNote": "中文常用译名",
       "year": "2009",
       "date": "2009-08-25",
-      "dateNote": "DC 官方资料页发售日；PC 与各地区首发日期尚待分别核对。",
+      "dateNote": "DC作品资料页所列发售日。",
       "developer": "Rocksteady Studios",
       "publisher": "Warner Bros. Interactive Entertainment",
       "platforms": "PlayStation 3 / Xbox 360 / PC（官方列出的原版平台）",
       "actor": "Kevin Conroy",
       "actorLink": "/people/kevin-conroy/",
       "status": "详情样板",
-      "summary": "首批档案从阿卡姆岛出发：一处封闭空间，成为探索蝙蝠侠游戏叙事与表演的入口。",
+      "summary": "一处封闭的阿卡姆岛，将探索、战斗与人物表演串成蝙蝠侠的游戏叙事。",
       "tags": [
         "蝙蝠侠",
         "游戏",
@@ -507,20 +507,20 @@
         {
           "id": "experience",
           "title": "岛上的三种行动方式",
-          "body": "作品资料：本作围绕阿卡姆岛展开探索。自由流战斗强调连续应对敌人；潜行利用高处观察与不同制服手段；侦探工具支持追踪和环境谜题。三个系统分别对应正面交战、隐蔽行动和调查，不把游戏里的全部行动简化为格斗。\n本站导读：从发行顺序进入系列时，可以先观察封闭岛屿如何串起角色与地点，再比较《之城》的城区结构。"
+          "body": "本作围绕阿卡姆岛展开探索。自由流战斗强调连续应对敌人；潜行利用高处观察与不同制服手段；侦探工具支持追踪和环境谜题。正面交战、隐蔽行动与调查共同构成游戏体验。\n沿发行顺序进入系列，可以先观察封闭岛屿如何串起角色与地点，再比较《之城》的城区结构。"
         },
         {
           "id": "voice",
           "title": "面具之后的声音",
-          "body": "DC 的康罗伊访谈将动画与阿卡姆游戏放在同一段表演经历中。作品之间的声音关联可以帮助我们比较表演，但不能据此把两个世界解释成同一连续性。"
+          "body": "DC的康罗伊访谈将动画与阿卡姆游戏放在同一段表演经历中。两套作品各有自己的连续性，康罗伊的声音则连接起这段跨越动画与游戏的创作史。"
         },
         {
           "id": "versions",
           "title": "原版、年度版与重制合集",
-          "body": "原作记录保留2009年及DC资料页的发售口径。Steam的GOTY条目另列2010年3月26日，不能替换原作年份。该商店介绍列出四张额外挑战地图：Crime Alley、Scarecrow Nightmare、Totally Insane与Nocturnal Hunter。\n2016年的Return to Arkham由Virtuos重制《疯人院》与《之城》，面向PS4和Xbox One；这是合集版本，与两部原作分别建档。"
+          "body": "原作发行于2009年。Steam的GOTY版本条目标注2010年3月26日，收录四张额外挑战地图：Crime Alley、Scarecrow Nightmare、Totally Insane与Nocturnal Hunter。\n2016年的Return to Arkham由Virtuos重制《疯人院》与《之城》，面向PS4和Xbox One。"
         }
       ],
-      "spoiler": "本轮未整理结局与剧情解析。后续剧透内容放在这里，默认收起，不混入首页或搜索摘要。",
+      "spoiler": "",
       "gaps": "原版各地区／PC实际首发日期、完整片尾主创与配音、任务与地点明细待继续核对；本页已有玩法及版本基础资料，仍属详情样板。",
       "sources": [
         "dc-asylum",
@@ -536,10 +536,10 @@
       "site": "arkham",
       "title": "蝙蝠侠：阿卡姆之城",
       "original": "Batman: Arkham City",
-      "nameNote": "本站常用译名",
+      "nameNote": "中文常用译名",
       "year": "2011",
       "date": "2011-10-18",
-      "dateNote": "DC早期公告的北美首发日期，主机版本口径；PC实际发售日期待最终公告核对，不沿用早期计划。",
+      "dateNote": "DC早期公告所列北美主机版首发日期。",
       "developer": "Rocksteady Studios",
       "publisher": "Warner Bros. Interactive Entertainment",
       "platforms": "PlayStation 3 / Xbox 360 / PC（原版平台，日期分别记录）",
@@ -558,20 +558,20 @@
         {
           "id": "world",
           "title": "从岛屿到城区",
-          "body": "官方介绍将故事放在哥谭的一片高戒备围墙区域中，罪犯与不同势力被集中到这里。城市空间扩大，探索视角从机构内部走向街道与屋顶。\n本站导读：本档案先记录无剧透的环境和作品边界；任务结局、人物身份与支线解析后续放入折叠章节。"
+          "body": "故事发生在哥谭的一片高戒备围墙区域，罪犯与不同势力被集中到这里。城市空间扩大，探索视角从机构内部走向街道与屋顶。"
         },
         {
           "id": "creators",
           "title": "故事创作与英语声音",
-          "body": "DC历史回顾列出故事创作的Paul Dini、Paul Crocker与Sefton Hill，并确认Kevin Conroy与Mark Hamill分别继续为蝙蝠侠和小丑配音。这条合作关系连接动画与游戏的创作史，不代表两者属于同一剧情连续性。"
+          "body": "DC历史回顾列出故事创作的Paul Dini、Paul Crocker与Sefton Hill，Kevin Conroy与Mark Hamill分别继续为蝙蝠侠和小丑配音。熟悉的演员与创作者在游戏中再次合作，为这座独立于动画连续性的哥谭赋予声音与故事。"
         },
         {
           "id": "versions",
           "title": "年度版收录什么",
-          "body": "Steam的GOTY介绍列出Catwoman Pack、Nightwing Bundle Pack、Robin Bundle Pack、Harley Quinn’s Revenge、Challenge Map Pack及Arkham City Skins Pack。猫女、罗宾、夜翼的可操作内容需按各自包区分，不能统称为同一段主线故事。\n该商店GOTY条目标记2012年9月7日，原作仍单独记录2011年。Return to Arkham属于后来的重制合集，不是新的续作。"
+          "body": "Steam的GOTY介绍列出Catwoman Pack、Nightwing Bundle Pack、Robin Bundle Pack、Harley Quinn’s Revenge、Challenge Map Pack及Arkham City Skins Pack。它们涵盖猫女、罗宾与夜翼的可操作内容、剧情扩展、挑战地图和外观。\n原作发行于2011年；Steam的GOTY版本条目标记2012年9月7日。Return to Arkham是后来的重制合集。"
         }
       ],
-      "spoiler": "剧情与结局解析尚未入库；本页仅展示无剧透基础资料。",
+      "spoiler": "",
       "gaps": "PC及各地区最终首发记录、完整主创片尾、DLC独立日期、地点与支线关系待补；早期发售计划不作为最终PC日期。",
       "sources": [
         "dc-city-announcement",
@@ -586,10 +586,10 @@
       "site": "arkham",
       "title": "蝙蝠侠：阿卡姆起源",
       "original": "Batman: Arkham Origins",
-      "nameNote": "本站常用译名",
+      "nameNote": "中文常用译名",
       "year": "2013",
       "date": "2013-10-25",
-      "dateNote": "DC 官方资料页发售日；地区差异待核。",
+      "dateNote": "DC作品资料页所列发售日。",
       "developer": "WB Games Montréal",
       "publisher": "Warner Bros. Interactive Entertainment",
       "platforms": "PlayStation 3 / Xbox 360 / PC / Wii U",
@@ -607,25 +607,25 @@
         {
           "id": "world",
           "title": "年轻蝙蝠侠的哥谭",
-          "body": "DC官方将本作定位为《疯人院》与《之城》事件发生数年前的前传。作品由WB Games Montréal开发，以尚未成熟的蝙蝠侠为主角，关注他与重要人物关系的形成。\n本站导读：发行顺序与故事顺序是两条不同路线。前传定位不能让2013年的作品变成系列最早发行的游戏。"
+          "body": "DC将本作定位为《疯人院》与《之城》事件发生数年前的前传。作品由WB Games Montréal开发，以尚未成熟的蝙蝠侠为主角，关注他与重要人物关系的形成。\n本作于2013年发行；故事时间与发行顺序呈现两条不同的系列阅读路线。"
         },
         {
           "id": "voice",
           "title": "两位新演员的表演方向",
-          "body": "Roger Craig Smith在2013年的本人访谈中确认担任蝙蝠侠，谈到与配音指导共同确定年轻角色的声音。他将目标描述为让这个阶段的角色能够走向玩家熟悉的版本，而不是直接模仿上一位演员。访谈同时确认Troy Baker饰演小丑。\n本作的演员关系单独记录，不计入康罗伊参与作品列表。"
+          "body": "Roger Craig Smith在2013年的本人访谈中确认担任蝙蝠侠，谈到与配音指导共同确定年轻角色的声音。他将目标描述为让这个阶段的角色能够走向玩家熟悉的版本，而不是直接模仿上一位演员。访谈同时确认Troy Baker饰演小丑。\n本作由Roger Craig Smith与Troy Baker分别出演蝙蝠侠与小丑。"
         },
         {
           "id": "versions",
           "title": "原作与扩展分别编目",
-          "body": "本页记录2013年的主游戏与DC所列PS3、Xbox 360、PC及Wii U平台。《Blackgate》、剧情DLC与不同平台版本后续分别建档；在取得对应发行记录前，不把它们混入主游戏日期或主创字段。"
+          "body": "2013年主游戏的平台包括PS3、Xbox 360、PC及Wii U。《Blackgate》是独立作品，Cold, Cold Heart则是《起源》的剧情扩展。"
         },
         {
           "id": "dlc",
           "title": "扩展故事与服务状态",
-          "body": "Cold, Cold Heart是《起源》的故事扩展，围绕急冻人与GothCorp事件展开。它与独立的Blackgate作品分开记录。\nSteam公开说明：本作在线服务于2016年12月4日退役，单人战役仍可离线游玩。此记录不代表其他平台所有功能的现状。"
+          "body": "Cold, Cold Heart围绕急冻人与GothCorp事件展开，与独立的Blackgate作品分别编目。\nSteam公告记载，本作在线服务于2016年12月4日退役，单人战役仍可离线游玩。"
         }
       ],
-      "spoiler": "剧情任务与结局解析待整理。",
+      "spoiler": "",
       "gaps": "完整片尾、各版本发行差异、DLC及Blackgate关联待补；已确认蝙蝠侠与小丑的英语演员，未声称完整配音名单。",
       "sources": [
         "dc-origins",
@@ -639,17 +639,17 @@
       "site": "arkham",
       "title": "蝙蝠侠：阿卡姆骑士",
       "original": "Batman: Arkham Knight",
-      "nameNote": "本站常用译名",
+      "nameNote": "中文常用译名",
       "year": "2015",
       "date": "2015-06-23",
-      "dateNote": "DC 官方资料页发售日；地区差异待核。",
+      "dateNote": "DC作品资料页所列发售日。",
       "developer": "Rocksteady",
       "publisher": "Warner Bros. Interactive Entertainment",
       "platforms": "PlayStation 4 / Xbox One / PC",
       "actor": "Kevin Conroy",
       "actorLink": "/people/kevin-conroy/",
       "status": "详情样板",
-      "summary": "稻草人重返哥谭；可驾驶的蝙蝠车进入核心体验。这里记录官方宣传范围内的信息。",
+      "summary": "稻草人重返哥谭；可驾驶的蝙蝠车进入核心体验。",
       "tags": [
         "游戏",
         "稻草人",
@@ -665,20 +665,20 @@
         {
           "id": "voice",
           "title": "三部作品的声音关系",
-          "body": "DC刊载的三部曲回顾讨论康罗伊与哈米尔在《疯人院》《之城》《骑士》中的合作。这支持一条演员与表演主题的阅读路线；文章的优劣评价仍归署名作者，不作为发行商对游戏排名的声明。"
+          "body": "DC刊载的三部曲回顾讨论康罗伊与哈米尔在《疯人院》《之城》《骑士》中的合作。沿这三部作品，观察两位演员如何延续并发展蝙蝠侠与小丑的声音关系。"
         },
         {
           "id": "versions",
           "title": "原作与合集的范围",
-          "body": "本页记录2015年6月23日及DC所列PS4、Xbox One与PC平台。Rocksteady三部曲合集与本站首批四部核心游戏的范围不同：《起源》属于核心建档名单，但不因此被算进Rocksteady三部曲。DLC、移植与合集各自的日期仍须独立核查。"
+          "body": "原作于2015年6月23日发行，DC资料页列出PS4、Xbox One与PC平台。Rocksteady三部曲包括《疯人院》《之城》《骑士》；WB Games Montréal开发的《起源》以独立前传编目。"
         },
         {
           "id": "dlc",
           "title": "DLC的不同类型",
-          "body": "本轮核对Harley Quinn Story Pack与Red Hood Story Pack两份角色故事包，分别以哈莉与红头罩为可玩角色。Prototype Batmobile Skin属于车辆外观内容，另列为皮肤。\n故事包、皮肤和赛道不能笼统合并为新增剧情；完整DLC列表仍待逐项核对。"
+          "body": "Harley Quinn Story Pack与Red Hood Story Pack分别以哈莉与红头罩为可玩角色。Prototype Batmobile Skin是蝙蝠车外观内容。\n角色故事包、车辆皮肤与赛道各自呈现不同的扩展体验。"
         }
       ],
-      "spoiler": "涉及阿卡姆骑士身份与结局的分析尚未入库。资料来源中的三部曲评论本身含剧透，打开前请留意。",
+      "spoiler": "",
       "gaps": "完整演职员、剧情DLC、首发平台差异及移植资料待补；当前只完成基本玩法、声音与版本边界。",
       "sources": [
         "dc-knight",
@@ -697,7 +697,7 @@
       "series": "BTAS",
       "title": "无所畏惧",
       "original": "Nothing to Fear",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "003",
       "productionCode": "",
@@ -732,18 +732,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：本集把“让罪犯害怕的英雄”置于受恐惧支配的位置。面具并没有消除布鲁斯的脆弱，恐惧反而沿着他最在意的亲情与责任进入。稻草人的威胁因此超出了普通的武器对抗。\n父亲幻象把内疚包装成权威声音，布鲁斯需要重新确认自己为何成为蝙蝠侠。这个角度也适合与《我是黑夜》并读：一集讨论如何抵抗否定，一集讨论长期承担使命带来的疲惫。两者是主题比较，并非上下篇。"
+          "title": "主题与叙事",
+          "body": "本集把“让罪犯害怕的英雄”置于受恐惧支配的位置。面具并没有消除布鲁斯的脆弱，恐惧反而沿着他最在意的亲情与责任进入。稻草人的威胁因此超出了普通的武器对抗。\n父亲幻象把内疚包装成权威声音，布鲁斯需要重新确认自己为何成为蝙蝠侠。这个角度也适合与《我是黑夜》并读：一集讨论如何抵抗否定，一集讨论长期承担使命带来的疲惫。"
         },
         {
           "id": "voice",
           "title": "声音与制作",
-          "body": "Kevin Conroy的表演要在行动中的低沉声音与幻象冲击下的不安之间转换。Henry Polic II为稻草人配音，Shirley Walker的配乐署名见辅助分集资料。\n本站声音观察：留意父亲的指责与布鲁斯回应之间的情绪变化。故事最后的身份确认之所以有力量，来自前面持续积累的自我怀疑；这里只讨论表演与叙事的关系，不把具体声线解释为演员本人确认的创作意图。"
+          "body": "Kevin Conroy的表演要在行动中的低沉声音与幻象冲击下的不安之间转换。The World’s Finest分集资料列Henry Polic II为稻草人配音，配乐署名Shirley Walker。\n留意父亲的指责与布鲁斯回应之间的情绪变化。故事最后的身份确认之所以有力量，来自前面持续积累的自我怀疑。"
         },
         {
           "id": "order",
           "title": "三种编号分开阅读",
-          "body": "辅助指南列为 Episode #003；这不是本档案确认的原始制作代码。该来源记首播日期为1992年9月15日，播出地区仍待核；家庭影音目录序号没有用指南编号代填。"
+          "body": "The World’s Finest指南编号为003，所载播出日期为1992年9月15日。指南编号、制作代码与家庭影音目录是不同的编目体系。"
         }
       ],
       "spoiler": "恐惧气体让蝙蝠侠反复面对一个否定自己的父亲形象。他最终拒绝接受幻象的裁决，以自己选择的身份重新站稳，继续追捕稻草人，并在飞艇上的危险对抗中阻止其行动。\n这一转折没有抹去父母遇害的创伤，也没有证明布鲁斯从此不会害怕。它完成的是一次判断权的夺回：不能因为幻象借用了父亲的面孔，就把它当成必须服从的真相。",
@@ -760,7 +760,7 @@
       "series": "BTAS",
       "title": "梦境之间",
       "original": "Perchance to Dream",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "030",
       "productionCode": "",
@@ -790,25 +790,25 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "布鲁斯·韦恩：故事主要跟随他的认知，而不是照常跟随蝙蝠侠办案。对幸福生活的依恋与对事实的怀疑同时存在，使调查成为一种私人选择。\n托马斯与玛莎·韦恩、塞琳娜·凯尔、阿尔弗雷德：他们在眼前世界中构成布鲁斯熟悉又陌生的家庭与亲密关系。本集中的呈现不能直接用来补写现实时间线中父母的经历。另一位“蝙蝠侠”的身份则是剧情的核心悬念。"
+          "body": "布鲁斯·韦恩：故事主要跟随他的认知，而不是照常跟随蝙蝠侠办案。对幸福生活的依恋与对事实的怀疑同时存在，使调查成为一种私人选择。\n托马斯与玛莎·韦恩、塞琳娜·凯尔、阿尔弗雷德：他们在眼前世界中构成布鲁斯熟悉又陌生的家庭与亲密关系。另一位“蝙蝠侠”的身份则是剧情的核心悬念。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：这集将通常用来满足愿望的“另一种人生”变成悬疑。布鲁斯越能从中得到安慰，就越难追问它是否真实；求真与幸福并没有被写成轻松兼得的目标。\n与许多围绕秘密身份的故事相比，这次危机不是别人即将揭穿布鲁斯，而是布鲁斯需要确认自己是谁。家人与爱人让问题带上情感重量，结局的选择也因此比揭开机关本身更重要。"
+          "title": "主题与叙事",
+          "body": "这集将通常用来满足愿望的“另一种人生”变成悬疑。布鲁斯越能从中得到安慰，就越难追问它是否真实；求真与幸福并没有被写成轻松兼得的目标。\n与许多围绕秘密身份的故事相比，这次危机不是别人即将揭穿布鲁斯，而是布鲁斯需要确认自己是谁。家人与爱人让问题带上情感重量，结局的选择也因此比揭开机关本身更重要。"
         },
         {
           "id": "voice",
           "title": "声音与制作",
-          "body": "康罗伊在本人访谈中谈到本集涉及布鲁斯、蝙蝠侠和父亲等不同声音。2011年的圆桌访谈还回顾了他在录音现场切换角色、完成相互对话的经历；这属于演员回忆，不等于已取得原始录音记录。\n辅助分集资料将Thomas Wayne的配音标作未署名。本页保留这一口径，不把辅助认定改成片尾署名。观看时可以比较同一演员怎样让私人生活中的布鲁斯与他面对的另一个蝙蝠侠形成距离。"
+          "body": "康罗伊在本人访谈中谈到本集涉及布鲁斯、蝙蝠侠和父亲等不同声音。2011年的圆桌访谈还回顾了他在录音现场切换角色、完成相互对话的经历。\nThe World’s Finest分集资料将Thomas Wayne配音列为未署名。观看时可以比较同一演员怎样让私人生活中的布鲁斯与他面对的另一个蝙蝠侠形成距离。"
         },
         {
           "id": "credits",
           "title": "故事与剧本分开署名",
-          "body": "辅助分集资料区分Story与Teleplay：前者为Laren Bright、Michael Reaves，后者为Joe R. Lansdale。导演为Boyd Kirkland，配乐为Shirley Walker，动画制作为Dong Yang。以上待与片尾交叉核查。指南030、来源所载日期1992年10月19日、完整制作代码与影音目录编号仍分开保存。"
+          "body": "The World’s Finest列故事作者Laren Bright、Michael Reaves，电视剧本作者Joe R. Lansdale；导演Boyd Kirkland，配乐Shirley Walker，动画制作Dong Yang。\n该指南编号030，所载播出日期为1992年10月19日。"
         }
       ],
-      "spoiler": "布鲁斯发现印刷文字无法正常阅读，并据此认定自己处于梦境。无法读懂文字成为识别这个世界的关键线索。\n钟楼上的对峙揭示了疯帽匠与困住布鲁斯的梦境装置有关。布鲁斯拒绝留在这个提供理想生活的世界，以跃下钟楼的方式打破梦境，醒来后制服疯帽匠。梦中的对话不能自动视为现实中的疯帽匠获知了蝙蝠侠身份。\n从本站的阅读角度看，这个结局保留了失去的痛苦，却让布鲁斯主动选择现实。它并没有否定他对父母与普通生活的愿望，而是让愿望无法取代真实。",
+      "spoiler": "布鲁斯发现印刷文字无法正常阅读，并据此认定自己处于梦境。无法读懂文字成为识别这个世界的关键线索。\n钟楼上的对峙揭示了疯帽匠与困住布鲁斯的梦境装置有关。布鲁斯拒绝留在这个提供理想生活的世界，以跃下钟楼的方式打破梦境，醒来后制服疯帽匠。\n这个结局保留了失去的痛苦，却让布鲁斯主动选择现实。它并没有否定他对父母与普通生活的愿望，而是让愿望无法取代真实。",
       "gaps": "剧情梗概依据分集资料及所列辅助来源整理，主题与表演文字为本站解读。原始制作代码、首播地区、影音目录编号与完整片尾仍待交叉核查；未完成逐镜分析及本集图片全覆盖。",
       "sources": [
         "wf-guide",
@@ -824,7 +824,7 @@
       "series": "BTAS",
       "title": "我是黑夜",
       "original": "I Am the Night",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "049",
       "productionCode": "",
@@ -858,18 +858,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：父母纪念日把一次挫败与布鲁斯人生中最早的失去叠在一起。他试图用永远赶得上、永远救得了人来衡量自己，故事因此呈现一种几乎无法完成的责任标准。\n本集的重要变化来自他重新看见别人，而不只是重新得到自信。戈登有自己的勇气，罗宾有自己的判断，被帮助的少年也有后续的人生。蝙蝠侠能够带来影响，却无法独自决定哥谭发生的一切。"
+          "title": "主题与叙事",
+          "body": "父母纪念日把一次挫败与布鲁斯人生中最早的失去叠在一起。他试图用永远赶得上、永远救得了人来衡量自己，故事因此呈现一种几乎无法完成的责任标准。\n本集的重要变化来自他重新看见别人，而不只是重新得到自信。戈登有自己的勇气，罗宾有自己的判断，被帮助的少年也有后续的人生。蝙蝠侠能够带来影响，却无法独自决定哥谭发生的一切。"
         },
         {
           "id": "voice",
           "title": "声音与制作",
-          "body": "本站表演解读：康罗伊在这里需要表现疲惫、迟疑与重新行动，情绪并不总靠提高音量传达。把本集与《无所畏惧》的身份宣告对照，可以阅读同一个角色在不同压力下的声音。DC的康罗伊回顾也把它列入观察布鲁斯内心的选集。\n本集由Michael Reaves编剧、Boyd Kirkland导演；辅助来源列Sunrise为动画制作公司，Michael McCuistion为配乐作者。这些是本集的署名，不能用系列常见主创统一替代。"
+          "body": "康罗伊在这里需要表现疲惫、迟疑与重新行动，情绪并不总靠提高音量传达。把本集与《无所畏惧》的身份宣告对照，可以阅读同一个角色在不同压力下的声音。DC的康罗伊回顾也把它列入观察布鲁斯内心的选集。\n本集由Michael Reaves编剧、Boyd Kirkland导演；辅助来源列Sunrise为动画制作公司，Michael McCuistion为配乐作者。"
         },
         {
           "id": "credits",
           "title": "本集的制作资料",
-          "body": "辅助分集页列编剧Michael Reaves、导演Boyd Kirkland、配乐Michael McCuistion与动画公司Sunrise。不能因系列音乐常与Shirley Walker关联，就给每一集统一填写她的名字。该页列指南049和1992年11月9日，完整制作代码、播出地区与影音顺序仍待核。"
+          "body": "The World’s Finest列编剧Michael Reaves、导演Boyd Kirkland、配乐Michael McCuistion与动画公司Sunrise；指南编号049，所载播出日期为1992年11月9日。"
         }
       ],
       "spoiler": "“爵士乐手”逃脱拘押后，再次向住院的戈登下手。蝙蝠侠重新投入行动，在医院阻止袭击。戈登恢复意识后，对蝙蝠侠表达了信任与敬意；这也让布鲁斯重新看见这段关系不是单向的保护。\n结尾，Wizard告诉蝙蝠侠自己正在改变生活、回到家人身边，并感谢此前的帮助。故事用这个较小的结果回应了布鲁斯对使命意义的怀疑：城市没有被一次性拯救，但一个人的生活确实可能因此改变。",
@@ -887,7 +887,7 @@
       "series": "BTAS",
       "title": "皮翼之下",
       "original": "On Leather Wings",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "001",
       "productionCode": "",
@@ -918,22 +918,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "蝙蝠侠与人蝠：两者共享蝙蝠轮廓，却以不同方式面对身体与意志。这样的外形重叠让侦探工作首先变成辨认，而不是立即判断善恶。\n戈登与布洛克：同一警察机构内存在不同态度。本站把他们看作两种调查节奏：布洛克希望迅速锁定嫌疑，戈登更愿意等待证据。人物分歧让哥谭的制度环境进入故事。"
+          "body": "蝙蝠侠与人蝠：两者共享蝙蝠轮廓，却以不同方式面对身体与意志。这样的外形重叠让侦探工作首先变成辨认，而不是立即判断善恶。\n戈登与布洛克：同一警察机构内存在不同态度。两人呈现两种调查节奏：布洛克希望迅速锁定嫌疑，戈登更愿意等待证据。人物分歧让哥谭的制度环境进入故事。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：蝙蝠侠主动使用令人害怕的形象，但他无法完全决定别人如何理解这个形象。当城市真的出现一只怪物，面具既是行动工具，也可能成为误判的来源。\n开篇的夜色与空中轮廓适合从“看见”和“认出”的区别来阅读。人物不是先解释身份再进入城市，而是先被城市误读，再通过调查和行动建立区别。这为系列的人物与警察关系提供了一个有张力的起点。"
+          "title": "主题与叙事",
+          "body": "蝙蝠侠主动使用令人害怕的形象，但他无法完全决定别人如何理解这个形象。当城市真的出现一只怪物，面具既是行动工具，也可能成为误判的来源。\n开篇的夜色与空中轮廓适合从“看见”和“认出”的区别来阅读。人物不是先解释身份再进入城市，而是先被城市误读，再通过调查和行动建立区别。这为系列的人物与警察关系提供了一个有张力的起点。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "The World’s Finest列Mitch Brian编剧、Kevin Altieri导演、Shirley Walker配乐及Spectrum动画制作；本集Alfred列名Clive Revill，不能套用后期演员表。\n本站声音观察：警察的怀疑、研究者的解释和蝙蝠侠的追问承担不同的信息功能。读声音档案时，应保留具体单集的角色列名，而不是只给整部系列一张统一配音表。"
+          "body": "The World’s Finest列Mitch Brian编剧、Kevin Altieri导演、Shirley Walker配乐及Spectrum动画制作；本集Alfred列名Clive Revill。\n警察的怀疑、研究者的解释和蝙蝠侠的追问承担不同的信息功能。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号001与所载日期1992-09-06沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号001，所载播出日期1992-09-06。"
         }
       ],
       "spoiler": "Kirk Langstrom承认自己试用了变身配方，逐渐失去控制。蝙蝠侠制伏人蝠后分析药剂，并使他恢复人形。结局把阻止袭击与救回实验者放在同一项行动中。",
@@ -964,7 +964,7 @@
       "series": "BTAS",
       "title": "Christmas With The Joker",
       "original": "Christmas With The Joker",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "002",
       "productionCode": "",
@@ -979,7 +979,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 002 · 来源所载日期 1992-11-13；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 002 · 来源所载日期 1992-11-13",
       "tags": [
         "BTAS",
         "Christmas With The Joker"
@@ -997,7 +997,7 @@
       "series": "BTAS",
       "title": "The Last Laugh",
       "original": "The Last Laugh",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "004",
       "productionCode": "",
@@ -1012,7 +1012,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 004 · 来源所载日期 1992-09-22；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 004 · 来源所载日期 1992-09-22",
       "tags": [
         "BTAS",
         "The Last Laugh"
@@ -1030,7 +1030,7 @@
       "series": "BTAS",
       "title": "Pretty Poison",
       "original": "Pretty Poison",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "005",
       "productionCode": "",
@@ -1045,7 +1045,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 005 · 来源所载日期 1992-09-14；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 005 · 来源所载日期 1992-09-14",
       "tags": [
         "BTAS",
         "Pretty Poison"
@@ -1063,7 +1063,7 @@
       "series": "BTAS",
       "title": "The Underdwellers",
       "original": "The Underdwellers",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "006",
       "productionCode": "",
@@ -1078,7 +1078,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 006 · 来源所载日期 1992-10-21；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 006 · 来源所载日期 1992-10-21",
       "tags": [
         "BTAS",
         "The Underdwellers"
@@ -1096,7 +1096,7 @@
       "series": "BTAS",
       "title": "P.O.V.",
       "original": "P.O.V.",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "007",
       "productionCode": "",
@@ -1111,7 +1111,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 007 · 来源所载日期 1992-09-18；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 007 · 来源所载日期 1992-09-18",
       "tags": [
         "BTAS",
         "P.O.V."
@@ -1129,7 +1129,7 @@
       "series": "BTAS",
       "title": "The Forgotten",
       "original": "The Forgotten",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "008",
       "productionCode": "",
@@ -1144,7 +1144,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 008 · 来源所载日期 1992-10-08；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 008 · 来源所载日期 1992-10-08",
       "tags": [
         "BTAS",
         "The Forgotten"
@@ -1162,7 +1162,7 @@
       "series": "BTAS",
       "title": "Be A Clown",
       "original": "Be A Clown",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "009",
       "productionCode": "",
@@ -1177,7 +1177,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 009 · 来源所载日期 1992-09-16；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 009 · 来源所载日期 1992-09-16",
       "tags": [
         "BTAS",
         "Be A Clown"
@@ -1195,7 +1195,7 @@
       "series": "BTAS",
       "title": "双面人·上篇",
       "original": "Two-Face: Part 1",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "010",
       "productionCode": "",
@@ -1230,18 +1230,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：本篇的“双面”在外貌改变之前就已出现。公共形象、私人情绪与别人期待中的哈维无法完全重合，人物的压力由此逐步积累。外部勒索又把可以寻求帮助的秘密变成必须掩盖的威胁。\n布鲁斯的参与让这条起源线具有朋友失落的分量。蝙蝠侠通常面对已经出现的罪犯，这次布鲁斯却亲眼看着一个亲近的人走向危机；后篇中“阻止犯罪”与“挽回朋友”的矛盾从这里开始。"
+          "title": "主题与叙事",
+          "body": "本篇的“双面”在外貌改变之前就已出现。公共形象、私人情绪与别人期待中的哈维无法完全重合，人物的压力由此逐步积累。外部勒索又把可以寻求帮助的秘密变成必须掩盖的威胁。\n布鲁斯的参与让这条起源线具有朋友失落的分量。蝙蝠侠通常面对已经出现的罪犯，这次布鲁斯却亲眼看着一个亲近的人走向危机；后篇中“阻止犯罪”与“挽回朋友”的矛盾从这里开始。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。辅助资料列Tokyo Movie Shinsha为动画制作公司，Shirley Walker为配乐作者。\nRichard Moll同时呈现哈维与双面人的声音。本站观看角度：可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇的动画公司不同，应独立登记。"
+          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。辅助资料列Tokyo Movie Shinsha为动画制作公司，Shirley Walker为配乐作者。\nRichard Moll同时呈现哈维与双面人的声音。可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇由另一家动画公司制作。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南010，来源所载日期1992-09-25。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号010，所载播出日期1992-09-25。"
         }
       ],
       "spoiler": "索恩以治疗资料要挟哈维，试图迫使他妥协。愤怒中的哈维转而攻击索恩一伙，冲突引发爆炸，使他的面部严重受损。\n医院中的面孔揭晓将人物内在的分裂转化为可见的形象，格蕾丝也被眼前的变化震住。上篇在此留下断口：伤害已经发生，但哈维如何理解自己、布鲁斯还能否接近他，要到下篇继续。",
@@ -1260,7 +1260,7 @@
       "series": "BTAS",
       "title": "It's Never Too Late",
       "original": "It's Never Too Late",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "011",
       "productionCode": "",
@@ -1275,7 +1275,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 011 · 来源所载日期 1992-09-10；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 011 · 来源所载日期 1992-09-10",
       "tags": [
         "BTAS",
         "It's Never Too Late"
@@ -1293,7 +1293,7 @@
       "series": "BTAS",
       "title": "I've Got Batman In My Basement",
       "original": "I've Got Batman In My Basement",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "012",
       "productionCode": "",
@@ -1308,7 +1308,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 012 · 来源所载日期 1992-09-30；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 012 · 来源所载日期 1992-09-30",
       "tags": [
         "BTAS",
         "I've Got Batman In My Basement"
@@ -1326,7 +1326,7 @@
       "series": "BTAS",
       "title": "The Cat and the Claw: Part 1",
       "original": "The Cat and the Claw: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "013",
       "productionCode": "",
@@ -1341,7 +1341,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 013 · 来源所载日期 1992-09-05；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 013 · 来源所载日期 1992-09-05",
       "tags": [
         "BTAS",
         "The Cat and the Claw: Part 1"
@@ -1359,7 +1359,7 @@
       "series": "BTAS",
       "title": "冰之心",
       "original": "Heart of Ice",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "014",
       "productionCode": "",
@@ -1394,21 +1394,21 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：标题把冷与心放在一起，故事则让看似冷酷的反派保有强烈的依恋。理解维克多并不自动意味着认可复仇，承认博伊尔的责任也不能取消眼前受威胁者的生命。\n从角色资料史看，DC的官方回顾将Paul Dini在本集赋予急冻人的诺拉背景列为重要改写。单集页可以借此说明动画怎样重塑一个人物，而不必把后续漫画、电影或动画中的所有版本合并成同一经历。"
+          "title": "主题与叙事",
+          "body": "标题把冷与心放在一起，故事则让看似冷酷的反派保有强烈的依恋。理解维克多并不自动意味着认可复仇，承认博伊尔的责任也不能取消眼前受威胁者的生命。\n从角色资料史看，DC的官方回顾将Paul Dini在本集赋予急冻人的诺拉背景列为重要改写。这次改写让诺拉与急冻人的关系成为动画版人物塑造的核心。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。音乐资料须分开读：Composer为Todd Hayen，Supervising Composer为Shirley Walker。本站观看角度是比较维克多的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
+          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。音乐资料须分开读：Composer为Todd Hayen，Supervising Composer为Shirley Walker。比较维克多的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南014，来源所载日期1992-09-07。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号014，所载播出日期1992-09-07。"
         }
       ],
-      "spoiler": "维克多曾使用公司的设备冷冻保存身患重病的诺拉，希望为她争取治疗机会。博伊尔强行关闭这项工作，并在冲突中将维克多推入低温化学物质；事故改变了维克多的身体，也摧毁了他原本的生活。\n蝙蝠侠取得记录过去事件的证据，制止急冻人的报复并揭露博伊尔的行为。事件结束后，维克多在囚室里悼念诺拉。结局把法律上的制止与情感上的失去分开：危机被阻止了，伤痛并没有随着胜负消失。本页不把他在这一集中的判断当作诺拉后续命运的完整结论。",
+      "spoiler": "维克多曾使用公司的设备冷冻保存身患重病的诺拉，希望为她争取治疗机会。博伊尔强行关闭这项工作，并在冲突中将维克多推入低温化学物质；事故改变了维克多的身体，也摧毁了他原本的生活。\n蝙蝠侠取得记录过去事件的证据，制止急冻人的报复并揭露博伊尔的行为。事件结束后，维克多在囚室里悼念诺拉。结局把法律上的制止与情感上的失去分开：危机被阻止了，伤痛并没有随着胜负消失。",
       "gaps": "剧情梗概依据分集资料及所列辅助来源整理，主题与表演文字为本站解读。原始制作代码、首播地区、影音目录编号与完整片尾仍待交叉核查；未完成逐镜分析及本集图片全覆盖。",
       "sources": [
         "wf-guide",
@@ -1422,7 +1422,7 @@
       "series": "BTAS",
       "title": "See No Evil",
       "original": "See No Evil",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "015",
       "productionCode": "",
@@ -1437,7 +1437,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 015 · 来源所载日期 1993-02-24；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 015 · 来源所载日期 1993-02-24",
       "tags": [
         "BTAS",
         "See No Evil"
@@ -1455,7 +1455,7 @@
       "series": "BTAS",
       "title": "The Cat and the Claw: Part 2",
       "original": "The Cat and the Claw: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "016",
       "productionCode": "",
@@ -1470,7 +1470,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 016 · 来源所载日期 1992-09-12；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 016 · 来源所载日期 1992-09-12",
       "tags": [
         "BTAS",
         "The Cat and the Claw: Part 2"
@@ -1488,7 +1488,7 @@
       "series": "BTAS",
       "title": "双面人·下篇",
       "original": "Two-Face: Part 2",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "017",
       "productionCode": "",
@@ -1523,18 +1523,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：硬币让选择看起来交给了偶然，却没有真的解除人物的责任。它同时是一条维持秩序的规则与一个脆弱的支点；当这个支点受到冲击，双面人的控制也会发生动摇。\n双集故事没有把关心哈维写成一次轻易成功的“唤醒”。朋友和爱人的接近仍有价值，但并不能保证人物恢复原状。结尾保留的希望因而更克制，也让布鲁斯的无力感成为故事的一部分。"
+          "title": "主题与叙事",
+          "body": "硬币让选择看起来交给了偶然，却没有真的解除人物的责任。它同时是一条维持秩序的规则与一个脆弱的支点；当这个支点受到冲击，双面人的控制也会发生动摇。\n双集故事没有把关心哈维写成一次轻易成功的“唤醒”。朋友和爱人的接近仍有价值，但并不能保证人物恢复原状。结尾保留的希望因而更克制，也让布鲁斯的无力感成为故事的一部分。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "两篇均由Kevin Altieri导演、Shirley Walker配乐，下篇Teleplay署名Randy Rogel，动画制作换为Dong Yang。资料库应保留两篇各自的工作人员，不把双集打包成一份完全相同的名单。\n本站形式解读：上篇以人物变化造成断裂，下篇围绕硬币与旧关系组织冲突。反复出现的抛掷行为让选择变得可见，也为高潮留下一个观众能够理解的规则。"
+          "body": "两篇均由Kevin Altieri导演、Shirley Walker配乐，下篇Teleplay署名Randy Rogel，动画制作换为Dong Yang。\n上篇以人物变化造成断裂，下篇围绕硬币与旧关系组织冲突。反复出现的抛掷行为让选择变得可见，也为高潮留下一个观众能够理解的规则。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南017，来源所载日期1992-09-28。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号017，所载播出日期1992-09-28。"
         }
       ],
       "spoiler": "索恩的人利用格蕾丝对哈维的关切设局，将她引入陷阱。冲突中，双面人准备以硬币结果决定索恩的生死。蝙蝠侠抛出一把硬币，使哈维无法辨认自己的那一枚，打断了他的决定。\n格蕾丝靠近失控的哈维，警方随后带走涉案者。结尾布鲁斯向许愿池投币，希望旧友能够得到帮助。硬币在这里从决定生死的工具转为寄托愿望的物件，但愿望没有被包装成已经实现的康复。",
@@ -1554,7 +1554,7 @@
       "series": "BTAS",
       "title": "小心灰色幽灵",
       "original": "Beware the Gray Ghost",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "018",
       "productionCode": "",
@@ -1589,18 +1589,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：本集让蝙蝠侠也成为观众。他的力量不只来自训练与创伤，还包含童年接触过的故事；英雄形象可以从虚构作品传递到现实行动。\n演员的困境让怀旧保有复杂性。珍爱的角色可能带来认同，也可能限制一个人的职业与生活。故事的温情来自布鲁斯最终看见角色背后的具体的人，而不只是要求演员继续扮演童年记忆。"
+          "title": "主题与叙事",
+          "body": "本集让蝙蝠侠也成为观众。他的力量不只来自训练与创伤，还包含童年接触过的故事；英雄形象可以从虚构作品传递到现实行动。\n演员的困境让怀旧保有复杂性。珍爱的角色可能带来认同，也可能限制一个人的职业与生活。故事的温情来自布鲁斯最终看见角色背后的具体的人，而不只是要求演员继续扮演童年记忆。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "灰色幽灵由Adam West配音，蝙蝠侠由Kevin Conroy配音；West曾在1966年真人电视剧中饰演蝙蝠侠。两种表演历史在这一集交汇，使“英雄也有自己的英雄”多了一层银幕之外的含义。\nTed Dymer的配音署名为Bruce W. Timm。音乐资料中Carl Johnson是Composer，Shirley Walker是Supervising Composer，动画制作为Spectrum。本站的演员传承解读不代表已确认每个场景都影射West本人的人生。"
+          "body": "灰色幽灵由Adam West配音，蝙蝠侠由Kevin Conroy配音；West曾在1966年真人电视剧中饰演蝙蝠侠。两种表演历史在这一集交汇，使“英雄也有自己的英雄”多了一层银幕之外的含义。\nTed Dymer的配音署名为Bruce W. Timm。音乐资料中Carl Johnson是Composer，Shirley Walker是Supervising Composer，动画制作为Spectrum。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南018，来源所载日期1992-11-04。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号018，所载播出日期1992-11-04。"
         }
       ],
       "spoiler": "旧节目的线索帮助蝙蝠侠与特伦特识别爆炸方式，案件最终指向收藏玩具的Ted Dymer，以及用于制造袭击的遥控玩具车。特伦特在调查中真正参与援助，不再只是被动提供一份旧角色记忆。\n布鲁斯向特伦特表达了灰色幽灵对自己的意义。故事将演员重新获得认可与案件解决放在一起，但更私人也更动人的结果，是童年观众终于有机会向启发过自己的人说出感谢。",
@@ -1616,7 +1616,7 @@
       "series": "BTAS",
       "title": "Prophecy of Doom",
       "original": "Prophecy of Doom",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "019",
       "productionCode": "",
@@ -1631,7 +1631,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 019 · 来源所载日期 1992-10-06；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 019 · 来源所载日期 1992-10-06",
       "tags": [
         "BTAS",
         "Prophecy of Doom"
@@ -1649,7 +1649,7 @@
       "series": "BTAS",
       "title": "Feat of Clay: Part 1",
       "original": "Feat of Clay: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "020",
       "productionCode": "",
@@ -1664,7 +1664,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 020 · 来源所载日期 1992-09-08；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 020 · 来源所载日期 1992-09-08",
       "tags": [
         "BTAS",
         "Feat of Clay: Part 1"
@@ -1682,7 +1682,7 @@
       "series": "BTAS",
       "title": "Feat of Clay: Part 2",
       "original": "Feat of Clay: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "021",
       "productionCode": "",
@@ -1697,7 +1697,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 021 · 来源所载日期 1992-09-09；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 021 · 来源所载日期 1992-09-09",
       "tags": [
         "BTAS",
         "Feat of Clay: Part 2"
@@ -1715,7 +1715,7 @@
       "series": "BTAS",
       "title": "小丑的人情",
       "original": "Joker's Favor",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "022",
       "productionCode": "",
@@ -1750,18 +1750,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：小丑的“人情”是一种没有明确边界的控制。他让受害者活下来，却保留随时打断其生活的权利，因此危险不仅来自某一场爆炸，也来自长期无法脱身的等待。\n这集在惊险中使用喜剧，但笑料与权力关系紧密相连。当观众的位置从小丑转向查理，同一种荒诞行为的意义也会改变。结尾的逆转尤其适合观察小丑怎样依赖别人对自己的恐惧。"
+          "title": "主题与叙事",
+          "body": "小丑的“人情”是一种没有明确边界的控制。他让受害者活下来，却保留随时打断其生活的权利，因此危险不仅来自某一场爆炸，也来自长期无法脱身的等待。\n这集在惊险中使用喜剧，但笑料与权力关系紧密相连。当观众的位置从小丑转向查理，同一种荒诞行为的意义也会改变。结尾的逆转尤其适合观察小丑怎样依赖别人对自己的恐惧。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "Ed Begley Jr.为查理配音，Mark Hamill为小丑配音，Arleen Sorkin为哈莉配音。三种声音分别承担普通人的紧张、反派的表演欲与助手的戏剧节奏。\n本集是哈莉·奎茵的首次登场，DC官方角色回顾对此有明确记录。这里的哈莉首先是参与计划的小丑助手；后来《Mad Love》等作品展开的身世，不能倒填成这一集已经讲过的内容。编剧署名Paul Dini，导演为Boyd Kirkland。"
+          "body": "Ed Begley Jr.为查理配音，Mark Hamill为小丑配音，Arleen Sorkin为哈莉配音。三种声音分别承担普通人的紧张、反派的表演欲与助手的戏剧节奏。\n本集是哈莉·奎茵的首次登场，DC官方角色回顾对此有明确记录。哈莉在这里以参与计划的小丑助手登场，她的身世在后来的《Mad Love》等作品中展开。编剧署名Paul Dini，导演为Boyd Kirkland。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南022，来源所载日期1992-09-11。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号022，所载播出日期1992-09-11。"
         }
       ],
       "spoiler": "小丑让查理在活动现场为哈莉打开门，利用推入的蛋糕安排炸弹陷阱。查理完成任务后仍被留在危险之中，所谓偿还人情并没有换来承诺中的自由。蝙蝠侠介入，阻止了现场袭击。\n此后查理用一枚看起来足以与小丑同归于尽的炸弹反过来威胁他。小丑惊慌地向蝙蝠侠求助，并交出用于追踪查理一家的资料；查理手中的其实是玩笑用的彩纸炸弹。结局让一直操纵恐惧的人也体验了失去控制。",
@@ -1779,7 +1779,7 @@
       "series": "BTAS",
       "title": "Vendetta",
       "original": "Vendetta",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "023",
       "productionCode": "",
@@ -1794,7 +1794,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 023 · 来源所载日期 1992-10-05；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 023 · 来源所载日期 1992-10-05",
       "tags": [
         "BTAS",
         "Vendetta"
@@ -1812,7 +1812,7 @@
       "series": "BTAS",
       "title": "Fear of Victory",
       "original": "Fear of Victory",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "024",
       "productionCode": "",
@@ -1827,7 +1827,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 024 · 来源所载日期 1992-09-29；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 024 · 来源所载日期 1992-09-29",
       "tags": [
         "BTAS",
         "Fear of Victory"
@@ -1845,7 +1845,7 @@
       "series": "BTAS",
       "title": "The Clock King",
       "original": "The Clock King",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "025",
       "productionCode": "",
@@ -1860,7 +1860,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 025 · 来源所载日期 1992-09-21；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 025 · 来源所载日期 1992-09-21",
       "tags": [
         "BTAS",
         "The Clock King"
@@ -1878,7 +1878,7 @@
       "series": "BTAS",
       "title": "Appointment in Crime Alley",
       "original": "Appointment in Crime Alley",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "026",
       "productionCode": "",
@@ -1893,7 +1893,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 026 · 来源所载日期 1992-09-17；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 026 · 来源所载日期 1992-09-17",
       "tags": [
         "BTAS",
         "Appointment in Crime Alley"
@@ -1911,7 +1911,7 @@
       "series": "BTAS",
       "title": "Mad As A Hatter",
       "original": "Mad As A Hatter",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "027",
       "productionCode": "",
@@ -1926,7 +1926,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 027 · 来源所载日期 1992-10-12；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 027 · 来源所载日期 1992-10-12",
       "tags": [
         "BTAS",
         "Mad As A Hatter"
@@ -1944,7 +1944,7 @@
       "series": "BTAS",
       "title": "Dreams In Darkness",
       "original": "Dreams In Darkness",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "028",
       "productionCode": "",
@@ -1959,7 +1959,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 028 · 来源所载日期 1992-11-03；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 028 · 来源所载日期 1992-11-03",
       "tags": [
         "BTAS",
         "Dreams In Darkness"
@@ -1977,7 +1977,7 @@
       "series": "BTAS",
       "title": "Eternal Youth",
       "original": "Eternal Youth",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "029",
       "productionCode": "",
@@ -1992,7 +1992,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 029 · 来源所载日期 1992-09-23；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 029 · 来源所载日期 1992-09-23",
       "tags": [
         "BTAS",
         "Eternal Youth"
@@ -2010,7 +2010,7 @@
       "series": "BTAS",
       "title": "The Cape and Cowl Conspiracy",
       "original": "The Cape and Cowl Conspiracy",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "031",
       "productionCode": "",
@@ -2025,7 +2025,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 031 · 来源所载日期 1992-10-14；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 031 · 来源所载日期 1992-10-14",
       "tags": [
         "BTAS",
         "The Cape and Cowl Conspiracy"
@@ -2043,7 +2043,7 @@
       "series": "BTAS",
       "title": "罗宾的清算·上篇",
       "original": "Robin's Reckoning: Part 1",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1993",
       "guideNumber": "032",
       "productionCode": "",
@@ -2078,18 +2078,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：布鲁斯与迪克的相似经历解释了他们为何能够靠近，也让关系产生张力。理解一个人的痛苦，并不等于可以替他决定知道多少、参与多少。\n上下篇之间的悬念不仅是能否找到祖科，还包括布鲁斯的保护怎样被迪克理解。闪回让观众知道这段关系付出了什么，现在的争执因此不会只剩下“搭档不服从命令”。"
+          "title": "主题与叙事",
+          "body": "布鲁斯与迪克的相似经历解释了他们为何能够靠近，也让关系产生张力。理解一个人的痛苦，并不等于可以替他决定知道多少、参与多少。\n上下篇之间的悬念不仅是能否找到祖科，还包括布鲁斯的保护怎样被迪克理解。闪回让观众知道这段关系付出了什么，现在的争执因此不会只剩下“搭档不服从命令”。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "成年罗宾由Loren Lester配音，年幼迪克由Joey Simmrin配音。分别登记演员能保留两条时间线的声音差异，不应只因人物相同就合并署名。\n上篇由Randy Rogel编剧、Dick Sebast导演，配乐为Carlos Rodriguez，动画制作为Spectrum。下篇的配乐与动画公司不同。已有图片资料只对应本篇，不能作为整个双集每个场景的视觉证据。"
+          "body": "成年罗宾由Loren Lester配音，年幼迪克由Joey Simmrin配音。两种声音对应故事的两条时间线。\n上篇由Randy Rogel编剧、Dick Sebast导演，配乐为Carlos Rodriguez，动画制作为Spectrum。下篇的配乐与动画公司不同。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南032，来源所载日期1993-02-07。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号032，所载播出日期1993-02-07。"
         }
       ],
       "spoiler": "童年回忆揭示祖科对马戏团的勒索，以及飞翔的格雷森夫妇在表演中遇害的经过。布鲁斯接近失去父母的迪克，在安慰中也面对了自己的旧伤。\n现在的罗宾确认调查对象的化名与祖科相连，意识到布鲁斯此前知道更多却没有告诉自己。他决定独自追查。上篇停在信任破裂的关口，既没有完成复仇，也没有解决布鲁斯为何把他排除在外的问题。",
@@ -2109,7 +2109,7 @@
       "series": "BTAS",
       "title": "笑鱼",
       "original": "The Laughing Fish",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1993",
       "guideNumber": "033",
       "productionCode": "",
@@ -2140,22 +2140,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "小丑与Francis：双方使用的规则不同。一个执意把自己的形象当成占有世界的理由，另一个只能解释事务的边界。本站关注这种不对等怎样把普通工作变成危险处境。\n蝙蝠侠与哈莉：蝙蝠侠从受威胁者的安全出发，哈莉则参与小丑的表演。她的表情与反应提醒读者，小丑的喜剧需要别人承担后果，包括他身边的人。"
+          "body": "小丑与Francis：双方使用的规则不同。一个执意把自己的形象当成占有世界的理由，另一个只能解释事务的边界。这种不对等把普通工作变成了危险处境。\n蝙蝠侠与哈莉：蝙蝠侠从受威胁者的安全出发，哈莉则参与小丑的表演。她的表情与反应提醒读者，小丑的喜剧需要别人承担后果，包括他身边的人。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：笑脸本应传达快乐，这里却成为外来意志强加在身体上的印记。鱼没有选择表情，人也没有选择被卷入计划；这种被迫参加的“玩笑”使荒诞产生了压迫感。\n可以把本集的办公室与商品广告作为两种日常空间阅读：看似平常的制度与消费语言，被反派用来包装威胁。笑鱼不仅是可辨认的道具，也说明人物如何把自己的标记扩展到整座城市。"
+          "title": "主题与叙事",
+          "body": "笑脸本应传达快乐，这里却成为外来意志强加在身体上的印记。鱼没有选择表情，人也没有选择被卷入计划；这种被迫参加的“玩笑”使荒诞产生了压迫感。\n可以把本集的办公室与商品广告作为两种日常空间阅读：看似平常的制度与消费语言，被反派用来包装威胁。笑鱼不仅是可辨认的道具，也说明人物如何把自己的标记扩展到整座城市。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "本集署名在辅助档案中列为Dini编剧、Timm导演、Walker配乐与Dong Yang动画制作；小丑和哈莉英语配音分别为Hamill与Sorkin。\n本站声音观察：宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。此处是本站的阅读角度，不作为作曲或表演主创的意图声明。"
+          "body": "本集署名在辅助档案中列为Dini编剧、Timm导演、Walker配乐与Dong Yang动画制作；小丑和哈莉英语配音分别为Hamill与Sorkin。\n宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号033与所载日期1993-01-10沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号033，所载播出日期1993-01-10。"
         }
       ],
       "spoiler": "调查指向水族馆。蝙蝠侠救出布洛克并与小丑交手，随后小丑失去踪迹。哈莉为他悲伤，蝙蝠侠则没有把这次消失认作确定的死亡。",
@@ -2181,7 +2181,7 @@
       "series": "BTAS",
       "title": "Night of the Ninja",
       "original": "Night of the Ninja",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "034",
       "productionCode": "",
@@ -2196,7 +2196,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 034 · 来源所载日期 1992-10-26；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 034 · 来源所载日期 1992-10-26",
       "tags": [
         "BTAS",
         "Night of the Ninja"
@@ -2214,7 +2214,7 @@
       "series": "BTAS",
       "title": "Cat Scratch Fever",
       "original": "Cat Scratch Fever",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "035",
       "productionCode": "",
@@ -2229,7 +2229,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 035 · 来源所载日期 1992-11-05；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 035 · 来源所载日期 1992-11-05",
       "tags": [
         "BTAS",
         "Cat Scratch Fever"
@@ -2247,7 +2247,7 @@
       "series": "BTAS",
       "title": "The Strange Secret of Bruce Wayne",
       "original": "The Strange Secret of Bruce Wayne",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "036",
       "productionCode": "",
@@ -2262,7 +2262,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 036 · 来源所载日期 1992-10-29；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 036 · 来源所载日期 1992-10-29",
       "tags": [
         "BTAS",
         "The Strange Secret of Bruce Wayne"
@@ -2280,7 +2280,7 @@
       "series": "BTAS",
       "title": "罗宾的清算·下篇",
       "original": "Robin's Reckoning: Part 2",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1993",
       "guideNumber": "037",
       "productionCode": "",
@@ -2315,18 +2315,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：本篇把保护与信任放在同一个冲突里。布鲁斯越担心失去迪克，越可能用排除他的方式行动；迪克越需要被当作搭档，越容易将这种保护理解为不被信任。\n双集的结尾因此有两项需要完成的事：案件中的祖科必须面对后果，关系中的误解也必须得到回应。只捕获凶手不能自动修复搭档的信任，后者需要布鲁斯表达自己的恐惧，也需要迪克作出自己的选择。"
+          "title": "主题与叙事",
+          "body": "本篇把保护与信任放在同一个冲突里。布鲁斯越担心失去迪克，越可能用排除他的方式行动；迪克越需要被当作搭档，越容易将这种保护理解为不被信任。\n双集的结尾因此有两项需要完成的事：案件中的祖科必须面对后果，关系中的误解也必须得到回应。只捕获凶手不能自动修复搭档的信任，后者需要布鲁斯表达自己的恐惧，也需要迪克作出自己的选择。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "本篇仍由Randy Rogel编剧、Dick Sebast导演，音乐换为Peter Tomashek，动画制作换为Dong Yang。辅助来源对幼年迪克的年龄标注不一致，本页不据此填写明确年龄。\n本站叙事观察：过去的救援与现在的合作形成对照，迪克从被保护的孩子走到能够援助蝙蝠侠的搭档。这个变化属于双集内部的成长线，不能直接当成后来夜翼身份的起源结论。"
+          "body": "本篇仍由Randy Rogel编剧、Dick Sebast导演，音乐换为Peter Tomashek，动画制作换为Dong Yang。\n过去的救援与现在的合作形成对照，迪克从被保护的孩子走到能够援助蝙蝠侠的搭档。这个变化构成了双集内部的成长线。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南037，来源所载日期1993-02-14。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号037，所载播出日期1993-02-14。"
         }
       ],
       "spoiler": "过去的回忆中，布鲁斯为了救迪克放弃继续追赶祖科，并向他揭示自己就是蝙蝠侠。现在，受伤的蝙蝠侠在游乐场与祖科一伙周旋，罗宾赶到后控制了祖科。\n愤怒的迪克一度面对是否杀死凶手的选择，最终将祖科交给警方。蝙蝠侠说明，自己阻止他参与，是害怕祖科再夺走迪克的生命，而不是认为他没有能力。两人和解，使“清算”既包含对罪犯的追捕，也包含对旧伤与关系的重新理解。",
@@ -2346,7 +2346,7 @@
       "series": "BTAS",
       "title": "Heart of Steel: Part 1",
       "original": "Heart of Steel: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "038",
       "productionCode": "",
@@ -2361,7 +2361,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 038 · 来源所载日期 1992-11-16；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 038 · 来源所载日期 1992-11-16",
       "tags": [
         "BTAS",
         "Heart of Steel: Part 1"
@@ -2379,7 +2379,7 @@
       "series": "BTAS",
       "title": "你这么聪明，为什么还没发财？",
       "original": "If You're So Smart, Why Aren't You Rich?",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "039",
       "productionCode": "",
@@ -2410,22 +2410,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "谜语人与Mockridge：工作关系留下的羞辱是冲突入口。本站认为，金钱只是双方衡量价值的一种方式；对智力与控制权的争夺，使矛盾无法在一笔交易后结束。\n蝙蝠侠与罗宾：解题不是孤立的天才表演，两人交换线索、提出不同理解。罗宾的游戏经验与蝙蝠侠的联想并置，让读者看见合作如何进入对抗。"
+          "body": "谜语人与Mockridge：工作关系留下的羞辱是冲突入口。金钱只是双方衡量价值的一种方式；对智力与控制权的争夺，使矛盾无法在一笔交易后结束。\n蝙蝠侠与罗宾：解题不是孤立的天才表演，两人交换线索、提出不同理解。罗宾的游戏经验与蝙蝠侠的联想并置，让读者看见合作如何进入对抗。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：本集的标题把聪明与财富放在同一把尺度上，谜语人的回应则试图以设计一场无法逃脱的游戏来改变尺度。他想证明的已经不只是作品值多少钱，还有谁有资格判断他的价值。\n从资料站角度，可以把谜题分成语言、空间与行动规则三层。理解词义只能提供入口，读懂场所结构与对手的预设才决定怎样行动。这也提供了与阿卡姆机关设计比较的方向，但具体关卡的改编关系仍需另证。"
+          "title": "主题与叙事",
+          "body": "本集的标题把聪明与财富放在同一把尺度上，谜语人的回应则试图以设计一场无法逃脱的游戏来改变尺度。他想证明的已经不只是作品值多少钱，还有谁有资格判断他的价值。\n谜题可以从语言、空间与行动规则三层阅读。理解词义只能提供入口，读懂场所结构与对手的预设才决定怎样行动。这也提供了与阿卡姆机关设计比较的方向。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐及Blue Pencil动画制作；John Glover为谜语人配音。\n本站声音观察：角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
+          "body": "辅助档案列David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐及Blue Pencil动画制作；John Glover为谜语人配音。\n角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号039与所载日期1992-11-18沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号039，所载播出日期1992-11-18。"
         }
       ],
       "spoiler": "蝙蝠侠与罗宾破解迷宫中的陷阱，救出Mockridge。谜语人仍在逃；Mockridge保住财富，却开始在反复检查门窗和担心报复中度日。",
@@ -2455,7 +2455,7 @@
       "series": "BTAS",
       "title": "Joker's Wild",
       "original": "Joker's Wild",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "040",
       "productionCode": "",
@@ -2470,7 +2470,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 040 · 来源所载日期 1992-11-19；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 040 · 来源所载日期 1992-11-19",
       "tags": [
         "BTAS",
         "Joker's Wild"
@@ -2488,7 +2488,7 @@
       "series": "BTAS",
       "title": "Tyger, Tyger",
       "original": "Tyger, Tyger",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "041",
       "productionCode": "",
@@ -2503,7 +2503,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 041 · 来源所载日期 1992-10-30；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 041 · 来源所载日期 1992-10-30",
       "tags": [
         "BTAS",
         "Tyger, Tyger"
@@ -2521,7 +2521,7 @@
       "series": "BTAS",
       "title": "Moon of the Wolf",
       "original": "Moon of the Wolf",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "042",
       "productionCode": "",
@@ -2536,7 +2536,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 042 · 来源所载日期 1992-11-11；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 042 · 来源所载日期 1992-11-11",
       "tags": [
         "BTAS",
         "Moon of the Wolf"
@@ -2554,7 +2554,7 @@
       "series": "BTAS",
       "title": "Day of the Samurai",
       "original": "Day of the Samurai",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "043",
       "productionCode": "",
@@ -2569,7 +2569,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 043 · 来源所载日期 1993-02-23；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 043 · 来源所载日期 1993-02-23",
       "tags": [
         "BTAS",
         "Day of the Samurai"
@@ -2587,7 +2587,7 @@
       "series": "BTAS",
       "title": "Heart of Steel: Part 2",
       "original": "Heart of Steel: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "044",
       "productionCode": "",
@@ -2602,7 +2602,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 044 · 来源所载日期 1992-11-17；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 044 · 来源所载日期 1992-11-17",
       "tags": [
         "BTAS",
         "Heart of Steel: Part 2"
@@ -2620,7 +2620,7 @@
       "series": "BTAS",
       "title": "Terror in the Sky",
       "original": "Terror in the Sky",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "045",
       "productionCode": "",
@@ -2635,7 +2635,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 045 · 来源所载日期 1992-11-12；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 045 · 来源所载日期 1992-11-12",
       "tags": [
         "BTAS",
         "Terror in the Sky"
@@ -2653,7 +2653,7 @@
       "series": "BTAS",
       "title": "差一点就抓到他",
       "original": "Almost Got 'Im",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "046",
       "productionCode": "",
@@ -2688,18 +2688,18 @@
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：“差一点”给失败留下了自我辩护的空间。反派讲述时强调自己的高明，把失手归于偶然，观众却能从不同故事的共同结果中看见他们不愿承认的局限。\n外层牌局并非仅仅提供串联的背景。讲述本身也在交换情报、试探同伴，过去与现在因此相互影响。结尾还让“抓到他”获得不同含义，使反派的占有欲与人物之间的亲近形成幽默的回声。"
+          "title": "主题与叙事",
+          "body": "“差一点”给失败留下了自我辩护的空间。反派讲述时强调自己的高明，把失手归于偶然，观众却能从不同故事的共同结果中看见他们不愿承认的局限。\n外层牌局并非仅仅提供串联的背景。讲述本身也在交换情报、试探同伴，过去与现在因此相互影响。结尾还让“抓到他”获得不同含义，使反派的占有欲与人物之间的亲近形成幽默的回声。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "本集由Paul Dini编剧、Eric Radomski导演，配乐为Stuart V. Balcomb，动画制作为Dong Yang。Mark Hamill、Paul Williams、Richard Moll、Diane Pershing与Aron Kincaid分别为牌桌上的五名反派配音。\n本站声音解读：讲述、打断与嘲讽交替发生，演员之间的节奏与单独一段反派独白同样重要。牌桌框架可以让角色不断回应他人，也让每个内层故事有不同的语气与尺度。"
+          "body": "本集由Paul Dini编剧、Eric Radomski导演，配乐为Stuart V. Balcomb，动画制作为Dong Yang。Mark Hamill、Paul Williams、Richard Moll、Diane Pershing与Aron Kincaid分别为牌桌上的五名反派配音。\n讲述、打断与嘲讽交替发生，演员之间的节奏与单独一段反派独白同样重要。牌桌框架可以让角色不断回应他人，也让每个内层故事有不同的语气与尺度。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "本页已补剧情、人物关系、主题解读与主要制作署名。基础编号与日期沿用辅助指南：指南046，来源所载日期1992-11-10。它们不等于完整制作代码，也不能代替首播地区与家庭影音排序。\n剧情文字是本站重述，人物与主题分析不作为主创访谈引语。完整片尾、剧本与逐镜资料尚未核齐；图片只在已有对应来源时接入，不用其他单集的画面代填。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号046，所载播出日期1992-11-10。"
         }
       ],
       "spoiler": "众人的回忆包括双面人的巨型硬币陷阱、企鹅人的鸟类机关与杀手鳄简短得荒唐的“扔石头”故事。小丑则讲到猫女曾救走蝙蝠侠，而猫女随后被抓，并由哈莉看守。\n牌桌上的“杀手鳄”其实是伪装的蝙蝠侠，他从对话中取得猫女所在的线索，随后赶去营救。结尾猫女与蝙蝠侠短暂靠近，却再次差一点留住他，让标题从反派的失败炫耀转向带有亲密意味的玩笑。",
@@ -2715,7 +2715,7 @@
       "series": "BTAS",
       "title": "Birds of a Feather",
       "original": "Birds of a Feather",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "047",
       "productionCode": "",
@@ -2730,7 +2730,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 047 · 来源所载日期 1993-02-08；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 047 · 来源所载日期 1993-02-08",
       "tags": [
         "BTAS",
         "Birds of a Feather"
@@ -2748,14 +2748,14 @@
       "series": "BTAS",
       "title": "何为现实？",
       "original": "What Is Reality?",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1992",
       "guideNumber": "048",
       "productionCode": "",
       "airDate": "1992-11-24",
       "airRegion": "",
       "mediaOrder": "",
-      "writer": "Marty Isenberg、Rober N. Skir（辅助来源拼写，待片尾核对）",
+      "writer": "Marty Isenberg、Rober N. Skir（The World’s Finest列名）",
       "director": "Dick Sebast",
       "animation": "Akom Production Co.",
       "music": "Richard Bronskill",
@@ -2779,22 +2779,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "谜语人与蝙蝠侠：一方把控制环境当成智力优越的证明，另一方需要分清环境施加的限制与自身仍能做出的选择。本站把这种对抗读作对规则解释权的争夺。\n戈登与罗宾：戈登是被困者，罗宾承担联系与协助的作用。危险同时存在于装置之外的身体和装置之内的感知，因此不能只以虚拟场面是否逼真来衡量局势。"
+          "body": "谜语人与蝙蝠侠：一方把控制环境当成智力优越的证明，另一方需要分清环境施加的限制与自身仍能做出的选择。这种对抗也体现了对规则解释权的争夺。\n戈登与罗宾：戈登是被困者，罗宾承担联系与协助的作用。危险同时存在于装置之外的身体和装置之内的感知，因此不能只以虚拟场面是否逼真来衡量局势。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：当世界可以被任意改写，问题便从“哪一个答案正确”转向“谁规定什么算答案”。谜语人希望对手接受他的全部预设，蝙蝠侠则逐渐寻找预设之外的行动空间。\n这与上一篇实体迷宫可以形成对照：物理机关要求辨认固定结构，虚拟环境让结构本身变得不稳定。资料站可以保留两种挑战的区别，避免把所有谜语人故事都简化成同一种解题比赛。"
+          "title": "主题与叙事",
+          "body": "当世界可以被任意改写，问题便从“哪一个答案正确”转向“谁规定什么算答案”。谜语人希望对手接受他的全部预设，蝙蝠侠则逐渐寻找预设之外的行动空间。\n这与上一篇实体迷宫可以形成对照：物理机关要求辨认固定结构，虚拟环境让结构本身变得不稳定。两种挑战展现了谜语人不同的控制方式。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dick Sebast导演、Richard Bronskill配乐及Akom动画制作。编剧列名中第二人的英文拼写存在疑问，本页照录并标待核，不自行当作完整片尾确认。\n本站声音观察：当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
+          "body": "辅助档案列Dick Sebast导演、Richard Bronskill配乐及Akom动画制作。The World’s Finest编剧栏列名Marty Isenberg与Rober N. Skir。\n当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号048与所载日期1992-11-24沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号048，所载播出日期1992-11-24。"
         }
       ],
       "spoiler": "蝙蝠侠发现自己也能够改变虚拟环境，救出戈登。谜语人反而被自己创造的装置困住，众人最终找到仍与设备相连、失去正常反应的Nygma。",
@@ -2825,7 +2825,7 @@
       "series": "BTAS",
       "title": "Off Balance",
       "original": "Off Balance",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "050",
       "productionCode": "",
@@ -2840,7 +2840,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 050 · 来源所载日期 1992-11-23；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 050 · 来源所载日期 1992-11-23",
       "tags": [
         "BTAS",
         "Off Balance"
@@ -2858,7 +2858,7 @@
       "series": "BTAS",
       "title": "The Man Who Killed Batman",
       "original": "The Man Who Killed Batman",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "051",
       "productionCode": "",
@@ -2873,7 +2873,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 051 · 来源所载日期 1993-02-01；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 051 · 来源所载日期 1993-02-01",
       "tags": [
         "BTAS",
         "The Man Who Killed Batman"
@@ -2891,7 +2891,7 @@
       "series": "BTAS",
       "title": "Mudslide",
       "original": "Mudslide",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "052",
       "productionCode": "",
@@ -2906,7 +2906,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 052 · 来源所载日期 1993-09-15；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 052 · 来源所载日期 1993-09-15",
       "tags": [
         "BTAS",
         "Mudslide"
@@ -2924,7 +2924,7 @@
       "series": "BTAS",
       "title": "Paging The Crime Doctor",
       "original": "Paging The Crime Doctor",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "053",
       "productionCode": "",
@@ -2939,7 +2939,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 053 · 来源所载日期 1993-09-17；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 053 · 来源所载日期 1993-09-17",
       "tags": [
         "BTAS",
         "Paging The Crime Doctor"
@@ -2957,7 +2957,7 @@
       "series": "BTAS",
       "title": "Zatanna",
       "original": "Zatanna",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "054",
       "productionCode": "",
@@ -2972,7 +2972,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 054 · 来源所载日期 1993-02-02；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 054 · 来源所载日期 1993-02-02",
       "tags": [
         "BTAS",
         "Zatanna"
@@ -2990,7 +2990,7 @@
       "series": "BTAS",
       "title": "The Mechanic",
       "original": "The Mechanic",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "055",
       "productionCode": "",
@@ -3005,7 +3005,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 055 · 来源所载日期 1993-01-24；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 055 · 来源所载日期 1993-01-24",
       "tags": [
         "BTAS",
         "The Mechanic"
@@ -3023,7 +3023,7 @@
       "series": "BTAS",
       "title": "哈莉与毒藤女",
       "original": "Harley and Ivy",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1993",
       "guideNumber": "056",
       "productionCode": "",
@@ -3054,22 +3054,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "哈莉与毒藤女：她们的合作提供了不同于小丑身边的位置。本站关注的是支持、独立与依赖之间的变化，不把其他连续性后来的关系发展直接补进这一集。\n哈莉与小丑：失去服从者与失去伙伴可以呈现为不同动机。将小丑的追索放回具体行动，才能看清哈莉面对的期待是什么，而不只把两人的关系当成热闹的反派喜剧。"
+          "body": "哈莉与毒藤女：她们的合作提供了不同于小丑身边的位置。两人的互动呈现支持、独立与依赖之间的变化。\n哈莉与小丑：失去服从者与失去伙伴可以呈现为不同动机。将小丑的追索放回具体行动，才能看清哈莉面对的期待是什么，而不只把两人的关系当成热闹的反派喜剧。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：人物离开一段关系后，未必会立刻形成稳定的新自我。新搭档能提供不同的语言和行动方式，但旧习惯仍会影响选择。这让表面的犯罪搭档故事具有关于归属的阅读空间。\n本集也适合观察谁在安排局面、谁在跟随、谁能够拒绝。喜剧语气可以让冲突显得轻快，却不必使行为后果变得无关紧要。资料站讨论人物关系时，应同时保留场面的幽默与人物处境。"
+          "title": "主题与叙事",
+          "body": "人物离开一段关系后，未必会立刻形成稳定的新自我。新搭档能提供不同的语言和行动方式，但旧习惯仍会影响选择。这让表面的犯罪搭档故事具有关于归属的阅读空间。\n本集也适合观察谁在安排局面、谁在跟随、谁能够拒绝。喜剧语气可以让冲突显得轻快，却不必使行为后果变得无关紧要。场面的幽默与人物处境共同构成了本集的张力。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dini编剧、Boyd Kirkland导演、Walker配乐与Dong Yang动画制作；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n本站声音观察：哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。这里提出的是可供观影时留意的问题，不代称演员或编剧的创作说明。"
+          "body": "辅助档案列Dini编剧、Boyd Kirkland导演、Walker配乐与Dong Yang动画制作；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号056与所载日期1993-01-18沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号056，所载播出日期1993-01-18。"
         }
       ],
       "spoiler": "小丑追到两人的藏身处，冲突引发爆炸。哈莉与毒藤女逃离现场，最后却被女警Renee Montoya拦截并逮捕，使她们先前的豪言形成反讽。",
@@ -3095,7 +3095,7 @@
       "series": "BTAS",
       "title": "Shadow of the Bat: Part 1",
       "original": "Shadow of the Bat: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "057",
       "productionCode": "",
@@ -3110,7 +3110,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 057 · 来源所载日期 1993-09-13；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 057 · 来源所载日期 1993-09-13",
       "tags": [
         "BTAS",
         "Shadow of the Bat: Part 1"
@@ -3128,7 +3128,7 @@
       "series": "BTAS",
       "title": "Blind As A Bat",
       "original": "Blind As A Bat",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "058",
       "productionCode": "",
@@ -3143,7 +3143,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 058 · 来源所载日期 1993-02-22；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 058 · 来源所载日期 1993-02-22",
       "tags": [
         "BTAS",
         "Blind As A Bat"
@@ -3161,7 +3161,7 @@
       "series": "BTAS",
       "title": "The Demon's Quest: Part 1",
       "original": "The Demon's Quest: Part 1",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "059",
       "productionCode": "",
@@ -3176,7 +3176,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 059 · 来源所载日期 1993-05-03；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 059 · 来源所载日期 1993-05-03",
       "tags": [
         "BTAS",
         "The Demon's Quest: Part 1"
@@ -3194,7 +3194,7 @@
       "series": "BTAS",
       "title": "His Silicon Soul",
       "original": "His Silicon Soul",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1992",
       "guideNumber": "060",
       "productionCode": "",
@@ -3209,7 +3209,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 060 · 来源所载日期 1992-11-20；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 060 · 来源所载日期 1992-11-20",
       "tags": [
         "BTAS",
         "His Silicon Soul"
@@ -3227,7 +3227,7 @@
       "series": "BTAS",
       "title": "Shadow of the Bat: Part 2",
       "original": "Shadow of the Bat: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "061",
       "productionCode": "",
@@ -3242,7 +3242,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 061 · 来源所载日期 1993-09-14；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 061 · 来源所载日期 1993-09-14",
       "tags": [
         "BTAS",
         "Shadow of the Bat: Part 2"
@@ -3260,7 +3260,7 @@
       "series": "BTAS",
       "title": "Fire From Olympus",
       "original": "Fire From Olympus",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "062",
       "productionCode": "",
@@ -3275,7 +3275,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 062 · 来源所载日期 1993-05-24；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 062 · 来源所载日期 1993-05-24",
       "tags": [
         "BTAS",
         "Fire From Olympus"
@@ -3293,7 +3293,7 @@
       "series": "BTAS",
       "title": "The Demon's Quest: Part 2",
       "original": "The Demon's Quest: Part 2",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "063",
       "productionCode": "",
@@ -3308,7 +3308,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 063 · 来源所载日期 1993-05-04；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 063 · 来源所载日期 1993-05-04",
       "tags": [
         "BTAS",
         "The Demon's Quest: Part 2"
@@ -3326,7 +3326,7 @@
       "series": "BTAS",
       "title": "Read My Lips",
       "original": "Read My Lips",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "064",
       "productionCode": "",
@@ -3341,7 +3341,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 064 · 来源所载日期 1993-05-10；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 064 · 来源所载日期 1993-05-10",
       "tags": [
         "BTAS",
         "Read My Lips"
@@ -3359,7 +3359,7 @@
       "series": "BTAS",
       "title": "The Worry Men",
       "original": "The Worry Men",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1993",
       "guideNumber": "065",
       "productionCode": "",
@@ -3374,7 +3374,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 065 · 来源所载日期 1993-09-16；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 065 · 来源所载日期 1993-09-16",
       "tags": [
         "BTAS",
         "The Worry Men"
@@ -3392,7 +3392,7 @@
       "series": "BTAS",
       "title": "Sideshow",
       "original": "Sideshow",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "066",
       "productionCode": "",
@@ -3407,7 +3407,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 066 · 来源所载日期 1994-05-03；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 066 · 来源所载日期 1994-05-03",
       "tags": [
         "BTAS",
         "Sideshow"
@@ -3425,7 +3425,7 @@
       "series": "BTAS",
       "title": "A Bullet For Bullock",
       "original": "A Bullet For Bullock",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1995",
       "guideNumber": "067",
       "productionCode": "",
@@ -3440,7 +3440,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 067 · 来源所载日期 1995-09-14；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 067 · 来源所载日期 1995-09-14",
       "tags": [
         "BTAS",
         "A Bullet For Bullock"
@@ -3458,7 +3458,7 @@
       "series": "BTAS",
       "title": "Trial",
       "original": "Trial",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "068",
       "productionCode": "",
@@ -3473,7 +3473,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 068 · 来源所载日期 1994-05-16；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 068 · 来源所载日期 1994-05-16",
       "tags": [
         "BTAS",
         "Trial"
@@ -3491,7 +3491,7 @@
       "series": "BTAS",
       "title": "Avatar",
       "original": "Avatar",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "069",
       "productionCode": "",
@@ -3506,7 +3506,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 069 · 来源所载日期 1994-05-09；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 069 · 来源所载日期 1994-05-09",
       "tags": [
         "BTAS",
         "Avatar"
@@ -3524,7 +3524,7 @@
       "series": "BTAS",
       "title": "House and Garden",
       "original": "House and Garden",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "070",
       "productionCode": "",
@@ -3539,7 +3539,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 070 · 来源所载日期 1994-05-02；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 070 · 来源所载日期 1994-05-02",
       "tags": [
         "BTAS",
         "House and Garden"
@@ -3557,7 +3557,7 @@
       "series": "BTAS",
       "title": "The Terrible Trio",
       "original": "The Terrible Trio",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1995",
       "guideNumber": "071",
       "productionCode": "",
@@ -3572,7 +3572,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 071 · 来源所载日期 1995-09-11；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 071 · 来源所载日期 1995-09-11",
       "tags": [
         "BTAS",
         "The Terrible Trio"
@@ -3590,7 +3590,7 @@
       "series": "BTAS",
       "title": "Harlequinade",
       "original": "Harlequinade",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "072",
       "productionCode": "",
@@ -3605,7 +3605,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 072 · 来源所载日期 1994-05-23；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 072 · 来源所载日期 1994-05-23",
       "tags": [
         "BTAS",
         "Harlequinade"
@@ -3623,7 +3623,7 @@
       "series": "BTAS",
       "title": "Time Out Of Joint",
       "original": "Time Out Of Joint",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "073",
       "productionCode": "",
@@ -3638,7 +3638,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 073 · 来源所载日期 1994-10-08；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 073 · 来源所载日期 1994-10-08",
       "tags": [
         "BTAS",
         "Time Out Of Joint"
@@ -3656,7 +3656,7 @@
       "series": "BTAS",
       "title": "Catwalk",
       "original": "Catwalk",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1995",
       "guideNumber": "074",
       "productionCode": "",
@@ -3671,7 +3671,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 074 · 来源所载日期 1995-09-13；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 074 · 来源所载日期 1995-09-13",
       "tags": [
         "BTAS",
         "Catwalk"
@@ -3689,7 +3689,7 @@
       "series": "BTAS",
       "title": "Bane",
       "original": "Bane",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "075",
       "productionCode": "",
@@ -3704,7 +3704,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 075 · 来源所载日期 1994-09-10；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 075 · 来源所载日期 1994-09-10",
       "tags": [
         "BTAS",
         "Bane"
@@ -3722,7 +3722,7 @@
       "series": "BTAS",
       "title": "Baby-Doll",
       "original": "Baby-Doll",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "076",
       "productionCode": "",
@@ -3737,7 +3737,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 076 · 来源所载日期 1994-10-01；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 076 · 来源所载日期 1994-10-01",
       "tags": [
         "BTAS",
         "Baby-Doll"
@@ -3755,7 +3755,7 @@
       "series": "BTAS",
       "title": "The Lion and the Unicorn",
       "original": "The Lion and the Unicorn",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1995",
       "guideNumber": "077",
       "productionCode": "",
@@ -3770,7 +3770,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 077 · 来源所载日期 1995-09-15；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 077 · 来源所载日期 1995-09-15",
       "tags": [
         "BTAS",
         "The Lion and the Unicorn"
@@ -3788,7 +3788,7 @@
       "series": "BTAS",
       "title": "Showdown",
       "original": "Showdown",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1995",
       "guideNumber": "078",
       "productionCode": "",
@@ -3803,7 +3803,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 078 · 来源所载日期 1995-09-12；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 078 · 来源所载日期 1995-09-12",
       "tags": [
         "BTAS",
         "Showdown"
@@ -3821,7 +3821,7 @@
       "series": "BTAS",
       "title": "谜语人的改过",
       "original": "Riddler's Reform",
-      "nameNote": "本站暂译",
+      "nameNote": "中文暂译",
       "year": "1994",
       "guideNumber": "079",
       "productionCode": "",
@@ -3852,22 +3852,22 @@
         {
           "id": "characters",
           "title": "主要人物与关系",
-          "body": "谜语人与蝙蝠侠：前者可以得到顾客和商业伙伴的赞美，却仍把蝙蝠侠当作证明自己的最终对象。本站关注这种依赖如何使他已经获得的成功变得不足。\n罗宾与新商业圈：他们从不同位置观察改过的表象。公开展示的玩具、产品语言与私下的行动需要分别判断；合法的商品身份不能自动回答人物是否停止伤害他人的问题。"
+          "body": "谜语人与蝙蝠侠：前者可以得到顾客和商业伙伴的赞美，却仍把蝙蝠侠当作证明自己的最终对象。这种依赖使他已经获得的成功变得不足。\n罗宾与新商业圈：他们从不同位置观察改过的表象。公开展示的玩具、产品语言与私下的行动需要分别判断；合法的商品身份不能自动回答人物是否停止伤害他人的问题。"
         },
         {
           "id": "themes",
-          "title": "主题与叙事 · 本站解读",
-          "body": "本站解读：这篇故事可以和最初的发财问题并读。财富在前篇是羞辱的尺度，在这里已经成为现实，却没能解除竞争的冲动。人物真正难以放下的，是对他人认可与失败原因的控制。\n谜语人的设计能力可以服务于娱乐，也可以组织惩罚。当他把两者混在同一套自我证明中，别人是否遵守规则、是否认可规则，都会被他视作针对自己的挑战。改过因此不仅涉及换一种职业，也涉及是否允许他人拥有独立的判断。"
+          "title": "主题与叙事",
+          "body": "这篇故事可以和最初的发财问题并读。财富在前篇是羞辱的尺度，在这里已经成为现实，却没能解除竞争的冲动。人物真正难以放下的，是对他人认可与失败原因的控制。\n谜语人的设计能力可以服务于娱乐，也可以组织惩罚。当他把两者混在同一套自我证明中，别人是否遵守规则、是否认可规则，都会被他视作针对自己的挑战。改过因此不仅涉及换一种职业，也涉及是否允许他人拥有独立的判断。"
         },
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案分别列Alan Burnett、Paul Dini、Randy Rogel为故事作者，Randy Rogel为电视剧本作者；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n本站声音观察：同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
+          "body": "辅助档案分别列Alan Burnett、Paul Dini、Randy Rogel为故事作者，Randy Rogel为电视剧本作者；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
         },
         {
           "id": "records",
-          "title": "档案口径",
-          "body": "指南编号079与所载日期1994-09-24沿用原目录。原始制作代码、地区首播与影音序号仍各自待核，不从指南编号互相推算。\n本页剧情为本站重述，人物与主题文字为本站解读。画面来自所列单集图库；时间码与实际影音版本未确认，图注只描述可见内容。"
+          "title": "分集资料",
+          "body": "The World’s Finest分集指南：编号079，所载播出日期1994-09-24。"
         }
       ],
       "spoiler": "谜语人把蝙蝠侠引入死亡陷阱，但蝙蝠侠利用保险柜避过爆炸。Nygma被抓后仍无法接受对手逃脱，反复追问自己的计划究竟出了什么问题。",
@@ -3897,7 +3897,7 @@
       "series": "BTAS",
       "title": "Second Chance",
       "original": "Second Chance",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "080",
       "productionCode": "",
@@ -3912,7 +3912,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 080 · 来源所载日期 1994-09-17；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 080 · 来源所载日期 1994-09-17",
       "tags": [
         "BTAS",
         "Second Chance"
@@ -3930,7 +3930,7 @@
       "series": "BTAS",
       "title": "Harley's Holiday",
       "original": "Harley's Holiday",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "081",
       "productionCode": "",
@@ -3945,7 +3945,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 081 · 来源所载日期 1994-10-15；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 081 · 来源所载日期 1994-10-15",
       "tags": [
         "BTAS",
         "Harley's Holiday"
@@ -3963,7 +3963,7 @@
       "series": "BTAS",
       "title": "Lock-Up",
       "original": "Lock-Up",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "082",
       "productionCode": "",
@@ -3978,7 +3978,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 082 · 来源所载日期 1994-11-19；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 082 · 来源所载日期 1994-11-19",
       "tags": [
         "BTAS",
         "Lock-Up"
@@ -3996,7 +3996,7 @@
       "series": "BTAS",
       "title": "Make 'Em Laugh",
       "original": "Make 'Em Laugh",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "083",
       "productionCode": "",
@@ -4011,7 +4011,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 083 · 来源所载日期 1994-11-05；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 083 · 来源所载日期 1994-11-05",
       "tags": [
         "BTAS",
         "Make 'Em Laugh"
@@ -4029,7 +4029,7 @@
       "series": "BTAS",
       "title": "Deep Freeze",
       "original": "Deep Freeze",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "084",
       "productionCode": "",
@@ -4044,7 +4044,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 084 · 来源所载日期 1994-11-26；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 084 · 来源所载日期 1994-11-26",
       "tags": [
         "BTAS",
         "Deep Freeze"
@@ -4062,7 +4062,7 @@
       "series": "BTAS",
       "title": "Batgirl Returns",
       "original": "Batgirl Returns",
-      "nameNote": "中文译名待核，暂显示英文原名",
+      "nameNote": "英文原名",
       "year": "1994",
       "guideNumber": "085",
       "productionCode": "",
@@ -4077,7 +4077,7 @@
       "actorLink": "",
       "guests": "",
       "status": "基础条目",
-      "summary": "BTAS基础目录 · 指南 085 · 来源所载日期 1994-11-12；单集内容与片尾待补。",
+      "summary": "BTAS · The World’s Finest指南 085 · 来源所载日期 1994-11-12",
       "tags": [
         "BTAS",
         "Batgirl Returns"
@@ -4111,22 +4111,22 @@
       {
         "id": "works",
         "title": "03 / 动画与游戏",
-        "body": "下方作品入口依据本轮已建条目生成。它是可继续阅读的样板路线，不是康罗伊完整作品年表。《起源》等作品不因属于阿卡姆系列就自动列入。"
+        "body": "从动画单集到Rocksteady三部曲，沿下方作品入口阅读康罗伊的蝙蝠侠表演。"
       },
       {
         "id": "comparison",
         "title": "04 / 一段声音，两种媒介",
-        "body": "本站策展：动画让声音跟随镜头和对白，游戏让声音伴随玩家的行动。由单集走向游戏，比较的是表演的节奏与角色经验；两个世界的连续性分别记录。"
+        "body": "动画让声音跟随镜头和对白，游戏让声音伴随玩家的行动。由单集走向游戏，比较表演的节奏与角色经验，两套作品各自展开哥谭的故事。"
       },
       {
         "id": "finding",
         "title": "05 / 本人讲述与共同创作",
-        "body": "《Finding Batman》由康罗伊讲述自身经历，J. Bone绘画，Aditya Bidikar担任文字设计。通过官方介绍进入原作，读到他如何把个人生活与表演联系起来。本站不转载完整漫画。"
+        "body": "《Finding Batman》由康罗伊讲述自身经历，J. Bone绘画，Aditya Bidikar担任文字设计。沿官方介绍进入原作，读他如何把个人生活与表演联系起来。"
       },
       {
         "id": "memory",
         "title": "06 / 留下的回声",
-        "body": "回到作品，是继续认识他的方式。官方纪念、本人访谈与表演回顾共同保留在来源区；影片与音频的片段、时间码及合作人员回忆将在核查后继续整理。"
+        "body": "回到作品，是继续认识他的方式。沿本人访谈、官方纪念与表演回顾，重听留在角色里的声音。"
       }
     ],
     "sources": [
@@ -4167,12 +4167,12 @@
       {
         "id": "legacy",
         "title": "从TAS走向现代",
-        "body": "本站把《披风斗士》看作TAS的现代延续尝试，关注的是创作传统：布鲁斯·蒂姆回归，以及动画如何再次处理哥谭的气氛、侦探故事和角色表演。\n这是一条策展阅读路线；本页单独编目，不将它列入BTAS／TNBA的集数，也不将它写成经典动画剧情的接续。"
+        "body": "布鲁斯·蒂姆回归，为TAS读者提供了一条比较创作传统的路线：动画如何再次处理哥谭的气氛、侦探故事和角色表演。\n《披风斗士》有自己的连续性与分季节目单。"
       },
       {
         "id": "gotham",
         "title": "重新诠释的哥谭",
-        "body": "DC官方介绍将这部动画放在1940年代黑色电影的美术语境中。布鲁斯仍处于蝙蝠侠生涯早期，这为读者提供了一个与经典TAS对照的起点：同样的城市与人物，如何在不同的创作选择下形成新的气质。\n后续对照文章将分别讨论画面、侦探叙事和人物关系；本页先登记官方信息，不提前把审美判断写成制作事实。"
+        "body": "DC介绍将这部动画放在1940年代黑色电影的美术语境中。布鲁斯仍处于蝙蝠侠生涯早期，同样的城市与人物，在新的创作选择下形成另一种气质。"
       },
       {
         "id": "creators",
@@ -4182,7 +4182,7 @@
       {
         "id": "seasons",
         "title": "季数与编目口径",
-        "body": "两季各10集，下方分别按Prime Video节目单显示顺序登记英文原名。中文分集名、逐集片尾署名与深度导读待核。\n官方报道与平台页面的日期显示存在差异，本页不逐集推算首播日期。系列美术宣传图和第二季宣传图分别标明，图片不冒充具体分集画面。"
+        "body": "两季各10集，下方按Prime Video节目单顺序列出英文原名。图片分别展示系列美术与第二季宣传画面。"
       }
     ],
     "episodes": [
@@ -4289,12 +4289,12 @@
       "series": "TNBA",
       "title": "Holiday Knights",
       "original": "Holiday Knights",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "001",
       "airDate": "1997-09-13",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 001；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 001 · 来源所载日期 1997-09-13",
       "tags": [
         "TNBA",
         "Holiday Knights"
@@ -4322,12 +4322,12 @@
       "series": "TNBA",
       "title": "Sins of the Father",
       "original": "Sins of the Father",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "002",
       "airDate": "1997-09-20",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 002；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 002 · 来源所载日期 1997-09-20",
       "tags": [
         "TNBA",
         "Sins of the Father"
@@ -4355,12 +4355,12 @@
       "series": "TNBA",
       "title": "Cold Comfort",
       "original": "Cold Comfort",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "003",
       "airDate": "1997-10-11",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 003；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 003 · 来源所载日期 1997-10-11",
       "tags": [
         "TNBA",
         "Cold Comfort"
@@ -4388,12 +4388,12 @@
       "series": "TNBA",
       "title": "Double Talk",
       "original": "Double Talk",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "004",
       "airDate": "1997-11-22",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 004；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 004 · 来源所载日期 1997-11-22",
       "tags": [
         "TNBA",
         "Double Talk"
@@ -4421,12 +4421,12 @@
       "series": "TNBA",
       "title": "You Scratch My Back",
       "original": "You Scratch My Back",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "005",
       "airDate": "1997-11-15",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 005；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 005 · 来源所载日期 1997-11-15",
       "tags": [
         "TNBA",
         "You Scratch My Back"
@@ -4454,12 +4454,12 @@
       "series": "TNBA",
       "title": "Never Fear",
       "original": "Never Fear",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1997",
       "guideNumber": "006",
       "airDate": "1997-11-01",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 006；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 006 · 来源所载日期 1997-11-01",
       "tags": [
         "TNBA",
         "Never Fear"
@@ -4487,12 +4487,12 @@
       "series": "TNBA",
       "title": "Joker’s Millions",
       "original": "Joker’s Millions",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "007",
       "airDate": "1998-02-21",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 007；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 007 · 来源所载日期 1998-02-21",
       "tags": [
         "TNBA",
         "Joker’s Millions"
@@ -4520,12 +4520,12 @@
       "series": "TNBA",
       "title": "Growing Pains",
       "original": "Growing Pains",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "008",
       "airDate": "1998-02-28",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 008；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 008 · 来源所载日期 1998-02-28",
       "tags": [
         "TNBA",
         "Growing Pains"
@@ -4553,12 +4553,12 @@
       "series": "TNBA",
       "title": "Love is a Croc",
       "original": "Love is a Croc",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "009",
       "airDate": "1998-07-11",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 009；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 009 · 来源所载日期 1998-07-11",
       "tags": [
         "TNBA",
         "Love is a Croc"
@@ -4586,12 +4586,12 @@
       "series": "TNBA",
       "title": "Torch Song",
       "original": "Torch Song",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "010",
       "airDate": "1998-06-13",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 010；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 010 · 来源所载日期 1998-06-13",
       "tags": [
         "TNBA",
         "Torch Song"
@@ -4619,12 +4619,12 @@
       "series": "TNBA",
       "title": "The Ultimate Thrill",
       "original": "The Ultimate Thrill",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "011",
       "airDate": "1998-09-14",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 011；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 011 · 来源所载日期 1998-09-14",
       "tags": [
         "TNBA",
         "The Ultimate Thrill"
@@ -4652,12 +4652,12 @@
       "series": "TNBA",
       "title": "Over the Edge",
       "original": "Over the Edge",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "012",
       "airDate": "1998-05-23",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 012；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 012 · 来源所载日期 1998-05-23",
       "tags": [
         "TNBA",
         "Over the Edge"
@@ -4685,12 +4685,12 @@
       "series": "TNBA",
       "title": "Mean Seasons",
       "original": "Mean Seasons",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "013",
       "airDate": "1998-04-25",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 013；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 013 · 来源所载日期 1998-04-25",
       "tags": [
         "TNBA",
         "Mean Seasons"
@@ -4718,12 +4718,12 @@
       "series": "TNBA",
       "title": "Critters",
       "original": "Critters",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "014",
       "airDate": "1998-09-19",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 014；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 014 · 来源所载日期 1998-09-19",
       "tags": [
         "TNBA",
         "Critters"
@@ -4751,12 +4751,12 @@
       "series": "TNBA",
       "title": "Cult of the Cat",
       "original": "Cult of the Cat",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "015",
       "airDate": "1998-09-18",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 015；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 015 · 来源所载日期 1998-09-18",
       "tags": [
         "TNBA",
         "Cult of the Cat"
@@ -4784,12 +4784,12 @@
       "series": "TNBA",
       "title": "Animal Act",
       "original": "Animal Act",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "016",
       "airDate": "1998-09-26",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 016；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 016 · 来源所载日期 1998-09-26",
       "tags": [
         "TNBA",
         "Animal Act"
@@ -4817,12 +4817,12 @@
       "series": "TNBA",
       "title": "Old Wounds",
       "original": "Old Wounds",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "017",
       "airDate": "1998-10-03",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 017；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 017 · 来源所载日期 1998-10-03",
       "tags": [
         "TNBA",
         "Old Wounds"
@@ -4850,12 +4850,12 @@
       "series": "TNBA",
       "title": "The Demon Within",
       "original": "The Demon Within",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "018",
       "airDate": "1998-05-09",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 018；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 018 · 来源所载日期 1998-05-09",
       "tags": [
         "TNBA",
         "The Demon Within"
@@ -4883,12 +4883,12 @@
       "series": "TNBA",
       "title": "Legends of the Dark Knight",
       "original": "Legends of the Dark Knight",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "019",
       "airDate": "1998-10-10",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 019；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 019 · 来源所载日期 1998-10-10",
       "tags": [
         "TNBA",
         "Legends of the Dark Knight"
@@ -4916,12 +4916,12 @@
       "series": "TNBA",
       "title": "Girls’ Nite Out",
       "original": "Girls’ Nite Out",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "020",
       "airDate": "1998-10-17",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 020；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 020 · 来源所载日期 1998-10-17",
       "tags": [
         "TNBA",
         "Girls’ Nite Out"
@@ -4949,12 +4949,12 @@
       "series": "TNBA",
       "title": "Mad Love",
       "original": "Mad Love",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1999",
       "guideNumber": "021",
       "airDate": "1999-01-16",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 021；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 021 · 来源所载日期 1999-01-16",
       "tags": [
         "TNBA",
         "Mad Love"
@@ -4982,12 +4982,12 @@
       "series": "TNBA",
       "title": "Chemistry",
       "original": "Chemistry",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "022",
       "airDate": "1998-10-24",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 022；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 022 · 来源所载日期 1998-10-24",
       "tags": [
         "TNBA",
         "Chemistry"
@@ -5015,12 +5015,12 @@
       "series": "TNBA",
       "title": "Beware the Creeper",
       "original": "Beware the Creeper",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "023",
       "airDate": "1998-11-07",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 023；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 023 · 来源所载日期 1998-11-07",
       "tags": [
         "TNBA",
         "Beware the Creeper"
@@ -5048,12 +5048,12 @@
       "series": "TNBA",
       "title": "Judgment Day",
       "original": "Judgment Day",
-      "nameNote": "英文原名；中文译名待核",
+      "nameNote": "英文原名",
       "year": "1998",
       "guideNumber": "024",
       "airDate": "1998-10-31",
       "status": "基础条目",
-      "summary": "TNBA基础目录 · 辅助指南 024；单集内容与片尾待补。",
+      "summary": "TNBA · The World’s Finest指南 024 · 来源所载日期 1998-10-31",
       "tags": [
         "TNBA",
         "Judgment Day"

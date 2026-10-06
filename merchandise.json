@@ -241,8 +241,8 @@
         "组合": "Batman、Robin、Nightwing、Harley Quinn",
         "资料时间": "2014-04-17 公告"
       },
-      "summary": "一组套装把蝙蝠家族与哈莉放在同一个游戏产品线中。它可以作为《阿卡姆之城》角色周边的入口，后续再按单体、套装和再发行版本拆分。",
-      "note": "当前确认套装名称和角色组合；单体编号、包装批次与实际发行日仍待核。",
+      "summary": "《阿卡姆之城》四人套装，将蝙蝠家族与哈莉放在同一组游戏角色收藏中。",
+      "note": "《之城》角色四人套装，名称与组合采用DC历史公告。",
       "sourceRefs": [
         "dc-2014"
       ],
@@ -262,7 +262,7 @@
         "资料时间": "2014-04-17 公告"
       },
       "summary": "急冻人的游戏装甲以独立雕像形式进入 DC Collectibles 的产品目录。这里收录的是《阿卡姆之城》命名版本，可与动画版急冻人造型分开阅读。",
-      "note": "公告确认产品名称；比例、编号、底座细节和限量数量未核实。",
+      "note": "急冻人雕像，产品名称采用DC历史公告。",
       "sourceRefs": [
         "dc-2014"
       ],
@@ -282,8 +282,8 @@
         "组合": "Batman、Deathstroke、Black Mask、Joker",
         "历史预定": "2014年12月"
       },
-      "summary": "套装围绕《起源》的蝙蝠侠与反派阵容展开，Batman 配件包括 Remote Claw。游戏名应随产品版本保留，不能只按角色名称并入其他阿卡姆套装。",
-      "note": "2014年12月是公告中的预定档期，并不等于已核实的实际出货日。",
+      "summary": "套装围绕《起源》的蝙蝠侠与反派阵容展开，Batman配件包括Remote Claw。",
+      "note": "DC公告预定于2014年12月推出。",
       "sourceRefs": [
         "dc-dec14"
       ],
@@ -303,8 +303,8 @@
         "系列": "DC Multiverse",
         "规格": "7英寸级"
       },
-      "summary": "McFarlane 的阿卡姆产品以游戏名称区分角色造型。此条保留厂商使用的作品归属与产品线，便于以后对照同角色的不同版本。",
-      "note": "DC Multiverse 游戏造型产品；厂商主站核查时维护，名称与比例采用官方已索引资料。",
+      "summary": "McFarlane的DC Multiverse蝙蝠侠人偶，以《阿卡姆疯人院》的游戏造型呈现角色。",
+      "note": "DC Multiverse游戏造型产品，取材于《阿卡姆疯人院》。",
       "sourceRefs": [
         "mcf-asylum-batman-source"
       ],
@@ -323,8 +323,8 @@
       "facts": {
         "规格": "7英寸级"
       },
-      "summary": "McFarlane 的阿卡姆产品以游戏名称区分角色造型。此条保留厂商使用的作品归属与产品线，便于以后对照同角色的不同版本。",
-      "note": "厂商商店中的补货或预订状态可能变化，本页不把它作为原始发行日期。",
+      "summary": "McFarlane的DC Multiverse蝙蝠侠人偶，以《阿卡姆骑士》的游戏造型呈现角色。",
+      "note": "《阿卡姆骑士》造型版本。",
       "sourceRefs": [
         "mcf-knight-batman-source"
       ],
@@ -345,8 +345,8 @@
         "厂商编号": "15468",
         "产品线": "Build-A-Figure"
       },
-      "summary": "McFarlane 的阿卡姆产品以游戏名称区分角色造型。此条保留厂商使用的作品归属与产品线，便于以后对照同角色的不同版本。",
-      "note": "记录 Build-A-Figure 版；不与黑白等其他涂装变体合并。",
+      "summary": "取材于《阿卡姆之城》的猫女人偶，属于McFarlane的Build-A-Figure产品线。",
+      "note": "Build-A-Figure版本；黑白等涂装变体另列。",
       "sourceRefs": [
         "mcf-city-catwoman-source"
       ],
@@ -365,8 +365,8 @@
       "facts": {
         "产品线": "DC Multiverse / Mega Figure"
       },
-      "summary": "McFarlane 的阿卡姆产品以游戏名称区分角色造型。此条保留厂商使用的作品归属与产品线，便于以后对照同角色的不同版本。",
-      "note": "Mega Figure 是产品规格名称；不将其当作普通7英寸人偶的等高规格。",
+      "summary": "取材于《阿卡姆疯人院》的杀手鳄人偶，采用McFarlane的Mega Figure规格。",
+      "note": "Mega Figure为厂商的产品规格名称。",
       "sourceRefs": [
         "mcf-asylum-croc-source"
       ],
@@ -387,7 +387,7 @@
         "类型": "头罩陈列模型"
       },
       "summary": "把游戏蝙蝠侠的头罩从完整人偶中单独抽出，作为面具造型的陈列物。它适合与不同游戏时期的人偶头雕一起比较。",
-      "note": "这是缩比例道具模型，不是等身可穿戴头罩；材质、编号和首发日期待核。",
+      "note": "缩比例头罩道具模型。",
       "sourceRefs": [
         "mcf-cowl-source"
       ],
@@ -409,7 +409,7 @@
         "厂商型号": "VGM18"
       },
       "summary": "以肌肉轮廓和深色披风组织人物外形，可与《骑士》的分块装甲版并排阅读。产品页面列有可替换下半脸和游戏道具配件。",
-      "note": "VGM18 与 VGM26 是不同游戏版本；不合并为同一款 Batman。",
+      "note": "VGM18对应《之城》造型，VGM26对应《骑士》造型。",
       "sourceRefs": [
         "hot-city-source"
       ],
@@ -434,7 +434,7 @@
         "厂商型号": "VGM26"
       },
       "summary": "这款人偶对应 V8.03 战衣，外形重点是游戏中的装甲结构。它记录的是完整战衣版本，而非单独的头罩或通用漫画蝙蝠侠。",
-      "note": "官方展示图注明 Prototype Shown，样品照片不能作为每批成品涂装的保证。",
+      "note": "厂商展示图标注Prototype Shown，为样品照片。",
       "sourceRefs": [
         "hot-knight-source"
       ],
@@ -459,7 +459,7 @@
         "厂商型号": "VGM28"
       },
       "summary": "蓝色头盔与战术护甲是这款角色人偶的辨识点。厂商资料列有发光头盔眼部；此页只讨论产品外形，不展开角色身份。",
-      "note": "配件与转换造型涉及剧情信息，可在厂商页进一步查看。本站目录和搜索摘要不写角色身份。",
+      "note": "配件与转换造型涉及剧情信息，可沿厂商页查看。",
       "sourceRefs": [
         "hot-arkham-knight-source"
       ],
@@ -479,8 +479,8 @@
         "比例": "1/6",
         "发行方编号": "906110"
       },
-      "summary": "Batgirl 以《阿卡姆骑士》DLC《A Matter of Family》的造型进入产品线。把 DLC 名称保留下来，有助于区分本体主线与扩展故事的角色资料。",
-      "note": "发行编号按 Sideshow 产品页记录；未确认的 Hot Toys 自身型号暂不补写。",
+      "summary": "Batgirl以《阿卡姆骑士》DLC《A Matter of Family》的造型进入产品线，呈现扩展故事中的战衣与装备。",
+      "note": "本条发行编号采用Sideshow产品页列名。",
       "sourceRefs": [
         "hot-batgirl-source"
       ],
@@ -500,8 +500,8 @@
         "比例": "1/6",
         "发行方编号": "905776"
       },
-      "summary": "红色蝙蝠标记来自 Batman Beyond 的视觉传统，但这件人偶采用《阿卡姆骑士》的游戏皮肤。它归入阿卡姆档案，并作为动画设计进入游戏的一个交叉例子。",
-      "note": "不能仅凭 Batman Beyond 名称，把本款登记为动画 Terry McGinnis 人偶。展示图注明样品。",
+      "summary": "红色蝙蝠标记来自 Batman Beyond 的视觉传统，但这件人偶采用《阿卡姆骑士》的游戏皮肤。它归入Protocol Arkham专题，并作为动画设计进入游戏的一个交叉例子。",
+      "note": "《阿卡姆骑士》中的Batman Beyond游戏造型；展示图为样品。",
       "sourceRefs": [
         "hot-beyond-source"
       ],
@@ -527,7 +527,7 @@
         "系列": "Museum Masterline"
       },
       "summary": "从角色人偶转为大型场景雕像后，披风与建筑基座也成为造型的一部分。MMDC-01 可以与 Hot Toys 的同游戏战衣版本对照，观察不同载体如何组织人物轮廓。",
-      "note": "本条对应 MMDC-01 普通版本；EX、Prestige 与战损等变体需要另核，不套用其编号或数量。",
+      "note": "MMDC-01普通版本；EX、Prestige与战损版是不同变体。",
       "sourceRefs": [
         "prime-source"
       ],
@@ -549,8 +549,8 @@
         "系列": "Premium Format",
         "发行编号": "300290（页面变体 3002901）"
       },
-      "summary": "这件雕像采用《疯人院》小丑的形象，属于 Sideshow 自有 Premium Format 系列。厂商与系列名称一起保留，可以避免和 Sideshow 代销的 Hot Toys 产品混淆。",
-      "note": "基础编号与页面变体同时记录；版本专属配件、比例和限量数量未在本条作统一断言。",
+      "summary": "这件雕像由Sideshow推出，属于其自有Premium Format系列，取材于《疯人院》的小丑形象。",
+      "note": "基础编号与页面变体分别列出，各版有不同的专属配件。",
       "sourceRefs": [
         "joker-pf-source"
       ],
@@ -570,8 +570,8 @@
         "形式": "双人非对称桌游",
         "同期资料": "2013年报道"
       },
-      "summary": "游戏世界被转写为一场非对称对抗：一方组织反派逃离，另一方由蝙蝠侠阻止。它是独立实体桌游，并非电子游戏的桌面版攻略。",
-      "note": "厂商历史目录中的关联卡牌确认产品名；玩法用同期实玩报道补充。完整规则书、组件清单与原始发行日期仍待核。",
+      "summary": "游戏世界被转写为一场非对称的实体桌游对抗：一方组织反派逃离，另一方由蝙蝠侠阻止。",
+      "note": "产品名称见厂商历史目录中的关联卡牌，玩法介绍采用同期实玩报道。",
       "sourceRefs": [
         "crypto-escape",
         "escape-review"
@@ -593,8 +593,8 @@
         "TNBA 造型": "Batman、Two-Face、Mr. Freeze",
         "资料时间": "2014-02-13 公告"
       },
-      "summary": "这一产品线从一开始就同时收录两种动画设计：猫女采用 BTAS 形象，Batman、Two-Face 与 Mr. Freeze 采用 TNBA 形象。编目时需要逐款保留作品归属。",
-      "note": "此条是产品线起点说明，不把首批所有角色都称为 BTAS 原版造型。",
+      "summary": "这一产品线从一开始就同时收录两种动画设计：猫女采用BTAS形象，Batman、Two-Face与Mr. Freeze采用TNBA形象。",
+      "note": "DC Collectibles动画产品线起点，包含BTAS与TNBA造型。",
       "sourceRefs": [
         "dc-launch"
       ],
@@ -615,7 +615,7 @@
         "配件对应单集": "Robin’s Reckoning Part 1"
       },
       "summary": "厂商把配件与《Robin’s Reckoning Part 1》联系起来，资料包含套索与替换部件。这样的人偶条目可以反向指向单集档案，查看人物成长故事。",
-      "note": "资料来自历史预告；实际包装编号和批次尚待核。配件出处按厂商列名记录。",
+      "note": "历史预告中的Robin套装，配件对应厂商列名。",
       "sourceRefs": [
         "dc-dec14"
       ],
@@ -641,7 +641,7 @@
         "配件对应单集": "The Last Laugh"
       },
       "summary": "小丑的这款版本在厂商预告中对应《The Last Laugh》，列有头盔等配件。与通用角色立像相比，配件保留了某一集动画的具体线索。",
-      "note": "同名角色的其他批次和涂装不直接归入本条。历史预告档期不当作实际出货记录。",
+      "note": "The Last Laugh版本的历史预告，其他批次与涂装另列。",
       "sourceRefs": [
         "dc-dec14"
       ],
@@ -662,8 +662,8 @@
         "TNBA 列名": "Batgirl",
         "历史预定": "2015年7月"
       },
-      "summary": "本次预告中的 Batman、Riddler、Penguin 属于 BTAS 设计，而 Batgirl 属于 TNBA 设计。角色同名并不能替代作品标签，波次也不是动画集数顺序。",
-      "note": "这是一组历史预告记录；不代表完整产品波次清单或已确认实际到货日。",
+      "summary": "历史预告中的Batman、Riddler、Penguin采用BTAS设计，Batgirl采用TNBA设计。",
+      "note": "2015年动画系列产品历史预告。",
       "sourceRefs": [
         "dc-july15"
       ],
@@ -685,7 +685,7 @@
         "资料时间": "2015-02-12 公告"
       },
       "summary": "双人座舱与滑动舱盖把动画载具变成可以承载人偶的模型。此条留存 DC Collectibles 的历史公告，与后来的 DC Direct 品牌产品分开记录。",
-      "note": "功能来自公告；不同厂商时期的重发版、编号及包装差异待另核。",
+      "note": "2015年公告中的动画蝙蝠车版本与功能。",
       "sourceRefs": [
         "dc-2015-toyfair"
       ],
@@ -705,8 +705,8 @@
         "资料时间": "2015 Toy Fair 公告",
         "类型": "电影关联套装"
       },
-      "summary": "厂商将《幽灵的面具》列为独立双人套装。它归在动画电影关联产品下，保留影片来源，避免混入电视分集的人偶清单。",
-      "note": "本轮仅确认套装存在与片名归属；具体批次、编号和配件清单待核，不在此展开电影身份谜底。",
+      "summary": "取材于动画电影《幽灵的面具》的独立双人套装，归入动画电影关联产品。",
+      "note": "取材于《幽灵的面具》的双人套装；角色造型涉及电影身份剧透。",
       "sourceRefs": [
         "dc-2015-toyfair"
       ],
@@ -732,8 +732,8 @@
         "长度": "约24英寸",
         "适配": "6英寸级人偶，可坐两人"
       },
-      "summary": "DC Direct 品牌下的这款蝙蝠车保留动画中的长车身与封闭座舱，厂商列出内外灯光。与人偶一起展示时，载具尺寸与适配比例需要分别记录。",
-      "note": "人偶另售。当前厂商主站维护，规格采用已读取的官方产品资料；不把2024版与2015版视为完全相同的包装或批次。",
+      "summary": "DC Direct品牌下的这款蝙蝠车保留动画中的长车身与封闭座舱，厂商列出内外灯光；人偶另售。",
+      "note": "2024年McFarlane版本，人偶另售；2015年DC Collectibles版另列。",
       "sourceRefs": [
         "mcf-mobile"
       ],
@@ -755,7 +755,7 @@
         "涂装": "Cel Shaded"
       },
       "summary": "明暗色块让三维人偶接近动画画面的分区效果，但厂商使用的作品标签是《The Adventures Continue》漫画。这是一件动画风格的延续产品。",
-      "note": "漫画关联产品单独标注，不写成1992年BTAS某集的直接改编人偶。",
+      "note": "漫画《The Batman Adventures》关联造型，采用赛璐珞风格涂装。",
       "sourceRefs": [
         "mcf-cel"
       ],
@@ -777,7 +777,7 @@
         "材质": "PVC、ABS"
       },
       "summary": "Redux 版修订了人物比例、雕塑与涂装；发光眼部与替换面部让动画蝙蝠侠在不同展示情境中保留轮廓。",
-      "note": "Redux 是具体版本名称，不与早期 Batman、限定版混用。",
+      "note": "Redux是这一款的具体版本名称。",
       "sourceRefs": [
         "mondo-redux-source"
       ],
@@ -802,7 +802,7 @@
         "材质": "PVC、ABS"
       },
       "summary": "四种替换面部与笑鱼配件把小丑的人物表演转为可陈列的姿态。笑鱼也提供了回看相关单集的线索。",
-      "note": "此条对应普通版；SDCC版的配件和数量另列。",
+      "note": "普通版本；SDCC版本另列配件与数量。",
       "sourceRefs": [
         "mondo-joker-source"
       ],
@@ -832,7 +832,7 @@
         "材质": "PVC、ABS"
       },
       "summary": "动画哈莉的红黑分区、白色脸部与大锤构成清晰的角色识别。该普通版的配件目录还包括手铐和证书。",
-      "note": "普通版与 Timed Edition 分开；其他版本的追加配件和限量规则不套用。",
+      "note": "普通版本；Timed Edition有不同的追加配件与限量规则。",
       "sourceRefs": [
         "mondo-harley-source"
       ],
@@ -857,7 +857,7 @@
         "材质": "PVC、ABS"
       },
       "summary": "厂商用可动双臂、破损衬衫与三种替换面部表现人蝠。展开的翼部使它的展示空间与普通人形角色有明显区别。",
-      "note": "高度按厂商列名；1/6是产品比例标签，并不意味着所有角色成品等高。",
+      "note": "高度采用厂商列名，1/6为产品比例标签。",
       "sourceRefs": [
         "mondo-manbat-source"
       ],
@@ -883,7 +883,7 @@
         "替换面部": "6种"
       },
       "summary": "限定版在普通小丑人偶的基础上增加展示选项，厂商列有《Be a Clown》造型及帽子。版本差异可以作为单独条目查阅。",
-      "note": "1000件仅对应此 SDCC 版本，不代表整个 Joker 产品线的总量。普通版产品照不拿来充当限定版照片。",
+      "note": "该SDCC版本限量1000件。",
       "sourceRefs": [
         "mondo-joker-sdcc-source"
       ],
@@ -904,8 +904,8 @@
         "厂商高度": "10.5英寸",
         "页面预期出货": "2026年10月"
       },
-      "summary": "这款 Batgirl 列有可替换面部、披风和芭芭拉未戴面具的造型。它可以与既有动画人偶共同阅读，但出货进度与造型资料是两类信息。",
-      "note": "截至2026-10-02，页面给出2026年10月预期出货；本站未确认已实际发行。不得把预期月份当作到货事实。",
+      "summary": "这款Batgirl列有可替换面部、披风和芭芭拉未戴面具的造型。厂商公告预期于2026年10月出货。",
+      "note": "厂商公告预期于2026年10月出货。",
       "sourceRefs": [
         "mondo-batgirl-source"
       ],
@@ -928,7 +928,7 @@
         "厂商年龄标记": "18+"
       },
       "summary": "这件可挂墙或用支架陈列的套装，以片头的城市轮廓与颜色为起点，把不同单集中的地点和场景藏进建筑内部。它也可以作为分集地点资料的立体索引。",
-      "note": "厂商明确说明取材于BTAS；隐藏场景与每个零件的逐集对应尚未完成核查。",
+      "note": "取材于BTAS的哥谭城市积木展示套装。",
       "sourceRefs": [
         "lego-gotham-source"
       ],
@@ -954,7 +954,7 @@
         "厂商年龄标记": "8+"
       },
       "summary": "官方说明明确将这辆蝙蝠车联系到《Batman: The Animated Series》。套装配有可开启座舱和旋转展示支架，可与城市天际线套装形成不同尺度的载具资料。",
-      "note": "套装人仔组合不直接对应某一集事件；不依据产品摆拍推断动画剧情。",
+      "note": "动画蝙蝠车与人仔组合套装。",
       "sourceRefs": [
         "lego-mobile-source"
       ],
@@ -980,7 +980,7 @@
         "参考时长": "约30分钟"
       },
       "summary": "反派聚会被改写为带扑克手牌的社交推理游戏，玩家寻找隐藏身份。它利用的是单集的聚会结构，玩法与电视剧事件并不完全相同。",
-      "note": "人数、日期和时长采用出版方条目；不同地区发行与翻译名称尚未分别编目。",
+      "note": "人数、日期与时长采用出版方条目。",
       "sourceRefs": [
         "crypto-almost-source"
       ],
@@ -1006,7 +1006,7 @@
         "资料时间": "2015-09-04 回顾"
       },
       "summary": "DC 的回顾把 Bruce Timm 设计的哈莉黑白雕像放在动画风格收藏品的历史中。这是一条作者设计与产品系列的关联记录，帮助区分角色设计来源与具体单集改编。",
-      "note": "回顾提及多个版本；本轮未核齐每版编号、尺寸、数量，暂不将其拆成完整版本表。",
+      "note": "DC回顾中的Bruce Timm哈莉黑白雕像版本。",
       "sourceRefs": [
         "dc-timm-bw"
       ],
@@ -1028,7 +1028,7 @@
         "资料时间": "2016-06-04 公告"
       },
       "summary": "漫画与人偶被装入同一套收藏品，强调《Mad Love》的出版来源。它连接动画角色与漫画故事的流转，也能与动画改编版本分开阅读。",
-      "note": "产品名指向漫画《The Batman Adventures: Mad Love》；不把书中内容直接记为BTAS电视单集。",
+      "note": "对应漫画《The Batman Adventures: Mad Love》的书籍与人偶套装。",
       "sourceRefs": [
         "dc-madlove-set-source"
       ],
@@ -1046,7 +1046,7 @@
       "sha256": "c841d458cfbf3d7296b8c82f6384e63189240fc115249d343f5248c56ae35b3b",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/Batman_PP-033.jpg?v=1737571929&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-batman-1-6-scale-figure-redux",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Batman Redux（造型／包装展示）",
       "sourceRefs": [
@@ -1061,7 +1061,7 @@
       "sha256": "51f49bee32ce0145e2e21745f1aa0447795f20d18410665d3c0e2b3355ecb82e",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/Batman_PP-002.jpg?v=1737571929&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-batman-1-6-scale-figure-redux",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Batman Redux（配件／另一视角）",
       "sourceRefs": [
@@ -1076,7 +1076,7 @@
       "sha256": "c9bb91f406cbb0dd19c42965df643a1fa8fc6bfb64885e9ff47636667fc5b3bc",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/902249/batman-arkham-city_dc-comics_gallery_5c61f8a7371f5.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-arkham-city-hot-toys-902249/",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Hot Toys · 《阿卡姆之城》Batman（造型／包装展示）",
       "sourceRefs": [
@@ -1091,7 +1091,7 @@
       "sha256": "db2ae96d72770bf7fe4ec953d254b7631ead951da784aaf41427a789edb6a1ea",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/902249/batman-arkham-city_dc-comics_gallery_5c61f8a76754a.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-arkham-city-hot-toys-902249/",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Hot Toys · 《阿卡姆之城》Batman（配件／另一视角）",
       "sourceRefs": [
@@ -1106,7 +1106,7 @@
       "sha256": "d9c8c6267047b4131d7de51c925bf251b5ba7caf2c5888c2da1d68f43ef08215",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/902934/batman_dc-comics_gallery_5c4d6dde2c63b.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-hot-toys-902934",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商宣传样品图；原页面标注 Prototype Shown。",
       "title": "Hot Toys · 《阿卡姆骑士》Batman V8.03（造型／包装展示）",
       "sourceRefs": [
@@ -1121,7 +1121,7 @@
       "sha256": "a6d32cb01086db6c62bd06d61c0b8c35276989e97785ee9d79e4de5f1c01ca4f",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/902934/batman_dc-comics_gallery_5c4d6de2cc357.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-hot-toys-902934",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商宣传样品图；原页面标注 Prototype Shown。",
       "title": "Hot Toys · 《阿卡姆骑士》Batman V8.03（配件／另一视角）",
       "sourceRefs": [
@@ -1136,7 +1136,7 @@
       "sha256": "7d74c2a9153cf4828685363d414cbe16ed607dc6377fb472df65f587169fb05c",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/HarleyQ_PP-001_REGULAR.jpg?v=1683216158&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-harley-quinn-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Harley Quinn 普通版（造型／包装展示）",
       "sourceRefs": [
@@ -1151,7 +1151,7 @@
       "sha256": "df88ca5dfe1ccfe935339bfaf5e07bb61195154aa177acc9c847cded08756f4b",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/HarleyQ_PP-002_REG.jpg?v=1683216158&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-harley-quinn-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Harley Quinn 普通版（配件／另一视角）",
       "sourceRefs": [
@@ -1166,7 +1166,7 @@
       "sha256": "aa19ae030a631a7b8b12d2b985d9baf1b58e41bc84d8dd0cadd5c11263ae667e",
       "imageUrl": "https://mondoshop.com/cdn/shop/files/ManBat_REG_PP-001.jpg?v=1701116147&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-man-bat-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Man-Bat 人蝠（造型／包装展示）",
       "sourceRefs": [
@@ -1181,7 +1181,7 @@
       "sha256": "2482bca978ec1607210db43583b9b372750b2c35bf8d8645aa9a1849be8e1dc9",
       "imageUrl": "https://mondoshop.com/cdn/shop/files/ManBat_REG_PP-002_c696f3a4-c443-43f5-a9ac-6035162406ca.jpg?v=1701116147&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-man-bat-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Man-Bat 人蝠（配件／另一视角）",
       "sourceRefs": [
@@ -1196,7 +1196,7 @@
       "sha256": "33c50a98e07a783ff7a7c579a55ecedc5b35b99f010867b387cc3b5e57483995",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/PP-001.REG_3d572148-c962-4ce4-981e-ddeb1f694f22.jpg?v=1658181230&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-joker-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Joker 普通版（造型／包装展示）",
       "sourceRefs": [
@@ -1211,7 +1211,7 @@
       "sha256": "8bdda24de087aa1b8df4e343e653768eaa71611941a4bb886a9a823a31bb63da",
       "imageUrl": "https://mondoshop.com/cdn/shop/products/PP-002.REG.jpg?v=1658181230&width=2000",
       "sourcePage": "https://mondoshop.com/products/batman-the-animated-series-joker-1-6-scale-figure",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Mondo · Joker 普通版（配件／另一视角）",
       "sourceRefs": [
@@ -1226,7 +1226,7 @@
       "sha256": "d7ba6f2e1a0ff323298ac3a5981252d3d46c255898d099833360d7594ebef6d4",
       "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt20906f5291a8be18/76271.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
       "sourcePage": "https://www.lego.com/en-us/product/batman-the-animated-series-gotham-city-76271?age-gate=grown_up",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "LEGO · 哥谭城市天际线 · 76271（造型／包装展示）",
       "sourceRefs": [
@@ -1241,7 +1241,7 @@
       "sha256": "f6d02b4aa4f8afc7b5de3533f055f6c96653dc734a54223b33765ee481baa5eb",
       "imageUrl": "https://www.lego.com/cdn/cs/set/assets/bltabba9cc22e72669f/76271_boxprod_v39.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
       "sourcePage": "https://www.lego.com/en-us/product/batman-the-animated-series-gotham-city-76271?age-gate=grown_up",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "LEGO · 哥谭城市天际线 · 76271（配件／另一视角）",
       "sourceRefs": [
@@ -1256,7 +1256,7 @@
       "sha256": "4277dacfea2b03c80a07a2463af446ed74f8de69893a2fc1e7e743d9b3f22140",
       "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt072417a4ec361c47/76274.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
       "sourcePage": "https://www.lego.com/en-us/product/batman-with-the-batmobile-vs-harley-quinn-and-mr-freeze-76274?age-gate=grown_up",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "LEGO · 蝙蝠车、哈莉与急冻人 · 76274（造型／包装展示）",
       "sourceRefs": [
@@ -1271,7 +1271,7 @@
       "sha256": "b7b7c971fb93de49df8036c22e2e67b66bfd7afa14cc71be942d44e168bb5554",
       "imageUrl": "https://www.lego.com/cdn/cs/set/assets/blt91e0771d8f0c4888/76274_boxprod_v39_sha.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
       "sourcePage": "https://www.lego.com/en-us/product/batman-with-the-batmobile-vs-harley-quinn-and-mr-freeze-76274?age-gate=grown_up",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "LEGO · 蝙蝠车、哈莉与急冻人 · 76274（配件／另一视角）",
       "sourceRefs": [
@@ -1286,7 +1286,7 @@
       "sha256": "caf857af59953f1bd45595abe16adcc711a095755671934779be83566b383ced",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905776/batman-beyond_dc-comics_gallery_5e21edaae5e5e.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-beyond-hot-toys-905776",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商宣传样品图；原页面标注 Prototype Shown。",
       "title": "Hot Toys · 《阿卡姆骑士》Batman Beyond 皮肤（造型／包装展示）",
       "sourceRefs": [
@@ -1301,7 +1301,7 @@
       "sha256": "f526618b027b1ac95043cdf5f8eefcab8d8906ddf9447abbdafc22127bfc336c",
       "imageUrl": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/905776/batman-beyond_dc-comics_gallery_5e21edab3c9a7.jpg",
       "sourcePage": "https://www.sideshow.com/collectibles/dc-comics-batman-beyond-hot-toys-905776",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商宣传样品图；原页面标注 Prototype Shown。",
       "title": "Hot Toys · 《阿卡姆骑士》Batman Beyond 皮肤（配件／另一视角）",
       "sourceRefs": [
@@ -1316,7 +1316,7 @@
       "sha256": "a92b28da20a775d692c568824aa72dda3e1153c1f77b37c01ce77b52cff93d02",
       "imageUrl": "https://www.prime1studio.com/on/demandware.static/-/Sites-p1s-master-catalog/default/dw1719465c/images/MMDC-01/catalog/mmdc-01_00.jpg",
       "sourcePage": "https://www.prime1studio.com/ak-batman/MMDC-01.html",
-      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人；本站仅作产品资料说明。",
+      "rights": "图片版权归厂商及 DC / Warner Bros. 等原权利人。",
       "nature": "厂商产品宣传图；样品与实物可能存在差异。",
       "title": "Prime 1 Studio · 《阿卡姆骑士》Batman 雕像（造型／包装展示）",
       "sourceRefs": [

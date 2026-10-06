@@ -106,7 +106,7 @@
       "id": "tas-omnibus",
       "title": "Penguin Random House：The Batman Adventures Omnibus",
       "url": "https://www.penguinrandomhouse.com/books/735666/the-batman-adventures-omnibus-by-kelley-puckett/",
-      "evidence": "官方发行商书目；简介疑似错配，不采用其剧情",
+      "evidence": "官方发行商书目",
       "access": "公开正文已读取",
       "checked": "2026-10-02",
       "reused": false
@@ -134,7 +134,7 @@
       "title": "The World’s Finest · TNBA 24集指南",
       "url": "https://dcanimated.com/tnba/tnba-guides/tnba-guides-episode-guide-01-26/",
       "type": "分集索引辅助来源",
-      "scope": "正文24条英文名、辅助指南编号、来源所载日期；网址／标题中的01–26不作为集数。电影与跨作客串另编。",
+      "scope": "TNBA的24条英文名称、指南编号与所载播出日期。",
       "checked": "2026-10-02",
       "reused": true
     },
@@ -161,7 +161,7 @@
       "title": "DC：披风斗士的创作与角色重释",
       "url": "https://www.dc.com/blog/2024/08/02/batman-caped-crusader-builds-on-all-that-s-come-before",
       "type": "DC官方介绍",
-      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音；不作为DCAU连续性证明。",
+      "scope": "Timm回归、1940年代黑色电影美术、年轻Bruce及Linklater／Chung／Driver配音。",
       "checked": "2026-10-02",
       "reused": true
     }
@@ -197,7 +197,7 @@
       "id": "tnba",
       "title": "The New Batman Adventures",
       "kind": "电视动画",
-      "relationship": "BTAS后续系列，独立编目",
+      "relationship": "BTAS后续系列，24集；与BTAS合辑共109集电视动画。",
       "facts": {
         "catalogEpisodes": 24,
         "combinedBluRayTVEpisodes": 109
@@ -241,7 +241,7 @@
       "id": "batwoman",
       "title": "Batman: Mystery of the Batwoman",
       "kind": "动画电影",
-      "relationship": "关联动画电影；不并入85/24集",
+      "relationship": "TAS关联动画电影，长片单独编目。",
       "facts": {
         "year": 2003,
         "director": "Curt Geda",
@@ -267,7 +267,7 @@
       "id": "mad-deluxe",
       "title": "Batman Adventures: Mad Love Deluxe Edition",
       "kind": "漫画再版",
-      "relationship": "独立版本书目",
+      "relationship": "Mad Love故事的Deluxe Edition再版，日期为本版上架日。",
       "facts": {
         "editionOnSale": "2015-04-15",
         "pages": 96,
@@ -288,7 +288,7 @@
       "id": "mad-stories",
       "title": "Batman: Mad Love and Other Stories",
       "kind": "漫画合集",
-      "relationship": "Mad Love与其他短篇合辑",
+      "relationship": "Mad Love与其他短篇的合辑，作者与画师列名对应整本合集。",
       "facts": {
         "editionOnSale": "2011-08-31",
         "pages": 208,
@@ -310,7 +310,7 @@
       "id": "continue-one",
       "title": "Batman: The Adventures Continue Season One",
       "kind": "漫画合集",
-      "relationship": "由动画主创扩展其世界的新漫画故事",
+      "relationship": "原动画主创扩展其世界的新漫画故事；最初公告计划六期，本合集收录八期。",
       "facts": {
         "editionOnSale": "2021-06-01",
         "pages": 208,
@@ -334,7 +334,7 @@
       "id": "continue-two",
       "title": "Batman: The Adventures Continue Season Two",
       "kind": "漫画合集",
-      "relationship": "上一漫画项目的后续合集",
+      "relationship": "Adventures Continue漫画项目的后续合集，Season Two为漫画卷名。",
       "facts": {
         "editionOnSale": "2022-06-14",
         "pages": 192,
@@ -383,7 +383,7 @@
       "id": "score-vol2",
       "title": "Batman: The Animated Series Vol. 2",
       "kind": "配乐唱片",
-      "relationship": "声音档案与署名核查材料",
+      "relationship": "分集配乐唱片，列出厂牌曲目分组中的署名。",
       "facts": {
         "sku": "LLLCD1218",
         "discs": 4,
@@ -404,7 +404,7 @@
       "id": "caped-crusader",
       "title": "Batman: Caped Crusader",
       "kind": "电视动画",
-      "relationship": "本站策划的TAS现代延续尝试／审美比较",
+      "relationship": "以独立连续性再诠释哥谭，可与TAS比较创作传统与美术风格。",
       "facts": {
         "approach": "Bruce Timm参与、1940年代背景与黑色电影视角"
       },
@@ -423,17 +423,17 @@
       "sourceRefs": [
         "tas-radomski"
       ],
-      "text": "Radomski将从暗处以光色引出形象的思路联系到Monet、Bernie Fuchs、Coppola与Fleischer动画；他解释这也能用有限细节维持气氛与制作一致性。资料站可比较背景、标题卡与人物剪影，但不能把所有片尾美术岗位归给他。",
+      "text": "Radomski将从暗处以光色引出形象的思路联系到Monet、Bernie Fuchs、Coppola与Fleischer动画；他解释这也能用有限细节维持气氛与制作一致性。背景、标题卡与人物剪影共同呈现这套视觉思路。",
       "status": "主创口述摘述；具体画稿待补"
     },
     {
       "id": "production-team",
-      "title": "试片到系列：共同制作的证据",
+      "title": "从试片到系列：共同制作",
       "sourceRefs": [
         "tas-radomski",
         "tas-dc-series"
       ],
-      "text": "Radomski回忆与Timm制作90秒试片后获任制片，首批目标65集；Alan Burnett加入带来经验与合作。他回忆最多七家工作室在四国同时工作，主体为传统手工二维与胶片拍摄。这里记录受访者回忆，不据此推导每集外包工作室。",
+      "text": "Radomski回忆与Timm制作90秒试片后获任制片，首批目标65集；Alan Burnett加入带来经验与合作。他回忆最多七家工作室在四国同时工作，主体为传统手工二维与胶片拍摄。",
       "status": "制作史入口；原始试片未取得"
     },
     {
@@ -442,16 +442,16 @@
       "sourceRefs": [
         "tas-harley"
       ],
-      "text": "DC回顾将哈莉的动画登场定位在1992年Joker’s Favor，归于Dini与Timm创作，并指出Arleen Sorkin的声音与Timm造型。文章区分The Batman Adventures #12的早期漫画登场和Batman: Harley Quinn #1进入主连续性。角色相同不表示这些作品处于同一个宇宙。",
+      "text": "DC回顾将哈莉的动画登场定位在1992年Joker’s Favor，归于Dini与Timm创作，并指出Arleen Sorkin的声音与Timm造型。The Batman Adventures #12是她早期的漫画登场，Batman: Harley Quinn #1则把她带入漫画主连续性。",
       "status": "官方回顾；原刊与片尾未逐项核验"
     },
     {
       "id": "voice-performance",
-      "title": "声音表演需要独立档案",
+      "title": "面具之后的英语声音",
       "sourceRefs": [
         "dc-interview"
       ],
-      "text": "沿用康罗伊本人访谈，整理布鲁斯／蝙蝠侠表演、共同录音与代表篇目作为声音专题入口。配音演员、角色、系列、语种、版本和片尾证据分别存储；其他语言配音不套用英语演员表。",
+      "text": "康罗伊在本人访谈中谈到布鲁斯与蝙蝠侠的表演、共同录音和代表篇目。从英语原声出发，听同一演员怎样让日常生活与英雄行动拥有不同的声音。",
       "status": "已有主档案回用；完整演员表待补"
     },
     {
@@ -460,18 +460,18 @@
       "sourceRefs": [
         "tas-emmy"
       ],
-      "text": "Television Academy在Batman: The Series条目下列1993年Outstanding Animated Program (For Programming One Hour Or Less)获奖。该页未标出具体获奖集，不单凭此页写成Robin’s Reckoning获奖；该记录也不是所有日间艾美奖的总表。",
+      "text": "Television Academy在Batman: The Series条目下列出1993年Outstanding Animated Program (For Programming One Hour Or Less)获奖；该条目以系列列名。",
       "status": "机构记录已核；分集与其他奖项待核"
     },
     {
       "id": "mad-love-media",
-      "title": "Mad Love：故事与版本不能合并",
+      "title": "Mad Love：从漫画到动画与再版",
       "sourceRefs": [
         "tas-mad-deluxe",
         "tas-mad-stories",
         "wf-tnba-guide"
       ],
-      "text": "TNBA目录里的Mad Love、原始漫画故事与2011／2015再版分别编目。可做漫画到动画的改编比较，但本批仅取得书目和版本封面，未完成漫画内页与动画镜头对照。",
+      "text": "原始Mad Love漫画、TNBA动画改编与2011／2015年的再版，各有自己的媒介和版本。沿书目与封面浏览这个故事在纸页和银幕之间的流转。",
       "status": "比较框架；内页与镜头证据待补"
     },
     {
@@ -483,7 +483,7 @@
         "tas-continue-two",
         "dc-caped-intro"
       ],
-      "text": "Adventures Continue由原动画主创拓展既有动画世界，其Season One／Two是漫画命名。Caped Crusader另列现代审美延续尝试；可比较年代氛围、设计和人物重写，不建立与DCAU的剧情接续年表。",
+      "text": "Adventures Continue由原动画主创拓展既有动画世界，Season One／Two是漫画项目的命名。《披风斗士》以独立连续性重写哥谭，可从年代氛围、设计与人物塑造展开比较。",
       "status": "关系已区分；不做统一宇宙推断"
     }
   ],
@@ -570,7 +570,7 @@
         "tas-harley"
       ],
       "originalUrl": "https://static.dc.com/sites/default/files/imce/2019/05-MAY/fullres-harade10_5ce44265bdd845.58542102.jpg",
-      "caption": "哈莉与小丑的动画画面／DC文章配图；该页未指明分集，不标为Joker’s Favor截图",
+      "caption": "DC文章配图：哈莉与小丑的动画画面",
       "width": 900,
       "height": 682,
       "sha256": "5aa565ab00e15d0a03d08ecd3c1e7568e3343d7c5d3ebe73cb54331790fab3ff",
@@ -654,7 +654,7 @@
         "tas-mad-deluxe"
       ],
       "originalUrl": "https://static.dc.com/dc/files/default_images/bm_dlx_madlove_deluxe_5b035c91edcd70.55282279.jpg?w=160",
-      "caption": "Mad Love Deluxe封面缩略图；图由DC同系列推荐区取得，封面年份未据图片推定",
+      "caption": "Mad Love Deluxe封面缩略图；来源为DC同系列推荐区",
       "width": 160,
       "height": 248,
       "sha256": "015ad3d6be81a147441be93df49c1c77817c6eac6c9dc201e80015a0fd6f5f19",

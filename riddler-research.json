@@ -1683,7 +1683,7 @@
       "verification": "攻略定位；未完成游戏逐题核对",
       "riddleOriginal": null,
       "comicPage": null,
-      "conflict": "GamesRadar写Arkham杯；Push Square写家庭照片。只登记桌面纪念物，待扫描提示核对。",
+      "conflict": "GamesRadar写Arkham杯；Push Square写家庭照片。两种记载都指向桌面纪念物。",
       "storyIndexKind": "storyCandidate为Prima人物／主题索引，不是游戏故事正式标题"
     },
     {
@@ -1957,7 +1957,7 @@
       "verification": "攻略定位；未完成游戏逐题核对",
       "riddleOriginal": null,
       "comicPage": null,
-      "conflict": "Push Square正文写Sionis集装箱；其读者更正与GamesRadar写Santa Prisca。保留冲突，优先回游戏核对。",
+      "conflict": "Push Square正文写Sionis集装箱；其读者更正与GamesRadar写Santa Prisca。两个地名的记载不同。",
       "storyIndexKind": "storyCandidate为Prima人物／主题索引，不是游戏故事正式标题"
     },
     {
@@ -2273,7 +2273,7 @@
       "verification": "攻略定位；未完成游戏逐题核对",
       "riddleOriginal": null,
       "comicPage": null,
-      "conflict": "Push Square描述隔离牢房；GamesRadar明确后期折断长棍。页面主物件暂按后者，需解锁提示确认。",
+      "conflict": "Push Square描述隔离牢房；GamesRadar描述后期折断长棍。此条按长棍编目，两处物件描述不同。",
       "storyIndexKind": "storyCandidate为Prima人物／主题索引，不是游戏故事正式标题"
     },
     {
@@ -2586,7 +2586,7 @@
       "entries": [
         "asylum-great-white"
       ],
-      "conclusion": "停尸房标本可定位到Great White Shark；官方Living Hell简介能支持Warren White与疯人院的故事背景。",
+      "conclusion": "停尸房标本指向Great White Shark；DC的Living Hell简介讲述Warren White与疯人院的故事背景。",
       "researchQuestion": "逐页核对身体损伤与标本内容，区分游戏借用角色设定与复刻具体画格。",
       "evidenceGrade": "角色或背景对应；具体改编关系待核",
       "sources": [
@@ -2700,7 +2700,7 @@
       "entries": [
         "city-park-row-02"
       ],
-      "conclusion": "告示明确写Catastrophic Subsidence。DC官方文章能解释灾变与无主之地背景，但不能证明游戏借鉴意图。",
+      "conclusion": "告示写有Catastrophic Subsidence。它可以与漫画Cataclysm及《无主之地》的城市灾变题材并置阅读。",
       "researchQuestion": "优先找City Stories和开发者说明。没有直接证据时只并列比较城市受损主题。",
       "evidenceGrade": "待证假说；不可作确定典故",
       "sources": [
@@ -2825,7 +2825,7 @@
         "city-park-row-04",
         "knight-hq-01"
       ],
-      "conclusion": "三种物件适合比较爱丽丝意象；它们是扫描目标，不等于三个物件都复刻某一漫画画格。",
+      "conclusion": "茶会、白兔与帽店三种物件，连接Jervis Tetch与爱丽丝意象。",
       "researchQuestion": "先核Lewis Carroll原著的茶会／白兔意象，再核Jervis Tetch的游戏与漫画改编；#49初登场书目需进一步官方核对。",
       "evidenceGrade": "角色或背景对应；具体改编关系待核",
       "sources": [
@@ -2896,7 +2896,7 @@
       "entries": [
         "knight-hq-03"
       ],
-      "conclusion": "照片墙与Prima的Jason Todd解锁标题构成核对方向；为高剧透条目。",
+      "conclusion": "照片墙与Prima所列Jason Todd解锁标题，连接身份叙事。",
       "researchQuestion": "对读A Death in the Family与Under the Hood时区分死亡／生还机制；DC Robin回顾只证明漫画出版背景。",
       "evidenceGrade": "角色或背景对应；具体改编关系待核",
       "sources": [
@@ -2927,7 +2927,7 @@
     },
     {
       "id": "grayson-tim",
-      "title": "Dick与Tim：不要把所有Robin物件混为一谈",
+      "title": "Dick与Tim：两位Robin的场景线索",
       "entries": [
         "city-amusement-mile-02",
         "knight-studios-01"
@@ -3120,7 +3120,7 @@
     {
       "id": "city-flying-graysons",
       "file": "riddler-city-flying-graysons.jpg",
-      "caption": "Flying Graysons海报；文字需更高清特写",
+      "caption": "Flying Graysons海报",
       "source": "city-amusement-mile",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/e6640f64268b2a9026cbba0822896227.jpg",
       "width": 619,
@@ -3133,7 +3133,7 @@
     {
       "id": "city-calendar-man",
       "file": "riddler-city-calendar-man.jpg",
-      "caption": "日历人牢房；未截扫描成功界面",
+      "caption": "日历人牢房",
       "source": "city-park-row",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/ab434a5e2c02771de89c1d55ca3c3d36.jpg",
       "width": 620,
@@ -3172,7 +3172,7 @@
     {
       "id": "city-scarface",
       "file": "riddler-city-scarface.jpg",
-      "caption": "博物馆Scarface陈列柜；需要标签特写",
+      "caption": "博物馆Scarface陈列柜",
       "source": "city-museum",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/23e4c689c76d684b942c366ca837f20d.jpg",
       "width": 619,
@@ -3198,7 +3198,7 @@
     {
       "id": "origins-file01-pack01",
       "file": "riddler-origins-file01-pack01.jpg",
-      "caption": "勒索档案1的第1包场景，非地图",
+      "caption": "勒索档案1的第1包现场画面",
       "source": "origins-guide",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/6d2cedfa4830dc29025397a00b054029.jpg",
       "width": 620,
@@ -3211,7 +3211,7 @@
     {
       "id": "origins-file11-pack01",
       "file": "riddler-origins-file11-pack01.jpg",
-      "caption": "勒索档案11的第1包场景，非地图",
+      "caption": "勒索档案11的第1包现场画面",
       "source": "origins-guide",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/f984cd4d1e79a206010b2562968233bb.jpg",
       "width": 620,
@@ -3224,7 +3224,7 @@
     {
       "id": "comic-riddler-character",
       "file": "riddler-comic-riddler-character.jpg",
-      "caption": "DC官方谜语人角色图；不是1948年原始画格",
+      "caption": "DC官方谜语人角色宣传图",
       "source": "dc-riddler",
       "imageUrl": "https://static.dc.com/dc/files/default_images/Char_Thumb_Riddler_5c53a3b5e018c4.92974885.jpg?w=160",
       "width": 160,

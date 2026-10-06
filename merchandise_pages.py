@@ -60,7 +60,7 @@ def build_collectibles(data, shell):
             i = next(i for i in items if i['id'] == id)
             img = image_map[i['imageIds'][0]]
             covers += f'<a class="merch-feature" href="#{id}"><img src="/assets/media/{esc(img["file"])}" width="{img["width"]}" height="{img["height"]}" alt="{esc(i["title"])}"><span class="label">{esc(i["maker"])} / {esc(i["work"])}</span><h2>{esc(i["title"])}</h2></a>'
-        body = f'<section class="section merch-room"><p class="label">COLLECTIBLES / 屏幕之外</p><h1>周边档案</h1><p class="lead">{intro}</p><p class="fine">{len(items)}项代表性产品与产品线 · {len(photos)}张产品图 · 核查 {packet["checked"]}<br>原始版本、历史预告与出货待核分别标注；未核实的字段保留为空缺。</p><div class="merch-featured">{covers}</div><nav class="merch-nav" aria-label="周边分类">'
+        body = f'<section class="section merch-room"><p class="label">COLLECTIBLES / 屏幕之外</p><h1>周边档案</h1><p class="lead">{intro}</p><p class="fine">{len(items)}项代表性产品与产品线 · {len(photos)}张产品图</p><div class="merch-featured">{covers}</div><nav class="merch-nav" aria-label="周边分类">'
         body += ''.join(f'<a href="#category-{key}">{label} · {sum(i["category"]==key for i in items)}</a>' for key,label in CATEGORIES) + '</nav>'
         for category,label in CATEGORIES:
             body += f'<section class="merch-category" id="category-{category}"><p class="label">{category.upper()}</p><h2>{label}</h2>'
@@ -70,13 +70,13 @@ def build_collectibles(data, shell):
                 facts = ''.join(f'<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k,v in [('厂商',i['maker']), ('作品／设计归属',i['work'])] + list(i['facts'].items()))
                 images = '<div class="merch-photos">' + ''.join(picture(id) for id in i['imageIds']) + '</div>' if i['imageIds'] else ''
                 related = '<p class="merch-related">' + ' · '.join(f'<a href="{esc(r["url"])}">{esc(r["label"])} →</a>' for r in i['related']) + '</p>' if i['related'] else ''
-                body += f'<article class="merch-entry" id="{esc(i["id"])}"><p class="label">{esc(i["status"])}</p><h3>{esc(i["title"])}</h3><p class="merch-original">{esc(i["original"])}</p><p>{esc(i["summary"])}</p><dl class="merch-facts">{facts}</dl>{images}{related}<details class="merch-evidence"><summary>版本说明与资料来源</summary><p>{esc(i["note"])}</p>{refs(i["sourceRefs"])}</details></article>'
-                records.append(dict(title=i['title'],original=i['original'],summary=i['summary'],tags=['周边',i['maker'],i['work'],label]+list(i['facts'].values()),site=site,status=i['status'],url=base+'#'+i['id']))
+                body += f'<article class="merch-entry" id="{esc(i["id"])}"><p class="label">{esc("已公布／预期出货" if i["status"] == "已公布／出货待核" else i["status"])}</p><h3>{esc(i["title"])}</h3><p class="merch-original">{esc(i["original"])}</p><p>{esc(i["summary"])}</p><dl class="merch-facts">{facts}</dl>{images}{related}<details class="merch-evidence"><summary>版本说明与资料来源</summary><p>{esc(i["note"])}</p>{refs(i["sourceRefs"])}</details></article>'
+                records.append(dict(title=i['title'],original=i['original'],summary=i['summary'],tags=['周边',i['maker'],i['work'],label]+list(i['facts'].values()),site=site,status="已公布／预期出货" if i["status"] == "已公布／出货待核" else i["status"],url=base+'#'+i['id']))
             body += '</section>'
-        body += f'<aside class="merch-scope"><h2>还需要补齐的目录</h2><p>{esc(packet["gaps"])}</p><p class="fine">{esc(packet["scope"])} 图片保留原比例与厂商水印；宣传图不作为成品批次或可购买状态的证明。</p></aside></section>'
+        body += '</section>'
         pages[f'{site}/collectibles/index.html'] = shell(data,site,'周边档案',body,'collectibles')
         records.append(dict(title='周边档案',original='Collectibles',summary=intro,tags=['周边','人偶','雕像','载具','积木','桌游'],site=site,status='专题档案',url=base))
         used = {id for i in items for id in i['sourceRefs']}
-        additions[site] = '<section class="section"><h2>周边资料来源</h2><p>以下来源用于实体产品与版本编目；历史预告不等同于实际出货记录。</p><div class="source-list">' + ''.join(f'<article><p class="label">{esc(s["type"])} · 核查 {s["checked"]}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3></article>' for s in packet['sources'] if s['id'] in used) + '</div></section>'
+        additions[site] = '<section class="section"><h2>周边资料来源</h2><p>查阅厂商产品页、历史公告与产品资料。</p><div class="source-list">' + ''.join(f'<article><p class="label">{esc(s["type"])}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3></article>' for s in packet['sources'] if s['id'] in used) + '</div></section>'
         galleries[site] = '<section class="section"><h2>周边产品图</h2><p>人偶、载具与雕像产品宣传图；点击图片查看本地原图。</p><div class="merch-gallery">' + ''.join(picture(i['id']) for i in photos) + '</div></section>'
     return pages, records, additions, galleries, packet['images']

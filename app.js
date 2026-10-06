@@ -31,7 +31,7 @@ async function searchPage() {
       for (const item of found) {
         const card = make("a", undefined, "route-card");
         card.href = arkhamOnly ? item.url.replace("/people/kevin-conroy/", "/arkham/people/kevin-conroy/") : item.url;
-        card.append(make("p", `${item.site.toUpperCase()} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
+        card.append(make("p", `${item.site === "arkham" ? "PROTOCOL ARKHAM" : item.site === "tas" ? "DARK DECO" : item.site.toUpperCase()} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
         results.append(card);
       }
     };

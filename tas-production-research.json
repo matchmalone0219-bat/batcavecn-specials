@@ -138,7 +138,7 @@
         "models-scan",
         "production-index"
       ],
-      "text": "选取PDF第3页，纸面圈号2，编号406-006 BATMAN；印有MAR 15 1991与APR 04 1991 REVISED。保留扫描方向、标记和徽标；前者为纸面日期，后者为修订章，不推算整册完成时间。封面另标REVISED 7/3/91。",
+      "text": "PDF第3页为蝙蝠侠模型稿，纸面圈号2，编号406-006 BATMAN。页面印有MAR 15 1991与APR 04 1991 REVISED日期与修订章，封面另标REVISED 7/3/91。",
       "status": "已核节选；作者签名与原始收藏链未确认"
     },
     {
@@ -149,7 +149,7 @@
         "board-scan",
         "production-index"
       ],
-      "text": "本文件共6页，节选PDF第2页：纸面PAGE圈号1、SCENE 1–3，画面为蝙蝠侠与Langstrom实验室段落。文件首张却写page 18，不能把文件页序当成完整故事板页序。",
+      "text": "六页扫描文件中的PDF第2页，纸面PAGE圈号1、SCENE 1–3，呈现蝙蝠侠与Langstrom实验室段落。文件首张标记page 18，扫描页序与纸面编号分别保留。",
       "status": "已核节选；没有与成片逐镜对齐，不称完整集分镜"
     },
     {
@@ -159,7 +159,7 @@
       "sourceRefs": [
         "opening-print"
       ],
-      "text": "商品将画稿归于Bruce Timm／1992；图中展示片头布局，可用于片头构图研究。商品型号MP17240993。",
+      "text": "Bruce Timm／1992片头分镜的商业复制品，商品型号MP17240993。商品图展示片头布局与镜头安排，作者与年代采用商品说明。",
       "status": "已取得商品图，不是制作原件扫描；年代与作者依据商品说明"
     },
     {
@@ -169,7 +169,7 @@
       "sourceRefs": [
         "twoface-print"
       ],
-      "text": "官方说明组合两集剧照与中心标题卡，型号WAF0002。可作为标题卡风格入口。",
+      "text": "商业画稿产品组合《Two-Face》两集剧照与中心标题卡，型号WAF0002。",
       "status": "已取得完整商品图；不等同单独原始标题卡或赛璐珞原件"
     },
     {
@@ -219,7 +219,7 @@
       "sourceRefs": [
         "production-index"
       ],
-      "text": "索引列大纲、不完整终稿与多份扫描；仅记录题名，不以草稿代替电影最终剧本。",
+      "text": "草稿索引列出大纲、不完整终稿与多份扫描，可按稿本浏览电影构思。",
       "status": "目录已核；正文与最终版本待核"
     },
     {
@@ -229,7 +229,7 @@
       "sourceRefs": [
         "production-index"
       ],
-      "text": "索引提供大纲入口；不据此推定最终画面、配音或原稿完整性。",
+      "text": "草稿索引提供《Feat of Clay Part 1》的大纲入口。",
       "status": "目录已核；正文与最终版本待核"
     },
     {
@@ -239,7 +239,7 @@
       "sourceRefs": [
         "production-index"
       ],
-      "text": "索引列beat outline、一稿与二稿，可以建立版本比较；尚未读取具体改写。",
+      "text": "草稿索引列出beat outline、一稿与二稿，呈现《See No Evil》的不同稿本。",
       "status": "目录已核；正文与最终版本待核"
     },
     {
@@ -249,7 +249,7 @@
       "sourceRefs": [
         "production-index"
       ],
-      "text": "索引列剧本与大纲入口；后续需逐页读稿与成片比较。",
+      "text": "草稿索引提供《Off Balance》与《The Terrible Trio》的剧本和大纲入口。",
       "status": "目录已核；正文与最终版本待核"
     },
     {
@@ -270,7 +270,7 @@
       "sourceRefs": [
         "tnba-design"
       ],
-      "text": "独立保存后续系列造型比较入口；可以研究轮廓、色块、服装，不把差异自动解释成剧情内换装或某位画师个人决定。",
+      "text": "从轮廓、色块与服装观察BTAS到TNBA的角色造型变化。",
       "status": "尚未取得可单独编目的比较图片"
     }
   ],
@@ -474,7 +474,7 @@
     {
       "id": "burnett-origin",
       "title": "电影创作：起源与爱情",
-      "text": "Burnett回忆希望以爱情故事从另一角度探索蝙蝠侠起源；先写详细treatment与剧本前40页，Pasko接墓地段落，Dini承担小丑引入。此口述并非完整四位编剧逐场分工表。",
+      "text": "Burnett回忆希望以爱情故事从另一角度探索蝙蝠侠起源；他先写详细treatment与剧本前40页，Pasko接墓地段落，Dini承担小丑引入。",
       "sourceRefs": [
         "burnett-interview"
       ],
@@ -483,7 +483,7 @@
     {
       "id": "burnett-rating",
       "title": "PG尺度与院线决定",
-      "text": "Burnett回忆为PG尺度间接处理暴力；他将院线决定与Radomski的电脑制作片头联系起来，但以“据我所知”表述。访谈用DVD谈1993阶段，不能据此认定1993年已有DVD发行。",
+      "text": "Burnett回忆为PG尺度间接处理暴力；对于院线决定，他以“据我所知”将其与Radomski的电脑制作片头联系起来。",
       "sourceRefs": [
         "burnett-interview"
       ],
@@ -492,7 +492,7 @@
     {
       "id": "historical-release",
       "title": "回顾文章与版本时间",
-      "text": "2014年DC回顾中的“尚无蓝光”属于当时状态；2023年华纳已宣布4K版。原片上映与修复版发行分开，包装图片只标2023版，不冒充1993海报。",
+      "text": "2014年DC回顾谈到当时的蓝光发行状况，2023年华纳宣布4K修复版。下方包装图展示2023版，电影基础档案则记录1993年原片。",
       "sourceRefs": [
         "phantasm-2014",
         "phantasm-4k"
@@ -502,7 +502,7 @@
     {
       "id": "voice-scope",
       "title": "角色声音与配音导演",
-      "text": "15条演员记录取自合辑新闻稿，不替代逐集片尾。公告另列Andrea Romano为casting/dialogue director；Barbara与Robin的配音不能直接套用到TNBA。",
+      "text": "华纳合集公告列出十五组BTAS英语角色配音，Andrea Romano担任casting/dialogue director。BTAS与TNBA分别使用各自的演员名册。",
       "sourceRefs": [
         "wb-btas-blu"
       ],

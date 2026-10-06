@@ -104,7 +104,7 @@
       "id": "knight-story-text-index",
       "title": "Arkham Wiki：Knight哥谭故事转录",
       "url": "https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_Knight",
-      "evidence": "社区转录，待游戏核对",
+      "evidence": "社区文本转录",
       "access": "公开正文已读取",
       "checked": "2026-10-02"
     },
@@ -130,7 +130,7 @@
       "sources": [
         "dc-city-comic"
       ],
-      "caveat": "版本日期不作游戏发行年；不同数字版编号另查。",
+      "caveat": "本条日期对应所列漫画版本。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -147,7 +147,7 @@
       "sources": [
         "dc-unhinged"
       ],
-      "caveat": "这是Vol.1平装资料，不把出版顺序直接转换为游戏时间线。",
+      "caveat": "Vol.1平装合集。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -165,7 +165,7 @@
       "sources": [
         "dc-knight-comic"
       ],
-      "caveat": "出版宣传定位不替代逐场连续性核查。",
+      "caveat": "《阿卡姆骑士》游戏前传漫画。",
       "spoiler": "City结局",
       "interiorPagesVerified": false
     },
@@ -183,7 +183,7 @@
       "sources": [
         "dc-knight-genesis"
       ],
-      "caveat": "此为合集日期；具体身份与页码暂不写入无剧透目录。",
+      "caveat": "六期迷你系列合集；涉及角色起源剧透。",
       "spoiler": "Knight身份",
       "interiorPagesVerified": false
     },
@@ -217,7 +217,7 @@
       "sources": [
         "dc-origins-dc2"
       ],
-      "caveat": "只记录当年公告；未确认现在可购买、下载或领取皮肤。",
+      "caveat": "2013年历史公告记录中的互动漫画项目。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -233,7 +233,7 @@
       "sources": [
         "prh-arkham-saga"
       ],
-      "caveat": "合集收录只证明书目范围，不证明每一细节与后续游戏均无冲突。",
+      "caveat": "游戏配套漫画的合集版本，各系列按目录列名收录。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -250,7 +250,7 @@
       "sources": [
         "dc-asylum-comic25"
       ],
-      "caveat": "不是2009游戏剧情小说化；未据标题判定游戏改编了全部情节。",
+      "caveat": "Grant Morrison与Dave McKean的独立漫画作品；与2009年游戏分别编目，可并读其疯人院空间与视觉表达。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -267,7 +267,7 @@
       "sources": [
         "dc-riddler-anthology"
       ],
-      "caveat": "不按Arkham标题将其归为游戏配套前传。",
+      "caveat": "跨年代角色故事选集，适合沿书目阅读谜语人的漫画历史。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     },
@@ -284,7 +284,7 @@
       "sources": [
         "dc-freeze-anthology"
       ],
-      "caveat": "供角色背景检索，不能以合集标题证明漫画细节属于游戏设定。",
+      "caveat": "以漫画中历代急冻人故事为范围的角色选集，与游戏作品分别编目。",
       "spoiler": "无剧情细节",
       "interiorPagesVerified": false
     }
@@ -389,7 +389,7 @@
         "city-amusement-mile-02"
       ],
       "gist": "格雷森家庭经历连接Robin与Nightwing。",
-      "editorialAngle": "同一人物在不同阶段的身份应分开标注。",
+      "editorialAngle": "留意同一人物在不同阶段的身份变化。",
       "sources": [
         "city-stories"
       ],
@@ -425,7 +425,7 @@
         "city-industrial-05"
       ],
       "gist": "Broker替罪犯安排地产，包括谜语人。",
-      "editorialAngle": "研究挑战场所的世界观解释，勿推定所有设施同一来历。",
+      "editorialAngle": "挑战场所怎样进入城市的日常运转？",
       "sources": [
         "city-stories"
       ],
@@ -497,7 +497,7 @@
         "knight-bleake-06"
       ],
       "gist": "Batgirl救人时遇到Joker设下的圈套。",
-      "editorialAngle": "旧战衣承载谁的历史？不把这段等同Killing Joke。",
+      "editorialAngle": "旧战衣承载谁的历史？",
       "sources": [
         "knight-story-text-index"
       ],
@@ -533,7 +533,7 @@
         "knight-founders-04"
       ],
       "gist": "故事转向Nora的意识与感受。",
-      "editorialAngle": "与Heart of Ice比较叙事视角，不宣称同一连续性。",
+      "editorialAngle": "与Heart of Ice比较，两段故事如何讲述维克多与诺拉？",
       "sources": [
         "knight-story-text-index"
       ],
@@ -583,7 +583,7 @@
     {
       "id": "riddler-as-designer",
       "title": "谜语人为何总要把Batman变成玩家",
-      "body": "谜语人的机关可以先当作人物表达来读：他需要有人参与，才能证明自己的聪明。DC的Alex Jaffe在2022年回顾中，把TAS的“游戏设计者”塑造与阿卡姆游戏中的两人关系明确联系起来。这给跨站阅读提供了一条有出处的线索。它支持讨论人物处理的延续，不能据此声称某个游戏关卡直接改编了某集动画。",
+      "body": "谜语人的机关也是人物表达：他需要有人参与，才能证明自己的聪明。DC的Alex Jaffe在2022年回顾中，将TAS的“游戏设计者”塑造与阿卡姆游戏中的两人关系联系起来，为跨作品阅读提供人物处理的比较角度。",
       "sources": [
         "dc-riddler-history"
       ],
@@ -595,7 +595,7 @@
     {
       "id": "riddler-other-career",
       "title": "问号之外：谜语人也曾是侦探",
-      "body": "整理谜语人时，可以加入他作为解题者的版本。DC回顾将Dini在2006年Detective Comics中的处理概括为：让Nygma抢先破案，以另一种方式与Batman竞争。官方文章展示了一页相关漫画，并链接#822。资料站可以把它作为人物比较入口；这段漫画经历不能自动移植成阿卡姆游戏人物的过去。",
+      "body": "谜语人也曾成为解题者。DC回顾将Dini在2006年Detective Comics中的处理概括为：让Nygma抢先破案，以另一种方式与Batman竞争。文章展示相关漫画画面，并链接#822，可沿此进入漫画版本的侦探Nygma。",
       "sources": [
         "dc-riddler-history"
       ],
@@ -607,7 +607,7 @@
     {
       "id": "poster-graysons",
       "title": "格雷森海报：城市里留下的家庭记忆",
-      "body": "《城》的Amusement Mile有Flying Graysons海报，已有攻略图片可辨认。这张海报适合与官方Robin历史资料并置，说明Dick Grayson的家庭与身份背景。社区哥谭故事目录还将它对应到A New Robin，可作为补核入口。正式档案应保留海报原貌，并将人物背景、游戏解锁关系和本站解读分别写清。",
+      "body": "《城》的Amusement Mile有Flying Graysons海报。将它与Robin的历史资料并置，可以读到Dick Grayson的家庭与身份背景；社区哥谭故事目录把它连接到A New Robin。",
       "sources": [
         "city-amusement-mile",
         "dc-robin",
@@ -622,7 +622,7 @@
     {
       "id": "city-subsidence-note",
       "title": "沉降告示：一个警示牌能讲多少城市历史",
-      "body": "这块告示值得保留为城市资料，而不仅是扫描答案。现有游戏截图和社区Seismic Disturbances条目，可以引导后续核对环境变化与居民处境。与漫画Cataclysm的比较目前仍是编辑研究问题。出现地震、沉降等相似题材，并不足以确认游戏引用了该漫画事件；档案不宜给它加上已证实的改编标签。",
+      "body": "《城》的沉降告示与Seismic Disturbances故事，把环境变化带入居民的处境。漫画Cataclysm同样以城市灾变展开，两者可以从题材和叙事视角比较。",
       "sources": [
         "city-park-row",
         "city-stories",
@@ -635,8 +635,8 @@
     },
     {
       "id": "barbara-suit-note",
-      "title": "旧战衣：先确认Barbara的不同身份",
-      "body": "《骑士》的旧Batgirl战衣可以成为Barbara人物档案的入口。社区目录列出对应故事The Trap，后续应补取游戏解锁页。此前索引中的Batgirl是人物归类，不能冒充故事的正式标题。比较漫画时，应分别核对Batgirl经历、The Killing Joke事件和Oracle身份形成；这几项关联不宜合并成一段未经验证的游戏身世。",
+      "title": "旧战衣：Barbara的身份历程",
+      "body": "《骑士》的旧Batgirl战衣连接Barbara的过去身份，社区哥谭故事目录列对应篇目The Trap。另一条漫画阅读路线则从Batgirl走向The Killing Joke与Oracle，观察不同作品怎样表现伤害与转变。",
       "sources": [
         "knight-bleake",
         "knight-story-text-index",
@@ -650,7 +650,7 @@
     {
       "id": "arkham-book-boundaries",
       "title": "书名里的Arkham，不总是游戏系列",
-      "body": "资料站需要给相关漫画注明作品性质。《Arkham City》是官方说明连接两款游戏的漫画；《Arkham Knight #1》被介绍为游戏前传。相比之下，《Batman: Arkham – The Riddler》收录不同年代的角色故事。标题相似不能替代作品关系：配套漫画可用于补充游戏背景，角色选集用于查人物历史，Morrison/McKean的疯人院漫画则另列比较阅读。",
+      "body": "《Arkham City》漫画连接《疯人院》与《之城》，《Arkham Knight #1》是游戏前传。角色选集《Batman: Arkham – The Riddler》收录不同年代的漫画故事，Morrison／McKean的《Arkham Asylum》则提供另一种疯人院题材的阅读。",
       "sources": [
         "dc-city-comic",
         "dc-knight-comic",
@@ -672,7 +672,7 @@
       "file": "archive-riddler-tas.jpg",
       "source": "dc-riddler-history",
       "imageUrl": "https://static.dc.com/sites/default/files/imce/2022/02-FEB/RiddlerBTAS_6215c0cae5b261.19787466.jpg",
-      "caption": "DC官方回顾中的TAS谜语人与Batman画面；具体集数未凭截图认定",
+      "caption": "DC回顾文章配图：TAS谜语人与Batman",
       "type": "动画画面",
       "width": 800,
       "height": 607,
@@ -686,7 +686,7 @@
       "file": "archive-riddler-dini-detective.jpg",
       "source": "dc-riddler-history",
       "imageUrl": "https://static.dc.com/sites/default/files/imce/2022/02-FEB/DiniDetective_6215c0de9b9e12.60899512.jpg",
-      "caption": "官方文章中Dini侦探时期配图；文章链接指向Detective Comics #822，印刷页码未核",
+      "caption": "DC文章展示的Dini侦探时期漫画画面；文章链接指向Detective Comics #822。",
       "type": "官方文章展示的漫画页",
       "width": 700,
       "height": 1079,
@@ -742,7 +742,7 @@
       "file": "archive-arkham-asylum-comic25.jpg",
       "source": "dc-asylum-comic25",
       "imageUrl": "https://static.dc.com/dc/files/default_images/bm_arkhamasylum_25thann_5b036bcd1e9553.56930246.jpg?w=160",
-      "caption": "Morrison/McKean漫画25周年版封面，不是游戏封面",
+      "caption": "Morrison／McKean独立漫画《Arkham Asylum》25周年版封面",
       "type": "封面缩略图",
       "width": 160,
       "height": 246,

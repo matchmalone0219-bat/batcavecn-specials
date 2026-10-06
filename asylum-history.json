@@ -3,14 +3,14 @@
   "checked": "2026-10-03",
   "title": "疯人院院史：阿卡姆之魂",
   "intro": "从刻字石碑读起，追问谁在讲述这座医院的过去。",
-  "nameNote": "Chronicles of Arkham；“阿卡姆之魂”为本站暂译，亦可用 Spirit of Amadeus Arkham 检索。尚未核验官方中文译名。",
-  "scope": "23处石碑记录，加上1条最终记录。以下24个序号沿用玩家转录的叙事阅读顺序，只作文本索引；扫描地点与先后顺序另行核查。",
+  "nameNote": "Chronicles of Arkham；“阿卡姆之魂”为中文暂译，亦可用Spirit of Amadeus Arkham检索。",
+  "scope": "23处石碑记录，加上1条最终记录。下方24个序号按玩家转录的叙事阅读顺序排列。",
   "overview": "记录以第一人称追述家族、母亲与岛屿的过去，随后转向治疗、惩罚和对病人的敌意。阅读时要同时追问：哪些是回忆，哪些是自我辩护，讲述者又把谁视作自己的继承者？",
   "sections": [
     {
       "id": "place",
       "title": "庄园怎样变成医院",
-      "body": "在2009年的访谈中，Paul Dini描述了Rocksteady对阿卡姆的空间构想：用类似恶魔岛的隔离感，把旧庄园、花园、海岸和洞穴连成一座岛，再让现代医院设施与维多利亚式哥特建筑相邻。院史因此也可以从场景阅读：庄园的装饰、石砌空间和治疗区域并置，让“家族遗产”与“医疗机构”同时可见。这是主创的设计说明，不是故事内的建院日期。",
+      "body": "在2009年的访谈中，Paul Dini描述了Rocksteady对阿卡姆的空间构想：用类似恶魔岛的隔离感，把旧庄园、花园、海岸和洞穴连成一座岛，再让现代医院设施与维多利亚式哥特建筑相邻。院史因此也可以从场景阅读：庄园的装饰、石砌空间和治疗区域并置，让“家族遗产”与“医疗机构”同时可见。",
       "sources": [
         "asylum-dini-place"
       ],
@@ -22,7 +22,7 @@
     {
       "id": "reading",
       "title": "把记录当作证词阅读",
-      "body": "本站导读：第一人称档案不能自动当成客观年表。可先标记家族称谓、治疗措辞与对病人的评价，再回看讲述对象是否发生变化。“灵魂”的说法尤其需要与最终署名一起判断；本站保留人物自述和已经核实的事实之间的区别。上方主题提示默认收起，供读完相应记录后对照。",
+      "body": "第一人称记录带有讲述者自己的立场。留意家族称谓、治疗措辞与对病人的评价，再回看讲述对象是否发生变化。“灵魂”的说法与最终署名一起，将读者带向另一个关于身份的问题。主题提示默认折叠，可在读过相应记录后对照。",
       "sources": [
         "chronicles-transcript"
       ],
@@ -31,15 +31,15 @@
     {
       "id": "comics",
       "title": "游戏院史与漫画院史分开",
-      "body": "DC的漫画回顾把阿卡姆在漫画中的早期登场追溯到1974年的Batman #258，也介绍了1989年Grant Morrison与Dave McKean的Arkham Asylum。它们适合提供跨媒介背景，但不能用来补写游戏中未给出的年代、人物关系或事件顺序。本站书目页收录的是该漫画的具体版本；同名与相近题材，不等于游戏逐段改编了漫画。",
+      "body": "DC的漫画回顾把阿卡姆在漫画中的早期登场追溯到1974年的Batman #258，也介绍了1989年Grant Morrison与Dave McKean的Arkham Asylum。沿同名漫画的版本书目，比较漫画与游戏各自怎样塑造这座医院。",
       "sources": [
         "asylum-dc-history"
       ],
       "images": []
     }
   ],
-  "identity": "最终记录署名Quincy Sharp（昆西·夏普，本站暂译）。此前自称阿玛迪斯之魂的讲述者，需要结合在任院长的身份重新阅读。“灵魂延续”是人物的自我认定；本站不把它写成已经证实的鬼魂附身。",
-  "identityContext": "社区人物汇编也将这些文字与夏普对阿玛迪斯的执念联系起来，可作身份段落的交叉核查。后续作品对他的补充另行研究，本页不将续作解释混入《疯人院》的记录索引。",
+  "identity": "最终记录署名Quincy Sharp（昆西·夏普，中文暂译）。此前自称阿玛迪斯之魂的讲述者，由此与在任院长的身份相连。“灵魂延续”的自我认定，让这些记忆与敌意有了新的阅读角度。",
+  "identityContext": "社区人物汇编将这些文字与夏普对阿玛迪斯的执念联系起来，可沿来源继续阅读他的角色背景。",
   "identitySources": [
     "chronicles-transcript",
     "asylum-identity-context"
@@ -246,7 +246,7 @@
       "url": "https://gamefaqs.gamespot.com/ps3/952338-batman-arkham-asylum/faqs/57651",
       "publisher": "Homm_Syndrome / GameFAQs",
       "published": "2009-09-03",
-      "evidence": "玩家转录；原游戏界面与音轨待核",
+      "evidence": "玩家文本转录",
       "readStatus": "已读取24条记录；PS3页面索引，不等于已在对应游戏版本逐条读回。",
       "checked": "2026-10-03",
       "spoiler": false
@@ -257,7 +257,7 @@
       "url": "https://www.faxagate.com/en/gaming/batman-arkham-asylum-spirit-of-arkham",
       "publisher": "Faxagate",
       "published": "2023-10-19",
-      "evidence": "攻略现场截图；载体与数量辅助核查",
+      "evidence": "攻略现场截图",
       "readStatus": "已读取正文与现场截图；地点编号不与剧情阅读序号绑定。",
       "checked": "2026-10-03",
       "spoiler": false
@@ -286,7 +286,7 @@
     },
     {
       "id": "asylum-identity-context",
-      "title": "院史身份段落的社区交叉核查",
+      "title": "社区人物资料：院史讲述者",
       "url": "https://dc.fandom.com/wiki/Quincy_Sharp_(Arkhamverse)",
       "publisher": "DC Database / Fandom",
       "published": "未标注",

@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-03",
-  "scope": "《阿卡姆疯人院》七组患者访谈；人物身份、访谈导读和英语游戏录制分开保存。不同作品的录音不混编。",
+  "scope": "《阿卡姆疯人院》的七组患者访谈，包含人物导读与玩家录制的英语原声。",
   "intro": "听医院如何记录人物，也听人物如何反过来改变记录。",
   "boundary": "英语游戏录音，提供B站分P与YouTube入口。中文导读由本站整理；中文字幕及原版／重制版差异仍待核。录音与访谈摘要含剧情信息，默认折叠。",
   "sources": [
@@ -9,77 +9,77 @@
       "title": "Homm_Syndrome · 人物传记与访谈转录",
       "url": "https://gamefaqs.gamespot.com/ps3/952338-batman-arkham-asylum/faqs/57651",
       "checked": "2026-10-03",
-      "evidence": "社区游戏文本转录；游戏界面待逐条核对"
+      "evidence": "社区游戏文本转录"
     },
     {
       "id": "patient-overview",
       "title": "NygmaGaming · 访谈分类与文本",
       "url": "https://nygmagaming.com/interview-tapes-arkham-asylum/",
       "checked": "2026-10-03",
-      "evidence": "社区汇编；分类辅助核查"
+      "evidence": "社区汇编"
     },
     {
       "id": "patient-video-list",
       "title": "2009年玩家整理的七组录音地址",
       "url": "https://gamefaqs.gamespot.com/boards/952339-batman-arkham-asylum/51416366",
       "checked": "2026-10-03",
-      "evidence": "历史链接索引；视频元数据另核"
+      "evidence": "历史视频链接索引"
     },
     {
       "id": "patient-video-joker",
       "title": "Batman: Arkham Asylum Patient Interviews The Joker · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=IEmR7g18NXw",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-harley",
       "title": "Batman: Arkham Asylum Patient Interviews Harley Quinn · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=7n97qxBWFn0",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-croc",
       "title": "Batman: Arkham Asylum Patient Interviews Killer Croc · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=mXC7id79aJk",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-riddler",
       "title": "Batman: Arkham Asylum Patient Interviews The Riddler · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=90hGaXM7hM0",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-zsasz",
       "title": "Batman: Arkham Asylum Patient Interviews Mr. Zsasz · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=TDyVzKJF9fo",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-ivy",
       "title": "Batman: Arkham Asylum Patient Interviews Poison Ivy · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=nNTH_w5hlII",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-video-scarecrow",
       "title": "Batman: Arkham Asylum Patient Interviews The Scarecrow · SkinJeremy",
       "url": "https://www.youtube.com/watch?v=fw5w8TJ3Kak",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+      "evidence": "玩家游戏录制"
     },
     {
       "id": "patient-bili",
       "title": "蝙蝠侠阿卡姆疯人院全病人访谈记录 · 懒馒头要吃番茄酱",
       "url": "https://www.bilibili.com/video/BV1ww411w7Je/",
       "checked": "2026-10-03",
-      "evidence": "玩家游戏录制；页面与七分P元数据已核，浏览器提示无法播放媒体"
+      "evidence": "玩家游戏录制"
     }
   ],
   "patients": [
@@ -111,7 +111,7 @@
       "english": "Harley Quinn",
       "identity": "Harleen Quinzel",
       "angle": "比较医生的提问与她逐渐投入的情感，谁在引导对话？",
-      "gist": "这一组包含哈琳与小丑的对话；按哈莉归档，不代表每段都是对哈莉的审讯。",
+      "gist": "这一组包含哈琳与小丑的对话，沿哈莉的角色经历归档。",
       "videoId": "7n97qxBWFn0",
       "videoTitle": "Batman: Arkham Asylum Patient Interviews Harley Quinn",
       "uploader": "SkinJeremy",

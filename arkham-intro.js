@@ -88,7 +88,7 @@
     heading.replaceWith(title);
     document.body.classList.add('menu-screen', 'intro-entered');
     window.ArkhamMenuBackground?.resume();
-    document.title = '阿卡姆档案 · 主菜单';
+    document.title = 'Protocol Arkham · 主菜单';
     history.pushState({arkhamMenu: true}, '', entry.getAttribute('href'));
   }
 
