@@ -39,7 +39,8 @@ def detail(data, item):
         fields = [("官方发售日", item["date"]), ("日期口径", item["dateNote"]), ("开发", item["developer"]), ("发行", item["publisher"]), ("原版平台", item["platforms"])]
     else:
         fields = [("所属系列", item["series"]), ("辅助指南编号", item["guideNumber"]), ("原始制作代码", item["productionCode"]), ("来源所载首播日", item["airDate"]), ("首播地区", item["airRegion"]), ("影音目录编号", item["mediaOrder"]), ("编剧", item["writer"]), ("导演", item["director"]), ("动画制作", item["animation"]), ("配乐", item["music"]), ("客串配音", item["guests"])]
-    body += '<dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value)}</dd></div>' for key, value in fields if value) + f'<div><dt>蝙蝠侠英语配音</dt><dd>{actor_markup(item)}</dd></div></dl>'
+    voice = f'<div><dt>蝙蝠侠英语配音</dt><dd>{actor_markup(item)}</dd></div>' if item["actor"] else ''
+    body += '<dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value)}</dd></div>' for key, value in fields if value) + voice + '</dl>'
     body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
     body += '<div class="reading">' + "".join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
     if item.get("related"):

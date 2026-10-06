@@ -1,11 +1,12 @@
 """Publish the retained Arkham research packets as a reading archive."""
 import html
 import json
+from render_common import paragraphs
 from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ROOMS = [('riddler','谜语人考据','读物件、角色与典故，而不只看收集答案。'),('clues','场景物件索引','按游戏和区域辨认场景线索。'),('stories','哥谭故事','把环境物件放回城市与人物的历史。'),('publications','漫画与出版','区分游戏配套故事、版本书目与比较读物。'),('asylum-history','疯人院院史','24条院史记录索引，追问谁在讲述医院的过去。'),('interviews','患者访谈','七组人物访谈导读与英语录音，听医院里的声音。')]
+ROOMS = [('riddler','谜语人考据','读物件、角色与典故，而不只看收集答案。'),('clues','场景物件索引','按游戏和区域辨认场景线索。'),('stories','哥谭故事','把环境物件放回城市与人物的历史。'),('publications','漫画与出版','区分游戏配套故事、版本书目与比较读物。'),('asylum-history','疯人院院史','24条院史记录索引，追问谁在讲述医院的过去。'),('interviews','患者访谈','七组人物访谈导读与英语录音，听医院里的声音。'),('rocksteady','Rocksteady与创作变迁','沿作品、领导层交接和制作回顾，阅读阿卡姆宇宙的转向。')]
 GAMES = {'asylum':'阿卡姆疯人院','city':'阿卡姆之城','origins':'阿卡姆起源','knight':'阿卡姆骑士'}
 
 
@@ -21,7 +22,12 @@ def build_arkham_archive(data,shell):
     riddler,archive=load()
     history=json.loads((ROOT/'asylum-history.json').read_text())
     interviews=json.loads((ROOT/'patient-interviews.json').read_text())
+    creative=json.loads((ROOT/'rocksteady-history.json').read_text())
     sources={s['id']:s for p in (riddler,archive,history,interviews) for s in p['sources']}
+    sources.update({s['id']:s for s in data['sources'] if s['id'] in creative['sourceIds']})
+    assert set(creative['sourceIds']) <= sources.keys()
+    for section in creative['sections']:
+        assert set(section['sources']) <= set(creative['sourceIds'])
     images={i['id']:i for p in (riddler,archive,history,interviews) for i in p['images']}
     assert [r['number'] for r in history['records']] == list(range(1,25))
     for item in history['records']+history['sections']:
@@ -45,14 +51,14 @@ def build_arkham_archive(data,shell):
         i=images[id.removeprefix('prior:')];small=' is-small' if i['width']<700 else ''
         return f'<figure class="dossier-photo{small}"><a href="/assets/media/{esc(i["file"])}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(i["caption"])}" loading="lazy"></a><figcaption>{esc(i["caption"])}<span>{esc(i["rights"])}</span>{refs([i["source"]])}</figcaption></figure>'
 
-    def record(title,summary,base,id,tags,original=None):
-        records.append(dict(title=title,original=original or title,summary=summary,tags=tags,site='arkham',status='场景档案',url=base+('#'+id if id else '')))
+    def record(title,summary,base,id,tags,original=None,status="场景档案"):
+        records.append(dict(title=title,original=original or title,summary=summary,tags=tags,site='arkham',status=status,url=base+('#'+id if id else '')))
 
     def page(slug,title,intro,content):
         base='/arkham/archive/'+(slug+'/' if slug else '')
         nav='<nav class="dossier-nav" aria-label="Protocol Arkham档案分类"><a href="/arkham/archive/">总览</a>'+''.join(f'<a href="/arkham/archive/{s}/" {"aria-current=page" if s==slug else ""}>{t}</a>' for s,t,_ in ROOMS)+'</nav>'
         pages[base.strip('/')+'/index.html']=shell(data,'arkham',title,f'<section class="section dossier-room{" patient-room" if slug == "interviews" else ""}"><p class="label">GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(title)}</h1><p class="lead">{esc(intro)}</p>{nav}{content}</section>','archive')
-        record(title,intro,base,None,['档案馆'])
+        record(title,intro,base,None,['档案馆'],status='创作档案' if slug=='rocksteady' else '场景档案')
 
     def note(i,base):
         record(i['title'],i['body'],base,i['id'],['档案注释'])
@@ -137,9 +143,17 @@ def build_arkham_archive(data,shell):
     content+='<a class="dossier-shelf" href="/arkham/archive/asylum-history/"><h2>另一种声音：院史石碑</h2><p>回到阿卡姆之魂，比较人物访谈与第一人称院史。</p></a></div>'
     page('interviews','患者访谈：医院里的声音',interviews['intro'],content)
 
+    base='/arkham/archive/rocksteady/'
+    content='<div class="dossier-reading"><nav class="dossier-case-nav" aria-label="创作变迁章节">'+''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in creative['sections'])+'</nav>'
+    for s in creative['sections']:
+        content+=f'<article class="dossier-entry" id="{esc(s["id"])}"><p class="label">{esc(s["label"])}</p><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}{refs(s["sources"])}</article>'
+        record(s['title'],s['body'].split('\n')[0],base,s['id'],['Rocksteady','创作变迁',s['label']],status='创作档案')
+    content+='<a class="dossier-shelf" href="/arkham/catalog/"><h2>回到六部作品</h2><p>按发行年份阅读阿卡姆岛、黑门与大都会的作品档案。</p></a></div>'
+    page('rocksteady',creative['title'],creative['intro'],content)
+
     source_html='<section class="section"><h2>哥谭档案馆来源</h2><p>出版方书目、游戏攻略、社区转录与主创访谈，按来源查阅。</p><div class="source-list">'
     for s in sources.values():
-        item=f'<article><p class="label">{esc(s.get("level",s.get("evidence","资料来源")))}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3></article>'
+        item=f'<article><p class="label">{esc(s.get("level",s.get("evidence",s.get("type","资料来源"))))}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3></article>'
         source_html+=('<details class="spoiler"><summary>院史身份来源 · 含剧透</summary>'+item+'</details>') if s.get('spoiler') else item
     source_html+='</div></section>'
     gallery=f'<section class="section"><h2>场景与出版研究图</h2><p>{len(images)}张游戏截图、官方文章配图与书目封面。</p><div class="dossier-gallery">'+''.join(('<details class="spoiler"><summary>院史最终记录画面 · 含重要剧透，展开查看</summary>'+picture(i)+'</details>') if images[i].get('spoiler') else picture(i) for i in images)+'</div></section>'

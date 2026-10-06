@@ -71,7 +71,7 @@ for image in archive_images:
 for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
-assert len(ark_pages) == 7 and len(ark_records) == 240 and len(ark_images) == 23
+assert len(ark_pages) == 8 and len(ark_records) == 254 and len(ark_images) == 23
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]
@@ -159,14 +159,14 @@ for e in data["episodes"]:
         partner = next(p for p in data["episodes"] if p["id"] == other)
         assert e["id"] in partner["related"]
 media = json.loads((CONTENT.parent / "media.json").read_text())
-assert len(media["assets"]) == 24
-assert len({a["sha256"] for a in media["assets"]}) == 24
+assert len(media["assets"]) == 28
+assert len({a["sha256"] for a in media["assets"]}) == 28
 for a in media["assets"]:
     assert a["width"] >= 800 and a["height"] >= 400
     assert a["imageUrl"].startswith("https://") and a["sourcePage"].startswith("https://")
     assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     assert (DIST / "assets/media" / a["file"]).is_file()
-print("PASS: 24 sourced original images; TNBA separate; paired episode links reciprocal")
+print("PASS: 28 sourced original images; TNBA separate; paired episode links reciprocal")
 episode_media = json.loads((CONTENT.parent / 'episode-media.json').read_text())['assets']
 assert len(episode_media) == 24 and len({a['sha256'] for a in episode_media}) == 24
 assert len({a['item'] for a in episode_media}) == 6
@@ -179,7 +179,7 @@ for a in episode_media:
     assert a['imageUrl'].startswith('https://') and a['sourcePage'].startswith('https://')
     assert hashlib.sha256((CONTENT.parent / a['file']).read_bytes()).hexdigest() == a['sha256']
     assert hashlib.sha256((DIST / 'assets/media' / a['file']).read_bytes()).hexdigest() == a['sha256']
-print('PASS: seven Arkham archive pages; 23 research images; 24 episode images; history identity, final image and story spoilers collapsed')
+print('PASS: eight Arkham archive pages; 23 research images; 24 episode images; history identity, final image and story spoilers collapsed')
 
 interviews=json.loads((CONTENT.parent/'patient-interviews.json').read_text())
 assert len(interviews['patients'])==7
@@ -203,7 +203,33 @@ for path, page in parsed.items():
         assert not any(link.startswith('/people/kevin-conroy/') for link in page.links), path
 assert '/arkham/people/kevin-conroy/' in parsed
 assert '<option value="all">' not in pages['arkham/search/index.html']
-assert pages['arkham/catalog/index.html'].count('class="arkham-game-card"') == 4
+assert pages['arkham/catalog/index.html'].count('class="arkham-game-card"') == 6
 for filename in ['arkham-transition.js','arkham-menu.js','arkham-nav.js','arkham-bat-transition.m4a']:
     assert (DIST/'assets'/filename).is_file()
-print('PASS: Arkham-only navigation and biography view; four real-image game cards; scoped search and transition assets')
+print('PASS: Arkham-only navigation and biography view; six real-image game cards; scoped search and transition assets')
+
+# Original releases, companion developers and the later Rocksteady project stay distinct.
+games = {game['id']: game for game in data['games']}
+blackgate = games['arkham-origins-blackgate']
+squad = games['suicide-squad-kill-the-justice-league']
+assert blackgate['date'] == '2013-10-25' and blackgate['developer'] == 'Armature Studio'
+assert squad['date'] == '2024-02-02' and squad['developer'] == 'Rocksteady Studios'
+assert squad['actor'] == 'Kevin Conroy' and squad['actorLink'] == '/people/kevin-conroy/'
+blackgate_html = pages['arkham/games/arkham-origins-blackgate/index.html']
+assert 'Steam Deluxe Edition（2014）' in blackgate_html and '2014-04-01' in blackgate_html
+assert '待核' not in blackgate_html and '蝙蝠侠英语配音' not in blackgate_html
+squad_html = pages['arkham/games/suicide-squad-kill-the-justice-league/index.html']
+assert '/arkham/people/kevin-conroy/' in squad_html
+creative = json.loads((CONTENT.parent / 'rocksteady-history.json').read_text())
+creative_html = ark_pages['arkham/archive/rocksteady/index.html']
+assert len({section['id'] for section in creative['sections']}) == len(creative['sections'])
+assert creative_html.index('id="reveal-2020"') < creative_html.index('id="handover-2022"') < creative_html.index('id="cuts-2024"')
+assert '主创回顾转述' in creative_html and '分析 / 人员、产品与结果' in creative_html
+assert '不等同于服务器关闭' in creative_html
+assert '/arkham/archive/rocksteady/' in pages['arkham/catalog/index.html']
+ordered = ['arkham-asylum', 'arkham-city', 'arkham-origins', 'arkham-origins-blackgate', 'arkham-knight', 'suicide-squad-kill-the-justice-league']
+positions = [pages['arkham/catalog/index.html'].index('/arkham/games/' + id + '/') for id in ordered]
+assert positions == sorted(positions)
+assert all(any(record['url'] == '/arkham/games/' + id + '/' for record in search) for id in ordered)
+assert len([record for record in search if '/arkham/archive/rocksteady/' in record['url']]) == len(creative['sections']) + 1
+print('PASS: Blackgate original/Deluxe boundaries; six chronological works; sourced creative history and Arkham-scoped actor links')

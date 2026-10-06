@@ -69,3 +69,9 @@
 ## 阿卡姆首页接入（2026-10-05）
 
 用户认可转场音效后，标题录制前295秒接入/arkham/，网页副本arkham-city-intro.mp4及首帧arkham-city-intro-poster.jpg；保留原游戏英文标题与画面，完整16:9适配，不重绘。初版720p／30fps因用户反馈模糊，已改为1080p／60fps并提高码率。原配乐可由用户开启，蝙蝠转场使用网页Canvas和已有分离音效；没有复用参考视频画面作转场。原文件不变，详情见ARKHAM-INTRO.md。
+
+## 同日补充：黑门与自杀小队原图（2026-10-06）
+
+新增4张官方Steam原始JPEG，均1920×1080，不裁剪、不压缩重编码：arkham-origins-blackgate-01／02与suicide-squad-kill-the-justice-league-01／02。每作首图用于目录，两图进入详情与图片资料页。黑门图注明确Steam Deluxe Edition（2014），与2013年掌机原版的目录年份区分。完整直链、页面来源、实际尺寸与SHA256在media.json；官方公开商店截图仍受WB／DC版权保护。
+
+基础素材manifest现28张；既有24张与全部研究素材、字体、视频及音频字节保持。下载响应和检查记录保留于output/arkham-expansion-20261006。

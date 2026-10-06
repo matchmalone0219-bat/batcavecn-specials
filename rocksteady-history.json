@@ -1,0 +1,163 @@
+{
+  "title": "Rocksteady与创作变迁",
+  "intro": "从“成为蝙蝠侠”到合作射击与赛季制：沿作品、领导层交接和制作人员的回顾，阅读阿卡姆宇宙的转向。",
+  "sourceIds": [
+    "dc-asylum",
+    "dc-city-history",
+    "dc-knight",
+    "dc-origins",
+    "dc-blackgate",
+    "blackgate-pacini",
+    "wb-squad-reveal",
+    "rocksteady-handover",
+    "hundredstar-profile",
+    "squad-gameplay",
+    "squad-loadouts",
+    "steam-squad",
+    "wbd-q1-2024",
+    "rocksteady-cuts-sep",
+    "rocksteady-cuts-yearend",
+    "squad-offline-announcement",
+    "squad-season4",
+    "squad-episode8",
+    "rocksteady-design-recall"
+  ],
+  "sections": [
+    {
+      "id": "batman-grammar",
+      "label": "2009—2015 / 作品比较",
+      "title": "一套围绕蝙蝠侠形成的动作语言",
+      "body": "《疯人院》把格斗、潜行、侦探工具和角色表演安排进封闭岛屿；《之城》把行动展开到街道与屋顶；《骑士》再把蝙蝠车放进城市系统。Rocksteady三部曲的共同中心，是玩家怎样以蝙蝠侠的身体和判断进入场景。\n这一连续性也由多人共同写成。DC的《之城》回顾列出Paul Dini、Paul Crocker与Sefton Hill的故事创作，并连接Kevin Conroy与Mark Hamill的表演。工作室的风格来自编剧、关卡、动作、声音与制作的协作。\n从作品结构看，规模不断扩大，动作仍围绕一个身份组织：先观察，再选择行动，最后把战斗、调查与人物故事连起来。",
+      "sources": [
+        "dc-asylum",
+        "dc-city-history",
+        "dc-knight"
+      ]
+    },
+    {
+      "id": "different-studios",
+      "label": "2013 / 开发团队",
+      "title": "《起源》与《黑门》：两条不同的支线",
+      "body": "《起源》由WB Games Montréal制作，以年轻蝙蝠侠为主角。《黑门》由Armature制作，把战斗、潜行和装备探索转成2.5D掌机冒险。Mark Pacini将《黑门》定位为《起源》三个月后的故事。\n这里出现的是IP在不同团队与平台上的延伸：前传增加时间纵深，掌机版改变空间尺度。三个团队分别承担三部曲、前传与掌机冒险，共同扩展了这个世界。",
+      "sources": [
+        "dc-origins",
+        "dc-blackgate",
+        "blackgate-pacini"
+      ]
+    },
+    {
+      "id": "reveal-2020",
+      "label": "2020-08-22 / 发表公告",
+      "title": "合作射击方向先于领导层交接公开",
+      "body": "WB Games发表《自杀小队：消灭正义联盟》时，已经写明第三人称射击、单人或最多四人在线合作，以及开放世界大都会。Sefton Hill以Rocksteady创意总监兼联合创办人身份介绍本作。公告当时预告2022年发行。\n这一节点把玩法转向放在创办人仍任职的时期。后来的人事交接发生在项目已有公开方向之后。",
+      "sources": [
+        "wb-squad-reveal"
+      ]
+    },
+    {
+      "id": "handover-2022",
+      "label": "2022-10-26 / 人事公告",
+      "title": "Hill与Walker离开，资深成员接任",
+      "body": "Rocksteady公布Sefton Hill与Jamie Walker将在2022年底离职。接任者Nathan Burlow原任制作总监，也是工作室初创成员；Darius Sadeghian接任Studio Product Director。\n这次交接涉及工作室领导与产品管理。新领导来自长期任职的团队内部，旧创办人则在游戏正式发行前离开。人员结构发生变化，项目方向的公开起点仍在2020年。",
+      "sources": [
+        "rocksteady-handover"
+      ]
+    },
+    {
+      "id": "hundredstar",
+      "label": "2023 / 创办人的下一站",
+      "title": "HundredStar：创办人与原工作室分流",
+      "body": "HundredStar Games的公司简介列出Jamie Walker与Sefton Hill为创办人，成立年份为2023。两位创办人在另一家工作室继续游戏开发，Rocksteady则继续完成《自杀小队》。\n创作者的职业路线与IP的后续路线由此分开：同一个工作室名字继续存在，领导层与参与项目的人已经变化。",
+      "sources": [
+        "hundredstar-profile",
+        "rocksteady-handover"
+      ]
+    },
+    {
+      "id": "systems-2023",
+      "label": "2023 / 开发团队介绍",
+      "title": "角色差异落到移动、技能树与装备",
+      "body": "2023年的玩法介绍展示角色各自的移动方式和技能树；年底的装备文章进一步展开武器与配置。合作射击逐渐以可反复搭配的系统呈现，小队成员的能力差异与装备成长一起成为战斗入口。\n作品比较：三部曲以战斗和侦探能力强化蝙蝠侠的身份；小队作品将战斗身份拆分到多个角色，又以武器配置提供长期成长。玩家需要学习的对象，从一个英雄的行动组合转向多个角色与装备之间的配合。",
+      "sources": [
+        "squad-gameplay",
+        "squad-loadouts"
+      ]
+    },
+    {
+      "id": "release-2024",
+      "label": "2024-02—05 / 发行与财报",
+      "title": "正式发行之后，商业结果进入制作脉络",
+      "body": "《自杀小队》普通版于2024年2月2日发行。WBD第一季度业绩公告把当季表现与上一年《霍格沃茨之遗》的成功相比较，明确写到《自杀小队》带来的收入显著较低。\n财报中的商业结果与作品机制需要分别阅读：收入表现反映项目回报；合作、装备与赛季结构则决定玩家每天在游戏里做什么。两者随后在内容投入和人员调整中相遇。",
+      "sources": [
+        "steam-squad",
+        "wbd-q1-2024"
+      ]
+    },
+    {
+      "id": "cuts-2024",
+      "label": "2024-09／2025-01报道 / 员工采访转述",
+      "title": "收缩发生在发行之后",
+      "body": "Game Developer在2024年9月转述Eurogamer的员工采访，报道Rocksteady的QA团队由33人缩至15人，并将销售表现不佳与裁员联系起来。2025年1月的另一篇报道回顾2024年底的人员削减，涉及美术、程序和QA。\n这两轮报道对应发行后的团队收缩。裁员减少了参与后续开发与维护的人，也让积累在具体岗位上的经验面临流失。它们是这一阶段的结果与后续压力，发生时间晚于合作射击方向的确立。",
+      "sources": [
+        "rocksteady-cuts-sep",
+        "rocksteady-cuts-yearend"
+      ]
+    },
+    {
+      "id": "offline-2024",
+      "label": "2024-12-10 / 内容更新",
+      "title": "第四赛季加入离线模式",
+      "body": "第四赛季第七章推出离线模式，玩家可以离线进入主线和赛季故事内容。玩法的保存方式开始从持续联网服务延伸到可独立游玩的内容。\n对一款依靠赛季延续的作品而言，离线模式使已经制作的战役和章节拥有另一种可访问方式。",
+      "sources": [
+        "squad-offline-announcement",
+        "squad-season4"
+      ]
+    },
+    {
+      "id": "episode8-2025",
+      "label": "2025-01-14 / 最后一次赛季内容更新",
+      "title": "第八章：长期更新路线的收尾",
+      "body": "Rocksteady刊出第八章Balance的更新说明；第四赛季FAQ将其列为最后一次赛季／章节内容更新。游戏从连续推出新章节，转入游玩既有主线、赛季和装备内容的阶段。\n同一FAQ说明赛季结束后保留线上功能；离线模式与在线合作形成两种游玩方式。内容路线的结束并不等同于服务器关闭。",
+      "sources": [
+        "squad-episode8",
+        "squad-season4"
+      ]
+    },
+    {
+      "id": "designers-2026",
+      "label": "2026-07 / 主创回顾转述",
+      "title": "制作人员如何回忆优先级变化",
+      "body": "GamesRadar转述Bloomberg对Johnny Armstrong与Axel Rydby的采访：延期和成本压力使团队越来越关注触达更多玩家与重复游玩；两人回忆，这改变了他们制作游戏的感受。离开Rocksteady后，他们合作开发独立作品Secret of Circadia。\n这些回忆从具体岗位补充了转向的制作体验：设计讨论与商业回收目标逐渐贴近。",
+      "sources": [
+        "rocksteady-design-recall"
+      ]
+    },
+    {
+      "id": "creative-change",
+      "label": "作品比较 / 创意重心",
+      "title": "阿卡姆的身份体验，走向长期成长系统",
+      "body": "把两类作品放在一起看，变化首先发生在玩家的日常动作。三部曲以一个角色的观察、格斗、潜行和工具使用组织关卡，让玩家逐步学会怎样成为蝙蝠侠；《自杀小队》让玩家在多人角色、枪械配置、装备协同与赛季目标之间持续调整。\n服务型结构把新的问题带入叙事：角色和城市既要承载一段故事，也要支持反复进入与长期成长。编排一夜冒险的节奏，与持续提供重复游玩目标的节奏，需要不同的制作选择。\n小队作品仍有角色表演、城市细节与移动设计；这些能力被放进了另一套优先级中。对沿三部曲进入的玩家而言，熟悉的宇宙与新的行动规则之间，形成了明显的期待落差。",
+      "sources": [
+        "dc-asylum",
+        "dc-knight",
+        "squad-gameplay",
+        "squad-loadouts",
+        "squad-season4"
+      ]
+    },
+    {
+      "id": "trajectory",
+      "label": "分析 / 人员、产品与结果",
+      "title": "这条下行脉络如何形成",
+      "body": "按公开时间排列，路径是：创办人在任时公开合作射击方向，项目经历领导层交接后发行，商业表现承压，随后发生裁员与赛季内容收尾。创作者离开、产品转向与经营收缩彼此相连，却发生在不同阶段。\n结合设计人员的回顾，可以看到延期与成本压力如何把触达更多玩家、重复游玩带进日常设计讨论；结合成品，则能看到这些目标落在装备与赛季结构上。这里的判断是，Rocksteady把围绕单一英雄建立的创作能力，带进了需要长期留存与持续生产内容的产品模式，而商业结果又压缩了继续调整的空间。\n人事变动影响经验传承与决策协作，设计目标改变关卡和叙事的优先级，发行后的收缩继续影响团队。这段历史由玩法转向、领导层交接与发行后收缩共同构成，每条线都有自己的时间和作用。",
+      "sources": [
+        "wb-squad-reveal",
+        "rocksteady-handover",
+        "wbd-q1-2024",
+        "rocksteady-cuts-sep",
+        "squad-season4",
+        "rocksteady-design-recall"
+      ]
+    }
+  ]
+}

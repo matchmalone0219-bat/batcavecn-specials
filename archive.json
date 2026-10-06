@@ -7,7 +7,7 @@
       "eyebrow": "BATCAVECN // PROTOCOL ARKHAM",
       "title": "进入哥谭。\n成为蝙蝠侠。",
       "intro": "从阿卡姆岛到整座哥谭，循着作品、人物与制作故事，重新走进这个可以亲自探索的蝙蝠侠世界。",
-      "prologue": "游戏把读者变成了行动者。调查现场、隐入阴影、掠过屋顶：这份档案从四部核心作品出发，逐步记录阿卡姆世界的叙事与创作。",
+      "prologue": "游戏把读者变成了行动者。调查现场、隐入阴影、掠过屋顶：从阿卡姆岛、黑门监狱到大都会，循着作品与制作团队，阅读这个世界的叙事与创作变迁。",
       "conroyTitle": "哥谭的回声",
       "conroyText": "面具后的声音，把屏幕里的英雄带到玩家身边。从游戏出发，回到凯文·康罗伊的动画表演与本人讲述。"
     },
@@ -478,6 +478,150 @@
       "url": "https://dcanimated.com/WF/batman/btas/episodes/riddlersreform/",
       "checked": "2026-10-03",
       "scope": "剧情、分集制作列名与配音。"
+    },
+    {
+      "id": "dc-blackgate",
+      "title": "DC：《阿卡姆起源：黑门》作品资料",
+      "type": "官方作品资料",
+      "url": "https://www.dc.com/games/batman-arkham-origins-blackgate-2013",
+      "checked": "2026-10-06",
+      "scope": "2013年原版日期、掌机平台、Armature与系列关系。"
+    },
+    {
+      "id": "blackgate-pacini",
+      "title": "Mark Pacini：《黑门》的设计与战斗",
+      "type": "开发者署名文章",
+      "url": "https://blog.playstation.com/2013/11/20/batman-arkham-origins-blackgate-tips-and-tricks/",
+      "checked": "2026-10-06",
+      "scope": "2.5D Metroidvania、起源三个月后、FreeFlow平面适配。"
+    },
+    {
+      "id": "steam-blackgate",
+      "title": "Steam：《黑门》Deluxe Edition",
+      "type": "发行商商店资料",
+      "url": "https://store.steampowered.com/app/267490/",
+      "checked": "2026-10-06",
+      "scope": "2014-04-01的PC豪华版条目与新增内容。"
+    },
+    {
+      "id": "wb-squad-reveal",
+      "title": "WB Games：2020年《自杀小队》发表公告",
+      "type": "官方历史公告",
+      "url": "https://warnerbrosgames.com/index.php/article/warner-bros-games-and-dc-announce-suicide-squad-kill-the-justice-league",
+      "checked": "2026-10-06",
+      "scope": "2020-08-22已有单人／四人合作射击方向，Sefton Hill以创意总监身份发言；当时预告2022年发行。"
+    },
+    {
+      "id": "rocksteady-handover",
+      "title": "Rocksteady：2022年领导层交接信",
+      "type": "官方人事公告",
+      "url": "https://rocksteadyltd.com/news/letter/",
+      "checked": "2026-10-06",
+      "scope": "2022-10-26宣布Hill／Walker年底离职，Burlow／Sadeghian接任；成立于2004年。"
+    },
+    {
+      "id": "hundredstar-profile",
+      "title": "HundredStar Games：公司简介",
+      "type": "公司官方主页资料",
+      "url": "https://uk.linkedin.com/company/hundredstar-games",
+      "checked": "2026-10-06",
+      "scope": "公司自述创办者Jamie Walker与Sefton Hill，Founded字段2023。"
+    },
+    {
+      "id": "squad-gameplay",
+      "title": "Gaz Deaves：四人合作与大都会设计",
+      "type": "开发团队署名文章",
+      "url": "https://blog.playstation.com/2023/02/23/suicide-squad-kill-the-justice-league-debuts-4-player-co-op-gameplay-and-more-at-state-of-play/",
+      "checked": "2026-10-06",
+      "scope": "2023年战斗展示、角色移动与技能树。"
+    },
+    {
+      "id": "squad-loadouts",
+      "title": "Rocksteady：《自杀小队》的装备配置（含角色剧情）",
+      "type": "开发团队署名文章／含角色剧情",
+      "url": "https://blog.playstation.com/2023/12/20/how-suicide-squad-kill-the-justice-league-loadout-options-enable-customizable-chaos/",
+      "checked": "2026-10-06",
+      "scope": "武器、装备与构筑设计。"
+    },
+    {
+      "id": "steam-squad",
+      "title": "Steam：《自杀小队：消灭正义联盟》",
+      "type": "发行商商店资料",
+      "url": "https://store.steampowered.com/app/315210/",
+      "checked": "2026-10-06",
+      "scope": "2024-02-02普通版发行；Rocksteady开发。"
+    },
+    {
+      "id": "squad-faq",
+      "title": "WB Games：《自杀小队》FAQ",
+      "type": "官方游戏说明",
+      "url": "https://dcgamessupport.wbgames.com/hc/en-us/articles/13295383596691-Suicide-Squad-Kill-the-Justice-League-FAQ",
+      "checked": "2026-10-06",
+      "scope": "平台、角色、单人／四人合作、故事在骑士五年后。"
+    },
+    {
+      "id": "dc-squad-conroy",
+      "title": "DC：阿卡姆宇宙人物的后续（含主线剧透）",
+      "type": "官方编辑文章／含剧透",
+      "url": "https://www.dc.com/blog/2024/03/11/suicide-squad-kill-the-justice-league-reveals-whatever-happened-to-the-arkhamverse",
+      "checked": "2026-10-06",
+      "scope": "康罗伊出演蝙蝠侠与宇宙人物后续；正文含重要剧透。"
+    },
+    {
+      "id": "wbd-q1-2024",
+      "title": "WBD：2024年第一季度业绩",
+      "type": "公司财报公告",
+      "url": "https://www.wbd.com/warner-bros-discovery-reports-first-quarter-2024-results",
+      "checked": "2026-10-06",
+      "scope": "2024年Q1自杀小队收入显著低于上年Q1霍格沃茨；不作制作预算。"
+    },
+    {
+      "id": "rocksteady-cuts-sep",
+      "title": "Game Developer：2024年9月裁员报道",
+      "type": "行业报道／员工采访转述",
+      "url": "https://www.gamedeveloper.com/business/rocksteady-cuts-staff-following-suicide-squad-s-underperformance",
+      "checked": "2026-10-06",
+      "scope": "2024-09-03转述Eurogamer员工来源，QA由33人缩至15人。"
+    },
+    {
+      "id": "rocksteady-cuts-yearend",
+      "title": "Game Developer：2024年底裁员报道",
+      "type": "行业报道／员工采访转述",
+      "url": "https://www.gamedeveloper.com/business/rocksteady-ended-its-tumultuous-2024-by-laying-off-staff",
+      "checked": "2026-10-06",
+      "scope": "2025-01-07报道2024年底美术、程序与QA裁员；不是同日裁员公告。"
+    },
+    {
+      "id": "squad-season4",
+      "title": "WB Games：《自杀小队》第四赛季FAQ",
+      "type": "官方内容更新说明",
+      "url": "https://dcgamessupport.wbgames.com/hc/en-us/articles/41683187662611-Suicide-Squad-Kill-the-Justice-League-Season-4-FAQ",
+      "checked": "2026-10-06",
+      "scope": "第四赛季为最终赛季；Episode 8计划2025-01-14，线上功能继续保留。"
+    },
+    {
+      "id": "squad-offline-announcement",
+      "title": "WB Games：第四赛季与离线模式推出",
+      "type": "发行商Steam公告",
+      "url": "https://steamcommunity.com/games/315210/announcements/detail/521951078763202522",
+      "checked": "2026-10-06",
+      "scope": "2024-12-11公告记载离线模式随12月10日Episode 7推出。"
+    },
+    {
+      "id": "squad-episode8",
+      "title": "Rocksteady：Episode 8更新说明",
+      "type": "官方更新日志",
+      "url": "https://www.suicidesquadgame.com/en-gb/community/episode-8-patch-notes",
+      "checked": "2026-10-06",
+      "scope": "2025-01-14，第八章Balance、装备与任务更新。"
+    },
+    {
+      "id": "rocksteady-design-recall",
+      "title": "GamesRadar：两位设计人员回顾《自杀小队》",
+      "type": "主创回顾／Bloomberg采访转述",
+      "url": "https://www.gamesradar.com/games/third-person-shooter/i-cant-do-this-again-suicide-squad-designer-says-rocksteadys-live-service-flop-made-him-want-to-quit-games-and-warns-as-an-industry-we-are-severely-losing-our-way/",
+      "checked": "2026-10-06",
+      "scope": "2026-07-02报道Johnny Armstrong与Axel Rydby的回顾；读取转述文章，Bloomberg原文未全文读取。"
     }
   ],
   "games": [
@@ -632,6 +776,16 @@
         "rcs-origins-interview",
         "steam-origins",
         "steam-dlc-277830"
+      ],
+      "readingLinks": [
+        {
+          "url": "/arkham/games/arkham-origins-blackgate/",
+          "title": "蝙蝠侠：阿卡姆起源：黑门"
+        },
+        {
+          "url": "/arkham/archive/rocksteady/",
+          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+        }
       ]
     },
     {
@@ -687,6 +841,157 @@
         "steam-dlc-313100",
         "steam-dlc-313101",
         "steam-dlc-350171"
+      ],
+      "readingLinks": [
+        {
+          "url": "/arkham/games/suicide-squad-kill-the-justice-league/",
+          "title": "自杀小队：消灭正义联盟"
+        },
+        {
+          "url": "/arkham/archive/rocksteady/",
+          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+        }
+      ]
+    },
+    {
+      "id": "arkham-origins-blackgate",
+      "site": "arkham",
+      "title": "蝙蝠侠：阿卡姆起源：黑门",
+      "original": "Batman: Arkham Origins Blackgate",
+      "nameNote": "中文常用译名；Blackgate指黑门监狱",
+      "year": "2013",
+      "date": "2013-10-25",
+      "dateNote": "2013年掌机原版；Steam Deluxe Edition发行于2014-04-01。",
+      "developer": "Armature Studio",
+      "publisher": "Warner Bros. Interactive Entertainment",
+      "platforms": "PlayStation Vita / Nintendo 3DS",
+      "actor": "",
+      "actorLink": "",
+      "status": "详情样板",
+      "summary": "Armature把阿卡姆的战斗、潜行与装备探索转为2.5D掌机冒险，故事承接《起源》。",
+      "tags": [
+        "游戏",
+        "黑门",
+        "Blackgate",
+        "Armature",
+        "2.5D",
+        "Metroidvania"
+      ],
+      "sections": [
+        {
+          "id": "continuity",
+          "title": "《起源》三个月后，走进黑门",
+          "body": "黑门监狱发生暴动，蝙蝠侠进入这座岛上监狱调查。游戏总监Mark Pacini将时间定位于《阿卡姆起源》事件三个月后。\n《黑门》由Armature制作，是承接《起源》的独立掌机作品。它与WB Games Montréal的《起源》、Rocksteady的三部曲各有开发团队。"
+        },
+        {
+          "id": "design",
+          "title": "把阿卡姆的动作放进2.5D空间",
+          "body": "Pacini用2.5D Metroidvania描述本作：探索与装备能力相连，路线的开放伴随着角色能力的增长。FreeFlow战斗从主机版改为平面中的交锋，潜行和侦探工具也重新适配这种空间。\n从空间设计看，《黑门》的问题是如何把蝙蝠侠的行动压缩进侧向路线。它让同一个角色体验进入另一种关卡尺度。"
+        },
+        {
+          "id": "versions",
+          "title": "2013年原版与2014年豪华版",
+          "body": "2013年10月25日的原版面向PS Vita与Nintendo 3DS。Steam所售Deluxe Edition是2014年4月1日发行的PC版本。\n豪华版商店介绍列出新地图、敌人遭遇、难度选项、战衣与增强画面。目录按2013年原作编目，图片使用豪华版商店截图，并在图注中注明版本。"
+        },
+        {
+          "id": "place",
+          "title": "在系列脉络中的位置",
+          "body": "《起源》把时间向前推，写年轻蝙蝠侠；《黑门》则把这段时期的冒险带到掌机。比较两作，可以同时观察前传叙事与平台转换。\n沿发行顺序阅读时，《黑门》位于《起源》与《骑士》之间；沿故事时间阅读时，它紧接《起源》。"
+        }
+      ],
+      "spoiler": "",
+      "gaps": "英语配音与完整制作署名未补；原版和豪华版地区差异继续研究。",
+      "sources": [
+        "dc-blackgate",
+        "blackgate-pacini",
+        "steam-blackgate"
+      ],
+      "readingLinks": [
+        {
+          "url": "/arkham/games/arkham-origins/",
+          "title": "阿卡姆起源：年轻蝙蝠侠的哥谭"
+        },
+        {
+          "url": "/arkham/archive/rocksteady/",
+          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+        }
+      ]
+    },
+    {
+      "id": "suicide-squad-kill-the-justice-league",
+      "site": "arkham",
+      "title": "自杀小队：消灭正义联盟",
+      "original": "Suicide Squad: Kill the Justice League",
+      "nameNote": "中文常用译名",
+      "year": "2024",
+      "date": "2024-02-02",
+      "dateNote": "普通版正式发行日；豪华版提前体验从2024-01-30开始。",
+      "developer": "Rocksteady Studios",
+      "publisher": "Warner Bros. Games",
+      "platforms": "PlayStation 5 / Xbox Series X|S / PC",
+      "actor": "Kevin Conroy",
+      "actorLink": "/people/kevin-conroy/",
+      "status": "详情样板",
+      "summary": "阿卡姆宇宙走向大都会：四位反英雄成为可玩主角，Rocksteady转向合作射击、装备构筑与赛季更新。",
+      "tags": [
+        "游戏",
+        "自杀小队",
+        "Suicide Squad",
+        "Rocksteady",
+        "合作射击",
+        "赛季",
+        "Kevin Conroy"
+      ],
+      "sections": [
+        {
+          "id": "world",
+          "title": "《骑士》五年后的大都会",
+          "body": "故事发生在《阿卡姆骑士》五年后。阿曼达·沃勒把哈莉·奎因、死亡射手、回旋镖队长与鲨鱼王组成小队，送进遭布莱尼亚克入侵的大都会，目标是正义联盟。\n这次宇宙延续改变了玩家的位置：蝙蝠侠从玩家控制的英雄成为小队面对的人物，城市也从哥谭移向大都会。"
+        },
+        {
+          "id": "play",
+          "title": "四人合作、移动与装备构筑",
+          "body": "本作可单人游玩，或以最多四人的在线合作进入同一支小队。四位角色有各自的移动手段和技能树，武器与装备配置构成成长路线。\n作品比较：三部曲把战斗、潜行与侦探工具集中到蝙蝠侠身上；本作把移动、射击与装备组合分配给小队成员。城市空间的意义随之从调查和伏击，转向高速移动中的共同战斗。"
+        },
+        {
+          "id": "voice",
+          "title": "康罗伊再次出演蝙蝠侠",
+          "body": "Kevin Conroy继续为这个宇宙的蝙蝠侠配音。主角视点转移以后，同一个声音承担了另一种人物关系：玩家从扮演蝙蝠侠，变为听见、面对他。\nDC的2024年人物回顾介绍了他的回归；该来源涉及主线人物结局，可在阅读剧情后进入。"
+        },
+        {
+          "id": "updates",
+          "title": "第四赛季、离线模式与最后一章",
+          "body": "离线模式随2024年12月10日的第四赛季第七章推出，可用于主线与赛季故事内容。2025年1月14日，第八章Balance的更新说明刊出；第四赛季FAQ将这一章列为最后一次赛季／章节内容更新。\nFAQ同时说明，赛季结束后保留线上功能，合作仍需要联网。赛季内容的结束与服务器关闭是不同的运营状态。"
+        },
+        {
+          "id": "production",
+          "title": "从2020年发表到2024年发行",
+          "body": "2020年8月的发表公告已经把第三人称射击与单人／四人合作列为核心方向；Sefton Hill当时以Rocksteady创意总监身份介绍本作。2022年10月公布的创办人离职发生在这一方向公开之后。\n随后作品于2024年2月发行。把这几件事按时间排列，才能看清玩法转向、领导层交接和发行后收缩各自发生在哪个阶段。"
+        }
+      ],
+      "spoiler": "",
+      "gaps": "剧情结局及赛季叙事变更未扩写；片尾完整署名待补。",
+      "sources": [
+        "wb-squad-reveal",
+        "rocksteady-handover",
+        "steam-squad",
+        "squad-faq",
+        "squad-gameplay",
+        "squad-loadouts",
+        "dc-squad-conroy",
+        "squad-season4",
+        "squad-offline-announcement",
+        "squad-episode8"
+      ],
+      "readingLinks": [
+        {
+          "url": "/arkham/games/arkham-knight/",
+          "title": "阿卡姆骑士：哥谭三部曲的终点"
+        },
+        {
+          "url": "/arkham/archive/rocksteady/",
+          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+        }
       ]
     }
   ],
