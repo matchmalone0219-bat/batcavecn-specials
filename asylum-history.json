@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "checked": "2026-10-03",
+  "title": "疯人院院史：阿卡姆之魂",
+  "intro": "从刻字石碑读起，追问谁在讲述这座医院的过去。",
+  "nameNote": "Chronicles of Arkham；“阿卡姆之魂”为本站暂译，亦可用 Spirit of Amadeus Arkham 检索。尚未核验官方中文译名。",
+  "scope": "23处石碑记录，加上1条最终记录。以下24个序号沿用玩家转录的叙事阅读顺序，只作文本索引；扫描地点与先后顺序另行核查。",
+  "overview": "记录以第一人称追述家族、母亲与岛屿的过去，随后转向治疗、惩罚和对病人的敌意。阅读时要同时追问：哪些是回忆，哪些是自我辩护，讲述者又把谁视作自己的继承者？",
+  "sections": [
+    {
+      "id": "place",
+      "title": "庄园怎样变成医院",
+      "body": "在2009年的访谈中，Paul Dini描述了Rocksteady对阿卡姆的空间构想：用类似恶魔岛的隔离感，把旧庄园、花园、海岸和洞穴连成一座岛，再让现代医院设施与维多利亚式哥特建筑相邻。院史因此也可以从场景阅读：庄园的装饰、石砌空间和治疗区域并置，让“家族遗产”与“医疗机构”同时可见。这是主创的设计说明，不是故事内的建院日期。",
+      "sources": [
+        "asylum-dini-place"
+      ],
+      "images": [
+        "chronicle-mansion",
+        "chronicle-east"
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "把记录当作证词阅读",
+      "body": "本站导读：第一人称档案不能自动当成客观年表。可先标记家族称谓、治疗措辞与对病人的评价，再回看讲述对象是否发生变化。“灵魂”的说法尤其需要与最终署名一起判断；本站保留人物自述和已经核实的事实之间的区别。上方主题提示默认收起，供读完相应记录后对照。",
+      "sources": [
+        "chronicles-transcript"
+      ],
+      "images": []
+    },
+    {
+      "id": "comics",
+      "title": "游戏院史与漫画院史分开",
+      "body": "DC的漫画回顾把阿卡姆在漫画中的早期登场追溯到1974年的Batman #258，也介绍了1989年Grant Morrison与Dave McKean的Arkham Asylum。它们适合提供跨媒介背景，但不能用来补写游戏中未给出的年代、人物关系或事件顺序。本站书目页收录的是该漫画的具体版本；同名与相近题材，不等于游戏逐段改编了漫画。",
+      "sources": [
+        "asylum-dc-history"
+      ],
+      "images": []
+    }
+  ],
+  "identity": "最终记录署名Quincy Sharp（昆西·夏普，本站暂译）。此前自称阿玛迪斯之魂的讲述者，需要结合在任院长的身份重新阅读。“灵魂延续”是人物的自我认定；本站不把它写成已经证实的鬼魂附身。",
+  "identityContext": "社区人物汇编也将这些文字与夏普对阿玛迪斯的执念联系起来，可作身份段落的交叉核查。后续作品对他的补充另行研究，本页不将续作解释混入《疯人院》的记录索引。",
+  "identitySources": [
+    "chronicles-transcript",
+    "asylum-identity-context"
+  ],
+  "gaps": "目前依据2009年玩家转录与现场截图编排；尚未完成原版／重制版逐条音轨、解锁界面、中文措辞及字幕差异核对。24条主题是本站导读，不是游戏原文全文或官方中文翻译。未建立剧情序号与具体石碑位置的一一对应，也不提供收集路线。",
+  "records": [
+    {
+      "id": "chronicle-01",
+      "number": 1,
+      "topic": "自称院史的守护者",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-02",
+      "number": 2,
+      "topic": "家族与哥谭",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-03",
+      "number": 3,
+      "topic": "返家照顾母亲",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-04",
+      "number": 4,
+      "topic": "归途后的家庭悲剧",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-05",
+      "number": 5,
+      "topic": "追问暴行原因",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-06",
+      "number": 6,
+      "topic": "对凶手的怜悯",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-07",
+      "number": 7,
+      "topic": "重建岛屿",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-08",
+      "number": 8,
+      "topic": "新医生与承诺",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-09",
+      "number": 9,
+      "topic": "治疗信念受挫",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-10",
+      "number": 10,
+      "topic": "将死亡称为事故",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-11",
+      "number": 11,
+      "topic": "对病人的敌意",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-12",
+      "number": 12,
+      "topic": "寻找理念同伴",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-13",
+      "number": 13,
+      "topic": "新病人的到来",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-14",
+      "number": 14,
+      "topic": "暴力转向他人",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-15",
+      "number": 15,
+      "topic": "净化城市的执念",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-16",
+      "number": 16,
+      "topic": "忏悔与自我许可",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-17",
+      "number": 17,
+      "topic": "绿色皮肤的病人",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-18",
+      "number": 18,
+      "topic": "牢房外的窥视",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-19",
+      "number": 19,
+      "topic": "隔着玻璃的亲近",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-20",
+      "number": 20,
+      "topic": "称谓出现变化",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-21",
+      "number": 21,
+      "topic": "行凶失败",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-22",
+      "number": 22,
+      "topic": "归咎他人与日记收束",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-23",
+      "number": 23,
+      "topic": "邀请读者寻找身份",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    },
+    {
+      "id": "chronicle-24",
+      "number": 24,
+      "topic": "最终署名",
+      "sources": [
+        "chronicles-transcript"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "chronicles-transcript",
+      "title": "Character Bios/Interviews Transcript · Deciphered Messages",
+      "url": "https://gamefaqs.gamespot.com/ps3/952338-batman-arkham-asylum/faqs/57651",
+      "publisher": "Homm_Syndrome / GameFAQs",
+      "published": "2009-09-03",
+      "evidence": "玩家转录；原游戏界面与音轨待核",
+      "readStatus": "已读取24条记录；PS3页面索引，不等于已在对应游戏版本逐条读回。",
+      "checked": "2026-10-03",
+      "spoiler": false
+    },
+    {
+      "id": "chronicles-screens",
+      "title": "The Spirit of Arkham Tablets Location and Identity",
+      "url": "https://www.faxagate.com/en/gaming/batman-arkham-asylum-spirit-of-arkham",
+      "publisher": "Faxagate",
+      "published": "2023-10-19",
+      "evidence": "攻略现场截图；载体与数量辅助核查",
+      "readStatus": "已读取正文与现场截图；地点编号不与剧情阅读序号绑定。",
+      "checked": "2026-10-03",
+      "spoiler": false
+    },
+    {
+      "id": "asylum-dini-place",
+      "title": "Writer Paul Dini on Arkham, Batman, and More",
+      "url": "https://www.gamespot.com/articles/batman-arkham-asylum-qanda-writer-paul-dini-on-arkham-batman-and-more/1100-6208260/",
+      "publisher": "GameSpot / Paul Dini 访谈",
+      "published": "2009-04-21",
+      "evidence": "主创本人访谈",
+      "readStatus": "已读取空间设计相关问答；创作构想不作故事内建院年表。",
+      "checked": "2026-10-03",
+      "spoiler": false
+    },
+    {
+      "id": "asylum-dc-history",
+      "title": "A Tough Cell: Arkham Asylum’s Seriously Troubled History",
+      "url": "https://www.dc.com/blog/2022/01/26/a-tough-cell-arkham-asylums-seriously-troubled-history",
+      "publisher": "DC / Alex Jaffe",
+      "published": "2022-01-26",
+      "evidence": "官方漫画回顾；跨媒介背景",
+      "readStatus": "已读取正文；漫画史不直接填入游戏连续性。",
+      "checked": "2026-10-03",
+      "spoiler": false
+    },
+    {
+      "id": "asylum-identity-context",
+      "title": "院史身份段落的社区交叉核查",
+      "url": "https://dc.fandom.com/wiki/Quincy_Sharp_(Arkhamverse)",
+      "publisher": "DC Database / Fandom",
+      "published": "未标注",
+      "evidence": "社区人物汇编",
+      "readStatus": "已读取人物背景；仅辅助交叉核查，最终署名以游戏文本转录为依据。",
+      "checked": "2026-10-03",
+      "spoiler": true
+    }
+  ],
+  "images": [
+    {
+      "id": "chronicle-treatment",
+      "file": "asylum-history-chronicle-treatment.webp",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fdcc308e0eba9a8cb25b0aeb86ce6a8c962b38fbb111535b9676e7561cf6cba8",
+      "imageUrl": "https://www.faxagate.com/resources/-/gaming/batman-arkham-asylum-spirit-of-arkham/intensive-treatment/1-2.webp",
+      "source": "chronicles-screens",
+      "rights": "原游戏画面 © DC / Warner Bros. / Rocksteady；截图来源 Faxagate，保留原图，未取得开放转载授权。",
+      "spoiler": false,
+      "caption": "重症治疗区的刻字石碑：甲虫纹样与扫描提示。"
+    },
+    {
+      "id": "chronicle-mansion",
+      "file": "asylum-history-chronicle-mansion.webp",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5cfc4738a80ca207fba6e2b78a5cf627e06a1bc01771052c91a30d95ed285cae",
+      "imageUrl": "https://www.faxagate.com/resources/-/gaming/batman-arkham-asylum-spirit-of-arkham/arkham-mansion/1-2.webp",
+      "source": "chronicles-screens",
+      "rights": "原游戏画面 © DC / Warner Bros. / Rocksteady；截图来源 Faxagate，保留原图，未取得开放转载授权。",
+      "spoiler": false,
+      "caption": "庄园室内高处的石碑与装饰构件。"
+    },
+    {
+      "id": "chronicle-east",
+      "file": "asylum-history-chronicle-east.webp",
+      "width": 1280,
+      "height": 720,
+      "sha256": "916fc6239027a8f59a21a6d87d7b2692db0edf59d8f470d7eefc62a6883e53fc",
+      "imageUrl": "https://www.faxagate.com/resources/-/gaming/batman-arkham-asylum-spirit-of-arkham/arkham-east/1-2.webp",
+      "source": "chronicles-screens",
+      "rights": "原游戏画面 © DC / Warner Bros. / Rocksteady；截图来源 Faxagate，保留原图，未取得开放转载授权。",
+      "spoiler": false,
+      "caption": "阿卡姆东区：嵌在石砌凹槽中的刻字石碑，周围可见藤蔓。"
+    },
+    {
+      "id": "chronicle-final",
+      "file": "asylum-history-chronicle-final.webp",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cbad20f53a82013195b692ea2851a8ddf8e365e72494daf96583d589a3553ade",
+      "imageUrl": "https://www.faxagate.com/resources/-/gaming/batman-arkham-asylum-spirit-of-arkham/last.webp",
+      "source": "chronicles-screens",
+      "rights": "原游戏画面 © DC / Warner Bros. / Rocksteady；截图来源 Faxagate，保留原图，未取得开放转载授权。",
+      "spoiler": true,
+      "caption": "安全控制室地面的圆形书写；最终记录的物件形态不同于前23处石碑。"
+    }
+  ]
+}

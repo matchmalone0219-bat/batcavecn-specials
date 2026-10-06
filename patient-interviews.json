@@ -1,0 +1,243 @@
+{
+  "checked": "2026-10-03",
+  "scope": "《阿卡姆疯人院》七组患者访谈；人物身份、访谈导读和英语游戏录制分开保存。不同作品的录音不混编。",
+  "intro": "听医院如何记录人物，也听人物如何反过来改变记录。",
+  "boundary": "英语游戏录音，提供B站分P与YouTube入口。中文导读由本站整理；中文字幕及原版／重制版差异仍待核。录音与访谈摘要含剧情信息，默认折叠。",
+  "sources": [
+    {
+      "id": "patient-transcript",
+      "title": "Homm_Syndrome · 人物传记与访谈转录",
+      "url": "https://gamefaqs.gamespot.com/ps3/952338-batman-arkham-asylum/faqs/57651",
+      "checked": "2026-10-03",
+      "evidence": "社区游戏文本转录；游戏界面待逐条核对"
+    },
+    {
+      "id": "patient-overview",
+      "title": "NygmaGaming · 访谈分类与文本",
+      "url": "https://nygmagaming.com/interview-tapes-arkham-asylum/",
+      "checked": "2026-10-03",
+      "evidence": "社区汇编；分类辅助核查"
+    },
+    {
+      "id": "patient-video-list",
+      "title": "2009年玩家整理的七组录音地址",
+      "url": "https://gamefaqs.gamespot.com/boards/952339-batman-arkham-asylum/51416366",
+      "checked": "2026-10-03",
+      "evidence": "历史链接索引；视频元数据另核"
+    },
+    {
+      "id": "patient-video-joker",
+      "title": "Batman: Arkham Asylum Patient Interviews The Joker · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=IEmR7g18NXw",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-harley",
+      "title": "Batman: Arkham Asylum Patient Interviews Harley Quinn · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=7n97qxBWFn0",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-croc",
+      "title": "Batman: Arkham Asylum Patient Interviews Killer Croc · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=mXC7id79aJk",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-riddler",
+      "title": "Batman: Arkham Asylum Patient Interviews The Riddler · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=90hGaXM7hM0",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-zsasz",
+      "title": "Batman: Arkham Asylum Patient Interviews Mr. Zsasz · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=TDyVzKJF9fo",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-ivy",
+      "title": "Batman: Arkham Asylum Patient Interviews Poison Ivy · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=nNTH_w5hlII",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-video-scarecrow",
+      "title": "Batman: Arkham Asylum Patient Interviews The Scarecrow · SkinJeremy",
+      "url": "https://www.youtube.com/watch?v=fw5w8TJ3Kak",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；YouTube公开元数据和oEmbed已核"
+    },
+    {
+      "id": "patient-bili",
+      "title": "蝙蝠侠阿卡姆疯人院全病人访谈记录 · 懒馒头要吃番茄酱",
+      "url": "https://www.bilibili.com/video/BV1ww411w7Je/",
+      "checked": "2026-10-03",
+      "evidence": "玩家游戏录制；页面与七分P元数据已核，浏览器提示无法播放媒体"
+    }
+  ],
+  "patients": [
+    {
+      "id": "joker",
+      "name": "小丑",
+      "english": "The Joker",
+      "identity": "身份未定",
+      "angle": "观察他怎样用笑话、假身世和威胁改变访谈的方向。",
+      "gist": "治疗对话逐步牵出泰坦研究及资金问题。",
+      "videoId": "IEmR7g18NXw",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews The Joker",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=IEmR7g18NXw",
+      "embedUrl": "https://www.youtube.com/embed/IEmR7g18NXw",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 1,
+      "biliPart": "小丑",
+      "biliDuration": 319,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=1",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "harley",
+      "name": "哈莉·奎茵",
+      "english": "Harley Quinn",
+      "identity": "Harleen Quinzel",
+      "angle": "比较医生的提问与她逐渐投入的情感，谁在引导对话？",
+      "gist": "这一组包含哈琳与小丑的对话；按哈莉归档，不代表每段都是对哈莉的审讯。",
+      "videoId": "7n97qxBWFn0",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews Harley Quinn",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=7n97qxBWFn0",
+      "embedUrl": "https://www.youtube.com/embed/7n97qxBWFn0",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 3,
+      "biliPart": "哈莉奎因",
+      "biliDuration": 280,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=3",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "croc",
+      "name": "杀手鳄",
+      "english": "Killer Croc",
+      "identity": "Waylon Jones",
+      "angle": "听称呼、项圈和看守的介入，观察访谈室里的权力关系。",
+      "gist": "Whistler与看守Cash参与对话，记录涉及Cash失去手的经过。",
+      "videoId": "mXC7id79aJk",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews Killer Croc",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=mXC7id79aJk",
+      "embedUrl": "https://www.youtube.com/embed/mXC7id79aJk",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 2,
+      "biliPart": "鳄鱼人",
+      "biliDuration": 254,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=2",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "riddler",
+      "name": "谜语人",
+      "english": "The Riddler",
+      "identity": "Edward Nigma（本作转录拼写）",
+      "angle": "他如何把接受提问变成智力比赛，又把医生的私人生活当成筹码？",
+      "gist": "Young的提问涉及童年、机关与泰坦研究候选资格。",
+      "videoId": "90hGaXM7hM0",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews The Riddler",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=90hGaXM7hM0",
+      "embedUrl": "https://www.youtube.com/embed/90hGaXM7hM0",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 5,
+      "biliPart": "谜语人",
+      "biliDuration": 338,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=5",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "zsasz",
+      "name": "维克多·扎斯",
+      "english": "Victor Zsasz",
+      "identity": "Victor Zsasz",
+      "angle": "从他谈论受害者的方式，观察访谈为什么无法维持安全边界。",
+      "gist": "记录涉及Cassidy、Whistler及扎斯对医生的威胁。",
+      "videoId": "TDyVzKJF9fo",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews Mr. Zsasz",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=TDyVzKJF9fo",
+      "embedUrl": "https://www.youtube.com/embed/TDyVzKJF9fo",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 4,
+      "biliPart": "维克多.萨斯",
+      "biliDuration": 300,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=4",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "ivy",
+      "name": "毒藤女",
+      "english": "Poison Ivy",
+      "identity": "Pamela Isley",
+      "angle": "把她对植物的关切与医院的问话并置，观察双方如何定义伤害。",
+      "gist": "记录包含与植物的联系、岛上失踪事件和院长的追问。",
+      "videoId": "nNTH_w5hlII",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews Poison Ivy",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=nNTH_w5hlII",
+      "embedUrl": "https://www.youtube.com/embed/nNTH_w5hlII",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 6,
+      "biliPart": "毒藤女",
+      "biliDuration": 242,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=6",
+      "biliUploader": "懒馒头要吃番茄酱"
+    },
+    {
+      "id": "scarecrow",
+      "name": "稻草人",
+      "english": "The Scarecrow",
+      "identity": "Jonathan Crane",
+      "angle": "辨认说话者和被研究者：谁在采访谁，谁又掌握了记录？",
+      "gist": "部分录音由Crane自述实验，并非全部是医生向他提问。",
+      "videoId": "fw5w8TJ3Kak",
+      "videoTitle": "Batman: Arkham Asylum Patient Interviews The Scarecrow",
+      "uploader": "SkinJeremy",
+      "watchUrl": "https://www.youtube.com/watch?v=fw5w8TJ3Kak",
+      "embedUrl": "https://www.youtube.com/embed/fw5w8TJ3Kak",
+      "sources": [
+        "patient-transcript",
+        "patient-overview"
+      ],
+      "biliPage": 7,
+      "biliPart": "稻草人",
+      "biliDuration": 288,
+      "biliUrl": "https://www.bilibili.com/video/BV1ww411w7Je/?p=7",
+      "biliUploader": "懒馒头要吃番茄酱"
+    }
+  ],
+  "images": [],
+  "playbackCheck": "YouTube播放器可加载，实际试播要求登录验证；B站页面与七分P可读，但本机浏览器提示无法播放媒体。未确认完整播放，不绕过平台验证。"
+}

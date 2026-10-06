@@ -1,0 +1,273 @@
+/* Arkham game screens and reading archive. */
+.art-arkham-city{background:linear-gradient(130deg,#32434f,#131921)}
+.art-arkham-origins{background:linear-gradient(130deg,#4a5358,#152733)}
+.art-arkham-knight{background:linear-gradient(130deg,#325250,#041419)}
+.arkham{--bg:#171918;--surface:#262927;--text:#efefe7;--muted:#b1b5ad;--accent:#e4e5cc;--line:#5c635b;background:#171918;color-scheme:dark}
+.arkham header{background:#181b19;border-bottom:1px solid #72786b}
+.arkham .brand{letter-spacing:2px}
+.arkham .card-art{background:linear-gradient(130deg,#656c5d,#191d19)}
+.arkham .card-art strong{color:#efefe7}
+.arkham .reading{max-width:820px}
+.arkham .detail-title{padding:30px 0}
+.arkham .facts{background:#252b2580;padding:0 24px}
+.arkham .chapter-nav{border-bottom:1px solid var(--line)}
+.game-screen{min-height:100svh;position:relative;isolation:isolate;overflow-x:hidden}
+.game-screen main{min-height:100svh;display:flex;align-items:center;position:relative;z-index:2}
+.game-scene,.game-fog,.game-rain{position:fixed;inset:0;pointer-events:none;z-index:-1}
+.game-scene{background:url('/assets/arkham-city-background.jpg') 60% center/cover;filter:grayscale(1) sepia(.18) brightness(1.6);animation:scene-drift 24s ease-in-out infinite alternate;transform:scale(1.06)}
+.game-screen:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#0b0e0bc9,transparent 85%),linear-gradient(0deg,#080b0bbb,transparent 45%)}
+.game-fog{inset:-20%;background:radial-gradient(ellipse at 20% 70%,#b3bbab36,transparent 45%),radial-gradient(ellipse at 80% 40%,#b3bbab29,transparent 40%);filter:blur(28px);animation:fog-drift 20s linear infinite alternate}
+.game-rain{opacity:.15;background:repeating-linear-gradient(105deg,transparent 0 79px,#e7e9dc70 80px,transparent 81px 160px);background-size:160px 290px;mask-image:linear-gradient(transparent,#0008);animation:rain-fall 1s linear infinite}
+.start-title{margin-left:12%;padding:90px 0;max-width:550px;text-align:center}
+.game-eyebrow{font:11px/1.8 monospace;letter-spacing:4px;color:#c2c6b6}
+.start-title h1{font:900 clamp(70px,9vw,120px)/.87 Impact,'Arial Narrow',sans-serif;letter-spacing:3px;text-shadow:0 3px 2px #0009;color:#ecede3;margin:24px 0 48px}
+.start-title h1>span{display:block;font-size:.44em;letter-spacing:12px;margin-bottom:12px}
+.start-title h1 small{display:block;font:400 18px/1.8 var(--sans);letter-spacing:8px;margin-top:24px;color:#c0c5b9}
+.press-start{display:inline-block;font-size:20px;letter-spacing:8px;padding:16px 25px;animation:start-pulse 3s ease-in-out infinite}
+.press-start span{display:block;font:11px/2 monospace;letter-spacing:3px;margin-top:8px}
+.press-start:hover{color:white;text-shadow:0 0 16px #fff9}
+.press-start:focus-visible,.menu-tile:focus-visible{outline:2px solid #f9fbea;outline-offset:7px}
+.start-note{font-size:11px;color:#8c958b;letter-spacing:3px;margin-top:35px}
+.screen-home{position:absolute;top:28px;left:35px;z-index:3;font:10px/1.7 monospace;letter-spacing:2px;color:#c5c9bd}
+.screen-note{position:absolute;bottom:20px;right:35px;font-size:10px;color:#a4aa9e;z-index:3}
+.game-menu{margin:90px 8% 75px;max-width:760px;width:100%}
+.game-menu h1{font:900 clamp(38px,5vw,64px)/1.2 var(--sans);letter-spacing:4px;margin:28px 0 10px;text-shadow:2px 2px #0008}
+.game-menu #menu-description{color:#c4c7bb;font-size:14px;min-height:28px;margin-bottom:40px}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:650px}
+.menu-tile{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:15px 8px;border:3px solid #7b8272;background:#151915b3;box-shadow:0 0 0 1px #121510, inset 0 0 20px #0006;min-height:155px;transition:background .2s,border-color .2s,transform .2s}
+.menu-tile:hover,.menu-tile:focus,.menu-tile.selected{border-color:#eff1e3;background:#5c6354d9;transform:translateY(-2px)}
+.tile-icon{font:900 40px/1.2 Impact,monospace;letter-spacing:2px;color:#c3c9ba;opacity:.8;margin-bottom:10px}
+.menu-tile>span:not(.tile-icon){font-size:14px;letter-spacing:2px}
+.menu-tile small{font:9px/1.6 monospace;letter-spacing:1px;color:#b9c0b0;margin-top:4px}
+.game-controls{display:flex;flex-wrap:wrap;gap:30px;margin-top:35px;font-size:12px;color:#bdc5b8}
+.game-controls kbd{font:11px monospace;border:1px solid #839078;border-radius:50%;padding:5px 7px;margin-right:5px}
+.menu-screen .game-scene{background-position:75% center;filter:grayscale(1) sepia(.2) brightness(1.3)}
+@keyframes scene-drift{to{transform:scale(1.12) translateX(-1%)}}
+@keyframes fog-drift{to{transform:translateX(10%) translateY(-3%)}}
+@keyframes rain-fall{to{background-position:-160px 290px}}
+@keyframes start-pulse{50%{opacity:.5}}
+@media(max-width:640px){
+.start-title{margin:0 auto;padding:100px 20px;max-width:100%}
+.start-title h1{font-size:75px}
+.start-title h1 small{font-size:15px;letter-spacing:5px}
+.game-scene{background-position:72% center}
+.game-menu{margin:90px 22px 90px;width:calc(100% - 44px)}
+.menu-grid{grid-template-columns:repeat(2,1fr);gap:13px}
+.menu-tile{min-height:126px}
+.tile-icon{font-size:30px}
+.game-menu h1{font-size:36px}
+.game-menu #menu-description{font-size:12px;margin-bottom:24px}
+.game-controls{gap:20px;font-size:10px}
+.screen-home{left:22px;top:20px}
+.screen-note{right:22px;font-size:9px}
+.press-start{font-size:19px}
+}
+@media(prefers-reduced-motion:reduce){
+.game-scene,.game-fog,.game-rain,.press-start{animation:none}
+.menu-tile{transition:none}
+}
+.arkham .merch-feature img{background:#080b0d}
+.dossier-room{max-width:1160px}
+.dossier-nav,.dossier-case-nav{display:flex;flex-wrap:wrap;gap:14px 24px;padding:20px 0;margin:24px 0 40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px}
+.dossier-nav a:hover,.dossier-nav a[aria-current],.dossier-case-nav a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
+.dossier-opening{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.dossier-opening h2{line-height:1.6}
+.dossier-shelves{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:45px 0}
+.dossier-shelf{display:block;padding:28px;background:var(--surface);border-top:2px solid var(--line)}
+.dossier-shelf:hover{background:#203038}
+.dossier-shelf h2{font-size:28px}
+.dossier-shelf p:last-child{margin:0;color:var(--muted)}
+.dossier-boundary{max-width:820px;margin:55px 0}
+.dossier-reading{max-width:820px;margin:auto}
+.dossier-entry{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
+.dossier-entry h2{font-size:30px}
+.dossier-entry h3{font-size:21px;margin-top:25px}
+.dossier-entry .label{margin-bottom:12px}
+.dossier-refs{font-size:12px;line-height:1.8;overflow-wrap:anywhere;margin:20px 0}
+.dossier-refs a,.dossier-related a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.dossier-related{font-size:13px}
+.dossier-photo{margin:26px 0;min-width:0}
+.dossier-photo img{display:block;width:auto;max-width:100%;height:auto;margin:auto;max-height:700px}
+.dossier-photo figcaption{font-size:12px;color:var(--muted);margin-top:12px;overflow-wrap:anywhere}
+.dossier-photo figcaption>span{display:block}
+.dossier-photo .dossier-refs{margin:8px 0}
+.dossier-photo.is-small img{max-height:none}
+.dossier-index{display:grid;grid-template-columns:1fr 1fr;gap:20px 28px}
+.dossier-index article{padding:24px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
+.dossier-index .label{margin-bottom:10px;overflow-wrap:anywhere}
+.dossier-index h3{font-size:22px}
+.dossier-group{margin:45px 0}
+.dossier-room details:not(.spoiler){font-size:14px;padding:14px 0}
+.dossier-room summary{cursor:pointer;color:var(--accent)}
+.dossier-room details[open]>summary{margin-bottom:16px}
+.dossier-facts>div{display:grid;grid-template-columns:150px minmax(0,1fr);gap:20px;padding:13px 0;border-bottom:1px solid var(--line)}
+.dossier-facts dt{font-size:13px;color:var(--muted)}
+.dossier-facts dd{margin:0;overflow-wrap:anywhere}
+.dossier-gallery{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+@media(max-width:640px){
+.dossier-opening,.dossier-shelves,.dossier-index,.dossier-gallery{grid-template-columns:1fr;gap:20px}
+.dossier-nav,.dossier-case-nav{gap:12px 20px;margin-bottom:25px}
+.dossier-shelf{padding:24px}
+.dossier-entry h2{font-size:26px}
+.dossier-entry{padding:28px 0}
+.dossier-facts>div{grid-template-columns:1fr;gap:5px}
+.dossier-photo figcaption{font-size:11px}
+}
+.interview-player{display:block;width:100%;aspect-ratio:16/9;height:auto;border:0;background:#080b0d;margin:22px 0}
+.arkham .patient-terminal{background:#101716;color:#d5e4df;padding:30px 34px;margin:36px 0 52px;border-top:1px solid #77968a;border-bottom:1px solid #77968a;background-image:linear-gradient(#b8d5c803 1px,transparent 1px);background-size:100% 4px}
+.arkham .patient-terminal-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:20px;border-bottom:1px solid #3d5149}
+.arkham .patient-terminal-heading .label{color:#9bbcaa;margin:0;letter-spacing:.16em}
+.arkham .patient-terminal-heading>p:last-child{font-size:12px;color:#9dafaa;margin:0}
+.arkham .patient-register{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.arkham .patient-register>a{display:grid;grid-template-columns:36px 1fr auto;gap:18px;align-items:center;padding:24px 10px;border-bottom:1px solid #34473f;font-size:19px}
+.arkham .patient-register>a:hover{background:#23372e;color:#f4faf6}
+.arkham .patient-index{font:13px/1.5 ui-monospace,monospace;color:#90b3a3}
+.arkham .patient-register small{display:block;font:11px/1.7 var(--sans);color:#9badA4;margin-top:5px}
+.arkham .patient-duration{font:14px/1.5 ui-monospace,monospace;text-align:right;white-space:nowrap}
+.arkham .patient-terminal-note{color:#9aafa4;font-size:12px;margin:22px 0 0;max-width:750px;line-height:1.9}
+@media(max-width:700px){
+.arkham .patient-terminal{padding:22px 18px}
+.arkham .patient-terminal-heading{display:block}
+.arkham .patient-terminal-heading>p:last-child{margin-top:12px}
+.arkham .patient-register{grid-template-columns:1fr}
+.arkham .patient-register>a{grid-template-columns:24px 1fr auto;gap:12px;font-size:18px;padding:20px 0}
+.arkham .patient-register small{font-size:10px}
+}
+.arkham-intro{background:#000;color:#dde2e3}
+.arkham-intro [hidden]{display:none!important}
+.arkham-intro:not(.intro-entered) .game-scene{display:none}
+.arkham-intro .intro-stage{position:fixed;inset:0;background:#000}
+.arkham-intro .intro-film{position:absolute;inset:0;pointer-events:none}
+.arkham-intro .intro-film video{display:block;width:100%;height:100%;object-fit:contain;background:#000 url('/assets/arkham-city-intro-poster.jpg') center/contain no-repeat}
+.arkham-intro .intro-identity{position:absolute;z-index:2;top:26px;left:32px;margin:0;font-size:16px;font-weight:400;letter-spacing:.2em;text-shadow:0 1px 6px #000}
+.arkham-intro .intro-identity span{display:block;margin-top:7px;font-size:9px;letter-spacing:.15em;color:#929c9f}
+.arkham-intro .intro-entry{position:absolute;left:50%;top:50%;width:min(100%,calc(100svh * 16 / 9));aspect-ratio:16/9;transform:translate(-50%,-50%);display:block;text-decoration:none;color:#e4e9e9;outline-offset:-7px;-webkit-tap-highlight-color:transparent}
+.arkham-intro .intro-entry>span{position:absolute;left:36.8%;top:82%;transform:translateX(-50%);padding:4px 14px;text-align:center;font-size:18px;line-height:1.4;letter-spacing:.2em;white-space:nowrap;text-shadow:0 1px 4px #000,0 0 12px #000}
+.arkham-intro .intro-entry>span>span{display:block;margin-top:7px;font-size:10px;letter-spacing:.22em;color:#9caaae}
+.arkham-intro .intro-entry:hover>span{color:#fff}
+.arkham-intro .intro-tools{position:absolute;z-index:3;bottom:max(47px,env(safe-area-inset-bottom));right:32px;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+.arkham-intro .intro-tools button{padding:8px 12px;border:1px solid #adbfc13b;border-radius:2px;background:#0009;color:#a9b4b7;font:inherit;font-size:11px;cursor:pointer;letter-spacing:.08em}
+.arkham-intro .intro-tools button:hover,.arkham-intro .intro-tools button:focus-visible{color:#fff;border-color:#c6dce1}
+.arkham-intro .intro-status{position:absolute;bottom:154px;left:24px;right:24px;text-align:center;font-size:12px;color:#aebbc0;pointer-events:none}
+.arkham-intro #intro-bats{position:fixed;inset:0;z-index:100;width:100vw;height:100svh;pointer-events:none}
+.arkham-intro.intro-entering .intro-tools{pointer-events:none}
+.arkham-intro #intro-menu{width:100%}
+.arkham-intro .screen-home,.arkham-intro .screen-note{z-index:4}
+@media(max-width:640px){
+.arkham-intro .intro-identity{left:20px;top:22px;font-size:14px}
+.arkham-intro .intro-tools{left:18px;right:18px;bottom:max(55px,env(safe-area-inset-bottom));justify-content:center;gap:6px}
+.arkham-intro .intro-tools button{font-size:10px;padding:8px}
+.arkham-intro .intro-entry>span{font-size:12px;padding:2px 8px}
+.arkham-intro .intro-entry>span>span{font-size:8px;letter-spacing:.08em;margin-top:4px}
+.arkham-intro .intro-status{bottom:195px}
+}
+.arkham-intro .screen-home{left:auto;right:32px;top:26px}
+@media(max-width:640px){
+.arkham-intro .screen-home{right:20px;top:23px}
+}
+.arkham{--accent:#c6d2cf;--line:#65716b;--bg:#101312;--surface:#1a201e;--muted:#b3bbb7}
+.arkham #intro-bats{position:fixed;inset:0;z-index:100;width:100vw;height:100svh;pointer-events:none}
+.arkham.arkham-transitioning #intro-bats{pointer-events:auto}
+.arkham-sound{position:fixed;right:24px;bottom:18px;z-index:8;border:1px solid #86948c55;background:#101513e8;color:#c2ccc6;padding:9px 13px;font:11px/1.4 var(--sans);cursor:pointer}
+.arkham-intro:not(.intro-entered) .arkham-sound{display:none}
+.arkham.menu-screen .game-scene{background-image:linear-gradient(90deg,#080b0af0 0%,#0b0e0cbf 35%,#13171144 100%),url('/assets/media/arkham-city-02.jpg');filter:grayscale(.85);animation:none;transform:none;background-position:center}
+.arkham.menu-screen .game-fog,.arkham.menu-screen .game-rain{display:none}
+.arkham .game-menu-console{max-width:1320px;width:100%;margin:90px auto 76px;padding:0 6%;display:grid;grid-template-columns:minmax(270px,.75fr) minmax(0,1.25fr);gap:7%}
+.arkham .menu-brand{font-size:clamp(27px,3vw,42px);font-weight:600;letter-spacing:.15em;margin:25px 0 32px}
+.arkham .menu-brand>span{display:block;font:11px/1.6 ui-monospace,monospace;letter-spacing:.18em;color:#8c9990;margin-top:10px}
+.arkham .game-menu-console .menu-grid{display:flex;flex-direction:column;gap:7px;max-width:none}
+.arkham .game-menu-console .menu-tile{min-height:61px;display:grid;grid-template-columns:26px 1fr;gap:0 17px;padding:12px 18px;text-align:left;border:0;border-bottom:1px solid #89988b35;box-shadow:none;background:#0c100d7d;transform:none;transition:background .18s,color .18s,transform .18s;clip-path:polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%)}
+.arkham .game-menu-console .menu-tile>svg{grid-row:1/3;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round}
+.arkham .game-menu-console .menu-tile>span{font-size:17px;letter-spacing:.12em}
+.arkham .game-menu-console .menu-tile small{color:inherit;font-size:9px;letter-spacing:.15em;margin-top:2px;opacity:.64}
+.arkham .game-menu-console .menu-tile.selected,.arkham .game-menu-console .menu-tile:hover,.arkham .game-menu-console .menu-tile:focus-visible{background:#e0e6db;color:#172019;transform:translateX(6px)}
+.arkham .game-menu-console .menu-tile:focus-visible{outline:none;box-shadow:inset 0 0 0 2px white}
+.arkham .menu-preview{align-self:center;min-width:0;padding-top:35px}
+.arkham .menu-preview .game-eyebrow{color:#a5bca8;font-size:10px;letter-spacing:.23em;margin-bottom:12px}
+.arkham .menu-preview #menu-title{font-size:clamp(26px,3.5vw,46px);letter-spacing:.12em;margin:0 0 14px}
+.arkham .menu-preview #menu-description{font-size:14px;line-height:1.9;margin:0;min-height:54px;color:#ced5c8}
+.arkham .menu-preview-note{font:10px/1.7 var(--sans);letter-spacing:.25em;color:#859486;margin-top:22px}
+.arkham .game-menu-console .game-controls{gap:12px;font-size:10px;margin-top:24px}
+.arkham>header{background:#0e1311f5;border-bottom:1px solid #778a7752}
+.arkham>header .brand{font-family:var(--sans);font-weight:500;letter-spacing:.12em}
+.arkham>header nav{gap:18px;font-size:12px}
+.arkham>header nav a[aria-current]{color:#e3eadf}
+.arkham>footer{padding-bottom:80px;background:#0c100e}
+.arkham-game-catalog{max-width:1320px;padding-top:42px}
+.arkham .arkham-catalog-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;padding-bottom:26px;border-bottom:1px solid #89968c78;margin-bottom:28px}
+.arkham-catalog-heading h1{font-size:48px;letter-spacing:.12em;margin:0}
+.arkham-catalog-heading>p{font-size:12px;line-height:1.8;color:#9dad9f;margin:0}
+.arkham-games-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.arkham-game-card{display:block;background:#1b211dde;border:1px solid #64776866;min-width:0;transition:border-color .2s,background .2s,transform .2s}
+.arkham-game-card:hover,.arkham-game-card:focus-visible{border-color:#d4ded0;background:#252f26;transform:translateY(-3px)}
+.arkham-game-image{position:relative;overflow:hidden}
+.arkham-game-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;filter:saturate(.55);transition:filter .2s}
+.arkham-game-card:hover img,.arkham-game-card:focus-visible img{filter:saturate(1)}
+.arkham-game-image>span{position:absolute;right:18px;bottom:14px;font:36px/1 Impact,'Arial Narrow',sans-serif;color:#edf3e5;text-shadow:0 2px 9px #000}
+.arkham-game-copy{padding:22px}
+.arkham-game-copy .game-eyebrow{font-size:10px;letter-spacing:.08em;color:#9caf9f;margin-bottom:9px}
+.arkham-game-copy h2{font-size:23px;font-weight:500;letter-spacing:.04em;margin-bottom:14px}
+.arkham-game-copy>p:not(.game-eyebrow){font-size:13px;line-height:1.9;color:#b7c3b7;margin-bottom:18px}
+.arkham-game-meta{display:flex;justify-content:space-between;gap:10px;padding-top:13px;border-top:1px solid #7e8e7855;font:10px/1.6 var(--sans);color:#9ea89a}
+@media(max-width:760px){
+.arkham .game-menu-console{grid-template-columns:1fr;gap:25px;margin:78px auto 92px;padding:0 22px}
+.arkham .menu-brand{font-size:29px;margin:18px 0 24px}
+.arkham .game-menu-console .menu-tile{min-height:57px;padding:10px 15px}
+.arkham .menu-preview{padding-top:0}
+.arkham .menu-preview #menu-title{font-size:30px}
+.arkham .menu-preview #menu-description{margin-bottom:0}
+.arkham .menu-preview-note{margin-bottom:0}
+.arkham-games-grid{grid-template-columns:1fr;gap:22px}
+.arkham-catalog-heading h1{font-size:34px}
+.arkham .arkham-catalog-heading{align-items:flex-start;flex-direction:column;gap:12px}
+.arkham-game-catalog{padding-top:30px}
+.arkham-sound{right:18px;bottom:14px;font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){
+.arkham .menu-tile,.arkham-game-card,.arkham-game-image img{transition:none!important}
+}
+.arkham .menu-brand{line-height:1.25}
+.arkham .game-menu-console .menu-tile{padding-top:10px;padding-bottom:10px;line-height:1.3}
+.arkham .game-menu-console .menu-tile small{line-height:1.4}
+@media(min-width:761px) and (max-height:800px){
+.arkham .game-menu-console{margin-top:65px;margin-bottom:60px}
+.arkham .menu-brand{font-size:30px;margin:16px 0 20px}
+.arkham .game-menu-console .menu-tile{min-height:50px;padding:7px 15px}
+.arkham .game-menu-console .menu-tile>span{font-size:15px}
+.arkham .game-menu-console .menu-grid{gap:5px}
+.arkham .menu-preview{padding-top:0}
+}
+.arkham.menu-screen .screen-note{right:190px;bottom:22px}
+@media(max-width:760px){
+.arkham.menu-screen .screen-note{left:22px;right:auto;font-size:8px;bottom:22px}
+}
+.arkham h1[tabindex="-1"]:focus{outline:none}
+.arkham.menu-screen .menu-backdrop{background:#0a0c0d;filter:none;transform:none;animation:none}
+.arkham .menu-backdrop img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.7);pointer-events:none}
+.arkham .menu-background-next{opacity:0;transition:none}
+.arkham .menu-backdrop.dissolving .menu-background-next{opacity:1;transition:opacity 1.8s cubic-bezier(.4,0,.2,1)}
+.arkham.menu-screen:before{background:linear-gradient(90deg,#070a0cf2 0%,#090d10bd 30%,#090d1033 65%,#090d101a),linear-gradient(0deg,#05080af2 0%,transparent 48%,#070a0c44 100%)}
+.arkham.menu-screen .game-menu-console{grid-template-columns:minmax(270px,390px) minmax(0,1fr);gap:8%;align-items:end}
+.arkham.menu-screen .menu-preview{padding:0 0 48px;max-width:460px;text-shadow:0 2px 12px #000}
+.arkham.menu-screen .menu-preview #menu-title{font-size:clamp(26px,3vw,42px)}
+.arkham.menu-screen .menu-preview #menu-description{color:#eef0e9}
+.arkham.menu-screen .menu-preview-note{color:#c0c8c0}
+.arkham .menu-background-tools{position:fixed;left:6%;bottom:24px;z-index:4;display:flex;align-items:center;gap:18px;color:#b5beb9;font-size:10px;text-shadow:0 1px 5px #000}
+.arkham .menu-background-tools button{background:#0b100cbf;border:1px solid #8d9b854d;padding:8px 11px;color:#c6d0c1;font:inherit;cursor:pointer}
+.arkham .menu-background-tools button:hover,.arkham .menu-background-tools button:focus-visible{color:#fff;border-color:#e0e6db}
+.arkham .menu-background-tools button:disabled{cursor:default;opacity:.7}
+.arkham-intro:not(.intro-entered) .menu-background-tools{display:none}
+.arkham.menu-screen .screen-note{display:none}
+@media(max-width:760px){
+.arkham.menu-screen main{flex-direction:column;align-items:stretch}
+.arkham.menu-screen .game-menu-console{grid-template-columns:1fr;gap:24px;margin:72px auto 32px;padding:0 22px}
+.arkham.menu-screen .menu-preview{padding:0;max-width:none}
+.arkham.menu-screen .menu-preview #menu-title{font-size:26px}
+.arkham.menu-screen .menu-preview-note{margin-top:12px}
+.arkham.menu-screen .menu-backdrop img{object-position:65% center}
+.arkham.menu-screen:before{background:linear-gradient(90deg,#070a0ce0,#090d1080),linear-gradient(0deg,#05080af2 0%,#070a0c44 55%,#070a0c33)}
+.arkham .menu-background-tools{position:static;margin:0 22px 80px;align-items:flex-start;flex-direction:column;gap:8px;font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+.arkham .menu-backdrop.dissolving .menu-background-next{transition:none}
+}

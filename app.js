@@ -18,18 +18,19 @@ async function searchPage() {
     const scope = document.querySelector("#scope");
     const params = new URLSearchParams(location.search);
     query.value = params.get("q") || "";
-    if (params.get("scope") === "all") scope.value = "all";
+    const arkhamOnly = document.body.classList.contains("arkham");
+    if (!arkhamOnly && params.get("scope") === "all") scope.value = "all";
     const render = () => {
       const terms = query.value.trim().toLocaleLowerCase().split(/\s+/u).filter(Boolean);
       const found = index.filter(item =>
-        (scope.value === "all" || item.site === scope.value || item.site === "shared") &&
+        (arkhamOnly ? ["arkham", "shared"].includes(item.site) : (scope.value === "all" || item.site === scope.value || item.site === "shared")) &&
         terms.every(term => [item.title, item.original, item.summary, ...item.tags].join(" ").toLocaleLowerCase().includes(term))
       );
       results.replaceChildren();
-      count.textContent = found.length ? `找到 ${found.length} 条记录 · 基础条目跳转目录，详情样板跳转独立档案。` : "没有找到对应记录。可以换一个集名或主题，或选择两个专题。";
+      count.textContent = found.length ? `找到 ${found.length} 条记录 · 点击结果阅读档案或定位目录。` : arkhamOnly ? "没有找到对应记录。可以换一个作品名、人物或主题。" : "没有找到对应记录。可以换一个集名或主题，或选择两个专题。";
       for (const item of found) {
         const card = make("a", undefined, "route-card");
-        card.href = item.url;
+        card.href = arkhamOnly ? item.url.replace("/people/kevin-conroy/", "/arkham/people/kevin-conroy/") : item.url;
         card.append(make("p", `${item.site.toUpperCase()} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
         results.append(card);
       }
@@ -152,28 +153,33 @@ const start = document.querySelector('.press-start');
 if (start) document.addEventListener('keydown', event => {
   if (event.key === 'Enter' && event.target === document.body) start.click();
 });
-const tiles = [...document.querySelectorAll('.menu-tile')];
-if (tiles.length) {
-  const select = tile => {
-    tiles.forEach(item => item.classList.toggle('selected', item === tile));
-    document.querySelector('#menu-title').textContent = tile.dataset.title;
-    document.querySelector('#menu-description').textContent = tile.dataset.description;
-  };
-  select(tiles[0]);
+function selectArkhamMenu(tile) {
+  document.querySelectorAll('.menu-tile').forEach(item => item.classList.toggle('selected', item === tile));
+  document.querySelector('#menu-title').textContent = tile.dataset.title;
+  document.querySelector('#menu-description').textContent = tile.dataset.description;
+  window.ArkhamMenuBackground?.select({src: tile.dataset.image, caption: tile.dataset.caption});
+}
+function initialiseArkhamMenu() {
+  const tiles = [...document.querySelectorAll('.menu-tile')];
+  if (!tiles.length) return;
+  selectArkhamMenu(tiles[0]);
   tiles.forEach(tile => {
-    tile.addEventListener('mouseenter', () => select(tile));
-    tile.addEventListener('focus', () => select(tile));
-  });
-  document.addEventListener('keydown', event => {
-    if (event.key === 'Escape') { location.href = '/arkham/'; return; }
-    const columns = matchMedia('(max-width:640px)').matches ? 2 : 3;
-    const delta = {ArrowRight:1, ArrowLeft:-1, ArrowDown:columns, ArrowUp:-columns}[event.key];
-    if (delta !== undefined) {
-      event.preventDefault();
-      const current = Math.max(0, tiles.findIndex(tile => tile.classList.contains('selected')));
-      tiles[(current + delta + tiles.length) % tiles.length].focus();
-    } else if (event.key === 'Enter' && event.target === document.body) {
-      tiles.find(tile => tile.classList.contains('selected')).click();
-    }
+    tile.addEventListener('mouseenter', () => selectArkhamMenu(tile));
+    tile.addEventListener('focus', () => selectArkhamMenu(tile));
   });
 }
+initialiseArkhamMenu();
+document.addEventListener('arkham:page', () => { searchPage(); initialiseArkhamMenu(); });
+document.addEventListener('keydown', event => {
+  const tiles = [...document.querySelectorAll('.menu-tile')];
+  if (!tiles.length || tiles[0].closest('[hidden]') || document.body.classList.contains('intro-entering') || window.ArkhamTransition?.busy) return;
+  if (event.key === 'Escape') { document.querySelector('.game-controls a').click(); return; }
+  const delta = {ArrowRight:1, ArrowLeft:-1, ArrowDown:1, ArrowUp:-1}[event.key];
+  if (delta !== undefined) {
+    event.preventDefault();
+    const current = Math.max(0, tiles.findIndex(tile => tile.classList.contains('selected')));
+    tiles[(current + delta + tiles.length) % tiles.length].focus();
+  } else if (event.key === 'Enter' && event.target === document.body) {
+    tiles.find(tile => tile.classList.contains('selected')).click();
+  }
+});

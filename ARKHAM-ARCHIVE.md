@@ -127,3 +127,22 @@ DC官方回顾明确谈到TAS游戏设计者版本对阿卡姆人物关系的影
 - **knight-story-text-index**：[Arkham Wiki：Knight哥谭故事转录](https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_Knight)；社区转录，待游戏核对；公开正文已读取；检查2026-10-02。
 
 本包未接入正式网页；既有30页／115搜索记录／41站点来源不变。
+
+
+## 网页接入状态（2026-10-03）
+
+本包已接入阿卡姆档案馆（/arkham/archive/）及其考据、物件、故事和出版页面；具体数量与验证见README.md。本轮并未完成游戏逐项核对、完整原始档案或漫画内页对照，原有待核清单继续有效。
+
+
+## 疯人院院史接入（2026-10-03）
+
+新增asylum-history.json、ASYLUM-HISTORY.md和/arkham/archive/asylum-history/：23处石碑＋1条最终记录的24条主题索引、空间设计访谈导读、游戏与漫画区别、4张1280×720实际截图、5条来源。主题与最终身份默认折叠，最终现场图在正文／图库均收起；搜索不含院史身份正文。玩家转录不冒充游戏逐条读回，阅读序号不冒充地点编号。原版／重制版音轨、字幕和解锁画面仍待核。
+
+当前52页、451条搜索记录、1413处内部链接／锚点通过；阿卡姆档案馆6页、55条去重研究来源、23张研究图，全站104张资料图片。桌面1280与手机390无横向溢出，Enter展开、记录24搜索定位及院史整卡入口实际验证。图片源文件与输出sha256一致。截图output/playwright/asylum-history-desktop-20261003.png、asylum-history-mobile-20261003.png。本地服务已重启，上传包刷新，GitHub仍待同步、未部署。恢复基线backups/asylum-history-before-20261003/，既有游戏正文、TAS及主站未动。
+
+
+## 患者访谈录音接入（2026-10-03）
+
+新增/arkham/archive/interviews/、patient-interviews.json与PATIENT-INTERVIEWS.md。七名角色身份索引、聆听导读、折叠短摘要；7个YouTube原声播放器和对应7个B站分P入口，录制上传者与实际B站时长分别保存。YouTube元数据／oEmbed核验，B站页面与分P核验；暂无已核中文字幕，不抽取或镜像音频。
+
+实际试播限制：YouTube要求登录确认非机器人；B站在当前浏览器提示无法播放媒体。没有完成声音播放，不标“已听完”，不绕过验证。具体结果与来源见PATIENT-INTERVIEWS.md。53页／459搜索记录／1449内部链接锚点检查通过；桌面1280与手机390无横溢，播放器默认折叠、Enter展开可用，300px播放器不溢出手机。恢复基线backups/interviews-before-20261003/。上传包刷新，GitHub仍待同步、未部署。
