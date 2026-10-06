@@ -5,6 +5,7 @@
   const menu = document.querySelector('#intro-menu');
   const entry = document.querySelector('.intro-entry');
   const audio = document.querySelector('#intro-audio');
+  const score = document.querySelector('#intro-score');
   const play = document.querySelector('#intro-play');
   const music = document.querySelector('#intro-music');
   const sound = document.querySelector('#intro-sound');
@@ -14,7 +15,29 @@
   let revealed = false;
   let soundEnabled = window.ArkhamTransition.soundEnabled;
   let resumeVideo = false;
+  let resumeScore = false;
+  let musicEnabled = false;
+  let scoreRequest = 0;
   const safePlay = media => media.play().catch(() => {});
+  function syncMusic() {
+    music.setAttribute('aria-pressed', String(musicEnabled));
+    music.textContent = musicEnabled ? '关闭配乐' : '开启配乐';
+  }
+  function stopScore() {
+    scoreRequest++;
+    score.pause();
+  }
+  function playScore() {
+    if (!musicEnabled || entering || document.hidden) return;
+    if (!score.getAttribute('src')) score.src = score.dataset.src;
+    const request = ++scoreRequest;
+    score.play().catch(() => {
+      if (request !== scoreRequest) return;
+      musicEnabled = false;
+      syncMusic();
+      status.textContent = '配乐暂时无法播放，仍可点击进入档案。';
+    });
+  }
 
   sound.setAttribute('aria-pressed', String(soundEnabled));
   sound.textContent = soundEnabled ? '转场音效：开' : '转场音效：关';
@@ -26,14 +49,22 @@
   });
   if (!motion.matches) safePlay(video);
   play.addEventListener('click', () => {
-    if (video.paused) safePlay(video);
-    else video.pause();
+    if (video.paused) {
+      safePlay(video);
+      playScore();
+    } else {
+      video.pause();
+      stopScore();
+    }
   });
   music.addEventListener('click', () => {
-    video.muted = !video.muted;
-    music.setAttribute('aria-pressed', String(!video.muted));
-    music.textContent = video.muted ? '开启配乐' : '关闭配乐';
-    if (!video.muted) safePlay(video);
+    if (entering) return;
+    musicEnabled = !musicEnabled;
+    syncMusic();
+    if (musicEnabled) {
+      if (!motion.matches && !document.hidden) safePlay(video);
+      playScore();
+    } else stopScore();
   });
   sound.addEventListener('click', () => {
     soundEnabled = !window.ArkhamTransition.soundEnabled;
@@ -74,6 +105,7 @@
     entering = true;
     document.body.classList.add('intro-entering');
     video.muted = true;
+    stopScore();
     window.ArkhamTransition.play({onCovered: revealMenu, onFinished: finish});
   }
 
@@ -84,9 +116,15 @@
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) {
       resumeVideo = !video.paused;
+      resumeScore = musicEnabled && !score.paused;
       video.pause();
+      stopScore();
       audio.pause();
-    } else if (resumeVideo && !entering) safePlay(video);
+    } else if (!entering) {
+      if (resumeVideo) safePlay(video);
+      if (resumeScore) playScore();
+    }
   });
+  window.addEventListener('pagehide', () => { video.pause(); stopScore(); });
   motion.addEventListener('change', () => { if (motion.matches) video.pause(); });
 })();
