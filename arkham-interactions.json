@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "graysons",
+      "title": "墙上的飞人格雷森",
+      "subtitle": "一张海报，三重身份",
+      "image": "city-flying-graysons",
+      "entry": "city-amusement-mile-02",
+      "research": "graysons",
+      "game": "蝙蝠侠：阿卡姆之城",
+      "region": "Amusement Mile / 娱乐区",
+      "hotspot": {
+        "x": 56,
+        "y": 43
+      },
+      "summary": "娱乐区的Flying Graysons海报把一支杂技团带进城市街景。沿海报中的家庭名字，调查通向Dick Grayson的出身，再展开Robin与Nightwing两个阶段。城市中的一件旧物，由此连起一个人物的成长。",
+      "evidence": [
+        {
+          "label": "OBJECT IDENTIFIED",
+          "title": "Flying Graysons海报",
+          "body": "楼体上的海报保留Flying Graysons字样。《阿卡姆之城》的娱乐区以这一物件留下格雷森一家的舞台记忆。",
+          "sources": [
+            "city-amusement-mile"
+          ],
+          "links": [
+            {
+              "title": "查看场景物件",
+              "url": "/arkham/archive/clues/#city-amusement-mile-02"
+            }
+          ]
+        },
+        {
+          "label": "IDENTITY MATCH",
+          "title": "Dick Grayson与杂技家庭",
+          "body": "Flying Graysons连接Dick Grayson的家庭背景。DC的Robin回顾把他的起源带向1940年的Detective Comics #38；海报让角色的过去以日常广告的形式进入哥谭。",
+          "sources": [
+            "dc-robin"
+          ],
+          "links": [
+            {
+              "title": "格雷森海报考据",
+              "url": "/arkham/archive/riddler/#graysons"
+            }
+          ]
+        },
+        {
+          "label": "HISTORY LINK",
+          "title": "Robin与Nightwing",
+          "body": "哥谭故事A New Robin将家庭经历与Robin、Nightwing的身份连接起来。同一个人物走过不同阶段，旧海报仍保存他最初的名字。",
+          "sources": [
+            "city-stories"
+          ],
+          "links": [
+            {
+              "title": "A New Robin · 含背景剧情",
+              "url": "/arkham/archive/stories/#city-robin"
+            },
+            {
+              "title": "城市里的家庭记忆",
+              "url": "/arkham/archive/stories/#poster-graysons"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scarface",
+      "title": "玻璃后面的声音",
+      "subtitle": "木偶、人物与控制",
+      "image": "city-scarface",
+      "entry": "city-museum-01",
+      "research": "scarface",
+      "game": "蝙蝠侠：阿卡姆之城",
+      "region": "Museum / 博物馆",
+      "hotspot": {
+        "x": 62,
+        "y": 56
+      },
+      "summary": "博物馆的Scarface陈列物先提供一个可见的形象，再把调查引向腹语者及两者的关系。木偶与操纵者共同构成角色；当它被放进展示柜，观察者看到的是一件藏品，也是一段关于声音与控制的故事。",
+      "evidence": [
+        {
+          "label": "OBJECT IDENTIFIED",
+          "title": "Scarface陈列物",
+          "body": "玻璃柜里陈列着Scarface木偶。物件位于《阿卡姆之城》的博物馆，原有形象被放进了收藏与展示的空间。",
+          "sources": [
+            "city-museum"
+          ],
+          "links": [
+            {
+              "title": "博物馆场景索引",
+              "url": "/arkham/archive/clues/#city-museum-01"
+            }
+          ]
+        },
+        {
+          "label": "IDENTITY MATCH",
+          "title": "Scarface与腹语者",
+          "body": "Scarface是木偶，Ventriloquist是与它共同登场的腹语者。辨认这两层身份后，物件背后的问题变成：声音来自哪里，谁在支配谁？",
+          "sources": [
+            "dc-scarface"
+          ],
+          "links": [
+            {
+              "title": "木偶与腹语者档案",
+              "url": "/arkham/archive/riddler/#scarface"
+            }
+          ]
+        },
+        {
+          "label": "PUBLICATION LINK",
+          "title": "Detective Comics #583",
+          "body": "DC Universe Infinite的书目将Detective Comics #583列为Scarface与Ventriloquist的首次登场。游戏陈列物与这份出版记录并置，提供从场景回到角色历史的阅读路径。",
+          "sources": [
+            "dc-scarface"
+          ],
+          "links": [
+            {
+              "title": "漫画与出版档案",
+              "url": "/arkham/archive/publications/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "title": "钟楼里的空战衣",
+      "subtitle": "装备如何保存一个身份",
+      "image": "knight-batgirl",
+      "entry": "knight-bleake-06",
+      "research": "oracle",
+      "game": "蝙蝠侠：阿卡姆骑士",
+      "region": "Clock Tower / 钟楼",
+      "hotspot": {
+        "x": 61,
+        "y": 51
+      },
+      "summary": "钟楼战衣把Barbara曾经以Batgirl行动的身份留在室内。沿这套装备，调查转向Oracle与她的信息工作，再回到漫画中的身份记录。空战衣既是一件旧装备，也让不同阶段的Barbara在同一处空间相遇。",
+      "evidence": [
+        {
+          "label": "OBJECT IDENTIFIED",
+          "title": "Batgirl战衣",
+          "body": "钟楼的展示空间保存着Batgirl战衣。《阿卡姆骑士》的场景把旧装备与Barbara的日常工作并置，衣装成为辨认过去身份的线索。",
+          "sources": [
+            "knight-bleake"
+          ],
+          "links": [
+            {
+              "title": "Bleake Island物件索引",
+              "url": "/arkham/archive/clues/#knight-bleake-06"
+            }
+          ]
+        },
+        {
+          "label": "IDENTITY MATCH",
+          "title": "Barbara：从战衣到信息网络",
+          "body": "战衣指向Barbara的Batgirl身份；Oracle则以信息与协调参与蝙蝠侠的行动。观察空战衣与钟楼空间，可以同时读到一个人物的不同工作方式。",
+          "sources": [
+            "dc-oracle"
+          ],
+          "links": [
+            {
+              "title": "战衣与Oracle考据",
+              "url": "/arkham/archive/riddler/#oracle"
+            }
+          ]
+        },
+        {
+          "label": "PUBLICATION LINK",
+          "title": "Oracle的身份记录",
+          "body": "DC的Oracle回顾分别讨论The Killing Joke与Suicide Squad #38中的身份揭晓。沿出版记录阅读，再回到游戏中的钟楼，可以比较不同作品如何安排Barbara的身份变化。",
+          "sources": [
+            "dc-oracle"
+          ],
+          "links": [
+            {
+              "title": "漫画与出版档案",
+              "url": "/arkham/archive/publications/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

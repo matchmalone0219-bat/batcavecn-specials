@@ -7,6 +7,7 @@ from urllib.parse import urlsplit, unquote
 from tas_pages import build_archive
 from merchandise_pages import build_collectibles, load as load_merchandise
 from arkham_pages import build_arkham_archive
+from arkham_interactions import build_interactions
 from build import CONTENT, DIST, build, validate
 
 
@@ -60,8 +61,9 @@ from build import shell
 _, archive_records, _, _, archive_images = build_archive(data, shell)
 _, merch_records, _, _, merch_images = build_collectibles(data, shell)
 ark_pages, ark_records, _, _, ark_images = build_arkham_archive(data, shell)
-assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records)
-for record in archive_records + merch_records + ark_records:
+interactive_pages, interactive_records = build_interactions(data, shell)
+assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records) + len(interactive_records)
+for record in archive_records + merch_records + ark_records + interactive_records:
     url = urlsplit(record["url"])
     assert url.path in parsed
     if url.fragment:
@@ -72,6 +74,20 @@ for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
 assert len(ark_pages) == 8 and len(ark_records) == 254 and len(ark_images) == 23
+assert len(interactive_pages) == 2 and len(interactive_records) == 12
+detective = interactive_pages['arkham/detective/index.html']
+patient_terminal = interactive_pages['arkham/patients/index.html']
+assert patient_terminal.count('data-patient-file=') == 7
+assert patient_terminal.count('<details class="spoiler patient-recording">') == 7
+assert '<iframe' not in patient_terminal and ' autoplay' not in patient_terminal
+assert 'Tape 01' not in patient_terminal and '病历编号' not in patient_terminal
+for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['cases']:
+    assert f'id="case-{c["id"]}"' in detective
+    assert len(c['evidence']) == 3
+    assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
+for filename, body in pages.items():
+    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages)
+print('PASS: three linked investigations, seven spoiler-protected patient records, on-demand players, safe search summaries and isolated interaction assets')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]

@@ -15,6 +15,7 @@ Batman小站专题档案项目：一个仓库、两个独立专题。两站共�
 - 点击“激活协议 / ACTIVATE PROTOCOL”或按 Enter，以蝙蝠群动画和独立转场音效进入七项主菜单。
 - 主菜单使用六部作品各一张真实游戏截图全幅轮播，覆盖《疯人院》《之城》《起源》《黑门》《骑士》《自杀小队》；作品档案、哥谭档案馆、蝙蝠侠之声、周边档案、图片资料、搜索档案、资料来源彼此独立。
 - 六部游戏均有详情页，包括《阿卡姆起源：黑门》与《自杀小队：消灭正义联盟》；哥谭档案馆现有谜语人考据、场景物件、哥谭故事、漫画与出版、疯人院院史、患者访谈，以及十三节 Rocksteady 创作变迁档案。
+- Detective Mode含格雷森海报、Scarface与钟楼战衣三个调查，支持冷色扫描、证据链、案件总结与本机进度。患者终端可切换七组人物录音，按需载入播放器，并跟随实际播放状态显示磁带动画。
 - 阿卡姆站内不混入 TAS 导航；凯文·康罗伊使用阿卡姆专属阅读视图与回链。
 
 ### Dark Deco
@@ -29,7 +30,7 @@ Batman小站专题档案项目：一个仓库、两个独立专题。两站共�
 
 - 凯文·康罗伊人物档案由两站共享数据；共同页保留两边作品回链。
 - 两站都有来源页、图片资料页、周边档案与搜索。
-- 当前共 **57个页面、475条可搜索记录**。
+- 当前共 **59个页面、487条可搜索记录**。
 - 剧透内容默认折叠，搜索索引不包含结局正文。
 
 ## 启动与编辑
@@ -53,6 +54,7 @@ python3 verify-build.py
 node verify-intro.js
 node verify-arkham-nav.js
 node verify-arkham-menu.js
+node verify-investigation.js
 node --check app.js
 ```
 
@@ -68,6 +70,7 @@ node --check app.js
 - `arkham_ui.py`：Protocol Arkham 启动画面、菜单与游戏目录。
 - `rocksteady-history.json`：2009—2026年工作室、设计与发行后变化，区分日期事件、采访转述和作品分析。
 - `tas_pages.py` / `arkham_pages.py`：两边研究档案页面。
+- `arkham_interactions.py`、`arkham-interactions.json`与`arkham-investigation.js` / `.css`：案件重建与患者终端，详见 [ARKHAM-INTERACTIONS.md](ARKHAM-INTERACTIONS.md)。
 - `style.css`：公共结构；`arkham.css` 与 `tas.css` 分别维护专题视觉。
 - `build_assets.py`：按实际字节比较并复制变化资产。
 

@@ -6,6 +6,7 @@ from arkham_ui import arkham_screen, arkham_catalog
 from tas_pages import build_archive
 from merchandise_pages import build_collectibles
 from arkham_pages import build_arkham_archive
+from arkham_interactions import build_interactions
 
 
 def render_pages(data):
@@ -37,6 +38,8 @@ def render_pages(data):
     pages["tas/gallery/index.html"] = pages["tas/gallery/index.html"].replace("</main>", '<div class="section">' + tas_gallery + "</div></main>")
     ark_pages, ark_records, ark_sources, ark_gallery, ark_images = build_arkham_archive(data, shell)
     pages.update(ark_pages)
+    interactive_pages, interactive_records = build_interactions(data, shell)
+    pages.update(interactive_pages)
     pages["arkham/sources/index.html"] = pages["arkham/sources/index.html"].replace("</main>", ark_sources + "</main>")
     pages["arkham/gallery/index.html"] = pages["arkham/gallery/index.html"].replace("</main>", ark_gallery + "</main>")
     merch_pages, merch_records, merch_sources, merch_galleries, merch_images = build_collectibles(data, shell)
@@ -49,4 +52,5 @@ def render_pages(data):
     index.extend(tas_records)
     index.extend(merch_records)
     index.extend(ark_records)
+    index.extend(interactive_records)
     return pages, index, tas_images + merch_images + ark_images

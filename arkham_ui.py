@@ -20,7 +20,7 @@ def arkham_menu_background():
 def arkham_menu(heading="h1"):
     entries = [
         ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "六部作品 · 从阿卡姆岛、黑门到大都会", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "M3 5h7l2 2h9v13H3z"),
-        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "场景与人物档案 · Rocksteady与创作变迁", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "M12 3v18M3 12h18M5 5l14 14M19 5L5 19"),
+        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "案件重建 · 患者终端 · 场景与创作档案", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "M12 3v18M3 12h18M5 5l14 14M19 5L5 19"),
         ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊 · 游戏作品与表演档案", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "M4 9v6M8 5v14M12 3v18M16 7v10M20 9v6"),
         ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "人偶 · 战衣版本 · 雕像与游戏衍生收藏", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "M12 3l9 5v9l-9 5-9-5V8zM3 8l9 5 9-5M12 13v9"),
         ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "六部游戏与研究图片 · 保留版本和出处", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "M3 4h18v16H3zM3 17l6-7 4 4 3-3 5 6M16 8h1"),

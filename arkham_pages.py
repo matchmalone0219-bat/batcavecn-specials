@@ -65,6 +65,7 @@ def build_arkham_archive(data,shell):
         return f'<article class="dossier-entry" id="{i["id"]}"><p class="label">档案注释</p><h2>{esc(i["title"])}</h2><p>{esc(i["body"])}</p>'+''.join(picture(id) for id in i['images'])+f'{refs(i["sources"])}</article>'
 
     opening='<div class="dossier-opening"><div><h2>一张海报，<br>一段城市的记忆。</h2><p>扫描物、人物遗物、公司招牌和远处的建筑，都是游戏叙事的材料。这里从可见物件出发，区分角色背景、游戏解锁关系和漫画比较。</p><p class="fine">20个考据选题 · 138项物件／档案组索引 · 16条故事记录 · 10项书目。</p></div>'+picture('city-flying-graysons')+'</div>'
+    opening+='<div class="dossier-shelves"><a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>扫描现场物件，沿证据链连接人物与历史。</p></a><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>选择人物，打开原声访谈与聆听导读。</p></a></div>'
     opening+='<div class="dossier-shelves">'+''.join(f'<a class="dossier-shelf" href="/arkham/archive/{s}/"><p class="label">0{n} / DOSSIER</p><h2>{t}</h2><p>{d}</p></a>' for n,(s,t,d) in enumerate(ROOMS,1))+'</div>'
     opening+='<div class="dossier-boundary"><h2>如何阅读这份档案</h2><p>从场景索引找到物件，再沿人物资料、哥谭故事与漫画书目展开阅读。</p><p>剧情相关的故事摘要默认折叠。场景索引按游戏与区域排列。</p></div>'
     page('','哥谭的故事，藏在场景里。','谜语人、城市物件、解锁故事与游戏相关漫画；走进场景背后的人物与城市。',opening)
@@ -134,7 +135,7 @@ def build_arkham_archive(data,shell):
     page('asylum-history',history['title'],history['intro'],content)
 
     base='/arkham/archive/interviews/'
-    content='<div class="patient-terminal"><div class="patient-terminal-heading"><p class="label">PATIENT RECORD INDEX / 人物录音索引</p><p>'+str(len(interviews['patients']))+' 组角色 · 玩家录制</p></div><nav class="patient-register" aria-label="患者访谈人物">'+''.join(f'<a href="#{p["id"]}"><span class="patient-index">{n:02d}</span><span>{esc(p["name"])}<small>{esc(p["english"])}</small></span><span class="patient-duration">{p["biliDuration"]//60}:{p["biliDuration"]%60:02d}<small>B站分P时长</small></span></a>' for n,p in enumerate(interviews['patients'],1))+'</nav><p class="patient-terminal-note">按角色浏览访谈；时长对应B站合集的各分P。</p></div><div class="dossier-reading"><p>'+esc(interviews['scope'])+'</p><p class="fine">英语游戏录音 · 访谈导读与原声含剧透，默认折叠。</p>'
+    content='<a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>打开患者终端</h2><p>选择人物，在终端中阅读聆听导读与播放访谈。</p></a><div class="patient-terminal"><div class="patient-terminal-heading"><p class="label">PATIENT RECORD INDEX / 人物录音索引</p><p>'+str(len(interviews['patients']))+' 组角色 · 玩家录制</p></div><nav class="patient-register" aria-label="患者访谈人物">'+''.join(f'<a href="#{p["id"]}"><span class="patient-index">{n:02d}</span><span>{esc(p["name"])}<small>{esc(p["english"])}</small></span><span class="patient-duration">{p["biliDuration"]//60}:{p["biliDuration"]%60:02d}<small>B站分P时长</small></span></a>' for n,p in enumerate(interviews['patients'],1))+'</nav><p class="patient-terminal-note">按角色浏览访谈；时长对应B站合集的各分P。</p></div><div class="dossier-reading"><p>'+esc(interviews['scope'])+'</p><p class="fine">英语游戏录音 · 访谈导读与原声含剧透，默认折叠。</p>'
     for p in interviews['patients']:
         assert set(p['sources']) <= sources.keys()
         assert p['embedUrl'] == 'https://www.youtube.com/embed/'+p['videoId']
