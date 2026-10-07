@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 dist/
+pages-dist/
 backups/
 output/
 .DS_Store

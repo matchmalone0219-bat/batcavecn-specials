@@ -4,7 +4,7 @@ Batman小站专题档案项目：一个仓库、两个独立专题。两站共�
 
 - **Protocol Arkham / 阿卡姆协议**：以游戏启动界面、终端菜单与哥谭档案馆为核心。
 - **Dark Deco / TAS 动画档案**：以动画放映室、节目单、制作画册与档案阅读为核心。
-- 当前尚未部署正式域名或子域；仓库中的 `dist/` 为本地生成产物，不提交。
+- GitHub Pages 预览入口：[两座哥谭](https://matchmalone0219-bat.github.io/batcavecn-specials/)，包含 [Protocol Arkham](https://matchmalone0219-bat.github.io/batcavecn-specials/arkham/) 与 [Dark Deco](https://matchmalone0219-bat.github.io/batcavecn-specials/tas/)。正式域名或子域尚未配置。
 
 ## 当前状态
 
@@ -58,7 +58,7 @@ node verify-investigation.js
 node --check app.js
 ```
 
-输出目录为 `dist/`。当前验证覆盖内容结构、内部链接与锚点、搜索边界、编辑器保存／回退、阿卡姆开场、菜单、转场、媒体校验与专题隔离。
+输出目录为 `dist/`，不提交。GitHub Pages 工作流生成独立的 `pages-dist/` 并加入项目路径，推送 `main` 后自动发布；部署说明与文案阅读记录见 [GITHUB-PAGES.md](GITHUB-PAGES.md)。当前验证覆盖内容结构、内部链接与锚点、搜索边界、编辑器保存／回退、阿卡姆开场、菜单、转场、媒体校验与专题隔离。
 
 ## 代码结构
 
