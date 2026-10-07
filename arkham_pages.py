@@ -67,11 +67,11 @@ def build_arkham_archive(data,shell):
         record(i['title'],i['body'],base,i['id'],['档案注释'])
         return f'<article class="dossier-entry" id="{i["id"]}"><p class="label">档案注释</p><h2>{esc(i["title"])}</h2><p>{esc(i["body"])}</p>'+''.join(picture(id) for id in i['images'])+f'{refs(i["sources"])}</article>'
 
-    opening='<div class="dossier-opening"><div><h2>废墟残骸，<br>现场留存的罪证。</h2><p>破损海报、隐藏谜题、嫌犯遗留物与废弃据点，都是哥谭沉沦史的现场物证。档案馆以环境实测线索为切入点，系统解构涉案人员背景、机关解锁链条与漫画原型考据。</p><p class="fine">20个考据专题 · 138项现场物证索引 · 16份城市机要档案 · 10部关联文献。</p></div>'+picture('city-flying-graysons')+'</div>'
+    opening='<div class="dossier-opening"><div><h2>暗巷深处，<br>现场留存的物证。</h2><p>暗巷里风化的旧海报、案发现场遗留的私人物品、隐匿在阴影里的谜语人机关。阿卡姆的每一处环境细节，都记录着哥谭的罪案与秘密。循着这些现场物证抽丝剥茧，逐一还原涉案反派的档案背景、解密机制与漫画经典考据。</p><p class="fine">20个考据专题 · 138项现场物证索引 · 16份城市机要档案 · 10部关联文献。</p></div>'+picture('city-flying-graysons')+'</div>'
     opening+='<div class="dossier-shelves"><a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>扫描现场物证，沿物证链推演案情始末与嫌犯背景。</p></a><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>调取七组重点收治对象临床问诊原声与心理评估档案。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>频段监听</h2><p>调谐密码破译器频段，截获小丑秘密电话留言与终局音频。</p></a></div>'
     opening+='<div class="dossier-shelves">'+''.join(f'<a class="dossier-shelf" href="/arkham/archive/{s}/"><p class="label">0{n} / DOSSIER</p><h2>{t}</h2><p>{d}</p></a>' for n,(s,t,d) in enumerate(ROOMS,1))+'</div>'
     opening+='<div class="dossier-boundary"><h2>档案检索指引</h2><p>从物证索引定位现场线索，交叉调取嫌疑人档案、城市机要报告与原作文献。</p><p>涉及核心案情与剧透的信息默认折叠。现场物证按游戏版本与辖区网格编目。</p></div>'
-    page('','现场物证与哥谭机要档案','谜语人暗线、犯罪现场物证、解密档案与原作考据；全面审查犯罪现场背后的势力版图与嫌疑人机密。',opening)
+    page('','现场物证与哥谭机要档案','谜语人暗线、犯罪现场物证、城市解密档案与漫画考据；深入犯罪现场背后的反派档案与哥谭黑幕。',opening)
 
     base='/arkham/archive/riddler/';content='<div class="dossier-reading"><h2>绿色问号背后的犯罪痕迹</h2><p>二十组现场谜题与嫌犯物证，解构谜语人机关背后的犯罪动机与经典漫画原型。</p><nav class="dossier-case-nav" aria-label="考据选题">'
     for c in riddler['cases']:
