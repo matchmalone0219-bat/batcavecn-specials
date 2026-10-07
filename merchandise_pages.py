@@ -53,7 +53,7 @@ def build_collectibles(data, shell):
         base = f'/{site}/collectibles/'
         items = [i for i in packet['items'] if i['site'] == site]
         photos = [image_map[id] for i in items for id in i['imageIds']]
-        intro = '从游戏角色到实体藏品。保留战衣版本、产品型号与游戏归属，阅读这座哥谭在屏幕之外的形态。' if site == 'arkham' else '从动画线条到立体角色。人偶、蝙蝠车、积木和桌游，也是一份设计与故事流转的档案。'
+        intro = '从游戏角色到实体藏品。保留战衣版本、产品型号与游戏归属，阅读这座哥谭在屏幕之外的形态。' if site == 'arkham' else '从黑卡纸手绘线条到立体实体藏品。深度收录可动人偶、合金蝙蝠车、雕像与桌游，记录 Dark Deco 经典美学的实体化历程。'
         featured = ['hot-city', 'hot-knight', 'prime-knight'] if site == 'arkham' else ['mondo-redux', 'mondo-harley', 'lego-gotham']
         covers = ''
         for id in featured:
