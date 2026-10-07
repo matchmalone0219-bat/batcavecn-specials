@@ -48,7 +48,7 @@ for path, page in parsed.items():
             assert url.scheme == "https", link
             continue
         target = unquote(url.path) or path
-        if target.startswith("/assets/media/"):
+        if target.startswith(("/assets/media/", "/assets/audio/")):
             assert (DIST / target.lstrip("/")).is_file(), link
             links += 1
             continue
@@ -80,13 +80,13 @@ patient_terminal = interactive_pages['arkham/patients/index.html']
 assert patient_terminal.count('data-patient-file=') == 7
 assert patient_terminal.count('<details class="spoiler patient-recording">') == 7
 assert '<iframe' not in patient_terminal and ' autoplay' not in patient_terminal
-assert 'Tape 01' not in patient_terminal and '病历编号' not in patient_terminal
+assert '病历编号' not in patient_terminal
 for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['cases']:
     assert f'id="case-{c["id"]}"' in detective
     assert len(c['evidence']) == 3
     assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
 for filename, body in pages.items():
-    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages)
+    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages or filename == 'arkham/archive/interviews/index.html')
 print('PASS: three linked investigations, seven spoiler-protected patient records, on-demand players, safe search summaries and isolated interaction assets')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
@@ -201,16 +201,44 @@ interviews=json.loads((CONTENT.parent/'patient-interviews.json').read_text())
 assert len(interviews['patients'])==7
 assert len({p['videoId'] for p in interviews['patients']})==7
 interview_html=ark_pages['arkham/archive/interviews/index.html']
-assert interview_html.count('<iframe ')==7 and interview_html.count('<details class="spoiler">')==7
+assert '<iframe ' not in interview_html and interview_html.count('<details class="spoiler">')==7
 for p in interviews['patients']:
     assert p['watchUrl']=='https://www.youtube.com/watch?v='+p['videoId']
     assert p['embedUrl']=='https://www.youtube.com/embed/'+p['videoId']
     assert p['biliPage'] in range(1,8) and p['biliDuration']>0
     assert p['biliUrl'].endswith('?p='+str(p['biliPage']))
     section=interview_html.split('id="'+p['id']+'"',1)[1].split('</article>',1)[0]
-    assert section.index('<details class="spoiler">')<section.index('<iframe ')<section.index('</details>')
+    assert section.index('<details class="spoiler">')<section.index('<audio ')<section.index('</details>')
     assert ' open' not in section and 'autoplay=1' not in section
-print('PASS: seven distinct interview recordings, source links, collapsed players and no autoplay')
+for p in interviews['patients']:
+    assert len(p['tapes']) == 5 and p['subtitleSource']
+    previous_end = 0
+    for n, tape in enumerate(p['tapes'], 1):
+        audio = CONTENT.parent / tape['audioFile']
+        assert tape['number'] == n and tape['sourceStart'] == previous_end
+        assert abs(tape['duration'] - (tape['sourceEnd'] - tape['sourceStart'])) < .08
+        previous_end = tape['sourceEnd']
+        assert audio.suffix == '.m4a' and audio.is_file()
+        assert audio.stat().st_size == tape['audioBytes']
+        assert hashlib.sha256(audio.read_bytes()).hexdigest() == tape['audioSha256']
+        assert hashlib.sha256((DIST / 'assets' / tape['audioFile']).read_bytes()).hexdigest() == tape['audioSha256']
+        assert tape['cues']
+        end = 0
+        for cue in tape['cues']:
+            assert end <= cue['start'] < cue['end'] <= tape['duration'] + .08
+            assert cue['text'] and cue['text'] not in json.dumps(interactive_records, ensure_ascii=False)
+            end = cue['end']
+    assert abs(previous_end - p['biliDuration']) < 2
+    assert p['audioSource'] == 'patient-bili'
+for html in [interview_html, patient_terminal]:
+    assert html.count('<audio controls preload="none" hidden') == 7
+    assert html.count('data-tape-data>') == 7 and html.count('data-tape="') == 35
+    assert html.count('data-subtitle>') == 7 and html.count('data-waveform ') == 7
+    assert 'youtube.com/embed/' not in html
+    assert '<audio controls preload="none" hidden src=' not in html
+assert 'youtube.com/iframe_api' not in (CONTENT.parent / 'arkham-investigation.js').read_text()
+assert len(list((DIST / 'assets/audio').glob('patient-*.m4a'))) == 35
+print('PASS: 35 hashed AAC tapes, contiguous cuts, bounded Chinese cues, copied assets, on-demand sources, collapsed players and original sources')
 
 # The two topics share biography data, not Arkham navigation or search scope.
 for path, page in parsed.items():

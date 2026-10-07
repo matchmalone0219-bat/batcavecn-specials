@@ -2,6 +2,7 @@
 import html
 import json
 from render_common import paragraphs
+from patient_player import recording_controls
 from collections import defaultdict
 from pathlib import Path
 
@@ -58,6 +59,8 @@ def build_arkham_archive(data,shell):
         base='/arkham/archive/'+(slug+'/' if slug else '')
         nav='<nav class="dossier-nav" aria-label="Protocol Arkham档案分类"><a href="/arkham/archive/">总览</a>'+''.join(f'<a href="/arkham/archive/{s}/" {"aria-current=page" if s==slug else ""}>{t}</a>' for s,t,_ in ROOMS)+'</nav>'
         pages[base.strip('/')+'/index.html']=shell(data,'arkham',title,f'<section class="section dossier-room{" patient-room" if slug == "interviews" else ""}"><p class="label">GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(title)}</h1><p class="lead">{esc(intro)}</p>{nav}{content}</section>','archive')
+        if slug == 'interviews':
+            pages[base.strip('/')+'/index.html'] = pages[base.strip('/')+'/index.html'].replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css"><script src="/assets/arkham-investigation.js" defer></script></head>')
         record(title,intro,base,None,['档案馆'],status='创作档案' if slug=='rocksteady' else '场景档案')
 
     def note(i,base):
@@ -139,7 +142,7 @@ def build_arkham_archive(data,shell):
     for p in interviews['patients']:
         assert set(p['sources']) <= sources.keys()
         assert p['embedUrl'] == 'https://www.youtube.com/embed/'+p['videoId']
-        content+=f'<article class="dossier-entry" id="{p["id"]}"><p class="label">ARKHAM ASYLUM / PATIENT INTERVIEWS</p><h2>{esc(p["name"])} · {esc(p["english"])}</h2><p class="fine">身份索引：{esc(p["identity"])}</p><p>聆听问题：{esc(p["angle"])}</p><details class="spoiler"><summary>访谈导读与原声 · 含剧透，展开播放</summary><p>{esc(p["gist"])}</p><p class="fine">英语原声 · 玩家录制 · 上传者 {esc(p["uploader"])}。</p><p><a href="{esc(p["biliUrl"])}">B站播放 · P{p["biliPage"]} · {p["biliDuration"]//60}:{p["biliDuration"]%60:02d} ↗</a> · <a href="{esc(p["watchUrl"])}">YouTube原页 ↗</a></p><p class="fine">B站合集上传者：{esc(p["biliUploader"])}</p><iframe class="interview-player" src="{esc(p["embedUrl"])}" title="{esc(p["videoTitle"])}" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="fine">播放器依赖YouTube；若提示登录或无法播放，可使用上方B站或YouTube原页入口。</p>{refs(p["sources"])}</details></article>'
+        content+=f'<article class="dossier-entry" id="{p["id"]}" data-audio-recording><p class="label">ARKHAM ASYLUM / PATIENT INTERVIEWS</p><h2>{esc(p["name"])} · {esc(p["english"])}</h2><p class="fine">身份索引：{esc(p["identity"])}</p><p>聆听问题：{esc(p["angle"])}</p><details class="spoiler"><summary>访谈导读与原声 · 含剧透，展开播放</summary><p>{esc(p["gist"])}</p><p class="fine">英语原声 · 玩家录制 · 上传者 {esc(p["biliUploader"])}。</p><p><a href="{esc(p["biliUrl"])}">B站播放 · P{p["biliPage"]} · {p["biliDuration"]//60}:{p["biliDuration"]%60:02d} ↗</a> · <a href="{esc(p["watchUrl"])}">YouTube原页 ↗</a></p><p class="fine">B站合集上传者：{esc(p["biliUploader"])}</p><p class="playback-state" data-playback-state role="status">等待播放</p>{recording_controls(p)}{refs(p["sources"])}</details></article>'
         record(p['name']+' · 患者访谈',p['angle'],base,p['id'],['患者访谈','原声录音','阿卡姆疯人院'],p['english']+' · Patient Interviews')
     content+='<a class="dossier-shelf" href="/arkham/archive/asylum-history/"><h2>另一种声音：院史石碑</h2><p>回到阿卡姆之魂，比较人物访谈与第一人称院史。</p></a></div>'
     page('interviews','患者访谈：医院里的声音',interviews['intro'],content)

@@ -53,6 +53,10 @@ def build(data=None):
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
     for asset in research_images:
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
+    (DIST / 'assets/audio').mkdir(exist_ok=True)
+    for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:
+        for tape in patient['tapes']:
+            copy_asset(ROOT / tape['audioFile'], DIST / 'assets' / tape['audioFile'])
     (DIST / "content").mkdir(exist_ok=True)
     copy_asset(ROOT / "media.json", DIST / "content/media.json")
     copy_asset(ROOT / "episode-media.json", DIST / "content/episode-media.json")

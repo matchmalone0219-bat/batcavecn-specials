@@ -4,7 +4,7 @@ const vm = require('node:vm');
 const source = fs.readFileSync(__dirname + '/arkham-investigation.js', 'utf8');
 const cases = JSON.parse(fs.readFileSync(__dirname + '/arkham-interactions.json', 'utf8')).cases;
 const window = {};
-vm.runInNewContext(source, {window, document: {querySelector: () => null}});
+vm.runInNewContext(source, {window, document: {querySelector: () => null, querySelectorAll: () => []}});
 const storage = {value: JSON.stringify({graysons: 9, scarface: -1, oracle: 1, unknown: 3}), getItem() {return this.value;}, setItem(key, value) {this.value = value;}};
 const progress = window.ArkhamCaseProgress(cases, storage);
 assert.equal(progress.count('graysons'), 0);
@@ -29,42 +29,66 @@ const corrupt = window.ArkhamCaseProgress(cases, {getItem: () => '{'});
 assert.equal(corrupt.count('oracle'), 0);
 
 function element() {
-  const listeners = {}, classes = new Set();
-  return {listeners, hidden:false, disabled:false, textContent:'', classList:{toggle(name,on){on?classes.add(name):classes.delete(name);},remove(name){classes.delete(name);},contains:name=>classes.has(name)},
-    addEventListener(name, fn){listeners[name]=fn;},setAttribute(){},removeAttribute(){},replaceChildren(){}};
+  const listeners = {}, classes = new Set(), attributes = {};
+  return {listeners, hidden:false, textContent:'', attributes,
+    classList:{toggle(name,on){on?classes.add(name):classes.delete(name);},contains:name=>classes.has(name)},
+    addEventListener(name, fn){listeners[name]=fn;},setAttribute(name,value){attributes[name]=value;},removeAttribute(name){delete attributes[name];}};
 }
-function patient(id, video) {
-  const file = element(), details=element(), button=element(), state=element(), slot=element();
-  details.open=false;file.dataset={patientFile:id,video,videoTitle:id};
-  file.querySelector=selector=>({'details':details,'[data-load-recording]':button,'[data-playback-state]':state,'[data-player-slot]':slot}[selector]);
-  return {file,details,button,state};
+function patient(id) {
+  const file=element(),details=element(),button=element(),state=element(),audio=element(),subtitle=element(),label=element(),canvas=element();
+  const points=[];
+  canvas.width=720;canvas.height=140;canvas.getContext=()=>({clearRect(){points.length=0;},beginPath(){},moveTo(x,y){points.push(y);},lineTo(x,y){points.push(y);},stroke(){}});
+  audio.src='';audio.ended=false;audio.pauses=0;audio.plays=0;audio.loads=0;audio.paused=true;audio.currentTime=0;
+  audio.pause=()=>{audio.pauses++;audio.paused=true;};audio.play=()=>{audio.plays++;audio.paused=false;audio.ended=false;return Promise.resolve();};
+  audio.load=()=>{audio.loads++;audio.currentTime=0;};audio.removeAttribute=name=>{if(name==='src')audio.src='';};
+  details.open=false;file.dataset={patientFile:id};
+  const tapes=Array.from({length:5},(_,i)=>({src:`/assets/audio/patient-${id}-0${i+1}.m4a`,label:`TAPE 0${i+1}`,cues:[{start:1,end:4,text:`${id} ${i+1} 开场`},{start:5,end:9,text:`${id} ${i+1} 后续`}]}));
+  const choices=tapes.map(()=>element());
+  file.querySelector=selector=>({'details':details,'audio':audio,'[data-load-recording]':button,'[data-playback-state]':state,'[data-tape-data]':{textContent:JSON.stringify(tapes)},'[data-subtitle]':subtitle,'[data-tape-label]':label,'[data-waveform]':canvas}[selector]);
+  file.querySelectorAll=()=>choices;
+  return {file,details,button,state,audio,subtitle,label,choices,tapes,points};
 }
 (async()=>{
-  const a=patient('joker','one'), b=patient('harley','two');
-  const selectors=[a,b].map(p=>Object.assign(element(),{dataset:{patient:p.file.dataset.patientFile}}));
-  const terminal={querySelectorAll:selector=>selector==='[data-patient-file]'?[a.file,b.file]:selectors};
-  const handlers={}, docHandlers={}, players=[];
-  const document={hidden:false,querySelector:selector=>selector==='[data-patient-terminal]'?terminal:null,createElement:()=>element(),addEventListener:(name,fn)=>docHandlers[name]=fn};
-  const YT={Player:function(mount, options){this.options=options;this.destroyed=false;this.pauses=0;this.destroy=()=>{this.destroyed=true;};this.pauseVideo=()=>{this.pauses++;};this.getIframe=()=>({});players.push(this);}};
-  const browserWindow={YT,addEventListener:(name,fn)=>handlers[name]=fn};
-  vm.runInNewContext(source,{window:browserWindow,document,YT,location:{hash:'',origin:'http://localhost'},history:{replaceState(){}},setTimeout,clearTimeout});
-  assert.equal(a.file.hidden,false);assert.equal(b.file.hidden,true);assert.equal(players.length,0);
-  a.details.open=true;a.button.listeners.click();await new Promise(setImmediate);
-  assert.equal(players.length,1);assert.equal(players[0].options.playerVars.autoplay,0);
-  const old=players[0];old.options.events.onStateChange({data:1,target:old});
-  assert(a.file.classList.contains('is-playing'));
-  old.options.events.onStateChange({data:3,target:old});
-  assert(!a.file.classList.contains('is-playing'),'Buffering must not animate the cassette');
-  a.details.open=false;a.details.listeners.toggle();assert.equal(old.pauses,1);
-  selectors[1].listeners.click({preventDefault(){}});
-  assert(old.destroyed);assert.equal(a.file.hidden,true);assert.equal(b.file.hidden,false);
-  old.options.events.onStateChange({data:1,target:old});assert(!a.file.classList.contains('is-playing'),'Old player callbacks cannot revive a hidden patient');
-  b.details.open=true;b.button.listeners.click();await new Promise(setImmediate);
-  const active=players[1];active.options.events.onReady({target:active});
-  assert(b.state.textContent.includes('已就绪'));
-  document.hidden=true;docHandlers.visibilitychange();assert.equal(active.pauses,1);
-  active.options.events.onError({data:150,target:active});
-  assert(active.destroyed);assert.equal(b.file.dataset.playbackError,'150');assert(b.state.textContent.includes('原页播放'));
-  handlers.pagehide();assert(active.destroyed);
-  console.log('PASS: sequential and persistent case progress, isolated reset, corrupt/denied storage; one on-demand player, spoiler closure, switching, late events, buffering and page cleanup');
+  for (const inTerminal of [true,false]) {
+    const a=patient('joker'),b=patient('harley');
+    const selectors=[a,b].map(p=>Object.assign(element(),{dataset:{patient:p.file.dataset.patientFile}}));
+    const terminal={querySelectorAll:selector=>selector==='[data-patient-file]'?[a.file,b.file]:selectors};
+    const handlers={},docHandlers={},frames=new Map();let frameId=0,graphs=0,samples=0;
+    class AudioContext {
+      resume(){return Promise.resolve();}
+      createMediaElementSource(){graphs++;return {connect(){}};}
+      createAnalyser(){return {fftSize:512,connect(){},getFloatTimeDomainData(values){samples++;values.fill(samples%2?.1:-.1);}};}
+    }
+    const document={hidden:false,querySelector:selector=>selector==='[data-patient-terminal]'&&inTerminal?terminal:null,querySelectorAll:()=>[a.file,b.file],addEventListener:(name,fn)=>docHandlers[name]=fn};
+    vm.runInNewContext(source,{window:{AudioContext,addEventListener:(name,fn)=>handlers[name]=fn},document,location:{hash:''},history:{replaceState(){}},requestAnimationFrame(fn){const id=++frameId;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);}});
+    assert.equal(a.audio.src,'');assert.equal(b.audio.src,'','No source is requested before a click');
+    a.button.listeners.click();assert.equal(a.audio.plays,0,'Closed spoilers cannot start playback');
+    a.details.open=true;a.button.listeners.click();
+    assert.equal(a.audio.src,a.tapes[0].src);assert.equal(b.audio.src,'');
+    assert.equal(a.audio.plays,1);assert.equal(a.button.hidden,true);
+    a.audio.listeners.playing();assert(a.file.classList.contains('is-playing'));assert.equal(samples,1,'Waveform samples the analyser on actual playback');
+    const first=a.points.at(-1);const tick=frames.values().next().value;frames.clear();tick();assert.notEqual(a.points.at(-1),first,'Rendered wave follows real samples');
+    a.audio.currentTime=2;a.audio.listeners.timeupdate();assert.equal(a.subtitle.textContent,'joker 1 开场');
+    a.audio.currentTime=6;a.audio.listeners.seeked();assert.equal(a.subtitle.textContent,'joker 1 后续','Seeking immediately changes subtitles');
+    a.audio.currentTime=4.5;a.audio.listeners.seeked();assert.equal(a.subtitle.textContent,'…','A gap cannot retain a stale cue');
+    a.choices[2].listeners.click();assert.equal(a.audio.src,a.tapes[2].src);assert.equal(a.label.textContent,'TAPE 03 / 05');
+    assert.equal(a.choices[2].attributes['aria-pressed'],'true');assert.equal(a.choices[0].attributes['aria-pressed'],'false');
+    a.audio.currentTime=2;a.audio.listeners.timeupdate();assert.equal(a.subtitle.textContent,'joker 3 开场');
+    assert.equal(graphs,1,'Changing tapes reuses the same media graph');
+    a.audio.listeners.playing();a.audio.listeners.waiting();assert(!a.file.classList.contains('is-playing'));assert.equal(frames.size,0,'Buffering stops the waveform');
+    a.audio.listeners.playing();a.details.open=false;const pauses=a.audio.pauses;a.details.listeners.toggle();
+    assert.equal(a.audio.pauses,pauses+1);assert(!a.file.classList.contains('is-playing'));assert.equal(frames.size,0);
+    if(inTerminal) selectors[1].listeners.click({preventDefault(){}});
+    b.details.open=true;b.button.listeners.click();
+    assert.equal(a.audio.src,'');assert.equal(a.button.hidden,false);
+    assert.equal(b.audio.src,b.tapes[0].src,'Only one recording keeps a source');
+    a.audio.listeners.playing();assert(!a.file.classList.contains('is-playing'),'Released audio cannot revive hidden reels');
+    b.audio.listeners.playing();document.hidden=true;docHandlers.visibilitychange();
+    assert.equal(b.audio.pauses,1);assert(!b.file.classList.contains('is-playing'));assert.equal(frames.size,0);
+    document.hidden=false;b.audio.ended=true;b.audio.listeners.ended();assert.equal(b.state.textContent,'播放结束');assert.equal(b.subtitle.textContent,'本段播放结束。');
+    b.audio.listeners.error();assert.equal(b.audio.src,'');assert(b.state.textContent.includes('重试'));assert.equal(b.button.hidden,false);
+    b.button.listeners.click();assert.equal(b.audio.src,b.tapes[0].src,'Error permits retry');
+    handlers.pagehide();assert.equal(b.audio.src,'');assert.equal(b.audio.hidden,true);assert.equal(frames.size,0);
+  }
+  console.log('PASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages');
 })().catch(error=>{console.error(error);process.exitCode=1;});

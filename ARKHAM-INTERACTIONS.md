@@ -16,16 +16,18 @@
 
 ## 患者终端
 
-复用patient-interviews.json七组人物资料。左侧人物选择，右侧身份与聆听导读；手机为上下布局。大字母为姓名缩写的终端索引图形，不冒充人物照片。RECORD INDEX是页面索引，不是游戏病历编号。原资料没有逐条录音起止点，首版按人物合集播放，不制造Tape 01–05、时间轴字幕或音频波形。
+复用patient-interviews.json七组人物资料。左侧人物选择，右侧身份与聆听导读；手机为上下布局。大字母为姓名缩写的终端索引图形，RECORD INDEX为页面索引。录音与字幕默认收在剧透折叠中。
 
-录音导读与原声默认折叠；点击载入按钮才请求YouTube IFrame API，autoplay=0。单播放器随人物切换销毁，旧回调按generation失效；折叠／隐藏暂停，离页清理。磁带轮只随playing事件转动，缓冲、暂停、结束与错误停止；减少动态关闭动画。API及播放器就绪各有超时回退，B站分P、YouTube原页、人物阅读始终保留。YouTube提供媒体与可用性，本机没有下载或提取玩家视频／音轨。
+用户提供七个B站录制MP4，按画面的五个录音槽位切为每人五段，共35段M4A／34.20MB。原AAC音轨直拷贝，不重编码或改变音量。359条中文字幕来自原视频画面，校正识别错字、漏句、行序与明显错字；每段有独立字幕时间轴。切点、来源与验证口径见[PATIENT-AUDIO.md](PATIENT-AUDIO.md)。B站录制者署名与原页链接保留，YouTube只作为其他录制入口。
+
+患者终端与原访谈阅读页通过patient_player.py共用五段选择、原生audio控制与中文字幕：初始无src、preload=none；点击播放／TAPE才加载选中段。页面同一时刻仅一个音源保留src；切段、换人／播放另一条时释放旧音源，折叠／隐藏暂停，离页清理。字幕根据currentTime匹配，seeked后立即更新。
+
+Web Audio读取当前录音的实际时域采样绘制波形。显示增益最多24倍，只影响画线；无随机数据，不改变音量。磁带轮和波形跟随playing，缓冲／暂停／结束／错误停止；减少动态关闭连续动画，原生音频与字幕仍可用。失败可重试或访问原出处；无脚本时有每段音频直达链接。两页不再请求YouTube嵌入／API。
 
 ## 文件与验证
 
-arkham-interactions.json为三个调查编排；arkham_interactions.py复用原研究来源／图片及患者数据，生成两页与十二条搜索记录。arkham-investigation.js管理进度、扫描与单播放器；同名CSS只由两张互动页加载。site_pages.py接入路由／索引，build.py复制两个新资产。
+arkham-interactions.json为三个调查编排；arkham_interactions.py复用研究来源／图片及患者数据，生成两页与十二条搜索记录。arkham-investigation.js管理进度、扫描、单播放器、字幕及波形；同名CSS由两张互动页和原患者阅读页加载。site_pages.py接入路由／索引，build.py复制互动资产与35段音频。
 
-python3 verify.py核对59页／487记录／1633内部链接、来源／物件／图片关联、七组折叠和按需播放器、搜索无总结与剧情正文；verify-build.py四项构建／编辑器检查通过。node verify-investigation.js覆盖顺序／幂等／持久化／局部重置／损坏与拒绝存储，以及单播放器／不自动播放／旧事件／折叠／缓冲／隐藏与离页清理。原开场／菜单／转场检查保留。
+python3 verify.py核对59页／487记录／1703内部链接、来源／图片关联、七组折叠、35段文件哈希与连续切点、字幕边界／顺序、搜索无字幕剧情正文；verify-build.py四项构建／编辑器检查通过。node verify-investigation.js覆盖进度顺序／幂等／持久化／局部重置／损坏与拒绝存储，以及终端／阅读页按需加载、五段选择、拖动字幕、实际采样绘图、音频图复用、单音源、旧事件、折叠／缓冲／隐藏、错误重试和离页清理。原开场／菜单／转场检查保留。
 
-恢复backups/arkham-interactions-before-20261006/；浏览器截图及保留核对output/arkham-interactions-20261006/。完整播放、播放器平台限制和GitHub最新回执以外层专题交接卡为准。
-
-浏览器试播：小丑录音返回YouTube错误150（上传者禁止嵌入播放），哈莉未完成播放；原页／B站分P回退保留。磁带轮的playing分支通过模拟播放器事件验证，未宣称本机完整播放成功。逐条Tape、带时间点的导读与可嵌入音源仍待后续素材整理。
+恢复backups/patient-audio-before-20261007/；初版互动截图output/arkham-interactions-20261006/；全轨提取检查output/patient-audio-20261007/；切点／字幕／35段试播与手机截图output/patient-segments-20261007/。已逐段试播并检查字幕和声音状态，未逐句人工听完全部音频。2026-10-06首版YouTube嵌入限制已由本站音频替代；GitHub最新提交以外层专题交接卡末节为准。
