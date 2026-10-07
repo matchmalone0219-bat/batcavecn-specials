@@ -43,107 +43,193 @@
 .arkham-investigation .terminal-footer .dossier-shelf{min-width:0}
 /* Patient Workspace - Arkham Asylum Medical Deck */
 .arkham-patient-terminal .terminal-heading-tags{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:8px}
-.arkham-patient-terminal .system-status-pips{font:10px/1 ui-monospace,monospace;letter-spacing:.12em;color:#2fe58b;background:#0d2319;padding:4px 8px;border:1px solid #2fe58b44;border-radius:2px}
-.arkham-investigation .patient-workspace{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px;align-items:start}
-.arkham-investigation .patient-selector{display:flex;flex-direction:column;gap:8px}
-.arkham-investigation .patient-selector a{display:grid;grid-template-columns:26px 1fr auto;align-items:center;gap:14px;padding:14px 16px;border:1px solid #283e35;border-left:4px solid #283e35;background:linear-gradient(90deg,#0f1c17 0%,#08120e 100%);clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%);text-decoration:none;color:#9ebfb1;transition:transform .16s ease-out,border-color .16s ease-out,background .16s ease-out}
+.arkham-patient-terminal .system-status-pips{font:10px/1 ui-monospace,monospace;letter-spacing:.12em;color:#2fe58b;background:#0d2319;padding:5px 10px;border:1px solid #2fe58b44;border-radius:2px;box-shadow:inset 0 0 6px #2fe58b1a}
+.arkham-investigation .patient-workspace{display:grid;grid-template-columns:290px minmax(0,1fr);gap:26px;align-items:start}
+.arkham-investigation .patient-selector{display:flex;flex-direction:column;gap:8px;position:relative;padding-left:10px;border-left:2px dashed #1c3628}
+.arkham-investigation .patient-selector a{display:grid;grid-template-columns:12px 26px 1fr auto;align-items:center;gap:10px;padding:14px 16px;border:1px solid #283e35;border-left:4px solid #283e35;background:linear-gradient(90deg,#0f1c17 0%,#08120e 100%);clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%);text-decoration:none;color:#9ebfb1;transition:transform .16s ease-out,border-color .16s ease-out,background .16s ease-out;position:relative}
+.rack-mount-rivet{display:block;width:6px;height:6px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#4e7862 0%,#15271e 80%);box-shadow:inset 0 0 2px #000,0 1px 2px #000;border:0.5px solid #0d1712}
 .arkham-investigation .patient-selector a:hover{border-color:#3f6956;border-left-color:#79c7e3;background:linear-gradient(90deg,#162b22 0%,#0c1712 100%);color:#f2fdf7;transform:translateX(5px)}
 .arkham-investigation .patient-selector a[aria-current]{border-color:#2fe58b88;border-left-color:#2fe58b;background:linear-gradient(90deg,#19382b 0%,#0d1d16 100%);color:#f5fff9;box-shadow:inset 0 0 16px #2fe58b14,0 4px 14px #00000088;transform:translateX(6px)}
-.patient-slot-num{font:12px/1 ui-monospace,monospace;color:#2fe58b;letter-spacing:.08em}
+.patient-slot-num{font:700 13px/1 ui-monospace,monospace;color:#2fe58b;letter-spacing:.08em}
 .patient-slot-info{display:flex;flex-direction:column;gap:3px;min-width:0}
 .patient-slot-info strong{font-size:15px;font-weight:600;letter-spacing:.05em;color:inherit;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .patient-slot-info small{font-size:10px;color:#709685;letter-spacing:.04em}
+.patient-slot-status{display:flex;align-items:center;gap:6px}
+.inmate-status-pip{display:block;width:5px;height:5px;border-radius:50%;background:#3d1a16;border:0.5px solid #5a201c}
+.arkham-investigation .patient-selector a[aria-current] .inmate-status-pip{background:#2fe58b;border-color:#2fe58b;box-shadow:0 0 8px #2fe58b}
 .patient-tape-pips{font:9px/1 ui-monospace,monospace;letter-spacing:2px;color:#2fe58b66}
 .arkham-investigation .patient-selector a[aria-current] .patient-tape-pips{color:#2fe58b}
 
-/* Patient File - Maximum Security Dossier */
-.arkham-investigation .patient-file{padding:26px 30px;background:linear-gradient(155deg,#121d18 0%,#08100d 100%);border:1px solid #2b453a;clip-path:polygon(0 0,100% 0,100% calc(100% - 18px),calc(100% - 18px) 100%,0 100%);box-shadow:0 12px 36px #000000aa;position:relative;min-width:0}
-.arkham-investigation .patient-file .console-bar{display:flex;justify-content:space-between;align-items:center;font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.14em;color:#2fe58b;padding-bottom:12px;border-bottom:1px solid #243a31}
-.arkham-investigation .patient-file .security-level{color:#e6a759;font-size:9px;letter-spacing:.16em}
+/* Patient File - Maximum Security Dossier Case */
+.arkham-investigation .patient-file{padding:28px 32px;background:linear-gradient(155deg,#122019 0%,#09130f 60%,#050b08 100%);border:1px solid #2e4d3c;clip-path:polygon(0 0,calc(100% - 20px) 0,100% 20px,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,0.08),inset 0 0 30px #000,0 16px 44px #000000cc;position:relative;min-width:0}
+.chassis-bolt{position:absolute;width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#5a856f 0%,#1a2f24 70%,#09130e 100%);box-shadow:inset 0 0 2px #000,0 1px 3px #000;border:1px solid #112018;z-index:1}
+.bolt-tl{top:10px;left:10px}.bolt-tr{top:10px;right:10px}.bolt-bl{bottom:10px;left:10px}.bolt-br{bottom:10px;right:10px}
+.arkham-investigation .patient-file .console-bar{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid #243a31}
+.console-case-track{display:flex;align-items:center;gap:10px}
+.case-badge{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.14em;color:#2fe58b}
+.dept-badge{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.12em;color:#5c8570;border-left:1px solid #284436;padding-left:10px}
+.arkham-investigation .patient-file .security-level{color:#e6a759;font-size:9px;letter-spacing:.16em;font-family:ui-monospace,monospace}
 
-/* Patient Identity & Stencil Badge */
-.arkham-investigation .patient-identity{display:flex;align-items:center;gap:24px;padding:24px 0 20px}
-.patient-monogram-frame{display:flex;flex-direction:column;align-items:center;gap:5px;flex-shrink:0}
-.arkham-investigation .patient-monogram{width:96px;height:112px;display:grid;place-items:center;border:1px solid #3d6051;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);background:repeating-linear-gradient(45deg,#0a1612 0,#0a1612 4px,#0e1e19 4px,#0e1e19 8px);color:#2fe58b;font-family:var(--arkham-font);font-size:36px;font-weight:700;letter-spacing:.06em;text-shadow:0 0 12px #2fe58b66;box-shadow:inset 0 0 16px #000000cc}
-.monogram-tag{font:9px/1.4 ui-monospace,monospace;letter-spacing:.18em;color:#729986}
+/* Patient Identity, Barcode & Stencil Badge */
+.arkham-investigation .patient-identity{display:flex;align-items:center;gap:26px;padding:24px 0 20px;position:relative}
+.patient-monogram-frame{display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0}
+.arkham-investigation .patient-monogram{width:96px;height:112px;display:grid;place-items:center;border:1px solid #3d6051;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);background:repeating-linear-gradient(45deg,#0a1612 0,#0a1612 4px,#0e1e19 4px,#0e1e19 8px);color:#2fe58b;font-family:var(--arkham-font);font-size:36px;font-weight:700;letter-spacing:.06em;text-shadow:0 0 14px #2fe58b66;box-shadow:inset 0 0 16px #000000cc}
+.monogram-tag{font:9px/1.4 ui-monospace,monospace;letter-spacing:.16em;color:#729986}
 .patient-dossier-meta{flex:1;min-width:0}
 .patient-meta-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:6px}
 .patient-meta-header .label{margin:0;color:#78ad94;font-size:10px;letter-spacing:.14em}
+.security-badges{display:flex;align-items:center;gap:8px}
 .threat-badge{font:9px/1.3 ui-monospace,monospace;letter-spacing:.12em;color:#ff6b57;background:#2b120f;padding:2px 7px;border:1px solid #d44d3b55;border-radius:2px}
-.patient-dossier-meta h2{font-size:32px;font-family:var(--arkham-font);letter-spacing:.05em;color:#edfdf5;margin:4px 0 2px}
-.patient-en-name{font-size:14px;color:#92b8a7;margin:0 0 8px;letter-spacing:.04em}
-.patient-dossier-meta .fine{font-size:12px;color:#6d9180;margin:0}
+.containment-badge{font:9px/1.3 ui-monospace,monospace;letter-spacing:.12em;color:#e6a759;background:#24190c;padding:2px 7px;border:1px solid #d4913b55;border-radius:2px}
+.patient-dossier-meta h2{font-size:34px;font-family:var(--arkham-font);letter-spacing:.06em;color:#edfdf5;margin:4px 0 2px}
+.patient-en-name{font-size:14px;color:#92b8a7;margin:0 0 10px;letter-spacing:.04em}
+.inmate-telemetry-strip{display:flex;align-items:center;flex-wrap:wrap;gap:16px}
+.barcode-card{display:flex;align-items:center;gap:8px;background:#050c08;padding:3px 8px;border:1px solid #1a3325;border-radius:2px}
+.inmate-barcode-svg{display:block;width:96px;height:16px}
+.barcode-card code{font:9px/1 ui-monospace,monospace;color:#6d9681;letter-spacing:.1em}
+.identity-tag{font-size:12px;color:#7ba390;margin:0}
+.identity-tag strong{color:#e6f3ec}
+.dossier-stamp-seal{position:absolute;right:10px;top:20px;pointer-events:none;transform:rotate(-12deg);opacity:.75}
+.stamp-inner{display:flex;flex-direction:column;align-items:center;gap:2px;border:2px dashed #d94b3888;color:#e6523f;padding:4px 10px;border-radius:3px;font-family:ui-monospace,monospace;text-transform:uppercase;box-shadow:inset 0 0 6px #d94b3822}
+.stamp-inner span{font-size:8px;letter-spacing:.14em}
+.stamp-inner strong{font-size:11px;letter-spacing:.18em;font-weight:800}
+.stamp-inner small{font-size:7px;letter-spacing:.12em}
 
 /* Clinical Observation */
 .arkham-investigation .listening-question{border-top:1px dashed #243a31;padding:18px 0;color:#b2cfc1}
-.arkham-investigation .listening-question .label{font-size:10px;color:#2fe58b;letter-spacing:.14em;margin-bottom:8px}
+.observation-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.arkham-investigation .listening-question .label{font-size:10px;color:#2fe58b;letter-spacing:.14em;margin:0}
+.observation-tag{font:8px/1 ui-monospace,monospace;letter-spacing:.12em;color:#5c8570;background:#0a1711;padding:2px 6px;border:1px solid #1c3628;border-radius:2px}
 .arkham-investigation .listening-question>p:last-child{line-height:1.85;font-size:14px;margin:0}
 
 /* Patient Recording Spoiler Container */
-.arkham-investigation .patient-recording{margin:18px 0 0;padding:22px;background:#09120e;border:1px solid #233b30;clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+.arkham-investigation .patient-recording{margin:18px 0 0;padding:24px;background:#08100c;border:1px solid #233b30;clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
 .arkham-investigation .patient-recording>summary{color:#7ee0af;cursor:pointer;line-height:1.8;font-size:14px;font-weight:600;letter-spacing:.04em}
 .arkham-investigation .patient-recording>summary:hover{color:#2fe58b;text-shadow:0 0 8px #2fe58b44}
 .arkham-investigation .patient-recording>p{line-height:1.9}
 
 /* Vintage Reel-to-Reel Tape Recorder Console */
-.arkham-investigation .tape-console{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:20px;margin:22px 0;padding:20px 24px;background:linear-gradient(180deg,#101e17 0%,#08120d 100%);border:2px solid #2b4537;box-shadow:inset 0 4px 16px #000000cc,0 6px 20px #00000088;position:relative}
-.tape-deck-housing{display:flex;flex-direction:column;gap:12px;background:#050c08;border:1px solid #1c3327;padding:14px 16px;border-radius:3px;box-shadow:inset 0 2px 8px #000}
-.tape-deck-topbar{display:flex;justify-content:space-between;align-items:center;font:9px/1.2 ui-monospace,monospace;color:#618c77;letter-spacing:.12em;padding-bottom:8px;border-bottom:1px solid #16291f}
-.tape-deck-brand{color:#2fe58b}
+.arkham-investigation .tape-console{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:20px;margin:22px 0;padding:22px 24px;background:linear-gradient(180deg,#13241b 0%,#07120d 100%);border:2px solid #2f523f;box-shadow:inset 0 4px 20px #000,0 10px 32px #000;position:relative}
+.tape-deck-housing{display:flex;flex-direction:column;gap:14px;background:#030805;border:1px solid #1c3628;padding:16px 18px;border-radius:4px;box-shadow:inset 0 3px 12px #000;position:relative}
+.chassis-screw{position:absolute;width:7px;height:7px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#4d755f 0%,#15241b 80%);box-shadow:inset 0 0 2px #000;border:0.6px solid #0d1712}
+.screw-tl{top:6px;left:6px}.screw-tr{top:6px;right:6px}.screw-bl{bottom:6px;left:6px}.screw-br{bottom:6px;right:6px}
+.tape-deck-topbar{display:flex;justify-content:space-between;align-items:center;font:9px/1.2 ui-monospace,monospace;color:#618c77;letter-spacing:.12em;padding-bottom:10px;border-bottom:1px solid #16291f}
+.deck-brand-block{display:flex;align-items:center;gap:6px}
+.deck-badge-rivet{display:block;width:4px;height:4px;border-radius:50%;background:#e6a759;box-shadow:0 0 3px #e6a75966}
+.tape-deck-brand{color:#2fe58b;font-weight:700}
+.deck-specs{display:flex;align-items:center;gap:10px}
 .tape-deck-speed{color:#e6a759}
+.tape-deck-serial{color:#4a6d59}
 
-/* Dual Spools & Tape Transport Mechanism */
-.arkham-investigation .tape-reels{display:flex;align-items:center;justify-content:center;gap:14px;padding:10px 0;position:relative}
-.arkham-investigation .tape-reels .spool{display:block;width:76px;height:76px;flex-shrink:0;border-radius:50%;position:relative;animation:terminal-reel 3.2s linear infinite;animation-play-state:paused;box-shadow:0 0 10px #00000088}
+/* Dual Large Precision Spools & Mechanical Bridge */
+.arkham-investigation .tape-reels{display:flex;justify-content:space-between;align-items:center;padding:16px 12px;background:radial-gradient(ellipse at 50% 30%,#0c1a13 0%,#040906 100%);border:1px solid #172f22;border-radius:4px;box-shadow:inset 0 4px 16px #000;position:relative}
+.arkham-investigation .tape-reels .spool{display:block;width:116px;height:116px;flex-shrink:0;border-radius:50%;position:relative;animation:terminal-reel 3.2s linear infinite;animation-play-state:paused;box-shadow:0 8px 24px rgba(0,0,0,0.85);transition:transform .2s ease-out}
 .arkham-investigation .is-playing .tape-reels .spool{animation-play-state:running}
 .reel-spool-svg{display:block;width:100%;height:100%}
-.tape-bridge{display:flex;align-items:center;justify-content:center;gap:6px;flex:1;max-width:140px;position:relative}
-.tape-ribbon{display:block;position:absolute;left:-8px;right:-8px;height:3px;background:#1a100a;border-top:1px solid #332014;border-bottom:1px solid #000;top:50%;transform:translateY(-50%);z-index:0}
-.tape-head-block{position:relative;z-index:1;display:flex;gap:3px;padding:3px 5px;background:#1c2d24;border:1px solid #3d5a49;border-radius:2px;box-shadow:0 1px 4px #000}
-.head-unit{display:block;width:8px;height:12px;background:#0d1813;border:1px solid #4a6d5a}
-.tape-roller{position:relative;z-index:1;display:block;width:10px;height:10px;border-radius:50%;background:#4e735e;border:2px solid #233a2e}
+.tape-bridge{display:flex;align-items:center;justify-content:space-between;flex:1;max-width:240px;margin:0 10px;position:relative;height:76px}
+.tape-ribbon{display:block;position:absolute;left:0;right:0;height:4px;background:linear-gradient(180deg,#3d2214 0%,#1c0e07 50%,#351c0f 100%);border-top:0.8px solid #4a2b1a;border-bottom:0.8px solid #000;top:50%;transform:translateY(-50%);z-index:1}
+.tension-arm{position:relative;z-index:2;display:flex;align-items:center}
+.tension-roller{display:block;width:11px;height:11px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#6d9e84 0%,#243d30 70%,#0c1812 100%);border:1px solid #14261d;box-shadow:0 1px 4px #000}
+.tape-head-block{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px 6px;background:linear-gradient(180deg,#203529 0%,#122119 100%);border:1px solid #436954;border-radius:3px;box-shadow:0 4px 12px #000,inset 0 1px 0 rgba(255,255,255,0.1)}
+.head-top-plate{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%}
+.head-plate-label{font:7px ui-monospace,monospace;color:#5a856e;letter-spacing:.1em}
+.azimuth-screw{display:block;width:4px;height:4px;border-radius:50%;background:#385747;border:0.5px solid #182b20}
+.head-cluster{display:flex;gap:4px}
+.head-unit{display:flex;flex-direction:column;align-items:center;gap:1px;padding:3px 4px;background:#0b1611;border:1px solid #3c5e4b;border-radius:2px}
+.head-core{display:block;width:7px;height:10px;background:linear-gradient(180deg,#1c2f25 0%,#0e1913 100%);border:0.5px solid #4d7a62}
+.head-unit small{font:6px ui-monospace,monospace;color:#5b8770;letter-spacing:.05em}
+.tape-lifter-bar{display:flex;justify-content:space-between;width:100%}
+.lifter-pin{display:block;width:3px;height:3px;border-radius:50%;background:#4e7862}
+.capstan-assembly{position:relative;z-index:2;display:flex;align-items:center;gap:2px}
+.capstan-shaft{display:block;width:5px;height:12px;background:linear-gradient(90deg,#88baa0 0%,#3d5c4b 100%);border-radius:1px}
+.pinch-roller{display:flex;align-items:center;justify-content:center;width:13px;height:13px;border-radius:50%;background:#0a120e;border:1px solid #283e33;box-shadow:0 1px 4px #000}
+.pinch-cap{display:block;width:5px;height:5px;border-radius:50%;background:#cfa75a}
 
-/* VU Meter & Telemetry */
-.tape-deck-meter-panel{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:10px;border-top:1px solid #16291f}
-.vu-meter{display:flex;flex-direction:column;gap:3px}
-.vu-dial{position:relative;width:110px;height:32px;background:#0a1711;border:1px solid #203b2e;border-radius:2px;overflow:hidden;box-shadow:inset 0 1px 6px #000;display:flex;align-items:flex-end;justify-content:center;padding-bottom:3px}
-.vu-scale{position:absolute;top:3px;left:0;right:0;text-align:center;font:7px/1 ui-monospace,monospace;color:#4a745f;letter-spacing:.04em}
-.vu-needle{position:absolute;bottom:0;left:50%;width:1.5px;height:24px;background:#ff4d3b;transform-origin:bottom center;transform:rotate(-22deg);transition:transform .2s ease-out}
-.arkham-investigation .is-playing .vu-needle{animation:vu-swing 1.4s ease-in-out infinite alternate}
-@keyframes vu-swing{0%{transform:rotate(-22deg)}20%{transform:rotate(-4deg)}40%{transform:rotate(-14deg)}60%{transform:rotate(8deg)}80%{transform:rotate(-2deg)}100%{transform:rotate(-12deg)}}
-.vu-title{font:8px/1 ui-monospace,monospace;color:#5a846f;letter-spacing:.1em}
-.tape-deck-telemetry{display:flex;align-items:center;gap:12px}
+/* Dual Analog VU Meters & Telemetry Controls */
+.tape-deck-meter-panel{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:12px;border-top:1px solid #162b20}
+.vu-meter-pair{display:flex;gap:12px;align-items:center}
+.vu-meter{display:flex;flex-direction:column;align-items:center;gap:3px}
+.vu-dial{position:relative;width:114px;height:46px;background:radial-gradient(ellipse at 50% 90%,#102419 0%,#050e09 100%);border:1px solid #234332;border-radius:3px;overflow:hidden;box-shadow:inset 0 2px 8px #000;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding-bottom:2px}
+.vu-glass-glare{position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.12) 0%,rgba(255,255,255,0.02) 40%,transparent 40%);pointer-events:none;z-index:3}
+.vu-scale-svg{display:block;width:100%;height:100%;position:absolute;inset:0;pointer-events:none}
+.vu-needle{position:absolute;bottom:0;left:50%;width:1.5px;height:32px;background:#ff4736;transform-origin:bottom center;transform:rotate(-24deg);transition:transform .2s ease-out;z-index:2;box-shadow:0 0 3px rgba(255,71,54,0.5)}
+.arkham-investigation .is-playing .needle-ch1{animation:vu-swing-ch1 1.4s ease-in-out infinite alternate}
+.arkham-investigation .is-playing .needle-ch2{animation:vu-swing-ch2 1.6s ease-in-out .15s infinite alternate}
+@keyframes vu-swing-ch1{0%{transform:rotate(-24deg)}15%{transform:rotate(-8deg)}30%{transform:rotate(-18deg)}45%{transform:rotate(4deg)}65%{transform:rotate(-4deg)}80%{transform:rotate(12deg)}100%{transform:rotate(-10deg)}}
+@keyframes vu-swing-ch2{0%{transform:rotate(-24deg)}20%{transform:rotate(-12deg)}35%{transform:rotate(2deg)}50%{transform:rotate(-16deg)}70%{transform:rotate(9deg)}85%{transform:rotate(-6deg)}100%{transform:rotate(-14deg)}}
+.vu-pivot{position:absolute;bottom:-3px;left:calc(50% - 3.5px);width:7px;height:7px;border-radius:50%;background:#0c1812;border:1px solid #3d604e;z-index:3}
+.vu-peak-led{position:absolute;top:4px;right:5px;width:4px;height:4px;border-radius:50%;background:#3d110d;border:0.5px solid #240806;z-index:3}
+.arkham-investigation .is-playing .vu-peak-led{animation:vu-peak-flash 2.6s ease-in-out infinite}
+@keyframes vu-peak-flash{0%,75%,100%{background:#3d110d;box-shadow:none}78%{background:#ff3b30;box-shadow:0 0 6px #ff3b30}82%{background:#3d110d;box-shadow:none}86%{background:#ff3b30;box-shadow:0 0 6px #ff3b30}}
+.vu-title{font:8px/1 ui-monospace,monospace;color:#5a8770;letter-spacing:.1em;margin-top:2px}
+
+/* Telemetry Counter, Pilot Lamps & Toggle Switches */
+.tape-deck-telemetry{display:flex;align-items:center;gap:14px}
 .tape-counter-box{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
-.tape-counter-box small{font:7px/1 ui-monospace,monospace;color:#527865;letter-spacing:.1em}
-.tape-counter{font:11px/1 ui-monospace,monospace;letter-spacing:.12em;color:#2fe58b;background:#050d09;padding:3px 6px;border:1px solid #1e382b;border-radius:2px}
-.tape-rec-box{display:flex;align-items:center}
-.tape-rec-led{font:9px/1 ui-monospace,monospace;color:#61201d;letter-spacing:.12em;padding:3px 6px;border:1px solid #4a1917;border-radius:2px;transition:all .3s}
+.counter-header{display:flex;align-items:center;gap:4px}
+.counter-header small{font:7px/1 ui-monospace,monospace;color:#527865;letter-spacing:.1em}
+.counter-reset-dot{display:block;width:3px;height:3px;border-radius:50%;background:#4e735e;cursor:pointer}
+.tape-counter{display:inline-flex;align-items:center;gap:1px;background:#030805;padding:2px 4px;border:1px solid #1a3325;border-radius:2px}
+.odo-slot{font:11px/1 ui-monospace,monospace;color:#2fe58b;background:#0a1711;padding:1px 3px;border:0.5px solid #1c3628;border-radius:1px}
+.odo-div{font:11px/1 ui-monospace,monospace;color:#2fe58b88}
+.deck-pilot-group{display:flex;flex-direction:column;gap:3px}
+.pilot-jewel{display:flex;align-items:center;gap:4px}
+.pilot-jewel small{font:7px/1 ui-monospace,monospace;color:#527a65}
+.pwr-led{display:block;width:6px;height:6px;border-radius:50%;background:#2fe58b;box-shadow:0 0 6px #2fe58b;border:0.5px solid #1c3628}
+.tape-rec-led{font:8px/1 ui-monospace,monospace;color:#541c19;letter-spacing:.1em;padding:2px 5px;border:1px solid #381210;border-radius:2px;transition:all .3s}
 .arkham-investigation .is-playing .tape-rec-led{color:#ff3b30;border-color:#ff3b30;text-shadow:0 0 6px #ff3b30;animation:rec-glow 1.2s ease-in-out infinite}
 @keyframes rec-glow{50%{opacity:.45}}
+.deck-switch-group{display:flex;flex-direction:column;gap:4px}
+.switch-toggle{display:flex;align-items:center;gap:4px}
+.switch-toggle small{font:7px/1 ui-monospace,monospace;color:#4a6e5b}
+.toggle-bar{display:block;width:10px;height:4px;background:linear-gradient(90deg,#3d5e4b 0%,#6d9e84 100%);border-radius:2px;box-shadow:0 1px 2px #000}
 
-.tape-console-sidebar{display:flex;flex-direction:column;justify-content:center;gap:6px}
+/* Sidebar Telemetry Console */
+.tape-console-sidebar{display:flex;flex-direction:column;justify-content:space-between;gap:8px}
+.sidebar-header{display:flex;justify-content:space-between;align-items:center}
 .tape-console-sidebar .label{color:#2fe58b;font-size:10px;letter-spacing:.12em;margin:0}
-.tape-console-sidebar .fine{color:#769c89;font-size:11px;margin:0}
-.arkham-investigation .playback-state{font-size:12px;color:#9fe0c0;line-height:1.6}
+.deck-mode-badge{font:8px/1 ui-monospace,monospace;color:#e6a759;background:#1e1408;padding:2px 5px;border:1px solid #d4913b44;border-radius:2px}
+.sidebar-telemetry-box{display:flex;flex-direction:column;gap:4px;background:#050c08;border:1px solid #1a3325;padding:8px 10px;border-radius:3px}
+.telemetry-row{display:flex;justify-content:space-between;align-items:center}
+.t-key{font:8px/1 ui-monospace,monospace;color:#527a65;letter-spacing:.08em}
+.t-val{font:8px/1 ui-monospace,monospace;color:#2fe58b;letter-spacing:.08em}
+.credit-tag{color:#729986;font-size:11px;margin:2px 0}
+.playback-state-wrapper{display:flex;align-items:center;gap:6px}
+.state-led-pip{display:block;width:5px;height:5px;border-radius:50%;background:#381613;border:0.5px solid #200806}
+.arkham-investigation .is-playing .state-led-pip{background:#2fe58b;border-color:#2fe58b;box-shadow:0 0 6px #2fe58b;animation:rec-glow 1.2s ease-in-out infinite}
+.arkham-investigation .playback-state{font-size:12px;color:#9fe0c0;line-height:1.6;margin:0}
 
-/* Cassette Push-Buttons - Piano Key Mechanics */
+/* Piano-Key Cassette Transport Push Buttons */
 .tape-selector{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:20px 0 14px}
-.tape-selector .cassette-btn,.tape-selector button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;padding:12px 6px;border:1px solid #233e31;background:linear-gradient(180deg,#14261d 0%,#091510 100%);clip-path:polygon(6px 0,calc(100% - 6px) 0,100% 6px,100% 100%,0 100%,0 6px);color:#8cb5a1;font:inherit;cursor:pointer;transition:all .15s ease-out;position:relative;min-width:0}
-.tape-selector .cassette-btn:hover,.tape-selector button:hover{border-color:#3f6954;color:#eafaf0;transform:translateY(-2px)}
-.tape-selector .cassette-btn[aria-pressed=true],.tape-selector button[aria-pressed=true]{background:linear-gradient(180deg,#1c3d2b 0%,#0e2117 100%);border-color:#2fe58b;color:#2fe58b;box-shadow:inset 0 2px 8px #000,0 0 12px #2fe58b2e;transform:translateY(1px)}
-.cassette-label{font-size:11px;font-weight:700;letter-spacing:.1em;color:inherit}
+.tape-selector .cassette-btn,.tape-selector button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;padding:14px 6px 12px;border:1px solid #233e31;border-top:2px solid #3d6852;background:linear-gradient(180deg,#182b21 0%,#091510 100%);clip-path:polygon(6px 0,calc(100% - 6px) 0,100% 6px,100% 100%,0 100%,0 6px);color:#8cb5a1;font:inherit;cursor:pointer;transition:all .16s ease-out;position:relative;min-width:0;box-shadow:inset 0 1px 0 rgba(255,255,255,0.08),0 4px 10px #000}
+.cassette-track-pip{display:block;width:12px;height:3px;background:#050c08;border-radius:1px;margin-bottom:2px;display:flex;align-items:center;justify-content:center}
+.pip-core{display:block;width:4px;height:2px;background:#203a2d;border-radius:1px}
+.tape-selector .cassette-btn:hover,.tape-selector button:hover{border-color:#3f6954;border-top-color:#79c7e3;color:#eafaf0;transform:translateY(-2px)}
+.tape-selector .cassette-btn[aria-pressed=true],.tape-selector button[aria-pressed=true]{background:linear-gradient(180deg,#1d402d 0%,#0e2419 100%);border-color:#2fe58b;color:#2fe58b;box-shadow:inset 0 3px 8px #000,0 0 14px #2fe58b2e;transform:translateY(2px)}
+.tape-selector [aria-pressed=true] .pip-core{background:#2fe58b;box-shadow:0 0 6px #2fe58b}
+.cassette-label{font-size:12px;font-weight:700;letter-spacing:.1em;color:inherit}
 .tape-selector small{font:9px/1 ui-monospace,monospace;color:#6c927f}
 .tape-selector [aria-pressed=true] small{color:#bdf5d9}
+.cassette-sub{font:7px/1 ui-monospace,monospace;color:#4e735e;letter-spacing:.08em}
+.tape-selector [aria-pressed=true] .cassette-sub{color:#7ae6ae}
 
-/* Telemetry Bar & CRT Waveform Chassis */
+/* CRT Phosphor Oscilloscope Monitor Chassis */
 .tape-deck-telemetry{display:flex;justify-content:space-between;align-items:center;font-size:11px;margin:0 0 8px}
 .tape-deck-telemetry .tape-label{color:#2fe58b;margin:0;font-family:ui-monospace,monospace;letter-spacing:.12em}
 .vu-meter-tag{font:9px/1 ui-monospace,monospace;color:#618c77;letter-spacing:.12em}
-.waveform-chassis{position:relative;margin:12px 0 16px}
-.db-scale{position:absolute;right:8px;top:10px;bottom:10px;display:flex;flex-direction:column;justify-content:space-between;font:8px/1 ui-monospace,monospace;color:#2fe58b44;pointer-events:none;text-align:right}
-.voice-waveform{display:block;width:100%;height:100px;background:#050c08;border:1px solid #1e382b;box-shadow:inset 0 0 15px #000000cc}
+.waveform-chassis.crt-monitor-chassis{position:relative;margin:12px 0 16px;border:2px solid #264434;border-radius:4px;background:#020704;box-shadow:inset 0 0 24px #000,0 6px 18px #000;overflow:hidden}
+.crt-hud-overlay{position:absolute;inset:0;pointer-events:none;z-index:2}
+.crt-hud-grid{display:flex;justify-content:space-between;position:absolute;inset:6px 10px;pointer-events:none;font:7px ui-monospace,monospace;letter-spacing:.1em}
+.hud-item{color:#2fe58b88;text-shadow:0 0 4px #2fe58b44}
+.crt-graticule{position:absolute;inset:0;background-image:radial-gradient(#2fe58b16 1px,transparent 1px);background-size:24px 24px;pointer-events:none}
+.crt-scanlines{position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 2px,rgba(0,0,0,0.3) 2px 4px);pointer-events:none}
+.crt-glare{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 15%,rgba(255,255,255,0.06) 0%,transparent 65%);pointer-events:none}
+.db-scale{position:absolute;right:8px;top:10px;bottom:10px;display:flex;flex-direction:column;justify-content:space-between;font:8px/1 ui-monospace,monospace;color:#2fe58b44;pointer-events:none;text-align:right;z-index:3}
+.voice-waveform{display:block;width:100%;height:106px;background:#020704;box-shadow:inset 0 0 16px #000000cc;filter:drop-shadow(0 0 4px #2fe58b55)}
 .recording-subtitles{padding:16px 0 20px;min-height:92px;border-top:1px dashed #20382b}
-.recording-subtitles .label{font-size:10px;color:#2fe58b;letter-spacing:.14em;margin-bottom:8px}
+.transcript-title-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.recording-subtitles .label{font-size:10px;color:#2fe58b;letter-spacing:.14em;margin:0}
+.transcript-sync-badge{font:8px/1 ui-monospace,monospace;color:#2fe58b;background:#0d2319;padding:2px 6px;border:1px solid #2fe58b44;border-radius:2px}
 .recording-subtitles [data-subtitle]{line-height:1.85;font-size:15px;color:#e8fbf1;margin:0}
 
 /* Native & Fallback Audio Players */
@@ -156,18 +242,24 @@
 @media(max-width:900px){
   .arkham-investigation .investigation-workspace{grid-template-columns:1fr}
   .arkham-investigation .patient-workspace{grid-template-columns:1fr;gap:20px}
-  .arkham-investigation .patient-selector{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px}
+  .arkham-investigation .patient-selector{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;padding-left:0;border-left:none}
   .arkham-investigation .tape-console{grid-template-columns:1fr}
 }
 @media(max-width:640px){
   .arkham-investigation .patient-selector{grid-template-columns:1fr}
   .arkham-investigation .patient-identity{flex-direction:column;align-items:flex-start;gap:14px}
-  .arkham-investigation .patient-file{padding:16px}
+  .arkham-investigation .patient-file{padding:18px}
   .tape-selector{grid-template-columns:repeat(5,1fr);gap:4px}
   .tape-selector .cassette-btn,.tape-selector button{padding:8px 2px}
   .cassette-label{font-size:9px}
-  .tape-reels .spool{width:56px;height:56px}
-  .vu-dial{width:80px}
+  .tape-reels .spool{width:78px;height:78px}
+  .vu-meter-pair{gap:6px}
+  .vu-dial{width:86px;height:38px}
+  .tape-bridge{max-width:120px;margin:0 4px}
+  .head-cluster{gap:2px}
+  .head-unit{padding:2px 2px}
+  .head-core{width:5px;height:7px}
+  .dossier-stamp-seal{position:static;transform:none;margin-top:6px}
 }
 @media(prefers-reduced-motion:reduce){
   .arkham-investigation *{animation:none!important;transition:none!important}
