@@ -4,7 +4,7 @@
     {
       "id": "graysons",
       "title": "墙上的飞人格雷森",
-      "subtitle": "一张海报，三重身份",
+      "subtitle": "残破海报：三重身份物证",
       "image": "city-flying-graysons",
       "entry": "city-amusement-mile-02",
       "research": "graysons",
@@ -14,12 +14,12 @@
         "x": 56,
         "y": 43
       },
-      "summary": "娱乐区的Flying Graysons海报把一支杂技团带进城市街景。沿海报中的家庭名字，调查通向Dick Grayson的出身，再展开Robin与Nightwing两个阶段。城市中的一件旧物，由此连起一个人物的成长。",
+      "summary": "娱乐区建筑残骸上的Flying Graysons海报是关键现场物证。通过海报上的杂技家族名称，调查链直指第一代罗宾迪克·格雷森的惨案起源，并串联起其蜕变为夜翼的战术履历。一张残破广告，见证了哥谭守护者的阵痛与蜕变。",
       "evidence": [
         {
           "label": "OBJECT IDENTIFIED",
           "title": "Flying Graysons海报",
-          "body": "楼体上的海报保留Flying Graysons字样。《阿卡姆之城》的娱乐区以这一物件留下格雷森一家的舞台记忆。",
+          "body": "娱乐区破损外墙上依然辨识出Flying Graysons海报。这一环境物证记录了格雷森家族在哥谭杂技团遭遇黑帮暗害前的最后历史印记。",
           "sources": [
             "city-amusement-mile"
           ],
@@ -47,17 +47,17 @@
         {
           "label": "HISTORY LINK",
           "title": "Robin与Nightwing",
-          "body": "哥谭故事A New Robin将家庭经历与Robin、Nightwing的身份连接起来。同一个人物走过不同阶段，旧海报仍保存他最初的名字。",
+          "body": "机要档案A New Robin将惨剧经历与Robin、Nightwing的身份演变深度串联。同一人物走过不同战术阶段，旧海报封存着最初的姓名。",
           "sources": [
             "city-stories"
           ],
           "links": [
             {
-              "title": "A New Robin · 含背景剧情",
+              "title": "A New Robin · 含机密档案",
               "url": "/arkham/archive/stories/#city-robin"
             },
             {
-              "title": "城市里的家庭记忆",
+              "title": "格雷森家族物证与起源考据",
               "url": "/arkham/archive/stories/#poster-graysons"
             }
           ]
@@ -67,7 +67,7 @@
     {
       "id": "scarface",
       "title": "玻璃后面的声音",
-      "subtitle": "木偶、人物与控制",
+      "subtitle": "腹语木偶与分裂人格",
       "image": "city-scarface",
       "entry": "city-museum-01",
       "research": "scarface",
@@ -77,7 +77,7 @@
         "x": 62,
         "y": 56
       },
-      "summary": "博物馆的Scarface陈列物先提供一个可见的形象，再把调查引向腹语者及两者的关系。木偶与操纵者共同构成角色；当它被放进展示柜，观察者看到的是一件藏品，也是一段关于声音与控制的故事。",
+      "summary": "企鹅人战利品陈列馆中的Scarface木偶是关键涉案证物。调查揭示了木偶与操纵者阿诺德·韦斯克之间病态的精神控制共生关系。这件陈列品不仅是黑帮头目的残存象征，更是哥谭精神分裂犯罪史的典型标本。",
       "evidence": [
         {
           "label": "OBJECT IDENTIFIED",
@@ -126,7 +126,7 @@
     {
       "id": "oracle",
       "title": "钟楼里的空战衣",
-      "subtitle": "装备如何保存一个身份",
+      "subtitle": "封存装备与情报中枢",
       "image": "knight-batgirl",
       "entry": "knight-bleake-06",
       "research": "oracle",
@@ -136,7 +136,7 @@
         "x": 61,
         "y": 51
       },
-      "summary": "钟楼战衣把Barbara曾经以Batgirl行动的身份留在室内。沿这套装备，调查转向Oracle与她的信息工作，再回到漫画中的身份记录。空战衣既是一件旧装备，也让不同阶段的Barbara在同一处空间相遇。",
+      "summary": "哥谭钟楼秘密基地中封存的蝙蝠少女战衣，见证了芭芭拉·戈登从一线义警转变为情报中枢神谕（Oracle）的残酷转折。战衣上的创伤痕迹与战术终端口令，记录了一名战士在重创后以数字化网络重新主宰战场的坚韧历程。",
       "evidence": [
         {
           "label": "OBJECT IDENTIFIED",

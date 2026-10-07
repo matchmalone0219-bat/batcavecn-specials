@@ -50,16 +50,16 @@ def build_interactions(data, shell):
     first = case_data[0]
     tabs = ''.join(f'<a href="#case-{esc(c["id"])}" data-case="{esc(c["id"])}"><span>{c["number"]}</span>{esc(c["title"])}</a>' for c in case_data)
     detective = f'''<section class="section arkham-investigation" data-detective>
-<div class="terminal-heading"><p class="label">BATCOMPUTER / DETECTIVE MODE</p><h1>案件重建</h1><p class="lead">从一件物品出发，沿人物与历史完成调查。</p><p class="fine">专题调查 · 含角色背景与身份信息</p></div>
+<div class="terminal-heading"><p class="label">BATCOMPUTER / DETECTIVE MODE</p><h1>现场案件重建</h1><p class="lead">锁定关键物证，沿物证链推演现场始末与嫌犯心理侧写。</p><p class="fine">机密案件调查 · 含现场物证分析与嫌犯身份档案</p></div>
 <nav class="case-register" aria-label="选择调查">{tabs}</nav>
 <div class="investigation-workspace" hidden data-workspace>
 <section class="scene-console"><div class="console-bar"><span data-case-number>CASE 01</span><span data-mode-label>NORMAL VISION</span></div><h2 data-case-title>{esc(first['title'])}</h2><p class="scene-location" data-location>{esc(first['game'])} · {esc(first['region'])}</p>
 <div class="investigation-scene" data-scene><img data-scene-image src="{first['src']}" width="{first['width']}" height="{first['height']}" alt="{esc(first['caption'])}"><div class="scan-grid" aria-hidden="true"></div><button type="button" class="scan-hotspot" data-scan hidden aria-label="扫描现场物件"><span>01</span><small>SCAN</small></button></div>
 <div class="scan-controls"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span></div><p class="fine" data-scene-caption>{esc(first['caption'])}</p><div data-scene-source>{first['sourceHtml']}</div></section>
 <aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div><div data-evidence-sources></div></div></aside></div>
-<section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>线索已经连成一段故事</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>继续阅读关联档案</a><button type="button" data-reset>重新调查本案</button></div></section>
+<section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
 <div class="terminal-fallback" data-case-fallback>{fallback}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>听见档案中的人物</h2><p>打开七组患者访谈，沿人物的声音继续阅读。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与片尾绝唱。</p></a></div>
+<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>打开七组重点收治对象问诊录音，审查异常心理评估。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a></div>
 <script type="application/json" data-case-data>{payload}</script></section>'''
 
     def make_nab_spool(is_left=True, uid='spool'):
@@ -328,7 +328,7 @@ def build_interactions(data, shell):
 <span class="system-status-pips" aria-hidden="true">■■■■■ 7/7 INMATES ARCHIVED · LEVEL 4 RESTRICTED</span>
 </div>
 <h1>患者终端</h1>
-<p class="lead">选择一个人物，听医院如何记录他们，也听他们如何改变对话。</p>
+<p class="lead">调取阿卡姆收治档案，审查临床问诊录音与罪犯心理防御机制。</p>
 <p class="fine">收录阿卡姆疯人院 7 组角色共 35 盘现场心理评估录音 · 原声访谈与中文字幕</p>
 </div>
 <div class="patient-workspace">
@@ -336,12 +336,12 @@ def build_interactions(data, shell):
 <div class="patient-files">{panels}</div>
 </div>
 <div class="terminal-footer">
-<a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>回到现场调查</h2><p>扫描物件，连接人物与城市的记忆。</p></a>
-<a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与片尾绝唱。</p></a>
+<a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>进入现场调查</h2><p>扫描现场物证，沿证据链追查嫌疑人作案动机与背景。</p></a>
+<a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a>
 </div>
 </section>'''
-    record('案件重建 · Detective Mode', '扫描现场物件，沿证据链阅读人物与历史。', '/arkham/detective/')
-    record('患者终端', '七组患者访谈与聆听导读。', '/arkham/patients/')
+    record('案件重建 · Detective Mode', '扫描现场物证，沿物证链推演案情始末与嫌犯背景。', '/arkham/detective/')
+    record('患者终端', '七组患者临床心理评估录音与导读档案。', '/arkham/patients/')
 
     channels = transmissions['channels']
     channel_cards = ''

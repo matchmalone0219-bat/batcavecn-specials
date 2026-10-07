@@ -317,7 +317,7 @@
         "city-church-intro"
       ],
       "gist": "教堂医疗队获得Wayne捐助，供给受阻。",
-      "editorialAngle": "用医疗设施观察监狱城的日常生活。",
+      "editorialAngle": "从前线战地医疗设施透视阿卡姆之城的生存困境与物资断绝。",
       "sources": [
         "city-stories"
       ],
@@ -425,7 +425,7 @@
         "city-industrial-05"
       ],
       "gist": "Broker替罪犯安排地产，包括谜语人。",
-      "editorialAngle": "挑战场所怎样进入城市的日常运转？",
+      "editorialAngle": "黑市中介如何协助超级反派在哥谭建立地下犯罪据点？",
       "sources": [
         "city-stories"
       ],
@@ -497,7 +497,7 @@
         "knight-bleake-06"
       ],
       "gist": "Batgirl救人时遇到Joker设下的圈套。",
-      "editorialAngle": "旧战衣承载谁的历史？",
+      "editorialAngle": "封存战衣见证的创伤陷阱与身份转变。",
       "sources": [
         "knight-story-text-index"
       ],
@@ -606,8 +606,8 @@
     },
     {
       "id": "poster-graysons",
-      "title": "格雷森海报：城市里留下的家庭记忆",
-      "body": "《城》的Amusement Mile有Flying Graysons海报。将它与Robin的历史资料并置，可以读到Dick Grayson的家庭与身份背景；社区哥谭故事目录把它连接到A New Robin。",
+      "title": "格雷森海报：杂技家族惨案与身份起源考据",
+      "body": "《阿卡姆之城》娱乐区废墟残留的Flying Graysons海报是关键现场物证。将其与罗宾起源文献并置，可追溯迪克·格雷森家族遭遇黑帮灭门的惨剧始末；游戏内机要档案将其关联至A New Robin。",
       "sources": [
         "city-amusement-mile",
         "dc-robin",
@@ -621,8 +621,8 @@
     },
     {
       "id": "city-subsidence-note",
-      "title": "沉降告示：一个警示牌能讲多少城市历史",
-      "body": "《城》的沉降告示与Seismic Disturbances故事，把环境变化带入居民的处境。漫画Cataclysm同样以城市灾变展开，两者可以从题材和叙事视角比较。",
+      "title": "地质沉降告示：禁区灾变与地震破坏档案",
+      "body": "《阿卡姆之城》公园街残存的地面沉降告示与Seismic Disturbances机要档案，揭示了该区域被划为罪犯禁区前的地质浩劫。对比漫画《大地震》（Cataclysm），剖析自然灾变与人为封锁对哥谭基础设施的毁灭性打击。",
       "sources": [
         "city-park-row",
         "city-stories",
@@ -635,8 +635,8 @@
     },
     {
       "id": "barbara-suit-note",
-      "title": "旧战衣：Barbara的身份历程",
-      "body": "《骑士》的旧Batgirl战衣连接Barbara的过去身份，社区哥谭故事目录列对应篇目The Trap。另一条漫画阅读路线则从Batgirl走向The Killing Joke与Oracle，观察不同作品怎样表现伤害与转变。",
+      "title": "封存战衣：从蝙蝠少女到神谕情报中枢",
+      "body": "《阿卡姆骑士》钟楼封存的旧蝙蝠少女战衣，直接指向芭芭拉·戈登的负伤转折点（对应机要档案The Trap）。文献考据结合《致命玩笑》与《自杀小队#38》，剖析其从一线战力蜕变为蝙蝠家族数字指挥中枢的历程。",
       "sources": [
         "knight-bleake",
         "knight-story-text-index",
