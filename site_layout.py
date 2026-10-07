@@ -56,6 +56,8 @@ def shell(data, site, title, body, active=""):
     brand_subtitle = {"arkham": "阿卡姆协议", "tas": "TAS 动画档案"}.get(site, info["name"])
     footer_links = '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>' if site == "arkham" else '<a href="/arkham/">Protocol Arkham</a><a href="/tas/">Dark Deco</a><a href="/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>'
     scripts = arkham_scripts() if site == "arkham" else '<script src="/assets/app.js" defer></script>'
+    if site == "tas":
+        scripts += '<script src="/assets/tas-motion.js" defer></script>'
     effects = arkham_effects() if site == "arkham" else ''
     nav_html = ""
     for label, url, key in nav:

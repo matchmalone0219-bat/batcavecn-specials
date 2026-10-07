@@ -300,3 +300,30 @@
 .tas .cinema-feature,.tas .folio-mount,.tas .cinema-cover .reel-ticket{transition:none}
 .tas .cinema-feature:hover{transform:none}
 }
+
+/* Screening gestures leave text and ordinary reading links stationary. */
+.tas .tas-opening .cinema-ornament{animation:tas-deco-open 650ms ease-out both}
+.tas .tas-opening .reel-key-art{animation:tas-lights-on 850ms ease-out both}
+@keyframes tas-deco-open{from{clip-path:inset(0 50%)}to{clip-path:inset(0)}}
+@keyframes tas-lights-on{from{opacity:.12}to{opacity:1}}
+.tas .cinema-cover .reel-ticket.tas-ticket-ready{display:inline-flex;align-items:stretch;padding:0;border:0;background:transparent;clip-path:none;transition:transform .18s ease}
+.tas .reel-ticket.tas-ticket-ready:hover{transform:translateY(-2px)}
+.tas .tas-ticket-label,.tas .tas-ticket-stub{display:block;background:#9e3536;transition:background .18s ease,transform .28s ease}
+.tas .tas-ticket-label{padding:13px 22px;clip-path:polygon(0 0,100% 0,100% 20%,98% 30%,100% 40%,98% 50%,100% 60%,98% 70%,100% 80%,100% 100%,0 100%,0 75%,2% 65%,2% 35%,0 25%)}
+.tas .tas-ticket-stub{width:20px;margin-left:-1px;clip-path:polygon(0 0,100% 0,100% 25%,75% 35%,75% 65%,100% 75%,100% 100%,0 100%,0 80%,20% 70%,0 60%,20% 50%,0 40%,20% 30%,0 20%)}
+.tas .reel-ticket:hover .tas-ticket-label,.tas .reel-ticket:hover .tas-ticket-stub{background:#b14748}
+.tas .tas-ticket-tearing .tas-ticket-label{transform:translateX(-2px)}
+.tas .tas-ticket-tearing .tas-ticket-stub{transform:translate(10px,5px) rotate(8deg)}
+.tas .tas-entry-curtain{position:fixed;inset:0;z-index:1000;pointer-events:none;background:#080808;animation:tas-house-lights 310ms ease-in both}
+@keyframes tas-house-lights{from{opacity:0}to{opacity:1}}
+.tas .episode-title-card img.tas-projecting{animation:tas-projector-focus 560ms ease-out both}
+@keyframes tas-projector-focus{from{filter:blur(1.5px) brightness(.85);opacity:.8}to{filter:blur(0) brightness(1);opacity:1}}
+.tas .radio-mark span:before{content:"";display:inline-block;width:6px;height:6px;margin-right:8px;border-radius:50%;background:#ffb3a0;box-shadow:0 0 5px #ff8f7855;vertical-align:middle;opacity:.55;animation:tas-on-air 4s ease-in-out infinite;animation-play-state:paused}
+.tas .radio-mark.tas-on-air-visible span:before{animation-play-state:running}
+.tas.tas-backgrounded .radio-mark span:before{animation-play-state:paused}
+@keyframes tas-on-air{0%,100%{opacity:.55;box-shadow:0 0 5px #ff8f7855}50%{opacity:.9;box-shadow:0 0 8px #ff8f7888}}
+@media(prefers-reduced-motion:reduce){
+.tas .tas-opening .cinema-ornament,.tas .tas-opening .reel-key-art,.tas .episode-title-card img.tas-projecting,.tas .radio-mark span:before,.tas .tas-entry-curtain{animation:none}
+.tas .cinema-cover .reel-ticket.tas-ticket-ready,.tas .tas-ticket-label,.tas .tas-ticket-stub{transition:none;transform:none}
+.tas .reel-ticket.tas-ticket-ready:hover,.tas .tas-ticket-tearing .tas-ticket-label,.tas .tas-ticket-tearing .tas-ticket-stub{transform:none}
+}

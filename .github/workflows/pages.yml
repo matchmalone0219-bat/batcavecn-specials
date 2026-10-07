@@ -31,6 +31,7 @@ jobs:
           node verify-arkham-nav.js
           node verify-arkham-menu.js
           node verify-investigation.js
+          node verify-tas-motion.js
           node --check app.js
       - name: Configure Pages
         id: pages

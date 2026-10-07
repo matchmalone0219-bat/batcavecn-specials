@@ -41,7 +41,7 @@ def build(data=None):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(body)
     (DIST / "assets").mkdir(exist_ok=True)
-    for filename in ("style.css", "arkham.css", "tas.css", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav"):
+    for filename in ("style.css", "arkham.css", "tas.css", "tas-motion.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/fonts").mkdir(exist_ok=True)
     for filename in ("SourceHanSansCN-ExtraLight.woff2", "LICENSE.txt"):

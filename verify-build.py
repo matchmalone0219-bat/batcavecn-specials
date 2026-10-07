@@ -65,9 +65,12 @@ class BuildChecks(unittest.TestCase):
             elif route.startswith('tas/'):
                 self.assertIn('/assets/tas.css', html)
                 self.assertNotIn('/assets/arkham.css', html)
+                self.assertIn('/assets/tas-motion.js', html)
             else:
                 self.assertNotIn('/assets/tas.css', html)
                 self.assertNotIn('/assets/arkham.css', html)
+            if not route.startswith('tas/'):
+                self.assertNotIn('/assets/tas-motion.js', html)
 
     def test_editor_save_conflict_and_rollback(self):
         with tempfile.TemporaryDirectory() as directory:
