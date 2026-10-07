@@ -307,7 +307,6 @@ def build_interactions(data, shell):
 <div class="telemetry-row"><span class="t-key">EQUALIZATION</span><span class="t-val">NAB 50µs</span></div>
 <div class="telemetry-row"><span class="t-key">SIGNAL AUDIO</span><span class="t-val">44.1kHz ARCHIVE</span></div>
 </div>
-<p class="fine credit-tag">英语原声录制：{esc(p['biliUploader'])}</p>
 <div class="playback-state-wrapper">
 <span class="state-led-pip" aria-hidden="true"></span>
 <p class="playback-state" data-playback-state role="status">等待播放</p>
@@ -316,8 +315,6 @@ def build_interactions(data, shell):
 </div>
 {recording_controls(p)}
 <div class="terminal-links">
-<a href="{esc(p['biliUrl'])}">B站 · {esc(p['biliPart'])} · {p['biliDuration']//60}:{p['biliDuration']%60:02d}</a>
-<a href="{esc(p['watchUrl'])}">YouTube原页 ↗</a>
 <a href="/arkham/archive/interviews/#{p['id']}">人物阅读档案</a>
 </div>
 {refs(p['sources'])}

@@ -246,7 +246,7 @@
     audio.addEventListener('ended', () => { if (current()) { haltWave(); status(file, '播放结束'); subtitles(); } });
     audio.addEventListener('error', () => {
       if (!current()) return;
-      stop(); status(file, '录音无法载入，可重试或打开下方B站、YouTube原页。');
+      stop(); status(file, '录音无法载入，请重试。');
     });
     if (details) details.addEventListener('toggle', () => { if (current() && !details.open) pause(); });
   });
