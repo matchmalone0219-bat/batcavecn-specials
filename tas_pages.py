@@ -80,7 +80,7 @@ def build_archive(data, shell):
     page('production','制作与美术','角色设定、分镜和片头；也为那些没有拍成的故事留一份目录。',content+'</div>')
 
     base='/tas/archive/voices/'
-    names={'Batman':'蝙蝠侠','Alfred':'阿尔弗雷德','Commissioner Gordon':'戈登警长','Robin':'罗宾','Harvey Bullock':'哈维·布洛克','Joker':'小丑','Harvey Dent':'哈维·登特','Catwoman':'猫女','Harley Quinn':'哈莉·奎茵','Penguin':'企鹅人','Barbara Gordon':'芭芭拉·戈登','Clayface':'泥面','Dr. Victor Fries':'维克多·弗莱斯博士','Ra’s al Ghul':'拉斯·奥·古','Edward Nygma':'爱德华·尼格玛'}
+    names={'Batman':'蝙蝠侠','Alfred':'阿尔弗雷德','Commissioner Gordon':'戈登警长','Robin':'罗宾','Harvey Bullock':'哈维·布洛克','Joker':'小丑','Harvey Dent':'哈维·丹特','Catwoman':'猫女','Harley Quinn':'哈莉·奎茵','Penguin':'企鹅人','Barbara Gordon':'芭芭拉·戈登','Clayface':'泥脸','Dr. Victor Fries':'维克托·弗里斯博士','Ra’s al Ghul':'拉斯·奥·古','Edward Nygma':'爱德华·尼格玛'}
     content='<div class="archive-reading"><p>这份英语配音名册采用华纳全集蓝光公告的BTAS角色列名。Robin与Barbara的配音按系列分别记载。</p><div class="voice-register">'
     for r in second['roles']:
         title=names.get(r['characterAsListed'],r['characterAsListed']); actor=r['englishActorAsListed']
