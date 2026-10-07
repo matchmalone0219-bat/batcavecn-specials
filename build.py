@@ -57,6 +57,9 @@ def build(data=None):
     for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:
         for tape in patient['tapes']:
             copy_asset(ROOT / tape['audioFile'], DIST / 'assets' / tape['audioFile'])
+    for channel in json.loads((ROOT / 'arkham-transmissions.json').read_text())['channels']:
+        for track in channel['tracks']:
+            copy_asset(ROOT / track['audioFile'], DIST / 'assets' / track['audioFile'])
     (DIST / "content").mkdir(exist_ok=True)
     copy_asset(ROOT / "media.json", DIST / "content/media.json")
     copy_asset(ROOT / "episode-media.json", DIST / "content/episode-media.json")

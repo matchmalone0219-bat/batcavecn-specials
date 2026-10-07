@@ -116,24 +116,34 @@
   const graphs = new WeakMap();
   const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   function status(file, text, playing = false) {
-    file.querySelector('[data-playback-state]').textContent = text;
+    const state = file.querySelector('[data-playback-state]');
+    if (state) state.textContent = text;
     file.classList.toggle('is-playing', playing);
   }
   function subtitles() {
     if (!active) return;
     const cue = active.tape.cues.find(c => active.audio.currentTime >= c.start && active.audio.currentTime < c.end);
-    active.file.querySelector('[data-subtitle]').textContent = cue?.text || (active.audio.ended ? '本段播放结束。' : '…');
+    const sub = active.file.querySelector('[data-subtitle]');
+    if (!sub) return;
+    const subZh = sub.querySelector?.('.sub-zh');
+    const subEn = sub.querySelector?.('.sub-en');
+    if (subZh && subEn) {
+      subZh.textContent = cue?.text || (active.audio.ended ? '本段通讯截获完毕。' : '…');
+      subEn.textContent = cue?.en || (active.audio.ended ? 'Transmission concluded.' : '…');
+    } else {
+      sub.textContent = cue?.text || (active.audio.ended ? '本段播放结束。' : '…');
+    }
   }
   function drawWave(file, samples) {
     const canvas = file.querySelector('[data-waveform]');
-    const pen = canvas.getContext?.('2d');
+    const pen = canvas?.getContext?.('2d');
     if (!pen) return;
     const {width, height} = canvas;
     pen.clearRect(0, 0, width, height);
-    pen.strokeStyle = '#91b5c326'; pen.lineWidth = 1;
+    pen.strokeStyle = file.classList.contains('transmission-file') ? '#2fe58b1a' : '#91b5c326'; pen.lineWidth = 1;
     for (let x = 0; x <= width; x += 36) { pen.beginPath(); pen.moveTo(x, 0); pen.lineTo(x, height); pen.stroke(); }
     for (let y = 0; y <= height; y += 28) { pen.beginPath(); pen.moveTo(0, y); pen.lineTo(width, y); pen.stroke(); }
-    pen.strokeStyle = '#d6edf5'; pen.lineWidth = 2; pen.beginPath();
+    pen.strokeStyle = file.classList.contains('transmission-file') ? '#2fe58b' : '#d6edf5'; pen.lineWidth = 2; pen.beginPath();
     const values = samples || new Float32Array(256);
     const peak = values.reduce((max, value) => Math.max(max, Math.abs(value)), 0);
     const gain = Math.min(24, .65 / Math.max(.0001, peak));
@@ -178,8 +188,17 @@
     if (!active) return;
     const {file, audio} = active; active = null;
     audio.pause(); audio.removeAttribute('src'); audio.load(); audio.hidden = true;
-    file.querySelector('[data-load-recording]').hidden = false;
-    file.querySelector('[data-subtitle]').textContent = '点击播放，显示本段字幕。';
+    const loadBtn = file.querySelector('[data-load-recording]');
+    if (loadBtn) loadBtn.hidden = false;
+    const sub = file.querySelector('[data-subtitle]');
+    const subZh = sub?.querySelector?.('.sub-zh');
+    const subEn = sub?.querySelector?.('.sub-en');
+    if (subZh && subEn) {
+      subZh.textContent = '点击播放，截获并解密信道音频。';
+      subEn.textContent = 'Click play to intercept and decode frequency audio.';
+    } else if (sub) {
+      sub.textContent = '点击播放，显示本段字幕。';
+    }
     drawWave(file); status(file, '等待播放');
   }
   function pause() {
@@ -194,9 +213,10 @@
     let selectedTape = 0;
     const current = () => active?.audio === audio;
     function load() {
-      if (!details.open || file.hidden) return;
+      if ((details && !details.open) || file.hidden) return;
       stop(); active = {file, audio, tape: tapes[selectedTape]};
-      audio.src = active.tape.src; audio.hidden = false; button.hidden = true;
+      audio.src = active.tape.src; audio.hidden = false;
+      if (button) button.hidden = true;
       subtitles(); status(file, '正在载入录音…');
       try { audioGraph(audio); } catch { /* Native audio still works without Web Audio. */ }
       audio.play().catch(() => {
@@ -206,13 +226,17 @@
     tapeButtons.forEach((choice, index) => choice.addEventListener('click', () => {
       selectedTape = index;
       tapeButtons.forEach((b, n) => b.setAttribute('aria-pressed', String(n === index)));
-      file.querySelector('[data-tape-label]').textContent = `${tapes[index].label} / ${String(tapes.length).padStart(2, '0')}`;
+      const labelEl = file.querySelector('[data-tape-label]');
+      if (labelEl) {
+        labelEl.textContent = tapes[index].label.includes(' / ') ? tapes[index].label : `${tapes[index].label} / ${String(tapes.length).padStart(2, '0')}`;
+      }
       load();
     }));
-    button.hidden = false; button.addEventListener('click', load); drawWave(file);
+    if (button) { button.hidden = false; button.addEventListener('click', load); }
+    drawWave(file);
     audio.addEventListener('playing', () => {
       if (!current()) return;
-      if (document.hidden || !details.open) { pause(); return; }
+      if (document.hidden || (details && !details.open)) { pause(); return; }
       status(file, '正在播放', true); startWave();
     });
     audio.addEventListener('timeupdate', () => { if (current()) subtitles(); });
@@ -224,7 +248,7 @@
       if (!current()) return;
       stop(); status(file, '录音无法载入，可重试或打开下方B站、YouTube原页。');
     });
-    details.addEventListener('toggle', () => { if (current() && !details.open) pause(); });
+    if (details) details.addEventListener('toggle', () => { if (current() && !details.open) pause(); });
   });
   document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
   window.addEventListener('pagehide', stop);

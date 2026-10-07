@@ -1,0 +1,326 @@
+{
+  "channels": [
+    {
+      "id": "joker-city",
+      "frequency": "104.5 MHz",
+      "game": "阿卡姆之城",
+      "gameId": "arkham-city",
+      "device": "Cryptographic Sequencer",
+      "title": "小丑的加密通讯与绝唱",
+      "englishTitle": "Joker's Encrypted Transmissions & Only You",
+      "speaker": "小丑",
+      "speakerEnglish": "The Joker",
+      "actor": "Mark Hamill",
+      "summary": "小丑在将泰坦毒血注入蝙蝠侠体内后，锁定了蝙蝠侠的通信信道。包含贯穿流程的 5 通绝密留言，以及通关片尾的《Only You》终极绝唱。",
+      "loreIntro": "《阿卡姆之城》的主线矛盾从泰坦毒血的感染开始。小丑把自己的病理性血液注入蝙蝠侠体内，并侵入了蝙蝠侠的密码破译器（Cryptographic Sequencer）通讯频段。在主线各阶段，小丑不断留下电话留言，在狂笑与威胁中流露着两人致命共生的病态依赖；在主线落幕、小丑病亡后，制作人员名单的尽头响起了他生前录制的最后一条语音——清唱 The Platters 的传世情歌《Only You》。",
+      "sources": [
+        "wb-arkham-city",
+        "joker-city-tapes"
+      ],
+      "tracks": [
+        {
+          "number": 1,
+          "id": "track-01",
+          "title": "留言 01：直通热线与浪漫晚餐",
+          "englishTitle": "Transmission 01: Hotline to My Bats",
+          "phase": "主线 · 感染之初",
+          "audioFile": "audio/transmission-joker-01.m4a",
+          "duration": 23.61,
+          "audioBytes": 480935,
+          "audioSha256": "d6800384c7268e38a647b5181a320b6b17448a00c4dcb2f9d91f526c4126db59",
+          "gist": "小丑第一次入侵蝙蝠侠的通讯信道，调侃两人建立起了“直通热线”，甚至幻想交换邮箱与共进浪漫晚餐。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 7.5,
+              "text": "真不敢相信我之前竟然没想过这个！直通我的蝙蝠的热线！",
+              "en": "I can't believe I didn't think of this earlier. A hotline straight to my Bats!"
+            },
+            {
+              "start": 7.5,
+              "end": 15.0,
+              "text": "想象一下，我只要觉得无聊就能给你打电话。我觉得我们的关系已经到这个程度了，不是吗？",
+              "en": "Just think, I can call you up whenever I get bored. I think our relationship is reaching that level now, don't you?"
+            },
+            {
+              "start": 15.0,
+              "end": 23.5,
+              "text": "下一步我们就要交换邮箱，或是一起来场浪漫的晚餐了。",
+              "en": "The next thing you know is we'll be exchanging emails or meeting up for romantic dinners."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "id": "track-02",
+          "title": "留言 02：骨折记忆与孤独的蝙蝠",
+          "englishTitle": "Transmission 02: Broken Bones & Brooding",
+          "phase": "主线 · 医院疗养回忆",
+          "audioFile": "audio/transmission-joker-02.m4a",
+          "duration": 79.01,
+          "audioBytes": 1395964,
+          "audioSha256": "f1e3db616f895535a089b9642cdd7357a221aaec6e47f14044fbb53e1d49f565",
+          "gist": "小丑回忆在加护病房里的伤痛，将解药线索比作藏在侦探鼻尖底下的谜题，并一针见血地指出蝙蝠侠内心的终极孤独。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 14.5,
+              "text": "叮铃铃！我刚刚突然想起了这件事。真滑稽，当你躺在加护病房里浑身骨折时，脑子里想的那些事……",
+              "en": "Ring, ring! I was just remembering when it first occurred to me. It's funny, the things that go through your head when you're laid out in intensive care, with broken bones..."
+            },
+            {
+              "start": 14.5,
+              "end": 25.5,
+              "text": "当断骨慢慢愈合时，我有大把时间思考：那么，究竟把东西藏在哪里，才能避开世界上最伟大的侦探？",
+              "en": "As the bones knitted back together, I had plenty of time to think: So, where do you hide something from the world's greatest detective, you know?"
+            },
+            {
+              "start": 25.5,
+              "end": 34.5,
+              "text": "很简单。直接塞在他眼前，就藏在他那尖尖的鼻子底下。",
+              "en": "It's easy. You stick it right in front of him. Right under his long, pointy nose."
+            },
+            {
+              "start": 34.5,
+              "end": 43.0,
+              "text": "蝙蝠，我希望你在这里竭尽全力，因为我刚刚有了一个绝妙的念头。",
+              "en": "I hope you're doing your best here, Bats, because I've just had a great idea."
+            },
+            {
+              "start": 43.0,
+              "end": 55.5,
+              "text": "幸运的是，胜利的天平偏向了我这边。但想象一下，如果我真的死了，你会有什么感觉？你已经够孤独的了，对吧？整天都在阴沉郁闷。",
+              "en": "Fortunately the odds are weighted in my favor, but just imagine how you'll feel if I'm gone? It's not like you're not lonely enough, right? All that brooding."
+            },
+            {
+              "start": 55.5,
+              "end": 68.0,
+              "text": "你每天清晨有可以回去陪伴的人吗？有能够倾诉的人吗？",
+              "en": "Do you have someone to go home to each morning, someone you can talk to?"
+            },
+            {
+              "start": 68.0,
+              "end": 78.8,
+              "text": "我猜你没有。真悲哀，不是吗？你为哥谭付出了这一切，他们却依然恨你。不过，我可不恨你，蝙蝠。待会儿见！",
+              "en": "I don't think you do. It's sad, isn't it? You do all this for Gotham and they still hate you. Well, I don't hate you, Bats. See you soon!"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "id": "track-03",
+          "title": "留言 03：未接来电与疑神疑鬼",
+          "englishTitle": "Transmission 03: Missed Calls & Paranoia",
+          "phase": "主线 · 高塔交火",
+          "audioFile": "audio/transmission-joker-03.m4a",
+          "duration": 82.2,
+          "audioBytes": 1444786,
+          "audioSha256": "c2bb9b5b0575934376ae99b2852b0e776f2eb25dc3f8b9f7ba3ac19adb2fc885",
+          "gist": "蝙蝠侠迟迟不接电话让小丑抓狂，从怀疑蝙蝠侠已经暴毙，到猜测高塔手下被歼灭，最后抓狂威胁要全城杀人逼蝙蝠侠接听。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 11.5,
+              "text": "哈喽！我不确定你是否收到了我之前的留言。我真的迫不及待想跟你说话了。给我回电话，蝙蝠！",
+              "en": "Hello! I'm not sure that you got my call earlier. I'm just dying to speak to you. Call me, Bats!"
+            },
+            {
+              "start": 11.5,
+              "end": 24.5,
+              "text": "蝙蝠，说真的，你搞得我疑神疑鬼了。为什么不接我的电话？你总不至于就这么死掉了吧？",
+              "en": "Bats, seriously, you're making me paranoid. Why aren't you answering my calls? You haven't gone and died on me, have you?"
+            },
+            {
+              "start": 24.5,
+              "end": 37.5,
+              "text": "听着，我知道你没死。我在高塔下面失踪了一帮手下。看来你已经知道武器的事了。好吧，聪明的小子。",
+              "en": "Look, I know you're not dead. I'm missing a group of my guys down under the tower. Guess that means you know about the guns already. OK, clever boy."
+            },
+            {
+              "start": 37.5,
+              "end": 50.5,
+              "text": "也许搞定我手下的不是你？好吧。那我之前关于解药的那条留言……算了吧，就当我没说过。",
+              "en": "Maybe it wasn't you that took out my guys. Alright then. That message from earlier, about the cure... well, forget it. Consider it off the table."
+            },
+            {
+              "start": 50.5,
+              "end": 68.5,
+              "text": "行了，这越来越离谱了！我一整晚都在给你留言，你却到现在都不回我！到底要我去杀了谁，才能让你把电话接起来？！",
+              "en": "Right, this is getting ridiculous. I've been leaving messages all night and still you haven't got back to me. Who do I need to kill to make you pick up?"
+            },
+            {
+              "start": 68.5,
+              "end": 82.0,
+              "text": "等等……我该去杀谁呢？这倒是个好主意！哈哈哈哈哈哈！",
+              "en": "Wait... who DO I need to kill? Now there's a thought! Ha ha ha ha ha!"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "id": "track-04",
+          "title": "留言 04：终于接通与血液里的毒",
+          "englishTitle": "Transmission 04: Blood in Your Veins",
+          "phase": "主线 · 夺取解药",
+          "audioFile": "audio/transmission-joker-04.m4a",
+          "duration": 27.72,
+          "audioBytes": 569343,
+          "audioSha256": "3d97b932366de9b17055e99f262e5b3ae730f7ab48eea5535adbef8bb9a559e4",
+          "gist": "小丑嘲弄蝙蝠侠神志受损，分不清是稻草人的恐惧毒气还是小丑之血在起效；并告知哈莉已将解药偷回。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 8.5,
+              "text": "终于！嘿蝙蝠，你跑哪儿去了？我打电话只是想问问你感觉怎么样？",
+              "en": "At last! Hey, Bats. Where you been? I was just calling to find out how you're feeling?"
+            },
+            {
+              "start": 8.5,
+              "end": 17.5,
+              "text": "这年头真难说。你永远分不清究竟是稻草人的恐惧毒气，还是我的血在你的血管里流淌。",
+              "en": "It's hard to tell these days. You just never can tell if it's Scarecrow with the fear gas, or my blood running through your veins."
+            },
+            {
+              "start": 17.5,
+              "end": 27.5,
+              "text": "不过别担心，等我的小狐狸精回来，我拿到我那份之后，我会给你留一点的。",
+              "en": "But don't worry - as soon as that little minx is back here and I've had my share, I'll save some for you."
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "id": "track-05",
+          "title": "留言 05：我们真的需要彼此",
+          "englishTitle": "Transmission 05: We Need Each Other",
+          "phase": "主线 · 决战前夕",
+          "audioFile": "audio/transmission-joker-05.m4a",
+          "duration": 41.61,
+          "audioBytes": 766747,
+          "audioSha256": "81a23b0c703c66e93037eaf6387d1360de4ca4ce4f6ed9da3e604ac36c3685d6",
+          "gist": "小丑最深刻的人格坦白：坦承自己无法承受看着蝙蝠侠死去的空虚，直言“没有了我，你不过是个穿戏服的怪胎”。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 12.5,
+              "text": "你得费点功夫才能拿到，但它就在这里等着你。你可能不会相信，但我真的不忍心袖手旁观看着你死去。",
+              "en": "You'll have to work for it, but it will be right here waiting for you. You probably won't believe this, but I really don't think I can sit back and watch you die."
+            },
+            {
+              "start": 12.5,
+              "end": 25.5,
+              "text": "这确实挺自私的，但我们真的需要彼此。要是没有你，生活该有多无聊！我跟谁交手？我跟谁说话？",
+              "en": "It's selfish really, but we need each other. Life would be so boring without you! Who would I talk to? Who would I fight?"
+            },
+            {
+              "start": 25.5,
+              "end": 41.5,
+              "text": "又有谁能真正理解我？好好想想吧，蝙蝠。没有了我，你不过是个穿戏服的怪胎罢了。首映式见！哈哈哈哈哈哈！",
+              "en": "Who would really understand me? Think about it, Bats. Without me, you're just a freak in a costume. See you at the premiere! Ha ha ha ha ha!"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "id": "track-only-you",
+          "title": "终局绝唱：Only You (And You Alone)",
+          "englishTitle": "Credits Voicemail: Only You",
+          "phase": "通关片尾 · 终极绝命留言",
+          "isClimax": true,
+          "audioFile": "audio/transmission-joker-only-you.m4a",
+          "duration": 147.91,
+          "audioBytes": 612187,
+          "audioSha256": "fe7a4da5d1673df93f0039beeaeb84cb90068f3908eb6ffbffa4b1fa9082f586",
+          "gist": "主线结局小丑死亡、蝙蝠侠抱其走出剧院后，在制作人员名单后通讯器响起的最后留言。小丑清唱 The Platters 1955 年经典情歌《Only You》，随后是一声轻叹与无尽凄凉的断气狂笑。",
+          "trivia": "《Only You (And You Alone)》由 Buck Ram 作曲，The Platters 于 1955 年唱红全球。在阿卡姆之城的结尾，这首原本关于至死不渝浪漫爱情的歌，成为了小丑对蝙蝠侠最致命、最病态的精神告白——世界对于小丑而言毫无意义，唯有蝙蝠侠是他存在的唯一秩序。",
+          "cues": [
+            {
+              "start": 0.0,
+              "end": 14.5,
+              "text": "（通讯器拨通提示音与电波静电杂音……）",
+              "en": "(Communicator incoming call tone & static hiss...)"
+            },
+            {
+              "start": 14.5,
+              "end": 25.0,
+              "text": "唯有你，才能让这个世界合乎常理……",
+              "en": "Only you, can make this world seem right..."
+            },
+            {
+              "start": 25.0,
+              "end": 34.0,
+              "text": "唯有你，才能驱散黑暗带来光明……",
+              "en": "Only you, can make the darkness bright..."
+            },
+            {
+              "start": 34.0,
+              "end": 45.0,
+              "text": "唯有你，且唯独是你，能让我如此战栗狂喜……",
+              "en": "Only you, and you alone, can thrill me like you do..."
+            },
+            {
+              "start": 45.0,
+              "end": 56.5,
+              "text": "并让我心中燃起只属于你的爱意……",
+              "en": "And fill my heart with love for only you..."
+            },
+            {
+              "start": 56.5,
+              "end": 67.0,
+              "text": "唯有你，能让我脱胎换骨改变自己……",
+              "en": "Only you, can make this change in me..."
+            },
+            {
+              "start": 67.0,
+              "end": 76.5,
+              "text": "因为那是真理，你就是我的宿命……",
+              "en": "For it's true, you are my destiny..."
+            },
+            {
+              "start": 76.5,
+              "end": 88.0,
+              "text": "当你握紧我的手，我便懂得了你的魔力……",
+              "en": "When you hold my hand, I understand the magic that you do..."
+            },
+            {
+              "start": 88.0,
+              "end": 100.0,
+              "text": "你是我美梦成真的寄托，我独一无二的你……",
+              "en": "You're my dream come true, my one and only you..."
+            },
+            {
+              "start": 100.0,
+              "end": 110.0,
+              "text": "唯有你……（病态的低笑与叹息）",
+              "en": "Only you... (breathless chuckle)"
+            },
+            {
+              "start": 110.0,
+              "end": 134.5,
+              "text": "哈哈哈哈……哈哈……咳咳……（凄凉剧烈的狂笑伴随咳嗽渐行渐远）",
+              "en": "Ha ha ha ha... ha ha ha... haha... cough... (coughing & wheezing laugh fades away)"
+            },
+            {
+              "start": 134.5,
+              "end": 147.9,
+              "text": "（通讯切断蜂鸣声……）",
+              "en": "(Call terminated / disconnect tone...)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "wb-arkham-city",
+      "title": "Batman: Arkham City · Warner Bros. Games / Rocksteady Studios",
+      "url": "https://www.warnerbros.com/games-and-apps/batman-arkham-city"
+    },
+    {
+      "id": "joker-city-tapes",
+      "title": "Batman: Arkham City · In-Game Cryptographic Sequencer Audio & Post-Credits Message",
+      "url": "https://www.bilibili.com/video/BV1ww411w7Je/"
+    }
+  ]
+}

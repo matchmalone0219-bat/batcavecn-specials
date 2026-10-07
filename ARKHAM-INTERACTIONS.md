@@ -4,7 +4,8 @@
 
 - /arkham/detective/：案件重建；档案馆有整卡入口，可从搜索直接打开某案。
 - /arkham/patients/：患者终端；档案馆及原患者访谈阅读页提供入口。
-- 七项主菜单保持，档案馆说明提示两项互动。TAS、新蝙、原作品资料不改。
+- /arkham/transmissions/：频段监听（Cryptographic Sequencer）；密码破译器调谐终端，收录小丑《阿卡姆之城》电话留言与片尾绝唱《Only You》。
+- 七项主菜单保持，档案馆说明提示互动内容。TAS、新蝙、原作品资料不改。
 
 ## 案件重建
 

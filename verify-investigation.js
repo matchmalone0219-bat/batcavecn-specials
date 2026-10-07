@@ -90,5 +90,61 @@ function patient(id) {
     b.button.listeners.click();assert.equal(b.audio.src,b.tapes[0].src,'Error permits retry');
     handlers.pagehide();assert.equal(b.audio.src,'');assert.equal(b.audio.hidden,true);assert.equal(frames.size,0);
   }
-  console.log('PASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages');
+
+  // Verify transmission controls with bilingual subtitles and no details wrapper
+  {
+    const file = element(), button = element(), state = element(), audio = element(), label = element(), canvas = element();
+    file.classList.toggle('transmission-file', true);
+    const subZh = element(), subEn = element();
+    const subContainer = Object.assign(element(), {
+      querySelector: selector => ({'.sub-zh': subZh, '.sub-en': subEn}[selector])
+    });
+    audio.src = ''; audio.ended = false; audio.pauses = 0; audio.plays = 0; audio.loads = 0; audio.paused = true; audio.currentTime = 0;
+    audio.pause = () => { audio.pauses++; audio.paused = true; };
+    audio.play = () => { audio.plays++; audio.paused = false; audio.ended = false; return Promise.resolve(); };
+    audio.load = () => { audio.loads++; audio.currentTime = 0; };
+    audio.removeAttribute = name => { if (name === 'src') audio.src = ''; };
+    const tracks = [
+      {src: '/assets/audio/transmission-joker-01.m4a', label: 'TRACK 01', cues: [{start: 0, end: 5, text: '直通热线', en: 'Hotline straight to Bats'}]},
+      {src: '/assets/audio/transmission-joker-only-you.m4a', label: 'TRACK 06', cues: [{start: 0, end: 10, text: '唯有你', en: 'Only you'}]}
+    ];
+    const choices = tracks.map(() => element());
+    file.querySelector = selector => ({
+      'audio': audio,
+      '[data-load-recording]': button,
+      '[data-playback-state]': state,
+      '[data-tape-data]': {textContent: JSON.stringify(tracks)},
+      '[data-subtitle]': subContainer,
+      '[data-tape-label]': label,
+      '[data-waveform]': canvas
+    }[selector]);
+    file.querySelectorAll = () => choices;
+
+    class AudioContext {
+      resume() { return Promise.resolve(); }
+      createMediaElementSource() { return {connect() {}}; }
+      createAnalyser() { return {fftSize: 512, connect() {}, getFloatTimeDomainData() {}}; }
+    }
+    const document = {hidden: false, querySelector: () => null, querySelectorAll: () => [file], addEventListener: () => {}};
+    vm.runInNewContext(source, {
+      window: {AudioContext, addEventListener: () => {}},
+      document,
+      location: {hash: ''},
+      history: {replaceState() {}},
+      requestAnimationFrame: () => 1,
+      cancelAnimationFrame: () => {}
+    });
+
+    button.listeners.click();
+    assert.equal(audio.src, tracks[0].src);
+    assert.equal(subZh.textContent, '直通热线');
+    assert.equal(subEn.textContent, 'Hotline straight to Bats');
+
+    choices[1].listeners.click();
+    assert.equal(audio.src, tracks[1].src);
+    assert.equal(subZh.textContent, '唯有你');
+    assert.equal(subEn.textContent, 'Only you');
+  }
+
+  console.log('PASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages; bilingual transmissions');
 })().catch(error=>{console.error(error);process.exitCode=1;});

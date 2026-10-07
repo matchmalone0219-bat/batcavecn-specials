@@ -65,3 +65,37 @@
 @media(prefers-reduced-motion:reduce){.arkham-investigation *{animation:none!important;transition:none!important}}
 
 .tape-selector{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:20px 0}.tape-selector button{display:grid;gap:5px;padding:12px 4px;border:1px solid #758a9666;background:#14242e;color:#c5d8e1;font:inherit;cursor:pointer;min-width:0}.tape-selector button span{font-size:11px;letter-spacing:.08em}.tape-selector button small{font-size:10px;color:inherit}.tape-selector button[aria-pressed=true]{background:#cee7f1;color:#12212b;border-color:#cee7f1}.tape-selector button:focus-visible{outline:2px solid #e5f6ff;outline-offset:3px}.voice-waveform{display:block;width:100%;height:100px;background:#071219;border:1px solid #758a9640;margin:14px 0}.recording-subtitles{padding:16px 0 20px;min-height:100px;max-width:100%}.recording-subtitles .label{font-size:10px;color:#90b8ca}.recording-subtitles [data-subtitle]{line-height:1.85;font-size:16px;color:#e3edf2;margin:10px 0;overflow-wrap:anywhere}.tape-label{color:#a5c9db;font-size:11px}
+.transmission-file{padding:24px;background:linear-gradient(145deg,#0e1e17,#07120d);border:1px solid #2fe58b38;margin-bottom:28px}
+.transmission-file .console-bar{color:#2fe58b;border-bottom-color:#2fe58b33}
+.transmission-selector{grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.transmission-track-btn{display:grid;gap:6px;padding:12px 8px;border:1px solid #2fe58b40;background:#0d1d15;color:#c8e8d8;font:inherit;cursor:pointer;text-align:left}
+.transmission-track-btn .track-num{font-size:10px;color:#78d4a3;letter-spacing:.12em}
+.transmission-track-btn .track-name{font-size:12px;font-weight:600;color:#edfcf4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.transmission-track-btn small{font-size:10px;color:#85b89e}
+.transmission-track-btn[aria-pressed=true]{background:#2fe58b;color:#05140b;border-color:#2fe58b}
+.transmission-track-btn[aria-pressed=true] .track-num,.transmission-track-btn[aria-pressed=true] .track-name,.transmission-track-btn[aria-pressed=true] small{color:#05140b}
+.transmission-track-btn.is-climax{border-color:#d4913b80;background:#1a1910}
+.transmission-track-btn.is-climax .track-num{color:#e6a759}
+.transmission-track-btn.is-climax[aria-pressed=true]{background:#e6a759;color:#1a1005;border-color:#e6a759}
+.transmission-track-btn.is-climax[aria-pressed=true] .track-num,.transmission-track-btn.is-climax[aria-pressed=true] .track-name,.transmission-track-btn.is-climax[aria-pressed=true] small{color:#1a1005}
+.transmission-console-meta{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin:16px 0 8px}
+.transmission-console-meta .tape-label{color:#8be3b3;margin:0;font-size:12px}
+.transmission-meta-right{display:flex;align-items:center;gap:14px}
+.frequency-indicator{display:inline-block;padding:3px 8px;background:#05140c;border:1px solid #2fe58b66;color:#2fe58b;font-family:monospace;font-size:11px;letter-spacing:.1em;border-radius:2px}
+.transmission-playback-state{font-size:11px;color:#7ed6a6}
+.transmission-waveform{background:#05120a;border:1px solid #2fe58b38}
+.transmission-subtitles{padding:18px 0 14px;border-top:1px solid #2fe58b26}
+.transmission-subtitles .label{color:#6cc897;font-size:10px;letter-spacing:.12em}
+.transmission-subtitles .subtitle-display{margin:10px 0}
+.transmission-subtitles .sub-zh{font-size:16px;line-height:1.85;color:#eafaf1;margin:0 0 6px}
+.transmission-subtitles .sub-en{font-size:13px;line-height:1.6;color:#7ec89f;margin:0;font-style:italic}
+.transmission-lore{padding:22px 24px;background:#101d24;border:1px solid #758a963b;margin:28px 0}
+.transmission-lore h2{font-size:20px;color:#d8edf7;margin:0 0 10px}
+.transmission-lore p{color:#bbcbd3;line-height:1.85;font-size:14px;margin:8px 0}
+.transmission-channels{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:24px 0}
+.transmission-channel-card{padding:16px 20px;background:#121e25;border:1px solid #758a963b;text-decoration:none;color:#bbcbd3;display:block}
+.transmission-channel-card[aria-current]{border-color:#2fe58b;background:#0d2217;color:#ebfaf2}
+.transmission-channel-card h3{font-size:15px;color:#e6f3f9;margin:6px 0 4px}
+.transmission-channel-card p{font-size:12px;color:#91aab7;margin:0}
+@media(max-width:640px){.transmission-selector{grid-template-columns:repeat(2,1fr)}.transmission-file{padding:16px}}
+

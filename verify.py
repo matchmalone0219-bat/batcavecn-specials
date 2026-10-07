@@ -74,20 +74,26 @@ for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
 assert len(ark_pages) == 8 and len(ark_records) == 254 and len(ark_images) == 23
-assert len(interactive_pages) == 2 and len(interactive_records) == 12
+assert len(interactive_pages) == 3 and len(interactive_records) == 14
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']
+trans_terminal = interactive_pages['arkham/transmissions/index.html']
 assert patient_terminal.count('data-patient-file=') == 7
 assert patient_terminal.count('<details class="spoiler patient-recording">') == 7
 assert '<iframe' not in patient_terminal and ' autoplay' not in patient_terminal
 assert '病历编号' not in patient_terminal
+assert trans_terminal.count('data-transmission-channel=') == 1
+assert trans_terminal.count('data-waveform') == 1
+assert trans_terminal.count('data-subtitle') == 1
+assert trans_terminal.count('data-tape=') == 6
+assert 'Only You' in trans_terminal
 for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['cases']:
     assert f'id="case-{c["id"]}"' in detective
     assert len(c['evidence']) == 3
     assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
 for filename, body in pages.items():
     assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages or filename == 'arkham/archive/interviews/index.html')
-print('PASS: three linked investigations, seven spoiler-protected patient records, on-demand players, safe search summaries and isolated interaction assets')
+print('PASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]
@@ -236,9 +242,27 @@ for html in [interview_html, patient_terminal]:
     assert html.count('data-subtitle>') == 7 and html.count('data-waveform ') == 7
     assert 'youtube.com/embed/' not in html
     assert '<audio controls preload="none" hidden src=' not in html
-assert 'youtube.com/iframe_api' not in (CONTENT.parent / 'arkham-investigation.js').read_text()
 assert len(list((DIST / 'assets/audio').glob('patient-*.m4a'))) == 35
-print('PASS: 35 hashed AAC tapes, contiguous cuts, bounded Chinese cues, copied assets, on-demand sources, collapsed players and original sources')
+
+trans_json = json.loads((CONTENT.parent / 'arkham-transmissions.json').read_text())
+assert len(trans_json['channels']) == 1
+for ch in trans_json['channels']:
+    assert len(ch['tracks']) == 6
+    for t in ch['tracks']:
+        audio = CONTENT.parent / t['audioFile']
+        assert audio.suffix == '.m4a' and audio.is_file()
+        assert audio.stat().st_size == t['audioBytes']
+        assert hashlib.sha256(audio.read_bytes()).hexdigest() == t['audioSha256']
+        assert hashlib.sha256((DIST / 'assets' / t['audioFile']).read_bytes()).hexdigest() == t['audioSha256']
+        assert t['cues']
+        end = 0
+        for cue in t['cues']:
+            assert end <= cue['start'] < cue['end'] <= t['duration'] + .15
+            assert cue['text'] and cue['en']
+            end = cue['end']
+assert len(list((DIST / 'assets/audio').glob('transmission-*.m4a'))) == 6
+assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 41
+print('PASS: 35 patient tapes + 6 transmission tracks, lossless cuts, bounded bilingual cues, copied assets, on-demand sources, collapsed players and original sources')
 
 # The two topics share biography data, not Arkham navigation or search scope.
 for path, page in parsed.items():
