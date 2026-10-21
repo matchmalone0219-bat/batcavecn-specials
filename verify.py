@@ -159,6 +159,48 @@ assert all(item["actorLink"] == "/people/kevin-conroy/" for item in data["games"
 assert data["games"][2]["actor"] == "Roger Craig Smith"
 assert not data["games"][2]["actorLink"]
 assert all("spoiler" not in item for item in search)
+class SectionSpoilers(HTMLParser):
+    def __init__(self, target):
+        super().__init__()
+        self.target = target
+        self.active = False
+        self.depth = 0
+        self.folded = False
+        self.outside = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'section' and attrs.get('id') == self.target:
+            self.active = True
+        if self.active and tag == 'details':
+            self.depth += 1
+            assert 'open' not in attrs
+            self.folded = True
+
+    def handle_endtag(self, tag):
+        if self.active and tag == 'details':
+            self.depth -= 1
+        if tag == 'section':
+            self.active = False
+
+    def handle_data(self, text):
+        if self.active and self.depth == 0:
+            self.outside.append(text)
+
+folded_sections = 0
+for item in data['games'] + data['episodes']:
+    for section in item['sections']:
+        if section.get('containsSpoilers'):
+            audit = SectionSpoilers(section['id'])
+            page = pages[f'{item["site"]}/{"games" if item["site"] == "arkham" else "episodes"}/{item["id"]}/index.html']
+            audit.feed(page)
+            assert audit.folded and audit.depth == 0
+            assert all(paragraph not in ''.join(audit.outside) for paragraph in section['body'].split('\n') if paragraph)
+            folded_sections += 1
+assert folded_sections == 13
+for phrase in ('小丑死后余波', '大雪中的无言抱持', '冰封牢房', '从钟楼纵身跃下', '漫天落下的银币', '将他拖回安全地带'):
+    assert all(phrase not in item['summary'] for item in search)
+print('PASS: 13 analytical sections collapsed; ending details excluded from search summaries')
 for item in search:
     assert urlsplit(item["url"]).path in parsed
 assert data["episodes"][0]["guideNumber"] == "003"

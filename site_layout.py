@@ -39,11 +39,12 @@ def stylesheets(site):
     files = ["style.css"]
     if site in ("arkham", "tas"):
         files.append(f"{site}.css")
+        files.append("topic-navigation.css")
     return "".join(f'<link rel="stylesheet" href="/assets/{file}">' for file in files)
 
 
 def arkham_effects():
-    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button>'
+    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><button class="arkham-quick" data-arkham-quick type="button" aria-pressed="false" hidden title="省略回访开场与菜单转场">快速浏览：关</button><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button>'
 
 
 def arkham_scripts():
@@ -60,9 +61,16 @@ def shell(data, site, title, body, active=""):
         scripts += '<script src="/assets/tas-motion.js" defer></script>'
     effects = arkham_effects() if site == "arkham" else ''
     nav_html = ""
+    more_html = ""
     for label, url, key in nav:
         menu_return = site == "arkham" and key == "home"
         attributes = 'class="menu-return" aria-label="返回主菜单" title="Esc 返回主菜单"' if menu_return else ""
         text = '<kbd>Esc</kbd><span>MAIN MENU</span>' if menu_return else label
-        nav_html += f'<a href="{url}" {"aria-current=page" if key == active else ""} {attributes}>{text}</a>' if site == "arkham" else f'<a href="{url}" {"aria-current=page" if key == active else ""}>{label}</a>'
+        link = f'<a href="{url}" {"aria-current=page" if key == active else ""} {attributes}>{text}</a>' if site == "arkham" else f'<a href="{url}" {"aria-current=page" if key == active else ""}>{label}</a>'
+        if site in ("arkham", "tas") and key not in ("home", "catalog", "archive", "search"):
+            more_html += link
+        else:
+            nav_html += link
+    if more_html:
+        nav_html += f'<details class="topic-more"><summary>更多导航</summary><div class="topic-menu">{more_html}</div></details>'
     return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else "people/kevin-conroy/"}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'

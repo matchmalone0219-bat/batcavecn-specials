@@ -16,6 +16,7 @@
     return cached.get(url);
   }
   function eligible(link) {
+    if (transition.quick) return false;
     if (!link || !link.matches('.menu-grid .menu-tile') || link.target || link.hasAttribute('download') || link.classList.contains('intro-entry')) return false;
     const url = new URL(link.href, location.href);
     return url.origin === location.origin && url.pathname.startsWith('/arkham/') &&

@@ -12,7 +12,7 @@ def home(data, site):
     if site == "arkham":
         return arkham_screen(data)
     else:
-        body = f'<section class="reel-cover reel-art-cover cinema-cover"><div class="reel-frame reel-art-frame"><p class="reel-overline">BATCAVECN PRESENTS // DARK DECO</p><svg class="cinema-ornament" viewBox="0 0 800 32" aria-hidden="true"><path d="M0 26H230V18H300V10H366M800 26H570V18H500V10H434M380 16L400 2L420 16L400 30Z"/></svg><img class="reel-key-art" src="/assets/tas-home-title.jpg" width="1200" height="675" fetchpriority="high" alt="Batman: The Animated Series；黑色背景上的蝙蝠侠与红色圆形"><h1>蝙蝠侠 · 动画放映室</h1><p class="reel-quote">{esc(info["title"]).replace(chr(10), "<br>")}</p><div class="reel-rule"></div><p class="reel-intro">{esc(info["intro"])}</p><a class="reel-ticket" href="/tas/catalog/">入场 · 浏览分集节目单</a><p class="reel-caption">故事 / 美术 / 声音 / 创作</p></div></section>'
+        body = f'<section class="reel-cover reel-art-cover cinema-cover"><div class="reel-frame reel-art-frame"><p class="reel-overline">BATCAVECN PRESENTS // DARK DECO</p><svg class="cinema-ornament" viewBox="0 0 800 32" aria-hidden="true"><path d="M0 26H230V18H300V10H366M800 26H570V18H500V10H434M380 16L400 2L420 16L400 30Z"/></svg><img class="reel-key-art" src="/assets/tas-home-title.jpg" width="1200" height="675" fetchpriority="high" alt="Batman: The Animated Series；黑色背景上的蝙蝠侠与红色圆形"><div class="cinema-copy"><h1>蝙蝠侠 · 动画放映室</h1><p class="reel-quote">{esc(info["title"]).replace(chr(10), "<br>")}</p><div class="reel-rule"></div><p class="reel-intro">{esc(info["intro"])}</p><a class="reel-ticket" href="/tas/catalog/">入场 · 浏览分集节目单</a><p class="reel-caption">故事 / 美术 / 声音 / 创作</p></div></div></section>'
         body += '<section class="section cinema-features"><a class="cinema-feature" href="/tas/archive/"><img src="/assets/media/btas-ensemble.jpg" width="900" height="587" alt="经典TAS蝙蝠侠侧面画面" loading="lazy"><div><p class="label">动画档案馆 / BEHIND THE ANIMATION</p><h2>画稿、声音与经典篇章的诞生始末。</h2><p>制作与美术 · 角色配音 · 动画电影 · 漫画与出版 · 配乐档案</p></div></a><a class="cinema-feature cinema-collectibles" href="/tas/collectibles/"><img src="/assets/media/merch-mondo-redux-1.jpg" width="1200" height="1200" alt="Mondo Batman Redux人偶厂商宣传图" loading="lazy"><div><p class="label">屏幕之外 / COLLECTIBLES</p><h2>定格光影：经典造物与实体收藏。</h2><p>人偶与雕像 · 动画蝙蝠车 · 哥谭积木 · 单集衍生桌游</p></div></a></section>'
         body += f'<section class="section programme-intro"><p class="label">本期放映 / OPENING PROGRAMME</p><h2>一卷光影胶片，<br>照见整座哥谭的暗夜。</h2><p>{esc(info["prologue"])}</p></section>'
         body += '<section class="section programme"><div class="programme-heading"><h2>精选节目单</h2><p>BTAS / 精选篇目</p></div>'
@@ -41,8 +41,13 @@ def detail(data, item):
         fields = [("所属系列", item["series"]), ("辅助指南编号", item["guideNumber"]), ("原始制作代码", item["productionCode"]), ("来源所载首播日", item["airDate"]), ("首播地区", item["airRegion"]), ("影音目录编号", item["mediaOrder"]), ("编剧", item["writer"]), ("导演", item["director"]), ("动画制作", item["animation"]), ("配乐", item["music"]), ("客串配音", item["guests"])]
     voice = f'<div><dt>蝙蝠侠英语配音</dt><dd>{actor_markup(item)}</dd></div>' if item["actor"] else ''
     body += '<dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value)}</dd></div>' for key, value in fields if value) + voice + '</dl>'
-    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
-    body += '<div class="reading">' + "".join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
+    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
+    body += '<div class="reading">'
+    for section in item["sections"]:
+        text = paragraphs(section["body"])
+        if section.get("containsSpoilers"):
+            text = f'<details class="spoiler section-spoiler"><summary>剧情与结局分析 · 含剧透，展开阅读</summary>{text}</details>'
+        body += f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}</section>'
     if item.get("related"):
         linked = [e for e in data["episodes"] if e["id"] in item["related"]]
         body += '<section><h2>同一双集故事</h2>' + ''.join(f'<a class="route-card" href="{route(e)}"><h3>{esc(e["title"])}</h3><p>{esc(e["original"])}</p></a>' for e in linked) + '</section>'

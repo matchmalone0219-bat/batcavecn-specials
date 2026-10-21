@@ -28,7 +28,29 @@
     let storage;
     try { storage = localStorage; } catch {}
     const progress = createProgress(cases, storage);
-    let current, enabled = false;
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const motionKey = 'protocol-arkham:terminal-motion:v1';
+    let effects = true;
+    try { effects = storage?.getItem(motionKey) !== 'off'; } catch {}
+    let current, enabled = false, pending, scanTimer, feedbackTimer;
+    const animated = () => effects && !motion.matches && !document.hidden;
+    function syncMotion() {
+      investigation.classList.toggle('terminal-still', !animated());
+      node('motion').textContent = `终端动效：${animated() ? '开' : '关'}`;
+      node('motion').setAttribute('aria-pressed', String(animated()));
+      node('motion').disabled = motion.matches;
+    }
+    function clearFeedback() {
+      clearTimeout(feedbackTimer);
+      investigation.classList.remove('evidence-received', 'case-resolved');
+    }
+    function cancelScan() {
+      clearTimeout(scanTimer);
+      pending = null;
+      investigation.classList.remove('is-scanning', 'is-retrieving');
+      node('evidence-panel').setAttribute('aria-busy', 'false');
+      clearFeedback();
+    }
     const selectors = [...investigation.querySelectorAll('[data-case]')];
     node('workspace').hidden = false;
     node('case-fallback').hidden = true;
@@ -43,18 +65,24 @@
         button.textContent = `${count > index ? '✓' : String(index + 1).padStart(2, '0')}  ${e.title}`;
         button.disabled = index > count || (index === 0 && !enabled && count === 0);
         button.classList.toggle('is-found', count > index);
+        button.classList.toggle('is-next', count === index && (enabled || count > 0));
+        button.setAttribute('aria-pressed', String(index === displayed));
         button.addEventListener('click', () => inspect(index));
         return button;
       }));
       if (focused >= 0) node('evidence-chain').children[focused].focus({preventScroll: true});
       node('summary').hidden = count !== current.evidence.length;
+      node('scan').disabled = Boolean(pending) || count > 0;
+      node('scan').innerHTML = count ? '<span>✓</span><small>RECORDED</small>' : '<span>01</span><small>SCAN</small>';
+      node('scan').setAttribute('aria-label', (count ? '物证已收录：' : '扫描') + current.evidence[0].title);
+      node('scene').classList.toggle('is-recorded', count > 0);
       selectors.forEach(link => {
         link.classList.toggle('is-complete', progress.count(link.dataset.case) === cases.find(c => c.id === link.dataset.case).evidence.length);
       });
     }
-    function inspect(index) {
-      if (index === 0 && !enabled && progress.count(current.id) === 0) return;
-      if (!progress.scan(current.id, index)) return;
+    let displayed = -1;
+    function display(index) {
+      displayed = index;
       const e = current.evidence[index];
       node('evidence-label').textContent = `EVIDENCE ${String(index + 1).padStart(2, '0')} / ${e.label}`;
       node('evidence-title').textContent = e.title;
@@ -64,16 +92,49 @@
       node('evidence-sources').innerHTML = e.sourceHtml;
       chain();
     }
+    function finishScan() {
+      if (!pending) return;
+      const {index, caseId} = pending;
+      cancelScan();
+      if (current.id !== caseId || !progress.scan(caseId, index)) return;
+      display(index);
+      const complete = progress.count(caseId) === current.evidence.length;
+      node('feedback').textContent = complete ? '物证链已闭合 · 案情重建完成' : `证据已收录 · 下一步：调取${current.evidence[index + 1].title}`;
+      if (animated()) {
+        investigation.classList.add(complete ? 'case-resolved' : 'evidence-received');
+        feedbackTimer = setTimeout(clearFeedback, 700);
+      }
+    }
+    function inspect(index) {
+      if (pending || index < 0 || index >= current.evidence.length || index > progress.count(current.id)) return;
+      if (index === 0 && !enabled && progress.count(current.id) === 0) return;
+      if (index < progress.count(current.id)) { display(index); return; }
+      clearFeedback();
+      pending = {index, caseId: current.id};
+      node('feedback').textContent = index === 0 ? '正在扫描现场物证…' : '正在调取关联档案…';
+      node('progress').textContent = index === 0 ? '扫描中…' : '调取中…';
+      node('evidence-chain').children[index].textContent = index === 0 ? '现场物证扫描中…' : '关联档案调取中…';
+      node('evidence-panel').setAttribute('aria-busy', 'true');
+      node('scan').disabled = true;
+      if (!animated()) { finishScan(); return; }
+      investigation.classList.add(index === 0 ? 'is-scanning' : 'is-retrieving');
+      scanTimer = setTimeout(finishScan, index === 0 ? 420 : 260);
+    }
     function setMode(value) {
+      if (!value && pending) cancelScan();
       enabled = value;
       node('scene').classList.toggle('is-detective', enabled);
       node('mode').setAttribute('aria-pressed', String(enabled));
       node('mode').innerHTML = enabled ? '关闭侦探模式 <small>RETURN TO NORMAL VISION</small>' : '激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small>';
       node('mode-label').textContent = enabled ? 'DETECTIVE VISION' : 'NORMAL VISION';
       node('scan').hidden = !enabled;
+      const count = progress.count(current.id);
+      node('feedback').textContent = !enabled ? '普通视野' : count === current.evidence.length ? '物证链已闭合 · 案情重建完成' : count ? '物证已收录 · 可继续调取关联档案' : '侦探视野已激活 · 锁定现场扫描点';
       chain();
     }
     function select(id, updateHash = true) {
+      cancelScan();
+      displayed = -1;
       current = cases.find(c => c.id === id) || cases[0];
       selectors.forEach(link => {
         if (link.dataset.case === current.id) link.setAttribute('aria-current', 'true');
@@ -93,7 +154,10 @@
       node('summary-link').href = '/arkham/archive/riddler/#' + current.research;
       setMode(false);
       const count = progress.count(current.id);
-      if (count) inspect(count - 1);
+      if (count) {
+        display(count - 1);
+        node('feedback').textContent = count === current.evidence.length ? '案情重建已完成' : `已恢复 ${count} 条证据 · 可继续调取关联档案`;
+      }
       else {
         node('evidence-label').textContent = 'AWAITING SCAN';
         node('evidence-title').textContent = '现场等待扫描';
@@ -106,8 +170,19 @@
     node('mode').addEventListener('click', () => setMode(!enabled));
     node('scan').addEventListener('click', () => inspect(0));
     node('reset').addEventListener('click', () => { progress.reset(current.id); select(current.id); node('mode').focus(); });
+    node('motion').addEventListener('click', () => {
+      effects = !effects;
+      try { storage?.setItem(motionKey, effects ? 'on' : 'off'); } catch {}
+      syncMotion();
+      if (!animated()) { finishScan(); clearFeedback(); }
+    });
+    motion.addEventListener('change', () => { syncMotion(); if (!animated()) { finishScan(); clearFeedback(); } });
+    document.addEventListener('visibilitychange', () => { if (document.hidden && pending) { cancelScan(); node('feedback').textContent = '调取已中止 · 可重新选择证据'; chain(); } syncMotion(); });
+    window.addEventListener('pagehide', cancelScan);
+    window.addEventListener('pageshow', () => { syncMotion(); chain(); });
     window.addEventListener('hashchange', () => select(location.hash.replace('#case-', ''), false));
     select(location.hash.replace('#case-', ''), false);
+    syncMotion();
   }
 
   const recordings = [...document.querySelectorAll('[data-audio-recording]')];

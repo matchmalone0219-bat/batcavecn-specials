@@ -52,16 +52,16 @@
 .programme{max-width:1050px}
 .programme-heading{display:flex;align-items:center;justify-content:space-between;border-top:3px double #9f8972;border-bottom:1px solid #a9957c;padding:13px 0 10px}
 .programme-heading h2{font:600 26px/1.5 var(--serif);letter-spacing:3px;margin:0}
-.programme-heading p{font:10px/1.4 monospace;letter-spacing:2px;margin:0;color:#8b6754}
+.programme-heading p{font:10px/1.4 monospace;letter-spacing:2px;margin:0;color:#716353}
 .programme-row{display:grid;grid-template-columns:70px 1fr 1fr;gap:30px;border-bottom:1px solid #c4b49a;padding:32px 0;align-items:start}
 .programme-row[href]:hover{background:#e9dcc4}
 .programme-number{font:italic 52px/1 Georgia,serif;color:#b69b7c}
 .programme-title p{font:italic 23px/1.2 var(--serif);color:#92373a;margin:0 0 12px}
 .programme-title h3{font:600 23px/1.4 var(--serif);margin:0 0 8px;letter-spacing:2px}
-.programme-title span{font-size:10px;color:#a18b72}
+.programme-title span{font-size:10px;color:#716353}
 .programme-description p{font:15px/1.9 var(--serif);color:#655647;margin:0 0 16px}
 .programme-description span{font:10px/1.5 monospace;color:#9c5144}
-.programme-footnote{font-size:11px;color:#927f68;padding-top:18px;line-height:1.8}
+.programme-footnote{font-size:12px;color:#716353;padding-top:18px;line-height:1.8}
 .radio-column{display:grid;grid-template-columns:190px 1fr;gap:45px;max-width:1000px;margin:auto;border-top:3px double #9f8972;border-bottom:3px double #9f8972;padding:35px 0;align-items:center}
 .radio-mark{background:#9c3438;color:#edd9b2;text-align:center;border:3px double #e5c497;outline:1px solid #9c3438;outline-offset:5px;padding:20px}
 .radio-mark span{font:10px/1.6 var(--serif);letter-spacing:6px;display:block}
@@ -217,7 +217,8 @@
 }
 @font-face{font-family:"TAS Source Han Sans";src:url('/assets/fonts/SourceHanSansCN-ExtraLight.woff2') format('woff2');font-style:normal;font-weight:250;font-display:swap}
 .tas{--sans:"TAS Source Han Sans","PingFang SC","Microsoft YaHei",sans-serif;--serif:var(--sans)}
-.tas,.tas *{font-family:var(--sans);font-weight:250!important}
+.tas,.tas *{font-family:var(--sans);font-weight:400!important}
+.tas h1,.tas .reel-quote,.tas .detail-title .original{font-weight:250!important}
 .tas .merch-feature{background:transparent}
 .tas .merch-entry h3{letter-spacing:.03em}
 .episode-title-card{max-width:640px;margin:20px auto 35px}
@@ -327,3 +328,68 @@
 .tas .cinema-cover .reel-ticket.tas-ticket-ready,.tas .tas-ticket-label,.tas .tas-ticket-stub{transition:none;transform:none}
 .tas .reel-ticket.tas-ticket-ready:hover,.tas .tas-ticket-tearing .tas-ticket-label,.tas .tas-ticket-tearing .tas-ticket-stub{transform:none}
 }
+
+@font-face{font-family:"TAS Source Han Sans";src:url('/assets/fonts/SourceHanSansCN-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+
+/* Keep mobile entrance spacing; desktop retains the original cinema scale. */
+@media(max-width:700px){
+.tas .cinema-cover{padding:24px}
+.tas .cinema-cover .reel-art-frame{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:8px 48px;align-items:center;padding:12px 0 24px;max-width:1100px}
+.tas .cinema-cover .reel-overline,.tas .cinema-ornament{grid-column:1/-1}
+.tas .cinema-cover .reel-overline{margin:0;font-size:12px}
+.tas .cinema-ornament{height:22px;margin:8px auto 18px}
+.tas .cinema-cover .reel-key-art{margin:0;width:100%;max-width:none}
+.tas .cinema-copy{text-align:left;min-width:0}
+.tas .cinema-cover h1{font-size:18px;letter-spacing:.15em;margin:0}
+.tas .cinema-cover .reel-quote{font-size:30px;margin:12px 0 0;line-height:1.55;letter-spacing:.06em}
+.tas .cinema-cover .reel-rule{margin:18px 0}
+.tas .cinema-cover .reel-intro{margin:0 0 20px;line-height:1.85}
+.tas .cinema-cover .reel-caption{font-size:12px;margin-top:16px;letter-spacing:3px;color:#b5a68e}
+}
+.tas .programme-heading p,.tas .programme-title span,.tas .programme-description span{font-size:12px}
+.episode-filter{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:16px 24px;padding:24px;background:#e9dec7;margin:28px 0}
+.episode-filter[hidden],.episode-register li[hidden],[data-episode-series][hidden]{display:none}
+.episode-filter label{display:block;margin-bottom:8px;font-size:14px}
+.episode-filter input[type=search],.episode-filter select{width:100%;padding:12px;border:1px solid #97846c;background:#f8f0df;color:#292426;font-size:16px}
+.episode-filter input::placeholder{color:#716353}
+.episode-filter .episode-guided{display:flex;align-items:center;gap:10px;margin:0}
+.episode-filter input[type=checkbox]{flex:none;width:20px;height:20px;accent-color:#9e3536}
+.episode-filter button{justify-self:end;padding:10px 16px;background:transparent;border:1px solid #97846c;color:#87393a;font-size:14px;cursor:pointer}
+.episode-filter #episode-count{grid-column:1/-1;font-size:14px;margin:0;color:#655647}
+.episode-series-links{display:flex;gap:24px;margin-bottom:32px;color:var(--accent)}
+.episode-register li:has(>.episode-row-link){display:block;padding:0}
+.episode-register .episode-row-link{display:grid;grid-template-columns:45px minmax(0,1fr);gap:16px;padding:16px 0;color:var(--accent)}
+.episode-register .episode-row-link:hover{background:#e9dcc4;text-decoration:none}
+.episode-row-link .label{margin:4px 0}
+.episode-row-link strong{display:inline}
+.episode-row-link div>span{font-size:14px}
+@media(max-width:700px){
+.tas .cinema-cover{padding:20px 16px 28px}
+.tas .cinema-cover .reel-art-frame{grid-template-columns:1fr;gap:0;padding:0}
+.tas .cinema-copy{text-align:center}
+.tas .cinema-cover .reel-key-art{margin:0 auto 20px;max-width:520px}
+.tas .cinema-cover h1{font-size:17px}
+.tas .cinema-cover .reel-quote{font-size:25px;margin-top:14px}
+.tas .cinema-cover .reel-rule{margin:16px auto}
+.tas .cinema-cover .reel-intro{font-size:14px;margin:0 auto 20px;max-width:340px}
+.episode-filter{grid-template-columns:1fr;padding:20px;gap:18px}
+.episode-filter button{justify-self:start}
+}
+
+/* A short admission and title-card screening; the original poster keeps its scale. */
+.tas .tas-entry-curtain{animation-duration:230ms;animation-delay:80ms}
+.tas .tas-motion-control,.tas .tas-project-again{font:inherit;font-size:12px;line-height:1.5;padding:10px 14px;margin:14px 8px 0 0;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer;min-height:40px}
+.tas .cinema-copy .tas-motion-control{display:block;margin:20px auto 0;color:#b5a68e}
+.tas .tas-screening-room{position:fixed;inset:0;z-index:1100;background:#070707;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;padding:32px;color:#d6c5a1;animation:tas-screen-darken 180ms ease-out both}
+.tas .tas-screening-frame{width:min(900px,90vw);text-align:center;animation:tas-screen-focus 420ms 120ms ease-out both}
+.tas .tas-screening-frame img{display:block;width:100%;height:auto;max-height:70vh;object-fit:contain;box-shadow:0 0 60px #d6c5a112}
+.tas .tas-screening-caption{font-size:11px;letter-spacing:.18em;margin:0 0 20px}
+.tas .tas-screening-skip{font:inherit;font-size:12px;color:#d6c5a1;border:1px solid #756951;background:transparent;padding:12px 20px;cursor:pointer}
+.tas .tas-screening-skip:focus-visible{outline:2px solid #d6c5a1;outline-offset:4px}
+.tas.tas-screening{overflow:hidden}
+@keyframes tas-screen-darken{from{opacity:0}to{opacity:1}}
+@keyframes tas-screen-focus{from{opacity:0;filter:blur(2px);transform:scale(.985)}to{opacity:1;filter:blur(0);transform:scale(1)}}
+.tas.tas-still .tas-opening .cinema-ornament,.tas.tas-still .tas-opening .reel-key-art,.tas.tas-still .episode-title-card img.tas-projecting,.tas.tas-still .radio-mark span:before{animation:none}
+.tas.tas-still .cinema-cover .reel-ticket.tas-ticket-ready,.tas.tas-still .tas-ticket-label,.tas.tas-still .tas-ticket-stub{transition:none;transform:none}
+@media(prefers-reduced-motion:reduce){.tas .tas-screening-room,.tas .tas-screening-frame{animation:none}}
+@media(max-width:700px){.tas .tas-screening-room{padding:20px 12px}.tas .tas-screening-frame{width:100%}.tas .tas-screening-frame img{max-height:65vh}}

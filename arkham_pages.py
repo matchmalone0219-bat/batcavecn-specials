@@ -69,7 +69,7 @@ def build_arkham_archive(data,shell):
 
     opening='<div class="dossier-opening"><div><h2>暗巷深处，<br>现场留存的物证。</h2><p>暗巷里风化的旧海报、案发现场遗留的私人物品、隐匿在阴影里的谜语人机关。阿卡姆的每一处环境细节，都记录着哥谭的罪案与秘密。循着这些现场物证抽丝剥茧，逐一还原涉案反派的档案背景、解密机制与漫画经典考据。</p><p class="fine">20个考据专题 · 138项现场物证索引 · 16份城市机要档案 · 10部关联文献。</p></div>'+picture('city-flying-graysons')+'</div>'
     opening+='<div class="dossier-shelves"><a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>扫描现场物证，沿物证链推演案情始末与嫌犯背景。</p></a><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>调取七组重点收治对象临床问诊原声与心理评估档案。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>频段监听</h2><p>调谐密码破译器频段，截获小丑秘密电话留言与终局音频。</p></a></div>'
-    opening+='<div class="dossier-shelves">'+''.join(f'<a class="dossier-shelf" href="/arkham/archive/{s}/"><p class="label">0{n} / DOSSIER</p><h2>{t}</h2><p>{d}</p></a>' for n,(s,t,d) in enumerate(ROOMS,1))+'</div>'
+    opening+='<div class="dossier-shelves">'+''.join(f'<a class="dossier-shelf" href="/arkham/archive/{s}/"><h2>{t}</h2><p>{d}</p></a>' for s,t,d in ROOMS)+'</div>'
     opening+='<div class="dossier-boundary"><h2>档案检索指引</h2><p>从物证索引定位现场线索，交叉调取嫌疑人档案、城市机要报告与原作文献。</p><p>涉及核心案情与剧透的信息默认折叠。现场物证按游戏版本与辖区网格编目。</p></div>'
     page('','现场物证与哥谭机要档案','谜语人暗线、犯罪现场物证、城市解密档案与漫画考据；深入犯罪现场背后的反派档案与哥谭黑幕。',opening)
 

@@ -2,6 +2,8 @@
   if (!document.body.classList.contains('arkham')) return;
   let busy = false;
   let soundEnabled = true;
+  let quick = false;
+  try { quick = localStorage.getItem('arkham-quick-browse') === 'on'; } catch {}
   try { soundEnabled = sessionStorage.getItem('arkham-transition-sound') !== 'off'; } catch {}
   function syncSound() {
     document.querySelectorAll('[data-arkham-sound],#intro-sound').forEach(button => {
@@ -21,6 +23,19 @@
       button.addEventListener('click', () => setSound(!soundEnabled));
     });
     syncSound();
+    document.querySelectorAll('[data-arkham-quick]').forEach(button => {
+      button.hidden = false;
+      button.setAttribute('aria-pressed', String(quick));
+      button.textContent = quick ? '快速浏览：开' : '快速浏览：关';
+      button.addEventListener('click', () => {
+        quick = !quick;
+        try { localStorage.setItem('arkham-quick-browse', quick ? 'on' : 'off'); } catch {}
+        document.querySelectorAll('[data-arkham-quick]').forEach(control => {
+          control.setAttribute('aria-pressed', String(quick));
+          control.textContent = quick ? '快速浏览：开' : '快速浏览：关';
+        });
+      });
+    });
   }
   // Membrane curves and wingbeat poses keep the swarm distinct from a logo.
   function drawBat(ctx, flap) {
@@ -45,6 +60,10 @@
   function play({onCovered = () => {}, onFinished = () => {}} = {}) {
     if (busy) return false;
     busy = true;
+    if (quick) {
+      Promise.resolve().then(onCovered).finally(() => { busy = false; onFinished(); });
+      return true;
+    }
     const canvas = document.querySelector('#intro-bats');
     const audio = document.querySelector('#intro-audio');
     document.body.classList.add('arkham-transitioning');
@@ -119,7 +138,7 @@
     requestAnimationFrame(frame);
     return true;
   }
-  window.ArkhamTransition = {play, setSound, get soundEnabled() { return soundEnabled; }, get busy() { return busy; }};
+  window.ArkhamTransition = {play, setSound, get quick() { return quick; }, get soundEnabled() { return soundEnabled; }, get busy() { return busy; }};
   bindSound();
   document.addEventListener('arkham:page', bindSound);
   document.addEventListener('visibilitychange', () => { if (document.hidden) document.querySelector('#intro-audio')?.pause(); });

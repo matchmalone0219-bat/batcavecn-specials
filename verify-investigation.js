@@ -34,6 +34,72 @@ function element() {
     classList:{toggle(name,on){on?classes.add(name):classes.delete(name);},contains:name=>classes.has(name)},
     addEventListener(name, fn){listeners[name]=fn;},setAttribute(name,value){attributes[name]=value;},removeAttribute(name){delete attributes[name];}};
 }
+
+// Drive the actual detective controller: scan timing, cancellation and saved states.
+function detective({reduced = false, blocked = false, saved = {}} = {}) {
+  function node() {
+    const e = element();
+    e.children = []; e.style = {}; e.dataset = {};
+    e.classList.add = (...names) => names.forEach(name => e.classList.toggle(name, true));
+    e.classList.remove = (...names) => names.forEach(name => e.classList.toggle(name, false));
+    e.replaceChildren = (...children) => { e.children = children; };
+    e.focus = () => { document.activeElement = e; };
+    return e;
+  }
+  const nodes = Object.fromEntries(['workspace','case-fallback','case-data','evidence-chain','progress','summary','scan','scene','evidence-label','evidence-title','evidence-body','evidence-links','evidence-sources','evidence-panel','mode','mode-label','case-number','case-title','location','scene-image','scene-caption','scene-source','summary-text','summary-link','reset','feedback','motion'].map(name => [name, node()]));
+  nodes['case-data'].textContent = JSON.stringify(cases.map((c, i) => ({...c, number: String(i + 1), evidence: c.evidence.map(e => ({...e, linksHtml: '', sourceHtml: ''}))})));
+  const selectors = cases.map(c => Object.assign(node(), {dataset: {case: c.id}}));
+  const investigation = node();
+  investigation.querySelector = selector => nodes[selector.slice(6, -1)];
+  investigation.querySelectorAll = () => selectors;
+  const document = {hidden: false, activeElement: null, querySelector: () => investigation, querySelectorAll: () => [], createElement: node, addEventListener(name, fn) { this[name] = fn; }};
+  const handlers = {}, timers = new Map(), stored = new Map([['protocol-arkham-investigations-v1', JSON.stringify(saved)]]);
+  let id = 0;
+  const motion = {matches: reduced, addEventListener(name, fn) { this[name] = fn; }};
+  vm.runInNewContext(source, {window: {matchMedia: () => motion, addEventListener(name, fn) { handlers[name] = fn; }}, document, location: {hash: ''}, history: {replaceState() {}},
+    localStorage: {getItem(key) { if (blocked) throw Error(); return stored.get(key); }, setItem(key, value) { if (blocked) throw Error(); stored.set(key, value); }},
+    setTimeout(fn, delay) { timers.set(++id, {fn, delay}); return id; }, clearTimeout(id) { timers.delete(id); }});
+  return {nodes, selectors, investigation, timers, stored, motion, document, handlers,
+    click(name) { nodes[name].listeners.click(); },
+    evidence(i) { nodes['evidence-chain'].children[i].listeners.click(); },
+    run(delay) { const timer = [...timers.values()].find(t => t.delay === delay); assert.ok(timer); timer.fn(); },
+    count() { return JSON.parse(stored.get('protocol-arkham-investigations-v1'))[cases[0].id] || 0; }};
+}
+const scene = detective();
+scene.click('scan'); assert.equal(scene.count(), 0, 'Normal vision cannot collect evidence');
+scene.click('mode'); scene.click('scan'); scene.click('scan');
+assert.equal(scene.count(), 0, 'Commit only after the scan finishes');
+assert.equal([...scene.timers.values()].filter(t => t.delay === 420).length, 1, 'Repeated clicks do not schedule duplicate scans');
+scene.run(420); assert.equal(scene.count(), 1);
+assert.equal(scene.nodes.scan.disabled, true); assert.equal(scene.nodes['evidence-chain'].children[1].disabled, false);
+scene.evidence(1); scene.run(260); scene.evidence(2); scene.run(260);
+assert.equal(scene.count(), 3); assert.equal(scene.nodes.summary.hidden, false);
+assert.ok(scene.investigation.classList.contains('case-resolved'));
+scene.run(700); scene.evidence(0);
+assert.equal(scene.investigation.classList.contains('case-resolved'), false, 'Rereading cannot replay completion');
+scene.click('reset'); assert.equal(scene.count(), 0);
+for (const action of ['case', 'mode', 'hide', 'reset']) {
+  const test = detective(); test.click('mode'); test.click('scan');
+  const stale = [...test.timers.values()].find(t => t.delay === 420).fn;
+  if (action === 'case') test.selectors[1].listeners.click({preventDefault() {}});
+  if (action === 'mode') test.click('mode');
+  if (action === 'hide') { test.document.hidden = true; test.document.visibilitychange(); }
+  if (action === 'reset') test.click('reset');
+  stale(); assert.equal(test.count(), 0, `${action} cancels uncommitted evidence`);
+}
+for (const options of [{reduced: true}, {blocked: true}]) {
+  const test = detective(options); test.click('mode');
+  if (!options.reduced) test.click('motion');
+  test.click('scan'); assert.ok(test.nodes.feedback.textContent.includes('证据已收录'));
+  assert.equal(test.timers.size, 0, 'Still mode and denied storage remain usable');
+}
+const interrupted = detective(); interrupted.click('mode'); interrupted.click('scan'); interrupted.click('motion');
+assert.equal(interrupted.count(), 1, 'Disabling motion completes an already requested scan');
+assert.equal(interrupted.investigation.classList.contains('is-scanning'), false);
+const resumed = detective({saved: {[cases[0].id]: 3}});
+assert.equal(resumed.nodes.summary.hidden, false); assert.equal(resumed.timers.size, 0, 'Restoration never replays completed work');
+console.log('PASS: detective collection timing, next evidence, completion, rereading, reset, cancellation, motion preference and restoration');
+
 function patient(id) {
   const file=element(),details=element(),button=element(),state=element(),audio=element(),subtitle=element(),label=element(),canvas=element();
   const points=[];

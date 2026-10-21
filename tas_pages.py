@@ -64,12 +64,13 @@ def build_archive(data, shell):
         base='/tas/archive/'+(slug+'/' if slug else '')
         nav='<nav class="archive-nav" aria-label="档案馆分类">'+''.join(f'<a href="/tas/archive/{s}/" {"aria-current=page" if s==slug else ""}>{t}</a>' for s,t,_ in SECTIONS)+'</nav>'
         heading=esc(title).replace('幕后光影：Dark Deco 动画档案', '幕后光影：<br class="archive-title-break">Dark Deco 动画档案')
-        body=f'<section class="section archive-room"><a class="breadcrumb" href="/tas/archive/">← TAS档案馆</a><div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{content}</section>'
+        breadcrumb = '<a class="breadcrumb" href="/tas/archive/">← TAS档案馆</a>' if slug else ''
+        body=f'<section class="section archive-room">{breadcrumb}<div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{content}</section>'
         pages[base.strip('/')+'/index.html']=shell(data,'tas',title,body,'archive')
         records.append(dict(title=title,original='Dark Deco / Archive',summary=intro,tags=['资料站','档案馆'],site='tas',status='专题档案',url=base))
 
     lead=picture('image-1')
-    cards='<div class="archive-shelves">'+''.join(f'<a class="archive-shelf" href="/tas/archive/{s}/"><span class="label">0{n} / ARCHIVE ROOM</span><h2>{t}</h2><p>{d}</p></a>' for n,(s,t,d) in enumerate(SECTIONS,1))+'</div>'
+    cards='<div class="archive-shelves">'+''.join(f'<a class="archive-shelf" href="/tas/archive/{s}/"><h2>{t}</h2><p>{d}</p></a>' for s,t,d in SECTIONS)+'</div>'
     page('','幕后光影：Dark Deco 动画档案','从美术手稿、传奇配音到版本考据，全景解构经典动画系列的诞生始末与艺术巅峰。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
 
     base='/tas/archive/production/'

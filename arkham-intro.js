@@ -11,6 +11,10 @@
   const sound = document.querySelector('#intro-sound');
   const status = document.querySelector('#intro-status');
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  if (window.ArkhamTransition.quick && new URL(location.href).searchParams.get('opening') !== '1') {
+    location.replace(entry.href);
+    return;
+  }
   let entering = false;
   let revealed = false;
   let soundEnabled = window.ArkhamTransition.soundEnabled;

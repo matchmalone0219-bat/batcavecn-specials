@@ -57,11 +57,21 @@ def actor_markup(item):
 def episode_catalog(items):
     rows = []
     for item in sorted(items, key=lambda item: int(item["guideNumber"])):
+        guided = item["status"] == "详情样板"
         title = f'<strong>{esc(item["original"])}</strong>'
-        if item["status"] == "详情样板":
-            title = f'<a href="{route(item)}">{title}<span> · {esc(item["title"])}</span></a>'
-        rows.append(f'<li id="{esc(item["id"])}"><span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if item["status"] == "详情样板" else "分集条目"} · {esc(item["nameNote"])}</p></div></li>')
+        if guided:
+            title += f'<span> · {esc(item["title"])}</span>'
+        contents = f'<span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if guided else "分集条目"} · {esc(item["nameNote"])}</p></div>'
+        if guided:
+            contents = f'<a class="episode-row-link" href="{route(item)}">{contents}</a>'
+        rows.append(f'<li id="{esc(item["id"])}" data-episode data-series="{esc(item["series"])}" data-guided="{str(guided).lower()}" data-query="{esc(item["original"] + " " + item["title"] + " " + item["guideNumber"])}">{contents}</li>')
     return '<ol class="episode-register" aria-label="分集基础目录">' + "".join(rows) + '</ol>'
+
+
+def tas_catalog(data):
+    filters = '<form id="episode-filter" class="episode-filter" hidden role="search" aria-label="筛选分集目录"><div><label for="episode-query">查找集名或编号</label><input id="episode-query" type="search" placeholder="中文名、英文名或指南编号"></div><div><label for="episode-series">所属系列</label><select id="episode-series"><option value="all">全部系列</option><option value="BTAS">BTAS · 85集</option><option value="TNBA">TNBA · 24集</option></select></div><label class="episode-guided"><input id="episode-guided" type="checkbox">仅看分集导读</label><button type="reset">重置筛选</button><p id="episode-count" role="status" aria-live="polite"></p></form><p id="episode-empty" hidden>没有匹配的分集。试试其他集名或重置筛选。</p>'
+    registers = ''.join(f'<section data-episode-series="{series}"><h2 id="{series.lower()}">{series} · {len(items)}集</h2>{episode_catalog(items)}</section>' for series, items in (("BTAS", data["episodes"]), ("TNBA", data["tnbaEpisodes"])))
+    return filters + '<nav class="episode-series-links" aria-label="系列目录"><a href="#btas">BTAS · 85集</a><a href="#tnba">TNBA · 24集</a></nav>' + registers
 
 
 def image_gallery(site, item_id=None, role=None):

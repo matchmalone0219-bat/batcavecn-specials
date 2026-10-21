@@ -4,12 +4,14 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync(`${__dirname}/arkham-transition.js`, 'utf8') + '\n' + fs.readFileSync(`${__dirname}/arkham-intro.js`, 'utf8');
 
-function setup({reduced = false, noCanvas = false, rejectAudio = false, rejectScore = false} = {}) {
+function setup({reduced = false, noCanvas = false, rejectAudio = false, rejectScore = false, quick = false, opening = false, storageBlocked = false} = {}) {
   const nodes = new Map();
   const frames = [];
   const timers = new Map();
   let pushes = 0;
   let now = 0;
+  const storage = new Map(quick ? [['arkham-quick-browse', 'on']] : []);
+  let replaced;
   function node() {
     const handlers = {};
     const attributes = {};
@@ -23,6 +25,8 @@ function setup({reduced = false, noCanvas = false, rejectAudio = false, rejectSc
   }
   for (const id of ['#intro-video', '#intro-stage', '#intro-menu', '.intro-entry', '#intro-bats', '#intro-audio', '#intro-score', '#intro-play', '#intro-music', '#intro-sound', '#intro-status', '#menu-title', '.menu-tile', 'h1']) nodes.set(id, node());
   nodes.get('.intro-entry').setAttribute('href', '/arkham/menu/');
+  nodes.get('.intro-entry').href = 'http://127.0.0.1:8766/arkham/menu/';
+  nodes.set('[data-arkham-quick]', node());
   nodes.get('#intro-score').dataset.src = '/assets/arkham-city-intro-music.m4a';
   nodes.get('#intro-menu').hidden = true;
   nodes.get('#intro-bats').hidden = true;
@@ -30,17 +34,18 @@ function setup({reduced = false, noCanvas = false, rejectAudio = false, rejectSc
   nodes.get('#intro-bats').getContext = () => noCanvas ? null : new Proxy({}, {get: () => () => {}});
   const classes = new Set(["arkham"]);
   const body = {classList: {add: (...items) => items.forEach(i => classes.add(i)), remove: i => classes.delete(i), contains: i => classes.has(i)}};
-  const document = {body, handlers: {}, querySelector: id => nodes.get(id), querySelectorAll: () => [], createElement: node,
+  const document = {body, handlers: {}, querySelector: id => nodes.get(id), querySelectorAll: selector => selector === '[data-arkham-quick]' ? [nodes.get(selector)] : [], createElement: node,
     addEventListener(type, fn) { this.handlers[type] = fn; }};
   const motion = {matches: reduced, addEventListener() {}};
   const window = {handlers: {}, addEventListener(type, fn) { this.handlers[type] = fn; }};
   vm.runInNewContext(source, {document, window, matchMedia: () => motion,
-    history: {pushState() { pushes++; }}, location: {reload() {}},
+    history: {pushState() { pushes++; }}, location: {href: 'http://127.0.0.1:8766/arkham/' + (opening ? '?opening=1' : ''), replace(url) { replaced = url; }, reload() {}}, URL,
+    localStorage: {getItem(key) { if (storageBlocked) throw new Error('disabled'); return storage.get(key); }, setItem(key, value) { if (storageBlocked) throw new Error('disabled'); storage.set(key, value); }},
     innerWidth: 390, innerHeight: 844, devicePixelRatio: 2,
     performance: {now: () => now}, requestAnimationFrame: fn => frames.push(fn),
     setTimeout: fn => { timers.set(1, fn); return 1; }, clearTimeout: id => timers.delete(id),
   });
-  return {nodes, document, window, classes, frames, timers, pushes: () => pushes,
+  return {nodes, document, window, classes, frames, timers, storage, replaced: () => replaced, pushes: () => pushes,
     click(event = {}) { nodes.get('.intro-entry').handlers.click({preventDefault() {}, ...event}); },
     frame(time) { now = time; frames.shift()(time); },
     transition: window.ArkhamTransition,
@@ -49,6 +54,24 @@ function setup({reduced = false, noCanvas = false, rejectAudio = false, rejectSc
 
 (async () => {
 const tick = async () => { await Promise.resolve(); await Promise.resolve(); };
+const revisit = setup({quick:true});
+assert.equal(revisit.replaced(), 'http://127.0.0.1:8766/arkham/menu/');
+assert.equal(revisit.nodes.get('#intro-video').plays, 0, 'Quick revisits must not start the opening');
+const replay = setup({quick:true, opening:true});
+assert.equal(replay.replaced(), undefined, 'Explicit opening replay must remain reachable');
+replay.click(); await tick(); await tick();
+assert.equal(replay.pushes(), 1);
+assert.equal(replay.frames.length, 0);
+assert.equal(replay.nodes.get('#intro-audio').plays, 0, 'Quick entry must skip transition sound');
+const preference = setup();
+preference.nodes.get('[data-arkham-quick]').handlers.click();
+assert.equal(preference.storage.get('arkham-quick-browse'), 'on');
+assert.equal(preference.transition.quick, true);
+preference.nodes.get('[data-arkham-quick]').handlers.click();
+assert.equal(preference.storage.get('arkham-quick-browse'), 'off');
+const privateBrowsing = setup({storageBlocked:true});
+privateBrowsing.nodes.get('[data-arkham-quick]').handlers.click();
+assert.equal(privateBrowsing.transition.quick, true, 'Unavailable storage must not block the current session');
 const normal = setup();
 normal.click(); normal.click();
 assert.equal(normal.nodes.get('#intro-audio').plays, 1, 'Repeated entry must not replay sound');

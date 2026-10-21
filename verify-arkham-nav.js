@@ -50,6 +50,10 @@ function harness() {
   ]) { const test=harness(); assert.equal(test.click(path,options),false,path); assert.equal(test.requested,0); }
   const reading=harness(); reading.hover('/arkham/games/arkham-city/',{menu:false});
   assert.equal(reading.requested,0,'Reading links should not use transition preloading');
+  const quick=harness(); quick.transition.quick=true;
+  quick.hover('/arkham/catalog/');
+  assert.equal(quick.click('/arkham/catalog/'),false,'Quick browsing must retain native links');
+  assert.equal(quick.requested,0,'Quick browsing must not preload transition pages');
   const blocked=harness(); blocked.transition.busy=true;
   assert.equal(blocked.click('/arkham/catalog/'),true); assert.equal(blocked.requested,0);
   for (const path of ['/arkham/catalog/','/arkham/archive/','/arkham/people/kevin-conroy/','/arkham/collectibles/','/arkham/gallery/','/arkham/search/','/arkham/sources/']) {

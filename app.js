@@ -140,8 +140,61 @@ async function editorPage() {
   }
 }
 
+function episodeCatalogPage() {
+  const form = document.querySelector('#episode-filter');
+  if (!form) return;
+  const query = form.querySelector('#episode-query');
+  const series = form.querySelector('#episode-series');
+  const guided = form.querySelector('#episode-guided');
+  const rows = [...document.querySelectorAll('[data-episode]')];
+  const groups = [...document.querySelectorAll('[data-episode-series]')];
+  const normalise = value => value.normalize('NFKC').toLocaleLowerCase().trim();
+  function filter() {
+    const words = normalise(query.value).split(/\s+/).filter(Boolean);
+    let count = 0;
+    rows.forEach(row => {
+      const matches = (series.value === 'all' || row.dataset.series === series.value) &&
+        (!guided.checked || row.dataset.guided === 'true') &&
+        words.every(word => normalise(row.dataset.query).includes(word));
+      row.hidden = !matches;
+      if (matches) count++;
+    });
+    groups.forEach(group => { group.hidden = !group.querySelector('[data-episode]:not([hidden])'); });
+    document.querySelector('#episode-count').textContent = `显示 ${count} / ${rows.length} 集`;
+    document.querySelector('#episode-empty').hidden = count > 0;
+  }
+  form.hidden = false;
+  form.addEventListener('submit', event => event.preventDefault());
+  form.addEventListener('input', filter);
+  form.addEventListener('change', filter);
+  form.addEventListener('reset', () => setTimeout(filter, 0));
+  document.querySelectorAll('.episode-series-links a').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      query.value = ''; guided.checked = false;
+      series.value = link.hash.slice(1).toUpperCase();
+      filter();
+    });
+  });
+  filter();
+}
+
 searchPage();
+episodeCatalogPage();
 editorPage();
+document.addEventListener('click', event => {
+  if (event.target.closest('.topic-more')) return;
+  document.querySelectorAll('.topic-more[open]').forEach(menu => { menu.open = false; });
+});
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const menu = event.target.closest('.topic-more[open]');
+  if (!menu) return;
+  menu.open = false;
+  menu.querySelector('summary').focus();
+  event.preventDefault();
+  event.stopImmediatePropagation();
+});
 if (["localhost", "127.0.0.1"].includes(location.hostname)) {
   fetch("/api/editor", {cache:"no-store"}).then(response => {
     if (response.ok) document.querySelectorAll("[data-local-edit]").forEach(link => {link.hidden = false;});
