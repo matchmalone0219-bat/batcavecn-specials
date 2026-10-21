@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def person_url(site):
-    return "/arkham/people/kevin-conroy/" if site == "arkham" else "/people/kevin-conroy/"
+    return {"arkham": "/arkham/people/kevin-conroy/", "tas": "/tas/people/kevin-conroy/"}.get(site, "/voices/#kevin-conroy")
 
 
 def esc(value):
@@ -54,24 +54,88 @@ def actor_markup(item):
     return f'<a href="{esc(link)}">{actor}</a>' if link else actor
 
 
-def episode_catalog(items):
+def episode_credits():
+    path = ROOT / "episode-credits.json"
+    return json.loads(path.read_text()) if path.exists() else {"episodes": {}}
+
+
+def credit_options(credits, key, minimum=1):
+    counts = {}
+    for record in credits.values():
+        values = record[key] if isinstance(record[key], list) else [record[key]]
+        for value in values:
+            counts[value] = counts.get(value, 0) + 1
+    ranked = sorted((item for item in counts.items() if item[1] >= minimum), key=lambda item: (-item[1], item[0]))
+    return "".join(f'<option value="{esc(name)}">{esc(name)} · {count}集</option>' for name, count in ranked)
+
+
+def title_cards():
+    return {a["item"]: a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a.get("role") == "title-card"}
+
+
+def episode_catalog(items, credits=None):
+    credits = credits or {}
+    cards = title_cards()
     rows = []
     for item in sorted(items, key=lambda item: int(item["guideNumber"])):
         guided = item["status"] == "详情样板"
+        record = credits.get(item["id"])
         title = f'<strong>{esc(item["original"])}</strong>'
         if guided:
             title += f'<span> · {esc(item["title"])}</span>'
-        contents = f'<span class="label">{esc(item["guideNumber"])}</span><div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if guided else "分集条目"} · {esc(item["nameNote"])}</p></div>'
+        credit_line = ""
+        attributes = ""
+        query = item["original"] + " " + item["title"] + " " + item["guideNumber"]
+        if record:
+            parts = [("编剧", record["writer"]), ("导演", record["director"]), ("动画", record["studio"])]
+            credit_line = '<p class="episode-credits">' + " · ".join(f'<span>{label}&nbsp;{esc(value)}</span>' for label, value in parts if value) + "</p>"
+            if record["villains"]:
+                credit_line += '<p class="episode-villains">' + "".join(f"<span>{esc(name)}</span>" for name in record["villains"]) + "</p>"
+            attributes = "".join(f' data-{key}="{esc("|".join(record[key]) if isinstance(record[key], list) else record[key])}"' for key in ("villains", "writers", "directors", "studio"))
+            query += " " + " ".join(record["writers"] + record["directors"] + record["villains"] + [record["studio"]])
+        card = cards.get(item["id"]) if guided else None
+        thumb = f'<img class="episode-thumb" src="/assets/media/{esc(card["file"])}" width="{card["width"]}" height="{card["height"]}" alt="" loading="lazy">' if card else ""
+        contents = f'<span class="label">{esc(item["guideNumber"])}</span>{thumb}<div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if guided else "分集条目"} · {esc(item["nameNote"])}</p>{credit_line}</div>'
         if guided:
             contents = f'<a class="episode-row-link" href="{route(item)}">{contents}</a>'
-        rows.append(f'<li id="{esc(item["id"])}" data-episode data-series="{esc(item["series"])}" data-guided="{str(guided).lower()}" data-query="{esc(item["original"] + " " + item["title"] + " " + item["guideNumber"])}">{contents}</li>')
+        card_attribute = f' data-card="/assets/media/{esc(card["file"])}"' if card else ""
+        rows.append(f'<li id="{esc(item["id"])}"{' class="has-card"' if card else ""} data-episode data-series="{esc(item["series"])}" data-guided="{str(guided).lower()}"{card_attribute}{attributes} data-query="{esc(query)}">{contents}</li>')
     return '<ol class="episode-register" aria-label="分集基础目录">' + "".join(rows) + '</ol>'
 
 
+def episode_runs(series, items):
+    ordered = sorted(items, key=lambda item: int(item["guideNumber"]))
+    if series != "BTAS":
+        return [("全季", ordered)]
+    return [("首轮播出", [i for i in ordered if int(i["guideNumber"]) <= 65]), ("The Adventures of Batman & Robin", [i for i in ordered if int(i["guideNumber"]) > 65])]
+
+
+def episode_run(number, name, items, credits):
+    dates = sorted(item["airDate"] for item in items)
+    head = f'<div class="run-head"><span class="run-plate">{number:02d}</span><div><h3>{esc(name)}</h3><p>{esc(items[0]["guideNumber"])}—{esc(items[-1]["guideNumber"])} · {len(items)}集 · 首播 {esc(dates[0])} — {esc(dates[-1])}</p></div></div>'
+    return f'<div class="episode-run" data-episode-run>{head}{episode_catalog(items, credits)}</div>'
+
+
+def air_years(items):
+    counts = {}
+    for item in items:
+        counts[item["airDate"][:4]] = counts.get(item["airDate"][:4], 0) + 1
+    peak = max(counts.values())
+    bars = "".join(f'<li><span class="air-bar" style="--h:{round(count / peak * 100)}%"></span><strong>{count}</strong><span>{year}</span></li>' for year, count in sorted(counts.items()))
+    return f'<figure class="air-years"><figcaption>首播年份</figcaption><ol>{bars}</ol></figure>'
+
+
 def tas_catalog(data):
-    filters = '<form id="episode-filter" class="episode-filter" hidden role="search" aria-label="筛选分集目录"><div><label for="episode-query">查找集名或编号</label><input id="episode-query" type="search" placeholder="中文名、英文名或指南编号"></div><div><label for="episode-series">所属系列</label><select id="episode-series"><option value="all">全部系列</option><option value="BTAS">BTAS · 85集</option><option value="TNBA">TNBA · 24集</option></select></div><label class="episode-guided"><input id="episode-guided" type="checkbox">仅看分集导读</label><button type="reset">重置筛选</button><p id="episode-count" role="status" aria-live="polite"></p></form><p id="episode-empty" hidden>没有匹配的分集。试试其他集名或重置筛选。</p>'
-    registers = ''.join(f'<section data-episode-series="{series}"><h2 id="{series.lower()}">{series} · {len(items)}集</h2>{episode_catalog(items)}</section>' for series, items in (("BTAS", data["episodes"]), ("TNBA", data["tnbaEpisodes"])))
-    return filters + '<nav class="episode-series-links" aria-label="系列目录"><a href="#btas">BTAS · 85集</a><a href="#tnba">TNBA · 24集</a></nav>' + registers
+    doc = episode_credits()
+    credits = doc["episodes"]
+    selects = (("episode-villain", "villains", "反派", "全部反派", 1), ("episode-writer", "writers", "编剧", "全部编剧", 2), ("episode-director", "directors", "导演", "全部导演", 1), ("episode-studio", "studio", "动画制作", "全部工作室", 1))
+    credit_filters = '<fieldset class="episode-credit-filter"><legend>按反派与主创筛选 · BTAS</legend>' + "".join(f'<div><label for="{field}">{label}</label><select id="{field}" data-credit="{key}"><option value="all">{empty}</option>{credit_options(credits, key, minimum)}</select></div>' for field, key, label, empty, minimum in selects) + '</fieldset>' if credits else ""
+    filters = f'<form id="episode-filter" class="episode-filter" hidden role="search" aria-label="筛选分集目录"><div><label for="episode-query">查找集名、编号或主创</label><input id="episode-query" type="search" placeholder="中文名、英文名、指南编号或人名"></div><div><label for="episode-series">所属系列</label><select id="episode-series"><option value="all">全部系列</option><option value="BTAS">BTAS · 85集</option><option value="TNBA">TNBA · 24集</option></select></div>{credit_filters}<label class="episode-guided"><input id="episode-guided" type="checkbox">仅看分集导读</label><button type="reset">重置筛选</button><p id="episode-count" role="status" aria-live="polite"></p></form><p id="episode-empty" hidden>没有匹配的分集。试试其他集名或重置筛选。</p>'
+    registers = ''.join(f'<section data-episode-series="{series}"><h2 id="{series.lower()}">{series} · {len(items)}集</h2>{air_years(items)}{"".join(episode_run(number, name, run, credits if series == "BTAS" else None) for number, (name, run) in enumerate(episode_runs(series, items), 1))}</section>' for series, items in (("BTAS", data["episodes"]), ("TNBA", data["tnbaEpisodes"])))
+    registers = f'<div class="episode-browser"><div class="episode-runs">{registers}</div><aside class="episode-preview" data-episode-preview hidden aria-live="polite"></aside></div>'
+    source = doc.get("source")
+    note = f'<section class="episode-credit-source"><h2>署名资料</h2>{sources({"sources": [source]})}<p class="fine">反派标签依各集配音表中的角色归类，收录系列中反复出现的主要反派与对手。</p></section>' if source else ""
+    return filters + '<nav class="episode-series-links" aria-label="系列目录"><a href="#btas">BTAS · 85集</a><a href="#tnba">TNBA · 24集</a></nav>' + registers + note
 
 
 def image_gallery(site, item_id=None, role=None):

@@ -313,6 +313,7 @@
       if (!current()) return;
       if (document.hidden || (details && !details.open)) { pause(); return; }
       status(file, '正在播放', true); startWave();
+      window.ProtocolRecord?.heard(active.tape.src);
     });
     audio.addEventListener('timeupdate', () => { if (current()) subtitles(); });
     audio.addEventListener('seeked', () => { if (current()) subtitles(); });

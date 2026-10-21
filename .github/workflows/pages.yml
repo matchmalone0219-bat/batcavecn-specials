@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install build tools
+        run: python3 -m pip install -r requirements-build.txt
       - name: Validate archives and interactions
         run: |
           python3 verify.py

@@ -1,5 +1,7 @@
 """Topic navigation, styles and shared page chrome."""
 from render_common import esc
+from tas_deco import expand as expand_deco, screen_head
+from arkham_icons import expand as expand_icons
 
 NAVIGATION = {
     "arkham": (
@@ -17,7 +19,7 @@ NAVIGATION = {
         ("分集目录", "/tas/catalog/", "catalog"),
         ("档案馆", "/tas/archive/", "archive"),
         ("披风斗士", "/tas/series/caped-crusader/", "caped"),
-        ("蝙蝠侠之声", "/people/kevin-conroy/", "person"),
+        ("蝙蝠侠之声", "/tas/people/kevin-conroy/", "person"),
         ("资料来源", "/tas/sources/", "sources"),
         ("周边档案", "/tas/collectibles/", "collectibles"),
         ("图片资料", "/tas/gallery/", "gallery"),
@@ -26,7 +28,7 @@ NAVIGATION = {
     "shared": (
         ("Protocol Arkham", "/arkham/", "arkham"),
         ("Dark Deco", "/tas/", "tas"),
-        ("共同档案", "/people/kevin-conroy/", "person"),
+        ("蝙蝠侠之声", "/voices/", "voices"),
     ),
 }
 SEARCH_OPTIONS = {
@@ -35,16 +37,24 @@ SEARCH_OPTIONS = {
 }
 
 
+def icon(site):
+    return f'<link rel="icon" href="/assets/icon-{site if site in ("arkham", "tas") else "shared"}.svg" type="image/svg+xml">'
+
+
 def stylesheets(site):
     files = ["style.css"]
     if site in ("arkham", "tas"):
         files.append(f"{site}.css")
         files.append("topic-navigation.css")
-    return "".join(f'<link rel="stylesheet" href="/assets/{file}">' for file in files)
+    return icon(site) + "".join(f'<link rel="stylesheet" href="/assets/{file}">' for file in files)
 
 
-def arkham_effects():
-    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><button class="arkham-quick" data-arkham-quick type="button" aria-pressed="false" hidden title="省略回访开场与菜单转场">快速浏览：关</button><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button>'
+ARKHAM_CONTROLS = '<button class="arkham-quick" data-arkham-quick type="button" aria-pressed="false" hidden title="省略回访开场与菜单转场">快速浏览：关</button><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button>'
+
+
+def arkham_effects(controls=True):
+    """Floating controls belong to the intro and menu; inner pages carry them in the 更多导航 menu."""
+    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio>' + (ARKHAM_CONTROLS if controls else '')
 
 
 def arkham_scripts():
@@ -54,12 +64,17 @@ def arkham_scripts():
 def shell(data, site, title, body, active=""):
     info = data["sites"].get(site, {"name": "蝙蝠侠之声", "english": "A VOICE IN THE DARK"})
     nav = NAVIGATION[site]
+    if site == "tas":
+        body = screen_head(body)
     brand_subtitle = {"arkham": "阿卡姆协议", "tas": "TAS 动画档案"}.get(site, info["name"])
-    footer_links = '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>' if site == "arkham" else '<a href="/arkham/">Protocol Arkham</a><a href="/tas/">Dark Deco</a><a href="/people/kevin-conroy/">凯文·康罗伊</a><a href="/editor/" data-local-edit hidden>编辑文案</a>'
+    footer_links = {
+        "arkham": '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/voices/">两站共同档案</a>',
+        "tas": '<a href="/tas/">Dark Deco</a><a href="/tas/people/kevin-conroy/">凯文·康罗伊</a><a href="/voices/">两站共同档案</a>',
+    }.get(site, '<a href="/arkham/">Protocol Arkham</a><a href="/tas/">Dark Deco</a><a href="/voices/">蝙蝠侠之声</a>') + '<a href="/editor/" data-local-edit hidden>编辑文案</a>'
     scripts = arkham_scripts() if site == "arkham" else '<script src="/assets/app.js" defer></script>'
     if site == "tas":
-        scripts += '<script src="/assets/tas-motion.js" defer></script>'
-    effects = arkham_effects() if site == "arkham" else ''
+        scripts += '<script src="/assets/tas-motion.js" defer></script><script src="/assets/tas-lightbox.js" defer></script>'
+    effects = arkham_effects(controls=False) if site == "arkham" else ''
     nav_html = ""
     more_html = ""
     for label, url, key in nav:
@@ -71,6 +86,9 @@ def shell(data, site, title, body, active=""):
             more_html += link
         else:
             nav_html += link
+    if site == "arkham":
+        more_html += f'<div class="topic-menu-controls">{ARKHAM_CONTROLS}</div>'
     if more_html:
         nav_html += f'<details class="topic-more"><summary>更多导航</summary><div class="topic-menu">{more_html}</div></details>'
-    return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else "people/kevin-conroy/"}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
+    html = f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else ""}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
+    return expand_icons(html) if site == "arkham" else expand_deco(html) if site == "tas" else html

@@ -34,6 +34,23 @@ def production_preview():
     return '<nav class="folio-index" aria-label="制作图册选页">' + ''.join(cards) + '</nav>'
 
 
+# Each archive room is a numbered screening hall on the lobby directory.
+HALLS = {
+    'production': ('PRODUCTION', 'tas-production-on-leather-wings-storyboard.png', 1512, 918, 'On Leather Wings分镜台本页'),
+    'voices': ('CAST & VOICES', 'tas-research-harley-tas.jpg', 900, 682, '哈莉与小丑的动画画面'),
+    'films': ('FEATURE FILMS', 'mask-of-phantasm.jpg', 800, 619, '《幽灵的面具》中的蝙蝠侠与布鲁斯'),
+    'publications': ('COMICS & PRINT', 'tas-research-adventures-omnibus.jpg', 298, 450, 'The Batman Adventures Omnibus封面'),
+    'music': ('SCORE', None, 0, 0, ''),
+    'history': ('LEGACY', 'caped-timm-marquee.jpg', 1200, 400, '《披风斗士》系列美术宣传图'),
+}
+
+
+def hall(number, slug, title, text):
+    english, file, width, height, alt = HALLS[slug]
+    poster = f'<img src="/assets/media/{esc(file)}" width="{width}" height="{height}" alt="{esc(alt)}" loading="lazy">' if file else '<i data-deco="spire" class="hall-mark"></i>'
+    return f'<a class="screening-hall hall-{slug}" href="/tas/archive/{slug}/"><div class="hall-poster">{poster}</div><div class="hall-copy"><p class="hall-number"><span>{number:02d}</span>号厅 · {english}</p><h2>{title}</h2><p>{text}</p></div></a>'
+
+
 def build_archive(data, shell):
     first, second = load()
     sources = {s['id']:s for p in (first,second) for s in p['sources']}
@@ -70,7 +87,7 @@ def build_archive(data, shell):
         records.append(dict(title=title,original='Dark Deco / Archive',summary=intro,tags=['资料站','档案馆'],site='tas',status='专题档案',url=base))
 
     lead=picture('image-1')
-    cards='<div class="archive-shelves">'+''.join(f'<a class="archive-shelf" href="/tas/archive/{s}/"><h2>{t}</h2><p>{d}</p></a>' for s,t,d in SECTIONS)+'</div>'
+    cards='<nav class="screening-halls" aria-label="档案馆分区">'+''.join(hall(n,s,t,d) for n,(s,t,d) in enumerate(SECTIONS,1))+'</nav>'
     page('','幕后光影：Dark Deco 动画档案','从美术手稿、传奇配音到版本考据，全景解构经典动画系列的诞生始末与艺术巅峰。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
 
     base='/tas/archive/production/'
@@ -87,7 +104,7 @@ def build_archive(data, shell):
         title=names.get(r['characterAsListed'],r['characterAsListed']); actor=r['englishActorAsListed']
         content+=f'<article id="{r["id"]}"><div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p></div><strong>{esc(actor)}</strong></article>'
         records.append(dict(title=title+' · '+actor,original=r['characterAsListed'],summary='BTAS英语版角色配音；华纳合辑公告列名。',tags=['配音','声音',actor],site='tas',status='角色声音',url=base+'#'+r['id']))
-    content+='</div>'+refs(second['roles'][0])+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
+    content+='</div>'+refs(second['roles'][0])+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
     page('voices','角色与声音','十五组核心角色英语原版声优名册，重温现场群录的黄金时代。',content)
 
     base='/tas/archive/films/'

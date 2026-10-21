@@ -1,6 +1,7 @@
 """Arkham title screen, game menu and game catalogue."""
 import json
 from render_common import ROOT, esc, route
+from arkham_icons import icon as arkham_icon
 from site_layout import shell, stylesheets, arkham_effects, arkham_scripts
 
 
@@ -19,15 +20,15 @@ def arkham_menu_background():
 
 def arkham_menu(heading="h1"):
     entries = [
-        ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "六部作品 · 从阿卡姆岛、黑门到大都会", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "M3 5h7l2 2h9v13H3z"),
-        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "案件重建 · 患者终端 · 场景与创作档案", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "M12 3v18M3 12h18M5 5l14 14M19 5L5 19"),
-        ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊 · 游戏作品与表演档案", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "M4 9v6M8 5v14M12 3v18M16 7v10M20 9v6"),
-        ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "人偶 · 战衣版本 · 雕像与游戏衍生收藏", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "M12 3l9 5v9l-9 5-9-5V8zM3 8l9 5 9-5M12 13v9"),
-        ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "六部游戏与研究图片 · 保留版本和出处", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "M3 4h18v16H3zM3 17l6-7 4 4 3-3 5 6M16 8h1"),
-        ("搜索档案", "SEARCH", "/arkham/search/", "检索阿卡姆作品、人物、物件与主题", "arkham-origins-blackgate-01.jpg", "《阿卡姆起源：黑门》官方商店截图 · 豪华版（2014）", "M15 15l6 6M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0"),
-        ("资料来源", "SOURCE NOTES", "/arkham/sources/", "作品资料 · 主创访谈 · 版本书目", "suicide-squad-kill-the-justice-league-01.jpg", "《自杀小队：消灭正义联盟》官方商店截图", "M5 3h14v18H5zM8 7h8M8 11h8M8 15h5"),
+        ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "六部作品 · 从阿卡姆岛、黑门到大都会", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "games"),
+        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "案件重建 · 患者终端 · 场景与创作档案", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "dossiers"),
+        ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊 · 游戏作品与表演档案", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "voice"),
+        ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "人偶 · 战衣版本 · 雕像与游戏衍生收藏", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "collectibles"),
+        ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "六部游戏与研究图片 · 保留版本和出处", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "gallery"),
+        ("搜索档案", "SEARCH", "/arkham/search/", "检索阿卡姆作品、人物、物件与主题", "arkham-origins-blackgate-01.jpg", "《阿卡姆起源：黑门》官方商店截图 · 豪华版（2014）", "search"),
+        ("资料来源", "SOURCE NOTES", "/arkham/sources/", "作品资料 · 主创访谈 · 版本书目", "suicide-squad-kill-the-justice-league-01.jpg", "《自杀小队：消灭正义联盟》官方商店截图", "sources"),
     ]
-    tiles = "".join(f'<a class="menu-tile" href="{url}" data-title="{esc(title)}" data-description="{esc(desc)}" data-image="/assets/media/{image}" data-caption="{esc(caption)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="{icon}"/></svg><span>{esc(title)}</span><small>{english}</small></a>' for title, english, url, desc, image, caption, icon in entries)
+    tiles = "".join(f'<a class="menu-tile" href="{url}" data-title="{esc(title)}" data-description="{esc(desc)}" data-image="/assets/media/{image}" data-caption="{esc(caption)}">{arkham_icon(icon, cls="menu-icon")}<span>{esc(title)}</span><small>{english}</small></a>' for title, english, url, desc, image, caption, icon in entries)
     return f'<div class="game-menu game-menu-console"><div class="menu-selection"><p class="game-eyebrow">BATCAVECN // PROTOCOL ARKHAM</p><p class="menu-brand">阿卡姆协议<span>PROTOCOL ARKHAM</span></p><nav class="menu-grid" aria-label="档案主菜单">{tiles}</nav><div class="game-controls"><a href="/arkham/?opening=1"><kbd>Esc</kbd> 返回启动画面</a><span class="keyboard-hint"><kbd>↵</kbd> 进入 · ↑ ↓ 选择</span></div></div><div class="menu-preview"><p class="game-eyebrow">ARCHIVE SELECT</p><{heading} id="menu-title">作品档案</{heading}><p id="menu-description" aria-live="polite">六部作品 · 从阿卡姆岛、黑门到大都会</p><p class="menu-preview-note">作品 · 人物 · 现场机要档案</p></div></div><div class="menu-background-tools"><span id="menu-background-caption">《阿卡姆之城》官方商店截图</span><button id="menu-background-toggle" type="button" aria-pressed="true" hidden>背景轮播：开</button></div>'
 
 
@@ -37,7 +38,11 @@ def arkham_catalog(data):
     for item in sorted(data["games"], key=lambda game: (game["year"], game["date"])):
         image = images[item["id"]]
         rows.append(f'<a class="arkham-game-card" href="{route(item)}"><div class="arkham-game-image"><img src="/assets/media/{item["id"]}-01.jpg" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["caption"])}"><span>{esc(item["year"])}</span></div><div class="arkham-game-copy"><p class="game-eyebrow">{esc(item["original"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["summary"])}</p><div class="arkham-game-meta"><span>{esc(item["developer"])}</span><span>{esc(item["date"])}</span></div></div></a>')
-    body = '<section class="section arkham-game-catalog"><a class="breadcrumb menu-return" href="/arkham/menu/" aria-label="返回主菜单"><kbd>Esc</kbd><span>MAIN MENU</span></a><div class="arkham-catalog-heading"><div><p class="game-eyebrow">GAME ARCHIVE / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>六部作品，<br>按原作年份排列。</p></div><div class="arkham-games-grid">'+''.join(rows)+'</div><a class="dossier-shelf" href="/arkham/archive/rocksteady/"><p class="label">CREATIVE HISTORY</p><h2>Rocksteady与创作变迁</h2><p>从成为蝙蝠侠到合作射击与赛季制，沿作品与制作人员阅读转向。</p></a></section>'
+    games = sorted(data["games"], key=lambda game: (game["year"], game["date"]))
+    items = "".join(f'<li><a class="browser-item" href="{route(item)}" data-browse-item data-target="game-{item["id"]}"><span class="browser-year">{esc(item["year"])}</span><span class="browser-name">{esc(item["title"])}<small>{esc(item["original"])}</small></span></a></li>' for item in games)
+    panels = "".join(f'<a class="browser-panel" href="{route(item)}" data-panel="game-{item["id"]}"{"" if n == 0 else " hidden"}><img src="/assets/media/{item["id"]}-01.jpg" width="{images[item["id"]]["width"]}" height="{images[item["id"]]["height"]}" alt="{esc(images[item["id"]]["caption"])}" loading="lazy"><div class="browser-panel-copy"><p class="game-eyebrow">{esc(item["original"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["summary"])}</p><p class="facts-icons"><span><i data-arkham-icon="date"></i>{esc(item["date"])}</span><span><i data-arkham-icon="studio"></i>{esc(item["developer"])}</span><span><i data-arkham-icon="platform"></i>{esc(item["platforms"].split("（")[0])}</span></p></div></a>' for n, item in enumerate(games))
+    browser = f'<div class="game-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side"><ol class="browser-list">{items}</ol><p class="browser-hint"><kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>↵</kbd> 进入档案</p></div><div class="browser-preview">{panels}</div></div>'
+    body = '<section class="section arkham-game-catalog"><div class="arkham-catalog-heading"><div><p class="game-eyebrow"><i data-arkham-icon="games"></i>GAME ARCHIVE / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>六部作品，<br>按原作年份排列。</p></div>'+browser+'<div class="arkham-games-grid" data-browser-fallback>'+''.join(rows)+'</div><a class="dossier-shelf" href="/arkham/archive/rocksteady/"><p class="label">CREATIVE HISTORY</p><h2>Rocksteady与创作变迁</h2><p>从成为蝙蝠侠到合作射击与赛季制，沿作品与制作人员阅读转向。</p></a></section>'
     return shell(data, "arkham", "作品档案", body, "catalog")
 
 

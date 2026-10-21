@@ -1,6 +1,8 @@
 """Focused content and internal-link checks for generated static pages."""
 import json
 import hashlib
+import re
+from render_common import route
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
@@ -62,8 +64,10 @@ _, archive_records, _, _, archive_images = build_archive(data, shell)
 _, merch_records, _, _, merch_images = build_collectibles(data, shell)
 ark_pages, ark_records, _, _, ark_images = build_arkham_archive(data, shell)
 interactive_pages, interactive_records = build_interactions(data, shell)
-assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records) + len(interactive_records)
-for record in archive_records + merch_records + ark_records + interactive_records:
+from crossover_pages import build_crossover
+_, crossover_records = build_crossover(data, shell)
+assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records) + len(interactive_records) + len(crossover_records)
+for record in archive_records + merch_records + ark_records + interactive_records + crossover_records:
     url = urlsplit(record["url"])
     assert url.path in parsed
     if url.fragment:
@@ -232,8 +236,8 @@ for a in media["assets"]:
     assert (DIST / "assets/media" / a["file"]).is_file()
 print("PASS: 28 sourced original images; TNBA separate; paired episode links reciprocal")
 episode_media = json.loads((CONTENT.parent / 'episode-media.json').read_text())['assets']
-assert len(episode_media) == 24 and len({a['sha256'] for a in episode_media}) == 24
-assert len({a['item'] for a in episode_media}) == 6
+assert len(episode_media) == 68 and len({a['sha256'] for a in episode_media}) == 68
+assert len({a['item'] for a in episode_media}) == 17
 for id in {a['item'] for a in episode_media}:
     selected = [a for a in episode_media if a['item'] == id]
     assert sum(a['role'] == 'title-card' for a in selected) == 1
@@ -243,7 +247,7 @@ for a in episode_media:
     assert a['imageUrl'].startswith('https://') and a['sourcePage'].startswith('https://')
     assert hashlib.sha256((CONTENT.parent / a['file']).read_bytes()).hexdigest() == a['sha256']
     assert hashlib.sha256((DIST / 'assets/media' / a['file']).read_bytes()).hexdigest() == a['sha256']
-print('PASS: eight Arkham archive pages; 23 research images; 24 episode images; history identity, final image and story spoilers collapsed')
+print('PASS: eight Arkham archive pages; 23 research images; 68 episode images; history identity, final image and story spoilers collapsed')
 
 interviews=json.loads((CONTENT.parent/'patient-interviews.json').read_text())
 assert len(interviews['patients'])==7
@@ -343,3 +347,126 @@ assert positions == sorted(positions)
 assert all(any(record['url'] == '/arkham/games/' + id + '/' for record in search) for id in ordered)
 assert len([record for record in search if '/arkham/archive/rocksteady/' in record['url']]) == len(creative['sections']) + 1
 print('PASS: Blackgate original/Deluxe boundaries; six chronological works; sourced creative history and Arkham-scoped actor links')
+
+credits_doc = json.loads((CONTENT.parent / "episode-credits.json").read_text())
+episode_credits = credits_doc["episodes"]
+assert set(episode_credits) == {e["id"] for e in data["episodes"]}
+assert all(r["writer"] and r["director"] and r["studio"] and r["url"].startswith("https://dcanimated.com/") for r in episode_credits.values())
+catalog = pages["tas/catalog/index.html"]
+for field in ("episode-villain", "episode-writer", "episode-director", "episode-studio"):
+    assert f'id="{field}"' in catalog
+assert catalog.count('class="episode-credits"') == 85 and catalog.count("data-villains=") == 85
+assert credits_doc["source"]["url"] in catalog
+print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source listed')
+clues = pages["arkham/archive/clues/index.html"]
+zone_links = re.findall(r'class="clue-zone" href="#([^"]+)"', clues)
+assert len(zone_links) == len(set(zone_links)) and all(f'id="{zone}"' in clues for zone in zone_links)
+assert sum(int(n) for n in re.findall(r'<span>(\d+)项</span>', clues)) == 138
+print(f'PASS: {len(zone_links)} Arkham clue districts link to their entry groups; 138 entries covered')
+crossover = json.loads((CONTENT.parent / "crossover.json").read_text())
+crossover_ids = {s["id"] for s in crossover["sources"]}
+crossover_works = {w["id"] for w in crossover["works"]}
+crossover_page = pages["voices/index.html"]
+for node in crossover["nodes"]:
+    assert node["links"] and f'id="{node["id"]}"' in crossover_page
+    for link in node["links"]:
+        assert link["work"] in crossover_works and link["sources"] and set(link["sources"]) <= crossover_ids
+assert all(f'id="source-{sid}"' in crossover_page for sid in crossover_ids)
+assert '/voices/' in pages["index.html"] and 'id="kevin-conroy"' in crossover_page
+assert all(f'id="{sec["id"]}"' in crossover_page for sec in data["person"]["sections"])
+for old in ("crossover/index.html", "people/kevin-conroy/index.html"):
+    assert 'http-equiv="refresh"' in pages[old] and 'voices/' in pages[old]
+for route_key, html in pages.items():
+    if route_key.startswith(("arkham/", "tas/")) and "<footer>" in html:
+        assert 'href="/voices/"' in html.split("<footer>")[1], route_key
+    if route_key.startswith("arkham/"):
+        assert 'href="/tas/' not in html, route_key
+    if route_key.startswith("tas/"):
+        assert 'href="/arkham/' not in html, route_key
+assert '/tas/people/kevin-conroy/' in pages["tas/index.html"] and 'href="/arkham/' not in pages["tas/people/kevin-conroy/index.html"]
+assert all(f'/assets/media/{f}' in crossover_page for n in crossover["nodes"] for k, f in n.get("images", {}).items() if k in ("tas", "arkham"))
+print(f'PASS: 蝙蝠侠之声 page with Conroy chapter, {len(crossover["nodes"])} people and characters, {len(crossover_works)} works; old addresses redirect; footers link only the shared page')
+from arkham_pages import riddle_hash
+riddle_doc = json.loads((CONTENT.parent / "arkham-riddles.json").read_text())
+riddler_page = pages["arkham/archive/riddler/index.html"]
+for riddle in riddle_doc["riddles"]:
+    form = re.search(rf'<form class="riddle-card" data-riddle="{riddle["id"]}" data-hashes="([0-9a-f ]+)"', riddler_page)
+    assert form and all(riddle_hash(answer) in form.group(1).split() for answer in riddle["answers"])
+    assert f'id="{riddle["case"]}"' in riddler_page and riddle["answers"][0] not in riddler_page.split('data-riddles')[1].split('</section>')[0]
+hub = pages["arkham/archive/index.html"]
+assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 7' in hub and '0 / 6' in hub
+print(f'PASS: {len(riddle_doc["riddles"])} hashed Riddler puzzles link to their cases; investigation record lists cases, tapes, transmissions and puzzles')
+for route_key, html in pages.items():
+    if route_key.endswith(".html") and "<head>" in html:
+        assert 'rel="icon"' in html, route_key
+assert "这一页不在档案里" in pages["404.html"]
+for item in data["games"] + [e for e in data["episodes"] if e["status"] == "详情样板"]:
+    html = pages[route(item).strip("/") + "/index.html"]
+    assert 'class="detail-pager"' in html and 'class="facts-more"' in html, item["id"]
+    if item["site"] == "arkham":
+        assert 'class="detail-hero"' in html, item["id"]
+    else:
+        assert 'class="episode-ticket"' in html and 'class="ticket-stub"' in html, item["id"]
+for page_key in ("arkham/catalog/index.html", "arkham/archive/index.html"):
+    assert 'class="topic-menu-controls"' in pages[page_key] and pages[page_key].count("data-arkham-sound") == 1
+assert pages["arkham/catalog/index.html"].count("MAIN MENU") == 1
+print('PASS: site icons on every page; branded 404; detail pages carry hero or plate, compact facts and prev/next; Arkham toggles in 更多导航')
+for page_key in ("index.html", "404.html"):
+    assert pages[page_key].count('class="gate ') == 2 and 'href="/voices/"' in pages[page_key] and 'route-card' not in pages[page_key]
+for page_key in ("arkham/people/kevin-conroy/index.html", "tas/people/kevin-conroy/index.html"):
+    assert 'class="work-list"' in pages[page_key] and 'grid routes' not in pages[page_key]
+print('PASS: hub and 404 use the two-door entry; scoped Conroy pages use the work list')
+merch = json.loads((CONTENT.parent / "merchandise.json").read_text())
+for site in ("arkham", "tas"):
+    html = pages[f"{site}/collectibles/index.html"]
+    items = [i for i in merch["items"] if i["site"] == site]
+    assert html.count("data-merch ") == len(items) and all(f'id="{i["id"]}"' in html for i in items)
+    assert html.count('class="merch-item has-photo"') == sum(1 for i in items if i["imageIds"])
+    assert "data-merch-filter" in html and "merch-feature" not in html
+print('PASS: collectibles lead with product photos, list the rest compactly, keep every anchor and offer category/maker/work filters')
+import arkham_icons
+for route_key, html in pages.items():
+    assert 'data-arkham-icon' not in html, route_key
+    if route_key.startswith("arkham/"):
+        assert all(name in arkham_icons.ICONS for name in re.findall(r'data-arkham-icon="([a-z-]+)"', html))
+    else:
+        assert 'class="ai"' not in html and 'class="ai ' not in html, route_key
+assert pages["arkham/menu/index.html"].count('class="menu-icon"') == 7
+assert 'class="room-head"' in pages["arkham/archive/riddler/index.html"] and "GOTHAM DOSSIERS / 01" in pages["arkham/archive/riddler/index.html"]
+print(f'PASS: {len(arkham_icons.ICONS)} original Arkham icons; menu, room headers, labels, facts, pager and filters use them; no icons outside Arkham')
+catalog_html = pages["arkham/catalog/index.html"]
+assert catalog_html.count("data-browse-item") == 6 and catalog_html.count("data-panel=") == 6 and "data-browser-fallback" in catalog_html
+clue_html = pages["arkham/archive/clues/index.html"]
+assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
+merch_html = pages["arkham/collectibles/index.html"]
+assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
+for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html")]:
+    assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 11, room_key
+print('PASS: Arkham archive rail on 8 pages; list + preview browsing for 6 games, 138 clues and Arkham collectibles; TAS collectibles unchanged')
+
+# TAS programme, screening halls and end-credit roster.
+catalog_html = (DIST / 'tas/catalog/index.html').read_text()
+assert catalog_html.count('data-episode-run') == 3 and 'class="air-years"' in catalog_html and 'data-episode-preview' in catalog_html
+assert catalog_html.count('class="episode-thumb"') == 17 and catalog_html.count('data-card=') == 17
+archive_html = (DIST / 'tas/archive/index.html').read_text()
+assert archive_html.count('class="screening-hall ') == 6 and 'class="archive-shelf"' not in archive_html
+assert all(f'/tas/archive/{slug}/' in archive_html for slug in ('production', 'voices', 'films', 'publications', 'music', 'history'))
+assert (DIST / 'tas/archive/voices/index.html').read_text().count('<article id=') >= 15
+for page in DIST.glob('tas/**/index.html'):
+    assert 'data-deco=' not in page.read_text(), page
+print('PASS: TAS programme in two broadcast runs with 17 title-card rows and ticket preview; six screening halls; end-credit roster')
+
+# TAS lightbox, iris and font subset.
+for page in DIST.glob('tas/**/index.html'):
+    assert '/assets/tas-lightbox.js' in page.read_text(), page
+assert (DIST / 'assets/tas-lightbox.js').is_file()
+assert 'tas-iris' in (DIST / 'assets/tas-motion.js').read_text() and '@property --iris' in (DIST / 'assets/tas.css').read_text()
+try:
+    import fontTools  # noqa: F401
+    fonts_subset = True
+except ImportError:
+    fonts_subset = False
+if fonts_subset:
+    for name in ('SourceHanSansCN-ExtraLight.woff2', 'SourceHanSansCN-Regular.woff2'):
+        assert (DIST / 'assets/fonts' / name).stat().st_size < 1_500_000, name
+print('PASS: TAS screening lightbox on every TAS page; iris entry; fonts ' + ('subset' if fonts_subset else 'copied in full (fonttools not installed)'))

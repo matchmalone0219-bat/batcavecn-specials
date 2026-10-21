@@ -54,7 +54,7 @@ class BuildChecks(unittest.TestCase):
     def test_topic_styles_and_links(self):
         data = json.loads(builder.CONTENT.read_text())
         pages, records, images = render_pages(data)
-        self.assertEqual((len(pages), len(records)), (60, 489))
+        self.assertEqual((len(pages), len(records)), (64, 497))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route.startswith('arkham/'):

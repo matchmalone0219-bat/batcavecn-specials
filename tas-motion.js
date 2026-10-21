@@ -71,6 +71,13 @@
   } catch {}
   const returning = performance.getEntriesByType('navigation')[0]?.type === 'back_forward';
   const admitted = admission?.destination === location.href && Date.now() - admission.at >= 0 && Date.now() - admission.at < 15000 && !returning;
+  if (admitted && !images[0] && animated() && !document.hidden) {
+    // The programme opens on the reverse iris.
+    const iris = document.createElement('div');
+    iris.className = 'tas-iris-open'; iris.setAttribute('aria-hidden', 'true');
+    document.body.append(iris);
+    setTimeout(() => iris.remove(), 600);
+  }
   if (images[0]) {
     replay = document.createElement('button'); replay.type = 'button'; replay.className = 'tas-project-again'; replay.textContent = '重映标题卡';
     replay.hidden = !animated(); replay.disabled = !images[0].complete || !images[0].naturalWidth;
@@ -128,6 +135,13 @@
     try { sessionStorage.setItem(admissionKey, JSON.stringify({destination, at: Date.now()})); } catch {}
     if (tear) ticket.classList.add('tas-ticket-tearing');
     curtain = document.createElement('div'); curtain.className = 'tas-entry-curtain'; curtain.setAttribute('aria-hidden', 'true');
+    // The ticket closes the house on an iris centred where it was torn.
+    const box = tear ? link.getBoundingClientRect?.() : null;
+    if (box && curtain.style) {
+      curtain.className += ' tas-iris';
+      curtain.style.setProperty('--iris-x', `${Math.round(box.left + box.width / 2)}px`);
+      curtain.style.setProperty('--iris-y', `${Math.round(box.top + box.height / 2)}px`);
+    }
     document.body.append(curtain);
     navigationTimer = setTimeout(enter, 320);
   }

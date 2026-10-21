@@ -50,7 +50,7 @@ def build_interactions(data, shell):
     first = case_data[0]
     tabs = ''.join(f'<a href="#case-{esc(c["id"])}" data-case="{esc(c["id"])}"><span>{c["number"]}</span>{esc(c["title"])}</a>' for c in case_data)
     detective = f'''<section class="section arkham-investigation" data-detective>
-<div class="terminal-heading"><p class="label">BATCOMPUTER / DETECTIVE MODE</p><h1>现场案件重建</h1><p class="lead">锁定关键物证，沿物证链推演现场始末与嫌犯心理侧写。</p><p class="fine">机密案件调查 · 含现场物证分析与嫌犯身份档案</p></div>
+<div class="terminal-heading"><p class="label"><i data-arkham-icon="evidence"></i>BATCOMPUTER / DETECTIVE MODE</p><h1>现场案件重建</h1><p class="lead">锁定关键物证，沿物证链推演现场始末与嫌犯心理侧写。</p><p class="fine">机密案件调查 · 含现场物证分析与嫌犯身份档案</p></div>
 <nav class="case-register" aria-label="选择调查">{tabs}</nav>
 <div class="investigation-workspace" hidden data-workspace>
 <section class="scene-console"><div class="console-bar"><span data-case-number>CASE 01</span><button type="button" class="terminal-motion" data-motion aria-pressed="true">终端动效：开</button><span data-mode-label>NORMAL VISION</span></div><h2 data-case-title>{esc(first['title'])}</h2><p class="scene-location" data-location>{esc(first['game'])} · {esc(first['region'])}</p>
@@ -59,7 +59,7 @@ def build_interactions(data, shell):
 <aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><p class="terminal-feedback" data-feedback role="status">普通视野</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div><div data-evidence-sources></div></div></aside></div>
 <section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
 <div class="terminal-fallback" data-case-fallback>{fallback}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>打开七组重点收治对象问诊录音，审查异常心理评估。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a></div>
+<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>打开七组重点收治对象问诊录音，审查异常心理评估。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a></div>
 <script type="application/json" data-case-data>{payload}</script></section>'''
 
     def make_nab_spool(is_left=True, uid='spool'):
@@ -324,7 +324,7 @@ def build_interactions(data, shell):
     terminal = f'''<section class="section arkham-investigation arkham-patient-terminal" data-patient-terminal>
 <div class="terminal-heading">
 <div class="terminal-heading-tags">
-<p class="label">ARKHAM ASYLUM // PSYCHIATRIC RECORD SYSTEM</p>
+<p class="label"><i data-arkham-icon="patient"></i>ARKHAM ASYLUM // PSYCHIATRIC RECORD SYSTEM</p>
 <span class="system-status-pips" aria-hidden="true">■■■■■ 7/7 INMATES ARCHIVED · LEVEL 4 RESTRICTED</span>
 </div>
 <h1>患者终端</h1>
@@ -336,8 +336,8 @@ def build_interactions(data, shell):
 <div class="patient-files">{panels}</div>
 </div>
 <div class="terminal-footer">
-<a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>进入现场调查</h2><p>扫描现场物证，沿证据链追查嫌疑人作案动机与背景。</p></a>
-<a class="dossier-shelf" href="/arkham/transmissions/"><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a>
+<a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>进入现场调查</h2><p>扫描现场物证，沿证据链追查嫌疑人作案动机与背景。</p></a>
+<a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a>
 </div>
 </section>'''
     record('案件重建 · Detective Mode', '扫描现场物证，沿物证链推演案情始末与嫌犯背景。', '/arkham/detective/')
@@ -375,10 +375,10 @@ def build_interactions(data, shell):
         record(ch['title'] + ' · 频段监听', ch['summary'], '/arkham/transmissions/#channel-' + ch['id'])
 
     terminal_trans = f'''<section class="section arkham-investigation" data-transmissions-terminal>
-<div class="terminal-heading"><p class="label">CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">使用密码破译器调谐哥谭频段，截获并解密未公开的通话与无线电留言。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+<div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">使用密码破译器调谐哥谭频段，截获并解密未公开的通话与无线电留言。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
 <div class="transmission-channels" aria-label="可用频段">{channel_cards}</div>
 <div class="transmission-workspace">{panels_trans}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>聆听阿卡姆疯人院内部病患心理访谈录音。</p></a><a class="dossier-shelf" href="/arkham/detective/"><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>激活侦探模式，从现场遗留物件串联完整证据链。</p></a></div>
+<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>聆听阿卡姆疯人院内部病患心理访谈录音。</p></a><a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>激活侦探模式，从现场遗留物件串联完整证据链。</p></a></div>
 </section>'''
     record('频段监听 · Cryptographic Sequencer', '调谐密码破译器频段，截获小丑电话留言与片尾绝唱《Only You》。', '/arkham/transmissions/')
 

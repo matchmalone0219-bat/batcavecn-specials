@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
-LOCAL_URL = re.compile(r'(?<![\w:/])/(?:arkham|tas|people|assets|content|editor)(?=/)')
+LOCAL_URL = re.compile(r'(?<![\w:/])/(?:arkham|tas|people|voices|crossover|assets|content|editor)(?=/)')
 
 
 class PageLinks(HTMLParser):

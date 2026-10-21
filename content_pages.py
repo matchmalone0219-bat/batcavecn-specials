@@ -1,9 +1,12 @@
 """Home, work and creator pages from archive.json."""
-from render_common import (esc, route, paragraphs, sources, actor_markup,
+import json
+
+from render_common import (ROOT, esc, route, paragraphs, sources, actor_markup,
                            image_gallery, person_url)
 from site_layout import shell
 from arkham_ui import arkham_screen
 from tas_pages import production_preview
+from tas_deco import film_strip
 
 
 def home(data, site):
@@ -24,36 +27,63 @@ def home(data, site):
         body += '<section class="section cinema-folio"><div class="programme-heading"><h2>翻开制作图册</h2><p>MODEL / STORYBOARD</p></div><p class="folio-intro">珍贵制作原案扫描：展示角色正侧面模型设定稿与实验室经典分镜线稿。</p>' + production_preview() + '</section>'
         modern = data["capedCrusader"]
         body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
-        body += f'<section class="section"><a href="/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 共同人物档案</span></div></a></section>'
+        body += f'<section class="section"><a href="/tas/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 共同人物档案</span></div></a></section>'
         body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>从片尾到档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
     return shell(data, site, "动画放映室", body, "home")
 
 
 def detail(data, item):
     site = item["site"]
-    body = f'<div class="section{" episode-feature" if site == "tas" else ""}"><a class="breadcrumb" href="/{site}/catalog/">← {"作品档案" if site == "arkham" else "分集目录"}</a><div class="detail-title"><p class="label">{"GAME DOSSIER" if site == "arkham" else "EPISODE DOSSIER"} / {"作品档案" if site == "arkham" else "分集档案"}</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p><p class="fine">{esc(item["nameNote"])}</p></div>'
-    title_card = image_gallery(site, item["id"], "title-card")
-    if title_card:
-        body += '<div class="episode-title-card">' + title_card + '</div>'
+    title_block = f'<div class="detail-title"><p class="label">{'<i data-arkham-icon="games"></i>GAME DOSSIER' if site == "arkham" else "EPISODE DOSSIER"} / {"作品档案" if site == "arkham" else "分集档案"}</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p><p class="fine">{esc(item["nameNote"])}</p></div>'
+    body = f'<div class="section{" episode-feature" if site == "tas" else ""}"><a class="breadcrumb" href="/{site}/catalog/">← {"作品档案" if site == "arkham" else "分集目录"}</a>'
+    if site == "arkham":
+        image = next(a for a in json.loads((ROOT / "media.json").read_text())["assets"] if a["file"] == f'{item["id"]}-01.jpg')
+        body += f'<div class="detail-hero"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["alt"])}" fetchpriority="high"></div>' + title_block
+    else:
+        title_card = image_gallery(site, item["id"], "title-card")
+        if title_card:
+            title_block = title_block.replace('<p class="original">', f'<div class="episode-title-card">{title_card}</div><p class="original">', 1)
+        body += title_block
     if site == "arkham":
         fields = [("官方发售日", item["date"]), ("日期口径", item["dateNote"]), ("开发", item["developer"]), ("发行", item["publisher"]), ("原版平台", item["platforms"])]
+        summary_lines = [[f'{item["date"]} 发售', item["developer"], item["platforms"].split("（")[0]]]
     else:
         fields = [("所属系列", item["series"]), ("辅助指南编号", item["guideNumber"]), ("原始制作代码", item["productionCode"]), ("来源所载首播日", item["airDate"]), ("首播地区", item["airRegion"]), ("影音目录编号", item["mediaOrder"]), ("编剧", item["writer"]), ("导演", item["director"]), ("动画制作", item["animation"]), ("配乐", item["music"]), ("客串配音", item["guests"])]
+        summary_lines = [[f'{item["airDate"]} 首播', item["series"], f'指南 {item["guideNumber"]}'], [f"{label} {value}" for label, value in (("编剧", item["writer"]), ("导演", item["director"]), ("动画", item["animation"].split("；")[0])) if value]]
     voice = f'<div><dt>蝙蝠侠英语配音</dt><dd>{actor_markup(item)}</dd></div>' if item["actor"] else ''
-    body += '<dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value)}</dd></div>' for key, value in fields if value) + voice + '</dl>'
+    summary = "".join(f'<p>{" · ".join(esc(part) for part in line if part)}</p>' for line in summary_lines if line)
+    if site == "arkham":
+        summary = '<p class="facts-icons">' + "".join(f'<span><i data-arkham-icon="{name}"></i>{esc(text)}</span>' for name, text in (("date", f'{item["date"]} 发售'), ("studio", item["developer"]), ("platform", item["platforms"].split("（")[0])) if text) + '</p>'
+    if item["actor"]:
+        summary += f'<p>{'<i data-arkham-icon="voice"></i>' if site == "arkham" else ""}蝙蝠侠英语配音 {actor_markup(item)}</p>'
+    full = '<details class="facts-more"><summary>完整资料</summary><dl class="facts">' + "".join(f'<div><dt>{esc(key)}</dt><dd>{esc(value)}</dd></div>' for key, value in fields if value) + voice + '</dl></details>'
+    if site == "tas":
+        credits = "".join(f'<div><dt>{label}</dt><dd>{esc(value)}</dd></div>' for label, value in (("编剧", item["writer"]), ("导演", item["director"]), ("动画", item["animation"].split("；")[0]), ("配乐", item["music"])) if value)
+        voice_line = f'<p class="ticket-voice">蝙蝠侠英语配音 {actor_markup(item)}</p>' if item["actor"] else ''
+        body += f'<div class="episode-ticket" role="group" aria-label="放映信息"><div class="ticket-main"><p class="ticket-kicker">放映单 · {esc(item["series"])}</p><p class="ticket-date">{esc(item["airDate"])}<span>首播</span></p><dl class="ticket-credits">{credits}</dl>{voice_line}</div><div class="ticket-stub"><span>No.</span><strong>{esc(item["guideNumber"])}</strong><span>{esc(item["airDate"][:4])}</span></div></div><div class="ticket-more">{full}</div>'
+    else:
+        body += f'<div class="facts-summary">{summary}{full}</div>'
     body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
     body += '<div class="reading">'
-    for section in item["sections"]:
+    strip = film_strip(item["id"]) if site == "tas" else ""
+    for index, section in enumerate(item["sections"]):
         text = paragraphs(section["body"])
         if section.get("containsSpoilers"):
             text = f'<details class="spoiler section-spoiler"><summary>剧情与结局分析 · 含剧透，展开阅读</summary>{text}</details>'
         body += f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}</section>'
+        if index == 0 and strip:
+            body += strip
     if item.get("related"):
         linked = [e for e in data["episodes"] if e["id"] in item["related"]]
-        body += '<section><h2>同一双集故事</h2>' + ''.join(f'<a class="route-card" href="{route(e)}"><h3>{esc(e["title"])}</h3><p>{esc(e["original"])}</p></a>' for e in linked) + '</section>'
+        cards = {a["item"]: a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a.get("role") == "title-card"}
+        def related_row(e):
+            card = cards.get(e["id"])
+            thumb = f'<img class="route-thumb" src="/assets/media/{esc(card["file"])}" width="{card["width"]}" height="{card["height"]}" alt="" loading="lazy">' if card else ""
+            return f'<a class="route-card{" has-thumb" if card else ""}" href="{route(e)}">{thumb}<span class="label">指南 {esc(e["guideNumber"])}</span><h3>{esc(e["title"])}</h3><p>{esc(e["original"])}</p></a>'
+        body += '<section><h2>同一双集故事</h2>' + ''.join(related_row(e) for e in linked) + '</section>'
     if item.get("readingLinks"):
         body += '<section><h2>关联阅读</h2>' + ''.join(f'<a class="route-card" href="{esc(link["url"])}"><h3>{esc(link["title"])}</h3></a>' for link in item["readingLinks"]) + '</section>'
-    gallery = image_gallery(site, item["id"], "frame")
+    gallery = image_gallery(site, item["id"], "frame") if not strip else ""
     if gallery:
         body += '<section><h2>图片资料</h2>' + gallery + '</section>'
     if item["spoiler"]:
@@ -61,8 +91,28 @@ def detail(data, item):
     if item["actorLink"]:
         continuation = "继续阅读相关的作品与表演资料。" if site == "arkham" else "继续阅读动画与游戏中的表演。"
         body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">共同演员 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>从这份作品档案回到共同人物档案，{continuation}</p></a></section>'
+    body += pager(data, item)
     body += f'<section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></div>'
     return shell(data, site, item["title"], body, "catalog")
+
+
+def pager(data, item):
+    if item["site"] == "arkham":
+        ordered = sorted(data["games"], key=lambda game: (game["year"], game["date"]))
+        labels = ("上一部", "下一部")
+    else:
+        ordered = sorted((e for e in data["episodes"] if e["status"] == "详情样板"), key=lambda e: int(e["guideNumber"]))
+        labels = ("上一篇导读", "下一篇导读")
+    index = next(i for i, other in enumerate(ordered) if other["id"] == item["id"])
+    links = []
+    for label, other, side in ((labels[0], ordered[index - 1] if index > 0 else None, "prev"), (labels[1], ordered[index + 1] if index + 1 < len(ordered) else None, "next")):
+        if other:
+            meta = other["year"] if item["site"] == "arkham" else f'指南 {other["guideNumber"]}'
+            mark = f'<i data-arkham-icon="{side}"></i>' if item["site"] == "arkham" else ""
+            links.append(f'<a class="pager-{side}" href="{route(other)}" rel="{side}"><span>{mark if side == "prev" else ""}{label} · {esc(meta)}{mark if side == "next" else ""}</span><strong>{esc(other["title"])}</strong></a>')
+        else:
+            links.append(f'<span class="pager-{side} is-empty"></span>')
+    return '<nav class="detail-pager" aria-label="' + "／".join(labels) + '">' + "".join(links) + '</nav>'
 
 
 def caped_series(data):
@@ -76,17 +126,29 @@ def caped_series(data):
     return shell(data, "tas", item["title"], body, "caped")
 
 
-def person(data, site="shared"):
+def person_chapters(data, site="shared"):
     p = data["person"]
-    memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">动画 / 声音的起点</a><a href="/arkham/">游戏 / 哥谭的回声</a>'
-    body = f'<section class="memorial-hero"><p class="label">BATCAVECN / SHARED CREATOR ARCHIVE</p><p class="original">{esc(p["original"])} · {esc(p["years"])}</p><h1>{esc(p["title"])}<span>{esc(p["subtitle"])}</span></h1><p class="lead">{esc(p["intro"])}</p><div class="memorial-links">{memorial_links}</div></section><div class="section"><nav class="chapter-nav" aria-label="人物章节">' + "".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in p["sections"]) + '</nav><div class="reading">'
+    body = '<nav class="chapter-nav" aria-label="人物章节">' + "".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in p["sections"]) + '</nav><div class="reading">'
     for s in p["sections"]:
         body += f'<section id="{s["id"]}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}'
         if s["id"] == "works":
             linked = [i for i in data["games"] + data["episodes"] if i["actor"] == "Kevin Conroy" and i["status"] == "详情样板"]
-            if site == "arkham":
-                linked = [i for i in linked if i["site"] == "arkham"]
+            if site in ("arkham", "tas"):
+                linked = sorted((i for i in linked if i["site"] == site), key=lambda i: i.get("airDate") or i.get("date") or i["year"])
+                body += '<ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></section>'
+                continue
+            else:
+                columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{name}</span></p><ol>' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in sorted((i for i in linked if i["site"] == key), key=lambda i: i.get("airDate") or i.get("date") or i["year"])) + '</ol></div>' for key, label, name in (("tas", "动画", "Dark Deco"), ("arkham", "游戏", "Protocol Arkham")))
+                body += f'<div class="xcredit-works">{columns}</div></section>'
+                continue
             body += '<div class="grid routes">' + "".join(f'<a class="route-card" href="{route(i)}"><span class="label">{esc(data["sites"][i["site"]]["english"])} / {esc(i["year"])}</span><h3>{esc(i["original"])}</h3><p>{esc(i["title"])}</p></a>' for i in linked) + '</div>'
         body += '</section>'
+    return body
+
+
+def person(data, site):
+    p = data["person"]
+    memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">返回Dark Deco</a>'
+    body = f'<section class="memorial-hero"><p class="label">{'<i data-arkham-icon="voice"></i>' if site == "arkham" else ""}BATCAVECN / SHARED CREATOR ARCHIVE</p><p class="original">{esc(p["original"])} · {esc(p["years"])}</p><h1>{esc(p["title"])}<span>{esc(p["subtitle"])}</span></h1><p class="lead">{esc(p["intro"])}</p><div class="memorial-links">{memorial_links}</div></section><div class="section">{person_chapters(data, site)}'
     body += f'<section><h2>原始资料与延伸阅读</h2>{sources(data, p["sources"])}</section></div></div>'
     return shell(data, site, p["title"], body, "person")
