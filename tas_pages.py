@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent
 SECTIONS = [
     ('production', '制作与美术', '角色设定稿、分镜台本、黑卡纸绘制片头与未制作剧目档案。'),
     ('voices', '角色与声音', '十五组核心角色与英语原版配音，重现全员现场同棚合录传统。'),
-    ('films', '动画电影', '从院线经典《幽灵的面具》到关联长片的制作与4K修复版本考据。'),
+    ('films', '动画电影', '查阅《幽灵的面具》及关联长片的制作故事、发行版本与4K修复资料。'),
     ('publications', '漫画与出版', '衍生漫画、动画分集改编与全彩合集书目版本分类考据。'),
     ('music', '配乐档案', '暗夜交响：雪莉·沃克管弦配乐、经典片头主题与厂牌唱片收录署名。'),
     ('history', '创作与延续', 'Dark Deco美学起源、角色演化史与精神续作深度档案。'),
@@ -93,10 +93,10 @@ def build_archive(data, shell):
 
     lead=picture('image-1')
     cards='<nav class="screening-halls" aria-label="档案馆分区">'+''.join(hall(n,s,t,d) for n,(s,t,d) in enumerate(SECTIONS,1))+'</nav>'
-    page('','幕后光影：Dark Deco 动画档案','从美术手稿、传奇配音到版本考据，全景解构经典动画系列的诞生始末与艺术巅峰。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
+    page('','幕后光影：Dark Deco 动画档案','美术手稿、配音访谈与发行资料，记录了这部动画系列的制作过程。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
 
     base='/tas/archive/production/'
-    content=production_preview()+'<div class="archive-reading"><h2>重回动画制作台：手稿与镜头语言</h2><p>标准化角色模型纸严控透视与转身比例，动态分镜台本组织镜头节奏与光影调度。循着手稿编号与修型标记，重溯动画从纸面笔触到荧幕光影的诞生过程。</p>'
+    content=production_preview()+'<div class="archive-reading"><h2>重回动画制作台：手稿与镜头语言</h2><p>标准化角色模型纸严控透视与转身比例，动态分镜台本组织镜头节奏与光影调度。循着手稿编号与修型标记，了解画稿如何用于实际的动画制作。</p>'
     picture_map={'batman-model':'image-5','leather-board':'image-6','opening-board':'image-1','twoface-card':'image-2'}
     for item in second['materials']:
         content+=record(item,base,item['kind'],picture_map.get(item['id']))
@@ -147,7 +147,7 @@ def build_archive(data, shell):
     cover={'mad-deluxe':'mad-love-deluxe','mad-stories':'mad-love-stories','continue-one':'continue-one','continue-two':'continue-two','adventures-omnibus':'adventures-omnibus'}
     for w in first['works']:
         if w['id'] in cover:content+=work(w,base,cover[w['id']])
-    page('publications','漫画与出版','从手绘分镜到实体油墨：单行本、官方合辑与版本演进考据。',content+'</div>')
+    page('publications','漫画与出版','单行本、官方合辑与再版资料，记录动画漫画的出版历程。',content+'</div>')
 
     base='/tas/archive/music/'; score=next(w for w in first['works'] if w['id']=='score-vol2')
     content='<div class="archive-reading"><p>片头交响主题、单集剧目配乐与独立限定唱片曲目分别编目。下表列出La-La Land Records官方黑胶与CD收录署名。</p><div class="table-scroll"><table><caption>厂牌曲目分组署名</caption><thead><tr><th scope="col">分组／篇目</th><th scope="col">厂牌列名</th></tr></thead><tbody>'

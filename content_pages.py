@@ -28,7 +28,7 @@ def home(data, site):
         modern = data["capedCrusader"]
         body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
         body += f'<section class="section"><a href="/tas/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 动画人物档案</span></div></a></section>'
-        body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>从片尾到档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
+        body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>片尾署名与制作档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
     return shell(data, site, "动画放映室", body, "home")
 
 
@@ -90,7 +90,7 @@ def detail(data, item):
         body += f'<details class="spoiler"><summary>剧情与结局 · 含剧透，展开阅读</summary>{paragraphs(item["spoiler"])}</details>'
     if item["actorLink"]:
         continuation = "继续阅读相关的作品与表演资料。" if site == "arkham" else "继续阅读动画作品与表演资料。"
-        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>从这份作品档案回到凯文·康罗伊的人物档案，{continuation}</p></a></section>'
+        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>打开凯文·康罗伊的人物档案，{continuation}</p></a></section>'
     body += pager(data, item)
     body += f'<section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></div>'
     return shell(data, site, item["title"], body, "catalog")

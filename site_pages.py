@@ -13,7 +13,7 @@ from conroy_profile import media_assets as conroy_media_assets, finding_assets
 
 def gates(intro, compact=False):
     doors = (
-        '<a class="gate gate-arkham" href="/arkham/"><img src="/assets/media/arkham-city-02.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">PROTOCOL ARKHAM</p><h2>阿卡姆协议</h2><p>从孤岛收容到全城暴动：在骨骼碎裂的搏杀与致命谜题中，成为恐惧本身。</p></div></a>'
+        '<a class="gate gate-arkham" href="/arkham/"><img src="/assets/media/arkham-city-02.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">PROTOCOL ARKHAM</p><h2>阿卡姆协议</h2><p>闯入孤岛上的疯人院，追查旧城区的阴谋，迎战全城暴动。在近身搏斗与致命谜题中扮演黑暗骑士。</p></div></a>'
         '<a class="gate gate-tas" href="/tas/"><img src="/assets/tas-home-title.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">DARK DECO</p><h2>Dark Deco 动画档案</h2><p>黑卡纸上的光影奇迹：重温 1990 年代定义了黑暗骑士灵魂的经典单集与悲剧挽歌。</p></div></a>'
     )
     return f'<section class="gates{" is-compact" if compact else ""}"><div class="gates-intro">{intro}</div><div class="gates-doors">{doors}</div><p class="gates-shared"><a href="/voices/">两站共同档案 · 蝙蝠侠之声</a></p></section>'
