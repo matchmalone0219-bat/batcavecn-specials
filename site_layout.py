@@ -33,12 +33,13 @@ NAVIGATION = {
 }
 SEARCH_OPTIONS = {
     "arkham": ("康罗伊、谜语人、疯人院", ""),
-    "tas": ("康罗伊、稻草人、Nothing to Fear", '<option value="all">两个专题＋共同人物</option>'),
+    "tas": ("康罗伊、稻草人、Nothing to Fear", ""),
 }
 
 
 def icon(site):
-    return f'<link rel="icon" href="/assets/icon-{site if site in ("arkham", "tas") else "shared"}.svg" type="image/svg+xml">'
+    filename = "logo-tas-transparent.svg" if site == "tas" else "logo-arkham-transparent.svg" if site == "arkham" else "icon-shared.svg"
+    return f'<link rel="icon" href="/assets/{filename}" type="image/svg+xml">'
 
 
 def stylesheets(site):
@@ -66,6 +67,8 @@ def shell(data, site, title, body, active=""):
     nav = NAVIGATION[site]
     if site == "tas":
         body = screen_head(body)
+    brand_mark = (f'<img class="brand-logo" src="/assets/{"logo-tas-transparent.svg" if site == "tas" else "logo-arkham-transparent.svg"}" width="40" height="40" alt="" aria-hidden="true">'
+                  if site in ("arkham", "tas") else '<span class="brand-symbol" aria-hidden="true">✦</span>')
     brand_subtitle = {"arkham": "阿卡姆协议", "tas": "TAS 动画档案"}.get(site, info["name"])
     footer_links = {
         "arkham": '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/voices/">两站共同档案</a>',
@@ -90,5 +93,5 @@ def shell(data, site, title, body, active=""):
         more_html += f'<div class="topic-menu-controls">{ARKHAM_CONTROLS}</div>'
     if more_html:
         nav_html += f'<details class="topic-more"><summary>更多导航</summary><div class="topic-menu">{more_html}</div></details>'
-    html = f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else ""}"><span class="brand-symbol" aria-hidden="true">✦</span><span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
+    html = f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else ""}">{brand_mark}<span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
     return expand_icons(html) if site == "arkham" else expand_deco(html) if site == "tas" else html

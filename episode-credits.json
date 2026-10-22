@@ -1,1534 +1,1534 @@
 {
- "schemaVersion": 1,
- "checked": "2026-10-21",
- "source": {
-  "id": "wf-btas-episodes",
-  "title": "The World’s Finest · Batman: The Animated Series 分集页",
-  "url": "https://dcanimated.com/btas/batman-the-animated-series-episodes/",
-  "type": "分集资料辅助来源",
-  "scope": "BTAS各集编剧、导演、配乐、动画制作与配音表；反派标签依各集配音表角色归类。",
-  "checked": "2026-10-21"
- },
- "episodes": {
-  "nothing-to-fear": {
-   "writer": "Henry T. Gilroy & Sean Catherine Derek",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Henry T. Gilroy",
-    "Sean Catherine Derek"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "稻草人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/nothingtofear/"
-  },
-  "perchance-to-dream": {
-   "writer": "故事：Laren Bright, Michael Reaves；剧本：Joe R. Lansdale",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Laren Bright",
-    "Michael Reaves",
-    "Joe R. Lansdale"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "猫女",
-    "疯帽匠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/perchancetodream/"
-  },
-  "i-am-the-night": {
-   "writer": "Michael Reaves",
-   "director": "Boyd Kirkland",
-   "music": "Michael McCuistion",
-   "animation": "Sunrise",
-   "writers": [
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Sunrise",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/iamthenight/"
-  },
-  "on-leather-wings": {
-   "writer": "Mitch Brian",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Mitch Brian"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "人蝙蝠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/onleatherwings/"
-  },
-  "christmas-with-the-joker": {
-   "writer": "Eddie Gorodetsky",
-   "director": "Kent Butterworth",
-   "music": "Michael McCuistion, Lolita Ritmanis",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Eddie Gorodetsky"
-   ],
-   "directors": [
-    "Kent Butterworth"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "小丑"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/christmaswithjoker/"
-  },
-  "the-last-laugh": {
-   "writer": "Carl Swenson",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Carl Swenson"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "小丑"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/lastlaugh/"
-  },
-  "pretty-poison": {
-   "writer": "故事：Paul Dini & Michael Reaves；剧本：Tom Ruegger",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Sunrise",
-   "writers": [
-    "Paul Dini",
-    "Michael Reaves",
-    "Tom Ruegger"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "毒藤女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/prettypoison/"
-  },
-  "the-underdwellers": {
-   "writer": "故事：Tom Ruegger；剧本：J. Dennis & R. Mueller",
-   "director": "Frank Paur",
-   "music": "Stu Balcomb and Lars Cutterham",
-   "animation": "Studio Junio",
-   "writers": [
-    "Tom Ruegger",
-    "J. Dennis",
-    "R. Mueller"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Studio Junio",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/underdwellers/"
-  },
-  "p-o-v": {
-   "writer": "故事：M. Brian；剧本：S.C. Derek & L. Bright",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Mitch Brian",
-    "Sean Catherine Derek",
-    "Laren Bright"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "腹语者与疤面"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/pov/"
-  },
-  "the-forgotten": {
-   "writer": "J. Dennis, R. Mueller and Sean Catherine Derek",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "J. Dennis",
-    "R. Mueller",
-    "Sean Catherine Derek"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/forgotten/"
-  },
-  "be-a-clown": {
-   "writer": "Ted Pedersen & Steve Hayes",
-   "director": "Frank Paur",
-   "music": "Michael McCuistion",
-   "animation": "Akom Production Co. Nelson Shin, President",
-   "writers": [
-    "Ted Pedersen",
-    "Steve Hayes"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "小丑"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/beaclown/"
-  },
-  "two-face-part-1": {
-   "writer": "故事：Alan Burnett；剧本：Randy Rogel",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Tokyo Movie Shinsha Co., LTD.",
-   "writers": [
-    "Alan Burnett",
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "双面人",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep1/"
-  },
-  "it-s-never-too-late": {
-   "writer": "故事：Tom Ruegger；剧本：Garin Wolf",
-   "director": "Boyd Kirkland",
-   "music": "Lolita Ritmanis",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Tom Ruegger",
-    "Garin Wolf"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/itsnevertoolate/"
-  },
-  "i-ve-got-batman-in-my-basement": {
-   "writer": "Sam Graham & Chris Hubbell",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Sam Graham",
-    "Chris Hubbell"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "企鹅人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/ivegotbatman/"
-  },
-  "the-cat-and-the-claw-part-1": {
-   "writer": "J. Dennis & R. Mueller",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker, Harvey Cohen, Wayne Coster",
-   "animation": "Sunrise",
-   "writers": [
-    "J. Dennis",
-    "R. Mueller"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "猫女",
-    "红爪"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/catandtheclawp1/"
-  },
-  "heart-of-ice": {
-   "writer": "Paul Dini",
-   "director": "Bruce W. Timm",
-   "music": "Todd Hayen",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Bruce W. Timm"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "急冻人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/"
-  },
-  "see-no-evil": {
-   "writer": "Martin Pasko",
-   "director": "Dan Riba",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Martin Pasko"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/seenoevil/"
-  },
-  "the-cat-and-the-claw-part-2": {
-   "writer": "故事：S.C. Derek & L. Bright；剧本：J. Dennis & R. Mueller",
-   "director": "Dick Sebast",
-   "music": "Harvey Cohen",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Sean Catherine Derek",
-    "Laren Bright",
-    "J. Dennis",
-    "R. Mueller"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "猫女",
-    "红爪"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/catandtheclawp2/"
-  },
-  "two-face-part-2": {
-   "writer": "Randy Rogel",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "双面人",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep2/"
-  },
-  "beware-the-gray-ghost": {
-   "writer": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
-   "director": "Boyd Kirkland",
-   "music": "Carl Johnson",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "D. O'Flaherty",
-    "Tom Ruegger",
-    "Garin Wolf"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Spectrum",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/bewarethegrayghost/"
-  },
-  "prophecy-of-doom": {
-   "writer": "故事：Dennis Marks；剧本：Sean Catherine Derek",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Dennis Marks",
-    "Sean Catherine Derek"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "AKOM",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/prophecydoom/"
-  },
-  "feat-of-clay-part-1": {
-   "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Marv Wolfman",
-   "director": "Dick Sebast",
-   "music": "Jeff Atmajian, Carl Johnson",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Marv Wolfman",
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "泥脸"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/featofclayp1/"
-  },
-  "feat-of-clay-part-2": {
-   "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Michael Reaves",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Tokyo Movie Shinsha Co., LTD.",
-   "writers": [
-    "Marv Wolfman",
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "泥脸"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/featofclayp2/"
-  },
-  "joker-s-favor": {
-   "writer": "Paul Dini",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/"
-  },
-  "vendetta": {
-   "writer": "Michael Reaves",
-   "director": "Frank Paur",
-   "music": "Michael McCuistion",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "杀手鳄",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/vendetta/"
-  },
-  "fear-of-victory": {
-   "writer": "Samuel Warren Joseph",
-   "director": "Dick Sebast",
-   "music": "Lisa Bloom, Carlos Rodriguez",
-   "animation": "Tokyo Movie Shinsha Co., LTD.",
-   "writers": [
-    "Samuel Warren Joseph"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "小丑",
-    "稻草人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/fearofvictory/"
-  },
-  "the-clock-king": {
-   "writer": "David Wise",
-   "director": "Kevin Altieri",
-   "music": "Carlos Rodriguez",
-   "animation": "Sunrise",
-   "writers": [
-    "David Wise"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "时钟王"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/clockking/"
-  },
-  "appointment-in-crime-alley": {
-   "writer": "Gerry Conway",
-   "director": "Boyd Kirkland",
-   "music": "Stu Balcomb",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Gerry Conway"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/appointmentincrimealley/"
-  },
-  "mad-as-a-hatter": {
-   "writer": "Paul Dini",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "疯帽匠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/madasahatter/"
-  },
-  "dreams-in-darkness": {
-   "writer": "Judith & Garfield Reeves-Stevens",
-   "director": "Dick Sebast",
-   "music": "Todd Hayen",
-   "animation": "Studio Junio Inc.",
-   "writers": [
-    "Judith Reeves-Stevens",
-    "Garfield Reeves-Stevens"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "Studio Junio",
-   "villains": [
-    "稻草人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/dreamsindarkness/"
-  },
-  "eternal-youth": {
-   "writer": "Beth Bornstein",
-   "director": "Kevin Altieri",
-   "music": "Lolita Ritmanis",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Beth Bornstein"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "毒藤女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/eternalyouth/"
-  },
-  "the-cape-and-cowl-conspiracy": {
-   "writer": "Elliot S. Maggin",
-   "director": "Frank Paur",
-   "music": "Beth Ertz, Mark Kovel",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Elliot S. Maggin"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/capecowlconspiracy/"
-  },
-  "robin-s-reckoning-part-1": {
-   "writer": "Randy Rogel",
-   "director": "Dick Sebast",
-   "music": "Carlos Rodriguez",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "Spectrum",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp1/"
-  },
-  "the-laughing-fish": {
-   "writer": "Paul Dini",
-   "director": "Bruce W. Timm",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Bruce W. Timm"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/laughingfish/"
-  },
-  "night-of-the-ninja": {
-   "writer": "Steve Perry",
-   "director": "Kevin Altieri",
-   "music": "Mark Koval",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Steve Perry"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/nightofninja/"
-  },
-  "cat-scratch-fever": {
-   "writer": "故事：Sean Catherine Derek；剧本：Buzz Dixon",
-   "director": "Boyd Kirkland",
-   "music": "Harvey R. Cohen",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Sean Catherine Derek",
-    "Buzz Dixon"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "猫女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/catscratchfever/"
-  },
-  "the-strange-secret-of-bruce-wayne": {
-   "writer": "故事：David Wise；剧本：Judith & Garfield Reaves-Stevens",
-   "director": "Frank Paur",
-   "music": "Lolita Ritmanis",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "David Wise",
-    "Garfield Reaves-Stevens"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "小丑",
-    "企鹅人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/strangesecret/"
-  },
-  "robin-s-reckoning-part-2": {
-   "writer": "Randy Rogel",
-   "director": "Dick Sebast",
-   "music": "Peter Tomashek",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp2/"
-  },
-  "heart-of-steel-part-1": {
-   "writer": "Brynne Stephens",
-   "director": "Kevin Altieri",
-   "music": "Richard Bonskill, Tamara Kline",
-   "animation": "Sunrise",
-   "writers": [
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "哈达克"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofsteelp1/"
-  },
-  "if-you-re-so-smart-why-aren-t-you-rich": {
-   "writer": "David Wise",
-   "director": "Eric Radomski",
-   "music": "Carlos Rodriguez",
-   "animation": "Blue Pencil, S.I.",
-   "writers": [
-    "David Wise"
-   ],
-   "directors": [
-    "Eric Radomski"
-   ],
-   "studio": "Blue Pencil",
-   "villains": [
-    "谜语人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/ifyouresosmart/"
-  },
-  "joker-s-wild": {
-   "writer": "Paul Dini",
-   "director": "Boyd Kirkland",
-   "music": "Todd Hayen",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "小丑",
-    "毒藤女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/jokerswild/"
-  },
-  "tyger-tyger": {
-   "writer": "故事：Michael Reaves and Randy Rogel；剧本：Cherie Wilkerson",
-   "director": "Frank Paur",
-   "music": "Todd Hayen",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Michael Reaves",
-    "Randy Rogel",
-    "Cherie Wilkerson"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "人蝙蝠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/tygertyger/"
-  },
-  "moon-of-the-wolf": {
-   "writer": "Len Wein",
-   "director": "Dick Sebast",
-   "music": "Richard Bronskill",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Len Wein"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "AKOM",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/moonwolf/"
-  },
-  "day-of-the-samurai": {
-   "writer": "Steve Perry",
-   "director": "Bruce W. Timm",
-   "music": "Carlos Rodriguez",
-   "animation": "Blue Pencil, S.I.",
-   "writers": [
-    "Steve Perry"
-   ],
-   "directors": [
-    "Bruce W. Timm"
-   ],
-   "studio": "Blue Pencil",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/dayofsamurai/"
-  },
-  "heart-of-steel-part-2": {
-   "writer": "Brynne Stephens",
-   "director": "Kevin Altieri",
-   "music": "Carl Johnson",
-   "animation": "Sunrise",
-   "writers": [
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "哈达克"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofsteelp2/"
-  },
-  "terror-in-the-sky": {
-   "writer": "故事：Steve Perry, Mark Saraceni；剧本：Mark Saraceni",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Steve Perry",
-    "Mark Saraceni"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "人蝙蝠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/terrorinsky/"
-  },
-  "almost-got-im": {
-   "writer": "Paul Dini",
-   "director": "Eric Radomski",
-   "music": "Stuart V. Balcomb",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Eric Radomski"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵",
-    "企鹅人",
-    "双面人",
-    "毒藤女",
-    "猫女",
-    "杀手鳄"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/almostgotim/"
-  },
-  "birds-of-a-feather": {
-   "writer": "故事：Chuck Menville；剧本：Brynne Stephens",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Chuck Menville",
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "企鹅人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/birdsofafeather/"
-  },
-  "what-is-reality": {
-   "writer": "Marty Isenberg, Robert N. Skir",
-   "director": "Dick Sebast",
-   "music": "Richard Bronskill",
-   "animation": "Akom Production Co.",
-   "writers": [
-    "Marty Isenberg",
-    "Robert N. Skir"
-   ],
-   "directors": [
-    "Dick Sebast"
-   ],
-   "studio": "AKOM",
-   "villains": [
-    "谜语人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/whatisreality/"
-  },
-  "off-balance": {
-   "writer": "Len Wein",
-   "director": "Kevin Altieri",
-   "music": "Mark Koval, Michael McCuistion",
-   "animation": "Sunrise",
-   "writers": [
-    "Len Wein"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "拉斯·阿尔·古尔",
-    "塔莉亚"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/offbalance/"
-  },
-  "the-man-who-killed-batman": {
-   "writer": "Paul Dini",
-   "director": "Bruce W. Timm",
-   "music": "Shirley Walker",
-   "animation": "Sunrise",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Bruce W. Timm"
-   ],
-   "studio": "Sunrise",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/manwhokilledbatman/"
-  },
-  "mudslide": {
-   "writer": "故事：Alan Burnett；剧本：Steve Perry",
-   "director": "Eric Radomski",
-   "music": "Shirley Walker",
-   "animation": "Studio Junio",
-   "writers": [
-    "Alan Burnett",
-    "Steve Perry"
-   ],
-   "directors": [
-    "Eric Radomski"
-   ],
-   "studio": "Studio Junio",
-   "villains": [
-    "泥脸"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/mudslide/"
-  },
-  "paging-the-crime-doctor": {
-   "writer": "故事：Mike W. Barr, Laren Bright；剧本：Randy Rogel, Martin Pasko",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Mike W. Barr",
-    "Laren Bright",
-    "Randy Rogel",
-    "Martin Pasko"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/pagingcrimedoctor/"
-  },
-  "zatanna": {
-   "writer": "Paul Dini",
-   "director": "Dick Sebast, Dan Riba",
-   "music": "Nerida Tyson-Chew, Peter Tomashek",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Dick Sebast",
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/zatanna/"
-  },
-  "the-mechanic": {
-   "writer": "故事：Steve Perry, Laren Bright；剧本：Randy Rogel",
-   "director": "Kevin Altieri",
-   "music": "John Tatgenhorst, Peter Tomashek",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Steve Perry",
-    "Laren Bright",
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "企鹅人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/mechanic/"
-  },
-  "harley-and-ivy": {
-   "writer": "Paul Dini",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵",
-    "毒藤女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/harleyandivy/"
-  },
-  "shadow-of-the-bat-part-1": {
-   "writer": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
-   "director": "Boyd Kirkland",
-   "music": "Carl Johnson",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "D. O'Flaherty",
-    "Tom Ruegger",
-    "Garin Wolf"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "双面人",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/shadowbatp1/"
-  },
-  "blind-as-a-bat": {
-   "writer": "故事：Mike Underwood, Len Wein；剧本：Len Wein",
-   "director": "Dan Riba",
-   "music": "Steve Chesne, James Stemple",
-   "animation": "Studio Junio",
-   "writers": [
-    "Mike Underwood",
-    "Len Wein"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Studio Junio",
-   "villains": [
-    "企鹅人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/blindasabat/"
-  },
-  "the-demon-s-quest-part-1": {
-   "writer": "Dennis O'Neil",
-   "director": "Kevin Altieri",
-   "music": "Michael McCuistion",
-   "animation": "Tokyo Movie Shinsha Co.",
-   "writers": [
-    "Dennis O'Neil"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "拉斯·阿尔·古尔",
-    "塔莉亚"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/demonsquestp1/"
-  },
-  "his-silicon-soul": {
-   "writer": "Marty Isenberg, Robert N. Skir",
-   "director": "Boyd Kirkland",
-   "music": "Carl Johnson, Harvey R. Cohen",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Marty Isenberg",
-    "Robert N. Skir"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "哈达克"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/hissiliconsoul/"
-  },
-  "shadow-of-the-bat-part-2": {
-   "writer": "Brynne Stephens",
-   "director": "Frank Paur",
-   "music": "Harvey R. Cohen",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "双面人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/shadowbatp2/"
-  },
-  "fire-from-olympus": {
-   "writer": "Judith and Garfield Reeves-Stevens",
-   "director": "Dan Riba",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Judith Reeves-Stevens",
-    "Garfield Reeves-Stevens"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "马克西·宙斯"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/firefromolympus/"
-  },
-  "the-demon-s-quest-part-2": {
-   "writer": "故事：Dennis O'Neil, Len Wein；剧本：Len Wein",
-   "director": "Kevin Altieri",
-   "music": "Harvey R. Cohen",
-   "animation": "Tokyo Movie Shinsha Co.",
-   "writers": [
-    "Dennis O'Neil",
-    "Len Wein"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "拉斯·阿尔·古尔",
-    "塔莉亚"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/demonsquestp2/"
-  },
-  "read-my-lips": {
-   "writer": "故事：Alan Burnett, Michael Reaves；剧本：Joe R. Lansdale",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Tokyo Movie Shinsha Co.",
-   "writers": [
-    "Alan Burnett",
-    "Michael Reaves",
-    "Joe R. Lansdale"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "TMS",
-   "villains": [
-    "腹语者与疤面"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/readmylips/"
-  },
-  "the-worry-men": {
-   "writer": "Paul Dini",
-   "director": "Frank Paur",
-   "music": "Lolita Ritmanis",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "疯帽匠"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/worrymen/"
-  },
-  "sideshow": {
-   "writer": "故事：Michael Reaves；剧本：Michael Reaves, Brynne Stephens",
-   "director": "Boyd Kirkland",
-   "music": "Michael McCuistion",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Michael Reaves",
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "杀手鳄"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/sideshow/"
-  },
-  "a-bullet-for-bullock": {
-   "writer": "Michael Reaves",
-   "director": "Frank Paur",
-   "music": "Harvey R. Cohen",
-   "animation": "Studio Junio",
-   "writers": [
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Studio Junio",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/abulletforbullock/"
-  },
-  "trial": {
-   "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
-   "director": "Dan Riba",
-   "music": "Harvey R. Cohen",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini",
-    "Bruce W. Timm"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵",
-    "双面人",
-    "毒藤女",
-    "疯帽匠",
-    "杀手鳄",
-    "腹语者与疤面"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/trial/"
-  },
-  "avatar": {
-   "writer": "Michael Reaves",
-   "director": "Kevin Altieri",
-   "music": "Carlos Rodriguez",
-   "animation": "Studio Junio",
-   "writers": [
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Studio Junio",
-   "villains": [
-    "拉斯·阿尔·古尔",
-    "塔莉亚"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/avatar/"
-  },
-  "house-and-garden": {
-   "writer": "Paul Dini",
-   "director": "Boyd Kirkland",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "毒藤女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/houseandgarden/"
-  },
-  "the-terrible-trio": {
-   "writer": "故事：Alan Burnett, Michael Reaves；剧本：Michael Reaves",
-   "director": "Frank Paur",
-   "music": "Shirley Walker",
-   "animation": "Jade Animation",
-   "writers": [
-    "Alan Burnett",
-    "Michael Reaves"
-   ],
-   "directors": [
-    "Frank Paur"
-   ],
-   "studio": "Jade Animation",
-   "villains": [],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/terribletrio/"
-  },
-  "harlequinade": {
-   "writer": "Paul Dini",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑",
-    "哈莉·奎茵"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/harlequinade/"
-  },
-  "time-out-of-joint": {
-   "writer": "故事：Alan Burnett；剧本：Steve Perry",
-   "director": "Dan Riba",
-   "music": "Carl Johnson",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Alan Burnett",
-    "Steve Perry"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "时钟王"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/timeoutjoint/"
-  },
-  "catwalk": {
-   "writer": "Paul Dini",
-   "director": "Boyd Kirkland",
-   "music": "Kristopher Carter",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "猫女",
-    "腹语者与疤面"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/catwalk/"
-  },
-  "bane": {
-   "writer": "Mitch Brian",
-   "director": "Kevin Altieri",
-   "music": "Lolita Ritmanis",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Mitch Brian"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "杀手鳄",
-    "贝恩",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/bane/"
-  },
-  "baby-doll": {
-   "writer": "故事：Paul Dini",
-   "director": "Dan Riba",
-   "music": "Carl Johnson",
-   "animation": "Spectrum Animation Studio",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Spectrum",
-   "villains": [
-    "娃娃脸"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/babydoll/"
-  },
-  "the-lion-and-the-unicorn": {
-   "writer": "Diane Duane, Philip Morwood, Steve Perry",
-   "director": "Boyd Kirkland",
-   "music": "Brian Langsbard",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Diane Duane",
-    "Philip Morwood",
-    "Steve Perry"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "红爪"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/lionunicorn/"
-  },
-  "showdown": {
-   "writer": "故事：Kevin Altieri, Paul Dini, Bruce W. Timm；剧本：Joe R. Lansdale",
-   "director": "Kevin Altieri",
-   "music": "Tom Hayden",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Kevin Altieri",
-    "Paul Dini",
-    "Bruce W. Timm",
-    "Joe R. Lansdale"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "拉斯·阿尔·古尔"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/showdown/"
-  },
-  "riddler-s-reform": {
-   "writer": "故事：Alan Burnett, Paul Dini, Randy Rogel；剧本：Randy Rogel",
-   "director": "Dan Riba",
-   "music": "Michael McCuistion",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Alan Burnett",
-    "Paul Dini",
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "谜语人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/riddlersreform/"
-  },
-  "second-chance": {
-   "writer": "故事：Paul Dini, Michael Reaves；剧本：Gerry Conway",
-   "director": "Boyd Kirkland",
-   "music": "Todd Hayen",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini",
-    "Michael Reaves",
-    "Gerry Conway"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "企鹅人",
-    "双面人",
-    "鲁珀特·索恩"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/secondchance/"
-  },
-  "harley-s-holiday": {
-   "writer": "Paul Dini",
-   "director": "Kevin Altieri",
-   "music": "Lolita Ritmanis",
-   "animation": "Dong Yang Animation Co., LTD.",
-   "writers": [
-    "Paul Dini"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "哈莉·奎茵",
-    "稻草人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/harleysholiday/"
-  },
-  "lock-up": {
-   "writer": "故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir",
-   "director": "Dan Riba",
-   "music": "Kristopher Carter, Brian Langsbard",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini",
-    "Marty Isenberg",
-    "Robert N. Skir"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "哈莉·奎茵",
-    "稻草人",
-    "腹语者与疤面",
-    "闭锁"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/lockup/"
-  },
-  "make-em-laugh": {
-   "writer": "Paul Dini, Randy Rogel",
-   "director": "Boyd Kirkland",
-   "music": "Michael McCuistion",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini",
-    "Randy Rogel"
-   ],
-   "directors": [
-    "Boyd Kirkland"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "小丑"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/makeemlaugh/"
-  },
-  "deep-freeze": {
-   "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
-   "director": "Kevin Altieri",
-   "music": "Shirley Walker",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Paul Dini",
-    "Bruce W. Timm"
-   ],
-   "directors": [
-    "Kevin Altieri"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "急冻人"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/deepfreeze/"
-  },
-  "batgirl-returns": {
-   "writer": "Michael Reaves, Brynne Stephens",
-   "director": "Dan Riba",
-   "music": "Harvey R. Cohen",
-   "animation": "Dong Yang Animation, Inc.",
-   "writers": [
-    "Michael Reaves",
-    "Brynne Stephens"
-   ],
-   "directors": [
-    "Dan Riba"
-   ],
-   "studio": "Dong Yang",
-   "villains": [
-    "猫女"
-   ],
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/batgirlreturns/"
+  "schemaVersion": 1,
+  "checked": "2026-10-21",
+  "source": {
+    "id": "wf-btas-episodes",
+    "title": "The World’s Finest · Batman: The Animated Series 分集页",
+    "url": "https://dcanimated.com/btas/batman-the-animated-series-episodes/",
+    "type": "分集资料辅助来源",
+    "scope": "BTAS各集编剧、导演、配乐、动画制作与配音表；反派标签依各集配音表角色归类。",
+    "checked": "2026-10-21"
+  },
+  "episodes": {
+    "nothing-to-fear": {
+      "writer": "Henry T. Gilroy & Sean Catherine Derek",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Henry T. Gilroy",
+        "Sean Catherine Derek"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "稻草人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/nothingtofear/"
+    },
+    "perchance-to-dream": {
+      "writer": "故事：Laren Bright, Michael Reaves；剧本：Joe R. Lansdale",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Laren Bright",
+        "Michael Reaves",
+        "Joe R. Lansdale"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "猫女"
+      ],
+      "spoilerVillains": [
+        "疯帽匠"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/perchancetodream/"
+    },
+    "i-am-the-night": {
+      "writer": "Michael Reaves",
+      "director": "Boyd Kirkland",
+      "music": "Michael McCuistion",
+      "animation": "Sunrise",
+      "writers": [
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Sunrise",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/iamthenight/"
+    },
+    "on-leather-wings": {
+      "writer": "Mitch Brian",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Mitch Brian"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "人蝙蝠"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/onleatherwings/"
+    },
+    "christmas-with-the-joker": {
+      "writer": "Eddie Gorodetsky",
+      "director": "Kent Butterworth",
+      "music": "Michael McCuistion, Lolita Ritmanis",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Eddie Gorodetsky"
+      ],
+      "directors": [
+        "Kent Butterworth"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "小丑"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/christmaswithjoker/"
+    },
+    "the-last-laugh": {
+      "writer": "Carl Swenson",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Carl Swenson"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "小丑"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/lastlaugh/"
+    },
+    "pretty-poison": {
+      "writer": "故事：Paul Dini & Michael Reaves；剧本：Tom Ruegger",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Sunrise",
+      "writers": [
+        "Paul Dini",
+        "Michael Reaves",
+        "Tom Ruegger"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "毒藤女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/prettypoison/"
+    },
+    "the-underdwellers": {
+      "writer": "故事：Tom Ruegger；剧本：J. Dennis & R. Mueller",
+      "director": "Frank Paur",
+      "music": "Stu Balcomb and Lars Cutterham",
+      "animation": "Studio Junio",
+      "writers": [
+        "Tom Ruegger",
+        "J. Dennis",
+        "R. Mueller"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Studio Junio",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/underdwellers/"
+    },
+    "p-o-v": {
+      "writer": "故事：M. Brian；剧本：S.C. Derek & L. Bright",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Mitch Brian",
+        "Sean Catherine Derek",
+        "Laren Bright"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Spectrum",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/pov/"
+    },
+    "the-forgotten": {
+      "writer": "J. Dennis, R. Mueller and Sean Catherine Derek",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "J. Dennis",
+        "R. Mueller",
+        "Sean Catherine Derek"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/forgotten/"
+    },
+    "be-a-clown": {
+      "writer": "Ted Pedersen & Steve Hayes",
+      "director": "Frank Paur",
+      "music": "Michael McCuistion",
+      "animation": "Akom Production Co. Nelson Shin, President",
+      "writers": [
+        "Ted Pedersen",
+        "Steve Hayes"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "小丑"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/beaclown/"
+    },
+    "two-face-part-1": {
+      "writer": "故事：Alan Burnett；剧本：Randy Rogel",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Tokyo Movie Shinsha Co., LTD.",
+      "writers": [
+        "Alan Burnett",
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "双面人",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep1/"
+    },
+    "it-s-never-too-late": {
+      "writer": "故事：Tom Ruegger；剧本：Garin Wolf",
+      "director": "Boyd Kirkland",
+      "music": "Lolita Ritmanis",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Tom Ruegger",
+        "Garin Wolf"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/itsnevertoolate/"
+    },
+    "i-ve-got-batman-in-my-basement": {
+      "writer": "Sam Graham & Chris Hubbell",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Sam Graham",
+        "Chris Hubbell"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "企鹅人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/ivegotbatman/"
+    },
+    "the-cat-and-the-claw-part-1": {
+      "writer": "J. Dennis & R. Mueller",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker, Harvey Cohen, Wayne Coster",
+      "animation": "Sunrise",
+      "writers": [
+        "J. Dennis",
+        "R. Mueller"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "猫女",
+        "红爪"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/catandtheclawp1/"
+    },
+    "heart-of-ice": {
+      "writer": "Paul Dini",
+      "director": "Bruce W. Timm",
+      "music": "Todd Hayen",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Bruce W. Timm"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "急冻人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/"
+    },
+    "see-no-evil": {
+      "writer": "Martin Pasko",
+      "director": "Dan Riba",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Martin Pasko"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/seenoevil/"
+    },
+    "the-cat-and-the-claw-part-2": {
+      "writer": "故事：S.C. Derek & L. Bright；剧本：J. Dennis & R. Mueller",
+      "director": "Dick Sebast",
+      "music": "Harvey Cohen",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Sean Catherine Derek",
+        "Laren Bright",
+        "J. Dennis",
+        "R. Mueller"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "猫女",
+        "红爪"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/catandtheclawp2/"
+    },
+    "two-face-part-2": {
+      "writer": "Randy Rogel",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "双面人",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/twofacep2/"
+    },
+    "beware-the-gray-ghost": {
+      "writer": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
+      "director": "Boyd Kirkland",
+      "music": "Carl Johnson",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "D. O'Flaherty",
+        "Tom Ruegger",
+        "Garin Wolf"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Spectrum",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/bewarethegrayghost/"
+    },
+    "prophecy-of-doom": {
+      "writer": "故事：Dennis Marks；剧本：Sean Catherine Derek",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Dennis Marks",
+        "Sean Catherine Derek"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "AKOM",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/prophecydoom/"
+    },
+    "feat-of-clay-part-1": {
+      "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Marv Wolfman",
+      "director": "Dick Sebast",
+      "music": "Jeff Atmajian, Carl Johnson",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Marv Wolfman",
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "泥脸"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/featofclayp1/"
+    },
+    "feat-of-clay-part-2": {
+      "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Michael Reaves",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Tokyo Movie Shinsha Co., LTD.",
+      "writers": [
+        "Marv Wolfman",
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "泥脸"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/featofclayp2/"
+    },
+    "joker-s-favor": {
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/"
+    },
+    "vendetta": {
+      "writer": "Michael Reaves",
+      "director": "Frank Paur",
+      "music": "Michael McCuistion",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "杀手鳄",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/vendetta/"
+    },
+    "fear-of-victory": {
+      "writer": "Samuel Warren Joseph",
+      "director": "Dick Sebast",
+      "music": "Lisa Bloom, Carlos Rodriguez",
+      "animation": "Tokyo Movie Shinsha Co., LTD.",
+      "writers": [
+        "Samuel Warren Joseph"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "小丑",
+        "稻草人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/fearofvictory/"
+    },
+    "the-clock-king": {
+      "writer": "David Wise",
+      "director": "Kevin Altieri",
+      "music": "Carlos Rodriguez",
+      "animation": "Sunrise",
+      "writers": [
+        "David Wise"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "时钟王"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/clockking/"
+    },
+    "appointment-in-crime-alley": {
+      "writer": "Gerry Conway",
+      "director": "Boyd Kirkland",
+      "music": "Stu Balcomb",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Gerry Conway"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/appointmentincrimealley/"
+    },
+    "mad-as-a-hatter": {
+      "writer": "Paul Dini",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "疯帽匠"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/madasahatter/"
+    },
+    "dreams-in-darkness": {
+      "writer": "Judith & Garfield Reeves-Stevens",
+      "director": "Dick Sebast",
+      "music": "Todd Hayen",
+      "animation": "Studio Junio Inc.",
+      "writers": [
+        "Judith Reeves-Stevens",
+        "Garfield Reeves-Stevens"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "Studio Junio",
+      "villains": [
+        "稻草人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/dreamsindarkness/"
+    },
+    "eternal-youth": {
+      "writer": "Beth Bornstein",
+      "director": "Kevin Altieri",
+      "music": "Lolita Ritmanis",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Beth Bornstein"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "毒藤女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/eternalyouth/"
+    },
+    "the-cape-and-cowl-conspiracy": {
+      "writer": "Elliot S. Maggin",
+      "director": "Frank Paur",
+      "music": "Beth Ertz, Mark Kovel",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Elliot S. Maggin"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/capecowlconspiracy/"
+    },
+    "robin-s-reckoning-part-1": {
+      "writer": "Randy Rogel",
+      "director": "Dick Sebast",
+      "music": "Carlos Rodriguez",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "Spectrum",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp1/"
+    },
+    "the-laughing-fish": {
+      "writer": "Paul Dini",
+      "director": "Bruce W. Timm",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Bruce W. Timm"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/laughingfish/"
+    },
+    "night-of-the-ninja": {
+      "writer": "Steve Perry",
+      "director": "Kevin Altieri",
+      "music": "Mark Koval",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Steve Perry"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/nightofninja/"
+    },
+    "cat-scratch-fever": {
+      "writer": "故事：Sean Catherine Derek；剧本：Buzz Dixon",
+      "director": "Boyd Kirkland",
+      "music": "Harvey R. Cohen",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Sean Catherine Derek",
+        "Buzz Dixon"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "猫女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/catscratchfever/"
+    },
+    "the-strange-secret-of-bruce-wayne": {
+      "writer": "故事：David Wise；剧本：Judith & Garfield Reaves-Stevens",
+      "director": "Frank Paur",
+      "music": "Lolita Ritmanis",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "David Wise",
+        "Garfield Reaves-Stevens"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "小丑",
+        "企鹅人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/strangesecret/"
+    },
+    "robin-s-reckoning-part-2": {
+      "writer": "Randy Rogel",
+      "director": "Dick Sebast",
+      "music": "Peter Tomashek",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/robinsreckoningp2/"
+    },
+    "heart-of-steel-part-1": {
+      "writer": "Brynne Stephens",
+      "director": "Kevin Altieri",
+      "music": "Richard Bonskill, Tamara Kline",
+      "animation": "Sunrise",
+      "writers": [
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "哈达克"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofsteelp1/"
+    },
+    "if-you-re-so-smart-why-aren-t-you-rich": {
+      "writer": "David Wise",
+      "director": "Eric Radomski",
+      "music": "Carlos Rodriguez",
+      "animation": "Blue Pencil, S.I.",
+      "writers": [
+        "David Wise"
+      ],
+      "directors": [
+        "Eric Radomski"
+      ],
+      "studio": "Blue Pencil",
+      "villains": [
+        "谜语人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/ifyouresosmart/"
+    },
+    "joker-s-wild": {
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "music": "Todd Hayen",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "小丑",
+        "毒藤女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/jokerswild/"
+    },
+    "tyger-tyger": {
+      "writer": "故事：Michael Reaves and Randy Rogel；剧本：Cherie Wilkerson",
+      "director": "Frank Paur",
+      "music": "Todd Hayen",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Michael Reaves",
+        "Randy Rogel",
+        "Cherie Wilkerson"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/tygertyger/"
+    },
+    "moon-of-the-wolf": {
+      "writer": "Len Wein",
+      "director": "Dick Sebast",
+      "music": "Richard Bronskill",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Len Wein"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "AKOM",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/moonwolf/"
+    },
+    "day-of-the-samurai": {
+      "writer": "Steve Perry",
+      "director": "Bruce W. Timm",
+      "music": "Carlos Rodriguez",
+      "animation": "Blue Pencil, S.I.",
+      "writers": [
+        "Steve Perry"
+      ],
+      "directors": [
+        "Bruce W. Timm"
+      ],
+      "studio": "Blue Pencil",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/dayofsamurai/"
+    },
+    "heart-of-steel-part-2": {
+      "writer": "Brynne Stephens",
+      "director": "Kevin Altieri",
+      "music": "Carl Johnson",
+      "animation": "Sunrise",
+      "writers": [
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "哈达克"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofsteelp2/"
+    },
+    "terror-in-the-sky": {
+      "writer": "故事：Steve Perry, Mark Saraceni；剧本：Mark Saraceni",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Steve Perry",
+        "Mark Saraceni"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "人蝙蝠"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/terrorinsky/"
+    },
+    "almost-got-im": {
+      "writer": "Paul Dini",
+      "director": "Eric Radomski",
+      "music": "Stuart V. Balcomb",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Eric Radomski"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵",
+        "企鹅人",
+        "双面人",
+        "毒藤女",
+        "猫女",
+        "杀手鳄"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/almostgotim/"
+    },
+    "birds-of-a-feather": {
+      "writer": "故事：Chuck Menville；剧本：Brynne Stephens",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Chuck Menville",
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "企鹅人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/birdsofafeather/"
+    },
+    "what-is-reality": {
+      "writer": "Marty Isenberg, Robert N. Skir",
+      "director": "Dick Sebast",
+      "music": "Richard Bronskill",
+      "animation": "Akom Production Co.",
+      "writers": [
+        "Marty Isenberg",
+        "Robert N. Skir"
+      ],
+      "directors": [
+        "Dick Sebast"
+      ],
+      "studio": "AKOM",
+      "villains": [
+        "谜语人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/whatisreality/"
+    },
+    "off-balance": {
+      "writer": "Len Wein",
+      "director": "Kevin Altieri",
+      "music": "Mark Koval, Michael McCuistion",
+      "animation": "Sunrise",
+      "writers": [
+        "Len Wein"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "拉斯·阿尔·古尔",
+        "塔莉亚"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/offbalance/"
+    },
+    "the-man-who-killed-batman": {
+      "writer": "Paul Dini",
+      "director": "Bruce W. Timm",
+      "music": "Shirley Walker",
+      "animation": "Sunrise",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Bruce W. Timm"
+      ],
+      "studio": "Sunrise",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/manwhokilledbatman/"
+    },
+    "mudslide": {
+      "writer": "故事：Alan Burnett；剧本：Steve Perry",
+      "director": "Eric Radomski",
+      "music": "Shirley Walker",
+      "animation": "Studio Junio",
+      "writers": [
+        "Alan Burnett",
+        "Steve Perry"
+      ],
+      "directors": [
+        "Eric Radomski"
+      ],
+      "studio": "Studio Junio",
+      "villains": [
+        "泥脸"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/mudslide/"
+    },
+    "paging-the-crime-doctor": {
+      "writer": "故事：Mike W. Barr, Laren Bright；剧本：Randy Rogel, Martin Pasko",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Mike W. Barr",
+        "Laren Bright",
+        "Randy Rogel",
+        "Martin Pasko"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/pagingcrimedoctor/"
+    },
+    "zatanna": {
+      "writer": "Paul Dini",
+      "director": "Dick Sebast, Dan Riba",
+      "music": "Nerida Tyson-Chew, Peter Tomashek",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Dick Sebast",
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/zatanna/"
+    },
+    "the-mechanic": {
+      "writer": "故事：Steve Perry, Laren Bright；剧本：Randy Rogel",
+      "director": "Kevin Altieri",
+      "music": "John Tatgenhorst, Peter Tomashek",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Steve Perry",
+        "Laren Bright",
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "企鹅人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/mechanic/"
+    },
+    "harley-and-ivy": {
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵",
+        "毒藤女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/harleyandivy/"
+    },
+    "shadow-of-the-bat-part-1": {
+      "writer": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
+      "director": "Boyd Kirkland",
+      "music": "Carl Johnson",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "D. O'Flaherty",
+        "Tom Ruegger",
+        "Garin Wolf"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "双面人",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/shadowbatp1/"
+    },
+    "blind-as-a-bat": {
+      "writer": "故事：Mike Underwood, Len Wein；剧本：Len Wein",
+      "director": "Dan Riba",
+      "music": "Steve Chesne, James Stemple",
+      "animation": "Studio Junio",
+      "writers": [
+        "Mike Underwood",
+        "Len Wein"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Studio Junio",
+      "villains": [
+        "企鹅人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/blindasabat/"
+    },
+    "the-demon-s-quest-part-1": {
+      "writer": "Dennis O'Neil",
+      "director": "Kevin Altieri",
+      "music": "Michael McCuistion",
+      "animation": "Tokyo Movie Shinsha Co.",
+      "writers": [
+        "Dennis O'Neil"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "拉斯·阿尔·古尔",
+        "塔莉亚"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/demonsquestp1/"
+    },
+    "his-silicon-soul": {
+      "writer": "Marty Isenberg, Robert N. Skir",
+      "director": "Boyd Kirkland",
+      "music": "Carl Johnson, Harvey R. Cohen",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Marty Isenberg",
+        "Robert N. Skir"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "哈达克"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/hissiliconsoul/"
+    },
+    "shadow-of-the-bat-part-2": {
+      "writer": "Brynne Stephens",
+      "director": "Frank Paur",
+      "music": "Harvey R. Cohen",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "双面人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/shadowbatp2/"
+    },
+    "fire-from-olympus": {
+      "writer": "Judith and Garfield Reeves-Stevens",
+      "director": "Dan Riba",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Judith Reeves-Stevens",
+        "Garfield Reeves-Stevens"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "马克西·宙斯"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/firefromolympus/"
+    },
+    "the-demon-s-quest-part-2": {
+      "writer": "故事：Dennis O'Neil, Len Wein；剧本：Len Wein",
+      "director": "Kevin Altieri",
+      "music": "Harvey R. Cohen",
+      "animation": "Tokyo Movie Shinsha Co.",
+      "writers": [
+        "Dennis O'Neil",
+        "Len Wein"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "拉斯·阿尔·古尔",
+        "塔莉亚"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/demonsquestp2/"
+    },
+    "read-my-lips": {
+      "writer": "故事：Alan Burnett, Michael Reaves；剧本：Joe R. Lansdale",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Tokyo Movie Shinsha Co.",
+      "writers": [
+        "Alan Burnett",
+        "Michael Reaves",
+        "Joe R. Lansdale"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "TMS",
+      "villains": [
+        "腹语者与疤面"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/readmylips/"
+    },
+    "the-worry-men": {
+      "writer": "Paul Dini",
+      "director": "Frank Paur",
+      "music": "Lolita Ritmanis",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/worrymen/",
+      "spoilerVillains": [
+        "疯帽匠"
+      ]
+    },
+    "sideshow": {
+      "writer": "故事：Michael Reaves；剧本：Michael Reaves, Brynne Stephens",
+      "director": "Boyd Kirkland",
+      "music": "Michael McCuistion",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Michael Reaves",
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "杀手鳄"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/sideshow/"
+    },
+    "a-bullet-for-bullock": {
+      "writer": "Michael Reaves",
+      "director": "Frank Paur",
+      "music": "Harvey R. Cohen",
+      "animation": "Studio Junio",
+      "writers": [
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Studio Junio",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/abulletforbullock/"
+    },
+    "trial": {
+      "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+      "director": "Dan Riba",
+      "music": "Harvey R. Cohen",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini",
+        "Bruce W. Timm"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵",
+        "双面人",
+        "毒藤女",
+        "疯帽匠",
+        "杀手鳄",
+        "腹语者与疤面"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/trial/"
+    },
+    "avatar": {
+      "writer": "Michael Reaves",
+      "director": "Kevin Altieri",
+      "music": "Carlos Rodriguez",
+      "animation": "Studio Junio",
+      "writers": [
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Studio Junio",
+      "villains": [
+        "拉斯·阿尔·古尔",
+        "塔莉亚"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/avatar/"
+    },
+    "house-and-garden": {
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "毒藤女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/houseandgarden/"
+    },
+    "the-terrible-trio": {
+      "writer": "故事：Alan Burnett, Michael Reaves；剧本：Michael Reaves",
+      "director": "Frank Paur",
+      "music": "Shirley Walker",
+      "animation": "Jade Animation",
+      "writers": [
+        "Alan Burnett",
+        "Michael Reaves"
+      ],
+      "directors": [
+        "Frank Paur"
+      ],
+      "studio": "Jade Animation",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/terribletrio/"
+    },
+    "harlequinade": {
+      "writer": "Paul Dini",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "小丑",
+        "哈莉·奎茵"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/harlequinade/"
+    },
+    "time-out-of-joint": {
+      "writer": "故事：Alan Burnett；剧本：Steve Perry",
+      "director": "Dan Riba",
+      "music": "Carl Johnson",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Alan Burnett",
+        "Steve Perry"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "时钟王"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/timeoutjoint/"
+    },
+    "catwalk": {
+      "writer": "Paul Dini",
+      "director": "Boyd Kirkland",
+      "music": "Kristopher Carter",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "猫女",
+        "腹语者与疤面"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/catwalk/"
+    },
+    "bane": {
+      "writer": "Mitch Brian",
+      "director": "Kevin Altieri",
+      "music": "Lolita Ritmanis",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Mitch Brian"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "杀手鳄",
+        "贝恩",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/bane/"
+    },
+    "baby-doll": {
+      "writer": "故事：Paul Dini",
+      "director": "Dan Riba",
+      "music": "Carl Johnson",
+      "animation": "Spectrum Animation Studio",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Spectrum",
+      "villains": [
+        "娃娃脸"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/babydoll/"
+    },
+    "the-lion-and-the-unicorn": {
+      "writer": "Diane Duane, Philip Morwood, Steve Perry",
+      "director": "Boyd Kirkland",
+      "music": "Brian Langsbard",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Diane Duane",
+        "Philip Morwood",
+        "Steve Perry"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "红爪"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/lionunicorn/"
+    },
+    "showdown": {
+      "writer": "故事：Kevin Altieri, Paul Dini, Bruce W. Timm；剧本：Joe R. Lansdale",
+      "director": "Kevin Altieri",
+      "music": "Tom Hayden",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Kevin Altieri",
+        "Paul Dini",
+        "Bruce W. Timm",
+        "Joe R. Lansdale"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "拉斯·阿尔·古尔"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/showdown/"
+    },
+    "riddler-s-reform": {
+      "writer": "故事：Alan Burnett, Paul Dini, Randy Rogel；剧本：Randy Rogel",
+      "director": "Dan Riba",
+      "music": "Michael McCuistion",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Alan Burnett",
+        "Paul Dini",
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "谜语人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/riddlersreform/"
+    },
+    "second-chance": {
+      "writer": "故事：Paul Dini, Michael Reaves；剧本：Gerry Conway",
+      "director": "Boyd Kirkland",
+      "music": "Todd Hayen",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini",
+        "Michael Reaves",
+        "Gerry Conway"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "企鹅人",
+        "双面人",
+        "鲁珀特·索恩"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/secondchance/"
+    },
+    "harley-s-holiday": {
+      "writer": "Paul Dini",
+      "director": "Kevin Altieri",
+      "music": "Lolita Ritmanis",
+      "animation": "Dong Yang Animation Co., LTD.",
+      "writers": [
+        "Paul Dini"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "哈莉·奎茵",
+        "稻草人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/harleysholiday/"
+    },
+    "lock-up": {
+      "writer": "故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir",
+      "director": "Dan Riba",
+      "music": "Kristopher Carter, Brian Langsbard",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini",
+        "Marty Isenberg",
+        "Robert N. Skir"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "哈莉·奎茵",
+        "稻草人",
+        "腹语者与疤面",
+        "闭锁"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/lockup/"
+    },
+    "make-em-laugh": {
+      "writer": "Paul Dini, Randy Rogel",
+      "director": "Boyd Kirkland",
+      "music": "Michael McCuistion",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini",
+        "Randy Rogel"
+      ],
+      "directors": [
+        "Boyd Kirkland"
+      ],
+      "studio": "Dong Yang",
+      "villains": [],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/makeemlaugh/",
+      "spoilerVillains": [
+        "小丑"
+      ]
+    },
+    "deep-freeze": {
+      "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+      "director": "Kevin Altieri",
+      "music": "Shirley Walker",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Paul Dini",
+        "Bruce W. Timm"
+      ],
+      "directors": [
+        "Kevin Altieri"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "急冻人"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/deepfreeze/"
+    },
+    "batgirl-returns": {
+      "writer": "Michael Reaves, Brynne Stephens",
+      "director": "Dan Riba",
+      "music": "Harvey R. Cohen",
+      "animation": "Dong Yang Animation, Inc.",
+      "writers": [
+        "Michael Reaves",
+        "Brynne Stephens"
+      ],
+      "directors": [
+        "Dan Riba"
+      ],
+      "studio": "Dong Yang",
+      "villains": [
+        "猫女"
+      ],
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/batgirlreturns/"
+    }
   }
- }
 }

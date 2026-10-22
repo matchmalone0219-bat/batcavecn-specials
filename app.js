@@ -19,19 +19,19 @@ async function searchPage() {
     const params = new URLSearchParams(location.search);
     query.value = params.get("q") || "";
     const arkhamOnly = document.body.classList.contains("arkham");
-    if (!arkhamOnly && params.get("scope") === "all") scope.value = "all";
+    const site = arkhamOnly ? "arkham" : document.body.classList.contains("tas") ? "tas" : "";
+    if (site) scope.value = site;
     const render = () => {
       const terms = query.value.trim().toLocaleLowerCase().split(/\s+/u).filter(Boolean);
       results.replaceChildren();
       if (!terms.length) { count.textContent = "输入集名、作品名、人物或主题，开始检索。"; return; }
       const found = index.filter(item =>
-        (arkhamOnly ? ["arkham", "shared"].includes(item.site) : (scope.value === "all" || item.site === scope.value || item.site === "shared")) &&
+        (site ? [site, "shared"].includes(item.site) : (scope.value === "all" || item.site === scope.value || item.site === "shared")) &&
         terms.every(term => [item.title, item.original, item.summary, ...item.tags].join(" ").toLocaleLowerCase().includes(term))
       );
-      count.textContent = found.length ? `找到 ${found.length} 条记录 · 点击结果阅读档案或定位目录。` : arkhamOnly ? "没有找到对应记录。可以换一个作品名、人物或主题。" : "没有找到对应记录。可以换一个集名或主题，或选择两个专题。";
+      count.textContent = found.length ? `找到 ${found.length} 条记录 · 点击结果阅读档案或定位目录。` : "没有找到对应记录。可以换一个集名、作品名、人物或主题。";
       for (const item of found) {
         const card = make("a", undefined, "route-card");
-        const site = arkhamOnly ? "arkham" : document.body.classList.contains("tas") ? "tas" : "";
         const scopedConroy = { arkham: "/arkham/people/kevin-conroy/", tas: "/tas/people/kevin-conroy/" }[site];
         card.href = scopedConroy && item.url === "/voices/#kevin-conroy" ? scopedConroy : item.url;
         card.append(make("p", `${item.site === "arkham" ? "PROTOCOL ARKHAM" : item.site === "tas" ? "DARK DECO" : "两站共同档案"} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
@@ -192,6 +192,7 @@ function episodePreview() {
   }
   function sync() {
     panel.hidden = !wide.matches;
+    rows.filter(row => row.dataset.guided !== 'true').forEach(row => { row.tabIndex = wide.matches ? 0 : -1; });
     if (!wide.matches) return;
     if (!current || current.hidden || !current.offsetParent) { current = null; show(firstVisible()); }
   }

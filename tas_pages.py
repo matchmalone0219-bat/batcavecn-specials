@@ -2,6 +2,7 @@
 import html
 import json
 from pathlib import Path
+from render_common import paragraphs
 
 ROOT = Path(__file__).resolve().parent
 SECTIONS = [
@@ -55,6 +56,10 @@ def build_archive(data, shell):
     first, second = load()
     sources = {s['id']:s for p in (first,second) for s in p['sources']}
     images = {i['id']:i for p in (first,second) for i in p['images']}
+    films = [json.loads((ROOT / file).read_text()) for file in ('subzero.json', 'batwoman.json')]
+    for film in films:
+        sources.update({s['id']: s for s in film['sources']})
+        images.update({i['id']: i for i in film['images']})
     records, pages = [], {}
 
     def refs(item):
@@ -109,9 +114,25 @@ def build_archive(data, shell):
 
     base='/tas/archive/films/'
     content='<div class="archive-reading"><a class="archive-shelf film-feature" href="/tas/archive/films/mask-of-the-phantasm/"><p class="label">1993 / FEATURE FILM</p><h2>幽灵的面具</h2><p>院线悲剧史诗：面具下的宿命抉择、制作内幕与4K修复档案。</p></a>'
+    content+='<a class="archive-shelf film-feature" href="/tas/archive/films/subzero/"><p class="label">1998 / DIRECT TO VIDEO</p><h2>冰点危机</h2><p>营救与生命的代价：人物、声音、导演访谈与录像带、DVD、蓝光版本。</p></a>'
+    content+='<a class="archive-shelf film-feature" href="/tas/archive/films/mystery-of-the-batwoman/"><p class="label">2003 / DIRECT TO VIDEO</p><h2>蝙蝠女侠之谜</h2><p>一场身份与复仇的调查：人物、声音、发行版本与随碟短片Chase Me。</p></a>'
     for w in first['works']:
         if w['id'] in ('subzero','batwoman'): content+=work(w,base,w['id'])
-    page('films','动画电影','大银幕独立长片编目：首映原版与现代高清重制版本对照。',content+'</div>')
+    page('films','动画电影','院线长片与影像发行电影：故事、制作及版本资料。',content+'</div>')
+    for film in films:
+        content='<div class="archive-reading"><p class="original">'+esc(film['original'])+'</p>'+picture(film['hero'])+'<h2>电影基础档案</h2><dl class="archive-facts">'
+        content+=''.join(f'<div><dt>{esc(f["label"])}</dt><dd>{esc(f["value"])}</dd></div>' for f in film['facts'])+'</dl>'+refs(film)
+        content+='<nav class="chapter-nav" aria-label="电影章节">'+''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in film['sections'])+'</nav>'
+        for n, section in enumerate(film['sections']):
+            text=paragraphs(section['body'])
+            if section.get('containsSpoilers'):
+                text='<details class="spoiler section-spoiler"><summary>剧情与结局分析 · 含剧透，展开阅读</summary>'+text+'</details>'
+            content+=f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}<details class="archive-evidence"><summary>资料来源</summary>{refs(section)}</details></section>'
+            if n == 0:
+                content+='<div class="research-gallery">'+''.join(picture(id) for id in film['gallery'])+'</div>'
+        content+='<section><h2>关联阅读</h2>'+''.join(f'<a class="route-card" href="{esc(link["url"])}"><h3>{esc(link["title"])}</h3></a>' for link in film['readingLinks'])+'</section></div>'
+        page('films/'+film['id'],film['title'],film['summary'],content)
+        records[-1].update(original=film['original'],tags=film.get('tags',['电影','急冻人','SubZero']),status='电影档案')
     f=second['film']; base='/tas/archive/films/mask-of-the-phantasm/'
     content='<div class="archive-reading">'+picture('image-3')+'<h2>电影基础档案</h2><dl class="archive-facts">'
     for label,value in [('原片院线上映','1993-12-25'),('导演','Eric Radomski · Bruce Timm'),('故事','Alan Burnett'),('剧本','Alan Burnett · Paul Dini · Martin Pasko · Michael Reaves'),('英语主要配音','Kevin Conroy · Dana Delany · Mark Hamill')]:content+=f'<div><dt>{label}</dt><dd>{value}</dd></div>'

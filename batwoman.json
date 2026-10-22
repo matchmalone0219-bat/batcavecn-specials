@@ -1,0 +1,251 @@
+{
+  "id": "mystery-of-the-batwoman",
+  "title": "蝙蝠女侠之谜",
+  "original": "Batman: Mystery of the Batwoman",
+  "nameNote": "中文暂译",
+  "summary": "一位以蝙蝠为标志的神秘义警袭击企鹅人的军火生意。蝙蝠侠与罗宾追查她的身份，也必须阻止营救与报复越过伤害生命的界线。",
+  "tags": [
+    "电影",
+    "Batwoman",
+    "身份谜案"
+  ],
+  "facts": [
+    {
+      "label": "原作年份",
+      "value": "2003"
+    },
+    {
+      "label": "美国影像发行",
+      "value": "2003-10-21 · 录像带／DVD"
+    },
+    {
+      "label": "导演",
+      "value": "Curt Geda；段落导演 Jennifer Graves、Tim Maltby"
+    },
+    {
+      "label": "故事／剧本",
+      "value": "Alan Burnett／Michael Reaves"
+    },
+    {
+      "label": "配乐",
+      "value": "Lolita Ritmanis"
+    },
+    {
+      "label": "动画制作",
+      "value": "D.R. Movie CO., LTD."
+    },
+    {
+      "label": "英语主要配音",
+      "value": "Kevin Conroy · Kyra Sedgwick · Kelly Ripa · Kimberly Brooks · Elisa Gabrielli · Héctor Elizondo · David Ogden Stiers"
+    },
+    {
+      "label": "2003美版DVD",
+      "value": "75分钟 · 1.33:1 · 英语Dolby Digital 5.1"
+    },
+    {
+      "label": "2013美版蓝光",
+      "value": "2013-03-12 · 75分钟 · 1.78:1 · DTS-HD 5.1"
+    }
+  ],
+  "sourceRefs": [
+    "tas-batwoman",
+    "batwoman-film",
+    "batwoman-dmp",
+    "batwoman-dvd",
+    "batwoman-blu"
+  ],
+  "hero": "batwoman-poster",
+  "gallery": [
+    "batwoman-truck",
+    "batwoman-flight",
+    "batwoman-roof"
+  ],
+  "sections": [
+    {
+      "id": "viewing",
+      "title": "剧情简介 · 不含身份谜底",
+      "body": "企鹅人与鲁珀特·索恩经营军火交易，卡尔顿·杜肯为这项生意提供保护。一位穿灰色制服、带红色蝙蝠标记的义警接连袭击运输和生产环节，既威胁生意，也使城市面对新的危险。\n蝙蝠侠与提姆调查她的真实身份，布鲁斯的私人交往同时带来新的线索。追踪既要辨认谁在行动，也要判断对方愿意为报复承担多少他人的风险。",
+      "sourceRefs": [
+        "tas-batwoman",
+        "batwoman-film"
+      ]
+    },
+    {
+      "id": "characters",
+      "title": "面具、责任与复仇",
+      "body": "新义警使用蝙蝠符号，却没有先与蝙蝠侠建立合作。相似外观可能让公众把双方视为一体，也迫使布鲁斯面对自己无法完全控制的象征。\n卡西·杜肯、科学家洛克茜·巴兰坦与警探索尼娅·阿尔卡纳分别进入调查。她们与军火网络的关系，使谜案不只是辨认服装下的一张脸，也包括追问伤害如何持续影响人的选择。",
+      "sourceRefs": [
+        "batwoman-film",
+        "batwoman-plot"
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "声音、爵士色彩与制作",
+      "body": "Kevin Conroy出演蝙蝠侠，Kyra Sedgwick出演蝙蝠女侠；提姆／罗宾由Eli Marienthal出演，企鹅人由David Ogden Stiers出演，贝恩由Héctor Elizondo出演。电影中的罗宾仍是提姆。\nCurt Geda执导，Alan Burnett提供故事，Michael Reaves编写剧本；Andrea Romano负责选角与声音指导，Margaret Hou剪辑。Lolita Ritmanis创作并配器，作曲家作品页另列John Yoakum演奏萨克斯独奏。调查、夜间社交与动作段落因此具有不同的声音质地。",
+      "sourceRefs": [
+        "batwoman-film",
+        "batwoman-dmp"
+      ]
+    },
+    {
+      "id": "versions",
+      "title": "2003 DVD与2013蓝光",
+      "body": "美国录像带与DVD发行于2003年10月21日。美版DVD资料列75分钟、1.33:1画面与英语Dolby Digital 5.1；2013年3月12日的蓝光版则列75分钟、1.78:1宽屏，评论记录其DTS-HD 5.1声轨。\n蓝光沿用幕后制作、场景制作与角色资料等附录。《Chase Me》在该版中仍以1.33:1标准清晰度呈现；正片的宽屏和附录短片的画幅分别记录。",
+      "sourceRefs": [
+        "batwoman-dvd",
+        "batwoman-blu",
+        "batwoman-plot"
+      ]
+    },
+    {
+      "id": "chase-me",
+      "title": "随碟短片 · Chase Me",
+      "body": "这部约七分钟的独立短片随《蝙蝠女侠之谜》发行，讲布鲁斯发现猫女行窃后换装追逐。全片没有人物配音，以动作、表情与音乐组织相遇。\nCurt Geda执导，Alan Burnett与Paul Dini编剧，Lolita Ritmanis配乐。追逐在城市高处与社交场景之间转换，也提供一种与正片身份调查不同的观看节奏。",
+      "sourceRefs": [
+        "batwoman-chase",
+        "batwoman-dvd",
+        "batwoman-blu"
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "共同的面具 · 含身份与结局",
+      "containsSpoilers": true,
+      "body": "蝙蝠女侠由卡西、洛克茜和索尼娅轮流扮演：资金、装备与行动经验由三人合作提供，私人损失则把她们带到同一项报复中。一个面具因此能够同时出现在看似互相排除的线索后面。\n军火船上的炸弹把计划推向失控，蝙蝠侠与卡西脱险，卡尔顿也选择营救女儿。索尼娅离开警队，洛克茜未婚夫的冤案得到新的证据，卡西与父亲的关系则开始改变。阻止报复并没有否认她们受到过的伤害，而是让这些伤害不再被用来要求下一次牺牲。",
+      "sourceRefs": [
+        "batwoman-plot"
+      ]
+    }
+  ],
+  "readingLinks": [
+    {
+      "title": "蝙蝠之影：芭芭拉成为蝙蝠女的故事",
+      "url": "/tas/episodes/shadow-of-the-bat-part-1/"
+    },
+    {
+      "title": "互惠之约：猫女与夜翼的临时合作",
+      "url": "/tas/episodes/tnba-you-scratch-my-back/"
+    },
+    {
+      "title": "幽灵的面具：另一场身份与复仇的谜案",
+      "url": "/tas/archive/films/mask-of-the-phantasm/"
+    },
+    {
+      "title": "冰点危机：另一部影像发行长片",
+      "url": "/tas/archive/films/subzero/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "batwoman-film",
+      "title": "The World’s Finest · Mystery of the Batwoman电影档案",
+      "url": "https://dcanimated.com/WF/batman/tnba/episodes/00motb/",
+      "type": "电影资料与评论辅助来源",
+      "scope": "发行、制作署名、英语演员、剧情与电影海报／剧照。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-dmp",
+      "title": "Dynamic Music Partners · Mystery of the Batwoman",
+      "url": "https://dynamicmusicpartners.com/batman-mystery-of-the-batwoman/",
+      "type": "作曲家作品与制作署名",
+      "scope": "Lolita Ritmanis作曲及配器、John Yoakum萨克斯、分岗位制作署名。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-dvd",
+      "title": "The World’s Finest · Mystery of the Batwoman美版DVD",
+      "url": "https://dcanimated.com/tnba/tnba-releases/tnba-releases-dvd/tnba-releases-dvd-motb/",
+      "type": "发行资料与评论",
+      "scope": "2003-10-21、75分钟、1.33:1、Dolby Digital 5.1及附录。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-blu",
+      "title": "The World’s Finest · Mystery of the Batwoman美版蓝光",
+      "url": "https://dcanimated.com/tnba/tnba-releases/tnba-releases-bluray/tnba-releases-bluray-motb/",
+      "type": "发行资料与评论",
+      "scope": "2013-03-12、75分钟、1.78:1、DTS-HD 5.1及短片的标清／4:3呈现。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-chase",
+      "title": "The World’s Finest · Chase Me短片档案",
+      "url": "https://dcanimated.com/WF/batman/tnba/episodes/00chaseme/",
+      "type": "短片资料与评论辅助来源",
+      "scope": "随碟发行、约七分钟、无人声配音与导演／编剧／配乐署名。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-plot",
+      "title": "Wikipedia · Mystery of the Batwoman剧情条目",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Mystery_of_the_Batwoman",
+      "type": "社区剧情辅助来源",
+      "scope": "人物联系、身份谜底与折叠结局。",
+      "checked": "2026-10-22"
+    }
+  ],
+  "images": [
+    {
+      "id": "batwoman-poster",
+      "file": "tas-film-batwoman-poster.jpg",
+      "title": "《蝙蝠女侠之谜》发行宣传海报",
+      "width": 1000,
+      "height": 1426,
+      "sha256": "c8938b7e7ad064517d63e875a2091ea590ff567e4520b1985053d057a8aa1c3c",
+      "imageUrl": "https://dcanimated.com/WF/batman/tnba/episodes/00motb/artwork.jpg",
+      "sourceRefs": [
+        "batwoman-film"
+      ],
+      "rights": "DC / Warner Bros. 宣传或原动画画面；来源 The World’s Finest，版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-truck",
+      "file": "tas-film-batwoman-truck.jpg",
+      "title": "夜间行驶的货车",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "78b0316446d0b1a830753434e6a6247e299cd587cdfad0bbfda746c3e1b48dc4",
+      "imageUrl": "https://dcanimated.com/WF/batman/tnba/episodes/00motb/18.jpg",
+      "sourceRefs": [
+        "batwoman-film"
+      ],
+      "rights": "DC / Warner Bros. 宣传或原动画画面；来源 The World’s Finest，版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-flight",
+      "file": "tas-film-batwoman-flight.jpg",
+      "title": "建筑间的蝙蝠女侠",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3c3650468684922ba7bed3486188515c7f448c674fe9b33d785e54faf5447adc",
+      "imageUrl": "https://dcanimated.com/WF/batman/tnba/episodes/00motb/20.jpg",
+      "sourceRefs": [
+        "batwoman-film"
+      ],
+      "rights": "DC / Warner Bros. 宣传或原动画画面；来源 The World’s Finest，版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "batwoman-roof",
+      "file": "tas-film-batwoman-roof.jpg",
+      "title": "货车上方的蝙蝠女侠",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bd6664daa3fe15777131bf65c3465922284b9c861898841a923d1d2c5c891835",
+      "imageUrl": "https://dcanimated.com/WF/batman/tnba/episodes/00motb/21.jpg",
+      "sourceRefs": [
+        "batwoman-film"
+      ],
+      "rights": "DC / Warner Bros. 宣传或原动画画面；来源 The World’s Finest，版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    }
+  ]
+}

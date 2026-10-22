@@ -192,7 +192,7 @@ class SectionSpoilers(HTMLParser):
             self.outside.append(text)
 
 folded_sections = 0
-for item in data['games'] + data['episodes']:
+for item in data['games'] + data['episodes'] + data['tnbaEpisodes']:
     for section in item['sections']:
         if section.get('containsSpoilers'):
             audit = SectionSpoilers(section['id'])
@@ -201,10 +201,10 @@ for item in data['games'] + data['episodes']:
             assert audit.folded and audit.depth == 0
             assert all(paragraph not in ''.join(audit.outside) for paragraph in section['body'].split('\n') if paragraph)
             folded_sections += 1
-assert folded_sections == 13
+assert folded_sections == 106
 for phrase in ('小丑死后余波', '大雪中的无言抱持', '冰封牢房', '从钟楼纵身跃下', '漫天落下的银币', '将他拖回安全地带'):
     assert all(phrase not in item['summary'] for item in search)
-print('PASS: 13 analytical sections collapsed; ending details excluded from search summaries')
+print('PASS: 106 analytical sections collapsed; ending details excluded from search summaries')
 for item in search:
     assert urlsplit(item["url"]).path in parsed
 assert data["episodes"][0]["guideNumber"] == "003"
@@ -220,34 +220,49 @@ assert any(i["url"] == "/tas/series/caped-crusader/" for i in search)
 assert "caped-crusader" not in {i["id"] for i in data["episodes"]}
 
 assert len(data["tnbaEpisodes"]) == 24
-assert sum(e["status"] == "详情样板" for e in data["episodes"]) == 17
+assert sum(e["status"] == "详情样板" for e in data["episodes"]) == 85
+assert sum(e["status"] == "详情样板" for e in data["tnbaEpisodes"]) == 24
 assert len(data["capedCrusader"]["season2Episodes"]) == 10
 for e in data["episodes"]:
     for other in e.get("related", []):
         partner = next(p for p in data["episodes"] if p["id"] == other)
         assert e["id"] in partner["related"]
 media = json.loads((CONTENT.parent / "media.json").read_text())
-assert len(media["assets"]) == 28
-assert len({a["sha256"] for a in media["assets"]}) == 28
+assert len(media["assets"]) == 32
+assert len({a["sha256"] for a in media["assets"]}) == 32
 for a in media["assets"]:
     assert a["width"] >= 800 and a["height"] >= 400
     assert a["imageUrl"].startswith("https://") and a["sourcePage"].startswith("https://")
     assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     assert (DIST / "assets/media" / a["file"]).is_file()
-print("PASS: 28 sourced original images; TNBA separate; paired episode links reciprocal")
+print("PASS: 32 sourced original images; TNBA separate; paired episode links reciprocal")
+catalog_art = json.loads((CONTENT.parent / "catalog-art.json").read_text())["assets"]
+assert len(catalog_art) == len(data["games"]) == 8
+assert {a["item"] for a in catalog_art} == {g["id"] for g in data["games"]}
+assert len({a["file"] for a in catalog_art}) == len({a["sha256"] for a in catalog_art}) == 8
+for a in catalog_art:
+    assert a["width"] > a["height"] and a["width"] >= 616 and a["height"] >= 353
+    assert a["imageUrl"].startswith("https://") and a["sourcePage"].startswith("https://")
+    assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
+    assert hashlib.sha256((DIST / "assets/media" / a["file"]).read_bytes()).hexdigest() == a["sha256"]
+    catalog_page = pages["arkham/catalog/index.html"]
+    assert catalog_page.count(f'src="/assets/media/{a["file"]}"') == 2
+    assert f'href="{a["sourcePage"]}"' in catalog_page
+    assert all(a["file"] not in body for filename, body in pages.items() if filename != "arkham/catalog/index.html")
+print("PASS: eight landscape catalogue key-art images; source links, original bytes and page scope")
 episode_media = json.loads((CONTENT.parent / 'episode-media.json').read_text())['assets']
-assert len(episode_media) == 68 and len({a['sha256'] for a in episode_media}) == 68
-assert len({a['item'] for a in episode_media}) == 17
+assert len(episode_media) == 412 and len({a['sha256'] for a in episode_media}) == 412
+assert len({a['item'] for a in episode_media}) == 109
 for id in {a['item'] for a in episode_media}:
     selected = [a for a in episode_media if a['item'] == id]
-    assert sum(a['role'] == 'title-card' for a in selected) == 1
+    assert sum(a['role'] == 'title-card' for a in selected) == (0 if id.startswith('tnba-') else 1)
     assert sum(a['role'] == 'frame' for a in selected) == 3
 for a in episode_media:
     assert '待目视' not in a['title']
     assert a['imageUrl'].startswith('https://') and a['sourcePage'].startswith('https://')
     assert hashlib.sha256((CONTENT.parent / a['file']).read_bytes()).hexdigest() == a['sha256']
     assert hashlib.sha256((DIST / 'assets/media' / a['file']).read_bytes()).hexdigest() == a['sha256']
-print('PASS: eight Arkham archive pages; 23 research images; 68 episode images; history identity, final image and story spoilers collapsed')
+print('PASS: eight Arkham archive pages; 23 research images; 412 episode images; history identity, final image and story spoilers collapsed')
 
 interviews=json.loads((CONTENT.parent/'patient-interviews.json').read_text())
 assert len(interviews['patients'])==7
@@ -317,10 +332,10 @@ for path, page in parsed.items():
         assert not any(link.startswith('/people/kevin-conroy/') for link in page.links), path
 assert '/arkham/people/kevin-conroy/' in parsed
 assert '<option value="all">' not in pages['arkham/search/index.html']
-assert pages['arkham/catalog/index.html'].count('class="arkham-game-card"') == 6
+assert pages['arkham/catalog/index.html'].count('class="arkham-game-card"') == 8
 for filename in ['arkham-transition.js','arkham-menu.js','arkham-nav.js','arkham-bat-transition.m4a']:
     assert (DIST/'assets'/filename).is_file()
-print('PASS: Arkham-only navigation and biography view; six real-image game cards; scoped search and transition assets')
+print('PASS: Arkham-only navigation and biography view; eight real-image game cards; scoped search and transition assets')
 
 # Original releases, companion developers and the later Rocksteady project stay distinct.
 games = {game['id']: game for game in data['games']}
@@ -341,12 +356,12 @@ assert creative_html.index('id="reveal-2020"') < creative_html.index('id="handov
 assert '主创回顾转述' in creative_html and '分析 / 人员、产品与结果' in creative_html
 assert '不等同于服务器关闭' in creative_html
 assert '/arkham/archive/rocksteady/' in pages['arkham/catalog/index.html']
-ordered = ['arkham-asylum', 'arkham-city', 'arkham-origins', 'arkham-origins-blackgate', 'arkham-knight', 'suicide-squad-kill-the-justice-league']
+ordered = ['arkham-asylum', 'arkham-city', 'arkham-origins', 'arkham-origins-blackgate', 'arkham-knight', 'arkham-vr', 'suicide-squad-kill-the-justice-league', 'arkham-shadow']
 positions = [pages['arkham/catalog/index.html'].index('/arkham/games/' + id + '/') for id in ordered]
 assert positions == sorted(positions)
 assert all(any(record['url'] == '/arkham/games/' + id + '/' for record in search) for id in ordered)
 assert len([record for record in search if '/arkham/archive/rocksteady/' in record['url']]) == len(creative['sections']) + 1
-print('PASS: Blackgate original/Deluxe boundaries; six chronological works; sourced creative history and Arkham-scoped actor links')
+print('PASS: Blackgate original/Deluxe boundaries; eight chronological works; sourced creative history and Arkham-scoped actor links')
 
 credits_doc = json.loads((CONTENT.parent / "episode-credits.json").read_text())
 episode_credits = credits_doc["episodes"]
@@ -357,6 +372,21 @@ for field in ("episode-villain", "episode-writer", "episode-director", "episode-
     assert f'id="{field}"' in catalog
 assert catalog.count('class="episode-credits"') == 85 and catalog.count("data-villains=") == 85
 assert credits_doc["source"]["url"] in catalog
+assert not episode_credits["p-o-v"]["villains"] and not episode_credits["tyger-tyger"]["villains"]
+assert '腹语者与疤面 · 4集' in catalog and '疯帽匠 · 2集' in catalog
+for episode_id, record in episode_credits.items():
+    row = catalog.split(f'id="{episode_id}"', 1)[1].split('</li>', 1)[0]
+    for name in record.get("spoilerVillains", []):
+        assert name not in row and name not in record["villains"], episode_id
+assert episode_credits["perchance-to-dream"]["spoilerVillains"] == ["疯帽匠"]
+for site in ("arkham", "tas"):
+    assert 'value="all"' not in pages[f"{site}/search/index.html"]
+assert '共同人物档案' not in pages['tas/index.html']
+assert all('继续阅读动画与游戏' not in html and '回到共同人物档案' not in html
+           for key, html in pages.items() if key.startswith('tas/episodes/'))
+assert '十年传奇' not in pages['arkham/games/arkham-knight/index.html']
+assert '被公认为' not in pages['tas/episodes/almost-got-im/index.html']
+print('PASS: catalogue conceals spoiler roles; same-name and cameo tags corrected; search UI scoped; actor copy and reviewed wording corrected')
 print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source listed')
 clues = pages["arkham/archive/clues/index.html"]
 zone_links = re.findall(r'class="clue-zone" href="#([^"]+)"', clues)
@@ -400,7 +430,7 @@ for route_key, html in pages.items():
     if route_key.endswith(".html") and "<head>" in html:
         assert 'rel="icon"' in html, route_key
 assert "这一页不在档案里" in pages["404.html"]
-for item in data["games"] + [e for e in data["episodes"] if e["status"] == "详情样板"]:
+for item in data["games"] + [e for e in data["episodes"] + data["tnbaEpisodes"] if e["status"] == "详情样板"]:
     html = pages[route(item).strip("/") + "/index.html"]
     assert 'class="detail-pager"' in html and 'class="facts-more"' in html, item["id"]
     if item["site"] == "arkham":
@@ -435,26 +465,144 @@ assert pages["arkham/menu/index.html"].count('class="menu-icon"') == 7
 assert 'class="room-head"' in pages["arkham/archive/riddler/index.html"] and "GOTHAM DOSSIERS / 01" in pages["arkham/archive/riddler/index.html"]
 print(f'PASS: {len(arkham_icons.ICONS)} original Arkham icons; menu, room headers, labels, facts, pager and filters use them; no icons outside Arkham')
 catalog_html = pages["arkham/catalog/index.html"]
-assert catalog_html.count("data-browse-item") == 6 and catalog_html.count("data-panel=") == 6 and "data-browser-fallback" in catalog_html
+assert catalog_html.count("data-browse-item") == 8 and catalog_html.count("data-panel=") == 8 and "data-browser-fallback" in catalog_html
 clue_html = pages["arkham/archive/clues/index.html"]
 assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
 for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html")]:
     assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 11, room_key
-print('PASS: Arkham archive rail on 8 pages; list + preview browsing for 6 games, 138 clues and Arkham collectibles; TAS collectibles unchanged')
+print('PASS: Arkham archive rail on 8 pages; list + preview browsing for 8 games, 138 clues and Arkham collectibles; TAS collectibles unchanged')
 
 # TAS programme, screening halls and end-credit roster.
 catalog_html = (DIST / 'tas/catalog/index.html').read_text()
 assert catalog_html.count('data-episode-run') == 3 and 'class="air-years"' in catalog_html and 'data-episode-preview' in catalog_html
-assert catalog_html.count('class="episode-thumb"') == 17 and catalog_html.count('data-card=') == 17
+assert catalog_html.count('class="episode-thumb"') == 85 and catalog_html.count('data-card=') == 85
 archive_html = (DIST / 'tas/archive/index.html').read_text()
 assert archive_html.count('class="screening-hall ') == 6 and 'class="archive-shelf"' not in archive_html
 assert all(f'/tas/archive/{slug}/' in archive_html for slug in ('production', 'voices', 'films', 'publications', 'music', 'history'))
 assert (DIST / 'tas/archive/voices/index.html').read_text().count('<article id=') >= 15
 for page in DIST.glob('tas/**/index.html'):
     assert 'data-deco=' not in page.read_text(), page
-print('PASS: TAS programme in two broadcast runs with 17 title-card rows and ticket preview; six screening halls; end-credit roster')
+print('PASS: TAS programme in two broadcast runs with 85 title-card rows and ticket preview; six screening halls; end-credit roster')
+
+# Content batch: real VR releases, upgraded episode routes, series-scoped pager and actor lists.
+assert games['arkham-vr']['date'] == '2016-10-11' and games['arkham-vr']['actor'] == 'Kevin Conroy'
+assert games['arkham-shadow']['date'] == '2024-10-22' and games['arkham-shadow']['actor'] == 'Roger Craig Smith'
+assert games['arkham-shadow']['developer'] == 'Camouflaj'
+for slug in ('feat-of-clay-part-1', 'feat-of-clay-part-2', 'read-my-lips', 'tnba-mad-love', 'tnba-over-the-edge', 'tnba-old-wounds', 'tnba-never-fear', 'tnba-growing-pains', 'tnba-legends-of-the-dark-knight', 'tnba-sins-of-the-father', 'tnba-double-talk', 'tnba-cold-comfort'):
+    url = f'/tas/episodes/{slug}/'
+    assert url in parsed and f'href="{url}"' in catalog_html
+    assert any(record['url'] == url and record['status'] == '分集导读' for record in search)
+    assert f'href="{url}"' in pages['tas/people/kevin-conroy/index.html']
+    assert 'class="film-strip"' in pages[url.strip('/') + '/index.html']
+for slug in ('tnba-mad-love', 'tnba-over-the-edge', 'tnba-old-wounds', 'tnba-never-fear', 'tnba-growing-pains', 'tnba-legends-of-the-dark-knight', 'tnba-sins-of-the-father', 'tnba-double-talk', 'tnba-cold-comfort'):
+    page = pages[f'tas/episodes/{slug}/index.html']
+    pager_html = page.split('class="detail-pager"', 1)[1].split('</nav>', 1)[0]
+    assert '/tas/episodes/tnba-' in pager_html and 'TNBA' in page
+    assert all('/tas/episodes/tnba-' in href for href in re.findall(r'href="([^"]+)"', pager_html))
+    assert 'episode-title-card' not in page
+assert '/arkham/games/arkham-vr/' in pages['arkham/people/kevin-conroy/index.html']
+assert '/arkham/games/arkham-shadow/' not in pages['arkham/people/kevin-conroy/index.html']
+print('PASS: two VR works; five promoted guides; TNBA-only pager; correct actor links; genuine title cards and episode frames')
+
+# Second content batch: original catalogue identifiers and spoiler boundaries.
+tnba = {item['id']: item for item in data['tnbaEpisodes']}
+assert (tnba['tnba-old-wounds']['guideNumber'], tnba['tnba-old-wounds']['airDate']) == ('017', '1998-10-03')
+assert (tnba['tnba-never-fear']['guideNumber'], tnba['tnba-never-fear']['airDate']) == ('006', '1997-11-01')
+assert tnba['tnba-never-fear']['director'] == 'Kenji Hachizaki'
+for slug in ('tnba-old-wounds', 'tnba-never-fear', 'tnba-growing-pains', 'tnba-legends-of-the-dark-knight', 'tnba-sins-of-the-father', 'tnba-double-talk', 'tnba-cold-comfort'):
+    item = tnba[slug]
+    assert not item['productionCode'] and not item['airRegion'] and not item['mediaOrder']
+    assert next(section for section in item['sections'] if section['id'] == 'themes')['containsSpoilers']
+    record = next(record for record in search if record['url'] == f'/tas/episodes/{slug}/')
+    assert item['spoiler'] not in json.dumps(record, ensure_ascii=False)
+assert {section['id'] for section in games['arkham-origins']['sections']} >= {'dlc', 'initiation', 'service-history'}
+assert {section['id'] for section in games['arkham-knight']['sections']} >= {'batgirl', 'season-of-infamy', 'arkham-episodes', 'challenges'}
+assert next(section for section in games['arkham-knight']['sections'] if section['id'] == 'ending-context')['containsSpoilers']
+print('PASS: two further TNBA guides, preserved catalogue metadata, sourced DLC types and folded ending context')
+
+# Growing Pains keeps its identity reveal outside discovery and ordinary credits.
+growing = tnba['tnba-growing-pains']
+assert (growing['guideNumber'], growing['airDate']) == ('008', '1998-02-28')
+assert (tnba['tnba-legends-of-the-dark-knight']['guideNumber'], tnba['tnba-legends-of-the-dark-knight']['airDate']) == ('019', '1998-10-10')
+growing_record = next(record for record in search if record['url'] == '/tas/episodes/tnba-growing-pains/')
+public_fields = json.dumps(growing_record, ensure_ascii=False) + growing['guests']
+for term in ('泥脸', 'Clayface', 'Ron Perlman'):
+    assert term not in public_fields
+    public_audit = SectionSpoilers('themes')
+    public_audit.feed(pages['tas/episodes/tnba-growing-pains/index.html'])
+    assert term not in ''.join(public_audit.outside)
+assert not any('feat-of-clay' in link['url'] for link in growing['readingLinks'])
+assert growing['director'] == 'Atsuko Tanaka' and growing['music'] == 'Michael McCuistion'
+assert tnba['tnba-legends-of-the-dark-knight']['director'] == 'Dan Riba'
+assert {section['id'] for section in games['arkham-city']['sections']} >= {'catwoman', 'challenge-packs', 'harley-revenge'}
+assert {section['id'] for section in games['arkham-origins-blackgate']['sections']} >= {'combat-space', 'encounters'}
+print('PASS: two more TNBA guides; hidden identity protected; City content types and Blackgate design notes')
+
+# Tim's origin, Wesker's recovery and the film/episode publication boundary.
+for slug, number, date in (('tnba-sins-of-the-father', '002', '1997-09-20'), ('tnba-double-talk', '004', '1997-11-22'), ('tnba-cold-comfort', '003', '1997-10-11')):
+    assert (tnba[slug]['guideNumber'], tnba[slug]['airDate']) == (number, date)
+assert 'Mathew Valencia' in tnba['tnba-sins-of-the-father']['guests']
+assert 'George Dzundza' in tnba['tnba-double-talk']['guests']
+assert 'Michael Ansara' in tnba['tnba-cold-comfort']['guests']
+subzero = json.loads((CONTENT.parent / 'subzero.json').read_text())
+film_url = '/tas/archive/films/subzero/'
+film_page = pages['tas/archive/films/subzero/index.html']
+assert film_url in parsed and f'href="{film_url}"' in pages['tas/archive/films/index.html']
+film_record = next(record for record in search if record['url'] == film_url)
+assert film_record['original'] == 'Batman & Mr. Freeze: SubZero' and film_record['status'] == '电影档案'
+assert len(subzero['images']) == 4
+for asset in subzero['images']:
+    assert hashlib.sha256((CONTENT.parent / asset['file']).read_bytes()).hexdigest() == asset['sha256']
+    assert hashlib.sha256((DIST / 'assets/media' / asset['file']).read_bytes()).hexdigest() == asset['sha256']
+film_ending = next(section for section in subzero['sections'] if section.get('containsSpoilers'))
+audit = SectionSpoilers(film_ending['id'])
+audit.feed(film_page)
+assert audit.folded and audit.depth == 0
+assert film_ending['body'] not in json.dumps(film_record, ensure_ascii=False)
+assert '1997-10-11' in pages['tas/episodes/tnba-cold-comfort/index.html']
+assert '1998-03-17' in film_page and '2018-03-27' in film_page
+assert '含本片结局' in film_page
+assert all('/arkham/' not in link['url'] for link in subzero['readingLinks'])
+print('PASS: three TNBA dossiers, SubZero film page, four original images, edition dates and folded movie ending')
+
+# The complete television programme now has a sourced, illustrated dossier per episode.
+for episode in data['episodes'] + data['tnbaEpisodes']:
+    url = f'/tas/episodes/{episode["id"]}/'
+    body = pages[url.strip('/') + '/index.html']
+    assert episode['writer'] and episode['director'] and episode['animation'] and episode['music']
+    assert len(episode['sections']) >= 4 and episode['spoiler']
+    if 'wf-dossier-' + episode['id'] in episode['sources']:
+        assert len(episode['sections']) == 5
+    assert f'href="{url}"' in catalog_html
+    assert f'href="{url}"' in pages['tas/people/kevin-conroy/index.html']
+    record = next(r for r in search if r['url'] == url)
+    assert record['status'] == '分集导读' and episode['spoiler'] not in json.dumps(record, ensure_ascii=False)
+    assert 'class="film-strip"' in body
+    pager = body.split('class="detail-pager"', 1)[1].split('</nav>', 1)[0]
+    for href in re.findall(r'href="([^"]+)"', pager):
+        assert href.startswith('/tas/episodes/') and ('/tnba-' in href) == (episode['series'] == 'TNBA')
+for slug, forbidden in {'the-worry-men':('Mad Hatter','Roddy McDowall','疯帽匠'), 'make-em-laugh':('Mark Hamill','The Joker'), 'tnba-animal-act':('Mad Hatter','Roddy McDowall','疯帽匠'), 'tnba-chemistry':('Poison Ivy','Diane Pershing','毒藤女'), 'tnba-judgment-day':('Two-Face','Richard Moll','双面人')}.items():
+    episode = next(e for e in data['episodes'] + data['tnbaEpisodes'] if e['id'] == slug)
+    public = json.dumps({key:episode[key] for key in ('summary','guests','tags')}, ensure_ascii=False)
+    public += ''.join(s['body'] for s in episode['sections'] if not s.get('containsSpoilers'))
+    assert all(term not in public for term in forbidden), slug
+batwoman = json.loads((CONTENT.parent / 'batwoman.json').read_text())
+movie_url = '/tas/archive/films/mystery-of-the-batwoman/'
+movie_page = pages[movie_url.strip('/') + '/index.html']
+assert movie_url in parsed and f'href="{movie_url}"' in pages['tas/archive/films/index.html']
+assert all(text in movie_page for text in ('2003-10-21', '2013-03-12', '1.33:1', '1.78:1', 'Chase Me', 'Lolita Ritmanis'))
+movie_record = next(r for r in search if r['url'] == movie_url)
+assert movie_record['status'] == '电影档案' and movie_record['original'] == batwoman['original']
+ending = next(s for s in batwoman['sections'] if s.get('containsSpoilers'))
+audit = SectionSpoilers(ending['id']); audit.feed(movie_page)
+assert audit.folded and ending['body'] not in json.dumps(movie_record, ensure_ascii=False)
+assert len(batwoman['images']) == 4
+for asset in batwoman['images']:
+    assert hashlib.sha256((CONTENT.parent / asset['file']).read_bytes()).hexdigest() == asset['sha256']
+    assert hashlib.sha256((DIST / 'assets/media' / asset['file']).read_bytes()).hexdigest() == asset['sha256']
+print('PASS: all 109 episode dossiers, series-only paging, protected mystery credits, Batwoman film/short and edition records')
 
 # TAS lightbox, iris and font subset.
 for page in DIST.glob('tas/**/index.html'):

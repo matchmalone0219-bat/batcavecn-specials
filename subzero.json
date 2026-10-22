@@ -1,0 +1,232 @@
+{
+  "id": "subzero",
+  "title": "冰点危机",
+  "original": "Batman & Mr. Freeze: SubZero",
+  "nameNote": "中文常用译名",
+  "summary": "急冻人为挽救诺拉绑架芭芭拉，蝙蝠侠与罗宾必须在手术开始前找到她。这部1998年动画长片将营救行动、亲密关系与救人的代价放在同一场追逐中。",
+  "facts": [
+    {
+      "label": "原作年份",
+      "value": "1998"
+    },
+    {
+      "label": "美国录像带发行",
+      "value": "1998-03-17"
+    },
+    {
+      "label": "导演",
+      "value": "Boyd Kirkland"
+    },
+    {
+      "label": "编剧",
+      "value": "Boyd Kirkland · Randy Rogel"
+    },
+    {
+      "label": "配乐",
+      "value": "Michael McCuistion"
+    },
+    {
+      "label": "英语主要配音",
+      "value": "Kevin Conroy · Michael Ansara · Loren Lester · Mary Kay Bergman · Efrem Zimbalist Jr."
+    },
+    {
+      "label": "2018蓝光版资料",
+      "value": "2018-03-27 · 67分钟 · 4:3 · 英语2.0声轨"
+    }
+  ],
+  "sourceRefs": [
+    "tas-subzero",
+    "subzero-blu",
+    "subzero-dvd",
+    "subzero-dmp",
+    "subzero-plot"
+  ],
+  "sections": [
+    {
+      "id": "viewing",
+      "title": "剧情简介 · 不含结局",
+      "body": "弗里斯为挽救病重的诺拉返回哥谭，并与医生Gregory Belson合作。他们寻找的器官移植对象，最终指向芭芭拉·戈登。\n芭芭拉被绑架后，布鲁斯与迪克沿着失踪线索追查。电影把营救行动变成与时间赛跑的过程，也让一个出于爱与绝望的决定，直接威胁到另一个人的生命。",
+      "sourceRefs": [
+        "tas-subzero",
+        "subzero-dmp"
+      ]
+    },
+    {
+      "id": "characters",
+      "title": "谁的生命能够被当作代价",
+      "body": "弗里斯想保护诺拉，芭芭拉却被排除在关于自己身体的决定之外。冲突由此变得具体：同情他的愿望，并不能使强迫另一个人牺牲变得正当。\n芭芭拉在危险中观察、周旋并寻找脱身机会。布鲁斯与迪克的追查则让镜头在受困者和营救者之间移动，保留了不同人物的行动。",
+      "sourceRefs": [
+        "subzero-plot"
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "声音、配乐与制作署名",
+      "body": "Kevin Conroy、Michael Ansara与Loren Lester分别出演蝙蝠侠、急冻人和迪克／罗宾；芭芭拉／蝙蝠女由Mary Kay Bergman出演。电影中的罗宾是迪克，与TNBA的提姆条目分别辨认。\nBoyd Kirkland执导，并与Randy Rogel共同编剧。Michael McCuistion的作品页列出本片配乐署名，同时列Andrea Romano负责选角、Al Breitenbach负责剪辑。熟悉的角色声音与电影的配乐和剪辑，一起组织这次较长篇幅的营救。",
+      "sourceRefs": [
+        "tas-subzero",
+        "subzero-dmp",
+        "subzero-plot"
+      ]
+    },
+    {
+      "id": "versions",
+      "title": "1998录像带、2002 DVD与2018蓝光",
+      "body": "美国录像带发行记录为1998年3月17日，DVD发行于2002年4月23日；Warner Archive蓝光版于2018年3月27日推出。2018版资料列67分钟、4:3画面和英语2.0声轨，附带四篇急冻人分集等内容。\nKirkland在2002年访谈中回忆，制作时做过5.1混音与宽银幕letterbox母版，后者用于镭射影碟；当时的DVD则采用全屏版本。制作母版与各次商品发行的画幅、声轨并非同一项记录。",
+      "sourceRefs": [
+        "subzero-dvd",
+        "subzero-blu",
+        "subzero-dvd-interview"
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "怎样接着阅读急冻人的故事",
+      "body": "《冰之心》与《Deep Freeze》是电影之前的电视故事，《Cold Comfort》则承接电影之后的人物处境。2018蓝光版所附的急冻人分集组合，还包括《Batman Beyond》的《Meltdown》。\n这组阅读路线跨越电视与电影，发行时间也不完全等于故事发生顺序。《Cold Comfort》的首播记录早于本片录像带发行，其剧情与角色分析会涉及本片结局。",
+      "sourceRefs": [
+        "subzero-blu"
+      ]
+    },
+    {
+      "id": "ending",
+      "title": "营救之后 · 含剧透",
+      "containsSpoilers": true,
+      "body": "芭芭拉脱险，蝙蝠侠等人带走诺拉与Koonak；弗里斯也从毁坏的钻油平台幸存。后来他在北极看到诺拉经治疗康复的电视报道，流下眼泪。\n这场营救没有简单地把弗里斯当作需要清除的障碍。救下他试图伤害的人，也仍愿意帮助他所珍视的人，让故事保留了同情与制止伤害可以同时发生的空间。",
+      "sourceRefs": [
+        "subzero-plot"
+      ]
+    }
+  ],
+  "readingLinks": [
+    {
+      "url": "/tas/episodes/heart-of-ice/",
+      "title": "冰之心：急冻人的早期故事"
+    },
+    {
+      "url": "/tas/episodes/deep-freeze/",
+      "title": "深度冰封：电影之前的电视故事"
+    },
+    {
+      "url": "/tas/episodes/tnba-cold-comfort/",
+      "title": "冰冷慰藉：电影后续；含本片结局"
+    },
+    {
+      "url": "/tas/archive/films/mask-of-the-phantasm/",
+      "title": "幽灵的面具：另一部TAS动画长片"
+    }
+  ],
+  "sources": [
+    {
+      "id": "subzero-blu",
+      "title": "The World’s Finest · SubZero 2018蓝光资料与评论",
+      "url": "https://dcanimated.com/btas/btas-releases/btas-releases-blu/btas-blu-subzero/",
+      "type": "发行资料与评论",
+      "scope": "2018-03-27、67分钟、4:3、2.0声轨、附录与蓝光剧照。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-dvd",
+      "title": "The World’s Finest · SubZero DVD发行资料",
+      "url": "https://dcanimated.com/btas/btas-releases/btas-releases-dvd/btas-dvd-subzero/",
+      "type": "发行资料与评论",
+      "scope": "美国1998录像带与2002 DVD日期；各版本元数据分别记录。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-dvd-interview",
+      "title": "Boyd Kirkland谈SubZero DVD · 2002",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-interviews/btas-interview-subzero/",
+      "type": "导演本人访谈",
+      "scope": "2002年5月9日的访谈：混音、宽银幕母版、DVD呈现与附录。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-dmp",
+      "title": "Dynamic Music Partners · Batman and Mr. Freeze: SubZero",
+      "url": "https://dynamicmusicpartners.com/batman-and-mr-freeze-subzero/",
+      "type": "作曲家工作室作品资料",
+      "scope": "Michael McCuistion配乐；导演、剧本、剪辑和选角署名。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-plot",
+      "title": "Wikipedia · Batman & Mr. Freeze: SubZero",
+      "url": "https://en.wikipedia.org/wiki/Batman_%26_Mr._Freeze%3A_SubZero",
+      "type": "社区剧情与配音资料",
+      "scope": "人物行动、英语角色对应与折叠结局。",
+      "checked": "2026-10-22"
+    }
+  ],
+  "images": [
+    {
+      "id": "subzero-film-title",
+      "file": "tas-film-subzero-film-title.jpg",
+      "title": "《冰点危机》片名画面",
+      "caption": "《冰点危机》片名画面",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1e32a58df4b079f5f14d3c2b2bc1b452305f7f5440a5891acf48dcbc348c0b2e",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/releases/blu/subzero01.jpg",
+      "sourceRefs": [
+        "subzero-blu"
+      ],
+      "rights": "DC / Warner Bros. 原动画画面；蓝光截图来源 The World’s Finest。版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-film-freeze",
+      "file": "tas-film-subzero-film-freeze.jpg",
+      "title": "弗里斯与贝尔森医生",
+      "caption": "弗里斯与贝尔森医生",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "732ed3d4931a7c71430bc8e0a8daa4f880b71eb6e4606a226c44a5f59986d1ba",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/releases/blu/subzero09.jpg",
+      "sourceRefs": [
+        "subzero-blu"
+      ],
+      "rights": "DC / Warner Bros. 原动画画面；蓝光截图来源 The World’s Finest。版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-film-barbara",
+      "file": "tas-film-subzero-film-barbara.jpg",
+      "title": "走廊中的芭芭拉",
+      "caption": "走廊中的芭芭拉",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fd162f7391a4162810f3affcaf1dd5c2d2655074a79537b5f224100d3704df1c",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/releases/blu/subzero18.jpg",
+      "sourceRefs": [
+        "subzero-blu"
+      ],
+      "rights": "DC / Warner Bros. 原动画画面；蓝光截图来源 The World’s Finest。版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "subzero-film-investigation",
+      "file": "tas-film-subzero-film-investigation.jpg",
+      "title": "蝙蝠侠与迪克查看地图",
+      "caption": "蝙蝠侠与迪克查看地图",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b7634ac2df562ee5122ad3df9a96e8e01e2c30bce427853651908a2bbe42a6be",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/releases/blu/subzero21.jpg",
+      "sourceRefs": [
+        "subzero-blu"
+      ],
+      "rights": "DC / Warner Bros. 原动画画面；蓝光截图来源 The World’s Finest。版权归原权利人。",
+      "visualChecked": true,
+      "checked": "2026-10-22"
+    }
+  ],
+  "hero": "subzero-film-title",
+  "gallery": [
+    "subzero-film-freeze",
+    "subzero-film-barbara",
+    "subzero-film-investigation"
+  ]
+}

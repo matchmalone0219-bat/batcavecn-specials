@@ -25,7 +25,8 @@ def render_pages(data):
         pages[f"{site}/index.html"] = home(data, site)
         items = data["games"] if site == "arkham" else data["episodes"] + data["tnbaEpisodes"]
         detail_count = sum(e["status"] == "详情样板" for e in data["episodes"])
-        note = "按原作年份排列；移植与合集不计为新故事。" if site == "arkham" else f"BTAS · 85集，其中{detail_count}篇分集导读；TNBA · 24集。两份目录按各自的The World’s Finest指南编号排列，动画电影单独编目。"
+        tnba_count = sum(e["status"] == "详情样板" for e in data["tnbaEpisodes"])
+        note = "按原作年份排列；移植与合集不计为新故事。" if site == "arkham" else f"BTAS · 85集，其中{detail_count}篇分集导读；TNBA · 24集，其中{tnba_count}篇分集导读。两份目录按各自的The World’s Finest指南编号排列，动画电影单独编目。"
         pages[f"{site}/catalog/index.html"] = shell(data, site, "作品档案" if site == "arkham" else "分集目录", f'<section class="section"><p class="label">ARCHIVE INDEX</p><h1>{"作品档案" if site == "arkham" else "分集目录"}</h1><p class="lead">{note}</p>{tas_catalog(data) if site == "tas" else chr(60) + 'div class="grid">' + cards(items, True) + '</div>'}</section>', "catalog")
         pages[f"{site}/sources/index.html"] = shell(data, site, "资料来源", f'<section class="section"><p class="label">{'<i data-arkham-icon="sources"></i>' if site == "arkham" else ""}SOURCES / EDITORIAL NOTES</p><h1>文献源流与档案出处</h1><p class="lead">官方档案、主创访谈、分集指南与评论文献，按来源分类系统检索。</p>{sources(data, {sid for i in items + [data["person"]] + ([data["capedCrusader"]] if site == "tas" else []) for sid in i["sources"]})}</section>', "sources")
         pages[f"{site}/gallery/index.html"] = shell(data, site, "图片资料", f'<section class="section"><p class="label">{'<i data-arkham-icon="gallery"></i>' if site == "arkham" else ""}IMAGE ARCHIVE</p><h1>图片资料</h1><p class="lead">游戏截图、动画画面与官方宣传图，按作品分别记录。</p><p class="fine">图片版权归原权利人。</p>' + image_gallery(site) + '</section>', "gallery")

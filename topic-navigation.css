@@ -1,6 +1,7 @@
 /* Compact topic navigation; native disclosure also works without scripts. */
 .tas>header,.arkham>header{display:flex;align-items:center;gap:24px;min-height:76px;padding:12px max(24px,calc((100vw - 1160px)/2))}
 .tas>header .brand,.arkham>header .brand{font-size:15px;letter-spacing:1px}
+.tas>header .brand-logo,.arkham>header .brand-logo{display:block;width:40px;height:40px;flex:0 0 40px;border-radius:3px}
 .tas>header .brand small,.arkham>header .brand small{font-size:11px;letter-spacing:2px}
 .tas>header nav,.arkham>header nav{display:flex;align-items:center;gap:20px;border:0;padding:0;font-size:13px;letter-spacing:0}
 .tas>header .back-site,.arkham>header .back-site{font-size:10px;letter-spacing:1px}
@@ -15,7 +16,7 @@
 .tas>header,.arkham>header{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;padding:12px 20px}
 .tas>header nav,.arkham>header nav{grid-column:1/-1;grid-row:2;justify-content:flex-start;gap:20px;font-size:14px}
 .tas>header .back-site,.arkham>header .back-site{grid-column:2;grid-row:1}
-.tas>header .brand-symbol,.arkham>header .brand-symbol{font-size:22px}
+.tas>header .brand-logo,.arkham>header .brand-logo{width:32px;height:32px;flex-basis:32px}
 .tas>header .brand,.arkham>header .brand{font-size:13px}
 .tas>header .brand small,.arkham>header .brand small{font-size:10px}
 .arkham>header .menu-return kbd{display:none}

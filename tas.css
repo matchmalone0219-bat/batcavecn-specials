@@ -509,6 +509,7 @@
 .episode-register li.has-card .episode-row-link{grid-template-columns:45px 128px minmax(0,1fr);align-items:start}
 .episode-thumb{display:block;width:128px;height:96px;object-fit:cover;background:#0b0909;box-shadow:0 6px 16px #2a1c1c26}
 .episode-register li.is-previewed,.episode-register li.is-previewed .episode-row-link{background:#e9dcc4}
+.episode-register li:focus-visible{outline:2px solid #9e3536;outline-offset:3px}
 .episode-preview[hidden]{display:none}
 .preview-ticket{display:block;color:#f5ead7;text-decoration:none;filter:drop-shadow(0 18px 30px #2a1c1c33)}
 .preview-screen{display:grid;place-items:center;aspect-ratio:4/3;overflow:hidden;background:#0b0909}
