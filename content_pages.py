@@ -128,7 +128,7 @@ def caped_series(data):
 
 
 def person_chapters(data, site="shared"):
-    from conroy_profile import chapters, chapter_citations, profile_photo, timeline
+    from conroy_profile import chapters, chapter_citations, profile_photo, timeline, finding_feature, recording_notes
     sections = chapters(data, site)
     titles = {s['id']: f'{n:02d} / ' + s['title'].split(' / ', 1)[-1] for n, s in enumerate(sections, 1)}
     groups = [
@@ -141,11 +141,14 @@ def person_chapters(data, site="shared"):
     for s in sections:
         text = s.get('siteBodies', {}).get(site, s['body'])
         number, title = titles[s['id']].split(' / ', 1)
+        if s['id'] == 'finding':
+            body += finding_feature(number)
+            continue
         english = {'life':'EARLY YEARS','stage':'ON THE STAGE','voice':'BECOMING BATMAN','ensemble':'IN THE BOOTH','performances':'THE INNER VOICE','beyond':'A LIFETIME IN GOTHAM','comparison':'VOICING THE GAMES','finding':'FINDING BATMAN','audience':'BEYOND THE MICROPHONE','memory':'THE VOICE REMAINS','works':'SELECTED WORKS'}[s['id']]
         body += f'<section class="profile-chapter profile-chapter-{s["id"]}" id="{s["id"]}"><div class="profile-chapter-heading"><span class="profile-chapter-number" aria-hidden="true">{number}</span><p class="profile-eyebrow">{english}</p><h2>{esc(title)}</h2></div><div class="profile-chapter-copy">{paragraphs(text)}'
         if s['id'] == 'voice':
             body += '<div class="profile-voice-pair"><div><p>BRUCE WAYNE</p><h3>在人群之中</h3><span>轻松、圆滑的公众形象</span></div><div><p>BATMAN</p><h3>在面罩之后</h3><span>压低声音，让话语更有重量</span></div></div>'
-        body += chapter_citations(data, s, site) + '</div>'
+        body += chapter_citations(data, s, site) + recording_notes(data, s, site) + '</div>'
         for photo in s.get('photos', []):
             if photo == 'conroy-2009' and site == 'tas':
                 continue

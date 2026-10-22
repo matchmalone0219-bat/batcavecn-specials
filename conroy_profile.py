@@ -1,11 +1,73 @@
 """Conroy's illustrated biography, scoped reading aids and plain-text references."""
 import json
 
-from render_common import ROOT, esc
+from render_common import ROOT, esc, paragraphs
 
 
 def media_assets():
     return json.loads((ROOT / 'conroy-media.json').read_text())['assets']
+
+
+def finding_packet():
+    return json.loads((ROOT / 'finding-batman.json').read_text())
+
+
+def finding_assets():
+    return finding_packet()['images']
+
+
+def main_reading_packet():
+    return json.loads((ROOT / 'conroy-reading.json').read_text())
+
+
+def main_reading():
+    packet = main_reading_packet()
+    rows = ''.join(
+        f'<a class="profile-main-row" href="{esc(a["url"])}"><span class="profile-main-date"><time datetime="{a["date"]}">{a["date"][:4]}<small>{a["date"][5:].replace("-", " / ")}</small></time></span>'
+        f'<span class="profile-main-copy"><span class="profile-main-type">{esc(a["type"])}</span><strong>{esc(a["title"])}</strong><span>{esc(a["summary"])}</span></span>'
+        '<span class="profile-main-action">前往主站 <span aria-hidden="true">↗</span></span></a>'
+        for a in packet['articles']
+    )
+    return (
+        '<section class="profile-main-reading" id="main-reading" aria-labelledby="main-reading-title">'
+        '<div class="profile-main-head"><p class="profile-eyebrow">BATCAVECN / FROM THE MAIN ARCHIVE</p>'
+        f'<h2 id="main-reading-title">{esc(packet["title"])}</h2><p>{esc(packet["intro"])}</p></div>'
+        f'<div class="profile-main-rows">{rows}</div></section>'
+    )
+
+
+def finding_feature(number):
+    packet = finding_packet()
+    numbers = {s['id']: n for n, s in enumerate(packet['sources'], 1)}
+    credits = ''.join(f'<div><dt>{esc(label)}</dt><dd>{esc(name)}</dd></div>' for label, name in packet['credits'])
+    contents = ''.join(f'<a href="#{s["id"]}"><span>{n:02d}</span>{esc(s["title"])}</a>' for n, s in enumerate(packet['sections'], 1))
+    body = (
+        '<section class="finding-feature" id="finding" aria-labelledby="finding-title">'
+        f'<div class="finding-cover"><p class="finding-kicker"><span>{esc(number)} / A COMIC MEMOIR</span><span>DC PRIDE · 2022</span></p>'
+        f'<h2 id="finding-title">Finding<br><em>Batman</em><span>{esc(packet["subtitle"])}</span></h2>'
+        f'<p class="finding-intro">{esc(packet["intro"])}</p></div>'
+        f'<dl class="finding-credits">{credits}</dl>'
+        f'<nav class="finding-contents" aria-label="Finding Batman专题章节">{contents}</nav>'
+    )
+    for n, section in enumerate(packet['sections'], 1):
+        if section['id'] == 'finding-page-language':
+            image = packet['images'][0]
+            notes = ''.join(f'<li><span>{i:02d}</span><div><h4>{esc(title)}</h4><p>{esc(text)}</p></div></li>' for i, (title, text) in enumerate(packet['imageNotes'], 1))
+            body += (
+                '<div class="finding-folio" id="finding-original">'
+                f'<figure class="finding-comic"><a href="/assets/media/{esc(image["file"])}" target="_blank" rel="noopener" aria-label="放大阅读Finding Batman开篇原页">'
+                f'<img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["alt"])}" loading="lazy"></a>'
+                f'<figcaption>{esc(image["caption"])}<span>{esc(image["rights"])}</span><span>原页节选 · 点按图像放大阅读 · 原作见资料 [F01]</span></figcaption></figure>'
+                f'<aside class="finding-page-notes" aria-label="原页阅读提示"><p class="finding-label">LOOK CLOSER / 看这一页</p><h3>从门口，<br>走进回忆。</h3><ol>{notes}</ol></aside></div>'
+            )
+        citations = ' · '.join(f'[F{numbers[r]:02d}]' for r in section['sourceRefs'])
+        body += (
+            f'<section class="finding-essay" id="{esc(section["id"])}"><div class="finding-essay-heading"><span>{n:02d}</span>'
+            f'<p class="finding-label">{esc(section["eyebrow"])}</p><h3>{esc(section["title"])}</h3></div>'
+            f'<div class="finding-essay-copy">{paragraphs(section["body"])}<p class="finding-citations">资料 {citations}</p></div></section>'
+        )
+    sources = ''.join(f'<li><span>[F{n:02d}]</span><div><p>{esc(s["title"])}</p><small>{esc(s["type"])}</small></div></li>' for n, s in enumerate(packet['sources'], 1))
+    return body + f'<div class="finding-sources"><h3>本篇阅读资料</h3><ol>{sources}</ol></div></section>'
 
 
 def visible(item, site):
@@ -34,6 +96,7 @@ def profile_photo(photo_id, eager=False):
 def reference_rows(data, site):
     person = data['person']
     used = {r for s in chapters(data, site) for r in s['sourceRefs']}
+    used.update(r for s in chapters(data, site) for note in s.get('recordingNotes', []) if visible(note, site) for r in note['sourceRefs'])
     used.update(r for event in person['timeline'] if visible(event, site) for r in event['sources'])
     by_id = {s['id']: s for s in data['sources']}
     return [by_id[sid] for sid in person['sources'] if sid in used]
@@ -42,6 +105,17 @@ def reference_rows(data, site):
 def chapter_citations(data, section, site):
     numbers = {s['id']: n for n, s in enumerate(reference_rows(data, site), 1)}
     return '<p class="profile-citations">资料 ' + ' · '.join(f'[{numbers[r]:02d}]' for r in section['sourceRefs']) + '</p>'
+
+
+def recording_notes(data, section, site):
+    numbers = {s['id']: n for n, s in enumerate(reference_rows(data, site), 1)}
+    body = ''
+    for note in section.get('recordingNotes', []):
+        if not visible(note, site):
+            continue
+        refs = ' · '.join(f'[{numbers[r]:02d}]' for r in note['sourceRefs'])
+        body += f'<aside class="profile-recording-note"><p class="profile-eyebrow">IN THE RECORDING ROOM / 录音笔记</p><h3>{esc(note["title"])}</h3>{paragraphs(note["body"])}<p class="profile-citations">资料 {refs}</p></aside>'
+    return body
 
 
 def profile_sources(data, site='shared'):

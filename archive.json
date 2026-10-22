@@ -1579,6 +1579,46 @@
       "published": "2022",
       "scope": "查看封面及九页故事图像；个人身份、职业处境、照护经历与试音回忆。只作简短主题转述，不转载或翻译全篇。",
       "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-starburst-2016",
+      "title": "Joel Harley · Kevin Conroy | Batman: The Killing Joke · STARBURST",
+      "url": "https://www.starburstmagazine.com/features/kevin-conroy-interview/",
+      "type": "演员本人访谈",
+      "scope": "布鲁斯早期声音参考戴维·尼文；康罗伊回忆为减弱声音反差而返录；角色表演与演员合作。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "romano-starburst-btas",
+      "title": "Andrew Pollard · Andrea Romano | Batman: The Complete Animated Series · STARBURST",
+      "url": "https://www.starburstmagazine.com/features/andrea-romano-batman-complete-animated-series/",
+      "type": "选角及对白导演本人访谈",
+      "scope": "集体排练如何建立统一表演风格，并帮助调整剧本的情绪节奏。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "romano-toonzone-2011",
+      "title": "Ed Liu · NYCC2011: A Roundtable Interview with Voice and Casting Director Andrea Romano · Toonzone",
+      "url": "https://animesuperhero.com/nycc2011-roundtable-interview-with-voice-and-casting-director-andrea-romano/",
+      "type": "选角及对白导演圆桌访谈 · 2011-10-17",
+      "scope": "选角先看表演；熟悉的搭档即使分开录音，也能记住彼此的角色反应。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-wb-gotham-knight-2008",
+      "title": "Warner Home Video · Kevin Conroy on Voicing Batman Gotham Knight · 2008-05-14",
+      "url": "https://www.superherohype.com/features/96565-kevin-conroy-on-voicing-batman-gotham-knight",
+      "type": "华纳提供的演员问答 · SuperHeroHype刊载",
+      "scope": "2008年独立动画电影的画面先行录音、口型与节奏、非对白喊声的多次表演。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-wired-2011",
+      "title": "Jason Schreier · Arkham City, a Tough Place to Be Batman’s Voice · WIRED · 2011-10-20",
+      "url": "https://www.wired.com/2011/10/arkham-city-kevin-conroy/",
+      "type": "现场采访报道 · 康罗伊本人发言",
+      "scope": "游戏中重复台词的多种读法与战斗发声的录制。",
+      "checked": "2026-10-22"
     }
   ],
   "games": [
@@ -8242,6 +8282,15 @@
         "sourceRefs": [
           "conroy-geekscape-2015",
           "dc-interview"
+        ],
+        "recordingNotes": [
+          {
+            "title": "布鲁斯的声音，也经历过返录",
+            "body": "康罗伊在《致命玩笑》时期的访谈中回忆，早期布鲁斯借鉴了戴维·尼文式的优雅和诙谐。随着整体风格转暗，团队觉得两种声音的反差过于突兀；他因此重新录制了开播前的前五集，收敛布鲁斯的语气。双重声音是在制作中不断调整出来的。",
+            "sourceRefs": [
+              "conroy-starburst-2016"
+            ]
+          }
         ]
       },
       {
@@ -8254,6 +8303,16 @@
         ],
         "photos": [
           "conroy-2009"
+        ],
+        "recordingNotes": [
+          {
+            "title": "一起排练，也是在修改故事的节奏",
+            "body": "罗马诺在回顾动画系列时解释，集体排练让新加入的演员听见既有的风格，也让主创发现情绪是否过早达到高点、后面的转折是否铺垫充分。对白录音由此参与了故事的组织。\n她在2011年谈到，长期合作的演员即使分开录音，也能记住搭档会怎样反应。这份熟悉，使同棚对戏建立起来的默契延续到了不同的工作安排里。",
+            "sourceRefs": [
+              "romano-starburst-btas",
+              "romano-toonzone-2011"
+            ]
+          }
         ]
       },
       {
@@ -8267,6 +8326,15 @@
         "sites": [
           "shared",
           "tas"
+        ],
+        "recordingNotes": [
+          {
+            "title": "没有台词的时候，表演仍在继续",
+            "body": "2008年独立动画电影《Batman: Gotham Knight》采用了与他过去不同的录音顺序：先有画面，再让表演适应口型和时长。康罗伊谈到，一段坠落时的长喊反复录了许多版本，要有冲击力，也要避免用力过度。喘息、受力和喊声，同样要交代人物正在经历什么。",
+            "sourceRefs": [
+              "conroy-wb-gotham-knight-2008"
+            ]
+          }
         ]
       },
       {
@@ -8291,6 +8359,19 @@
         "body": "阿卡姆系列需要声音跟随玩家的行动。剧情对白之外，还有调查、行动提示和战斗反应；玩家以不同速度推进时，角色仍须保持连贯。康罗伊在2018年的问答中解释，这种制作方式通常需要他独自在录音棚里，逐句完成不同语气的版本。\n他以《阿卡姆骑士》为例，描述了数小时一段的工作：脑中维持人物和当下情境，按照导演要求调整，再继续下一句。与搭档当面接戏的乐趣相比，这个过程更孤立，也更消耗精力；但他谈到成品时，又表达了对表演和游戏效果的自豪。\n重复台词仍需要具体的对象。向伙伴报告、追问嫌疑人、安慰受惊的人，每种情境都要求不同的距离感。游戏里的声音既帮助玩家理解行动，也持续提醒玩家：正在行动的是布鲁斯·韦恩。",
         "sourceRefs": [
           "conroy-nerdly-2018"
+        ],
+        "recordingNotes": [
+          {
+            "title": "战斗反应，也需要一条条录制",
+            "body": "2011年接受WIRED采访时，康罗伊提到《阿卡姆之城》的录音包含大量战斗发声：同类反应需要不同变化，台词也要提供多种读法，配合玩家不同的行动。看似一闪而过的喘息和受击声，也有专门的表演工作。",
+            "sourceRefs": [
+              "conroy-wired-2011"
+            ],
+            "sites": [
+              "shared",
+              "arkham"
+            ]
+          }
         ]
       },
       {
@@ -8348,7 +8429,12 @@
       "conroy-geekscape-2015",
       "conroy-gce-2016",
       "conroy-nerdly-2018",
-      "conroy-finding-pages"
+      "conroy-finding-pages",
+      "conroy-starburst-2016",
+      "romano-starburst-btas",
+      "romano-toonzone-2011",
+      "conroy-wb-gotham-knight-2008",
+      "conroy-wired-2011"
     ],
     "timeline": [
       {

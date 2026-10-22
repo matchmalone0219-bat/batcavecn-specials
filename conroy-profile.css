@@ -180,3 +180,111 @@
  .voices-feature .xs-head p{font-size:14px}
  .voices-feature .xspread{margin-bottom:56px}
 }
+
+/* Finding Batman: a separate blue-paper folio within the biography. */
+.conroy-reading .finding-feature{--finding-ink:#172e3b;--finding-muted:#405a68;--finding-line:#a3b8c1;--text:var(--finding-ink);--muted:var(--finding-muted);--line:var(--finding-line);--accent:#3a5e73;background:#d9e7ec;color:var(--finding-ink);padding:48px;margin:64px 0 0;scroll-margin-top:30px}
+.finding-kicker{display:flex;justify-content:space-between;gap:18px;font-size:9px;letter-spacing:.16em;border-bottom:1px solid var(--finding-line);padding-bottom:18px;margin:0 0 36px}
+.conroy-reading .finding-cover h2{font:400 clamp(74px,9vw,132px)/.84 Georgia,serif;letter-spacing:-.065em;color:var(--finding-ink);margin:0 0 30px}
+.finding-cover h2 em{font-weight:400}
+.finding-cover h2>span{display:block;font:400 25px/1.6 ConroySans,var(--sans);letter-spacing:.25em;margin-top:28px}
+.finding-intro{max-width:630px;margin:0 0 32px;font-size:18px;line-height:2;color:var(--finding-muted)}
+.finding-credits{display:grid;grid-template-columns:1fr 1fr 1fr 1.4fr;gap:20px;margin:34px 0 0;padding:22px 0;border-top:1px solid var(--finding-line);border-bottom:1px solid var(--finding-line)}
+.finding-credits dt{font-size:10px;color:var(--finding-muted);margin-bottom:8px}
+.finding-credits dd{font-size:13px;line-height:1.7;margin:0}
+.finding-contents{display:grid;grid-template-columns:1fr 1fr;gap:14px 30px;margin:28px 0 48px}
+.finding-contents a{display:grid;grid-template-columns:24px minmax(0,1fr);gap:10px;font-size:11px;line-height:1.8;color:var(--finding-muted)}
+.finding-contents a>span{font:italic 15px/1.5 Georgia,serif}
+.finding-feature a:focus-visible{outline:2px solid var(--finding-ink);outline-offset:5px}
+.conroy-reading .finding-essay{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:38px;padding:32px 0;margin:0;border-top:1px solid var(--finding-line);scroll-margin-top:40px}
+.finding-essay-heading>span{display:block;font:italic 38px/1 Georgia,serif;margin-bottom:18px;color:#4b6b7c}
+.finding-label{font-size:9px;letter-spacing:.12em;line-height:1.7;color:var(--finding-muted);margin:0 0 12px}
+.conroy-reading .finding-essay h3{font-size:24px;line-height:1.65;font-weight:400;margin:0;color:var(--finding-ink)}
+.finding-essay-copy>p{font-size:16px;line-height:2.1;margin:0 0 20px;color:var(--finding-muted)}
+.finding-essay-copy>p:last-child{margin-bottom:0}
+.finding-essay-copy .finding-citations{font-size:10px;line-height:1.8;letter-spacing:.04em;margin-top:24px}
+.finding-folio{--text:#e6f0f5;--muted:#bdcdd5;--accent:#a8c6d7;--line:#425461;display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,.8fr);gap:34px;align-items:start;margin:20px -20px 42px;padding:24px;background:#101e28;color:#d9e7ec;scroll-margin-top:30px}
+.finding-comic{margin:0;min-width:0}
+.finding-comic>a{display:block;cursor:zoom-in}
+.finding-comic img{display:block;width:100%;height:auto;background:#fff}
+.finding-comic figcaption{font-size:11px;line-height:1.85;margin-top:16px;color:#bdcdd5}
+.finding-comic figcaption>span{display:block;font-size:9px;margin-top:6px}
+.finding-page-notes{padding-top:8px}
+.finding-page-notes .finding-label{color:#a8c6d7}
+.conroy-reading .finding-page-notes h3{font-size:clamp(24px,3vw,38px);font-weight:400;line-height:1.6;margin:20px 0 36px;color:#e6f0f5}
+.finding-page-notes ol{list-style:none;padding:0;margin:0}
+.finding-page-notes li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;border-top:1px solid #425461;padding:18px 0}
+.finding-page-notes li>span{font:italic 18px/1.5 Georgia,serif;color:#a8c6d7}
+.finding-page-notes h4{font-size:13px;font-weight:400;margin:0 0 8px;color:#e6f0f5}
+.finding-page-notes li p{font-size:11px;line-height:2;color:#bdcdd5;margin:0}
+.finding-sources{border-top:1px solid var(--finding-line);margin-top:16px;padding-top:28px}
+.finding-sources h3{font-size:14px;font-weight:400;letter-spacing:.12em;color:var(--finding-ink);margin:0 0 20px}
+.finding-sources ol{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:18px 24px}
+.finding-sources li{display:grid;grid-template-columns:32px minmax(0,1fr);gap:10px;font-size:10px;line-height:1.8;color:var(--finding-muted)}
+.finding-sources li>span{font-size:9px}
+.finding-sources li p{font-size:10px;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.finding-sources li small{display:block;font-size:9px;margin-top:5px}
+@media(max-width:1000px){.conroy-reading .finding-feature{padding:32px}.finding-folio{gap:22px;margin-inline:-12px;padding:18px}.finding-credits{grid-template-columns:1fr 1fr}.conroy-reading .finding-essay{gap:26px}.finding-page-notes li{grid-template-columns:1fr}.finding-page-notes li>span{font-size:14px}}
+@media(max-width:700px){
+ .conroy-reading .finding-feature{padding:24px 20px;margin-top:38px;scroll-margin-top:24px}
+ .finding-kicker{font-size:7px;letter-spacing:.06em;margin-bottom:30px;padding-bottom:14px}
+ .conroy-reading .finding-cover h2{font-size:64px;line-height:.9;letter-spacing:-.065em;margin-bottom:24px}
+ .finding-cover h2>span{font-size:18px;letter-spacing:.16em;margin-top:22px}
+ .finding-intro{font-size:15px;line-height:2;margin-bottom:24px}
+ .finding-credits{gap:18px 14px;margin-top:24px;padding:20px 0}
+ .finding-credits dt{font-size:9px;margin-bottom:6px}.finding-credits dd{font-size:11px}
+ .finding-contents{grid-template-columns:1fr;gap:12px;margin:24px 0 30px}.finding-contents a{font-size:11px}
+ .conroy-reading .finding-essay{grid-template-columns:1fr;gap:20px;padding:28px 0}
+ .finding-essay-heading{display:grid;grid-template-columns:38px minmax(0,1fr);gap:0 12px}
+ .finding-essay-heading>span{grid-row:span 2;font-size:32px;margin:0}
+ .finding-essay-heading .finding-label{font-size:8px;letter-spacing:.06em;margin-bottom:7px}
+ .conroy-reading .finding-essay h3{font-size:21px;line-height:1.6}
+ .finding-essay-copy>p{font-size:15px;line-height:2.1;margin-bottom:18px}
+ .finding-essay-copy .finding-citations{font-size:9px;margin-top:18px}
+ .finding-folio{grid-template-columns:1fr;gap:26px;margin:4px -20px 28px;padding:14px}
+ .finding-comic figcaption{font-size:10px;margin-top:12px}.finding-comic figcaption>span{font-size:8px}
+ .finding-page-notes{padding:0 6px}.finding-page-notes .finding-label{font-size:8px}
+ .conroy-reading .finding-page-notes h3{font-size:28px;margin:16px 0 24px}
+ .finding-page-notes li{grid-template-columns:22px minmax(0,1fr);gap:12px;padding:16px 0}
+ .finding-page-notes h4{font-size:13px}.finding-page-notes li p{font-size:11px}
+ .finding-sources{padding-top:24px}.finding-sources ol{grid-template-columns:1fr;gap:16px}
+}
+
+.profile-main-reading{margin:0 0 72px;padding:34px 0 0;border-top:1px solid var(--line)}
+.profile-main-reading>.profile-main-head{display:grid;grid-template-columns:1fr 1.25fr;gap:0 72px;align-items:start;margin-bottom:34px}
+.profile-main-reading>.profile-main-head .profile-eyebrow{grid-column:1/-1;margin-bottom:14px;font-size:9px}
+.profile-main-reading h2{font-size:32px;line-height:1.5;font-weight:400;letter-spacing:.02em;margin:0}
+.profile-main-reading>.profile-main-head>p:last-child{font-size:14px;line-height:2;margin:0;color:var(--muted)}
+.profile-main-row{display:grid;grid-template-columns:110px minmax(0,1fr) 105px;gap:32px;align-items:center;border-top:1px solid var(--line);padding:26px 0;transition:color .15s ease}
+.profile-main-row:last-child{border-bottom:1px solid var(--line)}
+.profile-main-date{align-self:start;font:400 35px/1.2 Georgia,serif;color:var(--accent);letter-spacing:-.04em}
+.profile-main-date small{display:block;font:10px/1.6 ConroySans,var(--sans);letter-spacing:.1em;margin-top:8px;color:var(--muted)}
+.profile-main-copy{display:block;min-width:0}
+.profile-main-type{display:block;font-size:10px;letter-spacing:.08em;color:var(--accent);margin-bottom:10px}
+.profile-main-copy strong{display:block;font-size:21px;line-height:1.6;font-weight:400;margin-bottom:9px}
+.profile-main-copy>span:last-child{display:block;font-size:12px;line-height:1.9;color:var(--muted)}
+.profile-main-action{font-size:11px;white-space:nowrap;color:var(--accent);display:flex;align-items:center;justify-content:space-between;gap:12px}
+.profile-main-action>span{font-size:24px}
+.profile-main-row:hover .profile-main-copy strong{text-decoration:underline;text-underline-offset:6px}
+.profile-main-row:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+@media(max-width:700px){
+ .profile-main-reading{margin-bottom:46px;padding-top:24px}
+ .profile-main-reading>.profile-main-head{grid-template-columns:1fr;gap:16px;margin-bottom:28px}
+ .profile-main-reading>.profile-main-head .profile-eyebrow{margin-bottom:0;font-size:8px;letter-spacing:.08em}
+ .profile-main-reading h2{font-size:27px}.profile-main-reading>.profile-main-head>p:last-child{font-size:12px}
+ .profile-main-row{grid-template-columns:59px minmax(0,1fr);gap:12px 16px;padding:24px 0}
+ .profile-main-date{font-size:27px}.profile-main-date small{font-size:8px;margin-top:6px}
+ .profile-main-type{font-size:9px;margin-bottom:9px}.profile-main-copy strong{font-size:17px;line-height:1.7;margin-bottom:10px}
+ .profile-main-copy>span:last-child{font-size:11px}.profile-main-action{grid-column:2;justify-content:start;gap:14px;font-size:10px}.profile-main-action>span{font-size:19px}
+}
+@media(prefers-reduced-motion:reduce){.profile-main-row{transition:none}}
+
+.profile-recording-note{margin:28px 0 8px;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.profile-recording-note .profile-eyebrow{font-size:8px;letter-spacing:.1em;margin-bottom:12px}
+.conroy-reading .profile-recording-note h3{font-size:19px;line-height:1.7;font-weight:400;margin:0 0 14px;color:var(--text)}
+.profile-recording-note>p:not(.profile-eyebrow):not(.profile-citations){font-size:14px;line-height:2;margin:0 0 14px;color:var(--muted)}
+.profile-recording-note .profile-citations{margin-top:16px!important}
+.xcredit-story{max-width:760px;margin:20px 0 26px}
+.xcredit-story p{font-size:14px;line-height:2;color:var(--muted);margin:0 0 18px}
+@media(max-width:700px){.profile-recording-note{margin-top:24px;padding:18px 0}.conroy-reading .profile-recording-note h3{font-size:17px}.profile-recording-note>p:not(.profile-eyebrow):not(.profile-citations){font-size:13px}.xcredit-story p{font-size:13px}}
+
+.xcredit-story{text-align:left}

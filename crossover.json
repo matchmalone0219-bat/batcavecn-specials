@@ -1,546 +1,558 @@
 {
- "schemaVersion": 1,
- "checked": "2026-10-21",
- "title": "蝙蝠侠之声",
- "intro": "1992年的《蝙蝠侠：动画系列》与2009年起的阿卡姆系列游戏相隔十七年，共用了同一批声音和作者。康罗伊与哈米尔的蝙蝠侠和小丑、索金的哈莉、狄尼的剧本，从电视动画一路延续到游戏。",
- "continuity": "阿卡姆系列与动画系列是两条独立的连续性。游戏借用了动画的演员、作者和人物设定，剧情并不相接。",
- "works": [
-  {
-   "id": "btas",
-   "side": "tas",
-   "year": "1992",
-   "title": "蝙蝠侠：动画系列",
-   "original": "Batman: The Animated Series",
-   "url": "/tas/"
-  },
-  {
-   "id": "joker-s-favor",
-   "side": "tas",
-   "year": "1992",
-   "title": "小丑的人情",
-   "original": "Joker's Favor",
-   "episode": "joker-s-favor"
-  },
-  {
-   "id": "heart-of-ice",
-   "side": "tas",
-   "year": "1992",
-   "title": "冰之心",
-   "original": "Heart of Ice",
-   "episode": "heart-of-ice"
-  },
-  {
-   "id": "harley-and-ivy",
-   "side": "tas",
-   "year": "1993",
-   "title": "哈莉与毒藤女",
-   "original": "Harley and Ivy",
-   "episode": "harley-and-ivy"
-  },
-  {
-   "id": "the-man-who-killed-batman",
-   "side": "tas",
-   "year": "1993",
-   "title": "The Man Who Killed Batman",
-   "original": "The Man Who Killed Batman",
-   "episode": "the-man-who-killed-batman"
-  },
-  {
-   "id": "mad-love-comic",
-   "side": "tas",
-   "year": "1993",
-   "title": "疯狂的爱（漫画）",
-   "original": "The Batman Adventures: Mad Love",
-   "url": "/tas/archive/publications/#mad-deluxe"
-  },
-  {
-   "id": "arkham-asylum",
-   "side": "arkham",
-   "year": "2009",
-   "title": "阿卡姆疯人院",
-   "original": "Batman: Arkham Asylum",
-   "game": "arkham-asylum"
-  },
-  {
-   "id": "arkham-city",
-   "side": "arkham",
-   "year": "2011",
-   "title": "阿卡姆之城",
-   "original": "Batman: Arkham City",
-   "game": "arkham-city"
-  },
-  {
-   "id": "arkham-origins",
-   "side": "arkham",
-   "year": "2013",
-   "title": "阿卡姆起源",
-   "original": "Batman: Arkham Origins",
-   "game": "arkham-origins"
-  },
-  {
-   "id": "arkham-knight",
-   "side": "arkham",
-   "year": "2015",
-   "title": "阿卡姆骑士",
-   "original": "Batman: Arkham Knight",
-   "game": "arkham-knight"
-  },
-  {
-   "id": "suicide-squad",
-   "side": "arkham",
-   "year": "2024",
-   "title": "自杀小队：消灭正义联盟",
-   "original": "Suicide Squad: Kill the Justice League",
-   "game": "suicide-squad-kill-the-justice-league"
-  }
- ],
- "nodes": [
-  {
-   "id": "mark-hamill",
-   "kind": "person",
-   "name": "马克·哈米尔",
-   "original": "Mark Hamill",
-   "years": "",
-   "role": "小丑配音",
-   "summary": "1992年起在动画系列中为小丑配音，并在三部Rocksteady游戏中与康罗伊对戏。《阿卡姆之城》时期，他第一次公开表示要告别这个角色。",
-   "links": [
+  "schemaVersion": 1,
+  "checked": "2026-10-21",
+  "title": "蝙蝠侠之声",
+  "intro": "1992年的《蝙蝠侠：动画系列》与2009年起的阿卡姆系列游戏相隔十七年，共用了同一批声音和作者。康罗伊与哈米尔的蝙蝠侠和小丑、索金的哈莉、狄尼的剧本，从电视动画一路延续到游戏。",
+  "continuity": "阿卡姆系列与动画系列是两条独立的连续性。游戏借用了动画的演员、作者和人物设定，剧情并不相接。",
+  "works": [
     {
-     "work": "btas",
-     "note": "小丑，1992年起",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "btas",
+      "side": "tas",
+      "year": "1992",
+      "title": "蝙蝠侠：动画系列",
+      "original": "Batman: The Animated Series",
+      "url": "/tas/"
     },
     {
-     "work": "the-man-who-killed-batman",
-     "note": "小丑：“没有蝙蝠侠，犯罪就没了笑点。”",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "joker-s-favor",
+      "side": "tas",
+      "year": "1992",
+      "title": "小丑的人情",
+      "original": "Joker's Favor",
+      "episode": "joker-s-favor"
     },
     {
-     "work": "arkham-asylum",
-     "note": "小丑",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "heart-of-ice",
+      "side": "tas",
+      "year": "1992",
+      "title": "冰之心",
+      "original": "Heart of Ice",
+      "episode": "heart-of-ice"
     },
     {
-     "work": "arkham-city",
-     "note": "小丑；首次宣布告别这一角色",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "harley-and-ivy",
+      "side": "tas",
+      "year": "1993",
+      "title": "哈莉与毒藤女",
+      "original": "Harley and Ivy",
+      "episode": "harley-and-ivy"
     },
     {
-     "work": "arkham-knight",
-     "note": "小丑",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "the-man-who-killed-batman",
+      "side": "tas",
+      "year": "1993",
+      "title": "The Man Who Killed Batman",
+      "original": "The Man Who Killed Batman",
+      "episode": "the-man-who-killed-batman"
+    },
+    {
+      "id": "mad-love-comic",
+      "side": "tas",
+      "year": "1993",
+      "title": "疯狂的爱（漫画）",
+      "original": "The Batman Adventures: Mad Love",
+      "url": "/tas/archive/publications/#mad-deluxe"
+    },
+    {
+      "id": "arkham-asylum",
+      "side": "arkham",
+      "year": "2009",
+      "title": "阿卡姆疯人院",
+      "original": "Batman: Arkham Asylum",
+      "game": "arkham-asylum"
+    },
+    {
+      "id": "arkham-city",
+      "side": "arkham",
+      "year": "2011",
+      "title": "阿卡姆之城",
+      "original": "Batman: Arkham City",
+      "game": "arkham-city"
+    },
+    {
+      "id": "arkham-origins",
+      "side": "arkham",
+      "year": "2013",
+      "title": "阿卡姆起源",
+      "original": "Batman: Arkham Origins",
+      "game": "arkham-origins"
+    },
+    {
+      "id": "arkham-knight",
+      "side": "arkham",
+      "year": "2015",
+      "title": "阿卡姆骑士",
+      "original": "Batman: Arkham Knight",
+      "game": "arkham-knight"
+    },
+    {
+      "id": "suicide-squad",
+      "side": "arkham",
+      "year": "2024",
+      "title": "自杀小队：消灭正义联盟",
+      "original": "Suicide Squad: Kill the Justice League",
+      "game": "suicide-squad-kill-the-justice-league"
     }
-   ]
-  },
-  {
-   "id": "arleen-sorkin",
-   "kind": "person",
-   "name": "阿琳·索金",
-   "original": "Arleen Sorkin",
-   "years": "1955—2023",
-   "role": "哈莉·奎茵配音",
-   "summary": "狄尼的大学朋友。狄尼在肥皂剧《我们的日子》里看到她穿小丑服的一场戏，据此写出了哈莉，并请她配音。2009年她在《阿卡姆疯人院》中再次为哈莉配音。",
-   "links": [
+  ],
+  "nodes": [
     {
-     "work": "joker-s-favor",
-     "note": "哈莉·奎茵首次登场",
-     "sources": [
-      "dc-harley-moments",
-      "wf-joker-s-favor"
-     ]
+      "id": "mark-hamill",
+      "kind": "person",
+      "name": "马克·哈米尔",
+      "original": "Mark Hamill",
+      "years": "",
+      "role": "小丑配音",
+      "summary": "1992年起在动画系列中为小丑配音，并在三部Rocksteady游戏中与康罗伊对戏。《阿卡姆之城》时期，他第一次公开表示要告别这个角色。",
+      "links": [
+        {
+          "work": "btas",
+          "note": "小丑，1992年起",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "the-man-who-killed-batman",
+          "note": "小丑：“没有蝙蝠侠，犯罪就没了笑点。”",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "小丑",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "小丑；首次宣布告别这一角色",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "小丑",
+          "sources": [
+            "dc-trilogy"
+          ]
+        }
+      ],
+      "body": "哈米尔在GamesRadar+访谈中把小丑的笑声比作乐器：这个人物会在常人不会觉得好笑的时刻发笑，笑声因此能表现他的判断和欲望。再听那些忽长忽短、忽然转调的笑，可以留意它怎样打断对白，或把一句威胁延续下去。\n他还谈到，重返《阿卡姆疯人院》的吸引力包括再次与康罗伊、阿琳·索金及编剧保罗·狄尼合作。熟悉的创作伙伴，成为动画经验进入游戏表演的一条纽带。",
+      "sourceRefs": [
+        "hamill-gamesradar-interview"
+      ]
     },
     {
-     "work": "harley-and-ivy",
-     "note": "哈莉·奎茵",
-     "sources": [
-      "wf-harley-and-ivy"
-     ]
+      "id": "arleen-sorkin",
+      "kind": "person",
+      "name": "阿琳·索金",
+      "original": "Arleen Sorkin",
+      "years": "1955—2023",
+      "role": "哈莉·奎茵配音",
+      "summary": "狄尼的大学朋友。狄尼在肥皂剧《我们的日子》里看到她穿小丑服的一场戏，据此写出了哈莉，并请她配音。2009年她在《阿卡姆疯人院》中再次为哈莉配音。",
+      "links": [
+        {
+          "work": "joker-s-favor",
+          "note": "哈莉·奎茵首次登场",
+          "sources": [
+            "dc-harley-moments",
+            "wf-joker-s-favor"
+          ]
+        },
+        {
+          "work": "harley-and-ivy",
+          "note": "哈莉·奎茵",
+          "sources": [
+            "wf-harley-and-ivy"
+          ]
+        },
+        {
+          "work": "the-man-who-killed-batman",
+          "note": "哈莉·奎茵",
+          "sources": [
+            "wf-man-who-killed-batman"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "回归为哈莉配音",
+          "sources": [
+            "dc-harley-moments",
+            "wiki-sorkin"
+          ]
+        },
+        {
+          "work": "suicide-squad",
+          "note": "游戏中设有纪念索金与康罗伊的铭牌",
+          "sources": [
+            "wiki-sorkin"
+          ]
+        }
+      ]
     },
     {
-     "work": "the-man-who-killed-batman",
-     "note": "哈莉·奎茵",
-     "sources": [
-      "wf-man-who-killed-batman"
-     ]
+      "id": "paul-dini",
+      "kind": "person",
+      "name": "保罗·狄尼",
+      "original": "Paul Dini",
+      "years": "",
+      "role": "编剧",
+      "summary": "动画系列主要编剧之一，写下了哈莉的首次登场和急冻人的新起源，又与蒂姆合作《疯狂的爱》。之后为《阿卡姆疯人院》和《阿卡姆之城》撰写故事。",
+      "links": [
+        {
+          "work": "joker-s-favor",
+          "note": "编剧；在小丑帮里加入一名女性，即哈莉",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "heart-of-ice",
+          "note": "编剧；重写急冻人与诺拉的背景",
+          "sources": [
+            "dc-freeze-origin"
+          ]
+        },
+        {
+          "work": "harley-and-ivy",
+          "note": "编剧",
+          "sources": [
+            "wf-harley-and-ivy"
+          ]
+        },
+        {
+          "work": "mad-love-comic",
+          "note": "与蒂姆合著",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "故事",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "故事",
+          "sources": [
+            "dc-trilogy"
+          ]
+        }
+      ]
     },
     {
-     "work": "arkham-asylum",
-     "note": "回归为哈莉配音",
-     "sources": [
-      "dc-harley-moments",
-      "wiki-sorkin"
-     ]
+      "id": "bruce-timm",
+      "kind": "person",
+      "name": "布鲁斯·蒂姆",
+      "original": "Bruce W. Timm",
+      "years": "",
+      "role": "导演／漫画作者",
+      "summary": "动画系列的代表性主创之一，执导《冰之心》，并与狄尼合著《疯狂的爱》。这部漫画写出哈莉曾是阿卡姆疯人院的精神科医生。",
+      "links": [
+        {
+          "work": "heart-of-ice",
+          "note": "导演",
+          "sources": [
+            "wf-heart-of-ice"
+          ]
+        },
+        {
+          "work": "mad-love-comic",
+          "note": "与狄尼合著",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        }
+      ]
     },
     {
-     "work": "suicide-squad",
-     "note": "游戏中设有纪念索金与康罗伊的铭牌",
-     "sources": [
-      "wiki-sorkin"
-     ]
+      "id": "joker",
+      "kind": "character",
+      "name": "小丑",
+      "original": "The Joker",
+      "role": "角色",
+      "summary": "动画系列中有14集以小丑为主要反派，均由哈米尔配音。阿卡姆三部曲沿用哈米尔；前传《阿卡姆起源》中年轻的小丑由特洛伊·贝克配音。",
+      "catalog": "/tas/catalog/",
+      "links": [
+        {
+          "work": "btas",
+          "note": "14集以小丑为主要反派",
+          "sources": [
+            "wf-episodes"
+          ]
+        },
+        {
+          "work": "the-man-who-killed-batman",
+          "note": "",
+          "sources": [
+            "wf-man-who-killed-batman"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "接管疯人院",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "",
+          "sources": [
+            "dc-trilogy"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "年轻的小丑，特洛伊·贝克配音",
+          "sources": [
+            "rcs-origins-interview"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "",
+          "sources": [
+            "dc-trilogy"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-the-laughing-fish-03.jpg",
+        "arkham": "arkham-city-04.jpg",
+        "arkhamPosition": "88% 40%"
+      }
+    },
+    {
+      "id": "harley-quinn",
+      "kind": "character",
+      "name": "哈莉·奎茵",
+      "original": "Harley Quinn",
+      "role": "角色",
+      "summary": "为动画系列创作的原创角色，原本只计划出场一集。《疯狂的爱》写出她曾是阿卡姆疯人院的精神科医生哈琳·奎泽尔；《阿卡姆疯人院》为她设计了新造型，后来也影响了漫画与周边。",
+      "links": [
+        {
+          "work": "joker-s-favor",
+          "note": "首次登场，1992年9月11日",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "harley-and-ivy",
+          "note": "与毒藤女首次搭档",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "mad-love-comic",
+          "note": "起源：阿卡姆的实习精神科医生",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "新造型，索金配音",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "DLC：Harley Quinn’s Revenge",
+          "sources": [
+            "steam-city-goty"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "DLC：Harley Quinn Story Pack",
+          "sources": [
+            "steam-dlc-313100"
+          ]
+        },
+        {
+          "work": "suicide-squad",
+          "note": "可操作角色之一",
+          "sources": [
+            "dc-harley-moments"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-harley-and-ivy-03.jpg",
+        "arkham": "arkham-city-04.jpg",
+        "arkhamPosition": "12% 30%"
+      }
+    },
+    {
+      "id": "mr-freeze",
+      "kind": "character",
+      "name": "急冻人",
+      "original": "Mr. Freeze",
+      "role": "角色",
+      "summary": "《冰之心》把急冻人重写成为挽救妻子诺拉而失去一切的科学家。阿卡姆系列延续了诺拉这条线，《阿卡姆起源》的DLC还让《冰之心》里的GothCorp总裁费里斯·博伊尔登场。",
+      "links": [
+        {
+          "work": "heart-of-ice",
+          "note": "新起源：维克多·弗里斯与诺拉",
+          "sources": [
+            "dc-freeze-origin",
+            "wiki-freeze"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "牢房与人物档案",
+          "sources": [
+            "wiki-freeze"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "首领战；围绕诺拉的交易",
+          "sources": [
+            "wiki-freeze"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "DLC：Cold, Cold Heart，费里斯·博伊尔登场",
+          "sources": [
+            "wiki-freeze"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "DLC：Season of Infamy，寻找诺拉",
+          "sources": [
+            "wiki-freeze"
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "paul-dini",
-   "kind": "person",
-   "name": "保罗·狄尼",
-   "original": "Paul Dini",
-   "years": "",
-   "role": "编剧",
-   "summary": "动画系列主要编剧之一，写下了哈莉的首次登场和急冻人的新起源，又与蒂姆合作《疯狂的爱》。之后为《阿卡姆疯人院》和《阿卡姆之城》撰写故事。",
-   "links": [
+  ],
+  "sources": [
     {
-     "work": "joker-s-favor",
-     "note": "编剧；在小丑帮里加入一名女性，即哈莉",
-     "sources": [
-      "dc-harley-moments"
-     ]
+      "id": "dc-trilogy",
+      "title": "DC · The Arkham Trilogy Defined what the Joker Means to Batman",
+      "url": "https://www.dc.com/blog/2023/12/07/the-arkham-trilogy-defined-what-the-joker-means-to-batman",
+      "type": "官方站刊编辑文章 · 含剧透",
+      "scope": "康罗伊与哈米尔自1992年动画到三部Rocksteady游戏的合作、狄尼撰写前两作故事、两条连续性互不相接、哈米尔在《阿卡姆之城》时期首次宣布告别小丑。",
+      "checked": "2026-10-21"
     },
     {
-     "work": "heart-of-ice",
-     "note": "编剧；重写急冻人与诺拉的背景",
-     "sources": [
-      "dc-freeze-origin"
-     ]
+      "id": "dc-harley-moments",
+      "title": "DC · Lady of Lunacy: Twelve Moments that Defined Harley Quinn",
+      "url": "https://www.dc.com/blog/2022/09/29/lady-of-lunacy-twelve-moments-that-defined-harley-quinn",
+      "type": "官方站刊编辑文章",
+      "scope": "《Joker’s Favor》首播日期与狄尼的构思、索金配音、《Harley and Ivy》、狄尼与蒂姆的《Mad Love》、索金回归《阿卡姆疯人院》与新造型。",
+      "checked": "2026-10-21"
     },
     {
-     "work": "harley-and-ivy",
-     "note": "编剧",
-     "sources": [
-      "wf-harley-and-ivy"
-     ]
+      "id": "dc-freeze-origin",
+      "title": "DC · The DCTV Secrets of Gotham：Mr. Freeze",
+      "url": "https://www.dc.com/blog/2016/02/29/the-dctv-secrets-of-gotham-ep-2-12-mr-freeze",
+      "type": "官方角色回顾",
+      "scope": "狄尼在《Heart of Ice》中重写急冻人与诺拉的背景。",
+      "checked": "2026-10-21"
     },
     {
-     "work": "mad-love-comic",
-     "note": "与蒂姆合著",
-     "sources": [
-      "dc-harley-moments"
-     ]
+      "id": "wiki-freeze",
+      "title": "Wikipedia · Mr. Freeze in other media",
+      "url": "https://en.wikipedia.org/wiki/Mr._Freeze_in_other_media",
+      "type": "百科辅助来源",
+      "scope": "《Heart of Ice》获艾美奖；急冻人在《疯人院》《之城》《起源》DLC与《骑士》DLC中的出场。",
+      "checked": "2026-10-21"
     },
     {
-     "work": "arkham-asylum",
-     "note": "故事",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "wiki-sorkin",
+      "title": "Wikipedia · Arleen Sorkin",
+      "url": "https://en.wikipedia.org/wiki/Arleen_Sorkin",
+      "type": "百科辅助来源",
+      "scope": "索金生卒年、与狄尼的大学友谊、《阿卡姆疯人院》配音，以及《自杀小队：消灭正义联盟》中的纪念铭牌。",
+      "checked": "2026-10-21"
     },
     {
-     "work": "arkham-city",
-     "note": "故事",
-     "sources": [
-      "dc-trilogy"
-     ]
+      "id": "wf-joker-s-favor",
+      "title": "The World’s Finest · Joker’s Favor",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "wf-harley-and-ivy",
+      "title": "The World’s Finest · Harley and Ivy",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/harleyandivy/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "wf-man-who-killed-batman",
+      "title": "The World’s Finest · The Man Who Killed Batman",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/manwhokilledbatman/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "wf-heart-of-ice",
+      "title": "The World’s Finest · Heart of Ice",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "wf-episodes",
+      "title": "The World’s Finest · Batman: The Animated Series 分集页",
+      "url": "https://dcanimated.com/btas/batman-the-animated-series-episodes/",
+      "type": "分集资料辅助来源",
+      "scope": "各集配音表；小丑出场集数按配音表统计。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "rcs-origins-interview",
+      "title": "Roger Craig Smith · Arkham Origins 本人访谈",
+      "url": "https://www.superherohype.com/features/179235-exclusive-interview-with-roger-craig-smith-the-voice-of-batman-in-arkham-origins",
+      "type": "演员本人访谈",
+      "scope": "《阿卡姆起源》中特洛伊·贝克的小丑表演。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "steam-city-goty",
+      "title": "Steam · Batman: Arkham City GOTY",
+      "url": "https://store.steampowered.com/app/200260/",
+      "type": "发行商商店介绍",
+      "scope": "年度版收录的 Harley Quinn’s Revenge 等DLC。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "steam-dlc-313100",
+      "title": "Steam · Batman: Arkham Knight - Harley Quinn Story Pack",
+      "url": "https://store.steampowered.com/app/313100/",
+      "type": "发行商商店",
+      "scope": "DLC名称与所属游戏。",
+      "checked": "2026-10-21"
+    },
+    {
+      "id": "hamill-gamesradar-interview",
+      "title": "Pavel Barter · An interview about games, with Mark Hamill · GamesRadar+",
+      "url": "https://www.gamesradar.com/an-interview-with-mark-hamill/",
+      "type": "演员本人访谈",
+      "scope": "笑声作为表演工具；重返《阿卡姆疯人院》与熟悉的演员和编剧团队。",
+      "checked": "2026-10-22"
     }
-   ]
-  },
-  {
-   "id": "bruce-timm",
-   "kind": "person",
-   "name": "布鲁斯·蒂姆",
-   "original": "Bruce W. Timm",
-   "years": "",
-   "role": "导演／漫画作者",
-   "summary": "动画系列的代表性主创之一，执导《冰之心》，并与狄尼合著《疯狂的爱》。这部漫画写出哈莉曾是阿卡姆疯人院的精神科医生。",
-   "links": [
-    {
-     "work": "heart-of-ice",
-     "note": "导演",
-     "sources": [
-      "wf-heart-of-ice"
-     ]
-    },
-    {
-     "work": "mad-love-comic",
-     "note": "与狄尼合著",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    }
-   ]
-  },
-  {
-   "id": "joker",
-   "kind": "character",
-   "name": "小丑",
-   "original": "The Joker",
-   "role": "角色",
-   "summary": "动画系列中有14集以小丑为主要反派，均由哈米尔配音。阿卡姆三部曲沿用哈米尔；前传《阿卡姆起源》中年轻的小丑由特洛伊·贝克配音。",
-   "catalog": "/tas/catalog/",
-   "links": [
-    {
-     "work": "btas",
-     "note": "14集以小丑为主要反派",
-     "sources": [
-      "wf-episodes"
-     ]
-    },
-    {
-     "work": "the-man-who-killed-batman",
-     "note": "",
-     "sources": [
-      "wf-man-who-killed-batman"
-     ]
-    },
-    {
-     "work": "arkham-asylum",
-     "note": "接管疯人院",
-     "sources": [
-      "dc-trilogy"
-     ]
-    },
-    {
-     "work": "arkham-city",
-     "note": "",
-     "sources": [
-      "dc-trilogy"
-     ]
-    },
-    {
-     "work": "arkham-origins",
-     "note": "年轻的小丑，特洛伊·贝克配音",
-     "sources": [
-      "rcs-origins-interview"
-     ]
-    },
-    {
-     "work": "arkham-knight",
-     "note": "",
-     "sources": [
-      "dc-trilogy"
-     ]
-    }
-   ],
-   "images": {
-    "tas": "tas-episode-the-laughing-fish-03.jpg",
-    "arkham": "arkham-city-04.jpg",
-    "arkhamPosition": "88% 40%"
-   }
-  },
-  {
-   "id": "harley-quinn",
-   "kind": "character",
-   "name": "哈莉·奎茵",
-   "original": "Harley Quinn",
-   "role": "角色",
-   "summary": "为动画系列创作的原创角色，原本只计划出场一集。《疯狂的爱》写出她曾是阿卡姆疯人院的精神科医生哈琳·奎泽尔；《阿卡姆疯人院》为她设计了新造型，后来也影响了漫画与周边。",
-   "links": [
-    {
-     "work": "joker-s-favor",
-     "note": "首次登场，1992年9月11日",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    },
-    {
-     "work": "harley-and-ivy",
-     "note": "与毒藤女首次搭档",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    },
-    {
-     "work": "mad-love-comic",
-     "note": "起源：阿卡姆的实习精神科医生",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    },
-    {
-     "work": "arkham-asylum",
-     "note": "新造型，索金配音",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    },
-    {
-     "work": "arkham-city",
-     "note": "DLC：Harley Quinn’s Revenge",
-     "sources": [
-      "steam-city-goty"
-     ]
-    },
-    {
-     "work": "arkham-knight",
-     "note": "DLC：Harley Quinn Story Pack",
-     "sources": [
-      "steam-dlc-313100"
-     ]
-    },
-    {
-     "work": "suicide-squad",
-     "note": "可操作角色之一",
-     "sources": [
-      "dc-harley-moments"
-     ]
-    }
-   ],
-   "images": {
-    "tas": "tas-episode-harley-and-ivy-03.jpg",
-    "arkham": "arkham-city-04.jpg",
-    "arkhamPosition": "12% 30%"
-   }
-  },
-  {
-   "id": "mr-freeze",
-   "kind": "character",
-   "name": "急冻人",
-   "original": "Mr. Freeze",
-   "role": "角色",
-   "summary": "《冰之心》把急冻人重写成为挽救妻子诺拉而失去一切的科学家。阿卡姆系列延续了诺拉这条线，《阿卡姆起源》的DLC还让《冰之心》里的GothCorp总裁费里斯·博伊尔登场。",
-   "links": [
-    {
-     "work": "heart-of-ice",
-     "note": "新起源：维克多·弗里斯与诺拉",
-     "sources": [
-      "dc-freeze-origin",
-      "wiki-freeze"
-     ]
-    },
-    {
-     "work": "arkham-asylum",
-     "note": "牢房与人物档案",
-     "sources": [
-      "wiki-freeze"
-     ]
-    },
-    {
-     "work": "arkham-city",
-     "note": "首领战；围绕诺拉的交易",
-     "sources": [
-      "wiki-freeze"
-     ]
-    },
-    {
-     "work": "arkham-origins",
-     "note": "DLC：Cold, Cold Heart，费里斯·博伊尔登场",
-     "sources": [
-      "wiki-freeze"
-     ]
-    },
-    {
-     "work": "arkham-knight",
-     "note": "DLC：Season of Infamy，寻找诺拉",
-     "sources": [
-      "wiki-freeze"
-     ]
-    }
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "dc-trilogy",
-   "title": "DC · The Arkham Trilogy Defined what the Joker Means to Batman",
-   "url": "https://www.dc.com/blog/2023/12/07/the-arkham-trilogy-defined-what-the-joker-means-to-batman",
-   "type": "官方站刊编辑文章 · 含剧透",
-   "scope": "康罗伊与哈米尔自1992年动画到三部Rocksteady游戏的合作、狄尼撰写前两作故事、两条连续性互不相接、哈米尔在《阿卡姆之城》时期首次宣布告别小丑。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "dc-harley-moments",
-   "title": "DC · Lady of Lunacy: Twelve Moments that Defined Harley Quinn",
-   "url": "https://www.dc.com/blog/2022/09/29/lady-of-lunacy-twelve-moments-that-defined-harley-quinn",
-   "type": "官方站刊编辑文章",
-   "scope": "《Joker’s Favor》首播日期与狄尼的构思、索金配音、《Harley and Ivy》、狄尼与蒂姆的《Mad Love》、索金回归《阿卡姆疯人院》与新造型。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "dc-freeze-origin",
-   "title": "DC · The DCTV Secrets of Gotham：Mr. Freeze",
-   "url": "https://www.dc.com/blog/2016/02/29/the-dctv-secrets-of-gotham-ep-2-12-mr-freeze",
-   "type": "官方角色回顾",
-   "scope": "狄尼在《Heart of Ice》中重写急冻人与诺拉的背景。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wiki-freeze",
-   "title": "Wikipedia · Mr. Freeze in other media",
-   "url": "https://en.wikipedia.org/wiki/Mr._Freeze_in_other_media",
-   "type": "百科辅助来源",
-   "scope": "《Heart of Ice》获艾美奖；急冻人在《疯人院》《之城》《起源》DLC与《骑士》DLC中的出场。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wiki-sorkin",
-   "title": "Wikipedia · Arleen Sorkin",
-   "url": "https://en.wikipedia.org/wiki/Arleen_Sorkin",
-   "type": "百科辅助来源",
-   "scope": "索金生卒年、与狄尼的大学友谊、《阿卡姆疯人院》配音，以及《自杀小队：消灭正义联盟》中的纪念铭牌。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wf-joker-s-favor",
-   "title": "The World’s Finest · Joker’s Favor",
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/jokersfavor/",
-   "type": "分集资料辅助来源",
-   "scope": "编剧、导演与配音表。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wf-harley-and-ivy",
-   "title": "The World’s Finest · Harley and Ivy",
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/harleyandivy/",
-   "type": "分集资料辅助来源",
-   "scope": "编剧、导演与配音表。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wf-man-who-killed-batman",
-   "title": "The World’s Finest · The Man Who Killed Batman",
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/manwhokilledbatman/",
-   "type": "分集资料辅助来源",
-   "scope": "编剧、导演与配音表。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wf-heart-of-ice",
-   "title": "The World’s Finest · Heart of Ice",
-   "url": "https://dcanimated.com/WF/batman/btas/episodes/heartofice/",
-   "type": "分集资料辅助来源",
-   "scope": "编剧、导演与配音表。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "wf-episodes",
-   "title": "The World’s Finest · Batman: The Animated Series 分集页",
-   "url": "https://dcanimated.com/btas/batman-the-animated-series-episodes/",
-   "type": "分集资料辅助来源",
-   "scope": "各集配音表；小丑出场集数按配音表统计。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "rcs-origins-interview",
-   "title": "Roger Craig Smith · Arkham Origins 本人访谈",
-   "url": "https://www.superherohype.com/features/179235-exclusive-interview-with-roger-craig-smith-the-voice-of-batman-in-arkham-origins",
-   "type": "演员本人访谈",
-   "scope": "《阿卡姆起源》中特洛伊·贝克的小丑表演。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "steam-city-goty",
-   "title": "Steam · Batman: Arkham City GOTY",
-   "url": "https://store.steampowered.com/app/200260/",
-   "type": "发行商商店介绍",
-   "scope": "年度版收录的 Harley Quinn’s Revenge 等DLC。",
-   "checked": "2026-10-21"
-  },
-  {
-   "id": "steam-dlc-313100",
-   "title": "Steam · Batman: Arkham Knight - Harley Quinn Story Pack",
-   "url": "https://store.steampowered.com/app/313100/",
-   "type": "发行商商店",
-   "scope": "DLC名称与所属游戏。",
-   "checked": "2026-10-21"
-  }
- ],
- "subtitle": "从动画到阿卡姆"
+  ],
+  "subtitle": "从动画到阿卡姆"
 }

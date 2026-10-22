@@ -8,7 +8,7 @@ from merchandise_pages import build_collectibles
 from arkham_pages import build_arkham_archive
 from arkham_interactions import build_interactions
 from crossover_pages import build_crossover
-from conroy_profile import media_assets as conroy_media_assets
+from conroy_profile import media_assets as conroy_media_assets, finding_assets
 
 
 def gates(intro, compact=False):
@@ -68,4 +68,4 @@ def render_pages(data):
     index.extend(ark_records)
     index.extend(interactive_records)
     index.extend(crossover_records)
-    return pages, index, tas_images + merch_images + ark_images + conroy_media_assets()
+    return pages, index, tas_images + merch_images + ark_images + conroy_media_assets() + finding_assets()
