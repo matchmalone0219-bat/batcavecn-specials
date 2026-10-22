@@ -128,7 +128,7 @@ def caped_series(data):
 
 
 def person_chapters(data, site="shared"):
-    from conroy_profile import chapters, chapter_citations, profile_photo, timeline, finding_feature, recording_notes
+    from conroy_profile import chapters, chapter_citations, profile_photo, timeline, finding_feature, recording_notes, shared_work_directory
     sections = chapters(data, site)
     titles = {s['id']: f'{n:02d} / ' + s['title'].split(' / ', 1)[-1] for n, s in enumerate(sections, 1)}
     groups = [
@@ -160,8 +160,7 @@ def person_chapters(data, site="shared"):
                 body += f'<details class="profile-works"><summary>展开作品目录 · {len(linked)}项</summary><ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></details></section>'
                 continue
             else:
-                columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{name}</span></p><ol>' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in sorted((i for i in linked if i["site"] == key), key=lambda i: i.get("airDate") or i.get("date") or i["year"])) + '</ol></div>' for key, label, name in (("tas", "动画", "Dark Deco"), ("arkham", "游戏", "Protocol Arkham")))
-                body += f'<details class="profile-works"><summary>展开动画与游戏作品目录 · {len(linked)}项</summary><div class="xcredit-works">{columns}</div></details></section>'
+                body += shared_work_directory(linked) + '</section>'
                 continue
         body += '</section>'
         if s['id'] == 'memory':

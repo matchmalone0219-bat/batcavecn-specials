@@ -1,7 +1,38 @@
 """Conroy's illustrated biography, scoped reading aids and plain-text references."""
 import json
 
-from render_common import ROOT, esc, paragraphs
+from render_common import ROOT, esc, paragraphs, route
+
+
+def shared_work_directory(items):
+    animation = [i for i in items if i['site'] == 'tas']
+    games = sorted((i for i in items if i['site'] == 'arkham'), key=lambda i: i.get('date') or i['year'])
+    groups = [(series, sorted((i for i in animation if i.get('series') == series), key=lambda i: i.get('airDate') or i['year']))
+              for series in ('BTAS', 'TNBA')]
+    groups = [(series, episodes) for series, episodes in groups if episodes]
+    series_names = {'BTAS': ('蝙蝠侠：动画系列', 'Batman: The Animated Series'),
+                    'TNBA': ('蝙蝠侠新冒险', 'The New Batman Adventures')}
+    series_rows = ''.join(
+        f'<li><span class="xc-year">{len(episodes)}集</span><a href="/tas/catalog/#{series.lower()}">{esc(series_names[series][0])}</a>'
+        f'<span class="xc-note">{esc(series_names[series][1])}</span></li>' for series, episodes in groups
+    )
+
+    def rows(works):
+        return ''.join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a>'
+                       f'<span class="xc-note">{esc(i["original"])}</span></li>' for i in works)
+
+    standalone = [i for i in animation if i.get('series') not in series_names]
+    episode_count = sum(len(episodes) for _, episodes in groups)
+    directory = ''.join(
+        f'<div class="profile-episode-group"><h3>{series} · {len(episodes)}集</h3>'
+        f'<ol class="work-list profile-episode-list">{rows(episodes)}</ol></div>' for series, episodes in groups
+    )
+    return (
+        '<div class="profile-works profile-shared-works"><div class="profile-work-overview">'
+        f'<div><p class="xcredit-medium">动画<span>Dark Deco</span></p><ol class="work-list">{series_rows}{rows(standalone)}</ol></div>'
+        f'<div><p class="xcredit-medium">游戏<span>Protocol Arkham · {len(games)}部</span></p><ol class="work-list">{rows(games)}</ol></div></div>'
+        f'<details class="profile-episode-directory"><summary>展开动画分集目录 · {episode_count}集</summary>{directory}</details></div>'
+    )
 
 
 def media_assets():

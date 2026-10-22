@@ -288,3 +288,31 @@
 @media(max-width:700px){.profile-recording-note{margin-top:24px;padding:18px 0}.conroy-reading .profile-recording-note h3{font-size:17px}.profile-recording-note>p:not(.profile-eyebrow):not(.profile-citations){font-size:13px}.xcredit-story p{font-size:13px}}
 
 .xcredit-story{text-align:left}
+
+/* Compare series with games; keep the full episode index outside the two columns. */
+.conroy-reading .profile-chapter-works>.profile-shared-works{grid-column:1/-1;border-top:1px solid var(--line);margin-top:30px;padding:26px 0 0}
+.profile-work-overview{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.profile-work-overview>div{min-width:0}
+.profile-work-overview .xcredit-medium{font-size:13px;line-height:1.8;letter-spacing:.06em;margin:0 0 18px}
+.profile-work-overview .work-list{margin:0;border-bottom:0}
+.profile-work-overview .work-list li{grid-template-columns:56px minmax(0,1fr);padding:14px 0}
+.profile-work-overview .work-list a{font-size:16px;line-height:1.65}
+.profile-work-overview .work-list .xc-note{font-size:12px;line-height:1.8}
+.profile-episode-directory{margin-top:28px;border-top:1px solid var(--line);padding:20px 0}
+.profile-episode-directory>summary{font-size:13px;line-height:1.8;cursor:pointer;padding:4px 0}
+.profile-episode-group{margin-top:32px}
+.profile-episode-group h3{font-size:16px;font-weight:400;color:var(--text);margin:0 0 16px;letter-spacing:.08em}
+.profile-episode-list{display:grid;grid-template-columns:1fr 1fr;gap:0 32px;margin:0;border-bottom:0}
+.profile-episode-list li{min-width:0;grid-template-columns:42px minmax(0,1fr);padding:12px 0}
+.profile-episode-list a{font-size:14px;line-height:1.7}
+.profile-episode-list .xc-note{font-size:11px;line-height:1.8}
+@media(max-width:700px){
+ .conroy-reading .profile-chapter-works>.profile-shared-works{margin-top:24px;padding-top:22px}
+ .profile-work-overview{grid-template-columns:1fr;gap:30px}
+ .profile-work-overview .xcredit-medium{font-size:12px;margin-bottom:14px}
+ .profile-work-overview .work-list a{font-size:15px}
+ .profile-work-overview .work-list .xc-note{font-size:11px}
+ .profile-episode-directory{margin-top:22px;padding-top:18px}
+ .profile-episode-directory>summary{font-size:12px}
+ .profile-episode-list{grid-template-columns:1fr;gap:0}
+}
