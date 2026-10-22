@@ -28,6 +28,7 @@ jobs:
       - name: Validate archives and interactions
         run: |
           python3 verify.py
+          python3 verify-conroy.py
           python3 verify-build.py
           node verify-intro.js
           node verify-arkham-nav.js

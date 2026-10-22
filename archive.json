@@ -53,7 +53,8 @@
       "url": "https://www.dc.com/blog/2014/02/21/behind-the-bat-an-interview-with-kevin-conroy",
       "type": "本人访谈",
       "scope": "TAS 与游戏经历、双重声音、集体录音及 Perchance to Dream。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2014-02-21"
     },
     {
       "id": "dc-performance",
@@ -61,7 +62,8 @@
       "url": "https://www.dc.com/blog/2022/12/05/how-kevin-conroy-became-our-batman",
       "type": "官方编辑回顾",
       "scope": "表演路线、Nothing to Fear、Perchance to Dream、I Am the Night。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-12-05"
     },
     {
       "id": "dc-memorial",
@@ -69,7 +71,8 @@
       "url": "https://www.dc.com/blog/2022/11/11/kevin-conroy-preeminent-voice-of-batman-passes-away-at-age-66",
       "type": "官方纪念公告",
       "scope": "生平、舞台经历与动画、游戏参与记录。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-11-11"
     },
     {
       "id": "dc-finding",
@@ -77,7 +80,8 @@
       "url": "https://www.dc.com/blog/2022/11/11/read-finding-batman-by-kevin-conroy-j-bone-and-aditya-bidikar",
       "type": "官方作品介绍",
       "scope": "Finding Batman 的作者、创作与官方阅读入口。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-11-11"
     },
     {
       "id": "wf-fear",
@@ -1529,6 +1533,51 @@
       "url": "https://dcanimated.com/tnba/tnba-bios/tnba-bios-miranda/",
       "type": "角色资料辅助来源",
       "scope": "Animal Act角色Miranda Kane与Jane Wiedlin。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-comicmix-2010",
+      "title": "ComicMix · Kevin Conroy Discusses his Return to the Batcave",
+      "url": "https://comicmix.com/2010/09/17/kevin-conroy-discusses-his-return-to-the-batcave/",
+      "type": "本人问答",
+      "published": "2010-09-17",
+      "scope": "舞台训练、与观众见面、蝙蝠侠和超人的人物关系。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-geekscape-2015",
+      "title": "Geekscape · Kevin Conroy of Batman Is the Man Who Laughs in Turbo FAST",
+      "url": "https://www.geekscape.net/geekscape-interviews-kevin-conroy-of-batman-is-the-man-who-laughs-in-turbo-fast",
+      "type": "本人访谈 · Eric Francisco",
+      "published": "2015-08-02",
+      "scope": "古典悲剧的角色理解、舞台偏好和九一一后厨房志愿工作。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-gce-2016",
+      "title": "The GCE · Interview with Voice Actor Kevin Conroy",
+      "url": "https://www.geekchicelite.com/interview-with-voice-actor-kevin-conroy/",
+      "type": "本人圆桌访谈",
+      "published": "2016-09-07",
+      "scope": "舞台与广告配音的职业衔接、同棚接戏、录音室气氛和喜爱的作品。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-nerdly-2018",
+      "title": "Nerdly · MCM London 2018 Q&A: Kevin Batman Conroy",
+      "url": "https://www.nerdly.co.uk/2018/06/05/mcm-london-2018-qa-kevin-batman-conroy/",
+      "type": "本人问答 · Xenia Grounds",
+      "published": "2018-06-05",
+      "scope": "动画同棚与游戏单独录音的差别、分块录制和演员对成品的感受；不采用未经独立核实的台词总数。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-finding-pages",
+      "title": "Kevin Conroy、J. Bone、Aditya Bidikar · Finding Batman，DC Pride 2022 #1",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-kevin-conroy-finding-batman/",
+      "type": "本人自传漫画 · The World’s Finest存档",
+      "published": "2022",
+      "scope": "查看封面及九页故事图像；个人身份、职业处境、照护经历与试音回忆。只作简短主题转述，不转载或翻译全篇。",
       "checked": "2026-10-22"
     }
   ],
@@ -8166,37 +8215,124 @@
     "original": "Kevin Conroy",
     "years": "1955—2022",
     "subtitle": "蝙蝠侠之声",
-    "intro": "一段声音，可以陪伴人们走过很长的夜。这里从康罗伊的本人讲述出发，连接动画、游戏，以及面具背后的表演者。",
+    "intro": "凯文·康罗伊先是一名舞台演员，后来用三十年的时间，为布鲁斯·韦恩赋予了年龄、疲惫、幽默与温柔。从朱莉亚德的排练室到动画和游戏的录音棚，他一直在寻找面具里面那个具体的人。",
     "sections": [
       {
         "id": "life",
-        "title": "01 / 凯文其人",
-        "body": "康罗伊受过专业戏剧训练，拥有舞台与电视表演经历。1992年开播的《蝙蝠侠：动画系列》让他的声音成为许多人认识蝙蝠侠的入口；2022年，DC发布了他的纪念公告。"
+        "title": "01 / 面具之前：凯文其人",
+        "body": "1955年11月30日，凯文·康罗伊出生于纽约州韦斯特伯里，在康涅狄格州韦斯特波特长大。他后来进入纽约朱莉亚德学院，接受约翰·豪斯曼的戏剧训练，并与罗宾·威廉姆斯做过室友。成为蝙蝠侠以前，他的生活围绕着排练、试镜与剧场展开。\n他最初想走的是古典戏剧演员的道路。莎士比亚人物的矛盾、欲望和自我追问，成为他进入角色的语言；日后面对一个失去双亲、同时经营两种身份的英雄，这套训练也有了新的用处。",
+        "sourceRefs": [
+          "dc-memorial",
+          "conroy-geekscape-2015"
+        ]
+      },
+      {
+        "id": "stage",
+        "title": "02 / 排练室、舞台与镜头",
+        "body": "康罗伊在纽约和圣迭戈的剧场工作，演过《仲夏夜之梦》《哈姆雷特》，也在百老汇演出《Eastern Standard》，并参演阿瑟·米勒的《The Last Yankee》。电视履历则包括《Dynasty》《Tour of Duty》《Ohara》等剧；舞台、电视剧与配音，是他职业生涯相互交叠的部分。\n在2016年的圆桌访谈里，他谈到一个很实际的问题：即使不断演戏，剧场收入也很难维持生活。他在纽约演出期间尝试商业广告配音，后来才走向动画。离开观众就在眼前的舞台，并没有让他放下那种习惯——听见搭档，再作出反应。",
+        "sourceRefs": [
+          "dc-memorial",
+          "conroy-gce-2016"
+        ]
       },
       {
         "id": "voice",
-        "title": "02 / 声音的诞生",
-        "body": "在2014年DC访谈中，他回忆自己提出用不同声音区分布鲁斯和蝙蝠侠。他也强调，表演需要建立在人物的情绪与经历之上。Andrea Romano组织的集体录音，让演员得以相互回应。"
+        "title": "03 / 一次试音，两种声音",
+        "body": "走进《蝙蝠侠：动画系列》的试音室时，康罗伊对这个角色的印象主要来自亚当·韦斯特的电视版。主创向他解释的却是另一个方向：一个被童年创伤改变、用秘密身份维持行动的人。他在其中认出了古典悲剧的结构，开始从人物的痛苦与责任进入表演。\n康罗伊在2014年访谈中谈到，布鲁斯是公众熟悉的富豪，戴上面罩以后，声音也应该帮助他隐藏身份。于是，公开场合的布鲁斯更轻松、圆滑，蝙蝠侠则压低声音，让每句话有更明确的重量。\n这并非只是一项压低音高的技巧。他强调，演员必须进入角色的情绪和经历。可以比较同一个声音如何面对罪犯、阿尔弗雷德和需要保护的人：威慑、信任与关心，往往通过停顿和语气就能区分。",
+        "sourceRefs": [
+          "conroy-geekscape-2015",
+          "dc-interview"
+        ]
       },
       {
-        "id": "works",
-        "title": "03 / 动画与游戏",
-        "body": "从动画单集到Rocksteady三部曲，沿下方作品入口阅读康罗伊的蝙蝠侠表演。"
+        "id": "ensemble",
+        "title": "04 / 录音棚里的搭档",
+        "body": "选角与对白导演安德烈娅·罗马诺让演员们一起录音，像排演广播剧那样完成对白。康罗伊能当场听见对手说话，顺着一句话的速度、呼吸和情绪接下去；他的蝙蝠侠与马克·哈米尔的小丑，也就在这种往复中建立关系。\n他在2016年把合作比作接球：对方抛得越好，自己越容易接住、再抛回去。面对第一次参与配音的演员，他也会主动开玩笑，让录音棚松弛下来。角色在故事里十分严肃，演员之间却需要玩心，才能试出意料之外的节奏。",
+        "sourceRefs": [
+          "dc-interview",
+          "conroy-gce-2016"
+        ],
+        "photos": [
+          "conroy-2009"
+        ]
+      },
+      {
+        "id": "performances",
+        "title": "05 / 声音如何进入一个人的内心",
+        "body": "《Nothing to Fear》让观众听见蝙蝠侠怎样面对恐惧；《Perchance to Dream》则把他放进一个近乎理想的生活，考验他对自己处境的判断。到《I Am the Night》，疑虑与疲惫进入了这个英雄的声音。把这些表演放在一起，能听见康罗伊如何让坚定和脆弱同时存在。\n《幽灵的面具》把布鲁斯的誓言与对普通生活的渴望放在同一部电影里。康罗伊在访谈中尤其欣赏这层矛盾：人物希望得到幸福，却又无法轻易放下已经承担的责任。台词的力量来自这种犹豫，而不只是英雄宣言。",
+        "sourceRefs": [
+          "dc-performance",
+          "conroy-gce-2016"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ]
+      },
+      {
+        "id": "beyond",
+        "title": "06 / 让布鲁斯慢慢老去",
+        "body": "《Batman Beyond》把康罗伊带到布鲁斯的晚年。动作能力退去，权威、戒备和不愿示弱的性格仍在；他与特里·麦金尼斯的关系，让同一个人物逐渐学着把责任交给另一个人。年长的布鲁斯因此有自己的声调和耐心，也有新的孤独。\n《Justice League》及《Justice League Unlimited》又把蝙蝠侠放进伙伴群体。康罗伊在2010年谈及超人时，将两人的关系理解为接近兄弟的相互平衡：他们看待世界的方法不同，却能够认可对方。声音既要维持布鲁斯的疏离，也要给信任留下位置。",
+        "sourceRefs": [
+          "dc-performance",
+          "conroy-comicmix-2010"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ],
+        "photos": [
+          "conroy-2019"
+        ]
       },
       {
         "id": "comparison",
-        "title": "04 / 一段声音，两种媒介",
-        "body": "动画让声音跟随镜头和对白，游戏让声音伴随玩家的行动。由单集走向游戏，比较表演的节奏与角色经验，两套作品各自展开哥谭的故事。"
+        "title": "07 / 从同棚对白到游戏录音",
+        "body": "阿卡姆系列需要声音跟随玩家的行动。剧情对白之外，还有调查、行动提示和战斗反应；玩家以不同速度推进时，角色仍须保持连贯。康罗伊在2018年的问答中解释，这种制作方式通常需要他独自在录音棚里，逐句完成不同语气的版本。\n他以《阿卡姆骑士》为例，描述了数小时一段的工作：脑中维持人物和当下情境，按照导演要求调整，再继续下一句。与搭档当面接戏的乐趣相比，这个过程更孤立，也更消耗精力；但他谈到成品时，又表达了对表演和游戏效果的自豪。\n重复台词仍需要具体的对象。向伙伴报告、追问嫌疑人、安慰受惊的人，每种情境都要求不同的距离感。游戏里的声音既帮助玩家理解行动，也持续提醒玩家：正在行动的是布鲁斯·韦恩。",
+        "sourceRefs": [
+          "conroy-nerdly-2018"
+        ]
       },
       {
         "id": "finding",
-        "title": "05 / 本人讲述与共同创作",
-        "body": "《Finding Batman》由康罗伊讲述自身经历，J. Bone绘画，Aditya Bidikar担任文字设计。沿官方介绍进入原作，读他如何把个人生活与表演联系起来。"
+        "title": "08 / Finding Batman：把自己的经历写下来",
+        "body": "2022年，康罗伊为《DC Pride 2022》写下自传短篇《Finding Batman》，由J. Bone绘画与上色，Aditya Bidikar负责文字设计。故事回到那次改变他职业道路的试音，也把视线移向此前漫长的生活。\n他写到成长环境中对同性恋身份的隐藏、演艺工作中的歧视，以及艾滋病危机中失去朋友和照护亲人的经历。作品将公众面前的形象与私下承受的压力并置，最后让这些记忆与布鲁斯的身份分裂相遇。\n在他的讲述中，蝙蝠侠的声音从积累已久的情绪中浮现。读到这里，再回想他对真实情感的强调，就能理解面罩和声音何以成为他与人物相遇的地方。",
+        "sourceRefs": [
+          "dc-finding",
+          "conroy-finding-pages"
+        ]
+      },
+      {
+        "id": "audience",
+        "title": "09 / 离开录音棚，走到观众面前",
+        "body": "配音完成后，演员往往很久都见不到观众的反应。康罗伊在2010年谈到，漫展让他重新获得了一点剧场的感觉：可以听见观众回应，也能知道一段表演怎样进入了别人的生活。他把这些见面视为对自己的鼓励。\n2001年九一一袭击后，他在纽约参与志愿厨房工作，为救援人员准备饭菜。多年后回忆那段日子，他记住了厨房里有人认出蝙蝠侠的声音，众人在紧张中短暂欢呼的片刻。对于一位主要在幕后工作的演员，这让声音与现实中的人有了直接联系。",
+        "sourceRefs": [
+          "conroy-comicmix-2010",
+          "conroy-geekscape-2015"
+        ],
+        "photos": [
+          "conroy-2021"
+        ]
       },
       {
         "id": "memory",
-        "title": "06 / 留下的回声",
-        "body": "回到作品，是继续认识他的方式。沿本人访谈、官方纪念与表演回顾，重听留在角色里的声音。"
+        "title": "10 / 留下的回声",
+        "body": "2022年11月10日，康罗伊因癌症去世，享年66岁；DC在次日发布纪念公告，列出他的丈夫沃恩·C·威廉姆斯及家人。罗马诺记住他的善意与笑声，哈米尔则回忆起他作为搭档和朋友的慷慨。\n他留在作品中的声音，可以严厉，也可以安静；可以使人退缩，也可以让人愿意靠近。重新听这些差别，仍然是在认识那位把人物当作人来表演的演员。",
+        "sourceRefs": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "id": "works",
+        "title": "11 / 回到作品",
+        "body": "从具体作品继续听他的表演。动画与游戏按各自的年份排列，分集导读保留独立的剧情与制作资料。",
+        "sourceRefs": [
+          "dc-memorial"
+        ],
+        "siteBodies": {
+          "tas": "从《皮翼之下》到TNBA，按作品日期继续听康罗伊的动画表演。完整目录收在下方，分集导读保留独立的剧情与制作资料。",
+          "arkham": "从《阿卡姆疯人院》到《阿卡姆骑士》，按作品年份继续听康罗伊的游戏表演。作品目录也列入《阿卡姆 VR》与《自杀小队：消灭正义联盟》。"
+        }
       }
     ],
     "sources": [
@@ -8207,7 +8343,84 @@
       "dc-city-history",
       "dc-trilogy",
       "rcs-origins-interview",
-      "wb-btas-blu"
+      "wb-btas-blu",
+      "conroy-comicmix-2010",
+      "conroy-geekscape-2015",
+      "conroy-gce-2016",
+      "conroy-nerdly-2018",
+      "conroy-finding-pages"
+    ],
+    "timeline": [
+      {
+        "year": "1955",
+        "text": "11月30日出生于纽约州韦斯特伯里。",
+        "sources": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "year": "1970年代",
+        "text": "在朱莉亚德接受戏剧训练，随后从事舞台演出。",
+        "sources": [
+          "dc-memorial",
+          "conroy-finding-pages"
+        ]
+      },
+      {
+        "year": "1980年代",
+        "text": "在舞台与电视之间工作，出演Dynasty、Tour of Duty等剧。",
+        "sources": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "year": "1992",
+        "text": "蝙蝠侠：动画系列开播。",
+        "sources": [
+          "dc-memorial"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ]
+      },
+      {
+        "year": "1993",
+        "text": "在动画电影《幽灵的面具》中出演布鲁斯／蝙蝠侠。",
+        "sources": [
+          "dc-performance"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ]
+      },
+      {
+        "year": "2009—2015",
+        "text": "出演Rocksteady的阿卡姆三部曲。",
+        "sources": [
+          "dc-trilogy"
+        ],
+        "sites": [
+          "shared",
+          "arkham"
+        ]
+      },
+      {
+        "year": "2019",
+        "text": "在电视联动《无限地球危机》中真人出演布鲁斯·韦恩。",
+        "sources": [
+          "dc-performance"
+        ]
+      },
+      {
+        "year": "2022",
+        "text": "发表自传漫画Finding Batman；11月10日去世，享年66岁。",
+        "sources": [
+          "dc-finding",
+          "dc-memorial"
+        ]
+      }
     ]
   },
   "capedCrusader": {

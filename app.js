@@ -27,13 +27,14 @@ async function searchPage() {
       if (!terms.length) { count.textContent = "输入集名、作品名、人物或主题，开始检索。"; return; }
       const found = index.filter(item =>
         (site ? [site, "shared"].includes(item.site) : (scope.value === "all" || item.site === scope.value || item.site === "shared")) &&
+        (!site || !item.scopedUrls || item.scopedUrls[site]) &&
         terms.every(term => [item.title, item.original, item.summary, ...item.tags].join(" ").toLocaleLowerCase().includes(term))
       );
       count.textContent = found.length ? `找到 ${found.length} 条记录 · 点击结果阅读档案或定位目录。` : "没有找到对应记录。可以换一个集名、作品名、人物或主题。";
       for (const item of found) {
         const card = make("a", undefined, "route-card");
         const scopedConroy = { arkham: "/arkham/people/kevin-conroy/", tas: "/tas/people/kevin-conroy/" }[site];
-        card.href = scopedConroy && item.url === "/voices/#kevin-conroy" ? scopedConroy : item.url;
+        card.href = item.scopedUrls?.[site] || (scopedConroy && item.url === "/voices/#kevin-conroy" ? scopedConroy : item.url);
         card.append(make("p", `${item.site === "arkham" ? "PROTOCOL ARKHAM" : item.site === "tas" ? "DARK DECO" : "两站共同档案"} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
         results.append(card);
       }

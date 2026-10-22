@@ -1,0 +1,182 @@
+/* A photographic feature for the actor's three reading views. */
+.xconroy .xconroy-head{max-width:none;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:center}
+.profile-photo{margin:32px 0;max-width:100%;min-width:0}
+.profile-photo img{display:block;width:100%;height:auto}
+.profile-photo figcaption{margin-top:12px;font-size:13px;line-height:1.8;color:var(--muted)}
+.profile-photo-credit{display:block;margin-top:5px;font-size:12px}
+.profile-photo-credit a{text-decoration:underline;text-underline-offset:3px}
+.xconroy-head .profile-photo{margin:0}
+.memorial-hero .profile-photo{max-width:640px;margin:36px auto;text-align:left}
+.conroy-reading .profile-photo[data-profile-photo="conroy-2021"]{max-width:420px;margin:32px auto}
+.conroy-reading section{scroll-margin-top:100px}
+.conroy-reading .profile-citations{font-size:12px;letter-spacing:.05em;margin:18px 0 0;color:var(--muted)}
+.profile-timeline,.profile-works{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+.profile-timeline>summary,.profile-works>summary{cursor:pointer;font-size:16px;padding:6px 0}
+.profile-timeline ol{list-style:none;margin:22px 0 0;padding:0}
+.profile-timeline li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:18px;padding:14px 0;border-top:1px solid var(--line)}
+.profile-timeline li>span{font-variant-numeric:tabular-nums;color:var(--accent)}
+.profile-timeline li p{margin:0}
+.profile-sources{max-width:820px;margin:56px auto 0;padding-top:28px;border-top:1px solid var(--line)}
+.profile-reference-list{list-style:none;padding:0;margin:22px 0}
+.profile-reference-list li{display:grid;grid-template-columns:36px minmax(0,1fr);gap:12px;padding:12px 0}
+.profile-reference-number{font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted);padding-top:3px}
+.profile-reference-list p{margin:0;font-size:14px;line-height:1.8;overflow-wrap:anywhere}
+.profile-reference-list small{display:block;margin-top:5px;font-size:12px;color:var(--muted)}
+.profile-plain-sources h3{font-size:16px;line-height:1.7}
+@media(max-width:760px){.xconroy .xconroy-head{grid-template-columns:1fr;gap:24px}.profile-timeline li{grid-template-columns:80px minmax(0,1fr);gap:12px}.profile-sources{margin-top:38px}.profile-photo figcaption{font-size:12px}.conroy-reading h2{font-size:24px}}
+@font-face{font-family:ConroySans;src:url('/assets/fonts/SourceHanSansCN-Regular.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+.voices-feature,.profile-feature{font-family:ConroySans,var(--sans);max-width:1280px;margin:auto;padding:0 40px 96px}
+.profile-cover{padding:36px 0 64px}
+.profile-cover-meta{display:flex;justify-content:space-between;gap:20px;padding:0 0 18px;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:.16em;color:var(--muted)}
+.profile-cover-grid{display:grid;grid-template-columns:minmax(0,.83fr) minmax(0,1.17fr);gap:48px;align-items:start;padding-top:36px}
+.profile-cover-copy{padding-top:16px;min-width:0}
+.profile-eyebrow{font-size:10px;line-height:1.7;letter-spacing:.16em;color:var(--accent);margin:0 0 20px}
+.profile-cover h1{font-size:clamp(64px,7.8vw,112px);font-weight:400;line-height:1.12;letter-spacing:-.065em;margin:24px 0}
+.profile-cover h1>span{display:block}
+.profile-cover-sub{font-size:15px;letter-spacing:.25em;margin:0 0 30px;color:var(--accent)}
+.profile-cover-intro{max-width:355px;font-size:14px;line-height:2.1;color:var(--muted)}
+.profile-cover-jump{display:flex;align-items:center;justify-content:space-between;gap:16px;width:190px;border-top:1px solid var(--line);padding-top:16px;margin-top:28px;font-size:13px}
+.profile-cover-jump>span:first-child{font-family:Georgia,serif;font-size:22px;color:var(--accent)}
+.profile-cover-portrait{position:relative;min-width:0}
+.profile-cover-portrait .profile-photo{margin:0}
+.profile-cover-portrait .profile-photo figcaption{font-size:11px;line-height:1.8;max-width:540px;margin-top:14px}
+.profile-cover-portrait .profile-photo-credit{font-size:10px}
+.profile-cover-signature{position:absolute;right:16px;bottom:116px;margin:0;color:#fff8ec;font:400 clamp(58px,7.2vw,110px)/.79 Georgia,serif;letter-spacing:-.065em;text-align:right;text-shadow:0 2px 12px #15120d66;pointer-events:none}
+.profile-cover-signature>span{display:block;font:10px/1.6 ConroySans,var(--sans);letter-spacing:.12em;margin-top:18px}
+.profile-continuity{border-top:1px solid var(--line);padding:22px 0 0;max-width:760px;font-size:12px;line-height:1.9;color:var(--muted);margin:0 0 72px}
+.profile-return{font-size:12px;letter-spacing:.08em;margin:0 0 36px;color:var(--accent)}
+.voices-feature .xconroy{padding-top:0;border:0;margin-bottom:90px}
+.voices-feature .xconroy .xconroy-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:72px;padding:40px 0 44px;margin:0;border-top:1px solid var(--line);align-items:start}
+.voices-feature .xconroy-head h2{font-size:clamp(30px,3vw,44px);font-family:ConroySans,var(--sans);font-weight:400}
+.voices-feature .xconroy-intro{font-size:17px;line-height:2;margin:0}
+.profile-contents{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px;margin:28px 0 0;padding:26px 0 32px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.profile-contents>div>p{display:flex;gap:14px;align-items:baseline;font-size:13px;letter-spacing:.12em;margin:0 0 18px}
+.profile-contents>div>p>span{font:italic 26px/1 Georgia,serif;color:var(--accent)}
+.profile-contents ol{list-style:none;margin:0;padding:0}
+.profile-contents li{margin:0 0 9px;font-size:12px;color:var(--muted)}
+.profile-contents a{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px;align-items:baseline}
+.profile-contents a:hover{color:var(--text)}
+.profile-contents a>span{font-size:10px;opacity:.65;font-variant-numeric:tabular-nums}
+.reading.conroy-reading{max-width:none;margin:0}
+.conroy-reading .profile-chapter{display:grid;grid-template-columns:minmax(150px,.65fr) minmax(0,1.35fr);gap:0 72px;padding:68px 0 0;margin:0;scroll-margin-top:36px}
+.profile-chapter-heading{min-width:0;padding-bottom:20px}
+.profile-chapter-number{display:block;font:400 76px/.9 Georgia,serif;letter-spacing:-.07em;color:var(--accent);margin-bottom:26px}
+.profile-chapter-heading .profile-eyebrow{font-size:9px;letter-spacing:.12em;margin-bottom:12px}
+.conroy-reading .profile-chapter h2{font-size:25px;font-weight:400;line-height:1.55;letter-spacing:.02em;color:var(--text);margin:0;max-width:260px}
+.conroy-reading .profile-chapter-copy>p{font-size:18px;line-height:2;margin:0 0 22px;color:var(--muted)}
+.conroy-reading .profile-chapter-copy>p:last-child{margin-bottom:0}
+.conroy-reading .profile-chapter .profile-citations{font-size:10px;line-height:1.6;letter-spacing:.07em;color:var(--muted);margin-top:26px}
+.conroy-reading .profile-chapter>.profile-photo{grid-column:1/-1;margin:32px 0 0}
+.profile-chapter>.profile-photo figcaption{display:block;max-width:900px;font-size:12px;line-height:1.8}
+.profile-chapter>.profile-photo .profile-photo-credit{font-size:10px}
+.conroy-reading .profile-chapter-life .profile-chapter-copy>p:first-child{font-size:20px;color:var(--text)}
+.conroy-reading .profile-chapter-voice{background:#e5ddce;--text:#292722;--muted:#5e574d;--accent:#826a4c;--line:#b9aa96;padding:48px;margin-top:58px;gap:0 40px}
+.profile-voice-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-top:22px;margin-top:28px;border-top:1px solid var(--line)}
+.profile-voice-pair p{font:10px/1.6 Georgia,serif;letter-spacing:.15em;color:var(--accent);margin-bottom:10px}
+.profile-voice-pair h3{font-size:20px;font-weight:400;margin-bottom:10px;color:var(--text)}
+.profile-voice-pair span{display:block;font-size:11px;line-height:1.8;color:var(--muted)}
+.conroy-reading .profile-chapter-ensemble>.profile-photo{width:86%;margin-left:auto}
+.conroy-reading .profile-chapter-beyond>.profile-photo{width:86%;margin-right:auto}
+.conroy-reading .profile-chapter-finding{display:block;background:var(--surface);padding:48px;margin-top:60px}
+.profile-chapter-finding .profile-chapter-heading{display:grid;grid-template-columns:110px minmax(0,1fr);gap:0 28px;align-items:start;margin-bottom:30px}
+.profile-chapter-finding .profile-chapter-number{grid-row:span 2;margin:0}
+.conroy-reading .profile-chapter-finding h2{max-width:none;font-size:30px}
+.profile-chapter-finding .profile-chapter-copy{column-count:2;column-gap:44px}
+.profile-chapter-finding .profile-chapter-copy>p{break-inside:avoid}
+.conroy-reading .profile-chapter-audience{grid-template-columns:1fr 1fr;gap:0 64px}
+.profile-chapter-audience .profile-chapter-heading{grid-column:1}
+.profile-chapter-audience .profile-chapter-copy{grid-column:1}
+.conroy-reading .profile-chapter-audience>.profile-photo{grid-column:2;grid-row:1/span 2;max-width:380px;width:100%;margin:0 0 0 auto;align-self:start}
+.conroy-reading .profile-chapter-memory{padding-bottom:46px}
+.conroy-reading .profile-chapter-memory .profile-chapter-copy>p:last-of-type:not(.profile-citations){font-family:var(--serif);font-size:23px;line-height:1.85;color:var(--text)}
+.conroy-reading .profile-timeline{padding:26px 0;border-color:var(--line);margin:26px 0 0}
+.profile-timeline>summary{font-size:14px;letter-spacing:.1em}
+.profile-timeline>summary>span{font:400 32px/1 Georgia,serif;letter-spacing:-.03em;margin-right:24px;color:var(--accent)}
+.profile-timeline ol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 28px;margin-top:28px}
+.profile-timeline li{display:block;padding:22px 0}
+.profile-timeline li>span{display:block;font:400 25px/1.25 Georgia,serif;margin-bottom:14px;letter-spacing:-.035em}
+.conroy-reading .profile-timeline li p{font-size:12px;line-height:1.95;margin:0}
+.conroy-reading .profile-chapter-works{padding-bottom:0}
+.profile-chapter-works>.profile-works{grid-column:2;border-top:0;margin-top:20px}
+.profile-feature .profile-sources,.voices-feature .profile-sources{max-width:none;margin:60px 0 0;padding-top:28px}
+.profile-sources h2{font-size:16px;font-weight:400;letter-spacing:.15em}
+.profile-reference-list{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
+.profile-reference-list p{font-size:12px;line-height:1.8}
+.profile-reference-list small{font-size:10px}
+.profile-interlude{padding:54px 0 42px;margin:0 0 50px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.profile-interlude h2{font-size:clamp(38px,5vw,62px);font-weight:400;letter-spacing:-.04em;margin:0 0 18px}
+.profile-interlude>p:last-child{font-size:13px;color:var(--muted);margin:0}
+.voices-feature .xs-head h2{font-family:ConroySans,var(--sans);font-weight:400;font-size:42px}
+.voices-feature .xcredits{padding-top:48px}
+.voices-feature .xsources{margin-top:64px}
+.tas .profile-chapter-voice{background:#25231f;--text:#f0e6d6;--muted:#c3b9a8;--accent:#d6b58a;--line:#655747}
+.tas .profile-feature .profile-eyebrow,.tas .profile-chapter-number{font-family:ConroySans,var(--sans)}
+@media(min-width:1600px){.profile-cover-signature{bottom:102px}}
+@media(max-width:1000px){.voices-feature,.profile-feature{padding-inline:28px}.profile-cover-grid{gap:30px}.profile-cover h1{font-size:76px}.profile-cover-signature{font-size:74px;bottom:130px}.conroy-reading .profile-chapter{gap:0 38px;grid-template-columns:180px minmax(0,1fr)}.profile-chapter-finding .profile-chapter-copy{column-count:1}.conroy-reading .profile-chapter-audience{grid-template-columns:1fr 1fr}.profile-cover-intro{font-size:13px}.voices-feature .xconroy .xconroy-head{gap:36px}}
+@media(max-width:700px){
+ .voices-feature,.profile-feature{padding:0 22px 60px}
+ .profile-cover{padding:24px 0 38px}
+ .profile-cover-meta{font-size:8px;letter-spacing:.09em;gap:10px}
+ .profile-cover-meta>span:last-child{white-space:nowrap}
+ .profile-cover-grid{grid-template-columns:1fr;gap:30px;padding-top:26px}
+ .profile-cover-copy{padding-top:0}
+ .profile-cover h1{font-size:51px;letter-spacing:-.06em;margin:14px 0 20px;line-height:1.2}
+ .profile-cover h1>span{display:inline}
+ .profile-cover-sub{font-size:12px;margin-bottom:22px}
+ .profile-eyebrow{font-size:9px;margin-bottom:12px}
+ .profile-cover-intro{font-size:13px;max-width:none;margin-bottom:0}
+ .profile-cover-jump{margin-top:22px;padding-top:10px;width:168px;font-size:12px}
+ .profile-cover-signature{font-size:63px;bottom:116px;right:12px}
+ .profile-cover-signature>span{font-size:7px;margin-top:12px}
+ .profile-cover-portrait .profile-photo figcaption{font-size:10px}
+ .profile-cover-portrait .profile-photo-credit{font-size:9px}
+ .profile-continuity{font-size:11px;margin-bottom:36px;padding-top:16px}
+ .voices-feature .xconroy .xconroy-head{grid-template-columns:1fr;gap:20px;padding:26px 0}
+ .voices-feature .xconroy-head h2{font-size:30px}
+ .voices-feature .xconroy-intro{font-size:15px;line-height:2}
+ .profile-contents{grid-template-columns:1fr;gap:20px;padding:22px 0;margin-top:12px}
+ .profile-contents>div{display:grid;grid-template-columns:105px minmax(0,1fr);gap:10px}
+ .profile-contents>div>p{font-size:12px;gap:9px;margin:0}
+ .profile-contents>div>p>span{font-size:24px}
+ .profile-contents li{font-size:11px;margin-bottom:8px}
+ .profile-contents a{grid-template-columns:20px minmax(0,1fr);gap:5px}
+ .conroy-reading .profile-chapter{grid-template-columns:1fr;gap:0;padding-top:38px}
+ .profile-chapter-heading{display:grid;grid-template-columns:64px minmax(0,1fr);gap:0 14px;margin-bottom:22px;padding:0}
+ .profile-chapter-number{grid-row:span 2;font-size:55px;margin:0}
+ .profile-chapter-heading .profile-eyebrow{font-size:8px;letter-spacing:.07em;margin-bottom:5px}
+ .conroy-reading .profile-chapter h2{font-size:23px;max-width:none;line-height:1.5}
+ .conroy-reading .profile-chapter-copy>p{font-size:16px;line-height:2;margin-bottom:20px}
+ .conroy-reading .profile-chapter .profile-citations{font-size:9px;margin-top:20px}
+ .conroy-reading .profile-chapter-life .profile-chapter-copy>p:first-child{font-size:17px}
+ .conroy-reading .profile-chapter-voice,.conroy-reading .profile-chapter-finding{padding:26px 20px;margin-top:36px}
+ .profile-voice-pair{gap:16px;margin-top:24px;padding-top:18px}
+ .profile-voice-pair p{font-size:8px;letter-spacing:.1em}
+ .profile-voice-pair h3{font-size:17px}
+ .profile-voice-pair span{font-size:10px}
+ .conroy-reading .profile-chapter>.profile-photo{width:100%;margin:24px 0 0}
+ .profile-chapter>.profile-photo figcaption{font-size:10px}
+ .profile-chapter>.profile-photo .profile-photo-credit{font-size:9px}
+ .profile-chapter-finding .profile-chapter-heading{grid-template-columns:48px minmax(0,1fr);gap:0 12px;margin-bottom:24px}
+ .profile-chapter-finding .profile-chapter-number{font-size:44px}
+ .conroy-reading .profile-chapter-finding h2{font-size:22px}
+ .conroy-reading .profile-chapter-audience{grid-template-columns:1fr}
+ .profile-chapter-audience .profile-chapter-copy{grid-column:auto}
+ .conroy-reading .profile-chapter-audience>.profile-photo{grid-column:1;grid-row:auto;max-width:280px;margin:24px auto 0}
+ .conroy-reading .profile-chapter-memory .profile-chapter-copy>p:last-of-type:not(.profile-citations){font-size:20px}
+ .profile-timeline>summary{font-size:12px}
+ .profile-timeline>summary>span{font-size:25px;margin-right:15px}
+ .profile-timeline ol{grid-template-columns:1fr 1fr;gap:0 20px}
+ .profile-timeline li{padding:18px 0}
+ .profile-timeline li>span{font-size:23px}
+ .conroy-reading .profile-timeline li p{font-size:11px}
+ .profile-chapter-works>.profile-works{grid-column:1}
+ .profile-reference-list{grid-template-columns:1fr;gap:0}
+ .profile-reference-list li{padding:10px 0}
+ .profile-reference-list p{font-size:11px}
+ .profile-reference-list small{font-size:9px}
+ .profile-interlude{padding:32px 0;margin-bottom:30px}
+ .profile-interlude h2{font-size:35px}
+ .voices-feature .xs-head h2{font-size:32px}
+ .voices-feature .xs-head p{font-size:14px}
+ .voices-feature .xspread{margin-bottom:56px}
+}

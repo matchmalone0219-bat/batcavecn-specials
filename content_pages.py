@@ -128,28 +128,48 @@ def caped_series(data):
 
 
 def person_chapters(data, site="shared"):
-    p = data["person"]
-    body = '<nav class="chapter-nav" aria-label="人物章节">' + "".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in p["sections"]) + '</nav><div class="reading">'
-    for s in p["sections"]:
-        body += f'<section id="{s["id"]}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}'
+    from conroy_profile import chapters, chapter_citations, profile_photo, timeline
+    sections = chapters(data, site)
+    titles = {s['id']: f'{n:02d} / ' + s['title'].split(' / ', 1)[-1] for n, s in enumerate(sections, 1)}
+    groups = [
+        ('I', '面具之前', {'life', 'stage', 'voice'}),
+        ('II', '声音的工作', {'ensemble', 'performances', 'beyond', 'comparison'}),
+        ('III', '生活与回声', {'finding', 'audience', 'memory', 'works'}),
+    ]
+    contents = ''.join(f'<div><p><span>{number}</span>{label}</p><ol>' + ''.join(f'<li><a href="#{s["id"]}"><span>{titles[s["id"]].split(" / ")[0]}</span>{esc(titles[s["id"]].split(" / ",1)[-1])}</a></li>' for s in sections if s['id'] in ids) + '</ol></div>' for number, label, ids in groups)
+    body = '<nav class="profile-contents" aria-label="人物章节">' + contents + '</nav><div class="reading conroy-reading">'
+    for s in sections:
+        text = s.get('siteBodies', {}).get(site, s['body'])
+        number, title = titles[s['id']].split(' / ', 1)
+        english = {'life':'EARLY YEARS','stage':'ON THE STAGE','voice':'BECOMING BATMAN','ensemble':'IN THE BOOTH','performances':'THE INNER VOICE','beyond':'A LIFETIME IN GOTHAM','comparison':'VOICING THE GAMES','finding':'FINDING BATMAN','audience':'BEYOND THE MICROPHONE','memory':'THE VOICE REMAINS','works':'SELECTED WORKS'}[s['id']]
+        body += f'<section class="profile-chapter profile-chapter-{s["id"]}" id="{s["id"]}"><div class="profile-chapter-heading"><span class="profile-chapter-number" aria-hidden="true">{number}</span><p class="profile-eyebrow">{english}</p><h2>{esc(title)}</h2></div><div class="profile-chapter-copy">{paragraphs(text)}'
+        if s['id'] == 'voice':
+            body += '<div class="profile-voice-pair"><div><p>BRUCE WAYNE</p><h3>在人群之中</h3><span>轻松、圆滑的公众形象</span></div><div><p>BATMAN</p><h3>在面罩之后</h3><span>压低声音，让话语更有重量</span></div></div>'
+        body += chapter_citations(data, s, site) + '</div>'
+        for photo in s.get('photos', []):
+            if photo == 'conroy-2009' and site == 'tas':
+                continue
+            body += profile_photo(photo)
         if s["id"] == "works":
             linked = [i for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] if i["actor"] == "Kevin Conroy" and i["status"] == "详情样板"]
             if site in ("arkham", "tas"):
                 linked = sorted((i for i in linked if i["site"] == site), key=lambda i: i.get("airDate") or i.get("date") or i["year"])
-                body += '<ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></section>'
+                body += f'<details class="profile-works"><summary>展开作品目录 · {len(linked)}项</summary><ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></details></section>'
                 continue
             else:
                 columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{name}</span></p><ol>' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in sorted((i for i in linked if i["site"] == key), key=lambda i: i.get("airDate") or i.get("date") or i["year"])) + '</ol></div>' for key, label, name in (("tas", "动画", "Dark Deco"), ("arkham", "游戏", "Protocol Arkham")))
-                body += f'<div class="xcredit-works">{columns}</div></section>'
+                body += f'<details class="profile-works"><summary>展开动画与游戏作品目录 · {len(linked)}项</summary><div class="xcredit-works">{columns}</div></details></section>'
                 continue
-            body += '<div class="grid routes">' + "".join(f'<a class="route-card" href="{route(i)}"><span class="label">{esc(data["sites"][i["site"]]["english"])} / {esc(i["year"])}</span><h3>{esc(i["original"])}</h3><p>{esc(i["title"])}</p></a>' for i in linked) + '</div>'
         body += '</section>'
-    return body
+        if s['id'] == 'memory':
+            body += timeline(data, site)
+    return body + '</div>'
 
 
 def person(data, site):
+    from conroy_profile import cover, profile_sources, with_profile_styles
     p = data["person"]
     memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">返回Dark Deco</a>'
-    body = f'<section class="memorial-hero"><p class="label">{'<i data-arkham-icon="voice"></i>' if site == "arkham" else ""}BATCAVECN / SHARED CREATOR ARCHIVE</p><p class="original">{esc(p["original"])} · {esc(p["years"])}</p><h1>{esc(p["title"])}<span>{esc(p["subtitle"])}</span></h1><p class="lead">{esc(p["intro"])}</p><div class="memorial-links">{memorial_links}</div></section><div class="section">{person_chapters(data, site)}'
-    body += f'<section><h2>原始资料与延伸阅读</h2>{sources(data, p["sources"])}</section></div></div>'
-    return shell(data, site, p["title"], body, "person")
+    body = '<div class="profile-feature">' + cover(p['title'], p['intro']) + f'<div class="profile-return">{memorial_links}</div>{person_chapters(data, site)}'
+    body += profile_sources(data, site) + '</div>'
+    return with_profile_styles(shell(data, site, p["title"], body, "person"))
