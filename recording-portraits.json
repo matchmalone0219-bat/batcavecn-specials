@@ -1,0 +1,581 @@
+{
+  "sources": [
+    {
+      "id": "rocksteady-artbook-2015-recording-portraits",
+      "title": "The Art of Rocksteady’s Batman · Daniel Wallace · Abrams · 2015 · ISBN 978-1-4197-1385-9",
+      "type": "角色设定与宣传图"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asylum-joker",
+      "file": "recording-portraits/asylum-joker.jpg",
+      "alt": "小丑",
+      "width": 480,
+      "height": 560,
+      "bytes": 89745,
+      "sha256": "78e96fa530a9f8d952cd939eb153788c73a51ce12a55c538a0eb2150de478993",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (18).jpg",
+        "cropRect": [
+          770,
+          140,
+          1600,
+          1108
+        ],
+        "kind": "artbook-render",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "asylum-harley",
+      "file": "recording-portraits/asylum-harley.jpg",
+      "alt": "哈莉·奎茵",
+      "width": 480,
+      "height": 560,
+      "bytes": 75415,
+      "sha256": "3816c017749f64ddf312008814c3edc11ff9effc967bac44bc4632aff4aa2dbc",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (21).jpg",
+        "cropRect": [
+          3380,
+          50,
+          4350,
+          1182
+        ],
+        "kind": "artbook-render",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "asylum-croc",
+      "file": "recording-portraits/asylum-croc.jpg",
+      "alt": "杀手鳄",
+      "width": 480,
+      "height": 560,
+      "bytes": 70778,
+      "sha256": "ccf0c93f5bd8c1debda4c4f4c46ce58ed212bfbe9b028d78e5bd17afcc3e6598",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (16).jpg",
+        "cropRect": [
+          200,
+          0,
+          1700,
+          1750
+        ],
+        "kind": "artbook-render",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "asylum-zsasz",
+      "file": "recording-portraits/asylum-zsasz.jpg",
+      "alt": "维克多·扎斯",
+      "width": 480,
+      "height": 560,
+      "bytes": 54737,
+      "sha256": "736245908c588fcc31f0c7fe0c9870713be83daa3b9b11c90645cd73fefc78f7",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (25).jpg",
+        "cropRect": [
+          1020,
+          1240,
+          1480,
+          1777
+        ],
+        "kind": "artbook-concept",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "asylum-ivy",
+      "file": "recording-portraits/asylum-ivy.jpg",
+      "alt": "毒藤女",
+      "width": 480,
+      "height": 560,
+      "bytes": 67641,
+      "sha256": "e29905d76627039942375755698db6a9385545baea34c0c97976308d1faa0ee7",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (26).jpg",
+        "cropRect": [
+          3200,
+          70,
+          4270,
+          1318
+        ],
+        "kind": "artbook-render",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "asylum-scarecrow",
+      "file": "recording-portraits/asylum-scarecrow.jpg",
+      "alt": "稻草人",
+      "width": 480,
+      "height": 560,
+      "bytes": 52620,
+      "sha256": "e2414ced3ddb094474742e00b52ff44694586e46b55e981a8afa9ceede5d7019",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (22).jpg",
+        "cropRect": [
+          430,
+          80,
+          1430,
+          1247
+        ],
+        "kind": "artbook-concept",
+        "game": "asylum"
+      }
+    },
+    {
+      "id": "city-riddler",
+      "file": "recording-portraits/city-riddler.jpg",
+      "alt": "谜语人",
+      "width": 480,
+      "height": 560,
+      "bytes": 28243,
+      "sha256": "4c150bdb176b93e7edd37f54529956bc820e5c3e8ee2a89f1a55980901858cae",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          770,
+          110,
+          1050,
+          437
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 451.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-mad-hatter",
+      "file": "recording-portraits/city-mad-hatter.jpg",
+      "alt": "疯帽匠",
+      "width": 480,
+      "height": 560,
+      "bytes": 26933,
+      "sha256": "fc2fe942dff6e4640539e28a86ba9f496f4af609971a0f3bc659b0cafd153e21",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          795,
+          140,
+          1105,
+          502
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 1.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-catwoman",
+      "file": "recording-portraits/city-catwoman.jpg",
+      "alt": "猫女",
+      "width": 480,
+      "height": 560,
+      "bytes": 27363,
+      "sha256": "1139ad68d3bc0a410d3d26e8e9df53d342a84ea8c57d1bcf2f7e105c82f08fce",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          815,
+          100,
+          1105,
+          438
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 901.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-freeze",
+      "file": "recording-portraits/city-freeze.jpg",
+      "alt": "急冻人",
+      "width": 480,
+      "height": 560,
+      "bytes": 49636,
+      "sha256": "480fcd7617319f2d407123d703449340f3162b9c3f9b25ba595fb94615b1a2e4",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          735,
+          40,
+          1105,
+          472
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 1261.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-joker",
+      "file": "recording-portraits/city-joker.jpg",
+      "alt": "小丑",
+      "width": 480,
+      "height": 560,
+      "bytes": 30757,
+      "sha256": "2d6c91e0f2cd4bd210c919ce5ecf26304fdd8c8b2b8c656429b9b92c5b8a7d36",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          795,
+          70,
+          1075,
+          397
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 1711.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-penguin",
+      "file": "recording-portraits/city-penguin.jpg",
+      "alt": "企鹅人",
+      "width": 480,
+      "height": 560,
+      "bytes": 27140,
+      "sha256": "029a671caf1378ed29b653c9c0244286fed5d769556abcd869524c73825b3e38",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          820,
+          240,
+          1110,
+          578
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 2341.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-two-face",
+      "file": "recording-portraits/city-two-face.jpg",
+      "alt": "双面人",
+      "width": 480,
+      "height": 560,
+      "bytes": 48575,
+      "sha256": "7df106e20fb53f26c1c4084d9eff9856de917de8b7e3a556579923b7423f7e7d",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          750,
+          90,
+          1080,
+          475
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 2701.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-sharp",
+      "file": "recording-portraits/city-sharp.jpg",
+      "alt": "昆西·夏普",
+      "width": 480,
+      "height": 560,
+      "bytes": 23139,
+      "sha256": "674d41462c49b316ddfaaba8a1e995466057e35387635ff3e3d0fc1decf575d7",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          830,
+          105,
+          1150,
+          478
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 750.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "city-zsasz",
+      "file": "recording-portraits/city-zsasz.jpg",
+      "alt": "维克多·扎斯",
+      "width": 480,
+      "height": 560,
+      "bytes": 24651,
+      "sha256": "5502785c2265bba09ff299e977128bfbd62240ccd8b4599cdd66997d6773155f",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+        "cropRect": [
+          760,
+          110,
+          1060,
+          460
+        ],
+        "kind": "game-frame",
+        "game": "city",
+        "videoTime": 3421.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-arkham-knight",
+      "file": "recording-portraits/knight-arkham-knight.jpg",
+      "alt": "阿卡姆骑士",
+      "width": 480,
+      "height": 560,
+      "bytes": 32735,
+      "sha256": "4969e3306451fde61227868d54af265a60650cf302a6c421ca00db2b54401564",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集.mp4",
+        "cropRect": [
+          740,
+          0,
+          1050,
+          362
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 46.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-scarecrow",
+      "file": "recording-portraits/knight-scarecrow.jpg",
+      "alt": "稻草人",
+      "width": 480,
+      "height": 560,
+      "bytes": 48228,
+      "sha256": "ab89b1001c68f6e8c4417e171f48230678dd42c607a79207ed0f998cf0ba1f97",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集 (1).mp4",
+        "cropRect": [
+          800,
+          0,
+          1130,
+          385
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 136.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-harley",
+      "file": "recording-portraits/knight-harley.jpg",
+      "alt": "哈莉·奎茵",
+      "width": 480,
+      "height": 560,
+      "bytes": 47165,
+      "sha256": "1a061b600ff70c86201dc2d899d3e765ce2d0bac7ab3472b663fcc6aacbabc1f",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集 (2).mp4",
+        "cropRect": [
+          815,
+          55,
+          1125,
+          417
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 1.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-riddler",
+      "file": "recording-portraits/knight-riddler.jpg",
+      "alt": "谜语人",
+      "width": 480,
+      "height": 560,
+      "bytes": 44843,
+      "sha256": "ac1689d64ad976d5358f9e77019459222e91b4a5b7d8299056435c787f4fefb2",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集 (3).mp4",
+        "cropRect": [
+          820,
+          55,
+          1130,
+          417
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 241.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-penguin",
+      "file": "recording-portraits/knight-penguin.jpg",
+      "alt": "企鹅人",
+      "width": 480,
+      "height": 560,
+      "bytes": 41668,
+      "sha256": "45f3d65306e556f5138be4d1df97654c6ca67eb53606cafff65dd4802d3e00b9",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集 (4).mp4",
+        "cropRect": [
+          900,
+          55,
+          1210,
+          417
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 91.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-pyg",
+      "file": "recording-portraits/knight-pyg.jpg",
+      "alt": "猪面教授",
+      "width": 480,
+      "height": 560,
+      "bytes": 36099,
+      "sha256": "dec0f2fefb83bf53e160ac4e62506405b982b732d5a8c833da45d5d73bb71bf9",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/阿卡姆骑士录音收集 (7).mp4",
+        "cropRect": [
+          885,
+          55,
+          1195,
+          417
+        ],
+        "kind": "game-frame",
+        "game": "knight",
+        "videoTime": 1.0,
+        "frameSize": [
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "id": "knight-batman",
+      "file": "recording-portraits/knight-batman.jpg",
+      "alt": "蝙蝠侠",
+      "width": 480,
+      "height": 560,
+      "bytes": 53818,
+      "sha256": "5397b348d1c405c239f35a80b97de1145f5e172590b84a1ea306a7b7dd88d0c3",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (1).jpg",
+        "cropRect": [
+          1650,
+          220,
+          2550,
+          1270
+        ],
+        "kind": "artbook-render",
+        "game": "knight"
+      }
+    },
+    {
+      "id": "knight-stagg",
+      "file": "recording-portraits/knight-stagg.jpg",
+      "alt": "斯塔格企业飞艇",
+      "width": 480,
+      "height": 560,
+      "bytes": 56036,
+      "sha256": "a9ac01274b7e976f68b5de2edfd3fe8af098cb7c2027c206bda12fb566e68f6a",
+      "origin": {
+        "file": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集/1 (130).jpg",
+        "cropRect": [
+          3050,
+          280,
+          4930,
+          2473
+        ],
+        "kind": "artbook-environment",
+        "game": "knight"
+      }
+    }
+  ],
+  "patients": {
+    "joker": "asylum-joker",
+    "harley": "asylum-harley",
+    "croc": "asylum-croc",
+    "zsasz": "asylum-zsasz",
+    "ivy": "asylum-ivy",
+    "scarecrow": "asylum-scarecrow",
+    "riddler": "city-riddler",
+    "city-mad-hatter": "city-mad-hatter",
+    "city-riddler": "city-riddler",
+    "city-catwoman": "city-catwoman",
+    "city-freeze": "city-freeze",
+    "city-joker": "city-joker",
+    "city-penguin": "city-penguin",
+    "city-two-face": "city-two-face"
+  },
+  "channels": {
+    "joker-city": "city-joker",
+    "sharp-city": "city-sharp",
+    "zsasz-city": "city-zsasz",
+    "knight-oracle": "knight-arkham-knight",
+    "knight-joker-case": "knight-batman",
+    "knight-stagg": "knight-stagg",
+    "knight-scarecrow": "knight-scarecrow",
+    "knight-harley": "knight-harley",
+    "knight-riddler": "knight-riddler",
+    "knight-penguin": "knight-penguin",
+    "knight-pyg": "knight-pyg"
+  },
+  "notes": [
+    "疯人院谜语人沿用之城角色图，不标作疯人院游戏模型。",
+    "疯人院稻草人与扎斯使用设定集角色概念图。",
+    "斯塔格企业科学家录音使用飞艇主题图，避免把斯塔格误标成自白者。",
+    "阿卡姆骑士保留面具造型，不提前展示身份。"
+  ]
+}

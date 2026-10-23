@@ -334,7 +334,7 @@ function protocolRecordPanel() {
     const record = protocolRecord.read();
     const progress = protocolRecord.cases();
     const solved = Object.keys(totals).filter(id => progress[id] === totals[id]).length;
-    const patients = new Set(record.heard.map(name => name.match(/^patient-([a-z]+)-/)?.[1]).filter(Boolean)).size;
+    const patients = new Set(record.heard.map(name => name.match(/^patient-(.+)-\d+\.m4a$/)?.[1]).filter(Boolean)).size;
     const transmissions = record.heard.filter(name => name.startsWith('transmission-')).length;
     const values = { cases: solved, patients, transmissions, riddles: record.riddles.length };
     Object.entries(values).forEach(([name, value]) => {
@@ -419,7 +419,6 @@ function collectiblesPage() {
     const source = thumb.querySelector('img');
     main.href = thumb.href;
     image.src = source.src; image.alt = source.alt;
-    gallery.querySelector('[data-merch-caption]').textContent = thumb.dataset.title;
     gallery.querySelectorAll('[data-merch-thumb]').forEach(other => other.setAttribute('aria-current', String(other === thumb)));
   }));
   window.addEventListener('hashchange', () => {
@@ -432,7 +431,7 @@ function collectiblesPage() {
 
 function pageToc() {
   const main = document.querySelector('main');
-  if (!main || main.querySelector('.chapter-nav, [data-merch-filter], .clue-zones, #episode-filter, .crossover')) return;
+  if (!main || main.querySelector('.chapter-nav, [data-merch-filter], .clue-zones, #episode-filter, .crossover, [data-patient-terminal], [data-transmissions-terminal]')) return;
   const headings = [...main.querySelectorAll('h2')].filter(h => !h.closest('nav, details:not([open]), [hidden], .riddle-card'));
   if (headings.length < 8 || document.body.scrollHeight < innerHeight * 4.5) return;
   const targets = headings.map((heading, index) => {

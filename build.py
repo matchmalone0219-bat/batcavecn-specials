@@ -52,10 +52,15 @@ def build(data=None):
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
     for asset in research_images:
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
+    (DIST / 'assets/media/recording-portraits').mkdir(exist_ok=True)
+    for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
+        copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
     for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:
         for tape in patient['tapes']:
             copy_asset(ROOT / tape['audioFile'], DIST / 'assets' / tape['audioFile'])
+    for record in json.loads((ROOT / 'asylum-history.json').read_text())['records']:
+        copy_asset(ROOT / record['audio']['audioFile'], DIST / 'assets' / record['audio']['audioFile'])
     for channel in json.loads((ROOT / 'arkham-transmissions.json').read_text())['channels']:
         for track in channel['tracks']:
             copy_asset(ROOT / track['audioFile'], DIST / 'assets' / track['audioFile'])

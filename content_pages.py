@@ -1,7 +1,7 @@
 """Home, work and creator pages from archive.json."""
 import json
 
-from render_common import (ROOT, esc, route, paragraphs, sources, actor_markup,
+from render_common import (ROOT, esc, route, paragraphs, actor_markup,
                            image_gallery, person_url)
 from site_layout import shell
 from arkham_ui import arkham_screen
@@ -63,7 +63,7 @@ def detail(data, item):
         body += f'<div class="episode-ticket" role="group" aria-label="放映信息"><div class="ticket-main"><p class="ticket-kicker">放映单 · {esc(item["series"])}</p><p class="ticket-date">{esc(item["airDate"])}<span>首播</span></p><dl class="ticket-credits">{credits}</dl>{voice_line}</div><div class="ticket-stub"><span>No.</span><strong>{esc(item["guideNumber"])}</strong><span>{esc(item["airDate"][:4])}</span></div></div><div class="ticket-more">{full}</div>'
     else:
         body += f'<div class="facts-summary">{summary}{full}</div>'
-    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
+    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '</nav>'
     body += '<div class="reading">'
     strip = film_strip(item["id"]) if site == "tas" else ""
     for index, section in enumerate(item["sections"]):
@@ -92,7 +92,7 @@ def detail(data, item):
         continuation = "继续阅读相关的作品与表演资料。" if site == "arkham" else "继续阅读动画作品与表演资料。"
         body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>从这份作品档案回到凯文·康罗伊的人物档案，{continuation}</p></a></section>'
     body += pager(data, item)
-    body += f'<section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></div>'
+    body += '</div></div>'
     return shell(data, site, item["title"], body, "catalog")
 
 
@@ -118,12 +118,12 @@ def pager(data, item):
 
 def caped_series(data):
     item = data["capedCrusader"]
-    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a><a href="#sources">资料来源</a></nav><div class="reading">'
+    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a></nav><div class="reading">'
     body += ''.join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
     body += '<section id="programme"><h2>第一季节目单</h2><p>按Prime Video节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第一季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["episodes"]) + '</ol></section>'
     body += '<section id="programme-season2"><h2>第二季节目单</h2><p>按Prime Video第二季节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第二季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["season2Episodes"]) + '</ol></section>'
     body += '<section><h2>图片资料</h2>' + image_gallery("tas", "caped-crusader") + '</section>'
-    body += f'<section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>查阅BTAS全集目录，对照两座不同时代的动画哥谭。</p></a></section><section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></section>'
+    body += f'<section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>查阅BTAS全集目录，对照两座不同时代的动画哥谭。</p></a></section></div></section>'
     return shell(data, "tas", item["title"], body, "caped")
 
 
@@ -151,5 +151,5 @@ def person(data, site):
     p = data["person"]
     memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">返回Dark Deco</a>'
     body = f'<section class="memorial-hero"><p class="label">{'<i data-arkham-icon="voice"></i>' if site == "arkham" else ""}BATCAVECN / SHARED CREATOR ARCHIVE</p><p class="original">{esc(p["original"])} · {esc(p["years"])}</p><h1>{esc(p["title"])}<span>{esc(p["subtitle"])}</span></h1><p class="lead">{esc(p["intro"])}</p><div class="memorial-links">{memorial_links}</div></section><div class="section">{person_chapters(data, site)}'
-    body += f'<section><h2>原始资料与延伸阅读</h2>{sources(data, p["sources"])}</section></div></div>'
+    body += '</div></div>'
     return shell(data, site, p["title"], body, "person")

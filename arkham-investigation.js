@@ -89,7 +89,6 @@
       const paragraph = document.createElement('p'); paragraph.textContent = e.body;
       node('evidence-body').replaceChildren(paragraph);
       node('evidence-links').innerHTML = e.linksHtml;
-      node('evidence-sources').innerHTML = e.sourceHtml;
       chain();
     }
     function finishScan() {
@@ -145,8 +144,6 @@
       node('location').textContent = `${current.game} · ${current.region}`;
       const image = node('scene-image');
       image.src = current.src; image.alt = current.caption; image.width = current.width; image.height = current.height;
-      node('scene-caption').textContent = current.caption;
-      node('scene-source').innerHTML = current.sourceHtml;
       node('scan').style.left = `${current.hotspot.x}%`;
       node('scan').style.top = `${current.hotspot.y}%`;
       node('scan').setAttribute('aria-label', '扫描' + current.evidence[0].title);
@@ -162,7 +159,7 @@
         node('evidence-label').textContent = 'AWAITING SCAN';
         node('evidence-title').textContent = '现场等待扫描';
         node('evidence-body').innerHTML = '<p>激活侦探模式，选择画面中的扫描点，再依次调取人物与历史档案。</p>';
-        node('evidence-links').replaceChildren(); node('evidence-sources').replaceChildren();
+        node('evidence-links').replaceChildren();
       }
       if (updateHash) history.replaceState(null, '', '#case-' + current.id);
     }
@@ -185,6 +182,16 @@
     syncMotion();
   }
 
+  const historyAudio = [...document.querySelectorAll('[data-history-audio] audio')];
+  if (historyAudio.length) {
+    historyAudio.forEach(audio => {
+      audio.addEventListener('playing', () => historyAudio.forEach(other => { if (other !== audio) other.pause(); }));
+      const details = audio.closest('details');
+      details.addEventListener('toggle', () => { if (!details.open) audio.pause(); });
+    });
+    document.addEventListener('visibilitychange', () => { if (document.hidden) historyAudio.forEach(audio => audio.pause()); });
+    window.addEventListener('pagehide', () => historyAudio.forEach(audio => audio.pause()));
+  }
   const recordings = [...document.querySelectorAll('[data-audio-recording]')];
   if (!recordings.length) return;
   let active, frame, context;
@@ -202,6 +209,13 @@
     if (!sub) return;
     const subZh = sub.querySelector?.('.sub-zh');
     const subEn = sub.querySelector?.('.sub-en');
+    if (active.tape.summary) {
+      if (subZh && subEn) {
+        subZh.textContent = active.tape.summary;
+        subEn.textContent = '';
+      } else sub.textContent = active.tape.summary;
+      return;
+    }
     if (subZh && subEn) {
       subZh.textContent = cue?.text || (active.audio.ended ? '本段通讯截获完毕。' : '…');
       subEn.textContent = cue?.en || (active.audio.ended ? 'Transmission concluded.' : '…');
@@ -290,12 +304,14 @@
     function load() {
       if ((details && !details.open) || file.hidden) return;
       stop(); active = {file, audio, tape: tapes[selectedTape]};
+      const heading = file.querySelector('[data-transcript-heading]');
+      if (heading) heading.textContent = active.tape.summary ? 'LISTENING NOTES · 本段导读' : 'AUDIO TRANSCRIPT · 实时字幕';
       audio.src = active.tape.src; audio.hidden = false;
       if (button) button.hidden = true;
       subtitles(); status(file, '正在载入录音…');
       try { audioGraph(audio); } catch { /* Native audio still works without Web Audio. */ }
       audio.play().catch(() => {
-        if (current()) status(file, '点击播放器继续播放；若录音无法载入，可打开下方原页。');
+        if (current()) status(file, '点击播放器继续播放。');
       });
     }
     tapeButtons.forEach((choice, index) => choice.addEventListener('click', () => {
@@ -328,10 +344,38 @@
   });
   document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
   window.addEventListener('pagehide', stop);
+  const transmissionTerminal = document.querySelector('[data-transmissions-terminal]');
+  if (transmissionTerminal) {
+    const channels = [...transmissionTerminal.querySelectorAll('[data-transmission-channel]')];
+    const links = [...transmissionTerminal.querySelectorAll('[data-channel]')];
+    const games = [...transmissionTerminal.querySelectorAll('[data-recording-game]')];
+    let selectedChannel;
+    function selectChannel(id, updateHash = true) {
+      const next = channels.find(file => file.dataset.transmissionChannel === id) || channels[0];
+      if (!next) return;
+      if (selectedChannel !== next) stop();
+      selectedChannel = next;
+      channels.forEach(file => { file.hidden = file !== next; });
+      links.forEach(link => {
+        link.hidden = link.dataset.game !== next.dataset.game;
+        if (link.dataset.channel === next.dataset.transmissionChannel) link.setAttribute('aria-current', 'true');
+        else link.removeAttribute('aria-current');
+      });
+      games.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.recordingGame === next.dataset.game)));
+      if (updateHash) history.replaceState(null, '', '#channel-' + next.dataset.transmissionChannel);
+    }
+    links.forEach(link => link.addEventListener('click', event => { event.preventDefault(); selectChannel(link.dataset.channel); }));
+    games.forEach(button => button.addEventListener('click', () => {
+      selectChannel(channels.find(file => file.dataset.game === button.dataset.recordingGame)?.dataset.transmissionChannel);
+    }));
+    window.addEventListener('hashchange', () => selectChannel(location.hash.replace('#channel-', ''), false));
+    selectChannel(location.hash.replace('#channel-', ''), false);
+  }
   const terminal = document.querySelector('[data-patient-terminal]');
   if (!terminal) return;
   const files = [...terminal.querySelectorAll('[data-patient-file]')];
   const selectors = [...terminal.querySelectorAll('[data-patient]')];
+  const games = [...terminal.querySelectorAll('[data-recording-game]')].filter(button => button.dataset.recordingGame);
   let selected;
   function select(id, updateHash = true) {
     const next = files.find(file => file.dataset.patientFile === id) || files[0];
@@ -339,12 +383,17 @@
     selected = next;
     files.forEach(file => { file.hidden = file !== selected; if (file !== selected) file.querySelector('details').open = false; });
     selectors.forEach(link => {
+      link.hidden = (link.dataset.game || 'asylum') !== (selected.dataset.game || 'asylum');
       if (link.dataset.patient === selected.dataset.patientFile) link.setAttribute('aria-current', 'true');
       else link.removeAttribute('aria-current');
     });
+    games.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.recordingGame === selected.dataset.game)));
     if (updateHash) history.replaceState(null, '', '#patient-' + selected.dataset.patientFile);
   }
   selectors.forEach(link => link.addEventListener('click', event => { event.preventDefault(); select(link.dataset.patient); }));
+  games.forEach(button => button.addEventListener('click', () => {
+    select(files.find(file => file.dataset.game === button.dataset.recordingGame)?.dataset.patientFile);
+  }));
   window.addEventListener('hashchange', () => select(location.hash.replace('#patient-', ''), false));
   select(location.hash.replace('#patient-', ''), false);
 })();

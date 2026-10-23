@@ -1,7 +1,7 @@
 (() => {
   if (!document.body.classList.contains('arkham')) return;
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
-  let scene, base, next, caption, toggle, slides = [];
+  let scene, base, next, toggle, slides = [];
   let timer, fadeTimer, current, pending, fading = false, generation = 0;
   let enabled = true;
   const loaded = new Map();
@@ -38,7 +38,6 @@
     next.classList.add('menu-background-next');
     scene.classList.remove('dissolving');
     fading = false;
-    caption.textContent = current.caption;
     const queued = pending;
     pending = null;
     if (queued) show(queued);
@@ -55,7 +54,6 @@
     current = slide;
     if (motion.matches || !visible() || !enabled) {
       base.src = slide.src;
-      caption.textContent = slide.caption;
       schedule();
       return;
     }
@@ -85,7 +83,6 @@
     if (!scene) return;
     base = scene.querySelector('.menu-background-base');
     next = scene.querySelector('.menu-background-next');
-    caption = document.querySelector('#menu-background-caption');
     toggle = document.querySelector('#menu-background-toggle');
     slides = JSON.parse(scene.dataset.slides);
     current = slides[0];

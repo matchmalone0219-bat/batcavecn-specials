@@ -11,6 +11,10 @@ def build_interactions(data, shell):
     archive = json.loads((ROOT / 'arkham-archive-research.json').read_text())
     patients = json.loads((ROOT / 'patient-interviews.json').read_text())
     transmissions = json.loads((ROOT / 'arkham-transmissions.json').read_text())
+    portraits = json.loads((ROOT / 'recording-portraits.json').read_text())
+    portrait_assets = {asset['id']: asset for asset in portraits['assets']}
+    assert set(portraits['patients']) == {patient['id'] for patient in patients['patients']}
+    assert set(portraits['channels']) == {channel['id'] for channel in transmissions['channels']}
     cases = json.loads((ROOT / 'arkham-interactions.json').read_text())['cases']
     sources = {s['id']: s for packet in (research, archive, patients, transmissions) for s in packet['sources']}
     images = {i['id']: i for i in research['images']}
@@ -18,8 +22,11 @@ def build_interactions(data, shell):
     topics = {c['id']: c for c in research['cases']}
     records = []
 
-    def refs(ids):
-        return '<div class="terminal-sources">' + ''.join(f'<a href="{esc(sources[id]["url"])}">{esc(sources[id]["title"])} ↗</a>' for id in ids) + '</div>'
+    def portrait(group, record_id, small=False):
+        asset = portrait_assets[portraits[group][record_id]]
+        classes = 'recording-portrait' + (' recording-portrait--small' if small else '')
+        alt = '' if small else asset['alt']
+        return f'<img class="{classes}" src="/assets/media/{esc(asset["file"])}" width="{asset["width"]}" height="{asset["height"]}" alt="{esc(alt)}" loading="lazy" decoding="async">'
 
     def links(items):
         return '<div class="terminal-links">' + ''.join(f'<a href="{esc(i["url"])}">{esc(i["title"])}</a>' for i in items) + '</div>'
@@ -40,10 +47,10 @@ def build_interactions(data, shell):
         assert 0 <= c['hotspot']['x'] <= 100 and 0 <= c['hotspot']['y'] <= 100
         for e in c['evidence']:
             assert set(e['sources']) <= sources.keys()
-        item = dict(c, number=f'{n:02d}', src='/assets/media/' + image['file'], width=image['width'], height=image['height'], caption=image['caption'], sourceHtml=refs([image['source']]))
-        item['evidence'] = [dict(e, sourceHtml=refs(e['sources']), linksHtml=links(e['links'])) for e in c['evidence']]
+        item = dict(c, number=f'{n:02d}', src='/assets/media/' + image['file'], width=image['width'], height=image['height'], caption=image['caption'])
+        item['evidence'] = [dict(e, linksHtml=links(e['links'])) for e in c['evidence']]
         case_data.append(item)
-        fallback += f'<article id="case-{esc(c["id"])}"><h2>{esc(c["title"])}</h2><p>{esc(c["game"])} · {esc(c["region"])}</p><img src="{item["src"]}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["caption"])}">' + ''.join(f'<h3>{esc(e["title"])}</h3>{paragraphs(e["body"])}{links(e["links"])}{refs(e["sources"])}' for e in c['evidence']) + f'<h3>案件总结</h3>{paragraphs(c["summary"])}</article>'
+        fallback += f'<article id="case-{esc(c["id"])}"><h2>{esc(c["title"])}</h2><p>{esc(c["game"])} · {esc(c["region"])}</p><img src="{item["src"]}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["caption"])}">' + ''.join(f'<h3>{esc(e["title"])}</h3>{paragraphs(e["body"])}{links(e["links"])}' for e in c['evidence']) + f'<h3>案件总结</h3>{paragraphs(c["summary"])}</article>'
         record(c['title'] + ' · 案件重建', c['subtitle'], '/arkham/detective/#case-' + c['id'])
 
     payload = json.dumps(case_data, ensure_ascii=False).replace('<', '\\u003c')
@@ -55,11 +62,11 @@ def build_interactions(data, shell):
 <div class="investigation-workspace" hidden data-workspace>
 <section class="scene-console"><div class="console-bar"><span data-case-number>CASE 01</span><button type="button" class="terminal-motion" data-motion aria-pressed="true">终端动效：开</button><span data-mode-label>NORMAL VISION</span></div><h2 data-case-title>{esc(first['title'])}</h2><p class="scene-location" data-location>{esc(first['game'])} · {esc(first['region'])}</p>
 <div class="investigation-scene" data-scene><img data-scene-image src="{first['src']}" width="{first['width']}" height="{first['height']}" alt="{esc(first['caption'])}"><div class="scan-grid" aria-hidden="true"></div><button type="button" class="scan-hotspot" data-scan hidden aria-label="扫描现场物件"><span>01</span><small>SCAN</small></button></div>
-<div class="scan-controls"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span></div><p class="fine" data-scene-caption>{esc(first['caption'])}</p><div data-scene-source>{first['sourceHtml']}</div></section>
-<aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><p class="terminal-feedback" data-feedback role="status">普通视野</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div><div data-evidence-sources></div></div></aside></div>
+<div class="scan-controls"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span></div></section>
+<aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><p class="terminal-feedback" data-feedback role="status">普通视野</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div></div></aside></div>
 <section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
 <div class="terminal-fallback" data-case-fallback>{fallback}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>打开七组重点收治对象问诊录音，审查异常心理评估。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a></div>
+<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>选择游戏与角色，聆听患者问诊录音。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>收听电话留言、广播访谈与案件录音。</p></a></div>
 <script type="application/json" data-case-data>{payload}</script></section>'''
 
     def make_nab_spool(is_left=True, uid='spool'):
@@ -155,17 +162,21 @@ def build_interactions(data, shell):
         for x, w in [(4, 2), (8, 4), (14, 1), (17, 3), (22, 1), (25, 4), (31, 2), (35, 1), (38, 4), (44, 2), (48, 1), (51, 3), (56, 4), (62, 1), (65, 3), (70, 2), (74, 4), (80, 1), (83, 3), (88, 2), (92, 4), (98, 1), (101, 3), (106, 2), (110, 4), (116, 2), (120, 1), (123, 3), (128, 4), (134, 2)]
     ) + '</svg>'
 
+    def game_tabs(games):
+        return '<nav class="recording-game-tabs" aria-label="选择游戏">' + ''.join(f'<button type="button" data-recording-game="{esc(key)}" aria-pressed="{str(n == 0).lower()}">{esc(title)}</button>' for n, (key, title) in enumerate(games)) + '</nav>'
+
     registers = ''
     panels = ''
     for n, p in enumerate(patients['patients'], 1):
         assert set(p['sources']) <= sources.keys()
-        monogram = ''.join(w[0] for w in p['english'].split() if w != 'The')
+        game_id = p.get('gameId', 'asylum')
+        game_name = p.get('game', '阿卡姆疯人院')
         uid_l = f"p{n}-l"
         uid_r = f"p{n}-r"
         spool_l = make_nab_spool(True, uid_l)
         spool_r = make_nab_spool(False, uid_r)
-        registers += f'<a href="#patient-{p["id"]}" data-patient="{p["id"]}"><span class="rack-mount-rivet" aria-hidden="true"></span><span class="patient-slot-num">{n:02d}</span><span class="patient-slot-info"><strong>{esc(p["name"])}</strong><small>{esc(p["english"])}</small></span><span class="patient-slot-status"><span class="inmate-status-pip" aria-hidden="true"></span><span class="patient-tape-pips" aria-hidden="true">■■■■■</span></span></a>'
-        panels += f'''<article class="patient-file" id="patient-{p['id']}" data-patient-file="{p['id']}" data-audio-recording>
+        registers += f'<a href="#patient-{p["id"]}" data-patient="{p["id"]}" data-game="{game_id}"><span class="patient-slot-num">{n:02d}</span>{portrait("patients", p["id"], small=True)}<span class="patient-slot-info"><strong>{esc(p["name"])}</strong><small>{esc(p["english"])}</small></span><span class="patient-slot-status"><span class="inmate-status-pip" aria-hidden="true"></span><span class="patient-tape-pips" aria-hidden="true">{"■" * len(p["tapes"])}</span></span></a>'
+        panels += f'''<article class="patient-file" id="patient-{p['id']}" data-patient-file="{p['id']}" data-game="{game_id}" data-audio-recording>
 <span class="chassis-bolt bolt-tl" aria-hidden="true"></span>
 <span class="chassis-bolt bolt-tr" aria-hidden="true"></span>
 <span class="chassis-bolt bolt-bl" aria-hidden="true"></span>
@@ -175,11 +186,11 @@ def build_interactions(data, shell):
 <span class="case-badge">RECORD INDEX {n:02d} // SEC-0{n}</span>
 <span class="dept-badge">PSYCHIATRIC EVALUATION DIVISION</span>
 </div>
-<span class="security-level">ARKHAM ASYLUM // MAXIMUM SECURITY</span>
+<span class="security-level">{esc(game_name)} // MAXIMUM SECURITY</span>
 </div>
 <div class="patient-identity">
 <div class="patient-monogram-frame">
-<span class="patient-monogram" aria-hidden="true">{esc(monogram)}</span>
+{portrait('patients', p['id'])}
 <span class="monogram-tag" aria-hidden="true">INMATE #{1000 + n * 137}</span>
 </div>
 <div class="patient-dossier-meta">
@@ -314,73 +325,74 @@ def build_interactions(data, shell):
 </div>
 </div>
 {recording_controls(p)}
-<div class="terminal-links">
-<a href="/arkham/archive/interviews/#{p['id']}">人物阅读档案</a>
-</div>
-{refs(p['sources'])}
+
 </details>
 </article>'''
-        record(p['name'] + ' · 患者终端', p['angle'], '/arkham/patients/#patient-' + p['id'])
+        records.append(dict(title=p['name'] + ' · ' + game_name + '访谈', original=p['english'] + ' · Patient Interviews', summary=p['angle'], tags=['调查终端', '患者访谈', '原声录音', game_name, p['english']], site='arkham', status='互动档案', url='/arkham/patients/#patient-' + p['id']))
     terminal = f'''<section class="section arkham-investigation arkham-patient-terminal" data-patient-terminal>
 <div class="terminal-heading">
 <div class="terminal-heading-tags">
-<p class="label"><i data-arkham-icon="patient"></i>ARKHAM ASYLUM // PSYCHIATRIC RECORD SYSTEM</p>
-<span class="system-status-pips" aria-hidden="true">■■■■■ 7/7 INMATES ARCHIVED · LEVEL 4 RESTRICTED</span>
+<p class="label"><i data-arkham-icon="patient"></i>ARKHAM // PATIENT INTERVIEW ARCHIVE</p>
+<span class="system-status-pips" aria-hidden="true">{len(patients["patients"])} SUBJECT FILES · LEVEL 4 RESTRICTED</span>
 </div>
 <h1>患者终端</h1>
 <p class="lead">调取阿卡姆收治档案，审查临床问诊录音与罪犯心理防御机制。</p>
-<p class="fine">收录阿卡姆疯人院 7 组角色共 35 盘现场心理评估录音 · 原声访谈与中文字幕</p>
+<p class="fine">《疯人院》35 盘 · 《之城》34 盘 · 选择游戏与角色收听原声</p>
 </div>
+{game_tabs([("asylum", "阿卡姆疯人院"), ("city", "阿卡姆之城")])}
 <div class="patient-workspace">
 <nav class="patient-selector" aria-label="选择患者">{registers}</nav>
 <div class="patient-files">{panels}</div>
 </div>
 <div class="terminal-footer">
 <a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>进入现场调查</h2><p>扫描现场物证，沿证据链追查嫌疑人作案动机与背景。</p></a>
-<a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>截获小丑秘密电话留言与终局绝唱录音。</p></a>
+<a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>收听电话留言、广播访谈与案件录音。</p></a>
 </div>
 </section>'''
     record('案件重建 · Detective Mode', '扫描现场物证，沿物证链推演案情始末与嫌犯背景。', '/arkham/detective/')
-    record('患者终端', '七组患者临床心理评估录音与导读档案。', '/arkham/patients/')
+    record('患者终端', '《疯人院》与《之城》的患者访谈原声与导读。', '/arkham/patients/')
 
     channels = transmissions['channels']
     channel_cards = ''
     panels_trans = ''
     for n, ch in enumerate(channels, 1):
         assert set(ch['sources']) <= sources.keys()
-        channel_cards += f'<a class="transmission-channel-card" href="#channel-{ch["id"]}" aria-current="true"><p class="label">FREQUENCY: {esc(ch["frequency"])}</p><h3>{esc(ch["title"])}</h3><p>{esc(ch["game"])} · {esc(ch["speaker"])} ({esc(ch["actor"])})</p></a>'
+        actor_note = ' · 配音：' + ch['actor'] if ch.get('actor') else ''
+        channel_cards += f'<a class="transmission-channel-card" href="#channel-{ch["id"]}" data-channel="{ch["id"]}" data-game="{ch["gameId"]}">{portrait("channels", ch["id"], small=True)}<div><p class="label">CHANNEL: {esc(ch["frequency"])}</p><h3>{esc(ch["title"])}</h3><p>{esc(ch["game"])} · {esc(ch["speaker"])}</p></div></a>'
         track_rows = ''.join(
             f'<tr><td>{t["number"]:02d}</td><td><strong>{esc(t["title"])}</strong><br><small>{esc(t["englishTitle"])}</small></td><td>{esc(t["phase"])}</td><td>{int(t["duration"])//60}:{int(t["duration"])%60:02d}</td></tr>'
             for t in ch['tracks']
         )
-        panels_trans += f'''<article class="transmission-file" id="channel-{ch['id']}" data-transmission-channel="{ch['id']}" data-audio-recording>
-<div class="console-bar"><span>CRYPTOGRAPHIC SEQUENCER · FREQUENCY {esc(ch['frequency'])}</span><span>{esc(ch['game'])}</span></div>
+        panels_trans += f'''<article class="transmission-file" id="channel-{ch['id']}" data-transmission-channel="{ch['id']}" data-game="{ch['gameId']}" data-audio-recording>
+<div class="console-bar"><span>CRYPTOGRAPHIC SEQUENCER · CHANNEL {esc(ch['frequency'])}</span><span>{esc(ch['game'])}</span></div>
 <div class="patient-identity">
-<span class="patient-monogram" aria-hidden="true" style="color:#2fe58b;border-color:#2fe58b55;background:repeating-linear-gradient(0deg,#091a11 0 3px,#0c2317 3px 4px)">{esc(ch['speaker'][0])}</span>
-<div><p class="label">INTERCEPTED FREQUENCY · 截获通信</p><h2>{esc(ch['title'])}</h2><p>{esc(ch['englishTitle'])}</p><p class="fine">发信人：{esc(ch['speaker'])} ({esc(ch['speakerEnglish'])}) · 配音：{esc(ch['actor'])} · 载具/装置：{esc(ch['device'])}</p></div>
+{portrait('channels', ch['id'])}
+<div><p class="label">INTERCEPTED FREQUENCY · 截获通信</p><h2>{esc(ch['title'])}</h2><p>{esc(ch['englishTitle'])}</p><p class="fine">发信人：{esc(ch['speaker'])} ({esc(ch['speakerEnglish'])}){esc(actor_note)} · {esc(ch['device'])}</p></div>
 </div>
 <div class="listening-question"><p class="label">TRANSMISSION OVERVIEW / 信道背景</p><p>{esc(ch['summary'])}</p></div>
+<details class="spoiler transmission-recording"><summary>原声与录音导读 · 含剧透</summary>
 {transmission_controls(ch)}
 <div class="transmission-lore">
 <p class="label">TACTICAL ANALYSIS / 叙事解构与背景</p>
-<h2>泰坦绝症下的病态共生</h2>
+<h2>{esc(ch.get("loreTitle", "泰坦绝症下的病态共生"))}</h2>
 <p>{esc(ch['loreIntro'])}</p>
 <table class="data-table" style="margin-top:16px;width:100%;font-size:13px">
 <thead><tr><th>编号</th><th>录音标题</th><th>触发阶段</th><th>时长</th></tr></thead>
 <tbody>{track_rows}</tbody>
 </table>
 </div>
-{refs(ch['sources'])}
+</details>
 </article>'''
         record(ch['title'] + ' · 频段监听', ch['summary'], '/arkham/transmissions/#channel-' + ch['id'])
 
     terminal_trans = f'''<section class="section arkham-investigation" data-transmissions-terminal>
-<div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">使用密码破译器调谐哥谭频段，截获并解密未公开的通话与无线电留言。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+<div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">调取哥谭的电话留言、广播访谈、密谈与案件录音。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+{game_tabs([("arkham-city", "阿卡姆之城"), ("arkham-knight", "阿卡姆骑士")])}
 <div class="transmission-channels" aria-label="可用频段">{channel_cards}</div>
 <div class="transmission-workspace">{panels_trans}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>聆听阿卡姆疯人院内部病患心理访谈录音。</p></a><a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>激活侦探模式，从现场遗留物件串联完整证据链。</p></a></div>
+<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>聆听《疯人院》与《之城》的患者访谈录音。</p></a><a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>激活侦探模式，从现场遗留物件串联完整证据链。</p></a></div>
 </section>'''
-    record('频段监听 · Cryptographic Sequencer', '调谐密码破译器频段，截获小丑电话留言与片尾绝唱《Only You》。', '/arkham/transmissions/')
+    record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 
     return {
         'arkham/detective/index.html': page('案件重建', detective),

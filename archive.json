@@ -1708,7 +1708,7 @@
         {
           "id": "service-history",
           "title": "多人模式的服务记录",
-          "body": "《起源》的Steam公告记载，多人线上服务于2016年12月4日退役。原作、剧情扩展、挑战包与线上模式的服务记录属于不同字段；阅读某一平台的商品信息时，需要对应到具体内容类型。"
+          "body": "《起源》的多人线上服务于2016年12月4日退役。剧情扩展、挑战包与多人模式各有不同的游玩内容。"
         }
       ],
       "spoiler": "",
@@ -1793,7 +1793,7 @@
         {
           "id": "challenges",
           "title": "挑战与外观的不同用途",
-          "body": "Crime Fighter Challenge Packs增加格斗、潜行与双人合作等AR挑战；WayneTech Track Pack增加蝙蝠车赛道。人物战衣和战车涂装则改变外观，不能仅凭造型将其当成另一部作品的剧情接续。\n电影造型进入游戏，提供的是可操作的视觉版本。阅读这类素材时，角色故事、挑战场景与外观出处各自保留，便能看清一种形象进入游戏后承担了什么功能。"
+          "body": "Crime Fighter Challenge Packs增加格斗、潜行与双人合作等AR挑战；WayneTech Track Pack增加蝙蝠车赛道。人物战衣和战车涂装提供跨作品主题的可选外观。\n电影造型进入游戏，提供的是可操作的视觉版本。阅读这类素材时，角色故事、挑战场景与外观出处各自保留，便能看清一种形象进入游戏后承担了什么功能。"
         },
         {
           "id": "ending-context",
@@ -1864,7 +1864,7 @@
         {
           "id": "versions",
           "title": "2013年原版与2014年豪华版",
-          "body": "2013年10月25日的原版首发于PS Vita与Nintendo 3DS；Steam的Deluxe Edition于2014年4月1日发行。豪华版商店说明列出新增地图、敌人遭遇、难度等级、战衣与强化画面，作品目录仍以2013年掌机原作为起点。\n原版与豪华版各自保留平台和日期。PC版截图在图片资料中标为Deluxe Edition，不能仅因标题相近就把2014年的素材当作2013年掌机版本的画面。"
+          "body": "2013年10月25日的原版首发于PS Vita与Nintendo 3DS；Steam的Deluxe Edition于2014年4月1日发行。豪华版商店说明列出新增地图、敌人遭遇、难度等级、战衣与强化画面，作品目录仍以2013年掌机原作为起点。\n2013年掌机原版与2014年豪华版分别记录平台和发售日期；图片资料中的PC版画面来自Deluxe Edition。"
         },
         {
           "id": "place",
@@ -2927,7 +2927,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。辅助资料列Tokyo Movie Shinsha为动画制作公司，Shirley Walker为配乐作者。\nRichard Moll同时呈现哈维与双面人的声音。可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇由另一家动画公司制作。"
+          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。Tokyo Movie Shinsha制作动画，Shirley Walker配乐。\nRichard Moll同时呈现哈维与双面人的声音。可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇由另一家动画公司制作。"
         },
         {
           "id": "records",
@@ -3212,7 +3212,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。音乐资料须分开读：Composer为Todd Hayen，Supervising Composer为Shirley Walker。比较维克托的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
+          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。Composer署名Todd Hayen，Supervising Composer署名Shirley Walker。比较维克托的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
         },
         {
           "id": "records",
@@ -3352,7 +3352,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "本篇接续指南013的上篇，指南016的位置不等于两段故事相隔三次事件。按故事阅读时，两篇应连在一起。"
+          "body": "本篇在指南中编号016，故事直接接续编号013的上篇，两篇适合连读。"
         }
       ],
       "spoiler": "蝙蝠侠与猫女挣脱束缚，阻止基地中的病原体危机。合作之后，蝙蝠侠仍须面对赛琳娜的盗窃行为，亲近没有使她自动免于法律责任。",
@@ -4455,7 +4455,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "本集署名在辅助档案中列为Dini编剧、Timm导演、Walker配乐与Dong Yang动画制作；小丑和哈莉英语配音分别为Hamill与Sorkin。\n宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。"
+          "body": "本集由Dini编剧、Timm导演、Walker配乐，Dong Yang制作动画；小丑和哈莉英语配音分别为Hamill与Sorkin。\n宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。"
         },
         {
           "id": "records",
@@ -4888,7 +4888,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐及Blue Pencil动画制作；John Glover为谜语人配音。\n角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
+          "body": "David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐，Blue Pencil制作动画；John Glover为谜语人配音。\n角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
         },
         {
           "id": "records",
@@ -5529,7 +5529,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dick Sebast导演、Richard Bronskill配乐及Akom动画制作。The World’s Finest编剧栏列名Marty Isenberg与Rober N. Skir。\n当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
+          "body": "Dick Sebast导演、Richard Bronskill配乐，Akom制作动画。The World’s Finest编剧栏列名Marty Isenberg与Rober N. Skir。\n当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
         },
         {
           "id": "records",
@@ -6034,7 +6034,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dini编剧、Boyd Kirkland导演、Walker配乐与Dong Yang动画制作；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。"
+          "body": "Dini编剧、Boyd Kirkland导演、Walker配乐，Dong Yang制作动画；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。"
         },
         {
           "id": "records",
@@ -7690,7 +7690,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案分别列Alan Burnett、Paul Dini、Randy Rogel为故事作者，Randy Rogel为电视剧本作者；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
+          "body": "故事作者为Alan Burnett、Paul Dini与Randy Rogel，Randy Rogel执笔电视剧本；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
         },
         {
           "id": "records",
@@ -8395,7 +8395,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "这是TNBA指南首篇，三段式不等于三集独立节目。可与BTAS《小丑的圣诞节》比较节日如何承载不同人物的日常。"
+          "body": "本篇为TNBA指南首篇，由三段故事组成。可与BTAS《小丑的圣诞节》比较节日如何承载不同人物的日常。"
         }
       ],
       "gaps": "制作代码、首播地区及影音序号不以指南编号推断；英语配音字段为主要角色节选。",
@@ -9064,7 +9064,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "观察烟雾与火光怎样影响可见范围。科技装置推动冲突，本集不沿用漫画中所有不同版本的起源设定。"
+          "body": "观察烟雾与火光怎样影响可见范围。本集中的萤火虫利用科技装置制造威胁。"
         }
       ],
       "gaps": "制作代码、首播地区及影音序号不以指南编号推断；英语配音字段为主要角色节选。",
