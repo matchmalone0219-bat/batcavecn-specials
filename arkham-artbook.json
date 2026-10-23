@@ -1,0 +1,2384 @@
+{
+  "book": {
+    "id": "rocksteady-2015",
+    "title": "The Art of Rocksteady’s Batman: Arkham Asylum / Arkham City / Arkham Knight",
+    "authors": [
+      "Daniel Wallace"
+    ],
+    "publisher": "Abrams",
+    "year": 2015,
+    "isbn": "978-1-4197-1385-9",
+    "scope": "Rocksteady三部曲的角色、环境、装备、动画与声音设计",
+    "copyright": "© DC / Warner Bros. / Rocksteady Studios；书籍及图像权利归各权利人。"
+  },
+  "images": [
+    {
+      "id": "a01-vision",
+      "file": "artbook/arkham/a01-vision.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《疯人院》蝙蝠侠宣传渲染",
+      "kind": "宣传渲染后期绘制",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (5).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "c57bf8e895962b72c685c4daaf6d38d72d00e013e3d74d2ea6631d150bd14237"
+        }
+      ],
+      "sha256": "000f24cdf07aeb384b1f3d557fea28d04518b71c03154bf8ed3ce2a9b345e4bc",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a01-arrival",
+      "file": "artbook/arkham/a01-arrival.jpg",
+      "width": 1800,
+      "height": 1239,
+      "alt": "雨中的蝙蝠侠游戏画面",
+      "kind": "游戏画面",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (6).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d7fc43e2a8184e0cc055e6bc0dc7bc6f9b518f9af5af3593a025010b3936a29f"
+        }
+      ],
+      "sha256": "6c58e1928981e3ef33181e73eca1f4fad6d5cb0b78cc76ee78e0979592791e7e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a01-legacy",
+      "file": "artbook/arkham/a01-legacy.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《之城》宣传形象与城市背景",
+      "kind": "宣传渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (150).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "ce7ea7ebcbd377ac5c632904fb1872c405dc3dc39c2a21b1daf131419f686a99"
+        }
+      ],
+      "sha256": "66b31a9fab875cfe2be99376a4d5712532e9f1d4a8160e3d4b89182ef498402b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a02-pencil",
+      "file": "artbook/arkham/a02-pencil.jpg",
+      "width": 981,
+      "height": 1800,
+      "alt": "早期高瘦蝙蝠侠与滴水兽草案",
+      "kind": "概念草图",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (15).jpg",
+          "cropNormalized": [
+            0.51,
+            0.32,
+            0.72,
+            0.88
+          ],
+          "cropPixels": [
+            2565,
+            1108,
+            3621,
+            3046
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "a99c901a1a94fc2b51b70bcc36d949d55042e35101e3703603814ba4d1eede01"
+        }
+      ],
+      "sha256": "5c8375162a8ade55005fc43db6de38f281faded99905dc5c511f3c82e7f9d204",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a02-croc",
+      "file": "artbook/arkham/a02-croc.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "鳞片与链条构成的杀手鳄模型",
+      "kind": "游戏角色渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (16).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "3e8248d833b762068a54587ec7bcee33743f478faa484d18c6ac567265ed26f4"
+        }
+      ],
+      "sha256": "f3cccdd4d714ba0637d837fc3d1e83c97a45906fcb21781cfde53290362e241e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a02-batman",
+      "file": "artbook/arkham/a02-batman.jpg",
+      "width": 1800,
+      "height": 1184,
+      "alt": "胸徽与体形不同的两版蝙蝠侠草案",
+      "kind": "概念草图",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (19).jpg",
+          "cropNormalized": [
+            0.04,
+            0.03,
+            0.49,
+            0.46
+          ],
+          "cropPixels": [
+            201,
+            104,
+            2464,
+            1592
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "6de308adad8716eb64123aa533b994e441076c40550f3bce44cfaae1f53159ae"
+        }
+      ],
+      "sha256": "9ad4f760f20ed5967b0949de7ec95e2284ef95ddb6e01b444c27a8352bf53fc5",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a03-exterior",
+      "file": "artbook/arkham/a03-exterior.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "尖顶与入口体量夸张的疯人院外景",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Drew Wilson",
+      "sources": [
+        {
+          "sourceFile": "1 (30).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "b7a326b93752776385e02d59ebb1669fcc9ff1d6b8400b5324da438a99a2e14f"
+        }
+      ],
+      "sha256": "92988986caef0ae41335cb586dd41dd45f214bef0c5abb63b5b71468cde21494",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a03-light",
+      "file": "artbook/arkham/a03-light.jpg",
+      "width": 1800,
+      "height": 822,
+      "alt": "高大室内以冷色光突出行进方向",
+      "kind": "光照研究",
+      "group": "环境",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (34).jpg",
+          "cropNormalized": [
+            0,
+            0.17,
+            0.49,
+            0.495
+          ],
+          "cropPixels": [
+            0,
+            588,
+            2464,
+            1713
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d50e8bd6c6c398c51ade84568601eff7644f80b8d681431c5ef9a21a2298a705"
+        }
+      ],
+      "sha256": "3d05aaa1e5fefb249e10dd6b14b14c2890302674539a0067ea173e1131d5c3a3",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a03-pipes",
+      "file": "artbook/arkham/a03-pipes.jpg",
+      "width": 1349,
+      "height": 1800,
+      "alt": "管线模块与巨门组成的室内设计",
+      "kind": "环境设计组件",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (36).jpg",
+          "cropNormalized": [
+            0.005,
+            0.02,
+            0.495,
+            0.97
+          ],
+          "cropPixels": [
+            25,
+            69,
+            2489,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2188d816475883d2dbecd120edeb0440bacdef7a7850cdffb51f9b243fecc41b"
+        }
+      ],
+      "sha256": "2fa4d41b96b5b28a36bd8a090cdc3029cdfe5bb7d1cb98c5a701e12b44140da0",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a04-cape",
+      "file": "artbook/arkham/a04-cape.jpg",
+      "width": 1800,
+      "height": 918,
+      "alt": "披风开口与布料运动探索",
+      "kind": "动作设计草图",
+      "group": "装备",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (58).jpg",
+          "cropNormalized": [
+            0.04,
+            0.02,
+            0.485,
+            0.35
+          ],
+          "cropPixels": [
+            201,
+            69,
+            2439,
+            1211
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "18c2bb9a44825c2a0c960d43247c9c9f1fba65e0d09d522470c4f89cac82d70c"
+        }
+      ],
+      "sha256": "9fd43b4dd190eda12a0ee714cc69446c3874b8bfd97ba1a461828fb38ce6e93b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a04-predator",
+      "file": "artbook/arkham/a04-predator.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "高处观察的蝙蝠侠剪影",
+      "kind": "概念插画",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (61).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "32a547704831aa530ae89a82a9f6e6cf73410c46595a3795c619268d98fbf03b"
+        }
+      ],
+      "sha256": "db0c277af653fe855429a7118b606345aef734277549b959e5c1f2f448342dde",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a05-skyline",
+      "file": "artbook/arkham/a05-skyline.jpg",
+      "width": 1237,
+      "height": 1800,
+      "alt": "污染色调下的旧哥谭天际线探索",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (69).jpg",
+          "cropNormalized": [
+            0.02,
+            0.025,
+            0.46,
+            0.955
+          ],
+          "cropPixels": [
+            101,
+            87,
+            2313,
+            3305
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "1b067e514797aed57749cbb414143a0804abc325e468b851d6bb582c27c6f2c1"
+        }
+      ],
+      "sha256": "d38ac664fde32c22861bd8c0638924044a792e5799d9ff0529009af31a5b9cf9",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a05-iceberg",
+      "file": "artbook/arkham/a05-iceberg.jpg",
+      "width": 855,
+      "height": 1246,
+      "alt": "冰山俱乐部复古招贴设计",
+      "kind": "道具与标识设计",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (72).jpg",
+          "cropNormalized": [
+            0.165,
+            0.03,
+            0.335,
+            0.39
+          ],
+          "cropPixels": [
+            830,
+            104,
+            1685,
+            1350
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "a004b3ce10e2c70014c636da7557c33d9dbd79b58443d3ed5c4031de9a8dd5f9"
+        }
+      ],
+      "sha256": "29a48cb1599607d5a01a7e7d1e4d0891b5f5c84879f4e53b32a6f09129edc051",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a05-museum",
+      "file": "artbook/arkham/a05-museum.jpg",
+      "width": 1800,
+      "height": 860,
+      "alt": "博物馆展陈空间与牢笼改造",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (73).jpg",
+          "cropNormalized": [
+            0.54,
+            0.07,
+            0.965,
+            0.365
+          ],
+          "cropPixels": [
+            2716,
+            242,
+            4853,
+            1263
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "5ccb2db5e5aa596b0816d47e93715915219e499b0b8521a99d79771adcb26ae2"
+        }
+      ],
+      "sha256": "921671291755660a0be162005270ad53ed7efec1609c0d3e25492fdc80747f0d",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a05-diploma",
+      "file": "artbook/arkham/a05-diploma.jpg",
+      "width": 1418,
+      "height": 918,
+      "alt": "哈琳·奎泽尔的哥谭大学心理学学位证书道具",
+      "kind": "环境叙事道具",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (80).jpg",
+          "cropNormalized": [
+            0.02,
+            0.565,
+            0.302,
+            0.83
+          ],
+          "cropPixels": [
+            101,
+            1955,
+            1519,
+            2873
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "8921e88a481e511c129df73db68534a966e9f2319a9ee188f3255d884a14baac"
+        }
+      ],
+      "sha256": "5b66975b917e132e8bcd694c3003de20ea816b7d30be785597acde016468f7a4",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a06-city",
+      "file": "artbook/arkham/a06-city.jpg",
+      "width": 1660,
+      "height": 935,
+      "alt": "黑暗街道中的蝙蝠侠与城市灯光",
+      "kind": "概念插画",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (94).jpg",
+          "cropNormalized": [
+            0.665,
+            0.07,
+            0.995,
+            0.34
+          ],
+          "cropPixels": [
+            3344,
+            242,
+            5004,
+            1177
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "4ecb0ac545262f40b7606db44d732d0552a2678f9971f4cf7aa0befdbfccf893"
+        }
+      ],
+      "sha256": "fdcf2cf5583f3cf7f592fe25ab6df0fd4a32a5df4dc1960b30df9f39dcf4a80e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a07-vertical",
+      "file": "artbook/arkham/a07-vertical.jpg",
+      "width": 1388,
+      "height": 1800,
+      "alt": "哥谭高楼的垂直尺度",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (112).jpg",
+          "cropNormalized": [
+            0.035,
+            0.16,
+            0.465,
+            0.97
+          ],
+          "cropPixels": [
+            176,
+            554,
+            2338,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "898e169376db370d513124a2c314540d9995eedc5e0b186d3879a21d5c28e794"
+        }
+      ],
+      "sha256": "d8a41e721f160385c003a4afe5262f9699c2e705183a448f7630fa236b476391",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a07-layers",
+      "file": "artbook/arkham/a07-layers.jpg",
+      "width": 1800,
+      "height": 1422,
+      "alt": "密集标识与建筑叠加的城市研究",
+      "kind": "环境设计图",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (114).jpg",
+          "cropNormalized": [
+            0.505,
+            0.035,
+            0.98,
+            0.58
+          ],
+          "cropPixels": [
+            2540,
+            121,
+            4928,
+            2007
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "f7521f228777b4b8fe5d2d1b6497fc71bbfd3ae38dbe40f6cfeacd4a670a8b58"
+        }
+      ],
+      "sha256": "ab0895cbc267bd0d090c309e3c900e970741a2a8e52f2b1fbd58ec2accd42a25",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a07-wayne",
+      "file": "artbook/arkham/a07-wayne.jpg",
+      "width": 1287,
+      "height": 1800,
+      "alt": "韦恩大楼立面与高度探索",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Lee Oliver / Oliver Odmark",
+      "sources": [
+        {
+          "sourceFile": "1 (116).jpg",
+          "cropNormalized": [
+            0.515,
+            0.025,
+            0.97,
+            0.95
+          ],
+          "cropPixels": [
+            2590,
+            87,
+            4878,
+            3288
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "9b0f158b2ad5fb5b6deef10266bf8ed3972a467203a31827ad0bcaffac1e932a"
+        }
+      ],
+      "sha256": "dfbb5c0d9f1c61c3d1e270f99985125b8049b508e614c679a6564f7da856e842",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a07-sculpture",
+      "file": "artbook/arkham/a07-sculpture.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "屋顶雕像改变建筑轮廓",
+      "kind": "环境设计探索",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (118).jpg",
+          "cropNormalized": [
+            0.505,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            2540,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "e100c238105cffb015c85987d04b2d4d836bdbc3a5ab77848be39ef36d947e0a"
+        }
+      ],
+      "sha256": "79dc6e8edb48d4f1ca923fcd8bade23f547dc0411371e7a16f666e41dcf0bd9f",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a08-cape-fastener",
+      "file": "artbook/arkham/a08-cape-fastener.jpg",
+      "width": 1800,
+      "height": 749,
+      "alt": "披风肩部连接结构",
+      "kind": "游戏角色细部渲染",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (106).jpg",
+          "cropNormalized": [
+            0.01,
+            0.03,
+            0.49,
+            0.32
+          ],
+          "cropPixels": [
+            50,
+            104,
+            2464,
+            1108
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "34c5aeda9c17800bde47e8e97210cfa5f82a5f77e0df8e0730a3ff55c60fb72e"
+        }
+      ],
+      "sha256": "c10db7226b392a4e5b12465b269915c7224c18e43ef2cf33218a9e5cf9328cf1",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a08-armour",
+      "file": "artbook/arkham/a08-armour.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《骑士》战衣宣传渲染",
+      "kind": "宣传渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (106).jpg",
+          "cropNormalized": [
+            0.505,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            2540,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "34c5aeda9c17800bde47e8e97210cfa5f82a5f77e0df8e0730a3ff55c60fb72e"
+        }
+      ],
+      "sha256": "62d510fda6b530df6450cd2bb091fa40ef7fafd1865ea6694f9b9d7c1be5ac98",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a08-wheel",
+      "file": "artbook/arkham/a08-wheel.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "蝙蝠车轮毂与车身细节",
+      "kind": "游戏车辆渲染",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (143).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d3197f73a4b7c6aab9e97d7742e781dc22542003bb62757da25be54d2b8d25b6"
+        }
+      ],
+      "sha256": "8f58b6f0058ceb464eb7ad0ce7dce1c494102b5fb888079450ddccfafbf3e14b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a08-batmobile",
+      "file": "artbook/arkham/a08-batmobile.jpg",
+      "width": 1800,
+      "height": 1239,
+      "alt": "蝙蝠车与蝙蝠侠的游戏画面",
+      "kind": "游戏画面",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (144).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "b01553e574f0cb3b90665b597ce33ba3872719877b8d3f88019f018b4d7d2121"
+        }
+      ],
+      "sha256": "2a55714b398dbd14cb05b34c89968ebfe2f78ce78285f13c4a1c7e962f667c14",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "id": "a09-batarang",
+      "file": "artbook/arkham/a09-batarang.jpg",
+      "width": 1363,
+      "height": 1800,
+      "alt": "《疯人院》蝙蝠镖的游戏内渲染",
+      "kind": "游戏装备渲染",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (54).jpg",
+          "cropNormalized": [
+            0,
+            0.02,
+            0.495,
+            0.97
+          ],
+          "cropPixels": [
+            0,
+            69,
+            2489,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "ba0fd1b66568da8e7df88740638b678966abf13ed766943588f038fbf0e2b794"
+        }
+      ],
+      "sha256": "d648033a75d51665a4662e937d88bacac50d347a4b628e7683031d2a4374d377",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a10-grapnel",
+      "file": "artbook/arkham/a10-grapnel.jpg",
+      "width": 1800,
+      "height": 1368,
+      "alt": "抓钩枪收拢与发射状态的设计",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (87).jpg",
+          "cropNormalized": [
+            0.052,
+            0.104,
+            0.447,
+            0.54
+          ],
+          "cropPixels": [
+            262,
+            360,
+            2248,
+            1869
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "8bc1141901bfca07cda765cc0e9ae566dcbac6cb8fca096fc8dffa69e60d6fb5"
+        }
+      ],
+      "sha256": "3a486c524f7a91d35979e20bc97d8241e50022b5c2fc52d9909ff83c0d92e71c",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a10-catgear",
+      "file": "artbook/arkham/a10-catgear.jpg",
+      "width": 818,
+      "height": 1800,
+      "alt": "猫女的尖刺、缠绕索与鞭子设计",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (88).jpg",
+          "cropNormalized": [
+            0.555,
+            0.11,
+            0.755,
+            0.75
+          ],
+          "cropPixels": [
+            2791,
+            381,
+            3797,
+            2596
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "827569d781be6504f6c6b84ced4cd916259f4da44c2fb1f441e9c8e3ab8f877a"
+        }
+      ],
+      "sha256": "10cb436b724e735fe33266bddbfe483df4c68313bae27ac8f57aac859a3469a8",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a10-staff",
+      "file": "artbook/arkham/a10-staff.jpg",
+      "width": 1358,
+      "height": 1800,
+      "alt": "罗宾长棍的伸展与盾面探索",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (89).jpg",
+          "cropNormalized": [
+            0.025,
+            0.055,
+            0.49,
+            0.95
+          ],
+          "cropPixels": [
+            126,
+            190,
+            2464,
+            3288
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "193847eeb9b766073242c0bb04d5bdaba5bb859d72194acfda1e453f2f220a14"
+        }
+      ],
+      "sha256": "692f49d68b1c95a95b64f3738e3f19dbdef9e9adfbc7056132f4cd4f54a267b8",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a11-clay",
+      "file": "artbook/arkham/a11-clay.jpg",
+      "width": 1800,
+      "height": 1039,
+      "alt": "泥面吞入蝙蝠侠的未采用遭遇概念",
+      "kind": "未采用遭遇概念",
+      "group": "角色",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (82).jpg",
+          "cropNormalized": [
+            0.025,
+            0.035,
+            0.49,
+            0.425
+          ],
+          "cropPixels": [
+            126,
+            121,
+            2464,
+            1471
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "914853cc1b86bf8f235c229d7ad6d0a15230ca5144c5c0c4ac3073ec96400caa"
+        }
+      ],
+      "sha256": "36bb1a80adb51574006c6b35e6ada79fabcd48a5ba418c14c212545881cead33",
+      "spoiler": true,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a11-watch",
+      "file": "artbook/arkham/a11-watch.jpg",
+      "width": 1434,
+      "height": 907,
+      "alt": "蝙蝠侠在坠落怀表上与疯帽匠交战的概念",
+      "kind": "遭遇概念探索",
+      "group": "环境",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (82).jpg",
+          "cropNormalized": [
+            0.705,
+            0.04,
+            0.99,
+            0.302
+          ],
+          "cropPixels": [
+            3545,
+            138,
+            4979,
+            1045
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "914853cc1b86bf8f235c229d7ad6d0a15230ca5144c5c0c4ac3073ec96400caa"
+        }
+      ],
+      "sha256": "6e996d2fdcca70139c78eed5f6c2573da333170f2ee4d307da4cdda9c9986b77",
+      "spoiler": true,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a11-tea",
+      "file": "artbook/arkham/a11-tea.jpg",
+      "width": 1800,
+      "height": 1124,
+      "alt": "缩小的蝙蝠侠与巨型茶具的遭遇概念",
+      "kind": "遭遇概念探索",
+      "group": "环境",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (82).jpg",
+          "cropNormalized": [
+            0.505,
+            0.36,
+            0.99,
+            0.8
+          ],
+          "cropPixels": [
+            2540,
+            1246,
+            4979,
+            2769
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "914853cc1b86bf8f235c229d7ad6d0a15230ca5144c5c0c4ac3073ec96400caa"
+        }
+      ],
+      "sha256": "fd1a5d03e57b8e2c8462a373ef1146942517c56871163df1e6a1ec04660a9c51",
+      "spoiler": true,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a12-mech",
+      "file": "artbook/arkham/a12-mech.jpg",
+      "width": 1384,
+      "height": 1800,
+      "alt": "谜语人机甲、废料机器人与机械臂的概念设计组图",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Oliver Odmark",
+      "sources": [
+        {
+          "sourceFile": "1 (132).jpg",
+          "cropNormalized": [
+            0.006,
+            0.036,
+            0.493,
+            0.956
+          ],
+          "cropPixels": [
+            30,
+            125,
+            2479,
+            3309
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2edfd029389a03b99708d940faf403dd0f5d0bd3194fc1d88a4182df1c0a7cb3"
+        }
+      ],
+      "sha256": "10d88ecb22568a98f831b24cb212bbbf771a8e66987a60bc18834fdd92a48d17",
+      "spoiler": true,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a12-robot",
+      "file": "artbook/arkham/a12-robot.jpg",
+      "width": 629,
+      "height": 1644,
+      "alt": "由废料拼装的谜语人机器人全身设计",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Oliver Odmark",
+      "sources": [
+        {
+          "sourceFile": "1 (132).jpg",
+          "cropNormalized": [
+            0.35,
+            0.425,
+            0.475,
+            0.9
+          ],
+          "cropPixels": [
+            1760,
+            1471,
+            2389,
+            3115
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2edfd029389a03b99708d940faf403dd0f5d0bd3194fc1d88a4182df1c0a7cb3"
+        }
+      ],
+      "sha256": "912f1166e36da89262d7f079f0be51c33318e18ee0f37f2a650c823eedd4e56a",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a13-launcher",
+      "file": "artbook/arkham/a13-launcher.jpg",
+      "width": 1800,
+      "height": 1285,
+      "alt": "军事导弹发射器的折叠与展开设计",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (127).jpg",
+          "cropNormalized": [
+            0.022,
+            0.03,
+            0.452,
+            0.476
+          ],
+          "cropPixels": [
+            111,
+            104,
+            2273,
+            1647
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "353bf44d7419f524bf3153c51c8dbfaf795ece3bddd8bb633fa2fa8113946de6"
+        }
+      ],
+      "sha256": "80cce8c6725a86680731adf42fc88e1a0380b1213d3e47d64227aeb3115d77aa",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a13-drone",
+      "file": "artbook/arkham/a13-drone.jpg",
+      "width": 1800,
+      "height": 1337,
+      "alt": "自主步行无人机的概念方案",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (127).jpg",
+          "cropNormalized": [
+            0.022,
+            0.492,
+            0.452,
+            0.956
+          ],
+          "cropPixels": [
+            111,
+            1703,
+            2273,
+            3309
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "353bf44d7419f524bf3153c51c8dbfaf795ece3bddd8bb633fa2fa8113946de6"
+        }
+      ],
+      "sha256": "b085c027f90968446e3c9b3b47118d769ad4d248151f82345bc3ae3fd1b20124",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a13-tank",
+      "file": "artbook/arkham/a13-tank.jpg",
+      "width": 1800,
+      "height": 1144,
+      "alt": "以人物作尺度参照的重型无人战车概念",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (128).jpg",
+          "cropNormalized": [
+            0.507,
+            0.038,
+            0.994,
+            0.488
+          ],
+          "cropPixels": [
+            2550,
+            132,
+            4999,
+            1689
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "219f88fff7f48c8dd3231e1ebc06a20401d95c03ad6d5c812edf862499dbc44b"
+        }
+      ],
+      "sha256": "b70350093258c3cf5f5d6ed67eee33977d562593a92d30b76046193c3f1be72b",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a13-cloud",
+      "file": "artbook/arkham/a13-cloud.jpg",
+      "width": 1800,
+      "height": 1170,
+      "alt": "Stagg Industries云爆装置及内部结构设计",
+      "kind": "装备概念设计",
+      "group": "装备",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (130).jpg",
+          "cropNormalized": [
+            0.005,
+            0.035,
+            0.995,
+            0.97
+          ],
+          "cropPixels": [
+            25,
+            121,
+            5004,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "4708211d7774de62999a6107a0128b15418acca6c119a4a7407477c90e07e765"
+        }
+      ],
+      "sha256": "8dd4a30c4fd5c53fdd4cb29f615a0802ba8111481f4c479ed0c799fe1d727a57",
+      "spoiler": true,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a14-civilians",
+      "file": "artbook/arkham/a14-civilians.jpg",
+      "width": 1308,
+      "height": 1800,
+      "alt": "《骑士》男性市民的体形与服装概念组图",
+      "kind": "人物概念设计",
+      "group": "角色",
+      "creator": "Oliver Odmark",
+      "sources": [
+        {
+          "sourceFile": "1 (137).jpg",
+          "cropNormalized": [
+            0.01,
+            0.02,
+            0.49,
+            0.98
+          ],
+          "cropPixels": [
+            50,
+            69,
+            2464,
+            3392
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2b11d1d721f0019b03bec01384049a29ca47ccb7a857e110944b55f7940028d2"
+        }
+      ],
+      "sha256": "0bcaa4351befa26c1e3fea4302845b6d7c06cc471494ce1373aeea1602a6a490",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a15-penguin",
+      "file": "artbook/arkham/a15-penguin.jpg",
+      "width": 1281,
+      "height": 1800,
+      "alt": "《之城》企鹅人的宣传渲染",
+      "kind": "宣传渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (77).jpg",
+          "cropNormalized": [
+            0.505,
+            0,
+            0.995,
+            1
+          ],
+          "cropPixels": [
+            2540,
+            0,
+            5004,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "690310debed149a55049f7b53b991cf87210839404abc6c180d0e8fec8ea5b48"
+        }
+      ],
+      "sha256": "7263dda40c1d237240fe9f1644cb0c95db8ab577c0cf789aa71dcd908c996eca",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a15-tyger",
+      "file": "artbook/arkham/a15-tyger.jpg",
+      "width": 1800,
+      "height": 1551,
+      "alt": "TYGER保安的正背面、手套与靴子参考",
+      "kind": "角色与服装研究",
+      "group": "角色",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (84).jpg",
+          "cropNormalized": [
+            0.015,
+            0.36,
+            0.49,
+            0.955
+          ],
+          "cropPixels": [
+            75,
+            1246,
+            2464,
+            3305
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "3ce9fb888ded15c0da553abd9494b8565a15f1a56b28a67712da2233ee80350d"
+        }
+      ],
+      "sha256": "c1389b4275705b298d3afe85fe449c7a8bd77a4eece8baff76044690a5446941",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a16-lighthouse",
+      "file": "artbook/arkham/a16-lighthouse.jpg",
+      "width": 1800,
+      "height": 1424,
+      "alt": "疯人院灯塔早期平面图中的入口与维修通道",
+      "kind": "早期环境平面图",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (46).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.87,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            4375,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2c6396f2197497a42f8a195e9c8e419b99f969de572dadfec8b2c893983ea463"
+        }
+      ],
+      "sha256": "d31f182cad6a472a582e726feaedf9908369bb749642e6841886f781c4b82bc3",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a16-studios",
+      "file": "artbook/arkham/a16-studios.jpg",
+      "width": 1800,
+      "height": 1125,
+      "alt": "哥谭电影城入口的衰败建筑与屋顶雕像",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (119).jpg",
+          "cropNormalized": [
+            0.505,
+            0.025,
+            0.995,
+            0.47
+          ],
+          "cropPixels": [
+            2540,
+            87,
+            5004,
+            1627
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "c94e99c7efd43324909be68106d52a34d77e9a31ad4eac8efa2171a8919badd0"
+        }
+      ],
+      "sha256": "ec8750865df2383a28b08eff085770be7ba6e9ce96d6c4c1c674988aad868605",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    },
+    {
+      "id": "a16-clock",
+      "file": "artbook/arkham/a16-clock.jpg",
+      "width": 1609,
+      "height": 1633,
+      "alt": "因体形显得矮胖而被放弃的哥谭钟楼地标",
+      "kind": "未采用建筑概念",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (117).jpg",
+          "cropNormalized": [
+            0.675,
+            0.49,
+            0.995,
+            0.962
+          ],
+          "cropPixels": [
+            3395,
+            1696,
+            5004,
+            3329
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "138f381858bca28418aa30e007195f431828dc290b8fc6d7ee5c3d98b6208f9d"
+        }
+      ],
+      "sha256": "e3299f6baaf7ecebcebe0f47e9f83f660d02e98aea97a5f6bdb0f47b070ccf99",
+      "spoiler": false,
+      "book": "rocksteady-2015",
+      "batch": 2
+    }
+  ],
+  "chapters": [
+    {
+      "id": "artbook-a01",
+      "planId": "A01",
+      "title": "成为蝙蝠侠：四项设计支柱",
+      "summary": "移动、侦查、格斗与隐形猎手，构成Rocksteady三部曲最初的设计提案。",
+      "target": "/arkham/archive/rocksteady/",
+      "blocks": [
+        {
+          "title": "先确定玩家应该感到什么",
+          "body": "2007年初，Rocksteady还是一支约四十人的团队，已发行的作品只有《Urban Chaos: Riot Response》。Eidos带来的蝙蝠侠游戏机会，让Sefton Hill与团队先讨论角色体验。他们没有一开始就写完所有机制，而是确立四个支柱：怎样穿行世界、怎样扮演世界上最伟大的侦探、怎样打出有节奏的近身格斗，以及怎样成为令持枪敌人恐惧的猎手。四者共同回答同一个问题：玩家拿起手柄时，怎样立即感到自己正在扮演蝙蝠侠。",
+          "sourceFiles": [
+            "1 (5).jpg"
+          ],
+          "imageIds": [
+            "a01-vision"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "力量来自看清局势",
+          "body": "移动与侦探能力让玩家了解环境，格斗与潜行则让这些观察变成行动。这里的强大不只由伤害数字表现：站上制高点、发现路线、判断敌人分布，再选择出手时机，同样能让人感到主动权在自己手里。Hill对武术的兴趣也进入了提案，战斗要有编排感和流动感，像一个熟练格斗者控制整场冲突。随后反复调整的原型，都围绕这组体验目标展开。",
+          "sourceFiles": [
+            "1 (5).jpg"
+          ],
+          "imageIds": [
+            "a01-arrival"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "把叙事交给行动",
+          "body": "回顾三部曲时，Paul Crocker把创作重点放在玩家亲自完成的行动上。人物关系、探索和战斗要推动故事，剧情不能只依靠几个大型场面串接。Hill也强调，团队寻找的是角色之间的重要关系节点。孤岛、封锁城区和更大的哥谭先后改变了活动尺度，但移动、侦查、格斗和猎手仍是共同骨架。环境美术、关卡、动画与程序围绕同一体验协作，才让这些能力像同一个人的不同侧面。",
+          "sourceFiles": [
+            "1 (150).jpg"
+          ],
+          "imageIds": [
+            "a01-legacy"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "提案怎样进入制作",
+          "body": "2007年5月，团队开始处理游戏故事，9月进入全面制作，下一年夏天再对外公布作品。提案里的体验目标必须逐渐变成关卡、动作和能够互相配合的系统。故事规模与制作次序在这个过程中彼此约束：场景要让侦查和潜行发生，人物行动也要能把观众带进下一段情境。四项支柱提供的是不断回头检验设计的共同问题，具体答案则在制作中反复修改。",
+          "sourceFiles": [
+            "1 (5).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a02",
+      "planId": "A02",
+      "title": "轮廓夸张，材质可信",
+      "summary": "夸张的体形与可信的表面细节，共同塑造《疯人院》的角色风格。",
+      "target": "/arkham/games/arkham-asylum/",
+      "blocks": [
+        {
+          "title": "先用轮廓建立性格",
+          "body": "美术指导David Hego以风格化和高度写实这两个方向组织视觉提案。反派的戏剧性特征可以推得很远，材质、受光和身体细节则让他们仍能存在于同一个世界。John Gravato早期的蝙蝠侠草案有瘦长身形、尖锐披风和近乎建筑装饰的姿态。把这类草图与后来更厚重的体形并置，可以看出团队如何在哥特式夸张与熟悉的英雄形象之间寻找平衡。",
+          "sourceFiles": [
+            "1 (15).jpg",
+            "1 (19).jpg"
+          ],
+          "imageIds": [
+            "a02-pencil"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "主角与反派的尺度不同",
+          "body": "首席角色美术Andrew Coombes回忆，最初高瘦、极端风格化的蝙蝠侠失去了某些经典形象的吸引力，团队于是重新研究Alex Ross与Jim Lee等人的设计。蝙蝠侠需要让玩家长时间辨认和认同，反派则能承受更强烈的变形。杀手鳄尤其说明这种分工：巨大的体形属于幻想，鳞片、链条和皮肤的质感却把重量落实到具体表面，少量仍像人的特征又保留了角色的情绪。",
+          "sourceFiles": [
+            "1 (16).jpg"
+          ],
+          "imageIds": [
+            "a02-croc"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "工业感让幻想落地",
+          "body": "Carlos D’Anda把稻草人、贝恩等人的设计与监狱里的材料和束缚联系起来，强调耐用、粗粝的工业气息。他在蝙蝠侠与小丑这类标志性角色上需要反复判断，哪些部分可以改变，哪些必须保留。胸徽、头罩、肩宽和披风因此承担了比装饰更多的作用：即使草案变化很大，观众也要一眼认出角色。最终的阿卡姆风格正是在这种往返取舍里形成。",
+          "sourceFiles": [
+            "1 (19).jpg"
+          ],
+          "imageIds": [
+            "a02-batman"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a03",
+      "planId": "A03",
+      "title": "疯人院如何引导玩家",
+      "summary": "建筑年代、巨门、管线与光色，让封闭岛屿既有历史，也有清晰的探索方向。",
+      "target": "/arkham/games/arkham-asylum/",
+      "blocks": [
+        {
+          "title": "每栋建筑都有自己的年代",
+          "body": "疯人院被构想成一座类似恶魔岛的隔离监狱，但院区并非一套重复的工业房间。行政楼带着旧时代哥特复兴式的高窗、石柱和尖拱，植物园则以更柔和的金属、玻璃结构与绿色调表现生长和腐败。建筑差异让玩家感到自己正在穿过有历史层次的机构，也让一次次返回院区具有辨认依据。Drew Wilson的外景探索把这种历史感压进高耸尖顶和狭窄入口的比例里。",
+          "sourceFiles": [
+            "1 (30).jpg",
+            "1 (34).jpg"
+          ],
+          "imageIds": [
+            "a03-exterior"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "亮处是空间里的动词",
+          "body": "Hego把灯光当作引导注意力的工具。昏暗走廊尽头的一扇亮门，或冷蓝空间里偏暖的橙色装置，都能把可行动的目标从密集细节中分离出来。雕像、门和具有特殊轮廓的构件也承担视觉路标的作用。高处灯光不只是照亮房间，还提醒玩家：这里存在平常人无法抵达、蝙蝠侠却能利用的空间。画面的明暗关系由此变成探索提示。",
+          "sourceFiles": [
+            "1 (34).jpg",
+            "1 (36).jpg"
+          ],
+          "imageIds": [
+            "a03-light"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "不合理的体量，具体的材料",
+          "body": "这里的墙高得近乎不可能，管线总要曲折地绕远路，树木也像被扭曲过。砖、锈迹、潮湿和灰尘却被认真描绘。巨门与管线模块的设计页把这种方法拆得很清楚：普通材料经过异常的尺寸和连接方式组合，就形成压迫感。组件还要适合重复搭建，雕像的手臂、翅膀可以替换。统一的零件语言使复杂院区保持亲缘关系，同时又给房间留下各自的记忆点。",
+          "sourceFiles": [
+            "1 (30).jpg",
+            "1 (36).jpg"
+          ],
+          "imageIds": [
+            "a03-pipes"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "看得见的城市，抵达不了的远方",
+          "body": "岛外的海面、灯塔和浮标界定了行动边界，远处亮着灯的哥谭又把世界扩展到边界之外。Hego回忆，初代远景城市只用了很少的三角面；几年后，团队才在更大的制作中真正搭起新的城市。对岛上的玩家而言，那些灯光已经足够产生吸引力。它们让孤岛有了方位，也让被困的感觉更加具体：熟悉的城市就在对岸，眼前的任务却不断把人带回院墙之内。",
+          "sourceFiles": [
+            "1 (36).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a04",
+      "planId": "A04",
+      "title": "Freeflow与逐渐恐慌的敌人",
+      "summary": "战斗原型、角色动画与敌人反应一起塑造蝙蝠侠掌控局势的感觉。",
+      "target": "/arkham/games/arkham-asylum/",
+      "blocks": [
+        {
+          "title": "有节奏，还要能应付一群人",
+          "body": "早期战斗原型曾让玩家按音乐节拍回应攻击，甚至用漫画格子模拟双方出招。它有节奏，却难以容纳多人混战。后来的俯视二维原型用圆圈代表人物，测试轻击、重击与改变敌人方向等群体控制。转入三维之后，难点变成如何把动作连续连接。Zafer Coban制作了方向与距离各异的夸张攻击动画，系统再按当前局面选择动作，Freeflow的基本形式才逐渐成形。",
+          "sourceFiles": [
+            "1 (62).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "披风也在传达控制感",
+          "body": "动画必须同时满足人物表演和玩家输入。Coban让动画师先理解蝙蝠侠站上高处、跃下楼沿或滑翔时的心理，再处理具体姿态。动作捕捉提供表演材料，超出常人的移动则需要主动夸张。披风的展开、收拢和风中摆动把这些动作连成同一个轮廓；草图里对开口与布料运动的探索，也说明这件标志性装备如何进入实际动作设计。",
+          "sourceFiles": [
+            "1 (56).jpg",
+            "1 (58).jpg"
+          ],
+          "imageIds": [
+            "a04-cape"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "敌人的恐惧就是反馈",
+          "body": "潜行里的制高点让玩家先观察、制订计划，落下解决目标后再迅速撤离。程序员Tim Hanagan描述的重点是敌人怎样回应：同伴减少以后，他们会变得紧张、对声音和阴影过度反应，最终失去镇定。对白、动作和搜索行为把恐惧传回玩家，让每次隐蔽行动都改变房间里的气氛。战斗用连贯动作表现熟练，潜行则用敌人的反应表现威慑，两者都让能力通过互动显现。",
+          "sourceFiles": [
+            "1 (61).jpg"
+          ],
+          "imageIds": [
+            "a04-predator"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "动作状态也要能被设计师操作",
+          "body": "Rocksteady把此前使用的状态式动画系统带入定制的Unreal Engine 3流程，并加入可视化状态编辑工具。程序负责让姿态平顺过渡，设计师则需要把预设行为与即时反应接到同一个遭遇中。蝙蝠侠几乎一直在画面里，披风、伤损和移动因此会被反复观看。玩家按下按钮的时刻又无法完全预先排演，人物的可信感必须在连续输入中维持，动画与程序便需要共同处理动作之间的缝隙。",
+          "sourceFiles": [
+            "1 (56).jpg",
+            "1 (61).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a05",
+      "planId": "A05",
+      "title": "旧哥谭：建筑、招贴与物件叙事",
+      "summary": "天际线、俱乐部广告、博物馆与一张学位证书，让城市拥有无对白的背景。",
+      "target": "/arkham/games/arkham-city/",
+      "blocks": [
+        {
+          "title": "城市先呈现矛盾",
+          "body": "《之城》把院墙内的压迫推向开放街区，Hego将十九世纪末、二十世纪初和更近代的元素混合在一起。Kan Muftic探索天际线时，用工业污染般的橙色强化空气感，最终游戏又把这层色调收敛。旧建筑、工业设施与游乐化装饰互相挤压，城区因而既像曾经繁荣的居住地，也像被犯罪势力临时接管的舞台。远景先给出整体情绪，近处物件再把历史拆成可以发现的细节。",
+          "sourceFiles": [
+            "1 (69).jpg"
+          ],
+          "imageIds": [
+            "a05-skyline"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "广告保留营业时的表情",
+          "body": "冰山俱乐部招贴沿用复古字体与旅游广告式的版面。欢迎家庭、极地餐饮一类热闹承诺，与后来结冰和武装占据的空间形成距离。招贴属于城市曾经向人招手的一面，即使它成为背景，也仍在讲述企鹅人怎样包装自己的地盘。类似的品牌、标识和游乐入口把不同派系写进街景，玩家无需停下来听一段说明，也能感到某个区域的主人是谁。",
+          "sourceFiles": [
+            "1 (72).jpg"
+          ],
+          "imageIds": [
+            "a05-iceberg"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "展柜改变用途，权力也跟着改变",
+          "body": "博物馆的建筑参考带有英国博物馆的影子，展陈柜却被企鹅人改成战利品柜和牢笼。原来用于观看、分类和保存的空间，转而展示占有和威胁。恐龙、猛犸、蝴蝶标识与囚禁设施并存，使这个地点的荒诞具体可见。相同的设计方法也出现在哈莉的学位证书上：文凭里的Harleen Frances Quinzel与眼前的哈莉构成一段无需对白的履历，普通文件因此成为人物背景的一部分。",
+          "sourceFiles": [
+            "1 (73).jpg",
+            "1 (80).jpg"
+          ],
+          "imageIds": [
+            "a05-museum",
+            "a05-diploma"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "派系先以身体和服装占领街道",
+          "body": "TYGER的准军事造型把监狱私营化的现实联想带进城内，各犯罪集团的手下则用服装、身体损伤与工具表现归属。Muftic为小丑帮派画出的铁匠概念带着厚围裙和粗重装备，图注也记录了它在角色动画上的困难。一个设计即使在静止画面里成立，仍要通过动作制作的考验。城市里最终出现的居民与打手因此既是视觉叙事的一部分，也是在美术、模型和动画之间选择后的结果。",
+          "sourceFiles": [
+            "1 (84).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "钢铁厂物件索引",
+          "url": "/arkham/archive/clues/#city-steel-mill-06"
+        }
+      ]
+    },
+    {
+      "id": "artbook-a06",
+      "planId": "A06",
+      "title": "五音主题与哥谭的声音",
+      "summary": "环境采音与角色主题把城市、人物和技术编织成同一套听觉世界。",
+      "target": "/arkham/games/arkham-city/",
+      "blocks": [
+        {
+          "title": "先让城市听起来可信",
+          "body": "Nick Arundel谈声音时先谈环境。团队在城市街道、高楼顶部、洞穴、停车设施、博物馆和工业空间采集声音，又花时间剪辑、处理，让它们适合哥谭的美术气质。实地录音提供独特的材料，后续设计决定这些材料如何组合。远处交通、空气设备与建筑空间的回声填满画面之外的世界，玩家停在屋顶时，城市也不会突然安静成一张背景图。",
+          "sourceFiles": [
+            "1 (94).jpg"
+          ],
+          "imageIds": [
+            "a06-city"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "管弦乐与合成声音共享角色",
+          "body": "Arundel把蝙蝠侠理解为人与技术的结合，因此让传统管弦与合成声音共同存在。早期两者的边界比较明显，后来的项目则更难仅凭听感把它们分开。声音设计的目标与视觉设计相通：高度人工化的世界仍要有可感的重量和温度。连续推进的弦乐与合成音型承载行动感，音色变化又能在同一人物身上表现脆弱、力量与紧张。",
+          "sourceFiles": [
+            "1 (94).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "人物关系也写进旋律",
+          "body": "在Arundel的主题设计中，短小的五音旋律是共同核心，各角色在它的基础上变化。小丑的旋律材料与蝙蝠侠只差一个音；猫女的旋律运动方向则与蝙蝠侠相反。毒藤女与女声相连，小丑常带不稳定的节奏和弦乐、钢琴音簇。主题间的亲缘关系让音乐保持统一，又不抹去人物区别。配乐负责情绪与结构，患者访谈和广播则属于故事世界里能被人物听见的声音，各自承担不同叙事任务。",
+          "sourceFiles": [
+            "1 (94).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a07",
+      "planId": "A07",
+      "title": "哥谭的三层构造",
+      "summary": "建筑、商业标识与屋顶雕塑叠在一起，形成《骑士》的城市密度与轮廓。",
+      "target": "/arkham/games/arkham-knight/",
+      "blocks": [
+        {
+          "title": "先立建筑，再叠城市生活",
+          "body": "Hego把哥谭拆成三层。第一层是建筑本体及其建筑风格；第二层是附着其上的霓虹、广告牌和金属结构，让街道显出商业城市的日常；第三层是屋顶与立面伸出的雕像，改变远处的天际线。三层之间有结构上的先后，也有阅读上的先后：远处先看轮廓，接近时看到标识，再进入建筑细部。Lee Oliver的垂直空间研究把这种层次推向高楼间的深渊。",
+          "sourceFiles": [
+            "1 (112).jpg"
+          ],
+          "imageIds": [
+            "a07-vertical"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "密度比面积更能表现生活",
+          "body": "团队为街角创造了大量品牌，其中既有DC世界的名称，也有为故事与环境新造的商标。五十至七十年代风味的汽车让街道保留不属于单一年份的质感。旧城区与翻新区域并存，反复重建仿佛在给过去的灾难加盖新层。密集广告、屋顶设施与高架结构因此不只是填满画面，它们把城市的使用痕迹带进玩家经过的每个路口。",
+          "sourceFiles": [
+            "1 (114).jpg"
+          ],
+          "imageIds": [
+            "a07-layers"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "地标给高速移动一个坐标",
+          "body": "GCPD、韦恩大楼等建筑用不同的体量和立面形成地标。玩家在更大的范围里滑翔、俯冲和驾驶，辨认目的地需要比街巷门牌更强的轮廓。韦恩大楼高大而带年代感的设计，把家族在城市中的长期影响变成建筑尺度；屋顶雕像则为反复出现的楼群加入不一样的剪影。尖角、桥接和悬挑结构同时提供视觉节奏，让玩家快速掠过时仍能记住所处位置。",
+          "sourceFiles": [
+            "1 (116).jpg",
+            "1 (118).jpg"
+          ],
+          "imageIds": [
+            "a07-wayne",
+            "a07-sculpture"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a08",
+      "planId": "A08",
+      "title": "蝙蝠车、战衣与城市共同演变",
+      "summary": "可驾驶蝙蝠车的目标推动城市尺度，也重新组织战衣和车辆的造型语言。",
+      "target": "/arkham/games/arkham-knight/",
+      "blocks": [
+        {
+          "title": "驾驶目标先于城市尺寸",
+          "body": "Hill回忆，团队在开发开始时就想加入可驾驶蝙蝠车，随后才研究哥谭应有多大、道路应怎样组织。驾驶让空间设计面对新的速度：街口需要容纳转向，直道要让加速成立，环境细节又不能在车辆经过时失去意义。高速弹射、助推和撞开建筑转角等动作，使车辆成为人物移动系统的一部分，城市也随之承担滑翔与驾驶两套尺度。",
+          "sourceFiles": [
+            "1 (143).jpg"
+          ],
+          "imageIds": [
+            "a08-batmobile"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "飞机、跑车与坦克的组合",
+          "body": "Hego把车辆影响拆得很具体：驾驶舱、控制翼片和后燃器带着战斗机的气息，动力与表面材料强调跑车的性能，厚重车体和正面装甲对抗则带来坦克般的存在感。战斗模式进一步改变轮组与武器结构，让车辆能够在移动时朝另一个方向瞄准。概念绘画与三维原型来回调整了数月，目标是让复杂装备看起来能实际工作，局部细节也必须服从整体机械关系。",
+          "sourceFiles": [
+            "1 (143).jpg"
+          ],
+          "imageIds": [
+            "a08-wheel"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "战衣要经得起新的动作",
+          "body": "《骑士》的战衣采用与蝙蝠车呼应的形状和纹理，装甲之间的连接也带来绑定与动画难题。披风不再像直接缝在头罩上的舞台服装，肩部连接结构需要让人相信它能承受俯冲和车辆弹射。更细的颈部、手套、靴子与腰带处理，让身体和车辆属于同一套技术世界。披风模拟仍持续调整：城市变大、动作更快以后，人物轮廓必须在更复杂的运动里保持清晰。",
+          "sourceFiles": [
+            "1 (100).jpg",
+            "1 (106).jpg",
+            "1 (138).jpg"
+          ],
+          "imageIds": [
+            "a08-cape-fastener",
+            "a08-armour"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-a09",
+      "planId": "A09",
+      "title": "腰带里的韦恩科技",
+      "summary": "蝙蝠镖、改装装置与侦探视野，把蝙蝠侠的准备变成探索能力。",
+      "target": "/arkham/games/arkham-asylum/",
+      "blocks": [
+        {
+          "title": "机器表面与旧式院区",
+          "body": "疯人院的电脑带着厚重的显像管屏幕和旧键盘，电话也保留较早年代的外观。污垢、锈迹和磨损使这些公共设施显得迟缓而沉重。蝙蝠侠随身携带的韦恩科技则使用深色拉丝金属、利落的机械线条与便于辨读的信息显示。两种技术水平在同一画面中并置，装备尚未启动，角色与环境的关系就已成立：他来到一个腐坏的机构，却仍有能力拆解它的规则。蝙蝠镖的镂空、刃缘和中轴把标志变成了一件可以握持和投掷的物品。",
+          "sourceFiles": [
+            "1 (54).jpg"
+          ],
+          "imageIds": [
+            "a09-batarang"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "得到工具，也得到新的路线",
+          "body": "Sefton Hill将使用装置推进探索的结构与《Metroid》《The Legend of Zelda》相联系。装备改变玩家能够抵达的空间，也改变面对既有障碍时的判断。David Hego把装置分成两类：一种是已经完成的韦恩科技产品，另一种是在现场加入电线或模块的改装件。后者让临机应变有了外形，附加零件使一次功能变化看起来像蝙蝠侠刚刚动手完成的解决办法。精密制造与临时拼接于是成为同一条工具腰带上的两种性格。",
+          "sourceFiles": [
+            "1 (54).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "侦探视野的视觉代价",
+          "body": "侦探模式让烟雾颗粒、足迹、薄弱结构与人的紧张程度变成可读取的信息。设计难点也来自这种强大：Hego原本想用色调变化与增强现实图层丰富世界，部分玩家却长时间保持这一模式，几乎绕开了美术团队制作的原始光色。清楚的信息与有感染力的场景因此形成拉扯。这个案例把工具设计的问题推进了一层：能力越好用，越要考虑它如何改变玩家观看整个世界的习惯。",
+          "sourceFiles": [
+            "1 (54).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a10",
+      "planId": "A10",
+      "title": "装备的展开方式，也是人物的动作语言",
+      "summary": "抓钩、伸缩长棍与猫女的小型武器，让不同角色的战斗气质落实到器械。",
+      "target": "/arkham/games/arkham-city/",
+      "blocks": [
+        {
+          "title": "发射之前与发射之后",
+          "body": "Lee Oliver的抓钩枪研究把收拢和发射状态并置，枪体的分段、伸出的钩头与后部握持关系都能被看清。旁边的装备舱则用开合方案说明装置怎样进入行动。蝙蝠镖、滑索发射器、抓钩与爆破凝胶继续使用规整的机械线条，保持韦恩科技的家族外观。阿尔弗雷德通过空投补充装备，也使布鲁斯重新武装成为一段可经历的过程；一件件工具到手，玩家对城区的行动范围才逐渐展开。",
+          "sourceFiles": [
+            "1 (87).jpg"
+          ],
+          "imageIds": [
+            "a10-grapnel"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "猫女的武器贴近身体",
+          "body": "猫女使用尖刺、缠绕索和鞭子，器械体量小，功能围绕干扰、束缚和灵活接近目标展开。它们与她的杂技式动作共享轻巧的节奏。把这组设计放在抓钩枪旁边，可以看到人物差别怎样落到握持与运动方式上：蝙蝠侠的装备常把身体送过一段距离，猫女的武器更像身体动作向外延伸的末端。不同的道具轮廓帮助玩家在切换角色时迅速进入另一种行动习惯。",
+          "sourceFiles": [
+            "1 (87).jpg",
+            "1 (88).jpg"
+          ],
+          "imageIds": [
+            "a10-catgear"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "一根长棍里的攻防转换",
+          "body": "蒂姆·德雷克的罗宾长棍可伸出盾面；迪克·格雷森成为夜翼后，则使用双短棍与投掷刃。长棍探索页反复改变中段连接、端部折叠和展开后的宽度，使攻防转换成为机械结构的一部分。细长的收纳状态便于随身携带，宽阔的盾面又能在防守时迅速改变角色轮廓。这里的草案把同一件装备的多个阶段放在一起，让可携带性、动作辨识与防护功能接受同一套外形检验。",
+          "sourceFiles": [
+            "1 (87).jpg",
+            "1 (89).jpg"
+          ],
+          "imageIds": [
+            "a10-staff"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a11",
+      "planId": "A11",
+      "title": "未采用遭遇：身体内部与巨型茶会",
+      "summary": "《之城》的概念探索把角色性格放大成可以穿行和交战的空间。",
+      "target": "/arkham/games/arkham-city/",
+      "blocks": [
+        {
+          "title": "身体成为包围玩家的环境",
+          "body": "Kan Muftic的一幅概念让泥面吞下蝙蝠侠，接着由蝙蝠侠从内部切开出路。画面把泥面的可塑身体推成一整座包围主角的空间：张开的口部和下垂的泥浆同时承担角色轮廓、入口和威胁。这个未采用方案探索的是一种特殊的战斗尺度，敌人的身体本身就是关卡。它与旁边较早的泥面形体研究共同呈现了设计过程中的两个问题：怪物应该长什么样，以及玩家与它交手时究竟处在什么位置。",
+          "sourceFiles": [
+            "1 (82).jpg"
+          ],
+          "imageIds": [
+            "a11-clay"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "未采用概念与图像分析"
+        },
+        {
+          "title": "茶具改变了蝙蝠侠的尺度",
+          "body": "Lee Oliver的茶会环境把蝙蝠侠缩小，茶壶、茶杯和桌面陈设因此成为巨型障碍。玩家熟悉的日常物件突然占据整片视野，疯帽匠的童话执念也随之变成空间规则。画面的透视与体量先制造失衡，物件的可辨认性又让失衡立即成立：观众不需要学习一种新怪物，只要看到人站在茶杯旁边，就会明白身体比例已经改变。",
+          "sourceFiles": [
+            "1 (82).jpg"
+          ],
+          "imageIds": [
+            "a11-tea"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "概念探索与图像分析"
+        },
+        {
+          "title": "坠落的怀表成为交战平台",
+          "body": "另一幅Oliver概念把蝙蝠侠与疯帽匠放在坠落的怀表上。表盘既是立足面，也是向下运动的物体；悬空、失重和时间意象集中在同一张画面里。Muftic更早的噩梦探索又用摇晃的透视和阴影中的人形制造另一种压迫。几幅方案指向不同的行动情境：被吞入身体、在茶具间移动、随怀表下坠。角色的招牌物件经过尺度和运动变化，便能生长出一整段游戏场面。",
+          "sourceFiles": [
+            "1 (82).jpg"
+          ],
+          "imageIds": [
+            "a11-watch"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "概念探索与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a12",
+      "planId": "A12",
+      "title": "谜语人的机械自画像",
+      "summary": "废料机器人和大型机甲，把绿色问号扩展为一套个人化的机械语言。",
+      "target": "/arkham/archive/riddler/",
+      "blocks": [
+        {
+          "title": "废料也要显得属于谜语人",
+          "body": "Oliver Odmark的机器人被设想成用废料场零件拼成。外露的连杆、瘦长机械臂与醒目的绿色圆形构件，让它与民兵规整厚重的装备形成差别。这里的拼装感有具体方向：结构要显出自制的聪明，也要显出过度表现自己的欲望。机械臂的休息与使用状态被单独拆出，说明一个能迅速辨认的轮廓还需要服从关节和抓握方式。谜语人的性格由此进入了铰链、管线与动作端点。",
+          "sourceFiles": [
+            "1 (132).jpg"
+          ],
+          "imageIds": [
+            "a12-robot"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "把答题者逼到巨人的脚下",
+          "body": "《骑士》的谜语人把竞争推进到大型机械装甲。Odmark把驾驶者置于绿色核心附近，向两侧展开沉重的臂架和抓爪，上半身的宽度远超过人类。与小型机器人并看，外露结构和绿色强调色仍然相通，尺度却已经改变：出题者从远处发号施令的人，变成占据整个战斗视野的机械巨人。大型机甲既延续了自制装置的造型，也把他必须亲自证明优越性的执念推到身体层面。",
+          "sourceFiles": [
+            "1 (127).jpg",
+            "1 (132).jpg"
+          ],
+          "imageIds": [
+            "a12-mech"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "《阿卡姆骑士》的军事装备",
+          "url": "/arkham/games/arkham-knight/#artbook-a13"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a13",
+      "planId": "A13",
+      "title": "军事占领怎样进入哥谭街景",
+      "summary": "发射器、步行无人机与重型战车，通过部署姿态和体量改变城市的威胁。",
+      "target": "/arkham/games/arkham-knight/",
+      "blocks": [
+        {
+          "title": "占领有具体的基础设施",
+          "body": "阿卡姆骑士的部队设置检查站、瞭望塔和爆炸物，让军事力量逐步占据街区。Lee Oliver的发射器研究包含低矮收拢和抬高展开的不同姿态，并以站立人物作尺度参照。相同装置在运输、部署和发射时会形成不同的剪影，城市里的设备因而具有行动阶段。密集机械零件之外，支撑脚、底座和发射方向告诉玩家这些东西怎样落在街道上，以及它们正准备对哪里施加力量。",
+          "sourceFiles": [
+            "1 (127).jpg"
+          ],
+          "imageIds": [
+            "a13-launcher"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "无人机也要选择身体",
+          "body": "自主步行无人机采用分离的足部与居中的武装平台，重型战车则把履带、斜面装甲和上层炮塔压成更宽厚的整体。概念页用小人标尺把二者的重量感落到身体经验上。前者通过抬起的机身和多足接地显出跨越地形的可能，后者通过宽大的接地面积表现推行和封锁的压迫。它们属于装备设计中的不同探索，外形先说明了移动方式，再说明武器的威胁。",
+          "sourceFiles": [
+            "1 (127).jpg",
+            "1 (128).jpg"
+          ],
+          "imageIds": [
+            "a13-drone",
+            "a13-tank"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "把恐惧变成工业装置",
+          "body": "云爆装置把稻草人的恐惧气体与Stagg Industries的工业形象连接起来。Oliver的整机与内部结构图并置粗大的管线、环状组件和类似容器的主体，巨大体量又以平台和护栏提供尺度。气体的威胁因此获得可见的机械来源，私人恐吓扩展为覆盖整座城市的系统。与发射器和战车一起看，哥谭的危机也有了不同层级：街头部署控制道路，重型载具改变交战方式，特殊设备则改变整片城市的环境。",
+          "sourceFiles": [
+            "1 (127).jpg",
+            "1 (130).jpg"
+          ],
+          "imageIds": [
+            "a13-cloud"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "谜语人的机械自画像",
+          "url": "/arkham/archive/riddler/#artbook-a12"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a14",
+      "planId": "A14",
+      "title": "概念图怎样成为会回应的世界",
+      "summary": "关卡骨架、动画状态、城市人群与披风物理，让三部曲的画面逐步进入互动。",
+      "target": "/arkham/archive/rocksteady/",
+      "blocks": [
+        {
+          "title": "先用体块建立可以玩的房间",
+          "body": "《疯人院》的关卡先以简单体块与空间构成骨架，再由环境美术按Hego的方向铺入建筑与细节。书中记述的四十个房间、三十四条走廊和不同外部区域，强调了这座岛屿是通过连接关系组织起来的世界。团队使用经过定制的Unreal Engine 3，又将先前开发的动画状态系统移入新工具，使程序人员可以较顺畅地连接不同姿态。美术构想因此要经历空间搭建、动作切换和游戏输入的共同塑形。",
+          "sourceFiles": [
+            "1 (56).jpg"
+          ],
+          "imageIds": [
+            "a03-pipes"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "城市扩大，动作也要重新分配",
+          "body": "《之城》让蝙蝠侠在巷道与屋顶构成的立体空间中滑翔，破碎街面也影响了团队对移动方式的选择。Zafer Coban回顾，角色动画数量在这一作接近翻倍；减少重复、更新动作并增加同时反击等能力，使更大的舞台仍能保持身体的具体感。开放世界带来的问题不仅是远处要画多少建筑，还包括玩家在长距离移动和连续遭遇中，会多少次看到同一个动作。",
+          "sourceFiles": [
+            "1 (90).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "街头人群有了自己的活动",
+          "body": "到了《骑士》，Tim Hanagan的团队用动态人群与车辆填充更大的城市。徘徊者会寻找冲突、守住地盘，数十人的群体可以聚成骚乱，拿起附近物品破坏周围设施。Oliver Odmark的市民概念先通过年龄、体形与衣服建立差异，运行中的行为再让这些差异成为街头事件。军事占领与普通暴徒的活动分属不同威胁，城市生活也因此有了超出单个预设战斗房间的变化。",
+          "sourceFiles": [
+            "1 (136).jpg",
+            "1 (137).jpg",
+            "1 (138).jpg"
+          ],
+          "imageIds": [
+            "a14-civilians"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "披风一直是一项持续工作",
+          "body": "Coban没有把披风看成早期项目已经解决的附属物。城市尺度、滑翔方式和战斗速度不断改变，布料也要继续调整。《骑士》还增加了装甲分片之间的活动要求，绑定与动画需要让硬质护甲在动作中彼此避让。披风的飘动和护甲的开合共同保住身体的可信感。技术进步最终落在很熟悉的印象上：一个人站在高处，布料随风展开，随后带着重量跃入城市。",
+          "sourceFiles": [
+            "1 (138).jpg"
+          ],
+          "imageIds": [
+            "a04-cape"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a15",
+      "planId": "A15",
+      "title": "服装记录人物，也标记派系",
+      "summary": "企鹅人的单片眼镜、TYGER制服与哈莉的服装变化，让外形携带经历与阵营。",
+      "target": "/arkham/games/arkham-city/",
+      "blocks": [
+        {
+          "title": "一件熟悉配饰被重新解释",
+          "body": "企鹅人的单片眼镜被改成嵌在眼眶上的破瓶底，仍然保留圆形辨识，却把讲究和暴力挤在一起。David Hego与角色美术团队希望强化人物的危险感，外形于是同时带着旧式绅士的自我包装和街头冲突留下的痕迹。宣传渲染进一步放大高帽、皮草与矮厚身形，让圆形镜片在面部成为刺眼焦点。一个配饰的变化就能重写观众对整个角色的判断。",
+          "sourceFiles": [
+            "1 (77).jpg"
+          ],
+          "imageIds": [
+            "a15-penguin"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "制服先说明谁在执行权力",
+          "body": "TYGER保安的设计受私人监狱与准军事力量启发，正背面研究之外还列出手套材质、靴子与制服颜色参考。外形中的一致性暗示一个有组织的机构。与之相对，小丑、企鹅人与双面人的手下通过颜色、面部损伤和服装主题标记效忠对象。Kan Muftic画过围裙铁匠式的暴徒，但这类方案在角色模型动画中难以实现。派系辨识既需要视觉戏剧性，也要接受身体活动与制作成本的约束。",
+          "sourceFiles": [
+            "1 (84).jpg"
+          ],
+          "imageIds": [
+            "a15-tyger"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "服装跟着人物离开原来的场所",
+          "body": "哈莉离开疯人院后，护士意象退出，皮革、高靴、纹身与都市化的小丑女装束进入《之城》。Hego谈到《骑士》时，又把她更暗、更阴森的裙装与哀悼状态相连。企鹅人也在后续作品里剃去头发、脱掉外套，减少旧式漫画夸张。团队借更新外形表现人物经历，而不是每次回归都把他们复原成同一张标准立绘；保留下来的标志与发生变化的细节共同形成系列时间感。",
+          "sourceFiles": [
+            "1 (77).jpg",
+            "1 (99).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a16",
+      "planId": "A16",
+      "title": "建筑方案里的另一个阿卡姆",
+      "summary": "灯塔平面、被舍弃的钟楼与电影城布景，呈现地点在制作中的不同可能。",
+      "target": "/arkham/archive/rocksteady/",
+      "blocks": [
+        {
+          "title": "灯塔曾经占据更大的叙事位置",
+          "body": "疯人院灯塔的早期平面把主入口、维修设备、通往码头的阶梯、岩岸与地下通道画在同一张图上。它曾被设想在故事中承担更大的作用，建筑因此同时需要对外交通与内部通行。观看这张图时，灯塔不再只是远景里的一根竖直轮廓：玩家从哪里进入、绕过哪里、怎样接近更低的区域，都已经被写进空间。后来改变的叙事比重，仍在这些未展开的路线里留下痕迹。",
+          "sourceFiles": [
+            "1 (46).jpg"
+          ],
+          "imageIds": [
+            "a16-lighthouse"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "醒目的地标，也可能比例不对",
+          "body": "Kan Muftic为《骑士》探索过一座借鉴大本钟的地标，最终因为显得太矮胖而被舍弃。相邻的中央车站式大厅则用长轴、拱顶和中央雕像建立公共建筑的庄严。两种图像说明地点的辨识并不只靠装饰多少：轮廓是否适合城市远景，比例是否能在高楼间成立，都影响玩家怎样识别它。概念阶段把方案放在一起比较，正是为了找到既有性格、又能进入整体尺度的建筑。",
+          "sourceFiles": [
+            "1 (117).jpg"
+          ],
+          "imageIds": [
+            "a16-clock"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "电影城在室内藏了几种世界",
+          "body": "哥谭电影城的衰败入口仍保留曾经吸引观众的剧院气派，中央高塔上又伸出泥脸雕像。内部探索继续列出月面、外太空与废弃西部小镇布景。Kan Muftic、Oliver Odmark与Lee Oliver让同一座建筑容纳截然不同的空间性格：城市外壳以内，可以突然进入荒漠、宇宙或人为搭成的异世界。摄影棚本来就以制造幻象为工作，这层性质也让它适合成为一个不断变换视觉规则的游戏地点。",
+          "sourceFiles": [
+            "1 (119).jpg"
+          ],
+          "imageIds": [
+            "a16-studios"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-a17",
+      "planId": "A17",
+      "title": "终章怎样重新分配人物的重量",
+      "summary": "《骑士》的写作把对手之间的空缺、联盟与私人关系放进同一个夜晚。",
+      "target": "/arkham/games/arkham-knight/",
+      "blocks": [
+        {
+          "title": "先处理上一场故事留下的空缺",
+          "body": "Martin Lancaster与Sefton Hill发展《骑士》故事时，面对的是《之城》结尾带来的关系变化。小丑之死使布鲁斯陷入愧疚，也让其他反派得到重新集结的空间。稻草人据此成为能够利用脆弱心理、攻击蝙蝠侠象征意义的人。敌人之间的配合让城市危机有了统一方向，各自尚未结束的恩怨又使他们无法化成一群没有差别的追兵。终章的压力由过去的后果继续生长。",
+          "sourceFiles": [
+            "1 (98).jpg",
+            "1 (99).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "盟友关系让职责变得更难",
+          "body": "Lancaster同时把目光放到吉姆·戈登、芭芭拉与蝙蝠侠之间的情感联系。专业目标与私人关系发生冲突时，完成任务的正确方法也会变得不再简单。城市中的远程支援、警务责任与长期信任分别来自不同位置，同一件事会让每个人承受不同代价。反派负责施压，盟友则让观众看见布鲁斯为什么会犹豫、隐瞒或坚持；“守住哥谭”因而同时意味着面对一群具体的人。",
+          "sourceFiles": [
+            "1 (99).jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    }
+  ],
+  "episodeAdditions": [],
+  "portraits": [],
+  "editorialPolicy": "原创中文概括；每个block的sourceFiles定位用户扫描材料，evidenceType区分制作回忆与图像分析。"
+}

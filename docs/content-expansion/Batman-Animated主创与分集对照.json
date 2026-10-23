@@ -1,0 +1,5617 @@
+{
+  "date": "2026-10-23",
+  "book": "animated-1998",
+  "purpose": "内部关系表；不覆盖现有分集字段或冒充完整片尾",
+  "coverage": {
+    "bookGuideEntries": 110,
+    "existingEpisodesMatched": 109,
+    "crossoverEntries": 1
+  },
+  "numbering": "书中85篇BTAS与25篇后续条目；其中World’s Finest为超人跨界故事。书中序号不替换站内指南编号。",
+  "manualOCRCorrections": [
+    "补读42、44、54、55四个漏识别标题",
+    "73与103的OCR数字修正",
+    "I AM THE NIGHT的I/1修正",
+    "全部配乐署名回看原页录入；跨行、截词、人名与引号逐项校正"
+  ],
+  "crew": [
+    {
+      "name": "Bruce Timm",
+      "roles": [
+        "角色设计",
+        "制片",
+        "分镜"
+      ],
+      "sourceFiles": [
+        "BA_pg012.jpg",
+        "BA_pg013.jpg",
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Eric Radomski",
+      "roles": [
+        "共同制片",
+        "背景与色彩方向",
+        "标题卡"
+      ],
+      "sourceFiles": [
+        "BA_pg013.jpg",
+        "BA_pg017.jpg"
+      ]
+    },
+    {
+      "name": "Jean MacCurdy",
+      "roles": [
+        "执行制片",
+        "前期制作协调"
+      ],
+      "sourceFiles": [
+        "BA_pg013.jpg",
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Tom Ruegger",
+      "roles": [
+        "执行制片"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Alan Burnett",
+      "roles": [
+        "资深故事编辑",
+        "共同制片"
+      ],
+      "sourceFiles": [
+        "BA_pg013.jpg"
+      ]
+    },
+    {
+      "name": "Paul Dini",
+      "roles": [
+        "故事编辑",
+        "共同制片",
+        "编剧"
+      ],
+      "sourceFiles": [
+        "BA_pg013.jpg"
+      ]
+    },
+    {
+      "name": "Glen Murakami",
+      "roles": [
+        "美术指导",
+        "角色模型",
+        "分镜与道具"
+      ],
+      "sourceFiles": [
+        "BA_pg013.jpg"
+      ]
+    },
+    {
+      "name": "Ted Blackman",
+      "roles": [
+        "早期背景设计监督"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Andrea Romano",
+      "roles": [
+        "配音导演"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Shirley Walker",
+      "roles": [
+        "作曲",
+        "配乐团队"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Tom Maydeck",
+      "roles": [
+        "Monterey Post声音设计团队"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Rob Hargreaves",
+      "roles": [
+        "Monterey Post声音设计团队"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Russell Brower",
+      "roles": [
+        "Monterey Post声音设计团队"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Joe Gall",
+      "roles": [
+        "剪辑"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Al Breitenbach",
+      "roles": [
+        "剪辑"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "TMS",
+      "roles": [
+        "海外动画制作"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "KOKO / Dong Yang",
+      "roles": [
+        "海外动画制作"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Lynne Naylor",
+      "roles": [
+        "人物设计"
+      ],
+      "sourceFiles": [
+        "BA_pg111.jpg",
+        "BA_pg116.jpg"
+      ]
+    },
+    {
+      "name": "Ronaldo Del Carmen",
+      "roles": [
+        "分镜"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg",
+        "BA_pg111.jpg"
+      ]
+    },
+    {
+      "name": "Geoff Spear",
+      "roles": [
+        "本书摄影"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Chip Kidd",
+      "roles": [
+        "本书设计"
+      ],
+      "sourceFiles": [
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "name": "Glenn Wong",
+      "roles": [
+        "立体参考模型"
+      ],
+      "sourceFiles": [
+        "BA_pg139B.jpg"
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Kevin Altieri",
+      "roles": {
+        "director": [
+          1,
+          2,
+          5,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          28,
+          39,
+          40,
+          44,
+          48,
+          57,
+          58,
+          68,
+          70,
+          71,
+          76,
+          80,
+          82
+        ],
+        "story": [
+          82
+        ]
+      }
+    },
+    {
+      "name": "Shirley Walker",
+      "roles": {
+        "composer": [
+          1,
+          2,
+          5,
+          7,
+          9,
+          10,
+          13,
+          15,
+          17,
+          18,
+          20,
+          22,
+          23,
+          24,
+          26,
+          37,
+          38,
+          46,
+          47,
+          49,
+          52,
+          56,
+          59,
+          60,
+          61,
+          63,
+          65,
+          66,
+          70,
+          74,
+          80,
+          81,
+          86,
+          87,
+          89,
+          90,
+          91,
+          92,
+          95,
+          96,
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "name": "Harvey R. Cohen",
+      "roles": {
+        "composer": [
+          1,
+          8,
+          33,
+          43,
+          58,
+          62,
+          69,
+          78,
+          84,
+          99
+        ]
+      }
+    },
+    {
+      "name": "Wayne Coster",
+      "roles": {
+        "composer": [
+          1
+        ]
+      }
+    },
+    {
+      "name": "Sean Catherine Derek",
+      "roles": {
+        "story": [
+          1,
+          8,
+          33
+        ],
+        "writer": [
+          10,
+          23
+        ],
+        "teleplay": [
+          13,
+          22
+        ]
+      }
+    },
+    {
+      "name": "Laren Bright",
+      "roles": {
+        "story": [
+          1,
+          8,
+          26,
+          48,
+          65
+        ],
+        "teleplay": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "Jules Dennis",
+      "roles": {
+        "teleplay": [
+          1,
+          8,
+          27
+        ],
+        "writer": [
+          23
+        ]
+      }
+    },
+    {
+      "name": "Richard Mueller",
+      "roles": {
+        "teleplay": [
+          1,
+          8,
+          27
+        ],
+        "writer": [
+          23
+        ]
+      }
+    },
+    {
+      "name": "Mitch Brian",
+      "roles": {
+        "writer": [
+          2,
+          71
+        ],
+        "story": [
+          13
+        ]
+      }
+    },
+    {
+      "name": "Bruce W. Timm",
+      "roles": {
+        "director": [
+          3,
+          46,
+          49,
+          55
+        ],
+        "story": [
+          69,
+          80,
+          82
+        ]
+      }
+    },
+    {
+      "name": "Todd Hayen",
+      "roles": {
+        "composer": [
+          3,
+          30,
+          31,
+          42,
+          72,
+          82
+        ]
+      }
+    },
+    {
+      "name": "Paul Dini",
+      "roles": {
+        "writer": [
+          3,
+          7,
+          24,
+          35,
+          42,
+          46,
+          47,
+          49,
+          50,
+          64,
+          66,
+          70,
+          74,
+          76,
+          77,
+          83,
+          86,
+          93,
+          97
+        ],
+        "story": [
+          9,
+          69,
+          72,
+          73,
+          79,
+          80,
+          82,
+          88,
+          94,
+          101,
+          107
+        ],
+        "teleplay": [
+          69,
+          80,
+          88,
+          107
+        ]
+      }
+    },
+    {
+      "name": "Dick Sebast",
+      "roles": {
+        "director": [
+          4,
+          8,
+          19,
+          31,
+          36,
+          45,
+          50,
+          51,
+          53
+        ]
+      }
+    },
+    {
+      "name": "Jeff Atmajian",
+      "roles": {
+        "composer": [
+          4
+        ]
+      }
+    },
+    {
+      "name": "Carl Johnson",
+      "roles": {
+        "composer": [
+          4,
+          32,
+          40,
+          43,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Marv Wolfman",
+      "roles": {
+        "story": [
+          4,
+          5
+        ],
+        "teleplay": [
+          4
+        ]
+      }
+    },
+    {
+      "name": "Michael Reaves",
+      "roles": {
+        "story": [
+          4,
+          5,
+          9,
+          26,
+          30,
+          59,
+          67,
+          72,
+          81
+        ],
+        "teleplay": [
+          5,
+          67,
+          81
+        ],
+        "writer": [
+          21,
+          34,
+          68,
+          78,
+          84
+        ]
+      }
+    },
+    {
+      "name": "Boyd Kirkland",
+      "roles": {
+        "director": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          23,
+          26,
+          32,
+          33,
+          34,
+          37,
+          42,
+          43,
+          47,
+          59,
+          66,
+          67,
+          72,
+          77,
+          83,
+          85
+        ]
+      }
+    },
+    {
+      "name": "Lolita Ritmanis",
+      "roles": {
+        "composer": [
+          6,
+          16,
+          29,
+          38,
+          64,
+          71,
+          76,
+          93
+        ],
+        "additional-music": [
+          88
+        ]
+      }
+    },
+    {
+      "name": "Tom Ruegger",
+      "roles": {
+        "story": [
+          6,
+          27,
+          32
+        ],
+        "teleplay": [
+          9
+        ]
+      }
+    },
+    {
+      "name": "Garin Wolf",
+      "roles": {
+        "teleplay": [
+          6
+        ]
+      }
+    },
+    {
+      "name": "Henry T. Gilroy",
+      "roles": {
+        "writer": [
+          10
+        ]
+      }
+    },
+    {
+      "name": "Frank Paur",
+      "roles": {
+        "director": [
+          11,
+          20,
+          21,
+          22,
+          24,
+          25,
+          27,
+          29,
+          30,
+          52,
+          61,
+          62,
+          64,
+          65,
+          81,
+          84
+        ]
+      }
+    },
+    {
+      "name": "Michael McCuistion",
+      "roles": {
+        "composer": [
+          11,
+          21,
+          34,
+          38,
+          44,
+          47,
+          57,
+          67,
+          73,
+          77,
+          88,
+          94,
+          104
+        ]
+      }
+    },
+    {
+      "name": "Ted Pedersen",
+      "roles": {
+        "writer": [
+          11
+        ]
+      }
+    },
+    {
+      "name": "Steve Hayes",
+      "roles": {
+        "writer": [
+          11
+        ]
+      }
+    },
+    {
+      "name": "Stuart V. Balcomb",
+      "roles": {
+        "composer": [
+          12,
+          27,
+          35
+        ]
+      }
+    },
+    {
+      "name": "Gerry Conway",
+      "roles": {
+        "writer": [
+          12
+        ]
+      }
+    },
+    {
+      "name": "Carlos Rodriguez",
+      "roles": {
+        "composer": [
+          14,
+          41,
+          51,
+          55,
+          68
+        ]
+      }
+    },
+    {
+      "name": "David Wise",
+      "roles": {
+        "writer": [
+          14,
+          41
+        ],
+        "story": [
+          29
+        ]
+      }
+    },
+    {
+      "name": "Carl Swenson",
+      "roles": {
+        "writer": [
+          15
+        ]
+      }
+    },
+    {
+      "name": "Beth Bornstein",
+      "roles": {
+        "writer": [
+          16
+        ]
+      }
+    },
+    {
+      "name": "Alan Burnett",
+      "roles": {
+        "story": [
+          17,
+          59,
+          63,
+          73,
+          75,
+          81,
+          88
+        ],
+        "teleplay": [
+          88
+        ],
+        "writer": [
+          110
+        ]
+      }
+    },
+    {
+      "name": "Randy Rogel",
+      "roles": {
+        "teleplay": [
+          17,
+          48,
+          65,
+          73
+        ],
+        "writer": [
+          18,
+          51,
+          53,
+          77
+        ],
+        "story": [
+          30,
+          73
+        ]
+      }
+    },
+    {
+      "name": "Lisa Bloom",
+      "roles": {
+        "composer": [
+          19
+        ]
+      }
+    },
+    {
+      "name": "Samuel Warren Joseph",
+      "roles": {
+        "writer": [
+          19
+        ]
+      }
+    },
+    {
+      "name": "Sam Graham",
+      "roles": {
+        "writer": [
+          20
+        ]
+      }
+    },
+    {
+      "name": "Chris Hubbell",
+      "roles": {
+        "writer": [
+          20
+        ]
+      }
+    },
+    {
+      "name": "Dennis Marks",
+      "roles": {
+        "story": [
+          22
+        ]
+      }
+    },
+    {
+      "name": "Beth Ertz",
+      "roles": {
+        "composer": [
+          25
+        ]
+      }
+    },
+    {
+      "name": "Mark Koval",
+      "roles": {
+        "composer": [
+          25,
+          28,
+          44
+        ]
+      }
+    },
+    {
+      "name": "Elliot S. Maggin",
+      "roles": {
+        "writer": [
+          25
+        ]
+      }
+    },
+    {
+      "name": "Joe R. Lansdale",
+      "roles": {
+        "teleplay": [
+          26,
+          59,
+          82
+        ],
+        "writer": [
+          100
+        ]
+      }
+    },
+    {
+      "name": "Lars Cutterham",
+      "roles": {
+        "composer": [
+          27
+        ]
+      }
+    },
+    {
+      "name": "Steve Perry",
+      "roles": {
+        "writer": [
+          28,
+          55,
+          85
+        ],
+        "story": [
+          37,
+          48
+        ],
+        "teleplay": [
+          63,
+          75
+        ]
+      }
+    },
+    {
+      "name": "Judith & Garfield Reeves-Stevens",
+      "roles": {
+        "teleplay": [
+          29
+        ],
+        "writer": [
+          31,
+          60
+        ]
+      }
+    },
+    {
+      "name": "Cherie Wilkerson",
+      "roles": {
+        "teleplay": [
+          30
+        ]
+      }
+    },
+    {
+      "name": "Dennis O'Flaherty",
+      "roles": {
+        "story": [
+          32
+        ]
+      }
+    },
+    {
+      "name": "Tom Ruegger: teleplay by Garin Wolf",
+      "roles": {
+        "story": [
+          32
+        ]
+      }
+    },
+    {
+      "name": "Buzz Dixon",
+      "roles": {
+        "teleplay": [
+          33
+        ]
+      }
+    },
+    {
+      "name": "Eric Radomski",
+      "roles": {
+        "director": [
+          35,
+          41,
+          63
+        ]
+      }
+    },
+    {
+      "name": "Richard Bronskill",
+      "roles": {
+        "composer": [
+          36,
+          39,
+          45
+        ]
+      }
+    },
+    {
+      "name": "Len Wein",
+      "roles": {
+        "writer": [
+          36,
+          44
+        ],
+        "story": [
+          54,
+          58
+        ],
+        "teleplay": [
+          54,
+          58
+        ]
+      }
+    },
+    {
+      "name": "Marc Saraceni",
+      "roles": {
+        "story": [
+          37
+        ],
+        "teleplay": [
+          37
+        ]
+      }
+    },
+    {
+      "name": "Kent Butterworth",
+      "roles": {
+        "director": [
+          38
+        ]
+      }
+    },
+    {
+      "name": "Eddie Gorodetsky",
+      "roles": {
+        "writer": [
+          38
+        ]
+      }
+    },
+    {
+      "name": "Tamara Kline",
+      "roles": {
+        "composer": [
+          39
+        ]
+      }
+    },
+    {
+      "name": "Brynne Stephens",
+      "roles": {
+        "writer": [
+          39,
+          40,
+          61,
+          62,
+          78
+        ],
+        "teleplay": [
+          52,
+          67
+        ]
+      }
+    },
+    {
+      "name": "Marty Isenberg",
+      "roles": {
+        "writer": [
+          43,
+          45
+        ],
+        "teleplay": [
+          79
+        ]
+      }
+    },
+    {
+      "name": "Robert N. Skir",
+      "roles": {
+        "writer": [
+          43,
+          45
+        ],
+        "teleplay": [
+          79
+        ]
+      }
+    },
+    {
+      "name": "Peter Davison",
+      "roles": {
+        "composer": [
+          47
+        ]
+      }
+    },
+    {
+      "name": "John Tatgenhorst",
+      "roles": {
+        "composer": [
+          48
+        ]
+      }
+    },
+    {
+      "name": "Peter Tomashek",
+      "roles": {
+        "composer": [
+          48,
+          50,
+          53
+        ]
+      }
+    },
+    {
+      "name": "Dan Riba",
+      "roles": {
+        "director": [
+          50,
+          54,
+          56,
+          60,
+          69,
+          73,
+          74,
+          75,
+          78,
+          79,
+          86,
+          89,
+          93,
+          100,
+          104,
+          105,
+          109
+        ]
+      }
+    },
+    {
+      "name": "Nerida Tyson-Chew",
+      "roles": {
+        "composer": [
+          50
+        ]
+      }
+    },
+    {
+      "name": "Chuck Menville",
+      "roles": {
+        "story": [
+          52
+        ]
+      }
+    },
+    {
+      "name": "Steve Chesne",
+      "roles": {
+        "composer": [
+          54
+        ]
+      }
+    },
+    {
+      "name": "James Stemple",
+      "roles": {
+        "composer": [
+          54
+        ]
+      }
+    },
+    {
+      "name": "Mike Underwood",
+      "roles": {
+        "story": [
+          54
+        ]
+      }
+    },
+    {
+      "name": "Martin Pasko",
+      "roles": {
+        "writer": [
+          56
+        ],
+        "teleplay": [
+          65
+        ]
+      }
+    },
+    {
+      "name": "Dennis O'Neil",
+      "roles": {
+        "writer": [
+          57
+        ]
+      }
+    },
+    {
+      "name": "Dennis O’Neil",
+      "roles": {
+        "story": [
+          58
+        ]
+      }
+    },
+    {
+      "name": "Mike W. Barr",
+      "roles": {
+        "story": [
+          65
+        ]
+      }
+    },
+    {
+      "name": "teleplay by Gerry Conway",
+      "roles": {
+        "story": [
+          72
+        ]
+      }
+    },
+    {
+      "name": "Kristopher Carter",
+      "roles": {
+        "composer": [
+          79,
+          83
+        ]
+      }
+    },
+    {
+      "name": "Brian Langsbard",
+      "roles": {
+        "composer": [
+          79,
+          85
+        ]
+      }
+    },
+    {
+      "name": "Diane Duane",
+      "roles": {
+        "writer": [
+          85
+        ]
+      }
+    },
+    {
+      "name": "Philip Morwood",
+      "roles": {
+        "writer": [
+          85
+        ]
+      }
+    },
+    {
+      "name": "Curt Geda",
+      "roles": {
+        "director": [
+          87,
+          92,
+          98,
+          102,
+          103,
+          106,
+          110
+        ]
+      }
+    },
+    {
+      "name": "Rich Fogel",
+      "roles": {
+        "writer": [
+          87,
+          98,
+          103,
+          110
+        ],
+        "teleplay": [
+          88
+        ],
+        "story": [
+          95
+        ]
+      }
+    },
+    {
+      "name": "Toshihiko Masuda",
+      "roles": {
+        "director": [
+          88
+        ]
+      }
+    },
+    {
+      "name": "Stan Berkowitz",
+      "roles": {
+        "teleplay": [
+          88,
+          101
+        ],
+        "writer": [
+          90,
+          96,
+          108
+        ],
+        "story": [
+          101
+        ]
+      }
+    },
+    {
+      "name": "Steve Gerber",
+      "roles": {
+        "teleplay": [
+          88
+        ],
+        "writer": [
+          99,
+          100,
+          109
+        ]
+      }
+    },
+    {
+      "name": "Hilary J. Bader",
+      "roles": {
+        "writer": [
+          89,
+          91,
+          102,
+          104,
+          106
+        ],
+        "teleplay": [
+          95
+        ]
+      }
+    },
+    {
+      "name": "Kenji Hachizaki",
+      "roles": {
+        "director": [
+          90
+        ]
+      }
+    },
+    {
+      "name": "Butch Lukic",
+      "roles": {
+        "director": [
+          91,
+          99,
+          101,
+          107,
+          108
+        ]
+      }
+    },
+    {
+      "name": "Robert Goodman",
+      "roles": {
+        "writer": [
+          92
+        ],
+        "story": [
+          94
+        ],
+        "teleplay": [
+          94,
+          105
+        ]
+      }
+    },
+    {
+      "name": "Atsuko Tanaka",
+      "roles": {
+        "director": [
+          94,
+          96
+        ]
+      }
+    },
+    {
+      "name": "Hiroyuki Aoyama",
+      "roles": {
+        "director": [
+          95
+        ]
+      }
+    },
+    {
+      "name": "Yuichiro Yano",
+      "roles": {
+        "director": [
+          97
+        ]
+      }
+    },
+    {
+      "name": "Bruce Timm",
+      "roles": {
+        "story": [
+          105,
+          107
+        ]
+      }
+    }
+  ],
+  "cast": [
+    {
+      "actor": "Kevin Conroy",
+      "roleAsListed": "BATMAN / BRUCE WAYNE",
+      "group": "cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Loren Lester",
+      "roleAsListed": "ROBIN / NIGHTWING / DICK GRAYSON",
+      "group": "cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Matt Valencia",
+      "roleAsListed": "ROBIN / TIM DRAKE (1997–present in book)",
+      "group": "cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Efrem Zimbalist Jr.",
+      "roleAsListed": "ALFRED PENNYWORTH",
+      "group": "cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Clive Revill",
+      "roleAsListed": "ALFRED PENNYWORTH (On Leather Wings; Christmas with the Joker; Nothing to Fear)",
+      "group": "cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Lloyd Bochner",
+      "roleAsListed": "MAYOR HAMILTON HILL",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Tara Charendoff",
+      "roleAsListed": "BATGIRL / BARBARA GORDON (1997–present in book)",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Robert Costanzo",
+      "roleAsListed": "DETECTIVE HARVEY BULLOCK",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Mari Devon",
+      "roleAsListed": "SUMMER GLEESON",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Melissa Gilbert",
+      "roleAsListed": "BATGIRL / BARBARA GORDON (1992–1995 in book)",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Bob Hastings",
+      "roleAsListed": "POLICE COMMISSIONER JAMES GORDON",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Marilu Henner",
+      "roleAsListed": "VERONICA VREELAND",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Diana Muldaur",
+      "roleAsListed": "DR. LESLIE THOMPKINS",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Ingrid Oliu",
+      "roleAsListed": "OFFICER RENEE MONTOYA (1992–1994 in book)",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Brock Peters",
+      "roleAsListed": "LUCIUS FOX",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Liane Schirmer",
+      "roleAsListed": "OFFICER RENEE MONTOYA (1994–present in book)",
+      "group": "supporting-cast",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Michael Ansara",
+      "roleAsListed": "MR. FREEZE / VICTOR FRIES",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Ed Asner",
+      "roleAsListed": "ROLAND DAGGETT",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Adrienne Barbeau",
+      "roleAsListed": "CATWOMAN / SELINA KYLE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Ray Buktenica",
+      "roleAsListed": "DR. HUGO STRANGE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Jeffrey Combs",
+      "roleAsListed": "SCARECROW / PROFESSOR JONATHAN CRANE (1997–present in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "George Dzundza",
+      "roleAsListed": "VENTRILOQUIST / SCARFACE / ARNOLD WESKER",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Brooks Gardner",
+      "roleAsListed": "KILLER CROC (1997–present in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "John Glover",
+      "roleAsListed": "RIDDLER / EDWARD NYGMA",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Mark Hamill",
+      "roleAsListed": "JOKER",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Bob Ito",
+      "roleAsListed": "NINJA",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Charity James",
+      "roleAsListed": "ROXY ROCKET / ROXANNE SUTTON",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Aron Kincaid",
+      "roleAsListed": "KILLER CROC (1992–1995 in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Alison LaPlaca",
+      "roleAsListed": "BABY-DOLL / MARY LOUISE DAHL (1994 in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Roddy McDowall",
+      "roleAsListed": "MAD HATTER / JERVIS TETCH",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Richard Moll",
+      "roleAsListed": "TWO-FACE / HARVEY DENT",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Kate Mulgrew",
+      "roleAsListed": "RED CLAW",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Laraine Newman",
+      "roleAsListed": "BABY-DOLL / MARY LOUISE DAHL (1998 in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Ron Perlman",
+      "roleAsListed": "CLAYFACE / MATT HAGEN",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Diane Pershing",
+      "roleAsListed": "POISON IVY / PAMELA ISLEY",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Lori Petty",
+      "roleAsListed": "LIVEWIRE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Henry Polic II",
+      "roleAsListed": "SCARECROW / PROFESSOR JONATHAN CRANE (1992–1995 in book)",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Alan Rachins",
+      "roleAsListed": "CLOCK KING / TEMPLE FUGATE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Henry Silva",
+      "roleAsListed": "BANE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Marc Singer",
+      "roleAsListed": "MAN-BAT / DR. KIRK LANGSTROM",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Helen Slater",
+      "roleAsListed": "TALIA",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Arleen Sorkin",
+      "roleAsListed": "HARLEY QUINN / HARLEEN QUINZEL",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "John Vernon",
+      "roleAsListed": "RUPERT THORNE",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "David Warner",
+      "roleAsListed": "RA’S AL GHUL",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Paul Williams",
+      "roleAsListed": "PENGUIN / OSWALD CHESTERFIELD COBBLEPOT",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Thomas Wilson",
+      "roleAsListed": "TONY ZUCCO",
+      "group": "recurring-villains",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Adam Ant",
+      "roleAsListed": "Bert (The Lion and the Unicorn)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Ed Begley Jr.",
+      "roleAsListed": "Germs (Feat of Clay, Parts One and Two); Charlie Collins (Joker’s Favor)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Robby Benson",
+      "roleAsListed": "Wilkes (P.O.V.)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Julie Brown",
+      "roleAsListed": "Zatanna (Zatanna); Lily (Eternal Youth)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "LeVar Burton",
+      "roleAsListed": "Hayden Sloane (The Worry Men)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Bud Cort",
+      "roleAsListed": "Wormwood (The Cape and Cowl Conspiracy)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Tim Curry",
+      "roleAsListed": "Fear of Victory (role not specified in printed listing)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Tim Daly",
+      "roleAsListed": "Superman (World’s Finest)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Dana Delany",
+      "roleAsListed": "Andrea Beaumont (Mask of the Phantasm); Lois Lane (World’s Finest)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Mickey Dolenz",
+      "roleAsListed": "Min and Max (Two-Face, Part Two)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Dick Gautier",
+      "roleAsListed": "Teddy Lupus (Feat of Clay, Parts One and Two)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Mark Hamill",
+      "roleAsListed": "Ferris Boyle (Heart of Ice)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Harry Hamlin",
+      "roleAsListed": "Anthony Romulus (Moon of the Wolf)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Stacy Keach Jr.",
+      "roleAsListed": "Phantasm (Mask of the Phantasm)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Senator Patrick Leahy",
+      "roleAsListed": "Governor (Showdown)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Heather Locklear",
+      "roleAsListed": "Lisa Clark (Prophecy of Doom)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Kevin McCarthy",
+      "roleAsListed": "Dr. Long (Nothing to Fear)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Malcolm McDowell",
+      "roleAsListed": "Arkady Duvall (Showdown)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "William McKinney",
+      "roleAsListed": "Jonah Hex (Showdown)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Kenneth Mars",
+      "roleAsListed": "M2 (The Lion and the Unicorn)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Andrea Martin",
+      "roleAsListed": "Mighty Mom / Lisa Lorraine (Make ’Em Laugh)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Tim Matheson",
+      "roleAsListed": "Gil Mason (Shadow of the Bat, Parts One and Two)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Elizabeth Montgomery",
+      "roleAsListed": "Barmaid (Showdown)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Steve Suskind",
+      "roleAsListed": "Maxie Zeus (Fire from Olympus)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Loretta Swit",
+      "roleAsListed": "Marcia Cates (Mad as a Hatter)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Nicholle Tom",
+      "roleAsListed": "Supergirl (Girls’ Night Out)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Marcia Wallace",
+      "roleAsListed": "Dark Interlude actress (Mudslide)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Adam West",
+      "roleAsListed": "Gray Ghost / Simon Trent (Beware the Gray Ghost)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Treat Williams",
+      "roleAsListed": "Milo (Moon of the Wolf)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "William Windom",
+      "roleAsListed": "Ethan Clark (Prophecy of Doom)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Michael York",
+      "roleAsListed": "Vertigo (Off Balance); Montague Kane (Zatanna)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Billy Zane",
+      "roleAsListed": "Demon / Jason Blood (The Demon Within)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    },
+    {
+      "actor": "Stephanie Zimbalist",
+      "roleAsListed": "D.A. Janet Van Dorn (Trial)",
+      "group": "notable-guest-stars",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "timeContext": "1998 book listing"
+    }
+  ],
+  "episodes": [
+    {
+      "bookNumber": 1,
+      "title": "THE CAT AND THE CLAW, PART ONE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Sean Catherine Derek and Laren Bright; teleplay by Jules Dennis and Richard Mueller",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker, Harvey R. Cohen, Wayne Coster"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-cat-and-the-claw-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "J. Dennis & R. Mueller",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker, Harvey Cohen, Wayne Coster",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "013",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Sean Catherine Derek and Laren Bright; teleplay by Jules Dennis and Richard Mueller",
+        "site": "J. Dennis & R. Mueller",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 2,
+      "title": "ON LEATHER WINGS",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Mitch Brian",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "on-leather-wings",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Mitch Brian",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "001",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Mitch Brian",
+        "site": "Mitch Brian",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 3,
+      "title": "HEART OF ICE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Bruce W. Timm",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "heart-of-ice",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Bruce W. Timm",
+        "music": "作曲：Todd Hayen；配乐监制：Shirley Walker",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "014",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 4,
+      "title": "FEAT OF CLAY, PART ONE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Marv Wolfman and Michael Reaves; teleplay by Marv Wolfman",
+        "director": "Dick Sebast",
+        "music": "Jeff Atmajian, Carl Johnson"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "feat-of-clay-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Marv Wolfman",
+        "director": "Dick Sebast",
+        "music": "作曲：Jeff Atmajian / Carl Johnson；配乐监制：Shirley Walker",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "020",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Marv Wolfman and Michael Reaves; teleplay by Marv Wolfman",
+        "site": "故事：Marv Wolfman & Michael Reaves；剧本：Marv Wolfman",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 5,
+      "title": "FEAT OF CLAY, PART TWO",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Marv Wolfman and Michael Reaves; teleplay by Michael Reaves",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "feat-of-clay-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Marv Wolfman & Michael Reaves；剧本：Michael Reaves",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Tokyo Movie Shinsha Co., LTD."
+      },
+      "siteGuideNumber": "021",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Marv Wolfman and Michael Reaves; teleplay by Michael Reaves",
+        "site": "故事：Marv Wolfman & Michael Reaves；剧本：Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 6,
+      "title": "IT'S NEVER TOO LATE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Tom Ruegger; teleplay by Garin Wolf",
+        "director": "Boyd Kirkland",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "it-s-never-too-late",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Tom Ruegger；剧本：Garin Wolf",
+        "director": "Boyd Kirkland",
+        "music": "Lolita Ritmanis",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "011",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Tom Ruegger; teleplay by Garin Wolf",
+        "site": "故事：Tom Ruegger；剧本：Garin Wolf",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 7,
+      "title": "JOKER'S FAVOR",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "joker-s-favor",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD.；Layout：NOA Animation"
+      },
+      "siteGuideNumber": "022",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 8,
+      "title": "THE CAT AND THE CLAW, PART TWO",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Sean Catherine Derek and Laren Bright; teleplay by Jules Dennis and Richard Mueller",
+        "director": "Dick Sebast",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-cat-and-the-claw-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：S.C. Derek & L. Bright；剧本：J. Dennis & R. Mueller",
+        "director": "Dick Sebast",
+        "music": "Harvey Cohen",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "016",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Sean Catherine Derek and Laren Bright; teleplay by Jules Dennis and Richard Mueller",
+        "site": "故事：S.C. Derek & L. Bright；剧本：J. Dennis & R. Mueller",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 9,
+      "title": "PRETTY POISON",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Michael Reaves; teleplay by Tom Ruegger",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "pretty-poison",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini & Michael Reaves；剧本：Tom Ruegger",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "005",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Michael Reaves; teleplay by Tom Ruegger",
+        "site": "故事：Paul Dini & Michael Reaves；剧本：Tom Ruegger",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 10,
+      "title": "NOTHING TO FEAR",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Henry T. Gilroy and Sean Catherine Derek",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "nothing-to-fear",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Henry T. Gilroy / Sean Catherine Derek",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "003",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Henry T. Gilroy and Sean Catherine Derek",
+        "site": "Henry T. Gilroy / Sean Catherine Derek",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 11,
+      "title": "BE A CLOWN",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Ted Pedersen and Steve Hayes",
+        "director": "Frank Paur",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "be-a-clown",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Ted Pedersen & Steve Hayes",
+        "director": "Frank Paur",
+        "music": "Michael McCuistion",
+        "animation": "Akom Production Co. Nelson Shin, President"
+      },
+      "siteGuideNumber": "009",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Ted Pedersen and Steve Hayes",
+        "site": "Ted Pedersen & Steve Hayes",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 12,
+      "title": "APPOINTMENT IN CRIME ALLEY",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Gerry Conway; based on \"There Is No Hope in Crime Alley\" (Detective Comics #457, March 1976) by Dennis O'Neil",
+        "director": "Boyd Kirkland",
+        "music": "Stuart V. Balcomb"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "appointment-in-crime-alley",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Gerry Conway",
+        "director": "Boyd Kirkland",
+        "music": "Stu Balcomb",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "026",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Gerry Conway; based on \"There Is No Hope in Crime Alley\" (Detective Comics #457, March 1976) by Dennis O'Neil",
+        "site": "Gerry Conway",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 13,
+      "title": "P.O.V.",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Mitch Brian; teleplay by Sean Catherine Derek and Laren Bright",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "p-o-v",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：M. Brian；剧本：S.C. Derek & L. Bright",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "007",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Mitch Brian; teleplay by Sean Catherine Derek and Laren Bright",
+        "site": "故事：M. Brian；剧本：S.C. Derek & L. Bright",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 14,
+      "title": "THE CLOCK KING",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by David Wise",
+        "director": "Kevin Altieri",
+        "music": "Carlos Rodriguez"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-clock-king",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "David Wise",
+        "director": "Kevin Altieri",
+        "music": "Carlos Rodriguez",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "025",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by David Wise",
+        "site": "David Wise",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 15,
+      "title": "THE LAST LAUGH",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Carl Swenson",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-last-laugh",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Carl Swenson",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "004",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Carl Swenson",
+        "site": "Carl Swenson",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 16,
+      "title": "ETERNAL YOUTH",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Beth Bornstein",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "eternal-youth",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Beth Bornstein",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "029",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Beth Bornstein",
+        "site": "Beth Bornstein",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 17,
+      "title": "TWO-FACE, PART ONE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett; teleplay by Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "two-face-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Story：Alan Burnett；Teleplay：Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Tokyo Movie Shinsha Co., LTD."
+      },
+      "siteGuideNumber": "010",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett; teleplay by Randy Rogel",
+        "site": "Story：Alan Burnett；Teleplay：Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 18,
+      "title": "TWO-FACE, PART TWO",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "two-face-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "017",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Randy Rogel",
+        "site": "Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 19,
+      "title": "FEAR OF VICTORY",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Samuel Warren Joseph",
+        "director": "Dick Sebast",
+        "music": "Lisa Bloom"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "fear-of-victory",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Samuel Warren Joseph",
+        "director": "Dick Sebast",
+        "music": "Lisa Bloom, Carlos Rodriguez",
+        "animation": "Tokyo Movie Shinsha Co., LTD."
+      },
+      "siteGuideNumber": "024",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Samuel Warren Joseph",
+        "site": "Samuel Warren Joseph",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 20,
+      "title": "I'VE GOT BATMAN IN MY BASEMENT",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Sam Graham and Chris Hubbell",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "i-ve-got-batman-in-my-basement",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Sam Graham & Chris Hubbell",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "012",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Sam Graham and Chris Hubbell",
+        "site": "Sam Graham & Chris Hubbell",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 21,
+      "title": "VENDETTA",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Michael Reaves",
+        "director": "Frank Paur",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "vendetta",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Michael Reaves",
+        "director": "Frank Paur",
+        "music": "Michael McCuistion",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "023",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Michael Reaves",
+        "site": "Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 22,
+      "title": "PROPHECY OF DOOM",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Dennis Marks; teleplay by Sean Catherine Derek",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "prophecy-of-doom",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Dennis Marks；剧本：Sean Catherine Derek",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "019",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Dennis Marks; teleplay by Sean Catherine Derek",
+        "site": "故事：Dennis Marks；剧本：Sean Catherine Derek",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 23,
+      "title": "THE FORGOTTEN",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Jules Dennis, Richard Mueller, and Sean Catherine Derek",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-forgotten",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "J. Dennis, R. Mueller and Sean Catherine Derek",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "008",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Jules Dennis, Richard Mueller, and Sean Catherine Derek",
+        "site": "J. Dennis, R. Mueller and Sean Catherine Derek",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 24,
+      "title": "MAD AS A HATTER",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "mad-as-a-hatter",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "027",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 25,
+      "title": "THE CAPE AND COWL CONSPIRACY",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Elliot S. Maggin; based on \"The Cape-and-Cowl Death Trap!\" (Detective Comics #450, August 1975) by Elliot S. Maggin",
+        "director": "Frank Paur",
+        "music": "Beth Ertz, Mark Koval"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-cape-and-cowl-conspiracy",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Elliot S. Maggin",
+        "director": "Frank Paur",
+        "music": "Beth Ertz, Mark Kovel",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "031",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Elliot S. Maggin; based on \"The Cape-and-Cowl Death Trap!\" (Detective Comics #450, August 1975) by Elliot S. Maggin",
+        "site": "Elliot S. Maggin",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 26,
+      "title": "PERCHANCE TO DREAM",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Laren Bright and Michael Reaves; teleplay by Joe R. Lansdale",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "perchance-to-dream",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Laren Bright / Michael Reaves；Teleplay：Joe R. Lansdale",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "030",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Laren Bright and Michael Reaves; teleplay by Joe R. Lansdale",
+        "site": "故事：Laren Bright / Michael Reaves；Teleplay：Joe R. Lansdale",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 27,
+      "title": "THE UNDERDWELLERS",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Tom Ruegger; teleplay by Jules Dennis and Richard Mueller",
+        "director": "Frank Paur",
+        "music": "Stuart V. Balcomb, Lars Cutterham"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-underdwellers",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Tom Ruegger；剧本：J. Dennis & R. Mueller",
+        "director": "Frank Paur",
+        "music": "Stu Balcomb and Lars Cutterham",
+        "animation": "Studio Junio"
+      },
+      "siteGuideNumber": "006",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Tom Ruegger; teleplay by Jules Dennis and Richard Mueller",
+        "site": "故事：Tom Ruegger；剧本：J. Dennis & R. Mueller",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 28,
+      "title": "NIGHT OF THE NINJA",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Steve Perry",
+        "director": "Kevin Altieri",
+        "music": "Mark Koval"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "night-of-the-ninja",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Steve Perry",
+        "director": "Kevin Altieri",
+        "music": "Mark Koval",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "034",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Steve Perry",
+        "site": "Steve Perry",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 29,
+      "title": "THE STRANGE SECRET OF BRUCE WAYNE",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by David Wise; teleplay by Judith and Garfield Reeves-Stevens; based on \"The Dead Yet Live\" and \"I Am the Batman!\" (Detective Comics #471/472, August/September 1977) by Steve Englehart",
+        "director": "Frank Paur",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-strange-secret-of-bruce-wayne",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：David Wise；剧本：Judith & Garfield Reaves-Stevens",
+        "director": "Frank Paur",
+        "music": "Lolita Ritmanis",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "036",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by David Wise; teleplay by Judith and Garfield Reeves-Stevens; based on \"The Dead Yet Live\" and \"I Am the Batman!\" (Detective Comics #471/472, August/September 1977) by Steve Englehart",
+        "site": "故事：David Wise；剧本：Judith & Garfield Reaves-Stevens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 30,
+      "title": "TYGER TYGER",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Michael Reaves and Randy Rogel; teleplay by Cherie Wilkerson",
+        "director": "Frank Paur",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tyger-tyger",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Michael Reaves and Randy Rogel；剧本：Cherie Wilkerson",
+        "director": "Frank Paur",
+        "music": "Todd Hayen",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "041",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Michael Reaves and Randy Rogel; teleplay by Cherie Wilkerson",
+        "site": "故事：Michael Reaves and Randy Rogel；剧本：Cherie Wilkerson",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 31,
+      "title": "DREAMS IN DARKNESS",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Judith and Garfield Reeves-Stevens",
+        "director": "Dick Sebast",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "dreams-in-darkness",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Judith & Garfield Reeves-Stevens",
+        "director": "Dick Sebast",
+        "music": "Todd Hayen",
+        "animation": "Studio Junio Inc."
+      },
+      "siteGuideNumber": "028",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Judith and Garfield Reeves-Stevens",
+        "site": "Judith & Garfield Reeves-Stevens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 32,
+      "title": "BEWARE THE GRAY GHOST",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Dennis O'Flaherty and Tom Ruegger: teleplay by Garin Wolf and Tom Ruegger",
+        "director": "Boyd Kirkland",
+        "music": "Carl Johnson"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "beware-the-gray-ghost",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Story：D. O’Flaherty / T. Ruegger；Teleplay：G. Wolf / T. Ruegger",
+        "director": "B. Kirkland",
+        "music": "Carl Johnson；配乐监制：Shirley Walker",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "018",
+      "comparison": {
+        "director": "different-wording-or-names",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Dennis O'Flaherty and Tom Ruegger: teleplay by Garin Wolf and Tom Ruegger",
+        "site": "Story：D. O’Flaherty / T. Ruegger；Teleplay：G. Wolf / T. Ruegger",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 33,
+      "title": "CAT SCRATCH FEVER",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Sean Catherine Derek; teleplay by Buzz Dixon",
+        "director": "Boyd Kirkland",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "cat-scratch-fever",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Sean Catherine Derek；剧本：Buzz Dixon",
+        "director": "Boyd Kirkland",
+        "music": "Harvey R. Cohen",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "035",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Sean Catherine Derek; teleplay by Buzz Dixon",
+        "site": "故事：Sean Catherine Derek；剧本：Buzz Dixon",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 34,
+      "title": "I AM THE NIGHT",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Michael Reaves",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "i-am-the-night",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Michael Reaves",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "049",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Michael Reaves",
+        "site": "Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 35,
+      "title": "ALMOST GOT 'IM",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Eric Radomski",
+        "music": "Stuart V. Balcomb"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "almost-got-im",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Eric Radomski",
+        "music": "Stuart V. Balcomb",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "046",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 36,
+      "title": "MOON OF THE WOLF",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Len Wein; based on \"Moon of the Wolf\" (Batman #255, April 1974) by Len Wein",
+        "director": "Dick Sebast",
+        "music": "Richard Bronskill"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "moon-of-the-wolf",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Len Wein",
+        "director": "Dick Sebast",
+        "music": "Richard Bronskill",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "042",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Len Wein; based on \"Moon of the Wolf\" (Batman #255, April 1974) by Len Wein",
+        "site": "Len Wein",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 37,
+      "title": "TERROR IN THE SKY",
+      "sourceFiles": [
+        "BA_pg152.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Steve Perry and Marc Saraceni; teleplay by Marc Saraceni",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "terror-in-the-sky",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Steve Perry, Mark Saraceni；剧本：Mark Saraceni",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "045",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Steve Perry and Marc Saraceni; teleplay by Marc Saraceni",
+        "site": "故事：Steve Perry, Mark Saraceni；剧本：Mark Saraceni",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 38,
+      "title": "CHRISTMAS WITH THE JOKER",
+      "sourceFiles": [
+        "BA_pg152.jpg",
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Eddie Gorodetsky",
+        "director": "Kent Butterworth",
+        "music": "Michael McCuistion, Lolita Ritmanis, Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "christmas-with-the-joker",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Eddie Gorodetsky",
+        "director": "Kent Butterworth",
+        "music": "Michael McCuistion, Lolita Ritmanis",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "002",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Eddie Gorodetsky",
+        "site": "Eddie Gorodetsky",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 39,
+      "title": "HEART OF STEEL, PART ONE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Brynne Stephens",
+        "director": "Kevin Altieri",
+        "music": "Richard Bronskill, Tamara Kline"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "heart-of-steel-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Brynne Stephens",
+        "director": "Kevin Altieri",
+        "music": "Richard Bonskill, Tamara Kline",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "038",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Brynne Stephens",
+        "site": "Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 40,
+      "title": "HEART OF STEEL, PART TWO",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Brynne Stephens",
+        "director": "Kevin Altieri",
+        "music": "Carl Johnson"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "heart-of-steel-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Brynne Stephens",
+        "director": "Kevin Altieri",
+        "music": "Carl Johnson",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "044",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Brynne Stephens",
+        "site": "Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 41,
+      "title": "IF YOU'RE SO SMART, WHY AREN'T YOU RICH?",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by David Wise",
+        "director": "Eric Radomski",
+        "music": "Carlos Rodriguez"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "if-you-re-so-smart-why-aren-t-you-rich",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "David Wise",
+        "director": "Eric Radomski",
+        "music": "Carlos Rodriguez",
+        "animation": "Blue Pencil, S.I."
+      },
+      "siteGuideNumber": "039",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by David Wise",
+        "site": "David Wise",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 42,
+      "title": "JOKER'S WILD",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "joker-s-wild",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Todd Hayen",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "040",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 43,
+      "title": "HIS SILICON SOUL",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Marty Isenberg and Robert N. Skir",
+        "director": "Boyd Kirkland",
+        "music": "Carl Johnson, Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "his-silicon-soul",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Marty Isenberg, Robert N. Skir",
+        "director": "Boyd Kirkland",
+        "music": "Carl Johnson, Harvey R. Cohen",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "060",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Marty Isenberg and Robert N. Skir",
+        "site": "Marty Isenberg, Robert N. Skir",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 44,
+      "title": "OFF BALANCE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Len Wein; based on \"Into the Den of the Death-Dealers!\" (Detective Comics #411, May 1971) by Dennis O'Neil",
+        "director": "Kevin Altieri",
+        "music": "Mark Koval, Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "off-balance",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Len Wein",
+        "director": "Kevin Altieri",
+        "music": "Mark Koval, Michael McCuistion",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "050",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Len Wein; based on \"Into the Den of the Death-Dealers!\" (Detective Comics #411, May 1971) by Dennis O'Neil",
+        "site": "Len Wein",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 45,
+      "title": "WHAT IS REALITY?",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Marty Isenberg and Robert N. Skir",
+        "director": "Dick Sebast",
+        "music": "Richard Bronskill"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "what-is-reality",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Marty Isenberg、Rober N. Skir（The World’s Finest列名）",
+        "director": "Dick Sebast",
+        "music": "Richard Bronskill",
+        "animation": "Akom Production Co."
+      },
+      "siteGuideNumber": "048",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Marty Isenberg and Robert N. Skir",
+        "site": "Marty Isenberg、Rober N. Skir（The World’s Finest列名）",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 46,
+      "title": "THE LAUGHING FISH",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini; based on \"The Joker’s Five-Way Revenge\" (Batman #251, September 1973) by Dennis O’Neil, and \"The Laughing Fish!\" and \"Sign of the Joker!\" (Detective Comics #475/476, February/March 1978) by Steve Englehart",
+        "director": "Bruce W. Timm",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-laughing-fish",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Bruce W. Timm",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "033",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini; based on \"The Joker’s Five-Way Revenge\" (Batman #251, September 1973) by Dennis O’Neil, and \"The Laughing Fish!\" and \"Sign of the Joker!\" (Detective Comics #475/476, February/March 1978) by Steve Englehart",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 47,
+      "title": "HARLEY AND IVY",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion, Peter Davison, Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "harley-and-ivy",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "056",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 48,
+      "title": "THE MECHANIC",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Steve Perry and Laren Bright; teleplay by Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "John Tatgenhorst, Peter Tomashek"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-mechanic",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Steve Perry, Laren Bright；剧本：Randy Rogel",
+        "director": "Kevin Altieri",
+        "music": "John Tatgenhorst, Peter Tomashek",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "055",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Steve Perry and Laren Bright; teleplay by Randy Rogel",
+        "site": "故事：Steve Perry, Laren Bright；剧本：Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 49,
+      "title": "THE MAN WHO KILLED BATMAN",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Bruce W. Timm",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-man-who-killed-batman",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Bruce W. Timm",
+        "music": "Shirley Walker",
+        "animation": "Sunrise"
+      },
+      "siteGuideNumber": "051",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 50,
+      "title": "ZATANNA",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Dick Sebast, Dan Riba",
+        "music": "Nerida Tyson-Chew, Peter Tomashek"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "zatanna",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Dick Sebast, Dan Riba",
+        "music": "Nerida Tyson-Chew, Peter Tomashek",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "054",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 51,
+      "title": "ROBIN'S RECKONING, PART ONE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Randy Rogel",
+        "director": "Dick Sebast",
+        "music": "Carlos Rodriguez"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "robin-s-reckoning-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Randy Rogel",
+        "director": "Dick Sebast",
+        "music": "Carlos Rodriguez",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "032",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Randy Rogel",
+        "site": "Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 52,
+      "title": "BIRDS OF A FEATHER",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Chuck Menville; teleplay by Brynne Stephens",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "birds-of-a-feather",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Chuck Menville；剧本：Brynne Stephens",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "047",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Chuck Menville; teleplay by Brynne Stephens",
+        "site": "故事：Chuck Menville；剧本：Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 53,
+      "title": "ROBIN'S RECKONING, PART TWO",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Randy Rogel",
+        "director": "Dick Sebast",
+        "music": "Peter Tomashek"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "robin-s-reckoning-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Randy Rogel",
+        "director": "Dick Sebast",
+        "music": "Peter Tomashek",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "037",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Randy Rogel",
+        "site": "Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 54,
+      "title": "BLIND AS A BAT",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Mike Underwood and Len Wein; teleplay by Len Wein",
+        "director": "Dan Riba",
+        "music": "Steve Chesne, James Stemple"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "blind-as-a-bat",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Mike Underwood, Len Wein；剧本：Len Wein",
+        "director": "Dan Riba",
+        "music": "Steve Chesne, James Stemple",
+        "animation": "Studio Junio"
+      },
+      "siteGuideNumber": "058",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Mike Underwood and Len Wein; teleplay by Len Wein",
+        "site": "故事：Mike Underwood, Len Wein；剧本：Len Wein",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 55,
+      "title": "DAY OF THE SAMURAI",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Steve Perry",
+        "director": "Bruce W. Timm",
+        "music": "Carlos Rodriguez"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "day-of-the-samurai",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Steve Perry",
+        "director": "Bruce W. Timm",
+        "music": "Carlos Rodriguez",
+        "animation": "Blue Pencil, S.I."
+      },
+      "siteGuideNumber": "043",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Steve Perry",
+        "site": "Steve Perry",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 56,
+      "title": "SEE NO EVIL",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Martin Pasko",
+        "director": "Dan Riba",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "see-no-evil",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Martin Pasko",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "015",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Martin Pasko",
+        "site": "Martin Pasko",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 57,
+      "title": "THE DEMON'S QUEST, PART ONE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Dennis O'Neil; based on \"Daughter of the Demon\" (Batman #232, June 1971) by Dennis O'Neil",
+        "director": "Kevin Altieri",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-demon-s-quest-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Dennis O'Neil",
+        "director": "Kevin Altieri",
+        "music": "Michael McCuistion",
+        "animation": "Tokyo Movie Shinsha Co."
+      },
+      "siteGuideNumber": "059",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Dennis O'Neil; based on \"Daughter of the Demon\" (Batman #232, June 1971) by Dennis O'Neil",
+        "site": "Dennis O'Neil",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 58,
+      "title": "THE DEMON'S QUEST, PART TWO",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Dennis O’Neil and Len Wein; based on \"The Demon Lives Again\" (Batman #244, September 1972) by Dennis O’Neil; teleplay by Len Wein",
+        "director": "Kevin Altieri",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-demon-s-quest-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Dennis O'Neil, Len Wein；剧本：Len Wein",
+        "director": "Kevin Altieri",
+        "music": "Harvey R. Cohen",
+        "animation": "Tokyo Movie Shinsha Co."
+      },
+      "siteGuideNumber": "063",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Dennis O’Neil and Len Wein; based on \"The Demon Lives Again\" (Batman #244, September 1972) by Dennis O’Neil; teleplay by Len Wein",
+        "site": "故事：Dennis O'Neil, Len Wein；剧本：Len Wein",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 59,
+      "title": "READ MY LIPS",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett and Michael Reaves; teleplay by Joe R. Lansdale",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "read-my-lips",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Alan Burnett, Michael Reaves；剧本：Joe R. Lansdale",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Tokyo Movie Shinsha Co."
+      },
+      "siteGuideNumber": "064",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett and Michael Reaves; teleplay by Joe R. Lansdale",
+        "site": "故事：Alan Burnett, Michael Reaves；剧本：Joe R. Lansdale",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 60,
+      "title": "FIRE FROM OLYMPUS",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Judith and Garfield Reeves-Stevens",
+        "director": "Dan Riba",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "fire-from-olympus",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Judith and Garfield Reeves-Stevens",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "062",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Judith and Garfield Reeves-Stevens",
+        "site": "Judith and Garfield Reeves-Stevens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 61,
+      "title": "SHADOW OF THE BAT, PART ONE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Brynne Stephens",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "shadow-of-the-bat-part-1",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
+        "director": "Boyd Kirkland",
+        "music": "Carl Johnson",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "057",
+      "comparison": {
+        "director": "different-wording-or-names",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Brynne Stephens",
+        "site": "故事：D. O'Flaherty & T. Ruegger；剧本：G. Wolf & T. Ruegger",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 62,
+      "title": "SHADOW OF THE BAT, PART TWO",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Brynne Stephens",
+        "director": "Frank Paur",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "shadow-of-the-bat-part-2",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Brynne Stephens",
+        "director": "Frank Paur",
+        "music": "Harvey R. Cohen",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "061",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Brynne Stephens",
+        "site": "Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 63,
+      "title": "MUDSLIDE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett; teleplay by Steve Perry",
+        "director": "Eric Radomski",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "mudslide",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Alan Burnett；剧本：Steve Perry",
+        "director": "Eric Radomski",
+        "music": "Shirley Walker",
+        "animation": "Studio Junio"
+      },
+      "siteGuideNumber": "052",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett; teleplay by Steve Perry",
+        "site": "故事：Alan Burnett；剧本：Steve Perry",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 64,
+      "title": "THE WORRY MEN",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Frank Paur",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-worry-men",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Frank Paur",
+        "music": "Lolita Ritmanis",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "065",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 65,
+      "title": "PAGING THE CRIME DOCTOR",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Mike W. Barr and Laren Bright; teleplay by Randy Rogel and Martin Pasko",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "paging-the-crime-doctor",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Mike W. Barr, Laren Bright；剧本：Randy Rogel, Martin Pasko",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "053",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Mike W. Barr and Laren Bright; teleplay by Randy Rogel and Martin Pasko",
+        "site": "故事：Mike W. Barr, Laren Bright；剧本：Randy Rogel, Martin Pasko",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 66,
+      "title": "HOUSE AND GARDEN",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "house-and-garden",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "070",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 67,
+      "title": "SIDESHOW",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Michael Reaves; teleplay by Michael Reaves and Brynne Stephens; based on \"A View from the Grave!\" (Detective Comics #410, April 1971) by Dennis O'Neil",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "sideshow",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Michael Reaves；剧本：Michael Reaves, Brynne Stephens",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "066",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Michael Reaves; teleplay by Michael Reaves and Brynne Stephens; based on \"A View from the Grave!\" (Detective Comics #410, April 1971) by Dennis O'Neil",
+        "site": "故事：Michael Reaves；剧本：Michael Reaves, Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 68,
+      "title": "AVATAR",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Michael Reaves",
+        "director": "Kevin Altieri",
+        "music": "Carlos Rodriguez"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "avatar",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Michael Reaves",
+        "director": "Kevin Altieri",
+        "music": "Carlos Rodriguez",
+        "animation": "Studio Junio"
+      },
+      "siteGuideNumber": "069",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Michael Reaves",
+        "site": "Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 69,
+      "title": "TRIAL",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Bruce W. Timm; teleplay by Paul Dini",
+        "director": "Dan Riba",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "trial",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+        "director": "Dan Riba",
+        "music": "Harvey R. Cohen",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "068",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Bruce W. Timm; teleplay by Paul Dini",
+        "site": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 70,
+      "title": "HARLEQUINADE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "harlequinade",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "072",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 71,
+      "title": "BANE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Mitch Brian",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "bane",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Mitch Brian",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "075",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Mitch Brian",
+        "site": "Mitch Brian",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 72,
+      "title": "SECOND CHANCE",
+      "sourceFiles": [
+        "BA_pg153.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Michael Reaves, teleplay by Gerry Conway",
+        "director": "Boyd Kirkland",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "second-chance",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini, Michael Reaves；剧本：Gerry Conway",
+        "director": "Boyd Kirkland",
+        "music": "Todd Hayen",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "080",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Michael Reaves, teleplay by Gerry Conway",
+        "site": "故事：Paul Dini, Michael Reaves；剧本：Gerry Conway",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 73,
+      "title": "RIDDLER'S REFORM",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett, Paul Dini, and Randy Rogel; teleplay by Randy Rogel",
+        "director": "Dan Riba",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "riddler-s-reform",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Alan Burnett、Paul Dini、Randy Rogel；电视剧本：Randy Rogel",
+        "director": "Dan Riba",
+        "music": "Michael McCuistion",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "079",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett, Paul Dini, and Randy Rogel; teleplay by Randy Rogel",
+        "site": "故事：Alan Burnett、Paul Dini、Randy Rogel；电视剧本：Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 74,
+      "title": "BABY-DOLL",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Dan Riba",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "baby-doll",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini",
+        "director": "Dan Riba",
+        "music": "Carl Johnson",
+        "animation": "Spectrum Animation Studio"
+      },
+      "siteGuideNumber": "076",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "故事：Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 75,
+      "title": "TIME OUT OF JOINT",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett; teleplay by Steve Perry",
+        "director": "Dan Riba",
+        "music": "Carl Johnson"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "time-out-of-joint",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Alan Burnett；剧本：Steve Perry",
+        "director": "Dan Riba",
+        "music": "Carl Johnson",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "073",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett; teleplay by Steve Perry",
+        "site": "故事：Alan Burnett；剧本：Steve Perry",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 76,
+      "title": "HARLEY'S HOLIDAY",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "harley-s-holiday",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Lolita Ritmanis",
+        "animation": "Dong Yang Animation Co., LTD."
+      },
+      "siteGuideNumber": "081",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 77,
+      "title": "MAKE 'EM LAUGH",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini and Randy Rogel",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "make-em-laugh",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini, Randy Rogel",
+        "director": "Boyd Kirkland",
+        "music": "Michael McCuistion",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "083",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini and Randy Rogel",
+        "site": "Paul Dini, Randy Rogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 78,
+      "title": "BATGIRL RETURNS",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Michael Reaves and Brynne Stephens",
+        "director": "Dan Riba",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "batgirl-returns",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Michael Reaves, Brynne Stephens",
+        "director": "Dan Riba",
+        "music": "Harvey R. Cohen",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "085",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Michael Reaves and Brynne Stephens",
+        "site": "Michael Reaves, Brynne Stephens",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 79,
+      "title": "LOCK-UP",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini; teleplay by Marty Isenberg and Robert N. Skir",
+        "director": "Dan Riba",
+        "music": "Kristopher Carter, Brian Langsbard"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "lock-up",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir",
+        "director": "Dan Riba",
+        "music": "Kristopher Carter, Brian Langsbard",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "082",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini; teleplay by Marty Isenberg and Robert N. Skir",
+        "site": "故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 80,
+      "title": "DEEP FREEZE",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Bruce W. Timm; teleplay by Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "deep-freeze",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+        "director": "Kevin Altieri",
+        "music": "Shirley Walker",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "084",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Bruce W. Timm; teleplay by Paul Dini",
+        "site": "故事：Paul Dini, Bruce W. Timm；剧本：Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 81,
+      "title": "THE TERRIBLE TRIO",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett and Michael Reaves; teleplay by Michael Reaves",
+        "director": "Frank Paur",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-terrible-trio",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Alan Burnett, Michael Reaves；剧本：Michael Reaves",
+        "director": "Frank Paur",
+        "music": "Shirley Walker",
+        "animation": "Jade Animation"
+      },
+      "siteGuideNumber": "071",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Alan Burnett and Michael Reaves; teleplay by Michael Reaves",
+        "site": "故事：Alan Burnett, Michael Reaves；剧本：Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 82,
+      "title": "SHOWDOWN",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Kevin Altieri, Paul Dini, and Bruce W. Timm; teleplay by Joe R. Lansdale",
+        "director": "Kevin Altieri",
+        "music": "Todd Hayen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "showdown",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Kevin Altieri, Paul Dini, Bruce W. Timm；剧本：Joe R. Lansdale",
+        "director": "Kevin Altieri",
+        "music": "Tom Hayden",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "078",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "different-wording-or-names"
+      },
+      "writingComparison": {
+        "book": "Story by Kevin Altieri, Paul Dini, and Bruce W. Timm; teleplay by Joe R. Lansdale",
+        "site": "故事：Kevin Altieri, Paul Dini, Bruce W. Timm；剧本：Joe R. Lansdale",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 83,
+      "title": "CATWALK",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Kristopher Carter"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "catwalk",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Boyd Kirkland",
+        "music": "Kristopher Carter",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "074",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 84,
+      "title": "A BULLET FOR BULLOCK",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Michael Reaves; based on \"A Bullet for Bullock\" (Detective Comics #651, October 1992) by Chuck Dixon",
+        "director": "Frank Paur",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "a-bullet-for-bullock",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Michael Reaves",
+        "director": "Frank Paur",
+        "music": "Harvey R. Cohen",
+        "animation": "Studio Junio"
+      },
+      "siteGuideNumber": "067",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Michael Reaves; based on \"A Bullet for Bullock\" (Detective Comics #651, October 1992) by Chuck Dixon",
+        "site": "Michael Reaves",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 85,
+      "title": "THE LION AND THE UNICORN",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Diane Duane, Philip Morwood, and Steve Perry",
+        "director": "Boyd Kirkland",
+        "music": "Brian Langsbard"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "the-lion-and-the-unicorn",
+      "series": "BTAS",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Diane Duane, Philip Morwood, Steve Perry",
+        "director": "Boyd Kirkland",
+        "music": "Brian Langsbard",
+        "animation": "Dong Yang Animation, Inc."
+      },
+      "siteGuideNumber": "077",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Diane Duane, Philip Morwood, and Steve Perry",
+        "site": "Diane Duane, Philip Morwood, Steve Perry",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 86,
+      "title": "HOLIDAY KNIGHTS",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Dan Riba",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-holiday-knights",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "001",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 87,
+      "title": "SINS OF THE FATHER",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Rich Fogel",
+        "director": "Curt Geda",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-sins-of-the-father",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Rich Fogel",
+        "director": "Curt Geda",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "002",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Rich Fogel",
+        "site": "Rich Fogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 88,
+      "title": "WORLD'S FINEST",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Alan Burnett and Paul Dini; teleplay by Stan Berkowitz, Alan Burnett, Paul Dini, Rich Fogel, and Steve Gerber",
+        "director": "Toshihiko Masuda",
+        "music": "Michael McCuistion; additional music: Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": null,
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "comparison": "superman-crossover-outside-existing-109-episode-catalog"
+    },
+    {
+      "bookNumber": 89,
+      "title": "COLD COMFORT",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Hilary J. Bader",
+        "director": "Dan Riba",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-cold-comfort",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Hilary J. Bader",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "003",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Hilary J. Bader",
+        "site": "Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 90,
+      "title": "NEVER FEAR",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Stan Berkowitz",
+        "director": "Kenji Hachizaki",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-never-fear",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Stan Berkowitz",
+        "director": "Kenji Hachizaki",
+        "music": "Shirley Walker",
+        "animation": "TMS-Kyokuichi Corporation"
+      },
+      "siteGuideNumber": "006",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Stan Berkowitz",
+        "site": "Stan Berkowitz",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 91,
+      "title": "YOU SCRATCH MY BACK",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Hilary J. Bader",
+        "director": "Butch Lukic",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-you-scratch-my-back",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Hilary J. Bader",
+        "director": "Butch Lukic",
+        "music": "Shirley Walker",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "005",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Hilary J. Bader",
+        "site": "Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 92,
+      "title": "DOUBLE TALK",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Robert Goodman",
+        "director": "Curt Geda",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-double-talk",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Robert Goodman",
+        "director": "Curt Geda",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "004",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Robert Goodman",
+        "site": "Robert Goodman",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 93,
+      "title": "JOKER'S MILLIONS",
+      "sourceFiles": [
+        "BA_pg154.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Dan Riba",
+        "music": "Lolita Ritmanis"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-joker-s-millions",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Dan Riba",
+        "music": "Lolita Ritmanis",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "007",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 94,
+      "title": "GROWING PAINS",
+      "sourceFiles": [
+        "BA_pg154.jpg",
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Robert Goodman; teleplay by Robert Goodman",
+        "director": "Atsuko Tanaka",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-growing-pains",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini, Robert Goodman；剧本：Robert Goodman",
+        "director": "Atsuko Tanaka",
+        "music": "Michael McCuistion",
+        "animation": "TMS-Kyokuichi Corporation"
+      },
+      "siteGuideNumber": "008",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Robert Goodman; teleplay by Robert Goodman",
+        "site": "故事：Paul Dini, Robert Goodman；剧本：Robert Goodman",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 95,
+      "title": "MEAN SEASONS",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Rich Fogel; teleplay by Hilary J. Bader",
+        "director": "Hiroyuki Aoyama",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-mean-seasons",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Rich Fogel；剧本：Hilary J. Bader",
+        "director": "Hiroyuki Aoyama",
+        "music": "Shirley Walker",
+        "animation": "TMS Kyokuichi Corporation"
+      },
+      "siteGuideNumber": "013",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Story by Rich Fogel; teleplay by Hilary J. Bader",
+        "site": "故事：Rich Fogel；剧本：Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 96,
+      "title": "THE DEMON WITHIN",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Stan Berkowitz",
+        "director": "Atsuko Tanaka",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-the-demon-within",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Rusti Bjornhoel；剧本：Stan Berkowitz",
+        "director": "Atsuko Tanaka",
+        "music": "Shirley Walker",
+        "animation": "TMS Kyokuichi Corporation"
+      },
+      "siteGuideNumber": "018",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Stan Berkowitz",
+        "site": "故事：Rusti Bjornhoel；剧本：Stan Berkowitz",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 97,
+      "title": "OVER THE EDGE",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Paul Dini",
+        "director": "Yuichiro Yano",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-over-the-edge",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Paul Dini",
+        "director": "Yuichiro Yano",
+        "music": "Shirley Walker",
+        "animation": "TMS Kyokuichi Corporation"
+      },
+      "siteGuideNumber": "012",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Paul Dini",
+        "site": "Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 98,
+      "title": "TORCH SONG",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Rich Fogel",
+        "director": "Curt Geda",
+        "music": "Shirley Walker"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-torch-song",
+      "series": "TNBA",
+      "publicationState": "listed-in-1998-book",
+      "siteCredits": {
+        "writer": "Rich Fogel",
+        "director": "Curt Geda",
+        "music": "Shirley Walker",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "010",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Rich Fogel",
+        "site": "Rich Fogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 99,
+      "title": "LOVE IS A CROC",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Steve Gerber",
+        "director": "Butch Lukic",
+        "music": "Harvey R. Cohen"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-love-is-a-croc",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Steve Gerber",
+        "director": "Butch Lukic",
+        "music": "Harvey R. Cohen",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "009",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Steve Gerber",
+        "site": "Steve Gerber",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 100,
+      "title": "CRITTERS",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Steve Gerber and Joe R. Lansdale",
+        "director": "Dan Riba",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-critters",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Steve Gerber；剧本：Joe R. Lansdale",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "014",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Steve Gerber and Joe R. Lansdale",
+        "site": "故事：Steve Gerber；剧本：Joe R. Lansdale",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 101,
+      "title": "CULT OF THE CAT",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Stan Berkowitz; teleplay by Stan Berkowitz",
+        "director": "Butch Lukic",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-cult-of-the-cat",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini, Stan Berkowitz；剧本：Stan Berkowitz",
+        "director": "Butch Lukic",
+        "music": "Kristopher Carter",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "015",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Stan Berkowitz; teleplay by Stan Berkowitz",
+        "site": "故事：Paul Dini, Stan Berkowitz；剧本：Stan Berkowitz",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 102,
+      "title": "ANIMAL ACT",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Hilary J. Bader",
+        "director": "Curt Geda",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-animal-act",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Hilary J. Bader",
+        "director": "Curt Geda",
+        "music": "Harvey Cohen",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "016",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Hilary J. Bader",
+        "site": "Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 103,
+      "title": "OLD WOUNDS",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Rich Fogel",
+        "director": "Curt Geda",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-old-wounds",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Rich Fogel",
+        "director": "Curt Geda",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "017",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Rich Fogel",
+        "site": "Rich Fogel",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 104,
+      "title": "THE ULTIMATE THRILL",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Hilary J. Bader",
+        "director": "Dan Riba",
+        "music": "Michael McCuistion"
+      },
+      "musicStatus": "listed",
+      "matchedEpisode": "tnba-the-ultimate-thrill",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Hilary J. Bader",
+        "director": "Dan Riba",
+        "music": "Michael McCuistion",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "011",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "same-spelling"
+      },
+      "writingComparison": {
+        "book": "Written by Hilary J. Bader",
+        "site": "Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 105,
+      "title": "LEGENDS OF THE DARK KNIGHT",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Bruce Timm; teleplay by Robert Goodman",
+        "director": "Dan Riba",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-legends-of-the-dark-knight",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Robert Goodman, Bruce Timm；剧本：Robert Goodman",
+        "director": "Dan Riba",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "019",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Story by Bruce Timm; teleplay by Robert Goodman",
+        "site": "故事：Robert Goodman, Bruce Timm；剧本：Robert Goodman",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 106,
+      "title": "GIRLS' NIGHT OUT",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Hilary J. Bader",
+        "director": "Curt Geda",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-girls-nite-out",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Hilary J. Bader",
+        "director": "Curt Geda",
+        "music": "Lolita Ritmanis",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "020",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Hilary J. Bader",
+        "site": "Hilary J. Bader",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 107,
+      "title": "MAD LOVE",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Story by Paul Dini and Bruce Timm; teleplay by Paul Dini",
+        "director": "Butch Lukic",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-mad-love",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Paul Dini / Bruce Timm；电视剧本：Paul Dini",
+        "director": "Butch Lukic",
+        "music": "Shirley Walker",
+        "animation": "Koko / Dong Yang"
+      },
+      "siteGuideNumber": "021",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Story by Paul Dini and Bruce Timm; teleplay by Paul Dini",
+        "site": "故事：Paul Dini / Bruce Timm；电视剧本：Paul Dini",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 108,
+      "title": "CHEMISTRY",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Stan Berkowitz",
+        "director": "Butch Lukic",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-chemistry",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Stan Berkowitz",
+        "director": "Butch Lukic",
+        "music": "Kristopher Carter",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "022",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Stan Berkowitz",
+        "site": "Stan Berkowitz",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 109,
+      "title": "BEWARE THE CREEPER",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Steve Gerber",
+        "director": "Dan Riba",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-beware-the-creeper",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "故事：Rich Fogel；剧本：Steve Gerber",
+        "director": "Dan Riba",
+        "music": "Lolita Ritmanis",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "023",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Steve Gerber",
+        "site": "故事：Rich Fogel；剧本：Steve Gerber",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    },
+    {
+      "bookNumber": 110,
+      "title": "JUDGMENT DAY",
+      "sourceFiles": [
+        "BA_pg155.jpg"
+      ],
+      "bookCredits": {
+        "writing": "Written by Rich Fogel and Alan Burnett",
+        "director": "Curt Geda",
+        "music": ""
+      },
+      "musicStatus": "not-listed-in-book",
+      "matchedEpisode": "tnba-judgment-day",
+      "series": "TNBA",
+      "publicationState": "tentatively-scheduled-in-1998-book",
+      "siteCredits": {
+        "writer": "Rich Fogel and Alan Burnett",
+        "director": "Curt Geda",
+        "music": "Michael McCuistion",
+        "animation": "Koko/Dong Yang"
+      },
+      "siteGuideNumber": "024",
+      "comparison": {
+        "director": "same-spelling",
+        "music": "not-listed-in-book"
+      },
+      "writingComparison": {
+        "book": "Written by Rich Fogel and Alan Burnett",
+        "site": "Rich Fogel and Alan Burnett",
+        "status": "parallel-attribution-preserved; no overwrite"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "file": "BA_pg152.jpg",
+      "sha256": "807425fc15964b139dc4b5be20cafddff5718679d63a756e60f025c94d9f6550"
+    },
+    {
+      "file": "BA_pg153.jpg",
+      "sha256": "4164a6c0ffa1d068532e8950d88adfabc45754d7df453d6d8ad2f2f02921f2c1"
+    },
+    {
+      "file": "BA_pg154.jpg",
+      "sha256": "774d0a98d9391563b77743ebbf7607253ccfc1d97ffa5d5081a9e25c2386e937"
+    },
+    {
+      "file": "BA_pg155.jpg",
+      "sha256": "3638ec148760521e842ceeffadf99f6692701d0d518fc93e914855ffcf0acc78"
+    }
+  ]
+}

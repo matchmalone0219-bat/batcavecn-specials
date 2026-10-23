@@ -1,0 +1,5663 @@
+{
+  "book": {
+    "id": "animated-1998",
+    "title": "Batman Animated",
+    "authors": [
+      "Paul Dini",
+      "Chip Kidd"
+    ],
+    "photographer": "Geoff Spear",
+    "introduction": "Bruce Timm",
+    "publisher": "HarperEntertainment / HarperCollins",
+    "year": 1998,
+    "isbn": "0-06-107327-X",
+    "otherISBN": "0-06-757531-5",
+    "printing": "Third Printing",
+    "scope": "BTAS、TNBA早期制作、动画电影、衍生出版、立体模型与九十年代周边；另含1998年Beyond开发预告",
+    "copyright": "© DC / Warner Bros.；书籍及图像权利归各权利人。"
+  },
+  "images": [
+    {
+      "id": "t01-batman",
+      "file": "artbook/tas/t01-batman.jpg",
+      "width": 1680,
+      "height": 1800,
+      "alt": "1990年布鲁斯·蒂姆的蝙蝠侠研究",
+      "kind": "早期角色研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg003.jpg",
+          "cropNormalized": [
+            0.015,
+            0,
+            0.99,
+            0.76
+          ],
+          "cropPixels": [
+            38,
+            0,
+            2526,
+            2666
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "52014ef652a948f1cbe87651703f3749830357514c50eb4252a3c0d23c220010"
+        }
+      ],
+      "sha256": "eebe3a7a10cd3d1df1188cad93ca0969de7507e4c3dad67a4d26ecdb823b92e9",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t01-team",
+      "file": "artbook/tas/t01-team.jpg",
+      "width": 1021,
+      "height": 789,
+      "alt": "1992年首播周的制作团队合影",
+      "kind": "制作团队照片",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg026.jpg",
+          "cropNormalized": [
+            0.165,
+            0.675,
+            0.565,
+            0.9
+          ],
+          "cropPixels": [
+            421,
+            2368,
+            1442,
+            3157
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ece80e311eee36ccf8e0449b2bb1c43771fea77b9e2fe79285f1c7b7068e9e16"
+        }
+      ],
+      "sha256": "119578ba9693e933570e0a2f9454b82fc8d9203bb70b00dd4af5af6475842510",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t02-layout",
+      "file": "artbook/tas/t02-layout.jpg",
+      "width": 1800,
+      "height": 1162,
+      "alt": "《猫与爪》屋顶追逐布局稿",
+      "kind": "场景布局稿",
+      "group": "环境",
+      "creator": "Kevin Altieri",
+      "sources": [
+        {
+          "sourceFile": "BA_pg038.jpg",
+          "cropNormalized": [
+            0.01,
+            0,
+            0.99,
+            0.46
+          ],
+          "cropPixels": [
+            26,
+            0,
+            2526,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0b46ea62977968c587cc310dc757cf4bb5191ece591afe208dccf4ca8b6bdab1"
+        }
+      ],
+      "sha256": "681d64c12b987cb17dabe404afc0571cad1f6a2738aff09cff9c8ac292e08d14",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t02-colour",
+      "file": "artbook/tas/t02-colour.jpg",
+      "width": 1800,
+      "height": 965,
+      "alt": "哥谭楼群线稿与色稿并置",
+      "kind": "背景设计与色稿",
+      "group": "环境",
+      "creator": "Keith Weesner / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg041.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.39
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1368
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f2e0ee2d8404f42ba9163b2a39f507125f32317c0dca5c5e43169d041b9030b9"
+        }
+      ],
+      "sha256": "6bbaf2ac46c00c3ea3560fcf69c199a54769013935b38b0fe27602fbb06828e6",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t02-alley",
+      "file": "artbook/tas/t02-alley.jpg",
+      "width": 1800,
+      "height": 1052,
+      "alt": "犯罪巷的色块与透视",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "Keith Weesner / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg042.jpg",
+          "cropNormalized": [
+            0,
+            0.575,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2017,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "af0d89eb3caf845cdc244299bf1f1b82639a9b9624c2c18831abbd3177005d10"
+        }
+      ],
+      "sha256": "fdbde66e05afd7ff52bbad197649e2293e2416d0c2edb8ed347105cf3a574ec5",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t02-height",
+      "file": "artbook/tas/t02-height.jpg",
+      "width": 1800,
+      "height": 1237,
+      "alt": "高楼之间俯视的哥谭夜景",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg045and046.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5104,
+            3508
+          ],
+          "sourceSize": [
+            5104,
+            3508
+          ],
+          "sourceSHA256": "4ed19f16b0c221914f42b1562c40eecb600f43965bce9fef08eb746a6b3cba0c"
+        }
+      ],
+      "sha256": "317bcec5cc3932c7455e04915b0b72e18aa561c975b63021f831d6706767a1fe",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t03-bank",
+      "file": "artbook/tas/t03-bank.jpg",
+      "width": 436,
+      "height": 1800,
+      "alt": "片头银行的竖向构图与爆炸",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg026.jpg",
+          "cropNormalized": [
+            0.67,
+            0.01,
+            1,
+            1
+          ],
+          "cropPixels": [
+            1710,
+            35,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ece80e311eee36ccf8e0449b2bb1c43771fea77b9e2fe79285f1c7b7068e9e16"
+        }
+      ],
+      "sha256": "c2b5bb920c5cef3b53213be89fad2273760bff87054fe98ac490e0b767a1ed1f",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t03-car",
+      "file": "artbook/tas/t03-car.jpg",
+      "width": 1800,
+      "height": 1336,
+      "alt": "蝙蝠车离洞与驶入街区的片头分镜",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg027.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "a35072b618fd78bd638fc1d0d55b4eb6988f806b9a66a6738e52135d219d93a9"
+        }
+      ],
+      "sha256": "2379a8e8961c912179c1e0320f82b832289f921cb3123d06f36a0dfc3109a86c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t03-fight",
+      "file": "artbook/tas/t03-fight.jpg",
+      "width": 1800,
+      "height": 1732,
+      "alt": "片头屋顶格斗的姿态与剪影",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg030.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.7
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2456
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3148df4ad2eb04d496dc0da39e28602fcd59970c9b92de1004fd04207846545f"
+        }
+      ],
+      "sha256": "30c8366dc5245508e22e6198f6c28066ff574f448d4cbe6398a22cfb7e61a0c4",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t03-reveal",
+      "file": "artbook/tas/t03-reveal.jpg",
+      "width": 1800,
+      "height": 843,
+      "alt": "片头闪电揭示蝙蝠侠的收束镜头",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg032.jpg",
+          "cropNormalized": [
+            0.05,
+            0.68,
+            0.99,
+            1
+          ],
+          "cropPixels": [
+            128,
+            2385,
+            2526,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "315fda2be43fd7452b1ece92b39e0bcd59a1d11f684d90d8cabe6c54009d247d"
+        }
+      ],
+      "sha256": "a797dda60a2e443ed94a028fcffa4adbd3fb5b69ad5ed4ad6709d3273b38c0eb",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t04-batman",
+      "file": "artbook/tas/t04-batman.jpg",
+      "width": 1800,
+      "height": 1336,
+      "alt": "蝙蝠侠的动态姿态研究",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg048.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "baa170282ad574edb5069773e7fe8bd0b5767bde4803baab7341fac9ec19b1f6"
+        }
+      ],
+      "sha256": "8bc49a0c5b26ae34629733f2f4173108ab516a0da64d2bad001d00779369279c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t04-robin",
+      "file": "artbook/tas/t04-robin.jpg",
+      "width": 1800,
+      "height": 1799,
+      "alt": "迪克·格雷森的罗宾初步模型",
+      "kind": "早期模型纸",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg055.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.77,
+            0.56
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1965,
+            1964
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7ebff42195afb24c25cbf790b7e9ad2254ae9de6df610f723c6e3850ae4bf848"
+        }
+      ],
+      "sha256": "975cf6d176215df77a742e858b5b7defa86c43d797b121eb0139060d64c5278f",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t04-batgirl",
+      "file": "artbook/tas/t04-batgirl.jpg",
+      "width": 701,
+      "height": 1800,
+      "alt": "蝙蝠女原始色彩模型",
+      "kind": "色彩模型",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg056.jpg",
+          "cropNormalized": [
+            0.4,
+            0.01,
+            0.78,
+            0.72
+          ],
+          "cropPixels": [
+            1021,
+            35,
+            1991,
+            2526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "df00275407161b0ede7cc385c87ac3f89c0448468a940f7dd581f682785ff7a4"
+        }
+      ],
+      "sha256": "5de0241a3d0a0ababb07f04edc086c57bf10b549cad420a76a0c2458d2811e77",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t04-alfred",
+      "file": "artbook/tas/t04-alfred.jpg",
+      "width": 1684,
+      "height": 1684,
+      "alt": "阿尔弗雷德的表情与头部角度",
+      "kind": "表情模型纸",
+      "group": "角色",
+      "creator": "Mike Gougen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg057.jpg",
+          "cropNormalized": [
+            0.34,
+            0.52,
+            1,
+            1
+          ],
+          "cropPixels": [
+            868,
+            1824,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "764e507a9f38b41918b5909529b625952d3b264cf027341a02590da6877ad78e"
+        }
+      ],
+      "sha256": "184ad246141ad2843d0c3504bcf24ce734ceb8e5249892db136e16c9097b710d",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t05-notes",
+      "file": "artbook/tas/t05-notes.jpg",
+      "width": 1800,
+      "height": 668,
+      "alt": "广播审看修改单的局部",
+      "kind": "制作修改记录",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg035.jpg",
+          "cropNormalized": [
+            0,
+            0.36,
+            1,
+            0.63
+          ],
+          "cropPixels": [
+            0,
+            1263,
+            2552,
+            2210
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4b3bdf06132dd29d81a70815ddbdc2ca54ee649d2fac2e256e9702cede525234"
+        }
+      ],
+      "sha256": "c2f1871616fc7b3576e28058a7d6bf966bb97916ad106524c164d9112154cf19",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t05-satire",
+      "file": "artbook/tas/t05-satire.jpg",
+      "width": 1464,
+      "height": 1800,
+      "alt": "布鲁斯·蒂姆讽刺播出限制的插画",
+      "kind": "制作团队讽刺画",
+      "group": "制作",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg036.jpg",
+          "cropNormalized": [
+            0,
+            0.443,
+            0.605,
+            0.984
+          ],
+          "cropPixels": [
+            0,
+            1554,
+            1544,
+            3452
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "169e2cdd71f3de39ad0a2535402eec4591073d011b5764da770b5b62287f8ebf"
+        }
+      ],
+      "sha256": "c44313f5902a1e2e2f7ffc62949a17dbb2511628d722c67a4bf8101890db3262",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t06-recording",
+      "file": "artbook/tas/t06-recording.jpg",
+      "width": 1340,
+      "height": 1105,
+      "alt": "《Almost Got ’Im》1992年录音演员合影",
+      "kind": "录音合影",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg033.jpg",
+          "cropNormalized": [
+            0,
+            0.685,
+            0.525,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2403,
+            1340,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "96946f72fa55fd72a6eb5870c9687c038269a0e565eb62b133e86917c5128fdf"
+        }
+      ],
+      "sha256": "ebc250efa4068037b377512b251188e6383df72b3db56a817044a4693d9b46ce",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t06-joker",
+      "file": "artbook/tas/t06-joker.jpg",
+      "width": 1174,
+      "height": 1526,
+      "alt": "小丑夸张下巴与牙齿的早期草图",
+      "kind": "早期角色草图",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg065.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.46,
+            0.435
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1174,
+            1526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "369a8fb8e92f3e29b6e8ab4ec2d6e39b07703cb3e928aef4f41ab8357f7d7551"
+        }
+      ],
+      "sha256": "d271352754e80c9c8102882e808477f37d53eaf9983ba1146b339a321621e027",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t07-score",
+      "file": "artbook/tas/t07-score.jpg",
+      "width": 1800,
+      "height": 1163,
+      "alt": "雪莉·沃克为《Never Fear》写作的手稿局部",
+      "kind": "配乐手稿",
+      "group": "制作",
+      "creator": "Shirley Walker",
+      "sources": [
+        {
+          "sourceFile": "BA_pg034.jpg",
+          "cropNormalized": [
+            0,
+            0.53,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1859,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "8c498bc66a06c838c492f96c7a8479e2f2a229184bb2a0312a2cc6632a8ae7c8"
+        }
+      ],
+      "sha256": "0023f6c6d3a73875b046cedb901135596e34cc62535dbb0ae52b193d022f17d0",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t08-sketch",
+      "file": "artbook/tas/t08-sketch.jpg",
+      "width": 1346,
+      "height": 1800,
+      "alt": "保罗·迪尼的哈莉初稿",
+      "kind": "初步角色草图",
+      "group": "角色",
+      "creator": "Paul Dini",
+      "sources": [
+        {
+          "sourceFile": "BA_pg069.jpg",
+          "cropNormalized": [
+            0.445,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            1136,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0992332335fba07010d77e7ad4aa62db6541ce79d2171b8345c93247d00514d7"
+        }
+      ],
+      "sha256": "56cdfc24a14a2d1c9e6d884d6bf5d548200d5492a8391c6bb11c94a85f9897bf",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t08-board",
+      "file": "artbook/tas/t08-board.jpg",
+      "width": 1800,
+      "height": 767,
+      "alt": "哈莉与小丑对戏的表情变化",
+      "kind": "表演分镜",
+      "group": "分镜",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg070.jpg",
+          "cropNormalized": [
+            0,
+            0.69,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2421,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3227607a299b35a2d0a08c3ac5f280e0a3a2616f6916ff00ebea459948dd56b5"
+        }
+      ],
+      "sha256": "90d1d3044f9db95a0b132b90d4b38e8565ca26ae9f5462b3a675108bd7d0e223",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t08-model",
+      "file": "artbook/tas/t08-model.jpg",
+      "width": 1416,
+      "height": 1018,
+      "alt": "哈莉的旋转模型纸",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg071.jpg",
+          "cropNormalized": [
+            0.445,
+            0.4,
+            1,
+            0.69
+          ],
+          "cropPixels": [
+            1136,
+            1403,
+            2552,
+            2421
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "284397d83f1ec855c20ca3d0971b6f1c3e3bd9f948f3d7394cfb1b9a1e55ff65"
+        }
+      ],
+      "sha256": "4d8dbe1f13f09584fec616d192ff9ba328386f12686f0fd22ffa4ca2b3fe3a09",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-batman",
+      "file": "artbook/tas/t09-batman.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS蝙蝠侠动态模型；右：TNBA色彩设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg048.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "baa170282ad574edb5069773e7fe8bd0b5767bde4803baab7341fac9ec19b1f6"
+        },
+        {
+          "sourceFile": "BA_pg139A.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "94e860b805fa91fcd1d57222eeb2a39515538e6f102f5e3e3d72a407429c0964"
+        }
+      ],
+      "sha256": "480287aaeca6ee9b7a3b13652e429c02de011dfc2a16aac8ba4accb869730a2c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-robin",
+      "file": "artbook/tas/t09-robin.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：迪克·格雷森罗宾；右：蒂姆·德雷克罗宾设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg054.jpg",
+          "cropNormalized": [
+            0.3,
+            0,
+            1,
+            0.65
+          ],
+          "cropPixels": [
+            766,
+            0,
+            2552,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "60c99ef805bc32a424b7b41be8bc91e0e8cdecf78a605c4559d7d2b22a09857b"
+        },
+        {
+          "sourceFile": "BA_pg139B.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.85
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2982
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "55b76654cd266bd0d7039570303e95a5d534b02d7781bdff432d730ea86eae23"
+        }
+      ],
+      "sha256": "a987177adfb70f6150774aab32df184aa5344b2eb1129615f5fc78e369794866",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-catwoman",
+      "file": "artbook/tas/t09-catwoman.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS猫女；右：TNBA猫女设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg084.jpg",
+          "cropNormalized": [
+            0.38,
+            0.05,
+            1,
+            0.66
+          ],
+          "cropPixels": [
+            970,
+            175,
+            2552,
+            2315
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "e17af5d13fd20c328ed9536f514b68063f42994bbbbc434e06eb1c486791246b"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0.71,
+            0.02,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            1812,
+            70,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "ffb2c498d681ea5e7b4ec137e47f851bcb7719aa5dca2c5eba34b839f7cb0e40",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-penguin",
+      "file": "artbook/tas/t09-penguin.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS企鹅人初步模型；右：TNBA企鹅人",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg091.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.59,
+            0.78
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1506,
+            2736
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5f30eb79a45ba266e222739f0860eaf6f524e0bc427e91d67e97350b7e7f5c6e"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.66,
+            0,
+            1,
+            0.51
+          ],
+          "cropPixels": [
+            1684,
+            0,
+            2552,
+            1789
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "1bf9982d555df771bca35c74d52af1ba164e19577dd538032c2a6a35153c7404",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-ivy",
+      "file": "artbook/tas/t09-ivy.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS毒藤女头部研究；右：TNBA色彩模型",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg111.jpg",
+          "cropNormalized": [
+            0.1,
+            0,
+            1,
+            0.55
+          ],
+          "cropPixels": [
+            255,
+            0,
+            2552,
+            1929
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "412666bdb0017667d53ccee7ae4e07ca5797b9d1020293f614c9c0b6c9e78e10"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.25,
+            0.51,
+            0.48,
+            1
+          ],
+          "cropPixels": [
+            638,
+            1789,
+            1225,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "dfb19f93b9bddd9010526dadb6ca798bb53a6c41339583abea7dd0db09a829bf",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-scarecrow",
+      "file": "artbook/tas/t09-scarecrow.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS《Fear of Victory》标题画；右：TNBA稻草人模型",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg108.jpg",
+          "cropNormalized": [
+            0.18,
+            0.6,
+            1,
+            1
+          ],
+          "cropPixels": [
+            459,
+            2105,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c5636a3c67797968c3514062722f78f0504bb6568483c10dbf63f1beef259343"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.37,
+            0.62
+          ],
+          "cropPixels": [
+            0,
+            0,
+            944,
+            2175
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "ee0ec33f43e161a0a4d6dd31042c7b652c9d7d47a0c0decad3b7e5fc62781a33",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t10-posters",
+      "file": "artbook/tas/t10-posters.jpg",
+      "width": 1800,
+      "height": 643,
+      "alt": "《幽灵的面具》的海报探索",
+      "kind": "海报概念稿",
+      "group": "制作",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg119.jpg",
+          "cropNormalized": [
+            0,
+            0.52,
+            1,
+            0.78
+          ],
+          "cropPixels": [
+            0,
+            1824,
+            2552,
+            2736
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ba3780c6863c4e57a5ae2715ae8f1199c8ad61dc1069ca717f5c99f64894cc33"
+        }
+      ],
+      "sha256": "efb6b8e30fa61ebcdb3559f1441f0099534bed15625bf1ecbfbee4bad9c40037",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t10-future",
+      "file": "artbook/tas/t10-future.jpg",
+      "width": 1800,
+      "height": 743,
+      "alt": "世界博览会未来之家的明亮室内",
+      "kind": "背景设计",
+      "group": "环境",
+      "creator": "Rae McCarson / Steve Butz",
+      "sources": [
+        {
+          "sourceFile": "BA_pg120.jpg",
+          "cropNormalized": [
+            0,
+            0.4,
+            1,
+            0.7
+          ],
+          "cropPixels": [
+            0,
+            1403,
+            2552,
+            2456
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f8fa3347433899fe6be985dd3478e1004480047769b16501782df6e26f3a2bfc"
+        }
+      ],
+      "sha256": "252fc152a6e8fcb2c66c69fe6b57abb94e09f1754d88f0e326d974a8014e7382",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t10-ruin",
+      "file": "artbook/tas/t10-ruin.jpg",
+      "width": 1800,
+      "height": 693,
+      "alt": "多年后废弃的未来之家",
+      "kind": "背景设计",
+      "group": "环境",
+      "creator": "Rae McCarson / Steve Butz",
+      "sources": [
+        {
+          "sourceFile": "BA_pg120.jpg",
+          "cropNormalized": [
+            0,
+            0.72,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2526,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f8fa3347433899fe6be985dd3478e1004480047769b16501782df6e26f3a2bfc"
+        }
+      ],
+      "sha256": "51ca4836d119092c0649485bf7da45eed931da80b6e925ad2126a571fc232a10",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t11-cave",
+      "file": "artbook/tas/t11-cave.jpg",
+      "width": 1800,
+      "height": 1114,
+      "alt": "急冻人的北极冰穴与诺拉的容器",
+      "kind": "背景铅笔稿",
+      "group": "环境",
+      "creator": "Ted Blackman",
+      "sources": [
+        {
+          "sourceFile": "BA_pg125.jpg",
+          "cropNormalized": [
+            0,
+            0.53,
+            1,
+            0.98
+          ],
+          "cropPixels": [
+            0,
+            1859,
+            2552,
+            3438
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "50b765a69761f430e46d3c6ab5d876350ee9c0234e4ff7a218db8ef0e5e26a3a"
+        }
+      ],
+      "sha256": "cd5b7cc2a951698b2529797e2ff9c51f32482d7fac5707e151af4895d9bc64ee",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t11-operation",
+      "file": "artbook/tas/t11-operation.jpg",
+      "width": 1800,
+      "height": 1583,
+      "alt": "海上平台手术室",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "Ted Blackman / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg126.jpg",
+          "cropNormalized": [
+            0,
+            0.36,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1263,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "69bc2c168752b77a123678b3cdacf2f2766dc3e0443b9346feefeac45323e0c0"
+        }
+      ],
+      "sha256": "c3d5aab1cbd5a24f0b20e7d8ceafbaa75e476dbe9b0ef9dd0a15685d7e3f15ad",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t12-pencils",
+      "file": "artbook/tas/t12-pencils.jpg",
+      "width": 1800,
+      "height": 1485,
+      "alt": "1998年《Harley & Ivy》开发铅笔页",
+      "kind": "漫画开发铅笔稿",
+      "group": "出版",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg074.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.6
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2105
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "d8db2e38b53a5d6029911a50b9cbae6c4bd8686863205b191355096e3f4dc03c"
+        }
+      ],
+      "sha256": "e2421515aa865c9fa0db040205a0a19f1ef8de92badaa50840d39f67960fdf02",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t12-colour",
+      "file": "artbook/tas/t12-colour.jpg",
+      "width": 1800,
+      "height": 1583,
+      "alt": "《Mad Love》的色彩指导稿",
+      "kind": "漫画着色指导",
+      "group": "出版",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg075.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.64
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2245
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "a1b9e33b0238cb47f6b48f9f6c1a1d4aafaa51d1e3fa71a85bef1d3f5a9f6c6d"
+        }
+      ],
+      "sha256": "5a176dfc7b4f92bdb25f2df23a0dd984f10f295bcc7be42afaa2106959d9a596",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-leather",
+      "file": "artbook/tas/ep-leather.jpg",
+      "width": 1800,
+      "height": 742,
+      "alt": "凯文·诺兰的人蝠姿态研究",
+      "kind": "角色研究",
+      "group": "角色",
+      "creator": "Kevin Nowlan",
+      "sources": [
+        {
+          "sourceFile": "BA_pg107.jpg",
+          "cropNormalized": [
+            0.16,
+            0.495,
+            1,
+            0.747
+          ],
+          "cropPixels": [
+            408,
+            1736,
+            2552,
+            2620
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "e96c83ad93f1640bfdf681984535013734f3a83d5f99bf601afa241c959bc358"
+        }
+      ],
+      "sha256": "ccd185b75fb2ec626f66fd13cbc2f4380740eb5b448ee0c965ba73779babf4e1",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-twoface-one",
+      "file": "artbook/tas/ep-twoface-one.jpg",
+      "width": 1800,
+      "height": 1237,
+      "alt": "《Two-Face: Part 1》揭面分镜与修改贴纸",
+      "kind": "分镜与修改稿",
+      "group": "分镜",
+      "creator": "Kevin Altieri",
+      "sources": [
+        {
+          "sourceFile": "BA_pg087.jpg",
+          "cropNormalized": [
+            0,
+            0.5,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1754,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ccfc8ca7b1059b250bacf73d1254218dfaaf6317cdbd7adc1123bfbb2030887d"
+        }
+      ],
+      "sha256": "ea3c6bcd710a13d7cd1198b21ed94b9602978bd09b3559eceaedbb2cf9756d7c",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-twoface-two",
+      "file": "artbook/tas/ep-twoface-two.jpg",
+      "width": 1572,
+      "height": 1800,
+      "alt": "哈维·丹特双面构图的初步铅笔研究",
+      "kind": "初步角色研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg089.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.78,
+            0.65
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1991,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c62ed996533e08bd7525a86798eec0d3394fc1b374030d45b319371f06aa7db6"
+        }
+      ],
+      "sha256": "ee2d29e346989d8ffe9dc4bbb8ce958ffe6e804be5f50039fbef30fa889d1985",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-fish",
+      "file": "artbook/tas/ep-fish.jpg",
+      "width": 1800,
+      "height": 1138,
+      "alt": "《The Laughing Fish》中小丑逼近受害者的分镜",
+      "kind": "分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm / Ronaldo Del Carmen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg064.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.46
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5c8bc4fe190892d045108225103df81a84982b488f6c431c98577e6a4e225470"
+        }
+      ],
+      "sha256": "b349152d41e523f8428756b08e46db6fd388f061a0bde81d7161818f5a3db578",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-freeze",
+      "file": "artbook/tas/ep-freeze.jpg",
+      "width": 1800,
+      "height": 1114,
+      "alt": "急冻人的机械服与头部模型研究",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg109.jpg",
+          "cropNormalized": [
+            0,
+            0.55,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1929,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7153b8e46bda792626a1f39cff1a6ca8e27a687e2913e54f21a57b24ca88dfe9"
+        }
+      ],
+      "sha256": "622de8ae83b50b014c05d6ba5863ce699c8576d535af4f2049b64fc57a439a0e",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-clay",
+      "file": "artbook/tas/ep-clay.jpg",
+      "width": 1800,
+      "height": 1311,
+      "alt": "泥脸的动作与表情研究",
+      "kind": "动作模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg096.jpg",
+          "cropNormalized": [
+            0,
+            0.47,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1649,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b0f11f28a738f089c5e86d87ab94e38cba9206d0505b7bbd30eb4d6b3262f87f"
+        }
+      ],
+      "sha256": "5ffcacc67c17ba5d7b5da7e3bf34f0587a8b5e544c925f6af4bba232317a3560",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-hatter",
+      "file": "artbook/tas/ep-hatter.jpg",
+      "width": 1486,
+      "height": 1105,
+      "alt": "疯帽匠的角色探索",
+      "kind": "角色概念稿",
+      "group": "角色",
+      "creator": "Kevin Nowlan",
+      "sources": [
+        {
+          "sourceFile": "BA_pg108.jpg",
+          "cropNormalized": [
+            0.218,
+            0.16,
+            0.8,
+            0.475
+          ],
+          "cropPixels": [
+            556,
+            561,
+            2042,
+            1666
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c5636a3c67797968c3514062722f78f0504bb6568483c10dbf63f1beef259343"
+        }
+      ],
+      "sha256": "6f108767b177db05108d231688179e47b7e83699296a68235a84455f3f372367",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-legends-sprang",
+      "file": "artbook/tas/ep-legends-sprang.jpg",
+      "width": 1786,
+      "height": 1579,
+      "alt": "蒂姆重释迪克·斯普朗式蝙蝠侠与罗宾",
+      "kind": "剧中风格模型",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg144.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.7,
+            0.45
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1786,
+            1579
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b861c0112b1da2d894c5d377adcc807cfe43db531263c759228970a188a1a6c2"
+        }
+      ],
+      "sha256": "e4309716bb12f2ebeba117fb04c7c54dd9200bd698263b276683f227f25efa8c",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-legends-miller",
+      "file": "artbook/tas/ep-legends-miller.jpg",
+      "width": 1800,
+      "height": 1435,
+      "alt": "米勒式壮硕蝙蝠侠与凯莉·凯利",
+      "kind": "剧中风格模型",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg146.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.58
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2035
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "2d544274dbb30bcb877e02ee0bd6419978ac83e5195bc6dea37bf893f72d5763"
+        }
+      ],
+      "sha256": "068f93b02788b7ca0c11e90d62b8ae730964d6162285e82d5e626b3a8d202a2f",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "id": "ep-creeper",
+      "file": "artbook/tas/ep-creeper.jpg",
+      "width": 1800,
+      "height": 668,
+      "alt": "杰克·莱德与狂笑人的角色设计",
+      "kind": "角色设计",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg143.jpg",
+          "cropNormalized": [
+            0,
+            0.73,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2561,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9bc2b160ea5d2c18f73d4fb336a68321305cf4559549d36421d8760f7ceb6b19"
+        }
+      ],
+      "sha256": "a79a8f88bcd1399d2fb1a880e32fa9511bb443ce6cdb6be4a4ca43c961ba9a61",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-joker-detail",
+      "file": "artbook/tas/t09-joker-detail.jpg",
+      "width": 1800,
+      "height": 1500,
+      "alt": "TNBA小丑的全身与表情设计",
+      "kind": "模型与表情研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg133.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.445,
+            0.79
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1136,
+            2771
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0dd582a4832d9987ce9ea698055b9988a7802fae2f35767abcb0716cbcbb35dd"
+        },
+        {
+          "sourceFile": "BA_pg133.jpg",
+          "cropNormalized": [
+            0.445,
+            0,
+            1,
+            0.64
+          ],
+          "cropPixels": [
+            1136,
+            0,
+            2552,
+            2245
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0dd582a4832d9987ce9ea698055b9988a7802fae2f35767abcb0716cbcbb35dd"
+        }
+      ],
+      "sha256": "40d8f52668b1f87ba6a208114a305509951b7745ebf394c66a6e939489f16bf6",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-nightwing",
+      "file": "artbook/tas/t09-nightwing.jpg",
+      "width": 1800,
+      "height": 1138,
+      "alt": "夜翼的转身模型",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "Glen Murakami",
+      "sources": [
+        {
+          "sourceFile": "BA_pg131.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.46
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "49c88c7ac237cc2d7d6cc4a5256463d3cb2b27a011b1a7767d6393ea6dd375ab"
+        }
+      ],
+      "sha256": "a905b09649cc4ec7ca189c035ec2096f8cb6e2eaa7c95c2bbe5713849004f290",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "t09-batgirl-detail",
+      "file": "artbook/tas/t09-batgirl-detail.jpg",
+      "width": 664,
+      "height": 1754,
+      "alt": "TNBA蝙蝠女的黑色服装造型",
+      "kind": "角色设计",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg140.jpg",
+          "cropNormalized": [
+            0.47,
+            0,
+            0.73,
+            0.5
+          ],
+          "cropPixels": [
+            1199,
+            0,
+            1863,
+            1754
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "75e6c696e185c7d473f6e4c2c329269e873cff9b480d7e7969120acec226cc57"
+        }
+      ],
+      "sha256": "f57f37e1b794aa4fc4f8c4855cc577cc7b7ce65dbeb641b70a008c14e7a23047",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "id": "portrait-role-1",
+      "file": "artbook/tas/portrait-role-1.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "蝙蝠侠 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg047.jpg",
+          "cropNormalized": [
+            0.05,
+            0.03,
+            0.65,
+            0.49
+          ],
+          "cropPixels": [
+            128,
+            105,
+            1659,
+            1719
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "fac642662fe99e28b0aa7e7647184d92de9ef91d74c2eb1018e65b69bd1cc995"
+        }
+      ],
+      "sha256": "93ee13dba4467a82cb844637d499e7a571e438dbd81ff1bf79eaf48a253366a8",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-1",
+      "thumbnail": "artbook/tas/portrait-role-1-small.jpg",
+      "thumbnailSHA256": "1f3ab0210227688633cf04a6096f286b2b8dead23ffad80ce9a5a445bc059c4b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-2",
+      "file": "artbook/tas/portrait-role-2.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "阿尔弗雷德 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg057.jpg",
+          "cropNormalized": [
+            0.69,
+            0.575,
+            0.86,
+            0.75
+          ],
+          "cropPixels": [
+            1761,
+            2017,
+            2195,
+            2631
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "764e507a9f38b41918b5909529b625952d3b264cf027341a02590da6877ad78e"
+        }
+      ],
+      "sha256": "ca40bfbbd62e30272ba24339c0330a3bacb12d019446b9b3bf570380f95bac4b",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-2",
+      "thumbnail": "artbook/tas/portrait-role-2-small.jpg",
+      "thumbnailSHA256": "6a5ecdca5dc09828a88c2e9ea716f8f6fcfc28d0ff3b5aebbb15fdefe5409df1",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-3",
+      "file": "artbook/tas/portrait-role-3.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "戈登 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg079.jpg",
+          "cropNormalized": [
+            0.41,
+            0.12,
+            0.62,
+            0.35
+          ],
+          "cropPixels": [
+            1046,
+            421,
+            1582,
+            1228
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b8114f000cd536f72298287282e61768210957b77e96545ef5c90be9adcc7335"
+        }
+      ],
+      "sha256": "b53bc4b160c543863953dffa0215384a27ff2e8b19ac6fb94bc5ff309c274bd7",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-3",
+      "thumbnail": "artbook/tas/portrait-role-3-small.jpg",
+      "thumbnailSHA256": "6a8438d8b48808d441b9f03ea47703d7e5bba9704406be6b8028577bcb93be33",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-4",
+      "file": "artbook/tas/portrait-role-4.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "迪克·格雷森／罗宾 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg055.jpg",
+          "cropNormalized": [
+            0.46,
+            0.16,
+            0.75,
+            0.42
+          ],
+          "cropPixels": [
+            1174,
+            561,
+            1914,
+            1473
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7ebff42195afb24c25cbf790b7e9ad2254ae9de6df610f723c6e3850ae4bf848"
+        }
+      ],
+      "sha256": "d9dc22a76a56c8c199cbd4e8ff91e3c247b9f2fa684426f6a2884a1a117a6c22",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-4",
+      "thumbnail": "artbook/tas/portrait-role-4-small.jpg",
+      "thumbnailSHA256": "7ec511d04d7ce8b24cebf2f12f6ecfab5f1011e2420edeb1fa25d37e8796968a",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-5",
+      "file": "artbook/tas/portrait-role-5.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "布洛克 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg079.jpg",
+          "cropNormalized": [
+            0.45,
+            0.59,
+            0.81,
+            0.94
+          ],
+          "cropPixels": [
+            1148,
+            2070,
+            2067,
+            3298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b8114f000cd536f72298287282e61768210957b77e96545ef5c90be9adcc7335"
+        }
+      ],
+      "sha256": "ece9d2e9b958af2ce3d2f193f8ed286c415f21b4f9bc9258d0d6d9f188a978a3",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-5",
+      "thumbnail": "artbook/tas/portrait-role-5-small.jpg",
+      "thumbnailSHA256": "b323379d459932c0445a4bd173065582f052074810adf216900c4dbdfc2ef0ff",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-6",
+      "file": "artbook/tas/portrait-role-6.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "小丑 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg065.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.46,
+            0.435
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1174,
+            1526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "369a8fb8e92f3e29b6e8ab4ec2d6e39b07703cb3e928aef4f41ab8357f7d7551"
+        }
+      ],
+      "sha256": "f8d16a476acbff7a73ace362481d9cb52304dce5068546609da6a02c9466b7ed",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-6",
+      "thumbnail": "artbook/tas/portrait-role-6-small.jpg",
+      "thumbnailSHA256": "e516153aea9174ad01eb99bab57552996b2d4d1beb4a4d572e1ff71e219ce13b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-7",
+      "file": "artbook/tas/portrait-role-7.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "哈维·丹特／双面人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg089.jpg",
+          "cropNormalized": [
+            0.02,
+            0,
+            0.62,
+            0.51
+          ],
+          "cropPixels": [
+            51,
+            0,
+            1582,
+            1789
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c62ed996533e08bd7525a86798eec0d3394fc1b374030d45b319371f06aa7db6"
+        }
+      ],
+      "sha256": "37496db46d90f2eb453d2f811ffea1526fc850b6f18920cce5372462ae8e3cac",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-7",
+      "thumbnail": "artbook/tas/portrait-role-7-small.jpg",
+      "thumbnailSHA256": "dc0dd53eb87c71be21c0d553d4a6a5b221fe83c6b002d4616dfda1de062967db",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-8",
+      "file": "artbook/tas/portrait-role-8.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "猫女 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg081.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.94
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "624dbabeda41ac1ab2c8a65d8a5c222765328aa3aa60a50b089d299c6f038f66"
+        }
+      ],
+      "sha256": "7f456833a07aa1ac8af02c90494db4c2db754caf988f5af76df387c125a4d4cb",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-8",
+      "thumbnail": "artbook/tas/portrait-role-8-small.jpg",
+      "thumbnailSHA256": "c2c5811a0f9078a0e90e7fe5f7f2b395e04712eec0864f834e16a11a218f93fb",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-9",
+      "file": "artbook/tas/portrait-role-9.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "哈莉 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg070.jpg",
+          "cropNormalized": [
+            0.35,
+            0,
+            1,
+            0.65
+          ],
+          "cropPixels": [
+            893,
+            0,
+            2552,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3227607a299b35a2d0a08c3ac5f280e0a3a2616f6916ff00ebea459948dd56b5"
+        }
+      ],
+      "sha256": "8914b69235eb15c6faadc46d8f8d133f12d5f6c5cb73e7552e38d3b582ebc11d",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-9",
+      "thumbnail": "artbook/tas/portrait-role-9-small.jpg",
+      "thumbnailSHA256": "d7a863c0d9937d5af3f41f47327cdc6c7e8528d525d5f96814a360317016c36b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-10",
+      "file": "artbook/tas/portrait-role-10.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "企鹅人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg091.jpg",
+          "cropNormalized": [
+            0.1,
+            0.01,
+            0.53,
+            0.54
+          ],
+          "cropPixels": [
+            255,
+            35,
+            1353,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5f30eb79a45ba266e222739f0860eaf6f524e0bc427e91d67e97350b7e7f5c6e"
+        }
+      ],
+      "sha256": "c0787c49296d411d6532a13791b98b17e34989183b744b790ed4838fb0c159cc",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-10",
+      "thumbnail": "artbook/tas/portrait-role-10-small.jpg",
+      "thumbnailSHA256": "4e79a6c0c2c994e8714b5f94c1f7f56e3d90ef14887409d912f5b966d96d5d70",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-11",
+      "file": "artbook/tas/portrait-role-11.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "芭芭拉／蝙蝠女 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg056.jpg",
+          "cropNormalized": [
+            0.42,
+            0.08,
+            0.67,
+            0.34
+          ],
+          "cropPixels": [
+            1072,
+            281,
+            1710,
+            1193
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "df00275407161b0ede7cc385c87ac3f89c0448468a940f7dd581f682785ff7a4"
+        }
+      ],
+      "sha256": "2ee7bfc05244623844da3d4bcdac47890b13ae405686c184aff6b6d942f5be6e",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-11",
+      "thumbnail": "artbook/tas/portrait-role-11-small.jpg",
+      "thumbnailSHA256": "1f245cb1e3bf34df5c03cd169811bc18a3c81f237a5a4a073f231d8d13d307ee",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-12",
+      "file": "artbook/tas/portrait-role-12.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "泥脸 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg095.jpg",
+          "cropNormalized": [
+            0.4,
+            0.01,
+            0.72,
+            0.23
+          ],
+          "cropPixels": [
+            1021,
+            35,
+            1837,
+            807
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "11a4d1494c612675fea5428678e48f22c8f3bdae2fe3dc5d96d55dbfb79e894d"
+        }
+      ],
+      "sha256": "73e0868301028104540fdabf3d29769062eeb9af6c86dd42ce8a67412923a428",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-12",
+      "thumbnail": "artbook/tas/portrait-role-12-small.jpg",
+      "thumbnailSHA256": "262b69316e7b9c8b3fcb4da6f192437e6e71828db260f75fdc99ae8099da8d3c",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-13",
+      "file": "artbook/tas/portrait-role-13.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "急冻人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg109.jpg",
+          "cropNormalized": [
+            0.19,
+            0.495,
+            0.4,
+            0.65
+          ],
+          "cropPixels": [
+            485,
+            1736,
+            1021,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7153b8e46bda792626a1f39cff1a6ca8e27a687e2913e54f21a57b24ca88dfe9"
+        }
+      ],
+      "sha256": "741e7fcc5eb79b840c9d98c9a39168d96a094e4492a934ba618f47d91f70e90e",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-13",
+      "thumbnail": "artbook/tas/portrait-role-13-small.jpg",
+      "thumbnailSHA256": "edcba66cdf818e56f226a02092904d840e7eabe473ce5ffbf1658dfc12a73cdc",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-14",
+      "file": "artbook/tas/portrait-role-14.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "拉斯·奥·古 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg097.jpg",
+          "cropNormalized": [
+            0.4,
+            0.22,
+            0.99,
+            0.8
+          ],
+          "cropPixels": [
+            1021,
+            772,
+            2526,
+            2806
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "bbf48e78508f016a2271126295f3366a1b11c155f2b05069df5aaf04e7de7b97"
+        }
+      ],
+      "sha256": "7ec76205a4f4c344355982eef050083aeba5fa5fe2671bc092633a238691bc15",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-14",
+      "thumbnail": "artbook/tas/portrait-role-14-small.jpg",
+      "thumbnailSHA256": "78887983d35371d2e0017b9258f3fecc8da92ac1f8a11442c18e0687e8be5468",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "portrait-role-15",
+      "file": "artbook/tas/portrait-role-15.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "谜语人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg105.jpg",
+          "cropNormalized": [
+            0.4,
+            0.593,
+            0.6,
+            0.738
+          ],
+          "cropPixels": [
+            1021,
+            2080,
+            1531,
+            2589
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f820aa04c41cffa54ff9d8b024b378f55e4f7893b8b37667048b619b481ac3bb"
+        }
+      ],
+      "sha256": "82530242382b09161163b8dc9568ea3fda9bc402ce92a6d784c54e88c25b543f",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-15",
+      "thumbnail": "artbook/tas/portrait-role-15-small.jpg",
+      "thumbnailSHA256": "bdd18d582869a7d0023d71dc546e055306c2ff825717395cfb9a167bf3fe2994",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "id": "t13-dream",
+      "file": "artbook/tas/t13-dream.jpg",
+      "width": 732,
+      "height": 438,
+      "alt": "《Dreams in Darkness》以束缚姿态与栅栏光影构成的标题卡",
+      "kind": "分集标题卡",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg019A.jpg",
+          "cropNormalized": [
+            0.025,
+            0.303,
+            0.312,
+            0.428
+          ],
+          "cropPixels": [
+            64,
+            1063,
+            796,
+            1501
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f2fb5fde967e5ef98d2b9d000ac203a6d056a081a40454694c4c960208a9b14e"
+        }
+      ],
+      "sha256": "e7b186743d88bf487cd95b471fcb5a769c30320129d2eb9331f64987ddca92c3",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t13-abstract",
+      "file": "artbook/tas/t13-abstract.jpg",
+      "width": 738,
+      "height": 442,
+      "alt": "《Harley and Ivy》用红黑橙绿构成的抽象标题卡",
+      "kind": "分集标题卡",
+      "group": "制作",
+      "creator": "Eric Radomski / Glen Murakami",
+      "sources": [
+        {
+          "sourceFile": "BA_pg019B.jpg",
+          "cropNormalized": [
+            0.348,
+            0.45,
+            0.637,
+            0.576
+          ],
+          "cropPixels": [
+            888,
+            1579,
+            1626,
+            2021
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "cb6eac1fbd36a2bdb0de7f01ffa63a4aab15fcc774aa177eb2a3a87efc1a785b"
+        }
+      ],
+      "sha256": "f1d3ff061932b0fe791f4fc8c97620689fd0ce5caeb5cb828d0344689a31b48a",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t13-mudslide",
+      "file": "artbook/tas/t13-mudslide.jpg",
+      "width": 1633,
+      "height": 1035,
+      "alt": "《Mudslide》标题画中泥脸与人类面孔的局部",
+      "kind": "标题画局部",
+      "group": "制作",
+      "creator": "Eric Radomski / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg095.jpg",
+          "cropNormalized": [
+            0.36,
+            0.46,
+            1,
+            0.755
+          ],
+          "cropPixels": [
+            919,
+            1614,
+            2552,
+            2649
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "11a4d1494c612675fea5428678e48f22c8f3bdae2fe3dc5d96d55dbfb79e894d"
+        }
+      ],
+      "sha256": "39b620dd2f2d58653757238c8379b9dcb9085dadab44350576b3356b9c07d9e9",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t14-riddler",
+      "file": "artbook/tas/t14-riddler.jpg",
+      "width": 655,
+      "height": 1800,
+      "alt": "阴影中的谜语人绘画与口部动画的构图",
+      "kind": "制作绘画",
+      "group": "角色",
+      "creator": "John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg106.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.48,
+            0.96
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1225,
+            3368
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "fd7b4b6dd7a05c5f4335b8d71dbe7d5ae8fe1ca2fc330a110618f2055310c1a5"
+        }
+      ],
+      "sha256": "befb8835473aeb4e654560a5662778f7762a33c87f28689bb16ab6f4c352b39a",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t14-ivy",
+      "file": "artbook/tas/t14-ivy.jpg",
+      "width": 1288,
+      "height": 1800,
+      "alt": "琳恩·内勒为毒藤女绘制的头部与姿态研究",
+      "kind": "角色设计草图",
+      "group": "角色",
+      "creator": "Lynne Naylor",
+      "sources": [
+        {
+          "sourceFile": "BA_pg116.jpg",
+          "cropNormalized": [
+            0.405,
+            0.005,
+            1,
+            0.61
+          ],
+          "cropPixels": [
+            1034,
+            18,
+            2552,
+            2140
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "dded3ed72ff78a55511ee43a8361bc5a9904db1aee5e9c36f8f8f21ff056465c"
+        }
+      ],
+      "sha256": "9db67a46008df8c2827f9fb7454574ab216fb154b907ebe3677cd722d5e0daec",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t14-bane",
+      "file": "artbook/tas/t14-bane.jpg",
+      "width": 1800,
+      "height": 952,
+      "alt": "贝恩的正面体形与弯身姿态研究",
+      "kind": "早期角色设计",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg118.jpg",
+          "cropNormalized": [
+            0,
+            0.015,
+            1,
+            0.4
+          ],
+          "cropPixels": [
+            0,
+            53,
+            2552,
+            1403
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9cfd9e222bb0a60736e5b9907b303456302a36e04fcde3a193e75e26f45036db"
+        }
+      ],
+      "sha256": "51f378672081a6f7f6a1d0ba7feee27043e34cb049cdc537e46eb89567029cdd",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t15-clay",
+      "file": "artbook/tas/t15-clay.jpg",
+      "width": 1800,
+      "height": 1120,
+      "alt": "左：BTAS泥脸的动作研究；右：TNBA更圆厚的色彩模型",
+      "kind": "BTAS／TNBA图像对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg095.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.37
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "11a4d1494c612675fea5428678e48f22c8f3bdae2fe3dc5d96d55dbfb79e894d"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.49,
+            0.51,
+            1,
+            1
+          ],
+          "cropPixels": [
+            1250,
+            1789,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "5760311dc808aeec86e872127d679baeafdc1a66938bcd20704fd5aad1188b93",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t15-croc",
+      "file": "artbook/tas/t15-croc.jpg",
+      "width": 1800,
+      "height": 1120,
+      "alt": "左：BTAS《Vendetta》动作分镜；右：TNBA杀手鳄色彩模型",
+      "kind": "BTAS／TNBA图像对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg117.jpg",
+          "cropNormalized": [
+            0,
+            0.57,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2000,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "6fdf620af7e81e502284eb9e2b59d57cb42dddd2f4cd3beaa29d0a51cde0849c"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0,
+            0.54,
+            0.39,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1894,
+            995,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "83ea76d7bd1d1a0aaa78afeece3b4eba5410a03bcbf09270b5361f8b203d1ac2",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t15-bane",
+      "file": "artbook/tas/t15-bane.jpg",
+      "width": 1800,
+      "height": 1120,
+      "alt": "左：BTAS贝恩初步模型；右：TNBA黑色皮装与铆钉造型",
+      "kind": "BTAS／TNBA图像对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg118.jpg",
+          "cropNormalized": [
+            0,
+            0.015,
+            1,
+            0.4
+          ],
+          "cropPixels": [
+            0,
+            53,
+            2552,
+            1403
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9cfd9e222bb0a60736e5b9907b303456302a36e04fcde3a193e75e26f45036db"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0.66,
+            0.518,
+            1,
+            1
+          ],
+          "cropPixels": [
+            1684,
+            1817,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "5debbf23ac8c7d3a30a0dfb64ab7906e32504697a2925659a39c7def613572c0",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t15-hatter",
+      "file": "artbook/tas/t15-hatter.jpg",
+      "width": 1800,
+      "height": 1120,
+      "alt": "左：BTAS疯帽匠探索稿；右：TNBA更接近坦尼尔插画的造型",
+      "kind": "BTAS／TNBA图像对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg108.jpg",
+          "cropNormalized": [
+            0.218,
+            0.16,
+            0.8,
+            0.475
+          ],
+          "cropPixels": [
+            556,
+            561,
+            2042,
+            1666
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c5636a3c67797968c3514062722f78f0504bb6568483c10dbf63f1beef259343"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.25,
+            0,
+            0.57,
+            0.51
+          ],
+          "cropPixels": [
+            638,
+            0,
+            1455,
+            1789
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "77fca3408456df84a3c0e1c5f0c0bdff0e3cdfb881fc57a57dd6d1886339e4af",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-joker-turn",
+      "file": "artbook/tas/ep2-joker-turn.jpg",
+      "width": 1800,
+      "height": 1740,
+      "alt": "小丑慢慢转身、向前逼近的分镜",
+      "kind": "表演分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg067.jpg",
+          "cropNormalized": [
+            0.035,
+            0.325,
+            0.995,
+            1
+          ],
+          "cropPixels": [
+            89,
+            1140,
+            2539,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "6ab01103f9efa47a3e231624461844cea35eaaa4cf172623608b3da983356673"
+        }
+      ],
+      "sha256": "707aa99e5895b4598e9795281ae7208c071381f6f6d65f93d5e95c62c149305f",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-joker-pause",
+      "file": "artbook/tas/ep2-joker-pause.jpg",
+      "width": 1757,
+      "height": 1800,
+      "alt": "小丑激动指责、短暂停顿后恢复微笑的分镜",
+      "kind": "表演分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg068.jpg",
+          "cropNormalized": [
+            0.01,
+            0,
+            0.99,
+            0.73
+          ],
+          "cropPixels": [
+            26,
+            0,
+            2526,
+            2561
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "30b76e316f7e8d52cdabc8fbe82aab82ed10cf90dce2d11c86c99a51ba9c29ca"
+        }
+      ],
+      "sha256": "76f34e08b07591ed0cd38d1e857fb6224e8bc4109b200ef3a3162814abd46b9a",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-garden-mirror",
+      "file": "artbook/tas/ep2-garden-mirror.jpg",
+      "width": 1800,
+      "height": 878,
+      "alt": "车内后视镜出现怪物与突然袭击的分镜",
+      "kind": "悬念分镜",
+      "group": "分镜",
+      "creator": "Ronaldo Del Carmen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg112.jpg",
+          "cropNormalized": [
+            0,
+            0.005,
+            1,
+            0.36
+          ],
+          "cropPixels": [
+            0,
+            18,
+            2552,
+            1263
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "44ca50070a70e1eeba491e031748a8c27268f1f23e4eafb893c146a86effd161"
+        }
+      ],
+      "sha256": "e5cb577e946fbf2b24e6ea8376b95cc869afbf2d05c3f31ede1f76609dd35fec",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-garden-road",
+      "file": "artbook/tas/ep2-garden-road.jpg",
+      "width": 1800,
+      "height": 1472,
+      "alt": "布鲁斯下车检查伤口并回望的分镜",
+      "kind": "悬念分镜",
+      "group": "分镜",
+      "creator": "Ronaldo Del Carmen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg115.jpg",
+          "cropNormalized": [
+            0,
+            0.005,
+            1,
+            0.6
+          ],
+          "cropPixels": [
+            0,
+            18,
+            2552,
+            2105
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0f2a4a2c5ca2cc65d7a2bfe5d1467e03cd0fb00c923f9334c9c9f46a3ede96c1"
+        }
+      ],
+      "sha256": "17cf27a466ede5d53818fd3949308b336fd3678fa8278c1e4c2f690f1115bcf0",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-avatar-rise",
+      "file": "artbook/tas/ep2-avatar-rise.jpg",
+      "width": 1800,
+      "height": 1149,
+      "alt": "泥浆中的手脸聚成触手的动作分镜",
+      "kind": "动作与效果分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg099.jpg",
+          "cropNormalized": [
+            0.005,
+            0.005,
+            0.995,
+            0.465
+          ],
+          "cropPixels": [
+            13,
+            18,
+            2539,
+            1631
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9c71daeb887fae74c07eef3df4d8ca1a1a0d51c650ea962a19d4a9428986fced"
+        }
+      ],
+      "sha256": "8152a13d026d89469954fe4852e9a50adca4ba57174bee61499c402843253f48",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-avatar-rescue",
+      "file": "artbook/tas/ep2-avatar-rescue.jpg",
+      "width": 1800,
+      "height": 1224,
+      "alt": "蝙蝠侠跃下、接住塔莉亚并拔剑的动作分镜",
+      "kind": "动作分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg101.jpg",
+          "cropNormalized": [
+            0,
+            0.005,
+            1,
+            0.5
+          ],
+          "cropPixels": [
+            0,
+            18,
+            2552,
+            1754
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "56fbe888c833e6d538d782d8e8ee000ef4510bae3987d05af3fdfcbf053b3cf3"
+        }
+      ],
+      "sha256": "063da029bfc2c7cd140b20b3a2b51e3d87f3952b8a9e9149fc16bc21de8e4a89",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t17-harley",
+      "file": "artbook/tas/t17-harley.jpg",
+      "width": 583,
+      "height": 1800,
+      "alt": "1996年华纳商店哈莉瓷像的书内商品摄影",
+      "kind": "历史商品摄影",
+      "group": "收藏",
+      "creator": "Geoff Spear",
+      "sources": [
+        {
+          "sourceFile": "BA_pg069.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.445,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1136,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0992332335fba07010d77e7ad4aa62db6541ce79d2171b8345c93247d00514d7"
+        }
+      ],
+      "sha256": "11866a84befb22d59b88d88fb80b74265d81429bebd9349110b14f851ea357b5",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t17-penguin",
+      "file": "artbook/tas/t17-penguin.jpg",
+      "width": 859,
+      "height": 1800,
+      "alt": "1992年英国Avon企鹅人儿童清洁用品瓶盖的书内摄影",
+      "kind": "历史商品摄影",
+      "group": "收藏",
+      "creator": "Geoff Spear",
+      "sources": [
+        {
+          "sourceFile": "BA_pg092.jpg",
+          "cropNormalized": [
+            0.6,
+            0,
+            1,
+            0.61
+          ],
+          "cropPixels": [
+            1531,
+            0,
+            2552,
+            2140
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "de81997436242e0b10889c71b5f284ef5bdf700adcc5a382542bde7b2ccffa91"
+        }
+      ],
+      "sha256": "44572a71068ae804ebcc25e7d88d0e1995aab072422f610c177ac6368bb5cd3c",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t17-riddler",
+      "file": "artbook/tas/t17-riddler.jpg",
+      "width": 1327,
+      "height": 1508,
+      "alt": "1995年Prelude UK谜语人泡泡浴瓶的书内摄影",
+      "kind": "历史商品摄影",
+      "group": "收藏",
+      "creator": "Geoff Spear",
+      "sources": [
+        {
+          "sourceFile": "BA_pg106.jpg",
+          "cropNormalized": [
+            0.48,
+            0,
+            1,
+            0.43
+          ],
+          "cropPixels": [
+            1225,
+            0,
+            2552,
+            1508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "fd7b4b6dd7a05c5f4335b8d71dbe7d5ae8fe1ca2fc330a110618f2055310c1a5"
+        }
+      ],
+      "sha256": "26cfb79de742bb07c29dcefd5c4d479dec124c9c8beb87966ee7bbbaf34abfdf",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t17-batman-maquette",
+      "file": "artbook/tas/t17-batman-maquette.jpg",
+      "width": 1309,
+      "height": 1800,
+      "alt": "格伦·王制作的TNBA蝙蝠侠立体参考模型",
+      "kind": "立体参考模型摄影",
+      "group": "制作",
+      "creator": "Glenn Wong / Geoff Spear",
+      "sources": [
+        {
+          "sourceFile": "BA_pg137B.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "52cdb057fa6259f0cbec1d8ff7e75239ac097f491e78813a7b96d382381a13e7"
+        }
+      ],
+      "sha256": "0265feca5f89b98341cf063d826b94ff06eda08af8d15c570c9c658291732e1b",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t17-robin-maquette",
+      "file": "artbook/tas/t17-robin-maquette.jpg",
+      "width": 1309,
+      "height": 1800,
+      "alt": "格伦·王制作的蒂姆·德雷克罗宾立体参考模型",
+      "kind": "立体参考模型摄影",
+      "group": "制作",
+      "creator": "Glenn Wong / Geoff Spear",
+      "sources": [
+        {
+          "sourceFile": "BA_pg138A.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "1700fbc8094d743ac8133195e14256648dd9468fd9e5af15de484335b43a826b"
+        }
+      ],
+      "sha256": "bb7e6c2455e98b3cef5d1dac00de4f8c9f0df10243148d335d30b13673246e0d",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t19-day",
+      "file": "artbook/tas/t19-day.jpg",
+      "width": 1093,
+      "height": 1800,
+      "alt": "TNBA警察总部与病黄色的白昼天空",
+      "kind": "背景设计与色稿",
+      "group": "环境",
+      "creator": "Richie Chavez / David McBride",
+      "sources": [
+        {
+          "sourceFile": "BA_pg141.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.435,
+            0.521
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1110,
+            1828
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "66283abe953d2bc3dc04d4506fd623016c41ff42993e90b13692e65a33029848"
+        }
+      ],
+      "sha256": "0ea4e7e347e5f90ee5987dce5767de9ec7b625e5ddd26f34d792c163a1e88ec4",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t19-night",
+      "file": "artbook/tas/t19-night.jpg",
+      "width": 1332,
+      "height": 1800,
+      "alt": "TNBA高架铁路与红色夜空",
+      "kind": "背景设计与色稿",
+      "group": "环境",
+      "creator": "Michele Graybeal / David McBride",
+      "sources": [
+        {
+          "sourceFile": "BA_pg141.jpg",
+          "cropNormalized": [
+            0.47,
+            0,
+            1,
+            0.521
+          ],
+          "cropPixels": [
+            1199,
+            0,
+            2552,
+            1828
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "66283abe953d2bc3dc04d4506fd623016c41ff42993e90b13692e65a33029848"
+        }
+      ],
+      "sha256": "e3be3364541cab3d2fc6b86fa934d3bae459faa60583f7b76e357810adde80e6",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t19-beyond",
+      "file": "artbook/tas/t19-beyond.jpg",
+      "width": 1400,
+      "height": 1800,
+      "alt": "1998年《Batman Beyond》的姿态与轮廓探索",
+      "kind": "开发期角色研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg151.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.935
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b5d8cae50b048ca03f742923e3b00bb8908b6cdf1fba950c1df0e71d566de6f5"
+        }
+      ],
+      "sha256": "be999c2ad2b3b036e0001a7794038deabf474d098c4857331edcb536aeb482db",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t20-gordon",
+      "file": "artbook/tas/t20-gordon.jpg",
+      "width": 1800,
+      "height": 1502,
+      "alt": "1990年提案片戈登的全身与头部模型",
+      "kind": "提案片模型纸",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg079.jpg",
+          "cropNormalized": [
+            0.02,
+            0.05,
+            0.77,
+            0.505
+          ],
+          "cropPixels": [
+            51,
+            175,
+            1965,
+            1772
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b8114f000cd536f72298287282e61768210957b77e96545ef5c90be9adcc7335"
+        }
+      ],
+      "sha256": "b32602cec80b439c3e29b99976faf95898043ac20ddaf224c479d2ec597c9e57",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t20-montoya",
+      "file": "artbook/tas/t20-montoya.jpg",
+      "width": 765,
+      "height": 1210,
+      "alt": "1991年蒙托亚两种表情与角度的头部研究",
+      "kind": "初步角色模型",
+      "group": "角色",
+      "creator": "Lynne Naylor",
+      "sources": [
+        {
+          "sourceFile": "BA_pg080.jpg",
+          "cropNormalized": [
+            0.005,
+            0.65,
+            0.305,
+            0.995
+          ],
+          "cropPixels": [
+            13,
+            2280,
+            778,
+            3490
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b5e47241e6da206e85830d27b88886a7aa93380f0e5f81cf4c199911f11f0ea0"
+        }
+      ],
+      "sha256": "e9edb236578bb0924ec4b234d6465b8a11bce1334ee60c3722311b17ebe7145d",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t21-cave",
+      "file": "artbook/tas/t21-cave.jpg",
+      "width": 1800,
+      "height": 1027,
+      "alt": "蝙蝠洞里的人物、平台与巨大岩壁",
+      "kind": "布局与背景色稿",
+      "group": "环境",
+      "creator": "Ted Blackman / Russell Chong",
+      "sources": [
+        {
+          "sourceFile": "BA_pg050.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.415
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1456
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "a1aafae0888fd19175845a2b55297e465eb9b64eefcbed31510b74803c425b08"
+        }
+      ],
+      "sha256": "ed08fc6022e6050dfadb54afd44a265e91d37175a6f791ac95492c4a4c372aac",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t21-car",
+      "file": "artbook/tas/t21-car.jpg",
+      "width": 1800,
+      "height": 1052,
+      "alt": "流线型蝙蝠车的背景绘画与原页设计说明",
+      "kind": "载具设计色稿与原页说明",
+      "group": "装备",
+      "creator": "Shayne Poindexter / Russell Chong",
+      "sources": [
+        {
+          "sourceFile": "BA_pg052.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.425
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1491
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7da09f5576004c5aeee4dacdce52791ad889342e3ba6c840a1f7ddcf03368cdf"
+        }
+      ],
+      "sha256": "6f6433943e993681626ed34720f333c967c2a46f8d6b119e588480412f193582",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t21-wing",
+      "file": "artbook/tas/t21-wing.jpg",
+      "width": 1800,
+      "height": 1212,
+      "alt": "黑色蝙蝠翼的机翼与座舱造型",
+      "kind": "载具设计色稿",
+      "group": "装备",
+      "creator": "Bruce Timm / Shayne Poindexter / Russell Chong",
+      "sources": [
+        {
+          "sourceFile": "BA_pg052.jpg",
+          "cropNormalized": [
+            0,
+            0.45,
+            1,
+            0.94
+          ],
+          "cropPixels": [
+            0,
+            1579,
+            2552,
+            3298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7da09f5576004c5aeee4dacdce52791ad889342e3ba6c840a1f7ddcf03368cdf"
+        }
+      ],
+      "sha256": "b823cda812cad1e99dacd32e21213dcae8db7e3b3c9cc559053c682dd6499097",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t22-ras",
+      "file": "artbook/tas/t22-ras.jpg",
+      "width": 1800,
+      "height": 441,
+      "alt": "拉斯·奥·古不同角度与表情的头部研究",
+      "kind": "表情与角度研究",
+      "group": "角色",
+      "creator": "Chen-Yi Chang",
+      "sources": [
+        {
+          "sourceFile": "BA_pg097.jpg",
+          "cropNormalized": [
+            0.27,
+            0.87,
+            1,
+            1
+          ],
+          "cropPixels": [
+            689,
+            3052,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "bbf48e78508f016a2271126295f3366a1b11c155f2b05069df5aaf04e7de7b97"
+        }
+      ],
+      "sha256": "be80fca0bb554cc510f21710e5e0b7c7400608dc0b77f19c7cf717eb3cb71a86",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t22-freeze",
+      "file": "artbook/tas/t22-freeze.jpg",
+      "width": 1800,
+      "height": 568,
+      "alt": "《Heart of Ice》急冻人望向小雕像的分镜",
+      "kind": "表演分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg110.jpg",
+          "cropNormalized": [
+            0,
+            0.265,
+            1,
+            0.495
+          ],
+          "cropPixels": [
+            0,
+            930,
+            2552,
+            1736
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "25f2cffafbc0b4a6d6aadcd01d47e6b7df4c52b3a6cb04206fbd16aab9bb18d6"
+        }
+      ],
+      "sha256": "5fde2dafde22e0b07704fac66e7f17bf8c11d20b7dfd81c0cd971a936b17a91b",
+      "spoiler": true,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t23-early",
+      "file": "artbook/tas/t23-early.jpg",
+      "width": 1800,
+      "height": 1447,
+      "alt": "早期未来主义哥谭色彩方案中的企鹅人与蝙蝠侠",
+      "kind": "早期风格概念画",
+      "group": "环境",
+      "creator": "Bruce Timm / Laura Lee Lizak",
+      "sources": [
+        {
+          "sourceFile": "BA_pg094.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.585
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2052
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "aa9c7fe6c040866caa642ce9ef0fabba5d6ee9634b2aff2d908c9014a9dbaae0"
+        }
+      ],
+      "sha256": "872dc148534090a30a4e1c6d7614863d63faf90d5586df55519f6cfc7cca9f6a",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "t23-sega",
+      "file": "artbook/tas/t23-sega.jpg",
+      "width": 1800,
+      "height": 1120,
+      "alt": "世嘉蝙蝠侠CD-ROM游戏删去的企鹅人段落分镜节选",
+      "kind": "游戏删去段落分镜选区并置",
+      "group": "分镜",
+      "creator": "Butch Lukic",
+      "sources": [
+        {
+          "sourceFile": "BA_pg093.jpg",
+          "cropNormalized": [
+            0.54,
+            0.01,
+            0.995,
+            0.25
+          ],
+          "cropPixels": [
+            1378,
+            35,
+            2539,
+            877
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0725c2d6c00bc751cdc5247bf1f39e348d7ffad9d7ca3dabb2546ac2f049a0de"
+        },
+        {
+          "sourceFile": "BA_pg093.jpg",
+          "cropNormalized": [
+            0.54,
+            0.535,
+            0.995,
+            0.845
+          ],
+          "cropPixels": [
+            1378,
+            1877,
+            2539,
+            2964
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0725c2d6c00bc751cdc5247bf1f39e348d7ffad9d7ca3dabb2546ac2f049a0de"
+        }
+      ],
+      "sha256": "78c64e8ee1e8a45ed2da788d88809684e2d809d1e3eef29edd37541d4e315d6b",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-batgirl-whip",
+      "file": "artbook/tas/ep2-batgirl-whip.jpg",
+      "width": 1800,
+      "height": 960,
+      "alt": "猫女挥鞭、蝙蝠女投出蝙蝠镖的分镜",
+      "kind": "动作分镜",
+      "group": "分镜",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg085.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.388
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1361
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b1b11fd2fee63afa57c7ab7ffe2103cc7caff74d7ecc2fb9343a6556545491b2"
+        }
+      ],
+      "sha256": "03707bf5d587dba1d861c99b726f41b680c20a91f37adea39ad1a908bc5154d9",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    },
+    {
+      "id": "ep2-batgirl-route",
+      "file": "artbook/tas/ep2-batgirl-route.jpg",
+      "width": 1800,
+      "height": 1082,
+      "alt": "猫女沿展品、栏杆和高处窗框逃走的分镜",
+      "kind": "连续运动分镜",
+      "group": "分镜",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg086.jpg",
+          "cropNormalized": [
+            0.005,
+            0.222,
+            0.995,
+            0.655
+          ],
+          "cropPixels": [
+            13,
+            779,
+            2539,
+            2298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ae21b433fd4ca6fe591ab69b9edafe437080c7a623b0f776f5ecab65495257bb"
+        }
+      ],
+      "sha256": "66d21d548975b016755bc4c8254c52324cdb8a4fb82df1b349d1dbe0dc174594",
+      "spoiler": false,
+      "book": "animated-1998",
+      "batch": 2
+    }
+  ],
+  "chapters": [
+    {
+      "id": "artbook-t01",
+      "planId": "T01",
+      "title": "两分钟试片，确立整部动画的方向",
+      "summary": "1990年的角色实验、黑底背景与两分钟提案片，让系列的气质先于正式播出成形。",
+      "target": "/tas/archive/history/",
+      "blocks": [
+        {
+          "title": "两个实验，被放到同一个项目里",
+          "body": "华纳动画负责人Jean MacCurdy向团队征集新蝙蝠侠动画的想法时，Bruce Timm回到桌前，很快画出了角色全身与头部转向研究。Eric Radomski则想起自己画雨夜街角的经历：先把底涂黑，再用亮部暗示前景，观众的想象会补足空白。两人的方向起初各自进行，MacCurdy看到后把他们配成搭档。简练的人物与深黑的城市于是共同进入新动画的提案。",
+          "sourceFiles": [
+            "BA_pg026.jpg"
+          ],
+          "imageIds": [
+            "t01-batman"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "先做一部自己想看的蝙蝠侠",
+          "body": "Timm负责人物与分镜，Radomski和Ted Blackman继续发展城市的Dark Deco外观。布局和背景送往加拿大Lightbox Animation，由Greg Duffell完成动画；团队随后加入影子效果、音效和临时人声，并使用Danny Elfman电影配乐中的音乐。1990年夏天的这部短片以屋顶犯罪与蝙蝠侠介入组织动作，持续约两分钟，既展示故事气氛，也展示这套造型能怎样动起来。",
+          "sourceFiles": [
+            "BA_pg003.jpg",
+            "BA_pg026.jpg",
+            "BA_pg027.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "试片成为工作的共同方向",
+          "body": "短片让华纳决定推进系列，也让Timm与Radomski成为共同制片。角色要可信，敌人要有威胁，城市要黑暗，成为接下来与电视网讨论的方向。正式系列在1992年开播，1992年片头分镜另有自己的银行爆炸与屋顶格斗结构。试片证明整套世界可以成立，片头则把观众每次进入这个世界的动作压缩得更集中。首播周的合影里，Alan Burnett、Eric Radomski、Jean MacCurdy与Bruce Timm并肩站在一起。",
+          "sourceFiles": [
+            "BA_pg025.jpg",
+            "BA_pg026.jpg",
+            "BA_pg027.jpg"
+          ],
+          "imageIds": [
+            "t01-team"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "旧电影提供新的制作尺度",
+          "body": "团队研究早期漫画、黑色电影与德国表现主义，也反复观看Fleischer兄弟在1941至1943年制作的十七部《Superman》短片。它们把简练人物、完整动作与按画面写作的音乐结合成一部部小电影，给新系列提供了很具体的方向。哥谭的阴影可以来自旧电影，动作却需要在当下镜头里清楚成立；这些影响经过团队重新组合，才成为角色能够生活其中的城市。",
+          "sourceFiles": [
+            "BA_pg027.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t02",
+      "planId": "T02",
+      "title": "Dark Deco：黑纸、光色与城市性格",
+      "summary": "黑底上出现的亮部、夸张的透视与大块阴影，让哥谭成为有性格的舞台。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "让黑色先成为画面的一部分",
+          "body": "Radomski的黑底绘画方法保留了夜的空白：亮处提供足够的信息，暗处容纳深度与未知。背景设计并不因此只剩黑色。色稿在冷蓝、红光和暖黄之间选择重点，让窗、门、路面和人物活动区各有明确关系。蝙蝠侠有时几乎融入背景，轮廓里少量亮边和眼睛便足以让观众辨认他的位置。观看的注意力于是由画面控制，而不必把每件东西都照亮。",
+          "sourceFiles": [
+            "BA_pg026.jpg",
+            "BA_pg041.jpg",
+            "BA_pg042.jpg"
+          ],
+          "imageIds": [
+            "t02-colour"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "布局先安排人物能够怎样行动",
+          "body": "屋顶、烟囱、楼梯和水塔提供实际的动作路线，透视则决定观众怎样感受追逐。Kevin Altieri为《The Cat and the Claw: Part One》安排的屋顶场景，把人物运行方向嵌进建筑结构。布局稿仍是铅笔与线条时，镜头已经有了高差、遮挡和转折；背景色稿再把这些结构变成可以读懂的明暗关系。人物表演和城市设计因而在同一张画面中协作。",
+          "sourceFiles": [
+            "BA_pg038.jpg"
+          ],
+          "imageIds": [
+            "t02-layout"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "同一座城，可以有两种面孔",
+          "body": "Ted Blackman强调静态背景也要有戏：尺寸、光暗反差与前景剪影都能形成压力。Keith Weesner与John Calmette的高楼和犯罪巷呈现了这座城的距离感。高处的建筑像纪念碑，低处则被窄窗、楼梯和厚阴影挤压。城市的威严与破败来自相同的造型语言，只是空间比例和光线重心发生变化。画面留白越大胆，亮起的一扇窗或一段巷口就越有分量。",
+          "sourceFiles": [
+            "BA_pg041.jpg",
+            "BA_pg042.jpg"
+          ],
+          "imageIds": [
+            "t02-alley"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "透视让夜景也有动作",
+          "body": "俯视高楼时，道路、屋面和竖直窗带把视线向下拉，斜向构图又让静止建筑产生倾斜的力量。背景可以先建立一个令人不安的空间，再等待蝙蝠侠进入。Dark Deco的城市因此不只是角色身后的装饰：它把高低、距离、藏身与暴露变成可以直接感受的关系。少量颜色穿过大块暗部，哥谭的危险与诱惑就在这些关系中显现。",
+          "sourceFiles": [
+            "BA_pg045and046.jpg"
+          ],
+          "imageIds": [
+            "t02-height"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "图像分析"
+        },
+        {
+          "title": "技术的年代可以交错",
+          "body": "系列没有把哥谭固定在某一个十年。黑白电视、汤姆逊冲锋枪、飞艇、录像机与蝙蝠电脑可以共同出现，布鲁斯开的老式Cord又与未来感的蝙蝠翼并存。熟悉与陌生在同一画面里相遇，城市便有了游离于具体年代的气质。建筑和车辆各自带着历史痕迹，简洁色块和阴影又把它们统一起来，让观众相信这座城一直以自己的规则生活。",
+          "sourceFiles": [
+            "BA_pg028.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t03",
+      "planId": "T03",
+      "title": "不用对白的片头叙事",
+      "summary": "银行、蝙蝠车、屋顶搏斗与闪电揭示，组成1992年片头的动作句法。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "建筑先制造悬念",
+          "body": "片头从华纳标志进入夜空与城市，银行外立面的竖向构图先把尺度建立起来。重复的建筑画面只改变局部光线与动静，爆炸便成为格外明确的中断。故事没有先介绍反派身份，而是让环境里的异常发出召唤。Timm的分镜与Radomski的上色让门窗、屋顶和黑影保持清晰的几何关系，观众可以立即理解危险出现在哪里。",
+          "sourceFiles": [
+            "BA_pg025.jpg",
+            "BA_pg026.jpg"
+          ],
+          "imageIds": [
+            "t03-bank"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "分镜与图像分析"
+        },
+        {
+          "title": "车辆把地点接成一条行动线",
+          "body": "蝙蝠车先在黑暗中以灯光和轮廓出现，随后进入街道。分镜利用近景、侧向移动和楼群之间的视线，把出动压缩为几个极鲜明的姿态。车辆不是被完整介绍后才开始行动，它一出现就已经有了速度。剪影、车灯和斜向道路负责连续性，背景里保留下来的空白让快速运动的主体更容易辨认。城市的空间因此被行动串起来。",
+          "sourceFiles": [
+            "BA_pg027.jpg"
+          ],
+          "imageIds": [
+            "t03-car"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "分镜与图像分析"
+        },
+        {
+          "title": "先看见出手，再认清人物",
+          "body": "屋顶格斗把蝙蝠侠拆成披风、拳头、头罩与突然变向的身体。大块黑色把多余的细节吞掉，姿态之间的差别仍然足够鲜明。分镜交替安排攻击者、反应和受击者，让一段短促搏斗有清楚的因果。观众看到一个几乎无声的强者控制局面，同时也感到歹徒的视角：他总比他们更早知道下一步会发生什么。",
+          "sourceFiles": [
+            "BA_pg029.jpg",
+            "BA_pg030.jpg"
+          ],
+          "imageIds": [
+            "t03-fight"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "分镜与图像分析"
+        },
+        {
+          "title": "最后一束光完成揭示",
+          "body": "警察到场、歹徒被留下以后，片头把蝙蝠侠放回更高的位置。最后的闪电让面孔和胸前标志短暂出现，随即又交还给黑暗。这次揭示有前面动作积累的重量：观众已经知道他做了什么，才终于看清他是谁。收束镜头把一桩小型犯罪故事变成角色宣言，也让城市上空的剪影成为每次开场都会重现的记忆。",
+          "sourceFiles": [
+            "BA_pg032.jpg"
+          ],
+          "imageIds": [
+            "t03-reveal"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "分镜与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t04",
+      "planId": "T04",
+      "title": "模型纸怎样变成动作与表情",
+      "summary": "转身、动作与表情研究，让不同动画师画出的角色共享比例，也能保留表演。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "统一的比例，容纳不同的姿态",
+          "body": "模型纸把头罩、肩宽、胸徽、腰带和披风的关系固定下来。动态研究则进一步测试这些形状在蹲伏、奔跑和出拳时怎样伸缩。蝙蝠侠的一张纸上可以同时出现沉稳站姿、锐利动作和夸张表情，但头部与身体的大比例仍然相通。统一设计让镜头交给不同画师、不同制作环节后，观众仍感到同一个人正在连续行动。",
+          "sourceFiles": [
+            "BA_pg047.jpg",
+            "BA_pg048.jpg"
+          ],
+          "imageIds": [
+            "t04-batman"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "草案留下尚未收束的可能性",
+          "body": "迪克·格雷森的罗宾初步模型以更轻盈的体态和短披风回应蝙蝠侠。全身、侧向与面部研究可以分别试验服装和性格，早期稿里尚有不同的细节选择。把这些图当作探索过程来看，会比只把它们当成一张漂亮插画更有意思：角色既要在一群英雄中拥有自己的节奏，也必须属于同一个动画世界。画师要决定的包括造型，还包括动作时最先被读到的特征。",
+          "sourceFiles": [
+            "BA_pg053.jpg",
+            "BA_pg054.jpg",
+            "BA_pg055.jpg"
+          ],
+          "imageIds": [
+            "t04-robin"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "色彩表也是制作语言",
+          "body": "蝙蝠女的色彩模型用字母与数字标出各处颜色。头发、手套、披风、服装与高光在纸上分别说明，方便后续制作保持一致。这类工作图把观众熟悉的完整形象拆成可以交接的决定：某块颜色属于哪一层，身体转动以后哪些形状仍要清楚。芭芭拉的蓝、黄和红发让她在深色环境中拥有轻快而鲜明的视觉节奏。",
+          "sourceFiles": [
+            "BA_pg056.jpg"
+          ],
+          "imageIds": [
+            "t04-batgirl"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "表情不只发生在主角脸上",
+          "body": "阿尔弗雷德的表情研究用抬眉、斜眼、张口和头部倾角区分惊讶、怀疑与克制。脸部变化不大，角色的态度却可以非常准确。《幽灵的面具》的相关分镜也把布鲁斯首次以蝙蝠侠形象出现的力量交给阿尔弗雷德的反应。模型纸提供可用的表情范围，分镜决定什么时候让观众看到它；两者相接，才让一张面孔成为真正的戏。",
+          "sourceFiles": [
+            "BA_pg057.jpg",
+            "BA_pg058.jpg"
+          ],
+          "imageIds": [
+            "t04-alfred"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "角色与声音名册",
+          "url": "/tas/archive/voices/#role-1"
+        }
+      ]
+    },
+    {
+      "id": "artbook-t05",
+      "planId": "T05",
+      "title": "故事与分镜：制作中的取舍",
+      "summary": "早期写作规则、导演的表演分工与播出修改，共同改变每集故事的形状。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "早期规则也会随制作改变",
+          "body": "Paul Dini回顾早期系列设定时列出四项写作原则，包括蝙蝠侠独自承担故事、不直接为警方工作、罗宾不是全职搭档，以及有鲜明动作场面的犯罪剧。书中的回顾同时写下这些原则后来怎样变化：蝙蝠信号回到故事里，罗宾出场增加，团队结构也逐渐扩大。这些记录让系列显得有生命，它的方向在制作、播出需求与创作者判断之间不断调整。",
+          "sourceFiles": [
+            "BA_pg031.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "导演把剧本变成可以看的关系",
+          "body": "Kevin Altieri擅长动作调度，常把场面推向更强的视觉表达；Boyd Kirkland则尤其擅长人物之间的反应。Dini以《Read My Lips》为例，称Kirkland让人与木偶的对戏同时产生滑稽与威胁。编剧提供人物动机，导演重新安排站位、视线、节奏和动作，让文字中的冲突获得具体形式。一段对话能否成立，常取决于谁先动、谁停住，以及镜头让观众站在哪一边。",
+          "sourceFiles": [
+            "BA_pg028.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "限制有时改变表现方法",
+          "body": "播出审看会对拳击、武器、危险模仿和台词提出修改。《Robin’s Reckoning》处理空中飞人事故时，用剪影、突然消失的影子、断绳与观众反应传达事件，保留了强烈冲击。书里刊出的内部修改单和Timm讽刺禁忌的插画，也保存了团队面对这些要求时的烦恼与幽默。它们属于当时具体的制作环境，能解释某些镜头为何采用间接表现。",
+          "sourceFiles": [
+            "BA_pg035.jpg",
+            "BA_pg036.jpg"
+          ],
+          "imageIds": [
+            "t05-notes",
+            "t05-satire"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "人物关系先于离奇机关",
+          "body": "Dini回顾剧本工作时，更看重内部编剧与故事编辑长期积累的人物理解。团队收到过缩小身体、穿越时间或把英雄分成善恶两面的外部提案，最后更倾向于围绕角色矛盾发展故事。编剧先与制片讨论大意，导演也被鼓励重新发展动作、笑点与转折。故事的推动力于是来自某个人想要什么、会怎样对待别人，机关和大型场面再为这些冲突寻找形状。",
+          "sourceFiles": [
+            "BA_pg031.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t06",
+      "planId": "T06",
+      "title": "角色的声音，来自演员之间的反应",
+      "summary": "Andrea Romano的选角与排练，让不同声线在同一场戏中发生关系。",
+      "target": "/tas/archive/voices/",
+      "blocks": [
+        {
+          "title": "先让角色像一个真实的人",
+          "body": "1991年的试音要求演员以舞台或电影表演的方式理解角色。Andrea Romano会提醒初次配动画的演员，使用自己声音的性格，只把能量略微提高。Conroy的蝙蝠侠以亲密、低沉而有暗面的一面脱颖而出；Loren Lester的罗宾则在年轻感之外保留相似的怒意，使两人既有亲缘也有差异。声线的对照因此与人物造型一样，成为整部系列的基础。",
+          "sourceFiles": [
+            "BA_pg033.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "排练让节奏在现场形成",
+          "body": "Romano把选角形容成邀请能够一起玩的人：演员到场后先完整排练，再进入录制，许多选择会在听到搭档回应时发生。《Almost Got ’Im》的1992年录音合影保存了这样一组演员。后排左起是Aron Kincaid、Mark Hamill、Richard Moll、Paul Williams、Kevin Conroy；前排左起是Diane Pershing与Arleen Sorkin。不同角色共享桌前的节奏，台词里的打断、停顿与笑声因而更像同场交锋。",
+          "sourceFiles": [
+            "BA_pg033.jpg"
+          ],
+          "imageIds": [
+            "t06-recording"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "小丑的笑，也是一种表演结构",
+          "body": "Dini回忆，小丑需要威胁，也需要难以预测的玩笑与情绪变化。Hamill的试音不仅给出了台词，还给出了令人不安的笑。早期设计里夸张的牙齿与下巴后来逐渐简化，声音却仍可在轻快、尖锐与危险之间快速切换。Sorkin的哈莉又为这套节奏加入另一种回应：她的俏皮、急切和受伤让小丑不再总是单向地对别人施加压力，而要在关系里暴露自己的反应。",
+          "sourceFiles": [
+            "BA_pg065.jpg",
+            "BA_pg070.jpg"
+          ],
+          "imageIds": [
+            "t06-joker"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "怪物和配角也有表演任务",
+          "body": "Romano还会为特殊生物和动物安排演员，让声音具有明确的行动与态度。Frank Welker能够完成难以只靠音效表达的生物表演，Tress MacNeille则能在同一项目里区分年龄和性格相差很大的角色。主角之外的声线由此给场面增加层次：一个短促的惊叫、呼吸或反应，也可能决定观众是否相信画面中的生命。录音室的工作因此延伸到每个能够作出回应的人物。",
+          "sourceFiles": [
+            "BA_pg033.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t07",
+      "planId": "T07",
+      "title": "音乐怎样改变一个镜头的威胁感",
+      "summary": "配乐按画面写作，把看得见的动作与藏在动作下的危险放在不同层次。",
+      "target": "/tas/archive/music/",
+      "blocks": [
+        {
+          "title": "主题来自设计、声音与举止",
+          "body": "Shirley Walker以Elfman的电影主题为起点，为动画里的哥谭和人物寻找各自的音乐性格。罗宾更明亮、更有活力，猫女的主题回应她的设计和移动，哈莉则受到Sorkin的声音表演启发。角色的主题可以带来喜剧，也能在同一时刻暗示危险。团队逐集按画面写作，让音乐参与人物塑造，系列的声音便能跟随每一场戏改变呼吸。",
+          "sourceFiles": [
+            "BA_pg034.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "让弦乐说出画面没有说足的事",
+          "body": "《The Laughing Fish》完成动画后，Timm觉得部分恐怖感没有达到分镜中的力度，于是请Walker让配乐更接近现代恐怖片。他想到《Psycho》的弦乐写法，想用不协和、幽暗而少旋律性的声音加强威胁。小丑看起来仍然在嬉笑，弦乐却已经在告诉观众危险正在靠近。音乐与画面之间的差异由此制造紧张，而不是把表面的滑稽再重复一次。",
+          "sourceFiles": [
+            "BA_pg034.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "一场戏先被共同听过，才写进谱里",
+          "body": "粗剪完成后，Timm与作曲团队一起讨论哪里需要强调情绪、哪里托住笑点、哪里推动动作，音乐编辑再按时间分解。负责该集的作曲者据此写作，随后由约三十人的乐团录制，个别场面也加入合成器。这里展示的手稿来自Walker为《Never Fear》的写作，能看到音乐如何被拆成具体时值与声部。电视制作的时间安排与现场乐团的呼吸，在这些谱线中相遇。",
+          "sourceFiles": [
+            "BA_pg034.jpg"
+          ],
+          "imageIds": [
+            "t07-score"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "长片把音乐空间继续放大",
+          "body": "为《幽灵的面具》写作时，Walker使用百人乐团与二十五人的合唱，为影片带来歌剧般的规模。Dini提到，听来像古老圣咏的合唱，实际上把Timm、Radomski、Burnett及部分作曲者的名字倒过来唱。这种带着团队玩笑的处理仍能维持庄严气氛。电视版逐集建立的主题、声部与情绪方法，进入长片后获得更大的呼吸，也让布鲁斯的私人抉择有了宏大的声音回响。",
+          "sourceFiles": [
+            "BA_pg034.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "《The Laughing Fish》制作与镜头",
+          "url": "/tas/episodes/the-laughing-fish/#artbook-production"
+        }
+      ]
+    },
+    {
+      "id": "artbook-t08",
+      "planId": "T08",
+      "title": "哈莉：一次出场之后的人物空间",
+      "summary": "Dini的草图、Timm的造型与Sorkin的表演，让哈莉逐渐成为能独自推动故事的人物。",
+      "target": "/tas/archive/history/",
+      "blocks": [
+        {
+          "title": "先有戏里的功能，再长出自己的模样",
+          "body": "哈莉最初在《Joker’s Favor》的剧本里承担小丑助手与陪衬的作用。Dini的早期铅笔草图更松散、更像随手捕捉的性格笔记，与后来简洁的红黑造型有明显距离。Timm把角色整理成适合动画的形状，Sorkin又用俏皮的语气和急促的节奏给她加上听觉辨识。造型、写作与表演相互影响，哈莉很快得到观众和制作团队的喜爱。",
+          "sourceFiles": [
+            "BA_pg069.jpg",
+            "BA_pg070.jpg"
+          ],
+          "imageIds": [
+            "t08-sketch"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "一眼和一次停顿，就能形成对戏",
+          "body": "哈莉与小丑的分镜里，转头、得意的微笑、目光移动和迟来的点头便足以表达关系。红黑服装让身体姿态清楚，面具周围的眼睛又为细小变化留下空间。Dini说他把朋友Sorkin的一些习惯放进角色，这种熟悉感使哈莉既有荒唐喜剧的速度，也有受伤时的脆弱。对戏中的反应让角色超出单纯的道具功能，观众开始等待她自己的选择。",
+          "sourceFiles": [
+            "BA_pg070.jpg"
+          ],
+          "imageIds": [
+            "t08-board"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "离开小丑，故事仍能继续",
+          "body": "随着导演们希望各自制作哈莉篇章，她开始与毒藤女搭档，也会独自给蝙蝠侠制造麻烦。旋转模型纸把服装、头饰与四肢比例整理成可重复使用的规则，编剧则继续扩展她能够进入的情境。喜剧与悲剧在同一个人物身上共存，才让她有机会突破最初的一次出场。《Mad Love》等漫画进一步展开了这条关系线，动画与出版各自给她增加了不同的叙事空间。",
+          "sourceFiles": [
+            "BA_pg070.jpg",
+            "BA_pg071.jpg"
+          ],
+          "imageIds": [
+            "t08-model"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "《Joker’s Favor》制作与镜头",
+          "url": "/tas/episodes/joker-s-favor/#artbook-production"
+        }
+      ]
+    },
+    {
+      "id": "artbook-t09",
+      "planId": "T09",
+      "title": "BTAS到TNBA：造型为何变得更简练",
+      "summary": "六组造型对照呈现色块、轮廓与人物关系的变化。",
+      "target": "/tas/archive/history/",
+      "blocks": [
+        {
+          "title": "更少的颜色，更集中的重心",
+          "body": "1996年决定制作新一批蝙蝠侠故事时，Timm已经在《Superman》里发展了更简练的动画设计。他回到哥谭后继续削减细节，把蝙蝠侠的服装集中为灰与黑，胸徽也更加直接。头罩、肩部与披风形成更大、更连续的形状。规则图甚至讨论黑色角色怎样在黑底前保持可读，亮边只在需要时使用。蝙蝠侠的严肃感由大色块承担，不再依靠服装上的颜色区分。",
+          "sourceFiles": [
+            "BA_pg127.jpg",
+            "BA_pg129.jpg",
+            "BA_pg130.jpg"
+          ],
+          "imageIds": [
+            "t09-batman"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "两位罗宾，拥有不同的身体节奏",
+          "body": "迪克·格雷森与蒂姆·德雷克的罗宾不能只按换装理解。迪克逐渐成为夜翼，较年轻的蒂姆则进入新的团队结构。红黑造型、较小身形和短披风让新罗宾在镜头里有不同的速度与分量。Glen Murakami的夜翼模型把成年迪克拉成长而利落的线条；芭芭拉的蝙蝠女也以更集中的黑色服装加入团队。身份与关系的变化先存在于故事，设计再把这些差别放到身体上。",
+          "sourceFiles": [
+            "BA_pg127.jpg",
+            "BA_pg131.jpg",
+            "BA_pg139B.jpg",
+            "BA_pg140.jpg"
+          ],
+          "imageIds": [
+            "t09-robin"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "猫女与企鹅人，各自回到核心特征",
+          "body": "猫女的TNBA造型集中为深黑服装、浅色面孔与更接近猫的细长轮廓。企鹅人则减弱早期的怪诞人鸟特征，变得更像体面的夜总会经营者，手套、礼服和姿态强化了绅士外表。两者都减少视觉杂讯，但改变方向并不相同：一个把动作推向掠食般的灵活，一个把罪犯藏进礼貌与商业门面。比较早期模型与后来的色彩设计，可以看出简化也在重新定义人物。",
+          "sourceFiles": [
+            "BA_pg084.jpg",
+            "BA_pg091.jpg",
+            "BA_pg135.jpg",
+            "BA_pg136.jpg"
+          ],
+          "imageIds": [
+            "t09-catwoman",
+            "t09-penguin"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "毒藤女与稻草人，更鲜明的非人感",
+          "body": "毒藤女缩小、变得更纤细，苍白皮肤让她像危险的植物精灵；稻草人则以悬吊尸体般的形象，把恐怖压进帽檐、长衣和绳索。这里的稻草人对照左侧为BTAS标题画，右侧为TNBA模型，分别显示画面气氛与角色设计如何承载恐惧。小丑的点状黑眼和收紧色彩也属于同一轮重设。简练的整体语言允许不同反派被推向各自更极端的性格。",
+          "sourceFiles": [
+            "BA_pg108.jpg",
+            "BA_pg111.jpg",
+            "BA_pg133.jpg",
+            "BA_pg135.jpg",
+            "BA_pg136.jpg"
+          ],
+          "imageIds": [
+            "t09-ivy",
+            "t09-scarecrow"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "小丑、夜翼与蝙蝠女",
+          "body": "小丑的面部收紧为黑眼与白脸的大反差，夜翼以更修长的身体和清晰的肩线表现成年迪克的独立，蝙蝠女则把明黄色集中在手套、靴子与胸徽。三组设计共享简洁的外轮廓，却在比例、色块与表情范围上各有重点。",
+          "sourceFiles": [
+            "BA_pg131.jpg",
+            "BA_pg133.jpg",
+            "BA_pg140.jpg"
+          ],
+          "imageIds": [
+            "t09-joker-detail",
+            "t09-nightwing",
+            "t09-batgirl-detail"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "模型纸与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "罗宾的演员与版本",
+          "url": "/tas/archive/voices/#role-4"
+        },
+        {
+          "title": "蝙蝠女的演员与版本",
+          "url": "/tas/archive/voices/#role-11"
+        }
+      ]
+    },
+    {
+      "id": "artbook-t10",
+      "planId": "T10",
+      "title": "《幽灵的面具》：爱情、未来之城与院线改造",
+      "summary": "长片的情感主线、制作分工与世界博览会设计，让布鲁斯的另一种人生显影。",
+      "target": "/tas/archive/films/mask-of-the-phantasm/",
+      "blocks": [
+        {
+          "title": "用长片谈布鲁斯的选择",
+          "body": "Alan Burnett希望讲一段真正进入布鲁斯内心的爱情故事。Martin Pasko处理了大部分回忆段落，Michael Reaves负责高潮对决，Dini补充各处连接。长片可以在行动之外停留得更久，让年轻布鲁斯曾经想要的生活与后来的蝙蝠侠互相照见。海报探索同时试着安排爱情、幽灵与英雄的关系，不同构图里，角色究竟占据前景还是被阴影包围，都在改变电影给人的第一印象。",
+          "sourceFiles": [
+            "BA_pg119.jpg"
+          ],
+          "imageIds": [
+            "t10-posters"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "录像带项目转向银幕",
+          "body": "影片起初计划直接发行录像带，制作前期改为院线上映后，Timm与Radomski需要把按电视格式组织的分镜调整为电影。剩下的制作时间不足一年，城市飞行片头、长篇动作和更大的画面因此都要在紧张安排中完成。世界博览会提供了扩展视觉尺度的机会：未来生活的展示、巨型道具和机械设施可以同时支持爱情回忆与动作场面，让城市承担人物时间的变化。",
+          "sourceFiles": [
+            "BA_pg119.jpg",
+            "BA_pg122.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "未来之家曾经许诺什么",
+          "body": "年轻布鲁斯与安德莉亚游览的未来之家明亮、有秩序，圆弧家具和自动设施把幸福包装成近在眼前的日常。背景布局与上色把这份承诺做成一个可以进入的房间。空间里带有展览的理想化，也有两个人暂时相信未来的轻盈。把环境放在人物旁边看，能感到这部电影怎样让建筑成为情感记忆：房间所展示的生活，与布鲁斯可能拥有的生活彼此重叠。",
+          "sourceFiles": [
+            "BA_pg120.jpg"
+          ],
+          "imageIds": [
+            "t10-future"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "背景与图像分析"
+        },
+        {
+          "title": "同一个房间，十年之后",
+          "body": "废弃后的未来之家保留了早年的形状，却被杂物、破损和昏暗灯光侵入，后来成为小丑的藏身处。相同布局让过去与现在可以直接比较；曾经展示希望的游乐设施，如今带着失修的荒诞。高潮在废弃博览会展开，人物与巨型、微缩道具交错，童话般的娱乐形态变成危险装置。地点的变化把爱情回忆和当下冲突折在一起，观众看到的不只是废墟，也是被时间改变的愿望。",
+          "sourceFiles": [
+            "BA_pg120.jpg",
+            "BA_pg122.jpg"
+          ],
+          "imageIds": [
+            "t10-ruin"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "城市之外，给爱情一个开放的地平线",
+          "body": "韦恩庄园后方的海崖用弯曲树木与温暖天空打开视野，与哥谭内部的封闭、垂直空间形成差别。布鲁斯与安德莉亚在这里面对一种更开阔的生活可能，人物被放在地形和天空之间，城市的压力暂时退后。电影的情感因而不只写在对白里。墓地、海崖与未来之家的空间关系，让观众在不同场景里感到承诺、失去与迟疑，人物每次回望过去，画面也会重新改变一个地点的意义。",
+          "sourceFiles": [
+            "BA_pg121.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t11",
+      "planId": "T11",
+      "title": "《冰点危机》：背景空间与CG尝试",
+      "summary": "冰穴、海上平台与电脑生成载具，为急冻人的故事提供新的长片尺度。",
+      "target": "/tas/archive/films/subzero/",
+      "blocks": [
+        {
+          "title": "创作起点决定人物组合",
+          "body": "华纳在1996年委托制作《SubZero》，希望用蝙蝠侠、罗宾和蝙蝠女的组合呼应当时筹备中的真人电影。Boyd Kirkland与Randy Rogel最初提出贝恩方向的故事，随后转向急冻人，承接《Heart of Ice》和《Deep Freeze》留下的人物线。这个选择让长片能够围绕维克托与诺拉继续展开，也让团队同时处理救援动作、人物关系和带有悲伤的动机。",
+          "sourceFiles": [
+            "BA_pg126.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "冰穴是一座为诺拉保留的空间",
+          "body": "Ted Blackman的北极背景铅笔稿用冰柱、层叠洞壁与中央容器建立空间。自然形成的洞穴包围着技术装置，视线又被光线推向深处。Kirkland的长片因此有了与城市实验室不同的急冻人领地：远离日常人群，却把一个人的情感集中保存起来。冰的尖锐边缘和容器的规则形状形成对照，让冷的环境也能显出维克托的执念。",
+          "sourceFiles": [
+            "BA_pg125.jpg",
+            "BA_pg126.jpg"
+          ],
+          "imageIds": [
+            "t11-cave"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "工业建筑把行动引向中心",
+          "body": "海上平台手术室的色稿以高大、空旷的结构包围中央操作区。梁柱、平台与设备提供多层动作空间，局部冷光又把注意力聚向手术台。Kirkland还借影片尝试更多CG镜头，潜艇和蝙蝠翼是书中特别提到的对象。立体载具与手绘背景共同服务于长片动作，空间与技术的扩展始终围绕人物行动组织。影片后来延期，于1998年春季发行。",
+          "sourceFiles": [
+            "BA_pg126.jpg"
+          ],
+          "imageIds": [
+            "t11-operation"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "两种封闭空间，两种控制方式",
+          "body": "冰穴与手术室都把重要对象安放在空间中心，通往中心的方式却完全不同。冰穴由自然的曲线、尖锥和层叠洞壁包围容器，工业建筑则用梁架、台阶与照明划出操作区域。前者像保存记忆的避所，后者把一切导向有时间压力的行动。场景设计在两种材料之间建立联系，让人物试图控制生命的愿望拥有具体空间，也让救援能够沿着看得清的路线展开。",
+          "sourceFiles": [
+            "BA_pg125.jpg",
+            "BA_pg126.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t12",
+      "planId": "T12",
+      "title": "动画风格如何进入漫画与出版",
+      "summary": "独立漫画故事、色彩指导与衍生读物，让动画的形状适应纸上的阅读节奏。",
+      "target": "/tas/archive/publications/",
+      "blocks": [
+        {
+          "title": "相同的外观，可以生长不同的故事",
+          "body": "《The Batman Adventures》在1992年秋随动画推出，采用Dark Deco与简洁人物设计，也很快形成自己的单篇叙事。Kelley Puckett、Ty Templeton、Rick Burchett和Mike Parobeck等人的工作，让漫画在统一外观下发展出独立节奏。动画依靠时间推进，漫画则由读者在格子、翻页与留白之间调节速度。人物模型提供共同起点，页面构图决定它怎样成为另一种阅读经验。",
+          "sourceFiles": [
+            "BA_pg074.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "铅笔页保存正在发展的故事",
+          "body": "1998年的书页刊出《Harley & Ivy》开发铅笔稿，能够看到哈莉与毒藤女的姿态、对白气泡和页面分配怎样同时规划。草稿里的松动线条把注意力放在动作与互动上，人物还未被最后的墨线收束。这组材料属于当时的开发阶段，适合观察创作者怎样把动画人物放进纸上故事；铅笔线条和页内批注保存了这个故事尚在酝酿时的样子。",
+          "sourceFiles": [
+            "BA_pg074.jpg"
+          ],
+          "imageIds": [
+            "t12-pencils"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "简洁也需要精确的颜色决定",
+          "body": "Timm为《Mad Love》准备的着色指导稿，在页面与局部脸部研究旁写下颜色和渐变说明。他希望色彩保持简洁，避免过度渲染，明暗与肤色仍要支持人物表情。大块黑色、有限色相与清楚的动作让纸上人物延续动画的辨识度，具体的上色规则又适应印刷。除了漫画，书中还展示有声故事书、小说、立体书与杂志；相同形象进入不同读物后，阅读方式与叙事任务也跟着变化。",
+          "sourceFiles": [
+            "BA_pg073.jpg",
+            "BA_pg074.jpg",
+            "BA_pg075.jpg"
+          ],
+          "imageIds": [
+            "t12-colour"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": []
+    },
+    {
+      "id": "artbook-t13",
+      "planId": "T13",
+      "title": "标题卡：一集动画的情绪海报",
+      "summary": "剪影、字体与抽象色块，在故事开始之前给每集一个独立的电影表情。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "把一集当作一部小电影",
+          "body": "Eric Radomski谈标题卡时，把它们与系列的四十年代复古气质联系起来：每一集都像一部小电影，可以先用一张画建立情绪。标题卡往往浓缩整个故事的感受，人物肖像只是其中一种办法。文字的形状、亮部的位置和大面积暗色共同决定观众怎样进入故事。一张静止画面承担了片名与情绪两种功能，既能从整套系列中被辨认，也能保留这一集自己的性格。",
+          "sourceFiles": [
+            "BA_pg017.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "束缚感被压进几条光线",
+          "body": "《Dreams in Darkness》选取蝙蝠侠受束缚的形象，又把它进一步压成剪影。头部仰起，肩臂蜷紧，格栅投下的蓝色光线在人物上方形成节奏；观众先感到一个熟悉的强者失去自由，再想知道为什么。与直接截取一个动作镜头相比，这张画舍去了周围的解释，把身体姿态变成主题。标题字与上方栅栏共同收紧画面，黑色留白使被困的感觉集中在很小的亮部。",
+          "sourceFiles": [
+            "BA_pg017.jpg",
+            "BA_pg019A.jpg"
+          ],
+          "imageIds": [
+            "t13-dream"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "两个人物，也可以只剩颜色",
+          "body": "《Harley and Ivy》曾尝试直接画出两位主角，但Radomski觉得画面过于卡通化。最后他与Glen Murakami用红、黑、橙、绿的旋转色块代替人物。哈莉与毒藤女的配色仍在，轻快而纠缠的运动也仍在，标题于是可以凭颜色讲出搭档关系。《Mudslide》走向另一端：倾斜的人类面孔与向暗处拖开的泥浆身体互相牵连，把失落和绝望压成一张近乎悲剧肖像的画。两者都在让观众先接受一种感受，再进入情节。",
+          "sourceFiles": [
+            "BA_pg017.jpg",
+            "BA_pg019B.jpg",
+            "BA_pg095.jpg"
+          ],
+          "imageIds": [
+            "t13-abstract",
+            "t13-mudslide"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "TNBA换了进入故事的方式",
+          "body": "转到Kids’ WB!之后，逐集标题卡退出了新系列。Radomski离开后，制作中也没有人能继续投入相同时间；新系列同时需要在外观上与旧作拉开距离。BTAS每集开头那张像小型海报的停顿，因此成为这一阶段很鲜明的观看记忆。它把图像设计、片名与配乐的入口集中起来，也给同一座哥谭里的不同故事留下各自的封面。",
+          "sourceFiles": [
+            "BA_pg017.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t14",
+      "planId": "T14",
+      "title": "反派怎样找到适合动画的面孔",
+      "summary": "谜语人的冷静、毒藤女的曲线、泥脸的变形与贝恩的体块，各有不同的造型任务。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "谜语人必须尽快说到要害",
+          "body": "书中的Dini回顾把谜语人称作很难写的反派：谜题需要铺垫和解答，二十二分钟动画又必须持续前进。团队曾留下至少六个写成或部分写成的故事，最终因为过分复杂或滑向自我模仿而搁置。造型也经历类似取舍。Timm在1990年的早期草图中保留了Frank Gorshin式的活跃姿态，后来的人物逐渐变成冷静、自负、言语尖刻的智力对手。在《If You’re So Smart, Why Aren’t You Rich?》中，John Calmette用一幅有威胁感的绘画呈现暗处的谜语人，再以叠加赛璐珞让口部活动，静止反而加强了控制感。",
+          "sourceFiles": [
+            "BA_pg105.jpg",
+            "BA_pg106.jpg"
+          ],
+          "imageIds": [
+            "t14-riddler"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "内勒让曲线重新流动",
+          "body": "Timm觉得自己早期的蒙托亚与Summer Gleeson偏僵硬、过分写实，便让Lynne Naylor继续发展这些人物。她受Bob Clampett、Preston Blair与Freddie Moore等人的卡通传统影响，以更柔软的曲线改变面部和姿态。毒藤女沿着这条方向继续生长：圆脸、大眼睛和醒目的嘴唇让她与其他女性角色迅速区分。头部研究中的眼角、下颌和颈部不只是静态的漂亮线条，也为挑眉、回望和带笑的威胁留下活动空间。",
+          "sourceFiles": [
+            "BA_pg111.jpg",
+            "BA_pg116.jpg"
+          ],
+          "imageIds": [
+            "t14-ivy"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "泥脸需要一张会改变的模型",
+          "body": "泥脸保留演员Matt Hagen失去原来面孔的悲剧，同时又必须在动作里不断变形。模型与姿态稿将夸张的手指、外鼓的上身和下垂的泥浆联系起来，身体边缘可以伸长，表情也可以在同一团物质里迅速改变。Timm与Mike Gougen的动作研究因此给出许多状态，而非一个端正站立的标准外形。一个角色的识别有时依靠稳定轮廓，泥脸则依靠形变的方向、黏重的身体感与不断浮出的面孔。",
+          "sourceFiles": [
+            "BA_pg095.jpg",
+            "BA_pg096.jpg"
+          ],
+          "imageIds": [
+            "ep-clay"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "贝恩的力量先是一组大形",
+          "body": "Timm在1993年的贝恩设计中借用了强烈的Jack Kirby式体块感。正面站姿以胸、肩和腿部大形建立力量，旁边的弯身姿态则检验这些体积在动作中怎样叠合。黑白服装分区和头部连接的管线把身体分成容易辨认的几块。动画中的人物被改写成Rupert Thorne雇来的南美杀手，外形需要让他在进入战斗之前就显得能与蝙蝠侠正面角力；身上的装置又将这种力量与一种可被触及的机制相连。",
+          "sourceFiles": [
+            "BA_pg118.jpg"
+          ],
+          "imageIds": [
+            "t14-bane"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t15",
+      "planId": "T15",
+      "title": "四组重设计：怪物的重量与童话的阴影",
+      "summary": "泥脸、杀手鳄、贝恩与疯帽匠，在TNBA中分别改变了体积、皮肤、服装与比例。",
+      "target": "/tas/archive/history/",
+      "blocks": [
+        {
+          "title": "泥脸的圆厚体积",
+          "body": "BTAS动作稿里的泥脸常向前探身，双手和不规则的泥浆边缘把力量送向画面之外。TNBA色彩模型则把身体收成更圆厚的整体，肩、腹和手臂通过少量暗色区分。上身的重心更稳定，轮廓在小尺寸画面里也更集中。两幅图承担不同工作：左边强调动作变化，右边给出新版人物的基本色块；并看时能看到形变怪物怎样在重设计中获得更统一的体积。",
+          "sourceFiles": [
+            "BA_pg095.jpg",
+            "BA_pg135.jpg",
+            "BA_pg136.jpg"
+          ],
+          "imageIds": [
+            "t15-clay"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "杀手鳄把爬行动物特征推到表面",
+          "body": "《Vendetta》的BTAS分镜让杀手鳄用举起、扔下与伸爪表现蛮力，身体仍有强烈的人形摔角手感觉。TNBA把肤色和头部进一步推向爬行动物，露出的牙齿、长臂与更清楚的色块使危险直接写进轮廓。动作分镜与新版模型各自展示一个侧面：前者让力量在连续动作中成立，后者则要在单张站姿里说明这个身体具有怎样的威胁。",
+          "sourceFiles": [
+            "BA_pg117.jpg",
+            "BA_pg136.jpg"
+          ],
+          "imageIds": [
+            "t15-croc"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "贝恩的黑色皮装与铆钉",
+          "body": "新版贝恩把早期的运动服式分区换成更大面积的黑色皮装与铆钉。Timm让体形显得更利落，服装表面又增加了危险的触感。红色连接件与宽阔肩胸仍然提示强化力量的来源，减少的小线条则让黑色成为主导形状。旧稿和新模型的差别集中在服装与体块组织：前者像一位装备鲜明的强力挑战者，后者让身体与黑色装束几乎合成一个整体。",
+          "sourceFiles": [
+            "BA_pg118.jpg",
+            "BA_pg136.jpg"
+          ],
+          "imageIds": [
+            "t15-bane"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "疯帽匠靠近坦尼尔的童话插画",
+          "body": "Kevin Nowlan的BTAS探索稿保留夸张鼻子、牙齿和帽子的喜剧感；TNBA模型进一步缩小身体、拉大头帽，姿态显得更萎缩而阴森。书中把这一方向与John Tenniel为《Alice in Wonderland》绘制的人物联系起来。童话来源因而进入具体比例：帽子压低额头，衣摆罩住身体，瘦细的小腿把上方体量托得更不安稳。这个重设计没有单纯追求强壮，而是让熟悉的童话人物变得令人不舒服。",
+          "sourceFiles": [
+            "BA_pg108.jpg",
+            "BA_pg135.jpg"
+          ],
+          "imageIds": [
+            "t15-hatter"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "六组BTAS与TNBA造型对照",
+          "url": "/tas/archive/history/#artbook-t09"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t16",
+      "planId": "T16",
+      "title": "分镜里的表演、视线与动作因果",
+      "summary": "三组个案分别处理小丑的停顿、车内悬念与奇幻动作的连续关系。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "把表演写成可以执行的节拍",
+          "body": "分镜中的箭头、停顿和动作文字会告诉动画师，一张姿态应该怎样进入下一张。小丑的长段讲话可以被拆成转身、逼近、怒斥和重新微笑，人物性格由这些节拍生长。Timm的《The Man Who Killed Batman》分镜甚至要求按指定姿态表演，不额外添加动作；明确的限制保住了这段愤怒突然转为轻巧的时机。这里的文字和画面共同组织表演，漂亮的单格只是其中一个环节。",
+          "sourceFiles": [
+            "BA_pg067.jpg",
+            "BA_pg068.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "观众知道多少，由镜头安排",
+          "body": "《House and Garden》的车内段落先让后视镜泄露危险，再把动作突然压向布鲁斯；《Avatar》则让泥浆里的手脸依次汇成同一股力量，随后接入救援动作。两种段落处理的都是观看顺序：危险何时进入画面、人物何时发现、下一步为何发生。Ronaldo Del Carmen与Timm采用不同笔触，却都让镜头位置和动作方向承担叙事。连续阅读时，视线的变化常比对白更早告诉观众局势已经改变。",
+          "sourceFiles": [
+            "BA_pg097.jpg",
+            "BA_pg099.jpg",
+            "BA_pg101.jpg",
+            "BA_pg111.jpg",
+            "BA_pg112.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "《The Man Who Killed Batman》的表演分镜",
+          "url": "/tas/episodes/the-man-who-killed-batman/#artbook-ep2-the-man-who-killed-batman"
+        },
+        {
+          "title": "《House and Garden》的车内悬念",
+          "url": "/tas/episodes/house-and-garden/#artbook-ep2-house-and-garden"
+        },
+        {
+          "title": "《Avatar》的效果与救援动作",
+          "url": "/tas/episodes/avatar/#artbook-ep2-avatar"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t17",
+      "planId": "T17",
+      "title": "角色走出平面：模型、瓷像与日用品",
+      "summary": "九十年代的立体参考模型和商品摄影，记录动画轮廓怎样转入不同材料。",
+      "target": "/tas/archive/publications/",
+      "blocks": [
+        {
+          "title": "先让动画师看见侧面与体积",
+          "body": "Glenn Wong制作的立体参考模型让动画师与商品设计者可以绕着人物观察形体。1997年的TNBA蝙蝠侠以宽肩、窄腰和折出的披风边缘建立体积，蒂姆·德雷克的罗宾则用小身体、大头与鲜明红黑分区保持年轻感。模型把平面里的黑色区变成真实表面，灯光会落在额头、肩部和披风褶面上。它们也曾通过华纳商店提供给收藏者，同一造型因而同时具有制作参考与展示物的用途。",
+          "sourceFiles": [
+            "BA_pg137B.jpg",
+            "BA_pg138A.jpg",
+            "BA_pg139B.jpg"
+          ],
+          "imageIds": [
+            "t17-batman-maquette",
+            "t17-robin-maquette"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "瓷像固定的是一个表演姿态",
+          "body": "1996年华纳商店的哈莉瓷像把红黑服装、白色面部和大幅度扭转的站姿固定下来。动画里会不断改变的重心，在瓷像上变成一条可以绕行观看的曲线；尖帽、手臂和膝部又把人物的顽皮引向不同方向。Geoff Spear的摄影用背景色与侧向光强调材料的反光，使它在书中显出立体商品的质地。它记录的是九十年代动画形象的物质化方式，和旁边用于生产的草图承担不同功能。",
+          "sourceFiles": [
+            "BA_pg069.jpg"
+          ],
+          "imageIds": [
+            "t17-harley"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "反派成为浴室里的瓶盖",
+          "body": "英国Avon在1992年的企鹅人儿童清洁用品上使用雕塑瓶盖，Prelude UK在1995年的谜语人泡泡浴瓶上也使用立体头像。高帽、单片眼镜、圆脸，或礼帽与眼罩，必须被压缩成产品顶部一眼能认出的形状。它们把反派的可怕面孔转成日常物件的亲切辨识，也留下了发行年代与地区的痕迹。书中的照片让这些包装成为动画文化史的一部分，瓶盖的材料、造型与地区发行记录也获得了独立的阅读价值。",
+          "sourceFiles": [
+            "BA_pg092.jpg",
+            "BA_pg106.jpg"
+          ],
+          "imageIds": [
+            "t17-penguin",
+            "t17-riddler"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t18",
+      "planId": "T18",
+      "title": "一集动画背后的制作接力",
+      "summary": "设计、分镜、海外动画、声音与剪辑，共同决定二十多分钟里的节奏与可信感。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "制片与美术指导也在处理故事",
+          "body": "Timm在1998年的回顾中把早期制作写成一场不断协调的合作。Jean MacCurdy在前期分歧中引入Alan Burnett，Burnett又邀请Paul Dini担任故事编辑，文字与画面部门逐渐找到共同方向。Eric Radomski的工作也跨越背景绘画，进入色彩、选角、故事和音乐。Glen Murakami起初处理分镜、道具、色彩与大量模型，之后成为美术指导，新版动画更强的图形感与他的影响密切相连。这些职责在制作现场不断相接，一个设计决定也可能改变叙事方法。",
+          "sourceFiles": [
+            "BA_pg012.jpg",
+            "BA_pg013.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "画稿是一套交给下一部门的说明",
+          "body": "Ted Blackman为早期背景建立建筑尺度与气氛，导演和分镜师再把人物放进这些空间。模型纸、布局、背景设计与分镜会送往海外动画团队，Timm特别提到TMS与KOKO／Dong Yang的工作。图像因此既要有风格，也要足够清楚地传递动作、透视和阴影。角色曲线减少一条，镜头顺序改变一处，都可能影响后面大量重复绘制的工作；统一的设计语言与可执行的说明，最终会一起体现在成片里。",
+          "sourceFiles": [
+            "BA_pg012.jpg",
+            "BA_pg013.jpg",
+            "BA_pg014.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "声音与剪辑完成另一遍塑形",
+          "body": "Andrea Romano追求自然、克制的表演，Shirley Walker与作曲团队为场面组织情绪。Monterey Post的Tom Maydeck、Rob Hargreaves和Russell Brower则通过音效、环境声与人声处理，使风格化城市具有可感的空间。Joe Gall与Al Breitenbach在剪辑中修整节拍，可能少留几帧、删去一场，或重新排列镜头。表演的停顿、远处的回声与最后一个切点共同决定观众的感受，制作链条也在这里重新汇合。",
+          "sourceFiles": [
+            "BA_pg014.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "角色声音与集体录音",
+          "url": "/tas/archive/voices/#artbook-t06"
+        },
+        {
+          "title": "配乐的写作与录制",
+          "url": "/tas/archive/music/#artbook-t07"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t19",
+      "planId": "T19",
+      "title": "新版哥谭：黄昼、红夜与未来剪影",
+      "summary": "TNBA的色彩改造与1998年的Beyond开发图，记录这套视觉语言继续变化的方向。",
+      "target": "/tas/archive/history/",
+      "blocks": [
+        {
+          "title": "白天也没有放松警惕",
+          "body": "TNBA的警察总部背景把白昼天空涂成病黄色。Richie Chavez的高耸建筑由David McBride绘制色彩，窄长立面和悬殊比例让日光依然带着不适。灰色墙面、亮色天空与深色近景彼此分离，人物即使走到白天，也没有离开哥谭压迫的空间。与早期BTAS的黑底夜景相比，这一改变通过更明确的色块对撞建立城市气氛。",
+          "sourceFiles": [
+            "BA_pg140.jpg",
+            "BA_pg141.jpg"
+          ],
+          "imageIds": [
+            "t19-day"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "红色夜空重新回到城市上方",
+          "body": "Michele Graybeal设计、McBride绘制的高架铁路场景，把成片红色天空压在建筑、烟囱与轨道上方。书中用“都市地狱”的意象描述这种气质。红夜也能与Laura Lee Lizak早期、更未来主义的哥谭试画相呼应：一个曾在初期探索中出现的色彩方向，经过系列演变又回到新版背景。角色线条简化，城市的光色却更鲜明；新旧之间既有断裂，也保留着早期实验的回声。",
+          "sourceFiles": [
+            "BA_pg094.jpg",
+            "BA_pg140.jpg",
+            "BA_pg141.jpg"
+          ],
+          "imageIds": [
+            "t19-night"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "1998年书末的下一位蝙蝠侠",
+          "body": "《Batman Animated》结尾把《Batman Beyond》写作正在发展的新系列：十七岁的Terry McGinnis将在未来哥谭行动，年老的布鲁斯成为导师。Timm在1998年的姿态研究将身体压成黑色锐角，披风的传统轮廓让位于更贴身、近乎生物化的飞行形状。这里的开发图延续了让角色在小轮廓里迅速成立的思路，又把动作和城市背景推向另一种年代想象。它为这本回顾BTAS与TNBA的书留下了一个朝向未来的结尾。",
+          "sourceFiles": [
+            "BA_pg150.jpg",
+            "BA_pg151.jpg"
+          ],
+          "imageIds": [
+            "t19-beyond"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t20",
+      "planId": "T20",
+      "title": "配角让哥谭成为有人生活的城市",
+      "summary": "戈登、蒙托亚、布洛克与韦恩身边的人，各自代表不同的公共生活和私人关系。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "戈登的疲倦与可信任",
+          "body": "1990年提案片里的戈登模型以长外套、眼镜、胡须和偏长的脸建立沉稳形象，几种头部角度又给他留下疲倦与怀疑。书中描述的戈登既承受城市治安的压力，也没有完全失去同情心。角色造型把这种关系落在容易辨认的日常身体上：他是一个站在警局和街道里工作的人，面对蝙蝠侠时仍带着职业判断，而不只是用来传递案情的声音。",
+          "sourceFiles": [
+            "BA_pg079.jpg"
+          ],
+          "imageIds": [
+            "t20-gordon"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "蒙托亚与布洛克使用不同的曲线",
+          "body": "蒙托亚由Mitch Brian、Timm与Dini为动画发展，随着故事需要，服装和职位也发生变化。Naylor的初步设计用回望、微笑和站姿为她保留灵活性。Chris Dent笔下的布洛克则把牙签、皱帽、厚颊和不耐烦的嘴角压在一起，Bobby Costanzo的声音又给粗鲁添上一点狡黠。两人同在警察体系里，却以不同姿态和说话节奏回应城市；配角之间的差异，使警局成为一群人工作的地方。",
+          "sourceFiles": [
+            "BA_pg079.jpg",
+            "BA_pg080.jpg"
+          ],
+          "imageIds": [
+            "t20-montoya"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "新闻、企业与照顾者",
+          "body": "Summer Gleeson把哥谭变成会追逐新闻与丑闻的城市，Lucius Fox维持韦恩企业的运转，Leslie Thompkins则把布鲁斯与早年生活、照顾他人的责任联系起来。市长Hamilton Hill在民意和政治便利之间转向，Veronica Vreeland的财富与天真又给犯罪故事提供另一种入口。书中也提到曾被设想持续出现、后来却没有展开的Maggie Paige。角色能否留下来，最终取决于他们是否在故事里拥有持续发挥的关系位置。",
+          "sourceFiles": [
+            "BA_pg080.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t21",
+      "planId": "T21",
+      "title": "蝙蝠洞与载具：同一种黑色轮廓",
+      "summary": "地下空间、蝙蝠车与蝙蝠翼，把英雄的身体想象扩展到建筑和交通工具。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "巨大的洞穴要先让人显得很小",
+          "body": "Ted Blackman布局、Russell Chong绘制的蝙蝠洞背景，把蝙蝠侠放在一处几乎会被忽略的平台上。岩壁、阶梯与悬空结构让地下基地呈现教堂般的尺度。书中为这里安排化验、机械、工程、机库、训练、船坞、战利品与监控等不同功能，通向城外的隧道和地下河又将工作区连接到行动路线。洞穴的巨大感因此既来自画面比例，也来自它能支撑怎样一整套生活。",
+          "sourceFiles": [
+            "BA_pg049.jpg",
+            "BA_pg050.jpg"
+          ],
+          "imageIds": [
+            "t21-cave"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "车头和车尾来自两张草图",
+          "body": "Shayne Poindexter为了争取加入项目，准备了几页蝙蝠车初步方案。Timm看中其中两张，把一张的前部和另一张的后部剪开拼在一起，最后形成系列车辆方向。流线、深色轮廓和有限细节让车看起来像机械化的蝙蝠侠：长车身压低姿态，座舱与发动机开口控制亮部，运动力量则集中在前后轴线。这个制作片段也说明，经典外形可能来自非常直接的纸上取舍。",
+          "sourceFiles": [
+            "BA_pg052.jpg"
+          ],
+          "imageIds": [
+            "t21-car"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "飞行与水面仍然属于同一个人",
+          "body": "Timm与Poindexter设计的蝙蝠翼用宽大的翼面和尖锐边缘建立黑色整体，Chong的色彩让座舱与反光沿结构展开。蝙蝠艇则以贴近水面的长形机体延续同一种速度感，书中赋予它水面航行和短距离潜航的双重用途。不同载具改变了行动环境，暗色剪影、克制细节和类似蝙蝠的整体印象却保持一致。即使没有人物站在旁边，观众也能迅速知道这些机器属于谁。",
+          "sourceFiles": [
+            "BA_pg051.jpg",
+            "BA_pg052.jpg"
+          ],
+          "imageIds": [
+            "t21-wing"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t22",
+      "planId": "T22",
+      "title": "面孔里的裂缝：双面人、急冻人与拉斯",
+      "summary": "声音、头部角度和极少的表情，把反派的内在矛盾带到画面表面。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "两种声音仍然属于哈维",
+          "body": "Richard Moll的表演同时处理哈维·丹特外露的魅力与内里的暴怒。双面人的左右分割把矛盾直接写在脸上，硬币则把一项选择变成可见、可听的一次动作。书中的人物回顾把这种双重性放在整个蝙蝠侠世界的主题中：同一张面孔承受彼此冲突的愿望。造型、道具和声音各自提供一层辨识，它们在动作里重合时，人物的不稳定就会比一段性格说明更具体。",
+          "sourceFiles": [
+            "BA_pg088.jpg",
+            "BA_pg089.jpg"
+          ],
+          "imageIds": [
+            "ep-twoface-two"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "先想到最后一滴眼泪",
+          "body": "Dini回忆《Heart of Ice》的写作时，先想到急冻人落泪、眼泪变成雪，以及从牢房窗外看见雪花升起的最后意象，再倒推能够抵达这一情感位置的故事。人物口口声声认定自己失去了情感，对妻子的爱却仍然驱动他。Timm的分镜让小雕像、低垂视线和随后亮起的红眼睛形成微妙转换。机械外壳限制了表演幅度，也使一次小小的目光变化显得格外有重量。",
+          "sourceFiles": [
+            "BA_pg109.jpg",
+            "BA_pg110.jpg"
+          ],
+          "imageIds": [
+            "t22-freeze"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "拉斯的威严藏在微小变化里",
+          "body": "Chen-Yi Chang为拉斯·奥·古绘制不同角度与情绪的头部研究，尖锐发际、长鼻和下颌在每一幅里保留辨识。眉眼与嘴角的细微偏移让严厉、自信和不满分开成立，身体不必总靠大幅度手势维持统治感。旁边的色彩模型以长袍和对称站姿建立人物的礼仪外观。这个对照提醒动画制作，夸张并不总是把动作做大；有时维持端正轮廓、只让面部一点点移动，反而更能显示一个习惯掌权的人。",
+          "sourceFiles": [
+            "BA_pg097.jpg"
+          ],
+          "imageIds": [
+            "t22-ras"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t23",
+      "planId": "T23",
+      "title": "企鹅人留在纸上的两个方向",
+      "summary": "早期城市试画与世嘉游戏删去的分镜，保留了角色进入不同媒介时的探索。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "红天与未来主义高楼的早期试画",
+          "body": "Laura Lee Lizak绘制的早期风格画采用更喧闹的颜色和更未来主义的建筑，企鹅人撑伞腾空，蝙蝠侠借滑翔装置追来。书中把企鹅人的姿态与Carmine Infantino在1966年的一张海报相联系，也把滑翔装置与David Mazzucchelli的《Batman: Year One》联系起来。MacCurdy后来建议采用更黑暗、更接近Fleischer的方向，这幅试画仍留下了另一座哥谭的可能：鲜艳天空、尖锐楼群和更外放的漫画动作。",
+          "sourceFiles": [
+            "BA_pg094.jpg"
+          ],
+          "imageIds": [
+            "t23-early"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "完成分镜之后，段落仍可能退出",
+          "body": "Butch Lukic为1995年世嘉蝙蝠侠CD-ROM游戏绘制的企鹅人段落，包含锯片威胁、平台追逐与撑伞升空等动作。书中记述，这个项目容纳了太多反派，企鹅人的部分因此被删去。纸上的镜头仍然能看见完整的场面组织：被挟持者的近景建立危险，宽画面交代平台与人物位置，伞的旋转再带动新的运动方向。动画系列的造型进入游戏制作时，仍然经过分镜、取舍和段落重组的过程。",
+          "sourceFiles": [
+            "BA_pg093.jpg",
+            "BA_pg094.jpg"
+          ],
+          "imageIds": [
+            "t23-sega"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    },
+    {
+      "id": "artbook-t24",
+      "planId": "T24",
+      "title": "展厅追逐的路线怎样画清楚",
+      "summary": "鞭子、蝙蝠镖、展品与高处窗框，让同一空间里的动作逐步接续。",
+      "target": "/tas/archive/production/",
+      "blocks": [
+        {
+          "title": "两件道具先在同一个方向相遇",
+          "body": "猫女挥出鞭子，蝙蝠女随即投出蝙蝠镖，接下来的画格让两者迎面碰撞。动作拆开后，每次切镜仍保留上一格提出的方向问题：武器从哪里来，角色在看哪里，身体准备怎样回应。镜头随后推近猫女，再让她伏低、亮爪；蝙蝠女加宽站姿，准备近身。器械的轨迹转换成身体姿态，一场追逐由此得到连续的起因与反应。",
+          "sourceFiles": [
+            "BA_pg085.jpg"
+          ],
+          "imageIds": [
+            "ep2-batgirl-whip"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "把逃走拆成一串落点",
+          "body": "猫女向高处逃离时，分镜没有只画一个飞跃的终点。她先踏上展品，抓住边缘借力摆动，再落到栏杆，继续跃向二层和打开的天窗。箭头与编号把连续动作组织成清楚路线，也告诉背景制作哪些结构必须存在。罗宾进入画面后，蝙蝠女转头、再向前一步，视线继续追着同一条路径。展厅里的道具和建筑部件因此同时是装饰、落点与观察方向。",
+          "sourceFiles": [
+            "BA_pg086.jpg"
+          ],
+          "imageIds": [
+            "ep2-batgirl-route"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [],
+      "batch": 2
+    }
+  ],
+  "episodeAdditions": [
+    {
+      "id": "artbook-production",
+      "episodeId": "on-leather-wings",
+      "title": "人蝠的身体，怎样撑起第一集的恐怖",
+      "summary": "凯文·诺兰的人蝠研究，把生物形态与飞行动作结合起来。",
+      "target": "/tas/episodes/on-leather-wings/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "人蝠的翼膜、长臂与弯曲双腿让它同时保留人形与动物感。Kevin Nowlan的研究把直立、屈身与展翼放在一起，检查角色怎样改变轮廓。书页边缘另列Spectrum Studio为本集制作的人蝠动画动作序列，能看到翅膀运动被拆成连续姿态。Timm回顾这集时强调它集中了团队想要的恐怖、兴奋与黑色幽默：怪物的身体既是动作工具，也让警方误认蝙蝠侠的情境更有说服力。角色研究与变形动画各自推进同一个目标，让夜空里的巨大剪影既清楚又陌生。",
+          "sourceFiles": [
+            "BA_pg107.jpg"
+          ],
+          "imageIds": [
+            "ep-leather"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "two-face-part-1",
+      "title": "一次揭面，怎样在分镜里改变重量",
+      "summary": "揭面分镜以镜头与表情的切换，安排人物命运转折的力度。",
+      "target": "/tas/episodes/two-face-part-1/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "Kevin Altieri为第一部揭面场面安排的分镜，把被看见的人与观看者的反应并置。黄色修改贴纸覆盖局部原稿，显示制作仍在调整镜头的力量。脸部的光暗变化不是单纯展示伤痕，它改变了同一张脸被观众读到的方式。手、眼神、停顿与突然暴露共同控制揭示的节奏，旁人的惊恐又把冲击传回画面。这里的分镜保留了创作中的选择过程：情节转折要在几秒钟里成立，观众既要看见发生了什么，也要感到哈维如何面对这个瞬间。",
+          "sourceFiles": [
+            "BA_pg087.jpg"
+          ],
+          "imageIds": [
+            "ep-twoface-one"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "two-face-part-2",
+      "title": "半张脸之外，仍是同一个人",
+      "summary": "双面构图把哈维的矛盾压进脸部、服装和动作。",
+      "target": "/tas/episodes/two-face-part-2/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "早期铅笔研究把哈维的两面直接并在一个头部结构里，领结、翻领和硬币把他的体面外表与新的强迫行为接到一起。第二部的戏剧重点继续依靠这种并存：人物既是旧友，也是危险的罪犯，画面随时可能让其中一面占上风。这张角色研究也给两部曲的表演提供了稳定的基础。观看哈维转头或举起硬币时，左右两侧的差别会随光线和朝向变化；角色的不稳定因此可以由一个很小的动作表现出来，贯穿追逐与对峙。",
+          "sourceFiles": [
+            "BA_pg089.jpg"
+          ],
+          "imageIds": [
+            "ep-twoface-two"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "joker-s-favor",
+      "title": "哈莉初登场的设计背景",
+      "summary": "哈莉的早期草图与表演，给小丑身边加入了新的节奏。",
+      "target": "/tas/episodes/joker-s-favor/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "Dini在《Joker’s Favor》里先需要一位小丑的助手，哈莉随后在草图、造型与配音之间逐渐成形。早期铅笔稿还有松散的戏谑感，后来红黑服装把她整理成一眼可读的形状。Sorkin的表演让这位助手拥有自己的语速、神态和情绪。回看本集时，可以注意她怎样进入画面、回应命令、等待下一次动作：即使戏份有限，身体和声音也已提供足够鲜明的节奏，能在小丑以外吸引注意。这种可独立辨认的表演，是后来扩展哈莉故事的重要起点。",
+          "sourceFiles": [
+            "BA_pg069.jpg",
+            "BA_pg070.jpg"
+          ],
+          "imageIds": [
+            "t08-sketch"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "the-laughing-fish",
+      "title": "让笑话下面一直有危险",
+      "summary": "分镜与不协和弦乐，共同塑造小丑逼近时的压迫。",
+      "target": "/tas/episodes/the-laughing-fish/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "小丑向受害者突然探身的分镜，以距离缩短和张开的笑脸制造压迫。书中还保留了Timm的修改稿，说明动作力度会在制作中继续调整。成片动画回到团队时，Timm觉得部分恐怖感变弱，请Walker让音乐更像现代恐怖片。弦乐不跟随小丑表面的滑稽，而是持续暗示他正在施加的威胁。于是同一个笑容可以同时让观众看到玩笑、听到危险。分镜、动画与音乐各自承担一层效果，也展示了后期怎样重新组织一场戏的情绪。",
+          "sourceFiles": [
+            "BA_pg034.jpg",
+            "BA_pg064.jpg",
+            "BA_pg065.jpg"
+          ],
+          "imageIds": [
+            "ep-fish"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "heart-of-ice",
+      "title": "一层机械外壳，包住一个悲伤的人",
+      "summary": "急冻人的头罩、护目镜与僵直轮廓，把情感放在距离之内。",
+      "target": "/tas/episodes/heart-of-ice/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "急冻人的模型研究把冷藏服做成清晰的几何组合：圆形头罩、护目镜、管线与厚手套，让身体与外界之间多了一层隔膜。脸部角度和眼镜可以表现细微态度，僵硬的整体轮廓则限制了情绪的外放。看本集时，这种设计会让观众格外在意少量显露出来的反应。冰冷装备先带来威胁，也把人物与他人的距离变得可见。后来的悲剧情感因而有了视觉支点：机械服始终存在，维克托仍必须在这层外壳里表达失去与愤怒。",
+          "sourceFiles": [
+            "BA_pg109.jpg",
+            "BA_pg110.jpg"
+          ],
+          "imageIds": [
+            "ep-freeze"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "feat-of-clay-part-2",
+      "title": "不稳定的身体，也需要稳定的表演",
+      "summary": "泥脸的动作模型在变形中保留重量、方向和情绪。",
+      "target": "/tas/episodes/feat-of-clay-part-2/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "泥脸的动作纸把抓握、扑出、扭动与面孔变化放在同一组形体里。身体可以不守普通人的轮廓规则，观众却仍需看清他正在做什么、力量朝哪里去。夸张的大手和松动的身体边缘给变形留下空间，面部与躯干的重心又维持情绪连续。第二部尤其适合观察这种关系：外形迅速改变时，愤怒、惊慌和失控仍然可以被读出来。书中的原始《Feat of Clay》动作研究提供了角色基础；具体成片怎样使用这些可能性，则在镜头的速度与剪接里展开。",
+          "sourceFiles": [
+            "BA_pg095.jpg",
+            "BA_pg096.jpg"
+          ],
+          "imageIds": [
+            "ep-clay"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "mad-as-a-hatter",
+      "title": "疯帽匠的脆弱与控制欲",
+      "summary": "瘦长造型与不安姿态，给杰维斯的情感错位留下空间。",
+      "target": "/tas/episodes/mad-as-a-hatter/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "Kevin Nowlan的疯帽匠探索利用长脸、礼帽和略显拘谨的身体，让人物初看带着不合群的喜剧感。Dini回顾写作时，把杰维斯改成孤独的科学家，再让控制技术将他的愿望推向危险。Roddy McDowall的声音在害羞与疯狂之间保持连续，使改变更令人不安。观看本集可以留意人物如何对待别人意愿：礼貌的语言与强迫的行为逐渐分离，造型里的滑稽也随之失去安全感。角色设计先建立脆弱，故事再让同一种脆弱变成控制别人的理由。",
+          "sourceFiles": [
+            "BA_pg108.jpg"
+          ],
+          "imageIds": [
+            "ep-hatter"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "read-my-lips",
+      "title": "人与木偶，谁在控制这场戏",
+      "summary": "Boyd Kirkland的调度让一人一偶拥有彼此对抗的节奏。",
+      "target": "/tas/episodes/read-my-lips/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "Dini称赞Boyd Kirkland能在本来容易静止的对话里安排情绪与动作，并以《Read My Lips》的人偶对戏为例。这里可以注意两套视线怎样运作：腹语者看向木偶，木偶又像在观察其他人，身体和声音的主从关系随时会改变。镜头给谁更大空间、谁先打断、谁在说完以后仍然停住，都能让观众感到桌边有两个意志。恐怖与滑稽来自这套调度，也来自它们始终共用一具身体的事实。表演把简单的人偶组合扩展成了整场戏的权力关系。",
+          "sourceFiles": [
+            "BA_pg028.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "tnba-legends-of-the-dark-knight",
+      "title": "两种漫画语言，进入同一集动画",
+      "summary": "迪克·斯普朗与弗兰克·米勒的造型，被改写为两套动画节奏。",
+      "target": "/tas/episodes/tnba-legends-of-the-dark-knight/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "Timm提出让孩子们讲述各自理解的蝙蝠侠：一位更像迪克·斯普朗笔下友善、夸张的英雄，另一位则接近米勒年老而凶悍的黑暗骑士。Robert Goodman扩展剧本，Dan Riba与团队在动作和分镜里重现两种风格。前者的体形与道具保留轻快、整齐的戏剧感，后者以厚重身体、压缩姿态和更猛烈的动作制造重量。两位罗宾也属于不同叙事版本。观看这两段时，造型变化与镜头节奏是一起工作的，不能仅把它们看成同一角色换了一套服装。",
+          "sourceFiles": [
+            "BA_pg144.jpg",
+            "BA_pg146.jpg",
+            "BA_pg147.jpg"
+          ],
+          "imageIds": [
+            "ep-legends-sprang",
+            "ep-legends-miller"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "tnba-over-the-edge",
+      "title": "主创在深夜观看的另一种结局",
+      "summary": "一场完成片放映，留下了团队对这个黑暗篇章的即时回忆。",
+      "target": "/tas/episodes/tnba-over-the-edge/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "书末记下一个周五深夜：办公室里只剩一小群画师，围在Timm那里观看《Over the Edge》完成片。Dini把它描述为一个关于蝙蝠侠最终冒险的噩梦式假设，旧友反目、身份暴露与死亡把平常规则逐一打破，团队对这份强度很兴奋。梦境结构让故事能够试探人物关系承受的极限，熟悉的角色与城市因此突然变得陌生。回看这段创作回忆，重点在完成片给人的冲击：黑暗设想能够成立，依赖观众此前已经相信了这些关系。",
+          "sourceFiles": [
+            "BA_pg150.jpg"
+          ],
+          "imageIds": [],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-production",
+      "episodeId": "tnba-beware-the-creeper",
+      "title": "狂笑人的混乱，需要一个进入故事的理由",
+      "summary": "杰克·莱德与狂笑人的造型，把严肃与失控推向两端。",
+      "target": "/tas/episodes/tnba-beware-the-creeper/",
+      "blocks": [
+        {
+          "title": "制作与镜头",
+          "body": "书中的杰克·莱德与狂笑人设计将同一个人的两种状态直接并置：新闻人的脸紧绷而克制，变身后则有巨大笑容、黄肤与鲜艳毛领。Dini回忆，团队在Fox时期就想安排这个角色，多次写作却未找到合适方向。后来把莱德的变化与小丑联系起来，角色才同时拥有对手和试图打动的蝙蝠侠。强烈造型需要相应的关系才能进入一集故事；本集的混乱感也因此有了重心，狂笑人的动作再夸张，仍围绕具体的人物碰撞展开。",
+          "sourceFiles": [
+            "BA_pg143.jpg"
+          ],
+          "imageIds": [
+            "ep-creeper"
+          ],
+          "containsSpoilers": false,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ]
+    },
+    {
+      "id": "artbook-ep2-the-man-who-killed-batman",
+      "episodeId": "the-man-who-killed-batman",
+      "title": "表演分镜：小丑的愤怒怎样突然收住",
+      "summary": "转身、逼近与停顿，将小丑一段长讲话拆成清楚的表演节拍。",
+      "target": "/tas/episodes/the-man-who-killed-batman/",
+      "blocks": [
+        {
+          "title": "把慢转身留给威胁",
+          "body": "Timm先让Sidney的不安占据两个小格，再让小丑慢慢转身。连续姿态与慢速说明把一件简单动作拉长，观众得以注意他怎样看向这个小人物。随后，小丑靠近镜头，脸部和手势的体积逐渐增加。同一段话里的危险来自距离变化：他无需立即动手，只要控制转身和接近的速度，就能让Sidney显得越来越无处可退。分镜把人物的支配欲变成了观看时间。",
+          "sourceFiles": [
+            "BA_pg067.jpg",
+            "BA_pg068.jpg"
+          ],
+          "imageIds": [
+            "ep2-joker-turn"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "停一拍，再把笑容放回来",
+          "body": "后面的分镜用一连串指定手势推动愤怒，又在“spats”之后要求保持姿态一拍，然后迅速恢复油滑的微笑。附注要求动画师严格跟随这些姿态，不再额外添加表演。蓄起的情绪因此有了准确断点，小丑的轻松也显得更不稳定。对照两排连续画格，可以看到嘴形、肩部和手的方向怎样一起换挡；这一小段节奏同时保住了喜剧感与威胁。",
+          "sourceFiles": [
+            "BA_pg068.jpg"
+          ],
+          "imageIds": [
+            "ep2-joker-pause"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "分镜中的表演与视线",
+          "url": "/tas/archive/production/#artbook-t16"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-ep2-house-and-garden",
+      "episodeId": "house-and-garden",
+      "title": "悬念分镜：后视镜先看见危险",
+      "summary": "车内视点与乡间空镜，让一次袭击既突然又有清晰的铺垫。",
+      "target": "/tas/episodes/house-and-garden/",
+      "blocks": [
+        {
+          "title": "危险先落在反射里",
+          "body": "Ronaldo Del Carmen从后座位置观察驾驶中的布鲁斯，让后视镜成为画面里的第二个窗口。怪物的面孔先在镜中出现，接着手伸向前座，动作再压到布鲁斯颈部。车外道路和车内身体交替出现，汽车失控因此有了具体原因。观众比驾驶者早一点察觉，又必须随着镜头回到他的身体里承受袭击；悬念既来自信息差，也来自空间突然变得拥挤。",
+          "sourceFiles": [
+            "BA_pg111.jpg",
+            "BA_pg112.jpg"
+          ],
+          "imageIds": [
+            "ep2-garden-mirror"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "动作过去，安静才显出重量",
+          "body": "怪物发出威胁后离车，车身继续摇摆并急停。布鲁斯下车摸颈、检查手掌、回头寻找袭击者，一组小动作替代了对危险的口头解释。最后镜头落到安静的道路上，慢慢扫过空处，让刚才的激烈运动突然失去可追踪的目标。分镜中的烟尘、车轮与背景移动说明维持动作连贯，结尾的长条空镜则把恐惧留在画面之外。",
+          "sourceFiles": [
+            "BA_pg113.jpg",
+            "BA_pg114.jpg",
+            "BA_pg115.jpg"
+          ],
+          "imageIds": [
+            "ep2-garden-road"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "分镜中的表演与视线",
+          "url": "/tas/archive/production/#artbook-t16"
+        }
+      ],
+      "batch": 2
+    },
+    {
+      "id": "artbook-ep2-avatar",
+      "episodeId": "avatar",
+      "title": "动作分镜：先让怪物成形，再让救援成立",
+      "summary": "泥浆的聚合、触手的方向与拔剑动作，让奇幻场面保持连续因果。",
+      "target": "/tas/episodes/avatar/",
+      "blocks": [
+        {
+          "title": "抽象效果有自己的运动顺序",
+          "body": "Timm把泥浆中的手和脸画成一组连续形态：先向后蓄势，再互相冲撞，最后汇成向上旋转的一团。分镜文字还要求部分背景保持失焦，避免杂乱形体抢走注意。超自然力量于是被分解为能够执行的动作，观众可以看见它怎样聚集、转向和扑来。怪物越不受现实身体限制，越需要清楚的运动方向，才能让下一格的攻击显得是前一格产生的结果。",
+          "sourceFiles": [
+            "BA_pg097.jpg",
+            "BA_pg098.jpg",
+            "BA_pg099.jpg"
+          ],
+          "imageIds": [
+            "ep2-avatar-rise"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        },
+        {
+          "title": "救援要先交代距离和负重",
+          "body": "触手卷住塔莉亚之后，蝙蝠侠从平台跃下，抓住她时增加的重量使触手下沉，再借回升动作拔剑切开束缚。几格画面把跳跃、抓握、下坠和切割排成一串因果。披风与触手的弧线指向相同的运动轨迹，身体不会在切镜后凭空换位置。大特写负责情绪，较宽的画格负责两人和触手的空间关系；动作的可读性让这一场超自然混战仍能被身体经验理解。",
+          "sourceFiles": [
+            "BA_pg100.jpg",
+            "BA_pg101.jpg"
+          ],
+          "imageIds": [
+            "ep2-avatar-rescue"
+          ],
+          "containsSpoilers": true,
+          "evidenceType": "制作回忆与图像分析"
+        }
+      ],
+      "readingLinks": [
+        {
+          "title": "分镜中的表演与视线",
+          "url": "/tas/archive/production/#artbook-t16"
+        }
+      ],
+      "batch": 2
+    }
+  ],
+  "portraits": [
+    {
+      "role": "role-1",
+      "imageId": "portrait-role-1",
+      "note": "BTAS的宽肩、长披风与锐利头罩，把沉稳站姿和突然出手统一在同一轮廓里。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg047.jpg"
+      ]
+    },
+    {
+      "role": "role-2",
+      "imageId": "portrait-role-2",
+      "note": "细小的眉眼与头部倾角承载讥诮、担心和惊讶，动作幅度克制。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg057.jpg"
+      ]
+    },
+    {
+      "role": "role-3",
+      "imageId": "portrait-role-3",
+      "note": "BTAS模型用方正面孔、眼镜与风衣构成老练警长的轮廓。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg079.jpg"
+      ]
+    },
+    {
+      "role": "role-4",
+      "imageId": "portrait-role-4",
+      "note": "迪克·格雷森时期的罗宾，短披风与较轻的身体带来年轻节奏；TNBA的蒂姆另有设计。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg055.jpg"
+      ]
+    },
+    {
+      "role": "role-5",
+      "imageId": "portrait-role-5",
+      "note": "粗重的脸部与帽沿，让布洛克的强硬和不耐烦先于台词显现。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg079.jpg"
+      ]
+    },
+    {
+      "role": "role-6",
+      "imageId": "portrait-role-6",
+      "note": "早期草图夸张了下巴和牙齿，后来的动画设计逐渐收紧，笑容仍是形象中心。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg065.jpg"
+      ]
+    },
+    {
+      "role": "role-7",
+      "imageId": "portrait-role-7",
+      "note": "两侧不对称的脸和服装，让哈维的矛盾可以随转头与光线改变。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg089.jpg"
+      ]
+    },
+    {
+      "role": "role-8",
+      "imageId": "portrait-role-8",
+      "note": "灰色服装与尖耳面罩属于BTAS造型，脸部留白使目光尤其醒目。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg081.jpg"
+      ]
+    },
+    {
+      "role": "role-9",
+      "imageId": "portrait-role-9",
+      "note": "红黑色块、白脸与眼罩把哈莉的笑容和身体姿态组织成鲜明节奏。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg070.jpg"
+      ]
+    },
+    {
+      "role": "role-10",
+      "imageId": "portrait-role-10",
+      "note": "BTAS初步模型里的长鼻、圆腹与礼服，将体面姿态推向怪诞。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg091.jpg"
+      ]
+    },
+    {
+      "role": "role-11",
+      "imageId": "portrait-role-11",
+      "note": "BTAS芭芭拉的蓝、黄与红发形成轻快色彩，区别于后来TNBA的黑色服装。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg056.jpg"
+      ]
+    },
+    {
+      "role": "role-12",
+      "imageId": "portrait-role-12",
+      "note": "原始《Feat of Clay》研究用大手与松动的面部形状，为重量和变形同时留出空间。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg095.jpg"
+      ]
+    },
+    {
+      "role": "role-13",
+      "imageId": "portrait-role-13",
+      "note": "圆形头罩与机械服让维克托隔绝于外界，少量面部反应因此更显眼。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg109.jpg"
+      ]
+    },
+    {
+      "role": "role-14",
+      "imageId": "portrait-role-14",
+      "note": "上扬眉形、灰发与利落胡须，把拉斯的冷静和威严集中在面孔里。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg097.jpg"
+      ]
+    },
+    {
+      "role": "role-15",
+      "imageId": "portrait-role-15",
+      "note": "早期概念里的修长身体与礼帽强调脑力型对手的自信和表演欲。",
+      "version": "BTAS",
+      "sourceFiles": [
+        "BA_pg105.jpg"
+      ]
+    }
+  ],
+  "editorialPolicy": "原创中文概括；每个block的sourceFiles定位用户扫描材料，evidenceType区分制作回忆与图像分析。"
+}

@@ -1,0 +1,522 @@
+{
+  "date": "2026-10-23",
+  "batch": 2,
+  "status": "complete-validated-ready-to-push",
+  "githubAuthorization": "用户授权：没问题就可以推送GitHub了",
+  "baseline": "bbd39a1d4fcb2a0882c46cb68f9f10119f32b1e8",
+  "newChapters": {
+    "arkham": 9,
+    "tas": 12
+  },
+  "newEpisodeAdditions": 3,
+  "newImages": 54,
+  "newImageBytes": 28108774,
+  "bodyCharacters": 11854,
+  "chineseCharacters": 9467,
+  "combined": {
+    "chapters": 41,
+    "episodeAdditions": 15,
+    "portraits": 15,
+    "imageFiles": 156,
+    "pages": 160,
+    "searchRecords": 577
+  },
+  "preservation": {
+    "firstBatchData": "all original chapters, episode additions, portraits and image records retained",
+    "changedHtml": 14,
+    "unchangedHtml": 146,
+    "newGeneratedFiles": 54,
+    "removedGeneratedFiles": [],
+    "otherChangedFiles": [
+      "content/search.json"
+    ]
+  },
+  "imageValidation": "all 54 file hashes, dimensions, and source scan hashes match",
+  "browser": {
+    "views": [
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-asylum/#artbook-a09",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a10",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a11",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/riddler/#artbook-a12",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-knight/#artbook-a13",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/rocksteady/#artbook-a14",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a15",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/rocksteady/#artbook-a16",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-knight/#artbook-a17",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t13",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t14",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/history/#artbook-t15",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t16",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/publications/#artbook-t17",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t18",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/history/#artbook-t19",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t20",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t21",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t22",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t23",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t24",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/the-man-who-killed-batman/#artbook-ep2-the-man-who-killed-batman",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/house-and-garden/#artbook-ep2-house-and-garden",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/avatar/#artbook-ep2-avatar",
+        "width": 521
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-asylum/#artbook-a09",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a10",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a11",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/riddler/#artbook-a12",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-knight/#artbook-a13",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/rocksteady/#artbook-a14",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-city/#artbook-a15",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/archive/rocksteady/#artbook-a16",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/arkham/games/arkham-knight/#artbook-a17",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t13",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t14",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/history/#artbook-t15",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t16",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/publications/#artbook-t17",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t18",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/history/#artbook-t19",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t20",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t21",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t22",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t23",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/archive/production/#artbook-t24",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/the-man-who-killed-batman/#artbook-ep2-the-man-who-killed-batman",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/house-and-garden/#artbook-ep2-house-and-garden",
+        "width": 390
+      },
+      {
+        "anchor": true,
+        "broken": [],
+        "overflow": false,
+        "url": "/tas/episodes/avatar/#artbook-ep2-avatar",
+        "width": 390
+      }
+    ],
+    "lightbox": {
+      "closed": "01 / 04\n原图 ↗\n关闭\n‹\n›",
+      "opened": "05 / 05",
+      "original": "/assets/media/artbook/tas/ep2-avatar-rise.jpg"
+    }
+  },
+  "browserNote": "48 anchor/path/width checks and lightbox interaction; screenshots are spot checks, not a full visual review of every section",
+  "dailyChecks": [
+    {
+      "command": "python3 verify.py",
+      "exitCode": 0,
+      "seconds": 1.9
+    },
+    {
+      "command": "python3 verify-artbooks.py",
+      "exitCode": 0,
+      "seconds": 0.48
+    },
+    {
+      "command": "python3 verify-conroy.py",
+      "exitCode": 0,
+      "seconds": 0.49
+    },
+    {
+      "command": "python3 verify-build.py",
+      "exitCode": 0,
+      "seconds": 4.31
+    },
+    {
+      "command": "node verify-intro.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "node verify-arkham-nav.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "node verify-arkham-menu.js",
+      "exitCode": 0,
+      "seconds": 0.03
+    },
+    {
+      "command": "node verify-investigation.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "node verify-tas-motion.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "node verify-lightbox.js",
+      "exitCode": 0,
+      "seconds": 0.03
+    },
+    {
+      "command": "node --check app.js",
+      "exitCode": 0,
+      "seconds": 0.03
+    },
+    {
+      "command": "node --check tas-lightbox.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+      "exitCode": 0,
+      "seconds": 0.98
+    }
+  ],
+  "releaseCopyValidation": {
+    "checks": [
+      {
+        "command": "python3 verify.py",
+        "exitCode": 0,
+        "seconds": 1.35
+      },
+      {
+        "command": "python3 verify-artbooks.py",
+        "exitCode": 0,
+        "seconds": 0.39
+      },
+      {
+        "command": "python3 verify-conroy.py",
+        "exitCode": 0,
+        "seconds": 0.38
+      },
+      {
+        "command": "python3 verify-build.py",
+        "exitCode": 0,
+        "seconds": 3.29
+      },
+      {
+        "command": "node verify-intro.js",
+        "exitCode": 0,
+        "seconds": 0.03
+      },
+      {
+        "command": "node verify-arkham-nav.js",
+        "exitCode": 0,
+        "seconds": 0.03
+      },
+      {
+        "command": "node verify-arkham-menu.js",
+        "exitCode": 0,
+        "seconds": 0.02
+      },
+      {
+        "command": "node verify-investigation.js",
+        "exitCode": 0,
+        "seconds": 0.03
+      },
+      {
+        "command": "node verify-tas-motion.js",
+        "exitCode": 0,
+        "seconds": 0.03
+      },
+      {
+        "command": "node verify-lightbox.js",
+        "exitCode": 0,
+        "seconds": 0.02
+      },
+      {
+        "command": "node --check app.js",
+        "exitCode": 0,
+        "seconds": 0.02
+      },
+      {
+        "command": "node --check tas-lightbox.js",
+        "exitCode": 0,
+        "seconds": 0.02
+      },
+      {
+        "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+        "exitCode": 0,
+        "seconds": 0.77
+      }
+    ],
+    "generatedFilesCompared": {
+      "dist": 1025,
+      "pages-dist": 1026
+    },
+    "status": "pass"
+  }
+}

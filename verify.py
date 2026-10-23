@@ -66,7 +66,9 @@ ark_pages, ark_records, _, _, ark_images = build_arkham_archive(data, shell)
 interactive_pages, interactive_records = build_interactions(data, shell)
 from crossover_pages import build_crossover
 _, crossover_records = build_crossover(data, shell)
-assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records) + len(interactive_records) + len(crossover_records)
+from artbook_pages import load as load_artbook
+artbook_record_count = sum(len(load_artbook(site)[key]) for site in ("arkham", "tas") for key in ("chapters", "episodeAdditions"))
+assert len(search) == len(data["games"]) + len(data["episodes"]) + len(data["tnbaEpisodes"]) + 2 + len(archive_records) + len(merch_records) + len(ark_records) + len(interactive_records) + len(crossover_records) + artbook_record_count
 for record in archive_records + merch_records + ark_records + interactive_records + crossover_records:
     url = urlsplit(record["url"])
     assert url.path in parsed
@@ -395,7 +397,7 @@ ordered = ['arkham-asylum', 'arkham-city', 'arkham-origins', 'arkham-origins-bla
 positions = [pages['arkham/catalog/index.html'].index('/arkham/games/' + id + '/') for id in ordered]
 assert positions == sorted(positions)
 assert all(any(record['url'] == '/arkham/games/' + id + '/' for record in search) for id in ordered)
-assert len([record for record in search if '/arkham/archive/rocksteady/' in record['url']]) == len(creative['sections']) + 1
+assert len([record for record in search if '/arkham/archive/rocksteady/' in record['url']]) == len(creative['sections']) + 1 + sum(chapter['target'] == '/arkham/archive/rocksteady/' for chapter in load_artbook('arkham')['chapters'])
 print('PASS: Blackgate original/Deluxe boundaries; eight chronological works; sourced creative history and Arkham-scoped actor links')
 
 credits_doc = json.loads((CONTENT.parent / "episode-credits.json").read_text())
@@ -517,7 +519,7 @@ assert catalog_html.count('class="episode-thumb"') == 85 and catalog_html.count(
 archive_html = (DIST / 'tas/archive/index.html').read_text()
 assert archive_html.count('class="screening-hall ') == 6 and 'class="archive-shelf"' not in archive_html
 assert all(f'/tas/archive/{slug}/' in archive_html for slug in ('production', 'voices', 'films', 'publications', 'music', 'history'))
-assert (DIST / 'tas/archive/voices/index.html').read_text().count('<article id=') >= 15
+assert (DIST / 'tas/archive/voices/index.html').read_text().count('<article class="artbook-role" id=') == 15
 for page in DIST.glob('tas/**/index.html'):
     assert 'data-deco=' not in page.read_text(), page
 print('PASS: TAS programme in two broadcast runs with 85 title-card rows and ticket preview; six screening halls; end-credit roster')

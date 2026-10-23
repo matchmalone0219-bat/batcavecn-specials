@@ -1,8 +1,9 @@
 // Dark Deco screening lightbox: image links open on a black screen; links still work without it.
 (() => {
   if (!document.body.classList.contains('tas')) return;
-  const links = [...document.querySelectorAll('main a[href*="/assets/media/"]')].filter(link => link.querySelector('img'));
-  if (!links.length) return;
+  const candidates = [...document.querySelectorAll('main a[href*="/assets/media/"]')].filter(link => link.querySelector('img'));
+  if (!candidates.length) return;
+  let links = [];
   let box, image, count, original, index = 0, opener;
 
   function build() {
@@ -46,6 +47,12 @@
 
   function open(link) {
     if (!box) build();
+    links = candidates.filter(candidate => {
+      for (let parent = candidate.parentElement; parent; parent = parent.parentElement) {
+        if (parent.hidden || (parent.tagName === "DETAILS" && !parent.open)) return false;
+      }
+      return true;
+    });
     opener = link;
     document.body.append(box);
     document.body.classList.add('tas-lightbox-open');
@@ -62,7 +69,7 @@
     opener?.focus({preventScroll: true});
   }
 
-  links.forEach(link => link.addEventListener('click', event => {
+  candidates.forEach(link => link.addEventListener('click', event => {
     if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     open(link);

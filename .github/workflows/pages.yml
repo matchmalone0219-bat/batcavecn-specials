@@ -28,6 +28,7 @@ jobs:
       - name: Validate archives and interactions
         run: |
           python3 verify.py
+          python3 verify-artbooks.py
           python3 verify-conroy.py
           python3 verify-build.py
           node verify-intro.js
@@ -35,6 +36,7 @@ jobs:
           node verify-arkham-menu.js
           node verify-investigation.js
           node verify-tas-motion.js
+          node verify-lightbox.js
           node --check app.js
       - name: Configure Pages
         id: pages

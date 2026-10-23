@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-23",
+  "batch": 2,
+  "status": "completed-local-not-published",
+  "units": [
+    {
+      "id": "A09",
+      "site": "arkham",
+      "title": "腰带里的韦恩科技",
+      "target": "/arkham/games/arkham-asylum/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (54).jpg"
+      ]
+    },
+    {
+      "id": "A10",
+      "site": "arkham",
+      "title": "装备的展开方式，也是人物的动作语言",
+      "target": "/arkham/games/arkham-city/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (87).jpg",
+        "1 (88).jpg",
+        "1 (89).jpg"
+      ]
+    },
+    {
+      "id": "A11",
+      "site": "arkham",
+      "title": "未采用遭遇：身体内部与巨型茶会",
+      "target": "/arkham/games/arkham-city/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (82).jpg"
+      ]
+    },
+    {
+      "id": "A12",
+      "site": "arkham",
+      "title": "谜语人的机械自画像",
+      "target": "/arkham/archive/riddler/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (132).jpg",
+        "1 (127).jpg"
+      ]
+    },
+    {
+      "id": "A13",
+      "site": "arkham",
+      "title": "军事占领怎样进入哥谭街景",
+      "target": "/arkham/games/arkham-knight/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (127).jpg",
+        "1 (128).jpg",
+        "1 (130).jpg"
+      ]
+    },
+    {
+      "id": "T13",
+      "site": "tas",
+      "title": "标题卡：一集动画的情绪海报",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg017.jpg",
+        "BA_pg019A.jpg",
+        "BA_pg019B.jpg",
+        "BA_pg095.jpg"
+      ]
+    },
+    {
+      "id": "T14",
+      "site": "tas",
+      "title": "反派怎样找到适合动画的面孔",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg105.jpg",
+        "BA_pg106.jpg",
+        "BA_pg111.jpg",
+        "BA_pg116.jpg",
+        "BA_pg095.jpg",
+        "BA_pg096.jpg",
+        "BA_pg118.jpg"
+      ]
+    },
+    {
+      "id": "T15",
+      "site": "tas",
+      "title": "四组重设计：怪物的重量与童话的阴影",
+      "target": "/tas/archive/history/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg095.jpg",
+        "BA_pg135.jpg",
+        "BA_pg136.jpg",
+        "BA_pg117.jpg",
+        "BA_pg118.jpg",
+        "BA_pg108.jpg"
+      ]
+    },
+    {
+      "id": "T16",
+      "site": "tas",
+      "title": "分镜里的表演、视线与动作因果",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg067.jpg",
+        "BA_pg068.jpg",
+        "BA_pg097.jpg",
+        "BA_pg099.jpg",
+        "BA_pg101.jpg",
+        "BA_pg111.jpg",
+        "BA_pg112.jpg"
+      ]
+    },
+    {
+      "id": "T17",
+      "site": "tas",
+      "title": "角色走出平面：模型、瓷像与日用品",
+      "target": "/tas/archive/publications/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg137B.jpg",
+        "BA_pg138A.jpg",
+        "BA_pg139B.jpg",
+        "BA_pg069.jpg",
+        "BA_pg092.jpg",
+        "BA_pg106.jpg"
+      ]
+    },
+    {
+      "id": "T18",
+      "site": "tas",
+      "title": "一集动画背后的制作接力",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg012.jpg",
+        "BA_pg013.jpg",
+        "BA_pg014.jpg"
+      ]
+    },
+    {
+      "id": "A14",
+      "site": "arkham",
+      "title": "概念图怎样成为会回应的世界",
+      "target": "/arkham/archive/rocksteady/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (56).jpg",
+        "1 (90).jpg",
+        "1 (136).jpg",
+        "1 (137).jpg",
+        "1 (138).jpg"
+      ]
+    },
+    {
+      "id": "A15",
+      "site": "arkham",
+      "title": "服装记录人物，也标记派系",
+      "target": "/arkham/games/arkham-city/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (77).jpg",
+        "1 (84).jpg",
+        "1 (99).jpg"
+      ]
+    },
+    {
+      "id": "A16",
+      "site": "arkham",
+      "title": "建筑方案里的另一个阿卡姆",
+      "target": "/arkham/archive/rocksteady/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (46).jpg",
+        "1 (117).jpg",
+        "1 (119).jpg"
+      ]
+    },
+    {
+      "id": "A17",
+      "site": "arkham",
+      "title": "终章怎样重新分配人物的重量",
+      "target": "/arkham/games/arkham-knight/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "1 (98).jpg",
+        "1 (99).jpg"
+      ]
+    },
+    {
+      "id": "T19",
+      "site": "tas",
+      "title": "新版哥谭：黄昼、红夜与未来剪影",
+      "target": "/tas/archive/history/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg140.jpg",
+        "BA_pg141.jpg",
+        "BA_pg094.jpg",
+        "BA_pg150.jpg",
+        "BA_pg151.jpg"
+      ]
+    },
+    {
+      "id": "T20",
+      "site": "tas",
+      "title": "配角让哥谭成为有人生活的城市",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg079.jpg",
+        "BA_pg080.jpg"
+      ]
+    },
+    {
+      "id": "T21",
+      "site": "tas",
+      "title": "蝙蝠洞与载具：同一种黑色轮廓",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg049.jpg",
+        "BA_pg050.jpg",
+        "BA_pg052.jpg",
+        "BA_pg051.jpg"
+      ]
+    },
+    {
+      "id": "T22",
+      "site": "tas",
+      "title": "面孔里的裂缝：双面人、急冻人与拉斯",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg088.jpg",
+        "BA_pg089.jpg",
+        "BA_pg109.jpg",
+        "BA_pg110.jpg",
+        "BA_pg097.jpg"
+      ]
+    },
+    {
+      "id": "T23",
+      "site": "tas",
+      "title": "企鹅人留在纸上的两个方向",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg094.jpg",
+        "BA_pg093.jpg"
+      ]
+    },
+    {
+      "id": "T24",
+      "site": "tas",
+      "title": "展厅追逐的路线怎样画清楚",
+      "target": "/tas/archive/production/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg085.jpg",
+        "BA_pg086.jpg"
+      ]
+    }
+  ],
+  "episodeAdditions": [
+    {
+      "id": "the-man-who-killed-batman",
+      "title": "表演分镜：小丑的愤怒怎样突然收住",
+      "target": "/tas/episodes/the-man-who-killed-batman/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg067.jpg",
+        "BA_pg068.jpg"
+      ]
+    },
+    {
+      "id": "house-and-garden",
+      "title": "悬念分镜：后视镜先看见危险",
+      "target": "/tas/episodes/house-and-garden/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg111.jpg",
+        "BA_pg112.jpg",
+        "BA_pg113.jpg",
+        "BA_pg114.jpg",
+        "BA_pg115.jpg"
+      ]
+    },
+    {
+      "id": "avatar",
+      "title": "动作分镜：先让怪物成形，再让救援成立",
+      "target": "/tas/episodes/avatar/",
+      "status": "completed-local",
+      "sourceFiles": [
+        "BA_pg097.jpg",
+        "BA_pg098.jpg",
+        "BA_pg099.jpg",
+        "BA_pg100.jpg",
+        "BA_pg101.jpg"
+      ]
+    }
+  ],
+  "images": {
+    "arkham": [
+      "a09-batarang",
+      "a10-grapnel",
+      "a10-catgear",
+      "a10-staff",
+      "a11-clay",
+      "a11-watch",
+      "a11-tea",
+      "a12-mech",
+      "a12-robot",
+      "a13-launcher",
+      "a13-drone",
+      "a13-tank",
+      "a13-cloud",
+      "a14-civilians",
+      "a15-penguin",
+      "a15-tyger",
+      "a16-lighthouse",
+      "a16-studios",
+      "a16-clock"
+    ],
+    "tas": [
+      "t13-dream",
+      "t13-abstract",
+      "t13-mudslide",
+      "t14-riddler",
+      "t14-ivy",
+      "t14-bane",
+      "t15-clay",
+      "t15-croc",
+      "t15-bane",
+      "t15-hatter",
+      "ep2-joker-turn",
+      "ep2-joker-pause",
+      "ep2-garden-mirror",
+      "ep2-garden-road",
+      "ep2-avatar-rise",
+      "ep2-avatar-rescue",
+      "t17-harley",
+      "t17-penguin",
+      "t17-riddler",
+      "t17-batman-maquette",
+      "t17-robin-maquette",
+      "t19-day",
+      "t19-night",
+      "t19-beyond",
+      "t20-gordon",
+      "t20-montoya",
+      "t21-cave",
+      "t21-car",
+      "t21-wing",
+      "t22-ras",
+      "t22-freeze",
+      "t23-early",
+      "t23-sega",
+      "ep2-batgirl-whip",
+      "ep2-batgirl-route"
+    ]
+  },
+  "credits": "Batman-Animated主创与分集对照.json",
+  "predecessor": "两站设定集扩充任务清单.json"
+}

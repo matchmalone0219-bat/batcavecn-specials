@@ -54,7 +54,9 @@ class BuildChecks(unittest.TestCase):
     def test_topic_styles_and_links(self):
         data = json.loads(builder.CONTENT.read_text())
         pages, records, images = render_pages(data)
-        self.assertEqual((len(pages), len(records)), (160, 510 + len(data['person']['sections'])))
+        from artbook_pages import load as load_artbook
+        artbook_records = sum(len(load_artbook(site)[key]) for site in ('arkham', 'tas') for key in ('chapters', 'episodeAdditions'))
+        self.assertEqual((len(pages), len(records)), (160, 510 + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route.startswith('arkham/'):

@@ -271,7 +271,8 @@
         "tnba-design"
       ],
       "text": "对照BTAS与TNBA的轮廓、色块和服装设计，观察角色造型的变化。",
-      "status": "尚未取得可单独编目的比较图片"
+      "status": "已接入Batman Animated的六组BTAS／TNBA比较与三组TNBA补充图，见tas-artbook.json。",
+      "localEvidence": "Batman Animated，BA_pg127—141相关设计页；具体裁切见tas-artbook.json。"
     }
   ],
   "roles": [

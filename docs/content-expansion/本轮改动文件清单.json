@@ -1,0 +1,530 @@
+{
+  "baseline": "bbd39a1d4fcb2a0882c46cb68f9f10119f32b1e8",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "8e5314c61a309d45365a17a6daa01c5f74e4c8259e28c33acb13bf4fffc1aafe"
+    },
+    {
+      "path": "ARTBOOK-HANDOFF-2026-10-23.md",
+      "sha256": "fdf27f8dff85774ba539cbdb89831aad3c669a5e2f714d965719d91a78dbea60"
+    },
+    {
+      "path": "HANDOFF-2026-10-23.md",
+      "sha256": "ac8e4eb601e326f6d265b3a5af8b7a79dac1bf124c2f1f518aea993d8c5ca21a"
+    },
+    {
+      "path": "arkham-artbook.json",
+      "sha256": "0f7b9f4c9c64604d09a283894d18bf25fe44cbb9a124d39de3737f78d346ce78"
+    },
+    {
+      "path": "arkham_pages.py",
+      "sha256": "846a04eb20a3a0d8926b287800a0472481418da3bf8a080954ea2047ea656b96"
+    },
+    {
+      "path": "artbook.css",
+      "sha256": "493cb1f9d0c180ad4d45d2b5eb2f40748fa8a23988f4385040f8bc3367d8e784"
+    },
+    {
+      "path": "artbook/arkham/a01-arrival.jpg",
+      "sha256": "6c58e1928981e3ef33181e73eca1f4fad6d5cb0b78cc76ee78e0979592791e7e"
+    },
+    {
+      "path": "artbook/arkham/a01-legacy.jpg",
+      "sha256": "66b31a9fab875cfe2be99376a4d5712532e9f1d4a8160e3d4b89182ef498402b"
+    },
+    {
+      "path": "artbook/arkham/a01-vision.jpg",
+      "sha256": "000f24cdf07aeb384b1f3d557fea28d04518b71c03154bf8ed3ce2a9b345e4bc"
+    },
+    {
+      "path": "artbook/arkham/a02-batman.jpg",
+      "sha256": "9ad4f760f20ed5967b0949de7ec95e2284ef95ddb6e01b444c27a8352bf53fc5"
+    },
+    {
+      "path": "artbook/arkham/a02-croc.jpg",
+      "sha256": "f3cccdd4d714ba0637d837fc3d1e83c97a45906fcb21781cfde53290362e241e"
+    },
+    {
+      "path": "artbook/arkham/a02-pencil.jpg",
+      "sha256": "5c8375162a8ade55005fc43db6de38f281faded99905dc5c511f3c82e7f9d204"
+    },
+    {
+      "path": "artbook/arkham/a03-exterior.jpg",
+      "sha256": "92988986caef0ae41335cb586dd41dd45f214bef0c5abb63b5b71468cde21494"
+    },
+    {
+      "path": "artbook/arkham/a03-light.jpg",
+      "sha256": "3d05aaa1e5fefb249e10dd6b14b14c2890302674539a0067ea173e1131d5c3a3"
+    },
+    {
+      "path": "artbook/arkham/a03-pipes.jpg",
+      "sha256": "2fa4d41b96b5b28a36bd8a090cdc3029cdfe5bb7d1cb98c5a701e12b44140da0"
+    },
+    {
+      "path": "artbook/arkham/a04-cape.jpg",
+      "sha256": "9fd43b4dd190eda12a0ee714cc69446c3874b8bfd97ba1a461828fb38ce6e93b"
+    },
+    {
+      "path": "artbook/arkham/a04-predator.jpg",
+      "sha256": "db0c277af653fe855429a7118b606345aef734277549b959e5c1f2f448342dde"
+    },
+    {
+      "path": "artbook/arkham/a05-diploma.jpg",
+      "sha256": "5b66975b917e132e8bcd694c3003de20ea816b7d30be785597acde016468f7a4"
+    },
+    {
+      "path": "artbook/arkham/a05-iceberg.jpg",
+      "sha256": "29a48cb1599607d5a01a7e7d1e4d0891b5f5c84879f4e53b32a6f09129edc051"
+    },
+    {
+      "path": "artbook/arkham/a05-museum.jpg",
+      "sha256": "921671291755660a0be162005270ad53ed7efec1609c0d3e25492fdc80747f0d"
+    },
+    {
+      "path": "artbook/arkham/a05-skyline.jpg",
+      "sha256": "d38ac664fde32c22861bd8c0638924044a792e5799d9ff0529009af31a5b9cf9"
+    },
+    {
+      "path": "artbook/arkham/a06-city.jpg",
+      "sha256": "fdcf2cf5583f3cf7f592fe25ab6df0fd4a32a5df4dc1960b30df9f39dcf4a80e"
+    },
+    {
+      "path": "artbook/arkham/a07-layers.jpg",
+      "sha256": "ab0895cbc267bd0d090c309e3c900e970741a2a8e52f2b1fbd58ec2accd42a25"
+    },
+    {
+      "path": "artbook/arkham/a07-sculpture.jpg",
+      "sha256": "79dc6e8edb48d4f1ca923fcd8bade23f547dc0411371e7a16f666e41dcf0bd9f"
+    },
+    {
+      "path": "artbook/arkham/a07-vertical.jpg",
+      "sha256": "d8a41e721f160385c003a4afe5262f9699c2e705183a448f7630fa236b476391"
+    },
+    {
+      "path": "artbook/arkham/a07-wayne.jpg",
+      "sha256": "dfbb5c0d9f1c61c3d1e270f99985125b8049b508e614c679a6564f7da856e842"
+    },
+    {
+      "path": "artbook/arkham/a08-armour.jpg",
+      "sha256": "62d510fda6b530df6450cd2bb091fa40ef7fafd1865ea6694f9b9d7c1be5ac98"
+    },
+    {
+      "path": "artbook/arkham/a08-batmobile.jpg",
+      "sha256": "2a55714b398dbd14cb05b34c89968ebfe2f78ce78285f13c4a1c7e962f667c14"
+    },
+    {
+      "path": "artbook/arkham/a08-cape-fastener.jpg",
+      "sha256": "c10db7226b392a4e5b12465b269915c7224c18e43ef2cf33218a9e5cf9328cf1"
+    },
+    {
+      "path": "artbook/arkham/a08-wheel.jpg",
+      "sha256": "8f58b6f0058ceb464eb7ad0ce7dce1c494102b5fb888079450ddccfafbf3e14b"
+    },
+    {
+      "path": "artbook/tas/ep-clay.jpg",
+      "sha256": "5ffcacc67c17ba5d7b5da7e3bf34f0587a8b5e544c925f6af4bba232317a3560"
+    },
+    {
+      "path": "artbook/tas/ep-creeper.jpg",
+      "sha256": "a79a8f88bcd1399d2fb1a880e32fa9511bb443ce6cdb6be4a4ca43c961ba9a61"
+    },
+    {
+      "path": "artbook/tas/ep-fish.jpg",
+      "sha256": "b349152d41e523f8428756b08e46db6fd388f061a0bde81d7161818f5a3db578"
+    },
+    {
+      "path": "artbook/tas/ep-freeze.jpg",
+      "sha256": "622de8ae83b50b014c05d6ba5863ce699c8576d535af4f2049b64fc57a439a0e"
+    },
+    {
+      "path": "artbook/tas/ep-hatter.jpg",
+      "sha256": "6f108767b177db05108d231688179e47b7e83699296a68235a84455f3f372367"
+    },
+    {
+      "path": "artbook/tas/ep-leather.jpg",
+      "sha256": "ccd185b75fb2ec626f66fd13cbc2f4380740eb5b448ee0c965ba73779babf4e1"
+    },
+    {
+      "path": "artbook/tas/ep-legends-miller.jpg",
+      "sha256": "068f93b02788b7ca0c11e90d62b8ae730964d6162285e82d5e626b3a8d202a2f"
+    },
+    {
+      "path": "artbook/tas/ep-legends-sprang.jpg",
+      "sha256": "e4309716bb12f2ebeba117fb04c7c54dd9200bd698263b276683f227f25efa8c"
+    },
+    {
+      "path": "artbook/tas/ep-twoface-one.jpg",
+      "sha256": "ea3c6bcd710a13d7cd1198b21ed94b9602978bd09b3559eceaedbb2cf9756d7c"
+    },
+    {
+      "path": "artbook/tas/ep-twoface-two.jpg",
+      "sha256": "ee2d29e346989d8ffe9dc4bbb8ce958ffe6e804be5f50039fbef30fa889d1985"
+    },
+    {
+      "path": "artbook/tas/portrait-role-1-small.jpg",
+      "sha256": "1f3ab0210227688633cf04a6096f286b2b8dead23ffad80ce9a5a445bc059c4b"
+    },
+    {
+      "path": "artbook/tas/portrait-role-1.jpg",
+      "sha256": "93ee13dba4467a82cb844637d499e7a571e438dbd81ff1bf79eaf48a253366a8"
+    },
+    {
+      "path": "artbook/tas/portrait-role-10-small.jpg",
+      "sha256": "4e79a6c0c2c994e8714b5f94c1f7f56e3d90ef14887409d912f5b966d96d5d70"
+    },
+    {
+      "path": "artbook/tas/portrait-role-10.jpg",
+      "sha256": "c0787c49296d411d6532a13791b98b17e34989183b744b790ed4838fb0c159cc"
+    },
+    {
+      "path": "artbook/tas/portrait-role-11-small.jpg",
+      "sha256": "1f245cb1e3bf34df5c03cd169811bc18a3c81f237a5a4a073f231d8d13d307ee"
+    },
+    {
+      "path": "artbook/tas/portrait-role-11.jpg",
+      "sha256": "2ee7bfc05244623844da3d4bcdac47890b13ae405686c184aff6b6d942f5be6e"
+    },
+    {
+      "path": "artbook/tas/portrait-role-12-small.jpg",
+      "sha256": "262b69316e7b9c8b3fcb4da6f192437e6e71828db260f75fdc99ae8099da8d3c"
+    },
+    {
+      "path": "artbook/tas/portrait-role-12.jpg",
+      "sha256": "73e0868301028104540fdabf3d29769062eeb9af6c86dd42ce8a67412923a428"
+    },
+    {
+      "path": "artbook/tas/portrait-role-13-small.jpg",
+      "sha256": "edcba66cdf818e56f226a02092904d840e7eabe473ce5ffbf1658dfc12a73cdc"
+    },
+    {
+      "path": "artbook/tas/portrait-role-13.jpg",
+      "sha256": "741e7fcc5eb79b840c9d98c9a39168d96a094e4492a934ba618f47d91f70e90e"
+    },
+    {
+      "path": "artbook/tas/portrait-role-14-small.jpg",
+      "sha256": "78887983d35371d2e0017b9258f3fecc8da92ac1f8a11442c18e0687e8be5468"
+    },
+    {
+      "path": "artbook/tas/portrait-role-14.jpg",
+      "sha256": "7ec76205a4f4c344355982eef050083aeba5fa5fe2671bc092633a238691bc15"
+    },
+    {
+      "path": "artbook/tas/portrait-role-15-small.jpg",
+      "sha256": "bdd18d582869a7d0023d71dc546e055306c2ff825717395cfb9a167bf3fe2994"
+    },
+    {
+      "path": "artbook/tas/portrait-role-15.jpg",
+      "sha256": "82530242382b09161163b8dc9568ea3fda9bc402ce92a6d784c54e88c25b543f"
+    },
+    {
+      "path": "artbook/tas/portrait-role-2-small.jpg",
+      "sha256": "6a5ecdca5dc09828a88c2e9ea716f8f6fcfc28d0ff3b5aebbb15fdefe5409df1"
+    },
+    {
+      "path": "artbook/tas/portrait-role-2.jpg",
+      "sha256": "ca40bfbbd62e30272ba24339c0330a3bacb12d019446b9b3bf570380f95bac4b"
+    },
+    {
+      "path": "artbook/tas/portrait-role-3-small.jpg",
+      "sha256": "6a8438d8b48808d441b9f03ea47703d7e5bba9704406be6b8028577bcb93be33"
+    },
+    {
+      "path": "artbook/tas/portrait-role-3.jpg",
+      "sha256": "b53bc4b160c543863953dffa0215384a27ff2e8b19ac6fb94bc5ff309c274bd7"
+    },
+    {
+      "path": "artbook/tas/portrait-role-4-small.jpg",
+      "sha256": "7ec511d04d7ce8b24cebf2f12f6ecfab5f1011e2420edeb1fa25d37e8796968a"
+    },
+    {
+      "path": "artbook/tas/portrait-role-4.jpg",
+      "sha256": "d9dc22a76a56c8c199cbd4e8ff91e3c247b9f2fa684426f6a2884a1a117a6c22"
+    },
+    {
+      "path": "artbook/tas/portrait-role-5-small.jpg",
+      "sha256": "b323379d459932c0445a4bd173065582f052074810adf216900c4dbdfc2ef0ff"
+    },
+    {
+      "path": "artbook/tas/portrait-role-5.jpg",
+      "sha256": "ece9d2e9b958af2ce3d2f193f8ed286c415f21b4f9bc9258d0d6d9f188a978a3"
+    },
+    {
+      "path": "artbook/tas/portrait-role-6-small.jpg",
+      "sha256": "e516153aea9174ad01eb99bab57552996b2d4d1beb4a4d572e1ff71e219ce13b"
+    },
+    {
+      "path": "artbook/tas/portrait-role-6.jpg",
+      "sha256": "f8d16a476acbff7a73ace362481d9cb52304dce5068546609da6a02c9466b7ed"
+    },
+    {
+      "path": "artbook/tas/portrait-role-7-small.jpg",
+      "sha256": "dc0dd53eb87c71be21c0d553d4a6a5b221fe83c6b002d4616dfda1de062967db"
+    },
+    {
+      "path": "artbook/tas/portrait-role-7.jpg",
+      "sha256": "37496db46d90f2eb453d2f811ffea1526fc850b6f18920cce5372462ae8e3cac"
+    },
+    {
+      "path": "artbook/tas/portrait-role-8-small.jpg",
+      "sha256": "c2c5811a0f9078a0e90e7fe5f7f2b395e04712eec0864f834e16a11a218f93fb"
+    },
+    {
+      "path": "artbook/tas/portrait-role-8.jpg",
+      "sha256": "7f456833a07aa1ac8af02c90494db4c2db754caf988f5af76df387c125a4d4cb"
+    },
+    {
+      "path": "artbook/tas/portrait-role-9-small.jpg",
+      "sha256": "d7a863c0d9937d5af3f41f47327cdc6c7e8528d525d5f96814a360317016c36b"
+    },
+    {
+      "path": "artbook/tas/portrait-role-9.jpg",
+      "sha256": "8914b69235eb15c6faadc46d8f8d133f12d5f6c5cb73e7552e38d3b582ebc11d"
+    },
+    {
+      "path": "artbook/tas/t01-batman.jpg",
+      "sha256": "eebe3a7a10cd3d1df1188cad93ca0969de7507e4c3dad67a4d26ecdb823b92e9"
+    },
+    {
+      "path": "artbook/tas/t01-team.jpg",
+      "sha256": "119578ba9693e933570e0a2f9454b82fc8d9203bb70b00dd4af5af6475842510"
+    },
+    {
+      "path": "artbook/tas/t02-alley.jpg",
+      "sha256": "fdbde66e05afd7ff52bbad197649e2293e2416d0c2edb8ed347105cf3a574ec5"
+    },
+    {
+      "path": "artbook/tas/t02-colour.jpg",
+      "sha256": "6bbaf2ac46c00c3ea3560fcf69c199a54769013935b38b0fe27602fbb06828e6"
+    },
+    {
+      "path": "artbook/tas/t02-height.jpg",
+      "sha256": "317bcec5cc3932c7455e04915b0b72e18aa561c975b63021f831d6706767a1fe"
+    },
+    {
+      "path": "artbook/tas/t02-layout.jpg",
+      "sha256": "681d64c12b987cb17dabe404afc0571cad1f6a2738aff09cff9c8ac292e08d14"
+    },
+    {
+      "path": "artbook/tas/t03-bank.jpg",
+      "sha256": "c2b5bb920c5cef3b53213be89fad2273760bff87054fe98ac490e0b767a1ed1f"
+    },
+    {
+      "path": "artbook/tas/t03-car.jpg",
+      "sha256": "2379a8e8961c912179c1e0320f82b832289f921cb3123d06f36a0dfc3109a86c"
+    },
+    {
+      "path": "artbook/tas/t03-fight.jpg",
+      "sha256": "30c8366dc5245508e22e6198f6c28066ff574f448d4cbe6398a22cfb7e61a0c4"
+    },
+    {
+      "path": "artbook/tas/t03-reveal.jpg",
+      "sha256": "a797dda60a2e443ed94a028fcffa4adbd3fb5b69ad5ed4ad6709d3273b38c0eb"
+    },
+    {
+      "path": "artbook/tas/t04-alfred.jpg",
+      "sha256": "184ad246141ad2843d0c3504bcf24ce734ceb8e5249892db136e16c9097b710d"
+    },
+    {
+      "path": "artbook/tas/t04-batgirl.jpg",
+      "sha256": "5de0241a3d0a0ababb07f04edc086c57bf10b549cad420a76a0c2458d2811e77"
+    },
+    {
+      "path": "artbook/tas/t04-batman.jpg",
+      "sha256": "8bc49a0c5b26ae34629733f2f4173108ab516a0da64d2bad001d00779369279c"
+    },
+    {
+      "path": "artbook/tas/t04-robin.jpg",
+      "sha256": "975cf6d176215df77a742e858b5b7defa86c43d797b121eb0139060d64c5278f"
+    },
+    {
+      "path": "artbook/tas/t05-notes.jpg",
+      "sha256": "c2f1871616fc7b3576e28058a7d6bf966bb97916ad106524c164d9112154cf19"
+    },
+    {
+      "path": "artbook/tas/t05-satire.jpg",
+      "sha256": "c44313f5902a1e2e2f7ffc62949a17dbb2511628d722c67a4bf8101890db3262"
+    },
+    {
+      "path": "artbook/tas/t06-joker.jpg",
+      "sha256": "d271352754e80c9c8102882e808477f37d53eaf9983ba1146b339a321621e027"
+    },
+    {
+      "path": "artbook/tas/t06-recording.jpg",
+      "sha256": "ebc250efa4068037b377512b251188e6383df72b3db56a817044a4693d9b46ce"
+    },
+    {
+      "path": "artbook/tas/t07-score.jpg",
+      "sha256": "0023f6c6d3a73875b046cedb901135596e34cc62535dbb0ae52b193d022f17d0"
+    },
+    {
+      "path": "artbook/tas/t08-board.jpg",
+      "sha256": "90d1d3044f9db95a0b132b90d4b38e8565ca26ae9f5462b3a675108bd7d0e223"
+    },
+    {
+      "path": "artbook/tas/t08-model.jpg",
+      "sha256": "4d8dbe1f13f09584fec616d192ff9ba328386f12686f0fd22ffa4ca2b3fe3a09"
+    },
+    {
+      "path": "artbook/tas/t08-sketch.jpg",
+      "sha256": "56cdfc24a14a2d1c9e6d884d6bf5d548200d5492a8391c6bb11c94a85f9897bf"
+    },
+    {
+      "path": "artbook/tas/t09-batgirl-detail.jpg",
+      "sha256": "f57f37e1b794aa4fc4f8c4855cc577cc7b7ce65dbeb641b70a008c14e7a23047"
+    },
+    {
+      "path": "artbook/tas/t09-batman.jpg",
+      "sha256": "480287aaeca6ee9b7a3b13652e429c02de011dfc2a16aac8ba4accb869730a2c"
+    },
+    {
+      "path": "artbook/tas/t09-catwoman.jpg",
+      "sha256": "ffb2c498d681ea5e7b4ec137e47f851bcb7719aa5dca2c5eba34b839f7cb0e40"
+    },
+    {
+      "path": "artbook/tas/t09-ivy.jpg",
+      "sha256": "dfb19f93b9bddd9010526dadb6ca798bb53a6c41339583abea7dd0db09a829bf"
+    },
+    {
+      "path": "artbook/tas/t09-joker-detail.jpg",
+      "sha256": "40d8f52668b1f87ba6a208114a305509951b7745ebf394c66a6e939489f16bf6"
+    },
+    {
+      "path": "artbook/tas/t09-nightwing.jpg",
+      "sha256": "a905b09649cc4ec7ca189c035ec2096f8cb6e2eaa7c95c2bbe5713849004f290"
+    },
+    {
+      "path": "artbook/tas/t09-penguin.jpg",
+      "sha256": "1bf9982d555df771bca35c74d52af1ba164e19577dd538032c2a6a35153c7404"
+    },
+    {
+      "path": "artbook/tas/t09-robin.jpg",
+      "sha256": "a987177adfb70f6150774aab32df184aa5344b2eb1129615f5fc78e369794866"
+    },
+    {
+      "path": "artbook/tas/t09-scarecrow.jpg",
+      "sha256": "ee0ec33f43e161a0a4d6dd31042c7b652c9d7d47a0c0decad3b7e5fc62781a33"
+    },
+    {
+      "path": "artbook/tas/t10-future.jpg",
+      "sha256": "252fc152a6e8fcb2c66c69fe6b57abb94e09f1754d88f0e326d974a8014e7382"
+    },
+    {
+      "path": "artbook/tas/t10-posters.jpg",
+      "sha256": "efb6b8e30fa61ebcdb3559f1441f0099534bed15625bf1ecbfbee4bad9c40037"
+    },
+    {
+      "path": "artbook/tas/t10-ruin.jpg",
+      "sha256": "51ca4836d119092c0649485bf7da45eed931da80b6e925ad2126a571fc232a10"
+    },
+    {
+      "path": "artbook/tas/t11-cave.jpg",
+      "sha256": "cd5b7cc2a951698b2529797e2ff9c51f32482d7fac5707e151af4895d9bc64ee"
+    },
+    {
+      "path": "artbook/tas/t11-operation.jpg",
+      "sha256": "c3d5aab1cbd5a24f0b20e7d8ceafbaa75e476dbe9b0ef9dd0a15685d7e3f15ad"
+    },
+    {
+      "path": "artbook/tas/t12-colour.jpg",
+      "sha256": "5a176dfc7b4f92bdb25f2df23a0dd984f10f295bcc7be42afaa2106959d9a596"
+    },
+    {
+      "path": "artbook/tas/t12-pencils.jpg",
+      "sha256": "e2421515aa865c9fa0db040205a0a19f1ef8de92badaa50840d39f67960fdf02"
+    },
+    {
+      "path": "artbook_pages.py",
+      "sha256": "a26394098d04324f3b1b401a36d59307816cdf3c712252666a6f32491288b42f"
+    },
+    {
+      "path": "build.py",
+      "sha256": "0f31dcfb88cb693d9ce512d94a0da8840d730cee71d6c44f061619a9cd796d7a"
+    },
+    {
+      "path": "content_pages.py",
+      "sha256": "0144a77fe336f0db96608b90b89c95a0059c1c03cbb35f911511078220cd8323"
+    },
+    {
+      "path": "docs/content-expansion/Batman Animated扫描索引.json",
+      "sha256": "799465f03c2c036e650f54d9831fc70f77376f56535076574239ffd413388fbb"
+    },
+    {
+      "path": "docs/content-expansion/prepare_artbook_images.py",
+      "sha256": "bd613320bccabac32c03b4716d31cc620bb136835435a4df473da98659b0c2f6"
+    },
+    {
+      "path": "docs/content-expansion/两站设定集完整扩充方案.md",
+      "sha256": "5a998aba1411c4f95d2c4bd1962ab057aab751712839e2a57cdd338d1b69d46a"
+    },
+    {
+      "path": "docs/content-expansion/两站设定集扩充任务清单.json",
+      "sha256": "6a2d64dc18c5b222797ef1cc47513b7d83785943414d16a25fc56b0741d2c78d"
+    },
+    {
+      "path": "docs/content-expansion/发布副本最终检查.json",
+      "sha256": "e2d18447d6d322e1705e48843ad3593be7a5ca7ffb9f7e088467ea72285a3b4b"
+    },
+    {
+      "path": "docs/content-expansion/发布副本最终检查.log",
+      "sha256": "916aff6e4d76035d6a4f3241addc2ea7fe0bca950e6f9e73a9002cc4dc3cbacf"
+    },
+    {
+      "path": "docs/content-expansion/设定集内容扩充评估.md",
+      "sha256": "961157f084b07d802559ab6642b20a1f3fa052d568779aa24b2f7b7fda38ab0b"
+    },
+    {
+      "path": "docs/content-expansion/设定集扩充实施结果.json",
+      "sha256": "da3d76b46829164244c3f8c7fbfe4298b9575000d07c754bb92596eb52b14290"
+    },
+    {
+      "path": "docs/content-expansion/设定集扫描索引.json",
+      "sha256": "02eb926ad7dc14fdd32396285bbbfc00c7a9120f0f2208b02806e327d8d722f9"
+    },
+    {
+      "path": "docs/content-expansion/设定集选图与裁切清单.json",
+      "sha256": "6872b2aa4c55ac632292d9acff7e80a7ce6f5243b520abceddfd5c358308cfc4"
+    },
+    {
+      "path": "site_pages.py",
+      "sha256": "ef25f0e9014c36b08a11d80571b0613d273b89866df4f35c6c8e4d0d0e944066"
+    },
+    {
+      "path": "tas-artbook.json",
+      "sha256": "97bfb9a7eca2cbc6b43362dd35c788dd61ba32fd294c3667774533633befa9d8"
+    },
+    {
+      "path": "tas-lightbox.js",
+      "sha256": "7c6201d28a1542ee78dc15851fd14b76cff8e3a7cb454f6dfc0c3348e78d21dc"
+    },
+    {
+      "path": "tas-production-research.json",
+      "sha256": "68a9726a1d71356ca435e8b86d43e3f8959245be9886ff9cff7e810232426358"
+    },
+    {
+      "path": "tas-research.json",
+      "sha256": "4124edb95330ac54eddf5e4d6648d86b9dd569ffc97b6f630781cea949ddfd82"
+    },
+    {
+      "path": "tas_pages.py",
+      "sha256": "a922ec8706a277e47b28026cc2dec4aa2e035e7caaa5ec7a9f7c167e43902bd1"
+    },
+    {
+      "path": "verify-artbooks.py",
+      "sha256": "5afb2b8c9f73e95574fc95732f0a1fd20e170dac8ef66d29eee329b9503732ce"
+    },
+    {
+      "path": "verify-build.py",
+      "sha256": "909ae4b3a915816982b22dec0cfb38eed9852ff180e37dc40fe619c986422e31"
+    },
+    {
+      "path": "verify-lightbox.js",
+      "sha256": "5600cf72b88510d7723f22bd1183a65af6ae55e29a33b88e69c332d619644327"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "fa546a6e109fc59a8e783b55a37e013bd86169ee7aebd525ddc3a445c924fc74"
+    }
+  ],
+  "sourceFilesIncludingManifest": 132
+}

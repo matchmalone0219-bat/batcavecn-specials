@@ -1,0 +1,70 @@
+$ python3 verify.py
+Fonts copied in full (install fonttools and brotli to subset them)
+Built 160 pages, 553 searchable records
+PASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets
+PASS: 35 merchandise records; 19 sourced product images; version boundaries
+PASS: 106 analytical sections collapsed; ending details excluded from search summaries
+PASS: 160 pages; 6044 internal links and anchors; content boundaries; 553 search records
+PASS: 32 sourced original images; TNBA separate; paired episode links reciprocal
+PASS: eight landscape catalogue key-art images; source metadata retained, original bytes and page scope
+PASS: eight Arkham archive pages; 23 research images; 412 episode images; history identity, final image and story spoilers collapsed
+PASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, bounded cues or explicit listening notes, on-demand players and spoiler boundaries
+PASS: Arkham-only navigation and biography view; eight real-image game cards; scoped search and transition assets
+PASS: Blackgate original/Deluxe boundaries; eight chronological works; sourced creative history and Arkham-scoped actor links
+PASS: catalogue conceals spoiler roles; same-name and cameo tags corrected; search UI scoped; actor copy and reviewed wording corrected
+PASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source metadata retained
+PASS: 31 Arkham clue districts link to their entry groups; 138 entries covered
+PASS: 蝙蝠侠之声 page with Conroy chapter, 7 people and characters, 11 works; old addresses redirect; footers link only the shared page
+PASS: 6 hashed Riddler puzzles link to their cases; investigation record lists cases, tapes, transmissions and puzzles
+PASS: site icons on every page; branded 404; detail pages carry hero or plate, compact facts and prev/next; Arkham toggles in 更多导航
+PASS: hub and 404 use the two-door entry; scoped Conroy pages use the work list
+PASS: collectibles lead with product photos, list the rest compactly, keep every anchor and offer category/maker/work filters
+PASS: 26 original Arkham icons; menu, room headers, labels, facts, pager and filters use them; no icons outside Arkham
+PASS: Arkham archive rail on 7 pages; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained
+PASS: TAS programme in two broadcast runs with 85 title-card rows and ticket preview; six screening halls; end-credit roster
+PASS: two VR works; five promoted guides; TNBA-only pager; correct actor links; genuine title cards and episode frames
+PASS: two further TNBA guides, preserved catalogue metadata, sourced DLC types and folded ending context
+PASS: two more TNBA guides; hidden identity protected; City content types and Blackgate design notes
+PASS: three TNBA dossiers, SubZero film page, four original images, edition dates and folded movie ending
+PASS: all 109 episode dossiers, series-only paging, protected mystery credits, Batwoman film/short and edition records
+PASS: TAS screening lightbox on every TAS page; iris entry; fonts copied in full (fonttools not installed)
+
+$ python3 verify-artbooks.py
+PASS: 20 chapters, 12 episode additions, 15 portraits; 102 image files; provenance, search, topic and spoiler boundaries
+
+$ python3 verify-conroy.py
+PASS: sourced biography, 4 licensed photos, seven-part Finding Batman feature with original page, plain-text references and scoped chapter search
+
+$ python3 verify-build.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 2.665s
+
+OK
+
+$ node verify-intro.js
+PASS: entry timing, duplicate clicks, continuous transition sound, reduced motion, failure fallback, lazy independent music, pause/resume, visibility, exit and stale playback rejection
+
+$ node verify-arkham-nav.js
+PASS: failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, seven menu entries and native in-page reading links
+
+$ node verify-arkham-menu.js
+PASS: decode-before-fade, late-load races, queued selection, failed-image fallback, pause, reduced motion, hidden entry and page cleanup
+
+$ node verify-investigation.js
+PASS: detective collection timing, next evidence, completion, rereading, reset, cancellation, motion preference and restoration
+PASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages; bilingual transmissions
+
+$ node verify-tas-motion.js
+PASS: TAS scope, session opening, storage fallback, native links, project path, repeated clicks, timer navigation, back/forward cleanup, reduced motion, lazy image projection and visibility pause
+PASS: selected-episode handoff, exact title card, single admission, keyboard skip/focus, restored/stale admissions, image timeout, automatic return, replay and saved motion preference
+
+$ node verify-lightbox.js
+PASS: closed spoilers/groups excluded; explicit reveals, next/previous, Escape, focus restoration and modified-link fallback
+
+$ node --check app.js
+
+$ node --check tas-lightbox.js
+
+$ python3 prepare_pages.py --base-path /batcavecn-specials
+Pages ready: 160 pages, 553 search records, 7905 links/assets; base=/batcavecn-specials

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "status": "proposal-only",
+  "status": "implemented-local-not-published",
   "books": [
     {
       "id": "rocksteady-2015",
@@ -38,7 +38,19 @@
         "1 (5).jpg",
         "1 (150).jpg"
       ],
-      "imageBudget": 3
+      "imageBudget": 3,
+      "status": "completed-local",
+      "chapterId": "artbook-a01",
+      "actualImageIds": [
+        "a01-vision",
+        "a01-arrival",
+        "a01-legacy"
+      ],
+      "actualImages": 3,
+      "actualSourceFiles": [
+        "1 (5).jpg",
+        "1 (150).jpg"
+      ]
     },
     {
       "id": "A02",
@@ -51,7 +63,20 @@
         "1 (16).jpg",
         "1 (19).jpg"
       ],
-      "imageBudget": 3
+      "imageBudget": 3,
+      "status": "completed-local",
+      "chapterId": "artbook-a02",
+      "actualImageIds": [
+        "a02-pencil",
+        "a02-croc",
+        "a02-batman"
+      ],
+      "actualImages": 3,
+      "actualSourceFiles": [
+        "1 (15).jpg",
+        "1 (19).jpg",
+        "1 (16).jpg"
+      ]
     },
     {
       "id": "A03",
@@ -64,7 +89,20 @@
         "1 (34).jpg",
         "1 (36).jpg"
       ],
-      "imageBudget": 3
+      "imageBudget": 3,
+      "status": "completed-local",
+      "chapterId": "artbook-a03",
+      "actualImageIds": [
+        "a03-exterior",
+        "a03-light",
+        "a03-pipes"
+      ],
+      "actualImages": 3,
+      "actualSourceFiles": [
+        "1 (30).jpg",
+        "1 (34).jpg",
+        "1 (36).jpg"
+      ]
     },
     {
       "id": "A04",
@@ -78,7 +116,20 @@
         "1 (61).jpg",
         "1 (62).jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-a04",
+      "actualImageIds": [
+        "a04-cape",
+        "a04-predator"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "1 (62).jpg",
+        "1 (56).jpg",
+        "1 (58).jpg",
+        "1 (61).jpg"
+      ]
     },
     {
       "id": "A05",
@@ -93,7 +144,23 @@
         "1 (80).jpg",
         "1 (84).jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-a05",
+      "actualImageIds": [
+        "a05-skyline",
+        "a05-iceberg",
+        "a05-museum",
+        "a05-diploma"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "1 (69).jpg",
+        "1 (72).jpg",
+        "1 (73).jpg",
+        "1 (80).jpg",
+        "1 (84).jpg"
+      ]
     },
     {
       "id": "A06",
@@ -104,7 +171,16 @@
       "sourceFiles": [
         "1 (94).jpg"
       ],
-      "imageBudget": 1
+      "imageBudget": 1,
+      "status": "completed-local",
+      "chapterId": "artbook-a06",
+      "actualImageIds": [
+        "a06-city"
+      ],
+      "actualImages": 1,
+      "actualSourceFiles": [
+        "1 (94).jpg"
+      ]
     },
     {
       "id": "A07",
@@ -118,7 +194,22 @@
         "1 (116).jpg",
         "1 (118).jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-a07",
+      "actualImageIds": [
+        "a07-vertical",
+        "a07-layers",
+        "a07-wayne",
+        "a07-sculpture"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "1 (112).jpg",
+        "1 (114).jpg",
+        "1 (116).jpg",
+        "1 (118).jpg"
+      ]
     },
     {
       "id": "A08",
@@ -132,7 +223,22 @@
         "1 (138).jpg",
         "1 (143).jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-a08",
+      "actualImageIds": [
+        "a08-batmobile",
+        "a08-wheel",
+        "a08-cape-fastener",
+        "a08-armour"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "1 (143).jpg",
+        "1 (100).jpg",
+        "1 (106).jpg",
+        "1 (138).jpg"
+      ]
     },
     {
       "id": "T01",
@@ -146,7 +252,20 @@
         "BA_pg026.jpg",
         "BA_pg027.jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-t01",
+      "actualImageIds": [
+        "t01-batman",
+        "t01-team"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "BA_pg026.jpg",
+        "BA_pg003.jpg",
+        "BA_pg027.jpg",
+        "BA_pg025.jpg"
+      ]
     },
     {
       "id": "T02",
@@ -165,7 +284,24 @@
         "BA_pg044.jpg",
         "BA_pg045and046.jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-t02",
+      "actualImageIds": [
+        "t02-colour",
+        "t02-layout",
+        "t02-alley",
+        "t02-height"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "BA_pg026.jpg",
+        "BA_pg041.jpg",
+        "BA_pg042.jpg",
+        "BA_pg038.jpg",
+        "BA_pg045and046.jpg",
+        "BA_pg028.jpg"
+      ]
     },
     {
       "id": "T03",
@@ -182,7 +318,24 @@
         "BA_pg030.jpg",
         "BA_pg032.jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-t03",
+      "actualImageIds": [
+        "t03-bank",
+        "t03-car",
+        "t03-fight",
+        "t03-reveal"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "BA_pg025.jpg",
+        "BA_pg026.jpg",
+        "BA_pg027.jpg",
+        "BA_pg029.jpg",
+        "BA_pg030.jpg",
+        "BA_pg032.jpg"
+      ]
     },
     {
       "id": "T04",
@@ -203,7 +356,26 @@
         "BA_pg057.jpg",
         "BA_pg058.jpg"
       ],
-      "imageBudget": 4
+      "imageBudget": 4,
+      "status": "completed-local",
+      "chapterId": "artbook-t04",
+      "actualImageIds": [
+        "t04-batman",
+        "t04-robin",
+        "t04-batgirl",
+        "t04-alfred"
+      ],
+      "actualImages": 4,
+      "actualSourceFiles": [
+        "BA_pg047.jpg",
+        "BA_pg048.jpg",
+        "BA_pg053.jpg",
+        "BA_pg054.jpg",
+        "BA_pg055.jpg",
+        "BA_pg056.jpg",
+        "BA_pg057.jpg",
+        "BA_pg058.jpg"
+      ]
     },
     {
       "id": "T05",
@@ -217,7 +389,20 @@
         "BA_pg035.jpg",
         "BA_pg036.jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-t05",
+      "actualImageIds": [
+        "t05-notes",
+        "t05-satire"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "BA_pg031.jpg",
+        "BA_pg028.jpg",
+        "BA_pg035.jpg",
+        "BA_pg036.jpg"
+      ]
     },
     {
       "id": "T06",
@@ -230,7 +415,19 @@
         "BA_pg065.jpg",
         "BA_pg070.jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-t06",
+      "actualImageIds": [
+        "t06-recording",
+        "t06-joker"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "BA_pg033.jpg",
+        "BA_pg065.jpg",
+        "BA_pg070.jpg"
+      ]
     },
     {
       "id": "T07",
@@ -241,7 +438,16 @@
       "sourceFiles": [
         "BA_pg034.jpg"
       ],
-      "imageBudget": 1
+      "imageBudget": 1,
+      "status": "completed-local",
+      "chapterId": "artbook-t07",
+      "actualImageIds": [
+        "t07-score"
+      ],
+      "actualImages": 1,
+      "actualSourceFiles": [
+        "BA_pg034.jpg"
+      ]
     },
     {
       "id": "T08",
@@ -254,7 +460,20 @@
         "BA_pg070.jpg",
         "BA_pg071.jpg"
       ],
-      "imageBudget": 3
+      "imageBudget": 3,
+      "status": "completed-local",
+      "chapterId": "artbook-t08",
+      "actualImageIds": [
+        "t08-sketch",
+        "t08-board",
+        "t08-model"
+      ],
+      "actualImages": 3,
+      "actualSourceFiles": [
+        "BA_pg069.jpg",
+        "BA_pg070.jpg",
+        "BA_pg071.jpg"
+      ]
     },
     {
       "id": "T09",
@@ -277,7 +496,36 @@
         "BA_pg140.jpg",
         "BA_pg141.jpg"
       ],
-      "imageBudget": 6
+      "imageBudget": 6,
+      "status": "completed-local",
+      "chapterId": "artbook-t09",
+      "actualImageIds": [
+        "t09-batman",
+        "t09-robin",
+        "t09-catwoman",
+        "t09-penguin",
+        "t09-ivy",
+        "t09-scarecrow",
+        "t09-joker-detail",
+        "t09-nightwing",
+        "t09-batgirl-detail"
+      ],
+      "actualImages": 9,
+      "actualSourceFiles": [
+        "BA_pg127.jpg",
+        "BA_pg129.jpg",
+        "BA_pg130.jpg",
+        "BA_pg131.jpg",
+        "BA_pg139B.jpg",
+        "BA_pg140.jpg",
+        "BA_pg084.jpg",
+        "BA_pg091.jpg",
+        "BA_pg135.jpg",
+        "BA_pg136.jpg",
+        "BA_pg108.jpg",
+        "BA_pg111.jpg",
+        "BA_pg133.jpg"
+      ]
     },
     {
       "id": "T10",
@@ -291,7 +539,21 @@
         "BA_pg121.jpg",
         "BA_pg122.jpg"
       ],
-      "imageBudget": 3
+      "imageBudget": 3,
+      "status": "completed-local",
+      "chapterId": "artbook-t10",
+      "actualImageIds": [
+        "t10-posters",
+        "t10-future",
+        "t10-ruin"
+      ],
+      "actualImages": 3,
+      "actualSourceFiles": [
+        "BA_pg119.jpg",
+        "BA_pg122.jpg",
+        "BA_pg120.jpg",
+        "BA_pg121.jpg"
+      ]
     },
     {
       "id": "T11",
@@ -303,7 +565,18 @@
         "BA_pg125.jpg",
         "BA_pg126.jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-t11",
+      "actualImageIds": [
+        "t11-cave",
+        "t11-operation"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "BA_pg126.jpg",
+        "BA_pg125.jpg"
+      ]
     },
     {
       "id": "T12",
@@ -318,84 +591,126 @@
         "BA_pg076.jpg",
         "BA_pg078.jpg"
       ],
-      "imageBudget": 2
+      "imageBudget": 2,
+      "status": "completed-local",
+      "chapterId": "artbook-t12",
+      "actualImageIds": [
+        "t12-pencils",
+        "t12-colour"
+      ],
+      "actualImages": 2,
+      "actualSourceFiles": [
+        "BA_pg074.jpg",
+        "BA_pg073.jpg",
+        "BA_pg075.jpg"
+      ]
     }
   ],
   "tasRolePortraits": [
     {
       "role": "role-1",
       "character": "蝙蝠侠",
-      "sourcePageLabels": "047、048"
+      "sourcePageLabels": "047、048",
+      "status": "completed-local",
+      "imageId": "portrait-role-1"
     },
     {
       "role": "role-2",
       "character": "阿尔弗雷德",
-      "sourcePageLabels": "057"
+      "sourcePageLabels": "057",
+      "status": "completed-local",
+      "imageId": "portrait-role-2"
     },
     {
       "role": "role-3",
       "character": "戈登",
-      "sourcePageLabels": "079"
+      "sourcePageLabels": "079",
+      "status": "completed-local",
+      "imageId": "portrait-role-3"
     },
     {
       "role": "role-4",
       "character": "罗宾／Dick Grayson",
-      "sourcePageLabels": "053—055"
+      "sourcePageLabels": "053—055",
+      "status": "completed-local",
+      "imageId": "portrait-role-4"
     },
     {
       "role": "role-5",
       "character": "布洛克",
-      "sourcePageLabels": "079、080"
+      "sourcePageLabels": "079、080",
+      "status": "completed-local",
+      "imageId": "portrait-role-5"
     },
     {
       "role": "role-6",
       "character": "小丑",
-      "sourcePageLabels": "064—066"
+      "sourcePageLabels": "064—066",
+      "status": "completed-local",
+      "imageId": "portrait-role-6"
     },
     {
       "role": "role-7",
       "character": "哈维·丹特／双面人",
-      "sourcePageLabels": "087—090"
+      "sourcePageLabels": "087—090",
+      "status": "completed-local",
+      "imageId": "portrait-role-7"
     },
     {
       "role": "role-8",
       "character": "猫女",
-      "sourcePageLabels": "081—084"
+      "sourcePageLabels": "081—084",
+      "status": "completed-local",
+      "imageId": "portrait-role-8"
     },
     {
       "role": "role-9",
       "character": "哈莉",
-      "sourcePageLabels": "069—071"
+      "sourcePageLabels": "069—071",
+      "status": "completed-local",
+      "imageId": "portrait-role-9"
     },
     {
       "role": "role-10",
       "character": "企鹅人",
-      "sourcePageLabels": "091—094"
+      "sourcePageLabels": "091—094",
+      "status": "completed-local",
+      "imageId": "portrait-role-10"
     },
     {
       "role": "role-11",
       "character": "芭芭拉／蝙蝠女",
-      "sourcePageLabels": "056"
+      "sourcePageLabels": "056",
+      "status": "completed-local",
+      "imageId": "portrait-role-11"
     },
     {
       "role": "role-12",
       "character": "泥脸",
-      "sourcePageLabels": "095、096"
+      "sourcePageLabels": "095、096",
+      "status": "completed-local",
+      "imageId": "portrait-role-12"
     },
     {
       "role": "role-13",
       "character": "急冻人",
-      "sourcePageLabels": "109—111"
+      "sourcePageLabels": "109—111",
+      "status": "completed-local",
+      "imageId": "portrait-role-13"
     },
     {
       "role": "role-14",
       "character": "拉斯·奥·古",
-      "sourcePageLabels": "097"
+      "sourcePageLabels": "097",
+      "status": "completed-local",
+      "imageId": "portrait-role-14"
     },
     {
       "role": "role-15",
       "character": "谜语人",
-      "sourcePageLabels": "105、106"
+      "sourcePageLabels": "105、106",
+      "status": "completed-local",
+      "imageId": "portrait-role-15"
     }
   ],
   "episodeAdditions": [
@@ -404,84 +719,131 @@
       "target": "/tas/episodes/on-leather-wings/",
       "title": "On Leather Wings",
       "sourcePageLabels": "107",
-      "focus": "人蝠模型与变身／动作分镜"
+      "focus": "人蝠模型与变身／动作分镜",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-leather"
+      ]
     },
     {
       "id": "two-face-part-1",
       "target": "/tas/episodes/two-face-part-1/",
       "title": "Two-Face: Part 1",
       "sourcePageLabels": "087—090",
-      "focus": "揭面镜头、闪电与表情变化"
+      "focus": "揭面镜头、闪电与表情变化",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-twoface-one"
+      ]
     },
     {
       "id": "two-face-part-2",
       "target": "/tas/episodes/two-face-part-2/",
       "title": "Two-Face: Part 2",
       "sourcePageLabels": "087—090",
-      "focus": "双面构图和人物表演；不重复上一集的整组图"
+      "focus": "双面构图和人物表演；不重复上一集的整组图",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-twoface-two"
+      ]
     },
     {
       "id": "joker-s-favor",
       "target": "/tas/episodes/joker-s-favor/",
       "title": "Joker’s Favor",
       "sourcePageLabels": "069—071",
-      "focus": "哈莉初登场的设计背景"
+      "focus": "哈莉初登场的设计背景",
+      "status": "completed-local",
+      "imageIds": [
+        "t08-sketch"
+      ]
     },
     {
       "id": "the-laughing-fish",
       "target": "/tas/episodes/the-laughing-fish/",
       "title": "The Laughing Fish",
       "sourcePageLabels": "034、064—068",
-      "focus": "分镜修改与不协和音乐形成的威胁感"
+      "focus": "分镜修改与不协和音乐形成的威胁感",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-fish"
+      ]
     },
     {
       "id": "heart-of-ice",
       "target": "/tas/episodes/heart-of-ice/",
       "title": "Heart of Ice",
       "sourcePageLabels": "109—111",
-      "focus": "急冻人轮廓、头罩与悲剧人物塑造"
+      "focus": "急冻人轮廓、头罩与悲剧人物塑造",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-freeze"
+      ]
     },
     {
       "id": "feat-of-clay-part-2",
       "target": "/tas/episodes/feat-of-clay-part-2/",
       "title": "Feat of Clay: Part 2",
       "sourcePageLabels": "095、096",
-      "focus": "变形表演与人物模型"
+      "focus": "变形表演与人物模型",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-clay"
+      ]
     },
     {
       "id": "mad-as-a-hatter",
       "target": "/tas/episodes/mad-as-a-hatter/",
       "title": "Mad As A Hatter",
       "sourcePageLabels": "108",
-      "focus": "疯帽匠设计与人物动机"
+      "focus": "疯帽匠设计与人物动机",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-hatter"
+      ]
     },
     {
       "id": "read-my-lips",
       "target": "/tas/episodes/read-my-lips/",
       "title": "Read My Lips",
       "sourcePageLabels": "028、058",
-      "focus": "人与木偶的动作、表情和对戏"
+      "focus": "人与木偶的动作、表情和对戏",
+      "status": "completed-local",
+      "imageIds": [],
+      "implementationNote": "BA_pg058为《幽灵的面具》阿尔弗雷德分镜，未套入本集；使用BA_pg028对Boyd Kirkland调度本集的讨论，保留页面既有三帧图像。"
     },
     {
       "id": "tnba-legends-of-the-dark-knight",
       "target": "/tas/episodes/tnba-legends-of-the-dark-knight/",
       "title": "Legends of the Dark Knight",
       "sourcePageLabels": "144—149",
-      "focus": "Sprang与Miller两套造型、分镜语言"
+      "focus": "Sprang与Miller两套造型、分镜语言",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-legends-sprang",
+        "ep-legends-miller"
+      ]
     },
     {
       "id": "tnba-over-the-edge",
       "target": "/tas/episodes/tnba-over-the-edge/",
       "title": "Over the Edge",
       "sourcePageLabels": "150",
-      "focus": "主创观看完成片的回忆；情节性质放入剧透折叠"
+      "focus": "主创观看完成片的回忆；情节性质放入剧透折叠",
+      "status": "completed-local",
+      "imageIds": [],
+      "implementationNote": "BA_pg150采用主创观看完成片的回忆，未把同页玩具架照片标成分集制作图；沿用页面既有分集图像，新增文字放入剧透折叠。"
     },
     {
       "id": "tnba-beware-the-creeper",
       "target": "/tas/episodes/tnba-beware-the-creeper/",
       "title": "Beware the Creeper",
       "sourcePageLabels": "143",
-      "focus": "Jack Ryder／Creeper设计与改编起点"
+      "focus": "Jack Ryder／Creeper设计与改编起点",
+      "status": "completed-local",
+      "imageIds": [
+        "ep-creeper"
+      ]
     }
   ],
   "budget": {
@@ -493,5 +855,19 @@
     "episodeInsertions": 12,
     "newTopLevelRoutes": 0
   },
-  "checks": "After all approved content and asset changes are complete, run one integrated acceptance pass."
+  "checks": "After all approved content and asset changes are complete, run one integrated acceptance pass.",
+  "implementation": {
+    "chapters": 20,
+    "episodeAdditions": 12,
+    "rolePortraits": 15,
+    "plannedMainImageSelections": 59,
+    "additionalTNBADesignImages": 3,
+    "episodeSpecificImages": 10,
+    "largeImages": 72,
+    "portraitFiles": 15,
+    "thumbnailFiles": 15,
+    "totalImageFiles": 102,
+    "status": "local-only",
+    "report": "ARTBOOK-HANDOFF-2026-10-23.md"
+  }
 }

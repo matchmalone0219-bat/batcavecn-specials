@@ -1,0 +1,3337 @@
+{
+  "date": "2026-10-23",
+  "images": [
+    {
+      "site": "arkham",
+      "id": "a01-vision",
+      "file": "artbook/arkham/a01-vision.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《疯人院》蝙蝠侠宣传渲染",
+      "kind": "宣传渲染后期绘制",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (5).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "c57bf8e895962b72c685c4daaf6d38d72d00e013e3d74d2ea6631d150bd14237"
+        }
+      ],
+      "sha256": "000f24cdf07aeb384b1f3d557fea28d04518b71c03154bf8ed3ce2a9b345e4bc",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a01-arrival",
+      "file": "artbook/arkham/a01-arrival.jpg",
+      "width": 1800,
+      "height": 1239,
+      "alt": "雨中的蝙蝠侠游戏画面",
+      "kind": "游戏画面",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (6).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d7fc43e2a8184e0cc055e6bc0dc7bc6f9b518f9af5af3593a025010b3936a29f"
+        }
+      ],
+      "sha256": "6c58e1928981e3ef33181e73eca1f4fad6d5cb0b78cc76ee78e0979592791e7e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a01-legacy",
+      "file": "artbook/arkham/a01-legacy.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《之城》宣传形象与城市背景",
+      "kind": "宣传渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (150).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "ce7ea7ebcbd377ac5c632904fb1872c405dc3dc39c2a21b1daf131419f686a99"
+        }
+      ],
+      "sha256": "66b31a9fab875cfe2be99376a4d5712532e9f1d4a8160e3d4b89182ef498402b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a02-pencil",
+      "file": "artbook/arkham/a02-pencil.jpg",
+      "width": 981,
+      "height": 1800,
+      "alt": "早期高瘦蝙蝠侠与滴水兽草案",
+      "kind": "概念草图",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (15).jpg",
+          "cropNormalized": [
+            0.51,
+            0.32,
+            0.72,
+            0.88
+          ],
+          "cropPixels": [
+            2565,
+            1108,
+            3621,
+            3046
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "a99c901a1a94fc2b51b70bcc36d949d55042e35101e3703603814ba4d1eede01"
+        }
+      ],
+      "sha256": "5c8375162a8ade55005fc43db6de38f281faded99905dc5c511f3c82e7f9d204",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a02-croc",
+      "file": "artbook/arkham/a02-croc.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "鳞片与链条构成的杀手鳄模型",
+      "kind": "游戏角色渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (16).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "3e8248d833b762068a54587ec7bcee33743f478faa484d18c6ac567265ed26f4"
+        }
+      ],
+      "sha256": "f3cccdd4d714ba0637d837fc3d1e83c97a45906fcb21781cfde53290362e241e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a02-batman",
+      "file": "artbook/arkham/a02-batman.jpg",
+      "width": 1800,
+      "height": 1184,
+      "alt": "胸徽与体形不同的两版蝙蝠侠草案",
+      "kind": "概念草图",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (19).jpg",
+          "cropNormalized": [
+            0.04,
+            0.03,
+            0.49,
+            0.46
+          ],
+          "cropPixels": [
+            201,
+            104,
+            2464,
+            1592
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "6de308adad8716eb64123aa533b994e441076c40550f3bce44cfaae1f53159ae"
+        }
+      ],
+      "sha256": "9ad4f760f20ed5967b0949de7ec95e2284ef95ddb6e01b444c27a8352bf53fc5",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a03-exterior",
+      "file": "artbook/arkham/a03-exterior.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "尖顶与入口体量夸张的疯人院外景",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Drew Wilson",
+      "sources": [
+        {
+          "sourceFile": "1 (30).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "b7a326b93752776385e02d59ebb1669fcc9ff1d6b8400b5324da438a99a2e14f"
+        }
+      ],
+      "sha256": "92988986caef0ae41335cb586dd41dd45f214bef0c5abb63b5b71468cde21494",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a03-light",
+      "file": "artbook/arkham/a03-light.jpg",
+      "width": 1800,
+      "height": 822,
+      "alt": "高大室内以冷色光突出行进方向",
+      "kind": "光照研究",
+      "group": "环境",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (34).jpg",
+          "cropNormalized": [
+            0,
+            0.17,
+            0.49,
+            0.495
+          ],
+          "cropPixels": [
+            0,
+            588,
+            2464,
+            1713
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d50e8bd6c6c398c51ade84568601eff7644f80b8d681431c5ef9a21a2298a705"
+        }
+      ],
+      "sha256": "3d05aaa1e5fefb249e10dd6b14b14c2890302674539a0067ea173e1131d5c3a3",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a03-pipes",
+      "file": "artbook/arkham/a03-pipes.jpg",
+      "width": 1349,
+      "height": 1800,
+      "alt": "管线模块与巨门组成的室内设计",
+      "kind": "环境设计组件",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (36).jpg",
+          "cropNormalized": [
+            0.005,
+            0.02,
+            0.495,
+            0.97
+          ],
+          "cropPixels": [
+            25,
+            69,
+            2489,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "2188d816475883d2dbecd120edeb0440bacdef7a7850cdffb51f9b243fecc41b"
+        }
+      ],
+      "sha256": "2fa4d41b96b5b28a36bd8a090cdc3029cdfe5bb7d1cb98c5a701e12b44140da0",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a04-cape",
+      "file": "artbook/arkham/a04-cape.jpg",
+      "width": 1800,
+      "height": 918,
+      "alt": "披风开口与布料运动探索",
+      "kind": "动作设计草图",
+      "group": "装备",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (58).jpg",
+          "cropNormalized": [
+            0.04,
+            0.02,
+            0.485,
+            0.35
+          ],
+          "cropPixels": [
+            201,
+            69,
+            2439,
+            1211
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "18c2bb9a44825c2a0c960d43247c9c9f1fba65e0d09d522470c4f89cac82d70c"
+        }
+      ],
+      "sha256": "9fd43b4dd190eda12a0ee714cc69446c3874b8bfd97ba1a461828fb38ce6e93b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a04-predator",
+      "file": "artbook/arkham/a04-predator.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "高处观察的蝙蝠侠剪影",
+      "kind": "概念插画",
+      "group": "角色",
+      "creator": "John Gravato",
+      "sources": [
+        {
+          "sourceFile": "1 (61).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "32a547704831aa530ae89a82a9f6e6cf73410c46595a3795c619268d98fbf03b"
+        }
+      ],
+      "sha256": "db0c277af653fe855429a7118b606345aef734277549b959e5c1f2f448342dde",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a05-skyline",
+      "file": "artbook/arkham/a05-skyline.jpg",
+      "width": 1237,
+      "height": 1800,
+      "alt": "污染色调下的旧哥谭天际线探索",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (69).jpg",
+          "cropNormalized": [
+            0.02,
+            0.025,
+            0.46,
+            0.955
+          ],
+          "cropPixels": [
+            101,
+            87,
+            2313,
+            3305
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "1b067e514797aed57749cbb414143a0804abc325e468b851d6bb582c27c6f2c1"
+        }
+      ],
+      "sha256": "d38ac664fde32c22861bd8c0638924044a792e5799d9ff0529009af31a5b9cf9",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a05-iceberg",
+      "file": "artbook/arkham/a05-iceberg.jpg",
+      "width": 855,
+      "height": 1246,
+      "alt": "冰山俱乐部复古招贴设计",
+      "kind": "道具与标识设计",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (72).jpg",
+          "cropNormalized": [
+            0.165,
+            0.03,
+            0.335,
+            0.39
+          ],
+          "cropPixels": [
+            830,
+            104,
+            1685,
+            1350
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "a004b3ce10e2c70014c636da7557c33d9dbd79b58443d3ed5c4031de9a8dd5f9"
+        }
+      ],
+      "sha256": "29a48cb1599607d5a01a7e7d1e4d0891b5f5c84879f4e53b32a6f09129edc051",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a05-museum",
+      "file": "artbook/arkham/a05-museum.jpg",
+      "width": 1800,
+      "height": 860,
+      "alt": "博物馆展陈空间与牢笼改造",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (73).jpg",
+          "cropNormalized": [
+            0.54,
+            0.07,
+            0.965,
+            0.365
+          ],
+          "cropPixels": [
+            2716,
+            242,
+            4853,
+            1263
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "5ccb2db5e5aa596b0816d47e93715915219e499b0b8521a99d79771adcb26ae2"
+        }
+      ],
+      "sha256": "921671291755660a0be162005270ad53ed7efec1609c0d3e25492fdc80747f0d",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a05-diploma",
+      "file": "artbook/arkham/a05-diploma.jpg",
+      "width": 1418,
+      "height": 918,
+      "alt": "哈琳·奎泽尔的哥谭大学心理学学位证书道具",
+      "kind": "环境叙事道具",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (80).jpg",
+          "cropNormalized": [
+            0.02,
+            0.565,
+            0.302,
+            0.83
+          ],
+          "cropPixels": [
+            101,
+            1955,
+            1519,
+            2873
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "8921e88a481e511c129df73db68534a966e9f2319a9ee188f3255d884a14baac"
+        }
+      ],
+      "sha256": "5b66975b917e132e8bcd694c3003de20ea816b7d30be785597acde016468f7a4",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a06-city",
+      "file": "artbook/arkham/a06-city.jpg",
+      "width": 1660,
+      "height": 935,
+      "alt": "黑暗街道中的蝙蝠侠与城市灯光",
+      "kind": "概念插画",
+      "group": "环境",
+      "creator": "Kan Muftic",
+      "sources": [
+        {
+          "sourceFile": "1 (94).jpg",
+          "cropNormalized": [
+            0.665,
+            0.07,
+            0.995,
+            0.34
+          ],
+          "cropPixels": [
+            3344,
+            242,
+            5004,
+            1177
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "4ecb0ac545262f40b7606db44d732d0552a2678f9971f4cf7aa0befdbfccf893"
+        }
+      ],
+      "sha256": "fdcf2cf5583f3cf7f592fe25ab6df0fd4a32a5df4dc1960b30df9f39dcf4a80e",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a07-vertical",
+      "file": "artbook/arkham/a07-vertical.jpg",
+      "width": 1388,
+      "height": 1800,
+      "alt": "哥谭高楼的垂直尺度",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Lee Oliver",
+      "sources": [
+        {
+          "sourceFile": "1 (112).jpg",
+          "cropNormalized": [
+            0.035,
+            0.16,
+            0.465,
+            0.97
+          ],
+          "cropPixels": [
+            176,
+            554,
+            2338,
+            3357
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "898e169376db370d513124a2c314540d9995eedc5e0b186d3879a21d5c28e794"
+        }
+      ],
+      "sha256": "d8a41e721f160385c003a4afe5262f9699c2e705183a448f7630fa236b476391",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a07-layers",
+      "file": "artbook/arkham/a07-layers.jpg",
+      "width": 1800,
+      "height": 1422,
+      "alt": "密集标识与建筑叠加的城市研究",
+      "kind": "环境设计图",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (114).jpg",
+          "cropNormalized": [
+            0.505,
+            0.035,
+            0.98,
+            0.58
+          ],
+          "cropPixels": [
+            2540,
+            121,
+            4928,
+            2007
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "f7521f228777b4b8fe5d2d1b6497fc71bbfd3ae38dbe40f6cfeacd4a670a8b58"
+        }
+      ],
+      "sha256": "ab0895cbc267bd0d090c309e3c900e970741a2a8e52f2b1fbd58ec2accd42a25",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a07-wayne",
+      "file": "artbook/arkham/a07-wayne.jpg",
+      "width": 1287,
+      "height": 1800,
+      "alt": "韦恩大楼立面与高度探索",
+      "kind": "环境概念图",
+      "group": "环境",
+      "creator": "Lee Oliver / Oliver Odmark",
+      "sources": [
+        {
+          "sourceFile": "1 (116).jpg",
+          "cropNormalized": [
+            0.515,
+            0.025,
+            0.97,
+            0.95
+          ],
+          "cropPixels": [
+            2590,
+            87,
+            4878,
+            3288
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "9b0f158b2ad5fb5b6deef10266bf8ed3972a467203a31827ad0bcaffac1e932a"
+        }
+      ],
+      "sha256": "dfbb5c0d9f1c61c3d1e270f99985125b8049b508e614c679a6564f7da856e842",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a07-sculpture",
+      "file": "artbook/arkham/a07-sculpture.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "屋顶雕像改变建筑轮廓",
+      "kind": "环境设计探索",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (118).jpg",
+          "cropNormalized": [
+            0.505,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            2540,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "e100c238105cffb015c85987d04b2d4d836bdbc3a5ab77848be39ef36d947e0a"
+        }
+      ],
+      "sha256": "79dc6e8edb48d4f1ca923fcd8bade23f547dc0411371e7a16f666e41dcf0bd9f",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a08-cape-fastener",
+      "file": "artbook/arkham/a08-cape-fastener.jpg",
+      "width": 1800,
+      "height": 749,
+      "alt": "披风肩部连接结构",
+      "kind": "游戏角色细部渲染",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (106).jpg",
+          "cropNormalized": [
+            0.01,
+            0.03,
+            0.49,
+            0.32
+          ],
+          "cropPixels": [
+            50,
+            104,
+            2464,
+            1108
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "34c5aeda9c17800bde47e8e97210cfa5f82a5f77e0df8e0730a3ff55c60fb72e"
+        }
+      ],
+      "sha256": "c10db7226b392a4e5b12465b269915c7224c18e43ef2cf33218a9e5cf9328cf1",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a08-armour",
+      "file": "artbook/arkham/a08-armour.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "《骑士》战衣宣传渲染",
+      "kind": "宣传渲染",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (106).jpg",
+          "cropNormalized": [
+            0.505,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            2540,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "34c5aeda9c17800bde47e8e97210cfa5f82a5f77e0df8e0730a3ff55c60fb72e"
+        }
+      ],
+      "sha256": "62d510fda6b530df6450cd2bb091fa40ef7fafd1865ea6694f9b9d7c1be5ac98",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a08-wheel",
+      "file": "artbook/arkham/a08-wheel.jpg",
+      "width": 1294,
+      "height": 1800,
+      "alt": "蝙蝠车轮毂与车身细节",
+      "kind": "游戏车辆渲染",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (143).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.495,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2489,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "d3197f73a4b7c6aab9e97d7742e781dc22542003bb62757da25be54d2b8d25b6"
+        }
+      ],
+      "sha256": "8f58b6f0058ceb464eb7ad0ce7dce1c494102b5fb888079450ddccfafbf3e14b",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "arkham",
+      "id": "a08-batmobile",
+      "file": "artbook/arkham/a08-batmobile.jpg",
+      "width": 1800,
+      "height": 1239,
+      "alt": "蝙蝠车与蝙蝠侠的游戏画面",
+      "kind": "游戏画面",
+      "group": "装备",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "1 (144).jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5029,
+            3461
+          ],
+          "sourceSize": [
+            5029,
+            3461
+          ],
+          "sourceSHA256": "b01553e574f0cb3b90665b597ce33ba3872719877b8d3f88019f018b4d7d2121"
+        }
+      ],
+      "sha256": "2a55714b398dbd14cb05b34c89968ebfe2f78ce78285f13c4a1c7e962f667c14",
+      "spoiler": false,
+      "book": "rocksteady-2015"
+    },
+    {
+      "site": "tas",
+      "id": "t01-batman",
+      "file": "artbook/tas/t01-batman.jpg",
+      "width": 1680,
+      "height": 1800,
+      "alt": "1990年布鲁斯·蒂姆的蝙蝠侠研究",
+      "kind": "早期角色研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg003.jpg",
+          "cropNormalized": [
+            0.015,
+            0,
+            0.99,
+            0.76
+          ],
+          "cropPixels": [
+            38,
+            0,
+            2526,
+            2666
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "52014ef652a948f1cbe87651703f3749830357514c50eb4252a3c0d23c220010"
+        }
+      ],
+      "sha256": "eebe3a7a10cd3d1df1188cad93ca0969de7507e4c3dad67a4d26ecdb823b92e9",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t01-team",
+      "file": "artbook/tas/t01-team.jpg",
+      "width": 1021,
+      "height": 789,
+      "alt": "1992年首播周的制作团队合影",
+      "kind": "制作团队照片",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg026.jpg",
+          "cropNormalized": [
+            0.165,
+            0.675,
+            0.565,
+            0.9
+          ],
+          "cropPixels": [
+            421,
+            2368,
+            1442,
+            3157
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ece80e311eee36ccf8e0449b2bb1c43771fea77b9e2fe79285f1c7b7068e9e16"
+        }
+      ],
+      "sha256": "119578ba9693e933570e0a2f9454b82fc8d9203bb70b00dd4af5af6475842510",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t02-layout",
+      "file": "artbook/tas/t02-layout.jpg",
+      "width": 1800,
+      "height": 1162,
+      "alt": "《猫与爪》屋顶追逐布局稿",
+      "kind": "场景布局稿",
+      "group": "环境",
+      "creator": "Kevin Altieri",
+      "sources": [
+        {
+          "sourceFile": "BA_pg038.jpg",
+          "cropNormalized": [
+            0.01,
+            0,
+            0.99,
+            0.46
+          ],
+          "cropPixels": [
+            26,
+            0,
+            2526,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0b46ea62977968c587cc310dc757cf4bb5191ece591afe208dccf4ca8b6bdab1"
+        }
+      ],
+      "sha256": "681d64c12b987cb17dabe404afc0571cad1f6a2738aff09cff9c8ac292e08d14",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t02-colour",
+      "file": "artbook/tas/t02-colour.jpg",
+      "width": 1800,
+      "height": 965,
+      "alt": "哥谭楼群线稿与色稿并置",
+      "kind": "背景设计与色稿",
+      "group": "环境",
+      "creator": "Keith Weesner / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg041.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.39
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1368
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f2e0ee2d8404f42ba9163b2a39f507125f32317c0dca5c5e43169d041b9030b9"
+        }
+      ],
+      "sha256": "6bbaf2ac46c00c3ea3560fcf69c199a54769013935b38b0fe27602fbb06828e6",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t02-alley",
+      "file": "artbook/tas/t02-alley.jpg",
+      "width": 1800,
+      "height": 1052,
+      "alt": "犯罪巷的色块与透视",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "Keith Weesner / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg042.jpg",
+          "cropNormalized": [
+            0,
+            0.575,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2017,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "af0d89eb3caf845cdc244299bf1f1b82639a9b9624c2c18831abbd3177005d10"
+        }
+      ],
+      "sha256": "fdbde66e05afd7ff52bbad197649e2293e2416d0c2edb8ed347105cf3a574ec5",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t02-height",
+      "file": "artbook/tas/t02-height.jpg",
+      "width": 1800,
+      "height": 1237,
+      "alt": "高楼之间俯视的哥谭夜景",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg045and046.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            5104,
+            3508
+          ],
+          "sourceSize": [
+            5104,
+            3508
+          ],
+          "sourceSHA256": "4ed19f16b0c221914f42b1562c40eecb600f43965bce9fef08eb746a6b3cba0c"
+        }
+      ],
+      "sha256": "317bcec5cc3932c7455e04915b0b72e18aa561c975b63021f831d6706767a1fe",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t03-bank",
+      "file": "artbook/tas/t03-bank.jpg",
+      "width": 436,
+      "height": 1800,
+      "alt": "片头银行的竖向构图与爆炸",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg026.jpg",
+          "cropNormalized": [
+            0.67,
+            0.01,
+            1,
+            1
+          ],
+          "cropPixels": [
+            1710,
+            35,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ece80e311eee36ccf8e0449b2bb1c43771fea77b9e2fe79285f1c7b7068e9e16"
+        }
+      ],
+      "sha256": "c2b5bb920c5cef3b53213be89fad2273760bff87054fe98ac490e0b767a1ed1f",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t03-car",
+      "file": "artbook/tas/t03-car.jpg",
+      "width": 1800,
+      "height": 1336,
+      "alt": "蝙蝠车离洞与驶入街区的片头分镜",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg027.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "a35072b618fd78bd638fc1d0d55b4eb6988f806b9a66a6738e52135d219d93a9"
+        }
+      ],
+      "sha256": "2379a8e8961c912179c1e0320f82b832289f921cb3123d06f36a0dfc3109a86c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t03-fight",
+      "file": "artbook/tas/t03-fight.jpg",
+      "width": 1800,
+      "height": 1732,
+      "alt": "片头屋顶格斗的姿态与剪影",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg030.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.7
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2456
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3148df4ad2eb04d496dc0da39e28602fcd59970c9b92de1004fd04207846545f"
+        }
+      ],
+      "sha256": "30c8366dc5245508e22e6198f6c28066ff574f448d4cbe6398a22cfb7e61a0c4",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t03-reveal",
+      "file": "artbook/tas/t03-reveal.jpg",
+      "width": 1800,
+      "height": 843,
+      "alt": "片头闪电揭示蝙蝠侠的收束镜头",
+      "kind": "1992年片头分镜节选",
+      "group": "分镜",
+      "creator": "Bruce Timm / Eric Radomski",
+      "sources": [
+        {
+          "sourceFile": "BA_pg032.jpg",
+          "cropNormalized": [
+            0.05,
+            0.68,
+            0.99,
+            1
+          ],
+          "cropPixels": [
+            128,
+            2385,
+            2526,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "315fda2be43fd7452b1ece92b39e0bcd59a1d11f684d90d8cabe6c54009d247d"
+        }
+      ],
+      "sha256": "a797dda60a2e443ed94a028fcffa4adbd3fb5b69ad5ed4ad6709d3273b38c0eb",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t04-batman",
+      "file": "artbook/tas/t04-batman.jpg",
+      "width": 1800,
+      "height": 1336,
+      "alt": "蝙蝠侠的动态姿态研究",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg048.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "baa170282ad574edb5069773e7fe8bd0b5767bde4803baab7341fac9ec19b1f6"
+        }
+      ],
+      "sha256": "8bc49a0c5b26ae34629733f2f4173108ab516a0da64d2bad001d00779369279c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t04-robin",
+      "file": "artbook/tas/t04-robin.jpg",
+      "width": 1800,
+      "height": 1799,
+      "alt": "迪克·格雷森的罗宾初步模型",
+      "kind": "早期模型纸",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg055.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.77,
+            0.56
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1965,
+            1964
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7ebff42195afb24c25cbf790b7e9ad2254ae9de6df610f723c6e3850ae4bf848"
+        }
+      ],
+      "sha256": "975cf6d176215df77a742e858b5b7defa86c43d797b121eb0139060d64c5278f",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t04-batgirl",
+      "file": "artbook/tas/t04-batgirl.jpg",
+      "width": 701,
+      "height": 1800,
+      "alt": "蝙蝠女原始色彩模型",
+      "kind": "色彩模型",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg056.jpg",
+          "cropNormalized": [
+            0.4,
+            0.01,
+            0.78,
+            0.72
+          ],
+          "cropPixels": [
+            1021,
+            35,
+            1991,
+            2526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "df00275407161b0ede7cc385c87ac3f89c0448468a940f7dd581f682785ff7a4"
+        }
+      ],
+      "sha256": "5de0241a3d0a0ababb07f04edc086c57bf10b549cad420a76a0c2458d2811e77",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t04-alfred",
+      "file": "artbook/tas/t04-alfred.jpg",
+      "width": 1684,
+      "height": 1684,
+      "alt": "阿尔弗雷德的表情与头部角度",
+      "kind": "表情模型纸",
+      "group": "角色",
+      "creator": "Mike Gougen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg057.jpg",
+          "cropNormalized": [
+            0.34,
+            0.52,
+            1,
+            1
+          ],
+          "cropPixels": [
+            868,
+            1824,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "764e507a9f38b41918b5909529b625952d3b264cf027341a02590da6877ad78e"
+        }
+      ],
+      "sha256": "184ad246141ad2843d0c3504bcf24ce734ceb8e5249892db136e16c9097b710d",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t05-notes",
+      "file": "artbook/tas/t05-notes.jpg",
+      "width": 1800,
+      "height": 668,
+      "alt": "广播审看修改单的局部",
+      "kind": "制作修改记录",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg035.jpg",
+          "cropNormalized": [
+            0,
+            0.36,
+            1,
+            0.63
+          ],
+          "cropPixels": [
+            0,
+            1263,
+            2552,
+            2210
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4b3bdf06132dd29d81a70815ddbdc2ca54ee649d2fac2e256e9702cede525234"
+        }
+      ],
+      "sha256": "c2f1871616fc7b3576e28058a7d6bf966bb97916ad106524c164d9112154cf19",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t05-satire",
+      "file": "artbook/tas/t05-satire.jpg",
+      "width": 1464,
+      "height": 1800,
+      "alt": "布鲁斯·蒂姆讽刺播出限制的插画",
+      "kind": "制作团队讽刺画",
+      "group": "制作",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg036.jpg",
+          "cropNormalized": [
+            0,
+            0.443,
+            0.605,
+            0.984
+          ],
+          "cropPixels": [
+            0,
+            1554,
+            1544,
+            3452
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "169e2cdd71f3de39ad0a2535402eec4591073d011b5764da770b5b62287f8ebf"
+        }
+      ],
+      "sha256": "c44313f5902a1e2e2f7ffc62949a17dbb2511628d722c67a4bf8101890db3262",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t06-recording",
+      "file": "artbook/tas/t06-recording.jpg",
+      "width": 1340,
+      "height": 1105,
+      "alt": "《Almost Got ’Im》1992年录音演员合影",
+      "kind": "录音合影",
+      "group": "制作",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg033.jpg",
+          "cropNormalized": [
+            0,
+            0.685,
+            0.525,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2403,
+            1340,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "96946f72fa55fd72a6eb5870c9687c038269a0e565eb62b133e86917c5128fdf"
+        }
+      ],
+      "sha256": "ebc250efa4068037b377512b251188e6383df72b3db56a817044a4693d9b46ce",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t06-joker",
+      "file": "artbook/tas/t06-joker.jpg",
+      "width": 1174,
+      "height": 1526,
+      "alt": "小丑夸张下巴与牙齿的早期草图",
+      "kind": "早期角色草图",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg065.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.46,
+            0.435
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1174,
+            1526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "369a8fb8e92f3e29b6e8ab4ec2d6e39b07703cb3e928aef4f41ab8357f7d7551"
+        }
+      ],
+      "sha256": "d271352754e80c9c8102882e808477f37d53eaf9983ba1146b339a321621e027",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t07-score",
+      "file": "artbook/tas/t07-score.jpg",
+      "width": 1800,
+      "height": 1163,
+      "alt": "雪莉·沃克为《Never Fear》写作的手稿局部",
+      "kind": "配乐手稿",
+      "group": "制作",
+      "creator": "Shirley Walker",
+      "sources": [
+        {
+          "sourceFile": "BA_pg034.jpg",
+          "cropNormalized": [
+            0,
+            0.53,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1859,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "8c498bc66a06c838c492f96c7a8479e2f2a229184bb2a0312a2cc6632a8ae7c8"
+        }
+      ],
+      "sha256": "0023f6c6d3a73875b046cedb901135596e34cc62535dbb0ae52b193d022f17d0",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t08-sketch",
+      "file": "artbook/tas/t08-sketch.jpg",
+      "width": 1346,
+      "height": 1800,
+      "alt": "保罗·迪尼的哈莉初稿",
+      "kind": "初步角色草图",
+      "group": "角色",
+      "creator": "Paul Dini",
+      "sources": [
+        {
+          "sourceFile": "BA_pg069.jpg",
+          "cropNormalized": [
+            0.445,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            1136,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0992332335fba07010d77e7ad4aa62db6541ce79d2171b8345c93247d00514d7"
+        }
+      ],
+      "sha256": "56cdfc24a14a2d1c9e6d884d6bf5d548200d5492a8391c6bb11c94a85f9897bf",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t08-board",
+      "file": "artbook/tas/t08-board.jpg",
+      "width": 1800,
+      "height": 767,
+      "alt": "哈莉与小丑对戏的表情变化",
+      "kind": "表演分镜",
+      "group": "分镜",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg070.jpg",
+          "cropNormalized": [
+            0,
+            0.69,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2421,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3227607a299b35a2d0a08c3ac5f280e0a3a2616f6916ff00ebea459948dd56b5"
+        }
+      ],
+      "sha256": "90d1d3044f9db95a0b132b90d4b38e8565ca26ae9f5462b3a675108bd7d0e223",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t08-model",
+      "file": "artbook/tas/t08-model.jpg",
+      "width": 1416,
+      "height": 1018,
+      "alt": "哈莉的旋转模型纸",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg071.jpg",
+          "cropNormalized": [
+            0.445,
+            0.4,
+            1,
+            0.69
+          ],
+          "cropPixels": [
+            1136,
+            1403,
+            2552,
+            2421
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "284397d83f1ec855c20ca3d0971b6f1c3e3bd9f948f3d7394cfb1b9a1e55ff65"
+        }
+      ],
+      "sha256": "4d8dbe1f13f09584fec616d192ff9ba328386f12686f0fd22ffa4ca2b3fe3a09",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-batman",
+      "file": "artbook/tas/t09-batman.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS蝙蝠侠动态模型；右：TNBA色彩设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg048.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "baa170282ad574edb5069773e7fe8bd0b5767bde4803baab7341fac9ec19b1f6"
+        },
+        {
+          "sourceFile": "BA_pg139A.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "94e860b805fa91fcd1d57222eeb2a39515538e6f102f5e3e3d72a407429c0964"
+        }
+      ],
+      "sha256": "480287aaeca6ee9b7a3b13652e429c02de011dfc2a16aac8ba4accb869730a2c",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-robin",
+      "file": "artbook/tas/t09-robin.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：迪克·格雷森罗宾；右：蒂姆·德雷克罗宾设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg054.jpg",
+          "cropNormalized": [
+            0.3,
+            0,
+            1,
+            0.65
+          ],
+          "cropPixels": [
+            766,
+            0,
+            2552,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "60c99ef805bc32a424b7b41be8bc91e0e8cdecf78a605c4559d7d2b22a09857b"
+        },
+        {
+          "sourceFile": "BA_pg139B.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.85
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2982
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "55b76654cd266bd0d7039570303e95a5d534b02d7781bdff432d730ea86eae23"
+        }
+      ],
+      "sha256": "a987177adfb70f6150774aab32df184aa5344b2eb1129615f5fc78e369794866",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-catwoman",
+      "file": "artbook/tas/t09-catwoman.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS猫女；右：TNBA猫女设计",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg084.jpg",
+          "cropNormalized": [
+            0.38,
+            0.05,
+            1,
+            0.66
+          ],
+          "cropPixels": [
+            970,
+            175,
+            2552,
+            2315
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "e17af5d13fd20c328ed9536f514b68063f42994bbbbc434e06eb1c486791246b"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0.71,
+            0.02,
+            1,
+            0.54
+          ],
+          "cropPixels": [
+            1812,
+            70,
+            2552,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "ffb2c498d681ea5e7b4ec137e47f851bcb7719aa5dca2c5eba34b839f7cb0e40",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-penguin",
+      "file": "artbook/tas/t09-penguin.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS企鹅人初步模型；右：TNBA企鹅人",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg091.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.59,
+            0.78
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1506,
+            2736
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5f30eb79a45ba266e222739f0860eaf6f524e0bc427e91d67e97350b7e7f5c6e"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.66,
+            0,
+            1,
+            0.51
+          ],
+          "cropPixels": [
+            1684,
+            0,
+            2552,
+            1789
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "1bf9982d555df771bca35c74d52af1ba164e19577dd538032c2a6a35153c7404",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-ivy",
+      "file": "artbook/tas/t09-ivy.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS毒藤女头部研究；右：TNBA色彩模型",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg111.jpg",
+          "cropNormalized": [
+            0.1,
+            0,
+            1,
+            0.55
+          ],
+          "cropPixels": [
+            255,
+            0,
+            2552,
+            1929
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "412666bdb0017667d53ccee7ae4e07ca5797b9d1020293f614c9c0b6c9e78e10"
+        },
+        {
+          "sourceFile": "BA_pg135.jpg",
+          "cropNormalized": [
+            0.25,
+            0.51,
+            0.48,
+            1
+          ],
+          "cropPixels": [
+            638,
+            1789,
+            1225,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9a7b43ffeb2aa216b395b8908b73586cf94cd9b8f5d0d1f83a54f71de2b85e2f"
+        }
+      ],
+      "sha256": "dfb19f93b9bddd9010526dadb6ca798bb53a6c41339583abea7dd0db09a829bf",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-scarecrow",
+      "file": "artbook/tas/t09-scarecrow.jpg",
+      "width": 1800,
+      "height": 1080,
+      "alt": "左：BTAS《Fear of Victory》标题画；右：TNBA稻草人模型",
+      "kind": "BTAS／TNBA设计对照",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg108.jpg",
+          "cropNormalized": [
+            0.18,
+            0.6,
+            1,
+            1
+          ],
+          "cropPixels": [
+            459,
+            2105,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c5636a3c67797968c3514062722f78f0504bb6568483c10dbf63f1beef259343"
+        },
+        {
+          "sourceFile": "BA_pg136.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.37,
+            0.62
+          ],
+          "cropPixels": [
+            0,
+            0,
+            944,
+            2175
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "4d8ec2730f9dae3a3dad5259fe5e78953d3e99f5b20689db323e959a607213da"
+        }
+      ],
+      "sha256": "ee0ec33f43e161a0a4d6dd31042c7b652c9d7d47a0c0decad3b7e5fc62781a33",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t10-posters",
+      "file": "artbook/tas/t10-posters.jpg",
+      "width": 1800,
+      "height": 643,
+      "alt": "《幽灵的面具》的海报探索",
+      "kind": "海报概念稿",
+      "group": "制作",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg119.jpg",
+          "cropNormalized": [
+            0,
+            0.52,
+            1,
+            0.78
+          ],
+          "cropPixels": [
+            0,
+            1824,
+            2552,
+            2736
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ba3780c6863c4e57a5ae2715ae8f1199c8ad61dc1069ca717f5c99f64894cc33"
+        }
+      ],
+      "sha256": "efb6b8e30fa61ebcdb3559f1441f0099534bed15625bf1ecbfbee4bad9c40037",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t10-future",
+      "file": "artbook/tas/t10-future.jpg",
+      "width": 1800,
+      "height": 743,
+      "alt": "世界博览会未来之家的明亮室内",
+      "kind": "背景设计",
+      "group": "环境",
+      "creator": "Rae McCarson / Steve Butz",
+      "sources": [
+        {
+          "sourceFile": "BA_pg120.jpg",
+          "cropNormalized": [
+            0,
+            0.4,
+            1,
+            0.7
+          ],
+          "cropPixels": [
+            0,
+            1403,
+            2552,
+            2456
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f8fa3347433899fe6be985dd3478e1004480047769b16501782df6e26f3a2bfc"
+        }
+      ],
+      "sha256": "252fc152a6e8fcb2c66c69fe6b57abb94e09f1754d88f0e326d974a8014e7382",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t10-ruin",
+      "file": "artbook/tas/t10-ruin.jpg",
+      "width": 1800,
+      "height": 693,
+      "alt": "多年后废弃的未来之家",
+      "kind": "背景设计",
+      "group": "环境",
+      "creator": "Rae McCarson / Steve Butz",
+      "sources": [
+        {
+          "sourceFile": "BA_pg120.jpg",
+          "cropNormalized": [
+            0,
+            0.72,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2526,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f8fa3347433899fe6be985dd3478e1004480047769b16501782df6e26f3a2bfc"
+        }
+      ],
+      "sha256": "51ca4836d119092c0649485bf7da45eed931da80b6e925ad2126a571fc232a10",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t11-cave",
+      "file": "artbook/tas/t11-cave.jpg",
+      "width": 1800,
+      "height": 1114,
+      "alt": "急冻人的北极冰穴与诺拉的容器",
+      "kind": "背景铅笔稿",
+      "group": "环境",
+      "creator": "Ted Blackman",
+      "sources": [
+        {
+          "sourceFile": "BA_pg125.jpg",
+          "cropNormalized": [
+            0,
+            0.53,
+            1,
+            0.98
+          ],
+          "cropPixels": [
+            0,
+            1859,
+            2552,
+            3438
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "50b765a69761f430e46d3c6ab5d876350ee9c0234e4ff7a218db8ef0e5e26a3a"
+        }
+      ],
+      "sha256": "cd5b7cc2a951698b2529797e2ff9c51f32482d7fac5707e151af4895d9bc64ee",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t11-operation",
+      "file": "artbook/tas/t11-operation.jpg",
+      "width": 1800,
+      "height": 1583,
+      "alt": "海上平台手术室",
+      "kind": "背景色稿",
+      "group": "环境",
+      "creator": "Ted Blackman / John Calmette",
+      "sources": [
+        {
+          "sourceFile": "BA_pg126.jpg",
+          "cropNormalized": [
+            0,
+            0.36,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1263,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "69bc2c168752b77a123678b3cdacf2f2766dc3e0443b9346feefeac45323e0c0"
+        }
+      ],
+      "sha256": "c3d5aab1cbd5a24f0b20e7d8ceafbaa75e476dbe9b0ef9dd0a15685d7e3f15ad",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t12-pencils",
+      "file": "artbook/tas/t12-pencils.jpg",
+      "width": 1800,
+      "height": 1485,
+      "alt": "1998年《Harley & Ivy》开发铅笔页",
+      "kind": "漫画开发铅笔稿",
+      "group": "出版",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg074.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.6
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2105
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "d8db2e38b53a5d6029911a50b9cbae6c4bd8686863205b191355096e3f4dc03c"
+        }
+      ],
+      "sha256": "e2421515aa865c9fa0db040205a0a19f1ef8de92badaa50840d39f67960fdf02",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t12-colour",
+      "file": "artbook/tas/t12-colour.jpg",
+      "width": 1800,
+      "height": 1583,
+      "alt": "《Mad Love》的色彩指导稿",
+      "kind": "漫画着色指导",
+      "group": "出版",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg075.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.64
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2245
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "a1b9e33b0238cb47f6b48f9f6c1a1d4aafaa51d1e3fa71a85bef1d3f5a9f6c6d"
+        }
+      ],
+      "sha256": "5a176dfc7b4f92bdb25f2df23a0dd984f10f295bcc7be42afaa2106959d9a596",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-leather",
+      "file": "artbook/tas/ep-leather.jpg",
+      "width": 1800,
+      "height": 742,
+      "alt": "凯文·诺兰的人蝠姿态研究",
+      "kind": "角色研究",
+      "group": "角色",
+      "creator": "Kevin Nowlan",
+      "sources": [
+        {
+          "sourceFile": "BA_pg107.jpg",
+          "cropNormalized": [
+            0.16,
+            0.495,
+            1,
+            0.747
+          ],
+          "cropPixels": [
+            408,
+            1736,
+            2552,
+            2620
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "e96c83ad93f1640bfdf681984535013734f3a83d5f99bf601afa241c959bc358"
+        }
+      ],
+      "sha256": "ccd185b75fb2ec626f66fd13cbc2f4380740eb5b448ee0c965ba73779babf4e1",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-twoface-one",
+      "file": "artbook/tas/ep-twoface-one.jpg",
+      "width": 1800,
+      "height": 1237,
+      "alt": "《Two-Face: Part 1》揭面分镜与修改贴纸",
+      "kind": "分镜与修改稿",
+      "group": "分镜",
+      "creator": "Kevin Altieri",
+      "sources": [
+        {
+          "sourceFile": "BA_pg087.jpg",
+          "cropNormalized": [
+            0,
+            0.5,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1754,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "ccfc8ca7b1059b250bacf73d1254218dfaaf6317cdbd7adc1123bfbb2030887d"
+        }
+      ],
+      "sha256": "ea3c6bcd710a13d7cd1198b21ed94b9602978bd09b3559eceaedbb2cf9756d7c",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-twoface-two",
+      "file": "artbook/tas/ep-twoface-two.jpg",
+      "width": 1572,
+      "height": 1800,
+      "alt": "哈维·丹特双面构图的初步铅笔研究",
+      "kind": "初步角色研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg089.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.78,
+            0.65
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1991,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c62ed996533e08bd7525a86798eec0d3394fc1b374030d45b319371f06aa7db6"
+        }
+      ],
+      "sha256": "ee2d29e346989d8ffe9dc4bbb8ce958ffe6e804be5f50039fbef30fa889d1985",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-fish",
+      "file": "artbook/tas/ep-fish.jpg",
+      "width": 1800,
+      "height": 1138,
+      "alt": "《The Laughing Fish》中小丑逼近受害者的分镜",
+      "kind": "分镜",
+      "group": "分镜",
+      "creator": "Bruce Timm / Ronaldo Del Carmen",
+      "sources": [
+        {
+          "sourceFile": "BA_pg064.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.46
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5c8bc4fe190892d045108225103df81a84982b488f6c431c98577e6a4e225470"
+        }
+      ],
+      "sha256": "b349152d41e523f8428756b08e46db6fd388f061a0bde81d7161818f5a3db578",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-freeze",
+      "file": "artbook/tas/ep-freeze.jpg",
+      "width": 1800,
+      "height": 1114,
+      "alt": "急冻人的机械服与头部模型研究",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg109.jpg",
+          "cropNormalized": [
+            0,
+            0.55,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1929,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7153b8e46bda792626a1f39cff1a6ca8e27a687e2913e54f21a57b24ca88dfe9"
+        }
+      ],
+      "sha256": "622de8ae83b50b014c05d6ba5863ce699c8576d535af4f2049b64fc57a439a0e",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-clay",
+      "file": "artbook/tas/ep-clay.jpg",
+      "width": 1800,
+      "height": 1311,
+      "alt": "泥脸的动作与表情研究",
+      "kind": "动作模型纸",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg096.jpg",
+          "cropNormalized": [
+            0,
+            0.47,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            1649,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b0f11f28a738f089c5e86d87ab94e38cba9206d0505b7bbd30eb4d6b3262f87f"
+        }
+      ],
+      "sha256": "5ffcacc67c17ba5d7b5da7e3bf34f0587a8b5e544c925f6af4bba232317a3560",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-hatter",
+      "file": "artbook/tas/ep-hatter.jpg",
+      "width": 1486,
+      "height": 1105,
+      "alt": "疯帽匠的角色探索",
+      "kind": "角色概念稿",
+      "group": "角色",
+      "creator": "Kevin Nowlan",
+      "sources": [
+        {
+          "sourceFile": "BA_pg108.jpg",
+          "cropNormalized": [
+            0.218,
+            0.16,
+            0.8,
+            0.475
+          ],
+          "cropPixels": [
+            556,
+            561,
+            2042,
+            1666
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c5636a3c67797968c3514062722f78f0504bb6568483c10dbf63f1beef259343"
+        }
+      ],
+      "sha256": "6f108767b177db05108d231688179e47b7e83699296a68235a84455f3f372367",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-legends-sprang",
+      "file": "artbook/tas/ep-legends-sprang.jpg",
+      "width": 1786,
+      "height": 1579,
+      "alt": "蒂姆重释迪克·斯普朗式蝙蝠侠与罗宾",
+      "kind": "剧中风格模型",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg144.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.7,
+            0.45
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1786,
+            1579
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b861c0112b1da2d894c5d377adcc807cfe43db531263c759228970a188a1a6c2"
+        }
+      ],
+      "sha256": "e4309716bb12f2ebeba117fb04c7c54dd9200bd698263b276683f227f25efa8c",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-legends-miller",
+      "file": "artbook/tas/ep-legends-miller.jpg",
+      "width": 1800,
+      "height": 1435,
+      "alt": "米勒式壮硕蝙蝠侠与凯莉·凯利",
+      "kind": "剧中风格模型",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg146.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.58
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            2035
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "2d544274dbb30bcb877e02ee0bd6419978ac83e5195bc6dea37bf893f72d5763"
+        }
+      ],
+      "sha256": "068f93b02788b7ca0c11e90d62b8ae730964d6162285e82d5e626b3a8d202a2f",
+      "spoiler": true,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "ep-creeper",
+      "file": "artbook/tas/ep-creeper.jpg",
+      "width": 1800,
+      "height": 668,
+      "alt": "杰克·莱德与狂笑人的角色设计",
+      "kind": "角色设计",
+      "group": "角色",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg143.jpg",
+          "cropNormalized": [
+            0,
+            0.73,
+            1,
+            1
+          ],
+          "cropPixels": [
+            0,
+            2561,
+            2552,
+            3508
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "9bc2b160ea5d2c18f73d4fb336a68321305cf4559549d36421d8760f7ceb6b19"
+        }
+      ],
+      "sha256": "a79a8f88bcd1399d2fb1a880e32fa9511bb443ce6cdb6be4a4ca43c961ba9a61",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-joker-detail",
+      "file": "artbook/tas/t09-joker-detail.jpg",
+      "width": 1800,
+      "height": 1500,
+      "alt": "TNBA小丑的全身与表情设计",
+      "kind": "模型与表情研究",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg133.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.445,
+            0.79
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1136,
+            2771
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0dd582a4832d9987ce9ea698055b9988a7802fae2f35767abcb0716cbcbb35dd"
+        },
+        {
+          "sourceFile": "BA_pg133.jpg",
+          "cropNormalized": [
+            0.445,
+            0,
+            1,
+            0.64
+          ],
+          "cropPixels": [
+            1136,
+            0,
+            2552,
+            2245
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "0dd582a4832d9987ce9ea698055b9988a7802fae2f35767abcb0716cbcbb35dd"
+        }
+      ],
+      "sha256": "40d8f52668b1f87ba6a208114a305509951b7745ebf394c66a6e939489f16bf6",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-nightwing",
+      "file": "artbook/tas/t09-nightwing.jpg",
+      "width": 1800,
+      "height": 1138,
+      "alt": "夜翼的转身模型",
+      "kind": "模型纸",
+      "group": "角色",
+      "creator": "Glen Murakami",
+      "sources": [
+        {
+          "sourceFile": "BA_pg131.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.46
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            1614
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "49c88c7ac237cc2d7d6cc4a5256463d3cb2b27a011b1a7767d6393ea6dd375ab"
+        }
+      ],
+      "sha256": "a905b09649cc4ec7ca189c035ec2096f8cb6e2eaa7c95c2bbe5713849004f290",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "t09-batgirl-detail",
+      "file": "artbook/tas/t09-batgirl-detail.jpg",
+      "width": 664,
+      "height": 1754,
+      "alt": "TNBA蝙蝠女的黑色服装造型",
+      "kind": "角色设计",
+      "group": "角色",
+      "creator": "Bruce Timm",
+      "sources": [
+        {
+          "sourceFile": "BA_pg140.jpg",
+          "cropNormalized": [
+            0.47,
+            0,
+            0.73,
+            0.5
+          ],
+          "cropPixels": [
+            1199,
+            0,
+            1863,
+            1754
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "75e6c696e185c7d473f6e4c2c329269e873cff9b480d7e7969120acec226cc57"
+        }
+      ],
+      "sha256": "f57f37e1b794aa4fc4f8c4855cc577cc7b7ce65dbeb641b70a008c14e7a23047",
+      "spoiler": false,
+      "book": "animated-1998"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-1",
+      "file": "artbook/tas/portrait-role-1.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "蝙蝠侠 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg047.jpg",
+          "cropNormalized": [
+            0.05,
+            0.03,
+            0.65,
+            0.49
+          ],
+          "cropPixels": [
+            128,
+            105,
+            1659,
+            1719
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "fac642662fe99e28b0aa7e7647184d92de9ef91d74c2eb1018e65b69bd1cc995"
+        }
+      ],
+      "sha256": "93ee13dba4467a82cb844637d499e7a571e438dbd81ff1bf79eaf48a253366a8",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-1",
+      "thumbnail": "artbook/tas/portrait-role-1-small.jpg",
+      "thumbnailSHA256": "1f3ab0210227688633cf04a6096f286b2b8dead23ffad80ce9a5a445bc059c4b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-2",
+      "file": "artbook/tas/portrait-role-2.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "阿尔弗雷德 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg057.jpg",
+          "cropNormalized": [
+            0.69,
+            0.575,
+            0.86,
+            0.75
+          ],
+          "cropPixels": [
+            1761,
+            2017,
+            2195,
+            2631
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "764e507a9f38b41918b5909529b625952d3b264cf027341a02590da6877ad78e"
+        }
+      ],
+      "sha256": "ca40bfbbd62e30272ba24339c0330a3bacb12d019446b9b3bf570380f95bac4b",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-2",
+      "thumbnail": "artbook/tas/portrait-role-2-small.jpg",
+      "thumbnailSHA256": "6a5ecdca5dc09828a88c2e9ea716f8f6fcfc28d0ff3b5aebbb15fdefe5409df1",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-3",
+      "file": "artbook/tas/portrait-role-3.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "戈登 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg079.jpg",
+          "cropNormalized": [
+            0.41,
+            0.12,
+            0.62,
+            0.35
+          ],
+          "cropPixels": [
+            1046,
+            421,
+            1582,
+            1228
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b8114f000cd536f72298287282e61768210957b77e96545ef5c90be9adcc7335"
+        }
+      ],
+      "sha256": "b53bc4b160c543863953dffa0215384a27ff2e8b19ac6fb94bc5ff309c274bd7",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-3",
+      "thumbnail": "artbook/tas/portrait-role-3-small.jpg",
+      "thumbnailSHA256": "6a8438d8b48808d441b9f03ea47703d7e5bba9704406be6b8028577bcb93be33",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-4",
+      "file": "artbook/tas/portrait-role-4.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "迪克·格雷森／罗宾 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg055.jpg",
+          "cropNormalized": [
+            0.46,
+            0.16,
+            0.75,
+            0.42
+          ],
+          "cropPixels": [
+            1174,
+            561,
+            1914,
+            1473
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7ebff42195afb24c25cbf790b7e9ad2254ae9de6df610f723c6e3850ae4bf848"
+        }
+      ],
+      "sha256": "d9dc22a76a56c8c199cbd4e8ff91e3c247b9f2fa684426f6a2884a1a117a6c22",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-4",
+      "thumbnail": "artbook/tas/portrait-role-4-small.jpg",
+      "thumbnailSHA256": "7ec511d04d7ce8b24cebf2f12f6ecfab5f1011e2420edeb1fa25d37e8796968a",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-5",
+      "file": "artbook/tas/portrait-role-5.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "布洛克 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg079.jpg",
+          "cropNormalized": [
+            0.45,
+            0.59,
+            0.81,
+            0.94
+          ],
+          "cropPixels": [
+            1148,
+            2070,
+            2067,
+            3298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "b8114f000cd536f72298287282e61768210957b77e96545ef5c90be9adcc7335"
+        }
+      ],
+      "sha256": "ece9d2e9b958af2ce3d2f193f8ed286c415f21b4f9bc9258d0d6d9f188a978a3",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-5",
+      "thumbnail": "artbook/tas/portrait-role-5-small.jpg",
+      "thumbnailSHA256": "b323379d459932c0445a4bd173065582f052074810adf216900c4dbdfc2ef0ff",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-6",
+      "file": "artbook/tas/portrait-role-6.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "小丑 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg065.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            0.46,
+            0.435
+          ],
+          "cropPixels": [
+            0,
+            0,
+            1174,
+            1526
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "369a8fb8e92f3e29b6e8ab4ec2d6e39b07703cb3e928aef4f41ab8357f7d7551"
+        }
+      ],
+      "sha256": "f8d16a476acbff7a73ace362481d9cb52304dce5068546609da6a02c9466b7ed",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-6",
+      "thumbnail": "artbook/tas/portrait-role-6-small.jpg",
+      "thumbnailSHA256": "e516153aea9174ad01eb99bab57552996b2d4d1beb4a4d572e1ff71e219ce13b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-7",
+      "file": "artbook/tas/portrait-role-7.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "哈维·丹特／双面人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg089.jpg",
+          "cropNormalized": [
+            0.02,
+            0,
+            0.62,
+            0.51
+          ],
+          "cropPixels": [
+            51,
+            0,
+            1582,
+            1789
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "c62ed996533e08bd7525a86798eec0d3394fc1b374030d45b319371f06aa7db6"
+        }
+      ],
+      "sha256": "37496db46d90f2eb453d2f811ffea1526fc850b6f18920cce5372462ae8e3cac",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-7",
+      "thumbnail": "artbook/tas/portrait-role-7-small.jpg",
+      "thumbnailSHA256": "dc0dd53eb87c71be21c0d553d4a6a5b221fe83c6b002d4616dfda1de062967db",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-8",
+      "file": "artbook/tas/portrait-role-8.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "猫女 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg081.jpg",
+          "cropNormalized": [
+            0,
+            0,
+            1,
+            0.94
+          ],
+          "cropPixels": [
+            0,
+            0,
+            2552,
+            3298
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "624dbabeda41ac1ab2c8a65d8a5c222765328aa3aa60a50b089d299c6f038f66"
+        }
+      ],
+      "sha256": "7f456833a07aa1ac8af02c90494db4c2db754caf988f5af76df387c125a4d4cb",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-8",
+      "thumbnail": "artbook/tas/portrait-role-8-small.jpg",
+      "thumbnailSHA256": "c2c5811a0f9078a0e90e7fe5f7f2b395e04712eec0864f834e16a11a218f93fb",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-9",
+      "file": "artbook/tas/portrait-role-9.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "哈莉 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg070.jpg",
+          "cropNormalized": [
+            0.35,
+            0,
+            1,
+            0.65
+          ],
+          "cropPixels": [
+            893,
+            0,
+            2552,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "3227607a299b35a2d0a08c3ac5f280e0a3a2616f6916ff00ebea459948dd56b5"
+        }
+      ],
+      "sha256": "8914b69235eb15c6faadc46d8f8d133f12d5f6c5cb73e7552e38d3b582ebc11d",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-9",
+      "thumbnail": "artbook/tas/portrait-role-9-small.jpg",
+      "thumbnailSHA256": "d7a863c0d9937d5af3f41f47327cdc6c7e8528d525d5f96814a360317016c36b",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-10",
+      "file": "artbook/tas/portrait-role-10.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "企鹅人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg091.jpg",
+          "cropNormalized": [
+            0.1,
+            0.01,
+            0.53,
+            0.54
+          ],
+          "cropPixels": [
+            255,
+            35,
+            1353,
+            1894
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "5f30eb79a45ba266e222739f0860eaf6f524e0bc427e91d67e97350b7e7f5c6e"
+        }
+      ],
+      "sha256": "c0787c49296d411d6532a13791b98b17e34989183b744b790ed4838fb0c159cc",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-10",
+      "thumbnail": "artbook/tas/portrait-role-10-small.jpg",
+      "thumbnailSHA256": "4e79a6c0c2c994e8714b5f94c1f7f56e3d90ef14887409d912f5b966d96d5d70",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-11",
+      "file": "artbook/tas/portrait-role-11.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "芭芭拉／蝙蝠女 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg056.jpg",
+          "cropNormalized": [
+            0.42,
+            0.08,
+            0.67,
+            0.34
+          ],
+          "cropPixels": [
+            1072,
+            281,
+            1710,
+            1193
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "df00275407161b0ede7cc385c87ac3f89c0448468a940f7dd581f682785ff7a4"
+        }
+      ],
+      "sha256": "2ee7bfc05244623844da3d4bcdac47890b13ae405686c184aff6b6d942f5be6e",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-11",
+      "thumbnail": "artbook/tas/portrait-role-11-small.jpg",
+      "thumbnailSHA256": "1f245cb1e3bf34df5c03cd169811bc18a3c81f237a5a4a073f231d8d13d307ee",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-12",
+      "file": "artbook/tas/portrait-role-12.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "泥脸 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg095.jpg",
+          "cropNormalized": [
+            0.4,
+            0.01,
+            0.72,
+            0.23
+          ],
+          "cropPixels": [
+            1021,
+            35,
+            1837,
+            807
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "11a4d1494c612675fea5428678e48f22c8f3bdae2fe3dc5d96d55dbfb79e894d"
+        }
+      ],
+      "sha256": "73e0868301028104540fdabf3d29769062eeb9af6c86dd42ce8a67412923a428",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-12",
+      "thumbnail": "artbook/tas/portrait-role-12-small.jpg",
+      "thumbnailSHA256": "262b69316e7b9c8b3fcb4da6f192437e6e71828db260f75fdc99ae8099da8d3c",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-13",
+      "file": "artbook/tas/portrait-role-13.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "急冻人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg109.jpg",
+          "cropNormalized": [
+            0.19,
+            0.495,
+            0.4,
+            0.65
+          ],
+          "cropPixels": [
+            485,
+            1736,
+            1021,
+            2280
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "7153b8e46bda792626a1f39cff1a6ca8e27a687e2913e54f21a57b24ca88dfe9"
+        }
+      ],
+      "sha256": "741e7fcc5eb79b840c9d98c9a39168d96a094e4492a934ba618f47d91f70e90e",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-13",
+      "thumbnail": "artbook/tas/portrait-role-13-small.jpg",
+      "thumbnailSHA256": "edcba66cdf818e56f226a02092904d840e7eabe473ce5ffbf1658dfc12a73cdc",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-14",
+      "file": "artbook/tas/portrait-role-14.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "拉斯·奥·古 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg097.jpg",
+          "cropNormalized": [
+            0.4,
+            0.22,
+            0.99,
+            0.8
+          ],
+          "cropPixels": [
+            1021,
+            772,
+            2526,
+            2806
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "bbf48e78508f016a2271126295f3366a1b11c155f2b05069df5aaf04e7de7b97"
+        }
+      ],
+      "sha256": "7ec76205a4f4c344355982eef050083aeba5fa5fe2671bc092633a238691bc15",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-14",
+      "thumbnail": "artbook/tas/portrait-role-14-small.jpg",
+      "thumbnailSHA256": "78887983d35371d2e0017b9258f3fecc8da92ac1f8a11442c18e0687e8be5468",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    },
+    {
+      "site": "tas",
+      "id": "portrait-role-15",
+      "file": "artbook/tas/portrait-role-15.jpg",
+      "width": 480,
+      "height": 480,
+      "alt": "谜语人 · BTAS角色设计",
+      "kind": "BTAS角色头像",
+      "group": "头像",
+      "creator": "",
+      "sources": [
+        {
+          "sourceFile": "BA_pg105.jpg",
+          "cropNormalized": [
+            0.4,
+            0.593,
+            0.6,
+            0.738
+          ],
+          "cropPixels": [
+            1021,
+            2080,
+            1531,
+            2589
+          ],
+          "sourceSize": [
+            2552,
+            3508
+          ],
+          "sourceSHA256": "f820aa04c41cffa54ff9d8b024b378f55e4f7893b8b37667048b619b481ac3bb"
+        }
+      ],
+      "sha256": "82530242382b09161163b8dc9568ea3fda9bc402ce92a6d784c54e88c25b543f",
+      "spoiler": false,
+      "book": "animated-1998",
+      "portraitRole": "role-15",
+      "thumbnail": "artbook/tas/portrait-role-15-small.jpg",
+      "thumbnailSHA256": "bdd18d582869a7d0023d71dc546e055306c2ff825717395cfb9a167bf3fe2994",
+      "transform": "crop source rectangle, resize to fit 480x480, pad with neutral paper colour; thumbnail 120x120"
+    }
+  ]
+}

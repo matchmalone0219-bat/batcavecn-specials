@@ -43,7 +43,7 @@ def build(data=None):
         path.write_text(body)
     (DIST / "assets").mkdir(exist_ok=True)
     copy_asset(ROOT / 'conroy-profile.css', DIST / 'assets/conroy-profile.css')
-    for filename in ("style.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
+    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/media").mkdir(exist_ok=True)
     media = json.loads((ROOT / "media.json").read_text())
@@ -52,6 +52,7 @@ def build(data=None):
     for asset in media["assets"]:
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
     for asset in research_images:
+        (DIST / "assets/media" / asset["file"]).parent.mkdir(parents=True, exist_ok=True)
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
     (DIST / 'assets/media/recording-portraits').mkdir(exist_ok=True)
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:

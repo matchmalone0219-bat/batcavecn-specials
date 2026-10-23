@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "command": "python3 verify.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 verify-artbooks.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 verify-conroy.py",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 verify-build.py",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-intro.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-arkham-nav.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-arkham-menu.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-investigation.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-tas-motion.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node verify-lightbox.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node --check app.js",
+      "exitCode": 0
+    },
+    {
+      "command": "node --check tas-lightbox.js",
+      "exitCode": 0
+    },
+    {
+      "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+      "exitCode": 0
+    }
+  ],
+  "generatedFilesCompared": {
+    "dist": 971,
+    "pages-dist": 972
+  },
+  "status": "pass"
+}

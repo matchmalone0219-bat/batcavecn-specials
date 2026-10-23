@@ -7,6 +7,7 @@ from site_layout import shell
 from arkham_ui import arkham_screen
 from tas_pages import production_preview
 from tas_deco import film_strip
+from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation
 
 
 def home(data, site):
@@ -24,7 +25,7 @@ def home(data, site):
             href = f' href="{route(item)}"' if tag == "a" else ""
             body += f'<{tag}{href} class="programme-row"><span class="programme-number">0{index + 1}</span><div class="programme-title"><p>{esc(item["original"])}</p><h3>{esc(item["title"])}</h3><span>{esc(item["nameNote"])}</span></div><div class="programme-description"><p>{esc(item["summary"])}</p><span>{"分集导读" if tag == "a" else "分集条目"}</span></div></{tag}>'
         body += '<p class="programme-footnote">按本期放映次序浏览精选篇目。<br>BTAS85条与TNBA24条基础目录分别编目；动画电影另列。</p></section>'
-        body += '<section class="section cinema-folio"><div class="programme-heading"><h2>翻开制作图册</h2><p>MODEL / STORYBOARD</p></div><p class="folio-intro">珍贵制作原案扫描：展示角色正侧面模型设定稿与实验室经典分镜线稿。</p>' + production_preview() + '</section>'
+        body += '<section class="section cinema-folio"><div class="programme-heading"><h2>翻开制作图册</h2><p>MODEL / STORYBOARD</p></div><p class="folio-intro">角色的动作与表情，片头的剪影与格斗。</p>' + production_preview() + '</section>'
         modern = data["capedCrusader"]
         body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
         body += f'<section class="section"><a href="/tas/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 动画人物档案</span></div></a></section>'
@@ -63,7 +64,8 @@ def detail(data, item):
         body += f'<div class="episode-ticket" role="group" aria-label="放映信息"><div class="ticket-main"><p class="ticket-kicker">放映单 · {esc(item["series"])}</p><p class="ticket-date">{esc(item["airDate"])}<span>首播</span></p><dl class="ticket-credits">{credits}</dl>{voice_line}</div><div class="ticket-stub"><span>No.</span><strong>{esc(item["guideNumber"])}</strong><span>{esc(item["airDate"][:4])}</span></div></div><div class="ticket-more">{full}</div>'
     else:
         body += f'<div class="facts-summary">{summary}{full}</div>'
-    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '</nav>'
+    target = route(item)
+    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + artbook_navigation(target) + '</nav>'
     body += '<div class="reading">'
     strip = film_strip(item["id"]) if site == "tas" else ""
     for index, section in enumerate(item["sections"]):
@@ -73,6 +75,7 @@ def detail(data, item):
         body += f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}</section>'
         if index == 0 and strip:
             body += strip
+    body += artbook_chapters(target)
     if item.get("related"):
         linked = [e for e in data["episodes"] + data["tnbaEpisodes"] if e["id"] in item["related"]]
         cards = {a["item"]: a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a.get("role") == "title-card"}

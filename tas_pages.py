@@ -3,6 +3,7 @@ import html
 import json
 from pathlib import Path
 from render_common import paragraphs
+from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation, role_visual, production_preview as artbook_preview
 
 ROOT = Path(__file__).resolve().parent
 SECTIONS = [
@@ -25,14 +26,7 @@ def load():
 
 
 def production_preview():
-    packet = json.loads((ROOT / 'tas-production-research.json').read_text())
-    images = {i['id']: i for i in packet['images']}
-    materials = {i['id']: i for i in packet['materials']}
-    cards = []
-    for number, (material_id, image_id) in enumerate((('batman-model', 'image-5'), ('leather-board', 'image-6')), 1):
-        item, image = materials[material_id], images[image_id]
-        cards.append(f'<a class="folio-card" href="/tas/archive/production/#{material_id}"><div class="folio-mount"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></div><div class="folio-caption"><span class="label">0{number} / {esc(image["kind"])}</span><h3>{esc(item["title"])}</h3></div></a>')
-    return '<nav class="folio-index" aria-label="制作图册选页">' + ''.join(cards) + '</nav>'
+    return artbook_preview()
 
 
 # Each archive room is a numbered screening hall on the lobby directory.
@@ -84,7 +78,10 @@ def build_archive(data, shell):
         nav='<nav class="archive-nav" aria-label="档案馆分类">'+''.join(f'<a href="/tas/archive/{s}/" {"aria-current=page" if s==slug else ""}>{t}</a>' for s,t,_ in SECTIONS)+'</nav>'
         heading=esc(title).replace('幕后光影：Dark Deco 动画档案', '幕后光影：<br class="archive-title-break">Dark Deco 动画档案')
         breadcrumb = '<a class="breadcrumb" href="/tas/archive/">← TAS档案馆</a>' if slug else ''
-        body=f'<section class="section archive-room">{breadcrumb}<div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{content}</section>'
+        artbook_toc = artbook_navigation(base)
+        if artbook_toc:
+            nav += '<nav class="chapter-nav" aria-label="设计与制作章节">' + artbook_toc + '</nav>'
+        body=f'<section class="section archive-room">{breadcrumb}<div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{artbook_chapters(base)}{content}</section>'
         pages[base.strip('/')+'/index.html']=shell(data,'tas',title,body,'archive')
         records.append(dict(title=title,original='Dark Deco / Archive',summary=intro,tags=['资料站','档案馆'],site='tas',status='专题档案',url=base))
 
@@ -101,10 +98,11 @@ def build_archive(data, shell):
 
     base='/tas/archive/voices/'
     names={'Batman':'蝙蝠侠','Alfred':'阿尔弗雷德','Commissioner Gordon':'戈登警长','Robin':'罗宾','Harvey Bullock':'哈维·布洛克','Joker':'小丑','Harvey Dent':'哈维·丹特','Catwoman':'猫女','Harley Quinn':'哈莉·奎茵','Penguin':'企鹅人','Barbara Gordon':'芭芭拉·戈登','Clayface':'泥脸','Dr. Victor Fries':'维克托·弗里斯博士','Ra’s al Ghul':'拉斯·奥·古','Edward Nygma':'爱德华·尼格玛'}
-    content='<div class="archive-reading"><p>本名册依据华纳兄弟家庭娱乐全集蓝光官方公告载录。罗宾与芭芭拉·戈登的声优按制作季别分别考证。</p><div class="voice-register">'
+    content='<div class="archive-reading"><p>蝙蝠侠、盟友与反派的英语声音。罗宾与芭芭拉·戈登的演员按制作季别区分。</p><div class="voice-register">'
     for r in second['roles']:
         title=names.get(r['characterAsListed'],r['characterAsListed']); actor=r['englishActorAsListed']
-        content+=f'<article id="{r["id"]}"><div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p></div><strong>{esc(actor)}</strong></article>'
+        portrait, note = role_visual(r["id"])
+        content+=f'<article class="artbook-role" id="{r["id"]}">{portrait}<div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p><strong>{esc(actor)}</strong>{note}</div></article>'
         records.append(dict(title=title+' · '+actor,original=r['characterAsListed'],summary='BTAS英语版角色配音；华纳合辑公告列名。',tags=['配音','声音',actor],site='tas',status='角色声音',url=base+'#'+r['id']))
     content+='</div>'+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
     page('voices','角色与声音','十五组核心角色英语原版声优名册，重温现场群录的黄金时代。',content)

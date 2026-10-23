@@ -105,7 +105,8 @@ def build_arkham_archive(data,shell):
     base='/arkham/archive/riddler/';content='<div class="dossier-reading"><h2>绿色问号背后的犯罪痕迹</h2><p>二十组现场谜题与嫌犯物证，解构谜语人机关背后的犯罪动机与经典漫画原型。</p>'+challenge+'<nav class="dossier-case-nav" aria-label="考据选题">'
     for c in riddler['cases']:
         id='identity-wall' if c['id']=='jason' else c['id'];content+=f'<a href="#{id}">{esc(c["title"])}</a>'
-    content+='</nav>'
+    from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation
+    content+=artbook_navigation(base)+'</nav>'+artbook_chapters(base)
     for c in riddler['cases']:
         id='identity-wall' if c['id']=='jason' else c['id']
         clue_links=' · '.join(f'<a href="/arkham/archive/clues/#{e}">{esc(entries[e].get("object", "勒索档案组"))} / {GAMES[entries[e]["game"]]}</a>' for e in c['entries'])
@@ -146,6 +147,8 @@ def build_arkham_archive(data,shell):
             count=f' · 攻略列包数 {e["packCountInGuide"]}' if e.get('packCountInGuide') else ''
             conflict = f'<p class="fine">{esc(e["conflict"])}</p>' if e.get('conflict') else ''
             linked=''.join(f'<div class="clue-case"><p class="label">关联考据</p><h4><a href="/arkham/archive/riddler/#{"identity-wall" if c["id"]=="jason" else c["id"]}">{esc(c["title"])}</a></h4>'+(f'<p>{esc(c["conclusion"])}</p>' if c['id']!='jason' else '<p>身份相关内容见考据页的剧透折叠。</p>')+(picture(c['images'][0]) if c['images'] and c['id']!='jason' else '')+'</div>' for c in cases_by_entry.get(e['id'],[]))
+            if e['id'] == 'city-steel-mill-06':
+                linked += '<a class="route-card" href="/arkham/games/arkham-city/#artbook-a05">旧哥谭的建筑、招贴与物件叙事</a>'
             content+=f'<article id="{e["id"]}" data-browse-item data-target="{e["id"]}"><p class="label">{esc(e["type"])}{count}</p><h3>{esc(title)}</h3><div class="clue-detail" data-detail><p class="clue-meta"><i data-arkham-icon="games"></i>{GAMES[game]} · <i data-arkham-icon="district"></i>{esc(region)}</p>{conflict}{linked}</div></article>'
             record(title,f'{GAMES[game]} · {region} · {e["type"]}',base,e['id'],[GAMES[game],region,e['type']])
         content+='</div></section>'
@@ -196,6 +199,8 @@ def build_arkham_archive(data,shell):
 
     base='/arkham/archive/rocksteady/'
     content='<div class="dossier-reading"><nav class="dossier-case-nav" aria-label="创作变迁章节">'+''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in creative['sections'])+'</nav>'
+    content = content.replace('</nav>', artbook_navigation(base) + '</nav>', 1)
+    content += artbook_chapters(base)
     for s in creative['sections']:
         content+=f'<article class="dossier-entry" id="{esc(s["id"])}"><p class="label">{esc(s["label"])}</p><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</article>'
         record(s['title'],s['body'].split('\n')[0],base,s['id'],['Rocksteady','创作变迁',s['label']],status='创作档案')

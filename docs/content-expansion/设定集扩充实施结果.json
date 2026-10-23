@@ -1,0 +1,584 @@
+{
+  "date": "2026-10-23",
+  "status": "completed-local-not-published",
+  "baseline": "bbd39a1d4fcb2a0882c46cb68f9f10119f32b1e8",
+  "pages": 160,
+  "searchRecords": 553,
+  "newSearchRecords": 32,
+  "bodyCharacters": 15296,
+  "chineseCharacters": 12530,
+  "coverage": {
+    "chapters": 20,
+    "episodeAdditions": 12,
+    "rolePortraits": 15,
+    "plannedMainImageSelections": 59,
+    "additionalTNBADesignImages": 3,
+    "episodeSpecificImages": 10,
+    "largeImages": 72,
+    "portraitFiles": 15,
+    "thumbnailFiles": 15,
+    "totalImageFiles": 102,
+    "status": "local-only",
+    "report": "ARTBOOK-HANDOFF-2026-10-23.md"
+  },
+  "assets": {
+    "imageFiles": 102,
+    "sourceHashes": "pass",
+    "dimensions": "pass",
+    "httpBytes": "pass",
+    "totalBytes": 43324723
+  },
+  "preservation": {
+    "changedPages": [
+      "arkham/sources/index.html",
+      "arkham/gallery/index.html",
+      "arkham/games/arkham-asylum/index.html",
+      "arkham/games/arkham-city/index.html",
+      "arkham/games/arkham-knight/index.html",
+      "tas/index.html",
+      "tas/sources/index.html",
+      "tas/gallery/index.html",
+      "tas/episodes/on-leather-wings/index.html",
+      "tas/episodes/two-face-part-1/index.html",
+      "tas/episodes/heart-of-ice/index.html",
+      "tas/episodes/two-face-part-2/index.html",
+      "tas/episodes/feat-of-clay-part-2/index.html",
+      "tas/episodes/joker-s-favor/index.html",
+      "tas/episodes/mad-as-a-hatter/index.html",
+      "tas/episodes/the-laughing-fish/index.html",
+      "tas/episodes/read-my-lips/index.html",
+      "tas/episodes/tnba-over-the-edge/index.html",
+      "tas/episodes/tnba-legends-of-the-dark-knight/index.html",
+      "tas/episodes/tnba-beware-the-creeper/index.html",
+      "tas/archive/production/index.html",
+      "tas/archive/voices/index.html",
+      "tas/archive/films/subzero/index.html",
+      "tas/archive/films/mask-of-the-phantasm/index.html",
+      "tas/archive/publications/index.html",
+      "tas/archive/music/index.html",
+      "tas/archive/history/index.html",
+      "arkham/archive/clues/index.html",
+      "arkham/archive/rocksteady/index.html"
+    ],
+    "changedPageCount": 29,
+    "unchangedPages": 131,
+    "protectedFilesCompared": 163,
+    "baseline": "bbd39a1d4fcb2a0882c46cb68f9f10119f32b1e8"
+  },
+  "browser": {
+    "views": [
+      {
+        "route": "/arkham/archive/rocksteady/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/games/arkham-asylum/",
+        "brokenVisibleImages": [],
+        "chapters": 3,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/games/arkham-city/",
+        "brokenVisibleImages": [],
+        "chapters": 2,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/games/arkham-knight/",
+        "brokenVisibleImages": [],
+        "chapters": 2,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/history/",
+        "brokenVisibleImages": [],
+        "chapters": 3,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/production/",
+        "brokenVisibleImages": [],
+        "chapters": 4,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/voices/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/music/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/publications/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/films/mask-of-the-phantasm/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/archive/films/subzero/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/on-leather-wings/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/two-face-part-1/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/two-face-part-2/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/joker-s-favor/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/the-laughing-fish/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/heart-of-ice/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/feat-of-clay-part-2/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/mad-as-a-hatter/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/read-my-lips/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/tnba-legends-of-the-dark-knight/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/tnba-over-the-edge/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/episodes/tnba-beware-the-creeper/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/gallery/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/gallery/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/sources/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/sources/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/tas/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 1440
+      },
+      {
+        "route": "/arkham/archive/rocksteady/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/arkham/games/arkham-asylum/",
+        "brokenVisibleImages": [],
+        "chapters": 3,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/arkham/games/arkham-city/",
+        "brokenVisibleImages": [],
+        "chapters": 2,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/arkham/games/arkham-knight/",
+        "brokenVisibleImages": [],
+        "chapters": 2,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/history/",
+        "brokenVisibleImages": [],
+        "chapters": 3,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/production/",
+        "brokenVisibleImages": [],
+        "chapters": 4,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/voices/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/music/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/publications/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/films/mask-of-the-phantasm/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/archive/films/subzero/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/on-leather-wings/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/two-face-part-1/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/two-face-part-2/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/joker-s-favor/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/the-laughing-fish/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/heart-of-ice/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/feat-of-clay-part-2/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/mad-as-a-hatter/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/read-my-lips/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/tnba-legends-of-the-dark-knight/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/tnba-over-the-edge/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/episodes/tnba-beware-the-creeper/",
+        "brokenVisibleImages": [],
+        "chapters": 1,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/arkham/gallery/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/gallery/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/arkham/sources/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/sources/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "route": "/tas/",
+        "brokenVisibleImages": [],
+        "chapters": 0,
+        "overflow": false,
+        "width": 390
+      }
+    ],
+    "lightbox": {
+      "closed": [
+        "http://127.0.0.1:8765/assets/media/artbook/tas/t10-posters.jpg",
+        "http://127.0.0.1:8765/assets/media/artbook/tas/t10-future.jpg",
+        "http://127.0.0.1:8765/assets/media/tas-production-phantasm-4k-front.jpg",
+        "http://127.0.0.1:8765/assets/media/tas-production-phantasm-4k-back.jpg"
+      ],
+      "opened": {
+        "caption": "03 / 05\n原图 ↗",
+        "count": "03 / 05",
+        "original": "http://127.0.0.1:8765/assets/media/artbook/tas/t10-ruin.jpg"
+      }
+    },
+    "patientRoot": [
+      {
+        "current": 0.170667,
+        "paused": false,
+        "ready": 4,
+        "source": "http://127.0.0.1:8765/assets/audio/patient-joker-01.m4a"
+      }
+    ],
+    "transmissions": [
+      [
+        {
+          "paused": false,
+          "ready": 4,
+          "source": "http://127.0.0.1:8765/assets/audio/transmission-joker-01.m4a"
+        }
+      ],
+      [
+        {
+          "current": 0.234667,
+          "paused": true
+        }
+      ],
+      [
+        {
+          "paused": false,
+          "ready": 4,
+          "source": "http://127.0.0.1:8766/batcavecn-specials/assets/audio/transmission-joker-01.m4a"
+        }
+      ]
+    ],
+    "notes": "In-app browser; viewport 1440x900 and 390x844. Visible-image checks are separate from full static media hash and HTTP checks."
+  },
+  "checks": [
+    "verify.py",
+    "verify-artbooks.py",
+    "verify-conroy.py",
+    "verify-build.py (4 tests)",
+    "verify-intro.js",
+    "verify-arkham-nav.js",
+    "verify-arkham-menu.js",
+    "verify-investigation.js",
+    "verify-tas-motion.js",
+    "verify-lightbox.js",
+    "node --check app.js",
+    "node --check tas-lightbox.js",
+    "prepare_pages.py --base-path /batcavecn-specials"
+  ],
+  "releaseCopyValidation": {
+    "checks": [
+      {
+        "command": "python3 verify.py",
+        "exitCode": 0
+      },
+      {
+        "command": "python3 verify-artbooks.py",
+        "exitCode": 0
+      },
+      {
+        "command": "python3 verify-conroy.py",
+        "exitCode": 0
+      },
+      {
+        "command": "python3 verify-build.py",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-intro.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-arkham-nav.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-arkham-menu.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-investigation.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-tas-motion.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node verify-lightbox.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node --check app.js",
+        "exitCode": 0
+      },
+      {
+        "command": "node --check tas-lightbox.js",
+        "exitCode": 0
+      },
+      {
+        "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+        "exitCode": 0
+      }
+    ],
+    "generatedFilesCompared": {
+      "dist": 971,
+      "pages-dist": 972
+    },
+    "status": "pass"
+  }
+}
