@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-23",
+  "contentCommit": "4d83512b6b5e7c126972e8835e497a2fc7f20c28",
+  "workflowRun": 39956187765,
+  "workflowURL": "https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/39956187765",
+  "build": "success",
+  "deploy": "success",
+  "liveURL": "https://matchmalone0219-bat.github.io/batcavecn-specials/tas/archive/production/#opening-edit",
+  "liveChecks": [
+    {
+      "path": "/tas/archive/production/",
+      "status": 200,
+      "openingTable": true
+    },
+    {
+      "path": "/assets/tas-opening.js",
+      "status": 200,
+      "sha256": "d5bfe8fb4f72033723d640f98fc8e8404c3f78872132c3780042fd121f100afb"
+    },
+    {
+      "path": "/assets/tas-opening.css",
+      "status": 200,
+      "sha256": "c0d62c622ac9e7552fea6e26427d539f197134144b95ff84283535279c7ae992"
+    },
+    {
+      "path": "/assets/media/opening/poster.jpg",
+      "status": 200,
+      "sha256": "95735e0d0de389ad66e4e7e2eac1a6e69f73aeb88f6312691983831fc0c55c77"
+    },
+    {
+      "path": "/content/search.json",
+      "status": 200,
+      "records": 578
+    },
+    {
+      "path": "/assets/media/opening/tas-opening.mp4",
+      "status": 200,
+      "contentType": "video/mp4",
+      "bytes": 14784834
+    }
+  ]
+}

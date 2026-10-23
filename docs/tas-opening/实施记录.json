@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "status": "approved-for-publication",
+  "status": "completed-published",
   "target": "/tas/archive/production/#opening-edit",
   "design": {
     "mode": "preserve",
@@ -112,7 +112,14 @@
       "dist": 1038,
       "pages-dist": 1039
     },
-    "git": "uncommitted; not pushed"
+    "git": "published to main"
   },
-  "githubAuthorization": "可以了，推上GitHub"
+  "githubAuthorization": "可以了，推上GitHub",
+  "publication": {
+    "contentCommit": "4d83512b6b5e7c126972e8835e497a2fc7f20c28",
+    "workflowRun": 39956187765,
+    "build": "success",
+    "deploy": "success",
+    "receipt": "发布记录.json"
+  }
 }
