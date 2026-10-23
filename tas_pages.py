@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from render_common import paragraphs
 from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation, role_visual, production_preview as artbook_preview
+from tas_opening import render as opening_table, search_record as opening_record
 
 ROOT = Path(__file__).resolve().parent
 SECTIONS = [
@@ -79,9 +80,11 @@ def build_archive(data, shell):
         heading=esc(title).replace('幕后光影：Dark Deco 动画档案', '幕后光影：<br class="archive-title-break">Dark Deco 动画档案')
         breadcrumb = '<a class="breadcrumb" href="/tas/archive/">← TAS档案馆</a>' if slug else ''
         artbook_toc = artbook_navigation(base)
-        if artbook_toc:
-            nav += '<nav class="chapter-nav" aria-label="设计与制作章节">' + artbook_toc + '</nav>'
-        body=f'<section class="section archive-room">{breadcrumb}<div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{artbook_chapters(base)}{content}</section>'
+        if slug == 'production':
+            artbook_toc = '<a href="#opening-edit">片头剪辑台 · 分镜互动</a>' + artbook_toc
+        chapter_nav = '<nav class="chapter-nav" aria-label="设计与制作章节">' + artbook_toc + '</nav>' if artbook_toc else ''
+        interactive = opening_table() if slug == 'production' else ''
+        body=f'<section class="section archive-room">{breadcrumb}<div class="archive-heading"><p class="label">DARK DECO / 档案馆</p><h1>{heading}</h1><p class="lead">{esc(intro)}</p></div>{nav}{interactive}{chapter_nav}{artbook_chapters(base)}{content}</section>'
         pages[base.strip('/')+'/index.html']=shell(data,'tas',title,body,'archive')
         records.append(dict(title=title,original='Dark Deco / Archive',summary=intro,tags=['资料站','档案馆'],site='tas',status='专题档案',url=base))
 
@@ -95,6 +98,7 @@ def build_archive(data, shell):
     for item in second['materials']:
         content+=record(item,base,item['kind'],picture_map.get(item['id']))
     page('production','制作与美术','角色模型纸、分镜台本与经典片头原案；系统收录未制作企划档案。',content+'</div>')
+    records.append(opening_record())
 
     base='/tas/archive/voices/'
     names={'Batman':'蝙蝠侠','Alfred':'阿尔弗雷德','Commissioner Gordon':'戈登警长','Robin':'罗宾','Harvey Bullock':'哈维·布洛克','Joker':'小丑','Harvey Dent':'哈维·丹特','Catwoman':'猫女','Harley Quinn':'哈莉·奎茵','Penguin':'企鹅人','Barbara Gordon':'芭芭拉·戈登','Clayface':'泥脸','Dr. Victor Fries':'维克托·弗里斯博士','Ra’s al Ghul':'拉斯·奥·古','Edward Nygma':'爱德华·尼格玛'}

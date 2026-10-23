@@ -37,6 +37,8 @@ jobs:
           node verify-investigation.js
           node verify-tas-motion.js
           node verify-lightbox.js
+          node verify-opening.js
+          python3 verify-opening.py
           node --check app.js
       - name: Configure Pages
         id: pages

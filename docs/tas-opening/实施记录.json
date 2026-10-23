@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-23",
+  "status": "approved-for-publication",
+  "target": "/tas/archive/production/#opening-edit",
+  "design": {
+    "mode": "preserve",
+    "DESIGN_VARIANCE": 5,
+    "MOTION_INTENSITY": 4,
+    "VISUAL_DENSITY": 4,
+    "foundation": "existing Dark Deco native CSS and JavaScript",
+    "palette": "existing TAS tokens; paper background and dark red accent",
+    "scope": "TAS production page only"
+  },
+  "features": [
+    "nine independent storyboard panels, shuffled on fresh entry",
+    "desktop drag swaps; click/tap pairs; arrow keys and native keyboard activation",
+    "single-shot hint and selected-panel image dialog",
+    "ordered completion cue respecting reduced motion and site motion toggle",
+    "video attached only after a completed puzzle and explicit play",
+    "player overlays the exact nine-cell rectangle; covered tiles are inert and disabled",
+    "close video pauses playback and restores the solved board and opener focus",
+    "new round pauses and clears video, hides overlay and reshuffles"
+  ],
+  "sourcePacket": "tas-opening.json",
+  "localChecks": [
+    {
+      "command": "python3 verify.py",
+      "exitCode": 0,
+      "seconds": 1.77
+    },
+    {
+      "command": "python3 verify-artbooks.py",
+      "exitCode": 0,
+      "seconds": 0.52
+    },
+    {
+      "command": "python3 verify-build.py",
+      "exitCode": 0,
+      "seconds": 3.97
+    },
+    {
+      "command": "node verify-tas-motion.js",
+      "exitCode": 0,
+      "seconds": 0.04
+    },
+    {
+      "command": "node verify-lightbox.js",
+      "exitCode": 0,
+      "seconds": 0.02
+    },
+    {
+      "command": "node verify-opening.js",
+      "exitCode": 0,
+      "seconds": 0.03
+    },
+    {
+      "command": "node --check tas-opening.js",
+      "exitCode": 0,
+      "seconds": 0.02
+    },
+    {
+      "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+      "exitCode": 0,
+      "seconds": 0.68
+    },
+    {
+      "command": "python3 verify-opening.py",
+      "exitCode": 0,
+      "seconds": 0.08
+    }
+  ],
+  "browser": {
+    "engine": "Codex in-app browser",
+    "widths": [
+      1280,
+      390,
+      320
+    ],
+    "overflow": false,
+    "desktopDrag": "native drag swapped two cells and cleared drag styles",
+    "clickAndKeyboard": "click pairs swap; arrows move focus; Escape closes image dialog and restores focus",
+    "imageDialog": "selected source image loaded",
+    "rootVideo": "readyState 4 and paused false after explicit play",
+    "pagesVideo": "readyState 4 at /batcavecn-specials/assets/media/opening/tas-opening.mp4",
+    "overlay": "grid and player bounds match at 1280px, 390px and 320px",
+    "coveredControls": "all nine tile buttons disabled, grid aria-hidden true while overlay is visible",
+    "close": "pauses video, leaves nine ordered panels, restores play-button focus",
+    "reset": "removes video src, pauses, hides player and reshuffles",
+    "motion": "reduced motion and site still mode tested in regression harness",
+    "screenshots": [
+      "output/tas-opening/puzzle-mobile.png",
+      "output/tas-opening/overlay-desktop.png",
+      "output/tas-opening/overlay-mobile.png"
+    ]
+  },
+  "preservation": {
+    "htmlChanged": [
+      "tas/archive/production/index.html"
+    ],
+    "htmlUnchanged": 159,
+    "otherChanged": [
+      "content/search.json"
+    ],
+    "newAssets": 13,
+    "removedFiles": 0,
+    "originalScans": "untouched",
+    "video": "unchanged source bytes; original watermark retained"
+  },
+  "releaseCopy": {
+    "status": "checks-pass-and-generated-files-identical",
+    "generatedFiles": {
+      "dist": 1038,
+      "pages-dist": 1039
+    },
+    "git": "uncommitted; not pushed"
+  },
+  "githubAuthorization": "可以了，推上GitHub"
+}

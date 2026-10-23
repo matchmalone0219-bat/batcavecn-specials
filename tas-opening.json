@@ -1,0 +1,244 @@
+{
+  "title": "片头剪辑台",
+  "panels": [
+    {
+      "id": "night-patrol",
+      "title": "夜巡飞艇",
+      "file": "opening/night-patrol.jpg",
+      "width": 957,
+      "height": 877,
+      "sha256": "fbd601c7922ad1b6bdcc9e1a7cda7fd64f66ac05ddc40a22952db389964b16dd",
+      "sourceFile": "BA_pg025.jpg",
+      "sourceSHA256": "21f7a44c9730642dc2ff619b85772c5fb91182729e6c420740dab87d156897a5",
+      "cropNormalized": [
+        0.565,
+        0.052,
+        0.94,
+        0.302
+      ],
+      "cropPixels": [
+        1442,
+        182,
+        2399,
+        1059
+      ],
+      "note": "纵移镜头上段；保留飞艇与探照灯",
+      "videoReferenceSeconds": 7.2
+    },
+    {
+      "id": "bank-blast",
+      "title": "银行爆炸",
+      "file": "opening/bank-blast.jpg",
+      "width": 671,
+      "height": 494,
+      "sha256": "4e1d6cab6f5f3ac778c0ef84de31c3683209f59295503b14b72ab247948645e7",
+      "sourceFile": "BA_pg026.jpg",
+      "sourceSHA256": "ece80e311eee36ccf8e0449b2bb1c43771fea77b9e2fe79285f1c7b7068e9e16",
+      "cropNormalized": [
+        0.701,
+        0.854,
+        0.964,
+        0.995
+      ],
+      "cropPixels": [
+        1789,
+        2996,
+        2460,
+        3490
+      ],
+      "note": "银行爆炸画格",
+      "videoReferenceSeconds": 18.1
+    },
+    {
+      "id": "batmobile",
+      "title": "蝙蝠车出动",
+      "file": "opening/batmobile.jpg",
+      "width": 751,
+      "height": 561,
+      "sha256": "a712392bedb12e7db70579a18b0dce6646d4b34ef03aa972f69236e8e0a61c18",
+      "sourceFile": "BA_pg027.jpg",
+      "sourceSHA256": "a35072b618fd78bd638fc1d0d55b4eb6988f806b9a66a6738e52135d219d93a9",
+      "cropNormalized": [
+        0.37,
+        0.016,
+        0.664,
+        0.176
+      ],
+      "cropPixels": [
+        944,
+        56,
+        1695,
+        617
+      ],
+      "note": "蝙蝠车尾部；点火前的画格",
+      "videoReferenceSeconds": 21.7
+    },
+    {
+      "id": "fleeing",
+      "title": "歹徒逃跑",
+      "file": "opening/fleeing.jpg",
+      "width": 927,
+      "height": 709,
+      "sha256": "4a71460d85bc20207a8d1d101ff88d8b4bb6541bd122c3249d843679a5ebee5c",
+      "sourceFile": "BA_pg028.jpg",
+      "sourceSHA256": "00d8ec9c59c570e25d371926d0d8048090b63b1301da542248ca2c3709095a74",
+      "cropNormalized": [
+        0.035,
+        0.063,
+        0.398,
+        0.265
+      ],
+      "cropPixels": [
+        89,
+        221,
+        1016,
+        930
+      ],
+      "note": "巷道奔跑画格",
+      "videoReferenceSeconds": 29.0
+    },
+    {
+      "id": "rooftop",
+      "title": "屋顶对峙",
+      "file": "opening/rooftop.jpg",
+      "width": 702,
+      "height": 543,
+      "sha256": "259f7bbb5a61d61633390a552ee70ce6ba075e6ef6f347539ecb74df475a08a8",
+      "sourceFile": "BA_pg029.jpg",
+      "sourceSHA256": "6ccea3389b4252526c35b83533a8c1b8450e63c209c0b7299a82e821d108fc2c",
+      "cropNormalized": [
+        0.697,
+        0.013,
+        0.972,
+        0.168
+      ],
+      "cropPixels": [
+        1779,
+        46,
+        2481,
+        589
+      ],
+      "note": "蝙蝠侠展开披风落下",
+      "videoReferenceSeconds": 36.2
+    },
+    {
+      "id": "draw-guns",
+      "title": "歹徒拔枪",
+      "file": "opening/draw-guns.jpg",
+      "width": 697,
+      "height": 516,
+      "sha256": "44b28656b3d6d8afdbcf723d422841e49752fd4901f130deb40db1f0208729fe",
+      "sourceFile": "BA_pg029.jpg",
+      "sourceSHA256": "6ccea3389b4252526c35b83533a8c1b8450e63c209c0b7299a82e821d108fc2c",
+      "cropNormalized": [
+        0.374,
+        0.189,
+        0.647,
+        0.336
+      ],
+      "cropPixels": [
+        954,
+        663,
+        1651,
+        1179
+      ],
+      "note": "两名歹徒持枪画格",
+      "videoReferenceSeconds": 38.0
+    },
+    {
+      "id": "batarang",
+      "title": "蝙蝠镖击枪",
+      "file": "opening/batarang.jpg",
+      "width": 697,
+      "height": 527,
+      "sha256": "36f7e4d56c66937c7b947db842a62e691bbfd1611729469f8379e5cb86c6bbf5",
+      "sourceFile": "BA_pg029.jpg",
+      "sourceSHA256": "6ccea3389b4252526c35b83533a8c1b8450e63c209c0b7299a82e821d108fc2c",
+      "cropNormalized": [
+        0.7,
+        0.361,
+        0.973,
+        0.511
+      ],
+      "cropPixels": [
+        1786,
+        1266,
+        2483,
+        1793
+      ],
+      "note": "蝙蝠镖击中持枪手部",
+      "videoReferenceSeconds": 40.5
+    },
+    {
+      "id": "fight",
+      "title": "近身格斗",
+      "file": "opening/fight.jpg",
+      "width": 686,
+      "height": 498,
+      "sha256": "02f0ae1d7c065f7068a5e9699bee38a8f6a8cbb7d62761a6f189ba6458e36dfa",
+      "sourceFile": "BA_pg030.jpg",
+      "sourceSHA256": "3148df4ad2eb04d496dc0da39e28602fcd59970c9b92de1004fd04207846545f",
+      "cropNormalized": [
+        0.701,
+        0.014,
+        0.97,
+        0.156
+      ],
+      "cropPixels": [
+        1789,
+        49,
+        2475,
+        547
+      ],
+      "note": "披风翻转与歹徒后仰",
+      "videoReferenceSeconds": 44.0
+    },
+    {
+      "id": "police",
+      "title": "警方接手",
+      "file": "opening/police.jpg",
+      "width": 707,
+      "height": 533,
+      "sha256": "8df8a6216525a91b0035522d35cac684cfcbf33612314456526ef2711329cf07",
+      "sourceFile": "BA_pg030.jpg",
+      "sourceSHA256": "3148df4ad2eb04d496dc0da39e28602fcd59970c9b92de1004fd04207846545f",
+      "cropNormalized": [
+        0.372,
+        0.692,
+        0.649,
+        0.844
+      ],
+      "cropPixels": [
+        949,
+        2428,
+        1656,
+        2961
+      ],
+      "note": "警用飞艇照亮屋顶歹徒",
+      "videoReferenceSeconds": 50.7
+    }
+  ],
+  "storyboard": {
+    "book": "Batman Animated",
+    "year": 1998,
+    "drawing": "Bruce Timm",
+    "color": "Eric Radomski",
+    "storyboardYear": 1992
+  },
+  "video": {
+    "file": "opening/tas-opening.mp4",
+    "sourceFile": "Batman： The Animated Series ｜ Remastered Opening Titles ｜ Warner Bros. Entertainment - Warner Bros. Entertainment (1080p, h264).mp4",
+    "sha256": "1f3cdb015fd27d847e148d2de6d403c831781d9bc22e261e3a73bb7d26c8feca",
+    "duration": 61.52,
+    "width": 1920,
+    "height": 1080,
+    "publisher": "Warner Bros. Entertainment"
+  },
+  "poster": {
+    "file": "opening/poster.jpg",
+    "width": 1200,
+    "height": 675,
+    "sha256": "95735e0d0de389ad66e4e7e2eac1a6e69f73aeb88f6312691983831fc0c55c77",
+    "videoSeconds": 36.2
+  }
+}

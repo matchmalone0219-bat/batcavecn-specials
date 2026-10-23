@@ -77,6 +77,8 @@ def shell(data, site, title, body, active=""):
     scripts = arkham_scripts() if site == "arkham" else '<script src="/assets/app.js" defer></script>'
     if site == "tas":
         scripts += '<script src="/assets/tas-motion.js" defer></script><script src="/assets/tas-lightbox.js" defer></script>'
+        if 'data-opening-puzzle' in body:
+            scripts += '<link rel="stylesheet" href="/assets/tas-opening.css"><script src="/assets/tas-opening.js" defer></script>'
     effects = arkham_effects(controls=False) if site == "arkham" else ''
     nav_html = ""
     more_html = ""

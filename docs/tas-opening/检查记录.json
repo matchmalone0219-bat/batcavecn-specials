@@ -1,0 +1,47 @@
+[
+  {
+    "command": "python3 verify.py",
+    "exitCode": 0,
+    "seconds": 1.77
+  },
+  {
+    "command": "python3 verify-artbooks.py",
+    "exitCode": 0,
+    "seconds": 0.52
+  },
+  {
+    "command": "python3 verify-build.py",
+    "exitCode": 0,
+    "seconds": 3.97
+  },
+  {
+    "command": "node verify-tas-motion.js",
+    "exitCode": 0,
+    "seconds": 0.04
+  },
+  {
+    "command": "node verify-lightbox.js",
+    "exitCode": 0,
+    "seconds": 0.02
+  },
+  {
+    "command": "node verify-opening.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node --check tas-opening.js",
+    "exitCode": 0,
+    "seconds": 0.02
+  },
+  {
+    "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+    "exitCode": 0,
+    "seconds": 0.68
+  },
+  {
+    "command": "python3 verify-opening.py",
+    "exitCode": 0,
+    "seconds": 0.08
+  }
+]
