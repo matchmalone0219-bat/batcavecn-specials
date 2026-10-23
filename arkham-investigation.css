@@ -46,8 +46,7 @@
 .arkham-patient-terminal .system-status-pips{font:10px/1 ui-monospace,monospace;letter-spacing:.12em;color:#2fe58b;background:#0d2319;padding:5px 10px;border:1px solid #2fe58b44;border-radius:2px;box-shadow:inset 0 0 6px #2fe58b1a}
 .arkham-investigation .patient-workspace{display:grid;grid-template-columns:290px minmax(0,1fr);gap:26px;align-items:start}
 .arkham-investigation .patient-selector{display:flex;flex-direction:column;gap:8px;position:relative}
-.arkham-investigation .patient-selector a{display:grid;grid-template-columns:12px 26px 1fr auto;align-items:center;gap:10px;padding:14px 16px;border:1px solid #283e35;background:linear-gradient(90deg,#0f1c17 0%,#08120e 100%);clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%);text-decoration:none;color:#9ebfb1;transition:transform .16s ease-out,border-color .16s ease-out,background .16s ease-out;position:relative}
-.rack-mount-rivet{display:block;width:6px;height:6px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#4e7862 0%,#15271e 80%);box-shadow:inset 0 0 2px #000,0 1px 2px #000;border:0.5px solid #0d1712}
+.arkham-investigation .patient-selector a{display:grid;grid-template-columns:22px 40px minmax(0,1fr) auto;align-items:center;gap:10px;padding:14px 16px;border:1px solid #283e35;background:linear-gradient(90deg,#0f1c17 0%,#08120e 100%);clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%);text-decoration:none;color:#9ebfb1;transition:transform .16s ease-out,border-color .16s ease-out,background .16s ease-out;position:relative}
 .arkham-investigation .patient-selector a:hover{border-color:#3f6956;background:linear-gradient(90deg,#162b22 0%,#0c1712 100%);color:#f2fdf7;transform:translateX(5px)}
 .arkham-investigation .patient-selector a[aria-current]{border-color:#2fe58b88;background:linear-gradient(90deg,#19382b 0%,#0d1d16 100%);color:#f5fff9;box-shadow:inset 0 0 16px #2fe58b14,0 4px 14px #00000088;transform:translateX(6px)}
 .patient-slot-num{font:700 13px/1 ui-monospace,monospace;color:#2fe58b;letter-spacing:.08em}
@@ -73,7 +72,8 @@
 /* Patient Identity, Barcode & Stencil Badge */
 .arkham-investigation .patient-identity{display:flex;align-items:center;gap:26px;padding:24px 0 20px;position:relative}
 .patient-monogram-frame{display:flex;flex-direction:column;align-items:center;gap:6px;flex-shrink:0}
-.arkham-investigation .patient-monogram{width:96px;height:112px;display:grid;place-items:center;border:1px solid #3d6051;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);background:repeating-linear-gradient(45deg,#0a1612 0,#0a1612 4px,#0e1e19 4px,#0e1e19 8px);color:#2fe58b;font-family:var(--arkham-font);font-size:36px;font-weight:700;letter-spacing:.06em;text-shadow:0 0 14px #2fe58b66;box-shadow:inset 0 0 16px #000000cc}
+.arkham-investigation .recording-portrait{width:96px;height:112px;display:block;object-fit:cover;flex-shrink:0;border:1px solid #3d6051;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);background:#09130f}
+.arkham-investigation .recording-portrait--small{width:40px;height:46px;clip-path:none}
 .monogram-tag{font:9px/1.4 ui-monospace,monospace;letter-spacing:.16em;color:#729986}
 .patient-dossier-meta{flex:1;min-width:0}
 .patient-meta-header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:6px}
@@ -292,11 +292,27 @@
 .transmission-lore h2{font-size:20px;color:#d8edf7;margin:0 0 10px}
 .transmission-lore p{color:#bbcbd3;line-height:1.85;font-size:14px;margin:8px 0}
 .transmission-channels{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:24px 0}
-.transmission-channel-card{padding:16px 20px;background:#121e25;border:1px solid #758a963b;text-decoration:none;color:#bbcbd3;display:block}
+.transmission-channel-card{padding:16px 20px;background:#121e25;border:1px solid #758a963b;text-decoration:none;color:#bbcbd3;display:grid;grid-template-columns:40px minmax(0,1fr);align-items:center;gap:12px}
 .transmission-channel-card[aria-current]{border-color:#2fe58b;background:#0d2217;color:#ebfaf2}
 .transmission-channel-card h3{font-size:15px;color:#e6f3f9;margin:6px 0 4px}
 .transmission-channel-card p{font-size:12px;color:#91aab7;margin:0}
+.recording-game-tabs{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}
+.recording-game-tabs button{min-height:44px;padding:10px 18px;border:1px solid #597484;background:#101d24;color:#bcd4df;font:inherit;cursor:pointer}
+.recording-game-tabs button[aria-pressed=true]{background:#284436;border-color:#6eaf8a;color:#f0fff6}
+.arkham-investigation [hidden]{display:none!important}
+.history-recordings{display:block}
+.history-recordings>article{padding:20px 0;border-bottom:1px solid #758a963b}
+.history-recordings audio{width:100%;margin-top:14px}
 @media(max-width:640px){.transmission-selector{grid-template-columns:repeat(2,1fr)}.transmission-file{padding:16px}}
+.arkham-investigation .patient-files{min-width:0}
+@media(max-width:900px){.arkham-investigation .patient-workspace,.arkham-investigation .tape-console{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:640px){
+  .arkham-investigation .tape-console{padding:10px}
+  .tape-deck-housing{min-width:0;padding:10px}.tape-console-sidebar{min-width:0}
+  .tape-deck-topbar,.tape-deck-meter-panel,.tape-deck-telemetry{flex-wrap:wrap;gap:10px}
+  .arkham-investigation .tape-reels{padding:12px 8px}.arkham-investigation .tape-reels .spool{width:20%;height:auto;aspect-ratio:1}
+  .tension-arm,.capstan-assembly{display:none}.vu-meter-pair{width:100%;min-width:0}.vu-meter{flex:1;min-width:0}.vu-dial{width:100%;max-width:86px}
+}
 
 
 /* Feedback belongs to an active investigation, rather than an idle screen. */

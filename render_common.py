@@ -133,9 +133,7 @@ def tas_catalog(data):
     filters = f'<form id="episode-filter" class="episode-filter" hidden role="search" aria-label="筛选分集目录"><div><label for="episode-query">查找集名、编号或主创</label><input id="episode-query" type="search" placeholder="中文名、英文名、指南编号或人名"></div><div><label for="episode-series">所属系列</label><select id="episode-series"><option value="all">全部系列</option><option value="BTAS">BTAS · 85集</option><option value="TNBA">TNBA · 24集</option></select></div>{credit_filters}<label class="episode-guided"><input id="episode-guided" type="checkbox">仅看分集导读</label><button type="reset">重置筛选</button><p id="episode-count" role="status" aria-live="polite"></p></form><p id="episode-empty" hidden>没有匹配的分集。试试其他集名或重置筛选。</p>'
     registers = ''.join(f'<section data-episode-series="{series}"><h2 id="{series.lower()}">{series} · {len(items)}集</h2>{air_years(items)}{"".join(episode_run(number, name, run, credits if series == "BTAS" else None) for number, (name, run) in enumerate(episode_runs(series, items), 1))}</section>' for series, items in (("BTAS", data["episodes"]), ("TNBA", data["tnbaEpisodes"])))
     registers = f'<div class="episode-browser"><div class="episode-runs">{registers}</div><aside class="episode-preview" data-episode-preview hidden aria-live="polite"></aside></div>'
-    source = doc.get("source")
-    note = f'<section class="episode-credit-source"><h2>署名资料</h2>{sources({"sources": [source]})}<p class="fine">反派标签依各集配音表中的角色归类，收录系列中反复出现的主要反派与对手。</p></section>' if source else ""
-    return filters + '<nav class="episode-series-links" aria-label="系列目录"><a href="#btas">BTAS · 85集</a><a href="#tnba">TNBA · 24集</a></nav>' + registers + note
+    return filters + '<nav class="episode-series-links" aria-label="系列目录"><a href="#btas">BTAS · 85集</a><a href="#tnba">TNBA · 24集</a></nav>' + registers
 
 
 def image_gallery(site, item_id=None, role=None):
@@ -144,4 +142,4 @@ def image_gallery(site, item_id=None, role=None):
     assets = [a for a in assets if a["site"] == site and (item_id is None or a["item"] == item_id) and (role is None or a.get("role", "frame") == role)]
     if not assets:
         return ""
-    return '<div class="archive-gallery">' + ''.join(f'<figure><a href="/assets/media/{esc(a["file"])}"><img src="/assets/media/{esc(a["file"])}" width="{a["width"]}" height="{a["height"]}" loading="lazy" alt="{esc(a["alt"])}"></a><figcaption><strong>{esc(a["title"])}</strong><span>{esc(a["caption"])}</span><span>{esc(a["credit"])}</span><a href="{esc(a["sourcePage"])}">图片出处 ↗</a></figcaption></figure>' for a in assets) + '</div>'
+    return '<div class="archive-gallery">' + ''.join(f'<figure><a href="/assets/media/{esc(a["file"])}"><img src="/assets/media/{esc(a["file"])}" width="{a["width"]}" height="{a["height"]}" loading="lazy" alt="{esc(a["alt"])}"></a></figure>' for a in assets) + '</div>'

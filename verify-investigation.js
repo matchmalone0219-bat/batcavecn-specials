@@ -125,7 +125,7 @@ function patient(id) {
       createMediaElementSource(){graphs++;return {connect(){}};}
       createAnalyser(){return {fftSize:512,connect(){},getFloatTimeDomainData(values){samples++;values.fill(samples%2?.1:-.1);}};}
     }
-    const document={hidden:false,querySelector:selector=>selector==='[data-patient-terminal]'&&inTerminal?terminal:null,querySelectorAll:()=>[a.file,b.file],addEventListener:(name,fn)=>docHandlers[name]=fn};
+    const document={hidden:false,querySelector:selector=>selector==='[data-patient-terminal]'&&inTerminal?terminal:null,querySelectorAll:selector=>selector==='[data-audio-recording]'?[a.file,b.file]:[],addEventListener:(name,fn)=>docHandlers[name]=fn};
     vm.runInNewContext(source,{window:{AudioContext,addEventListener:(name,fn)=>handlers[name]=fn},document,location:{hash:''},history:{replaceState(){}},requestAnimationFrame(fn){const id=++frameId;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);}});
     assert.equal(a.audio.src,'');assert.equal(b.audio.src,'','No source is requested before a click');
     a.button.listeners.click();assert.equal(a.audio.plays,0,'Closed spoilers cannot start playback');
@@ -191,7 +191,7 @@ function patient(id) {
       createMediaElementSource() { return {connect() {}}; }
       createAnalyser() { return {fftSize: 512, connect() {}, getFloatTimeDomainData() {}}; }
     }
-    const document = {hidden: false, querySelector: () => null, querySelectorAll: () => [file], addEventListener: () => {}};
+    const document = {hidden: false, querySelector: () => null, querySelectorAll: selector => selector === '[data-audio-recording]' ? [file] : [], addEventListener: () => {}};
     vm.runInNewContext(source, {
       window: {AudioContext, addEventListener: () => {}},
       document,

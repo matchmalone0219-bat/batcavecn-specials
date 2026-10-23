@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-03",
-  "scope": "《阿卡姆疯人院》的七组患者访谈，包含人物导读与游戏原声录音。",
+  "scope": "《阿卡姆疯人院》与《阿卡姆之城》的患者访谈原声。",
   "intro": "调取阿卡姆重症收治档案，审查临床问诊录音与罪犯心理防御机制。",
   "boundary": "英语游戏原声录音与中文字幕。七名患者各五段访谈，可选择段落播放。录音、字幕与访谈摘要含剧情信息，默认折叠。",
   "sources": [
@@ -80,6 +80,15 @@
       "url": "https://www.bilibili.com/video/BV1ww411w7Je/",
       "checked": "2026-10-03",
       "evidence": "玩家游戏录制"
+    },
+    {
+      "id": "local-city-recording-20261022",
+      "title": "《阿卡姆之城》录音磁带合集 · 用户提供游戏录制",
+      "evidence": "本地玩家录制 · 英语原声",
+      "checked": "2026-10-22",
+      "files": [
+        "蝙蝠侠阿卡姆之城录音磁带合集.mp4"
+      ]
     }
   ],
   "patients": [
@@ -472,7 +481,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "harley",
@@ -758,7 +769,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "croc",
@@ -1034,7 +1047,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "riddler",
@@ -1410,7 +1425,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "zsasz",
@@ -1766,7 +1783,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "ivy",
@@ -2072,7 +2091,9 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
     },
     {
       "id": "scarecrow",
@@ -2443,7 +2464,529 @@
           ]
         }
       ],
-      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。"
+      "subtitleSource": "用户提供视频中的中文字幕；保留原译，整理标点并修正识别错误及明显错字。",
+      "gameId": "asylum",
+      "game": "阿卡姆疯人院"
+    },
+    {
+      "id": "city-mad-hatter",
+      "name": "疯帽匠",
+      "english": "Mad Hatter",
+      "identity": "杰维斯·泰奇",
+      "angle": "观察斯特兰奇如何利用爱丽丝的形象，把泰奇的执念转化为自己的工具。",
+      "gist": "雨果·斯特兰奇与疯帽匠的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 0,
+          "sourceEnd": 53.375,
+          "audioFile": "audio/patient-city-mad-hatter-01.m4a",
+          "duration": 53.375,
+          "audioBytes": 620526,
+          "audioSha256": "dada81f8b6eeef495b841db36d9fe919820fe0f5f50edd66788e834426972fc6",
+          "cues": [],
+          "summary": "斯特兰奇开始访谈，泰奇急于寻找爱丽丝，难以停留在问答中。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 53.375,
+          "sourceEnd": 128.875,
+          "audioFile": "audio/patient-city-mad-hatter-02.m4a",
+          "duration": 75.5,
+          "audioBytes": 898727,
+          "audioSha256": "80ab63d7fb505467fb819477aabd7d386df6cf318f81309e1639367b003aff11",
+          "cues": [],
+          "summary": "对话转向自由意志、研究和控制他人的可能性。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 128.875,
+          "sourceEnd": 207.125,
+          "audioFile": "audio/patient-city-mad-hatter-03.m4a",
+          "duration": 78.25,
+          "audioBytes": 944353,
+          "audioSha256": "47d79ade55cc99ddf4ac44263af5ab0da5f5e2b65833ac6df8f71ef59d61d3ca",
+          "cues": [],
+          "summary": "斯特兰奇借照片与服饰唤起泰奇对爱丽丝的投射。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 207.125,
+          "sourceEnd": 298.125,
+          "audioFile": "audio/patient-city-mad-hatter-04.m4a",
+          "duration": 91,
+          "audioBytes": 1085498,
+          "audioSha256": "d6cd3b8420a88ef307b51627afe85c7288a1d4b0ba4efc58d388e860bc229c59",
+          "cues": [],
+          "summary": "泰奇的感知与研究执念交织，斯特兰奇继续掌握对话节奏。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 298.125,
+          "sourceEnd": 375.375,
+          "audioFile": "audio/patient-city-mad-hatter-05.m4a",
+          "duration": 77.25,
+          "audioBytes": 935903,
+          "audioSha256": "482ef5fc39b00f1aa970d31bddb0eee9ede0d6a4a5e4de582cdc69b1d6c0063f",
+          "cues": [],
+          "summary": "斯特兰奇要求泰奇拜访夏普，让对方接受自己的想法。"
+        }
+      ]
+    },
+    {
+      "id": "city-riddler",
+      "name": "谜语人",
+      "english": "The Riddler",
+      "identity": "爱德华·尼格玛",
+      "angle": "留意远程通话中的试探：双方都想证明，自己知道得比对方更多。",
+      "gist": "雨果·斯特兰奇与谜语人的4段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 375.375,
+          "sourceEnd": 450.375,
+          "audioFile": "audio/patient-city-riddler-01.m4a",
+          "duration": 75,
+          "audioBytes": 907784,
+          "audioSha256": "74cbc3d8962612b97e62c4e5d6158603af67f626e06dddc3014ebde6e26eb9ec",
+          "cues": [],
+          "summary": "谜语人通过远程通信接触斯特兰奇，嘲弄对方追踪信号的企图。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 450.375,
+          "sourceEnd": 529.125,
+          "audioFile": "audio/patient-city-riddler-02.m4a",
+          "duration": 78.75,
+          "audioBytes": 933292,
+          "audioSha256": "cb859c9b30a8dda2cf1a378fb977068d5f1a5e4569d8f5aaebec9780683edf9a",
+          "cues": [],
+          "summary": "谜语人提及夏普所服用的特殊药物，向斯特兰奇展示掌握的秘密。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 529.125,
+          "sourceEnd": 595.375,
+          "audioFile": "audio/patient-city-riddler-03.m4a",
+          "duration": 66.25,
+          "audioBytes": 784738,
+          "audioSha256": "e3e70685685c6651f12d47dee629bc3ebfb355dcb3c4529c1486743208341778",
+          "cues": [],
+          "summary": "两人围绕智力、控制权和击败蝙蝠侠展开较量。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 595.375,
+          "sourceEnd": 648.875,
+          "audioFile": "audio/patient-city-riddler-04.m4a",
+          "duration": 53.5,
+          "audioBytes": 641037,
+          "audioSha256": "594ea46d1d297fae5e6ced843944898bb692b5735cc36b022c50ee6a5d654152",
+          "cues": [],
+          "summary": "斯特兰奇以蝙蝠侠的身份为筹码，反过来挑战谜语人的自信。"
+        }
+      ]
+    },
+    {
+      "id": "city-catwoman",
+      "name": "猫女",
+      "english": "Catwoman",
+      "identity": "塞琳娜·凯尔",
+      "angle": "一次潜入事件成为审问的切入点，斯特兰奇借此追问猫女与蝙蝠侠的关系。",
+      "gist": "雨果·斯特兰奇与猫女的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 785.125,
+          "sourceEnd": 836.375,
+          "audioFile": "audio/patient-city-catwoman-01.m4a",
+          "duration": 51.25,
+          "audioBytes": 659345,
+          "audioSha256": "f0fa717f8c5618bc7aee5e06a25fa2ecc4ec648aa9baef66cff958570c94eb12",
+          "cues": [],
+          "summary": "斯特兰奇审问试图潜入办公室取回财物的猫女。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 836.375,
+          "sourceEnd": 898.375,
+          "audioFile": "audio/patient-city-catwoman-02.m4a",
+          "duration": 62,
+          "audioBytes": 749291,
+          "audioSha256": "ca8d7bfe946760829593fb3f52090c570828a4043340a1523ef2c0546ec365fd",
+          "cues": [],
+          "summary": "猫女对斯特兰奇的盘问失去耐心，双方继续试探。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 898.375,
+          "sourceEnd": 952.875,
+          "audioFile": "audio/patient-city-catwoman-03.m4a",
+          "duration": 54.5,
+          "audioBytes": 651613,
+          "audioSha256": "70d6633531d1806e12338dcdc8cb804aa40068e95519961588f217c4dcb31ac1",
+          "cues": [],
+          "summary": "斯特兰奇追问蝙蝠侠，猫女指出他一直在研究和追踪对方。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 952.875,
+          "sourceEnd": 1034.375,
+          "audioFile": "audio/patient-city-catwoman-04.m4a",
+          "duration": 81.5,
+          "audioBytes": 989866,
+          "audioSha256": "b0b80af92fdc588a004dcecb6faba23f26d871352a11aa2e4abaceb09fecfdb7",
+          "cues": [],
+          "summary": "斯特兰奇把猫女与蝙蝠侠作比较，讨论法律、信念和自我认知。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1034.375,
+          "sourceEnd": 1118.625,
+          "audioFile": "audio/patient-city-catwoman-05.m4a",
+          "duration": 84.25,
+          "audioBytes": 1027698,
+          "audioSha256": "077abb92d2eeaa8f31d8d83110a967f1911cb5f6e81b79567c84f51719769a5a",
+          "cues": [],
+          "summary": "斯特兰奇把问询转向猫女对蝙蝠侠的感情，并以此施压。"
+        }
+      ]
+    },
+    {
+      "id": "city-freeze",
+      "name": "急冻人",
+      "english": "Mister Freeze",
+      "identity": "维克托·弗里斯",
+      "angle": "关注他怎样回忆诺拉，以及斯特兰奇如何将这些回忆重新解释成罪责。",
+      "gist": "雨果·斯特兰奇与急冻人的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1118.625,
+          "sourceEnd": 1198.875,
+          "audioFile": "audio/patient-city-freeze-01.m4a",
+          "duration": 80.25,
+          "audioBytes": 972923,
+          "audioSha256": "4cda2fc539fd057af1dd46c6eebaba0cea7d637ff42d4eba58d3ddbdee2222b1",
+          "cues": [],
+          "summary": "被扣押的急冻人警告战衣仍有攻击能力；斯特兰奇要求了解他的经历。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1198.875,
+          "sourceEnd": 1264.125,
+          "audioFile": "audio/patient-city-freeze-02.m4a",
+          "duration": 65.25,
+          "audioBytes": 799977,
+          "audioSha256": "60f8b31c93b3d97ff44d1d8d43b011e98d3aa553ced241a05d001291deea38fa",
+          "cues": [],
+          "summary": "对话回到童年、家庭疏离与被送走的经历。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1264.125,
+          "sourceEnd": 1338.375,
+          "audioFile": "audio/patient-city-freeze-03.m4a",
+          "duration": 74.25,
+          "audioBytes": 918249,
+          "audioSha256": "a0e42883403d27ed06b06e5cb5432a435c19f73e608da49befbc9ad824ddfb05",
+          "cues": [],
+          "summary": "急冻人回忆为了挽救诺拉而挪用研究资源，寻找治疗方法。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1338.375,
+          "sourceEnd": 1493.875,
+          "audioFile": "audio/patient-city-freeze-04.m4a",
+          "duration": 155.5,
+          "audioBytes": 1846413,
+          "audioSha256": "0eeb67b192ab4cc0c5b50e1878f7483189901f90fab623f6013df9ead4e7c45e",
+          "cues": [],
+          "summary": "急冻人讲述博伊尔闯入实验室、发现诺拉及随后的事故。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1493.875,
+          "sourceEnd": 1583.25,
+          "audioFile": "audio/patient-city-freeze-05.m4a",
+          "duration": 89.375,
+          "audioBytes": 1094206,
+          "audioSha256": "c1f9a8e638336d81ea438d39fca6b01e7a63f71021259870d1d10733bfcb201b",
+          "cues": [],
+          "summary": "斯特兰奇否定急冻人的自我辩护，把一连串行为归结为他的选择。"
+        }
+      ]
+    },
+    {
+      "id": "city-joker",
+      "name": "小丑",
+      "english": "The Joker",
+      "identity": "身份未定",
+      "angle": "在自述与挑衅之间，观察小丑如何不断改变自己故事的可信度。",
+      "gist": "雨果·斯特兰奇与小丑的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1583.25,
+          "sourceEnd": 1672.625,
+          "audioFile": "audio/patient-city-joker-01.m4a",
+          "duration": 89.375,
+          "audioBytes": 1074422,
+          "audioSha256": "3c8b603e097e156e2c003b1bb2b9a7dbb1bc57807c0a41c46d8fedbaaa00ae93",
+          "cues": [],
+          "summary": "小丑把访谈变成游戏，试探斯特兰奇与守卫的反应。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1672.625,
+          "sourceEnd": 1820.125,
+          "audioFile": "audio/patient-city-joker-02.m4a",
+          "duration": 147.5,
+          "audioBytes": 1712310,
+          "audioSha256": "8f2f04fad6b00fa1eabc41e98e518af9dfb18be4c2379faa8bd9c78a6e02fce3",
+          "cues": [],
+          "summary": "小丑开始讲述化工厂工作、经济压力和怀孕的妻子。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1820.125,
+          "sourceEnd": 1934.625,
+          "audioFile": "audio/patient-city-joker-03.m4a",
+          "duration": 114.5,
+          "audioBytes": 1392152,
+          "audioSha256": "a6ba75f77769b9cf29af225342709337afe37bef98dbebd8e0a79f92a1ce914c",
+          "cues": [],
+          "summary": "自述转向珍妮之死及他对过去生活的回忆。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 1934.625,
+          "sourceEnd": 2048.125,
+          "audioFile": "audio/patient-city-joker-04.m4a",
+          "duration": 113.5,
+          "audioBytes": 1340109,
+          "audioSha256": "fce5cdc5c0d8790db922526605a115265759a5c84936148aef7e754bd3847bdc",
+          "cues": [],
+          "summary": "小丑描述戴着头罩参与行动的经历，把故事推向化工厂。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2048.125,
+          "sourceEnd": 2160.5,
+          "audioFile": "audio/patient-city-joker-05.m4a",
+          "duration": 112.375,
+          "audioBytes": 1367856,
+          "audioSha256": "5d63aa2da2c5ed306d42b505512c7eb782eedeb122f210764426a89ee7d8928b",
+          "cues": [],
+          "summary": "斯特兰奇质疑故事的真实性，小丑又以字面笑话回避追问。"
+        }
+      ]
+    },
+    {
+      "id": "city-penguin",
+      "name": "企鹅人",
+      "english": "Penguin",
+      "identity": "奥斯瓦尔德·科波特",
+      "angle": "企鹅人谈起财产、韦恩家族和地盘冲突，处处强调自己的权势。",
+      "gist": "雨果·斯特兰奇与企鹅人的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2160.5,
+          "sourceEnd": 2244.125,
+          "audioFile": "audio/patient-city-penguin-01.m4a",
+          "duration": 83.625,
+          "audioBytes": 986077,
+          "audioSha256": "24d9c1a6e39b9beb9903e01e3b28625d997eddcd86d6ccf2ea3000c86d27563b",
+          "cues": [],
+          "summary": "斯特兰奇追问企鹅人对拥有财产和权力的执念。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2244.125,
+          "sourceEnd": 2292.625,
+          "audioFile": "audio/patient-city-penguin-02.m4a",
+          "duration": 48.5,
+          "audioBytes": 570974,
+          "audioSha256": "17a63bef66ccdef1a9aa26b428b63f59e79010e67030d638ffecd92c89c68bbb",
+          "cues": [],
+          "summary": "访谈转向韦恩家族，企鹅人谈到金钱、嫉妒与布鲁斯。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2292.625,
+          "sourceEnd": 2360.625,
+          "audioFile": "audio/patient-city-penguin-03.m4a",
+          "duration": 68,
+          "audioBytes": 818597,
+          "audioSha256": "a42c1f607ebcf3faf1257b6171ae6c776b465d4d6c949ad5dfbf1a43c051e39f",
+          "cues": [],
+          "summary": "企鹅人强调博物馆和冰山俱乐部的归属，指责夏普与斯特兰奇把众人关在一起。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2360.625,
+          "sourceEnd": 2413.875,
+          "audioFile": "audio/patient-city-penguin-04.m4a",
+          "duration": 53.25,
+          "audioBytes": 620746,
+          "audioSha256": "bec39cf6615a5043a5c0674dcf19838db25e8eb26ba5b245b4803707cb4268cd",
+          "cues": [],
+          "summary": "斯特兰奇与企鹅人围绕城内的行动和控制权继续交锋。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2413.875,
+          "sourceEnd": 2497.625,
+          "audioFile": "audio/patient-city-penguin-05.m4a",
+          "duration": 83.75,
+          "audioBytes": 1002309,
+          "audioSha256": "2682f847bd580807597717a7192ea9c63786f2f4808b9125ecf891ff0e31795f",
+          "cues": [],
+          "summary": "企鹅人讲述眼伤的报复往事，并追问急冻人的下落。"
+        }
+      ]
+    },
+    {
+      "id": "city-two-face",
+      "name": "双面人",
+      "english": "Two-Face",
+      "identity": "哈维·登特",
+      "angle": "听斯特兰奇如何把哈维的往事、硬币与选择，编排成一套诱导。",
+      "gist": "雨果·斯特兰奇与双面人的5段访谈。",
+      "gameId": "city",
+      "game": "阿卡姆之城",
+      "sources": [
+        "local-city-recording-20261022"
+      ],
+      "audioSource": "local-city-recording-20261022",
+      "tapes": [
+        {
+          "number": 1,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2497.625,
+          "sourceEnd": 2554.875,
+          "audioFile": "audio/patient-city-two-face-01.m4a",
+          "duration": 57.25,
+          "audioBytes": 669921,
+          "audioSha256": "9ab7f775287a441033bf6e27ac672d6687130902956943a08bd7ad0e7b6940e8",
+          "cues": [],
+          "summary": "斯特兰奇要求双面人亲口讲述自己的经历。"
+        },
+        {
+          "number": 2,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2554.875,
+          "sourceEnd": 2598.375,
+          "audioFile": "audio/patient-city-two-face-02.m4a",
+          "duration": 43.5,
+          "audioBytes": 518916,
+          "audioSha256": "a3d7b74cf398d5b03e85c2187264d11a78e97debf676ec565378d70cd59e045c",
+          "cues": [],
+          "summary": "哈维回忆担任检察官时的抱负，以及追诉法尔科内的行动。"
+        },
+        {
+          "number": 3,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2598.375,
+          "sourceEnd": 2671.375,
+          "audioFile": "audio/patient-city-two-face-03.m4a",
+          "duration": 73,
+          "audioBytes": 848478,
+          "audioSha256": "c5735c3b841c1f9c1e95e02a4f666860ae015b2ac255f3b145d2c546c12d6461",
+          "cues": [],
+          "summary": "双面人谈论硬币赋予他的明确选择，斯特兰奇追溯他的过去。"
+        },
+        {
+          "number": 4,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2671.375,
+          "sourceEnd": 2729.375,
+          "audioFile": "audio/patient-city-two-face-04.m4a",
+          "duration": 58,
+          "audioBytes": 686869,
+          "audioSha256": "a86c4a92f7f0cd518eec3e9b1ddd35f92e38a7f0844f9b8fad93c723ce1df2ca",
+          "cues": [],
+          "summary": "斯特兰奇把话题转向韦恩，试探哈维对布鲁斯的看法。"
+        },
+        {
+          "number": 5,
+          "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+          "sourceStart": 2729.375,
+          "sourceEnd": 2813.875,
+          "audioFile": "audio/patient-city-two-face-05.m4a",
+          "duration": 84.5,
+          "audioBytes": 999968,
+          "audioSha256": "75e0ea05a638b1b8e7bd7cbaf7fca3b7e98484bff007b95941cc53d73d7f3896",
+          "cues": [],
+          "summary": "斯特兰奇提及症状和家庭经历，又以猫女的动向诱导他行动。"
+        }
+      ]
     }
   ],
   "images": [],

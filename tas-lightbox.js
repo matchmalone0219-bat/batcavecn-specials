@@ -3,15 +3,7 @@
   if (!document.body.classList.contains('tas')) return;
   const links = [...document.querySelectorAll('main a[href*="/assets/media/"]')].filter(link => link.querySelector('img'));
   if (!links.length) return;
-  let box, image, title, count, original, index = 0, opener;
-
-  function caption(link) {
-    const figure = link.closest('figure, li');
-    const named = figure?.querySelector(':scope > span, figcaption strong');
-    if (named?.textContent.trim()) return named.textContent.trim();
-    const text = figure?.querySelector('figcaption')?.firstChild?.textContent?.trim();
-    return text || link.querySelector('img').alt || '';
-  }
+  let box, image, count, original, index = 0, opener;
 
   function build() {
     box = document.createElement('div');
@@ -19,10 +11,9 @@
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
     box.setAttribute('aria-label', '图片放映');
-    box.innerHTML = '<figure class="lb-frame"><img alt=""><figcaption><span class="lb-count"></span><span class="lb-title"></span><a class="lb-original" target="_blank" rel="noopener">原图 ↗</a></figcaption></figure>'
+    box.innerHTML = '<figure class="lb-frame"><img alt=""><figcaption><span class="lb-count"></span><a class="lb-original" target="_blank" rel="noopener">原图 ↗</a></figcaption></figure>'
       + '<button type="button" class="lb-close">关闭</button><button type="button" class="lb-prev" aria-label="上一张">‹</button><button type="button" class="lb-next" aria-label="下一张">›</button>';
     image = box.querySelector('img');
-    title = box.querySelector('.lb-title');
     count = box.querySelector('.lb-count');
     original = box.querySelector('.lb-original');
     box.querySelector('.lb-close').addEventListener('click', close);
@@ -48,7 +39,6 @@
     const thumb = link.querySelector('img');
     image.src = link.href;
     image.alt = thumb.alt;
-    title.textContent = caption(link);
     count.textContent = `${String(index + 1).padStart(2, '0')} / ${String(links.length).padStart(2, '0')}`;
     original.href = link.href;
     box.querySelector('.lb-prev').hidden = box.querySelector('.lb-next').hidden = links.length < 2;

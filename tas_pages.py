@@ -31,7 +31,7 @@ def production_preview():
     cards = []
     for number, (material_id, image_id) in enumerate((('batman-model', 'image-5'), ('leather-board', 'image-6')), 1):
         item, image = materials[material_id], images[image_id]
-        cards.append(f'<a class="folio-card" href="/tas/archive/production/#{material_id}"><div class="folio-mount"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></div><div class="folio-caption"><span class="label">0{number} / {esc(image["kind"])}</span><h3>{esc(item["title"])}</h3><p>{esc(image["title"])}</p></div></a>')
+        cards.append(f'<a class="folio-card" href="/tas/archive/production/#{material_id}"><div class="folio-mount"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></div><div class="folio-caption"><span class="label">0{number} / {esc(image["kind"])}</span><h3>{esc(item["title"])}</h3></div></a>')
     return '<nav class="folio-index" aria-label="制作图册选页">' + ''.join(cards) + '</nav>'
 
 
@@ -62,25 +62,22 @@ def build_archive(data, shell):
         images.update({i['id']: i for i in film['images']})
     records, pages = [], {}
 
-    def refs(item):
-        return '<p class="archive-citations">依据：' + ' · '.join(f'<a href="{esc(sources[r]["url"])}">{esc(sources[r]["title"])} ↗</a>' for r in item['sourceRefs']) + '</p>'
-
     def picture(id, folio=False):
         i=images[id]; title=i.get('title',i.get('caption',''))
         thumb=' archive-thumbnail' if i['width']<400 else ''
-        return f'<figure class="archive-image{thumb}{" folio-sheet" if folio else ""}"><a href="/assets/media/{esc(i["file"])}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(title)}" loading="lazy"></a><figcaption>{esc(title)}<span>{esc(i["rights"])}</span>{refs(i)}</figcaption></figure>'
+        return f'<figure class="archive-image{thumb}{" folio-sheet" if folio else ""}"><a href="/assets/media/{esc(i["file"])}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(title)}" loading="lazy"></a></figure>'
 
     def record(item,base,tag='档案注释',image_id=None):
         title=item['title']; text=item['text']
         records.append(dict(title=title,original=title,summary=text,tags=[tag],site='tas',status=tag,url=base+'#'+item['id']))
-        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(tag)}</p><h2>{esc(title)}</h2><p>{esc(text)}</p>{picture(image_id, base == "/tas/archive/production/") if image_id else ""}<details class="archive-evidence"><summary>资料来源</summary>{refs(item)}</details></article>'
+        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(tag)}</p><h2>{esc(title)}</h2><p>{esc(text)}</p>{picture(image_id, base == "/tas/archive/production/") if image_id else ""}</article>'
 
     def facts(item):
         return '<dl class="archive-facts">'+''.join(f'<div><dt>{esc(LABELS[k])}</dt><dd>{esc("、".join(map(str,v)) if isinstance(v,list) else v)}</dd></div>' for k,v in item['facts'].items())+'</dl>'
 
     def work(item,base,image_id=None):
         records.append(dict(title=item['title'],original=item['title'],summary=item['relationship'],tags=[item['kind']],site='tas',status='作品／版本书目',url=base+'#'+item['id']))
-        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(item["kind"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["relationship"])}</p>{picture(image_id) if image_id else ""}{facts(item)}<details class="archive-evidence"><summary>资料来源</summary>{refs(item)}</details></article>'
+        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(item["kind"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["relationship"])}</p>{picture(image_id) if image_id else ""}{facts(item)}</article>'
 
     def page(slug,title,intro,content):
         base='/tas/archive/'+(slug+'/' if slug else '')
@@ -109,7 +106,7 @@ def build_archive(data, shell):
         title=names.get(r['characterAsListed'],r['characterAsListed']); actor=r['englishActorAsListed']
         content+=f'<article id="{r["id"]}"><div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p></div><strong>{esc(actor)}</strong></article>'
         records.append(dict(title=title+' · '+actor,original=r['characterAsListed'],summary='BTAS英语版角色配音；华纳合辑公告列名。',tags=['配音','声音',actor],site='tas',status='角色声音',url=base+'#'+r['id']))
-    content+='</div>'+refs(second['roles'][0])+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
+    content+='</div>'+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
     page('voices','角色与声音','十五组核心角色英语原版声优名册，重温现场群录的黄金时代。',content)
 
     base='/tas/archive/films/'
@@ -121,25 +118,25 @@ def build_archive(data, shell):
     page('films','动画电影','院线长片与影像发行电影：故事、制作及版本资料。',content+'</div>')
     for film in films:
         content='<div class="archive-reading"><p class="original">'+esc(film['original'])+'</p>'+picture(film['hero'])+'<h2>电影基础档案</h2><dl class="archive-facts">'
-        content+=''.join(f'<div><dt>{esc(f["label"])}</dt><dd>{esc(f["value"])}</dd></div>' for f in film['facts'])+'</dl>'+refs(film)
+        content+=''.join(f'<div><dt>{esc(f["label"])}</dt><dd>{esc(f["value"])}</dd></div>' for f in film['facts'])+'</dl>'
         content+='<nav class="chapter-nav" aria-label="电影章节">'+''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in film['sections'])+'</nav>'
         for n, section in enumerate(film['sections']):
             text=paragraphs(section['body'])
             if section.get('containsSpoilers'):
                 text='<details class="spoiler section-spoiler"><summary>剧情与结局分析 · 含剧透，展开阅读</summary>'+text+'</details>'
-            content+=f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}<details class="archive-evidence"><summary>资料来源</summary>{refs(section)}</details></section>'
+            content+=f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}</section>'
             if n == 0:
                 content+='<div class="research-gallery">'+''.join(picture(id) for id in film['gallery'])+'</div>'
         content+='<section><h2>关联阅读</h2>'+''.join(f'<a class="route-card" href="{esc(link["url"])}"><h3>{esc(link["title"])}</h3></a>' for link in film['readingLinks'])+'</section></div>'
         page('films/'+film['id'],film['title'],film['summary'],content)
         records[-1].update(original=film['original'],tags=film.get('tags',['电影','急冻人','SubZero']),status='电影档案')
-    f=second['film']; base='/tas/archive/films/mask-of-the-phantasm/'
+    base='/tas/archive/films/mask-of-the-phantasm/'
     content='<div class="archive-reading">'+picture('image-3')+'<h2>电影基础档案</h2><dl class="archive-facts">'
     for label,value in [('原片院线上映','1993-12-25'),('导演','Eric Radomski · Bruce Timm'),('故事','Alan Burnett'),('剧本','Alan Burnett · Paul Dini · Martin Pasko · Michael Reaves'),('英语主要配音','Kevin Conroy · Dana Delany · Mark Hamill')]:content+=f'<div><dt>{label}</dt><dd>{value}</dd></div>'
-    content+='</dl>'+refs(f)
+    content+='</dl>'
     for n in second['notes'][:3]:content+=record(n,base)
-    v=second['edition'];content+='<article class="archive-entry" id="restoration"><p class="label">2023 / RESTORATION</p><h2>从原片到4K修复版</h2><p>2023年7月26日华纳公告计划于9月12日发行4K版；公告版时长76分钟、画幅1.85:1，自1993原始剪辑摄影底片扫描。原片上映与修复版发行分开记录。</p><p>公告列附康罗伊纪念短片及一集Justice League Unlimited，未列该集片名。</p>'+picture('image-4')+refs(v)+'</article></div>'
-    page('films/mask-of-the-phantasm','幽灵的面具','Batman: Mask of the Phantasm · 银幕悲剧史诗与起源补完；剧作解析与4K修复版本考据。本文不泄露核心身份谜底。',content)
+    content+='<article class="archive-entry" id="restoration"><p class="label">2023 / RESTORATION</p><h2>从原片到4K修复版</h2><p>2023年7月26日华纳公告计划于9月12日发行4K版；公告版时长76分钟、画幅1.85:1，自1993原始剪辑摄影底片扫描。原片上映与修复版发行分开记录。</p><p>附录包含康罗伊纪念短片及一集Justice League Unlimited。</p>'+picture('image-4')+'</article></div>'
+    page('films/mask-of-the-phantasm','幽灵的面具','Batman: Mask of the Phantasm · 银幕悲剧史诗与起源补完；剧作解析与4K修复版本考据。',content)
     records.append(dict(title='幽灵的面具 · 2023修复版',original='Mask of the Phantasm 4K',summary='修复版本、画幅与公告附录。',tags=['电影','修复','4K'],site='tas',status='版本档案',url=base+'#restoration'))
 
     base='/tas/archive/publications/'
@@ -154,7 +151,7 @@ def build_archive(data, shell):
     for i,c in enumerate(first['musicCredits']):
         content+=f'<tr id="music-{i+1}"><th scope="row">{esc(c["title"])}</th><td>{esc("、".join(c["albumGroupCredit"]))}</td></tr>'
         records.append(dict(title=c['title']+' · 配乐',original=c['title'],summary='厂牌分组署名：'+'、'.join(c['albumGroupCredit']),tags=['配乐','音乐']+c['albumGroupCredit'],site='tas',status='配乐档案',url=base+f'#music-{i+1}'))
-    content+='</tbody></table></div>'+refs(score)+'<p>Heart of Ice分组同时列Todd Hayen与Shirley Walker；两位共同列名。</p>'+work(score,base)+'</div>'
+    content+='</tbody></table></div><p>Heart of Ice分组同时列Todd Hayen与Shirley Walker；两位共同列名。</p>'+work(score,base)+'</div>'
     page('music','配乐档案','交响乐团现场实录、经典黑色主题变奏与权威唱片署名考证。',content)
 
     base='/tas/archive/history/';content='<div class="archive-reading">'

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "arkham-transmissions.json",
+    "before": "从接触、行动计划到最终目标，两名盟友逐步说出各自的打算。",
+    "after": "稻草人与阿卡姆骑士讨论合作条件、行动计划和各自的目标。",
+    "occurrences": 2
+  },
+  {
+    "file": "arkham-transmissions.json",
+    "before": "从马戏团广告，到写给儿子的留言，猪面教授讲述自己的世界。",
+    "after": "猪面教授留下马戏团广告和写给儿子的留言，讲述自己的经历与执念。",
+    "occurrences": 2
+  },
+  {
+    "file": "arkham-transmissions.json",
+    "before": "一名科学家留下的三段自白，回溯医疗研究如何走向武器生意。",
+    "after": "一名科学家留下三段自白，讲述医疗研究被用于武器开发的经历。",
+    "occurrences": 2
+  },
+  {
+    "file": "patient-interviews.json",
+    "before": "听斯特兰奇怎样从一次潜入事件，追问猫女与蝙蝠侠之间的关系。",
+    "after": "一次潜入事件成为审问的切入点，斯特兰奇借此追问猫女与蝙蝠侠的关系。",
+    "occurrences": 1
+  },
+  {
+    "file": "patient-interviews.json",
+    "before": "从财产、韦恩家族与地盘冲突中，听他如何建立自己的权力叙事。",
+    "after": "企鹅人谈起财产、韦恩家族和地盘冲突，处处强调自己的权势。",
+    "occurrences": 1
+  }
+]
