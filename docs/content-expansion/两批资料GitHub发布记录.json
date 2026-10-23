@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "contentCommit": "9dffebf1cc321589b7a3ee3e3d3e714237a540db",
+  "workflowRun": 39947730201,
+  "workflowURL": "https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/39947730201",
+  "build": "success",
+  "deploy": "success",
+  "liveChecks": [
+    {
+      "path": "/arkham/games/arkham-knight/",
+      "status": 200,
+      "marker": "id=\"artbook-a13\""
+    },
+    {
+      "path": "/tas/archive/production/",
+      "status": 200,
+      "marker": "id=\"artbook-t24\""
+    },
+    {
+      "path": "/tas/episodes/avatar/",
+      "status": 200,
+      "marker": "ep2-avatar-rise.jpg"
+    },
+    {
+      "path": "/assets/media/artbook/arkham/a13-launcher.jpg",
+      "status": 200,
+      "sha256": "80cce8c6725a86680731adf42fc88e1a0380b1213d3e47d64227aeb3115d77aa"
+    },
+    {
+      "path": "/assets/media/artbook/tas/ep2-avatar-rise.jpg",
+      "status": 200,
+      "sha256": "8152a13d026d89469954fe4852e9a50adca4ba57174bee61499c402843253f48"
+    },
+    {
+      "path": "/content/search.json",
+      "status": 200,
+      "records": 577
+    }
+  ]
+}

@@ -13,11 +13,11 @@
     },
     {
       "path": "ARTBOOK-SECOND-HANDOFF-2026-10-23.md",
-      "sha256": "70c30c89d1bcaa4755e432e8d8f4e08dbac01a5065aeac4c5ecb5cdc9c717add"
+      "sha256": "e218999688db0d0295d46beec3eb2d00a4f05d0e228bae78ed2d729323ee023d"
     },
     {
       "path": "HANDOFF-2026-10-23.md",
-      "sha256": "6e4897b478d357067b1623701f76b30ea454102d90bd7975bf11549f7cd98593"
+      "sha256": "51ba2355b6949a9e5d7a7eb4df208716fa4d73f303b5a9a1a4ace627391adf0f"
     },
     {
       "path": "arkham-artbook.json",
@@ -684,6 +684,10 @@
       "sha256": "ce5d5b996656d4ccb9c2de2a7882f3b6d550e25f4a264d698161d466be52ed04"
     },
     {
+      "path": "docs/content-expansion/两批资料GitHub发布记录.json",
+      "sha256": "a92b96735281df76b7ae4a40fb71bed8ffa849e01b97cb3437b6f6ecd20218ea"
+    },
+    {
       "path": "docs/content-expansion/两站设定集完整扩充方案.md",
       "sha256": "e30f57f05b0066aa0a888a39cbc7542222aac268d665e9222615767a087963e5"
     },
@@ -693,7 +697,7 @@
     },
     {
       "path": "docs/content-expansion/两站设定集第二批任务清单.json",
-      "sha256": "880bd696ef344eaae750ef524419d5b453e803d164e26e28dd064cd5aa03ac1e"
+      "sha256": "aaa3899a9b8a90e25c752a2a712d5627cc5bc725626ea2fefa373e89d9aff006"
     },
     {
       "path": "docs/content-expansion/发布副本最终检查.json",
@@ -717,7 +721,7 @@
     },
     {
       "path": "docs/content-expansion/第二批扩充实施结果.json",
-      "sha256": "66a067957d9fb43f22bf8e6f0b35a9c23d8c6dc34610643772ff4e4205731cb6"
+      "sha256": "dd9e32b03336540acdaf4baeacc393ad6c4834768254a868cdb8df462c6642b5"
     },
     {
       "path": "docs/content-expansion/第二批本地检查.log",
@@ -779,5 +783,6 @@
       "path": "verify.py",
       "sha256": "fa546a6e109fc59a8e783b55a37e013bd86169ee7aebd525ddc3a445c924fc74"
     }
-  ]
+  ],
+  "publication": "9dffebf1cc321589b7a3ee3e3d3e714237a540db"
 }

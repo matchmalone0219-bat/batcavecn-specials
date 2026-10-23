@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "batch": 2,
-  "status": "completed-local-not-published",
+  "status": "completed-published",
   "units": [
     {
       "id": "A09",
@@ -368,5 +368,12 @@
     ]
   },
   "credits": "Batman-Animated主创与分集对照.json",
-  "predecessor": "两站设定集扩充任务清单.json"
+  "predecessor": "两站设定集扩充任务清单.json",
+  "publication": {
+    "contentCommit": "9dffebf1cc321589b7a3ee3e3d3e714237a540db",
+    "workflowRun": 39947730201,
+    "build": "success",
+    "deploy": "success",
+    "receipt": "两批资料GitHub发布记录.json"
+  }
 }

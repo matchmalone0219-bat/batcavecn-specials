@@ -1,7 +1,7 @@
 {
   "date": "2026-10-23",
   "batch": 2,
-  "status": "complete-validated-ready-to-push",
+  "status": "completed-published",
   "githubAuthorization": "用户授权：没问题就可以推送GitHub了",
   "baseline": "bbd39a1d4fcb2a0882c46cb68f9f10119f32b1e8",
   "newChapters": {
@@ -518,5 +518,12 @@
       "pages-dist": 1026
     },
     "status": "pass"
+  },
+  "publication": {
+    "contentCommit": "9dffebf1cc321589b7a3ee3e3d3e714237a540db",
+    "workflowRun": 39947730201,
+    "build": "success",
+    "deploy": "success",
+    "receipt": "两批资料GitHub发布记录.json"
   }
 }
