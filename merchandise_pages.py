@@ -38,16 +38,12 @@ def validate(packet):
 def build_collectibles(data, shell):
     packet = load()
     validate(packet)
-    source_map = {s['id']: s for s in packet['sources']}
     image_map = {i['id']: i for i in packet['images']}
     pages, records, additions, galleries = {}, [], {}, {}
 
-    def refs(ids):
-        return '<p class="merch-refs">' + ' · '.join(f'<a href="{esc(source_map[id]["url"])}">{esc(source_map[id]["title"])} ↗</a>' for id in ids) + '</p>'
-
     def picture(id):
         image = image_map[id]
-        return f'<figure class="merch-photo"><a href="/assets/media/{esc(image["file"])}"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></a><figcaption>{esc(image["title"])}<span>{esc(image["nature"])}</span><span>{esc(image["rights"])}</span><a href="{esc(image["sourcePage"])}">图片出处 ↗</a></figcaption></figure>'
+        return f'<figure class="merch-photo"><a href="/assets/media/{esc(image["file"])}"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></a></figure>'
 
     def options(values):
         counts = {}
@@ -66,20 +62,20 @@ def build_collectibles(data, shell):
 
     def evidence(i):
         related = '<p class="merch-related">' + ' · '.join(f'<a href="{esc(r["url"])}">{esc(r["label"])}</a>' for r in i['related']) + '</p>' if i['related'] else ''
-        return f'{related}<details class="merch-evidence"><summary>版本说明与资料来源</summary><p>{esc(i["note"])}</p>{refs(i["sourceRefs"])}</details>'
+        return f'{related}<details class="merch-evidence"><summary>版本说明</summary><p>{esc(i["note"])}</p></details>'
 
     def gallery(i):
         first = image_map[i['imageIds'][0]]
         thumbs = ''
         if len(i['imageIds']) > 1:
             thumbs = '<div class="merch-thumbs">' + ''.join(f'<a href="/assets/media/{esc(image_map[id]["file"])}" data-merch-thumb data-title="{esc(image_map[id]["title"])}" aria-current="{"true" if n == 0 else "false"}"><img src="/assets/media/{esc(image_map[id]["file"])}" width="{image_map[id]["width"]}" height="{image_map[id]["height"]}" alt="{esc(image_map[id]["title"])}" loading="lazy"></a>' for n, id in enumerate(i['imageIds'])) + '</div>'
-        return f'<div class="merch-gallery-main"><a class="merch-main" href="/assets/media/{esc(first["file"])}"><img src="/assets/media/{esc(first["file"])}" width="{first["width"]}" height="{first["height"]}" alt="{esc(first["title"])}" loading="lazy"></a>{thumbs}<p class="merch-caption"><span data-merch-caption>{esc(first["title"])}</span> · {esc(first["nature"])} {esc(first["rights"])} <a href="{esc(first["sourcePage"])}">图片出处 ↗</a></p></div>'
+        return f'<div class="merch-gallery-main"><a class="merch-main" href="/assets/media/{esc(first["file"])}"><img src="/assets/media/{esc(first["file"])}" width="{first["width"]}" height="{first["height"]}" alt="{esc(first["title"])}" loading="lazy"></a>{thumbs}</div>'
 
     for site in ('arkham', 'tas'):
         base = f'/{site}/collectibles/'
         items = [i for i in packet['items'] if i['site'] == site]
         photos = [image_map[id] for i in items for id in i['imageIds']]
-        intro = '从游戏角色到实体藏品。保留战衣版本、产品型号与游戏归属，阅读这座哥谭在屏幕之外的形态。' if site == 'arkham' else '从黑卡纸手绘线条到立体实体藏品。深度收录可动人偶、合金蝙蝠车、雕像与桌游，记录 Dark Deco 经典美学的实体化历程。'
+        intro = '游戏中的战衣、装备与角色，也出现在了实体藏品中。保留战衣版本、产品型号与游戏归属，阅读这座哥谭在屏幕之外的形态。' if site == 'arkham' else '可动人偶、合金蝙蝠车、雕像与桌游，呈现Dark Deco造型在实体藏品中的不同做法。'
         featured = ['hot-city', 'hot-knight', 'prime-knight'] if site == 'arkham' else ['mondo-redux', 'mondo-harley', 'lego-gotham']
         order = {id: n for n, id in enumerate(featured)}
         with_photo = sorted((i for i in items if i['imageIds']), key=lambda i: order.get(i['id'], len(order)))

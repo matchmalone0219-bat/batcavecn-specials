@@ -1,7 +1,7 @@
 """Home, work and creator pages from archive.json."""
 import json
 
-from render_common import (ROOT, esc, route, paragraphs, sources, actor_markup,
+from render_common import (ROOT, esc, route, paragraphs, actor_markup,
                            image_gallery, person_url)
 from site_layout import shell
 from arkham_ui import arkham_screen
@@ -28,7 +28,7 @@ def home(data, site):
         modern = data["capedCrusader"]
         body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
         body += f'<section class="section"><a href="/tas/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 动画人物档案</span></div></a></section>'
-        body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>从片尾到档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
+        body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>片尾署名与制作档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
     return shell(data, site, "动画放映室", body, "home")
 
 
@@ -63,7 +63,7 @@ def detail(data, item):
         body += f'<div class="episode-ticket" role="group" aria-label="放映信息"><div class="ticket-main"><p class="ticket-kicker">放映单 · {esc(item["series"])}</p><p class="ticket-date">{esc(item["airDate"])}<span>首播</span></p><dl class="ticket-credits">{credits}</dl>{voice_line}</div><div class="ticket-stub"><span>No.</span><strong>{esc(item["guideNumber"])}</strong><span>{esc(item["airDate"][:4])}</span></div></div><div class="ticket-more">{full}</div>'
     else:
         body += f'<div class="facts-summary">{summary}{full}</div>'
-    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '<a href="#sources">资料来源</a></nav>'
+    body += '<nav class="chapter-nav" aria-label="档案章节">' + "".join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}{" · 含剧透" if s.get("containsSpoilers") and "含剧透" not in s["title"] else ""}</a>' for s in item["sections"]) + '</nav>'
     body += '<div class="reading">'
     strip = film_strip(item["id"]) if site == "tas" else ""
     for index, section in enumerate(item["sections"]):
@@ -90,9 +90,9 @@ def detail(data, item):
         body += f'<details class="spoiler"><summary>剧情与结局 · 含剧透，展开阅读</summary>{paragraphs(item["spoiler"])}</details>'
     if item["actorLink"]:
         continuation = "继续阅读相关的作品与表演资料。" if site == "arkham" else "继续阅读动画作品与表演资料。"
-        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>从这份作品档案回到凯文·康罗伊的人物档案，{continuation}</p></a></section>'
+        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>打开凯文·康罗伊的人物档案，{continuation}</p></a></section>'
     body += pager(data, item)
-    body += f'<section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></div>'
+    body += '</div></div>'
     return shell(data, site, item["title"], body, "catalog")
 
 
@@ -118,38 +118,60 @@ def pager(data, item):
 
 def caped_series(data):
     item = data["capedCrusader"]
-    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a><a href="#sources">资料来源</a></nav><div class="reading">'
+    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a></nav><div class="reading">'
     body += ''.join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
     body += '<section id="programme"><h2>第一季节目单</h2><p>按Prime Video节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第一季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["episodes"]) + '</ol></section>'
     body += '<section id="programme-season2"><h2>第二季节目单</h2><p>按Prime Video第二季节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第二季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["season2Episodes"]) + '</ol></section>'
     body += '<section><h2>图片资料</h2>' + image_gallery("tas", "caped-crusader") + '</section>'
-    body += f'<section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>查阅BTAS全集目录，对照两座不同时代的动画哥谭。</p></a></section><section id="sources"><h2>资料来源</h2>{sources(data, item["sources"])}</section></div></section>'
+    body += f'<section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>查阅BTAS全集目录，对照两座不同时代的动画哥谭。</p></a></section></div></section>'
     return shell(data, "tas", item["title"], body, "caped")
 
 
 def person_chapters(data, site="shared"):
-    p = data["person"]
-    body = '<nav class="chapter-nav" aria-label="人物章节">' + "".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in p["sections"]) + '</nav><div class="reading">'
-    for s in p["sections"]:
-        body += f'<section id="{s["id"]}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}'
+    from conroy_profile import chapters, chapter_citations, profile_photo, timeline, finding_feature, recording_notes, shared_work_directory
+    sections = chapters(data, site)
+    titles = {s['id']: f'{n:02d} / ' + s['title'].split(' / ', 1)[-1] for n, s in enumerate(sections, 1)}
+    groups = [
+        ('I', '面具之前', {'life', 'stage', 'voice'}),
+        ('II', '声音的工作', {'ensemble', 'performances', 'beyond', 'comparison'}),
+        ('III', '生活与回声', {'finding', 'audience', 'memory', 'works'}),
+    ]
+    contents = ''.join(f'<div><p><span>{number}</span>{label}</p><ol>' + ''.join(f'<li><a href="#{s["id"]}"><span>{titles[s["id"]].split(" / ")[0]}</span>{esc(titles[s["id"]].split(" / ",1)[-1])}</a></li>' for s in sections if s['id'] in ids) + '</ol></div>' for number, label, ids in groups)
+    body = '<nav class="profile-contents" aria-label="人物章节">' + contents + '</nav><div class="reading conroy-reading">'
+    for s in sections:
+        text = s.get('siteBodies', {}).get(site, s['body'])
+        number, title = titles[s['id']].split(' / ', 1)
+        if s['id'] == 'finding':
+            body += finding_feature(number)
+            continue
+        english = {'life':'EARLY YEARS','stage':'ON THE STAGE','voice':'BECOMING BATMAN','ensemble':'IN THE BOOTH','performances':'THE INNER VOICE','beyond':'A LIFETIME IN GOTHAM','comparison':'VOICING THE GAMES','finding':'FINDING BATMAN','audience':'BEYOND THE MICROPHONE','memory':'THE VOICE REMAINS','works':'SELECTED WORKS'}[s['id']]
+        body += f'<section class="profile-chapter profile-chapter-{s["id"]}" id="{s["id"]}"><div class="profile-chapter-heading"><span class="profile-chapter-number" aria-hidden="true">{number}</span><p class="profile-eyebrow">{english}</p><h2>{esc(title)}</h2></div><div class="profile-chapter-copy">{paragraphs(text)}'
+        if s['id'] == 'voice':
+            body += '<div class="profile-voice-pair"><div><p>BRUCE WAYNE</p><h3>在人群之中</h3><span>轻松、圆滑的公众形象</span></div><div><p>BATMAN</p><h3>在面罩之后</h3><span>压低声音，让话语更有重量</span></div></div>'
+        body += chapter_citations(data, s, site) + recording_notes(data, s, site) + '</div>'
+        for photo in s.get('photos', []):
+            if photo == 'conroy-2009' and site == 'tas':
+                continue
+            body += profile_photo(photo)
         if s["id"] == "works":
             linked = [i for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] if i["actor"] == "Kevin Conroy" and i["status"] == "详情样板"]
             if site in ("arkham", "tas"):
                 linked = sorted((i for i in linked if i["site"] == site), key=lambda i: i.get("airDate") or i.get("date") or i["year"])
-                body += '<ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></section>'
+                body += f'<details class="profile-works"><summary>展开作品目录 · {len(linked)}项</summary><ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></details></section>'
                 continue
             else:
-                columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{name}</span></p><ol>' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in sorted((i for i in linked if i["site"] == key), key=lambda i: i.get("airDate") or i.get("date") or i["year"])) + '</ol></div>' for key, label, name in (("tas", "动画", "Dark Deco"), ("arkham", "游戏", "Protocol Arkham")))
-                body += f'<div class="xcredit-works">{columns}</div></section>'
+                body += shared_work_directory(linked) + '</section>'
                 continue
-            body += '<div class="grid routes">' + "".join(f'<a class="route-card" href="{route(i)}"><span class="label">{esc(data["sites"][i["site"]]["english"])} / {esc(i["year"])}</span><h3>{esc(i["original"])}</h3><p>{esc(i["title"])}</p></a>' for i in linked) + '</div>'
         body += '</section>'
-    return body
+        if s['id'] == 'memory':
+            body += timeline(data, site)
+    return body + '</div>'
 
 
 def person(data, site):
+    from conroy_profile import cover, profile_sources, with_profile_styles
     p = data["person"]
     memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">返回Dark Deco</a>'
-    body = f'<section class="memorial-hero"><p class="label">{'<i data-arkham-icon="voice"></i>' if site == "arkham" else ""}BATCAVECN / SHARED CREATOR ARCHIVE</p><p class="original">{esc(p["original"])} · {esc(p["years"])}</p><h1>{esc(p["title"])}<span>{esc(p["subtitle"])}</span></h1><p class="lead">{esc(p["intro"])}</p><div class="memorial-links">{memorial_links}</div></section><div class="section">{person_chapters(data, site)}'
-    body += f'<section><h2>原始资料与延伸阅读</h2>{sources(data, p["sources"])}</section></div></div>'
-    return shell(data, site, p["title"], body, "person")
+    body = '<div class="profile-feature">' + cover(p['title'], p['intro']) + f'<div class="profile-return">{memorial_links}</div>{person_chapters(data, site)}'
+    body += profile_sources(data, site) + '</div>'
+    return with_profile_styles(shell(data, site, p["title"], body, "person"))

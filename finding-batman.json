@@ -1,0 +1,128 @@
+{
+  "title": "Finding Batman",
+  "subtitle": "面具与声音之间",
+  "intro": "2022年，凯文·康罗伊把寻找蝙蝠侠声音的经历写成一篇自传漫画。故事从试音室出发，回看此前的人生：当一个演员习惯把自己藏起来，他怎样让另一个人的声音被听见？",
+  "credits": [
+    ["文字", "Kevin Conroy"],
+    ["绘画与上色", "J. Bone"],
+    ["文字设计", "Aditya Bidikar"],
+    ["刊载", "DC Pride 2022 #1 · 2022"]
+  ],
+  "sections": [
+    {
+      "id": "finding-context",
+      "eyebrow": "THE PERSONAL STORY",
+      "title": "在英雄选集中，讲述演员自己",
+      "body": "《DC Pride 2022》汇集了围绕LGBTQIA+人物展开的故事。《Finding Batman》让长期站在角色身后的康罗伊成为叙述者：读者认识的是一名演员，他怎样工作、承受压力，又怎样理解一个虚构人物。\n这样的叙述位置改变了阅读的方向。我们先前从蝙蝠侠的声音认识凯文，这一次，则从凯文的生活重新听见蝙蝠侠。",
+      "sourceRefs": ["dc-preview", "original"]
+    },
+    {
+      "id": "finding-masks",
+      "eyebrow": "PUBLIC / PRIVATE",
+      "title": "两种面孔，一段真实的人生",
+      "body": "康罗伊写到自己作为同性恋者成长时对身份的隐藏，以及进入演艺行业后遭遇的偏见。公众面前的形象与私下的生活，被画成需要不断维持的两种状态。\n在这里，面具关系到一个人如何保护自己、争取工作，以及能否被他人完整地接纳。再去理解布鲁斯的双重身份，读者就会多听到一层经验：一个人已经习惯了被看见某一面，却仍然渴望有人理解剩下的部分。",
+      "sourceRefs": ["original"]
+    },
+    {
+      "id": "finding-loss",
+      "eyebrow": "LIVING THROUGH LOSS",
+      "title": "失去与照护，进入了表演的背景",
+      "body": "漫画也写到艾滋病危机中失去朋友，以及照护亲人带来的压力。职业上的不安与生活中的责任相互挤压，让试音之前的年月有了具体重量。\n这些经历使他能够触及人物的孤独、愤怒与对安全感的需要。理解这种联系时，也可以留意他在压力之中仍然做的事：照顾别人、准备角色、继续工作。它们同样构成了一个演员的生活。",
+      "sourceRefs": ["original"]
+    },
+    {
+      "id": "finding-page-language",
+      "eyebrow": "READING THE PAGE",
+      "title": "一间试音室，容纳了过去的回声",
+      "body": "开篇让年轻的凯文拿着稿纸走进房间，随后转入回忆。桌椅、门口与等待的位置，为私人经历提供了一个安静的框架；试音因此不只是一场职业考核，也成为回看人生的时刻。\nJ. Bone以黑色、浅蓝和大片留白组织这些画面。外表整齐的房间，与旁白里难以安放的情绪并置。细读时，可以先看人物站在哪里，再看文字把时间带向哪里：图像中的身体留在眼前，叙述却不断返回过去。",
+      "sourceRefs": ["original"]
+    },
+    {
+      "id": "finding-voice",
+      "eyebrow": "FROM EXPERIENCE TO PERFORMANCE",
+      "title": "声音从情绪出发，也需要演员的工作",
+      "body": "故事把个人记忆带回试音，让康罗伊与布鲁斯的处境在表演中相遇。这里可以与他2014年的访谈一起读：他谈到声音必须建立在人物的情绪和经历上，单纯模仿一个低沉音色，很快就会失去可信度。\n而在2016年的访谈里，他又强调舞台训练、与搭档接戏和录音棚的气氛。将这两种讲述放在一起，声音的形成便有了更完整的轮廓：私人经验提供理解人物的入口，训练与合作让这种理解变成一次次可以完成的表演。",
+      "sourceRefs": ["original", "dc-interview", "gce-interview"]
+    },
+    {
+      "id": "finding-authorship",
+      "eyebrow": "A SHARED CREATION",
+      "title": "把记忆变成漫画的三种工作",
+      "body": "康罗伊负责讲述，J. Bone以绘画和色彩安排人物与空间，Aditya Bidikar通过文字设计组织旁白、对白及强调。读者所见的自传，由这些工作共同构成。\n旁白可以延长一段回忆，画面可以让一个人停留在门口；两者的速度不同，才让无声的纸页有了停顿。重新听康罗伊的表演时，也可以记住这份节奏感：有时，使一句话成立的，正是说出它之前的片刻。",
+      "sourceRefs": ["original"]
+    },
+    {
+      "id": "finding-legacy",
+      "eyebrow": "AFTER PUBLICATION",
+      "title": "发表之后：纪念与回声",
+      "body": "康罗伊去世后，DC于2022年11月发布纪念阅读介绍。2023年，《Finding Batman》获得艾斯纳奖最佳短篇故事奖；获奖名单将康罗伊与J. Bone列为该篇创作者。\n奖项记下了这篇漫画的位置，而作品仍把读者带回一个更私人的问题：我们熟悉一个人的声音时，究竟知道多少声音背后的生活？",
+      "sourceRefs": ["dc-remembrance", "eisner"]
+    }
+  ],
+  "imageNotes": [
+    ["门口与稿纸", "人物进入试音室，日常空间成为回忆的起点。"],
+    ["面罩与标题", "蝙蝠侠的形状包住标题，演员与角色在开篇便被放到一起。"],
+    ["旁白与留白", "顺着文字阅读，再回看人物的位置，感受两种时间的交叠。"]
+  ],
+  "sources": [
+    {
+      "id": "original",
+      "title": "Kevin Conroy、J. Bone、Aditya Bidikar · Finding Batman，DC Pride 2022 #1",
+      "type": "自传漫画原作 · The World’s Finest存档",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-kevin-conroy-finding-batman/",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "dc-preview",
+      "title": "DC Publicity · Pride Preview: DC Pride 2022 Arrives on June 7! · 2022-04-13",
+      "type": "出版方公告",
+      "url": "https://www.dc.com/blog/2022/04/13/pride-preview-dc-pride-2022-arrives-on-june-7",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "dc-interview",
+      "title": "DC · Behind the Bat: An Interview with Kevin Conroy · 2014-02-21",
+      "type": "本人访谈",
+      "url": "https://www.dc.com/blog/2014/02/21/behind-the-bat-an-interview-with-kevin-conroy",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "gce-interview",
+      "title": "The GCE · Interview with Voice Actor Kevin Conroy · 2016-09-07",
+      "type": "本人圆桌访谈",
+      "url": "https://www.geekchicelite.com/interview-with-voice-actor-kevin-conroy/",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "dc-remembrance",
+      "title": "DC Publicity · Read Finding Batman by Kevin Conroy, J. Bone and Aditya Bidikar · 2022-11-11",
+      "type": "出版方纪念阅读介绍",
+      "url": "https://www.dc.com/blog/2022/11/11/read-finding-batman-by-kevin-conroy-j-bone-and-aditya-bidikar",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "eisner",
+      "title": "Comic-Con International · 2023 Eisner Awards for works published in 2022",
+      "type": "奖项主办方获奖名单",
+      "url": "https://www.comic-con.org/awards/eisner-awards/past-recipients/past-recipenties-2020s/",
+      "checked": "2026-10-22"
+    }
+  ],
+  "images": [
+    {
+      "id": "finding-opening",
+      "file": "finding-batman-opening.jpg",
+      "title": "Finding Batman · 开篇原漫画节选",
+      "alt": "Finding Batman开篇漫画页：凯文拿着稿纸进入试音室，画面下方开始回忆成长经历。",
+      "caption": "开篇节选：一次试音，打开了此前人生的回忆。",
+      "rights": "文字 Kevin Conroy；绘画与上色 J. Bone；文字设计 Aditya Bidikar。© DC。",
+      "sourcePage": "https://dcanimated.com/btas/btas-backstage/btas-backstage-kevin-conroy-finding-batman/",
+      "originalUrl": "https://dcanimated.com/WF/batman/btas/backstage/conroy/pride02.jpg",
+      "sourceRefs": ["original"],
+      "width": 1988,
+      "height": 3057,
+      "sha256": "6cb3a550f42e21a47fd6ff2ae6824e47922d1ca0f7d2d527c70bc41d486133b6",
+      "checked": "2026-10-22"
+    }
+  ]
+}

@@ -8,11 +8,12 @@ from merchandise_pages import build_collectibles
 from arkham_pages import build_arkham_archive
 from arkham_interactions import build_interactions
 from crossover_pages import build_crossover
+from conroy_profile import media_assets as conroy_media_assets, finding_assets
 
 
 def gates(intro, compact=False):
     doors = (
-        '<a class="gate gate-arkham" href="/arkham/"><img src="/assets/media/arkham-city-02.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">PROTOCOL ARKHAM</p><h2>阿卡姆协议</h2><p>从孤岛收容到全城暴动：在骨骼碎裂的搏杀与致命谜题中，成为恐惧本身。</p></div></a>'
+        '<a class="gate gate-arkham" href="/arkham/"><img src="/assets/media/arkham-city-02.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">PROTOCOL ARKHAM</p><h2>阿卡姆协议</h2><p>闯入孤岛上的疯人院，追查旧城区的阴谋，迎战全城暴动。在近身搏斗与致命谜题中扮演黑暗骑士。</p></div></a>'
         '<a class="gate gate-tas" href="/tas/"><img src="/assets/tas-home-title.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">DARK DECO</p><h2>Dark Deco 动画档案</h2><p>黑卡纸上的光影奇迹：重温 1990 年代定义了黑暗骑士灵魂的经典单集与悲剧挽歌。</p></div></a>'
     )
     return f'<section class="gates{" is-compact" if compact else ""}"><div class="gates-intro">{intro}</div><div class="gates-doors">{doors}</div><p class="gates-shared"><a href="/voices/">两站共同档案 · 蝙蝠侠之声</a></p></section>'
@@ -29,7 +30,7 @@ def render_pages(data):
         note = "按原作年份排列；移植与合集不计为新故事。" if site == "arkham" else f"BTAS · 85集，其中{detail_count}篇分集导读；TNBA · 24集，其中{tnba_count}篇分集导读。两份目录按各自的The World’s Finest指南编号排列，动画电影单独编目。"
         pages[f"{site}/catalog/index.html"] = shell(data, site, "作品档案" if site == "arkham" else "分集目录", f'<section class="section"><p class="label">ARCHIVE INDEX</p><h1>{"作品档案" if site == "arkham" else "分集目录"}</h1><p class="lead">{note}</p>{tas_catalog(data) if site == "tas" else chr(60) + 'div class="grid">' + cards(items, True) + '</div>'}</section>', "catalog")
         pages[f"{site}/sources/index.html"] = shell(data, site, "资料来源", f'<section class="section"><p class="label">{'<i data-arkham-icon="sources"></i>' if site == "arkham" else ""}SOURCES / EDITORIAL NOTES</p><h1>文献源流与档案出处</h1><p class="lead">官方档案、主创访谈、分集指南与评论文献，按来源分类系统检索。</p>{sources(data, {sid for i in items + [data["person"]] + ([data["capedCrusader"]] if site == "tas" else []) for sid in i["sources"]})}</section>', "sources")
-        pages[f"{site}/gallery/index.html"] = shell(data, site, "图片资料", f'<section class="section"><p class="label">{'<i data-arkham-icon="gallery"></i>' if site == "arkham" else ""}IMAGE ARCHIVE</p><h1>图片资料</h1><p class="lead">游戏截图、动画画面与官方宣传图，按作品分别记录。</p><p class="fine">图片版权归原权利人。</p>' + image_gallery(site) + '</section>', "gallery")
+        pages[f"{site}/gallery/index.html"] = shell(data, site, "图片资料", f'<section class="section"><p class="label">{'<i data-arkham-icon="gallery"></i>' if site == "arkham" else ""}IMAGE ARCHIVE</p><h1>图片资料</h1><p class="lead">游戏截图、动画画面与官方宣传图，按作品分别记录。</p>' + image_gallery(site) + '</section>', "gallery")
         search_placeholder, extra_scope = SEARCH_OPTIONS[site]
         pages[f"{site}/search/index.html"] = shell(data, site, "搜索档案", f'<section class="section"><p class="label">{'<i data-arkham-icon="search"></i>' if site == "arkham" else ""}SEARCH / {esc(info["english"])}</p><h1>{"检索机要档案。" if site == "arkham" else "检索动画档案。"}</h1><form id="search-form" class="search-form"><label for="query">集名、作品名、人物或主题</label><div><input id="query" name="q" type="search" placeholder="试试：{search_placeholder}"><button class="button">搜索</button></div><label for="scope">检索范围</label><select id="scope"><option value="{site}">当前专题＋共同人物</option>{extra_scope}</select></form><p id="search-count" role="status"></p><div id="search-results" class="grid routes"></div></section>', "search")
         for item in items:
@@ -67,4 +68,4 @@ def render_pages(data):
     index.extend(ark_records)
     index.extend(interactive_records)
     index.extend(crossover_records)
-    return pages, index, tas_images + merch_images + ark_images
+    return pages, index, tas_images + merch_images + ark_images + conroy_media_assets() + finding_assets()

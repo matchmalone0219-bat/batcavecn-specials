@@ -51,12 +51,12 @@ def screen_head(body):
 
 
 def film_strip(item_id):
-    """Three frames on a strip of film, with the image source kept under the strip."""
+    """Three frames on a strip of film."""
     frames = [a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a["item"] == item_id and a.get("role") == "frame"]
     if not frames:
         return ""
     cells = "".join(
-        f'<li><a href="/assets/media/{esc(a["file"])}"><img src="/assets/media/{esc(a["file"])}" width="{a["width"]}" height="{a["height"]}" loading="lazy" alt="{esc(a["alt"])}"></a><span>{esc(a["title"])}</span></li>'
+        f'<li><a href="/assets/media/{esc(a["file"])}"><img src="/assets/media/{esc(a["file"])}" width="{a["width"]}" height="{a["height"]}" loading="lazy" alt="{esc(a["alt"])}"></a></li>'
         for a in frames
     )
-    return f'<figure class="film-strip"><ol>{cells}</ol><figcaption>{esc(frames[0]["credit"])} <a href="{esc(frames[0]["sourcePage"])}">图片出处 ↗</a></figcaption></figure>'
+    return f'<figure class="film-strip"><ol>{cells}</ol></figure>'

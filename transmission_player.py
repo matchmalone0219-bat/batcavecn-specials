@@ -29,7 +29,8 @@ def transmission_controls(channel):
             src='/assets/' + t['audioFile'],
             label=f"TRACK {track_num:02d} / {total:02d} · {track_title}",
             isClimax=bool(t.get('isClimax')),
-            cues=t['cues']
+            cues=t['cues'],
+            summary=t.get('summary', '')
         ))
     payload = json.dumps(track_payload, ensure_ascii=False).replace('<', '\\u003c')
     fallback = "".join(f'<a href="/assets/{esc(t["audioFile"])}">{esc(t["title"])}</a> ' for t in tracks)
@@ -45,8 +46,8 @@ def transmission_controls(channel):
         f'</div>'
         f'</div>\n'
         '<canvas class="voice-waveform transmission-waveform" data-waveform width="720" height="140" role="img" aria-label="实时无线电波形">实时无线电波形</canvas>\n'
-        '<div class="recording-subtitles transmission-subtitles" aria-label="实时对白字幕">'
-        '<p class="label">LIVE TRANSMISSION SUBTITLES · 实时同步双语字幕</p>'
+        '<div class="recording-subtitles transmission-subtitles" aria-label="录音文字">'
+        f'<p class="label" data-transcript-heading>{"LISTENING NOTES · 本段导读" if tracks[0].get("summary") else "LIVE TRANSMISSION SUBTITLES · 实时同步双语字幕"}</p>'
         '<div class="subtitle-display" data-subtitle>'
         '<p class="sub-zh">点击播放，截获并解密信道音频。</p>'
         '<p class="sub-en">Click play to intercept and decode frequency audio.</p>'

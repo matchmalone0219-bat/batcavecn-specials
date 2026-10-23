@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent
 SECTIONS = [
     ('production', '制作与美术', '角色设定稿、分镜台本、黑卡纸绘制片头与未制作剧目档案。'),
     ('voices', '角色与声音', '十五组核心角色与英语原版配音，重现全员现场同棚合录传统。'),
-    ('films', '动画电影', '从院线经典《幽灵的面具》到关联长片的制作与4K修复版本考据。'),
+    ('films', '动画电影', '查阅《幽灵的面具》及关联长片的制作故事、发行版本与4K修复资料。'),
     ('publications', '漫画与出版', '衍生漫画、动画分集改编与全彩合集书目版本分类考据。'),
     ('music', '配乐档案', '暗夜交响：雪莉·沃克管弦配乐、经典片头主题与厂牌唱片收录署名。'),
     ('history', '创作与延续', 'Dark Deco美学起源、角色演化史与精神续作深度档案。'),
@@ -31,7 +31,7 @@ def production_preview():
     cards = []
     for number, (material_id, image_id) in enumerate((('batman-model', 'image-5'), ('leather-board', 'image-6')), 1):
         item, image = materials[material_id], images[image_id]
-        cards.append(f'<a class="folio-card" href="/tas/archive/production/#{material_id}"><div class="folio-mount"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></div><div class="folio-caption"><span class="label">0{number} / {esc(image["kind"])}</span><h3>{esc(item["title"])}</h3><p>{esc(image["title"])}</p></div></a>')
+        cards.append(f'<a class="folio-card" href="/tas/archive/production/#{material_id}"><div class="folio-mount"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["title"])}" loading="lazy"></div><div class="folio-caption"><span class="label">0{number} / {esc(image["kind"])}</span><h3>{esc(item["title"])}</h3></div></a>')
     return '<nav class="folio-index" aria-label="制作图册选页">' + ''.join(cards) + '</nav>'
 
 
@@ -62,25 +62,22 @@ def build_archive(data, shell):
         images.update({i['id']: i for i in film['images']})
     records, pages = [], {}
 
-    def refs(item):
-        return '<p class="archive-citations">依据：' + ' · '.join(f'<a href="{esc(sources[r]["url"])}">{esc(sources[r]["title"])} ↗</a>' for r in item['sourceRefs']) + '</p>'
-
     def picture(id, folio=False):
         i=images[id]; title=i.get('title',i.get('caption',''))
         thumb=' archive-thumbnail' if i['width']<400 else ''
-        return f'<figure class="archive-image{thumb}{" folio-sheet" if folio else ""}"><a href="/assets/media/{esc(i["file"])}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(title)}" loading="lazy"></a><figcaption>{esc(title)}<span>{esc(i["rights"])}</span>{refs(i)}</figcaption></figure>'
+        return f'<figure class="archive-image{thumb}{" folio-sheet" if folio else ""}"><a href="/assets/media/{esc(i["file"])}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(title)}" loading="lazy"></a></figure>'
 
     def record(item,base,tag='档案注释',image_id=None):
         title=item['title']; text=item['text']
         records.append(dict(title=title,original=title,summary=text,tags=[tag],site='tas',status=tag,url=base+'#'+item['id']))
-        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(tag)}</p><h2>{esc(title)}</h2><p>{esc(text)}</p>{picture(image_id, base == "/tas/archive/production/") if image_id else ""}<details class="archive-evidence"><summary>资料来源</summary>{refs(item)}</details></article>'
+        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(tag)}</p><h2>{esc(title)}</h2><p>{esc(text)}</p>{picture(image_id, base == "/tas/archive/production/") if image_id else ""}</article>'
 
     def facts(item):
         return '<dl class="archive-facts">'+''.join(f'<div><dt>{esc(LABELS[k])}</dt><dd>{esc("、".join(map(str,v)) if isinstance(v,list) else v)}</dd></div>' for k,v in item['facts'].items())+'</dl>'
 
     def work(item,base,image_id=None):
         records.append(dict(title=item['title'],original=item['title'],summary=item['relationship'],tags=[item['kind']],site='tas',status='作品／版本书目',url=base+'#'+item['id']))
-        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(item["kind"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["relationship"])}</p>{picture(image_id) if image_id else ""}{facts(item)}<details class="archive-evidence"><summary>资料来源</summary>{refs(item)}</details></article>'
+        return f'<article class="archive-entry" id="{esc(item["id"])}"><p class="label">{esc(item["kind"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["relationship"])}</p>{picture(image_id) if image_id else ""}{facts(item)}</article>'
 
     def page(slug,title,intro,content):
         base='/tas/archive/'+(slug+'/' if slug else '')
@@ -93,10 +90,10 @@ def build_archive(data, shell):
 
     lead=picture('image-1')
     cards='<nav class="screening-halls" aria-label="档案馆分区">'+''.join(hall(n,s,t,d) for n,(s,t,d) in enumerate(SECTIONS,1))+'</nav>'
-    page('','幕后光影：Dark Deco 动画档案','从美术手稿、传奇配音到版本考据，全景解构经典动画系列的诞生始末与艺术巅峰。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
+    page('','幕后光影：Dark Deco 动画档案','美术手稿、配音访谈与发行资料，记录了这部动画系列的制作过程。',f'<div class="archive-opening"><div><h2>黑卡纸上的光影，<br>定格暗夜传奇的起点。</h2><p>在纯黑卡纸上起稿，用好莱坞黑色电影的语法重构超级英雄动画。这里收录角色模型纸、分镜台本、主创访谈与经典衍生文献，还原 Dark Deco 黄金时代的艺术巅峰。</p><p class="fine">BTAS与TNBA各自编目；《披风斗士》作为现代精神续作独立对照。</p></div>{lead}</div>{cards}')
 
     base='/tas/archive/production/'
-    content=production_preview()+'<div class="archive-reading"><h2>重回动画制作台：手稿与镜头语言</h2><p>标准化角色模型纸严控透视与转身比例，动态分镜台本组织镜头节奏与光影调度。循着手稿编号与修型标记，重溯动画从纸面笔触到荧幕光影的诞生过程。</p>'
+    content=production_preview()+'<div class="archive-reading"><h2>重回动画制作台：手稿与镜头语言</h2><p>标准化角色模型纸严控透视与转身比例，动态分镜台本组织镜头节奏与光影调度。循着手稿编号与修型标记，了解画稿如何用于实际的动画制作。</p>'
     picture_map={'batman-model':'image-5','leather-board':'image-6','opening-board':'image-1','twoface-card':'image-2'}
     for item in second['materials']:
         content+=record(item,base,item['kind'],picture_map.get(item['id']))
@@ -109,7 +106,7 @@ def build_archive(data, shell):
         title=names.get(r['characterAsListed'],r['characterAsListed']); actor=r['englishActorAsListed']
         content+=f'<article id="{r["id"]}"><div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p></div><strong>{esc(actor)}</strong></article>'
         records.append(dict(title=title+' · '+actor,original=r['characterAsListed'],summary='BTAS英语版角色配音；华纳合辑公告列名。',tags=['配音','声音',actor],site='tas',status='角色声音',url=base+'#'+r['id']))
-    content+='</div>'+refs(second['roles'][0])+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
+    content+='</div>'+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
     page('voices','角色与声音','十五组核心角色英语原版声优名册，重温现场群录的黄金时代。',content)
 
     base='/tas/archive/films/'
@@ -121,25 +118,25 @@ def build_archive(data, shell):
     page('films','动画电影','院线长片与影像发行电影：故事、制作及版本资料。',content+'</div>')
     for film in films:
         content='<div class="archive-reading"><p class="original">'+esc(film['original'])+'</p>'+picture(film['hero'])+'<h2>电影基础档案</h2><dl class="archive-facts">'
-        content+=''.join(f'<div><dt>{esc(f["label"])}</dt><dd>{esc(f["value"])}</dd></div>' for f in film['facts'])+'</dl>'+refs(film)
+        content+=''.join(f'<div><dt>{esc(f["label"])}</dt><dd>{esc(f["value"])}</dd></div>' for f in film['facts'])+'</dl>'
         content+='<nav class="chapter-nav" aria-label="电影章节">'+''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in film['sections'])+'</nav>'
         for n, section in enumerate(film['sections']):
             text=paragraphs(section['body'])
             if section.get('containsSpoilers'):
                 text='<details class="spoiler section-spoiler"><summary>剧情与结局分析 · 含剧透，展开阅读</summary>'+text+'</details>'
-            content+=f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}<details class="archive-evidence"><summary>资料来源</summary>{refs(section)}</details></section>'
+            content+=f'<section id="{esc(section["id"])}"><h2>{esc(section["title"])}</h2>{text}</section>'
             if n == 0:
                 content+='<div class="research-gallery">'+''.join(picture(id) for id in film['gallery'])+'</div>'
         content+='<section><h2>关联阅读</h2>'+''.join(f'<a class="route-card" href="{esc(link["url"])}"><h3>{esc(link["title"])}</h3></a>' for link in film['readingLinks'])+'</section></div>'
         page('films/'+film['id'],film['title'],film['summary'],content)
         records[-1].update(original=film['original'],tags=film.get('tags',['电影','急冻人','SubZero']),status='电影档案')
-    f=second['film']; base='/tas/archive/films/mask-of-the-phantasm/'
+    base='/tas/archive/films/mask-of-the-phantasm/'
     content='<div class="archive-reading">'+picture('image-3')+'<h2>电影基础档案</h2><dl class="archive-facts">'
     for label,value in [('原片院线上映','1993-12-25'),('导演','Eric Radomski · Bruce Timm'),('故事','Alan Burnett'),('剧本','Alan Burnett · Paul Dini · Martin Pasko · Michael Reaves'),('英语主要配音','Kevin Conroy · Dana Delany · Mark Hamill')]:content+=f'<div><dt>{label}</dt><dd>{value}</dd></div>'
-    content+='</dl>'+refs(f)
+    content+='</dl>'
     for n in second['notes'][:3]:content+=record(n,base)
-    v=second['edition'];content+='<article class="archive-entry" id="restoration"><p class="label">2023 / RESTORATION</p><h2>从原片到4K修复版</h2><p>2023年7月26日华纳公告计划于9月12日发行4K版；公告版时长76分钟、画幅1.85:1，自1993原始剪辑摄影底片扫描。原片上映与修复版发行分开记录。</p><p>公告列附康罗伊纪念短片及一集Justice League Unlimited，未列该集片名。</p>'+picture('image-4')+refs(v)+'</article></div>'
-    page('films/mask-of-the-phantasm','幽灵的面具','Batman: Mask of the Phantasm · 银幕悲剧史诗与起源补完；剧作解析与4K修复版本考据。本文不泄露核心身份谜底。',content)
+    content+='<article class="archive-entry" id="restoration"><p class="label">2023 / RESTORATION</p><h2>从原片到4K修复版</h2><p>2023年7月26日华纳公告计划于9月12日发行4K版；公告版时长76分钟、画幅1.85:1，自1993原始剪辑摄影底片扫描。原片上映与修复版发行分开记录。</p><p>附录包含康罗伊纪念短片及一集Justice League Unlimited。</p>'+picture('image-4')+'</article></div>'
+    page('films/mask-of-the-phantasm','幽灵的面具','Batman: Mask of the Phantasm · 银幕悲剧史诗与起源补完；剧作解析与4K修复版本考据。',content)
     records.append(dict(title='幽灵的面具 · 2023修复版',original='Mask of the Phantasm 4K',summary='修复版本、画幅与公告附录。',tags=['电影','修复','4K'],site='tas',status='版本档案',url=base+'#restoration'))
 
     base='/tas/archive/publications/'
@@ -147,14 +144,14 @@ def build_archive(data, shell):
     cover={'mad-deluxe':'mad-love-deluxe','mad-stories':'mad-love-stories','continue-one':'continue-one','continue-two':'continue-two','adventures-omnibus':'adventures-omnibus'}
     for w in first['works']:
         if w['id'] in cover:content+=work(w,base,cover[w['id']])
-    page('publications','漫画与出版','从手绘分镜到实体油墨：单行本、官方合辑与版本演进考据。',content+'</div>')
+    page('publications','漫画与出版','单行本、官方合辑与再版资料，记录动画漫画的出版历程。',content+'</div>')
 
     base='/tas/archive/music/'; score=next(w for w in first['works'] if w['id']=='score-vol2')
     content='<div class="archive-reading"><p>片头交响主题、单集剧目配乐与独立限定唱片曲目分别编目。下表列出La-La Land Records官方黑胶与CD收录署名。</p><div class="table-scroll"><table><caption>厂牌曲目分组署名</caption><thead><tr><th scope="col">分组／篇目</th><th scope="col">厂牌列名</th></tr></thead><tbody>'
     for i,c in enumerate(first['musicCredits']):
         content+=f'<tr id="music-{i+1}"><th scope="row">{esc(c["title"])}</th><td>{esc("、".join(c["albumGroupCredit"]))}</td></tr>'
         records.append(dict(title=c['title']+' · 配乐',original=c['title'],summary='厂牌分组署名：'+'、'.join(c['albumGroupCredit']),tags=['配乐','音乐']+c['albumGroupCredit'],site='tas',status='配乐档案',url=base+f'#music-{i+1}'))
-    content+='</tbody></table></div>'+refs(score)+'<p>Heart of Ice分组同时列Todd Hayen与Shirley Walker；两位共同列名。</p>'+work(score,base)+'</div>'
+    content+='</tbody></table></div><p>Heart of Ice分组同时列Todd Hayen与Shirley Walker；两位共同列名。</p>'+work(score,base)+'</div>'
     page('music','配乐档案','交响乐团现场实录、经典黑色主题变奏与权威唱片署名考证。',content)
 
     base='/tas/archive/history/';content='<div class="archive-reading">'

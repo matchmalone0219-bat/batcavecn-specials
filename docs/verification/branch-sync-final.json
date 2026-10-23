@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-23",
+  "pages": 160,
+  "searchRecords": 521,
+  "internalLinksAndAnchors": 5845,
+  "pagesLinksAndAssets": 7553,
+  "checks": [
+    {
+      "check": "python3 verify.py",
+      "exit": 0
+    },
+    {
+      "check": "python3 verify-conroy.py",
+      "exit": 0
+    },
+    {
+      "check": "python3 verify-build.py",
+      "exit": 0
+    },
+    {
+      "check": "node verify-intro.js",
+      "exit": 0
+    },
+    {
+      "check": "node verify-arkham-nav.js",
+      "exit": 0
+    },
+    {
+      "check": "node verify-arkham-menu.js",
+      "exit": 0
+    },
+    {
+      "check": "node verify-investigation.js",
+      "exit": 0
+    },
+    {
+      "check": "node verify-tas-motion.js",
+      "exit": 0
+    },
+    {
+      "check": "node --check app.js",
+      "exit": 0
+    },
+    {
+      "check": "python3 prepare_pages.py --base-path /batcavecn-specials",
+      "exit": 0
+    },
+    {
+      "check": "daily-source python3 build.py",
+      "exit": 0
+    },
+    {
+      "check": "daily-source python3 prepare_pages.py --base-path /batcavecn-specials",
+      "exit": 0
+    }
+  ],
+  "browser": {
+    "portraits": [
+      {
+        "type": "patients",
+        "id": "joker",
+        "src": "/assets/media/recording-portraits/asylum-joker.jpg",
+        "alt": "小丑",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "harley",
+        "src": "/assets/media/recording-portraits/asylum-harley.jpg",
+        "alt": "哈莉·奎茵",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "croc",
+        "src": "/assets/media/recording-portraits/asylum-croc.jpg",
+        "alt": "杀手鳄",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "riddler",
+        "src": "/assets/media/recording-portraits/city-riddler.jpg",
+        "alt": "谜语人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "zsasz",
+        "src": "/assets/media/recording-portraits/asylum-zsasz.jpg",
+        "alt": "维克多·扎斯",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "ivy",
+        "src": "/assets/media/recording-portraits/asylum-ivy.jpg",
+        "alt": "毒藤女",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "scarecrow",
+        "src": "/assets/media/recording-portraits/asylum-scarecrow.jpg",
+        "alt": "稻草人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-mad-hatter",
+        "src": "/assets/media/recording-portraits/city-mad-hatter.jpg",
+        "alt": "疯帽匠",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-riddler",
+        "src": "/assets/media/recording-portraits/city-riddler.jpg",
+        "alt": "谜语人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-catwoman",
+        "src": "/assets/media/recording-portraits/city-catwoman.jpg",
+        "alt": "猫女",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-freeze",
+        "src": "/assets/media/recording-portraits/city-freeze.jpg",
+        "alt": "急冻人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-joker",
+        "src": "/assets/media/recording-portraits/city-joker.jpg",
+        "alt": "小丑",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-penguin",
+        "src": "/assets/media/recording-portraits/city-penguin.jpg",
+        "alt": "企鹅人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "patients",
+        "id": "city-two-face",
+        "src": "/assets/media/recording-portraits/city-two-face.jpg",
+        "alt": "双面人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "joker-city",
+        "src": "/assets/media/recording-portraits/city-joker.jpg",
+        "alt": "小丑",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "sharp-city",
+        "src": "/assets/media/recording-portraits/city-sharp.jpg",
+        "alt": "昆西·夏普",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "zsasz-city",
+        "src": "/assets/media/recording-portraits/city-zsasz.jpg",
+        "alt": "维克多·扎斯",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "src": "/assets/media/recording-portraits/knight-arkham-knight.jpg",
+        "alt": "阿卡姆骑士",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-scarecrow",
+        "src": "/assets/media/recording-portraits/knight-scarecrow.jpg",
+        "alt": "稻草人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-harley",
+        "src": "/assets/media/recording-portraits/knight-harley.jpg",
+        "alt": "哈莉·奎茵",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-riddler",
+        "src": "/assets/media/recording-portraits/knight-riddler.jpg",
+        "alt": "谜语人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-penguin",
+        "src": "/assets/media/recording-portraits/knight-penguin.jpg",
+        "alt": "企鹅人",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-stagg",
+        "src": "/assets/media/recording-portraits/knight-stagg.jpg",
+        "alt": "斯塔格企业飞艇",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-joker-case",
+        "src": "/assets/media/recording-portraits/knight-batman.jpg",
+        "alt": "蝙蝠侠",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-pyg",
+        "src": "/assets/media/recording-portraits/knight-pyg.jpg",
+        "alt": "猪面教授",
+        "width": 480,
+        "height": 560,
+        "shown": 96
+      }
+    ],
+    "views": [
+      {
+        "width": 1440,
+        "type": "patients",
+        "id": "joker",
+        "expanded": false,
+        "overflow": false,
+        "game": "asylum"
+      },
+      {
+        "width": 1440,
+        "type": "patients",
+        "id": "joker",
+        "expanded": true,
+        "overflow": false,
+        "game": "asylum"
+      },
+      {
+        "width": 1440,
+        "type": "patients",
+        "id": "city-catwoman",
+        "expanded": false,
+        "overflow": false,
+        "game": "city"
+      },
+      {
+        "width": 1440,
+        "type": "patients",
+        "id": "city-catwoman",
+        "expanded": true,
+        "overflow": false,
+        "game": "city"
+      },
+      {
+        "width": 1440,
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "expanded": false,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 1440,
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "expanded": true,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 1440,
+        "type": "transmissions",
+        "id": "knight-stagg",
+        "expanded": false,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 1440,
+        "type": "transmissions",
+        "id": "knight-stagg",
+        "expanded": true,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 390,
+        "type": "patients",
+        "id": "joker",
+        "expanded": false,
+        "overflow": false,
+        "game": "asylum"
+      },
+      {
+        "width": 390,
+        "type": "patients",
+        "id": "joker",
+        "expanded": true,
+        "overflow": false,
+        "game": "asylum"
+      },
+      {
+        "width": 390,
+        "type": "patients",
+        "id": "city-catwoman",
+        "expanded": false,
+        "overflow": false,
+        "game": "city"
+      },
+      {
+        "width": 390,
+        "type": "patients",
+        "id": "city-catwoman",
+        "expanded": true,
+        "overflow": false,
+        "game": "city"
+      },
+      {
+        "width": 390,
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "expanded": false,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 390,
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "expanded": true,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 390,
+        "type": "transmissions",
+        "id": "knight-stagg",
+        "expanded": false,
+        "overflow": false,
+        "game": "arkham-knight"
+      },
+      {
+        "width": 390,
+        "type": "transmissions",
+        "id": "knight-stagg",
+        "expanded": true,
+        "overflow": false,
+        "game": "arkham-knight"
+      }
+    ],
+    "playback": [
+      {
+        "type": "patients",
+        "id": "city-catwoman",
+        "image": "/batcavecn-specials/assets/media/recording-portraits/city-catwoman.jpg",
+        "src": "http://127.0.0.1:8882/batcavecn-specials/assets/audio/patient-city-catwoman-01.m4a",
+        "time": 0.064,
+        "duration": 51.306667
+      },
+      {
+        "type": "transmissions",
+        "id": "knight-oracle",
+        "image": "/batcavecn-specials/assets/media/recording-portraits/knight-arkham-knight.jpg",
+        "src": "http://127.0.0.1:8882/batcavecn-specials/assets/audio/transmission-knight-oracle-01.m4a",
+        "time": 0.063208,
+        "duration": 87.296
+      }
+    ],
+    "errors": [],
+    "failedRequests": [],
+    "profiles": [
+      {
+        "path": "/voices/",
+        "width": 1440,
+        "overflow": false,
+        "mainLinks": 3,
+        "css": true,
+        "episodes": 109,
+        "findingSections": 7
+      },
+      {
+        "path": "/arkham/people/kevin-conroy/",
+        "width": 1440,
+        "overflow": false,
+        "mainLinks": 0,
+        "css": true,
+        "findingSections": 7
+      },
+      {
+        "path": "/tas/people/kevin-conroy/",
+        "width": 1440,
+        "overflow": false,
+        "mainLinks": 0,
+        "css": true,
+        "findingSections": 7
+      },
+      {
+        "path": "/voices/",
+        "width": 390,
+        "overflow": false,
+        "mainLinks": 3,
+        "css": true,
+        "episodes": 109,
+        "findingSections": 7
+      },
+      {
+        "path": "/arkham/people/kevin-conroy/",
+        "width": 390,
+        "overflow": false,
+        "mainLinks": 0,
+        "css": true,
+        "findingSections": 7
+      },
+      {
+        "path": "/tas/people/kevin-conroy/",
+        "width": 390,
+        "overflow": false,
+        "mainLinks": 0,
+        "css": true,
+        "findingSections": 7
+      }
+    ]
+  },
+  "sourceReleaseIdentical": true,
+  "newAudioAndPortraitHashesPreserved": true,
+  "copyEdits": [
+    {
+      "file": "arkham-transmissions.json",
+      "before": "从接触、行动计划到最终目标，两名盟友逐步说出各自的打算。",
+      "after": "稻草人与阿卡姆骑士讨论合作条件、行动计划和各自的目标。",
+      "occurrences": 2
+    },
+    {
+      "file": "arkham-transmissions.json",
+      "before": "从马戏团广告，到写给儿子的留言，猪面教授讲述自己的世界。",
+      "after": "猪面教授留下马戏团广告和写给儿子的留言，讲述自己的经历与执念。",
+      "occurrences": 2
+    },
+    {
+      "file": "arkham-transmissions.json",
+      "before": "一名科学家留下的三段自白，回溯医疗研究如何走向武器生意。",
+      "after": "一名科学家留下三段自白，讲述医疗研究被用于武器开发的经历。",
+      "occurrences": 2
+    },
+    {
+      "file": "patient-interviews.json",
+      "before": "听斯特兰奇怎样从一次潜入事件，追问猫女与蝙蝠侠之间的关系。",
+      "after": "一次潜入事件成为审问的切入点，斯特兰奇借此追问猫女与蝙蝠侠的关系。",
+      "occurrences": 1
+    },
+    {
+      "file": "patient-interviews.json",
+      "before": "从财产、韦恩家族与地盘冲突中，听他如何建立自己的权力叙事。",
+      "after": "企鹅人谈起财产、韦恩家族和地盘冲突，处处强调自己的权势。",
+      "occurrences": 1
+    }
+  ],
+  "branch": "feature/deep-archive-expansion",
+  "remoteBase": "44f7cb371d2a9fc4523f57b854f9639228fc72b5",
+  "mainBase": "91310127e78b855b113938c66299731503df6b82",
+  "artbookContentImplemented": false
+}

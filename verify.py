@@ -77,26 +77,26 @@ for image in archive_images:
 for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
-assert len(ark_pages) == 8 and len(ark_records) == 254 and len(ark_images) == 23
-assert len(interactive_pages) == 3 and len(interactive_records) == 14
+assert len(ark_pages) == 8 and len(ark_records) == 246 and len(ark_images) == 23
+assert len(interactive_pages) == 3 and len(interactive_records) == 31
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']
 trans_terminal = interactive_pages['arkham/transmissions/index.html']
-assert patient_terminal.count('data-patient-file=') == 7
-assert patient_terminal.count('<details class="spoiler patient-recording">') == 7
+assert patient_terminal.count('data-patient-file=') == 14
+assert patient_terminal.count('<details class="spoiler patient-recording">') == 14
 assert '<iframe' not in patient_terminal and ' autoplay' not in patient_terminal
 assert '病历编号' not in patient_terminal
-assert trans_terminal.count('data-transmission-channel=') == 1
-assert trans_terminal.count('data-waveform') == 1
-assert trans_terminal.count('data-subtitle') == 1
-assert trans_terminal.count('data-tape=') == 6
+assert trans_terminal.count('data-transmission-channel=') == 11
+assert trans_terminal.count('data-waveform') == 11
+assert trans_terminal.count('data-subtitle') == 11
+assert trans_terminal.count('data-tape=') == 36
 assert 'Only You' in trans_terminal
 for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['cases']:
     assert f'id="case-{c["id"]}"' in detective
     assert len(c['evidence']) == 3
     assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
 for filename, body in pages.items():
-    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages or filename == 'arkham/archive/interviews/index.html')
+    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages or filename == 'arkham/archive/asylum-history/index.html')
 print('PASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
@@ -247,9 +247,9 @@ for a in catalog_art:
     assert hashlib.sha256((DIST / "assets/media" / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     catalog_page = pages["arkham/catalog/index.html"]
     assert catalog_page.count(f'src="/assets/media/{a["file"]}"') == 2
-    assert f'href="{a["sourcePage"]}"' in catalog_page
+    assert f'href="{a["sourcePage"]}"' not in catalog_page
     assert all(a["file"] not in body for filename, body in pages.items() if filename != "arkham/catalog/index.html")
-print("PASS: eight landscape catalogue key-art images; source links, original bytes and page scope")
+print("PASS: eight landscape catalogue key-art images; source metadata retained, original bytes and page scope")
 episode_media = json.loads((CONTENT.parent / 'episode-media.json').read_text())['assets']
 assert len(episode_media) == 412 and len({a['sha256'] for a in episode_media}) == 412
 assert len({a['item'] for a in episode_media}) == 109
@@ -265,65 +265,100 @@ for a in episode_media:
 print('PASS: eight Arkham archive pages; 23 research images; 412 episode images; history identity, final image and story spoilers collapsed')
 
 interviews=json.loads((CONTENT.parent/'patient-interviews.json').read_text())
-assert len(interviews['patients'])==7
-assert len({p['videoId'] for p in interviews['patients']})==7
+assert len(interviews['patients'])==14
+legacy_patients = [p for p in interviews['patients'] if p['gameId'] == 'asylum']
+assert len(legacy_patients) == 7
+assert len({p['videoId'] for p in legacy_patients})==7
 interview_html=ark_pages['arkham/archive/interviews/index.html']
-assert '<iframe ' not in interview_html and interview_html.count('<details class="spoiler">')==7
-for p in interviews['patients']:
+assert 'http-equiv="refresh"' in interview_html and '../../patients/' in interview_html
+assert "new URL('../../patients/', location.href)" in interview_html
+assert '<audio controls' not in interview_html and 'data-tape-data' not in interview_html
+assert not any('/arkham/archive/interviews/' in record['url'] for record in search)
+assert not any('/arkham/archive/interviews/' in href for page in parsed.values() for href in page.links)
+assert '患者临床录音' not in pages['arkham/archive/index.html']
+for p in legacy_patients:
     assert p['watchUrl']=='https://www.youtube.com/watch?v='+p['videoId']
     assert p['embedUrl']=='https://www.youtube.com/embed/'+p['videoId']
     assert p['biliPage'] in range(1,8) and p['biliDuration']>0
     assert p['biliUrl'].endswith('?p='+str(p['biliPage']))
-    section=interview_html.split('id="'+p['id']+'"',1)[1].split('</article>',1)[0]
-    assert section.index('<details class="spoiler">')<section.index('<audio ')<section.index('</details>')
+    assert f'id="{p["id"]}"' in interview_html
+    assert f'href="/arkham/patients/#patient-{p["id"]}"' in interview_html
+    section=patient_terminal.split('id="patient-'+p['id']+'"',1)[1].split('</article>',1)[0]
+    assert section.index('<details class="spoiler patient-recording">')<section.index('<audio ')<section.index('</details>')
+    assert p['gist'] in section and p['angle'] in section and p['identity'] in section
+    result = next(record for record in search if record['url'] == '/arkham/patients/#patient-' + p['id'])
+    assert p['english'] in result['original'] and {'患者访谈', '原声录音', '阿卡姆疯人院'} <= set(result['tags'])
     assert ' open' not in section and 'autoplay=1' not in section
 for p in interviews['patients']:
-    assert len(p['tapes']) == 5 and p['subtitleSource']
+    assert len(p['tapes']) == (4 if p['id'] == 'city-riddler' else 5)
+    if p['gameId'] == 'asylum': assert p['subtitleSource']
     previous_end = 0
     for n, tape in enumerate(p['tapes'], 1):
         audio = CONTENT.parent / tape['audioFile']
-        assert tape['number'] == n and tape['sourceStart'] == previous_end
+        assert tape['number'] == n
+        if p['gameId'] == 'asylum': assert tape['sourceStart'] == previous_end
         assert abs(tape['duration'] - (tape['sourceEnd'] - tape['sourceStart'])) < .08
         previous_end = tape['sourceEnd']
         assert audio.suffix == '.m4a' and audio.is_file()
         assert audio.stat().st_size == tape['audioBytes']
         assert hashlib.sha256(audio.read_bytes()).hexdigest() == tape['audioSha256']
         assert hashlib.sha256((DIST / 'assets' / tape['audioFile']).read_bytes()).hexdigest() == tape['audioSha256']
-        assert tape['cues']
+        assert bool(tape['cues']) != bool(tape.get('summary'))
         end = 0
         for cue in tape['cues']:
             assert end <= cue['start'] < cue['end'] <= tape['duration'] + .08
             assert cue['text'] and cue['text'] not in json.dumps(interactive_records, ensure_ascii=False)
             end = cue['end']
-    assert abs(previous_end - p['biliDuration']) < 2
-    assert p['audioSource'] == 'patient-bili'
-for html in [interview_html, patient_terminal]:
-    assert html.count('<audio controls preload="none" hidden') == 7
-    assert html.count('data-tape-data>') == 7 and html.count('data-tape="') == 35
-    assert html.count('data-subtitle>') == 7 and html.count('data-waveform ') == 7
+    if p['gameId'] == 'asylum':
+        assert abs(previous_end - p['biliDuration']) < 2
+        assert p['audioSource'] == 'patient-bili'
+    else:
+        assert p['audioSource'] == 'local-city-recording-20261022'
+        assert all(t['summary'] and not t['cues'] for t in p['tapes'])
+for html in [patient_terminal]:
+    assert html.count('<audio controls preload="none" hidden') == 14
+    assert html.count('data-tape-data>') == 14 and html.count('data-tape="') == 69
+    assert html.count('data-subtitle>') == 14 and html.count('data-waveform ') == 14
     assert 'youtube.com/embed/' not in html
     assert '<audio controls preload="none" hidden src=' not in html
-assert len(list((DIST / 'assets/audio').glob('patient-*.m4a'))) == 35
+assert len(list((DIST / 'assets/audio').glob('patient-*.m4a'))) == 69
 
 trans_json = json.loads((CONTENT.parent / 'arkham-transmissions.json').read_text())
-assert len(trans_json['channels']) == 1
+assert len(trans_json['channels']) == 11
+assert sum(len(ch['tracks']) for ch in trans_json['channels']) == 36
+assert sum(len(ch['tracks']) for ch in trans_json['channels'] if ch['gameId']=='arkham-knight') == 22
 for ch in trans_json['channels']:
-    assert len(ch['tracks']) == 6
+    if ch['id'] == 'joker-city':
+        assert len(ch['tracks']) == 6
+        assert ch['tracks'][-1]['audioFile'].endswith('only-you.m4a')
+    assert f'id="channel-{ch["id"]}"' in trans_terminal
+    assert 'transmission-recording' in trans_terminal
     for t in ch['tracks']:
         audio = CONTENT.parent / t['audioFile']
         assert audio.suffix == '.m4a' and audio.is_file()
         assert audio.stat().st_size == t['audioBytes']
         assert hashlib.sha256(audio.read_bytes()).hexdigest() == t['audioSha256']
         assert hashlib.sha256((DIST / 'assets' / t['audioFile']).read_bytes()).hexdigest() == t['audioSha256']
-        assert t['cues']
+        assert bool(t['cues']) != bool(t.get('summary'))
         end = 0
         for cue in t['cues']:
             assert end <= cue['start'] < cue['end'] <= t['duration'] + .15
             assert cue['text'] and cue['en']
             end = cue['end']
-assert len(list((DIST / 'assets/audio').glob('transmission-*.m4a'))) == 6
-assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 41
-print('PASS: 35 patient tapes + 6 transmission tracks, lossless cuts, bounded bilingual cues, copied assets, on-demand sources, collapsed players and original sources')
+assert len(list((DIST / 'assets/audio').glob('transmission-*.m4a'))) == 36
+for r in history['records']:
+    t = r['audio']
+    audio = CONTENT.parent / t['audioFile']
+    assert audio.stat().st_size == t['audioBytes']
+    assert hashlib.sha256(audio.read_bytes()).hexdigest() == t['audioSha256']
+    assert hashlib.sha256((DIST / 'assets' / t['audioFile']).read_bytes()).hexdigest() == t['audioSha256']
+    assert abs(t['duration'] - (t['sourceEnd']-t['sourceStart'])) < .08
+    section=ark_pages['arkham/archive/asylum-history/index.html'].split('id="'+r['id']+'"',1)[1].split('</article>',1)[0]
+    assert section.index('<details class="spoiler">') < section.index('<audio ') < section.index('</details>')
+    assert 'preload="none"' in section
+assert len(list((DIST / 'assets/audio').glob('chronicle-*.m4a'))) == 24
+assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 129
+print('PASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, bounded cues or explicit listening notes, on-demand players and spoiler boundaries')
 
 # The two topics share biography data, not Arkham navigation or search scope.
 for path, page in parsed.items():
@@ -345,7 +380,7 @@ assert blackgate['date'] == '2013-10-25' and blackgate['developer'] == 'Armature
 assert squad['date'] == '2024-02-02' and squad['developer'] == 'Rocksteady Studios'
 assert squad['actor'] == 'Kevin Conroy' and squad['actorLink'] == '/people/kevin-conroy/'
 blackgate_html = pages['arkham/games/arkham-origins-blackgate/index.html']
-assert 'Steam Deluxe Edition（2014）' in blackgate_html and '2014-04-01' in blackgate_html
+assert 'Steam Deluxe Edition' in blackgate_html and '2014-04-01' in blackgate_html
 assert '待核' not in blackgate_html and '蝙蝠侠英语配音' not in blackgate_html
 squad_html = pages['arkham/games/suicide-squad-kill-the-justice-league/index.html']
 assert '/arkham/people/kevin-conroy/' in squad_html
@@ -371,7 +406,8 @@ catalog = pages["tas/catalog/index.html"]
 for field in ("episode-villain", "episode-writer", "episode-director", "episode-studio"):
     assert f'id="{field}"' in catalog
 assert catalog.count('class="episode-credits"') == 85 and catalog.count("data-villains=") == 85
-assert credits_doc["source"]["url"] in catalog
+assert credits_doc["source"]["url"] not in catalog
+assert credits_doc["source"]["url"].startswith("https://")
 assert not episode_credits["p-o-v"]["villains"] and not episode_credits["tyger-tyger"]["villains"]
 assert '腹语者与疤面 · 4集' in catalog and '疯帽匠 · 2集' in catalog
 for episode_id, record in episode_credits.items():
@@ -387,7 +423,7 @@ assert all('继续阅读动画与游戏' not in html and '回到共同人物档�
 assert '十年传奇' not in pages['arkham/games/arkham-knight/index.html']
 assert '被公认为' not in pages['tas/episodes/almost-got-im/index.html']
 print('PASS: catalogue conceals spoiler roles; same-name and cameo tags corrected; search UI scoped; actor copy and reviewed wording corrected')
-print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source listed')
+print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source metadata retained')
 clues = pages["arkham/archive/clues/index.html"]
 zone_links = re.findall(r'class="clue-zone" href="#([^"]+)"', clues)
 assert len(zone_links) == len(set(zone_links)) and all(f'id="{zone}"' in clues for zone in zone_links)
@@ -424,7 +460,7 @@ for riddle in riddle_doc["riddles"]:
     assert form and all(riddle_hash(answer) in form.group(1).split() for answer in riddle["answers"])
     assert f'id="{riddle["case"]}"' in riddler_page and riddle["answers"][0] not in riddler_page.split('data-riddles')[1].split('</section>')[0]
 hub = pages["arkham/archive/index.html"]
-assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 7' in hub and '0 / 6' in hub
+assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 14' in hub and '0 / 36' in hub
 print(f'PASS: {len(riddle_doc["riddles"])} hashed Riddler puzzles link to their cases; investigation record lists cases, tapes, transmissions and puzzles')
 for route_key, html in pages.items():
     if route_key.endswith(".html") and "<head>" in html:
@@ -470,9 +506,9 @@ clue_html = pages["arkham/archive/clues/index.html"]
 assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
-for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html")]:
-    assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 11, room_key
-print('PASS: Arkham archive rail on 8 pages; list + preview browsing for 8 games, 138 clues and Arkham collectibles; TAS collectibles unchanged')
+for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k != 'arkham/archive/interviews/index.html']:
+    assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 10, room_key
+print('PASS: Arkham archive rail on 7 pages; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained')
 
 # TAS programme, screening halls and end-credit roster.
 catalog_html = (DIST / 'tas/catalog/index.html').read_text()

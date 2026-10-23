@@ -1,0 +1,1703 @@
+{
+  "book": {
+    "id": "animated-1998",
+    "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated",
+    "images": 168,
+    "title": "Batman Animated",
+    "authors": [
+      "Paul Dini",
+      "Chip Kidd"
+    ],
+    "photographer": "Geoff Spear",
+    "introduction": "Bruce Timm",
+    "year": 1998,
+    "publisher": "HarperEntertainment / HarperCollins",
+    "paperbackISBN": "0-06-107327-X",
+    "scannedPrinting": "Third Printing"
+  },
+  "count": 168,
+  "bytes": 105320381,
+  "ocrNonempty": 153,
+  "items": [
+    {
+      "file": "BA_pg000A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg000A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 491302,
+      "ocrLineCount": 4,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg000B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg000B.jpg",
+      "width": 1271,
+      "height": 3508,
+      "bytes": 298780,
+      "ocrLineCount": 11,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg000C.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg000C.jpg",
+      "width": 1336,
+      "height": 3508,
+      "bytes": 266571,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg000D.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg000D.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 528679,
+      "ocrLineCount": 4,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg001.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg001.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 494261,
+      "ocrLineCount": 10,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg002.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg002.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 475046,
+      "ocrLineCount": 1,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg003.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg003.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 759023,
+      "ocrLineCount": 15,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg004.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg004.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 247707,
+      "ocrLineCount": 23,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg005.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg005.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 717150,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg006and7.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg006and7.jpg",
+      "width": 5104,
+      "height": 3508,
+      "bytes": 525358,
+      "ocrLineCount": 9,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg008.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg008.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 595217,
+      "ocrLineCount": 39,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg009.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg009.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 738226,
+      "ocrLineCount": 37,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg010.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg010.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 699771,
+      "ocrLineCount": 26,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg011.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg011.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 505332,
+      "ocrLineCount": 73,
+      "ocrDetected": true,
+      "section": "封面与书前"
+    },
+    {
+      "file": "BA_pg012.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg012.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 700728,
+      "ocrLineCount": 54,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg013.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg013.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 697537,
+      "ocrLineCount": 84,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg014.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg014.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 663705,
+      "ocrLineCount": 80,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg015.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg015.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 490091,
+      "ocrLineCount": 10,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg016.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg016.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 1022557,
+      "ocrLineCount": 8,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg017.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg017.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 742008,
+      "ocrLineCount": 50,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg018A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg018A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 470655,
+      "ocrLineCount": 51,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg018B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg018B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 488153,
+      "ocrLineCount": 42,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg019A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg019A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 508840,
+      "ocrLineCount": 42,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg019B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg019B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 478179,
+      "ocrLineCount": 48,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg020Aand020B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg020Aand020B.jpg",
+      "width": 5104,
+      "height": 3508,
+      "bytes": 1731495,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg021.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg021.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 794217,
+      "ocrLineCount": 85,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg022.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg022.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 726753,
+      "ocrLineCount": 87,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg023.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg023.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 270800,
+      "ocrLineCount": 4,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg024.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg024.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 642705,
+      "ocrLineCount": 2,
+      "ocrDetected": true,
+      "section": "导言与创作起点"
+    },
+    {
+      "file": "BA_pg025.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg025.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 743204,
+      "ocrLineCount": 50,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg026.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg026.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 663037,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg027.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg027.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 803844,
+      "ocrLineCount": 59,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg028.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg028.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 748483,
+      "ocrLineCount": 36,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg029.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg029.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 495295,
+      "ocrLineCount": 11,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg030.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg030.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 512951,
+      "ocrLineCount": 13,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg031.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg031.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 965853,
+      "ocrLineCount": 125,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg032.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg032.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 484317,
+      "ocrLineCount": 15,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg033.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg033.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 875845,
+      "ocrLineCount": 110,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg034.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg034.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 798733,
+      "ocrLineCount": 81,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg035.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg035.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 698671,
+      "ocrLineCount": 60,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg036.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg036.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 642289,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "试片、制作、声音与音乐"
+    },
+    {
+      "file": "BA_pg037.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg037.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 675951,
+      "ocrLineCount": 2,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg038.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg038.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 775173,
+      "ocrLineCount": 55,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg039.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg039.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 623445,
+      "ocrLineCount": 12,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg040.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg040.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 688305,
+      "ocrLineCount": 10,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg041.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg041.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 1009000,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg042.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg042.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 823275,
+      "ocrLineCount": 55,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg043.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg043.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 753780,
+      "ocrLineCount": 16,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg044.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg044.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 671135,
+      "ocrLineCount": 48,
+      "ocrDetected": true,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg045and046.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg045and046.jpg",
+      "width": 5104,
+      "height": 3508,
+      "bytes": 1558312,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "哥谭环境"
+    },
+    {
+      "file": "BA_pg047.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg047.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 653534,
+      "ocrLineCount": 65,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg048.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg048.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 530799,
+      "ocrLineCount": 13,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg049.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg049.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 612910,
+      "ocrLineCount": 8,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg050.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg050.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 499300,
+      "ocrLineCount": 7,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg051.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg051.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 826490,
+      "ocrLineCount": 8,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg052.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg052.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 606879,
+      "ocrLineCount": 20,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg053.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg053.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 573478,
+      "ocrLineCount": 45,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg054.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg054.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 608662,
+      "ocrLineCount": 54,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg055.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg055.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 554031,
+      "ocrLineCount": 22,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg056.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg056.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 709745,
+      "ocrLineCount": 65,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg057.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg057.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 510211,
+      "ocrLineCount": 50,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg058.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg058.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 453713,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg059.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg059.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 500161,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg060.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg060.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 631156,
+      "ocrLineCount": 38,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg061.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg061.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 486830,
+      "ocrLineCount": 3,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg062.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg062.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 781305,
+      "ocrLineCount": 26,
+      "ocrDetected": true,
+      "section": "英雄、装备与周边"
+    },
+    {
+      "file": "BA_pg063.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg063.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 777076,
+      "ocrLineCount": 12,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg064.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg064.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 622726,
+      "ocrLineCount": 36,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg065.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg065.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 837978,
+      "ocrLineCount": 26,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg066.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg066.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 583572,
+      "ocrLineCount": 7,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg067.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg067.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 793754,
+      "ocrLineCount": 26,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg068.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg068.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 781083,
+      "ocrLineCount": 59,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg069.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg069.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 615374,
+      "ocrLineCount": 39,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg070.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg070.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 538779,
+      "ocrLineCount": 67,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg071.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg071.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 505852,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg072.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg072.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 525146,
+      "ocrLineCount": 1,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg073.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg073.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 855583,
+      "ocrLineCount": 27,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg074.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg074.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 847359,
+      "ocrLineCount": 67,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg075.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg075.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 692319,
+      "ocrLineCount": 127,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg076.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg076.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 838014,
+      "ocrLineCount": 8,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg077.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg077.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 204671,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg078.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg078.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 782080,
+      "ocrLineCount": 1,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg079.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg079.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 792688,
+      "ocrLineCount": 72,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg080.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg080.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 651459,
+      "ocrLineCount": 42,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg081.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg081.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 175465,
+      "ocrLineCount": 2,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg082.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg082.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 584355,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg083.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg083.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 561461,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg084.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg084.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 444009,
+      "ocrLineCount": 39,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg085.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg085.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 711694,
+      "ocrLineCount": 81,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg086.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg086.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 581515,
+      "ocrLineCount": 66,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg087.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg087.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 724806,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg088.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg088.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 366672,
+      "ocrLineCount": 33,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg089.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg089.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 679592,
+      "ocrLineCount": 30,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg090.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg090.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 1401925,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg091.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg091.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 668845,
+      "ocrLineCount": 37,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg092.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg092.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 664246,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg093.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg093.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 864822,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg094.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg094.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 719532,
+      "ocrLineCount": 24,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg095.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg095.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 775526,
+      "ocrLineCount": 26,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg096.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg096.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 464753,
+      "ocrLineCount": 11,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg097.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg097.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 617507,
+      "ocrLineCount": 47,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg098.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg098.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 813110,
+      "ocrLineCount": 59,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg099.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg099.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 709078,
+      "ocrLineCount": 58,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg100.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg100.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 577880,
+      "ocrLineCount": 19,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg101.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg101.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 749777,
+      "ocrLineCount": 40,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg102A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg102A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 627177,
+      "ocrLineCount": 43,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg102B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg102B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 370302,
+      "ocrLineCount": 5,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg103Aand103B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg103Aand103B.jpg",
+      "width": 5104,
+      "height": 3508,
+      "bytes": 1316821,
+      "ocrLineCount": 1,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg104.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg104.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 619331,
+      "ocrLineCount": 22,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg105.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg105.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 970940,
+      "ocrLineCount": 37,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg106.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg106.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 411473,
+      "ocrLineCount": 22,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg107.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg107.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 453413,
+      "ocrLineCount": 21,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg108.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg108.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 510926,
+      "ocrLineCount": 57,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg109.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg109.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 609729,
+      "ocrLineCount": 34,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg110.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg110.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 607367,
+      "ocrLineCount": 66,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg111.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg111.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 847284,
+      "ocrLineCount": 50,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg112.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg112.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 649398,
+      "ocrLineCount": 81,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg113.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg113.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 671220,
+      "ocrLineCount": 74,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg114.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg114.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 672807,
+      "ocrLineCount": 19,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg115.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg115.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 501038,
+      "ocrLineCount": 19,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg116.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg116.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 584967,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg117.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg117.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 567268,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg118.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg118.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 412868,
+      "ocrLineCount": 12,
+      "ocrDetected": true,
+      "section": "反派、漫画与分镜"
+    },
+    {
+      "file": "BA_pg119.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg119.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 634955,
+      "ocrLineCount": 57,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg120.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg120.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 747397,
+      "ocrLineCount": 11,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg121.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg121.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 650621,
+      "ocrLineCount": 14,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg122.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg122.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 775743,
+      "ocrLineCount": 23,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg123.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg123.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 590991,
+      "ocrLineCount": 57,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg124.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg124.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 808758,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg125.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg125.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 638627,
+      "ocrLineCount": 7,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg126.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg126.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 422761,
+      "ocrLineCount": 14,
+      "ocrDetected": true,
+      "section": "动画电影"
+    },
+    {
+      "file": "BA_pg127.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg127.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 475492,
+      "ocrLineCount": 41,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg128.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg128.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 565626,
+      "ocrLineCount": 8,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg129.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg129.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 657384,
+      "ocrLineCount": 38,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg130.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg130.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 670231,
+      "ocrLineCount": 74,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg131.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg131.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 431280,
+      "ocrLineCount": 6,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg132.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg132.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 339037,
+      "ocrLineCount": 3,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg133.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg133.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 626742,
+      "ocrLineCount": 13,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg134.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg134.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 324569,
+      "ocrLineCount": 7,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg135.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg135.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 544739,
+      "ocrLineCount": 74,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg136.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg136.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 593697,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg137A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg137A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 197457,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg137B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg137B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 201191,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg138A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg138A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 302248,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg138B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg138B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 190708,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg139A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg139A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 490784,
+      "ocrLineCount": 9,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg139B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg139B.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 427032,
+      "ocrLineCount": 19,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg140.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg140.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 439917,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg141.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg141.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 555741,
+      "ocrLineCount": 52,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg142.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg142.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 255897,
+      "ocrLineCount": 4,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg143.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg143.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 500240,
+      "ocrLineCount": 48,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg144.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg144.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 690289,
+      "ocrLineCount": 56,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg145.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg145.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 667293,
+      "ocrLineCount": 31,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg146.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg146.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 523764,
+      "ocrLineCount": 58,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg147.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg147.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 602065,
+      "ocrLineCount": 62,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg148.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg148.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 457451,
+      "ocrLineCount": 12,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg149.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg149.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 716722,
+      "ocrLineCount": 80,
+      "ocrDetected": true,
+      "section": "TNBA新造型与篇章"
+    },
+    {
+      "file": "BA_pg150.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg150.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 509416,
+      "ocrLineCount": 25,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg151.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg151.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 648555,
+      "ocrLineCount": 7,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg152.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg152.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 1040035,
+      "ocrLineCount": 269,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg153.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg153.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 1002193,
+      "ocrLineCount": 246,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg154.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg154.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 922686,
+      "ocrLineCount": 241,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg155.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg155.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 658502,
+      "ocrLineCount": 95,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg156.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg156.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 436192,
+      "ocrLineCount": 6,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg157A.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg157A.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 565453,
+      "ocrLineCount": 5,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg157B.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg157B.jpg",
+      "width": 1254,
+      "height": 3508,
+      "bytes": 231493,
+      "ocrLineCount": 0,
+      "ocrDetected": false,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg157C.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg157C.jpg",
+      "width": 1330,
+      "height": 3508,
+      "bytes": 294507,
+      "ocrLineCount": 1,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    },
+    {
+      "file": "BA_pg157D.jpg",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated/BA_pg157D.jpg",
+      "width": 2552,
+      "height": 3508,
+      "bytes": 466540,
+      "ocrLineCount": 53,
+      "ocrDetected": true,
+      "section": "结语、分集表与封底"
+    }
+  ]
+}

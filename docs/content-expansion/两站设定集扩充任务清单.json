@@ -1,0 +1,497 @@
+{
+  "date": "2026-10-23",
+  "status": "proposal-only",
+  "books": [
+    {
+      "id": "rocksteady-2015",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集",
+      "images": 152,
+      "title": "The Art of Rocksteady’s Batman",
+      "author": "Daniel Wallace",
+      "year": 2015
+    },
+    {
+      "id": "animated-1998",
+      "path": "/Users/dinghaowei/Downloads/batcavecn/C0022—Batman Animated",
+      "images": 168,
+      "title": "Batman Animated",
+      "authors": [
+        "Paul Dini",
+        "Chip Kidd"
+      ],
+      "photographer": "Geoff Spear",
+      "introduction": "Bruce Timm",
+      "year": 1998,
+      "publisher": "HarperEntertainment / HarperCollins",
+      "paperbackISBN": "0-06-107327-X",
+      "scannedPrinting": "Third Printing"
+    }
+  ],
+  "units": [
+    {
+      "id": "A01",
+      "site": "arkham",
+      "title": "成为蝙蝠侠：四项设计支柱",
+      "target": "/arkham/archive/rocksteady/",
+      "content": "提案中的移动、侦探、格斗与隐形猎手；从封闭岛屿到城市扩张的共同目标。补足现有创作档案前半段。",
+      "sourceFiles": [
+        "1 (5).jpg",
+        "1 (150).jpg"
+      ],
+      "imageBudget": 3
+    },
+    {
+      "id": "A02",
+      "site": "arkham",
+      "title": "轮廓夸张，材质可信",
+      "target": "/arkham/games/arkham-asylum/",
+      "content": "蝙蝠侠、杀手鳄与反派的体形、轮廓和材质；比较草案与最终造型怎样形成风格化写实。",
+      "sourceFiles": [
+        "1 (15).jpg",
+        "1 (16).jpg",
+        "1 (19).jpg"
+      ],
+      "imageBudget": 3
+    },
+    {
+      "id": "A03",
+      "site": "arkham",
+      "title": "疯人院如何引导玩家",
+      "target": "/arkham/games/arkham-asylum/",
+      "content": "院区建筑、体量、管线、门与雕像；用光色和空间差异解释路线与压迫感。",
+      "sourceFiles": [
+        "1 (30).jpg",
+        "1 (34).jpg",
+        "1 (36).jpg"
+      ],
+      "imageBudget": 3
+    },
+    {
+      "id": "A04",
+      "site": "arkham",
+      "title": "Freeflow与逐渐恐慌的敌人",
+      "target": "/arkham/games/arkham-asylum/",
+      "content": "战斗原型的调整、制高点观察与脱离、敌人恐惧反应；串起动画、程序和关卡协作。",
+      "sourceFiles": [
+        "1 (56).jpg",
+        "1 (58).jpg",
+        "1 (61).jpg",
+        "1 (62).jpg"
+      ],
+      "imageBudget": 2
+    },
+    {
+      "id": "A05",
+      "site": "arkham",
+      "title": "旧哥谭：建筑、招贴与物件叙事",
+      "target": "/arkham/games/arkham-city/",
+      "content": "博物馆展陈与囚禁、冰山俱乐部广告、哈莉学位证书及派系标记。与现有物证页互相链接，完整论述只保留一处。",
+      "sourceFiles": [
+        "1 (69).jpg",
+        "1 (72).jpg",
+        "1 (73).jpg",
+        "1 (80).jpg",
+        "1 (84).jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "A06",
+      "site": "arkham",
+      "title": "五音主题与哥谭的声音",
+      "target": "/arkham/games/arkham-city/",
+      "content": "配乐主题如何形成角色变奏；环境采音与管弦、合成声音结合。与患者录音这种剧情内材料区分。",
+      "sourceFiles": [
+        "1 (94).jpg"
+      ],
+      "imageBudget": 1
+    },
+    {
+      "id": "A07",
+      "site": "arkham",
+      "title": "哥谭的三层构造",
+      "target": "/arkham/games/arkham-knight/",
+      "content": "建筑本体、霓虹广告和金属附属物、屋顶雕塑的叠加；城市轮廓、密度和行进尺度。",
+      "sourceFiles": [
+        "1 (112).jpg",
+        "1 (114).jpg",
+        "1 (116).jpg",
+        "1 (118).jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "A08",
+      "site": "arkham",
+      "title": "蝙蝠车、战衣与城市共同演变",
+      "target": "/arkham/games/arkham-knight/",
+      "content": "先有驾驶目标，再考虑道路与城市规模；战斗模式的设计影响、战衣与车辆的共同语言。",
+      "sourceFiles": [
+        "1 (100).jpg",
+        "1 (106).jpg",
+        "1 (138).jpg",
+        "1 (143).jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "T01",
+      "site": "tas",
+      "title": "两分钟试片，确立整部动画的方向",
+      "target": "/tas/archive/history/",
+      "content": "Timm、Radomski与Blackman怎样从角色与背景实验走向1990年试片；与1992年正式片头分开。",
+      "sourceFiles": [
+        "BA_pg003.jpg",
+        "BA_pg025.jpg",
+        "BA_pg026.jpg",
+        "BA_pg027.jpg"
+      ],
+      "imageBudget": 2
+    },
+    {
+      "id": "T02",
+      "site": "tas",
+      "title": "Dark Deco：黑纸、光色与城市性格",
+      "target": "/tas/archive/production/",
+      "content": "以黑底与亮部塑造夜景，设计稿到背景色稿的协作；高楼、犯罪巷与反派空间怎样表达人物。",
+      "sourceFiles": [
+        "BA_pg026.jpg",
+        "BA_pg038.jpg",
+        "BA_pg039.jpg",
+        "BA_pg040.jpg",
+        "BA_pg041.jpg",
+        "BA_pg042.jpg",
+        "BA_pg043.jpg",
+        "BA_pg044.jpg",
+        "BA_pg045and046.jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "T03",
+      "site": "tas",
+      "title": "不用对白的片头叙事",
+      "target": "/tas/archive/production/",
+      "content": "把片头分镜按接近、冲突、揭示等动作段落重组，解释剪影、构图和镜头接续；不照搬整套书页。",
+      "sourceFiles": [
+        "BA_pg025.jpg",
+        "BA_pg026.jpg",
+        "BA_pg027.jpg",
+        "BA_pg028.jpg",
+        "BA_pg029.jpg",
+        "BA_pg030.jpg",
+        "BA_pg032.jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "T04",
+      "site": "tas",
+      "title": "模型纸怎样变成动作与表情",
+      "target": "/tas/archive/production/",
+      "content": "用蝙蝠侠、罗宾、蝙蝠女和阿尔弗雷德的转身、表情与动作设计讲清动画模型纸的功能。",
+      "sourceFiles": [
+        "BA_pg047.jpg",
+        "BA_pg048.jpg",
+        "BA_pg049.jpg",
+        "BA_pg050.jpg",
+        "BA_pg051.jpg",
+        "BA_pg053.jpg",
+        "BA_pg054.jpg",
+        "BA_pg055.jpg",
+        "BA_pg056.jpg",
+        "BA_pg057.jpg",
+        "BA_pg058.jpg"
+      ],
+      "imageBudget": 4
+    },
+    {
+      "id": "T05",
+      "site": "tas",
+      "title": "从故事到分镜：制作中的取舍",
+      "target": "/tas/archive/production/",
+      "content": "早期编剧规则及其后来的变化，导演的动作与表演分工；播出修改单作为制作史个案，不能当成今天的通用规则。",
+      "sourceFiles": [
+        "BA_pg028.jpg",
+        "BA_pg031.jpg",
+        "BA_pg035.jpg",
+        "BA_pg036.jpg"
+      ],
+      "imageBudget": 2
+    },
+    {
+      "id": "T06",
+      "site": "tas",
+      "title": "角色的声音，来自演员之间的反应",
+      "target": "/tas/archive/voices/",
+      "content": "Andrea Romano的表演方向、Conroy试音、Hamill的小丑、角色对戏；加入《Almost Got ’Im》录音合影及精确人物排列。",
+      "sourceFiles": [
+        "BA_pg033.jpg",
+        "BA_pg065.jpg",
+        "BA_pg070.jpg"
+      ],
+      "imageBudget": 2
+    },
+    {
+      "id": "T07",
+      "site": "tas",
+      "title": "音乐怎样改变一个镜头的威胁感",
+      "target": "/tas/archive/music/",
+      "content": "Shirley Walker与团队按画面写作，角色主题、录音流程；用《The Laughing Fish》讲声音如何强化画面。",
+      "sourceFiles": [
+        "BA_pg034.jpg"
+      ],
+      "imageBudget": 1
+    },
+    {
+      "id": "T08",
+      "site": "tas",
+      "title": "哈莉：从一次出场到独立人物",
+      "target": "/tas/archive/history/",
+      "content": "Dini的早期草图、Timm造型与Sorkin表演；从小丑搭档走向独立篇章。漫画扩展另放出版页。",
+      "sourceFiles": [
+        "BA_pg069.jpg",
+        "BA_pg070.jpg",
+        "BA_pg071.jpg"
+      ],
+      "imageBudget": 3
+    },
+    {
+      "id": "T09",
+      "site": "tas",
+      "title": "BTAS到TNBA：造型为何变得更简练",
+      "target": "/tas/archive/history/",
+      "content": "以六组前后对照说明蝙蝠侠、罗宾、猫女、企鹅人、毒藤女与稻草人的轮廓和色块变化；小丑、夜翼及蝙蝠女补入角色索引。",
+      "sourceFiles": [
+        "BA_pg127.jpg",
+        "BA_pg128.jpg",
+        "BA_pg129.jpg",
+        "BA_pg130.jpg",
+        "BA_pg131.jpg",
+        "BA_pg133.jpg",
+        "BA_pg134.jpg",
+        "BA_pg135.jpg",
+        "BA_pg136.jpg",
+        "BA_pg139A.jpg",
+        "BA_pg139B.jpg",
+        "BA_pg140.jpg",
+        "BA_pg141.jpg"
+      ],
+      "imageBudget": 6
+    },
+    {
+      "id": "T10",
+      "site": "tas",
+      "title": "《幽灵的面具》：爱情、未来之城与院线改造",
+      "target": "/tas/archive/films/mask-of-the-phantasm/",
+      "content": "剧本分工、录像带项目转院线、世界博览会“未来之家”的前后状态与片头城市；结局和身份图文一起折叠。",
+      "sourceFiles": [
+        "BA_pg119.jpg",
+        "BA_pg120.jpg",
+        "BA_pg121.jpg",
+        "BA_pg122.jpg"
+      ],
+      "imageBudget": 3
+    },
+    {
+      "id": "T11",
+      "site": "tas",
+      "title": "《冰点危机》：背景空间与CG尝试",
+      "target": "/tas/archive/films/subzero/",
+      "content": "从制作起点与改写方向，到北极避所、海上手术室及CG载具；与现有访谈和发行资料合并。",
+      "sourceFiles": [
+        "BA_pg125.jpg",
+        "BA_pg126.jpg"
+      ],
+      "imageBudget": 2
+    },
+    {
+      "id": "T12",
+      "site": "tas",
+      "title": "动画风格如何进入漫画与出版",
+      "target": "/tas/archive/publications/",
+      "content": "The Batman Adventures、Mad Love与衍生读物的不同用途；选取草稿或封面对照，明确1998年Harley & Ivy铅笔稿的开发状态。",
+      "sourceFiles": [
+        "BA_pg073.jpg",
+        "BA_pg074.jpg",
+        "BA_pg075.jpg",
+        "BA_pg076.jpg",
+        "BA_pg078.jpg"
+      ],
+      "imageBudget": 2
+    }
+  ],
+  "tasRolePortraits": [
+    {
+      "role": "role-1",
+      "character": "蝙蝠侠",
+      "sourcePageLabels": "047、048"
+    },
+    {
+      "role": "role-2",
+      "character": "阿尔弗雷德",
+      "sourcePageLabels": "057"
+    },
+    {
+      "role": "role-3",
+      "character": "戈登",
+      "sourcePageLabels": "079"
+    },
+    {
+      "role": "role-4",
+      "character": "罗宾／Dick Grayson",
+      "sourcePageLabels": "053—055"
+    },
+    {
+      "role": "role-5",
+      "character": "布洛克",
+      "sourcePageLabels": "079、080"
+    },
+    {
+      "role": "role-6",
+      "character": "小丑",
+      "sourcePageLabels": "064—066"
+    },
+    {
+      "role": "role-7",
+      "character": "哈维·丹特／双面人",
+      "sourcePageLabels": "087—090"
+    },
+    {
+      "role": "role-8",
+      "character": "猫女",
+      "sourcePageLabels": "081—084"
+    },
+    {
+      "role": "role-9",
+      "character": "哈莉",
+      "sourcePageLabels": "069—071"
+    },
+    {
+      "role": "role-10",
+      "character": "企鹅人",
+      "sourcePageLabels": "091—094"
+    },
+    {
+      "role": "role-11",
+      "character": "芭芭拉／蝙蝠女",
+      "sourcePageLabels": "056"
+    },
+    {
+      "role": "role-12",
+      "character": "泥脸",
+      "sourcePageLabels": "095、096"
+    },
+    {
+      "role": "role-13",
+      "character": "急冻人",
+      "sourcePageLabels": "109—111"
+    },
+    {
+      "role": "role-14",
+      "character": "拉斯·奥·古",
+      "sourcePageLabels": "097"
+    },
+    {
+      "role": "role-15",
+      "character": "谜语人",
+      "sourcePageLabels": "105、106"
+    }
+  ],
+  "episodeAdditions": [
+    {
+      "id": "on-leather-wings",
+      "target": "/tas/episodes/on-leather-wings/",
+      "title": "On Leather Wings",
+      "sourcePageLabels": "107",
+      "focus": "人蝠模型与变身／动作分镜"
+    },
+    {
+      "id": "two-face-part-1",
+      "target": "/tas/episodes/two-face-part-1/",
+      "title": "Two-Face: Part 1",
+      "sourcePageLabels": "087—090",
+      "focus": "揭面镜头、闪电与表情变化"
+    },
+    {
+      "id": "two-face-part-2",
+      "target": "/tas/episodes/two-face-part-2/",
+      "title": "Two-Face: Part 2",
+      "sourcePageLabels": "087—090",
+      "focus": "双面构图和人物表演；不重复上一集的整组图"
+    },
+    {
+      "id": "joker-s-favor",
+      "target": "/tas/episodes/joker-s-favor/",
+      "title": "Joker’s Favor",
+      "sourcePageLabels": "069—071",
+      "focus": "哈莉初登场的设计背景"
+    },
+    {
+      "id": "the-laughing-fish",
+      "target": "/tas/episodes/the-laughing-fish/",
+      "title": "The Laughing Fish",
+      "sourcePageLabels": "034、064—068",
+      "focus": "分镜修改与不协和音乐形成的威胁感"
+    },
+    {
+      "id": "heart-of-ice",
+      "target": "/tas/episodes/heart-of-ice/",
+      "title": "Heart of Ice",
+      "sourcePageLabels": "109—111",
+      "focus": "急冻人轮廓、头罩与悲剧人物塑造"
+    },
+    {
+      "id": "feat-of-clay-part-2",
+      "target": "/tas/episodes/feat-of-clay-part-2/",
+      "title": "Feat of Clay: Part 2",
+      "sourcePageLabels": "095、096",
+      "focus": "变形表演与人物模型"
+    },
+    {
+      "id": "mad-as-a-hatter",
+      "target": "/tas/episodes/mad-as-a-hatter/",
+      "title": "Mad As A Hatter",
+      "sourcePageLabels": "108",
+      "focus": "疯帽匠设计与人物动机"
+    },
+    {
+      "id": "read-my-lips",
+      "target": "/tas/episodes/read-my-lips/",
+      "title": "Read My Lips",
+      "sourcePageLabels": "028、058",
+      "focus": "人与木偶的动作、表情和对戏"
+    },
+    {
+      "id": "tnba-legends-of-the-dark-knight",
+      "target": "/tas/episodes/tnba-legends-of-the-dark-knight/",
+      "title": "Legends of the Dark Knight",
+      "sourcePageLabels": "144—149",
+      "focus": "Sprang与Miller两套造型、分镜语言"
+    },
+    {
+      "id": "tnba-over-the-edge",
+      "target": "/tas/episodes/tnba-over-the-edge/",
+      "title": "Over the Edge",
+      "sourcePageLabels": "150",
+      "focus": "主创观看完成片的回忆；情节性质放入剧透折叠"
+    },
+    {
+      "id": "tnba-beware-the-creeper",
+      "target": "/tas/episodes/tnba-beware-the-creeper/",
+      "title": "Beware the Creeper",
+      "sourcePageLabels": "143",
+      "focus": "Jack Ryder／Creeper设计与改编起点"
+    }
+  ],
+  "budget": {
+    "mainSections": 20,
+    "arkhamImages": 24,
+    "tasImages": 35,
+    "sourceImageSelections": 59,
+    "tasPortraitDerivatives": 15,
+    "episodeInsertions": 12,
+    "newTopLevelRoutes": 0
+  },
+  "checks": "After all approved content and asset changes are complete, run one integrated acceptance pass."
+}

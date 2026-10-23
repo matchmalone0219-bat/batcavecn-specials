@@ -1,0 +1,1922 @@
+{
+  "date": "2026-10-23",
+  "title": "The Art of Rocksteady’s Batman",
+  "author": "Daniel Wallace",
+  "publisher": "Abrams",
+  "year": 2015,
+  "isbn": "978-1-4197-1385-9",
+  "sourceDirectory": "/Users/dinghaowei/Downloads/batcavecn/蝙蝠侠设定集",
+  "scanCount": 152,
+  "ocrNonempty": 113,
+  "pageNumberNote": "Source files 1 (117).jpg and 1 (118).jpg show printed pages 232–233 and 236–237; do not infer printed pages from filenames.",
+  "files": [
+    {
+      "sequence": 1,
+      "file": "1 (1).jpg",
+      "width": 2550,
+      "height": 3508,
+      "part": "封面与前置页",
+      "ocrLineCount": 5,
+      "headingCandidates": [
+        "BATMAN",
+        "THE ART OF",
+        "ROCKSTEADY'S",
+        "ARKHAM ASYLUM / ARKHAM CITY / ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 2,
+      "file": "1 (2).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "封面与前置页",
+      "ocrLineCount": 12,
+      "headingCandidates": [
+        "BATMAN",
+        "THE ART OF",
+        "ROCKSTEADY'S",
+        "KBG GUIDES"
+      ]
+    },
+    {
+      "sequence": 3,
+      "file": "1 (3).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "封面与前置页",
+      "ocrLineCount": 16,
+      "headingCandidates": [
+        "THE DEVELOPERS, ARTISTS, WRITERS, AND PROGRAMMERS",
+        "ARKHAM ASYLUM, 2011'S BATMAN: ARKHAM CITY, AND",
+        "IN THESE PAGES. STEP INSIDE ARKHAM AND LEARN HOW",
+        "ANIMATION, AND BILLION-DOLLAR MOVIE BLOCKBUSTERS."
+      ]
+    },
+    {
+      "sequence": 4,
+      "file": "1 (4).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "封面与前置页",
+      "ocrLineCount": 36,
+      "headingCandidates": [
+        "PART 1 ENTERING ARKHAM [909 ]",
+        "BATMAN: ARKHAM CITY [131]",
+        "BATMAN: ARKHAM ASYLUM [015]",
+        "BATMAN: ARKHAM KNIGHT [1931"
+      ]
+    },
+    {
+      "sequence": 5,
+      "file": "1 (5).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "进入阿卡姆",
+      "ocrLineCount": 64,
+      "headingCandidates": [
+        "ENTERING ARKHAM",
+        "PART'1",
+        "ROCKSTEADY STUDIOS, A SMALL DEVELOPER WITH A STAFF OF 40",
+        "AS OF EARLY 2007, DIDN'T HAVE AN EXTENSIVE TRACK"
+      ]
+    },
+    {
+      "sequence": 6,
+      "file": "1 (6).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "进入阿卡姆",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 7,
+      "file": "1 (7).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "进入阿卡姆",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "PAGE | 012 ]",
+        "PAUL | 013 ]"
+      ]
+    },
+    {
+      "sequence": 8,
+      "file": "1 (8).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 94,
+      "headingCandidates": [
+        "ARKHAM ASYLUM",
+        "PART//2",
+        "ARKHAM ASYLUM WASN'T JUST A GAME.",
+        "A NEW CHAPTER IN THE BATMAN CANON."
+      ]
+    },
+    {
+      "sequence": 9,
+      "file": "1 (9).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 10,
+      "file": "1 (10).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 51,
+      "headingCandidates": [
+        "detective. Because Batman-orphaned by a",
+        "befits Batman's status as the world's greatest",
+        "City's infamous Arkham Asylum allowed every",
+        "to portray a madhouse that had been built by a"
+      ]
+    },
+    {
+      "sequence": 11,
+      "file": "1 (11).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 12,
+      "file": "1 (12).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 47,
+      "headingCandidates": [
+        "FLAPPiNG CLETH",
+        "between comic book design and realism.",
+        "PREVIOUs SPREAD John Gravato's striking",
+        "\"The Riddler was added to challenge the one"
+      ]
+    },
+    {
+      "sequence": 13,
+      "file": "1 (13).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 14,
+      "file": "1 (14).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 15,
+      "file": "1 (15).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 37,
+      "headingCandidates": [
+        "WE'RE ALL MAD HERE",
+        "FOR ART DIRECTOR DAVID HEGO,",
+        "A GREAT GAME BEGINS WITH A GRAND VISION.",
+        "\"We didn't stick with a particular representation"
+      ]
+    },
+    {
+      "sequence": 16,
+      "file": "1 (16).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 34,
+      "headingCandidates": [
+        "HEROES AND ROGUES",
+        "THE GAME'S ARKHAMVERSE\" AESTHETIC MADE",
+        "ITS BIGGEST SPLASH IN THE CHARACTER DESIGN STAGE.",
+        "DESIGNS, FROM THE LIKES"
+      ]
+    },
+    {
+      "sequence": 17,
+      "file": "1 (17).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 78,
+      "headingCandidates": [
+        "JOKERS VENOM DART GUN",
+        "one element in a broader opportunity to redesign",
+        "\"We wanted people to instantly recognize these",
+        "David Hego points out the thoughtful, charac-"
+      ]
+    },
+    {
+      "sequence": 18,
+      "file": "1 (18).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "PAGE 034"
+      ]
+    },
+    {
+      "sequence": 19,
+      "file": "1 (19).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 63,
+      "headingCandidates": [
+        "Carlos D'Anda kept busy designing other approach these fun-house mirror distortions.",
+        "inmates, including the nightmarish Scarecrow, \"The Titans are super-exaggerated beasts, so we",
+        "Joker had to fit\" he says. \"I kept similar propor-",
+        "\"Rocksteady had"
+      ]
+    },
+    {
+      "sequence": 20,
+      "file": "1 (20).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 8,
+      "headingCandidates": [
+        "eetle as a symbol of insanity, contrary to its meaning in Egyptian culture.",
+        "EAp picut A near-final John Gravato character desian for Batman",
+        "OPPOSITE A final in-game 3-D render for Batman.",
+        "RIGHT Detailed sketches for Batman's gauntlets and hoots by John Gravato"
+      ]
+    },
+    {
+      "sequence": 21,
+      "file": "1 (21).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 22,
+      "file": "1 (22).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 12,
+      "headingCandidates": [
+        "character design for Killer Croc, featuring a",
+        "ABOVE A Carlos D'Anda character concept",
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT",
+        "FAR RIGHT Variations on a John Gravato"
+      ]
+    },
+    {
+      "sequence": 23,
+      "file": "1 (23).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 24,
+      "file": "1 (24).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 6,
+      "headingCandidates": [
+        "Croc's final design went in a more animalistic direction.",
+        "OPPOSITE An energetic character study for Killer Croc.",
+        "ABOVE A second character study by John Gravato. Killer",
+        "Art bv John Gravato."
+      ]
+    },
+    {
+      "sequence": 25,
+      "file": "1 (25).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 10,
+      "headingCandidates": [
+        "LEFT Character concept for Poison Ivy by Carlos D'Anda. Her",
+        "ToP John Gravato's designs for the Scarface puppet carried",
+        "more nudity than would be permissible in the final game.",
+        "OPPOSITE A John Gravato concept for Poison Ivy, featuring"
+      ]
+    },
+    {
+      "sequence": 26,
+      "file": "1 (26).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "ABOVE An early John Gravato concent for Doicon lu",
+        "oppositE An in-came rendering of Poison Ivy"
+      ]
+    },
+    {
+      "sequence": 27,
+      "file": "1 (27).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 11,
+      "headingCandidates": [
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "ABovE BIcut An early cketch for the eytreme body",
+        "ABovE LEET Carlos D'Anda's version of the Joker in his",
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 28,
+      "file": "1 (28).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "ABovE A leaner Titan Joker appears in this John Gravato concept.",
+        "OPPOSITE A John Gravato concept for a Titan-infected Joker."
+      ]
+    },
+    {
+      "sequence": 29,
+      "file": "1 (29).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 30,
+      "file": "1 (30).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 31,
+      "headingCandidates": [
+        "ARKHAM ASYLUM",
+        "EXPLORING",
+        "AS INSANE AS THE LUNATICS IT HOUSED.",
+        "INSIDE AN ASYLUM, THEN THE BUILDING HAD TO FEEL"
+      ]
+    },
+    {
+      "sequence": 31,
+      "file": "1 (31).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 32,
+      "file": "1 (32).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 33,
+      "file": "1 (33).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 34,
+      "file": "1 (34).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 67,
+      "headingCandidates": [
+        "exploration,\" says Hego. \"Moving forward from",
+        "game, but that didn't stop the team from includ-",
+        "with varied, sequential locales.",
+        "add as much variety as possible to reward the"
+      ]
+    },
+    {
+      "sequence": 35,
+      "file": "1 (35).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 36,
+      "file": "1 (36).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 86,
+      "headingCandidates": [
+        "dressing. Two ways to bring these points of",
+        "Hego. \"The introduction to this part of the",
+        "orange color in a cool blue environment. can",
+        "what's coming. It is very important to keep the"
+      ]
+    },
+    {
+      "sequence": 37,
+      "file": "1 (37).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 39,
+      "headingCandidates": [
+        "GUARDIAN SCULPTURES",
+        "COLLAPSED STATUE",
+        "VIEN of <",
+        "CLOCK TOWER"
+      ]
+    },
+    {
+      "sequence": 38,
+      "file": "1 (38).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 12,
+      "headingCandidates": [
+        "MEDICAL AND CAVE WALLS",
+        "CENTRAL METAL MESH FLOORING WITH OUTER CONCRETE",
+        "NE & BATMAN SMASH THROUGH",
+        "THE ART OF ROCKSTEADY'S BATMAN"
+      ]
+    },
+    {
+      "sequence": 39,
+      "file": "1 (39).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 25,
+      "headingCandidates": [
+        "X-RAY.B",
+        "Venom oozes and perspires out of the",
+        "RIGHT A John Gravato concept for",
+        "Batman must confront a monstrously"
+      ]
+    },
+    {
+      "sequence": 40,
+      "file": "1 (40).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 14,
+      "headingCandidates": [
+        "ath the island is captured by",
+        "the natural rock of the chasm.",
+        "John Gravato. contrasting the metal structures with",
+        "pieut This overdrown environment features"
+      ]
+    },
+    {
+      "sequence": 41,
+      "file": "1 (41).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 42,
+      "file": "1 (42).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 3,
+      "headingCandidates": [
+        "PAGE 082 li",
+        "ABovE The endless walls of filing cabinets in this piece by John",
+        "A 083 I"
+      ]
+    },
+    {
+      "sequence": 43,
+      "file": "1 (43).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 4,
+      "headingCandidates": [
+        "intentionally exaggerated to emphasize the game's larger-than-life reality.",
+        "AovE A clock-tower study by John Gravato. The scale of the mechanisms is",
+        "The cells can be moved from one location to another using ceiling-mounted tracks.",
+        "ABovE Arkham Asvlum's maximum-securitv area is seen in this John Gravato illustration."
+      ]
+    },
+    {
+      "sequence": 44,
+      "file": "1 (44).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 8,
+      "headingCandidates": [
+        "TOO THE STCOMNG & POK ALICE NO BARMAN OR THARGES.",
+        "ToP The Joker appears on a television set mounted on the head of a",
+        "ABOVE A Lee Oliver illustration depicting cells in the asylum's high-security wing.",
+        "Top An early in-game screenshot with paintover elements, created to help conceptualize the battle arena in which Batman fights Bane."
+      ]
+    },
+    {
+      "sequence": 45,
+      "file": "1 (45).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 46,
+      "file": "1 (46).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 29,
+      "headingCandidates": [
+        "DawN To VALES",
+        "BRIDGE LINK TO ISLAND",
+        "ARKHAM",
+        "CANE ALCESS"
+      ]
+    },
+    {
+      "sequence": 47,
+      "file": "1 (47).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 4,
+      "headingCandidates": [
+        "GRAVATO",
+        "- LIGHTHOUSE",
+        "PAGE 1 093 ]",
+        "PAGE | 092 ]"
+      ]
+    },
+    {
+      "sequence": 48,
+      "file": "1 (48).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 34,
+      "headingCandidates": [
+        "Make this inkia TALLER.",
+        "Pire canTeres fan froM Line.",
+        "INTERTWININ POWER CABLES",
+        "(BRAZIL STyLE)"
+      ]
+    },
+    {
+      "sequence": 49,
+      "file": "1 (49).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 50,
+      "file": "1 (50).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 51,
+      "file": "1 (51).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 3,
+      "headingCandidates": [
+        "ABovE John Gravato depicts Batman, dwarfed by massive clockwork cogs, making his way through the catacombs.",
+        "oPPOSITE Scarecrow's nightmarish domain is captured in this color piece by Lee Oliver.",
+        "ARKTAMASYLUMARKAMCNYSARKHAMKNGHT"
+      ]
+    },
+    {
+      "sequence": 52,
+      "file": "1 (52).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "Pumproom",
+        "ABovE Gears, valves, chains, and pipework meant to depict the ticking heart of the asylum dominate this illustration by John Gravato."
+      ]
+    },
+    {
+      "sequence": 53,
+      "file": "1 (53).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 7,
+      "headingCandidates": [
+        "experiments to extract the Venom formula from his blood. Art by John Gravato.",
+        "ABovE This medical environment depicts where Bane is subjected to painful",
+        "Top Verticality and perspective are on display in this piece by John Gravato",
+        "aas is already beainnina to creep in around the edaes"
+      ]
+    },
+    {
+      "sequence": 54,
+      "file": "1 (54).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 82,
+      "headingCandidates": [
+        "GEAR",
+        "HIS MOST AMAZING ABILITY IS HIS SIMPLE READINESS.",
+        "BATMAN POSSESSES MANY SKILLS, BUT ARGUABLY",
+        "INSIDE THE ASYLUM,"
+      ]
+    },
+    {
+      "sequence": 55,
+      "file": "1 (55).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 56,
+      "file": "1 (56).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 86,
+      "headingCandidates": [
+        "ARKHAM ASYLUM",
+        "PROGRAMMING",
+        "A VIDEO GAME WON'T STAY IN STILL-IMAGE FOR LONG.",
+        "hoy to set the best possible performance out of"
+      ]
+    },
+    {
+      "sequence": 57,
+      "file": "1 (57).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 5,
+      "headingCandidates": [
+        "ABovE A virtual model of Arkham Island created by Rocksteady's 3-D artists during the conceptual stage.",
+        "-us pacE з-n models for the asvlum's exterior buildings, created to test the practicality of various concepts.",
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 58,
+      "file": "1 (58).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 79,
+      "headingCandidates": [
+        "retice and helpe",
+        "y, cop del",
+        "beginning of Arkham Asylum were to bring this \"Having a motion-capture studio on hand opens",
+        "\"You always have to see the results from a step"
+      ]
+    },
+    {
+      "sequence": 59,
+      "file": "1 (59).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 7,
+      "headingCandidates": [
+        "FOLLOWING SPREAD An in-game shot of Batman",
+        "ABOVE A John Gravato diagram capturing the chained-",
+        "together moves of the Freeflow fighting system.",
+        "engaging in one-on-one combat."
+      ]
+    },
+    {
+      "sequence": 60,
+      "file": "1 (60).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 61,
+      "file": "1 (61).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 73,
+      "headingCandidates": [
+        "BECOMING",
+        "THE BATMAN",
+        "VIDEO GAME-ARKHAM ASYLUM COULDN'T AFFORD",
+        "ONCE THE AI REACHES THIS STATE,"
+      ]
+    },
+    {
+      "sequence": 62,
+      "file": "1 (62).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 62,
+      "headingCandidates": [
+        "capture the rhythm and flow of combat using cin-",
+        "enemy attacks by pressing the right button for",
+        "and knocked them away, strong strikes were",
+        "The team rejected this type of linear"
+      ]
+    },
+    {
+      "sequence": 63,
+      "file": "1 (63).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 14,
+      "headingCandidates": [
+        "Toned Shirtless",
+        "Heavy Shirtless",
+        "Straight Jacket Henchman",
+        "Henchmen"
+      ]
+    },
+    {
+      "sequence": 64,
+      "file": "1 (64).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 63,
+      "headingCandidates": [
+        "ARKHAM ASYLUM:",
+        "THE RECEPTION",
+        "FORTY MEMBERS TO SIXTY, ROCKSTEADY WAS READY",
+        "TO INVITE PLAYERS INTO ARKHAM ASYLUM."
+      ]
+    },
+    {
+      "sequence": 65,
+      "file": "1 (65).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆疯人院",
+      "ocrLineCount": 5,
+      "headingCandidates": [
+        "RIGHT An impressionistic piece by Kan Muftic",
+        "PAGE [ 128 ]",
+        "formed Arkham City.",
+        "depicting the quarded perimeter of the newly"
+      ]
+    },
+    {
+      "sequence": 66,
+      "file": "1 (66).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 37,
+      "headingCandidates": [
+        "ARKHAM CITY",
+        "PART /3",
+        "NOT IF THIS TEAM HAD ANYTHING TO SAY ABOUT IT.",
+        "ESCAPING THE MADHOUSE?"
+      ]
+    },
+    {
+      "sequence": 67,
+      "file": "1 (67).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 64,
+      "headingCandidates": [
+        "ARKHAM EXPANDS",
+        "BUILDINGS EXPLODING OR PLANES CRASHINGẠỊ",
+        "SAYS SEFTON HILL.",
+        "\"BATMAN STORIES AREN'T NECESSARILY ABOUT"
+      ]
+    },
+    {
+      "sequence": 68,
+      "file": "1 (68).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 35,
+      "headingCandidates": [
+        "AKE OVER",
+        "LAPPROVRDY",
+        "EC/K125",
+        "ARKHAM"
+      ]
+    },
+    {
+      "sequence": 69,
+      "file": "1 (69).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 44,
+      "headingCandidates": [
+        "ARKHAM INVADES",
+        "GOTHAM CITY",
+        "WHAT DOES GOTHAM CITY LOOK LIKE?",
+        "WHAT SHOULD IT LOOK LIKE?"
+      ]
+    },
+    {
+      "sequence": 70,
+      "file": "1 (70).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 137,
+      "headingCandidates": [
+        "allows players to undertake an experience that",
+        "facades of Arkham City, posters, flyers, and",
+        "screenshots of in-game renders.",
+        "\"Dark, blue-lit streets mixed with dirty yellow light"
+      ]
+    },
+    {
+      "sequence": 71,
+      "file": "1 (71).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 32,
+      "headingCandidates": [
+        "ARKHAM",
+        "ENTRY",
+        "OBEY ORDER",
+        "EAST"
+      ]
+    },
+    {
+      "sequence": 72,
+      "file": "1 (72).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 33,
+      "headingCandidates": [
+        "GOPE",
+        "EXPERIENCE ANTARCTIC DINING",
+        "FAR LEFT This stained-glass mural",
+        "SWALD CHESTERFIELD COBBLEPOT"
+      ]
+    },
+    {
+      "sequence": 73,
+      "file": "1 (73).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 15,
+      "headingCandidates": [
+        "PINKNEY BUTTERFLY EXHIBIT -",
+        "OPPOSITE, BOTTOM Detailed view of environmental butterfly signage.",
+        "Museum. Art by Kan Muftic.",
+        "stuffed mammoth, one of the building's centerpiece exhibits."
+      ]
+    },
+    {
+      "sequence": 74,
+      "file": "1 (74).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 32,
+      "headingCandidates": [
+        "WOODER CIT",
+        "GOTHAM",
+        "GOTHAM",
+        "MECHANICAL GUARDIANS"
+      ]
+    },
+    {
+      "sequence": 75,
+      "file": "1 (75).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 19,
+      "headingCandidates": [
+        "CANCELLED",
+        "GRAYSON®",
+        "COTHAM",
+        "ARGUS"
+      ]
+    },
+    {
+      "sequence": 76,
+      "file": "1 (76).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 42,
+      "headingCandidates": [
+        "A REAL",
+        "ROGUES GALLERY",
+        "AND EXECUTING FRESH TAKES ON CLASSIC LOOKS.",
+        "THE ARKHAM CHARACTERS."
+      ]
+    },
+    {
+      "sequence": 77,
+      "file": "1 (77).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 92,
+      "headingCandidates": [
+        "•mateou for to ges her out in he sout",
+        "what improbable-prop.\"",
+        "tive\") to undergo the Demon Trials and take his",
+        "The emotionally remote Mr. Freeze is a brilliant"
+      ]
+    },
+    {
+      "sequence": 78,
+      "file": "1 (78).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 13,
+      "headingCandidates": [
+        "in which Catwoman could navigate the",
+        "ABOVE, RIGHT Catwoman is held prisoner by",
+        "OPPOSITE A Catwoman portrait created as",
+        "promotional art for the Arkham City release"
+      ]
+    },
+    {
+      "sequence": 79,
+      "file": "1 (79).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 1,
+      "headingCandidates": [
+        "THE ART OF ROCKSTEADY'S BATMAN"
+      ]
+    },
+    {
+      "sequence": 80,
+      "file": "1 (80).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 17,
+      "headingCandidates": [
+        "UNIVERSITY OF GOTHAM",
+        "Harleen Frances Quinzel",
+        "Doctor Of Psychology",
+        "dropping the nurse elements from her previous costume."
+      ]
+    },
+    {
+      "sequence": 81,
+      "file": "1 (81).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 13,
+      "headingCandidates": [
+        "CHEATS DEATH",
+        "FREAK SHOW",
+        "SOLOMON GRUNDY",
+        "THE MAN WHO"
+      ]
+    },
+    {
+      "sequence": 82,
+      "file": "1 (82).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 18,
+      "headingCandidates": [
+        "Solomon Grundy, intentionally playing up the creature's similarity to Frankenstein's Monster.",
+        "development, exploring a nightmarish encounter with the Mad Hatter; the other a concept of",
+        "Lee Oliver. In this version, a shrunken Batman",
+        "ABOVE A Mad Hatter environmental concept by"
+      ]
+    },
+    {
+      "sequence": 83,
+      "file": "1 (83).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 10,
+      "headingCandidates": [
+        "created for marketing purposes.",
+        "that shared some of the same design",
+        "depicting Robin. The art department",
+        "THE ART OF ROCKSTEADY'S BATMAN"
+      ]
+    },
+    {
+      "sequence": 84,
+      "file": "1 (84).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 22,
+      "headingCandidates": [
+        "tzB",
+        "ABOVE Kan Muftic concepts for various Joker-allied thugs found",
+        "within Arkham City. The apron-wearing blacksmith concept proved",
+        "too difficult to animate using character models."
+      ]
+    },
+    {
+      "sequence": 85,
+      "file": "1 (85).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 6,
+      "headingCandidates": [
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "for the Joker-very similar to the fina",
+        "opposITE Art created for the market.",
+        "ing of Arkham Citv."
+      ]
+    },
+    {
+      "sequence": 86,
+      "file": "1 (86).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 1,
+      "headingCandidates": [
+        "ARKHAM"
+      ]
+    },
+    {
+      "sequence": 87,
+      "file": "1 (87).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 39,
+      "headingCandidates": [
+        "GEARING UP",
+        "SELECT GADGETS, BUT SOON BATMAN'S BUTLER, ALFRED,",
+        "DELIVERS AN ARSENAL VIA AIRDROP.",
+        "PLAYERS START ARKHAM CITY ARMED WITH A FEW"
+      ]
+    },
+    {
+      "sequence": 88,
+      "file": "1 (88).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 8,
+      "headingCandidates": [
+        "BATMANS FREEZE JAMMER",
+        "PAGE [ 174 ]",
+        "in these studies by Lee Oliver. Unlike the sleek WayneTech lines found",
+        "qun carried by Mr. Freeze. Art by Lee Oliver"
+      ]
+    },
+    {
+      "sequence": 89,
+      "file": "1 (89).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "HE ART OF ROCKSTEADY'S BATMAN",
+        "ented with ways in which"
+      ]
+    },
+    {
+      "sequence": 90,
+      "file": "1 (90).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 34,
+      "headingCandidates": [
+        "PROGRAMMING",
+        "ARKHAM CITY",
+        "CANVAS THAT ALTERED THE APPROACH TO GAMEPLAY.",
+        "ARKHAM CITY OFFERED ITS DEVELOPERS AN OPEN-WORLD"
+      ]
+    },
+    {
+      "sequence": 91,
+      "file": "1 (91).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 58,
+      "headingCandidates": [
+        "LAST DANCE",
+        "BETWEEN BATMAN AND THE JOKER.",
+        "ARKHAM CITY ENDS WITH A SHOCKING SHOWDOWN",
+        "POINT, AND WE WORKED"
+      ]
+    },
+    {
+      "sequence": 92,
+      "file": "1 (92).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 48,
+      "headingCandidates": [
+        "ARKHAM CITY:",
+        "THE RECEPTION",
+        "FIRST ISSUE OF BATMAN: ARKHAM CITY,",
+        "BACK TO ITS THEMATIC ROOTS WITH THE"
+      ]
+    },
+    {
+      "sequence": 93,
+      "file": "1 (93).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 2,
+      "headingCandidates": [
+        "THIS SPREAD Another artist, Lee Oliver, gives h",
+        "confrontation inside the Wonder Tower."
+      ]
+    },
+    {
+      "sequence": 94,
+      "file": "1 (94).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 118,
+      "headingCandidates": [
+        "ARKHAM SCORE",
+        "HOW DOES ONE DEVELOP AN IMMERSIVE SOUNDSCAPE?",
+        "instrumentation and rhythm with particular",
+        "days recording various city perspectives-"
+      ]
+    },
+    {
+      "sequence": 95,
+      "file": "1 (95).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 96,
+      "file": "1 (96).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆之城",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 97,
+      "file": "1 (97).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 43,
+      "headingCandidates": [
+        "ARKHAM KNIGHT",
+        "PART'4",
+        "VIBRANT SKIN BY THE TIME ARKHAM KNIGHT BEGINS.",
+        "WALLED-OFF SUPER-PRISON AND WEARS A NEW,"
+      ]
+    },
+    {
+      "sequence": 98,
+      "file": "1 (98).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 62,
+      "headingCandidates": [
+        "STORM",
+        "THE GATHERING",
+        "GEPDE",
+        "DEVELOPED THE STORY FOR ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 99,
+      "file": "1 (99).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 88,
+      "headingCandidates": [
+        "VILLAINS UNITED",
+        "CLASSIC BATMAN VILLAINS ABOUND IN ARKHAM KNIGHT,",
+        "INCLUDING THE PENGUIN, TWO-FACE, SCARECROW,",
+        "AND THE RIDDLER."
+      ]
+    },
+    {
+      "sequence": 100,
+      "file": "1 (100).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 63,
+      "headingCandidates": [
+        "the power of the [next generation] consoles,\"",
+        "harbor area of Gotham City. There was talk of",
+        "more sense structurally and looks like it could",
+        "on his belt and gauntlets, and on his boots. \"The"
+      ]
+    },
+    {
+      "sequence": 101,
+      "file": "1 (101).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 9,
+      "headingCandidates": [
+        "like Riddler challenge.",
+        "ABOVE Riddler character designs by",
+        "OPPOSITE, BOTTOM Lee Oliver's design for a",
+        "LEFT Oliver Odmark designs for a puzzle-"
+      ]
+    },
+    {
+      "sequence": 102,
+      "file": "1 (102).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 5,
+      "headingCandidates": [
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT",
+        "THIS SPREAD A Sixmorevodka desian for Fireflv. a lesser-",
+        "envisioned as coming fromỗẠỗsix vears into the future."
+      ]
+    },
+    {
+      "sequence": 103,
+      "file": "1 (103).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 18,
+      "headingCandidates": [
+        "JAMES",
+        "GCPD",
+        "GORDON",
+        "er Gordon's mutual respect."
+      ]
+    },
+    {
+      "sequence": 104,
+      "file": "1 (104).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 105,
+      "file": "1 (105).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 4,
+      "headingCandidates": [
+        "ABove Front and back studies of Nightwing. The art team didn't want to \"reinvent the wheel\" when it came to character design, instead",
+        "opPosITE The Arkham Knight version of Robin, only slightly changed from the previous game through improvements in his body armor.",
+        "looking for ways to add detail that felt like a natural evolution.",
+        "ARKHAMASYLUM, ARKHAM CITY & ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 106,
+      "file": "1 (106).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 7,
+      "headingCandidates": [
+        "capabilities of next-gen gaming systems allow for subtle enhancements such as these.",
+        "of the new body armor bore some similarities to the bulletproof chassis of the Batmobile.",
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "PAGE T"
+      ]
+    },
+    {
+      "sequence": 107,
+      "file": "1 (107).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 8,
+      "headingCandidates": [
+        "with paintover elements depicting",
+        "Batman against the neon background of",
+        "by the Sixmorevodka studio for marketino",
+        "Gotham Citv'c Chinatown district"
+      ]
+    },
+    {
+      "sequence": 108,
+      "file": "1 (108).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 109,
+      "file": "1 (109).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 11,
+      "headingCandidates": [
+        "armor to create camouflage patterns.",
+        "for the game's brand-new villain, the",
+        "the Arkham Knight. Unlike Batman, this new",
+        "FOLLOWING SPREAD In-game action shot of"
+      ]
+    },
+    {
+      "sequence": 110,
+      "file": "1 (110).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 111,
+      "file": "1 (111).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 112,
+      "file": "1 (112).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 67,
+      "headingCandidates": [
+        "TRUE GOTHAM CITY",
+        "WELCOME TO GOTHAM CITY.",
+        "AT LAST, ROCKSTEADY CAN TRULY SAY,",
+        "EVERYTHING THAT BATMAN"
+      ]
+    },
+    {
+      "sequence": 113,
+      "file": "1 (113).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 114,
+      "file": "1 (114).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 51,
+      "headingCandidates": [
+        "ACE Chemicals is a cavernous industrial plant",
+        "\"From billboards to shop signs, literally hundreds",
+        "A massive amount were added to fill the gaps,",
+        "that 'out of time' feel"
+      ]
+    },
+    {
+      "sequence": 115,
+      "file": "1 (115).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 6,
+      "headingCandidates": [
+        "sign/eagle",
+        "helipad",
+        "batsignal",
+        "projector"
+      ]
+    },
+    {
+      "sequence": 116,
+      "file": "1 (116).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 12,
+      "headingCandidates": [
+        "TERPRISI",
+        "around with art deco architecture, by Lee Oliver.",
+        "oM LEFT Early concept of the G.C.P.D. building by Lee Oliver.",
+        "THE ART OF ROCKSTEADY'S BATMAN"
+      ]
+    },
+    {
+      "sequence": 117,
+      "file": "1 (117).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 17,
+      "headingCandidates": [
+        "RIGHT A Kan Muftic concept of a Big Ben-",
+        "LEFT A cargo freighter waits at the Gotham City Harbor",
+        "looking too short and squat.",
+        "ABOVE Kan Muftic's concept of a spacious"
+      ]
+    },
+    {
+      "sequence": 118,
+      "file": "1 (118).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 119,
+      "file": "1 (119).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 21,
+      "headingCandidates": [
+        "ABOVE, RIGHT The interior of Ace Chemicals ic c",
+        "coen on the central spire",
+        "LEET The use of bright orange suggests the presence of",
+        "see Kan Muftic'c concent for the now-decrenit environs"
+      ]
+    },
+    {
+      "sequence": 120,
+      "file": "1 (120).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 13,
+      "headingCandidates": [
+        "NE O0",
+        "GROUTS",
+        "Do cossace",
+        "- 0000•"
+      ]
+    },
+    {
+      "sequence": 121,
+      "file": "1 (121).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 122,
+      "file": "1 (122).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 12,
+      "headingCandidates": [
+        "D LEFT Kan Muftic concepts for Gotham City's",
+        "1 Square represents / It 84 inches",
+        "тор A slow-moving airship illuminates the streets below",
+        "-hins. which plav an important role in"
+      ]
+    },
+    {
+      "sequence": 123,
+      "file": "1 (123).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 8,
+      "headingCandidates": [
+        "TOP A parade balloon looms much too close",
+        "inside Gotham City's urbanized environment",
+        "in this piece by Oliver Odmark.",
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 124,
+      "file": "1 (124).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 24,
+      "headingCandidates": [
+        "599",
+        "HyPocotyl",
+        "= Hurling",
+        "developing"
+      ]
+    },
+    {
+      "sequence": 125,
+      "file": "1 (125).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 20,
+      "headingCandidates": [
+        "POISON I",
+        "0 CHURCH - RUINED. PLANT",
+        "• SMALLER VINES CLIMBING",
+        "• MASSIVE"
+      ]
+    },
+    {
+      "sequence": 126,
+      "file": "1 (126).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 127,
+      "file": "1 (127).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 32,
+      "headingCandidates": [
+        "MILITARY-INDUSTRIAL",
+        "COMPLEX",
+        "THE ARKHAM KNIGHT IS MILITARIZING GOTHAM CITY,",
+        "WITH MERCENARIES AND DRONES THAT ANSWER"
+      ]
+    },
+    {
+      "sequence": 128,
+      "file": "1 (128).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 14,
+      "headingCandidates": [
+        "RH- COMMANDER TANK - STAGE 2",
+        "OPPOSITE Two tank designs by Lee",
+        "ABOVE This flying drone study by Lee",
+        "PAGE [ 257 ]"
+      ]
+    },
+    {
+      "sequence": 129,
+      "file": "1 (129).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 9,
+      "headingCandidates": [
+        "NOTE EAR CAN SUDE THEN",
+        "RH- TUNNEL EXCAVATOR - STAGE 01",
+        "THE ART OF ROCKSTEADY'S BATMAN",
+        "RA BARRELS SPIN AROU"
+      ]
+    },
+    {
+      "sequence": 130,
+      "file": "1 (130).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 4,
+      "headingCandidates": [
+        "Stagg Industries",
+        "- LOUD BURST DEVICE",
+        "PAGE [ 261 ]",
+        "PAGE [ 260 ]"
+      ]
+    },
+    {
+      "sequence": 131,
+      "file": "1 (131).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 132,
+      "file": "1 (132).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 13,
+      "headingCandidates": [
+        "HARLEY QUINS",
+        "RIDE",
+        "oResting",
+        "• In use"
+      ]
+    },
+    {
+      "sequence": 133,
+      "file": "1 (133).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 134,
+      "file": "1 (134).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 15,
+      "headingCandidates": [
+        "W",
+        "W",
+        "W",
+        "TECH"
+      ]
+    },
+    {
+      "sequence": 135,
+      "file": "1 (135).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 10,
+      "headingCandidates": [
+        "accota",
+        "concents by I ee Oliver",
+        "Batman's dear is seen in these",
+        "gauntlet created with in-game"
+      ]
+    },
+    {
+      "sequence": 136,
+      "file": "1 (136).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 45,
+      "headingCandidates": [
+        "PROGRAMMING",
+        "ARKHAM KNIGHT",
+        "TIM HANAGAN RAISED THE STAKES.",
+        "ON ARKHAM KNIGHT, PROGRAMMER"
+      ]
+    },
+    {
+      "sequence": 137,
+      "file": "1 (137).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 1,
+      "headingCandidates": [
+        "ARKHAM ASYLUM, ARKHAM CITY & ARKHAM KNIGHT"
+      ]
+    },
+    {
+      "sequence": 138,
+      "file": "1 (138).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 42,
+      "headingCandidates": [
+        "roughness and spirit, and that's the side of him",
+        "ware of next-generation console systems.",
+        "tweaked from game to game, in response to the",
+        "secondary characters. Each moment you come"
+      ]
+    },
+    {
+      "sequence": 139,
+      "file": "1 (139).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 7,
+      "headingCandidates": [
+        "Knight's paramilitary mercenaries.",
+        "OPPOSITE, BOTTOM Oliver Odmark concepts for",
+        "Art by Oliver Odmark.",
+        "THIS PAGE Oliver Odmark concepts for the Arkham"
+      ]
+    },
+    {
+      "sequence": 140,
+      "file": "1 (140).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 9,
+      "headingCandidates": [
+        "AT UTI",
+        "ABOVE A thug allied to Harley Quinn. Art by Oliver Odmark.",
+        "OPPOSITE, RIGHT A body-armored Penguin thug. Art by",
+        "POL"
+      ]
+    },
+    {
+      "sequence": 141,
+      "file": "1 (141).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 142,
+      "file": "1 (142).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 143,
+      "file": "1 (143).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 81,
+      "headingCandidates": [
+        "THE BATMOBILE",
+        "CAN'T COMFORTABLY TRAVERSE IT ON FOOT.",
+        "GOTHAM CITY IS SO BIG THAT BATMAN",
+        "BATMOBILE, RATHER THAN"
+      ]
+    },
+    {
+      "sequence": 144,
+      "file": "1 (144).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 145,
+      "file": "1 (145).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 146,
+      "file": "1 (146).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 147,
+      "file": "1 (147).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 148,
+      "file": "1 (148).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 149,
+      "file": "1 (149).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆骑士",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 150,
+      "file": "1 (150).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆的传承",
+      "ocrLineCount": 50,
+      "headingCandidates": [
+        "ARKHAM'S LEGACY",
+        "PART 5",
+        "ROCKSTEADY'S APPROACH TO COLLABORATION AMONG",
+        "THE SUCCESS OF THE ARKHAM TRILOGY."
+      ]
+    },
+    {
+      "sequence": 151,
+      "file": "1 (151).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "阿卡姆的传承",
+      "ocrLineCount": 0,
+      "headingCandidates": []
+    },
+    {
+      "sequence": 152,
+      "file": "1 (152).jpg",
+      "width": 5029,
+      "height": 3461,
+      "part": "致谢与出版信息",
+      "ocrLineCount": 30,
+      "headingCandidates": [
+        "rocksteady",
+        "ABRAMS",
+        "ACKNOWLEDGMENTS",
+        "Copyright © 2015 DC Comics."
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "title": "疯人院院史：阿卡姆之魂",
   "intro": "审查散落在疯人院各处的24处石碑铭文，解构阿卡姆之魂背后的狂热偏执与罪恶源头。",
   "nameNote": "Chronicles of Arkham；“阿卡姆之魂”为中文暂译，亦可用Spirit of Amadeus Arkham检索。",
-  "scope": "23处石碑记录，加上1条最终记录。下方24个序号按玩家转录的叙事阅读顺序排列。",
+  "scope": "23处石碑记录，加上一条最终留言。按游戏录音顺序收听这段院史。",
   "overview": "记录以第一人称追述家族、母亲与岛屿的过去，随后转向治疗、惩罚和对病人的敌意。阅读时要同时追问：哪些是回忆，哪些是自我辩护，讲述者又把谁视作自己的继承者？",
   "sections": [
     {
@@ -52,7 +52,19 @@
       "topic": "自称院史的守护者",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 1,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 6.5,
+        "sourceEnd": 30.5,
+        "audioFile": "audio/chronicle-01.m4a",
+        "duration": 24,
+        "audioBytes": 398979,
+        "audioSha256": "300eee51af3db2387b0da5a7ce43a321be4b666ac7c04fcb833578fad57a0463",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-02",
@@ -60,7 +72,19 @@
       "topic": "家族与哥谭",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 2,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 32.0,
+        "sourceEnd": 55.5,
+        "audioFile": "audio/chronicle-02.m4a",
+        "duration": 23.5,
+        "audioBytes": 390635,
+        "audioSha256": "f1959a5d17a991b37352912e3f82d0ecdf701ada7ee5ec3402ff6c9092abc34b",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-03",
@@ -68,7 +92,19 @@
       "topic": "返家照顾母亲",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 3,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 57.0,
+        "sourceEnd": 90.5,
+        "audioFile": "audio/chronicle-03.m4a",
+        "duration": 33.5,
+        "audioBytes": 556378,
+        "audioSha256": "5174c6a9e2c83eb3ce927298eb3eda962cf36acb47b844c86c7aec0392c1861b",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-04",
@@ -76,7 +112,19 @@
       "topic": "归途后的家庭悲剧",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 4,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 92.5,
+        "sourceEnd": 122.0,
+        "audioFile": "audio/chronicle-04.m4a",
+        "duration": 29.5,
+        "audioBytes": 489933,
+        "audioSha256": "d2adf889c7e98d8ea971a4368c451ca044789898903a235b10d9ce2b1a4ee535",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-05",
@@ -84,7 +132,19 @@
       "topic": "追问暴行原因",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 5,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 123.0,
+        "sourceEnd": 140.5,
+        "audioFile": "audio/chronicle-05.m4a",
+        "duration": 17.5,
+        "audioBytes": 290999,
+        "audioSha256": "6e286dca48696923e538be9dcdf2ad721c58deb6623c0ea54737da322a7d38b9",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-06",
@@ -92,7 +152,19 @@
       "topic": "对凶手的怜悯",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 6,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 143.0,
+        "sourceEnd": 171.5,
+        "audioFile": "audio/chronicle-06.m4a",
+        "duration": 28.5,
+        "audioBytes": 473793,
+        "audioSha256": "4d1607c12786a880442d58631e886434d6686b3d34f95a6a8ed431188f56ce27",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-07",
@@ -100,7 +172,19 @@
       "topic": "重建岛屿",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 7,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 173.5,
+        "sourceEnd": 190.5,
+        "audioFile": "audio/chronicle-07.m4a",
+        "duration": 17,
+        "audioBytes": 283524,
+        "audioSha256": "4e755a4f694f5c82a1820cd78d96485fdcdefd821b62af540e7b2e16c7f71fca",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-08",
@@ -108,7 +192,19 @@
       "topic": "新医生与承诺",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 8,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 192.0,
+        "sourceEnd": 215.5,
+        "audioFile": "audio/chronicle-08.m4a",
+        "duration": 23.5,
+        "audioBytes": 390575,
+        "audioSha256": "fbd212b16df66fd8dc5c032dfe974a245fe0c9797bafb82dbf0c2a7c22987b80",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-09",
@@ -116,7 +212,19 @@
       "topic": "治疗信念受挫",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 9,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 218.0,
+        "sourceEnd": 263.0,
+        "audioFile": "audio/chronicle-09.m4a",
+        "duration": 45,
+        "audioBytes": 747010,
+        "audioSha256": "a587d3a8a406621ede7d09f6c22e2f812035b6d2ea464fc858abad0f00fd4830",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-10",
@@ -124,7 +232,19 @@
       "topic": "将死亡称为事故",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 10,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 266.5,
+        "sourceEnd": 299.5,
+        "audioFile": "audio/chronicle-10.m4a",
+        "duration": 33,
+        "audioBytes": 548365,
+        "audioSha256": "fa95885b1648794c20c786ed9e84cb7d3b9f76fc37bcebf675ab3e93f4574292",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-11",
@@ -132,7 +252,19 @@
       "topic": "对病人的敌意",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 11,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 301.0,
+        "sourceEnd": 329.5,
+        "audioFile": "audio/chronicle-11.m4a",
+        "duration": 28.5,
+        "audioBytes": 473645,
+        "audioSha256": "0f5c0bc880935c04cefcd39e53b012cd3e39331d4515bc916afe9de8647be954",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-12",
@@ -140,7 +272,19 @@
       "topic": "寻找理念同伴",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 12,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 331.5,
+        "sourceEnd": 361.5,
+        "audioFile": "audio/chronicle-12.m4a",
+        "duration": 30,
+        "audioBytes": 498709,
+        "audioSha256": "e9f4897d272cfd3f19682db73339fe9f674bf6072482b544ab77461616b38355",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-13",
@@ -148,7 +292,19 @@
       "topic": "新病人的到来",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 13,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 364.0,
+        "sourceEnd": 406.5,
+        "audioFile": "audio/chronicle-13.m4a",
+        "duration": 42.5,
+        "audioBytes": 704811,
+        "audioSha256": "cd6faa40376693d388e09af6987b224bfd7ecbd088014bcbaba1de3e935a274e",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-14",
@@ -156,7 +312,19 @@
       "topic": "暴力转向他人",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 14,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 408.0,
+        "sourceEnd": 446.0,
+        "audioFile": "audio/chronicle-14.m4a",
+        "duration": 38,
+        "audioBytes": 630383,
+        "audioSha256": "becdd3b368f5a2827b96f676aad0e42cf05afa280a7dcd9cf021b9ee8320d8ea",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-15",
@@ -164,7 +332,19 @@
       "topic": "净化城市的执念",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 15,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 450.0,
+        "sourceEnd": 479.5,
+        "audioFile": "audio/chronicle-15.m4a",
+        "duration": 29.5,
+        "audioBytes": 489945,
+        "audioSha256": "0abb6335c22069912aa80f9bf374d6c68f22ad5e10b82782b2dc4da4b058c7e8",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-16",
@@ -172,7 +352,19 @@
       "topic": "忏悔与自我许可",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 16,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 482.0,
+        "sourceEnd": 527.0,
+        "audioFile": "audio/chronicle-16.m4a",
+        "duration": 45,
+        "audioBytes": 746323,
+        "audioSha256": "77862aa39ae3e4e2b41e0874713e68eeae209b8d24254c311c3d78720be1ba46",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-17",
@@ -180,7 +372,19 @@
       "topic": "绿色皮肤的病人",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 17,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 528.5,
+        "sourceEnd": 573.0,
+        "audioFile": "audio/chronicle-17.m4a",
+        "duration": 44.5,
+        "audioBytes": 738326,
+        "audioSha256": "c77f1f441dc4d2d1b65efb0a742474a31abe145b7255a9174dd7ef5964aaf33b",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-18",
@@ -188,7 +392,19 @@
       "topic": "牢房外的窥视",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 18,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 577.5,
+        "sourceEnd": 602.5,
+        "audioFile": "audio/chronicle-18.m4a",
+        "duration": 25,
+        "audioBytes": 415297,
+        "audioSha256": "6f497e8f1bdc0ec80c810b46180afe131d289ff19f9bd36f90f262b1675f101b",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-19",
@@ -196,7 +412,19 @@
       "topic": "隔着玻璃的亲近",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 19,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 604.5,
+        "sourceEnd": 696.0,
+        "audioFile": "audio/chronicle-19.m4a",
+        "duration": 91.5,
+        "audioBytes": 1515987,
+        "audioSha256": "8e6f6c7444f16e4b8516bcb1d9dd694e6520efd8e3fe45b185e64423acdbc477",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-20",
@@ -204,7 +432,19 @@
       "topic": "称谓出现变化",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 20,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 697.0,
+        "sourceEnd": 720.5,
+        "audioFile": "audio/chronicle-20.m4a",
+        "duration": 23.5,
+        "audioBytes": 390615,
+        "audioSha256": "cdaed7725d4885bf9e2abaab3320e401e27f9112874f90f984edd450dedd6daa",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-21",
@@ -212,7 +452,19 @@
       "topic": "行凶失败",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 21,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 724.0,
+        "sourceEnd": 770.0,
+        "audioFile": "audio/chronicle-21.m4a",
+        "duration": 46,
+        "audioBytes": 762754,
+        "audioSha256": "9ac885e9d6dbb4525c8f38c21f9e54a5aa3943db7a5e20099e30953215ddc39d",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-22",
@@ -220,7 +472,19 @@
       "topic": "归咎他人与日记收束",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 22,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 772.5,
+        "sourceEnd": 815.0,
+        "audioFile": "audio/chronicle-22.m4a",
+        "duration": 42.5,
+        "audioBytes": 705885,
+        "audioSha256": "9a144e049e583022ee074e79febeb1f4f0fac53a8c2c076ec8f1c640fd8d3346",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-23",
@@ -228,7 +492,19 @@
       "topic": "邀请读者寻找身份",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 23,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 816.0,
+        "sourceEnd": 859.0,
+        "audioFile": "audio/chronicle-23.m4a",
+        "duration": 43,
+        "audioBytes": 713329,
+        "audioSha256": "2183f35e36bbd3193fd33b95b27a684852ad7262d389d2837ad9b47c39c7debe",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     },
     {
       "id": "chronicle-24",
@@ -236,7 +512,19 @@
       "topic": "最终署名",
       "sources": [
         "chronicles-transcript"
-      ]
+      ],
+      "audio": {
+        "number": 24,
+        "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+        "sourceStart": 861.5,
+        "sourceEnd": 886.5,
+        "audioFile": "audio/chronicle-24.m4a",
+        "duration": 25,
+        "audioBytes": 415531,
+        "audioSha256": "a12c3db02a6f2e27763cc6fd0cb6c6a7506b12c717d0acab1bf88d8cf89c5c9b",
+        "cues": [],
+        "audioSource": "local-asylum-recording-20261022"
+      }
     }
   ],
   "sources": [
@@ -294,6 +582,15 @@
       "readStatus": "已读取人物背景；仅辅助交叉核查，最终署名以游戏文本转录为依据。",
       "checked": "2026-10-03",
       "spoiler": true
+    },
+    {
+      "id": "local-asylum-recording-20261022",
+      "title": "《阿卡姆疯人院》阿卡姆之魂记录 · 用户提供游戏录制",
+      "evidence": "本地玩家录制 · 英语原声",
+      "checked": "2026-10-22",
+      "files": [
+        "阿卡姆疯人院 病人访谈记录.mp4"
+      ]
     }
   ],
   "images": [

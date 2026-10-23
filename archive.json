@@ -7,7 +7,7 @@
       "eyebrow": "BATCAVECN // PROTOCOL ARKHAM",
       "title": "今晚，\n哥谭只能靠一个人。",
       "intro": "阿卡姆的大门在身后轰然锁死，你被困在恶徒狂欢的暴动中心。没有后援，没有退路——在这个漫长冷夜，唯有战术与意志能够守住最后的底线。",
-      "prologue": "从孤岛疯人院的惊悚夜袭、冷雨封锁的监狱之城，到全城沦陷的终局猎杀。Rocksteady 构筑的世界没有旁观者，在拳拳到肉的搏杀与致命谜题的博弈中，直面那条绝不逾越的界线。",
+      "prologue": "孤岛疯人院里的夜袭、冷雨中的监狱之城、全城沦陷后的追猎，构成了阿卡姆系列的黑暗舞台。Rocksteady 构筑的世界没有旁观者，在拳拳到肉的搏杀与致命谜题的博弈中，直面那条绝不逾越的界线。",
       "conroyTitle": "哥谭的铁血低回",
       "conroyText": "三十年间，面具后的低音从未动摇。即便身陷疯狂浸染的阿卡姆之夜，凯文·康罗伊的声音依然是哥谭风暴中唯一的定海神针。"
     },
@@ -19,7 +19,7 @@
       "intro": "全黑卡纸上起稿的暗夜、雷鸣轰响中的飞艇剪影、浓缩在二十分钟里的好莱坞黑色电影。推开旧影院的沉重木门，重温定义了黑暗骑士黄金时代的悲剧与诗意。",
       "prologue": "这里没有非黑即白的简单童话，只有大萧条余韵下挣扎的灵魂。无论是冰霜里为亡妻哭泣的急冻人，还是被双重人格撕裂的哈维·丹特——每一个跌入深渊的反派，都是一面照见布鲁斯·韦恩内心创伤的镜子。",
       "conroyTitle": "传奇之声的起点",
-      "conroyText": "从花花公子布鲁斯慵懒温和的日常伪装，到黑夜中斩钉截铁的钢铁低语。1992 年录音棚里的那一声宣告，自此定义了整整两代人心中唯一的蝙蝠侠。"
+      "conroyText": "布鲁斯公开露面时语气轻松，戴上面罩后则变得低沉、坚定。自1992年起，凯文·康罗伊用声音区分这两种身份，也演出了同一个人的疲惫与温柔。"
     }
   },
   "sources": [
@@ -53,7 +53,8 @@
       "url": "https://www.dc.com/blog/2014/02/21/behind-the-bat-an-interview-with-kevin-conroy",
       "type": "本人访谈",
       "scope": "TAS 与游戏经历、双重声音、集体录音及 Perchance to Dream。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2014-02-21"
     },
     {
       "id": "dc-performance",
@@ -61,7 +62,8 @@
       "url": "https://www.dc.com/blog/2022/12/05/how-kevin-conroy-became-our-batman",
       "type": "官方编辑回顾",
       "scope": "表演路线、Nothing to Fear、Perchance to Dream、I Am the Night。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-12-05"
     },
     {
       "id": "dc-memorial",
@@ -69,7 +71,8 @@
       "url": "https://www.dc.com/blog/2022/11/11/kevin-conroy-preeminent-voice-of-batman-passes-away-at-age-66",
       "type": "官方纪念公告",
       "scope": "生平、舞台经历与动画、游戏参与记录。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-11-11"
     },
     {
       "id": "dc-finding",
@@ -77,7 +80,8 @@
       "url": "https://www.dc.com/blog/2022/11/11/read-finding-batman-by-kevin-conroy-j-bone-and-aditya-bidikar",
       "type": "官方作品介绍",
       "scope": "Finding Batman 的作者、创作与官方阅读入口。",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "published": "2022-11-11"
     },
     {
       "id": "wf-fear",
@@ -1530,6 +1534,91 @@
       "type": "角色资料辅助来源",
       "scope": "Animal Act角色Miranda Kane与Jane Wiedlin。",
       "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-comicmix-2010",
+      "title": "ComicMix · Kevin Conroy Discusses his Return to the Batcave",
+      "url": "https://comicmix.com/2010/09/17/kevin-conroy-discusses-his-return-to-the-batcave/",
+      "type": "本人问答",
+      "published": "2010-09-17",
+      "scope": "舞台训练、与观众见面、蝙蝠侠和超人的人物关系。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-geekscape-2015",
+      "title": "Geekscape · Kevin Conroy of Batman Is the Man Who Laughs in Turbo FAST",
+      "url": "https://www.geekscape.net/geekscape-interviews-kevin-conroy-of-batman-is-the-man-who-laughs-in-turbo-fast",
+      "type": "本人访谈 · Eric Francisco",
+      "published": "2015-08-02",
+      "scope": "古典悲剧的角色理解、舞台偏好和九一一后厨房志愿工作。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-gce-2016",
+      "title": "The GCE · Interview with Voice Actor Kevin Conroy",
+      "url": "https://www.geekchicelite.com/interview-with-voice-actor-kevin-conroy/",
+      "type": "本人圆桌访谈",
+      "published": "2016-09-07",
+      "scope": "舞台与广告配音的职业衔接、同棚接戏、录音室气氛和喜爱的作品。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-nerdly-2018",
+      "title": "Nerdly · MCM London 2018 Q&A: Kevin Batman Conroy",
+      "url": "https://www.nerdly.co.uk/2018/06/05/mcm-london-2018-qa-kevin-batman-conroy/",
+      "type": "本人问答 · Xenia Grounds",
+      "published": "2018-06-05",
+      "scope": "动画同棚与游戏单独录音的差别、分块录制和演员对成品的感受；不采用未经独立核实的台词总数。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-finding-pages",
+      "title": "Kevin Conroy、J. Bone、Aditya Bidikar · Finding Batman，DC Pride 2022 #1",
+      "url": "https://dcanimated.com/btas/btas-backstage/btas-backstage-kevin-conroy-finding-batman/",
+      "type": "本人自传漫画 · The World’s Finest存档",
+      "published": "2022",
+      "scope": "查看封面及九页故事图像；个人身份、职业处境、照护经历与试音回忆。只作简短主题转述，不转载或翻译全篇。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-starburst-2016",
+      "title": "Joel Harley · Kevin Conroy | Batman: The Killing Joke · STARBURST",
+      "url": "https://www.starburstmagazine.com/features/kevin-conroy-interview/",
+      "type": "演员本人访谈",
+      "scope": "布鲁斯早期声音参考戴维·尼文；康罗伊回忆为减弱声音反差而返录；角色表演与演员合作。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "romano-starburst-btas",
+      "title": "Andrew Pollard · Andrea Romano | Batman: The Complete Animated Series · STARBURST",
+      "url": "https://www.starburstmagazine.com/features/andrea-romano-batman-complete-animated-series/",
+      "type": "选角及对白导演本人访谈",
+      "scope": "集体排练如何建立统一表演风格，并帮助调整剧本的情绪节奏。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "romano-toonzone-2011",
+      "title": "Ed Liu · NYCC2011: A Roundtable Interview with Voice and Casting Director Andrea Romano · Toonzone",
+      "url": "https://animesuperhero.com/nycc2011-roundtable-interview-with-voice-and-casting-director-andrea-romano/",
+      "type": "选角及对白导演圆桌访谈 · 2011-10-17",
+      "scope": "选角先看表演；熟悉的搭档即使分开录音，也能记住彼此的角色反应。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-wb-gotham-knight-2008",
+      "title": "Warner Home Video · Kevin Conroy on Voicing Batman Gotham Knight · 2008-05-14",
+      "url": "https://www.superherohype.com/features/96565-kevin-conroy-on-voicing-batman-gotham-knight",
+      "type": "华纳提供的演员问答 · SuperHeroHype刊载",
+      "scope": "2008年独立动画电影的画面先行录音、口型与节奏、非对白喊声的多次表演。",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-wired-2011",
+      "title": "Jason Schreier · Arkham City, a Tough Place to Be Batman’s Voice · WIRED · 2011-10-20",
+      "url": "https://www.wired.com/2011/10/arkham-city-kevin-conroy/",
+      "type": "现场采访报道 · 康罗伊本人发言",
+      "scope": "游戏中重复台词的多种读法与战斗发声的录制。",
+      "checked": "2026-10-22"
     }
   ],
   "games": [
@@ -1610,7 +1699,7 @@
         {
           "id": "world",
           "title": "从岛屿到城区",
-          "body": "雨果·斯特兰奇用高墙与机枪碉堡，将哥谭最破败的历史街区粗暴割裂为一座无法无天的城中之城。双面人、企鹅人与小丑割据三方，黑帮在冰冷街道上火并。当探索的边界从孤岛室内破壁扩展到风雪交加的开放空域，抓钩发射与披风滑翔成为了割裂夜空的利刃。从破败的派克街到深埋地底的奇迹之城废墟，整座城市化作了层层叠叠的巨大犯罪谜局。"
+          "body": "雨果·斯特兰奇用高墙与机枪碉堡，将哥谭最破败的历史街区粗暴割裂为一座无法无天的城中之城。双面人、企鹅人与小丑割据三方，黑帮在冰冷街道上火并。风雪中的城区提供了大片可供穿行的空域，抓钩与披风让楼宇之间的移动成为探索的一部分。破败的派克街、深埋地底的奇迹之城废墟各有秘密，整座城市构成了一张复杂的犯罪地图。"
         },
         {
           "id": "creators",
@@ -1683,7 +1772,7 @@
         {
           "id": "world",
           "title": "年轻蝙蝠侠的哥谭",
-          "body": "由 WB Games Montréal 接棒开发的这部前传，将时间拨回到《疯人院》数年之前的刺骨寒冬。这里的布鲁斯·韦恩出道仅第二年，暴烈、孤傲、尚未与哥谭警局建立信任，手段更是带着生涩的凶狠。在平安夜连绵的大雪中，从皇家酒店到先锋大桥，整座尚未建立疯人院的哥谭市，都在见证一个都市传说向黑暗骑士艰难蜕变的过程。"
+          "body": "由 WB Games Montréal 接棒开发的这部前传，将时间拨回到《疯人院》数年之前的刺骨寒冬。这里的布鲁斯·韦恩出道仅第二年，暴烈、孤傲、尚未与哥谭警局建立信任，手段更是带着生涩的凶狠。平安夜的大雪覆盖着皇家酒店与先锋大桥。布鲁斯在这些地点经历的冲突，逐渐改变了他处理犯罪与信任他人的方式。"
         },
         {
           "id": "voice",
@@ -1708,7 +1797,7 @@
         {
           "id": "service-history",
           "title": "多人模式的服务记录",
-          "body": "《起源》的Steam公告记载，多人线上服务于2016年12月4日退役。原作、剧情扩展、挑战包与线上模式的服务记录属于不同字段；阅读某一平台的商品信息时，需要对应到具体内容类型。"
+          "body": "《起源》的多人线上服务于2016年12月4日退役。剧情扩展、挑战包与多人模式各有不同的游玩内容。"
         }
       ],
       "spoiler": "",
@@ -1727,7 +1816,7 @@
         },
         {
           "url": "/arkham/archive/rocksteady/",
-          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+          "title": "Rocksteady与创作变迁：单机叙事与赛季制"
         }
       ]
     },
@@ -1793,13 +1882,13 @@
         {
           "id": "challenges",
           "title": "挑战与外观的不同用途",
-          "body": "Crime Fighter Challenge Packs增加格斗、潜行与双人合作等AR挑战；WayneTech Track Pack增加蝙蝠车赛道。人物战衣和战车涂装则改变外观，不能仅凭造型将其当成另一部作品的剧情接续。\n电影造型进入游戏，提供的是可操作的视觉版本。阅读这类素材时，角色故事、挑战场景与外观出处各自保留，便能看清一种形象进入游戏后承担了什么功能。"
+          "body": "Crime Fighter Challenge Packs增加格斗、潜行与双人合作等AR挑战；WayneTech Track Pack增加蝙蝠车赛道。人物战衣和战车涂装提供跨作品主题的可选外观。\n电影造型进入游戏，提供的是可操作的视觉版本。阅读这类素材时，角色故事、挑战场景与外观出处各自保留，便能看清一种形象进入游戏后承担了什么功能。"
         },
         {
           "id": "ending-context",
           "title": "主线终章与扩展阅读",
           "containsSpoilers": true,
-          "body": "从阿卡姆骑士身份揭晓到骑士陨落协议（Knightfall Protocol），为 Rocksteady 三部曲留下了震撼而庄严的终章。"
+          "body": "阿卡姆骑士的身份揭晓后，骑士陨落协议（Knightfall Protocol）为Rocksteady三部曲收尾。"
         }
       ],
       "spoiler": "",
@@ -1822,7 +1911,7 @@
         },
         {
           "url": "/arkham/archive/rocksteady/",
-          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+          "title": "Rocksteady与创作变迁：单机叙事与赛季制"
         }
       ]
     },
@@ -1864,7 +1953,7 @@
         {
           "id": "versions",
           "title": "2013年原版与2014年豪华版",
-          "body": "2013年10月25日的原版首发于PS Vita与Nintendo 3DS；Steam的Deluxe Edition于2014年4月1日发行。豪华版商店说明列出新增地图、敌人遭遇、难度等级、战衣与强化画面，作品目录仍以2013年掌机原作为起点。\n原版与豪华版各自保留平台和日期。PC版截图在图片资料中标为Deluxe Edition，不能仅因标题相近就把2014年的素材当作2013年掌机版本的画面。"
+          "body": "2013年10月25日的原版首发于PS Vita与Nintendo 3DS；Steam的Deluxe Edition于2014年4月1日发行。豪华版商店说明列出新增地图、敌人遭遇、难度等级、战衣与强化画面，作品目录仍以2013年掌机原作为起点。\n2013年掌机原版与2014年豪华版分别记录平台和发售日期；图片资料中的PC版画面来自Deluxe Edition。"
         },
         {
           "id": "place",
@@ -1896,7 +1985,7 @@
         },
         {
           "url": "/arkham/archive/rocksteady/",
-          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+          "title": "Rocksteady与创作变迁：单机叙事与赛季制"
         }
       ]
     },
@@ -1934,7 +2023,7 @@
         {
           "id": "play",
           "title": "四人合作、移动与装备构筑",
-          "body": "Rocksteady 告别了三部曲赖以成名的封闭暗杀与近身连击，全面转型为以超高速垂直机动、枪械射击与战利品装备驱动的四人联机合作体验。从哈莉的空中滑翔到回旋镖队长的极速瞬移，空间探索的重心从阴影中的侦探排查，转向了枪林弹雨下的立体开火。"
+          "body": "Rocksteady 告别了三部曲赖以成名的封闭暗杀与近身连击，全面转型为以超高速垂直机动、枪械射击与战利品装备驱动的四人联机合作体验。哈莉依靠空中滑翔穿行，回旋镖队长则以极速瞬移改变位置。角色的移动能力服务于立体枪战，侦探排查已不再是探索的重心。"
         },
         {
           "id": "voice",
@@ -1948,8 +2037,8 @@
         },
         {
           "id": "production",
-          "title": "从2020年发表到2024年发行",
-          "body": "从 2020 年 DC FanDome 的轰动公布，到创始人 Sefton Hill 与 Jamie Walker 于 2022 年底宣布离职创立 HundredStar，再到 2024 年 2 月发行的艰难上市——这部作品完整折射了当代 3A 工作室在服务型游戏浪潮与单机叙事基因碰撞中的深刻震荡与抉择。"
+          "title": "公布、人员变动与发行",
+          "body": "作品于2020年DC FanDome公布，2024年2月发行。开发期间，创始人Sefton Hill与Jamie Walker在2022年底宣布离职，两人后来创立HundredStar。这段历程记录了工作室尝试服务型游戏时的人员与制作变化。"
         }
       ],
       "spoiler": "",
@@ -1973,7 +2062,7 @@
         },
         {
           "url": "/arkham/archive/rocksteady/",
-          "title": "Rocksteady与创作变迁：从成为蝙蝠侠到赛季制"
+          "title": "Rocksteady与创作变迁：单机叙事与赛季制"
         }
       ]
     },
@@ -2571,7 +2660,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "从日常餐桌到封闭温室，空间不断收紧。花朵与枝叶的美感和危险并存，可与《青春永驻》对照阅读。"
+          "body": "日常餐桌与封闭温室形成对照，后者让人物可活动的空间越来越小。花朵与枝叶的美感和危险并存，可与《青春永驻》对照阅读。"
         }
       ],
       "spoiler": "帕梅拉以哈维参与开发、破坏稀有植物为由实施报复。蝙蝠侠取得解药救回哈维，毒藤女的花园则在交战中焚毁，她随后被收押。",
@@ -2927,7 +3016,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。辅助资料列Tokyo Movie Shinsha为动画制作公司，Shirley Walker为配乐作者。\nRichard Moll同时呈现哈维与双面人的声音。可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇由另一家动画公司制作。"
+          "body": "上篇的Story署名Alan Burnett，Teleplay署名Randy Rogel，导演为Kevin Altieri。Tokyo Movie Shinsha制作动画，Shirley Walker配乐。\nRichard Moll同时呈现哈维与双面人的声音。可以关注公开场合的克制与愤怒爆发时的变化，声音中的断裂先于观众熟悉的半张面孔。后篇由另一家动画公司制作。"
         },
         {
           "id": "records",
@@ -3212,7 +3301,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。音乐资料须分开读：Composer为Todd Hayen，Supervising Composer为Shirley Walker。比较维克托的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
+          "body": "Michael Ansara为急冻人配音，Mark Hamill在本集出演费里斯·博伊尔。只按演员最知名角色理解声音，容易忽略同一演员在系列中的其他工作。\n本集由Paul Dini编剧、Bruce W. Timm导演，动画制作署名Spectrum。Composer署名Todd Hayen，Supervising Composer署名Shirley Walker。比较维克托的克制语气与其叙述中剧烈的失去，而不是把“没有感情”当作他的全部特征。"
         },
         {
           "id": "records",
@@ -3352,7 +3441,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "本篇接续指南013的上篇，指南016的位置不等于两段故事相隔三次事件。按故事阅读时，两篇应连在一起。"
+          "body": "本篇在指南中编号016，故事直接接续编号013的上篇，两篇适合连读。"
         }
       ],
       "spoiler": "蝙蝠侠与猫女挣脱束缚，阻止基地中的病原体危机。合作之后，蝙蝠侠仍须面对赛琳娜的盗窃行为，亲近没有使她自动免于法律责任。",
@@ -3818,7 +3907,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "追查从港口延伸到水下与地下空间，线索由残留物而非供述推动。可与《给布洛克的一颗子弹》比较两人关系的变化。"
+          "body": "港口、水下与地下空间依次成为调查地点，残留物提供了追查所需的线索。可与《给布洛克的一颗子弹》比较两人关系的变化。"
         }
       ],
       "spoiler": "杀手鳄企图报复曾将他送进监狱的布洛克，绑走证人并伪造指向警探的线索。蝙蝠侠救出受困者，洗清布洛克的嫌疑。",
@@ -3962,7 +4051,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "从列车、保险库到钟楼，机械设备始终决定可行动的时间窗口。后续《时间脱节》会把这种控制欲推进到另一种技术条件。"
+          "body": "列车、保险库与钟楼各有运行规律，人物必须在机械设备留出的短暂间隙行动。后续《时间脱节》会把这种控制欲推进到另一种技术条件。"
         }
       ],
       "spoiler": "钟王将希尔绑在钟楼指针上，企图让机械运动杀死他。蝙蝠侠赶在时限内救下市长，破坏了富盖特计算好的结局。",
@@ -4455,7 +4544,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "本集署名在辅助档案中列为Dini编剧、Timm导演、Walker配乐与Dong Yang动画制作；小丑和哈莉英语配音分别为Hamill与Sorkin。\n宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。"
+          "body": "本集由Dini编剧、Timm导演、Walker配乐，Dong Yang制作动画；小丑和哈莉英语配音分别为Hamill与Sorkin。\n宣传语气与威胁语气放在同一人物的表达中，能使一句话的表面热情与实际危险同时存在。"
         },
         {
           "id": "records",
@@ -4747,7 +4836,7 @@
           "id": "craft",
           "title": "声音与制作",
           "containsSpoilers": true,
-          "body": "本篇仍由Randy Rogel编剧、Dick Sebast导演，音乐换为Peter Tomashek，动画制作换为Dong Yang。\n过去的救援与现在的合作形成对照，迪克从被保护的孩子走到能够援助蝙蝠侠的搭档。这个变化构成了双集内部的成长线。"
+          "body": "本篇仍由Randy Rogel编剧、Dick Sebast导演，音乐换为Peter Tomashek，动画制作换为Dong Yang。\n过去的救援与现在的合作形成对照：当年需要保护的迪克，如今已经能够援助蝙蝠侠。这个变化构成了双集内部的成长线。"
         },
         {
           "id": "records",
@@ -4888,7 +4977,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐及Blue Pencil动画制作；John Glover为谜语人配音。\n角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
+          "body": "David Wise编剧、Eric Radomski导演、Carlos Rodriguez配乐，Blue Pencil制作动画；John Glover为谜语人配音。\n角色可以借礼貌而自信的语气表达威胁，使控制感不必依靠每一句都大声宣告。与后续两篇谜语人故事并读时，可以留意同一个声音怎样处理受挫与自我确信。"
         },
         {
           "id": "records",
@@ -5176,7 +5265,7 @@
         {
           "id": "voice",
           "title": "声音与制作",
-          "body": "Robert Ito再度出演忍者。与《忍者之夜》并读时，留意两人从相互试探到正面宣告挑战的变化。\n本集编剧署名Steve Perry，导演Bruce W. Timm，动画制作Blue Pencil, S.I.，配乐Carlos Rodriguez。"
+          "body": "Robert Ito再度出演忍者。与《忍者之夜》并读时，可以比较两人的态度：早先的试探已被公开的挑战取代。\n本集编剧署名Steve Perry，导演Bruce W. Timm，动画制作Blue Pencil, S.I.，配乐Carlos Rodriguez。"
         },
         {
           "id": "reading",
@@ -5249,7 +5338,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "与上篇连读，关注芭芭拉从怀疑、求助到直接参与的过程。她与蝙蝠侠的合作先于后来正式穿上蝙蝠女服装。"
+          "body": "与上篇连读，关注芭芭拉如何处理疑虑、向人求助，并最终亲自参与行动。她与蝙蝠侠的合作先于后来正式穿上蝙蝠女服装。"
         }
       ],
       "spoiler": "蝙蝠侠与芭芭拉进入HARDAC设施，救回被取代的人并摧毁控制系统。芭芭拉在行动中显示的胆量，成为她后续故事的重要前史。",
@@ -5380,7 +5469,7 @@
         {
           "id": "viewing",
           "title": "剧情简介 · 不含结局",
-          "body": "小丑、企鹅人、双面人、毒藤女与杀手鳄围坐在昏暗后巷的一张扑克牌桌前。在洗牌与下注的闲聊中，恶棍们各自吹嘘起自己“差一点就彻底干掉蝙蝠侠”的光辉战绩：从巨型硬币弹射、剧毒毒素到狂笑毒气陷阱。伴随着回忆的不断深入，牌局背后的真正玄机悄然浮出水面。"
+          "body": "小丑、企鹅人、双面人、毒藤女与杀手鳄围坐在昏暗后巷的一张扑克牌桌前。在洗牌与下注的闲聊中，恶棍们各自吹嘘起自己“差一点就彻底干掉蝙蝠侠”的光辉战绩，巨型硬币弹射、剧毒毒素和狂笑毒气陷阱都是他们炫耀的手段。伴随着回忆的不断深入，牌局背后的真正玄机悄然浮出水面。"
         },
         {
           "id": "characters",
@@ -5529,7 +5618,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dick Sebast导演、Richard Bronskill配乐及Akom动画制作。The World’s Finest编剧栏列名Marty Isenberg与Rober N. Skir。\n当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
+          "body": "Dick Sebast导演、Richard Bronskill配乐，Akom制作动画。The World’s Finest编剧栏列名Marty Isenberg与Rober N. Skir。\n当空间失去稳定尺度，声音中的命令、回应与交流就成为理解行动方向的线索。游戏世界的夸张变化与人物仍须承担的责任，可以分开观察。"
         },
         {
           "id": "records",
@@ -5682,7 +5771,7 @@
           "body": "故事大部分时间跟随小人物，而非跟随英雄查案。可与《千钧一发》比较反派如何共同制造蝙蝠侠的传说。"
         }
       ],
-      "spoiler": "蝙蝠侠并未死亡，而是利用传闻继续观察犯罪网络。席德从被追捧到被追杀，最后反而在监狱中以这段奇遇获得他渴望的名声。",
+      "spoiler": "蝙蝠侠并未死亡，而是利用传闻继续观察犯罪网络。席德刚受到追捧，便招来了杀身之祸，最后反而在监狱中以这段奇遇获得他渴望的名声。",
       "gaps": "制作代码、首播地区及影音序号不以指南编号推断；英语配音字段为主要角色节选。",
       "sources": [
         "wf-guide-31-60",
@@ -6034,7 +6123,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案列Dini编剧、Boyd Kirkland导演、Walker配乐与Dong Yang动画制作；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。"
+          "body": "Dini编剧、Boyd Kirkland导演、Walker配乐，Dong Yang制作动画；哈莉、毒藤女与Montoya分别由Sorkin、Pershing、Oliu配音。\n哈莉与毒藤女的对话可以看作一次新的交流节奏，与哈莉回应小丑时的方式比较。"
         },
         {
           "id": "records",
@@ -6819,7 +6908,7 @@
         {
           "id": "themes",
           "title": "主题与叙事",
-          "body": "危险不总是来自最显眼的犯罪网络。调查从职业仇怨转向日常关系，让人物必须看到自己习以为常的态度对别人的影响。",
+          "body": "危险不总是来自最显眼的犯罪网络。职业仇怨的嫌疑逐渐消退，日常关系中的矛盾浮现出来，人物也必须正视自己的态度给别人造成的影响。",
           "containsSpoilers": true
         },
         {
@@ -6830,7 +6919,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "比较黑帮嫌疑线与公寓生活线如何交替出现。可与《复仇旧账》连读，观察两人从勉强信任到主动合作的变化。"
+          "body": "比较黑帮嫌疑线与公寓生活线如何交替出现。可与《复仇旧账》连读：两人这次愿意主动合作，彼此的信任也比过去更稳固。"
         }
       ],
       "spoiler": "威胁最终追到布洛克的房东，而非他首先怀疑的黑帮仇家。案件中的荒唐动机使警探被迫面对日常相处留下的怨恨。",
@@ -7690,7 +7779,7 @@
         {
           "id": "craft",
           "title": "声音与制作",
-          "body": "辅助档案分别列Alan Burnett、Paul Dini、Randy Rogel为故事作者，Randy Rogel为电视剧本作者；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
+          "body": "故事作者为Alan Burnett、Paul Dini与Randy Rogel，Randy Rogel执笔电视剧本；Dan Riba导演，Michael McCuistion配乐，Dong Yang制作。\n同一角色在公开推销和遭遇质疑时，可以表现出不同的自我控制程度。结尾的失序也适合与前两篇故事中的自信比较，而不是单独作为一种夸张的反派表演。"
         },
         {
           "id": "records",
@@ -7910,7 +7999,7 @@
         {
           "id": "voice",
           "title": "声音与制作",
-          "body": "Bruce Weitz出演博尔顿。命令式的声音从机构内部延伸到私人监狱，暴露他的控制目标并不止于工作职责。\n本集编剧署名故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir，导演Dan Riba，动画制作Dong Yang Animation, Inc.，配乐Kristopher Carter, Brian Langsbard。"
+          "body": "Bruce Weitz出演博尔顿。他在私人监狱里仍然使用那种命令式的语气，暴露出超越工作职责的控制欲。\n本集编剧署名故事：Paul Dini；剧本：Marty Isenberg, Robert N. Skir，导演Dan Riba，动画制作Dong Yang Animation, Inc.，配乐Kristopher Carter, Brian Langsbard。"
         },
         {
           "id": "reading",
@@ -8166,37 +8255,165 @@
     "original": "Kevin Conroy",
     "years": "1955—2022",
     "subtitle": "蝙蝠侠之声",
-    "intro": "一段声音，可以陪伴人们走过很长的夜。这里从康罗伊的本人讲述出发，连接动画、游戏，以及面具背后的表演者。",
+    "intro": "凯文·康罗伊先是一名舞台演员，后来用三十年的时间，为布鲁斯·韦恩赋予了年龄、疲惫、幽默与温柔。朱莉亚德的戏剧训练塑造了他的表演方式。进入动画与游戏的录音棚后，他仍在寻找面具里面那个具体的人。",
     "sections": [
       {
         "id": "life",
-        "title": "01 / 凯文其人",
-        "body": "康罗伊受过专业戏剧训练，拥有舞台与电视表演经历。1992年开播的《蝙蝠侠：动画系列》让他的声音成为许多人认识蝙蝠侠的入口；2022年，DC发布了他的纪念公告。"
+        "title": "01 / 面具之前：凯文其人",
+        "body": "1955年11月30日，凯文·康罗伊出生于纽约州韦斯特伯里，在康涅狄格州韦斯特波特长大。他后来进入纽约朱莉亚德学院，接受约翰·豪斯曼的戏剧训练，并与罗宾·威廉姆斯做过室友。成为蝙蝠侠以前，他的生活围绕着排练、试镜与剧场展开。\n他最初想走的是古典戏剧演员的道路。莎士比亚人物的矛盾、欲望和自我追问，成为他进入角色的语言；日后面对一个失去双亲、同时经营两种身份的英雄，这套训练也有了新的用处。",
+        "sourceRefs": [
+          "dc-memorial",
+          "conroy-geekscape-2015"
+        ]
+      },
+      {
+        "id": "stage",
+        "title": "02 / 排练室、舞台与镜头",
+        "body": "康罗伊在纽约和圣迭戈的剧场工作，演过《仲夏夜之梦》《哈姆雷特》，也在百老汇演出《Eastern Standard》，并参演阿瑟·米勒的《The Last Yankee》。电视履历则包括《Dynasty》《Tour of Duty》《Ohara》等剧；舞台、电视剧与配音，是他职业生涯相互交叠的部分。\n在2016年的圆桌访谈里，他谈到一个很实际的问题：即使不断演戏，剧场收入也很难维持生活。他在纽约演出期间尝试商业广告配音，后来才走向动画。离开观众就在眼前的舞台，并没有让他放下那种习惯——听见搭档，再作出反应。",
+        "sourceRefs": [
+          "dc-memorial",
+          "conroy-gce-2016"
+        ]
       },
       {
         "id": "voice",
-        "title": "02 / 声音的诞生",
-        "body": "在2014年DC访谈中，他回忆自己提出用不同声音区分布鲁斯和蝙蝠侠。他也强调，表演需要建立在人物的情绪与经历之上。Andrea Romano组织的集体录音，让演员得以相互回应。"
+        "title": "03 / 一次试音，两种声音",
+        "body": "走进《蝙蝠侠：动画系列》的试音室时，康罗伊对这个角色的印象主要来自亚当·韦斯特的电视版。主创向他解释的却是另一个方向：一个被童年创伤改变、用秘密身份维持行动的人。他在其中认出了古典悲剧的结构，开始从人物的痛苦与责任进入表演。\n康罗伊在2014年访谈中谈到，布鲁斯是公众熟悉的富豪，戴上面罩以后，声音也应该帮助他隐藏身份。于是，公开场合的布鲁斯更轻松、圆滑，蝙蝠侠则压低声音，让每句话有更明确的重量。\n这并非只是一项压低音高的技巧。他强调，演员必须进入角色的情绪和经历。可以比较同一个声音如何面对罪犯、阿尔弗雷德和需要保护的人：威慑、信任与关心，往往通过停顿和语气就能区分。",
+        "sourceRefs": [
+          "conroy-geekscape-2015",
+          "dc-interview"
+        ],
+        "recordingNotes": [
+          {
+            "title": "布鲁斯的声音，也经历过返录",
+            "body": "康罗伊在《致命玩笑》时期的访谈中回忆，早期布鲁斯借鉴了戴维·尼文式的优雅和诙谐。随着整体风格转暗，团队觉得两种声音的反差过于突兀；他因此重新录制了开播前的前五集，收敛布鲁斯的语气。双重声音是在制作中不断调整出来的。",
+            "sourceRefs": [
+              "conroy-starburst-2016"
+            ]
+          }
+        ]
       },
       {
-        "id": "works",
-        "title": "03 / 动画与游戏",
-        "body": "从动画单集到Rocksteady三部曲，沿下方作品入口阅读康罗伊的蝙蝠侠表演。"
+        "id": "ensemble",
+        "title": "04 / 录音棚里的搭档",
+        "body": "选角与对白导演安德烈娅·罗马诺让演员们一起录音，像排演广播剧那样完成对白。康罗伊能当场听见对手说话，顺着一句话的速度、呼吸和情绪接下去；他的蝙蝠侠与马克·哈米尔的小丑，也就在这种往复中建立关系。\n他在2016年把合作比作接球：对方抛得越好，自己越容易接住、再抛回去。面对第一次参与配音的演员，他也会主动开玩笑，让录音棚松弛下来。角色在故事里十分严肃，演员之间却需要玩心，才能试出意料之外的节奏。",
+        "sourceRefs": [
+          "dc-interview",
+          "conroy-gce-2016"
+        ],
+        "photos": [
+          "conroy-2009"
+        ],
+        "recordingNotes": [
+          {
+            "title": "一起排练，也是在修改故事的节奏",
+            "body": "罗马诺在回顾动画系列时解释，集体排练让新加入的演员听见既有的风格，也让主创发现情绪是否过早达到高点、后面的转折是否铺垫充分。对白录音由此参与了故事的组织。\n她在2011年谈到，长期合作的演员即使分开录音，也能记住搭档会怎样反应。这份熟悉，使同棚对戏建立起来的默契延续到了不同的工作安排里。",
+            "sourceRefs": [
+              "romano-starburst-btas",
+              "romano-toonzone-2011"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "performances",
+        "title": "05 / 声音如何进入一个人的内心",
+        "body": "《Nothing to Fear》让观众听见蝙蝠侠怎样面对恐惧；《Perchance to Dream》则把他放进一个近乎理想的生活，考验他对自己处境的判断。到《I Am the Night》，疑虑与疲惫进入了这个英雄的声音。把这些表演放在一起，能听见康罗伊如何让坚定和脆弱同时存在。\n《幽灵的面具》把布鲁斯的誓言与对普通生活的渴望放在同一部电影里。康罗伊在访谈中尤其欣赏这层矛盾：人物希望得到幸福，却又无法轻易放下已经承担的责任。台词的力量来自这种犹豫，而不只是英雄宣言。",
+        "sourceRefs": [
+          "dc-performance",
+          "conroy-gce-2016"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ],
+        "recordingNotes": [
+          {
+            "title": "没有台词的时候，表演仍在继续",
+            "body": "2008年独立动画电影《Batman: Gotham Knight》采用了与他过去不同的录音顺序：先有画面，再让表演适应口型和时长。康罗伊谈到，一段坠落时的长喊反复录了许多版本，要有冲击力，也要避免用力过度。喘息、受力和喊声，同样要交代人物正在经历什么。",
+            "sourceRefs": [
+              "conroy-wb-gotham-knight-2008"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "beyond",
+        "title": "06 / 让布鲁斯慢慢老去",
+        "body": "《Batman Beyond》把康罗伊带到布鲁斯的晚年。动作能力退去，权威、戒备和不愿示弱的性格仍在；他与特里·麦金尼斯的关系，让同一个人物逐渐学着把责任交给另一个人。年长的布鲁斯因此有自己的声调和耐心，也有新的孤独。\n《Justice League》及《Justice League Unlimited》又把蝙蝠侠放进伙伴群体。康罗伊在2010年谈及超人时，将两人的关系理解为接近兄弟的相互平衡：他们看待世界的方法不同，却能够认可对方。声音既要维持布鲁斯的疏离，也要给信任留下位置。",
+        "sourceRefs": [
+          "dc-performance",
+          "conroy-comicmix-2010"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ],
+        "photos": [
+          "conroy-2019"
+        ]
       },
       {
         "id": "comparison",
-        "title": "04 / 一段声音，两种媒介",
-        "body": "动画让声音跟随镜头和对白，游戏让声音伴随玩家的行动。由单集走向游戏，比较表演的节奏与角色经验，两套作品各自展开哥谭的故事。"
+        "title": "07 / 游戏录音中的独角戏",
+        "body": "阿卡姆系列需要声音跟随玩家的行动。剧情对白之外，还有调查、行动提示和战斗反应；玩家以不同速度推进时，角色仍须保持连贯。康罗伊在2018年的问答中解释，这种制作方式通常需要他独自在录音棚里，逐句完成不同语气的版本。\n他以《阿卡姆骑士》为例，描述了数小时一段的工作：脑中维持人物和当下情境，按照导演要求调整，再继续下一句。与搭档当面接戏的乐趣相比，这个过程更孤立，也更消耗精力；但他谈到成品时，又表达了对表演和游戏效果的自豪。\n重复台词仍需要具体的对象。向伙伴报告、追问嫌疑人、安慰受惊的人，每种情境都要求不同的距离感。游戏里的声音既帮助玩家理解行动，也持续提醒玩家：正在行动的是布鲁斯·韦恩。",
+        "sourceRefs": [
+          "conroy-nerdly-2018"
+        ],
+        "recordingNotes": [
+          {
+            "title": "战斗反应，也需要一条条录制",
+            "body": "2011年接受WIRED采访时，康罗伊提到《阿卡姆之城》的录音包含大量战斗发声：同类反应需要不同变化，台词也要提供多种读法，配合玩家不同的行动。看似一闪而过的喘息和受击声，也有专门的表演工作。",
+            "sourceRefs": [
+              "conroy-wired-2011"
+            ],
+            "sites": [
+              "shared",
+              "arkham"
+            ]
+          }
+        ]
       },
       {
         "id": "finding",
-        "title": "05 / 本人讲述与共同创作",
-        "body": "《Finding Batman》由康罗伊讲述自身经历，J. Bone绘画，Aditya Bidikar担任文字设计。沿官方介绍进入原作，读他如何把个人生活与表演联系起来。"
+        "title": "08 / Finding Batman：把自己的经历写下来",
+        "body": "2022年，康罗伊为《DC Pride 2022》写下自传短篇《Finding Batman》，由J. Bone绘画与上色，Aditya Bidikar负责文字设计。故事回到那次改变他职业道路的试音，也把视线移向此前漫长的生活。\n他写到成长环境中对同性恋身份的隐藏、演艺工作中的歧视，以及艾滋病危机中失去朋友和照护亲人的经历。作品将公众面前的形象与私下承受的压力并置，最后让这些记忆与布鲁斯的身份分裂相遇。\n在他的讲述中，蝙蝠侠的声音从积累已久的情绪中浮现。读到这里，再回想他对真实情感的强调，就能理解面罩和声音何以成为他与人物相遇的地方。",
+        "sourceRefs": [
+          "dc-finding",
+          "conroy-finding-pages"
+        ]
+      },
+      {
+        "id": "audience",
+        "title": "09 / 离开录音棚，走到观众面前",
+        "body": "配音完成后，演员往往很久都见不到观众的反应。康罗伊在2010年谈到，漫展让他重新获得了一点剧场的感觉：可以听见观众回应，也能知道一段表演怎样进入了别人的生活。他把这些见面视为对自己的鼓励。\n2001年九一一袭击后，他在纽约参与志愿厨房工作，为救援人员准备饭菜。多年后回忆那段日子，他记住了厨房里有人认出蝙蝠侠的声音，众人在紧张中短暂欢呼的片刻。对于一位主要在幕后工作的演员，这让声音与现实中的人有了直接联系。",
+        "sourceRefs": [
+          "conroy-comicmix-2010",
+          "conroy-geekscape-2015"
+        ],
+        "photos": [
+          "conroy-2021"
+        ]
       },
       {
         "id": "memory",
-        "title": "06 / 留下的回声",
-        "body": "回到作品，是继续认识他的方式。沿本人访谈、官方纪念与表演回顾，重听留在角色里的声音。"
+        "title": "10 / 留下的回声",
+        "body": "2022年11月10日，康罗伊因癌症去世，享年66岁；DC在次日发布纪念公告，列出他的丈夫沃恩·C·威廉姆斯及家人。罗马诺记住他的善意与笑声，哈米尔则回忆起他作为搭档和朋友的慷慨。\n他留在作品中的声音，可以严厉，也可以安静；可以使人退缩，也可以让人愿意靠近。重新听这些差别，仍然是在认识那位把人物当作人来表演的演员。",
+        "sourceRefs": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "id": "works",
+        "title": "11 / 回到作品",
+        "body": "从具体作品继续听他的表演。动画与游戏按各自的年份排列，分集导读保留独立的剧情与制作资料。",
+        "sourceRefs": [
+          "dc-memorial"
+        ],
+        "siteBodies": {
+          "tas": "下方按作品日期排列康罗伊的动画表演，包括《皮翼之下》及TNBA。完整目录收在下方，分集导读保留独立的剧情与制作资料。",
+          "arkham": "下方按年份排列康罗伊参与的阿卡姆游戏，可以对照各作中的表演。作品目录也列入《阿卡姆 VR》与《自杀小队：消灭正义联盟》。"
+        }
       }
     ],
     "sources": [
@@ -8207,7 +8424,89 @@
       "dc-city-history",
       "dc-trilogy",
       "rcs-origins-interview",
-      "wb-btas-blu"
+      "wb-btas-blu",
+      "conroy-comicmix-2010",
+      "conroy-geekscape-2015",
+      "conroy-gce-2016",
+      "conroy-nerdly-2018",
+      "conroy-finding-pages",
+      "conroy-starburst-2016",
+      "romano-starburst-btas",
+      "romano-toonzone-2011",
+      "conroy-wb-gotham-knight-2008",
+      "conroy-wired-2011"
+    ],
+    "timeline": [
+      {
+        "year": "1955",
+        "text": "11月30日出生于纽约州韦斯特伯里。",
+        "sources": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "year": "1970年代",
+        "text": "在朱莉亚德接受戏剧训练，随后从事舞台演出。",
+        "sources": [
+          "dc-memorial",
+          "conroy-finding-pages"
+        ]
+      },
+      {
+        "year": "1980年代",
+        "text": "在舞台与电视之间工作，出演Dynasty、Tour of Duty等剧。",
+        "sources": [
+          "dc-memorial"
+        ]
+      },
+      {
+        "year": "1992",
+        "text": "蝙蝠侠：动画系列开播。",
+        "sources": [
+          "dc-memorial"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ]
+      },
+      {
+        "year": "1993",
+        "text": "在动画电影《幽灵的面具》中出演布鲁斯／蝙蝠侠。",
+        "sources": [
+          "dc-performance"
+        ],
+        "sites": [
+          "shared",
+          "tas"
+        ]
+      },
+      {
+        "year": "2009—2015",
+        "text": "出演Rocksteady的阿卡姆三部曲。",
+        "sources": [
+          "dc-trilogy"
+        ],
+        "sites": [
+          "shared",
+          "arkham"
+        ]
+      },
+      {
+        "year": "2019",
+        "text": "在电视联动《无限地球危机》中真人出演布鲁斯·韦恩。",
+        "sources": [
+          "dc-performance"
+        ]
+      },
+      {
+        "year": "2022",
+        "text": "发表自传漫画Finding Batman；11月10日去世，享年66岁。",
+        "sources": [
+          "dc-finding",
+          "dc-memorial"
+        ]
+      }
     ]
   },
   "capedCrusader": {
@@ -8395,7 +8694,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "这是TNBA指南首篇，三段式不等于三集独立节目。可与BTAS《小丑的圣诞节》比较节日如何承载不同人物的日常。"
+          "body": "本篇为TNBA指南首篇，由三段故事组成。可与BTAS《小丑的圣诞节》比较节日如何承载不同人物的日常。"
         }
       ],
       "gaps": "制作代码、首播地区及影音序号不以指南编号推断；英语配音字段为主要角色节选。",
@@ -8468,7 +8767,7 @@
         },
         {
           "id": "reading",
-          "title": "从仰望制服到接受规则",
+          "title": "提姆的向往与规矩",
           "body": "提姆进入蝙蝠洞时的好奇，使英雄的装备重新获得尺寸与重量：它们可以被摸到、拿起，也可能带来危险。熟悉的空间通过一个孩子的目光，变成学习如何生活的场所。\n沿着这条线再读《无惧》《成长之痛》与《旧伤》，能看到搭档关系里的要求、判断与独立怎样逐步成为故事的一部分。"
         }
       ],
@@ -9043,7 +9342,7 @@
         {
           "id": "viewing",
           "title": "剧情简介 · 不含结局",
-          "body": "演出中的火焰效果从背景变成袭击，卡西迪的舞台和生活都受到威胁。蝙蝠侠与蝙蝠女调查燃烧装置，追查林斯不断升级的行为。"
+          "body": "演出中的火焰效果被用来发动袭击，卡西迪的舞台和生活都受到威胁。蝙蝠侠与蝙蝠女调查燃烧装置，追查林斯不断升级的行为。"
         },
         {
           "id": "characters",
@@ -9064,7 +9363,7 @@
         {
           "id": "reading",
           "title": "画面与阅读",
-          "body": "观察烟雾与火光怎样影响可见范围。科技装置推动冲突，本集不沿用漫画中所有不同版本的起源设定。"
+          "body": "观察烟雾与火光怎样影响可见范围。本集中的萤火虫利用科技装置制造威胁。"
         }
       ],
       "gaps": "制作代码、首播地区及影音序号不以指南编号推断；英语配音字段为主要角色节选。",

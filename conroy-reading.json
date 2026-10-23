@@ -1,0 +1,36 @@
+{
+  "title": "来自主站的回声",
+  "intro": "一段亲口讲述，一部幕后纪录片，以及一次告别。继续在Batman小站阅读凯文的故事。",
+  "articles": [
+    {
+      "id": "conroy-911",
+      "type": "访谈听译",
+      "date": "2014-05-24",
+      "title": "Kevin Conroy：蝙蝠侠与911的故事",
+      "summary": "救援厨房里的夜班，让他重新理解了自己的声音能带给人们什么。",
+      "url": "https://www.batcavecn.com/?p=14289",
+      "author": "匹克",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-beyond-documentary",
+      "type": "幕后纪录片 · 中文字幕",
+      "date": "2020-12-11",
+      "title": "《未来蝙蝠侠》的幕后故事",
+      "summary": "回顾项目立项与制作中的压力，了解这部未来哥谭动画如何诞生。",
+      "url": "https://www.batcavecn.com/?p=16621",
+      "author": "匹克",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "conroy-remembrance",
+      "type": "纪念文章 · 华纳讣告",
+      "date": "2022-11-12",
+      "title": "告别“蝙蝠之声”Kevin Conroy",
+      "summary": "重读2022年11月的告别，和搭档们留下的回忆。",
+      "url": "https://www.batcavecn.com/?p=17684",
+      "author": "匹克",
+      "checked": "2026-10-22"
+    }
+  ]
+}

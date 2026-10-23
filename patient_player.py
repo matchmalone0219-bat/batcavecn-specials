@@ -14,11 +14,11 @@ def recording_controls(patient):
         f'</button>'
         for n, t in enumerate(tapes)
     )
-    payload = json.dumps([dict(src='/assets/' + t['audioFile'], label=f'TAPE {n + 1:02d}', cues=t['cues']) for n, t in enumerate(tapes)], ensure_ascii=False).replace('<', '\\u003c')
+    payload = json.dumps([dict(src='/assets/' + t['audioFile'], label=f'TAPE {n + 1:02d}', cues=t['cues'], summary=t.get('summary', '')) for n, t in enumerate(tapes)], ensure_ascii=False).replace('<', '\\u003c')
     fallback = ''.join(f'<a href="/assets/{esc(t["audioFile"])}">录音 {n + 1:02d}</a> ' for n, t in enumerate(tapes))
     return f'''<nav class="tape-selector" aria-label="选择录音">{buttons}</nav>
 <div class="tape-deck-telemetry">
-<p class="label tape-label" data-tape-label>TAPE 01 / 05</p>
+<p class="label tape-label" data-tape-label>TAPE 01 / {len(tapes):02d}</p>
 <span class="vu-meter-tag" aria-hidden="true">OSCILLOSCOPE // 44.1kHz AAC · MONO</span>
 </div>
 <div class="waveform-chassis crt-monitor-chassis">
@@ -36,12 +36,11 @@ def recording_controls(patient):
 <span class="db-scale" aria-hidden="true">+3dB<br>0dB<br>-6dB<br>-12dB<br>-24dB</span>
 <canvas class="voice-waveform" data-waveform width="720" height="140" role="img" aria-label="实时音频波形">实时音频波形</canvas>
 </div>
-<div class="recording-subtitles" aria-label="中文字幕">
+<div class="recording-subtitles" aria-label="录音文字">
 <div class="transcript-title-bar">
-<p class="label">AUDIO TRANSCRIPT // 实时录音文字记录</p>
-<span class="transcript-sync-badge" aria-hidden="true">CUE SYNC ACTIVE</span>
+<p class="label" data-transcript-heading>{'LISTENING NOTES // 本段导读' if tapes[0].get('summary') else 'AUDIO TRANSCRIPT // 实时录音文字记录'}</p>
 </div>
-<p data-subtitle>点击播放，显示本段字幕。</p>
+<p data-subtitle>{esc(tapes[0].get('summary') or '点击播放，显示本段字幕。')}</p>
 </div>
 <button type="button" class="load-recording" data-load-recording hidden>播放所选录音</button><div class="patient-player"><audio controls preload="none" hidden aria-label="{esc(patient['name'])}访谈录音"></audio><noscript>{fallback}</noscript></div>
 <script type="application/json" data-tape-data>{payload}</script>'''
