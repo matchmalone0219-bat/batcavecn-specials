@@ -1,0 +1,157 @@
+{
+  "base": "https://matchmalone0219-bat.github.io/batcavecn-specials/",
+  "releaseCommit": "616b85d37da25f49ae9ea8d010cdc56f26efc7f0",
+  "results": [
+    {
+      "path": "arkham/patients/",
+      "status": 200,
+      "bytes": 400369,
+      "matchesRelease": true,
+      "sha256": "cf35330903087ad5e8196f0c84663b5fcebc679db12e5b8c9f3a2937da21b146"
+    },
+    {
+      "path": "arkham/transmissions/",
+      "status": 200,
+      "bytes": 71971,
+      "matchesRelease": true,
+      "sha256": "43bf38adfe222c0010e6171df6b3af28a4f2465866433f75e511f603c5843831"
+    },
+    {
+      "path": "arkham/archive/asylum-history/",
+      "status": 200,
+      "bytes": 19291,
+      "matchesRelease": true,
+      "sha256": "7b4b3e296567d985e656e75d427030f5d1504ff6fcc36792fedb8c61b8eb2191"
+    },
+    {
+      "path": "voices/",
+      "status": 200,
+      "bytes": 69658,
+      "matchesRelease": true,
+      "sha256": "027e7547165ead896c8f9b8bb16c8bd78e44109ce964de33aaa623d89146ba94"
+    },
+    {
+      "path": "arkham/people/kevin-conroy/",
+      "status": 200,
+      "bytes": 30631,
+      "matchesRelease": true,
+      "sha256": "a5bd1bad559aab82d436fbb4242008620fe15dac4adf4968fe91412fdc26b485"
+    },
+    {
+      "path": "tas/people/kevin-conroy/",
+      "status": 200,
+      "bytes": 49300,
+      "matchesRelease": true,
+      "sha256": "5aea20c8ade126e8e114892837be838136a96b313604b7714d97d0d24025806e"
+    },
+    {
+      "path": "tas/episodes/heart-of-ice/",
+      "status": 200,
+      "bytes": 10049,
+      "matchesRelease": true,
+      "sha256": "51f8f0b7c76fb6b0b48476598d29d3c71d1905beaaafab03c6431067f4c5aa1e"
+    },
+    {
+      "path": "tas/sources/",
+      "status": 200,
+      "bytes": 64635,
+      "matchesRelease": true,
+      "sha256": "79e1c06ecd968b2e840a187a4706e4b43ea2abcd00be15e0e9e930b0f2741445"
+    },
+    {
+      "path": "arkham/sources/",
+      "status": 200,
+      "bytes": 42490,
+      "matchesRelease": true,
+      "sha256": "902641c7c6d6cd2859fe179a6a928746d51b8ce8d20d55161b7720f891979a10"
+    },
+    {
+      "path": "content/search.json",
+      "status": 200,
+      "bytes": 188972,
+      "matchesRelease": true,
+      "sha256": "2bffd2a7a6ce6b99a0948a883095cd5eb122b879f6ab56412c7fc1eba4af6b62"
+    },
+    {
+      "path": "assets/arkham-investigation.css",
+      "status": 200,
+      "bytes": 35867,
+      "matchesRelease": true,
+      "sha256": "fa7a9076682000323225fd0737c71951c254d2d4a4ad1bb9a1b85796fcd16c37"
+    },
+    {
+      "path": "assets/arkham-investigation.js",
+      "status": 200,
+      "bytes": 21799,
+      "matchesRelease": true,
+      "sha256": "153596f9f85e7c8a83a0ff9a9c7af9001ea06690c6186785fe08564114d7a714"
+    },
+    {
+      "path": "assets/app.js",
+      "status": 200,
+      "bytes": 31355,
+      "matchesRelease": true,
+      "sha256": "3540ffc103950f7ecbeee879b7569249b0b02cc49622029f840cd1d0bb034712"
+    },
+    {
+      "path": "assets/tas-lightbox.js",
+      "status": 200,
+      "bytes": 3382,
+      "matchesRelease": true,
+      "sha256": "32753c2786a06e631bee94a7dddd8c912f2366c68fd8f3934d542adebbc03589"
+    },
+    {
+      "path": "assets/conroy-profile.css",
+      "status": 200,
+      "bytes": 28097,
+      "matchesRelease": true,
+      "sha256": "a7095499693453004097cfaaf35d8fe475b59fb0cf440e796fcd0e691f321da6"
+    },
+    {
+      "path": "assets/media/recording-portraits/asylum-joker.jpg",
+      "status": 200,
+      "bytes": 89745,
+      "matchesRelease": true,
+      "sha256": "78e96fa530a9f8d952cd939eb153788c73a51ce12a55c538a0eb2150de478993"
+    },
+    {
+      "path": "assets/media/recording-portraits/knight-arkham-knight.jpg",
+      "status": 200,
+      "bytes": 32735,
+      "matchesRelease": true,
+      "sha256": "4969e3306451fde61227868d54af265a60650cf302a6c421ca00db2b54401564"
+    },
+    {
+      "path": "assets/media/finding-batman-opening.jpg",
+      "status": 200,
+      "bytes": 1057838,
+      "matchesRelease": true,
+      "sha256": "6cb3a550f42e21a47fd6ff2ae6824e47922d1ca0f7d2d527c70bc41d486133b6"
+    },
+    {
+      "path": "assets/audio/patient-city-catwoman-01.m4a",
+      "status": 200,
+      "bytes": 659345,
+      "headSizeMatches": true
+    },
+    {
+      "path": "assets/audio/transmission-knight-oracle-01.m4a",
+      "status": 200,
+      "bytes": 1413781,
+      "headSizeMatches": true
+    },
+    {
+      "path": "assets/audio/chronicle-01.m4a",
+      "status": 200,
+      "bytes": 398979,
+      "headSizeMatches": true
+    }
+  ],
+  "pullRequest": "https://github.com/matchmalone0219-bat/batcavecn-specials/pull/1",
+  "workflowRun": "https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/39894483404",
+  "workflowRunId": 39894483404,
+  "build": "success",
+  "deploy": "success",
+  "nextTaskBase": "main",
+  "artbookContentImplemented": false
+}
