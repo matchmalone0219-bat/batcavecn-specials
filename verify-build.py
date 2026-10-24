@@ -56,8 +56,12 @@ class BuildChecks(unittest.TestCase):
         pages, records, images = render_pages(data)
         from artbook_pages import load as load_artbook
         artbook_records = sum(len(load_artbook(site)[key]) for site in ('arkham', 'tas') for key in ('chapters', 'episodeAdditions'))
+        reading = json.loads((builder.ROOT / 'arkham-reading.json').read_text())
+        scene_entries = json.loads((builder.ROOT / 'riddler-research.json').read_text())['entries']
+        omitted_scenes = len(scene_entries) - len(reading['scenes'])
+        video_scenes = len(json.loads((builder.ROOT / 'arkham-easter-eggs.json').read_text())['entries'])
         crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
-        self.assertEqual((len(pages), len(records)), (160, 504 + crossover_nodes + artbook_records + len(data['person']['sections'])))
+        self.assertEqual((len(pages), len(records)), (160, 504 + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route.startswith('arkham/'):
