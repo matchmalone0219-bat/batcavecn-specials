@@ -99,6 +99,7 @@
   function finish() {
     revealMenu();
     document.body.classList.remove('intro-entering');
+    window.ArkhamIntercom?.refresh();
     document.querySelector('.menu-tile').focus({preventScroll: true});
   }
 

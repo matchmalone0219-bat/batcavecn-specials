@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-24",
+  "status": "verified-ready-to-push",
+  "selectedAudio": "five approved short clips; 120 seconds of content, 128-second compilation remains preview only",
+  "pages": 160,
+  "searchRecords": 578,
+  "changedHtml": 27,
+  "originalAudioAndTasPagesUnchanged": true,
+  "addedGeneratedFiles": [
+    "assets/arkham-intercom.js",
+    "assets/audio/asylum-intercom-01.m4a",
+    "assets/audio/asylum-intercom-02.m4a",
+    "assets/audio/asylum-intercom-03.m4a",
+    "assets/audio/asylum-intercom-04.m4a",
+    "assets/audio/asylum-intercom-05.m4a"
+  ],
+  "removedGeneratedFiles": [],
+  "browser": {
+    "desktop": {
+      "width": 1280,
+      "rootPlayback": true,
+      "pagesBasePlayback": true,
+      "volumeControl": true,
+      "moreNavigationControls": true,
+      "partialNavigationVolumePreserved": 30,
+      "singleControllerAfterNavigation": true
+    },
+    "mobile": {
+      "width": 390,
+      "horizontalOverflow": false,
+      "menuMainBottom": 696,
+      "menuControlsTop": 726,
+      "innerControlRight": 334.33
+    },
+    "patientPriority": {
+      "intercomBefore": "playing",
+      "afterPatientStarted": "paused and rewound to zero",
+      "patient": "playing"
+    },
+    "limitations": "IAB responsive viewport checks, not physical-device or subjective listening tests"
+  },
+  "checks": "verify.py plus output/intercom-checks-20261023/checks.json, focused return-state tests rerun on Oct24",
+  "baseline": "a110ee1fc143ec83fc6a2004190d231715c50511",
+  "releaseCopy": {
+    "checksPassed": 16,
+    "generatedFilesCompared": {
+      "dist": 1044,
+      "pages-dist": 1045
+    },
+    "status": "pass"
+  }
+}

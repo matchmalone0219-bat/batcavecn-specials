@@ -34,6 +34,7 @@ jobs:
           node verify-intro.js
           node verify-arkham-nav.js
           node verify-arkham-menu.js
+          node verify-intercom.js
           node verify-investigation.js
           node verify-tas-motion.js
           node verify-lightbox.js

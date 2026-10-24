@@ -1,0 +1,63 @@
+{
+  "title": "院内广播",
+  "source": {
+    "title": "Batman Arkham Ambience | Arkham Asylum Soundtrack, Intercom and Rain",
+    "creator": "Pizza The Hutt",
+    "type": "同人环境声混音，源自用户提供的视频",
+    "fileName": "Batman Arkham Ambience ｜ Arkham Asylum Soundtrack, Intercom and Rain - Pizza The Hutt (1080p, h264).mp4",
+    "sha256": "6cd516aaef74ee9e407748f25f2d1ce55737104e81b19d4a01dc05593203ef2f"
+  },
+  "selection": "用户选定2分08秒五段短版；单段独立接入",
+  "clips": [
+    {
+      "id": "01",
+      "file": "audio/asylum-intercom-01.m4a",
+      "duration": 22,
+      "sha256": "628d60a197a65d700f6902fa589a03528188e43d845b5dc319f36bde57dc87aa",
+      "sourceRange": [
+        522,
+        544
+      ]
+    },
+    {
+      "id": "02",
+      "file": "audio/asylum-intercom-02.m4a",
+      "duration": 18,
+      "sha256": "8c08aae708f025d921f513f48192c2d58dd9ffb1ad2241f3c90c283a1b123b19",
+      "sourceRange": [
+        1013,
+        1031
+      ]
+    },
+    {
+      "id": "03",
+      "file": "audio/asylum-intercom-03.m4a",
+      "duration": 31,
+      "sha256": "30113b80b18cf3ee7666a10be6590a613a9ef14c97d20a2e729cf87bf03ad81a",
+      "sourceRange": [
+        1613,
+        1644
+      ]
+    },
+    {
+      "id": "04",
+      "file": "audio/asylum-intercom-04.m4a",
+      "duration": 28,
+      "sha256": "af9c7df9e242d74efdff01a29724d0af4f13ad4c814063ffdc60b267b76b7b8f",
+      "sourceRange": [
+        2513,
+        2541
+      ]
+    },
+    {
+      "id": "05",
+      "file": "audio/asylum-intercom-05.m4a",
+      "duration": 21,
+      "sha256": "77a6e792a3f88362c60c6663b8d0dc83fd34cc3db3e691541540a3fe7dd1ac50",
+      "sourceRange": [
+        3563,
+        3584
+      ]
+    }
+  ]
+}

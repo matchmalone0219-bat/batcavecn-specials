@@ -35,6 +35,7 @@
     const url = new URL(link.href);
     const canvas = document.querySelector('#intro-bats');
     const audio = document.querySelector('#intro-audio');
+    const intercom = document.querySelector('#arkham-intercom');
     let native = url.pathname === '/arkham/';
     const request = native ? null : load(url.href);
     transition.play({
@@ -48,6 +49,7 @@
           page.body.childNodes.forEach(node => content.append(document.importNode(node, true)));
           content.querySelector('#intro-bats').replaceWith(canvas);
           content.querySelector('#intro-audio').replaceWith(audio);
+          content.querySelector('#arkham-intercom').replaceWith(intercom);
           document.querySelectorAll('video').forEach(video => video.pause());
           document.body.className = page.body.className + ' arkham-transitioning';
           document.body.replaceChildren(content);

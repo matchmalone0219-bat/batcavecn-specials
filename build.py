@@ -61,6 +61,9 @@ def build(data=None):
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
+    copy_asset(ROOT / 'arkham-intercom.js', DIST / 'assets/arkham-intercom.js')
+    for clip in json.loads((ROOT / 'arkham-intercom.json').read_text())['clips']:
+        copy_asset(ROOT / clip['file'], DIST / 'assets' / clip['file'])
     for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:
         for tape in patient['tapes']:
             copy_asset(ROOT / tape['audioFile'], DIST / 'assets' / tape['audioFile'])

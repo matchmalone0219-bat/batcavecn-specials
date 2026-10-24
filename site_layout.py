@@ -50,16 +50,17 @@ def stylesheets(site):
     return icon(site) + "".join(f'<link rel="stylesheet" href="/assets/{file}">' for file in files)
 
 
-ARKHAM_CONTROLS = '<button class="arkham-quick" data-arkham-quick type="button" aria-pressed="false" hidden title="省略回访开场与菜单转场">快速浏览：关</button><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button>'
+ARKHAM_CONTROLS = '<button class="arkham-quick" data-arkham-quick type="button" aria-pressed="false" hidden title="省略回访开场与菜单转场">快速浏览：关</button><button class="arkham-sound" data-arkham-sound type="button" aria-pressed="true" hidden>转场音效：开</button><div class="arkham-intercom-controls" data-intercom-controls hidden><button data-intercom-toggle type="button" aria-pressed="false">院内广播：关</button><label>音量<input data-intercom-volume type="range" min="0" max="100" value="55" aria-label="院内广播音量"></label></div>'
 
 
 def arkham_effects(controls=True):
     """Floating controls belong to the intro and menu; inner pages carry them in the 更多导航 menu."""
-    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio>' + (ARKHAM_CONTROLS if controls else '')
+    tracks = ''.join(f'<source data-intercom-track src="/assets/audio/asylum-intercom-{index:02d}.m4a" type="audio/mp4">' for index in range(1, 6))
+    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><audio id="arkham-intercom" preload="none">' + tracks + '</audio>' + (ARKHAM_CONTROLS if controls else '')
 
 
 def arkham_scripts():
-    return '<script src="/assets/arkham-transition.js" defer></script><script src="/assets/arkham-menu.js" defer></script><script src="/assets/app.js" defer></script><script src="/assets/arkham-nav.js" defer></script>'
+    return '<script src="/assets/arkham-transition.js" defer></script><script src="/assets/arkham-menu.js" defer></script><script src="/assets/arkham-intercom.js" defer></script><script src="/assets/app.js" defer></script><script src="/assets/arkham-nav.js" defer></script>'
 
 
 def shell(data, site, title, body, active=""):

@@ -359,7 +359,8 @@ for r in history['records']:
     assert section.index('<details class="spoiler">') < section.index('<audio ') < section.index('</details>')
     assert 'preload="none"' in section
 assert len(list((DIST / 'assets/audio').glob('chronicle-*.m4a'))) == 24
-assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 129
+intercom = json.loads((CONTENT.parent / 'arkham-intercom.json').read_text())
+assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 129 + len(intercom['clips'])
 print('PASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, bounded cues or explicit listening notes, on-demand players and spoiler boundaries')
 
 # The two topics share biography data, not Arkham navigation or search scope.
@@ -479,6 +480,21 @@ for page_key in ("arkham/catalog/index.html", "arkham/archive/index.html"):
     assert 'class="topic-menu-controls"' in pages[page_key] and pages[page_key].count("data-arkham-sound") == 1
 assert pages["arkham/catalog/index.html"].count("MAIN MENU") == 1
 print('PASS: site icons on every page; branded 404; detail pages carry hero or plate, compact facts and prev/next; Arkham toggles in 更多导航')
+assert [clip['id'] for clip in intercom['clips']] == ['01', '02', '03', '04', '05']
+assert sum(clip['duration'] for clip in intercom['clips']) == 120
+for clip in intercom['clips']:
+    assert clip['file'] == f'audio/asylum-intercom-{clip["id"]}.m4a'
+    for path in (CONTENT.parent / clip['file'], DIST / 'assets' / clip['file']):
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == clip['sha256'], path
+for page_key, html in pages.items():
+    if page_key.startswith('arkham/'):
+        assert html.count('id="arkham-intercom"') == 1, page_key
+        assert html.count('data-intercom-toggle') == 1, page_key
+        assert html.count('data-intercom-track') == 5, page_key
+        assert '/assets/arkham-intercom.js' in html, page_key
+    else:
+        assert 'data-intercom-toggle' not in html and 'id="arkham-intercom"' not in html, page_key
+print('PASS: five approved intercom clips retain their hashes; optional controls and tracks stay within Arkham')
 for page_key in ("index.html", "404.html"):
     assert pages[page_key].count('class="gate ') == 2 and 'href="/voices/"' in pages[page_key] and 'route-card' not in pages[page_key]
 for page_key in ("arkham/people/kevin-conroy/index.html", "tas/people/kevin-conroy/index.html"):

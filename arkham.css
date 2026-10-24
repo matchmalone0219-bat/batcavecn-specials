@@ -365,6 +365,18 @@
 .topic-menu-controls .arkham-quick,.topic-menu-controls .arkham-sound{position:static;inset:auto;min-height:44px;padding:0;border:0;background:none;color:inherit;font:inherit;font-size:14px;text-align:left;cursor:pointer}
 .topic-menu-controls .arkham-quick:hover,.topic-menu-controls .arkham-sound:hover{color:var(--accent)}
 
+.arkham-intercom-controls{position:fixed;right:18px;bottom:66px;z-index:8;display:flex;align-items:center;gap:14px;padding:8px 12px;border:1px solid #86948c55;background:#101513e8;color:#c2ccc6;font:11px/1.4 var(--sans)}
+.arkham-intercom-controls[hidden]{display:none}
+.arkham-intercom-controls button{padding:0;min-height:28px;border:0;background:none;color:inherit;font:inherit;cursor:pointer;white-space:nowrap}
+.arkham-intercom-controls label{display:flex;align-items:center;gap:7px;white-space:nowrap}
+.arkham-intercom-controls input{width:82px;min-height:28px;padding:0;margin:0;accent-color:#aeb9a0;cursor:pointer}
+.arkham-intercom-controls button:focus-visible,.arkham-intercom-controls input:focus-visible{outline:2px solid #e4e5cc;outline-offset:4px}
+.arkham-intro:not(.intro-entered) .arkham-intercom-controls{display:none}
+.topic-menu-controls .arkham-intercom-controls{position:static;inset:auto;flex-wrap:wrap;gap:0 14px;padding:0;border:0;background:none;color:inherit;font-size:14px}
+.topic-menu-controls .arkham-intercom-controls button{min-height:44px;text-align:left}
+.topic-menu-controls .arkham-intercom-controls label{font-size:12px}
+@media(max-width:760px){.arkham-intercom-controls{right:12px;bottom:calc(64px + env(safe-area-inset-bottom));max-width:calc(100vw - 24px)}.arkham-intercom-controls button,.arkham-intercom-controls input{min-height:36px}.arkham.menu-screen main{height:calc(100svh - 148px - env(safe-area-inset-bottom))}}
+
 .arkham .detail-hero{position:relative;margin:18px 0 0;aspect-ratio:21/9;max-height:520px;overflow:hidden;background:#101312}
 .arkham .detail-hero img{display:block;width:100%;height:100%;object-fit:cover}
 .arkham .detail-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#17191800 45%,#171918 100%)}

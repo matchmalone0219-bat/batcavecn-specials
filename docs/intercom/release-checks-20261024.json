@@ -1,0 +1,82 @@
+[
+  {
+    "command": "python3 verify.py",
+    "exitCode": 0,
+    "seconds": 1.44
+  },
+  {
+    "command": "node verify-intercom.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "python3 verify-artbooks.py",
+    "exitCode": 0,
+    "seconds": 0.39
+  },
+  {
+    "command": "python3 verify-conroy.py",
+    "exitCode": 0,
+    "seconds": 0.39
+  },
+  {
+    "command": "python3 verify-build.py",
+    "exitCode": 0,
+    "seconds": 3.26
+  },
+  {
+    "command": "node verify-intro.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node verify-arkham-nav.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node verify-arkham-menu.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node verify-investigation.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node verify-tas-motion.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "node verify-lightbox.js",
+    "exitCode": 0,
+    "seconds": 0.02
+  },
+  {
+    "command": "node verify-opening.js",
+    "exitCode": 0,
+    "seconds": 0.03
+  },
+  {
+    "command": "python3 verify-opening.py",
+    "exitCode": 0,
+    "seconds": 0.06
+  },
+  {
+    "command": "node --check app.js",
+    "exitCode": 0,
+    "seconds": 0.02
+  },
+  {
+    "command": "node --check arkham-intercom.js",
+    "exitCode": 0,
+    "seconds": 0.02
+  },
+  {
+    "command": "python3 prepare_pages.py --base-path /batcavecn-specials",
+    "exitCode": 0,
+    "seconds": 0.92
+  }
+]
