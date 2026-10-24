@@ -1,0 +1,80 @@
+"""Check video chapter coverage, image provenance and reader spoiler boundaries."""
+import hashlib
+import json
+import re
+from html import escape
+from html.parser import HTMLParser
+from pathlib import Path
+from arkham_easter_eggs import load_easter_eggs
+
+ROOT = Path(__file__).resolve().parent
+VOID = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'}
+
+
+class Page(HTMLParser):
+    def __init__(self, text):
+        super().__init__()
+        self.stack, self.images, self.folds = [], [], []
+        self.feed(text)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'details' and 'spoiler' in attrs.get('class', '').split():
+            self.folds.append(attrs)
+        if tag == 'img':
+            folded = any(t == 'details' and 'spoiler' in a.get('class', '').split() for t, a in self.stack)
+            self.images.append((attrs, folded))
+        if tag not in VOID:
+            self.stack.append((tag, attrs))
+
+    def handle_endtag(self, tag):
+        for n in range(len(self.stack) - 1, -1, -1):
+            if self.stack[n][0] == tag:
+                del self.stack[n:]
+                break
+
+
+packet = load_easter_eggs()
+images = {image['id']: image for image in packet['images']}
+assert len(packet['entries']) == 20 and len(images) == 50
+assert re.fullmatch(r'[a-f0-9]{64}', packet['source']['sha256'])
+assert packet['source']['url'] == 'https://www.youtube.com/watch?v=nRBWe14tYdo'
+assert {id for entry in packet['entries'] for block in entry['blocks'] for id in block['images']} == images.keys()
+assert len({entry['chapterTitle'] for entry in packet['entries']}) == 20
+
+page = (ROOT / 'dist/arkham/archive/clues/index.html').read_text()
+assert page.count('class="scene-credit"') == 1
+assert page.count(packet['source']['url']) == 1
+assert page.count(packet['source']['creator']) == 1
+assert page.count('data-browse-item') == 28
+assert 'data-zone-game="asylum" aria-pressed="false">阿卡姆疯人院 · 22</button>' in page
+search = json.loads((ROOT / 'dist/content/search.json').read_text())
+spoiler_images = set()
+for entry in packet['entries']:
+    article = page.split(f'<article id="{entry["id"]}"', 1)[1].split('</article>', 1)[0]
+    parsed = Page(article)
+    assert all('open' not in fold for fold in parsed.folds)
+    if entry['spoiler']:
+        assert len(parsed.folds) == 1
+    for block in entry['blocks']:
+        assert escape(block['body'], quote=True) in article
+        if entry['spoiler'] or block['spoiler']:
+            spoiler_images.update(block['images'])
+    assert all(folded for attrs, folded in parsed.images if entry['spoiler'])
+    assert 'figcaption' not in article
+    rows = [row for row in search if row['url'] == '/arkham/archive/clues/#' + entry['id']]
+    assert len(rows) == 1 and rows[0]['summary'] == entry['summary']
+    assert not any(block['body'] in json.dumps(rows, ensure_ascii=False) for block in entry['blocks'])
+for image in images.values():
+    assert image['file'].startswith('arkham-easter-eggs/')
+    assert (image['width'], image['height']) == (1600, 900)
+    for path in (ROOT / image['file'], ROOT / 'dist/assets/media' / image['file']):
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == image['sha256'], path
+    needle = '/assets/media/' + image['file']
+    appearances = [(attrs, folded) for attrs, folded in Page(page).images if attrs.get('src') == needle]
+    assert len(appearances) == 1
+    if image['id'] in spoiler_images:
+        assert appearances[0][1], image['id']
+assert 'arkham-easter-eggs/' not in (ROOT / 'dist/arkham/gallery/index.html').read_text()
+assert all('arkham-easter-eggs/' not in file.read_text() for file in (ROOT / 'dist/tas').rglob('*.html'))
+print('PASS: 20 video chapters, 50 hashed images, one shared credit, folded spoilers and safe search summaries; 28 browse items and topic boundaries')

@@ -4,6 +4,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
+from arkham_easter_eggs import load_easter_eggs, video_credit, egg_detail
 
 ROOT = Path(__file__).resolve().parent
 
@@ -23,6 +24,8 @@ def load_reading(riddler, archive):
     assert set(reading['stories']) == {s['id'] for s in archive['stories']}
     for story in reading['stories'].values():
         assert all(story[key].strip() for key in ('title', 'intro', 'summary', 'sceneNote'))
+    reading['easterEggs'] = load_easter_eggs()
+    assert not (set(scene_ids) & {entry['id'] for entry in reading['easterEggs']['entries']})
     return reading
 
 
@@ -41,7 +44,10 @@ def source_links(ids, sources, esc):
 
 def scene_page(riddler, archive, reading, games, sources, picture, record, esc):
     entries = {e['id']: e for e in riddler['entries']}
-    selected = {s['entry']: s for s in reading['scenes']}
+    eggs = reading['easterEggs']
+    entries.update({entry['id']: dict(entry, videoEgg=True) for entry in eggs['entries']})
+    selected = {entry['id']: entry for entry in eggs['entries']}
+    selected.update({s['entry']: s for s in reading['scenes']})
     cases = {c['id']: c for c in riddler['cases']}
     stories_by_entry = defaultdict(list)
     cases_by_entry = defaultdict(list)
@@ -55,7 +61,8 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc):
     for entry_id in selected:
         entry = entries[entry_id]
         groups[(entry['game'], entry['region'])].append(entry)
-    content = '<div class="dossier-reading scene-reading"><p>海报、招牌、旧装备与陈列物，让没有站在眼前的人物也能留在哥谭。选一个场景，看看画面里的细节，以及它连接的人物与故事。</p>'
+    content = '<div class="dossier-reading scene-reading"><p>墙后的城市地图、会变化的陈列、海报与旧装备，把人物和秘密留在哥谭。先选游戏与地点，再打开一个发现，看看它怎样出现，以及它连接的故事。</p>'
+    content += video_credit(eggs, esc)
     content += '<section class="clue-zones" aria-labelledby="clue-zones-title"><h2 id="clue-zones-title">按游戏与地点浏览</h2><div class="clue-zone-games" role="group" aria-label="选择游戏" hidden>'
     content += f'<button type="button" data-zone-game="all" aria-pressed="true">全部 · {len(selected)}</button>'
     for game, name in games.items():
@@ -70,13 +77,20 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc):
         content += f'<div class="clue-zone-board" data-zone-board="{game}"><h3>{name}</h3><div class="clue-zone-tiles">'
         for region, rows in regions:
             target = zone_id(game, region)
-            content += f'<a class="clue-zone" href="#{target}" data-zone="{target}"><strong>{esc(region)}</strong><span>{len(rows)}项</span></a>'
+            label = rows[0].get('regionLabel', region)
+            content += f'<a class="clue-zone" href="#{target}" data-zone="{target}"><strong>{esc(label)}</strong><span>{len(rows)}项</span></a>'
         content += '</div></div>'
     content += '<p class="clue-zone-status" role="status" aria-live="polite" hidden></p><button type="button" class="clue-zone-reset" hidden>显示全部地点</button></section>'
     content += '<div class="clue-browser" data-browser data-browse-mode="clone"><div class="clue-list">'
     for (game, region), rows in groups.items():
-        content += f'<section class="dossier-group" id="{zone_id(game, region)}" data-zone-group="{game}"><h2>{games[game]} / {esc(region)}</h2><div class="dossier-index">'
+        label = rows[0].get('regionLabel', region)
+        content += f'<section class="dossier-group" id="{zone_id(game, region)}" data-zone-group="{game}"><h2>{games[game]} / {esc(label)}</h2><div class="dossier-index">'
         for entry in rows:
+            if entry.get('videoEgg'):
+                detail = egg_detail(entry, eggs, esc)
+                content += f'<article id="{entry["id"]}" data-browse-item data-target="{entry["id"]}"><p class="label">{esc(entry["kind"])}</p><h3>{esc(entry["title"])}</h3><div class="clue-detail" data-detail>{detail}</div></article>'
+                record(entry['title'], entry['summary'], '/arkham/archive/clues/', entry['id'], [games[game], entry['regionLabel'], entry['kind']])
+                continue
             scene = selected[entry['id']]
             case = cases[scene['case']]
             detail = f'<p class="clue-meta">{games[game]} · {esc(region)}</p>' + picture(scene['image'])

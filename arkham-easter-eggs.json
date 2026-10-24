@@ -1,0 +1,1119 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "id": "batman-arkham-videos-asylum-secrets",
+    "creator": "Batman Arkham Videos",
+    "title": "Batman: Arkham Asylum - Easter Eggs and Secrets",
+    "url": "https://www.youtube.com/watch?v=nRBWe14tYdo",
+    "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+    "fileName": "Batman： Arkham Asylum - Easter Eggs and Secrets [nRBWe14tYdo].mp4",
+    "sha256": "36b3566e154b50585d8803b146970c6cbdf7d24ef3d91078804985063e1f86be",
+    "duration": 2065.23,
+    "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+  },
+  "entries": [
+    {
+      "id": "asylum-secret-hidden-room",
+      "game": "asylum",
+      "region": "Arkham Mansion",
+      "regionLabel": "阿卡姆庄园",
+      "title": "院长办公室墙后的城市蓝图",
+      "summary": "地图与侦探模式都不标出的墙后，藏着另一座哥谭的规划。",
+      "chapterTitle": "The Secret Room",
+      "chapterFrame": 20,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "一面不会高亮的墙",
+          "body": "进入阿卡姆庄园的院长办公室后，书架和墙面看起来像普通装饰。这里的暗室没有出现在地图上，侦探模式也不会把入口标成常见的可破坏墙。视频在墙前反复布置爆炸凝胶，炸开后才露出里面的小房间。",
+          "images": [
+            "eg01-office",
+            "eg01-room"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "从岛屿走向城区",
+          "body": "墙上的哥谭地图画有围合区域与“Approved”字样。它把疯人院的封闭空间接到下一作的城市监狱构想上：这份留给续作的布景，把下一座舞台提前藏在了岛上。回看时，可以对照地图上的街区与《阿卡姆之城》的封锁边界。",
+          "images": [
+            "eg01-map"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-mannequins",
+      "game": "asylum",
+      "region": "Visitor Center",
+      "regionLabel": "访客中心",
+      "title": "访客中心里会变换姿势的人偶",
+      "summary": "关上视线再回头，电视机下的人偶姿势也会发生变化。",
+      "chapterTitle": "Joker Mannequins",
+      "chapterFrame": 170,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "反复回来看看",
+          "body": "剧情推进中回到访客中心，电视里的小丑会继续对蝙蝠侠说话。支撑电视的躯体会换姿势，房间里的排列也会随着进度改变。视频把转身、回望与不同阶段的陈列放在一起，原本像布景道具的东西因此有了不安的活动感。",
+          "images": [
+            "eg02-pose",
+            "eg02-group"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "侦探模式揭开的内容",
+          "body": "切换侦探模式后，画面显出躯体内部的骨骼。普通视线与扫描视线给同一件陈列两种印象，人偶因此不再只是电视机的支架，而成为这个房间里更令人不安的细节。",
+          "images": [
+            "eg02-scan"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-demons-head",
+      "game": "asylum",
+      "region": "Dr Young Office",
+      "regionLabel": "杨医生办公室",
+      "title": "杨医生办公室的裹尸袋",
+      "summary": "停尸柜中的人物线索，要在两次回访之间连起来。",
+      "chapterTitle": "The Demon’s Head",
+      "chapterFrame": 310,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "先扫描，再回访",
+          "body": "杨医生办公室附近的停尸柜中放着拉斯·奥·古的裹尸袋。先完成相关扫描，之后再返回，柜内的身体已经不见。两次查看同一处陈列，比单看一个人物名字更能显出这个彩蛋的变化。",
+          "images": [
+            "eg03-body",
+            "eg03-empty"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "恶魔之首留下的悬念",
+          "body": "拉斯与拉撒路之池、死亡和复生的关系，使空柜不只是少了一件场景物品。游戏把角色的存在压缩成一次消失，让后来再见到他的可能性留在场景里。",
+          "images": [],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-changing-prisoner",
+      "game": "asylum",
+      "region": "Penitentiary",
+      "regionLabel": "关押区",
+      "title": "同一间囚室，不同的面孔",
+      "summary": "一名被单独关押的人物，会用几张熟悉的面孔与蝙蝠侠交谈。",
+      "chapterTitle": "Clayface",
+      "chapterFrame": 365,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "换一张熟悉的脸",
+          "body": "在关押区反复查看这间囚室，里面的人会先后模仿阿伦·卡什、夏普院长和戈登。脸与声音不断更换，牢房位置却没有改变。",
+          "images": [
+            "eg04-cash",
+            "eg04-sharp"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "骨架与假人",
+          "body": "侦探模式下看不到与普通人体一致的骨架，变化的脸因此与泥面的能力联系起来。囚室内的假人则让人联想到第三代泥面普雷斯顿·佩恩及海伦娜的故事；漫画里的人物关系与游戏中的变脸展示，构成另一层联想。",
+          "images": [
+            "eg04-scan"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-scarecrow-actors",
+      "game": "asylum",
+      "region": "Interview Tapes",
+      "regionLabel": "访谈录音",
+      "title": "录音里的 Murphy 与 Combs",
+      "summary": "稻草人的访谈，把两个熟悉的演员姓氏放进了医生名字。",
+      "chapterTitle": "Scarecrow Actors",
+      "chapterFrame": 465,
+      "kind": "影视致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "医生的名字",
+          "body": "第一盘稻草人访谈出现 Murphy 与 Combs 两个医生姓氏。视频把它们分别与克里斯托弗·诺兰电影中的稻草人演员 Cillian Murphy，以及《The New Batman Adventures》中为稻草人配音的 Jeffrey Combs 并置。跨作品的演员记忆，被藏进了院内一段普通的称呼里。",
+          "images": [
+            "eg05-actors"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-developers",
+      "game": "asylum",
+      "region": "Arkham Island",
+      "regionLabel": "阿卡姆岛",
+      "title": "报纸、广播与对白里的开发者",
+      "summary": "Wyatt、Cloney 与 Hego 这些名字，连接了院内世界和 Rocksteady 团队。",
+      "chapterTitle": "Rocksteady Developers",
+      "chapterFrame": 520,
+      "kind": "开发趣味",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "从照片到新闻",
+          "body": "岛上的照片和报纸留下制作人员的面孔与名字。视频特别指出报纸里的“Mayor Wyatt”，把它与 Rocksteady 技术总监 Ben Wyatt 联系起来；开发者因此换了一个身份，进入哥谭的新闻。",
+          "images": [
+            "eg06-wyatt"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "姓名也会被叫出来",
+          "body": "医院广播呼叫 Dr. Cloney，视频对应到 Cinematics FX Artist Paul Cloney；敌人的闲谈又提到擅长刀刃的 Hego，对应美术总监 David Hego。比起署名表，这些线索更像是团队把自己悄悄安排进了机构的人名系统。",
+          "images": [
+            "eg06-cloney",
+            "eg06-hego"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-arkhamcare",
+      "game": "asylum",
+      "region": "Medical Facility",
+      "regionLabel": "医疗区",
+      "title": "广播里那家 ArkhamCare 网站",
+      "summary": "院内广告把医院的宣传口吻延伸到了游戏之外。",
+      "chapterTitle": "ArkhamCare",
+      "chapterFrame": 620,
+      "kind": "开发趣味",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把网址念进广播",
+          "body": "医疗区的广播介绍收费与医疗服务，并念出 ArkhamCare 的网址。它采用一本正经的医院广告语气，与玩家眼前失控的机构形成反差。",
+          "images": [
+            "eg07-pa"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "一份机构宣传的延伸",
+          "body": "视频保存了配套网页的画面：新闻、病患照护、研究、收费与院长栏目，沿用同一套机构身份。它展示的是当年宣传材料的样貌，阅读重点可以放在医院怎样描述自己，以及这种措辞与游戏环境的距离。",
+          "images": [
+            "eg07-site"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-urban-chaos",
+      "game": "asylum",
+      "region": "Visitor Center",
+      "regionLabel": "访客中心",
+      "title": "访客中心墙上的 Burners",
+      "summary": "一幅涂画把 Rocksteady 的前一款游戏带进了阿卡姆。",
+      "chapterTitle": "Urban Chaos",
+      "chapterFrame": 655,
+      "kind": "开发趣味",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "上一款作品留下的人影",
+          "body": "访客中心墙上的夸张人脸与头盔造型，被视频拿来和《Urban Chaos: Riot Response》里的 Burners 帮派对照。画面还并置了工作室墙上相同的涂画：一个符号跨过游戏与办公室，成为团队自己的小记号。",
+          "images": [
+            "eg08-burner"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-three-stooges",
+      "game": "asylum",
+      "region": "Medical Facility",
+      "regionLabel": "医疗区",
+      "title": "小丑广播里的《活宝三人组》",
+      "summary": "一段装模作样的医生呼叫，把失控的医院变成了黑色喜剧。",
+      "chapterTitle": "The Three Stooges",
+      "chapterFrame": 705,
+      "kind": "影视致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "医生呼叫变成笑话",
+          "body": "接管医疗区广播后，小丑会随机念出一段医院医生呼叫。视频把这段广播与《活宝三人组》的短片《Men in Black》相连：三位角色在片中扮演不称职的医生。笑话被放回医院广播的形式里，既像机构日常，也像小丑对机构秩序的模仿。",
+          "images": [
+            "eg09-stooges"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-unused-henchman",
+      "game": "asylum",
+      "region": "Medical Facility",
+      "regionLabel": "医疗区",
+      "title": "玻璃罐里的未采用敌人",
+      "summary": "医疗区的标本，与一组束缚衣敌人设计保留了相似面孔。",
+      "chapterTitle": "Straight Jacket Henchman",
+      "chapterFrame": 750,
+      "kind": "开发趣味",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "设计留下的残片",
+          "body": "视频将医疗区玻璃罐中的头部与“Straight Jacket Henchman”概念图并排：原方案是一名穿束缚衣、持钝器的敌人。角色没有以完整敌人的形式进入流程，但罐装标本与设计稿之间仍保留着可辨认的外形联系。",
+          "images": [
+            "eg10-jar"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-luke-oliver",
+      "game": "asylum",
+      "region": "Penitentiary",
+      "regionLabel": "关押区",
+      "title": "囚室与派对名单上的 Luke Oliver",
+      "summary": "一个现实中的名字，同时留在角色面孔和小丑的名单里。",
+      "chapterTitle": "The Mysterious Inmate",
+      "chapterFrame": 795,
+      "kind": "开发趣味",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "成为游戏里的一名囚犯",
+          "body": "视频介绍了 Rocksteady 在2008年的宣传竞赛：获胜者 Luke Oliver 的样貌被用于一名关押区犯人。画面先展示囚室中的人物，再把现实参与者的名字与他的游戏形象连在一起。",
+          "images": [
+            "eg11-inmate"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "名单上的普通姓名",
+          "body": "小丑的派对名单还列着 Selina Kyle、Harvey Dent、Jervis Tetch、Basil Karlo、Waylon Jones、Oswald Cobblepot 和 Arnold Wesker。Luke Oliver 与这些熟悉的犯罪人物名字挤在同一页，成为另一种客串。",
+          "images": [
+            "eg11-list"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-presents",
+      "game": "asylum",
+      "region": "Titan Production Facility",
+      "regionLabel": "泰坦生产设施",
+      "title": "泰坦货箱寄给了谁",
+      "summary": "货箱标签与重制版的改动，让一次运输多出了一串收件人。",
+      "chapterTitle": "Joker’s Presents",
+      "chapterFrame": 880,
+      "kind": "版本对照",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "原版的收件人",
+          "body": "小丑离开泰坦生产设施时，升降机里的货箱贴着手写便条。视频展示了寄往谜语人、猫女等人的标签，并在说明中列出黑面具、泥面、双面人、杀手蛾及名为 Rush 的收件人。这些标签组成一份外运名单，让阿卡姆岛之外的人物也进入了事件。",
+          "images": [
+            "eg12-catwoman"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "重制版换成企鹅人",
+          "body": "《Return to Arkham》的对照片段把货箱上的名字改成了 Penguin。这个改动使货箱与《阿卡姆之城》中企鹅人持有泰坦的情节产生了联系。",
+          "images": [
+            "eg12-penguin"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-return-to-arkham",
+      "game": "asylum",
+      "region": "Return to Arkham",
+      "regionLabel": "原版与重制版",
+      "title": "雨夜与天际线上的版本差异",
+      "summary": "雨势和远处的招牌，让原版与重制版呈现出不同的阿卡姆。",
+      "chapterTitle": "Return to Arkham",
+      "chapterFrame": 980,
+      "kind": "版本对照",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把雨补回岛上",
+          "body": "原版开场中的雨衣、闪电与潮湿环境，和重制版更直接的降雨效果并不完全一样。视频用同一处岛上出口作左右对照，让天气效果成为可以直接比较的画面差异。",
+          "images": [
+            "eg13-rain"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "只在一段镜头里出现的招牌",
+          "body": "重制版在贝恩战后的过场背景中出现一块巨大的 Arkham 标识，相应实机背景却没有同样的招牌。把过场、实机与原版画面放在一起，可以看见版本改造也触及了远处的城市布景。",
+          "images": [
+            "eg13-sign"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-bat-beard",
+      "game": "asylum",
+      "region": "Arkham Island",
+      "regionLabel": "阿卡姆岛",
+      "title": "这一夜长出来的胡茬",
+      "summary": "破损战衣之外，蝙蝠侠的面孔也记录着漫长一夜。",
+      "chapterTitle": "Bat-Beard",
+      "chapterFrame": 1055,
+      "kind": "角色细节",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把时间写在脸上",
+          "body": "视频将故事前后的脸部近景并置：随着战衣磨损和损伤加重，嘴部周围的胡茬也更加明显。两张脸之间很小的差别，让“一整夜没有停下来”不只靠对白和任务数量来表现。",
+          "images": [
+            "eg14-beard"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-dc-universe",
+      "game": "asylum",
+      "region": "Across Arkham",
+      "regionLabel": "全岛人物线索",
+      "title": "没有登岛的人，也留下了名字",
+      "summary": "杂志、装备说明、人物录音与涂画，把这座岛接到更大的 DC 世界。",
+      "chapterTitle": "DC Universe",
+      "chapterFrame": 1085,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "大都会与不义帮",
+          "body": "守卫闲谈提到大都会的表亲与保安公司；哈莉办公室里的杂志，则把“不义帮”放进了新闻标题。视频还展示了同一份杂志在《阿卡姆之城》和《阿卡姆起源》中的出现。世界的边界由零碎话语与重复出版物向外延伸。",
+          "images": [
+            "eg15-magazine"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "植物学导师与韦恩科技",
+          "body": "毒藤女的访谈说到 Jason Woodrue，视频把这位植物学导师与漫画中的 Floronic Man 对照。另一边，神谕在通讯中提到 Lucius，韦恩科技护甲升级说明也写出 Lucius Fox 的全名：人物没有正面登场，工作却留在了装备与情报里。",
+          "images": [
+            "eg15-woodrue",
+            "eg15-lucius"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "罗宾与红色兜帽的联想",
+          "body": "小丑拿蝙蝠侠的跟班和服装开玩笑，又提出让哈莉当新的搭档。院内另一组红色兜帽涂画则带来红头罩的联想；画面没有给人物姓名，涂画保留为一种视觉联想。",
+          "images": [
+            "eg15-robin",
+            "eg15-hood"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-harley-cube",
+      "game": "asylum",
+      "region": "Out of Bounds",
+      "regionLabel": "正常地图之外",
+      "title": "地图外的哈莉贴图方块",
+      "summary": "离开正常活动范围后，病患安抚室外还藏着一块熟悉的哈莉图案。",
+      "chapterTitle": "Harley Quinn Cube",
+      "chapterFrame": 1330,
+      "kind": "隐藏物件",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "藏在可玩区域之外",
+          "body": "这个方块位于重症治疗大楼的病患安抚室外，也就是哈莉首次正式出场的房间附近。视频借助出界方式进入外侧空间；它不是沿正常流程就能走到的房间，也不是一件常规收集品。",
+          "images": [
+            "eg16-cube-place"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "一块保存图案的物件",
+          "body": "贴图使用了熟悉的哈莉卡通图案。视频介绍了场外物件在比例、反射和贴图测试中的用途；哈莉图案在这里以素材表面的形式留在幕后区域。",
+          "images": [
+            "eg16-cube"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-paulis-diner",
+      "game": "asylum",
+      "region": "Gotham Skyline",
+      "regionLabel": "哥谭天际线",
+      "title": "开场招牌上的 Pauli’s Diner",
+      "summary": "一块短暂掠过的餐馆招牌，留下了编剧 Paul Dini 的影子。",
+      "chapterTitle": "Pauli’s Diner",
+      "chapterFrame": 1400,
+      "kind": "创作者致意",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "车窗外的名字",
+          "body": "在开场穿过哥谭的镜头里，可以寻找 Pauli’s Diner 招牌。视频将它作为对 Paul Dini 的致意：这位编剧参与了《疯人院》的故事，也与哈莉及蝙蝠侠动画有密切关系。后来，《阿卡姆骑士》把同名餐馆变成了玩家实际进入的开场地点。",
+          "images": [
+            "eg17-diner"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-mad-love",
+      "game": "asylum",
+      "region": "Interview Tapes",
+      "regionLabel": "访谈录音",
+      "title": "哈莉访谈里的《Mad Love》",
+      "summary": "游戏访谈的恋爱与犯罪叙述，和漫画及动画中的哈莉故事形成回声。",
+      "chapterTitle": "Mad Love",
+      "chapterFrame": 1435,
+      "kind": "漫画与动画致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "把身世放进问诊",
+          "body": "哈莉的多盘访谈把医生与病人的关系、恋爱幻想和犯罪身份的形成放在一起。视频用《Mad Love》漫画及其动画改编的画面，与游戏里的录音逐段对照。这里延续的是人物怎样讲述自己的感情，而不只是沿用一个外形。",
+          "images": [
+            "eg18-book",
+            "eg18-animation"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "不同媒介中的同一个转折",
+          "body": "漫画、动画和游戏分别安排了哈莉转变的节奏。游戏把这些片段拆进可收听的问诊录音，让玩家在探索时重新拼起她如何理解小丑，以及这种理解怎样改变她自己的身份。",
+          "images": [],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-the-batman",
+      "game": "asylum",
+      "region": "Cross Media",
+      "regionLabel": "动画对照",
+      "title": "另一部动画里的相似构想",
+      "summary": "巨型化战斗与“另一个家”的说法，把游戏接到《The Batman》的画面。",
+      "chapterTitle": "The Batman",
+      "chapterFrame": 1600,
+      "kind": "动画对照",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "《Brawn》中的巨大对手",
+          "body": "视频把终局的小丑与动画《The Batman》的《Brawn》并置：动画里的小丑获得贝恩的毒液配方后，以巨大的身体对抗蝙蝠侠。两部作品都用膨胀的体形、动作和力量失控的构想，改变这个角色与蝙蝠侠交手的方式。",
+          "images": [
+            "eg19-brawn"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "秘密蝙蝠洞与“另一个家”",
+          "body": "视频还对照《Strange New World》中对第二处蝙蝠洞的称呼。游戏在岛上安排自己的秘密蝙蝠洞，动画也用“home away from home”描述另一处据点；熟悉的说法把临时据点写成蝙蝠侠生活方式的一部分。",
+          "images": [
+            "eg19-cave"
+          ],
+          "spoiler": false
+        }
+      ]
+    },
+    {
+      "id": "asylum-secret-comic-references",
+      "game": "asylum",
+      "region": "Comic References",
+      "regionLabel": "漫画图像与场景",
+      "title": "牌匾、断手与甲虫里的漫画回声",
+      "summary": "几部蝙蝠侠漫画的图像与人物关系，被拆进了阿卡姆的物件、对白和建筑。",
+      "chapterTitle": "Comic Books References",
+      "chapterFrame": 1685,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "贝恩与《Knightfall》",
+          "body": "失败画面里的贝恩把蝙蝠侠折在膝上，视频以《Knightfall》的图像作对照。这种姿势不需要长篇台词，就能让熟悉漫画的读者认出力量压倒性的瞬间。",
+          "images": [
+            "eg20-knightfall"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "《致命玩笑》的牌匾与多选题",
+          "body": "重症治疗大楼安全通道中的玻璃牌匾写着“在这里工作不一定得疯，但疯了肯定有帮助”一类的医院玩笑。视频把它与《The Killing Joke》的牌匾并置；小丑在访谈中不断改写自己的出身，也呼应了同一部漫画中的“多选题”过去。",
+          "images": [
+            "eg20-plaque",
+            "eg20-interview"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "由人偶堆成的高座",
+          "body": "终局前，小丑坐在层层堆起的人偶之上。视频把这个夸张的高座与《The Killing Joke》中的构图放在一起，让陈列、舞台与他观看受害者的位置形成联系。",
+          "images": [
+            "eg20-throne"
+          ],
+          "spoiler": true
+        },
+        {
+          "title": "卡什、杀手鳄与“滴答”",
+          "body": "卡什失去的手与杀手鳄之间的纠葛，连接漫画《Arkham Asylum: Living Hell》。游戏又借用《Peter Pan》中鳄鱼与胡克船长的时钟意象，让威胁以“滴答”的声音出现；手、钩子、照片和访谈于是成为同一段关系的不同线索。",
+          "images": [
+            "eg20-cash",
+            "eg20-croc"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "《严肃的屋子》中的图案",
+          "body": "门与牌匾上的甲虫、牢房里的环形文字，都被视频拿来与《Arkham Asylum: A Serious House on Serious Earth》对照。访客中心入口那张小丑巨脸，也与这部漫画的封面并置。文字、图案与建筑表面一起构成了院史的视觉记忆。",
+          "images": [
+            "eg20-beetle",
+            "eg20-writing",
+            "eg20-cover"
+          ],
+          "spoiler": false
+        },
+        {
+          "title": "院史讲述者与钟上的日期",
+          "body": "院史最后的身份线索，把夏普与漫画中自认为要继续阿卡姆事业的 Charles Cavendish 放在一起。视频接着展示“疯狗”Martin Hawkins、阿卡姆家人的痕迹，以及庄园钟上的“April 1 1922”。这些内容涉及院史揭示，适合连同石碑录音的后半部分阅读。",
+          "images": [
+            "eg20-sharp",
+            "eg20-bell"
+          ],
+          "spoiler": true
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "eg01-office",
+      "file": "arkham-easter-eggs/eg01-office.webp",
+      "timestamp": 60,
+      "caption": "院长办公室与暗室所在的墙面",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "69a7af55af159ab2153883b2cdb6ce97bdb2e66c1e0e92d07fc9d6e5e45019f0"
+    },
+    {
+      "id": "eg01-room",
+      "file": "arkham-easter-eggs/eg01-room.webp",
+      "timestamp": 120,
+      "caption": "墙后房间里的城市规划图",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2d7c15ddcb8e84949456e8b9935af0ccf601f39641b65c685bf966227cd68bc8"
+    },
+    {
+      "id": "eg01-map",
+      "file": "arkham-easter-eggs/eg01-map.webp",
+      "timestamp": 150,
+      "caption": "隐藏房间中带有审批标记的哥谭城市地图",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b69e9d4b7ec1e22fdc061d4f8ddaf304fdd3a4d79141b59287a40fd27b57b7f8"
+    },
+    {
+      "id": "eg02-pose",
+      "file": "arkham-easter-eggs/eg02-pose.webp",
+      "timestamp": 210,
+      "caption": "访客中心电视机下的人偶姿势",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "903e3495809ce40dc66550f758c86149f25067f1d5ca16b135dc4c8df29cae87"
+    },
+    {
+      "id": "eg02-group",
+      "file": "arkham-easter-eggs/eg02-group.webp",
+      "timestamp": 240,
+      "caption": "访客中心内电视机与多具躯体的排列",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3eea58606548e68a5b8b5af2c68ece8bd2ff38d6762996d1ecfc3d9f59725aff"
+    },
+    {
+      "id": "eg02-scan",
+      "file": "arkham-easter-eggs/eg02-scan.webp",
+      "timestamp": 270,
+      "caption": "侦探模式显示电视机下躯体的骨骼",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "dcba58d35e1d82734e282358bc9649e0999c282aad608a7ad5d02e652b636d38"
+    },
+    {
+      "id": "eg03-body",
+      "file": "arkham-easter-eggs/eg03-body.webp",
+      "timestamp": 340,
+      "caption": "停尸柜中的裹尸袋",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bc11cc3fb4af2f12f2b441f9238530eb177002f72021c5643533d10230c298b1"
+    },
+    {
+      "id": "eg03-empty",
+      "file": "arkham-easter-eggs/eg03-empty.webp",
+      "timestamp": 350,
+      "caption": "回访时空下的裹尸袋与落在地上的姓名标签",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "edb82af68fd387031781082aee98b1736a53c1a331326be5bf6c580ae0ae2e55"
+    },
+    {
+      "id": "eg04-cash",
+      "file": "arkham-easter-eggs/eg04-cash.webp",
+      "timestamp": 390,
+      "caption": "囚室中的人物模仿卡什",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "707406d92c945222462efb9a4d20b22d522c1d475a04838bd520257eb327a840"
+    },
+    {
+      "id": "eg04-sharp",
+      "file": "arkham-easter-eggs/eg04-sharp.webp",
+      "timestamp": 420,
+      "caption": "同一间囚室中出现夏普的样貌",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "32ad89f5853fab750da4ba1394534100ac083e63e0af15a01ad25c896b56f5a6"
+    },
+    {
+      "id": "eg04-scan",
+      "file": "arkham-easter-eggs/eg04-scan.webp",
+      "timestamp": 450,
+      "caption": "侦探模式下的囚室与缺少普通人体骨架的人物",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ca67ce7ee6f86474d5923544e3ca14ca6ecf906868e15240299be385877d1775"
+    },
+    {
+      "id": "eg05-actors",
+      "file": "arkham-easter-eggs/eg05-actors.webp",
+      "timestamp": 510,
+      "caption": "稻草人访谈界面与两位演员的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "58d7db362243b15a3faa7a81cb271d2cd83bd8d3a7b63c139cdbbc6f85bf1f65"
+    },
+    {
+      "id": "eg06-wyatt",
+      "file": "arkham-easter-eggs/eg06-wyatt.webp",
+      "timestamp": 550,
+      "caption": "报纸中出现 Mayor Wyatt 的新闻文字",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "620e5ef5511aa74c15a74c41a386fcd2c59a0146b55f31e1fbb6704b2a3ebfb0"
+    },
+    {
+      "id": "eg06-cloney",
+      "file": "arkham-easter-eggs/eg06-cloney.webp",
+      "timestamp": 575,
+      "caption": "广播呼叫 Dr. Cloney 的画面与视频注释",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "26c17ba0b850d3a49c4bd815b4e751381a35f403922f87c43ed78e4eb7cd0014"
+    },
+    {
+      "id": "eg06-hego",
+      "file": "arkham-easter-eggs/eg06-hego.webp",
+      "timestamp": 615,
+      "caption": "敌人对白中的 Hego 与美术总监姓名对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8425f2f213ccad18392a31d063109f6ac47a25cca3d09702451f56c9a2ec30fb"
+    },
+    {
+      "id": "eg07-pa",
+      "file": "arkham-easter-eggs/eg07-pa.webp",
+      "timestamp": 635,
+      "caption": "医疗区广播字幕中的 ArkhamCare 网址",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fdb06c3b156d0aca2221abf6c33ea35a1cbb4f23a1b25889aff8c5a1874d274b"
+    },
+    {
+      "id": "eg07-site",
+      "file": "arkham-easter-eggs/eg07-site.webp",
+      "timestamp": 650,
+      "caption": "视频展示的 ArkhamCare 历史宣传网页",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "24940ca0ef7a1225298be2304f050b6996ee397b34e32628b54b50fd530f54a6"
+    },
+    {
+      "id": "eg08-burner",
+      "file": "arkham-easter-eggs/eg08-burner.webp",
+      "timestamp": 690,
+      "caption": "访客中心的涂画与 Burners 形象对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2c1c72f7a38e5f2ef133d98632f6da59d4299cce8abc0877fea41da2417e6b3e"
+    },
+    {
+      "id": "eg09-stooges",
+      "file": "arkham-easter-eggs/eg09-stooges.webp",
+      "timestamp": 710,
+      "caption": "视频对小丑广播与 The Three Stooges 的说明",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "cce9c7189a623b96e049cb6ab8c2cdfc8614d08f577d3d19dbfa6d5f6c73279c"
+    },
+    {
+      "id": "eg10-jar",
+      "file": "arkham-easter-eggs/eg10-jar.webp",
+      "timestamp": 780,
+      "caption": "玻璃罐中的头部与未采用敌人设计稿并置",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d0c708bfc84793e0d5ab35161b4e0462c5ac89c3b11de6a6eb2e8e987842cc88"
+    },
+    {
+      "id": "eg11-inmate",
+      "file": "arkham-easter-eggs/eg11-inmate.webp",
+      "timestamp": 835,
+      "caption": "关押区中的 Luke Oliver 客串犯人",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "65a580eb992e23c21fafb0a1e6152f3f7069f9ddc97f12d3081ab132d356dac1"
+    },
+    {
+      "id": "eg11-list",
+      "file": "arkham-easter-eggs/eg11-list.webp",
+      "timestamp": 870,
+      "caption": "派对名单底部的 Luke Oliver 与反派姓名",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "745d52ca67491acc94b8c68eb5fe6601256f6e3104bc33cbc63941b535b70d65"
+    },
+    {
+      "id": "eg12-catwoman",
+      "file": "arkham-easter-eggs/eg12-catwoman.webp",
+      "timestamp": 930,
+      "caption": "原版泰坦货箱上写给猫女的便条",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c1f7ff6558f576d9e92d1b1e63e013c29ca4f21a2d51b99b86b7a2239e78c93a"
+    },
+    {
+      "id": "eg12-penguin",
+      "file": "arkham-easter-eggs/eg12-penguin.webp",
+      "timestamp": 965,
+      "caption": "重制版货箱与 Penguin 收件人便条",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a3fa262880975d967d8da5cae9f13168b09442586fdef8d5e74d30a9f0a3c472"
+    },
+    {
+      "id": "eg13-rain",
+      "file": "arkham-easter-eggs/eg13-rain.webp",
+      "timestamp": 1005,
+      "caption": "原版与 Return to Arkham 雨景的左右对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "be800d97a9507ae51a96afc4a490ff31ac6a2b288e284ffd7a287d81807d68d4"
+    },
+    {
+      "id": "eg13-sign",
+      "file": "arkham-easter-eggs/eg13-sign.webp",
+      "timestamp": 1050,
+      "caption": "哥谭天际线上的巨大 Arkham 招牌",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e5a83d58a5f3a15f9588c2c93628a19aeb31cffeb9bf94300a4690e99e133309"
+    },
+    {
+      "id": "eg14-beard",
+      "file": "arkham-easter-eggs/eg14-beard.webp",
+      "timestamp": 1080,
+      "caption": "故事前后蝙蝠侠脸部与胡茬的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c4955daa2f6f78101df73cc5d9d4b549a829bebaa18ffcb9c579dab8771ee89b"
+    },
+    {
+      "id": "eg15-magazine",
+      "file": "arkham-easter-eggs/eg15-magazine.webp",
+      "timestamp": 1155,
+      "caption": "哈莉办公室杂志封面上的不义帮新闻",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "74759151fb0e2bc210cc3b95f4505346d0bb080aa1e490eab8d507ef707e1641"
+    },
+    {
+      "id": "eg15-woodrue",
+      "file": "arkham-easter-eggs/eg15-woodrue.webp",
+      "timestamp": 1170,
+      "caption": "毒藤女访谈与 Jason Woodrue 的人物对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ac60f0d14faee30e41f8d1c543d9c4a246ab14ff058a64a40fc979701c9b9825"
+    },
+    {
+      "id": "eg15-lucius",
+      "file": "arkham-easter-eggs/eg15-lucius.webp",
+      "timestamp": 1240,
+      "caption": "护甲升级说明中的 Lucius Fox 姓名",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "09bb7f962edeecc64b31975ee51cddee5801619eb58acb3dbf0202d6772f9bfa"
+    },
+    {
+      "id": "eg15-robin",
+      "file": "arkham-easter-eggs/eg15-robin.webp",
+      "timestamp": 1290,
+      "caption": "小丑关于搭档的对白与罗宾图像对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "432a3fc01543b5b1accaa20b422e31545fdd242b66640623947558a648c9a3b2"
+    },
+    {
+      "id": "eg15-hood",
+      "file": "arkham-easter-eggs/eg15-hood.webp",
+      "timestamp": 1320,
+      "caption": "院内红色兜帽涂画与红头罩形象的并置",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "25f2ce4b280ae1ac442e6dbf75e42a25d6d61ebef5415793846fb5e593ad4b45"
+    },
+    {
+      "id": "eg16-cube-place",
+      "file": "arkham-easter-eggs/eg16-cube-place.webp",
+      "timestamp": 1350,
+      "caption": "病患安抚室外侧的出界空间",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d9e5dfb2aa448b01f788ba13791d98102a9fec83606033fe0bfa2e65dbaf4dfd"
+    },
+    {
+      "id": "eg16-cube",
+      "file": "arkham-easter-eggs/eg16-cube.webp",
+      "timestamp": 1380,
+      "caption": "地图外方块上的哈莉图案",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3f2d8d812e70235bf69285b77cc84cacfe00e74197eb04c698adb81f57a05d85"
+    },
+    {
+      "id": "eg17-diner",
+      "file": "arkham-easter-eggs/eg17-diner.webp",
+      "timestamp": 1425,
+      "caption": "开场城市镜头中的 Pauli’s Diner 招牌",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "68d4dea43c9eb1a7da0b3aefc50cd17a51e833dcad25d5f5bc4656f68bc9f2a8"
+    },
+    {
+      "id": "eg18-book",
+      "file": "arkham-easter-eggs/eg18-book.webp",
+      "timestamp": 1440,
+      "caption": "视频展示的 Mad Love 漫画书目",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4046827c4d9a52214d1635d4d1b74a03e20203768424d9e845d20ce42c798ac7"
+    },
+    {
+      "id": "eg18-animation",
+      "file": "arkham-easter-eggs/eg18-animation.webp",
+      "timestamp": 1560,
+      "caption": "哈莉访谈台词与 Mad Love 动画画面对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9eaa7187690509e6c9eafa54b228ae7440ada3148053483fe6a3233a6c78c10f"
+    },
+    {
+      "id": "eg19-brawn",
+      "file": "arkham-easter-eggs/eg19-brawn.webp",
+      "timestamp": 1635,
+      "caption": "游戏终局与 The Batman 动画的巨型小丑对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab4ab9fa763daaf6b88ce1f4904af13c9c7bce122f22a90eb354b78328699d93"
+    },
+    {
+      "id": "eg19-cave",
+      "file": "arkham-easter-eggs/eg19-cave.webp",
+      "timestamp": 1680,
+      "caption": "秘密蝙蝠洞与 The Batman 动画画面的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1aad43584c85309fbcf0cda49236e2d69e8955fc54834c35bb8808087ac65f33"
+    },
+    {
+      "id": "eg20-knightfall",
+      "file": "arkham-easter-eggs/eg20-knightfall.webp",
+      "timestamp": 1710,
+      "caption": "贝恩折背动作与 Knightfall 的关联说明",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8b675c09e6faa37be34eb2a8fe43cdd4e661f2d6e84b7b56349ad01adf4d3d62"
+    },
+    {
+      "id": "eg20-plaque",
+      "file": "arkham-easter-eggs/eg20-plaque.webp",
+      "timestamp": 1740,
+      "caption": "安全通道玻璃牌匾与 The Killing Joke 的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "08f07877b3b9bc81629d3c8bc1b5227dde20c96c7e2d70ad7f87b75825968eeb"
+    },
+    {
+      "id": "eg20-interview",
+      "file": "arkham-easter-eggs/eg20-interview.webp",
+      "timestamp": 1770,
+      "caption": "小丑访谈与漫画中关于过去的片段并置",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0018a334b8a54ccef3e97a8f315750e67ae051a8719ca7ba5706ca31c2f6301b"
+    },
+    {
+      "id": "eg20-throne",
+      "file": "arkham-easter-eggs/eg20-throne.webp",
+      "timestamp": 1830,
+      "caption": "小丑人偶高座与漫画构图的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7e5a64614e35ef7f3e4c69e99c33821606f9c6ae204dee53baabefb8ca977351"
+    },
+    {
+      "id": "eg20-cash",
+      "file": "arkham-easter-eggs/eg20-cash.webp",
+      "timestamp": 1860,
+      "caption": "卡什断手线索与胡克船长时钟意象的说明",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "441529e88c8ad9c9c55e97aa62f3d99f639b4dbf1a881528a1b2b2f59066a37c"
+    },
+    {
+      "id": "eg20-croc",
+      "file": "arkham-easter-eggs/eg20-croc.webp",
+      "timestamp": 1890,
+      "caption": "杀手鳄访谈与 Living Hell 漫画片段的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "710d750ba5311c6257d6707adb074115479a3c615af12d200bcf3e479edc9b75"
+    },
+    {
+      "id": "eg20-beetle",
+      "file": "arkham-easter-eggs/eg20-beetle.webp",
+      "timestamp": 1920,
+      "caption": "院内甲虫图案与漫画画格并置",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "933c777f69bb70ad589d6f8b8365484d88b13cb4f668c73f010b5bef80cf2d93"
+    },
+    {
+      "id": "eg20-writing",
+      "file": "arkham-easter-eggs/eg20-writing.webp",
+      "timestamp": 1930,
+      "caption": "阿卡姆牢房中的环形书写",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5d6746a194cedfc4b05acf05ad81c7ac248ee9d7dc7c3559ab27e29ba3198faf"
+    },
+    {
+      "id": "eg20-cover",
+      "file": "arkham-easter-eggs/eg20-cover.webp",
+      "timestamp": 2040,
+      "caption": "访客中心入口的小丑脸与 A Serious House on Serious Earth 封面的对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e24d163aceed6f5d1e9d275854939475b199ac0b8ed591d68cddf2b3cbd6d1f6"
+    },
+    {
+      "id": "eg20-sharp",
+      "file": "arkham-easter-eggs/eg20-sharp.webp",
+      "timestamp": 1945,
+      "caption": "院史后段文字与夏普人物图像",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4713b468bff9475ed5278e1c78533110c0d593763d079cc8a9d3aa8a00a36d92"
+    },
+    {
+      "id": "eg20-bell",
+      "file": "arkham-easter-eggs/eg20-bell.webp",
+      "timestamp": 2010,
+      "caption": "庄园钟上的日期与相关院史对照",
+      "source": "batman-arkham-videos-asylum-secrets",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2125bc7002398e2af719346d9f311878c18b47a943166c1758fae39539de525f"
+    }
+  ]
+}

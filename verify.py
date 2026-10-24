@@ -80,9 +80,11 @@ for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
 reading = json.loads((CONTENT.parent / 'arkham-reading.json').read_text())
+easter_eggs = json.loads((CONTENT.parent / 'arkham-easter-eggs.json').read_text())
+scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
 riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
 omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])
-assert len(ark_pages) == 8 and len(ark_records) == 246 - omitted_scene_records and len(ark_images) == 23
+assert len(ark_pages) == 8 and len(ark_records) == 246 - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 23 + len(easter_eggs['images'])
 assert len(interactive_pages) == 3 and len(interactive_records) == 31
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']
@@ -449,7 +451,7 @@ print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filte
 clues = pages["arkham/archive/clues/index.html"]
 zone_links = re.findall(r'class="clue-zone" href="#([^"]+)"', clues)
 assert len(zone_links) == len(set(zone_links)) and all(f'id="{zone}"' in clues for zone in zone_links)
-assert sum(int(n) for n in re.findall(r'<span>(\d+)项</span>', clues)) == len(reading['scenes'])
+assert sum(int(n) for n in re.findall(r'<span>(\d+)项</span>', clues)) == scene_count
 selected_scenes = {s['entry'] for s in reading['scenes']}
 for entry in riddler_packet['entries']:
     assert f'id="{entry["id"]}"' in clues  # Existing fragment URLs remain valid.
@@ -552,7 +554,7 @@ print(f'PASS: {len(arkham_icons.ICONS)} original Arkham icons; menu, room header
 catalog_html = pages["arkham/catalog/index.html"]
 assert catalog_html.count("data-browse-item") == 8 and catalog_html.count("data-panel=") == 8 and "data-browser-fallback" in catalog_html
 clue_html = pages["arkham/archive/clues/index.html"]
-assert clue_html.count("data-browse-item") == len(reading['scenes']) and clue_html.count("data-detail") == len(reading['scenes']) and "data-browse-preview" in clue_html
+assert clue_html.count("data-browse-item") == scene_count and clue_html.count("data-detail") == scene_count and "data-browse-preview" in clue_html
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
 for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k not in ('arkham/archive/interviews/index.html', 'arkham/archive/index.html')]:

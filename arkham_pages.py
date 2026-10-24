@@ -118,7 +118,7 @@ def build_arkham_archive(data,shell):
     rows=''.join(f'<p class="pause-group">{label}</p><ol class="pause-rows">'+''.join(f'<li><a href="{h}">{token(ic)}<span><strong>{esc(t)}</strong><small>{esc(d)}</small></span>{count(k,kl,kt)}</a></li>' for h,ic,t,en,d,k,kl,kt in g)+'</ol>' for label,g in groups)
     opening=(f'''<section class="section archive-pause" data-protocol-record data-cases='{esc(json.dumps(cases))}'>'''
              f'<div class="pause-head"><div class="pause-title"><p class="game-eyebrow">{token(ROOM_ICONS[""])}GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(hub_title)}</h1><p class="lead">{esc(hub_intro)}</p></div>'
-             f'<div class="pause-brief"><h2>一张海报，<br>一段哥谭往事。</h2><p>格雷森家族的演出海报、钟楼保存的旧战衣、街边的沉降告示：场景细节留下人物线索，游戏中的背景短篇补充他们的经历。也可以从谜语人考据、院史录音与漫画书目继续阅读。</p><p class="fine">20个考据专题 · {len(reading["scenes"])}处场景细读 · {len(archive["stories"])}篇哥谭故事导读 · 10部关联文献。</p></div></div>'
+             f'<div class="pause-brief"><h2>一张海报，<br>一段哥谭往事。</h2><p>墙后的城市蓝图、格雷森家族的演出海报、钟楼保存的旧战衣：场景细节留下人物线索，游戏中的背景短篇补充他们的经历。也可以从谜语人考据、院史录音与漫画书目继续阅读。</p><p class="fine">20个考据专题 · {len(reading["scenes"])+len(reading["easterEggs"]["entries"])}处场景与彩蛋 · {len(archive["stories"])}篇哥谭故事导读 · 10部关联文献。</p></div></div>'
              f'<div class="game-browser pause-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side">{side}</div><div class="browser-preview">{panels}</div></div>'
              f'<div class="pause-fallback" data-browser-fallback>{rows}</div>'
              '<div class="pause-controls"><span class="keyboard-hint"><kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>↵</kbd> 进入</span><a href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a><span class="pause-record-note">进度保存在当前浏览器；换设备或清除网站数据后重新开始。</span><button type="button" data-record-reset>清除本机记录</button></div>'
@@ -202,4 +202,4 @@ def build_arkham_archive(data,shell):
         source_html+=('<details class="spoiler"><summary>院史身份来源 · 含剧透</summary>'+item+'</details>') if s.get('spoiler') else item
     source_html+='</div></section>'
     gallery=f'<section class="section"><h2>场景与出版研究图</h2><p>{len(images)}张游戏截图、官方文章配图与书目封面。</p><div class="dossier-gallery">'+''.join(('<details class="spoiler"><summary>院史最终记录画面 · 含重要剧透，展开查看</summary>'+picture(i)+'</details>') if images[i].get('spoiler') else picture(i) for i in images)+'</div></section>'
-    return pages,records,source_html,gallery,list(images.values())
+    return pages,records,source_html,gallery,list(images.values())+reading['easterEggs']['images']
