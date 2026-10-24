@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-24",
+  "contentCommit": "0ef7e12eb93c591c02d7b9e80451f14975904ca2",
+  "workflowRun": 40047863185,
+  "workflowURL": "https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/40047863185",
+  "build": "success",
+  "deploy": "success",
+  "live": {
+    "pages": [
+      {
+        "path": "/arkham/menu/",
+        "controls": 1,
+        "audio": 1
+      },
+      {
+        "path": "/arkham/catalog/",
+        "controls": 1,
+        "audio": 1
+      },
+      {
+        "path": "/arkham/patients/",
+        "controls": 1,
+        "audio": 1
+      }
+    ],
+    "audio": [
+      {
+        "path": "/assets/audio/asylum-intercom-01.m4a",
+        "bytes": 355462,
+        "sha256": "628d60a197a65d700f6902fa589a03528188e43d845b5dc319f36bde57dc87aa"
+      },
+      {
+        "path": "/assets/audio/asylum-intercom-02.m4a",
+        "bytes": 294575,
+        "sha256": "8c08aae708f025d921f513f48192c2d58dd9ffb1ad2241f3c90c283a1b123b19"
+      },
+      {
+        "path": "/assets/audio/asylum-intercom-03.m4a",
+        "bytes": 497440,
+        "sha256": "30113b80b18cf3ee7666a10be6590a613a9ef14c97d20a2e729cf87bf03ad81a"
+      },
+      {
+        "path": "/assets/audio/asylum-intercom-04.m4a",
+        "bytes": 450362,
+        "sha256": "af9c7df9e242d74efdff01a29724d0af4f13ad4c814063ffdc60b267b76b7b8f"
+      },
+      {
+        "path": "/assets/audio/asylum-intercom-05.m4a",
+        "bytes": 339626,
+        "sha256": "77a6e792a3f88362c60c6663b8d0dc83fd34cc3db3e691541540a3fe7dd1ac50"
+      }
+    ],
+    "javascript": "matches project-path build",
+    "tasHasNoIntercom": true,
+    "searchRecords": 578
+  },
+  "browserLive": {
+    "page": "/arkham/catalog/",
+    "toggle": "院内广播：开",
+    "audio": "asylum-intercom-02.m4a",
+    "paused": false,
+    "readyState": 3,
+    "playbackTime": 0.018713,
+    "horizontalOverflow": false
+  }
+}

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "status": "verified-ready-to-push",
+  "status": "published",
   "selectedAudio": "five approved short clips; 120 seconds of content, 128-second compilation remains preview only",
   "pages": 160,
   "searchRecords": 578,
@@ -48,5 +48,12 @@
       "pages-dist": 1045
     },
     "status": "pass"
+  },
+  "publication": {
+    "contentCommit": "0ef7e12eb93c591c02d7b9e80451f14975904ca2",
+    "workflowRun": 40047863185,
+    "build": "success",
+    "deploy": "success",
+    "liveChecks": "publication-20261024.json"
   }
 }
