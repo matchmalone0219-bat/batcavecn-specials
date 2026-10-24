@@ -17,7 +17,7 @@ def gates(intro, compact=False):
         '<a class="gate gate-arkham" href="/arkham/"><img src="/assets/media/arkham-city-02.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">PROTOCOL ARKHAM</p><h2>阿卡姆协议</h2><p>闯入孤岛上的疯人院，追查旧城区的阴谋，迎战全城暴动。在近身搏斗与致命谜题中扮演黑暗骑士。</p></div></a>'
         '<a class="gate gate-tas" href="/tas/"><img src="/assets/tas-home-title.jpg" alt="" aria-hidden="true" loading="lazy"><div class="gate-copy"><p class="gate-label">DARK DECO</p><h2>Dark Deco 动画档案</h2><p>黑卡纸上的光影奇迹：重温 1990 年代定义了黑暗骑士灵魂的经典单集与悲剧挽歌。</p></div></a>'
     )
-    return f'<section class="gates{" is-compact" if compact else ""}"><div class="gates-intro">{intro}</div><div class="gates-doors">{doors}</div><p class="gates-shared"><a href="/voices/">两站共同档案 · 蝙蝠侠之声</a></p></section>'
+    return f'<section class="gates{" is-compact" if compact else ""}"><div class="gates-intro">{intro}</div><div class="gates-doors">{doors}</div><p class="gates-shared"><a href="/#voices">两站共同档案 · 蝙蝠侠之声</a></p></section>'
 
 
 def render_pages(data):
@@ -42,7 +42,7 @@ def render_pages(data):
     pages["arkham/catalog/index.html"] = arkham_catalog(data)
     pages["arkham/people/kevin-conroy/index.html"] = person(data, "arkham")
     pages["tas/people/kevin-conroy/index.html"] = person(data, "tas")
-    pages["index.html"] = shell(data, "shared", "两座哥谭", gates('<p class="label">BATCAVECN / SPECIAL ARCHIVES</p><h1>两座哥谭，<br>同一种夜色。</h1><p class="lead">一座由手绘胶片与爵士乐构筑，沉淀着 1990 年代黑色电影的人文绝响；另一座由暴雨与铁血代码浇灌，把你直接掷入无路可退的猎杀困局。</p>'))
+    home_lead = gates('<p class="label">BATCAVECN / SPECIAL ARCHIVES</p><h1>两座哥谭，<br>同一种夜色。</h1><p class="lead">一座由手绘胶片与爵士乐构筑，沉淀着 1990 年代黑色电影的人文绝响；另一座由暴雨与铁血代码浇灌，把你直接掷入无路可退的猎杀困局。</p>')
     pages["404.html"] = shell(data, "shared", "页面不在档案里", gates('<p class="label">404</p><h1>这一页不在档案里。</h1><p class="lead">地址可能已经变更，或输入有误。从这里重新进入。</p>', compact=True))
     pages["editor/index.html"] = shell(data, "shared", "编辑文案", '<section class="section editor"><p class="label">BATCAVECN / LOCAL EDITOR</p><h1>编辑文案</h1><p class="lead">选择条目，修改文字，预览后保存。页面样式单独保留；每次保存自动备份。</p><p id="editor-status" role="status">正在读取本地内容…</p><form id="editor-form"><label for="entry">选择页面或条目</label><select id="entry"></select><label for="field">选择文字字段</label><select id="field"></select><label for="text">正文</label><textarea id="text" rows="8" required></textarea><div class="editor-actions"><button class="button" type="submit">保存到本地文件</button><button type="button" id="reset-text">撤销未保存修改</button><a id="preview-link" href="/arkham/" target="_blank" rel="noopener">查看页面 ↗</a></div></form><section class="editor-preview"><h2>文字预览</h2><div id="text-preview"></div></section></section>')
     tas_pages, tas_records, tas_sources, tas_gallery, tas_images = build_archive(data, shell)
@@ -53,7 +53,7 @@ def render_pages(data):
     pages.update(ark_pages)
     interactive_pages, interactive_records = build_interactions(data, shell)
     pages.update(interactive_pages)
-    crossover_pages, crossover_records = build_crossover(data, shell)
+    crossover_pages, crossover_records = build_crossover(data, shell, home_lead)
     pages.update(crossover_pages)
     pages["arkham/sources/index.html"] = pages["arkham/sources/index.html"].replace("</main>", ark_sources + "</main>")
     pages["arkham/gallery/index.html"] = pages["arkham/gallery/index.html"].replace("</main>", ark_gallery + "</main>")
@@ -63,7 +63,7 @@ def render_pages(data):
         pages[f"{site}/sources/index.html"] = pages[f"{site}/sources/index.html"].replace("</main>", merch_sources[site] + "</main>")
         pages[f"{site}/gallery/index.html"] = pages[f"{site}/gallery/index.html"].replace("</main>", merch_galleries[site] + "</main>")
     index = [{"title": i["title"], "original": i["original"], "summary": i["summary"], "tags": i["tags"], "site": i["site"], "status": "作品档案" if i["site"] == "arkham" else ("系列档案" if i["id"] == "caped-crusader" else "分集导读" if i["status"] == "详情样板" else "分集条目"), "url": route(i)} for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] + [data["capedCrusader"]]]
-    index.append({"title": data["person"]["title"], "original": data["person"]["original"], "summary": data["person"]["intro"], "tags": ["蝙蝠侠之声", "Kevin Conroy", "共同演员"], "site": "shared", "status": "人物档案", "url": "/voices/#kevin-conroy"})
+    index.append({"title": data["person"]["title"], "original": data["person"]["original"], "summary": data["person"]["intro"], "tags": ["蝙蝠侠之声", "Kevin Conroy", "共同演员"], "site": "shared", "status": "人物档案", "url": "/#kevin-conroy"})
     index.extend(tas_records)
     index.extend(merch_records)
     index.extend(ark_records)

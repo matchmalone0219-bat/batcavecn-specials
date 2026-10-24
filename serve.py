@@ -37,7 +37,7 @@ def editable(data):
             for section_index, section in enumerate(row["sections"]):
                 for key in ("title", "body"):
                     fields.append({"label": section["title"] + " / " + LABELS[key], "path": prefix + ["sections", section_index, key]})
-            entries.append({"label": row["title"], "url": "/voices/#kevin-conroy" if group == "person" else route(row), "fields": fields})
+            entries.append({"label": row["title"], "url": "/#kevin-conroy" if group == "person" else route(row), "fields": fields})
     return entries
 
 

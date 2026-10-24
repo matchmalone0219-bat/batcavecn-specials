@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checked": "2026-10-21",
+  "checked": "2026-10-24",
   "title": "蝙蝠侠之声",
   "intro": "1992年的《蝙蝠侠：动画系列》与2009年起的阿卡姆系列游戏相隔十七年，共用了同一批声音和作者。康罗伊与哈米尔分别演绎蝙蝠侠和小丑，索金再次为哈莉配音，狄尼继续编写故事。这些熟悉的创作者在游戏中重新合作。",
   "continuity": "阿卡姆系列与动画系列是两条独立的连续性。游戏借用了动画的演员、作者和人物设定，剧情并不相接。",
@@ -30,6 +30,70 @@
       "episode": "heart-of-ice"
     },
     {
+      "id": "if-you-re-so-smart-why-aren-t-you-rich",
+      "side": "tas",
+      "year": "1992",
+      "title": "你这么聪明，为什么还没发财？",
+      "original": "If You're So Smart, Why Aren't You Rich?",
+      "episode": "if-you-re-so-smart-why-aren-t-you-rich"
+    },
+    {
+      "id": "what-is-reality",
+      "side": "tas",
+      "year": "1992",
+      "title": "何为现实？",
+      "original": "What Is Reality?",
+      "episode": "what-is-reality"
+    },
+    {
+      "id": "nothing-to-fear",
+      "side": "tas",
+      "year": "1992",
+      "title": "无所畏惧",
+      "original": "Nothing to Fear",
+      "episode": "nothing-to-fear"
+    },
+    {
+      "id": "dreams-in-darkness",
+      "side": "tas",
+      "year": "1992",
+      "title": "暗夜梦魇",
+      "original": "Dreams In Darkness",
+      "episode": "dreams-in-darkness"
+    },
+    {
+      "id": "pretty-poison",
+      "side": "tas",
+      "year": "1992",
+      "title": "致命毒香",
+      "original": "Pretty Poison",
+      "episode": "pretty-poison"
+    },
+    {
+      "id": "vendetta",
+      "side": "tas",
+      "year": "1992",
+      "title": "复仇旧账",
+      "original": "Vendetta",
+      "episode": "vendetta"
+    },
+    {
+      "id": "mad-as-a-hatter",
+      "side": "tas",
+      "year": "1992",
+      "title": "疯狂如帽匠",
+      "original": "Mad As A Hatter",
+      "episode": "mad-as-a-hatter"
+    },
+    {
+      "id": "almost-got-im",
+      "side": "tas",
+      "year": "1992",
+      "title": "差一点就抓到他",
+      "original": "Almost Got 'Im",
+      "episode": "almost-got-im"
+    },
+    {
       "id": "harley-and-ivy",
       "side": "tas",
       "year": "1993",
@@ -52,6 +116,62 @@
       "title": "疯狂的爱（漫画）",
       "original": "The Batman Adventures: Mad Love",
       "url": "/tas/archive/publications/#mad-deluxe"
+    },
+    {
+      "id": "blind-as-a-bat",
+      "side": "tas",
+      "year": "1993",
+      "title": "盲目如蝠",
+      "original": "Blind As A Bat",
+      "episode": "blind-as-a-bat"
+    },
+    {
+      "id": "sideshow",
+      "side": "tas",
+      "year": "1994",
+      "title": "马戏余生",
+      "original": "Sideshow",
+      "episode": "sideshow"
+    },
+    {
+      "id": "trial",
+      "side": "tas",
+      "year": "1994",
+      "title": "审判",
+      "original": "Trial",
+      "episode": "trial"
+    },
+    {
+      "id": "lock-up",
+      "side": "tas",
+      "year": "1994",
+      "title": "禁闭",
+      "original": "Lock-Up",
+      "episode": "lock-up"
+    },
+    {
+      "id": "tnba-never-fear",
+      "side": "tas",
+      "year": "1997",
+      "title": "无惧",
+      "original": "Never Fear",
+      "episode": "tnba-never-fear"
+    },
+    {
+      "id": "tnba-sins-of-the-father",
+      "side": "tas",
+      "year": "1997",
+      "title": "父辈之罪",
+      "original": "Sins of the Father",
+      "episode": "tnba-sins-of-the-father"
+    },
+    {
+      "id": "tnba-torch-song",
+      "side": "tas",
+      "year": "1998",
+      "title": "火炬之歌",
+      "original": "Torch Song",
+      "episode": "tnba-torch-song"
     },
     {
       "id": "arkham-asylum",
@@ -92,6 +212,14 @@
       "title": "自杀小队：消灭正义联盟",
       "original": "Suicide Squad: Kill the Justice League",
       "game": "suicide-squad-kill-the-justice-league"
+    },
+    {
+      "id": "asylum-chronicles",
+      "side": "arkham",
+      "year": "2009",
+      "title": "阿卡姆之魂石碑",
+      "original": "The Spirit of Arkham",
+      "url": "/arkham/archive/asylum-history/"
     }
   ],
   "nodes": [
@@ -191,6 +319,10 @@
             "wiki-sorkin"
           ]
         }
+      ],
+      "body": "索金与狄尼是波士顿爱默生学院的同学。她在肥皂剧《我们的日子》里饰演卡莉欧佩·琼斯，狄尼看到剧中一段她扮成小丑的梦境戏，把这个形象写进了哈莉。\n此后她为哈莉配音的作品从动画系列延续到TNBA、《蝙蝠侠未来：小丑归来》和网络动画《Gotham Girls》，2009年又在《阿卡姆疯人院》中回到这个角色。她于2023年在洛杉矶去世。",
+      "sourceRefs": [
+        "wiki-sorkin"
       ]
     },
     {
@@ -244,6 +376,10 @@
             "dc-trilogy"
           ]
         }
+      ],
+      "body": "狄尼毕业于爱默生学院，1989年进入华纳兄弟动画，先参与《Tiny Toon Adventures》，随后在《蝙蝠侠：动画系列》担任编剧、制片与故事编辑。他编剧的《冰之心》获日间艾美奖动画编剧奖。\n他与蒂姆合作的《疯狂的爱》获1994年艾森纳奖最佳单篇故事。到了游戏里，他为《阿卡姆疯人院》和《阿卡姆之城》撰写故事，还写了一部与《之城》衔接的五期漫画。",
+      "sourceRefs": [
+        "wiki-dini"
       ]
     },
     {
@@ -267,6 +403,129 @@
           "note": "与狄尼合著",
           "sources": [
             "dc-harley-moments"
+          ]
+        }
+      ],
+      "body": "蒂姆与埃里克·拉多姆斯基共同创作并监制了《蝙蝠侠：动画系列》。剧中几乎所有原创角色的造型都由他设计，线条简洁、棱角分明，取法1950、60年代的漫画和装饰艺术建筑；谜语人与急冻人的造型出自迈克·米尼奥拉，人蝙蝠与疯帽匠出自凯文·诺兰。\n1994年，他与狄尼凭《疯狂的爱》获艾森纳奖最佳单篇故事。之后他继续监制TNBA、《蝙蝠侠未来》和《正义联盟》。",
+      "sourceRefs": [
+        "wiki-timm"
+      ]
+    },
+    {
+      "id": "tara-strong",
+      "kind": "person",
+      "name": "塔拉·斯特朗",
+      "original": "Tara Strong",
+      "years": "",
+      "role": "蝙蝠女／哈莉·奎茵配音",
+      "summary": "TNBA里的蝙蝠女芭芭拉·戈登由她配音，当时署名Tara Charendoff。从《阿卡姆之城》起，她接替阿琳·索金为哈莉配音，并延续到《阿卡姆骑士》。",
+      "links": [
+        {
+          "work": "tnba-sins-of-the-father",
+          "note": "蝙蝠女；署名Tara Charendoff",
+          "sources": [
+            "wf-tnba-sins-father",
+            "wiki-strong"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "哈莉·奎茵；接替索金",
+          "sources": [
+            "wiki-arkham-city",
+            "wiki-strong"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "哈莉·奎茵",
+          "sources": [
+            "wiki-arkham-knight"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robert-costanzo",
+      "kind": "person",
+      "name": "罗伯特·科斯坦佐",
+      "original": "Robert Costanzo",
+      "years": "",
+      "role": "哈维·布洛克配音",
+      "summary": "动画系列与TNBA里的哈维·布洛克警探由他配音。2013年，他在《阿卡姆起源》中再次演出布洛克。",
+      "links": [
+        {
+          "work": "btas",
+          "note": "哈维·布洛克警探，1992—1995",
+          "sources": [
+            "wiki-costanzo"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "哈维·布洛克",
+          "sources": [
+            "wiki-costanzo",
+            "wiki-arkham-origins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mark-rolston",
+      "kind": "person",
+      "name": "马克·罗尔斯顿",
+      "original": "Mark Rolston",
+      "years": "",
+      "role": "萤火虫／丧钟配音",
+      "summary": "在TNBA的《火炬之歌》里为萤火虫加菲尔德·林斯配音。进入阿卡姆系列后，他在《阿卡姆起源》和《阿卡姆骑士》中为丧钟配音。",
+      "links": [
+        {
+          "work": "tnba-torch-song",
+          "note": "萤火虫加菲尔德·林斯",
+          "sources": [
+            "wf-dossier-tnba-torch-song",
+            "wiki-rolston"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "丧钟，八名刺客之一",
+          "sources": [
+            "wiki-arkham-origins",
+            "wiki-rolston"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "丧钟",
+          "sources": [
+            "wiki-rolston"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrienne-barbeau",
+      "kind": "person",
+      "name": "阿德里安·巴博",
+      "original": "Adrienne Barbeau",
+      "years": "",
+      "role": "猫女配音",
+      "summary": "动画系列里的赛琳娜·凯尔／猫女由她配音。《阿卡姆疯人院》里，她为格蕾琴·惠斯勒医生配音，也是疯人院广播里的那个声音。",
+      "links": [
+        {
+          "work": "btas",
+          "note": "猫女，1992—1995",
+          "sources": [
+            "wiki-barbeau"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "格蕾琴·惠斯勒医生；疯人院广播",
+          "sources": [
+            "wiki-barbeau"
           ]
         }
       ]
@@ -437,7 +696,380 @@
             "wiki-freeze"
           ]
         }
-      ]
+      ],
+      "images": {
+        "tas": "tas-episode-heart-of-ice-02.jpg",
+        "arkham": "recording-portraits/city-freeze.jpg"
+      }
+    },
+    {
+      "id": "riddler",
+      "kind": "character",
+      "name": "谜语人",
+      "original": "The Riddler",
+      "role": "角色",
+      "summary": "动画系列中由John Glover配音，1992年的《你这么聪明，为什么还没发财？》是他的首次登场，造型出自迈克·米尼奥拉。阿卡姆系列让他藏在谜题背后：《疯人院》里他只以声音出现，之后每一作都设有他的谜题挑战。",
+      "links": [
+        {
+          "work": "if-you-re-so-smart-why-aren-t-you-rich",
+          "note": "首次登场；John Glover配音",
+          "sources": [
+            "wf-detail-if-you-re-so-smart-why-aren-t-you-rich"
+          ]
+        },
+        {
+          "work": "what-is-reality",
+          "note": "把戈登困进虚拟现实",
+          "sources": [
+            "wf-detail-what-is-reality"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "只以声音出现，留下谜题与奖杯；患者访谈",
+          "sources": [
+            "wiki-arkham-asylum",
+            "patient-overview"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "440项谜语人挑战；录音档案",
+          "sources": [
+            "wiki-arkham-city",
+            "local-city-recording-20261022"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "以黑客Enigma的身份登场",
+          "sources": [
+            "wiki-arkham-origins"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "谜语人挑战；频段录音",
+          "sources": [
+            "wiki-arkham-knight",
+            "local-knight-recording-20261022"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        "wiki-timm"
+      ],
+      "images": {
+        "tas": "tas-episode-what-is-reality-03.jpg",
+        "arkham": "recording-portraits/city-riddler.jpg"
+      }
+    },
+    {
+      "id": "scarecrow",
+      "kind": "character",
+      "name": "稻草人",
+      "original": "The Scarecrow",
+      "role": "角色",
+      "summary": "动画系列中由Henry Polic II配音，1992年的《无所畏惧》首次登场；在《暗夜梦魇》里，他的药物让蝙蝠侠被关进阿卡姆。TNBA的《无惧》改由Jeffrey Combs配音。阿卡姆系列里，他在《疯人院》制造幻觉噩梦，到《阿卡姆骑士》成为主要反派。",
+      "links": [
+        {
+          "work": "nothing-to-fear",
+          "note": "首次登场；Henry Polic II配音",
+          "sources": [
+            "wf-fear"
+          ]
+        },
+        {
+          "work": "dreams-in-darkness",
+          "note": "蝙蝠侠在药物作用下被关进阿卡姆",
+          "sources": [
+            "wf-dossier-dreams-in-darkness"
+          ]
+        },
+        {
+          "work": "tnba-never-fear",
+          "note": "Jeffrey Combs配音",
+          "sources": [
+            "wf-tnba-never-fear"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "幻觉噩梦；患者访谈",
+          "sources": [
+            "wiki-arkham-asylum",
+            "patient-overview"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "主要反派；频段录音",
+          "sources": [
+            "wiki-arkham-knight",
+            "local-knight-recording-20261022"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-nothing-to-fear-title.jpg",
+        "arkham": "recording-portraits/knight-scarecrow.jpg"
+      }
+    },
+    {
+      "id": "poison-ivy",
+      "kind": "character",
+      "name": "毒藤女",
+      "original": "Poison Ivy",
+      "role": "角色",
+      "summary": "动画系列中由Diane Pershing配音，1992年的《致命毒香》首次登场，后来在《哈莉与毒藤女》里与哈莉结伴。《阿卡姆疯人院》与《阿卡姆之城》改由Tasia Valenza配音，《阿卡姆骑士》中她也在主线登场。",
+      "links": [
+        {
+          "work": "pretty-poison",
+          "note": "首次登场；Diane Pershing配音",
+          "sources": [
+            "wf-dossier-pretty-poison"
+          ]
+        },
+        {
+          "work": "harley-and-ivy",
+          "note": "与哈莉结伴",
+          "sources": [
+            "wf-harley-and-ivy"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "首领战；Tasia Valenza配音；患者访谈",
+          "sources": [
+            "wiki-arkham-asylum",
+            "patient-overview"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "Tasia Valenza配音",
+          "sources": [
+            "wiki-arkham-city"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "主线登场",
+          "sources": [
+            "wiki-arkham-knight"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-pretty-poison-title.jpg",
+        "arkham": "recording-portraits/asylum-ivy.jpg"
+      }
+    },
+    {
+      "id": "killer-croc",
+      "kind": "character",
+      "name": "杀手鳄",
+      "original": "Killer Croc",
+      "role": "角色",
+      "summary": "动画系列中由Aron Kincaid配音，1992年的《复仇旧账》首次登场；《马戏余生》里，他逃进荒野，被一群退休马戏演员收留。《阿卡姆疯人院》让他守在岛下的下水道，《阿卡姆起源》把他列为八名刺客之一。",
+      "links": [
+        {
+          "work": "vendetta",
+          "note": "首次登场；Aron Kincaid配音",
+          "sources": [
+            "wf-dossier-vendetta"
+          ]
+        },
+        {
+          "work": "sideshow",
+          "note": "逃进荒野，被退休马戏演员收留",
+          "sources": [
+            "wf-dossier-sideshow"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "下水道巢穴；Steve Blum配音；患者访谈",
+          "sources": [
+            "wiki-arkham-asylum",
+            "patient-overview"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "八名刺客之一；Khary Payton配音",
+          "sources": [
+            "wiki-arkham-origins"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "DLC：Season of Infamy",
+          "sources": [
+            "wiki-arkham-knight"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-sideshow-02.jpg",
+        "arkham": "recording-portraits/asylum-croc.jpg"
+      }
+    },
+    {
+      "id": "mad-hatter",
+      "kind": "character",
+      "name": "疯帽匠",
+      "original": "The Mad Hatter",
+      "role": "角色",
+      "summary": "动画系列中由Roddy McDowall配音，造型出自凯文·诺兰；1992年的《疯狂如帽匠》里，杰维斯·泰奇为了同事爱丽丝，把控制他人意志的技术变成自己的童话舞台。阿卡姆系列由Peter MacNicol配音，《阿卡姆骑士》的Season of Infamy又让他对蝙蝠侠玩起心理游戏。",
+      "links": [
+        {
+          "work": "mad-as-a-hatter",
+          "note": "首次登场；Roddy McDowall配音",
+          "sources": [
+            "wf-dossier-mad-as-a-hatter"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "Peter MacNicol配音；录音档案",
+          "sources": [
+            "wiki-arkham-city",
+            "local-city-recording-20261022"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "Peter MacNicol配音",
+          "sources": [
+            "wiki-arkham-origins"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "DLC：Season of Infamy",
+          "sources": [
+            "wiki-arkham-knight"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        "wiki-timm"
+      ],
+      "images": {
+        "tas": "tas-episode-mad-as-a-hatter-02.jpg",
+        "arkham": "recording-portraits/city-mad-hatter.jpg"
+      }
+    },
+    {
+      "id": "penguin",
+      "kind": "character",
+      "name": "企鹅人",
+      "original": "The Penguin",
+      "role": "角色",
+      "summary": "动画系列中由Paul Williams配音，《盲目如蝠》里他夺走武装直升机，《差一点就抓到他》里他和其他反派围坐牌桌。阿卡姆系列由Nolan North配音：《阿卡姆起源》里他是黑市军火商，《阿卡姆骑士》中仍在做军火生意。",
+      "links": [
+        {
+          "work": "almost-got-im",
+          "note": "牌桌上的五名反派之一",
+          "sources": [
+            "wf-almost-got-im"
+          ]
+        },
+        {
+          "work": "blind-as-a-bat",
+          "note": "夺取武装直升机；Paul Williams配音",
+          "sources": [
+            "wf-dossier-blind-as-a-bat"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "Nolan North配音；录音档案",
+          "sources": [
+            "wiki-arkham-city",
+            "local-city-recording-20261022"
+          ]
+        },
+        {
+          "work": "arkham-origins",
+          "note": "黑市军火商",
+          "sources": [
+            "wiki-arkham-origins"
+          ]
+        },
+        {
+          "work": "arkham-knight",
+          "note": "军火生意；频段录音",
+          "sources": [
+            "wiki-arkham-knight",
+            "local-knight-recording-20261022"
+          ]
+        }
+      ],
+      "images": {
+        "tas": "tas-episode-blind-as-a-bat-03.jpg",
+        "arkham": "recording-portraits/city-penguin.jpg"
+      }
+    },
+    {
+      "id": "arkham-asylum-place",
+      "kind": "place",
+      "name": "阿卡姆疯人院",
+      "original": "Arkham Asylum",
+      "role": "地点",
+      "summary": "动画里，阿卡姆是反派一再被送回、又一再逃出的地方：《暗夜梦魇》中蝙蝠侠自己被关了进去，《审判》中囚犯们在院内审判他。游戏《阿卡姆疯人院》把整座阿卡姆岛做成舞台，创始人阿玛迪斯·阿卡姆留下的铭文讲述这座疯人院的历史；到了《阿卡姆之城》，收押扩大到一片被围起来的城区。",
+      "links": [
+        {
+          "work": "dreams-in-darkness",
+          "note": "蝙蝠侠被关进阿卡姆",
+          "sources": [
+            "wf-dossier-dreams-in-darkness"
+          ]
+        },
+        {
+          "work": "trial",
+          "note": "囚犯们在院内审判蝙蝠侠",
+          "sources": [
+            "wf-dossier-trial"
+          ]
+        },
+        {
+          "work": "lock-up",
+          "note": "新任保安主管虐待病人",
+          "sources": [
+            "wf-dossier-lock-up"
+          ]
+        },
+        {
+          "work": "arkham-asylum",
+          "note": "整座阿卡姆岛",
+          "sources": [
+            "wiki-arkham-asylum"
+          ]
+        },
+        {
+          "work": "asylum-chronicles",
+          "note": "24块石碑铭文",
+          "sources": [
+            "chronicles-transcript"
+          ]
+        },
+        {
+          "work": "arkham-city",
+          "note": "围起城区的超级监狱",
+          "sources": [
+            "wiki-arkham-city"
+          ]
+        }
+      ],
+      "sourceRefs": [
+        "asylum-dc-history"
+      ],
+      "images": {
+        "tas": "tas-episode-dreams-in-darkness-01.jpg",
+        "arkham": "arkham-asylum-01.jpg"
+      }
     }
   ],
   "sources": [
@@ -552,6 +1184,244 @@
       "type": "演员本人访谈",
       "scope": "笑声作为表演工具；重返《阿卡姆疯人院》与熟悉的演员和编剧团队。",
       "checked": "2026-10-22"
+    },
+    {
+      "id": "wiki-arkham-asylum",
+      "title": "Wikipedia · Batman: Arkham Asylum",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham_Asylum",
+      "type": "百科辅助来源",
+      "scope": "阿卡姆岛的设定与阿玛迪斯·阿卡姆的铭文；谜语人只以声音出现；毒藤女、杀手鳄与稻草人的出场及配音演员。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-arkham-city",
+      "title": "Wikipedia · Batman: Arkham City",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham_City",
+      "type": "百科辅助来源",
+      "scope": "阿卡姆之城的设定；440项谜语人挑战；毒藤女、疯帽匠、企鹅人、急冻人的配音演员；塔拉·斯特朗接替阿琳·索金为哈莉配音。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-arkham-origins",
+      "title": "Wikipedia · Batman: Arkham Origins",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham_Origins",
+      "type": "百科辅助来源",
+      "scope": "八名刺客中的杀手鳄与丧钟；企鹅人、Enigma、疯帽匠与哈维·布洛克的出场及配音演员。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-arkham-knight",
+      "title": "Wikipedia · Batman: Arkham Knight",
+      "url": "https://en.wikipedia.org/wiki/Batman:_Arkham_Knight",
+      "type": "百科辅助来源 · 含剧透",
+      "scope": "稻草人的计划；企鹅人、谜语人与毒藤女的出场；Season of Infamy 中的疯帽匠与杀手鳄；塔拉·斯特朗为哈莉配音。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-timm",
+      "title": "Wikipedia · Bruce Timm",
+      "url": "https://en.wikipedia.org/wiki/Bruce_Timm",
+      "type": "百科辅助来源",
+      "scope": "与埃里克·拉多姆斯基共同创作并监制动画系列；角色造型与画风；米尼奥拉、诺兰设计的角色；《疯狂的爱》获1994年艾森纳奖。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-dini",
+      "title": "Wikipedia · Paul Dini",
+      "url": "https://en.wikipedia.org/wiki/Paul_Dini",
+      "type": "百科辅助来源",
+      "scope": "爱默生学院；1989年进入华纳兄弟动画；在动画系列担任编剧、制片与故事编辑；《冰之心》获日间艾美奖；《疯狂的爱》获艾森纳奖；为《阿卡姆疯人院》《阿卡姆之城》撰写故事。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-strong",
+      "title": "Wikipedia · Tara Strong",
+      "url": "https://en.wikipedia.org/wiki/Tara_Strong",
+      "type": "百科辅助来源",
+      "scope": "TNBA中的芭芭拉·戈登／蝙蝠女；从《阿卡姆之城》起接替阿琳·索金为哈莉配音。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-costanzo",
+      "title": "Wikipedia · Robert Costanzo",
+      "url": "https://en.wikipedia.org/wiki/Robert_Costanzo",
+      "type": "百科辅助来源",
+      "scope": "动画系列（1992—1995，21集）与TNBA中的哈维·布洛克；2013年《阿卡姆起源》再次为布洛克配音。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-rolston",
+      "title": "Wikipedia · Mark Rolston",
+      "url": "https://en.wikipedia.org/wiki/Mark_Rolston",
+      "type": "百科辅助来源",
+      "scope": "TNBA中的萤火虫；《阿卡姆起源》与《阿卡姆骑士》中的丧钟。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wiki-barbeau",
+      "title": "Wikipedia · Adrienne Barbeau",
+      "url": "https://en.wikipedia.org/wiki/Adrienne_Barbeau",
+      "type": "百科辅助来源",
+      "scope": "动画系列（1992—1995）中的赛琳娜·凯尔／猫女；《阿卡姆疯人院》中的格蕾琴·惠斯勒医生与疯人院广播之声。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "patient-overview",
+      "title": "NygmaGaming · 访谈分类与文本",
+      "type": "社区转录",
+      "scope": "《阿卡姆疯人院》患者访谈录音的分类与文本。",
+      "checked": "2026-10-24",
+      "url": "https://nygmagaming.com/interview-tapes-arkham-asylum/"
+    },
+    {
+      "id": "local-city-recording-20261022",
+      "title": "《阿卡姆之城》录音磁带合集 · 用户提供游戏录制",
+      "type": "用户提供游戏录制",
+      "scope": "《阿卡姆之城》录音磁带中的疯帽匠、谜语人与企鹅人。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "local-knight-recording-20261022",
+      "title": "《阿卡姆骑士》八组录音 · 用户提供游戏录制",
+      "type": "用户提供游戏录制",
+      "scope": "《阿卡姆骑士》频段录音中的稻草人、谜语人与企鹅人。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "asylum-dc-history",
+      "title": "A Tough Cell: Arkham Asylum’s Seriously Troubled History",
+      "type": "官方漫画回顾",
+      "scope": "阿卡姆疯人院在漫画与跨媒介中的历史。",
+      "checked": "2026-10-24",
+      "url": "https://www.dc.com/blog/2022/01/26/a-tough-cell-arkham-asylums-seriously-troubled-history"
+    },
+    {
+      "id": "chronicles-transcript",
+      "title": "Character Bios/Interviews Transcript · Deciphered Messages",
+      "type": "玩家文本转录",
+      "scope": "《阿卡姆疯人院》24块“阿卡姆之魂”石碑铭文。",
+      "checked": "2026-10-24",
+      "url": "https://gamefaqs.gamespot.com/ps3/952338-batman-arkham-asylum/faqs/57651"
+    },
+    {
+      "id": "wf-detail-if-you-re-so-smart-why-aren-t-you-rich",
+      "title": "The World’s Finest：If You're So Smart, Why Aren't You Rich? 单集资料",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/ifyouresosmart/",
+      "type": "分集资料辅助来源",
+      "scope": "谜语人首次登场与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-detail-what-is-reality",
+      "title": "The World’s Finest：What Is Reality? 单集资料",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/whatisreality/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-fear",
+      "title": "The World’s Finest · Nothing to Fear",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/nothingtofear/",
+      "type": "分集资料辅助来源",
+      "scope": "稻草人首次登场与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-dreams-in-darkness",
+      "title": "The World’s Finest · BTAS · Dreams In Darkness",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/dreamsindarkness/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-tnba-never-fear",
+      "title": "The World’s Finest · TNBA Never Fear",
+      "url": "https://dcanimated.com/tnba/tnba-episodes/tnba-ep-06neverfear/",
+      "type": "分集资料辅助来源",
+      "scope": "TNBA稻草人与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-pretty-poison",
+      "title": "The World’s Finest · BTAS · Pretty Poison",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/prettypoison/",
+      "type": "分集资料辅助来源",
+      "scope": "毒藤女首次登场与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-vendetta",
+      "title": "The World’s Finest · BTAS · Vendetta",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/vendetta/",
+      "type": "分集资料辅助来源",
+      "scope": "杀手鳄首次登场与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-sideshow",
+      "title": "The World’s Finest · BTAS · Sideshow",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/sideshow/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-mad-as-a-hatter",
+      "title": "The World’s Finest · BTAS · Mad As A Hatter",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/madasahatter/",
+      "type": "分集资料辅助来源",
+      "scope": "疯帽匠首次登场与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-blind-as-a-bat",
+      "title": "The World’s Finest · BTAS · Blind As A Bat",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/blindasabat/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-almost-got-im",
+      "title": "The World’s Finest · 差一点就抓到他",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/almostgotim/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-trial",
+      "title": "The World’s Finest · BTAS · Trial",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/trial/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-lock-up",
+      "title": "The World’s Finest · BTAS · Lock-Up",
+      "url": "https://dcanimated.com/WF/batman/btas/episodes/lockup/",
+      "type": "分集资料辅助来源",
+      "scope": "编剧、导演与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-dossier-tnba-torch-song",
+      "title": "The World’s Finest · TNBA · Torch Song",
+      "url": "https://dcanimated.com/tnba/tnba-episodes/tnba-ep-10torchsong/",
+      "type": "分集资料辅助来源",
+      "scope": "萤火虫与配音表。",
+      "checked": "2026-10-24"
+    },
+    {
+      "id": "wf-tnba-sins-father",
+      "title": "The World’s Finest · TNBA Sins of the Father",
+      "url": "https://dcanimated.com/tnba/tnba-episodes/tnba-ep-02sinsofthefather/",
+      "type": "分集资料辅助来源",
+      "scope": "蝙蝠女配音署名。",
+      "checked": "2026-10-24"
     }
   ],
   "subtitle": "从动画到阿卡姆"

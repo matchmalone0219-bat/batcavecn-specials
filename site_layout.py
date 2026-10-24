@@ -28,7 +28,7 @@ NAVIGATION = {
     "shared": (
         ("Protocol Arkham", "/arkham/", "arkham"),
         ("Dark Deco", "/tas/", "tas"),
-        ("蝙蝠侠之声", "/voices/", "voices"),
+        ("蝙蝠侠之声", "/#voices", "voices"),
     ),
 }
 SEARCH_OPTIONS = {
@@ -72,9 +72,9 @@ def shell(data, site, title, body, active=""):
                   if site in ("arkham", "tas") else '<span class="brand-symbol" aria-hidden="true">✦</span>')
     brand_subtitle = {"arkham": "阿卡姆协议", "tas": "TAS 动画档案"}.get(site, info["name"])
     footer_links = {
-        "arkham": '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/voices/">两站共同档案</a>',
-        "tas": '<a href="/tas/">Dark Deco</a><a href="/tas/people/kevin-conroy/">凯文·康罗伊</a><a href="/voices/">两站共同档案</a>',
-    }.get(site, '<a href="/arkham/">Protocol Arkham</a><a href="/tas/">Dark Deco</a><a href="/voices/">蝙蝠侠之声</a>') + '<a href="/editor/" data-local-edit hidden>编辑文案</a>'
+        "arkham": '<a href="/arkham/menu/">主菜单</a><a href="/arkham/people/kevin-conroy/">凯文·康罗伊</a><a href="/">两站共同档案</a>',
+        "tas": '<a href="/tas/">Dark Deco</a><a href="/tas/people/kevin-conroy/">凯文·康罗伊</a><a href="/">两站共同档案</a>',
+    }.get(site, '<a href="/arkham/">Protocol Arkham</a><a href="/tas/">Dark Deco</a><a href="/#voices">蝙蝠侠之声</a>') + '<a href="/editor/" data-local-edit hidden>编辑文案</a>'
     scripts = arkham_scripts() if site == "arkham" else '<script src="/assets/app.js" defer></script>'
     if site == "tas":
         scripts += '<script src="/assets/tas-motion.js" defer></script><script src="/assets/tas-lightbox.js" defer></script>'

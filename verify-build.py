@@ -56,7 +56,8 @@ class BuildChecks(unittest.TestCase):
         pages, records, images = render_pages(data)
         from artbook_pages import load as load_artbook
         artbook_records = sum(len(load_artbook(site)[key]) for site in ('arkham', 'tas') for key in ('chapters', 'episodeAdditions'))
-        self.assertEqual((len(pages), len(records)), (160, 511 + artbook_records + len(data['person']['sections'])))
+        crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
+        self.assertEqual((len(pages), len(records)), (160, 504 + crossover_nodes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route.startswith('arkham/'):

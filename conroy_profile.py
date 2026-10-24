@@ -172,10 +172,11 @@ def cover(title, intro, shared=False):
     heading = ''.join(f'<span>{esc(line)}</span>' for line in lines)
     label = '声音人物志 / THE VOICES OF GOTHAM' if shared else '人物档案 / KEVIN CONROY'
     sub = '从动画到阿卡姆' if shared else '1955—2022 · 蝙蝠侠之声'
+    tag = 'h2' if shared else 'h1'  # the shared cover sits under the home page's h1
     return (
         '<section class="profile-cover"><div class="profile-cover-meta"><span>BATCAVECN / SPECIAL ARCHIVES</span>'
         '<span>人物 · 声音 · 创作</span></div><div class="profile-cover-grid"><div class="profile-cover-copy">'
-        f'<p class="profile-eyebrow">{label}</p><h1 aria-label="{esc(title)}">{heading}</h1>'
+        f'<p class="profile-eyebrow">{label}</p><{tag} class="profile-cover-title" aria-label="{esc(title)}">{heading}</{tag}>'
         f'<p class="profile-cover-sub">{sub}</p><p class="profile-cover-intro">{esc(intro)}</p>'
         '<a class="profile-cover-jump" href="#life"><span>01</span> 开始阅读 <span aria-hidden="true">↓</span></a></div>'
         f'<div class="profile-cover-portrait">{profile_photo("conroy-2017", eager=True)}'
