@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent
 
 
 def person_url(site):
-    return {"arkham": "/arkham/people/kevin-conroy/", "tas": "/tas/people/kevin-conroy/"}.get(site, "/voices/#kevin-conroy")
+    return {"arkham": "/arkham/people/kevin-conroy/", "tas": "/tas/people/kevin-conroy/"}.get(site, "/#kevin-conroy")
 
 
 def esc(value):

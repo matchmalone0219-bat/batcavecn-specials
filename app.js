@@ -34,7 +34,7 @@ async function searchPage() {
       for (const item of found) {
         const card = make("a", undefined, "route-card");
         const scopedConroy = { arkham: "/arkham/people/kevin-conroy/", tas: "/tas/people/kevin-conroy/" }[site];
-        card.href = item.scopedUrls?.[site] || (scopedConroy && item.url === "/voices/#kevin-conroy" ? scopedConroy : item.url);
+        card.href = item.scopedUrls?.[site] || (scopedConroy && item.url === "/#kevin-conroy" ? scopedConroy : item.url);
         card.append(make("p", `${item.site === "arkham" ? "PROTOCOL ARKHAM" : item.site === "tas" ? "DARK DECO" : "两站共同档案"} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
         results.append(card);
       }

@@ -77,9 +77,14 @@ for photo in photos:
         assert hashlib.sha256(path.read_bytes()).hexdigest() == photo['sha256'], path
 
 parsed = {}
-for site, path in [('shared', 'voices/index.html'), ('arkham', 'arkham/people/kevin-conroy/index.html'), ('tas', 'tas/people/kevin-conroy/index.html')]:
+for site, path in [('shared', 'index.html'), ('arkham', 'arkham/people/kevin-conroy/index.html'), ('tas', 'tas/people/kevin-conroy/index.html')]:
     parser = ProfilePage()
-    parser.feed(pages[path])
+    html = pages[path]
+    if path == 'index.html':
+        # The home page opens with the two site gates; the profile checks start at the Voices feature.
+        start = html.index('<section class="gates')
+        html = html[:start] + html[html.index('</section>', start) + len('</section>'):]
+    parser.feed(html)
     assert set(parser.external) <= allowed_external | (main_urls if site == 'shared' else set())
     assert set(parser.external) & main_urls == (main_urls if site == 'shared' else set())
     if site == 'shared':
@@ -96,7 +101,7 @@ for site, path in [('shared', 'voices/index.html'), ('arkham', 'arkham/people/ke
         for note in section.get('recordingNotes', []):
             assert (note['title'] in pages[path]) == (site in note.get('sites', ('shared', 'arkham', 'tas')))
     parsed[site] = parser
-profile_pages = {'voices/index.html', 'arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'}
+profile_pages = {'index.html', 'arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'}
 assert all(('/assets/conroy-profile.css' in html) == (path in profile_pages) for path, html in pages.items())
 
 # Every scoped chapter must actually exist on the chosen site's profile, with no cross-site jump.

@@ -465,19 +465,20 @@ print(f'PASS: {len(selected_scenes)} illustrated scenes; name-only entries exclu
 crossover = json.loads((CONTENT.parent / "crossover.json").read_text())
 crossover_ids = {s["id"] for s in crossover["sources"]}
 crossover_works = {w["id"] for w in crossover["works"]}
-crossover_page = pages["voices/index.html"]
+crossover_page = pages["index.html"]
 for node in crossover["nodes"]:
     assert node["links"] and f'id="{node["id"]}"' in crossover_page
     for link in node["links"]:
         assert link["work"] in crossover_works and link["sources"] and set(link["sources"]) <= crossover_ids
 assert all(f'id="source-{sid}"' in crossover_page for sid in crossover_ids)
-assert '/voices/' in pages["index.html"] and 'id="kevin-conroy"' in crossover_page
+assert 'id="voices"' in crossover_page and crossover_page.count('class="gate ') == 2 and 'id="kevin-conroy"' in crossover_page
+assert crossover_page.count('<h1') == 1, 'home page keeps one h1; the Voices cover uses h2'
 assert all(f'id="{sec["id"]}"' in crossover_page for sec in data["person"]["sections"])
-for old in ("crossover/index.html", "people/kevin-conroy/index.html"):
-    assert 'http-equiv="refresh"' in pages[old] and 'voices/' in pages[old]
+for old, target in (("voices/index.html", "#voices"), ("crossover/index.html", "#voices"), ("people/kevin-conroy/index.html", "#kevin-conroy")):
+    assert 'http-equiv="refresh"' in pages[old] and target in pages[old] and '/voices/' not in pages[old], old
 for route_key, html in pages.items():
     if route_key.startswith(("arkham/", "tas/")) and "<footer>" in html:
-        assert 'href="/voices/"' in html.split("<footer>")[1], route_key
+        assert '<a href="/">两站共同档案</a>' in html.split("<footer>")[1], route_key
     if route_key.startswith("arkham/"):
         assert 'href="/tas/' not in html, route_key
     if route_key.startswith("tas/"):
@@ -526,7 +527,7 @@ for page_key, html in pages.items():
         assert 'data-intercom-toggle' not in html and 'id="arkham-intercom"' not in html, page_key
 print('PASS: five approved intercom clips retain their hashes; optional controls and tracks stay within Arkham')
 for page_key in ("index.html", "404.html"):
-    assert pages[page_key].count('class="gate ') == 2 and 'href="/voices/"' in pages[page_key] and 'route-card' not in pages[page_key]
+    assert pages[page_key].count('class="gate ') == 2 and 'href="/#voices"' in pages[page_key] and 'route-card' not in pages[page_key]
 for page_key in ("arkham/people/kevin-conroy/index.html", "tas/people/kevin-conroy/index.html"):
     assert 'class="work-list"' in pages[page_key] and 'grid routes' not in pages[page_key]
 print('PASS: hub and 404 use the two-door entry; scoped Conroy pages use the work list')
