@@ -60,3 +60,9 @@ def shelf_icon(href):
     if path.startswith("/arkham/archive/"):
         return token(ROOM_ICONS.get(path.strip("/").split("/")[-1], "dossiers"))
     return ""
+
+
+def file_link(href, name, title, note, label=""):
+    """One-line link to a related file: icon, optional label, title, short note."""
+    tag = f'<span class="file-link-label">{label}</span>' if label else ''
+    return f'<a class="file-link" href="{href}">{token(name)}{tag}<strong>{title}</strong><span class="file-link-note">{note}</span></a>'

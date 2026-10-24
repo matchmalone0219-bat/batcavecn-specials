@@ -6,6 +6,15 @@ from patient_player import recording_controls
 from transmission_player import transmission_controls
 
 
+TERMINALS = [('/arkham/detective/', 'evidence', '案件重建'), ('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
+
+
+def terminal_bar(current):
+    """Bottom bar shared by the three terminals: back, switch terminal, key hint."""
+    links = ''.join(f'<a href="{href}"' + (' aria-current="page"' if href == current else '') + f'><i data-arkham-icon="{icon}"></i>{title}</a>' for href, icon, title in TERMINALS)
+    return f'<nav class="terminal-bar" aria-label="切换终端"><a class="terminal-back" href="/arkham/archive/">← 哥谭档案馆</a><span class="terminal-switch"><span class="terminal-switch-label">TERMINALS</span>{links}</span><a class="terminal-esc" href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a></nav>'
+
+
 def build_interactions(data, shell):
     research = json.loads((ROOT / 'riddler-research.json').read_text())
     archive = json.loads((ROOT / 'arkham-archive-research.json').read_text())
@@ -66,7 +75,7 @@ def build_interactions(data, shell):
 <aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><p class="terminal-feedback" data-feedback role="status">普通视野</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div></div></aside></div>
 <section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
 <div class="terminal-fallback" data-case-fallback>{fallback}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>调取患者问诊档案</h2><p>选择游戏与角色，聆听患者问诊录音。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>收听电话留言、广播访谈与案件录音。</p></a></div>
+{terminal_bar("/arkham/detective/")}
 <script type="application/json" data-case-data>{payload}</script></section>'''
 
     def make_nab_spool(is_left=True, uid='spool'):
@@ -87,7 +96,7 @@ def build_interactions(data, shell):
         for deg in [-30, 90, 210]:
             rad = math.radians(deg)
             sx, sy = 100 + 83 * math.cos(rad), 100 + 83 * math.sin(rad)
-            screws.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="2.8" fill="#425e4f" stroke="#15241c" stroke-width="0.8"/><line x1="{sx-1.8:.1f}" y1="{sy:.1f}" x2="{sx+1.8:.1f}" y2="{sy:.1f}" stroke="#15241c" stroke-width="0.8"/>')
+            screws.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="2.8" fill="#52564a" stroke="#1d1e1b" stroke-width="0.8"/><line x1="{sx-1.8:.1f}" y1="{sy:.1f}" x2="{sx+1.8:.1f}" y2="{sy:.1f}" stroke="#1d1e1b" stroke-width="0.8"/>')
         screws_svg = "".join(screws)
 
         ticks = []
@@ -97,17 +106,17 @@ def build_interactions(data, shell):
             x1, y1 = 100 + 91 * math.cos(rad), 100 + 91 * math.sin(rad)
             x2, y2 = 100 + 94.5 * math.cos(rad), 100 + 94.5 * math.sin(rad)
             stroke_w = "1.2" if i % 6 == 0 else "0.6"
-            stroke_col = "#5a846e" if i % 6 == 0 else "#2e4a3c"
+            stroke_col = "#727767" if i % 6 == 0 else "#3d4038"
             ticks.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{stroke_col}" stroke-width="{stroke_w}"/>')
         ticks_svg = "".join(ticks)
 
         return f'''<svg class="reel-spool-svg" viewBox="0 0 200 200" aria-hidden="true">
 <defs>
 <radialGradient id="al-flange-{uid}" cx="45%" cy="40%" r="60%">
-<stop offset="0%" stop-color="#2e493b"/>
-<stop offset="45%" stop-color="#182920"/>
-<stop offset="75%" stop-color="#284235"/>
-<stop offset="100%" stop-color="#111c16"/>
+<stop offset="0%" stop-color="#3d4037"/>
+<stop offset="45%" stop-color="#21231e"/>
+<stop offset="75%" stop-color="#363931"/>
+<stop offset="100%" stop-color="#171815"/>
 </radialGradient>
 <radialGradient id="tape-pack-{uid}" cx="50%" cy="50%" r="50%">
 <stop offset="0%" stop-color="#301a0f"/>
@@ -116,49 +125,49 @@ def build_interactions(data, shell):
 <stop offset="100%" stop-color="#150a05"/>
 </radialGradient>
 <radialGradient id="hub-met-{uid}" cx="40%" cy="35%" r="65%">
-<stop offset="0%" stop-color="#3e6350"/>
-<stop offset="60%" stop-color="#1d3327"/>
-<stop offset="100%" stop-color="#0e1a13"/>
+<stop offset="0%" stop-color="#52564b"/>
+<stop offset="60%" stop-color="#292b25"/>
+<stop offset="100%" stop-color="#141513"/>
 </radialGradient>
 <mask id="mask-{uid}">
 <rect width="200" height="200" fill="white"/>
 <path d="{holes_path}" fill="black"/>
 </mask>
 </defs>
-<circle cx="100" cy="100" r="96" fill="#07100b"/>
+<circle cx="100" cy="100" r="96" fill="#0c0c0b"/>
 <circle cx="100" cy="100" r="{tape_r}" fill="url(#tape-pack-{uid})"/>
 <circle cx="100" cy="100" r="{tape_r - 8}" fill="none" stroke="#381f12" stroke-width="0.7" stroke-dasharray="3 2"/>
 <circle cx="100" cy="100" r="{tape_r - 18}" fill="none" stroke="#381f12" stroke-width="0.7" stroke-dasharray="4 2"/>
-<circle cx="100" cy="100" r="96" fill="url(#al-flange-{uid})" mask="url(#mask-{uid})" stroke="#4e7a63" stroke-width="1.8"/>
-<circle cx="100" cy="100" r="90" fill="none" stroke="#1c3125" stroke-width="1" mask="url(#mask-{uid})"/>
-<path d="{holes_path}" fill="none" stroke="#4e7a63" stroke-width="1.4" opacity="0.85"/>
+<circle cx="100" cy="100" r="96" fill="url(#al-flange-{uid})" mask="url(#mask-{uid})" stroke="#666b5d" stroke-width="1.8"/>
+<circle cx="100" cy="100" r="90" fill="none" stroke="#272924" stroke-width="1" mask="url(#mask-{uid})"/>
+<path d="{holes_path}" fill="none" stroke="#666b5d" stroke-width="1.4" opacity="0.85"/>
 {ticks_svg}
 {screws_svg}
-<circle cx="100" cy="100" r="36" fill="url(#hub-met-{uid})" stroke="#528068" stroke-width="1.5"/>
-<circle cx="100" cy="100" r="28" fill="none" stroke="#264434" stroke-width="1.2"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#0c1812" stroke="#385a47" stroke-width="0.8"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#0c1812" stroke="#385a47" stroke-width="0.8" transform="rotate(120 100 100)"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#0c1812" stroke="#385a47" stroke-width="0.8" transform="rotate(240 100 100)"/>
-<circle cx="100" cy="100" r="16" fill="#16261d" stroke="#2fe58b" stroke-width="1.2"/>
-<circle cx="100" cy="100" r="7" fill="#050c08" stroke="#446e57" stroke-width="1"/>
+<circle cx="100" cy="100" r="36" fill="url(#hub-met-{uid})" stroke="#6b7062" stroke-width="1.5"/>
+<circle cx="100" cy="100" r="28" fill="none" stroke="#363931" stroke-width="1.2"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8" transform="rotate(120 100 100)"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8" transform="rotate(240 100 100)"/>
+<circle cx="100" cy="100" r="16" fill="#1f201c" stroke="#8d9282" stroke-width="1.2"/>
+<circle cx="100" cy="100" r="7" fill="#090908" stroke="#5b5f53" stroke-width="1"/>
 </svg>'''
 
     VU_SCALE_SVG = '''<svg viewBox="0 0 110 44" class="vu-scale-svg" aria-hidden="true">
-<path d="M 10 38 A 60 60 0 0 1 100 38" fill="none" stroke="#223b2e" stroke-width="2"/>
+<path d="M 10 38 A 60 60 0 0 1 100 38" fill="none" stroke="#30322b" stroke-width="2"/>
 <path d="M 76 21 A 60 60 0 0 1 100 38" fill="none" stroke="#d94b38" stroke-width="2.2"/>
-<line x1="16" y1="33" x2="19" y2="30" stroke="#48755e" stroke-width="1"/>
-<line x1="32" y1="26" x2="34" y2="23" stroke="#48755e" stroke-width="1"/>
-<line x1="52" y1="21" x2="53" y2="18" stroke="#48755e" stroke-width="1.2"/>
+<line x1="16" y1="33" x2="19" y2="30" stroke="#616558" stroke-width="1"/>
+<line x1="32" y1="26" x2="34" y2="23" stroke="#616558" stroke-width="1"/>
+<line x1="52" y1="21" x2="53" y2="18" stroke="#616558" stroke-width="1.2"/>
 <line x1="76" y1="21" x2="77" y2="18" stroke="#d94b38" stroke-width="1.4"/>
 <line x1="92" y1="28" x2="94" y2="25" stroke="#d94b38" stroke-width="1.4"/>
-<text x="18" y="40" fill="#4d7a62" font-size="6" font-family="monospace">-20</text>
-<text x="50" y="29" fill="#4d7a62" font-size="6" font-family="monospace">-5</text>
+<text x="18" y="40" fill="#666a5d" font-size="6" font-family="monospace">-20</text>
+<text x="50" y="29" fill="#666a5d" font-size="6" font-family="monospace">-5</text>
 <text x="74" y="27" fill="#d94b38" font-size="7" font-weight="bold" font-family="monospace">0</text>
 <text x="94" y="36" fill="#d94b38" font-size="6" font-weight="bold" font-family="monospace">+3</text>
 </svg>'''
 
     BARCODE_SVG = '<svg viewBox="0 0 140 22" class="inmate-barcode-svg" aria-hidden="true">' + ''.join(
-        f'<rect x="{x}" y="0" width="{w}" height="22" fill="#3f6652"/>'
+        f'<rect x="{x}" y="0" width="{w}" height="22" fill="#54584d"/>'
         for x, w in [(4, 2), (8, 4), (14, 1), (17, 3), (22, 1), (25, 4), (31, 2), (35, 1), (38, 4), (44, 2), (48, 1), (51, 3), (56, 4), (62, 1), (65, 3), (70, 2), (74, 4), (80, 1), (83, 3), (88, 2), (92, 4), (98, 1), (101, 3), (106, 2), (110, 4), (116, 2), (120, 1), (123, 3), (128, 4), (134, 2)]
     ) + '</svg>'
 
@@ -344,10 +353,7 @@ def build_interactions(data, shell):
 <nav class="patient-selector" aria-label="选择患者">{registers}</nav>
 <div class="patient-files">{panels}</div>
 </div>
-<div class="terminal-footer">
-<a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>进入现场调查</h2><p>扫描现场物证，沿证据链追查嫌疑人作案动机与背景。</p></a>
-<a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>调谐加密无线电</h2><p>收听电话留言、广播访谈与案件录音。</p></a>
-</div>
+{terminal_bar("/arkham/patients/")}
 </section>'''
     record('案件重建 · Detective Mode', '扫描现场物证，沿物证链推演案情始末与嫌犯背景。', '/arkham/detective/')
     record('患者终端', '《疯人院》与《之城》的患者访谈原声与导读。', '/arkham/patients/')
@@ -390,7 +396,7 @@ def build_interactions(data, shell):
 {game_tabs([("arkham-city", "阿卡姆之城"), ("arkham-knight", "阿卡姆骑士")])}
 <div class="transmission-channels" aria-label="可用频段">{channel_cards}</div>
 <div class="transmission-workspace">{panels_trans}</div>
-<div class="terminal-footer"><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>聆听《疯人院》与《之城》的患者访谈录音。</p></a><a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>激活侦探模式，从现场遗留物件串联完整证据链。</p></a></div>
+{terminal_bar("/arkham/transmissions/")}
 </section>'''
     record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 

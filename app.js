@@ -329,8 +329,8 @@ function protocolRecordPanel() {
   const panel = document.querySelector('[data-protocol-record]');
   if (!panel) return;
   const totals = JSON.parse(panel.dataset.cases);
-  const field = name => panel.querySelector(`[data-record="${name}"]`);
-  const total = name => field(name).textContent.split('/')[1].trim();
+  const fields = name => panel.querySelectorAll(`[data-record="${name}"]`);
+  const total = name => fields(name)[0].textContent.split('/')[1].trim();
   function render() {
     const record = protocolRecord.read();
     const progress = protocolRecord.cases();
@@ -339,8 +339,11 @@ function protocolRecordPanel() {
     const transmissions = record.heard.filter(name => name.startsWith('transmission-')).length;
     const values = { cases: solved, patients, transmissions, riddles: record.riddles.length };
     Object.entries(values).forEach(([name, value]) => {
-      field(name).textContent = `${value} / ${total(name)}`;
-      field(name).closest('li').classList.toggle('is-complete', String(value) === total(name));
+      const all = total(name);
+      fields(name).forEach(field => {
+        field.textContent = `${value} / ${all}`;
+        field.closest('li').classList.toggle('is-complete', String(value) === all);
+      });
     });
   }
   const reset = panel.querySelector('[data-record-reset]');
@@ -351,6 +354,7 @@ function protocolRecordPanel() {
   });
   reset.addEventListener('blur', () => { armed = false; reset.textContent = '清除本机记录'; });
   panel.hidden = false;
+  panel.classList.add('has-record');
   render();
 }
 

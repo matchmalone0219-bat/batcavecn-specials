@@ -524,9 +524,23 @@ clue_html = pages["arkham/archive/clues/index.html"]
 assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
-for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k != 'arkham/archive/interviews/index.html']:
+for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k not in ('arkham/archive/interviews/index.html', 'arkham/archive/index.html')]:
     assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 10, room_key
-print('PASS: Arkham archive rail on 7 pages; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained')
+hub = pages["arkham/archive/index.html"]
+assert 'class="dossier-rail"' not in hub and 'dossier-shelf' not in hub, 'archive hub uses the pause menu, not rail or shelf cards'
+assert hub.count("data-browse-item") == 9 and hub.count("data-panel=") == 9 and "data-browser-fallback" in hub
+for record_key in ("cases", "patients", "transmissions", "riddles"):
+    assert hub.count(f'data-record="{record_key}"') == 2, record_key
+for terminal_key in ("arkham/detective/index.html", "arkham/patients/index.html", "arkham/transmissions/index.html"):
+    page_html = pages[terminal_key]
+    bar = page_html.split('class="terminal-bar"')[1].split('</nav>')[0]
+    assert page_html.count('class="terminal-bar"') == 1 and 'dossier-shelf' not in page_html, terminal_key
+    assert bar.count('aria-current="page"') == 1 and f'href="/{terminal_key.removesuffix("index.html")}" aria-current="page"' in bar, terminal_key
+arkham_html = {k: v for k, v in pages.items() if k.startswith("arkham/") and k.endswith(".html")}
+assert not [k for k, v in arkham_html.items() if 'dossier-shelf' in v or '六部作品' in v]
+for link_key in ("arkham/catalog/index.html", "arkham/archive/asylum-history/index.html", "arkham/archive/rocksteady/index.html"):
+    assert pages[link_key].count('class="file-link"') == 1, link_key
+print('PASS: Arkham archive rail on 6 room pages; hub is a pause menu with 9 entries and record counts; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained')
 
 # TAS programme, screening halls and end-credit roster.
 catalog_html = (DIST / 'tas/catalog/index.html').read_text()

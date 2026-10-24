@@ -3,7 +3,7 @@ import html
 import re
 import json
 from render_common import paragraphs
-from arkham_icons import ROOM_ICONS, shelf_icon, token
+from arkham_icons import ROOM_ICONS, shelf_icon, token, file_link
 ROOM_EN = {'riddler': 'RIDDLER FILES', 'clues': 'EVIDENCE INDEX', 'stories': 'CITY CASE FILES', 'publications': 'PUBLICATIONS', 'asylum-history': 'ASYLUM HISTORY', 'rocksteady': 'ROCKSTEADY'}
 from collections import defaultdict
 from pathlib import Path
@@ -72,6 +72,11 @@ def build_arkham_archive(data,shell):
 
     def page(slug,title,intro,content):
         base='/arkham/archive/'+(slug+'/' if slug else '')
+        if not slug:
+            # The hub is its own pause menu, so it carries no room rail.
+            pages['arkham/archive/index.html']=shell(data,'arkham',title,content,'archive')
+            record(title,intro,base,None,['档案馆'])
+            return
         rooms=[('','总览','OVERVIEW')]+[(s,t,ROOM_EN[s]) for s,t,_ in ROOMS]
         item=lambda href,name,label,english,current:f'<a class="rail-item" href="{href}"{" aria-current=page" if current else ""}>{token(name)}<span>{label}<small>{english}</small></span></a>'
         nav=('<aside class="dossier-rail" aria-label="哥谭档案馆分类"><p class="rail-title">GOTHAM DOSSIERS</p><nav class="rail-menu" aria-label="档案分类">'
@@ -87,13 +92,37 @@ def build_arkham_archive(data,shell):
         record(i['title'],i['body'],base,i['id'],['档案注释'])
         return f'<article class="dossier-entry" id="{i["id"]}"><p class="label">档案注释</p><h2>{esc(i["title"])}</h2><p>{esc(i["body"])}</p>'+''.join(picture(id) for id in i['images'])+f'</article>'
 
-    opening='<div class="dossier-opening"><div><h2>暗巷深处，<br>现场留存的物证。</h2><p>暗巷里风化的旧海报、案发现场遗留的私人物品、隐匿在阴影里的谜语人机关。阿卡姆的每一处环境细节，都记录着哥谭的罪案与秘密。循着这些现场物证抽丝剥茧，逐一还原涉案反派的档案背景、解密机制与漫画经典考据。</p><p class="fine">20个考据专题 · 138项现场物证索引 · 16份城市机要档案 · 10部关联文献。</p></div>'+picture('city-flying-graysons')+'</div>'
-    opening+='<div class="dossier-shelves"><a class="dossier-shelf" href="/arkham/detective/"><i data-arkham-icon="evidence"></i><p class="label">DETECTIVE MODE</p><h2>案件重建</h2><p>扫描现场物证，沿物证链推演案情始末与嫌犯背景。</p></a><a class="dossier-shelf" href="/arkham/patients/"><i data-arkham-icon="patient"></i><p class="label">PATIENT RECORD DATABASE</p><h2>患者终端</h2><p>调取《疯人院》与《之城》的患者访谈原声与导读。</p></a><a class="dossier-shelf" href="/arkham/transmissions/"><i data-arkham-icon="radio"></i><p class="label">CRYPTOGRAPHIC SEQUENCER</p><h2>频段监听</h2><p>收听《之城》与《骑士》的电话、广播和案件录音。</p></a></div>'
+    hub_title,hub_intro='现场物证与哥谭机要档案','谜语人暗线、犯罪现场物证、城市解密档案与漫画考据；深入犯罪现场背后的反派档案与哥谭黑幕。'
     cases,patient_total,transmission_total=record_totals();riddle_total=len(riddles['riddles'])
-    opening+=f'''<section class="protocol-record" data-protocol-record data-cases='{esc(json.dumps(cases))}' hidden aria-labelledby="protocol-record-title"><h2 id="protocol-record-title"><i data-arkham-icon="record"></i>调查记录</h2><p class="fine">进度保存在当前浏览器；换设备或清除网站数据后重新开始。</p><ol><li><a href="/arkham/detective/"><span><i data-arkham-icon="evidence"></i>案件重建</span><strong data-record="cases">0 / {len(cases)}</strong></a></li><li><a href="/arkham/patients/"><span><i data-arkham-icon="tape"></i>患者录音 · 已收听</span><strong data-record="patients">0 / {patient_total}</strong></a></li><li><a href="/arkham/transmissions/"><span><i data-arkham-icon="radio"></i>频段监听 · 已截获</span><strong data-record="transmissions">0 / {transmission_total}</strong></a></li><li><a href="/arkham/archive/riddler/#riddle-challenge"><span><i data-arkham-icon="riddle"></i>谜语人的挑战</span><strong data-record="riddles">0 / {riddle_total}</strong></a></li></ol><button type="button" data-record-reset>清除本机记录</button></section>'''
-    opening+='<div class="dossier-shelves">'+''.join(f'<a class="dossier-shelf" href="/arkham/archive/{s}/">{shelf_icon("/arkham/archive/"+s+"/")}<h2>{t}</h2><p>{d}</p></a>' for s,t,d in ROOMS)+'</div>'
-    opening+='<div class="dossier-boundary"><h2>档案检索指引</h2><p>从物证索引定位现场线索，交叉调取嫌疑人档案、城市机要报告与原作文献。</p><p>涉及核心案情与剧透的信息默认折叠。现场物证按游戏版本与辖区网格编目。</p></div>'
-    page('','现场物证与哥谭机要档案','谜语人暗线、犯罪现场物证、城市解密档案与漫画考据；深入犯罪现场背后的反派档案与哥谭黑幕。',opening)
+    # (href, icon, title, english, summary, record key, record label, record total)
+    terminals=[('/arkham/detective/','evidence','案件重建','DETECTIVE MODE','扫描现场物证，沿物证链推演案情始末与嫌犯背景。','cases','案件重建',len(cases)),
+               ('/arkham/patients/','patient','患者终端','PATIENT RECORD DATABASE','调取《疯人院》与《之城》的患者访谈原声与导读。','patients','患者录音 · 已收听',patient_total),
+               ('/arkham/transmissions/','radio','频段监听','CRYPTOGRAPHIC SEQUENCER','收听《之城》与《骑士》的电话、广播和案件录音。','transmissions','频段监听 · 已截获',transmission_total)]
+    rooms=[(f'/arkham/archive/{s}/',ROOM_ICONS[s],t,ROOM_EN[s],d,*(('riddles','谜语人的挑战',riddle_total) if s=='riddler' else (None,None,0))) for s,t,d in ROOMS]
+    hub_art={'/arkham/detective/':'a06-city','/arkham/patients/':'a03-light','/arkham/transmissions/':'arkham-knight-03','/arkham/archive/riddler/':'city-subsidence','/arkham/archive/clues/':'a07-layers','/arkham/archive/stories/':'a16-studios','/arkham/archive/publications/':'a05-diploma','/arkham/archive/asylum-history/':'chronicle-east','/arkham/archive/rocksteady/':'a02-batman'}
+    art_pool={i['id']:i for i in json.loads((ROOT/'arkham-artbook.json').read_text())['images']}
+    art_pool.update({i['id']:i for i in json.loads((ROOT/'media.json').read_text())['assets'] if i['site']=='arkham'})
+    art_pool.update({i['id']:{**i,'alt':i['caption']} for i in history['images']+riddler['images']})
+    def count(key,label,total):
+        return f'<span class="pause-count" data-record="{key}" title="{esc(label)}">0 / {total}</span>' if key else ''
+    def art(href):
+        i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ' is-contain' if i['height']>i['width'] else ''
+        assert not i.get('spoiler'),i['id']
+        return f'<figure class="pause-art{fit}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(i["alt"])}" loading="lazy"></figure>'
+    groups=[('TERMINALS · 互动终端',terminals),('DOSSIERS · 档案室',rooms)]
+    hub_entries=[e for _,g in groups for e in g]
+    target={e[0]:f'hub-{n}' for n,e in enumerate(hub_entries)}
+    side=''.join(f'<p class="pause-group">{label}</p><ol class="browser-list">'+''.join(f'<li><a class="browser-item pause-item" href="{h}" data-browse-item data-target="{target[h]}">{token(ic)}<span class="browser-name">{esc(t)}<small>{en}</small></span>{count(k,kl,kt)}</a></li>' for h,ic,t,en,d,k,kl,kt in g)+'</ol>' for label,g in groups)
+    panels=''.join(f'<a class="browser-panel pause-panel" href="{h}" data-panel="{target[h]}"{"" if n==0 else " hidden"}>{art(h)}<div class="browser-panel-copy"><p class="game-eyebrow">{en}</p><h2>{esc(t)}</h2><p>{esc(d)}</p><p class="pause-enter"><kbd>↵</kbd> 进入</p></div></a>' for n,(h,ic,t,en,d,k,kl,kt) in enumerate(hub_entries))
+    rows=''.join(f'<p class="pause-group">{label}</p><ol class="pause-rows">'+''.join(f'<li><a href="{h}">{token(ic)}<span><strong>{esc(t)}</strong><small>{esc(d)}</small></span>{count(k,kl,kt)}</a></li>' for h,ic,t,en,d,k,kl,kt in g)+'</ol>' for label,g in groups)
+    opening=(f'''<section class="section archive-pause" data-protocol-record data-cases='{esc(json.dumps(cases))}'>'''
+             f'<div class="pause-head"><div class="pause-title"><p class="game-eyebrow">{token(ROOM_ICONS[""])}GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(hub_title)}</h1><p class="lead">{esc(hub_intro)}</p></div>'
+             '<div class="pause-brief"><h2>暗巷深处，<br>现场留存的物证。</h2><p>暗巷里风化的旧海报、案发现场遗留的私人物品、隐匿在阴影里的谜语人机关。阿卡姆的每一处环境细节，都记录着哥谭的罪案与秘密。循着这些现场物证抽丝剥茧，逐一还原涉案反派的档案背景、解密机制与漫画经典考据。</p><p class="fine">20个考据专题 · 138项现场物证索引 · 16份城市机要档案 · 10部关联文献。</p></div></div>'
+             f'<div class="game-browser pause-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side">{side}</div><div class="browser-preview">{panels}</div></div>'
+             f'<div class="pause-fallback" data-browser-fallback>{rows}</div>'
+             '<div class="pause-controls"><span class="keyboard-hint"><kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>↵</kbd> 进入</span><a href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a><span class="pause-record-note">进度保存在当前浏览器；换设备或清除网站数据后重新开始。</span><button type="button" data-record-reset>清除本机记录</button></div>'
+             '<p class="pause-note"><strong>档案检索指引</strong>从物证索引定位现场线索，交叉调取嫌疑人档案、城市机要报告与原作文献。涉及核心案情与剧透的信息默认折叠。现场物证按游戏版本与辖区网格编目。</p></section>')
+    page('',hub_title,hub_intro,opening)
 
     case_titles={c['id']:c['title'] for c in riddler['cases']}
     challenge='<section class="riddle-challenge" id="riddle-challenge" data-riddles hidden aria-labelledby="riddle-challenge-title"><h2 id="riddle-challenge-title"><i data-arkham-icon="riddle"></i>谜语人的挑战</h2><p class="fine">六道专题原创谜题。每道题的答案都在下方某组考据里；答出后记入档案馆总览的调查记录。</p><div class="riddle-grid">'
@@ -187,7 +216,7 @@ def build_arkham_archive(data,shell):
     for s in history['sections']:
         content+=f'<section class="dossier-entry" id="{s["id"]}"><h2>{esc(s["title"])}</h2><p>{esc(s["body"])}</p>'+''.join(picture(i) for i in s['images'])+'</section>'
     content+='<section class="dossier-entry" id="identity"><h2>谁在讲述这段历史？</h2><details class="spoiler"><summary>最终署名与现场画面 · 含重要剧透，展开阅读</summary><p>'+esc(history['identity'])+'</p>'+picture('chronicle-final')+'<p>'+esc(history['identityContext'])+'</p>'+'</details></section>'
-    content+='<a class="dossier-shelf" href="/arkham/archive/publications/#asylum-comic-25"><i data-arkham-icon="comics"></i><h2>漫画中的阿卡姆</h2><p>阅读1989年同名漫画的版本书目；与游戏院史分开比较。</p></a></div>'
+    content+=file_link('/arkham/archive/publications/#asylum-comic-25','comics','漫画中的阿卡姆','阅读1989年同名漫画的版本书目；与游戏院史分开比较。')+'</div>'
     page('asylum-history',history['title'],history['intro'],content)
     pages['arkham/archive/asylum-history/index.html'] = pages['arkham/archive/asylum-history/index.html'].replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css"><script src="/assets/arkham-investigation.js" defer></script></head>')
 
@@ -204,7 +233,7 @@ def build_arkham_archive(data,shell):
     for s in creative['sections']:
         content+=f'<article class="dossier-entry" id="{esc(s["id"])}"><p class="label">{esc(s["label"])}</p><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</article>'
         record(s['title'],s['body'].split('\n')[0],base,s['id'],['Rocksteady','创作变迁',s['label']],status='创作档案')
-    content+='<a class="dossier-shelf" href="/arkham/catalog/"><i data-arkham-icon="games"></i><h2>回到六部作品</h2><p>按发行年份阅读阿卡姆岛、黑门与大都会的作品档案。</p></a></div>'
+    content+=file_link('/arkham/catalog/','games','回到八部作品','按发行年份阅读阿卡姆岛、黑门、虚拟现实与大都会的作品档案。')+'</div>'
     page('rocksteady',creative['title'],creative['intro'],content)
 
     source_html='<section class="section"><h2>哥谭档案馆来源</h2><p>出版方书目、游戏攻略、社区转录与主创访谈，按来源查阅。</p><div class="source-list">'

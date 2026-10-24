@@ -69,14 +69,6 @@
 .dossier-room{max-width:1160px}
 .dossier-nav,.dossier-case-nav{display:flex;flex-wrap:wrap;gap:14px 24px;padding:20px 0;margin:24px 0 40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px}
 .dossier-nav a:hover,.dossier-nav a[aria-current],.dossier-case-nav a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
-.dossier-opening{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
-.dossier-opening h2{line-height:1.6}
-.dossier-shelves{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:45px 0}
-.dossier-shelf{display:block;padding:28px;background:var(--surface);border-top:2px solid var(--line)}
-.dossier-shelf:hover{background:#203038}
-.dossier-shelf h2{font-size:28px}
-.dossier-shelf p:last-child{margin:0;color:var(--muted)}
-.dossier-boundary{max-width:820px;margin:55px 0}
 .dossier-reading{max-width:820px;margin:auto}
 .dossier-entry{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
 .dossier-entry h2{font-size:30px}
@@ -112,16 +104,8 @@
 .clue-zone span{font-size:12px;opacity:.75}
 .clue-zone-status{margin:6px 0 0;font-size:14px;opacity:.85}
 .clue-zone-reset{margin-top:12px}
-.protocol-record[hidden],.riddle-challenge[hidden],.riddle-solved[hidden]{display:none}
-.protocol-record{margin:40px 0;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.protocol-record h2{margin-bottom:6px}
-.protocol-record ol{list-style:none;margin:20px 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
-.protocol-record li a{display:flex;flex-direction:column;justify-content:space-between;gap:14px;min-height:112px;padding:16px 18px;border:1px solid var(--line);background:#ffffff06;color:inherit;text-decoration:none;transition:border-color .16s ease-out,background .16s ease-out}
-.protocol-record li a:hover{border-color:var(--accent);text-decoration:none}
-.protocol-record li span{font-size:14px;color:var(--muted)}
-.protocol-record li strong{font:600 30px/1 var(--arkham-condensed);letter-spacing:.02em}
-.protocol-record li.is-complete a{border-color:var(--accent);background:#e4e5cc14}
-.protocol-record button,.riddle-input button{padding:9px 14px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
+.riddle-challenge[hidden],.riddle-solved[hidden]{display:none}
+.riddle-input button{padding:9px 14px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
 .riddle-challenge{margin:36px 0 48px}
 .riddle-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}
 .riddle-card{padding:20px 22px;border:1px solid var(--line);background:#ffffff06;scroll-margin-top:28px}
@@ -132,7 +116,7 @@
 .riddle-input button:disabled,.riddle-input input:disabled{opacity:.5;cursor:default}
 .riddle-status{min-height:1.6em;margin:10px 0 0;font-size:14px;color:var(--muted)}
 .riddle-solved{display:inline-block;margin-top:4px;color:var(--accent)}
-@media(max-width:760px){.protocol-record ol{grid-template-columns:repeat(2,minmax(0,1fr))}.riddle-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.riddle-grid{grid-template-columns:1fr}}
 .dossier-room details:not(.spoiler){font-size:14px;padding:14px 0}
 .dossier-room summary{cursor:pointer;color:var(--accent)}
 .dossier-room details[open]>summary{margin-bottom:16px}
@@ -141,9 +125,8 @@
 .dossier-facts dd{margin:0;overflow-wrap:anywhere}
 .dossier-gallery{display:grid;grid-template-columns:1fr 1fr;gap:35px}
 @media(max-width:640px){
-.dossier-opening,.dossier-shelves,.dossier-index,.dossier-gallery{grid-template-columns:1fr;gap:20px}
+.dossier-index,.dossier-gallery{grid-template-columns:1fr;gap:20px}
 .dossier-nav,.dossier-case-nav{gap:12px 20px;margin-bottom:25px}
-.dossier-shelf{padding:24px}
 .dossier-entry h2{font-size:26px}
 .dossier-entry{padding:28px 0}
 .dossier-facts>div{grid-template-columns:1fr;gap:5px}
@@ -405,14 +388,12 @@
 .arkham .room-head h1{margin:0}
 .arkham .dossier-nav a svg.ai{width:15px;height:15px;margin-right:6px;vertical-align:-2px;color:#a3a99f}
 .arkham .dossier-nav a[aria-current] svg.ai,.arkham .dossier-nav a:hover svg.ai{color:#e4e5cc}
-.arkham .dossier-shelf>svg.ai{display:block;width:28px;height:28px;margin-bottom:14px;color:#e4e5cc}
 .arkham .facts-icons{display:flex;flex-wrap:wrap;gap:6px 22px}
 .arkham .facts-icons span{display:inline-flex;align-items:center;gap:8px}
 .arkham .facts-summary svg.ai{width:17px;height:17px;color:#a3a99f}
 .arkham .detail-pager span svg.ai{width:14px;height:14px;margin:0 6px;vertical-align:-2px}
 .arkham .merch-chips svg.ai,.arkham .merch-selects svg.ai{width:15px;height:15px;margin-right:6px}
-.arkham .protocol-record h2 svg.ai,.arkham .riddle-challenge h2 svg.ai{width:.9em;height:.9em;margin-right:12px;vertical-align:-.08em}
-.arkham .protocol-record li span svg.ai{width:16px;height:16px;margin-right:8px;vertical-align:-3px}
+.arkham .riddle-challenge h2 svg.ai{width:.9em;height:.9em;margin-right:12px;vertical-align:-.08em}
 @media(max-width:700px){.arkham .room-head>svg.ai{width:34px;height:34px}.arkham .room-head{gap:14px}}
 .arkham .facts-summary>p:not(.facts-icons) svg.ai{margin-right:8px;vertical-align:-3px}
 
@@ -515,3 +496,62 @@
 .arkham .catalog-art-sources li span{display:block}
 .arkham .catalog-art-sources a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:700px){.arkham .catalog-art-sources ul{grid-template-columns:1fr}}
+
+/* Archive hub as a pause menu: grouped list, one preview, key hints. */
+.arkham .archive-pause{max-width:1320px;padding-top:42px}
+.arkham .pause-head{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:end;padding-bottom:28px;margin-bottom:30px;border-bottom:1px solid #89968c78}
+.arkham .pause-title .game-eyebrow svg.ai{width:14px;height:14px;margin-right:8px;vertical-align:-2px}
+.arkham .pause-title h1{margin:8px 0 14px;font-family:var(--arkham-font);font-weight:600;font-size:clamp(30px,3.1vw,44px);letter-spacing:.04em;line-height:1.15;word-break:keep-all;text-wrap:balance}
+.arkham .pause-title .lead{margin:0;max-width:34em;font-size:15px;line-height:1.8;color:#b9bfb6}
+.arkham .pause-brief h2{margin:0 0 10px;font-size:20px;line-height:1.5}
+.arkham .pause-brief p{margin:0 0 10px;max-width:38em;font-size:14px;line-height:1.85;color:#aeb4ab}
+.arkham .pause-brief .fine{margin:0;font-size:12px;color:#8f968c}
+.arkham .pause-group{margin:26px 0 6px;padding:0 14px;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .pause-group:first-child{margin-top:0}
+.arkham .pause-item{grid-template-columns:28px minmax(0,1fr) auto;gap:14px}
+.arkham .pause-item>svg.ai{width:22px;height:22px;stroke-width:1.4}
+.arkham .pause-count{display:none;font:18px/1 var(--arkham-condensed);letter-spacing:.04em;color:#8f968c;font-variant-numeric:tabular-nums;white-space:nowrap}
+.arkham .has-record .pause-count{display:inline}
+.arkham li.is-complete .pause-count{color:var(--accent)}
+.arkham .pause-item[aria-current=true] .pause-count{color:#4d524b}
+.arkham .pause-art{display:grid;place-items:center;margin:0;aspect-ratio:2/1;max-height:50vh;overflow:hidden;background:#0b0d0c;border:1px solid #5c635b80}
+.arkham .pause-panel .pause-art img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+.arkham .pause-panel .pause-art.is-contain img{object-fit:contain}
+.arkham .pause-panel .pause-art.is-small img{width:auto;height:auto;max-width:100%;max-height:100%}
+.arkham .pause-panel .browser-panel-copy>p.pause-enter{margin:18px 0 0;font-size:13px;color:#8f968c}
+.arkham .pause-enter kbd,.arkham .pause-controls kbd{display:inline-block;margin-right:6px;padding:1px 6px;border:1px solid #b1c0b177;border-radius:3px;font:11px/1.5 var(--arkham-condensed);color:#c9cbbb}
+.arkham .pause-fallback[hidden]{display:none}
+.arkham .pause-rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.arkham .pause-rows a{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:14px;align-items:start;padding:16px 4px;border-bottom:1px solid var(--line);color:inherit;text-decoration:none;transition:background .16s ease-out}
+.arkham .pause-rows a:hover{background:#e4e5cc0d;text-decoration:none}
+.arkham .pause-rows svg.ai{width:20px;height:20px;margin-top:3px}
+.arkham .pause-rows strong{display:block;font-size:17px}
+.arkham .pause-rows small{display:block;margin-top:4px;font-size:13px;line-height:1.7;color:#a3a99f}
+.arkham .pause-rows .pause-count{margin-top:4px;font-size:16px}
+.arkham .pause-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin-top:36px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px;color:#a3a99f}
+.arkham .pause-controls a{color:inherit;text-decoration:none}
+.arkham .pause-controls a:hover{color:var(--accent)}
+.arkham .pause-record-note{display:none;margin-left:auto;font-size:12px;color:#7f857c}
+.arkham .pause-controls button{display:none;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
+.arkham .pause-controls button:hover{color:var(--accent)}
+.arkham .has-record .pause-record-note,.arkham .has-record .pause-controls button{display:inline}
+.arkham .pause-note{max-width:860px;margin:16px 0 0;font-size:13px;line-height:1.8;color:#8f968c}
+.arkham .pause-note strong{margin-right:12px;font-weight:600;color:#c9cbbb}
+@media(max-width:960px){
+.arkham .archive-pause{padding-top:28px}
+.arkham .pause-head{grid-template-columns:minmax(0,1fr);gap:18px}
+.arkham .pause-title h1{font-size:clamp(24px,7vw,34px)}
+.arkham .pause-controls .keyboard-hint{display:none}
+.arkham .pause-record-note{margin-left:0}
+}
+
+/* Related file: a single hairline row instead of a shelf card. */
+.arkham .file-link{display:grid;grid-template-columns:22px auto auto minmax(0,1fr);align-items:baseline;gap:6px 16px;margin:44px 0 0;padding:16px 4px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#c9cbbb;text-decoration:none;transition:background .16s ease-out,color .16s ease-out}
+.arkham .file-link svg.ai{align-self:center;width:20px;height:20px;color:#a3a99f}
+.arkham .file-link-label{font:11px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .file-link strong{font-size:17px;font-weight:600;color:var(--text)}
+.arkham .file-link-note{font-size:13px;line-height:1.7;color:#a3a99f}
+.arkham .file-link:hover{background:#e4e5cc0d;text-decoration:none}
+.arkham .file-link:hover strong{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
+@media(max-width:700px){.arkham .file-link{grid-template-columns:22px minmax(0,1fr)}.arkham .file-link-label{grid-column:2}.arkham .file-link strong,.arkham .file-link-note{grid-column:2}}
+

@@ -229,10 +229,10 @@
     if (!pen) return;
     const {width, height} = canvas;
     pen.clearRect(0, 0, width, height);
-    pen.strokeStyle = file.classList.contains('transmission-file') ? '#2fe58b1a' : '#91b5c326'; pen.lineWidth = 1;
+    pen.strokeStyle = file.classList.contains('transmission-file') ? '#e4e5cc1a' : '#acb0a426'; pen.lineWidth = 1;
     for (let x = 0; x <= width; x += 36) { pen.beginPath(); pen.moveTo(x, 0); pen.lineTo(x, height); pen.stroke(); }
     for (let y = 0; y <= height; y += 28) { pen.beginPath(); pen.moveTo(0, y); pen.lineTo(width, y); pen.stroke(); }
-    pen.strokeStyle = file.classList.contains('transmission-file') ? '#2fe58b' : '#d6edf5'; pen.lineWidth = 2; pen.beginPath();
+    pen.strokeStyle = '#e4e5cc'; pen.lineWidth = 2; pen.beginPath();
     const values = samples || new Float32Array(256);
     const peak = values.reduce((max, value) => Math.max(max, Math.abs(value)), 0);
     const gain = Math.min(24, .65 / Math.max(.0001, peak));

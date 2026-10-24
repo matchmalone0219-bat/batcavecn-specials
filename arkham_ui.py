@@ -1,7 +1,7 @@
 """Arkham title screen, game menu and game catalogue."""
 import json
 from render_common import ROOT, esc, route
-from arkham_icons import icon as arkham_icon
+from arkham_icons import icon as arkham_icon, file_link as arkham_file_link
 from site_layout import shell, stylesheets, arkham_effects, arkham_scripts
 
 
@@ -42,7 +42,7 @@ def arkham_catalog(data):
     items = "".join(f'<li><a class="browser-item" href="{route(item)}" data-browse-item data-target="game-{item["id"]}"><span class="browser-year">{esc(item["year"])}</span><span class="browser-name">{esc(item["title"])}<small>{esc(item["original"])}</small></span></a></li>' for item in games)
     panels = "".join(f'<a class="browser-panel" href="{route(item)}" data-panel="game-{item["id"]}"{"" if n == 0 else " hidden"}><img src="/assets/media/{images[item["id"]]["file"]}" width="{images[item["id"]]["width"]}" height="{images[item["id"]]["height"]}" alt="{esc(images[item["id"]]["alt"])}" loading="lazy"><div class="browser-panel-copy"><p class="game-eyebrow">{esc(item["original"])}</p><h2>{esc(item["title"])}</h2><p>{esc(item["summary"])}</p><p class="facts-icons"><span><i data-arkham-icon="date"></i>{esc(item["date"])}</span><span><i data-arkham-icon="studio"></i>{esc(item["developer"])}</span><span><i data-arkham-icon="platform"></i>{esc(item["platforms"].split("（")[0])}</span></p></div></a>' for n, item in enumerate(games))
     browser = f'<div class="game-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side"><ol class="browser-list">{items}</ol><p class="browser-hint"><kbd>↑</kbd><kbd>↓</kbd> 选择 · <kbd>↵</kbd> 进入档案</p></div><div class="browser-preview">{panels}</div></div>'
-    body = '<section class="section arkham-game-catalog"><div class="arkham-catalog-heading"><div><p class="game-eyebrow"><i data-arkham-icon="games"></i>GAME ARCHIVE / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>八部作品，<br>按原作年份排列。</p></div>'+browser+'<div class="arkham-games-grid" data-browser-fallback>'+''.join(rows)+'</div>'+'<a class="dossier-shelf" href="/arkham/archive/rocksteady/"><p class="label">CREATIVE HISTORY</p><h2>Rocksteady与创作变迁</h2><p>合作射击与赛季制如何改变了工作室的制作方向。</p></a></section>'
+    body = '<section class="section arkham-game-catalog"><div class="arkham-catalog-heading"><div><p class="game-eyebrow"><i data-arkham-icon="games"></i>GAME ARCHIVE / ARCHIVE SELECT</p><h1>作品档案</h1></div><p>八部作品，<br>按原作年份排列。</p></div>'+browser+'<div class="arkham-games-grid" data-browser-fallback>'+''.join(rows)+'</div>'+arkham_file_link('/arkham/archive/rocksteady/','studio','Rocksteady与创作变迁','合作射击与赛季制如何改变了工作室的制作方向。','CREATIVE HISTORY')+'</section>'
     return shell(data, "arkham", "作品档案", body, "catalog")
 
 
