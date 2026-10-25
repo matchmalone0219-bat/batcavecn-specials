@@ -46,7 +46,7 @@ def build(data=None):
     copy_asset(ROOT / 'conroy-profile.css', DIST / 'assets/conroy-profile.css')
     for filename in ('tas-opening.css', 'tas-opening.js'):
         copy_asset(ROOT / filename, DIST / 'assets' / filename)
-    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-sequencer.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
+    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-channel-tuning.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/media").mkdir(exist_ok=True)
     (DIST / 'assets/media/maps').mkdir(exist_ok=True)
@@ -67,6 +67,10 @@ def build(data=None):
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
     copy_asset(ROOT / 'arkham-intercom.js', DIST / 'assets/arkham-intercom.js')
+    for filename in ('arkham-sequencer.js', 'arkham-sequencer.css'):
+        copy_asset(ROOT / filename, DIST / 'assets' / filename)
+    for clip in json.loads((ROOT / 'arkham-sequencer.json').read_text())['clips']:
+        copy_asset(ROOT / clip['file'], DIST / 'assets' / clip['file'])
     for clip in json.loads((ROOT / 'arkham-intercom.json').read_text())['clips']:
         copy_asset(ROOT / clip['file'], DIST / 'assets' / clip['file'])
     for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:

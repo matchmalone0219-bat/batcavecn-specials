@@ -1,0 +1,97 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const window = {};
+function element() {
+  const e = {hidden:false, textContent:'', style:{}, dataset:{}, attributes:{}, children:[], listeners:{}};
+  const classes = new Set();
+  e.classList = {toggle(name, value) { value ? classes.add(name) : classes.delete(name); }};
+  e.addEventListener = (name, fn) => e.listeners[name] = fn;
+  e.setAttribute = (name, value) => e.attributes[name] = value;
+  e.append = child => e.children.push(child);
+  e.focus = () => e.focused = true;
+  e.getBoundingClientRect = () => ({left:10, top:20, width:200, height:200});
+  e.setPointerCapture = id => e.captured = id;
+  e.closest = () => null;
+  return e;
+}
+vm.runInNewContext(fs.readFileSync(__dirname + '/arkham-channel-tuning.js','utf8'), {window, document:{createElement:element}});
+const signals = [{id:'a',game:'city',title:'A',x:24,y:34},{id:'b',game:'city',title:'B',x:78,y:70},{id:'c',game:'knight',title:'C',x:14,y:20}];
+const nodes = Object.fromEntries(['channel-tuning','sequencer-modes','sequencer-list','tuning-field','tuning-cursor','tuning-data','tuning-x','tuning-y','tuning-state','tuning-coordinates','tuning-retrieve','tuning-signals'].map(name => [name,element()]));
+nodes['tuning-data'].textContent = JSON.stringify(signals);
+nodes['channel-tuning'].hidden = true;
+const modes = ['list','tune'].map(value => Object.assign(element(),{dataset:{sequencerMode:value}}));
+const terminal = {querySelector:selector=>nodes[selector.slice(6,-1)],querySelectorAll:()=>modes};
+const selected = [];
+let controller;
+let reveals = 0;
+controller = window.ArkhamChannelTuning.init(terminal,id=>{selected.push(id);controller.sync(id);},()=>reveals++);
+controller.sync('a');
+assert.equal(nodes['sequencer-modes'].hidden,false);
+assert.equal(nodes['channel-tuning'].hidden,true,'Default list is retained');
+assert.equal(nodes['tuning-retrieve'].disabled,true);
+const click = e => e.listeners.click();
+click(modes[1]);
+assert.equal(nodes['sequencer-list'].hidden,true);
+function move(x,y) {
+  nodes['tuning-x'].value=String(x);nodes['tuning-x'].listeners.input();
+  nodes['tuning-y'].value=String(y);nodes['tuning-y'].listeners.input();
+}
+move(24,34);
+assert.equal(nodes['tuning-retrieve'].disabled,false);
+click(nodes['tuning-retrieve']);
+assert.deepEqual(selected,['a'],'Retrieval uses the existing channel selection callback');
+move(35,34);
+assert.equal(nodes['tuning-retrieve'].disabled,true,'Moving away immediately loses capture');
+assert.ok(nodes['tuning-state'].textContent.includes('接近信号'));
+click(nodes['tuning-retrieve']);assert.deepEqual(selected,['a'],'A stale candidate cannot be retrieved');
+click(nodes['tuning-signals'].children[1]);
+click(nodes['tuning-retrieve']);assert.deepEqual(selected,['a','b']);
+assert.equal(nodes['tuning-signals'].children[1].attributes['aria-pressed'],'true');
+assert.equal(nodes['tuning-signals'].children[0].attributes['aria-pressed'],'false');
+controller.sync('c');
+assert.equal(nodes['tuning-x'].value,'50','Changing works resets the coordinate plane');
+assert.equal(nodes['tuning-signals'].children[0].hidden,true);
+assert.equal(nodes['tuning-signals'].children[2].hidden,false);
+move(24,34);assert.equal(nodes['tuning-retrieve'].disabled,true,'Another work cannot leak a capture');
+move(99,1);
+const field = nodes['tuning-field'];
+let prevented=0;
+field.listeners.keydown({target:field,key:'ArrowRight',shiftKey:true,preventDefault(){prevented++;}});
+assert.equal(nodes['tuning-x'].value,'100');
+field.listeners.keydown({target:field,key:'ArrowDown',shiftKey:false,preventDefault(){prevented++;}});
+assert.equal(nodes['tuning-y'].value,'0');
+field.listeners.keydown({target:element(),key:'ArrowUp',preventDefault(){throw Error('Nested control stole keys');}});
+assert.equal(prevented,2);
+field.listeners.pointerdown({button:0,target:field,pointerId:1,clientX:38,clientY:180});
+assert.equal(field.captured,1);assert.equal(nodes['tuning-x'].value,'14');assert.equal(nodes['tuning-y'].value,'20');
+assert.equal(nodes['tuning-retrieve'].disabled,false,'Pointer coordinates share the keyboard coordinate model');
+field.listeners.pointermove({pointerId:2,clientX:210,clientY:220});
+assert.equal(nodes['tuning-x'].value,'14','A second touch cannot steal the active drag');
+field.listeners.pointercancel();
+field.listeners.pointermove({pointerId:1,clientX:210,clientY:220});
+assert.equal(nodes['tuning-x'].value,'14','Cancelled pointer movement does not change the tuner');
+let stopped=false;
+nodes['channel-tuning'].listeners.keydown({key:'Escape',preventDefault(){},stopPropagation(){stopped=true;}});
+assert.equal(stopped,true);assert.equal(nodes['channel-tuning'].hidden,true);assert.equal(modes[0].focused,true);
+assert.equal(reveals,1,'Returning to the list reveals its actual selected object');
+click(nodes['tuning-retrieve']);assert.deepEqual(selected,['a','b'],'Hidden tuning cannot retrieve a channel');
+assert.equal(window.ArkhamChannelTuning.locate([], 'city',0,0),undefined);
+const built = fs.readFileSync(__dirname + '/dist/arkham/transmissions/index.html','utf8');
+const payload = JSON.parse(built.match(/<script type="application\/json" data-tuning-data>(.*?)<\/script>/s)[1]);
+const recordings = JSON.parse(fs.readFileSync(__dirname + '/arkham-transmissions.json','utf8')).channels;
+assert.deepEqual(payload.map(s=>s.id),recordings.map(c=>c.id),'All existing channels retain their IDs');
+for(const signal of payload) {
+  assert.ok(Number.isInteger(signal.x)&&Number.isInteger(signal.y)&&signal.x>=0&&signal.x<=100&&signal.y>=0&&signal.y<=100);
+  const original=recordings.find(c=>c.id===signal.id);
+  assert.equal(signal.title,original.title);assert.equal(signal.game,original.gameId);
+  assert.equal(Object.hasOwn(signal,'frequency'),false,'Interface coordinates never overwrite source frequency values');
+  assert.equal(window.ArkhamChannelTuning.locate(payload,signal.game,signal.x,signal.y).signal.id,signal.id);
+}
+assert.ok(built.indexOf('/assets/arkham-channel-tuning.js')<built.indexOf('/assets/arkham-investigation.js'));
+assert.ok(built.includes('data-sequencer-modes hidden')&&built.includes('data-channel-tuning hidden'));
+assert.equal(built.includes('data-sequencer-list hidden'),false,'Without scripts the original channel list stays available');
+for(const route of ['arkham/detective','arkham/patients','tas','']) {
+  assert.equal(fs.readFileSync(__dirname+'/dist/'+route+'/index.html','utf8').includes('/assets/arkham-channel-tuning.js'),false);
+}
+console.log('PASS: optional tuning, capture/loss, work isolation, pointer cancellation, keyboard limits, direct markers and list return; no storage or audio dependency');

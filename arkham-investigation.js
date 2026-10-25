@@ -392,7 +392,7 @@
       selectChannel(channels.find(file => file.dataset.game === button.dataset.recordingGame)?.dataset.transmissionChannel);
     }));
     window.addEventListener('hashchange', () => selectChannel(location.hash.replace('#channel-', ''), false));
-    sequencer = window.ArkhamSequencer?.init(transmissionTerminal, selectChannel, revealChannel);
+    sequencer = window.ArkhamChannelTuning?.init(transmissionTerminal, selectChannel, revealChannel);
     selectChannel(location.hash.replace('#channel-', ''), false);
   }
   const terminal = document.querySelector('[data-patient-terminal]');

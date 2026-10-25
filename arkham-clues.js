@@ -37,8 +37,6 @@
     const copy = document.createElement('div');
     copy.className = 'clue-preview-body';
     const contents = item.querySelector('[data-detail]').cloneNode(true);
-    const photo = contents.querySelector('.dossier-photo');
-    if (photo) contents.insertBefore(photo, contents.querySelector('.clue-case'));
     copy.append(item.querySelector('.label').cloneNode(true), item.querySelector('h3').cloneNode(true), contents);
     detail.replaceChildren(copy);
     browser.classList.toggle('is-detail', open && !wide.matches);
@@ -53,7 +51,7 @@
   function districts() {
     zoneSelect.replaceChildren();
     const all = document.createElement('option');
-    all.value = ''; all.textContent = '全部辖区'; zoneSelect.append(all);
+    all.value = ''; all.textContent = '全部地点'; zoneSelect.append(all);
     tiles.filter(tile => game === 'all' || tile.closest('[data-zone-board]').dataset.zoneBoard === game).forEach(tile => {
       const option = document.createElement('option');
       option.value = tile.dataset.zone;
@@ -71,7 +69,7 @@
     groups.forEach(group => { group.hidden = zone ? group.id !== zone : game !== 'all' && group.dataset.zoneGroup !== game; });
     const shown = items.filter(allowed);
     const tile = tiles.find(tile => tile.dataset.zone === zone);
-    status.textContent = `${buttons.find(button => button.dataset.zoneGame === game).textContent.split(' · ')[0]} / ${tile ? tile.querySelector('strong').textContent : '全部辖区'} · ${shown.length} 项物证`;
+    status.textContent = `${buttons.find(button => button.dataset.zoneGame === game).textContent.split(' · ')[0]} / ${tile ? tile.querySelector('strong').textContent : '全部地点'} · ${shown.length} 项场景与彩蛋`;
     reset.hidden = !zone;
     select(preferred && allowed(preferred) ? preferred : current && allowed(current) ? current : shown[0], false, remember);
   }

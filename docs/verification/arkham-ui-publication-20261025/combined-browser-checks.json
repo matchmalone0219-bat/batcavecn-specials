@@ -1,0 +1,314 @@
+{
+  "sceneAndMapViews": [
+    {
+      "count": "阿卡姆疯人院 / 全部地点 · 22 项场景与彩蛋",
+      "game": "asylum",
+      "map": [
+        {
+          "game": "asylum",
+          "loaded": 969,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "count": "阿卡姆之城 / 全部地点 · 86 项场景与彩蛋",
+      "game": "city",
+      "map": [
+        {
+          "game": "city",
+          "loaded": 1024,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "count": "阿卡姆骑士 / 全部地点 · 126 项场景与彩蛋",
+      "game": "knight",
+      "map": [
+        {
+          "game": "knight",
+          "loaded": 1920,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "check": "spoiler-structure",
+      "overflow": false,
+      "preview": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "source": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "width": 320
+    },
+    {
+      "count": "阿卡姆疯人院 / 全部地点 · 22 项场景与彩蛋",
+      "game": "asylum",
+      "map": [
+        {
+          "game": "asylum",
+          "loaded": 969,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "count": "阿卡姆之城 / 全部地点 · 86 项场景与彩蛋",
+      "game": "city",
+      "map": [
+        {
+          "game": "city",
+          "loaded": 1024,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "count": "阿卡姆骑士 / 全部地点 · 126 项场景与彩蛋",
+      "game": "knight",
+      "map": [
+        {
+          "game": "knight",
+          "loaded": 1920,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "check": "spoiler-structure",
+      "overflow": false,
+      "preview": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "source": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "width": 390
+    },
+    {
+      "count": "阿卡姆疯人院 / 全部地点 · 22 项场景与彩蛋",
+      "game": "asylum",
+      "map": [
+        {
+          "game": "asylum",
+          "loaded": 969,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "count": "阿卡姆之城 / 全部地点 · 86 项场景与彩蛋",
+      "game": "city",
+      "map": [
+        {
+          "game": "city",
+          "loaded": 1024,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "count": "阿卡姆骑士 / 全部地点 · 126 项场景与彩蛋",
+      "game": "knight",
+      "map": [
+        {
+          "game": "knight",
+          "loaded": 1920,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "check": "spoiler-structure",
+      "overflow": false,
+      "preview": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "source": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "count": "阿卡姆疯人院 / 全部地点 · 22 项场景与彩蛋",
+      "game": "asylum",
+      "map": [
+        {
+          "game": "asylum",
+          "loaded": 969,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "count": "阿卡姆之城 / 全部地点 · 86 项场景与彩蛋",
+      "game": "city",
+      "map": [
+        {
+          "game": "city",
+          "loaded": 1024,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "count": "阿卡姆骑士 / 全部地点 · 126 项场景与彩蛋",
+      "game": "knight",
+      "map": [
+        {
+          "game": "knight",
+          "loaded": 1920,
+          "zoom": "150%"
+        }
+      ],
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "check": "spoiler-structure",
+      "overflow": false,
+      "preview": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "source": [
+        {
+          "folded": true,
+          "open": false
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "terminalViews": [
+    {
+      "mode": "tune",
+      "overflow": false,
+      "passwordHidden": true,
+      "playing": 0,
+      "selection": "信道已调取 · 展开录音区收听",
+      "tuningVisible": true,
+      "width": 320
+    },
+    {
+      "frequenciesHidden": true,
+      "mode": "decode",
+      "overflow": false,
+      "phase": "ready",
+      "playing": 0,
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "width": 320
+    },
+    {
+      "mode": "tune",
+      "overflow": false,
+      "passwordHidden": true,
+      "playing": 0,
+      "selection": "信道已调取 · 展开录音区收听",
+      "tuningVisible": true,
+      "width": 390
+    },
+    {
+      "frequenciesHidden": true,
+      "mode": "decode",
+      "overflow": false,
+      "phase": "ready",
+      "playing": 0,
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "width": 390
+    },
+    {
+      "mode": "tune",
+      "overflow": false,
+      "passwordHidden": true,
+      "playing": 0,
+      "selection": "信道已调取 · 展开录音区收听",
+      "tuningVisible": true,
+      "width": 1280
+    },
+    {
+      "frequenciesHidden": true,
+      "mode": "decode",
+      "overflow": false,
+      "phase": "ready",
+      "playing": 0,
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "width": 1280
+    },
+    {
+      "mode": "tune",
+      "overflow": false,
+      "passwordHidden": true,
+      "playing": 0,
+      "selection": "信道已调取 · 展开录音区收听",
+      "tuningVisible": true,
+      "width": 1440
+    },
+    {
+      "frequenciesHidden": true,
+      "mode": "decode",
+      "overflow": false,
+      "phase": "ready",
+      "playing": 0,
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "width": 1440
+    }
+  ]
+}

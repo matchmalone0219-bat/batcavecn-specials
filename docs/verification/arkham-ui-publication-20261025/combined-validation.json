@@ -1,0 +1,145 @@
+[
+  {
+    "command": [
+      "python3",
+      "verify-easter-eggs.py"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "verify-artbooks.py"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "verify-conroy.py"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "verify-build.py"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-intro.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-arkham-nav.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-arkham-menu.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-intercom.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-investigation.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-clues.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-recent.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-map.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-channel-tuning.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-sequencer.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-tas-motion.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-lightbox.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "verify-opening.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "verify-opening.py"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "node",
+      "--check",
+      "app.js"
+    ],
+    "code": 0
+  },
+  {
+    "command": [
+      "python3",
+      "prepare_pages.py",
+      "--base-path",
+      "/batcavecn-specials"
+    ],
+    "code": 0
+  }
+]

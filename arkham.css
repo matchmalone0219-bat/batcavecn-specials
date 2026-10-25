@@ -75,6 +75,15 @@
 .dossier-nav,.dossier-case-nav{display:flex;flex-wrap:wrap;gap:14px 24px;padding:20px 0;margin:24px 0 40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px}
 .dossier-nav a:hover,.dossier-nav a[aria-current],.dossier-case-nav a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
 .dossier-reading{max-width:820px;margin:auto}
+.scene-reference{display:none}
+.scene-reference:target{display:block}
+.scene-zone-alias{display:block;scroll-margin-top:28px}
+.scene-sources{margin:24px 0 0;font-size:13px;line-height:1.7}
+.scene-sources ul{padding-left:18px}
+.scene-sources li{margin:10px 0;overflow-wrap:anywhere}
+.scene-sources small{display:block;color:var(--muted)}
+.scene-mechanics{margin:36px 0;padding-top:24px;border-top:1px solid var(--line)}
+.story-reading .original{font-size:16px;letter-spacing:.03em;overflow-wrap:anywhere}
 .dossier-entry{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
 .dossier-entry h2{font-size:30px}
 .dossier-entry h3{font-size:21px;margin-top:25px}

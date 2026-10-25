@@ -79,8 +79,14 @@ for image in archive_images:
 for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
-assert len(ark_pages) == 8 and len(ark_records) == 246 and len(ark_images) == 23
-assert len(interactive_pages) == 3 and len(interactive_records) == 31
+reading = json.loads((CONTENT.parent / 'arkham-reading.json').read_text())
+from arkham_easter_eggs import load_easter_eggs
+easter_eggs = load_easter_eggs()
+scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
+riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
+omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])
+assert len(ark_pages) == 8 and len(ark_records) == 246 - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 23 + len(easter_eggs['images'])
+assert len(interactive_pages) == 3 and len(interactive_records) == 32
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']
 trans_terminal = interactive_pages['arkham/transmissions/index.html']
@@ -105,6 +111,22 @@ assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]
 assert '<details class="spoiler">' in identity_html and ' open' not in identity_html
 assert ark_pages['arkham/archive/stories/index.html'].count('<details class="spoiler">') == 16
+story_html = ark_pages['arkham/archive/stories/index.html']
+story_packet = json.loads((CONTENT.parent / 'arkham-archive-research.json').read_text())
+story_search = {urlsplit(r['url']).fragment: r for r in ark_records if '/archive/stories/#' in r['url']}
+for story in story_packet['stories']:
+    text = reading['stories'][story['id']]
+    article = story_html.split(f'id="{story["id"]}"', 1)[1].split('</article>', 1)[0]
+    assert text['title'] in article and story['title'] in article
+    assert text['summary'] in article.split('<details class="spoiler">', 1)[1].split('</details>', 1)[0]
+    assert text['summary'] not in json.dumps(story_search, ensure_ascii=False)
+    assert story_search[story['id']]['summary'] == text['intro']
+    assert story['editorialAngle'] not in article
+    assert '社区转录' in article and '展开故事梗概' in article
+    assert story['originalText'] is None  # Summaries must not be represented as game text.
+for forbidden in ('现场实测', '城市机要档案', '机要档案正文', '调查重点：'):
+    assert forbidden not in ark_pages['arkham/archive/clues/index.html'] + story_html
+print('PASS: Chinese story introductions, original English titles, attributed summaries, collapsed spoilers and safe search excerpts')
 history = json.loads((CONTENT.parent / 'asylum-history.json').read_text())
 history_html = ark_pages['arkham/archive/asylum-history/index.html']
 assert history_html.count('<details class="spoiler">') == 25
@@ -430,8 +452,19 @@ print(f'PASS: 85 BTAS credit records; villain, writer, director and studio filte
 clues = pages["arkham/archive/clues/index.html"]
 zone_links = re.findall(r'class="clue-zone" href="#([^"]+)"', clues)
 assert len(zone_links) == len(set(zone_links)) and all(f'id="{zone}"' in clues for zone in zone_links)
-assert sum(int(n) for n in re.findall(r'<span>(\d+)项</span>', clues)) == 138
-print(f'PASS: {len(zone_links)} Arkham clue districts link to their entry groups; 138 entries covered')
+assert sum(int(n) for n in re.findall(r'<span>(\d+)项</span>', clues)) == scene_count
+selected_scenes = {s['entry'] for s in reading['scenes']}
+for entry in riddler_packet['entries']:
+    assert f'id="{entry["id"]}"' in clues  # Existing fragment URLs remain valid.
+    if entry['id'] not in selected_scenes:
+        assert not any(r['url'] == '/arkham/archive/clues/#' + entry['id'] for r in search)
+        article = clues.split(f'id="{entry["id"]}"', 1)[1].split('</article>', 1)[0]
+        assert 'data-browse-item' not in article and '资料来源' in article
+for scene in reading['scenes']:
+    article = clues.split(f'id="{scene["entry"]}"', 1)[1].split('</article>', 1)[0]
+    assert '<img ' in article and scene['description'] in article and scene['context'] in article
+    assert '资料来源' in article
+print(f'PASS: {len(selected_scenes)} illustrated scenes; name-only entries excluded from browsing/search; all 138 old entry anchors retained')
 crossover = json.loads((CONTENT.parent / "crossover.json").read_text())
 crossover_ids = {s["id"] for s in crossover["sources"]}
 crossover_works = {w["id"] for w in crossover["works"]}
@@ -527,7 +560,7 @@ print(f'PASS: {len(arkham_icons.ICONS)} filled Arkham icons; unique shared paint
 catalog_html = pages["arkham/catalog/index.html"]
 assert catalog_html.count("data-browse-item") == 8 and catalog_html.count("data-panel=") == 8 and "data-browser-fallback" in catalog_html
 clue_html = pages["arkham/archive/clues/index.html"]
-assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
+assert clue_html.count("data-browse-item") == scene_count and clue_html.count("data-detail") == scene_count and "data-browse-preview" in clue_html
 assert 'data-clue-workspace' in clue_html and 'data-zone-select' in clue_html and 'data-clue-back' in clue_html
 assert '/assets/arkham-clues.js' in clue_html and all('/assets/arkham-clues.js' not in html for key,html in pages.items() if key != 'arkham/archive/clues/index.html')
 merch_html = pages["arkham/collectibles/index.html"]

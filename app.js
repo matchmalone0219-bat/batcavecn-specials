@@ -276,7 +276,7 @@ function clueZonePage() {
       if (visible) shown += group.querySelectorAll('article').length;
     });
     const tile = tiles.find(item => item.dataset.zone === zone);
-    status.textContent = zone ? `${tile.querySelector('strong').textContent} · ${shown} 项物证` : `显示 ${shown} 项物证`;
+    status.textContent = zone ? `${tile.querySelector('strong').textContent} · ${shown} 处场景` : `显示 ${shown} 处场景`;
     reset.hidden = !zone && game === 'all';
     document.querySelector('.clue-browser')?.dispatchEvent(new Event('browse:refresh'));
   }
@@ -574,16 +574,19 @@ function browsePages() {
   });
 }
 
-searchPage();
-episodeCatalogPage();
-episodePreview();
-collectiblesPage();
-browsePages();
-pageToc();
-clueZonePage();
-protocolRecordPanel();
-riddleChallenge();
-editorPage();
+function initialiseReadingPage() {
+  searchPage();
+  episodeCatalogPage();
+  episodePreview();
+  collectiblesPage();
+  browsePages();
+  pageToc();
+  clueZonePage();
+  protocolRecordPanel();
+  riddleChallenge();
+  editorPage();
+}
+initialiseReadingPage();
 document.addEventListener('click', event => {
   if (event.target.closest('.topic-more')) return;
   document.querySelectorAll('.topic-more[open]').forEach(menu => { menu.open = false; });
@@ -631,7 +634,7 @@ function initialiseArkhamMenu() {
   });
 }
 initialiseArkhamMenu();
-document.addEventListener('arkham:page', () => { searchPage(); initialiseArkhamMenu(); });
+document.addEventListener('arkham:page', () => { initialiseReadingPage(); initialiseArkhamMenu(); });
 document.addEventListener('keydown', event => {
   const tiles = [...document.querySelectorAll('.menu-tile')];
   if (!tiles.length || tiles[0].closest('[hidden]') || document.body.classList.contains('intro-entering') || window.ArkhamTransition?.busy) return;

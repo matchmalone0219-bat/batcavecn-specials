@@ -5,6 +5,7 @@ from render_common import ROOT, esc, paragraphs
 from patient_player import recording_controls
 from transmission_player import transmission_controls
 from arkham_icons import icon
+from arkham_sequencer import sequencer
 
 
 TERMINALS = [('/arkham/detective/', 'evidence', '案件重建'), ('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
@@ -53,7 +54,7 @@ def build_interactions(data, shell):
         records.append(dict(title=title, original=title, summary=summary, tags=['调查终端'], site='arkham', status='互动档案', url=url))
 
     def page(title, body, sequencer=False):
-        extra = '<script src="/assets/arkham-sequencer.js" defer></script>' if sequencer else ''
+        extra = '<script src="/assets/arkham-channel-tuning.js" defer></script>' if sequencer else ''
         return shell(data, 'arkham', title, body, 'archive').replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css">' + extra + '<script src="/assets/arkham-investigation.js" defer></script></head>')
 
     case_data = []
@@ -405,11 +406,13 @@ def build_interactions(data, shell):
 
     terminal_trans = f'''<section class="section arkham-investigation" data-transmissions-terminal>
 <div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">调取哥谭的电话留言、广播访谈、密谈与案件录音。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+{sequencer()}
+<div data-frequency-workspace>
 {game_tabs([("arkham-city", "阿卡姆之城"), ("arkham-knight", "阿卡姆骑士")])}
 <div class="transmission-desk"><div class="transmission-browser">
 <div class="sequencer-modes" data-sequencer-modes hidden aria-label="选择信道方式"><button type="button" data-sequencer-mode="list" aria-pressed="true">信道列表</button><button type="button" data-sequencer-mode="tune" aria-pressed="false">双轴调谐</button></div>
 <div class="transmission-channels" data-sequencer-list aria-label="可用频段">{channel_cards}</div>
-<section class="sequencer" data-sequencer hidden aria-label="双轴信道调谐器">
+<section class="channel-tuning" data-channel-tuning hidden aria-label="双轴信道调谐器">
 <div class="sequencer-coordinates"><span>专题调谐坐标</span><output data-tuning-coordinates aria-live="off">X 050 · Y 050</output></div>
 <p class="fine" id="sequencer-help">拖动准星或使用下方滑块；在网格中按方向键微调，Shift 加速。</p>
 <div class="sequencer-field" data-tuning-field tabindex="0" role="group" aria-label="调谐网格" aria-describedby="sequencer-help"><div data-tuning-signals></div><span class="sequencer-cursor" data-tuning-cursor aria-hidden="true"></span></div>
@@ -419,13 +422,14 @@ def build_interactions(data, shell):
 <script type="application/json" data-tuning-data>{tuning_data}</script>
 </section></div>
 <div class="transmission-workspace">{panels_trans}</div>
-</div>
+</div></div>
 {terminal_bar("/arkham/transmissions/")}
 </section>'''
+    record('密码破译 · 警局安保终端', '调谐左右密钥，接入哥谭市政网络并解开警局门禁。', '/arkham/transmissions/#password-terminal')
     record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 
     return {
         'arkham/detective/index.html': page('案件重建', detective),
         'arkham/patients/index.html': page('患者终端', terminal),
-        'arkham/transmissions/index.html': page('频段监听', terminal_trans, sequencer=True)
+        'arkham/transmissions/index.html': page('频段监听', terminal_trans, sequencer=True).replace('</head>', '<link rel="stylesheet" href="/assets/arkham-sequencer.css"><script src="/assets/arkham-sequencer.js" defer></script></head>')
     }, records
