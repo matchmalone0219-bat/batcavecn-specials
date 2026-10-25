@@ -256,7 +256,7 @@ function episodeCatalogPage() {
 
 function clueZonePage() {
   const zones = document.querySelector('.clue-zones');
-  if (!zones) return;
+  if (!zones || zones.closest('[data-clue-workspace]')) return;
   const gameButtons = [...zones.querySelectorAll('[data-zone-game]')];
   const boards = [...zones.querySelectorAll('[data-zone-board]')];
   const tiles = [...zones.querySelectorAll('[data-zone]')];
@@ -320,7 +320,7 @@ const protocolRecord = (() => {
       if (/^(patient|transmission)-[a-z0-9-]+\.m4a$/.test(name)) add('heard', name);
     },
     solve(id) { add('riddles', id); },
-    clear() { try { storage()?.removeItem(KEY); storage()?.removeItem(CASES); } catch {} }
+    clear() { try { storage()?.removeItem(KEY); storage()?.removeItem(CASES); } catch {} window.ArkhamRecent?.clear(); }
   };
 })();
 window.ProtocolRecord = protocolRecord;
@@ -330,7 +330,7 @@ function protocolRecordPanel() {
   if (!panel) return;
   const totals = JSON.parse(panel.dataset.cases);
   const fields = name => panel.querySelectorAll(`[data-record="${name}"]`);
-  const total = name => fields(name)[0].textContent.split('/')[1].trim();
+  const total = name => Number(fields(name)[0].dataset.total);
   function render() {
     const record = protocolRecord.read();
     const progress = protocolRecord.cases();
@@ -341,8 +341,8 @@ function protocolRecordPanel() {
     Object.entries(values).forEach(([name, value]) => {
       const all = total(name);
       fields(name).forEach(field => {
-        field.textContent = `${value} / ${all}`;
-        field.closest('li').classList.toggle('is-complete', String(value) === all);
+        field.textContent = `${field.dataset.recordLabel} ${value} / ${all}`;
+        field.closest('li').classList.toggle('is-complete', value === all);
       });
     });
   }
@@ -510,6 +510,7 @@ function pageToc() {
 function browsePages() {
   const wide = window.matchMedia('(min-width: 961px)');
   document.querySelectorAll('[data-browser]').forEach(root => {
+    if (root.closest('[data-clue-workspace]')) return;
     const mode = root.dataset.browseMode;
     const items = [...root.querySelectorAll('[data-browse-item]')];
     const preview = root.querySelector('[data-browse-preview]');

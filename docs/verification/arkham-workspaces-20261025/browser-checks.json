@@ -1,0 +1,161 @@
+{
+  "viewports": [
+    {
+      "height": 844,
+      "path": "/arkham/detective/",
+      "primaryTop": 593,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/patients/",
+      "primaryTop": 863,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/transmissions/",
+      "primaryTop": 864,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/clues/",
+      "primaryTop": 760,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/",
+      "primaryTop": 0,
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/detective/",
+      "primaryTop": 486,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/patients/",
+      "primaryTop": 780,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/transmissions/",
+      "primaryTop": 725,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/clues/",
+      "primaryTop": 705,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/",
+      "primaryTop": 0,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "height": 720,
+      "path": "/arkham/detective/",
+      "primaryTop": 439,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/patients/",
+      "primaryTop": 632,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/transmissions/",
+      "primaryTop": 604,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/archive/clues/",
+      "primaryTop": 405,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/archive/",
+      "primaryTop": 359,
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "height": 900,
+      "path": "/arkham/detective/",
+      "primaryTop": 439,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/patients/",
+      "primaryTop": 632,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/transmissions/",
+      "primaryTop": 604,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/archive/clues/",
+      "primaryTop": 405,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/archive/",
+      "primaryTop": 359,
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "flows": {
+    "clueArticleReturn": {
+      "before": {
+        "listTop": 115.5,
+        "selected": "city-amusement-mile-02",
+        "zone": "zone-city-amusement-mile"
+      },
+      "after": {
+        "listTop": 115.5,
+        "selected": "city-amusement-mile-02",
+        "zone": "zone-city-amusement-mile"
+      }
+    },
+    "detective": "scan plus keyboard association, completion and reload restoration passed",
+    "patient": "one loaded and playing source; switching patient paused playback",
+    "mobile": "detail returns to same selected clue and district"
+  }
+}

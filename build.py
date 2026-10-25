@@ -46,9 +46,14 @@ def build(data=None):
     copy_asset(ROOT / 'conroy-profile.css', DIST / 'assets/conroy-profile.css')
     for filename in ('tas-opening.css', 'tas-opening.js'):
         copy_asset(ROOT / filename, DIST / 'assets' / filename)
-    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
+    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-sequencer.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/media").mkdir(exist_ok=True)
+    (DIST / 'assets/media/maps').mkdir(exist_ok=True)
+    for map_game in ('asylum', 'city', 'knight'):
+        map_asset = json.loads((ROOT / f'arkham-{map_game}-map.json').read_text())
+        copy_asset(ROOT / map_asset['file'], DIST / 'assets/media' / map_asset['file'])
+    copy_asset(ROOT / 'arkham-map.js', DIST / 'assets/arkham-map.js')
     media = json.loads((ROOT / "media.json").read_text())
     media["assets"] += json.loads((ROOT / "episode-media.json").read_text())["assets"]
     media["assets"] += json.loads((ROOT / "catalog-art.json").read_text())["assets"]

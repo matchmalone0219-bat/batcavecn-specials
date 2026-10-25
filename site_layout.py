@@ -1,7 +1,7 @@
 """Topic navigation, styles and shared page chrome."""
 from render_common import esc
 from tas_deco import expand as expand_deco, screen_head
-from arkham_icons import expand as expand_icons
+from arkham_icons import expand as expand_icons, definitions as arkham_icon_definitions
 
 NAVIGATION = {
     "arkham": (
@@ -56,11 +56,11 @@ ARKHAM_CONTROLS = '<button class="arkham-quick" data-arkham-quick type="button" 
 def arkham_effects(controls=True):
     """Floating controls belong to the intro and menu; inner pages carry them in the 更多导航 menu."""
     tracks = ''.join(f'<source data-intercom-track src="/assets/audio/asylum-intercom-{index:02d}.m4a" type="audio/mp4">' for index in range(1, 6))
-    return '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><audio id="arkham-intercom" preload="none">' + tracks + '</audio>' + (ARKHAM_CONTROLS if controls else '')
+    return arkham_icon_definitions() + '<canvas id="intro-bats" aria-hidden="true" hidden></canvas><audio id="intro-audio" preload="auto"><source src="/assets/arkham-bat-transition.m4a" type="audio/mp4"><source src="/assets/arkham-bat-transition.wav" type="audio/wav"></audio><audio id="arkham-intercom" preload="none">' + tracks + '</audio>' + (ARKHAM_CONTROLS if controls else '')
 
 
 def arkham_scripts():
-    return '<script src="/assets/arkham-transition.js" defer></script><script src="/assets/arkham-menu.js" defer></script><script src="/assets/arkham-intercom.js" defer></script><script src="/assets/app.js" defer></script><script src="/assets/arkham-nav.js" defer></script>'
+    return '<script src="/assets/arkham-transition.js" defer></script><script src="/assets/arkham-menu.js" defer></script><script src="/assets/arkham-intercom.js" defer></script><script src="/assets/arkham-recent.js" defer></script><script src="/assets/app.js" defer></script><script src="/assets/arkham-nav.js" defer></script>'
 
 
 def shell(data, site, title, body, active=""):

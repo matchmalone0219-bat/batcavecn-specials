@@ -1,0 +1,734 @@
+[
+  {
+    "label": "list-city",
+    "width": 320,
+    "audioLoaded": 0,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "信道列表"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "CHANNEL: 104.5 MHz小丑的加密通讯与绝唱阿卡姆之城 · 小丑"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01直通热线与浪漫晚餐0:23"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "tuning-city",
+    "width": 320,
+    "audioLoaded": 0,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "02"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 010:26"
+      }
+    ],
+    "signalCount": 3,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "tuning-knight",
+    "width": 320,
+    "audioLoaded": 0,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆骑士"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "04"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 011:27"
+      }
+    ],
+    "signalCount": 8,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "list-city",
+    "width": 390,
+    "audioLoaded": 0,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "信道列表"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "CHANNEL: 104.5 MHz小丑的加密通讯与绝唱阿卡姆之城 · 小丑"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01直通热线与浪漫晚餐0:23"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "tuning-city",
+    "width": 390,
+    "audioLoaded": 0,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "02"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 010:26"
+      }
+    ],
+    "signalCount": 3,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "tuning-knight",
+    "width": 390,
+    "audioLoaded": 0,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆骑士"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "04"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 011:27"
+      }
+    ],
+    "signalCount": 8,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "list-city",
+    "width": 1280,
+    "audioLoaded": 0,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "信道列表"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "CHANNEL: 104.5 MHz小丑的加密通讯与绝唱阿卡姆之城 · 小丑"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01直通热线与浪漫晚餐0:23"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "tuning-city",
+    "width": 1280,
+    "audioLoaded": 0,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "02"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 010:26"
+      }
+    ],
+    "signalCount": 3,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "tuning-knight",
+    "width": 1280,
+    "audioLoaded": 0,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆骑士"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "04"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 011:27"
+      }
+    ],
+    "signalCount": 8,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "list-city",
+    "width": 1440,
+    "audioLoaded": 0,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "信道列表"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "CHANNEL: 104.5 MHz小丑的加密通讯与绝唱阿卡姆之城 · 小丑"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01直通热线与浪漫晚餐0:23"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  },
+  {
+    "label": "tuning-city",
+    "width": 1440,
+    "audioLoaded": 0,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆之城"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "02"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 010:26"
+      }
+    ],
+    "signalCount": 3,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  },
+  {
+    "label": "tuning-knight",
+    "width": 1440,
+    "audioLoaded": 0,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆骑士"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "双轴调谐"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "04"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TRACK 01录音 011:27"
+      }
+    ],
+    "signalCount": 8,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  },
+  {
+    "label": "/arkham/detective/",
+    "width": 320,
+    "audioLoaded": 0,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01墙上的飞人格雷森"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "终端动效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "已收录 · Flying Graysons海报"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "/arkham/archive/asylum-history/",
+    "width": 320,
+    "audioLoaded": 24,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "/arkham/detective/",
+    "width": 390,
+    "audioLoaded": 0,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01墙上的飞人格雷森"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "终端动效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "已收录 · Flying Graysons海报"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "/arkham/archive/asylum-history/",
+    "width": 390,
+    "audioLoaded": 24,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "/arkham/detective/",
+    "width": 1280,
+    "audioLoaded": 0,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01墙上的飞人格雷森"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "终端动效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "已收录 · Flying Graysons海报"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "/arkham/archive/asylum-history/",
+    "width": 1280,
+    "audioLoaded": 24,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "/arkham/detective/",
+    "width": 1440,
+    "audioLoaded": 0,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01墙上的飞人格雷森"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "终端动效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "已收录 · Flying Graysons海报"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  },
+  {
+    "label": "/arkham/archive/asylum-history/",
+    "width": 1440,
+    "audioLoaded": 24,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 320,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "viewport": 320
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 390,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "viewport": 390
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 1280,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "viewport": 1280
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 1440,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "viewport": 1440
+  }
+]

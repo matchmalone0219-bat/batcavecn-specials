@@ -1,0 +1,80 @@
+{
+  "scope": "Local Arkham palette and icons; unpublished",
+  "baselineFiles": 1044,
+  "changedFiles": [
+    "arkham/index.html",
+    "assets/arkham.css",
+    "assets/arkham-investigation.css",
+    "arkham/patients/index.html",
+    "arkham/collectibles/index.html",
+    "arkham/archive/index.html",
+    "arkham/gallery/index.html",
+    "arkham/catalog/index.html",
+    "arkham/search/index.html",
+    "arkham/transmissions/index.html",
+    "arkham/menu/index.html",
+    "arkham/detective/index.html",
+    "arkham/sources/index.html",
+    "arkham/archive/riddler/index.html",
+    "arkham/archive/clues/index.html",
+    "arkham/archive/publications/index.html",
+    "arkham/archive/rocksteady/index.html",
+    "arkham/archive/stories/index.html",
+    "arkham/archive/interviews/index.html",
+    "arkham/archive/asylum-history/index.html",
+    "arkham/people/kevin-conroy/index.html",
+    "arkham/games/arkham-origins/index.html",
+    "arkham/games/arkham-asylum/index.html",
+    "arkham/games/suicide-squad-kill-the-justice-league/index.html",
+    "arkham/games/arkham-shadow/index.html",
+    "arkham/games/arkham-city/index.html",
+    "arkham/games/arkham-knight/index.html",
+    "arkham/games/arkham-vr/index.html",
+    "arkham/games/arkham-origins-blackgate/index.html"
+  ],
+  "added": [],
+  "removed": [],
+  "cssLayoutAndNonColorDeclarationsUnchanged": true,
+  "paletteContrastChecks": [
+    {
+      "foreground": "#e4e5dc",
+      "background": "#121716",
+      "ratio": 14.26
+    },
+    {
+      "foreground": "#9bada7",
+      "background": "#121716",
+      "ratio": 7.7
+    },
+    {
+      "foreground": "#e4e5dc",
+      "background": "#102226",
+      "ratio": 12.93
+    },
+    {
+      "foreground": "#121716",
+      "background": "#cdded9",
+      "ratio": 12.97
+    },
+    {
+      "foreground": "#8eaba3",
+      "background": "#102226",
+      "ratio": 6.65
+    },
+    {
+      "foreground": "#7d9c94",
+      "background": "#102226",
+      "ratio": 5.52
+    }
+  ],
+  "checks": {
+    "build": "160 pages, 589 search records",
+    "verify.py": "PASS; 6244 internal links and anchors; unique icon paints; isolation",
+    "verify-build.py": "PASS; four regression tests",
+    "verify-arkham-nav.js": "PASS",
+    "verify-arkham-menu.js": "PASS",
+    "verify-investigation.js": "PASS",
+    "verify-intercom.js": "PASS"
+  },
+  "unchangedFiles": 1015
+}

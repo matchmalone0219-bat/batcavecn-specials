@@ -43,6 +43,7 @@ function detective({reduced = false, blocked = false, saved = {}} = {}) {
     e.classList.add = (...names) => names.forEach(name => e.classList.toggle(name, true));
     e.classList.remove = (...names) => names.forEach(name => e.classList.toggle(name, false));
     e.replaceChildren = (...children) => { e.children = children; };
+    e.append = (...children) => { e.children.push(...children); };
     e.focus = () => { document.activeElement = e; };
     return e;
   }
@@ -101,7 +102,8 @@ assert.equal(resumed.nodes.summary.hidden, false); assert.equal(resumed.timers.s
 console.log('PASS: detective collection timing, next evidence, completion, rereading, reset, cancellation, motion preference and restoration');
 
 function patient(id) {
-  const file=element(),details=element(),button=element(),state=element(),audio=element(),subtitle=element(),label=element(),canvas=element();
+  const file=element(),details=element(),button=element(),state=element(),audio=element(),subtitle=element(),label=element(),canvas=element(),tapeSelector=element(),fallback=element();
+  tapeSelector.hidden=true;
   const points=[];
   canvas.width=720;canvas.height=140;canvas.getContext=()=>({clearRect(){points.length=0;},beginPath(){},moveTo(x,y){points.push(y);},lineTo(x,y){points.push(y);},stroke(){}});
   audio.src='';audio.ended=false;audio.pauses=0;audio.plays=0;audio.loads=0;audio.paused=true;audio.currentTime=0;
@@ -110,14 +112,16 @@ function patient(id) {
   details.open=false;file.dataset={patientFile:id};
   const tapes=Array.from({length:5},(_,i)=>({src:`/assets/audio/patient-${id}-0${i+1}.m4a`,label:`TAPE 0${i+1}`,cues:[{start:1,end:4,text:`${id} ${i+1} 开场`},{start:5,end:9,text:`${id} ${i+1} 后续`}]}));
   const choices=tapes.map(()=>element());
-  file.querySelector=selector=>({'details':details,'audio':audio,'[data-load-recording]':button,'[data-playback-state]':state,'[data-tape-data]':{textContent:JSON.stringify(tapes)},'[data-subtitle]':subtitle,'[data-tape-label]':label,'[data-waveform]':canvas}[selector]);
+  file.querySelector=selector=>({'details':details,'audio':audio,'.tape-selector':tapeSelector,'[data-recording-fallback]':fallback,'[data-load-recording]':button,'[data-playback-state]':state,'[data-tape-data]':{textContent:JSON.stringify(tapes)},'[data-subtitle]':subtitle,'[data-tape-label]':label,'[data-waveform]':canvas}[selector]);
   file.querySelectorAll=()=>choices;
-  return {file,details,button,state,audio,subtitle,label,choices,tapes,points};
+  return {file,details,button,state,audio,subtitle,label,choices,tapes,points,tapeSelector,fallback};
 }
 (async()=>{
   for (const inTerminal of [true,false]) {
     const a=patient('joker'),b=patient('harley');
     const selectors=[a,b].map(p=>Object.assign(element(),{dataset:{patient:p.file.dataset.patientFile}}));
+    const list={clientHeight:100,scrollHeight:300,scrollTop:0,getBoundingClientRect:()=>({top:0,bottom:100,height:100})};
+    selectors.forEach((link,i)=>{link.parentElement=list;link.getBoundingClientRect=()=>({top:i*140-list.scrollTop,bottom:i*140+80-list.scrollTop,height:80});});
     const terminal={querySelectorAll:selector=>selector==='[data-patient-file]'?[a.file,b.file]:selectors};
     const handlers={},docHandlers={},frames=new Map();let frameId=0,graphs=0,samples=0;
     class AudioContext {
@@ -128,6 +132,8 @@ function patient(id) {
     const document={hidden:false,querySelector:selector=>selector==='[data-patient-terminal]'&&inTerminal?terminal:null,querySelectorAll:selector=>selector==='[data-audio-recording]'?[a.file,b.file]:[],addEventListener:(name,fn)=>docHandlers[name]=fn};
     vm.runInNewContext(source,{window:{AudioContext,addEventListener:(name,fn)=>handlers[name]=fn},document,location:{hash:''},history:{replaceState(){}},requestAnimationFrame(fn){const id=++frameId;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);}});
     assert.equal(a.audio.src,'');assert.equal(b.audio.src,'','No source is requested before a click');
+    assert.equal(a.tapeSelector.hidden,false,'Controls appear only after the recording controller initializes');
+    assert.equal(a.fallback.hidden,true,'Successful enhancement replaces the initially available direct links');
     a.button.listeners.click();assert.equal(a.audio.plays,0,'Closed spoilers cannot start playback');
     a.details.open=true;a.button.listeners.click();
     assert.equal(a.audio.src,a.tapes[0].src);assert.equal(b.audio.src,'');
@@ -144,7 +150,12 @@ function patient(id) {
     a.audio.listeners.playing();a.audio.listeners.waiting();assert(!a.file.classList.contains('is-playing'));assert.equal(frames.size,0,'Buffering stops the waveform');
     a.audio.listeners.playing();a.details.open=false;const pauses=a.audio.pauses;a.details.listeners.toggle();
     assert.equal(a.audio.pauses,pauses+1);assert(!a.file.classList.contains('is-playing'));assert.equal(frames.size,0);
-    if(inTerminal) selectors[1].listeners.click({preventDefault(){}});
+    if(inTerminal) {
+      selectors[1].listeners.click({preventDefault(){}});
+      assert.equal(list.scrollTop,120,'Selection reveals the current row by scrolling only its list');
+      selectors[1].listeners.click({preventDefault(){}});
+      assert.equal(list.scrollTop,120,'A row already in view keeps its position');
+    }
     b.details.open=true;b.button.listeners.click();
     assert.equal(a.audio.src,'');assert.equal(a.button.hidden,false);
     assert.equal(b.audio.src,b.tapes[0].src,'Only one recording keeps a source');

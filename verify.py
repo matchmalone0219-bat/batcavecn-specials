@@ -510,28 +510,47 @@ for site in ("arkham", "tas"):
     assert "data-merch-filter" in html and "merch-feature" not in html
 print('PASS: collectibles lead with product photos, list the rest compactly, keep every anchor and offer category/maker/work filters')
 import arkham_icons
+assert arkham_icons.FILLED_ICONS.keys() == arkham_icons.ICONS.keys(), 'Every Arkham icon uses the filled silhouette system'
 for route_key, html in pages.items():
     assert 'data-arkham-icon' not in html, route_key
     if route_key.startswith("arkham/"):
         assert all(name in arkham_icons.ICONS for name in re.findall(r'data-arkham-icon="([a-z-]+)"', html))
+        for paint_id in ('arkham-icon-metal', 'arkham-icon-metal-dark'):
+            assert html.count(f'id="{paint_id}"') == 1, (route_key, paint_id)
+        assert set(re.findall(r'data-arkham-shape="([a-z-]+)"', html)) <= arkham_icons.FILLED_ICONS.keys(), route_key
     else:
         assert 'class="ai"' not in html and 'class="ai ' not in html, route_key
+        assert 'arkham-icon-metal' not in html, route_key
 assert pages["arkham/menu/index.html"].count('class="menu-icon"') == 7
 assert 'class="room-head"' in pages["arkham/archive/riddler/index.html"] and "GOTHAM DOSSIERS / 01" in pages["arkham/archive/riddler/index.html"]
-print(f'PASS: {len(arkham_icons.ICONS)} original Arkham icons; menu, room headers, labels, facts, pager and filters use them; no icons outside Arkham')
+print(f'PASS: {len(arkham_icons.ICONS)} filled Arkham icons; unique shared paints; menu, room headers, labels, facts, pager and filters; no icons or paints outside Arkham')
 catalog_html = pages["arkham/catalog/index.html"]
 assert catalog_html.count("data-browse-item") == 8 and catalog_html.count("data-panel=") == 8 and "data-browser-fallback" in catalog_html
 clue_html = pages["arkham/archive/clues/index.html"]
 assert clue_html.count("data-browse-item") == 138 and clue_html.count("data-detail") == 138 and "data-browse-preview" in clue_html
+assert 'data-clue-workspace' in clue_html and 'data-zone-select' in clue_html and 'data-clue-back' in clue_html
+assert '/assets/arkham-clues.js' in clue_html and all('/assets/arkham-clues.js' not in html for key,html in pages.items() if key != 'arkham/archive/clues/index.html')
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
 for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k not in ('arkham/archive/interviews/index.html', 'arkham/archive/index.html')]:
     assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 10, room_key
 hub = pages["arkham/archive/index.html"]
+recent_match = re.search(r'<script type="application/json" data-recent-index>(.*?)</script>', hub)
+assert recent_match and 'data-recent-object hidden' in hub
+recent_index = json.loads(recent_match[1])
+for key, item in recent_index.items():
+    assert key.split(':')[0] in ('case','clue','patient','channel') and item['url'].startswith('/arkham/')
+    recent_url = urlsplit(item['url'])
+    assert recent_url.path in parsed and recent_url.fragment in parsed[recent_url.path].ids, item
+assert all('/assets/arkham-recent.js' not in html for key,html in pages.items() if not key.startswith('arkham/'))
 assert 'class="dossier-rail"' not in hub and 'dossier-shelf' not in hub, 'archive hub uses the pause menu, not rail or shelf cards'
 assert hub.count("data-browse-item") == 9 and hub.count("data-panel=") == 9 and "data-browser-fallback" in hub
 for record_key in ("cases", "patients", "transmissions", "riddles"):
     assert hub.count(f'data-record="{record_key}"') == 2, record_key
+for label in ('已完成','已试听角色','已试听录音','已解答'):
+    assert hub.count(f'data-record-label="{label}"') == 2, label
+for terminal_key in ('arkham/patients/index.html','arkham/transmissions/index.html'):
+    assert 'class="spoiler ' in pages[terminal_key] and 'preload="none"' in pages[terminal_key], terminal_key
 for terminal_key in ("arkham/detective/index.html", "arkham/patients/index.html", "arkham/transmissions/index.html"):
     page_html = pages[terminal_key]
     bar = page_html.split('class="terminal-bar"')[1].split('</nav>')[0]

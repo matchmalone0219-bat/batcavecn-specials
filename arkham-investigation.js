@@ -62,7 +62,10 @@
       node('evidence-chain').replaceChildren(...current.evidence.map((e, index) => {
         const button = document.createElement('button');
         button.type = 'button';
-        button.textContent = `${count > index ? '✓' : String(index + 1).padStart(2, '0')}  ${e.title}`;
+        button.innerHTML = e.iconHtml || '';
+        const label = document.createElement('span');
+        label.textContent = `${count > index ? '已收录' : index === 0 ? '现场扫描' : '关联档案'} · ${e.title}`;
+        button.append(label);
         button.disabled = index > count || (index === 0 && !enabled && count === 0);
         button.classList.toggle('is-found', count > index);
         button.classList.toggle('is-next', count === index && (enabled || count > 0));
@@ -75,6 +78,7 @@
       node('scan').disabled = Boolean(pending) || count > 0;
       node('scan').innerHTML = count ? '<span>✓</span><small>RECORDED</small>' : '<span>01</span><small>SCAN</small>';
       node('scan').setAttribute('aria-label', (count ? '物证已收录：' : '扫描') + current.evidence[0].title);
+      node('scan').setAttribute('aria-current', String(count > 0 && displayed === 0));
       node('scene').classList.toggle('is-recorded', count > 0);
       selectors.forEach(link => {
         link.classList.toggle('is-complete', progress.count(link.dataset.case) === cases.find(c => c.id === link.dataset.case).evidence.length);
@@ -107,7 +111,7 @@
     function inspect(index) {
       if (pending || index < 0 || index >= current.evidence.length || index > progress.count(current.id)) return;
       if (index === 0 && !enabled && progress.count(current.id) === 0) return;
-      if (index < progress.count(current.id)) { display(index); return; }
+      if (index < progress.count(current.id)) { display(index); node('feedback').textContent = `正在查看已收录${index === 0 ? '物证' : '档案'}：${current.evidence[index].title}`; return; }
       clearFeedback();
       pending = {index, caseId: current.id};
       node('feedback').textContent = index === 0 ? '正在扫描现场物证…' : '正在调取关联档案…';
@@ -128,7 +132,7 @@
       node('mode-label').textContent = enabled ? 'DETECTIVE VISION' : 'NORMAL VISION';
       node('scan').hidden = !enabled;
       const count = progress.count(current.id);
-      node('feedback').textContent = !enabled ? '普通视野' : count === current.evidence.length ? '物证链已闭合 · 案情重建完成' : count ? '物证已收录 · 可继续调取关联档案' : '侦探视野已激活 · 锁定现场扫描点';
+      node('feedback').textContent = !enabled ? '普通视野 · 激活侦探模式以锁定现场物证' : count === current.evidence.length ? '物证链已闭合 · 案情重建完成' : count ? '物证已收录 · 可继续调取关联档案' : `已锁定：${current.evidence[0].title} · 选择画面扫描点`;
       chain();
     }
     function select(id, updateHash = true) {
@@ -162,6 +166,7 @@
         node('evidence-links').replaceChildren();
       }
       if (updateHash) history.replaceState(null, '', '#case-' + current.id);
+      window.ArkhamRecent?.remember('case', current.id);
     }
     selectors.forEach(link => link.addEventListener('click', event => { event.preventDefault(); select(link.dataset.case); }));
     node('mode').addEventListener('click', () => setMode(!enabled));
@@ -323,6 +328,10 @@
       }
       load();
     }));
+    const tapeSelector = file.querySelector('.tape-selector');
+    if (tapeSelector) tapeSelector.hidden = false;
+    const fallback = file.querySelector('[data-recording-fallback]');
+    if (fallback) fallback.hidden = true;
     if (button) { button.hidden = false; button.addEventListener('click', load); }
     drawWave(file);
     audio.addEventListener('playing', () => {
@@ -344,12 +353,23 @@
   });
   document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
   window.addEventListener('pagehide', stop);
+  function revealSelection(link) {
+    const list = link?.parentElement;
+    if (!list?.clientHeight || list.scrollHeight <= list.clientHeight) return;
+    const item = link.getBoundingClientRect(), bounds = list.getBoundingClientRect();
+    if (item.top < bounds.top || item.height > bounds.height) list.scrollTop += item.top - bounds.top;
+    else if (item.bottom > bounds.bottom) list.scrollTop += item.bottom - bounds.bottom;
+  }
   const transmissionTerminal = document.querySelector('[data-transmissions-terminal]');
   if (transmissionTerminal) {
     const channels = [...transmissionTerminal.querySelectorAll('[data-transmission-channel]')];
     const links = [...transmissionTerminal.querySelectorAll('[data-channel]')];
     const games = [...transmissionTerminal.querySelectorAll('[data-recording-game]')];
+    const gameTabs = games[0]?.parentElement;
+    if (gameTabs) gameTabs.hidden = false;
     let selectedChannel;
+    let sequencer;
+    const revealChannel = () => revealSelection(links.find(link => link.dataset.channel === selectedChannel?.dataset.transmissionChannel));
     function selectChannel(id, updateHash = true) {
       const next = channels.find(file => file.dataset.transmissionChannel === id) || channels[0];
       if (!next) return;
@@ -363,12 +383,16 @@
       });
       games.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.recordingGame === next.dataset.game)));
       if (updateHash) history.replaceState(null, '', '#channel-' + next.dataset.transmissionChannel);
+      window.ArkhamRecent?.remember('channel', next.dataset.transmissionChannel);
+      sequencer?.sync(next.dataset.transmissionChannel);
+      revealChannel();
     }
     links.forEach(link => link.addEventListener('click', event => { event.preventDefault(); selectChannel(link.dataset.channel); }));
     games.forEach(button => button.addEventListener('click', () => {
       selectChannel(channels.find(file => file.dataset.game === button.dataset.recordingGame)?.dataset.transmissionChannel);
     }));
     window.addEventListener('hashchange', () => selectChannel(location.hash.replace('#channel-', ''), false));
+    sequencer = window.ArkhamSequencer?.init(transmissionTerminal, selectChannel, revealChannel);
     selectChannel(location.hash.replace('#channel-', ''), false);
   }
   const terminal = document.querySelector('[data-patient-terminal]');
@@ -376,6 +400,8 @@
   const files = [...terminal.querySelectorAll('[data-patient-file]')];
   const selectors = [...terminal.querySelectorAll('[data-patient]')];
   const games = [...terminal.querySelectorAll('[data-recording-game]')].filter(button => button.dataset.recordingGame);
+  const gameTabs = games[0]?.parentElement;
+  if (gameTabs) gameTabs.hidden = false;
   let selected;
   function select(id, updateHash = true) {
     const next = files.find(file => file.dataset.patientFile === id) || files[0];
@@ -389,6 +415,8 @@
     });
     games.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.recordingGame === selected.dataset.game)));
     if (updateHash) history.replaceState(null, '', '#patient-' + selected.dataset.patientFile);
+    window.ArkhamRecent?.remember('patient', selected.dataset.patientFile);
+    revealSelection(selectors.find(link => link.dataset.patient === selected.dataset.patientFile));
   }
   selectors.forEach(link => link.addEventListener('click', event => { event.preventDefault(); select(link.dataset.patient); }));
   games.forEach(button => button.addEventListener('click', () => {

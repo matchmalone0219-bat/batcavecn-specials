@@ -1,0 +1,28 @@
+{
+  "build": {
+    "pages": 160,
+    "searchRecords": 589,
+    "result": "PASS"
+  },
+  "content": {
+    "internalLinks": 6245,
+    "result": "PASS"
+  },
+  "regressions": {
+    "verify-investigation.js": "PASS",
+    "verify-sequencer.js": "PASS",
+    "verify-recent.js": "PASS",
+    "verify-clues.js": "PASS"
+  },
+  "pages": {
+    "basePath": "/batcavecn-specials",
+    "linksAndAssets": 8423,
+    "result": "PASS"
+  },
+  "normalDeepLinkViews": 8,
+  "blockedScriptVisits": 12,
+  "equivalentReflowViews": 4,
+  "native200PercentZoomTested": false,
+  "physicalPhoneTested": false,
+  "published": false
+}

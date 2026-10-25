@@ -1,0 +1,29 @@
+{
+  "method": "640x360 CSS viewport, layout-space proxy for 200% zoom at 1280x720; not native browser zoom",
+  "checks": [
+    {
+      "height": 360,
+      "path": "/arkham/archive/clues/",
+      "scrollWidth": 640,
+      "width": 640
+    },
+    {
+      "height": 360,
+      "path": "/arkham/detective/",
+      "scrollWidth": 640,
+      "width": 640
+    },
+    {
+      "height": 360,
+      "path": "/arkham/patients/",
+      "scrollWidth": 640,
+      "width": 640
+    },
+    {
+      "height": 360,
+      "path": "/arkham/transmissions/",
+      "scrollWidth": 640,
+      "width": 640
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "baselineFiles": 1047,
+  "changed": [
+    "assets/arkham-sequencer.js",
+    "assets/arkham-investigation.js",
+    "arkham/patients/index.html",
+    "arkham/transmissions/index.html"
+  ],
+  "added": [],
+  "removed": [],
+  "unchanged": 1043
+}
