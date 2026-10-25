@@ -78,6 +78,16 @@
 .dossier-entry h2{font-size:30px}
 .dossier-entry h3{font-size:21px;margin-top:25px}
 .dossier-entry .label{margin-bottom:12px}
+.dossier-entry.is-featured{border-left:3px solid var(--accent);padding-left:24px;background:#0d1d1f2b}
+.riddle-quote{margin:22px 0 28px;padding:20px 24px;background:rgba(18,34,36,.55);border:1px solid #2d4c4f;border-left:4px solid #63c0a4;border-radius:2px}
+.riddle-quote .riddle-en{font-size:20px;font-style:italic;font-family:Georgia,serif;color:#a3e8d2;margin:0 0 10px;line-height:1.4}
+.riddle-quote cite{display:block;font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
+.riddle-quote .riddle-zh{font-size:15px;line-height:1.7;color:var(--text);border-top:1px dashed #2d4c4f;padding-top:12px}
+.riddle-quote .riddle-wordplay{margin:8px 0 0;font-size:14px;color:#c7d8d2}
+.riddle-block{margin:24px 0}
+.comic-block{background:rgba(255,255,255,.02);border:1px solid var(--line);padding:18px 22px;border-radius:2px}
+.comic-origin{font-size:14px;color:#85b5a8;margin-bottom:10px}
+.comic-lore{font-size:15px;line-height:1.75}
 .dossier-related a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 .dossier-related{font-size:13px}
 .dossier-photo{margin:26px 0;min-width:0}

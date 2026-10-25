@@ -9,7 +9,7 @@ ROOM_EN = {'riddler': 'RIDDLER FILES', 'clues': 'SCENE DETAILS', 'stories': 'CIT
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ROOMS = [('riddler','谜语人机关考据','剖析谜题机关背后的罪案痕迹、人物动机与经典原型。'),('clues','场景细节与彩蛋','看海报、招牌与旧装备，读懂画面中的人物线索。'),('stories','哥谭故事','游戏内背景短篇的中文导读、故事梗概与关联场景。'),('publications','漫画与出版文献','区分游戏衍生前传、互动漫画、总集与原型文献考证。'),('asylum-history','疯人院院史石碑','24条石碑铭文索引，审查阿卡姆之魂的真实诉说者与狂热自白。'),('rocksteady','Rocksteady创作变迁','沿作品演进、团队交接与开发回顾，解构阿卡姆宇宙的风格转向。')]
+ROOMS = [('riddler','谜语人机关考据','剖析谜题机关背后的罪案痕迹、人物动机与经典原型。'),('clues','场景细节与彩蛋','解构招牌、海报、遗留装备与隐秘陈设，考据虚构时空的环境叙事与罪案线索。'),('stories','哥谭故事','游戏内背景短篇的中文导读、故事梗概与关联场景。'),('publications','漫画与出版文献','区分游戏衍生前传、互动漫画、总集与原型文献考证。'),('asylum-history','疯人院院史石碑','24条石碑铭文索引，审查阿卡姆之魂的真实诉说者与狂热自白。'),('rocksteady','Rocksteady创作变迁','沿作品演进、团队交接与开发回顾，解构阿卡姆宇宙的风格转向。')]
 GAMES = {'asylum':'阿卡姆疯人院','city':'阿卡姆之城','origins':'阿卡姆起源','knight':'阿卡姆骑士'}
 
 
@@ -146,7 +146,7 @@ def build_arkham_archive(data,shell):
         hashes=' '.join(sorted({riddle_hash(x) for x in r['answers']}))
         challenge+=f'<form class="riddle-card" data-riddle="{r["id"]}" data-hashes="{hashes}" id="{r["id"]}"><p class="label">{esc(r["game"])}</p><p class="riddle-question">{esc(r["question"])}</p><div class="riddle-input"><label class="visually-hidden" for="{r["id"]}-answer">答案</label><input id="{r["id"]}-answer" type="text" autocomplete="off" spellcheck="false" placeholder="中文或英文名"><button type="submit">提交</button></div><p class="riddle-status" role="status" aria-live="polite"></p><a class="riddle-solved" href="#{r["case"]}" hidden>已破解 · 查看对应考据 →</a></form>'
     challenge+='</div></section>'
-    base='/arkham/archive/riddler/';content='<div class="dossier-reading"><h2>绿色问号背后的犯罪痕迹</h2><p>二十组现场谜题与嫌犯物证，解构谜语人机关背后的犯罪动机与经典漫画原型。</p>'+challenge+'<nav class="dossier-case-nav" aria-label="考据选题">'
+    base='/arkham/archive/riddler/';content='<div class="dossier-reading"><h2>绿色问号背后的犯罪痕迹</h2><p>二十一组现场谜题与嫌犯物证，解构谜语人环境谜题背后的犯罪动机、文学隐喻与经典漫画原型。</p>'+challenge+'<nav class="dossier-case-nav" aria-label="考据选题">'
     for c in riddler['cases']:
         id='identity-wall' if c['id']=='jason' else c['id'];content+=f'<a href="#{id}">{esc(c["title"])}</a>'
     from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation
@@ -154,14 +154,26 @@ def build_arkham_archive(data,shell):
     for c in riddler['cases']:
         id='identity-wall' if c['id']=='jason' else c['id']
         clue_links=' · '.join(f'<a href="/arkham/archive/clues/#{e}">{esc(entries[e].get("object", "勒索档案组"))} / {GAMES[entries[e]["game"]]}</a>' for e in c['entries'])
-        inner=f'<h3>物证与嫌犯背景</h3><p>{esc(c["conclusion"])}</p>'+''.join(picture(i) for i in c['images'])
+        label = "核心原点案卷 · 01" if c['id'] == 'crime-alley' else "机关物证与原型"
+        is_featured = " is-featured" if c['id'] == 'crime-alley' else ""
+        if 'riddleEn' in c:
+            riddle_quote = f'''<blockquote class="riddle-quote">
+<p class="riddle-en">"{esc(c["riddleEn"])}"</p>
+<cite>—— 谜语人 · 现场广播谜面</cite>
+<div class="riddle-zh"><strong>破译与双关：</strong>{esc(c["riddleZh"])}<p class="riddle-wordplay">{esc(c["wordplay"])}</p></div>
+</blockquote>'''
+            mechanic_block = f'<div class="riddle-block"><h3>现场物证与游戏机制</h3><p>{esc(c["mechanicLore"])}</p>{"".join(picture(i) for i in c["images"])}</div>'
+            comic_block = f'<div class="riddle-block comic-block"><h3>美漫文献与原型溯源</h3><p class="comic-origin"><strong>核心典籍：</strong>{esc(c["comicOrigin"])}</p><p class="comic-lore">{esc(c["conclusion"])}</p></div>'
+            inner = riddle_quote + mechanic_block + comic_block
+        else:
+            inner=f'<h3>物证与嫌犯背景</h3><p>{esc(c["conclusion"])}</p>'+''.join(picture(i) for i in c['images'])
         summary='环境照片墙与身份叙事；具体身份信息默认折叠。' if c['id']=='jason' else c['conclusion']
         if c['id']=='jason':inner='<details class="spoiler"><summary>身份相关内容 · 含重要剧透，展开阅读</summary>'+inner+'</details>'
-        content+=f'<article class="dossier-entry" id="{id}"><p class="label">机关物证与原型</p><h2>{esc(c["title"])}</h2><p class="dossier-related">关联场景：{clue_links}</p>{inner}</article>'
+        content+=f'<article class="dossier-entry{is_featured}" id="{id}"><p class="label">{label}</p><h2>{esc(c["title"])}</h2><p class="dossier-related">关联场景：{clue_links}</p>{inner}</article>'
         record(c['title'],summary,base,id,['谜语人','物证考据'])
     for n in archive['notes'][:2]:content+=note(n,base)
     content+='</div>'
-    page('riddler','谜语人：机关与物证考据','剖析现场谜题背后的犯罪动机、涉案人员与原型文献。',content)
+    page('riddler','谜语人：环境谜题与美漫文献考据','剖析现场谜题背后的犯罪动机、文学隐喻与漫画原型。',content)
 
     map_view=''
     for map_game in ('asylum','city','knight'):
@@ -173,7 +185,7 @@ def build_arkham_archive(data,shell):
 <div class="clue-map-viewport" data-map-viewport tabindex="0" role="group" aria-label="{esc(map_asset["title"])}视野" style="aspect-ratio:{map_asset['width']}/{map_asset['height']}"><div class="clue-map-plane" data-map-plane><img src="{esc(map_url)}" width="{map_asset['width']}" height="{map_asset['height']}" alt="{esc(map_asset['alt'])}" loading="lazy" draggable="false" data-map-image></div></div>
 <p class="fine" data-map-error hidden>地图暂时无法载入，可打开来源页查看。</p><p class="clue-map-source"><a href="{esc(map_asset['source']['url'])}">地图来源：{esc(map_asset["source"]["label"])} ↗</a><a href="{esc(map_url)}">查看原图 ↗</a></p></div></details>'''
     content=scene_page(riddler,archive,reading,GAMES,sources,picture,record,esc,map_view)
-    page('clues','场景细节与彩蛋','海报、招牌、旧装备与陈列物：看看场景中的人物线索，以及它们连接的故事。',content)
+    page('clues','场景细节与彩蛋','招牌印记、遗留物证与隐秘布景：考据空间深处遗落的叙事碎片，还原主线之外的罪案回声。',content)
     pages['arkham/archive/clues/index.html']=pages['arkham/archive/clues/index.html'].replace('</head>','<script src="/assets/arkham-map.js" defer></script><script src="/assets/arkham-clues.js" defer></script></head>')
 
     content=story_page(archive,reading,entries,GAMES,sources,record,esc)

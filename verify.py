@@ -85,7 +85,7 @@ easter_eggs = load_easter_eggs()
 scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
 riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
 omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])
-assert len(ark_pages) == 8 and len(ark_records) == 246 - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 23 + len(easter_eggs['images'])
+assert len(ark_pages) == 8 and len(ark_records) == 247 - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 24 + len(easter_eggs['images'])
 assert len(interactive_pages) == 3 and len(interactive_records) == 32
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']

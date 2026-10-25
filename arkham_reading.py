@@ -61,7 +61,7 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc, 
     for entry_id in selected:
         entry = entries[entry_id]
         groups[(entry['game'], entry['region'])].append(entry)
-    content = '<div class="dossier-reading scene-reading" data-clue-workspace><p>墙后的城市地图、会变化的陈列、海报与旧装备，把人物和秘密留在哥谭。先选游戏与地点，再打开一个发现，看看它怎样出现，以及它连接的故事。</p>'
+    content = '<div class="dossier-reading scene-reading" data-clue-workspace><p>隐秘暗室中的城市蓝图、随流程悄然移位的人偶陈设，以及散落街头的残破招牌与废弃装备——Rocksteady 将大量未付诸台词的叙事碎片深植于场景之中。在此按作品与区域检索现场物证，解构暗藏于虚构空间的环境叙事与罪案痕迹。</p>'
     content += video_credit(eggs, esc)
     content += '<section class="clue-zones" aria-labelledby="clue-zones-title"><h2 id="clue-zones-title">按游戏与地点浏览</h2><div class="clue-zone-games" role="group" aria-label="选择游戏" hidden>'
     content += f'<button type="button" data-zone-game="all" aria-pressed="false">全部作品 · {len(selected)}</button>'

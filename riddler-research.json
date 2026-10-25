@@ -123,6 +123,13 @@
       "checked": "2026-10-02"
     },
     {
+      "id": "dc-detective-457",
+      "title": "DCUI：Detective Comics #457",
+      "url": "https://www.dcuniverseinfinite.com/comics/book/detective-comics-1937-457/d572ecae-cd27-4663-8a3c-b26a575a067f",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-25"
+    },
+    {
       "id": "dc-clayface",
       "title": "DC：Clayface角色档案",
       "url": "https://www.dc.com/characters/clayface",
@@ -2581,6 +2588,29 @@
   ],
   "cases": [
     {
+      "id": "crime-alley",
+      "title": "犯罪巷：六条腿进去，两条腿出来",
+      "entries": [
+        "city-park-row-10"
+      ],
+      "riddleEn": "Six legs went in and only two came out. Where am I?",
+      "riddleZh": "“六条腿走进去，只有两条腿走出来。我在哪里？”",
+      "wordplay": "恶毒戏仿古希腊斯芬克斯之谜。六条腿是去看电影的韦恩一家三口，两条腿是枪响后唯一走出来的幼年布鲁斯。谜语人将蝙蝠侠一生的起源创伤，编成了一首残忍至极的地狱笑话。",
+      "mechanicLore": "现场物证与游戏暗线：【Pay Respects】静默一分钟。君主剧院后巷地面上画着父母的人形粉笔框，旁边留有一朵暗红色的佩恩玫瑰。当玩家按下交互键，蝙蝠侠会在此单膝下跪默哀一整分钟，伴随凄凉的大提琴配乐，解锁全游戏最著名的奖杯【向逝者致敬】。",
+      "comicOrigin": "《Detective Comics》#457 (1976年3月) · Dennis O'Neil (编剧) / Dick Giordano (画师)。确立了每年忌日蝙蝠侠必在现场献上一朵红玫瑰的传统。",
+      "conclusion": "六条腿是韦恩一家三口，两条腿是枪响后唯一生还的布鲁斯。谜语人恶毒戏仿古希腊斯芬克斯之谜，将起源创伤编为地狱笑话；现场【Pay Respects】的一分钟静默下跪与献花仪式，则直连1976年《Detective Comics #457》的名篇渊源。",
+      "researchQuestion": "斯芬克斯古典句式变体与《There Is No Hope in Crime Alley!》献花仪式互文。",
+      "evidenceGrade": "名篇原作直连与哲学双关破译",
+      "sources": [
+        "city-park-row",
+        "dc-detective-457"
+      ],
+      "images": [
+        "city-crime-alley"
+      ],
+      "comicPagesVerified": true
+    },
+    {
       "id": "great-white",
       "title": "大白鲨：一只罐子怎样交代一个反派",
       "entries": [
@@ -3091,6 +3121,19 @@
     }
   ],
   "images": [
+    {
+      "id": "city-crime-alley",
+      "file": "riddler-city-crime-alley.jpg",
+      "caption": "犯罪巷：韦恩夫妇遇害现场与未凋零的红玫瑰",
+      "source": "city-park-row",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/city-crime-alley.jpg",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d7f6bc807c15082a4768b80ea5438601fa49f41fb21d5039407c268fd6b84728",
+      "rights": "DC / WB / 游戏实机截图；研究参考",
+      "use": "公开网页档案",
+      "review": "已解码及目视核查"
+    },
     {
       "id": "asylum-great-white-shark",
       "file": "riddler-asylum-great-white-shark.jpg",
