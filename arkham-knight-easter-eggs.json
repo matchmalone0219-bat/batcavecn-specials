@@ -74,8 +74,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "再开一局，片头也会变化",
-      "summary": "新故事＋在熟悉的开场里藏了一次突然的变化。",
+      "title": "新故事＋周目开局的火化炉异象",
+      "summary": "二周目点燃火化炉时，死寂的小丑遗体突发癫狂尖叫并挣扎抽搐。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Alternate Intro",
       "chapterFrame": 42,
@@ -83,8 +83,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "火焰中的另一种开场",
-          "body": "通关后进入新故事＋，火化炉中的小丑会突然睁眼、挣动并尖叫，开场台词也随之改变。第一次观看时平静而确定的死亡，在第二轮游戏里变成了迎面而来的惊吓。",
+          "title": "烈焰中暴起的狂笑幻觉",
+          "body": "通关后开启“新故事＋”（New Story +）模式，序章火化小丑遗体的交互迎来颠覆性反转：原本安详焚化的苍白尸体在火光燃起瞬间猛然睁眼、剧烈抽搐并发出令人毛骨悚然的凄厉狂笑，开场旁白亦随之被小丑的狂言所覆盖。将第一周目尘埃落定的死亡定局，在二周目瞬间逆转为挥之不去的心灵附骨之疽。",
           "spoiler": false,
           "images": [
             "kn1-alternate-intro-1-1",
@@ -98,8 +98,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "韦恩庄园钢琴后的 4-25",
-      "summary": "AR 挑战中的钢琴，通向一面写满暗示的墙。",
+      "title": "韦恩庄园钢琴密室与 4-25 囚室速写",
+      "summary": "弹奏三角钢琴开启庄园暗格，墙面标号“4-25”的牢门速写预告了阿卡姆 VR 的病房。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "425 Cell",
       "chapterFrame": 105,
@@ -107,8 +107,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "先碰钢琴，再看墙面",
-          "body": "在“Wayne Manor”AR 挑战里与钢琴互动，阿卡姆主题旋律响起，一面暗墙随之打开。墙上有潦草文字与牢门素描，门上方标着“4-25”。这是挑战地图中的秘密空间。",
+          "title": "钢琴主题旋律与隐秘暗室",
+          "body": "在“韦恩庄园”AR 挑战地图内弹奏典雅的三角钢琴，音符将自动演奏阿卡姆主旋律，随之升起一扇书架暗门。密室内四壁布满神经质的潦草字迹与炭笔涂鸦，正中央手绘着一扇标号为“4-25”的重型隔离牢门。",
           "spoiler": false,
           "images": [
             "kn1-425-cell-1-1",
@@ -116,8 +116,8 @@
           ]
         },
         {
-          "title": "另一场噩梦的门牌",
-          "body": "4-25 把这间房与《阿卡姆 VR》的病房意象连在一起。把它放回《骑士》前后的精神幻象来看，熟悉的庄园也会成为布鲁斯不安的投影。",
+          "title": "《阿卡姆 VR》病房与潜意识深渊",
+          "body": "门牌“4-25”精准对应后续作品《蝙蝠侠：阿卡姆 VR》终局布鲁斯困居的精神病房编号。制作组借这处庄园隐秘暗格，将布鲁斯深层潜意识中对自我彻底失控发狂、沦为下一个小丑的极端恐惧提前化为实物速写。",
           "spoiler": true,
           "images": [
             "kn1-425-cell-2-1"
@@ -130,8 +130,8 @@
       "game": "knight",
       "region": "Paulis Diner",
       "regionLabel": "保利餐馆",
-      "title": "餐馆角落里的红兜帽",
-      "summary": "开场餐馆的角落里，有一位值得回头观察的客人。",
+      "title": "保利餐馆角落吸烟客人与红头罩标记",
+      "summary": "序章警员前去警告吸烟的食客，身穿红兜帽便服，餐桌刻有“A”字徽记。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Diner Visitor",
       "chapterFrame": 180,
@@ -139,8 +139,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "桌面上的 A",
-          "body": "欧文斯走向吸烟客人时，对方穿着红色兜帽衣服，桌面还能看到刻出的 A 字标记。它们与阿卡姆骑士的身份线索相连。视频进一步用“Jason Todd”“Demon Jason Todd”两个模型名称解释这位客人；模型命名属于视频提供的制作资料解读。",
+          "title": "餐桌刻痕与阿卡姆骑士前瞻",
+          "body": "在序章操控欧文斯警员前去制止餐馆深处吸烟客人时，邻近卡座端坐着一名头戴深红色连帽衫、面容隐匿于阴影中的神秘男子。仔细审视其餐桌面板，赫然被匕首深深刻下一道阿卡姆骑士军团的“A”字战术徽标，证实杰森·托德早在毒气爆发前便已亲临暴乱原点。",
           "spoiler": false,
           "images": [
             "kn1-diner-visitor-1-1",
@@ -154,8 +154,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "仓库入口留下的记号",
-      "summary": "主线后段出现的墙面标记，改变了某个角色与蝙蝠侠的距离。",
+      "title": "全城废弃仓库入口处的红头罩专属漆印",
+      "summary": "阿卡姆骑士身份揭晓后，特定潜行集结区外墙悄然浮现鲜红的红头罩标志。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Red Hood Symbols",
       "chapterFrame": 220,
@@ -163,8 +163,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "有人跟着他的路线",
-          "body": "与阿卡姆骑士对峙后，红头罩符号开始出现在路线附近。蝙蝠侠向稻草人投降前，镜头会带向仓库入口的记号；随后阿尔弗雷德提醒有人在追踪他的行动。杰森的介入因此先由环境提示，再进入剧情。终章与稻草人对峙之后，帕内萨影业隔离牢房的地面还会留下第二个标志。",
+          "title": "暗中尾随护航的红色血印",
+          "body": "在主线揭露阿卡姆骑士真实身份为二代罗宾杰森·托德后，蝙蝠侠前往向稻草人投降的集结仓库外立面上，悄然出现了一枚鲜红刺目的红头罩喷漆标记。该符号无声暗示杰森脱离稻草人军团后，正暗中沿同一轨迹反向尾随蝙蝠侠，为其在终局高台完成救赎狙击完成前置铺垫。",
           "spoiler": false,
           "images": [
             "kn1-red-hood-symbols-1-1",
@@ -178,8 +178,8 @@
       "game": "knight",
       "region": "Bleake Island",
       "regionLabel": "布莱克岛",
-      "title": "第一次惊吓之前，天空已有身影",
-      "summary": "离开钟楼后的天空里，藏着“夜之生物”的提前亮相。",
+      "title": "首次突脸惊吓前帕内萨影业空域掠过的人蝠",
+      "summary": "初次步出钟楼眺望天际线时，帕内萨影业上空已可目睹人蝠展翅俯冲的远景。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Man Bat Sighting",
       "chapterFrame": 305,
@@ -187,8 +187,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把视线抬向帕内萨",
-          "body": "第一次离开钟楼、结束与戈登的对话后，帕内萨影业附近可以看到人蝠掠过，随后向画面外俯冲。这次远景早于米亚加尼岛支线中近距离的突然现身；夜空先把它的存在交给了细心的玩家。",
+          "title": "阴云间一闪而逝的异形巨翼",
+          "body": "在游戏早期首次完成布莱克岛钟楼情报梳理并跃向夜空时，若将视线对准远方的帕内萨影业高塔，可在高空云层间清晰目击人蝠（Man-Bat）展翅滑翔并猛然俯冲遁入黑暗的微小远景剪影。这一细节大幅早于玩家在米亚加尼岛遭遇屋顶突脸跳吓的时间节点。",
           "spoiler": false,
           "images": [
             "kn1-man-bat-sighting-1-1",
@@ -202,8 +202,8 @@
       "game": "knight",
       "region": "Miagani Island",
       "regionLabel": "米亚加尼岛",
-      "title": "回到朗斯特罗姆的实验室",
-      "summary": "完成任务后再次推开实验室的门，会看到不同的现场。",
+      "title": "完成人蝠捕获后重返朗斯特罗姆实验室的惨剧",
+      "summary": "将柯克收押后重访其实验室，遗体消失、仪器尽碎，墙面留存血书。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Langstrom Return",
       "chapterFrame": 355,
@@ -211,8 +211,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "消失的身体与破碎的屏幕",
-          "body": "“Creature of the Night”结束后返回实验室，屋内已遭破坏，弗朗辛的身体不在原处，破损的显示器上留下血字。视频把这些变化联系到漫画中的 She-Bat；游戏在这里留下的是现场变化与悬念。",
+          "title": "失踪的遗体与飞溅的血书",
+          "body": "在捕获变异人蝠并将柯克·朗斯特罗姆博士关押入警局隔离室后，若再次返回其在米亚加尼岛的秘密私人实验室，会目睹触目惊心的二次惨剧：原本死于病床上的妻子弗朗辛遗体已不翼而飞，墙面与监视屏被巨爪砸穿，镜面上用鲜血涂写着“我的爱人，我属于永远”，暗示妻子同样感染了蝙蝠基因并破窗遁逃。",
           "spoiler": false,
           "images": [
             "kn1-langstrom-return-1-1",
@@ -226,8 +226,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "万圣节的特殊越狱",
-      "summary": "已被收押的夜行生物，还有一段节日事件。",
+      "title": "万圣节真实系统日期触发的人蝠破笼惊吓",
+      "summary": "将系统时间调整为 10 月 31 日，已被收押的人蝠将在天台二度实施突脸跳吓。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Halloween Breakout",
       "chapterFrame": 450,
@@ -235,8 +235,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "十月三十一日的回访",
-          "body": "捕获人蝠后，在系统日期为十月三十一日的存档中继续探索，可能触发它再次现身的惊吓。回到警局查看收押区域，还能发现与越狱相连的后续变化。这个秘密把游戏发生的万圣节与现实日期联系起来。",
+          "title": "十月三十一日的二次越狱伏击",
+          "body": "在正常抓获人蝠后，若将系统时钟设定为 10 月 31 日（万圣节之夜），在市区天台使用抓钩跃升时，人蝠会毫无征兆地实施第二次高空惊吓跳脸！随后折返哥谭警局总署收押区，会发现原先关押柯克的特制防弹玻璃已被彻底撞穿撕裂，当值警员正惊慌失措地汇报越狱险情。",
           "spoiler": false,
           "images": [
             "kn1-halloween-breakout-1-1",
@@ -250,8 +250,8 @@
       "game": "knight",
       "region": "Bleake Island",
       "regionLabel": "布莱克岛",
-      "title": "购物车里的独角兽电视",
-      "summary": "一台摆在露宿点的旧电视，藏着遥控骇入信号。",
+      "title": "布莱克岛贫民露宿区购物车里的独角兽电视",
+      "summary": "利用遥控黑客装置破译露宿点旧电视，荧幕将点亮彩虹独角兽动态屏保。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Unicorn Tv",
       "chapterFrame": 535,
@@ -259,8 +259,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "让旧屏幕亮起来",
-          "body": "布莱克岛西北侧、露宿棚屋旁的购物车里放着小电视，地图坐标约为 1618，2284。使用遥控骇入装置寻找隐藏信号，屏幕会显示彩色像素独角兽与“Happy! Unicorn!”文字；同一装置可以反复开关它。",
+          "title": "废弃显像管中的童趣彩蛋",
+          "body": "在布莱克岛西北角棚户区的一辆生锈手推购物车内，遗弃着一台黑白显像管老旧电视机（坐标约 1618, 2284）。掏出遥控黑客装置对准电视天线破解隐藏杂波频率后，黑白屏幕骤然亮起，循环播放着一只跃动于彩虹之上的粉色独角兽卡通动画，为破败雨夜注入了一抹荒诞的治愈亮色。",
           "spoiler": false,
           "images": [
             "kn1-unicorn-tv-1-1",
@@ -274,8 +274,8 @@
       "game": "knight",
       "region": "Panessa Studios",
       "regionLabel": "帕内萨影业",
-      "title": "密码键盘与初登场的年份",
-      "summary": "影业里的数字键盘，把漫画起点藏进了开门步骤。",
+      "title": "帕内萨影业密室电子锁密码 0539 致敬初登场年份",
+      "summary": "对峙受感染者强尼·卡里斯玛时输入的四位密码，致敬了 1939 年 5 月《侦探漫画》第 27 期。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "First Appearance",
       "chapterFrame": 585,
@@ -283,8 +283,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "数字之外的小动作",
-          "body": "与强尼·卡里斯玛对峙前，蝙蝠侠输入的密码是 0539，对应 1939 年 5 月《Detective Comics》#27 的首次登场。这里还准备了另一段表演：连续输入错误密码，蝙蝠侠会失去耐心，直接砸坏键盘，罗宾也会对这种蛮力办法发表评论。",
+          "title": "暗门键盘上的 1939 年 5 月符码",
+          "body": "在帕内萨影业 B 隔离区解救被强尼·卡里斯玛挟持的人质时，蝙蝠侠破解防弹大门所输入的四位数密码正是“0539”。该数字直接致敬了 1939 年 5 月（May 1939）出版的传奇漫画《侦探漫画》第 27 期（Detective Comics #27）——蝙蝠侠布鲁斯·韦恩在人类历史上首次正式亮相的诞生时刻。",
           "spoiler": false,
           "images": [
             "kn1-first-appearance-1-1",
@@ -298,8 +298,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "案件里提到的漫长万圣节",
-      "summary": "验尸对话与新故事＋奖杯，沿用了同一部漫画的名字。",
+      "title": "完美犯罪支线验尸对白与《漫长的万圣节》",
+      "summary": "阿尔弗雷德在通讯中探讨受害者伤痕时，提及蝙蝠侠执业早期的节日连环谋杀案。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Long Halloween",
       "chapterFrame": 635,
@@ -307,8 +307,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "节日案件的回声",
-          "body": "“The Perfect Crime”检查第三位受害者前，阿尔弗雷德的对话提及蝙蝠侠早年经历过的节日连环杀人案，与《漫长的万圣节》中的 Holiday 案件相呼应。完成新故事＋获得的奖杯也叫“The Long Halloween”。",
+          "title": "经典节日谋杀案在验尸台上的回响",
+          "body": "在调查连环杀手猪面教授绑架并残害受害者的“完美犯罪”支线第三具尸体时，阿尔弗雷德在远程法医连线中提醒布鲁斯：“这些仪式性伤口，与您早年经历过的那场漫长万圣节（Long Halloween）连环杀人案有着高度惊人的相似性。”直接将 1996 年杰夫·洛布的图画小说杰作引入阿卡姆世界观的早期正史。",
           "spoiler": false,
           "images": [
             "kn1-long-halloween-1-1",
@@ -322,8 +322,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "庄园门外的一个熟面孔",
-      "summary": "终章的人群中，站着一位曾经谈论过蝙蝠侠结局的人。",
+      "title": "完整骑士陨落终局人群中静立见证的日历人",
+      "summary": "达成全要素收集并引爆韦恩庄园自毁程序时，门外记者与市民人群中赫然出现日历人。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Calendar Witness",
       "chapterFrame": 700,
@@ -331,8 +331,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "日历人的约定",
-          "body": "完整“骑士陨落”结局中，朱利安·戴，也就是日历人，出现在韦恩庄园外的人群里。《阿卡姆之城》日期设为 2004 年 12 月 13 日时，他有一段谈及蝙蝠侠终结的隐藏对白；《骑士》的这个镜头让那句话有了新的落点。",
+          "title": "庄园铁门外如约而至的终局见证者",
+          "body": "在达成 100% 全要素收集并激活最终“骑士陨落”（Knightfall）协议的电影级结局中，布鲁斯当着全城镜头步入庄园大门。仔细审视铁栅外围拥挤喧嚣的记者与市民人潮，后排赫然伫立着剃光头颅、头顶纹有一圈日历刺青的日历人朱利安·戴依。他在《阿卡姆之城》中立下的“我必将亲眼见证你终局之日”的死亡诺言，在此刻得以冷酷兑现。",
           "spoiler": false,
           "images": [
             "kn1-calendar-witness-1-1",
@@ -346,8 +346,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "墙上的无政府符号",
-      "summary": "《起源》里的抗议标志，仍留在《骑士》的街头。",
+      "title": "全城街巷立面无政府标志与暴徒对安纳奇的提及",
+      "summary": "《阿卡姆起源》中少年反抗者安纳奇的红色“A”字涂鸦，依然遍布骑士街道。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Anarky",
       "chapterFrame": 805,
@@ -355,8 +355,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "人没出现，记号仍在",
-          "body": "哥谭多处墙面保留着安纳奇的符号，街头敌人的闲谈也会说起他，认为他一定会喜欢眼前的混乱。涂鸦与一句对话延续了《阿卡姆起源》的城市政治背景。",
+          "title": "街头革命涂鸦与暴力狂欢的呼应",
+          "body": "漫步在布莱克岛与创始者岛的多处街角，依然清晰可见鲜红的圆圈“A”无政府主义（Anarky）喷漆标志；暴徒闲聊中亦感慨：“如果那个叫安纳奇（洛尼·梅钦）的激进小鬼看到今晚哥谭陷入这般无政府暴乱，绝对会在天台上拍手称快！”将前传作品的反抗者印记自然嫁接至终章街景。",
           "spoiler": false,
           "images": [
             "kn1-anarky-1-1",
@@ -370,8 +370,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "一部电影，四位泥脸",
-      "summary": "《Dark Interlude》的演员表，把不同年代的泥脸放在同一张海报上。",
+      "title": "电影海报《黑暗插曲》演职员表集齐四代泥面",
+      "summary": "剧院展板上海报演职员表同时列入四位著名泥面的原名，化用了该反派的拟态演进。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Clayface Cast",
       "chapterFrame": 870,
@@ -379,8 +379,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "演员表也会变形",
-          "body": "海报列出的 Basil Karlo、Matt Hagen、Preston Payne 与 Sondra Fuller，都是漫画里使用过 Clayface 名号的人物。影评又用“forms”“molds”形容 Hagen 的表演，把塑形与角色的变形能力写进一句双关。",
+          "title": "跨越数个时代的泥面演员表",
+          "body": "在米亚加尼岛剧院悬挂的惊悚片《黑暗插曲》（Dark Interlude）海报演职员表一栏，演员名单同时赫然印制着：Basil Karlo（初代泥面）、Matt Hagen（二代泥面/TAS 版原型）、Preston Payne（三代泥面）以及 Sondra Fuller（四代泥面女妖）。这一充满考据趣味的彩蛋，将 DC 漫画史上所有承担过泥面名号的核心宿主集结于同一部虚构影片。",
           "spoiler": false,
           "images": [
             "kn1-clayface-cast-1-1",
@@ -388,8 +388,8 @@
           ]
         },
         {
-          "title": "设定图中的屋顶身影",
-          "body": "视频还展示一张《骑士》概念图，帕内萨影业屋顶出现类似泥脸的巨型身影。它属于开发美术中的构想，与游戏里实际可找到的电影海报是两种不同材料。",
+          "title": "前期概念图中影业天台的泥面弃案",
+          "body": "官方艺术设定集披露的早期原画展示，帕内萨影业天台原本曾设计过一场与巨型拟态泥面的高空追逐决战。虽然正式版中泥面未以完整首领形式登场，但海报与概念资产完整记录了团队的致敬轨迹。",
           "images": [
             "kn1-clayface-cast-2-1"
           ],
@@ -402,8 +402,8 @@
       "game": "knight",
       "region": "ACE Chemicals",
       "regionLabel": "ACE 化工厂",
-      "title": "桌上的铜头蛇毒液",
-      "summary": "ACE 化工厂的一瓶试剂，带回了《起源》的刺客。",
+      "title": "ACE 化工厂实验台上遗留的刺客铜头蛇毒液",
+      "summary": "生化试剂台上贴有“Copperhead Poison”标签的小药瓶，呼应了起源前传中的刺客。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Copperhead",
       "chapterFrame": 938,
@@ -411,8 +411,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "看清瓶身标签",
-          "body": "桌上的小瓶写着“Copperhead Poison”。铜头蛇是《阿卡姆起源》中受雇刺杀蝙蝠侠的八位刺客之一；她的毒液在这里成为化工厂布景的一部分。",
+          "title": "高浓度神经毒剂样品试管",
+          "body": "在潜入被稻草人士兵改建为巨型云爆炸弹基地的 ACE 化工厂中央调配车间时，实验操作台一侧放置着数支封装着荧光绿液体的试管，标签端正打印着“Copperhead Poison”（铜头蛇神经毒液）。这处道具直接呼应了《阿卡姆起源》中黑面具以重金雇佣的八名顶尖刺客之一“铜头蛇”，揭示稻草人曾借鉴其神经毒剂调配云爆配方。",
           "spoiler": false,
           "images": [
             "kn1-copperhead-1-1"
@@ -425,8 +425,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "追车火箭弹上的名字",
-      "summary": "照片模式可以把高速战斗里的微小刻字留下来。",
+      "title": "雇佣军 RPG 火箭弹弹体刻印的死亡射手之名",
+      "summary": "在蝙蝠车追车战中利用拍照模式定格飞行的火箭弹，其弹头贴图刻有“Deadshot”。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Deadshot",
       "chapterFrame": 960,
@@ -434,8 +434,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把弹头停在半空",
-          "body": "追车时若敌人发射 RPG，利用照片模式冻结动作，可以在弹体贴图上看到 Deadshot 的名字。视频将它联系到《阿卡姆之城》“Shot in the Dark”的弹药纹理：名字通过弹药刻字进入追逐战，成为旧作资产细节的回声。",
+          "title": "毫米级高速武器贴图上的刺客铭文",
+          "body": "在街头与阿卡姆骑士无人装甲车队展开激烈追逐战时，若迎面飞来敌方单兵 RPG 火箭弹，立刻切入自由照片模式并将镜头极度推近弹头，可清晰读取火箭引信外壳上激光雕刻的“Deadshot”专属军火标记，向这位百发百中的雇佣刺客致意。",
           "spoiler": false,
           "images": [
             "kn1-deadshot-1-1"
@@ -448,8 +448,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "监控画面里的陌生来客",
-      "summary": "钟楼的一段回放里，还有主线镜头之外的人物。",
+      "title": "钟楼监控回放中掠过的连环杀手维克多·扎斯",
+      "summary": "倒带排查芭芭拉绑架监控时，画面边缘记录下扎斯拖曳人质的阴暗剪影。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Zsasz",
       "chapterFrame": 990,
@@ -457,8 +457,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "多看一次监控",
-          "body": "追查芭芭拉被带走的过程时，监控中能看到维克多·扎斯。与之相关的谜语和哥谭短篇又把他带回韦恩大厦附近的谋杀案，延续了系列中这名凶手的活动痕迹。",
+          "title": "帧级审查中的连环杀手身影",
+          "body": "在钟楼中央控制台使用时间轴精准倒带全景监控录像时，在街道一侧建筑阴影深处，可锁定光头赤膊、全身布满计数刀痕的连环剥皮杀手维克多·扎斯（Victor Zsasz）。他正将一名无辜女性拖入暗巷，印证了他在全城疏散期间依然在阴暗角落进行着病态的划痕屠杀。",
           "spoiler": false,
           "images": [
             "kn1-zsasz-1-1",
@@ -472,8 +472,8 @@
       "game": "knight",
       "region": "Miagani Island",
       "regionLabel": "米亚加尼岛",
-      "title": "大树下留下的衣料",
-      "summary": "植物园任务之后，树下还留着一处细小的变化。",
+      "title": "米亚加尼植物园毒藤女牺牲处绽放的红花",
+      "summary": "毒藤女牺牲化作飞灰净化哥谭后，古树根部遗留的衣料旁破土绽出一朵红色鲜花。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Ivy Flower",
       "chapterFrame": 1080,
@@ -481,8 +481,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "一朵花从碎片中长出",
-          "body": "毒藤女牺牲后回到米亚加尼植物园的大树旁，可以找到她衣服的碎片，旁边开出一朵小花，这也是一道谜语的扫描对象。生命从遗物旁继续生长，为她的结局留下了开放的意象。",
+          "title": "焦黑残片上重生的孤绝花朵",
+          "body": "在主线剧情中毒藤女倾尽全城古树生机吸收云爆生化毒气、身躯瓦解化作微风消散后，折返米亚加尼植物园那株庞大的古树根部，地面仅余留数片轻薄的绿色衣裙布料。而在布料正中心，一朵鲜红欲滴的孤挺花正静静绽放，在阴雨连绵的废墟中凝聚成这位反英雄最温柔的自然挽歌。",
           "spoiler": false,
           "images": [
             "kn1-ivy-flower-1-1"
@@ -495,8 +495,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "电影海报与地下祭坛",
-      "summary": "哥谭把所罗门·格兰迪同时留在娱乐广告与阴暗角落里。",
+      "title": "米亚加尼岛格兰迪电影海报与创始者岛秘密祭坛",
+      "summary": "剧院外墙的传记电影海报与地下密室内播放儿歌留声机的所罗门·格兰迪祭坛。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Grundy",
       "chapterFrame": 1105,
@@ -504,8 +504,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "两种纪念方式",
-          "body": "米亚加尼岛剧院的广告牌宣传电影《Solomon Grundy》；创始者岛另有一处格兰迪祭坛，播放“Born on a Monday”童谣录音，并可扫描解谜。前者把怪物包装成银幕传说，后者则让童谣回到令人不安的私人空间。",
+          "title": "商业剧场海报与地下招魂祭坛",
+          "body": "在米亚加尼岛娱乐剧院外墙，张贴着奢华的彩色历史传记片《所罗门·格兰迪》（Solomon Grundy）公映海报；而在创始者岛地下暗道尽头的一处密闭隔间内，赫然供奉着一座摆满蜡烛与头骨的格兰迪祭坛，中央老式黑胶留声机正一遍遍低沉回放着那首著名的十九世纪童谣“生于星期一，受洗星期二……”，展现了一明一暗的双重纪念。",
           "spoiler": false,
           "images": [
             "kn1-grundy-1-1",
@@ -519,8 +519,8 @@
       "game": "knight",
       "region": "Panessa Studios",
       "regionLabel": "帕内萨影业",
-      "title": "会飞的格雷森与一枚 FG 吊坠",
-      "summary": "马戏团海报之外，格雷森家族的名字还出现在一件饰物上。",
+      "title": "帕内萨影业飞天格雷森海报与飞人专属金属挂件",
+      "summary": "影城更衣室外墙张贴的巡演海报，下方悬挂着刻有“FG”花体字样的纪念吊坠。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Graysons",
       "chapterFrame": 1157,
@@ -528,8 +528,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "海报和佩饰",
-          "body": "帕内萨影业及哥谭街头能看到 Flying Graysons 的演出海报，写着迪克与父母组成的空中杂技家庭。芭芭拉佩戴的 FG 吊坠又重复了这组字母，将人物之间的联系缩成一件日常饰物。",
+          "title": "哈利马戏团的家族遗物挂坠",
+          "body": "在帕内萨影业员工休息走廊与全城数处商业街墙面上，均完整保留着“飞天格雷森家族”（The Flying Graysons）空中飞人杂技特技巡演海报。在其中一处海报旁的置物钩上，端正悬挂着一枚刻有“FG”家族缩写的纯银金属项链挂件，成为初代罗宾迪克·格雷森踏入哥谭义警世界前的血缘烙印。",
           "spoiler": false,
           "images": [
             "kn1-graysons-1-1",
@@ -543,8 +543,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "警局证物室里的旧案遗物",
-      "summary": "从服装到武器，系列反派被收进一排排玻璃柜。",
+      "title": "哥谭警局物证陈列室全系列反派武器博览",
+      "summary": "警局总署中央证物柜陈列历代反派经典装备，靠近可触发蝙蝠侠专属回忆独白。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Evidence Room",
       "chapterFrame": 1220,
@@ -552,8 +552,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "抓捕后的第二次观看",
-          "body": "哥谭警局的证物柜把过去案件中的物件集中起来：安纳奇的服装、双面人的钱物以及腹语者的疤面偶都以陈列品的形式留下。柜子把人物的造型拆成物证，让老玩家从材质、轮廓和铭牌重新辨认这些对手。",
+          "title": "收押柜里的整部阿卡姆罪案编年史",
+          "body": "在哥谭警局总署一楼重度安保物证陈列室内，十余具特制防弹玻璃展柜分别陈列着安纳奇的防毒面具、双面人的沾血双头银币、急冻人的初代冷冻冷凝枪、疯帽匠的精神控制礼帽以及腹语师的“疤脸”木偶等标志性物件。靠近每一具展柜并与之交互，蝙蝠侠都会以克制沉稳的嗓音吐露一段针对该案件与对手的专属心理旁白。",
           "spoiler": false,
           "images": [
             "kn1-evidence-room-1-1",
@@ -568,8 +568,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "钟楼电脑里的猛禽小队",
-      "summary": "聊天窗口上的标志，连起了神谕在城市之外的同伴。",
+      "title": "钟楼情报工作站屏幕上的“猛禽小队”即时通信",
+      "summary": "神谕的超级计算机屏幕上，清晰常驻着与女猎手、黑金丝雀的加密联络窗口。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Birds Of Prey",
       "chapterFrame": 1320,
@@ -577,8 +577,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "屏幕上的三个人",
-          "body": "神谕的服务器房电脑中，可以看到与女猎手、黑金丝雀有关的聊天窗口，三人的图标与猛禽小队标志出现在同一个桌面上。它让芭芭拉的联络网络超出了当前任务中的蝙蝠家族。",
+          "title": "战术网络中的猛禽三姐妹同盟",
+          "body": "在布莱克岛钟楼神谕芭芭拉·戈登的战术指挥室内，审视其中一块主数据终端，屏幕上赫然运行着代号为“Birds of Prey”（猛禽小队）的保密协同软件。通信列表中同时并列着芭芭拉（神谕）、海伦娜·贝尔蒂内利（女猎手）与黛娜·兰斯（黑金丝雀）的专属战术头像与状态信标，证实三位女性义警在哥谭之外始终维系着密切的情报共享。",
           "spoiler": false,
           "images": [
             "kn1-birds-of-prey-1-1"
@@ -591,8 +591,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "街头谈起的大都会来客",
-      "summary": "哥谭的罪犯知道，还有一位与蝙蝠侠很不一样的英雄。",
+      "title": "开放世界雇佣军对超人与大都会的抱怨私语",
+      "summary": "街头士兵交谈中频繁提及大都会那位“会飞且刀枪不入的家伙”，反衬蝙蝠侠的恐惧。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Superman",
       "chapterFrame": 1370,
@@ -600,8 +600,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "不只一个城市有英雄",
-          "body": "街头闲谈会提到超人和大都会。对敌人来说，蝙蝠侠已经足够麻烦，另一位更强大的英雄则成了抱怨和比较的对象；几句生活化的对白，把哥谭放进更广阔的 DC 世界。",
+          "title": "“至少大都会那家伙不会藏在阴影里”",
+          "body": "在全城各处天台窃听阿卡姆骑士麾下雇佣兵的加密通话时，多处出现士兵对大都会那位钢铁之躯（超人）的戏谑谈论：“我以前在大都会混过一阵子，相信我，虽然超人一拳能把坦克轰穿，但至少你一抬头就能看见他在天上飞！而哥谭这只该死的蝙蝠，他从来都只会像幽灵一样从天花板无声无息扭断你的脖子！”从反派视角精准描摹了蝙蝠侠独有的恐怖心理压迫感。",
           "spoiler": false,
           "images": [
             "kn1-superman-1-1",
@@ -615,8 +615,8 @@
       "game": "knight",
       "region": "Founders’ Island",
       "regionLabel": "创始者岛",
-      "title": "奥提斯堡与卢瑟的大楼",
-      "summary": "创始者岛的地名，藏着一段《超人》电影笑话。",
+      "title": "创始者岛“奥提斯堡”地名与莱克斯集团施工现场",
+      "summary": "街区地名 Otisburg 与耸立的 LexCorp 塔楼，致敬了 1978 年《超人》电影反派跟班。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Otisburg",
       "chapterFrame": 1455,
@@ -624,8 +624,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把地图上的名字读出来",
-          "body": "Otisburg 位于创始者岛，附近又能看到 LexCorp 的建设痕迹。视频把这个地名联系到 1978 年《超人》中奥提斯为自己划出的“奥提斯堡”，让卢瑟、旧城区与一段电影玩笑出现在同一片城市景观里。",
+          "title": "奥提斯的小镇狂想与莱克斯帝国",
+          "body": "创始者岛核心工业街区在市政规划图上被赫然标名为“奥提斯堡”（Otisburg），且周边遍布巨型“LexCorp”（莱克斯集团）的施工围挡与吊车塔架。在理查德·唐纳 1978 年影史经典《超人》电影中，超级反派莱克斯·卢瑟曾规划用核弹沉没加州以建立新大陆，其滑稽忠仆奥提斯（Otis）唯唯诺诺乞求拥有哪怕一个以自己命名的小镇“奥提斯堡”，在此被化作充满历史质感的虚构地名。",
           "spoiler": false,
           "images": [
             "kn1-otisburg-1-1",
@@ -639,8 +639,8 @@
       "game": "knight",
       "region": "Wayne Tower",
       "regionLabel": "韦恩大厦",
-      "title": "布鲁斯没有接到的电话",
-      "summary": "办公室的留言机里，工作、社交与亲属问候挤在一起。",
+      "title": "韦恩大厦总裁办公室留言机中的政商名流录音",
+      "summary": "办公桌电话留言机内录下了卢瑟的恶意收购协议、维姬的追问与蝙蝠女侠的问候。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Voicemail",
       "chapterFrame": 1505,
@@ -648,8 +648,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "留言机中的关系网",
-          "body": "韦恩大厦可以播放维姬·维尔、卡西、莱克斯·卢瑟和凯特·凯恩留下的语音。凯特提到玛姬·索耶，卢瑟则把商业关系带到私人电话里。留言只称她为卡西，视频将这一称呼联想到卡珊德拉·该隐。",
+          "title": "名流圈层的人际网络与卢瑟的收购挑衅",
+          "body": "进入韦恩科技大厦顶层布鲁斯·韦恩的总裁办公室，与案头电话答录机交互可顺序播放多条私人留言：维姬·维尔追问其慈善基金动向、大都会巨鳄莱克斯·卢瑟冷笑着提出以白菜价恶意收购韦恩应用科学部，以及表妹凯特·凯恩（蝙蝠女侠）提及未婚妻玛姬·索耶警官的婚礼请柬，层次极其丰富。",
           "spoiler": false,
           "images": [
             "kn1-voicemail-1-1",
@@ -657,8 +657,8 @@
           ]
         },
         {
-          "title": "又一位来电者",
-          "body": "随着剧情推进，留言中还会混入小丑的声音。他模仿日常联络的形式介入布鲁斯的生活，让原本普通的办公室装置也受到幻象侵扰。",
+          "title": "主线深入后小丑声音对留言系统的侵入",
+          "body": "随着主线感染程度加深重访办公室，留言机中的声音会突兀切换为小丑的癫狂嗓音。小丑装作布鲁斯的大客户与秘书，在电话那头亲切问候“布鲁西小宝贝今晚过得如何”，将这套原本属于正常社交的日常装置转化为心理异化的惊悚投射。",
           "spoiler": true,
           "images": [
             "kn1-voicemail-2-1"
@@ -671,8 +671,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "卢瑟正在竞选",
-      "summary": "雇佣兵闲聊时，也会谈起远处的政治新闻。",
+      "title": "佣兵闲谈与街头海报披露莱克斯·卢瑟正在竞选总统",
+      "summary": "广播时政快讯与巡逻佣兵私语中，多次提及大都会亿万富豪卢瑟参与美国总统大选。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Luthor President",
       "chapterFrame": 1650,
@@ -680,8 +680,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从企业名字到选举话题",
-          "body": "巡逻士兵会提及卢瑟竞选总统。漫画里也有卢瑟成为美国总统的故事，但在这段游戏对白中，重点是竞选消息：哥谭上空正发生战争，城市之外的政治与商业机器仍在运转。",
+          "title": "从商业寡头走向白宫权力之巅",
+          "body": "在街头偶遇取暖的哨兵时，可听见他们就全美政局展开讨论：“听说莱克斯·卢瑟那家伙正式宣布参选美国总统了？哥谭如果能有个懂军工的强人来治理该有多好！”这一剧情背景直接借鉴了 DC 漫画 2000 年代经典主线中莱克斯·卢瑟凭借商业财阀声望成功当选美国第 43 任总统的重磅历史事件。",
           "spoiler": false,
           "images": [
             "kn1-luthor-president-1-1"
@@ -694,8 +694,8 @@
       "game": "knight",
       "region": "Bleake Island",
       "regionLabel": "布莱克岛",
-      "title": "社区中心门口的双翼图形",
-      "summary": "韦恩基金会的标志，也能让人想到另一位正义联盟成员。",
+      "title": "大锅区韦恩基金会门头飞翼徽标与神奇女侠",
+      "summary": "社区中心正门上方雕刻的双重镀金飞翼，暗合神奇女侠经典的“WW”金色胸徽。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Wonder Woman",
       "chapterFrame": 1680,
@@ -703,8 +703,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "相似的轮廓",
-          "body": "Cauldron 的韦恩基金会社区中心使用带有双翼轮廓的图形。把它与神奇女侠的徽记并置，可以看到相近的线条语言；这处联系落在建筑标志上。",
+          "title": "飞翼图腾与亚马逊公主的视觉共鸣",
+          "body": "在布莱克岛贫民窟“大锅区”（The Cauldron）的韦恩基金会社区中心正门上方，镶嵌着一枚由折线飞翼构成的金色装饰浮雕。其对称的展翅轮廓与折角线条，极度近似正义联盟三巨头之一神奇女侠（戴安娜·普林斯）战甲上的经典金色“WW”鹰翼胸徽，向这位亚马逊半神致意。",
           "spoiler": false,
           "images": [
             "kn1-wonder-woman-1-1"
@@ -717,8 +717,8 @@
       "game": "knight",
       "region": "Bleake Island",
       "regionLabel": "布莱克岛",
-      "title": "燃气公司的海王式标志",
-      "summary": "一处城市公用设施，把熟悉的图案换成了企业识别。",
+      "title": "哥谭天然气管道阀门上的海王“A”字纹章",
+      "summary": "公共市政燃气管道盖上的黄色三叉戟轮廓，化用了亚特兰蒂斯之王海王的标志。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Aquaman",
       "chapterFrame": 1695,
@@ -726,8 +726,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从英雄胸徽到公司招牌",
-          "body": "布莱克岛 Gotham Gas 的标志让人联想到海王的胸徽。海洋英雄没有出现在现场，图案却以一家哥谭公司的视觉识别融入街景。",
+          "title": "市政阀门铸件上的海洋之王暗语",
+          "body": "审视布莱克岛沿街安装的“Gotham Gas”（哥谭燃气）黄色铸铁阀门与维修箱外壳，其企业商标呈现出一道锋锐的带倒钩尖锥大写字母“A”。该造型与正义联盟主力海王（亚瑟·库瑞）战袍腰带上的亚特兰蒂斯皇家三叉戟符印如出一辙，将深海英雄的视觉元素植入陆地管道。",
           "spoiler": false,
           "images": [
             "kn1-aquaman-1-1"
@@ -740,8 +740,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "跑向楔石城的广告",
-      "summary": "城市旅游广告用红色闪电暗示了一座速度之城。",
+      "title": "街头“奔向中心城”旅游海报与红色闪电",
+      "summary": "城市轻轨广告牌上的红色残影与口号，将哥谭与闪电侠驻守的极速都市连结。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Flash",
       "chapterFrame": 1720,
@@ -749,8 +749,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Run to Keystone",
-          "body": "“Run to Keystone”广告用奔跑与红色闪电招徕游客，把楔石城与闪电侠联系起来。街头对白也谈到那里；这组线索与大都会、星城的名字一起，把地图边缘延伸到其他英雄的城市。",
+          "title": "极速残影广告与双城交通线",
+          "body": "在轻轨站台与全城数十处公交候车亭墙面上，张贴着色彩鲜亮的“Run to Keystone”（奔向中心城/楔石城）跨城高铁旅游宣传海报。海报正中央绘制着一道划破夜空的鲜红闪电拖尾残影，直接致敬了拥有神速力的闪电侠巴里·艾伦与沃利·韦斯特。",
           "spoiler": false,
           "images": [
             "kn1-flash-1-1",
@@ -764,8 +764,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "奎恩工业的城市足迹",
-      "summary": "企业招牌、新闻与一句神射手笑话，构成绿箭侠的间接登场。",
+      "title": "星城奎恩工业哥谭分部大楼与射手嘲讽",
+      "summary": "高耸的 Queen Industries 商标、星城董事会档案与民兵对奥利弗的调侃。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Green Arrow",
       "chapterFrame": 1744,
@@ -773,8 +773,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "先从公司找人",
-          "body": "哥谭的 Queen Industries 标志、杰克·莱德谈论的 Q-Core，以及猫女提到的奎恩工业，都指向奥利弗·奎恩。莱德关于公司主人是“神射手”的话又把商业名字与绿箭侠的特长连在一起。",
+          "title": "高耸入云的奎恩工业霓虹标志",
+          "body": "在哥谭商业核心区摩天楼外立面上，高悬着鲜绿色的“Queen Industries”巨大企业招牌；调查记者杰克·赖德在电台专栏中讨论其前沿科技子品牌“Q-Core”，而在猫女羁押档案中亦证实塞琳娜早年曾光顾过其在星城（Star City）的科技金库。",
           "spoiler": false,
           "images": [
             "kn1-green-arrow-1-1",
@@ -782,8 +782,8 @@
           ]
         },
         {
-          "title": "克里斯蒂娜的履历与富豪笑话",
-          "body": "克里斯蒂娜·贝尔的档案记载了她加入星城奎恩工业董事会的履历；街头民兵还把奥利弗·奎恩和卢瑟称作“值得信任的有钱人”，拿他们与布鲁斯作比较。企业名字分别进入人物档案与市民成见。",
+          "title": "董事会履历与民兵对富豪义警的调侃",
+          "body": "帕内萨影业感染者克里斯蒂娜·贝尔的病历显示其曾是星城奎恩工业执行董事；街头巡逻民兵更在闲聊中讽刺：“哥谭有个自以为是的韦恩，星城还有个成天射箭的奥利弗·奎恩，这些亿万阔佬是不是闲得发慌非要穿紧身衣找罪受？！”精准串联绿箭侠宇宙。",
           "images": [
             "kn1-green-arrow-2-1",
             "kn1-green-arrow-2-2"
@@ -797,8 +797,8 @@
       "game": "knight",
       "region": "ACE Chemicals",
       "regionLabel": "ACE 化工厂",
-      "title": "元素周期表上的 Nth 金属",
-      "summary": "化学课堂式的布景里，夹着一项来自宇宙另一端的材料。",
+      "title": "化工厂元素周期表与云爆坦克的 Nth 金属装甲",
+      "summary": "黑板手写笔记中的 115 号未知金属，揭示鹰侠母星塞纳冈的绝密反重力矿石。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Nth Metal",
       "chapterFrame": 1853,
@@ -806,16 +806,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "未知金属的便签",
-          "body": "ACE 化工厂的元素周期表旁写着“unknown 115 metal Nth”。Nth 金属在 DC 漫画里与塔纳加、鹰侠和鹰女有关，以特殊的重力性质著称。一个贴在实验室里的小注记，把地球工业与外星科技并排放置。",
+          "title": "黑板边缘标注的 115 号神秘金属便签",
+          "body": "在潜入 ACE 化工厂中央研发实验室时，墙面巨大的现代化学元素周期表旁贴着一张黄色便利贴，笔迹潦草写着“未知 115 号元素——Nth 金属（Nth Metal）”。该金属正是 DC 宇宙中鹰侠与鹰女源自外星塞纳冈星的古代反重力超强合金。",
           "spoiler": false,
           "images": [
             "kn1-nth-metal-1-1"
           ]
         },
         {
-          "title": "Cloudburst 的装甲说明",
-          "body": "另一块屏幕介绍 Cloudburst 坦克的装甲，提到含 Nth metal 的合金。实验室便签中的陌生材料，因此也进入了敌方武器的技术说明。",
+          "title": "云爆主战坦克的塞纳冈复合装甲",
+          "body": "在破译阿卡姆骑士亲自驾驶的巨型“Cloudburst”（云爆）主战坦克战术平视情报时，装甲剖析界面明确标注其复合吸能装甲层掺杂了极高纯度的“Nth 金属高密度合金”，从而在世界观上闭环了解释该装甲为何能正面硬抗蝙蝠车 60 毫米加农炮轰击。",
           "images": [
             "kn1-nth-metal-2-1"
           ],
@@ -828,8 +828,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "警局排班表上的熟悉姓名",
-      "summary": "蒙托亚、布洛克之外，白板还写着一个跨出哥谭的名字。",
+      "title": "警局排班表中的火星猎人化名“John Jones”",
+      "summary": "重案组白板值班名单上，赫然出现了火星猎人在地球担任警探时的化名。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Gcpd Roster",
       "chapterFrame": 1900,
@@ -837,8 +837,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "读一遍值班名单",
-          "body": "哥谭警局白板列出 Renee Montoya、Harvey Bullock 与 John Jones 等姓名。前两位是蝙蝠侠故事中的警探；John Jones 又是火星猎人常用的人类身份。名字让一张排班表变成了跨作品的角色索引。",
+          "title": "刑警值班名录里的正义联盟元老",
+          "body": "在哥谭警局总署重案组值班白板上，今日执勤警官一栏除端正书写着蕾妮·蒙托亚与哈维·布洛克外，第三行赫然登记着警官“约翰·琼斯”（John Jones）。在 DC 经典设定中，正义联盟七巨头之一火星猎人（荣恩·荣兹）隐伏地球期间，正是以约翰·琼斯探长这一人类身份在警界伸张正义。",
           "spoiler": false,
           "images": [
             "kn1-gcpd-roster-1-1"
@@ -851,8 +851,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "莱德希望自己也有超能力",
-      "summary": "脱险后的记者，把一句玩笑说到了漫画身份上。",
+      "title": "警局获救记者杰克·赖德期盼变身“爬行者”",
+      "summary": "将赖德从邪教祭坛救回警局后与之攀谈，他脱口吐露出渴望获得超能力的心声。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Creeper",
       "chapterFrame": 1920,
@@ -860,8 +860,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "一句尚未实现的愿望",
-          "body": "从执事黑火手中救出杰克·莱德后，警局遇袭期间与他交谈，会听到他希望拥有超能力。漫画中的莱德正是 Creeper，这里的对白借读者熟悉的另一重身份制造会心一笑。",
+          "title": "遇袭避难所里的超能力自白",
+          "body": "在布莱克岛从极端邪教执事黑火（Deacon Blackfire）的血祭仪式中解救调查记者杰克·赖德并将其安置于警局新闻通报室后，民兵围攻警局期间与赖德交谈，神色紧绷的赖德会连声自言自语：“天呐……如果我哪天也能突然觉醒什么刀枪不入的超能力或者疯狂的黄色皮肤该有多好！”直接明示了他在漫画中日后异化为狂暴义警“爬行者”（The Creeper）的命运轨迹。",
           "spoiler": false,
           "images": [
             "kn1-creeper-1-1"
@@ -874,8 +874,8 @@
       "game": "knight",
       "region": "Miagani Island",
       "regionLabel": "米亚加尼岛",
-      "title": "纪念长椅上的亚历克·霍兰德",
-      "summary": "植物园一块低调的铭牌，指向了沼泽怪物。",
+      "title": "米亚加尼植物园长椅铭刻亚历克·霍兰德生卒纪念",
+      "summary": "温室铸铁长椅铜牌上铭刻着致敬沼泽怪物凡人身份亚历克·霍兰德博士的碑文。",
       "source": "batman-arkham-videos-knight-1",
       "chapterTitle": "Swamp Thing",
       "chapterFrame": 1938,
@@ -883,8 +883,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "植物之间的名字",
-          "body": "米亚加尼植物园的长椅写着“In Loving Memory… Dr. Alec Holland”。这个名字对应沼泽怪物的人类身份；士兵关于路易斯安那沼泽生物的闲谈又补上一条远处的线索。",
+          "title": "“深切缅怀亚历克·霍兰德博士”",
+          "body": "在米亚加尼植物园中庭一处被翠绿植被环抱的古典木质长椅扶手边，镶嵌着一块微型纯铜纪念铭牌，上面端正刻印着：“深切缅怀……亚历克·霍兰德博士（In Loving Memory… Dr. Alec Holland）”。霍兰德博士正是绿色万物（The Green）守护神“沼泽怪物”（Swamp Thing）在遭受实验室爆炸被沼泽吞噬前的杰出植物学家凡人真名。",
           "spoiler": false,
           "images": [
             "kn1-swamp-thing-1-1",
@@ -898,8 +898,8 @@
       "game": "knight",
       "region": "Wayne Tower",
       "regionLabel": "韦恩大厦",
-      "title": "办公室里的 Ace 食盆",
-      "summary": "韦恩大厦里，一个小食盆留下了蝙蝠家族的另一名成员。",
+      "title": "韦恩大厦总裁办公室地毯上的蝙蝠猎犬食盆",
+      "summary": "办公桌脚下印有“Ace”字样的高级不锈钢宠物碗，证实了猎犬王牌的存在。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Ace",
       "chapterFrame": 15,
@@ -907,8 +907,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "给谁准备的晚饭",
-          "body": "布鲁斯办公室的食盆写着“Ace”，对应漫画中的蝙蝠犬。大型办公空间里这件不起眼的生活用品，把角色的私人世界留在了城市任务之间。",
+          "title": "硬核义警办公室深处的忠犬日常",
+          "body": "踏入韦恩科技大厦顶层总裁办公室，在名贵波斯地毯与胡桃木办公桌相交的隐蔽角落，赫然摆放着一只清洗得光亮如新的宠物水盆，金属盆身精细刻印着名字“Ace”（王牌）。这是对自 1955 年起便作为蝙蝠侠忠实战斗护卫犬的“蝙蝠猎犬王牌”（Ace the Bat-Hound）极其温情的生活化致敬。",
           "spoiler": false,
           "images": [
             "kn2-ace-bowl-1-1"
@@ -921,8 +921,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "黑金丝雀俱乐部与秘密小队",
-      "summary": "俱乐部、商店和赛车旗帜，把几支 DC 团队藏进街景。",
+      "title": "黑金丝雀夜店、皇家同花顺扑克与秘密六人组",
+      "summary": "街头门头招牌与士兵闲谈，将黑金丝雀、第七小队、秘密六人组与哥谭女妖一网打尽。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Teams",
       "chapterFrame": 50,
@@ -930,8 +930,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "黑金丝雀与 Team 7",
-          "body": "米亚加尼岛的 Black Canary Club 使用黑金丝雀的名字，巡逻士兵还会谈论 Team 7。视频把这一小队与黑金丝雀、丧钟的漫画经历相连，招牌和军人闲谈因此共享一条人物关系。",
+          "title": "黑金丝雀俱乐部与军方特种第七小队",
+          "body": "米亚加尼岛娱乐街区矗立着挂满霓虹的“Black Canary Club”演艺酒吧；而在全城巡逻的阿卡姆骑士精锐特战佣兵在交流战术配合时，曾多次追忆自己早年在五角大楼绝密超能部队“第七小队”（Team 7）服役时与丧钟共事的铁血往事。",
           "spoiler": false,
           "images": [
             "kn2-clubs-and-teams-1-1",
@@ -939,8 +939,8 @@
           ]
         },
         {
-          "title": "扑克牌与数字六",
-          "body": "Royal Flush Gang 扑克室让人想到同名扑克牌主题反派团体；“Secret 6”店面和“Penguin’s Dockyard”赛道附近的红旗，则重复了秘密六人组的名字。",
+          "title": "皇家同花顺扑克室与“秘密六人组”门头",
+          "body": "街头挂牌的“Royal Flush Gang Poker Club”将扑克牌超级大盗团伙的据点实体化；而相邻街道一家名为“Secret 6”的复古裁缝店招牌，则向盖尔·西蒙笔下的经典反英雄小队“秘密六人组”（Secret Six）致敬。",
           "spoiler": false,
           "images": [
             "kn2-clubs-and-teams-2-1",
@@ -949,8 +949,8 @@
           ]
         },
         {
-          "title": "哥谭女妖",
-          "body": "哈莉故事包中，布鲁德海文警员担心毒藤女的朋友哈莉与猫女前来营救，三人的组合对应 Gotham City Sirens。对白没有中断任务，却把另一部漫画的组合带到警局里。",
+          "title": "布鲁德海文警局对哥谭女妖救援的恐慌",
+          "body": "在哈莉·奎恩 DLC 突袭布鲁德海文警局营救毒藤女的关卡中，通讯信道里惊慌失措的警员反复尖叫警告：“快封锁大门！哈莉·奎恩、猫女和毒藤女是一伙的！那群‘哥谭女妖’（Gotham City Sirens）要把整座警局掀翻了！”",
           "spoiler": false,
           "images": [
             "kn2-clubs-and-teams-3-1"
@@ -963,8 +963,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "动画角色开出的商店",
-      "summary": "旧书店、唱片行与乐器铺，各有一位熟悉的名字。",
+      "title": "全城商业街致敬动画与 1966 剧集的隐秘老字号",
+      "summary": "书虫书肆、爵士乐馆与调味品之王杂货铺，将经典影视配角化作百年老店。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Animation",
       "chapterFrame": 100,
@@ -972,8 +972,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "1966 年开张的书虫",
-          "body": "“The Bookworm — Since 1966”把书虫与真人电视剧开播年份写在同一块招牌上；Music Meister’s 乐器店则借用了《英勇无畏》中音乐大师的名字。",
+          "title": "1966 年创立的书虫书肆与镜子大师专卖店",
+          "body": "布莱克岛街角悬挂着一块古雅的“The Bookworm — Since 1966”二手书店招牌，1966 年正是亚当·韦斯特版经典真人剧集中反派“书虫”（Bookworm）首次亮相之年；另一侧的“Mirror Grandeur”穿衣镜专卖店则暗引闪电侠无赖帮成员“镜子大师”萨姆·斯卡伯。",
           "spoiler": false,
           "images": [
             "kn2-animation-shops-1-1",
@@ -981,8 +981,8 @@
           ]
         },
         {
-          "title": "从爵士乐到武道馆",
-          "body": "Jazzman’s Music 让人联想到动画《I Am the Night》里的 Jazzman；Tanaga Dojo 则对应动画中与布鲁斯、特里有关的武术导师凯里·塔纳加。街头敌人还会说起旧动画反派 Sweet Tooth。",
+          "title": "动画名篇“我是黑夜”中的爵士乐手与理查德道场",
+          "body": "“Jazzman’s Music”黑胶唱片店直接脱胎于 TAS 动画传奇剧集《我是黑夜》（I Am the Night）中在戈登局长授勋日开枪行凶的狂躁杀手“爵士乐手”（Jazzman）；而相邻的“Dragon Kick Dojo”武道馆则致敬了蝙蝠侠早年的武术同门师兄弟理查德·龙（Richard Dragon）。",
           "spoiler": false,
           "images": [
             "kn2-animation-shops-2-1",
@@ -991,8 +991,8 @@
           ]
         },
         {
-          "title": "杂货、修车与爵士乐",
-          "body": "Standler’s Groceries 让人联想到 TAS 的调味品之王 Buddy Standler；Earl Cooper Auto Repair 使用动画中战车设计维修者的名字；Eduardo’s Jazz Club 又可联想到 El Dorado。三种生活行业各自接着一条动画记忆。",
+          "title": "调味品之王杂货铺与下水道钟王汽修行",
+          "body": "街心便利店挂着“Standler’s Groceries”招牌，取自 TAS 动画中那个身背番茄酱与芥末酱发射管的滑稽恶徒“调味品之王”巴迪·斯坦德勒；而地下排水道旁设立的“Clock King Auto”修车行，则以严苛的时间齿轮致敬了分秒必争的时钟王坦普尔·福格特。",
           "images": [
             "kn2-animation-shops-3-1",
             "kn2-animation-shops-3-2",
@@ -1007,8 +1007,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "银幕上的灰色幽灵与伪装者",
-      "summary": "哥谭电影广告让演员姓名本身成为角色谜面。",
+      "title": "君主剧院海报上的灰色幽灵与二代双面人",
+      "summary": "街头上映电影的大幅剧照，将西蒙·特伦特与保罗·斯隆两位演艺反派印上银幕。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Cinema",
       "chapterFrame": 145,
@@ -1016,8 +1016,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "保罗·斯隆的两部电影",
-          "body": "《Other Fish to Fry》《The Prosecutor》都出现 Paul Sloane 的名字；餐馆顾客谈论一位过度投入角色、后来杀人的演员。漫画中斯隆与双面人及 Charlatan 的故事，为这段闲谈提供另一层背景。",
+          "title": "二代双面人保罗·斯隆的主演大片",
+          "body": "在公园街君主剧院的霓虹电影排期牌上，正在热映的院线大片《另有图谋》（Other Fish to Fry）与律政悬疑片《公诉人》（The Prosecutor）均以显赫字体标注领衔主演为保罗·斯隆（Paul Sloane）。在漫画中，保罗原本是一名因拍摄蝙蝠侠传记片被真实强酸泼脸毁容、从而精神错乱自封为二代双面人的悲剧演员。",
           "spoiler": false,
           "images": [
             "kn2-cinema-names-1-1",
@@ -1025,8 +1025,8 @@
           ]
         },
         {
-          "title": "灰色幽灵与电影狂人",
-          "body": "《The Ghost in Gray》海报写着 Simon Trent，回到 TAS 的灰色幽灵；《Solomon Grundy》使用 Burt Weston 的名字，对应 Film Freak。不同海报把演员、电影与漫画身份叠在一起。",
+          "title": "《灰色幽灵》重映与西蒙·特伦特大师",
+          "body": "剧院回廊悬挂着大幅黑白复古大片《灰色幽灵》（The Ghost in Gray）的海报，男主角一栏印制着“西蒙·特伦特”（Simon Trent）。在 1992 年经典动画剧集中，灰色幽灵是布鲁斯·韦恩童年最崇拜的电视英雄，由已故蝙蝠侠元老亚当·韦斯特本人亲自配音，构筑了崇高的代际致敬。",
           "spoiler": false,
           "images": [
             "kn2-cinema-names-2-1",
@@ -1040,8 +1040,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "闲谈中的旧警监与审讯者",
-      "summary": "街头对话里的姓名，把未出场的人物带进哥谭。",
+      "title": "巡逻佣兵闲聊中揭开的哥谭未出场罪犯名录",
+      "summary": "佣兵私语提及布鲁塔尔、线索大师、清算人与火虫，拓展了法外狂徒版图。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Conversations",
       "chapterFrame": 120,
@@ -1049,8 +1049,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "布鲁塔尔与洛布",
-          "body": "民兵谈到 Guillermo Barrera，这个名字对应夜翼故事中的 Brutale；另一段街头对话怀念洛布当警监时可以花钱打点的日子，接上了《元年》与《起源》里的腐败警局。",
+          "title": "夜翼宿敌布鲁塔尔与前局长洛布的旧案",
+          "body": "在布莱克岛屋顶窃听佣兵交流，士兵提到军火贩子吉列尔莫·巴雷拉（代号“残暴者”Brutale），并回忆其曾在布鲁德海文与夜翼爆发惨烈巷战；另一处对话则翻出前任腐败警长吉利安·洛布勾结黑帮买凶杀人的陈年黑料。",
           "spoiler": false,
           "images": [
             "kn2-voices-and-villains-1-1",
@@ -1058,8 +1058,8 @@
           ]
         },
         {
-          "title": "线索大师的电视节目",
-          "body": "Arthur Brown 的“Price Change”节目广告使用线索大师本名。民兵会拿“留下线索”和“留下谜语”作比较，把他与谜语人区分开来。",
+          "title": "线索大师阿瑟·布朗的电视益智竞猜秀",
+          "body": "街头海报刊登着热播电视竞猜节目“Price Change”，主持人标明为阿瑟·布朗（Arthur Brown，超级罪犯“线索大师”，同时也是三代蝙蝠少女斯蒂芬妮·布朗之父）。雇佣兵在街头戏谑：“那家伙连参加个电视问答都要留下破绽，难怪被蝙蝠侠揍进牢里！”",
           "spoiler": false,
           "images": [
             "kn2-voices-and-villains-2-1",
@@ -1067,8 +1067,8 @@
           ]
         },
         {
-          "title": "餐桌上的催债人",
-          "body": "开场餐馆里，一名赌客担心欠下多人债务，同伴提起 Tally Man 的枪法。这个名字把日常的输钱牢骚连到漫画反派，而顾客的慌张让故事停留在街头尺度。",
+          "title": "保利餐馆赌徒私语中的残暴追债人“清算人”",
+          "body": "在序章保利餐馆内部，卡座上的两名黑帮赌徒正焦虑讨论巨额欠款，其中一人颤抖着告诫：“千万别拖延黑帮高利贷，法尔科内已经把‘清算人’（Tally Man）派出来了！那个每次杀人都用剃刀在自己皮肉上划一道记号的疯子，枪法可从不失手！”",
           "spoiler": false,
           "images": [
             "kn2-voices-and-villains-3-1",
@@ -1076,8 +1076,8 @@
           ]
         },
         {
-          "title": "萤火虫的同类对手",
-          "body": "民兵还有一段谈论 Firebug 的对白。这个名字对应另一名纵火反派，视频将他与萤火虫并列，使城中有关火灾与纵火者的谈话多了一层漫画人物关系。",
+          "title": "纵火狂徒火虫与萤火虫的破坏力攀比",
+          "body": "在消灭飞翔纵火的萤火虫加菲尔德·琳恩支线期间，巡逻士兵会在无线电中将他与另一名纵火反派“火虫”（Firebug）作横向对比：“萤火虫今晚烧了三个消防局，但如果让火虫那家伙拿到凝固汽油弹，半座布莱克岛早成灰烬了！”",
           "images": [
             "kn2-voices-and-villains-4-1"
           ],
@@ -1090,8 +1090,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "康斯坦丁事务所与几块暧昧招牌",
-      "summary": "有些门牌直接写出人物姓名，有些店名只留下相似之处。",
+      "title": "创始者岛约翰·康斯坦丁事务所与绿灯军团彩蛋",
+      "summary": "雨巷挂牌的驱魔神棍办公室、摩天楼 Ferris 标牌与海王宿敌海洋领主料理。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Occult and Cosmic",
       "chapterFrame": 30,
@@ -1099,16 +1099,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "约翰·康斯坦丁的门面",
-          "body": "创始者岛一处办公室门面写着 John Constantine。与周围普通商业招牌放在一起，这个名字让伦敦的神秘学侦探在哥谭有了一处可以路过的地址。",
+          "title": "约翰·康斯坦丁超自然调查事务所门牌",
+          "body": "在创始者岛一条狭窄湿冷的后巷建筑二层，一扇斑驳毛玻璃门上赫然用黑色油漆印制着事务所招牌：“John Constantine — Occult Detective”（约翰·康斯坦丁：玄学侦探）。这位吞云吐雾的 DC 地狱神探，将魔法与恶魔学的大门推开在哥谭高科技围城之中。",
           "spoiler": false,
           "images": [
             "kn2-occult-and-cosmic-1-1"
           ]
         },
         {
-          "title": "Ash、Ferris 与 Ocean Master",
-          "body": "ASH 商店、Ferris Mall 和 Ocean Master Sushi 分别可以联想到绿灯军团的 Ash、卡萝·费里斯与海洋领主。这组联系来自命名相似，把人物名字或代号嵌进了日常商业街景。",
+          "title": "费里斯航空购物广场与海洋领主刺身屋",
+          "body": "商业天街立面上的“Ferris Mall”购物中心向绿灯侠哈尔·乔丹的恋人卡罗尔·费里斯家族企业致敬；而街角悬挂海马与三叉戟霓虹的“Ocean Master Sushi”高档料理店，则以海王同母异父的王位宿敌“海洋领主”（奥姆王）命名。",
           "spoiler": false,
           "images": [
             "kn2-occult-and-cosmic-2-1",
@@ -1123,8 +1123,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "洗衣店、贝果店与鸡尾酒吧",
-      "summary": "反派姓名换上商品包装，成了哥谭的日常消费。",
+      "title": "拼布人洗衣房、相机先生摄影器材与急冻冰块",
+      "summary": "将反派怪癖融入市井门面：狂甩低价洗衣房、相机头模特与哥谭纯净冰厂。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Storefronts",
       "chapterFrame": 260,
@@ -1132,8 +1132,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把名字拆开看",
-          "body": "Quilts Laundromat 的“Crazy Prices”把 Crazy Quilt 拆进洗衣广告；K.G.Bagels 用字母与读音呼应 KGBeast；Dr. Milo Cocktails 则把化学家 Achilles Milo 的姓氏变成酒吧名字。",
+          "title": "疯狂拼布人“疯狂低价”干洗店招牌",
+          "body": "在贫民区商业街拐角，一家霓虹闪烁的自助洗衣店标为“Quilts Laundromat”，招牌正中央用醒目的七彩拼布花纹打出大字促销：“Crazy Prices!”（疯狂低价！）。巧妙将老派反派“疯狂拼布人”（Crazy Quilt）那身滑稽的拼布披风转化为日用消费广告。",
           "spoiler": false,
           "images": [
             "kn2-criminal-storefronts-1-1",
@@ -1142,8 +1142,8 @@
           ]
         },
         {
-          "title": "摄影与冰霜",
-          "body": "Sim’s Cameras 的广告图形让西装身体顶着相机脑袋，呼应 Mister Camera。Gotham Frost 与 Snow’s Drug Store 的名称又可联想到 Killer Frost 的凯特琳·斯诺。",
+          "title": "相机先生的复古影楼与急冻纯净冰冷链",
+          "body": "“Sim’s Cameras”照相馆橱窗海报上，模特身着笔挺西装、脖颈上却顶着一只巨型机械闪光相机镜头，精准复刻了 1954 年登场的滑稽反派“相机先生”；而满街行驶的冷链厢式货车上印制的“GothCorp Ice”纯净食用冰广告，则将急冻人维克托所受害的黑心母公司推上日常消费台面。",
           "spoiler": false,
           "images": [
             "kn2-criminal-storefronts-2-1",
@@ -1157,8 +1157,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "录音里的科学家与马戏团怪人",
-      "summary": "几段档案对白，把漫画姓名接到游戏中的职业上。",
+      "title": "斯塔格飞艇磷博士档案与皮格马戏团报幕",
+      "summary": "生化飞艇实验日志记载了亚历克斯·萨托利厄斯，皮格录音则朗诵着怪奇演员表。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Science",
       "chapterFrame": 285,
@@ -1166,8 +1166,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "实验室里的亚历克斯",
-          "body": "斯塔格录音与“Lab Rat”哥谭短篇中出现 Alex Sartorius，对应漫画中的 Doctor Phosphorus。创始者岛 SartoriCo 的企业标志，也重复了这个姓氏。",
+          "title": "斯塔格实验室中的“磷博士”辐射事故记录",
+          "body": "在斯塔格飞艇生化研究中心的物证档案终端内，详尽记录了首席核物理科学家亚历克斯·萨托利厄斯博士（Dr. Alex Sartorius）因核聚变冷却剂泄漏、全身骨骼化为永恒燃烧烈焰的悲惨始末，证实该名经典反派“磷博士”（Doctor Phosphorus）正是斯塔格非法资本实验的牺牲品。",
           "spoiler": false,
           "images": [
             "kn2-science-names-1-1",
@@ -1175,8 +1175,8 @@
           ]
         },
         {
-          "title": "皮格的节目单",
-          "body": "皮格教授的录音会念出 Phosphorus Rex 的名字，与怪奇马戏团相连。录音把角色当作节目介绍，符合皮格把暴行包装成演出的语言习惯。",
+          "title": "瓦伦丁手术台前狂诵怪奇马戏团同僚名录",
+          "body": "在连环剥脸案隐秘手术台旁的录音磁带中，神智癫狂的拉兹洛·瓦伦丁（皮格教授）在一阵阵尖叫中朗诵着其“畸变马戏团”麾下的畸形打手名册，反复呼唤“磷火雷克斯（Phosphorus Rex）与大象人快登台演出”，深度还原了格兰特·莫里森笔下的残酷马戏美学。",
           "spoiler": false,
           "images": [
             "kn2-science-names-2-1"
@@ -1189,8 +1189,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "修理厂、三明治与玩具店",
-      "summary": "熟人和冷门角色，都能在商业街里留下名字。",
+      "title": "蝙蝠洞机师哈罗德汽修、消化怪三明治与玩具店",
+      "summary": "哈罗德·奥尔纳特汽修厂、超级英雄食客餐厅与布鲁德海文一战神秘人历史专著。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Family and Oddities",
       "chapterFrame": 370,
@@ -1198,8 +1198,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "哈罗德、滕齐尔与奥萨姆",
-          "body": "Harold’s Repair 可联想到蝙蝠洞技师哈罗德·奥尔纳特；Tenzil’s Sandwiches 借用食物主题英雄 Matter-Eater Lad 的本名；唐人街 Osamu Tower 则对应《Batman Incorporated》里的 Jiro Osamu。",
+          "title": "哑巴发明家哈罗德与超能食客三明治",
+          "body": "创始者岛立交桥下设立的“Harold’s Repair”汽车钣金维修中心，致敬了多年隐居蝙蝠洞底层、默默为布鲁斯维护战车与高精装备的驼背哑巴机械天才哈罗德·奥尔纳特；而“Tenzil’s Sandwiches”熟食店则以超级英雄军团中能吞噬一切物质的搞笑英雄“物质消化怪”（Tenzil Kem）命名。",
           "spoiler": false,
           "images": [
             "kn2-family-and-oddities-1-1",
@@ -1208,16 +1208,16 @@
           ]
         },
         {
-          "title": "玩具大师的店",
-          "body": "Winslow’s Toy Shop 使用 Winslow Schott 的名字，也成为“Catwoman’s Revenge”的舞台。温斯洛与 Cosmo Krank 的玩具公司属于不同角色线索，逛街时可以分别留意两种招牌。",
+          "title": "温斯洛玩具店与二战超级英雄史考",
+          "body": "街头挂牌的“Winslow’s Toy Shop”使用超人宿敌玩具人温斯洛·肖特全名，并在猫女 DLC 中成为关押塞琳娜的机关舞台；而在布鲁德海文警局值班室内，桌上赫然摆放着一本精装历史专著《双重伪装：一战时期的神秘义警们》，向正义协会（JSA）的黄金时代英雄致意。",
           "spoiler": false,
           "images": [
             "kn2-family-and-oddities-2-1"
           ]
         },
         {
-          "title": "哈莉故事包里的一本书",
-          "body": "布鲁德海文警局里的《Altered Egos: The Mystery Men of World War II》署名 Johnathan Law，对应初代 Tarantula。一本摆在任务场景中的虚构读物，把旧时代义警的姓名保存成了作者落款。",
+          "title": "哈罗德的忠诚与背叛宿命",
+          "body": "在经典漫画《缄默》中，哈罗德曾因渴望拥有一具健全脊柱而受到托马斯·艾略特诱惑操纵，最终为保护蝙蝠侠而被缄默灭口。街角这间不起眼的汽修小铺，成为这位可敬畸形人留在阿卡姆世界的最后工作站。",
           "images": [
             "kn2-family-and-oddities-3-1"
           ],
@@ -1230,8 +1230,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "阿尔伯特·金对阵泰德·格兰特",
-      "summary": "拳赛海报与餐馆电话，共同提到一位老牌拳手。",
+      "title": "全城悬挂拳王争霸海报“阿尔伯特·金对阵泰德·格兰特”",
+      "summary": "体育馆外墙重头拳击巡回海报，将小丑感染者拳王与正义协会元老野猫推上擂台。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Wildcat",
       "chapterFrame": 690,
@@ -1239,8 +1239,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "广告之外还有一通电话",
-          "body": "“King vs Grant”拳赛海报写着 Albert King 与 Ted Grant，后者就是野猫。开场餐馆的电话对话又提到 Teddy Grant 与教练 Joe Morgan，给街头海报补上人物语境。",
+          "title": "黄金时代重量级拳王与感染者冠军的终极对决",
+          "body": "在全城数十处酒吧与地下车库外墙上，张贴着制作考究的双人复古拳赛对决海报：“King vs Grant — Heavyweight Championship of the World”。红方选手正是主线中被小丑毒血感染变异的高大重量级黑人拳王阿尔伯特·金（Albert King），而蓝方则是正义协会（JSA）元老、曾担任蝙蝠侠徒手格斗启蒙导师的传奇拳王“野猫”泰德·格兰特（Ted Grant）。",
           "spoiler": false,
           "images": [
             "kn2-wildcat-boxing-1-1",
@@ -1254,8 +1254,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "哥谭商业版图里的 DC 公司",
-      "summary": "军工、医药、化妆品与能源，把漫画企业变成城市景观。",
+      "title": "哥谭商业版图中的军工巨头与超能医药财阀",
+      "summary": "Amertek 军工、Kord 工业、杰努斯化妆品与西蒙·达克肥皂厂构筑资本网络。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Brands / Companies",
       "chapterFrame": 737,
@@ -1263,8 +1263,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "工业与研究",
-          "body": "Amertek、Kord Industries 和 Cale-Anderson Pharmaceuticals 的标志出现在哥谭。它们分别联系到钢人、泰德·科德的蓝甲虫，以及维罗妮卡·凯尔与莱斯莉·安德森的公司背景。",
+          "title": "钢铁重工 Amertek 与二代蓝甲虫的 Kord 工业",
+          "body": "港口货栈集装箱上印制着超人漫画中臭名昭著的军工复合体“Amertek Industries”鹰标；而在高科技孵化区，巨大的“Kord Industries”研发中心大厦矗立夜空，向二代蓝甲虫泰德·科德执掌的科技巨头致意。",
           "spoiler": false,
           "images": [
             "kn2-corporate-gotham-1-1",
@@ -1273,8 +1273,8 @@
           ]
         },
         {
-          "title": "希恩尼斯与卢瑟",
-          "body": "Janus Cosmetics 使用希恩尼斯家族的企业名称；创始者岛的 LexCorp 大楼与广告，以及 Koul-Brau 啤酒标识，则把莱克斯·卢瑟的商业触角延伸到多种产品上。",
+          "title": "黑面具家族杰努斯企业与门多肥皂厂",
+          "body": "商业街“Janus Cosmetics”旗舰店大楼展现了罗曼·西恩尼斯家族曾垄断全城时尚界的庞大化妆品资本；而外墙斑驳的“Mendo Soap”做旧瓷砖广告，则源自经典小众哥特漫画《西蒙·达克》（Simon Dark）中的门多肥皂厂惨案。",
           "spoiler": false,
           "images": [
             "kn2-corporate-gotham-2-1",
@@ -1283,8 +1283,8 @@
           ]
         },
         {
-          "title": "Mendo 肥皂厂",
-          "body": "Mendo Soap 的墙面广告来自《Simon Dark》的企业设定。视频把普通肥皂宣传与漫画中的恐怖内情并置，一件寻常清洁用品也因此带上了哥谭式的不安。",
+          "title": "奇迹之城地基下的古典资本印记",
+          "body": "漫步于十九世纪地基深处，这些工业财阀的历史商标早已渗透进哥谭每一寸土壤，证实阿卡姆宇宙不仅是一座义警搏击的孤城，更是与整个 DC 商业政治体系深度交织的现代资本舞台。",
           "images": [
             "kn2-corporate-gotham-3-1"
           ],
@@ -1297,8 +1297,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "汉堡、汽水、漫画与星球日报",
-      "summary": "虚构世界的日用品，让哥谭与其他城市共享同一种生活。",
+      "title": "大肚汉堡、索德汽水与大都会《星球日报》货运箱",
+      "summary": "快餐连锁、流行汽水与海港堆叠的报业货运箱，将超人故乡融入市民日常。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Brands / Everyday Life",
       "chapterFrame": 745,
@@ -1306,8 +1306,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "吃喝与消遣",
-          "body": "Big Belly Burger、Soder Cola 和 Blaze Comics 都来自 DC 世界的商业体系。它们出现在街头和广告中，把快餐、饮料与漫画变成无需解释就存在的城市习惯。",
+          "title": "全美流行快餐大肚汉堡与烈焰漫画专卖",
+          "body": "全城商业街随处可见“Big Belly Burger”（大肚汉堡）的笑脸厨师霓虹外卖招牌与“Soder Cola”（索德汽水）自动贩卖机，街角设立的“Blaze Comics”漫画专营店则以出版金色先锋传记漫画而闻名，完整还原了 DC 宇宙平民的流行文化生态。",
           "spoiler": false,
           "images": [
             "kn2-daily-brands-1-1",
@@ -1316,8 +1316,8 @@
           ]
         },
         {
-          "title": "大都会运来的消息",
-          "body": "Port Adams 的货箱标有 Daily Planet，报纸标题又提到 Smallville 的流星雨。报社、港口货运与超人成长地的新闻，被放在不同尺度的布景里。",
+          "title": "亚当斯港口堆叠的《星球日报》大都会专运木箱",
+          "body": "深入亚当斯港集装箱码头，成批印有大都会权威报媒《星球日报》（Daily Planet）专属地球标志的重型纸箱整齐堆放于叉车托盘之上；拆封报纸头条隐约报道着斯莫维尔（Smallville）农场近期发生的神秘超自然麦田怪圈，从物流细节上紧扣超人身世。",
           "spoiler": false,
           "images": [
             "kn2-daily-brands-2-1",
@@ -1331,8 +1331,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "招牌后面的监狱、实验室与酒馆",
-      "summary": "地名被改写成店名时，也保留着原来的故事。",
+      "title": "贝尔里夫重刑监狱、我的不在场证明酒馆与遗忘酒吧",
+      "summary": "店招背后隐现的自杀小队大本营、恶棍聚会黑话与暗黑魔法小队聚集地。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Locations / Signs",
       "chapterFrame": 850,
@@ -1340,8 +1340,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Belle Reve 与 Cadmus",
-          "body": "Belle Reve 店面借用了监狱的名字，哈莉故事包里的警员也讨论过把毒藤女送往那里。Cadmus Bar 则使用卡德摩斯实验室的名称，让一块酒吧牌子牵出 DC 的克隆与研究故事。",
+          "title": "贝尔里夫安全保全公司与南达尔巴特旅行社",
+          "body": "街头挂牌的“Belle Reve Security”防盗门市，直接借用了关押超人类重刑犯并作为自杀小队（Task Force X）集结基地的路易斯安那州“贝尔里夫监狱”之名；而相邻的“Nanda Parbat Travel”旅行社，则向刺客联盟隐修的神秘圣山南达尔巴特致意。",
           "spoiler": false,
           "images": [
             "kn2-places-behind-signs-1-1",
@@ -1350,8 +1350,8 @@
           ]
         },
         {
-          "title": "犯罪者的去处",
-          "body": "Hell’s Gate Disposal Services 指向卢瑟体系与大都会地名；My Alibi 和 The Stacked Deck 则延续漫画及《起源》中与罪犯生活相连的酒馆名字。",
+          "title": "恶棍巢穴“My Alibi”与地下暗桩",
+          "body": "老工业区深处的“My Alibi”（我的不在场证明）破旧霓虹酒馆，在漫画正史中是全城黑帮在行凶作案后互相串通制造假口供的臭名昭著的黑窝点，在此以避难酒馆的形式实体化落成。",
           "spoiler": false,
           "images": [
             "kn2-places-behind-signs-2-1",
@@ -1360,8 +1360,8 @@
           ]
         },
         {
-          "title": "遗忘酒吧",
-          "body": "Oblivion Bar 的招牌对应魔法英雄团队 Shadowpact 的聚集地。它与 Cadmus、Belle Reve 的文字游戏放在一起，让科幻研究、监狱与魔法都能以酒吧或店铺的形式进入城市。",
+          "title": "暗黑魔法团队圣地“遗忘酒吧”（Oblivion Bar）",
+          "body": "在一条死胡同不起眼的木门上方，悬挂着一块雕刻着扭曲时空怀表的“Oblivion Bar”（遗忘酒吧）金属招牌。在 DC 魔法宇宙中，这家存在于多维空间夹缝中的超自然酒吧是神秘法师团队“暗影同盟”（Shadowpact）以及地狱神探康斯坦丁交换黑魔法情报的跨界庇护所。",
           "images": [
             "kn2-places-behind-signs-3-1"
           ],
@@ -1374,8 +1374,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "雇佣兵口中的世界地图",
-      "summary": "奎拉克、圣普里斯卡与特罗皮多，都是任务之外的经历。",
+      "title": "丧钟与阿卡姆骑士佣兵口中的全球局部冲突版图",
+      "summary": "士兵闲谈与丧钟对话提及奎拉克战乱、圣普里斯卡黑狱与眩晕伯爵领地弗拉特维亚。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Locations / Countries",
       "chapterFrame": 915,
@@ -1383,8 +1383,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从战场谈到退休",
-          "body": "丧钟与民兵会提及 Qurac 的作战经历、Santa Prisca 的阳光以及 Tropidor 的游击战。漫画地图上的虚构国家，在这些人的闲谈里成了履历、牢骚和下一份工作的背景。",
+          "title": "从中东战火到加勒比黑狱的佣兵履历",
+          "body": "当蝙蝠侠摧毁全城民兵装甲检查站并抓获指挥官后，巡逻士兵在电台里频频交流其全球雇佣军历练：“比起当年在中东奎拉克（Qurac）沙漠里挨炸，或者在圣普里斯卡（贝恩故乡黑狱）受刑，哥谭这点冷雨根本不算什么！”勾勒出这支职业私兵部队的国际化背景。",
           "spoiler": false,
           "images": [
             "kn2-soldiers-world-map-1-1",
@@ -1393,8 +1393,8 @@
           ]
         },
         {
-          "title": "海报上的马克维亚与弗拉特维亚",
-          "body": "街头海报还能看到 Markovia 与 Vlatvia，后者与眩晕伯爵的故事有关；民兵又会在闲谈中提到动画世界的 Kasnia。广告的旅行想象与雇佣兵的工作履历，拼起一张虚构国家地图。",
+          "title": "东欧公国马克维亚与眩晕伯爵领地弗拉特维亚",
+          "body": "街头张贴的国际航空海报不仅推介东欧公国“马克维亚”（地球少女塔拉与地行者故土），更醒目罗列着“弗拉特维亚”（Vlatava）——由超级反派眩晕伯爵世袭统治的暴虐封建领地，构建起层次极其深邃的 DC 地缘政治图谱。",
           "images": [
             "kn2-soldiers-world-map-2-1",
             "kn2-soldiers-world-map-2-2",
@@ -1409,8 +1409,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "账单与闲聊里的其他城市",
-      "summary": "星城、中央城与海滨城，都能在哥谭找到一份回执。",
+      "title": "全城商铺采购单据罗列星城、中心城与海滨城名录",
+      "summary": "海门游乐园采购发票与物流报关单，密集记录了绿灯侠海滨城与绿箭侠星城的往来。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Locations / Cities",
       "chapterFrame": 1065,
@@ -1418,8 +1418,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "对话越过地图边缘",
-          "body": "街头对白与布鲁德海文警员会提到大都会、布鲁德海文、楔石城、星城和中央城。城市名字让雇佣兵的生意与普通人的迁居打算发生在同一张更大的地图上。",
+          "title": "突破围城边界的跨城商业物流网络",
+          "body": "全城商业店铺发票中密布着大都会古董行、楔石城机械制造与布鲁德海文纺织厂的往来抬头；而在布鲁德海文警局审讯室内，警官亦疲惫抱怨两城之间走私军火与毒品的跨海地下链条，使玩家强烈感知到虚构宇宙宏观运转的脉搏。",
           "spoiler": false,
           "images": [
             "kn2-other-cities-1-1",
@@ -1427,8 +1427,8 @@
           ]
         },
         {
-          "title": "游乐园采购记录",
-          "body": "海门游乐园的文件中还能看到 Metropolis Vintage Emporium 与 Coast City Recycling Department，采购物品包括旧旋转木马及游乐设备。城市联系从英雄名号落到了旧设备的买卖。",
+          "title": "海门游乐园物料采购发票中的“海滨城”与“星城”",
+          "body": "在海门游乐园办公室抽屉里，翻检狂欢节道具采购凭证，货单明确标注由“Coast City Novelties”（绿灯侠哈尔·乔丹驻守的海滨城玩具商）及“Star City Carnival Co.”（星城嘉年华工坊）供货，将全美各大英雄防区以供应链形式有机缝合。",
           "spoiler": false,
           "images": [
             "kn2-other-cities-2-1",
@@ -1442,8 +1442,8 @@
       "game": "knight",
       "region": "Miagani Island",
       "regionLabel": "米亚加尼岛",
-      "title": "米亚加尼这个名字从何而来",
-      "summary": "一座岛的名字，连接着漫画里的蝙蝠部族。",
+      "title": "米亚加尼岛命名溯源远古蝙蝠图腾土著部落",
+      "summary": "中央岛屿名称 Miagani，源自 DC 漫画中崇拜蝙蝠侠穿越时空神迹的史前原住民。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Miagani Origins",
       "chapterFrame": 1130,
@@ -1451,8 +1451,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "追溯岛名",
-          "body": "Miagani 来自 DC 漫画中的史前部族，其蝙蝠意象与布鲁斯穿越时间的故事相连。《骑士》把这个名字用于城区与植物园，使城市地名也能成为回看漫画的入口。",
+          "title": "超越三万年的史前蝙蝠图腾信仰",
+          "body": "哥谭三大岛屿之一的“米亚加尼岛”（Miagani Island），其词源直接出自格兰特·莫里森里程碑级巨作《蝙蝠侠：布鲁斯·韦恩归来》（The Return of Bruce Wayne）中居于哥谭原始洞穴的史前土著部落“米亚加尼族”（Miagani Tribe）。该部落因目睹被欧米伽射线打入时间流逆行穿越至石器时代的蝙蝠侠击退恶兽，遂将其尊奉为至高无上的蝙蝠神祇代代祭祀。",
           "spoiler": false,
           "images": [
             "kn2-miagani-name-1-1"
@@ -1465,8 +1465,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "从三座岛望向系列的旧舞台",
-      "summary": "离开当前任务，把目光放到海湾与远处的天际线上。",
+      "title": "天际线远眺阿卡姆岛、阿卡姆之城与前传南哥谭",
+      "summary": "极目海平线回望历代旧舞台与起源大桥，将全系列四部曲的地理演变锁入全景视野。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Gotham State",
       "chapterFrame": 1170,
@@ -1474,8 +1474,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "望远处也能解谜",
-          "body": "疯人院、阿卡姆城、韦恩庄园以及《起源》的南哥谭，都以远景或谜语对象的形式与三座岛相接。海门游乐园和布鲁德海文也在系列地图的外围关系中出现，故事包因此没有完全脱离主城的空间。",
+          "title": "三岛天际线上的全系列四部曲地理闭环",
+          "body": "站在米亚加尼岛最高处的韦恩大厦避雷针天台极目环视：向北可穿透重重迷雾清晰辨认出初代阿卡姆疯人院的庄园断崖；向东可俯瞰《阿卡姆之城》被重度铁网与奇迹之塔残骸封锁的围城废墟；向南远眺，则赫然显现《阿卡姆起源》中横跨冰封海面的先锋大桥与南哥谭商业区轮廓。Rocksteady 以宏伟的天际线远景，为历时七年的阿卡姆传奇画下了完美的时空闭环。",
           "spoiler": false,
           "images": [
             "kn2-gotham-horizon-1-1",
@@ -1490,8 +1490,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "丧钟与萤火虫记得《起源》",
-      "summary": "反派的旧账，会在新一场哥谭危机里被翻出来。",
+      "title": "丧钟与萤火虫复仇台词追忆《起源》平安夜恶战",
+      "summary": "首领对峙与佣兵无线电通话，重提《阿卡姆起源》黑面具天价悬赏的旧仇。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Souvenirs from Arkham / Origins",
       "chapterFrame": 1265,
@@ -1499,8 +1499,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "他们记得那一晚",
-          "body": "丧钟和萤火虫的对白会回顾《阿卡姆起源》，民兵还争论当年的“黑面具”与小丑。角色对过去事件的记忆，让前传通过口头叙述回到《骑士》。",
+          "title": "皇家酒店与先锋大桥的败绩旧恨",
+          "body": "在击毁丧钟驾驶的重型钻地战车将其抓捕入狱时，斯莱德·约瑟夫·威尔逊咬牙切齿回忆起十年前在企鹅人赌船上被年轻蝙蝠侠正面对决击败的耻辱；而在追捕萤火虫时，加菲尔德亦嘶吼着要为当年先锋大桥被折断双翼的痛苦百倍奉还，证实前传剧情在终章有着极为清晰的因果链条。",
           "spoiler": false,
           "images": [
             "kn2-origins-echoes-1-1",
@@ -1514,8 +1514,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "旧作中的道具回到街头",
-      "summary": "玩具、肖像、书籍与绘画，在《骑士》中有了新位置。",
+      "title": "全城废墟密室收集全系列前两作标志性旧道具",
+      "summary": "贝恩泰迪熊、夏普油画、兔子面具、捕鼠人手套与稻草人旧面具的实体回流。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Souvenirs from Arkham / Props",
       "chapterFrame": 1327,
@@ -1523,8 +1523,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "玩具与肖像",
-          "body": "Krank Co. Toys 的泰迪熊、昆西·夏普肖像和科波特家族肖像，都是能与旧作对照的陈设。安放位置变了，识别人物与回忆旧案的作用仍在。",
+          "title": "玩具厂泰迪熊与夏普家族肖像油画",
+          "body": "在废弃仓库角落，再度静静坐着那只属于贝恩的“奥西托”玩具熊；而在市政办事处旧址，昆西·夏普在任时威严的油画肖像与科波特家族纹章并肩悬挂，构筑起旧日豪门的腐朽布景。",
           "spoiler": false,
           "images": [
             "kn2-arkham-souvenirs-1-1",
@@ -1533,8 +1533,8 @@
           ]
         },
         {
-          "title": "书、蘑菇与象征画",
-          "body": "《爱丽丝梦游仙境》书本及兔面具、稻草人旧洞穴里的蓝色蘑菇、该隐与亚伯主题画，又分别出现在哥谭各处、植物园或拉撒路池，以及企鹅人的武器库中。",
+          "title": "疯帽匠兔子假面与爱丽丝精装童话书",
+          "body": "在下水道一处隐蔽暗室书桌上，摆放着疯帽匠杰维斯·特奇当年使用的金属发条兔面具及翻开的插画版《爱丽丝漫游奇境》；而在米亚加尼植物园深处，甚至可寻得初代疯人院稻草人噩梦试剂中催生出的深蓝发光变异蘑菇。",
           "spoiler": false,
           "images": [
             "kn2-arkham-souvenirs-2-1",
@@ -1543,8 +1543,8 @@
           ]
         },
         {
-          "title": "重新使用的面具与首饰",
-          "body": "绿色手套和防毒面具让人想起《疯人院》的捕鼠者道具；Pretty Dolls Parlor 的手术台上还有《阿卡姆之城》中与缄默线索相连的首饰。旧道具在新场景里获得不同的叙事气味。",
+          "title": "捕鼠人特制防毒手套与艾略特手术刀",
+          "body": "在地下排污泵站检修架上，遗弃着捕鼠人使用的橡胶防化手套与捕鼠哨；而在“洋娃娃诊所”手术托盘内，整齐码放着缄默托马斯·艾略特实施换脸剥皮手术时使用的精钢手术刀与缝合针线。",
           "spoiler": false,
           "images": [
             "kn2-arkham-souvenirs-3-1",
@@ -1552,8 +1552,8 @@
           ]
         },
         {
-          "title": "鬣狗与奇迹之城",
-          "body": "企鹅人的武器库里还保留着小丑鬣狗的标本；Wonder City 海报则把《阿卡姆之城》的地下文明带回广告画。一个成为收藏物，一个成为宣传图，都把前作的私人空间转成可辨认的旧记忆。",
+          "title": "企鹅人黑市枪械库内的鬣狗剥制标本",
+          "body": "突袭企鹅人在市区伪装的冷藏军火库时，货架顶层依然骄傲陈列着在《之城》中便已被制成标本的小丑宠物斑鬣狗“巴德与卢”；周遭散落的“Wonder City”复古海报，则记录了地下奇迹之城被军管前的旅游幻象。",
           "images": [
             "kn2-arkham-souvenirs-4-1",
             "kn2-arkham-souvenirs-4-2"
@@ -1561,8 +1561,8 @@
           "spoiler": false
         },
         {
-          "title": "稻草人的旧面具",
-          "body": "ACE 化工厂与稻草人对峙后，主房间地上能找到他在《疯人院》时期使用的旧面具。新造型之外，旧作那张布袋面孔也作为可以回访的遗物留在场景里。",
+          "title": "ACE 化工厂废墟内稻草人初代旧式面具",
+          "body": "在 ACE 化工厂中央生化毒气车间经历终极危机并破坏起爆器后，俯视中央铁格栅地面，可清晰拾得稻草人在《疯人院》中佩戴的那张残破单眼粗麻布面罩。这一旧版实物与克莱恩如今缝入皮肉的新面容并存，直观展现了这名狂人的极端异化。",
           "images": [
             "kn2-arkham-souvenirs-5-1"
           ],
@@ -1575,8 +1575,8 @@
       "game": "knight",
       "region": "Panessa Studios",
       "regionLabel": "帕内萨影业",
-      "title": "再次出现的阿卡姆符号",
-      "summary": "幻象中的墙面文字，召回了系列最初的岛屿。",
+      "title": "小丑精神幻觉牢房与疯人院院史同心圆符印",
+      "summary": "深层意识监牢墙面上密布的阿马迪厄斯血字，将恐惧终局拉回初代疯人院起点。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Souvenirs from Arkham / Writing",
       "chapterFrame": 1310,
@@ -1584,8 +1584,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "回到相同的符号",
-          "body": "帕内萨影业的幻象与哥谭墙面，会再次出现类似《疯人院》院史记录的符号。终章小丑牢房里的“I hate Frankie”文字又可联想到警卫弗兰克·博尔斯，把旧作人物以一句怨言留在这里。",
+          "title": "“我憎恨这所疯人院”的阿卡姆符码诅咒",
+          "body": "在主线终盘蝙蝠侠在精神深处与小丑人格做终极意识剥离决战时，幻象中的地下病房四壁布满了用指甲抠出的同心圆符文与癫狂涂鸦，中央用鲜血写就“I hate Arkham Asylum”（我恨阿卡姆疯人院）。这一视觉格局分毫不差地重现了初代疯人院创始人阿马迪厄斯牢房墙面的密宗诅咒，完成精神轮回。",
           "spoiler": false,
           "images": [
             "kn2-arkham-writing-1-1",
@@ -1599,8 +1599,8 @@
       "game": "knight",
       "region": "Paulis Diner",
       "regionLabel": "保利餐馆",
-      "title": "保利餐馆从片头走到街角",
-      "summary": "系列第一作的雨夜街景，与《骑士》的开场坐在同一间餐馆里。",
+      "title": "序章保利餐馆从初代街景招牌走向第一人称舞台",
+      "summary": "初代蝙蝠车开场窗外呼啸而过的餐馆，在终章成为整场哥谭沦陷灾难的引爆点。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Paulis Diner / Diners Menu",
       "chapterFrame": 1515,
@@ -1608,8 +1608,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "重看那块霓虹招牌",
-          "body": "《疯人院》片头街景就能看到这家餐馆，《骑士》则让玩家坐到店内。Pauli’s 的命名又与保罗·迪尼相呼应；他参与了动画与前两部阿卡姆游戏的编剧工作。",
+          "title": "车窗外虚焦招牌到真实室内交互的跨越",
+          "body": "在《阿卡姆疯人院》序章蝙蝠车押送小丑的飞驰运镜中，保利餐馆（Pauli’s Diner）仅作为远景街角一掠而过的霓虹招牌；而在《阿卡姆骑士》开篇，玩家直接化身警员欧文斯推开这扇玻璃门，在餐位间巡视并亲历稻草人毒气的爆发，将当年向保罗·丁尼致意的布景升格为终章揭幕的原点舞台。",
           "spoiler": false,
           "images": [
             "kn2-paulis-diner-1-1",
@@ -1617,8 +1617,8 @@
           ]
         },
         {
-          "title": "菜单上的城市地图",
-          "body": "菜单把 Falcone、Miagani、Otisburg、Blüdhaven 和 Keystone 换成意面、松饼、汉堡、香肠与华夫饼的名字。菜单用食物保存了城市、家族和其他英雄家乡的痕迹。",
+          "title": "桌上塑料餐牌绘制的全市地理版图",
+          "body": "细审餐馆每一张餐桌上的折叠式塑料菜单，内页不仅印有汉堡与咖啡价目，背景底纹更详细印制着包括法尔科内码头、米亚加尼岛、奥提斯堡以及布鲁德海文与中心城联运大巴时刻表的全套虚构城市地理图谱。",
           "spoiler": false,
           "images": [
             "kn2-paulis-diner-2-1"
@@ -1631,8 +1631,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "欧文斯记得你有没有开枪",
-      "summary": "开场一瞬间的操作，会改变他后来讲述这件事的方式。",
+      "title": "警员欧文斯在餐馆是否开枪引发警局后续对话分歧",
+      "summary": "序章在幻象中选择扣动扳机或克制不开火，欧文斯在警局避难室的自白将彻底分化。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "The Owens Effect",
       "chapterFrame": 1645,
@@ -1640,8 +1640,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "选择留下的对白差异",
-          "body": "餐馆毒气发作时，玩家可以选择向眼前的“恶魔”开枪，也可以不射击。之后在哥谭警局与欧文斯交谈，对话会根据这个行为变化，把开场的操作带回幸存者的自责与回忆。",
+          "title": "幻觉深渊中的开火与克制抉择",
+          "body": "在序章欧文斯警员吸入恐惧毒气、目睹全餐厅食客化作狞笑恶魔向自己扑来时，玩家若按键扣动扳机向幻象疯狂射击，后续在哥谭警局总署避难室内与其交谈，双手颤抖的欧文斯会痛哭自责“我朝无辜平民开了枪，我成了凶手”；而若当时克制未开一枪，他的台词则会变为庆幸“感谢上帝，我当时虽然吓破了胆，但我的手没有失控”。",
           "spoiler": false,
           "images": [
             "kn2-owens-choice-1-1",
@@ -1655,8 +1655,8 @@
       "game": "knight",
       "region": "Paulis Diner",
       "regionLabel": "保利餐馆",
-      "title": "点唱机里的《Only You》",
-      "summary": "一首旧歌穿过两部游戏，在不同场景里改变了意味。",
+      "title": "保利餐馆点唱机旋律与终局幻象中的《Only You》",
+      "summary": "开场点唱机投币播放的复古旋律，贯穿全篇并在终盘小丑意识对峙中再度响起。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Only You",
       "chapterFrame": 1720,
@@ -1664,16 +1664,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "开场餐馆的唱片",
-          "body": "保利餐馆点唱机播放 The Platters 的《Only You》。同一首歌也与《阿卡姆之城》的片尾联系在一起，熟悉前作的人会在早餐场景里听到另一层记忆。",
+          "title": "点唱机投币孔流淌出的《Only You》原声",
+          "body": "在序章保利餐馆吧台旁的老式机械点唱机处，其播放的招牌唱片正是 The Platters 演唱的 1955 年金曲《Only You》（唯有你）。这首曾在《阿卡姆之城》片尾作为小丑私人绝唱留言的经典歌曲，在此以实体黑胶的方式重现于暴乱前夕的静谧时刻。",
           "spoiler": false,
           "images": [
             "kn2-only-you-1-1"
           ]
         },
         {
-          "title": "旋律进入幻象",
-          "body": "餐馆后续播放的曲调与强尼·卡里斯玛表演相连，《Only You》还会进入终章幻象。音乐从街头背景变成小丑式的私人表演。",
+          "title": "潜意识决战中卡里斯玛与小丑的合唱重现",
+          "body": "这首旋律随后贯穿了整部游戏的精神异化暗线：从帕内萨影业强尼·卡里斯玛登台献唱的狂暴改编版，直到终盘蝙蝠侠在潜意识病房中彻底封锁小丑时，这首凄婉情歌再次响彻意识空间，成为跨越生死的标志性宿命咏叹调。",
           "spoiler": true,
           "images": [
             "kn2-only-you-2-1"
@@ -1686,8 +1686,8 @@
       "game": "knight",
       "region": "Panessa Studios",
       "regionLabel": "帕内萨影业",
-      "title": "重武器手臂上的复仇标志",
-      "summary": "哈莉手下的纹身，沿用了前作 DLC 的视觉符号。",
+      "title": "帕内萨影业加特林机枪暴徒手臂上的复仇纹身",
+      "summary": "哈莉麾下重装机枪手的肱二头肌上，刺有前作 DLC《哈莉·奎恩的复仇》专属标志。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Harley Quinn Tattoo",
       "chapterFrame": 1760,
@@ -1695,8 +1695,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "放大看一眼胳膊",
-          "body": "扛着转轮机枪的哈莉手下，手臂上纹着“Harley Quinn’s Revenge”样式标志。它把《阿卡姆之城》DLC 的名字放进角色皮肤细节，成为她这批追随者的一种识别图案。",
+          "title": "黑色丧服 DLC 的视觉符号沿用",
+          "body": "在帕内萨影业核心放映厅对峙哈莉·奎恩手下护卫的重装加特林转轮机枪暴徒时，若使用照相模式推近审视其粗壮的手臂纹身，其肱二头肌处赫然刺着前作经典追加篇章《哈莉·奎恩的复仇》（Harley Quinn’s Revenge）的红黑菱格与泪滴心脏徽标，交代了这批死忠精锐暴徒正是当年追随哈莉血洗船坞的嫡系残党。",
           "spoiler": false,
           "images": [
             "kn2-harley-tattoo-1-1"
@@ -1709,8 +1709,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "侦探模式里的身体细节",
-      "summary": "扫描人物时，医疗图像也会保存她经历过的伤。",
+      "title": "侦探模式透视神谕脊椎清晰呈现《致命玩笑》旧伤",
+      "summary": "开启透视视野扫描芭芭拉·戈登，其腰椎处清晰可见金属固定支架与粉碎性骨折痕迹。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Barbaras Condition",
       "chapterFrame": 1788,
@@ -1718,8 +1718,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "骨骼图像中的旧伤",
-          "body": "用侦探模式观察芭芭拉，可以看到脊柱损伤的细节。它与小丑枪击造成的旧伤相连，把《致命玩笑》对应的人物经历留在游戏的扫描表现中。",
+          "title": "骨骼扫描呈现的永久性中枢神经创伤",
+          "body": "在钟楼与芭芭拉·戈登当面交接情报时，开启侦探模式透视其身躯，医学扫描图表极为严谨地在芭芭拉的腰椎第 4-5 节区域呈现出数道微型钛合金固定螺栓与明显的脊髓粉碎性骨折痕迹。极其精准地还原了 1988 年图画小说《致命玩笑》中小丑开枪射穿其脊椎、导致其下半身永久瘫痪并终身依靠轮椅的悲壮过往。",
           "spoiler": false,
           "images": [
             "kn2-barbara-condition-1-1"
@@ -1732,8 +1732,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "重返稻草人的藏身处",
-      "summary": "离开之后再回来，房间会用另一幅画面回应你的记忆。",
+      "title": "摧毁云爆坦克后重访稻草人密室的轮椅幻象",
+      "summary": "引爆生化核心消除全城毒气后重返芭芭拉遇害房间，轮椅上赫然出现小丑幻觉。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Barbaras Fate",
       "chapterFrame": 1830,
@@ -1741,8 +1741,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "轮椅上的替代者",
-          "body": "芭芭拉“自杀”的场面属于恐惧幻象，镜头中还能看到小丑移动枪的位置。摧毁 Cloudburst 后再回稻草人藏身处，轮椅上会变成装死的小丑；等待片刻，他又醒来拿芭芭拉的消失开玩笑。",
+          "title": "毒雾散去后空轮椅上的嘲弄幻影",
+          "body": "在主线中亲历芭芭拉在稻草人密室“饮弹自尽”的心碎惨剧后，若在终盘成功摧毁云爆装甲坦克、驱散全城恐惧毒雾后重新破窗进入该处密室，原本倒在地面的空轮椅上赫然幻化出小丑那身紫西装的狂笑剪影。小丑肆无忌惮地把玩着手枪冷嘲热讽，证实此前的自尽完全是浓烈神经毒素诱发的虚假心理幻觉。",
           "spoiler": false,
           "images": [
             "kn2-barbara-return-1-1",
@@ -1756,8 +1756,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "小丑也要竞选？",
-      "summary": "民兵对荒诞候选人的闲谈，把笑话指向另一部漫画。",
+      "title": "雇佣军闲聊调侃小丑竞选市长致敬《无人之地》",
+      "summary": "士兵关于小丑曾试图竞选市政公职的取笑，暗合 1999 年漫画名篇《法典》。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "Joker for President",
       "chapterFrame": 1910,
@@ -1765,8 +1765,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "谁会投票给他",
-          "body": "一段民兵闲谈提到小丑曾经竞选。视频把它与《Batman: The Code》中“无人之地”背景下的竞选情节并置，让哥谭式政治笑话藏在巡逻间隙里。",
+          "title": "“谁会把选票投给一个涂油彩的疯子？”",
+          "body": "在创始者岛制高点偷听阿卡姆骑士巡逻哨兵交谈，士兵调侃起哥谭历任政客的荒诞：“如果小丑当年真的竞选市长成功，哥谭的税收是不是全得换成整蛊电击器？！”这一看似随口的荒诞玩笑，精确指向 1999 年《无人之地》系列中的经典短篇《法典》（The Code），该作中小丑确实曾大模大样成立竞选总部、在废墟中向难民拉选票。",
           "spoiler": false,
           "images": [
             "kn2-joker-election-1-1"
@@ -1779,8 +1779,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "转开视线后，广告变了",
-      "summary": "同一块广告牌的前后对照，藏着主线推进后的感知变化。",
+      "title": "化工厂事故后全城商业广告瞬变小丑狞笑海报",
+      "summary": "视线稍作移开再回望，商场情侣海报与先驱报头条的模特五官均被小丑油彩夺舍。",
       "source": "batman-arkham-videos-knight-3",
       "chapterTitle": "Jokerfied / Posters",
       "chapterFrame": 45,
@@ -1788,8 +1788,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "熟悉的脸被替换",
-          "body": "ACE 化工厂事件后，部分广告会短暂变成小丑版本。商场情侣广告、Gotham Herald 的蝙蝠侠宣传画、饮料与医院广告，都可能在一瞥之间换脸；转开视线后又恢复正常。视频用上下对照保留了两种状态。",
+          "title": "视线移转间广告牌的无声夺舍",
+          "body": "在经历 ACE 化工厂大爆炸吸入高浓度毒气后，布鲁斯脑内的泰坦毒血全面苏醒。此时漫步街头，原本光鲜亮丽的商场香水情侣广告、哥谭先驱报的市政头版甚至内衣模特海报，只要将镜头移开半秒再转回，广告人物的脸孔瞬间全数异化为面色惨白、嘴角撕裂流血的小丑狞笑面庞；再转回视线又瞬时复原，将精神侵蚀的恐怖表现得淋漓尽致。",
           "spoiler": false,
           "images": [
             "kn3-changing-posters-1-1",
@@ -1805,8 +1805,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "雕像也会在一瞬间改变",
-      "summary": "石像与天际线中的异常，通常只给人很短的观察时间。",
+      "title": "雷击一瞬哥谭女神像面容突变为巨型小丑石雕",
+      "summary": "暴雨闪电划破天际的刹那，哥谭标志性的古典石像全部浮现出小丑的扭曲五官。",
       "source": "batman-arkham-videos-knight-3",
       "chapterTitle": "Jokerfied / Statues",
       "chapterFrame": 150,
@@ -1814,8 +1814,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "从建筑装饰到哥谭女神",
-          "body": "城市雕像也会短暂带上小丑的面容。凝视哥谭女神像片刻，闪电击中时还会出现巨型的小丑化造型；随后的正常景观让这次变化像一次不可靠的目击。",
+          "title": "闪电白光中一闪而逝的石雕狂笑",
+          "body": "伫立在中央广场极目仰望高耸入云的哥谭女神（Lady of Gotham）石像，当夜空中一道惨白雷电击中女神头顶避雷针的千分之一秒内，整座巍峨庄严的古典女神雕像面容会在强光中突兀扭曲为小丑狰狞的大笑石雕，甚至两旁拱卫的天使滴水兽亦尽皆化作尖牙利齿的小丑面具，将整座都市的天际线转化为布鲁斯逐渐失控的梦魇心象。",
           "spoiler": false,
           "images": [
             "kn3-changing-statues-1-1",
@@ -1830,8 +1830,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "街头战斗里的一张异样面孔",
-      "summary": "某些战斗中的异常，需要在动作间隙才能看清。",
+      "title": "街头徒手肉搏中暴徒建模一瞬间异化为小丑",
+      "summary": "在高连击近身搏击的动作间隙，普通打手的外貌会突然幻化为小丑并挥拳撕咬。",
       "source": "batman-arkham-videos-knight-3",
       "chapterTitle": "Jokerfied / Combat",
       "chapterFrame": 225,
@@ -1839,8 +1839,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "一名敌人变成小丑",
-          "body": "与街头敌人交战时，其中一人可能短暂呈现小丑外形。移开视角或进入侦探模式后，他又恢复原状。这种变化直接嵌进日常战斗，把幻象从固定剧情延伸到随机遭遇。",
+          "title": "近身肉搏格斗中暴徒身躯的瞬时幻视",
+          "body": "在开放世界街头与大批雇佣兵或暴乱暴徒展开徒手群殴时，若在打出超高连击的动作间隙细看对手，有极低概率会目睹其中一名扑上来的普通暴徒在出拳瞬间全身骨骼与服饰骤变为紫色西装、绿发惨白的小丑本人！而一旦将其击倒或开启侦探模式，该建模又立即恢复为普通的民兵士兵，无时无刻不在提醒玩家蝙蝠侠的理智防线正处于崩溃边缘。",
           "spoiler": false,
           "images": [
             "kn3-changing-thugs-1-1",
@@ -1854,8 +1854,8 @@
       "game": "knight",
       "region": "Founders’ Island",
       "regionLabel": "创始者岛",
-      "title": "遥控战车时回头看一眼",
-      "summary": "远程驾驶也有一处容易错过的镜头。",
+      "title": "创始者岛遥控蝙蝠车时驾驶舱赫然坐着小丑",
+      "summary": "使用遥控指令操控无人战车对决眼镜蛇坦克，环视座舱却见小丑端坐手握方向盘。",
       "source": "batman-arkham-videos-knight-3",
       "chapterTitle": "Jokerfied / Driver",
       "chapterFrame": 270,
@@ -1863,8 +1863,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "驾驶座里是谁",
-          "body": "创始者岛遥控蝙蝠车对付 Cobra 坦克时，转动镜头查看驾驶舱，可以看到小丑坐在驾驶座。远程操作本该让驾驶者离开车内，这幅画面却把他的精神入侵放在最直观的位置。",
+          "title": "无人驾驶座舱内的癫狂虚拟幽灵",
+          "body": "在创始者岛深入敌后、站在高空脚手架上开启遥控模式操控蝙蝠车去侧翼伏击重型“眼镜蛇”（Cobra）主战坦克时，若将车外跟随镜头旋转切入装甲车舱内侧视点，原本理应空无一人的主驾驶座上，赫然坐着兴奋握紧方向盘、踩踏油门疯狂咆哮的小丑幻象！将高科技遥控作战与精神附身完成了极具惊悚张力的视听融合。",
           "spoiler": false,
           "images": [
             "kn3-remote-driver-1-1",
@@ -1878,8 +1878,8 @@
       "game": "knight",
       "region": "Paulis Diner",
       "regionLabel": "保利餐馆",
-      "title": "餐馆里见过的那张脸",
-      "summary": "一位普通食客的模型，在故事另一端重新出现。",
+      "title": "保利餐馆食客建模在终局抢劫案中复用为持枪劫匪",
+      "summary": "序章餐馆内戴针织帽的普通男食客，在骑士陨落终局动画中作为巷口劫匪再度登场。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Have We Met Before",
       "chapterFrame": 20,
@@ -1887,8 +1887,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "从早餐桌到结局",
-          "body": "开场餐馆里一位戴针织帽的食客，与完整结局中试图抢劫一家人的罪犯使用相同面孔。视频将其与开发者模型的使用联系起来；在故事里，一张熟脸把平常的早晨与恶魔蝙蝠侠出现的夜晚接到一起。",
+          "title": "从受害者到犯罪巷劫匪的资产复用",
+          "body": "在序章保利餐馆靠窗位置安静用餐的一名头戴深色毛线帽、神情木讷的普通市民 3D 模型，在全要素达成的终极“骑士陨落”过场动画中再度登场——他换上了破旧皮夹克，在黑巷深处拔出左轮手枪企图抢劫一对阔绰夫妇与年幼孩子，在视觉资产层面完美闭环重现了托马斯与玛莎·韦恩遇害的宿命瞬间。",
           "spoiler": false,
           "images": [
             "kn4-familiar-faces-1-1"
@@ -1901,8 +1901,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "哥谭人画出的蝙蝠侠",
-      "summary": "街头涂鸦让英雄以传说、轮廓与个人想象的方式出现。",
+      "title": "街头砖墙上底层市民手绘的蝙蝠侠图腾涂鸦",
+      "summary": "与韦恩科技的冰冷几何不同，街巷涂鸦以粗粝油漆涂绘出宛若恶魔的暗夜守护神。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Batman Street Art",
       "chapterFrame": 40,
@@ -1910,8 +1910,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "城市自己的画像",
-          "body": "墙面上能看到蝙蝠和蝙蝠侠主题涂鸦。它们不像韦恩科技那样整齐，而是把黑影、耳朵与披风转成粗粝的街头图像：人们未必见过本人，却已经学会画出他的传说。",
+          "title": "市井巷陌中粗粝生长的民间神话",
+          "body": "在布莱克岛与大锅区潮湿阴暗的砖石墙面上，随处可见哥谭底层市民与流浪街头艺术家用黑色与亮黄喷漆涂绘的蝙蝠侠全身涂鸦。这些画作脱离了高科技装甲的精致感，往往被赋予狂乱的尖耳、撕裂的斗篷翅翼以及血红的眼眸，真实折射出底层哥谭平民眼中那位既带来救赎又令人战栗的都会都市怪谈。",
           "spoiler": false,
           "images": [
             "kn4-street-art-1-1"
@@ -1924,8 +1924,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "报纸上的阿卡姆重建计划",
-      "summary": "城市危机之外，新闻还在争论旧监狱留下的未来。",
+      "title": "哥谭先驱报头版披露韦恩出资三亿美元重建阿卡姆之城",
+      "summary": "长椅上的散落报纸头条，报道了布鲁斯·韦恩为修复被毁旧城区设立的庞大基金。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Arkham Legacy",
       "chapterFrame": 65,
@@ -1933,8 +1933,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "旧地点的新用途",
-          "body": "报纸标题谈到韦恩企业承诺投入三亿美元重建阿卡姆城，也讨论疯人院重新开放的可能。相关对话让前两作的空间成为公共议题：对蝙蝠侠是亲历过的危险，对城市则是资金、医疗和行政决策。",
+          "title": "三亿美元旧城修复基金与疯人院重开争议",
+          "body": "在长椅与报摊翻检《哥谭先驱报》（Gotham Herald）最新号外，头版头条赫然刊登着醒目标题：“韦恩企业注资三亿美元全面推进阿卡姆之城战后重建计划”，详细论证将隔离区改建为现代保障住房的可行性；而副刊专栏则在激烈辩论是否应重新修缮并启用阿卡姆岛疯人院收治重刑犯，严密补充了前两部作品废墟的战后政治走向。",
           "spoiler": false,
           "images": [
             "kn4-arkham-legacy-1-1",
@@ -1948,8 +1948,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "钟楼里的化装舞会海报",
-      "summary": "一张皇家酒店活动海报，把《起源》地点与蝙蝠女漫画连在一起。",
+      "title": "钟楼废弃储藏室海报致敬《蝙蝠少女：第一年》",
+      "summary": "哥谭皇家酒店假面舞会旧海报，将芭芭拉首度穿戴自制战衣制敌的起源定格。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Batgirl Year One",
       "chapterFrame": 110,
@@ -1957,8 +1957,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从 Masquerade 读起",
-          "body": "钟楼的“Masquerade Ball”海报写着 Gotham Royal Hotel。皇家酒店是《阿卡姆起源》的重要地点，“Masquerade”又是《Batgirl: Year One》首章标题。旁边保存的蝙蝠女战衣，让海报的指向更为贴近芭芭拉。骇入控制装置后，钟楼还能打开保存蝙蝠女战衣的暗柜，扫描它可完成另一道谜语。",
+          "title": "皇家酒店慈善假面舞会的起源记忆",
+          "body": "在钟楼二层废弃机房墙面上，张贴着一张泛黄的“哥谭皇家酒店假面慈善舞会”（Masquerade Ball at Gotham Royal Hotel）复古宣传海报。皇家酒店正是《阿卡姆起源》小丑挟持的核心舞台；而在经典漫画《蝙蝠少女：第一年》（Batgirl: Year One）中，芭芭拉·戈登正是为了参加这场假面舞会亲手缝制了一套蝙蝠紧身服，并在意外遭遇杀手蛾袭击时挺身而出、从此踏上传奇义警生涯。",
           "spoiler": false,
           "images": [
             "kn4-batgirl-year-one-1-1",
@@ -1972,8 +1972,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "莱德给报道起的名字",
-      "summary": "记者把获救经历写成报道，标题也带着漫画记忆。",
+      "title": "获救记者杰克·赖德欲将邪教报道定名《教团》",
+      "summary": "挫败执事黑火的血祭后，赖德自述将把经历整理为专稿《The Cult》刊发。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "The Cult",
       "chapterFrame": 180,
@@ -1981,8 +1981,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "The Cult",
-          "body": "完成“Lamb to the Slaughter”后与莱德交谈，他会考虑把这次经历的报道命名为“The Cult”。这也是执事黑火初登场的漫画迷你系列名称，游戏让一个出版物标题成了记者的现场选题。",
+          "title": "致敬 1988 年经典图画小说《邪教》",
+          "body": "在女神像广场将执事黑火（Deacon Blackfire）击倒并瓦解其极端邪教组织后，返回哥谭警局与杰克·赖德交谈，这位重新燃起新闻野心的记者兴奋地表示：“等我离开这里，我要把今晚经历的地下洗脑与血祭阴谋写成一篇惊世骇俗的独家重磅纪实，标题我都想好了，就叫《教团》（The Cult）！”直接致敬了吉姆·斯塔林 1988 年描写黑火执事操控信徒洗脑蝙蝠侠的经典暗黑名篇。",
           "spoiler": false,
           "images": [
             "kn4-the-cult-1-1"
@@ -1995,8 +1995,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "珠宝店与游乐设施上的创作者",
-      "summary": "一些商业招牌，把画师的姓氏留下来。",
+      "title": "商业街珠宝行与游乐场招牌致敬漫画主创",
+      "summary": "“McKie’s Gems”与“Newton Fairgrounds”，将传奇画师的名字镌刻于街面字号。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Comic Writers",
       "chapterFrame": 200,
@@ -2004,8 +2004,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "McKie 与 Newton",
-          "body": "McKie’s Gems 对应漫画画师 Angus McKie，Newton Fairgrounds 则让人联想到蝙蝠侠画师 Don Newton。走过商店与娱乐设施时，创作者的名字已经被融进哥谭的营业招牌。Dixon Docks 则沿用恰克·迪克森的姓氏，这个码头命名也曾出现在《起源》的北哥谭。",
+          "title": "画师安格斯·麦基与唐·纽顿的铭文致敬",
+          "body": "在米亚加尼岛繁华商业天街上，“McKie’s Gems”高档珠宝行店招直接致敬了 1989 年《阿卡姆疯人院：严肃的屋子》中负责调配水彩油墨的传奇上色画师安格斯·麦基（Angus McKie）；而海滨游乐场的注册商标“Newton Fairgrounds”，则向 1970-80 年代长年主笔《侦探漫画》与经典蝙蝠侠长篇的名画师唐·纽顿（Don Newton）致以崇高敬意。",
           "spoiler": false,
           "images": [
             "kn4-comic-writers-1-1",
@@ -2020,8 +2020,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "被重新演出的家族悲剧",
-      "summary": "两部漫画的关键画面，进入了《骑士》的人物记忆。",
+      "title": "主线精神审判重现《致命玩笑》与《家庭之死》悲剧现场",
+      "summary": "幻觉深处芭芭拉中弹倒地与杰森遭烙铁摧残的闪回，精准重现两大里程碑级名场面。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Family Tragedies",
       "chapterFrame": 270,
@@ -2029,8 +2029,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "致命玩笑与家庭之死",
-          "body": "芭芭拉被枪击的回忆与杰森遭小丑虐待的片段，分别接向《致命玩笑》和《家庭之死》。游戏借用了人物关系与视觉构图，又把它们放进《骑士》的幻象和身份冲突中；漫画与阿卡姆连续性的事件细节各有安排。",
+          "title": "门廊枪响与废弃阿卡姆疯人院地下室的酷刑",
+          "body": "在主线剧情两处核心精神审判关卡中，Rocksteady 极其严谨地以电影化运镜重现了布鲁斯一生中最沉痛的两大溃败：先是分毫不差地还原了《致命玩笑》中小丑敲开公寓大门、近距离击穿芭芭拉脊椎的走廊视角；继而通过被盗录像带与废弃疯人院地下车间，具象化了《家庭之死》二代罗宾杰森·托德被小丑用撬棍与烙铁连续折磨一年有余的残酷真相，构筑起终章最沉重的情感支柱。",
           "spoiler": false,
           "images": [
             "kn4-family-tragedies-1-1",
@@ -2044,8 +2044,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "奖杯列表也是一份漫画书单",
-      "summary": "通关、支线与 DLC 奖杯名中，分布着大量熟悉的故事标题。",
+      "title": "主线成就与 DLC 奖杯名称化用经典蝙蝠侠漫画书单",
+      "summary": "从《骑士陨落》到《无人之地》，全达成奖杯名构成了半部半世纪漫画编年史。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Comic Book Trophies",
       "chapterFrame": 320,
@@ -2053,8 +2053,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "主游戏的标题借用",
-          "body": "Knightfall、No Man’s Land、Gates of Gotham、Living Hell、Nine Lives 等奖杯名，都能与蝙蝠侠漫画标题相对照。视频将这些名称按作品列成表格；在完成任务之后读一遍奖杯列表，也能发现另一条阅读路线。",
+          "title": "主线战役中的里程碑漫画标题借用",
+          "body": "审阅全套成就与奖杯列表，各核心章节的通关奖杯命名全数取自 DC 殿堂级漫画名作：通关战役解锁的“Knightfall”（骑士陨落）、驱散全城毒气解锁的“No Man’s Land”（无人之地）、探索下水道遗迹解锁的“Gates of Gotham”（哥谭之门），以及收押超级罪犯解锁的“Living Hell”（人间地狱），使奖杯列表本身演变为一份含金量极高的大师级书单推荐。",
           "spoiler": false,
           "images": [
             "kn4-comic-trophies-1-1",
@@ -2062,8 +2062,8 @@
           ]
         },
         {
-          "title": "故事包与赛车包",
-          "body": "“GCPD Lockdown”的 Rough Justice、“Catwoman’s Revenge”的 The Cat Came Back，以及赛车包中的 Street Demonz、Gangland Express、Joy Ride，继续沿用了漫画故事名称。这些名称以奖杯题目的形式，向各自的漫画故事致意。",
+          "title": "故事包与赛车追加篇章的篇名致敬",
+          "body": "在后续发布的剧情 DLC 中，这一命名法则依然被严格恪守：警局防守故事包解锁成就“Rough Justice”（严苛正义）、猫女复仇篇解锁“Catwoman’s Revenge”（猫女的复仇），而在蝙蝠车经典竞速包中更密集罗列着“The Long Halloween”与“Dark Knight Returns”等传奇篇名。",
           "spoiler": false,
           "images": [
             "kn4-comic-trophies-2-1",
@@ -2077,8 +2077,8 @@
       "game": "knight",
       "region": "Paulis Diner",
       "regionLabel": "保利餐馆",
-      "title": "从餐馆门口走过的游戏总监",
-      "summary": "开场进门时，一次擦肩而过藏着制作团队的客串。",
+      "title": "游戏总监塞夫顿·希尔在序章餐馆与终局人群中客串",
+      "summary": "欧文斯警员推门步入餐馆时擦肩而过的食客，面部建模完全采集自主管塞夫顿·希尔。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Sefton Hill",
       "chapterFrame": 375,
@@ -2086,16 +2086,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "塞夫顿·希尔的面孔",
-          "body": "欧文斯进入保利餐馆时，离开的客人使用了游戏总监 Sefton Hill 的面孔。镜头并不为这次客串停留，角色穿着日常服装走进哥谭，像城市里任何一个准备结束早餐的人。",
+          "title": "餐馆正门前擦肩而过的总监面庞",
+          "body": "在序章欧文斯警员推开保利餐馆厚重推拉门、迈入餐厅的一瞬间，迎面正好走出一名身着便服大衣、神色平静离开餐馆的白人顾客。仔细端详其五官细节，其面部 3D 扫描资产正是阿卡姆三部曲的主管兼 Rocksteady 联合创始人塞夫顿·希尔（Sefton Hill）本人的真实数字化肖像。",
           "spoiler": false,
           "images": [
             "kn4-sefton-hill-1-1"
           ]
         },
         {
-          "title": "庄园前的第二次出现",
-          "body": "完整“骑士陨落”结局中，同一客串还出现在维姬·维尔身后的人群里。视频提及的可操作版本来自 PC 模组，与原版这两次背景露脸属于不同形式。",
+          "title": "终局“骑士陨落”记者人潮中的二次登场",
+          "body": "在全要素终极结局“骑士陨落”的过场动画中，当布鲁斯走向庄园自毁大门时，维姬·维尔身后拥挤的新闻采访团队与警卫人群中，塞夫顿·希尔的数字化模型再次作为无声见证者低调伫立于后排镜头边缘，完成其作为缔造者的终章签名。",
           "spoiler": true,
           "images": [
             "kn4-sefton-hill-2-1"
@@ -2108,8 +2108,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "开发团队藏进了哥谭的人群",
-      "summary": "市民、警员、通缉照和铭牌，共同组成一份分散的制作名单。",
+      "title": "Rocksteady 制作组成员全面融入哥谭警员、市民与通缉犯",
+      "summary": "伊恩·鲍尔、丹尼·默多克等核心开发者肖像与姓名，被分散植入城市每一个角落。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Rocksteady Team",
       "chapterFrame": 440,
@@ -2117,8 +2117,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "市民与警员",
-          "body": "视频将餐馆顾客等面孔与 Ian Ball、Danny Murdock、Cameron Small、Mirko Petrelli 等成员并置。警局的 Officer Deaves、Sergeant Ginn、Officer Loveridge 也借用了团队成员的姓名。",
+          "title": "市民与殉职警员面部建模的制作组采样",
+          "body": "在全城遇难警员与保利餐馆避难市民的高清面部模型中，包括主程序员 Ian Ball、关卡策划 Danny Murdock、动画主管 Cameron Small 与技术专家 Mark Kevern 等多位团队成员的面容均被直接扫描实装为 NPC，成为这座虚拟都市的实体血肉。",
           "spoiler": false,
           "images": [
             "kn4-rocksteady-team-1-1",
@@ -2128,8 +2128,8 @@
           ]
         },
         {
-          "title": "把名单写进物件",
-          "body": "Roberto Fera、Alick Goldenberg、Sarah York 等名字进入通缉海报；雕像底座又能读到 Robert Holehouse。街道和“Iron Heights”标牌也加入了制作成员姓名，把落款拆散到城市各处。1989 版蝙蝠车轮胎上还写着“Rckstdy-Tx7”，把工作室名字变成了轮胎品牌式的字样。",
+          "title": "通缉令与警务档案中列名的核心职员",
+          "body": "在旧警局值班室张贴的逃犯通缉海报与战术部署板上，Roberto Fera、Alick Goldenberg 以及 Sarah York 等核心系统策划的名字均被冠以重罪嫌疑人或当值警督之名，以极具游戏工业特色的自嘲方式留名。",
           "spoiler": false,
           "images": [
             "kn4-rocksteady-team-2-1",
@@ -2140,8 +2140,8 @@
           ]
         },
         {
-          "title": "诺兰·诺斯的冷藏公司",
-          "body": "企鹅人据点所在的 North Refrigeration，名字可联想到配音演员 Nolan North。他为《阿卡姆之城》《阿卡姆起源》《阿卡姆骑士》的企鹅人配音；视频以他参与《Uncharted 4》展示的画面作人物对照。",
+          "title": "企鹅人冷藏窝点冠以配音大师诺兰·诺斯之名",
+          "body": "企鹅人在市区作为隐蔽武器库的连锁冷库企业“North Refrigeration”（北方冷藏），其商号“North”直接致敬了在全系列中为企鹅人奥斯瓦尔德·科波特奉献了绝神伦敦腔配音的美国国宝级配音演员诺兰·诺斯（Nolan North）。",
           "spoiler": false,
           "images": [
             "kn4-rocksteady-team-3-1",
@@ -2155,8 +2155,8 @@
       "game": "knight",
       "region": "Miagani Island",
       "regionLabel": "米亚加尼岛",
-      "title": "小到几乎读不出的留言",
-      "summary": "停车楼贴图的一角，留着写给放大画面之人的玩笑。",
+      "title": "米亚加尼岛多层立体车库承重柱上的开发者微雕留言",
+      "summary": "材质贴图极度微小的像素角落，留下一行给强迫症考据者的玩笑：“下次请我喝一杯”。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Buy Me a Beer",
       "chapterFrame": 650,
@@ -2164,8 +2164,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "你真的读得到吗",
-          "body": "米亚加尼岛多层停车楼的一处细小文字，先惊讶玩家竟然能看清，再以“以后请你喝一杯”的口吻收尾。同样的隐藏留言曾出现在《阿卡姆之城》：贴图分辨率成为笑话本身的一部分。",
+          "title": "“你能读到这行字，下次记得请我喝一杯”",
+          "body": "在米亚加尼岛一座多层立体停车楼拐角的混凝土承重柱下方，使用照片模式将焦距拉至最大并推近至墙面破损微距处，在看似寻常的施工安全警示标签极右下角的微米级像素噪点中，隐蔽印制着一行开发者的亲笔幽默留言：“如果你真的拿放大镜读到了这行小字，哥们，以后有机会在现实里遇到，你可得欠我一杯啤酒！（Buy me a beer）”",
           "spoiler": false,
           "images": [
             "kn4-buy-me-a-beer-1-1",
@@ -2179,8 +2179,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "1966 蝙蝠车赛道的隐藏放映",
-      "summary": "摄影棚风格的赛道里，还有一个可以开车进入的观影位置。",
+      "title": "1966 经典电视剧赛道摄影棚隐藏汽车影院放映",
+      "summary": "驾驶复古蝙蝠车驶入赛道侧方暗道，巨幅银幕正循环播放当年的实景片场。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Batman 66",
       "chapterFrame": 700,
@@ -2188,8 +2188,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "绕一圈，再找停车区",
-          "body": "1960s TV Series Batmobile Pack 的“Batcave Set”赛道，在第一圈后可以驶过停车区附近的障碍，触发蝙蝠车升起并观看 1966 年电影片头的机关。复古车型、布景和银幕，让挑战地图兼任了一间车内影院。",
+          "title": "摄影棚幕后布景与秘密汽车放映区",
+          "body": "在“1966 电视剧版蝙蝠车包”的蝙蝠洞竞速赛道中，完成两圈常规竞速后掉头驶入侧翼一条未经标注的维修匝道，可进入一处汽车影院式的封闭空间。前方巨型投影幕布上正循环放映着 1966 年亚当·韦斯特实景拍摄蝙蝠洞剧集时的罕见幕后花絮与机位测试片，将半个世纪前的影视记忆以彩蛋形式封存于虚拟片场。",
           "spoiler": false,
           "images": [
             "kn4-batman-66-1-1",
@@ -2204,8 +2204,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "伯顿电影留在挑战与游乐道具里",
-      "summary": "月光台词、企鹅人与小丑游行，把两部电影延伸成可探索空间。",
+      "title": "伯顿电影赛道苍白月光致敬与施雷克百货猫头道具",
+      "summary": "“在苍白月光下与魔鬼共舞”战役挑战，集结了 1989 与 1992 电影经典布景。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Batman 89",
       "chapterFrame": 825,
@@ -2213,8 +2213,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "苍白月光与猫头道具",
-          "body": "AR 挑战“Under the Pale Moonlight”借用 1989 年电影中小丑的台词；“Catwoman’s Revenge”里还能看到《蝙蝠侠归来》的柴郡猫头造型，同类道具也进入了电影主题赛道。",
+          "title": "月光名台词与伯顿电影道具全景集结",
+          "body": "在 1989 年电影主题赛车追加包中，专属战役挑战直接以小丑名台词命名为“在苍白月光下”（Under the Pale Moonlight）；赛道两旁密集排布着小丑毒气游行气球、施雷克百货的巨大猫脸霓虹灯以及企鹅人的机械行军企鹅炸弹，使整条竞速跑道化身为向蒂姆·伯顿哥特美学致敬的活体主题乐园。",
           "spoiler": false,
           "images": [
             "kn4-batman-89-1-1",
@@ -2228,8 +2228,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "“有黑色的吗？”",
-      "summary": "一场地下追逐里的挑衅，回应了诺兰电影的一句笑话。",
+      "title": "阿卡姆骑士驾驶重型掘进机嘲讽“有黑色的吗”",
+      "summary": "地下隧道追逐战开场挑衅，戏谑化用了《侠影之谜》中布鲁斯对战车的经典问句。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Does It Come in Black",
       "chapterFrame": 890,
@@ -2237,8 +2237,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "挖掘机也要挑颜色",
-          "body": "阿卡姆骑士开着巨型挖掘机出现时，话语呼应《蝙蝠侠：侠影之谜》中关于黑色装备的经典问句。原本带着轻松意味的试用装备笑话，在狭窄隧道里变成了敌人的挑衅。",
+          "title": "“告诉我，这台大家伙有黑色的吗？！”",
+          "body": "在地下排污主干道遭遇阿卡姆骑士亲自驾驶万吨级重型采矿掘进机截击时，座舱通讯信道里传来杰森狂妄的刺耳嘲讽：“嘿蝙蝠，告诉我，这台掘进机有没有黑色的款式？！”该台词直接化用了克里斯托弗·诺兰 2005 年电影《蝙蝠侠：侠影之谜》中布鲁斯·韦恩首次在应用科学部目睹迷彩装甲车原型时向卢修斯提出的经典反问，以仇恨之口倒戈了昔日导师的狂想。",
           "spoiler": false,
           "images": [
             "kn4-black-car-1-1"
@@ -2251,8 +2251,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "名叫 Codex 的书店",
-      "summary": "一家书店的名字，也能勾起《钢铁之躯》的联想。",
+      "title": "街角“The Codex”古籍书店致敬电影《钢铁之躯》",
+      "summary": "创始者岛古雅的书店字号，借用了氪星至宝“生命法典”（Codex）之名。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "The Codex",
       "chapterFrame": 905,
@@ -2260,8 +2260,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "同一个词的两种语境",
-          "body": "哥谭有“The Codex”书店。视频将 Codex 一词与《钢铁之躯》的氪星生命法典联系起来；作为书店命名，它也自然带有古籍与知识汇编的含义，留下了可以多读一层的空间。",
+          "title": "氪星基因圣物在哥谭书店门牌上的投射",
+          "body": "在创始者岛一处复古街区拐角，立着一家装潢沉稳的“The Codex Books”古旧善读书店。在查克·史奈德 2013 年电影《钢铁之躯》（Man of Steel）中，“法典”（The Codex）正是承载全氪星数亿未出生族人基因序列的无价圣物，制作组借同名词汇在市井书店招牌上向超人电影宇宙投去一束隐晦的目光。",
           "spoiler": false,
           "images": [
             "kn4-codex-1-1"
@@ -2274,8 +2274,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "街头敌人问“你会流血吗”",
-      "summary": "战斗中的一句挑衅，与电影预告里的一句话相遇。",
+      "title": "街头佣兵近身格斗挑衅追问“你会流血吗”",
+      "summary": "肉搏交锋中敌兵的冷酷质问，呼应了《蝙蝠侠大战超人》首曝预告引爆全球的名台词。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Do You Bleed",
       "chapterFrame": 940,
@@ -2283,8 +2283,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "一句适合敌人说的台词",
-          "body": "战斗时，敌人有时会问蝙蝠侠是否会流血。这与《蝙蝠侠大战超人》中蝙蝠侠对超人的问句相似。视频将二者并置为台词联想；在游戏现场，它也是罪犯试图挑战恐惧的一种说法。",
+          "title": "装甲重击下的流血之问",
+          "body": "在街头与全副武装的阿卡姆骑士精锐重装士兵陷入苦战胶着时，敌人挥舞重型警棍突袭时会低沉咆哮挑衅：“告诉我，你也会流血吗？！”这一问句分毫不差地取自 2015 年《蝙蝠侠大战超人：正义黎明》首支预告片中装甲蝙蝠侠对超人发出的世纪质问（Tell me, do you bleed?），以极富戏剧张力的方式重现于反派台词之中。",
           "spoiler": false,
           "images": [
             "kn4-do-you-bleed-1-1"
@@ -2297,8 +2297,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "哥谭墙上的哥特文学",
-      "summary": "吸血鬼、红死病与复仇戏剧，成为城市的文化布景。",
+      "title": "街头经典哥特文学戏单致敬《德古拉》与《红死病的假面舞会》",
+      "summary": "剧院橱窗张贴的十九世纪哥特戏剧海报，将吸血鬼、瘟疫狂欢与复仇悲剧融入街景。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Gothic and Classic Literature",
       "chapterFrame": 965,
@@ -2306,8 +2306,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "德古拉与红死病",
-          "body": "街头海报出现 Bram Stoker 的《德古拉》和 Edgar Allan Poe 的《红死病的假面》。书名、演出广告与阴暗建筑相处，让蝙蝠侠世界熟悉的哥特气质有了具体文本。",
+          "title": "吸血鬼始祖《德古拉》与爱伦·坡《红死病》",
+          "body": "在米亚加尼岛娱乐中心剧场宣传栏内，悬挂着由哥谭皇家剧团排演的十九世纪哥特惊悚戏剧海报：布拉姆·斯托克名著《德古拉》（Dracula）与埃德加·爱伦·坡传世短篇《红死病的假面舞会》（The Masque of the Red Death）赫然在列，暗扣蝙蝠侠的吸血鬼意象与全城生化毒气沦陷的狂欢末日。",
           "spoiler": false,
           "images": [
             "kn4-gothic-literature-1-1",
@@ -2315,8 +2315,8 @@
           ]
         },
         {
-          "title": "复仇者的悲剧",
-          "body": "《The Revenger’s Tragedy》也出现在广告中。复仇、伪装与被腐败包围的主人公，让这部古典戏剧可以与《骑士》人物遭遇并读；这种主题相近给环境增加了文学回声。道具书页中还有《歌剧魅影》和《巴黎圣母院》，让哥特与古典文学的联系延伸到可近看的纸面。",
+          "title": "英国文艺复兴复仇剧《复仇者的悲剧》",
+          "body": "相邻展板展示着托马斯·米德尔顿的名作《复仇者的悲剧》（The Revenger’s Tragedy），其关于主人公手持爱人头骨向暴君复仇、在伪装与杀戮中逐步沦为怪物的血腥主题，与阿卡姆骑士杰森·托德的复仇执念形成了极高文学维度的深度互文。",
           "spoiler": false,
           "images": [
             "kn4-gothic-literature-2-1",
@@ -2330,8 +2330,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "死亡画面里的另一种呼喊",
-      "summary": "小丑会模仿别的游戏如何呼唤倒下的主角。",
+      "title": "死亡嘲讽语音小丑戏仿《潜龙谍影》“Snake”绝叫",
+      "summary": "任务失败画面中，小丑模仿无线电通讯声嘶力竭呼喊“Batman! Batman?!”，致敬小岛秀夫名作。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Metal Gear",
       "chapterFrame": 1082,
@@ -2339,8 +2339,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "Snake 式的游戏结束",
-          "body": "一段蝙蝠侠死亡后的嘲讽里，小丑模仿《Metal Gear Solid》通讯角色呼叫 Snake 的方式，把熟悉的拖长呼喊变成自己的表演。它属于失败画面的随机台词，正常推进任务时很容易错过。",
+          "title": "GAME OVER 画面中的战术无线电戏谑",
+          "body": "当玩家在战役中阵亡切入红黑死亡结算界面时，在随机触发的小丑嘲讽语音库中，有一段小丑故意捏住嗓子、透过充满高频电流杂音的步话机声嘶力竭咆哮的音频：“蝙蝠侠？蝙蝠侠！回答我！蝙蝠侠——！！！”其语调、节奏与绝望破音完全复刻了小岛秀夫神作《潜龙谍影》（Metal Gear Solid）主角阵亡时坎贝尔上校在 Codec 无线电里的传世惨叫“Snake?! Snake?! Snaaaake!”",
           "spoiler": false,
           "images": [
             "kn4-metal-gear-1-1"
@@ -2353,8 +2353,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "谜语人想举着旗子带路",
-      "summary": "赛道走反之后，谜语人的讥讽让人想起另一种赛车游戏。",
+      "title": "谜语人赛道逆向驾驶触发“马力欧卡丁车”反向云龟吐槽",
+      "summary": "在地下竞速中故意掉头逆行，尼格玛会恼羞成怒质问是否需要自己扮作挥旗云龟指路。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Mario Kart",
       "chapterFrame": 1120,
@@ -2362,8 +2362,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "反方向的提示员",
-          "body": "最后一场“Condemned”竞速中，如果朝错误方向驾驶，谜语人可能问是否需要自己浮在蝙蝠车前、挥旗告诉你往哪里走。视频将这个画面感与《Mario Kart》里举牌提醒逆行的 Lakitu 相联系。",
+          "title": "“要不要我飘在车头给你挥反向红旗？！”",
+          "body": "在地下深层第三场名为“Condemned”（判处死刑）的致命机关赛道中，若玩家故意掉转蝙蝠车车头向起点逆向倒车狂飙，扬声器中原本气焰嚣张的谜语人会瞬间破防暴跳如雷：“你在干什么？！你难道是盲人吗？非要我像某个滑稽水管工游戏里那样乘着一朵云飘在你挡风玻璃前面挥动指示旗你才懂得往哪开吗？！”以生动的元幽默调侃了《马力欧卡丁车》中的 Lakitu 巡视员。",
           "spoiler": false,
           "images": [
             "kn4-mario-kart-1-1",
@@ -2377,8 +2377,8 @@
       "game": "knight",
       "region": "GCPD",
       "regionLabel": "哥谭警局",
-      "title": "神谕说起“越过边缘”",
-      "summary": "任务结束后的一句玩笑，把稻草人与动画标题放在一起。",
+      "title": "神谕警局战后自白戏语致敬 TNBA 名篇《越过边缘》",
+      "summary": "全城危机平息后与芭芭拉交谈，其台词“Over the Edge”暗扣动画中最惨烈的噩梦集数。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Over the Edge",
       "chapterFrame": 1170,
@@ -2386,8 +2386,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "Over the Edge",
-          "body": "击败稻草人后回警局与神谕交谈，她会用“over the edge”开玩笑。这是《The New Batman Adventures》一集的标题，该集同样围绕恐惧、芭芭拉与戈登的极端处境展开。",
+          "title": "致敬《蝙蝠侠新冒险》第 12 集《越过边缘》",
+          "body": "在彻底瓦解稻草人主力部队并将全城恶霸关押入警局总署后，返回战术控制室与神谕对话，芭芭拉神色释然地苦笑打趣：“今晚发生的一切……我们真的差一点点就‘越过边缘’（Over the edge）了，布鲁斯。”这处用词精确对应了 1998 年动画《蝙蝠侠新冒险》（TNBA）中最具毁灭性的一集《越过边缘》——该集中芭芭拉遭稻草人毒气侵害坠楼身亡，引发戈登与蝙蝠家族殊死决裂。",
           "spoiler": false,
           "images": [
             "kn4-over-the-edge-1-1"
@@ -2400,8 +2400,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "多里安博士的变种岛",
-      "summary": "一张怪物电影海报，把 TAS 的猫科实验重新包装成银幕冒险。",
+      "title": "电影海报《多里安博士的变种岛》致敬 TAS 虎人埃米尔",
+      "summary": "剧院展板上的复古科幻海报，重现了 1992 年动画中孤岛创造猫科猫女变种的疯狂科学家。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Tyger Tyger",
       "chapterFrame": 1195,
@@ -2409,8 +2409,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "岛上那道猫形剪影",
-          "body": "《Dr. Dorian’s Island of Mutants》海报描绘山顶上的猫科身影，与 TAS《Tyger, Tyger》中多里安博士进行人兽基因实验的故事相连。视频还将剪影与那集结尾的孤立身影并置。",
+          "title": "多里安博士的基因拼接孤岛实验",
+          "body": "在全城数处商业街电影橱窗内，张贴着做旧的探险怪兽电影《多里安博士的变种生物之岛》（Dr. Dorian’s Island of Mutants）海报，画面正中央在险峻海岛巅峰屹立着一只强壮威严的虎头人身怪兽。该角色直接致敬了 1992 年 TAS 动画名篇《猛虎！猛虎！》（Tyger, Tyger）中绑架猫女并将其注射变异为半猫兽人的遗传疯狂狂人埃米尔·多里安博士。",
           "spoiler": false,
           "images": [
             "kn4-tyger-tyger-1-1",
@@ -2424,8 +2424,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "哈莉脑海里的哈琳",
-      "summary": "同一座警局，在哈莉的特殊视野里写着另一套话。",
+      "title": "哈莉 DLC“精神病态视野”浮现奎泽尔医生的理智幻听",
+      "summary": "开启哈莉专属透视视野，全警局墙面涂满发狂血字，脑内回荡着哈琳医生的求救声。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Psychosis Mode",
       "chapterFrame": 30,
@@ -2433,8 +2433,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "让模式多停留一会儿",
-          "body": "哈莉故事包开启 Psychosis Mode 后，墙面会出现平时看不到的文字，哈琳·昆泽尔的声音也会与哈莉对话。两种称呼对应的自我在脑内争执，使侦测敌人的机制同时成为人物刻画。",
+          "title": "狂欢视界下撕裂的理智与人格解体",
+          "body": "在哈莉·奎恩独立故事包中激活其专属的“精神病态视野”（Psychosis Mode），原本庄严肃穆的布鲁德海文警局瞬间异化为癫狂涂鸦地狱：墙面密布用蜡笔乱画的跳房子方格与血手印。若在空旷走廊长时间驻足聆听，背景音中会清晰浮现哈莉未黑化前的理智人格“哈琳·奎泽尔医生”微弱而绝望的哀鸣，展现其精神被小丑彻底击碎后的病理深渊。",
           "spoiler": false,
           "images": [
             "kn5-psychosis-mode-1-1",
@@ -2449,8 +2449,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "等待时，企鹅人与哈莉会聊天",
-      "summary": "把行动暂停片刻，耳机另一端会继续找话题。",
+      "title": "哈莉故事包待机触发企鹅人耳麦无线电日常斗嘴",
+      "summary": "若长时间不操控哈莉推进行动，企鹅人会在通讯信道中因不耐烦而与其激烈争吵。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Penguin and Harley",
       "chapterFrame": 120,
@@ -2458,8 +2458,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "闲置触发的争吵",
-          "body": "在哈莉故事包里，暂时不进入 Psychosis Mode、也不忙着推进任务，可以等到企鹅人与哈莉继续通话。他想购买她的服务，哈莉则拿他的说话方式和口音开玩笑；任务指令之外多出一场互不买账的交涉。",
+          "title": "闲置待机引发的黑帮同盟日常互怼",
+          "body": "在潜入警局的哈莉战役中，若故意将手柄闲置不触发警报亦不推进关卡，在长达数分钟的静默后，企鹅人会忍不住在加密耳麦通讯中粗暴叫嚷：“哈莉！你这疯婆娘到底在磨蹭什么？是在给你的大锤补唇膏吗？！”哈莉则立刻毫不客气地以尖锐嗓音尖叫反击，嘲弄对方身材臃肿、身高矮小，生动丰富了反派同盟各怀鬼胎的人物肌理。",
           "spoiler": false,
           "images": [
             "kn5-penguin-harley-1-1",
@@ -2474,8 +2474,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "通缉海报上的 Nite-Wing",
-      "summary": "差了几个字母的名字，属于布鲁德海文另一位自称义警的人。",
+      "title": "布鲁德海文警局通缉令披露冒牌义警“Nite-Wing”",
+      "summary": "重案组公告栏上张贴的塞德修斯通缉海报，将漫画中布鲁德海文的暴力冒牌货曝光。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Nite Wing",
       "chapterFrame": 190,
@@ -2483,8 +2483,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "不是迪克的那张海报",
-          "body": "哈莉故事包的布鲁德海文警局里，可以找到 Thaddeus Ryerstad 的通缉海报。他自称 Nite-Wing，名字模仿夜翼，行为却与迪克的英雄道路不同。把拼写读清楚，就能看出这张海报的笑点和危险。",
+          "title": "一字之差的残酷私刑冒牌者",
+          "body": "在哈莉故事包漫步于布鲁德海文警局二层值班大厅时，墙面通缉公告栏上张贴着一张粗暴暴徒塞德修斯·赖尔斯塔德（Thaddeus Ryerstad）的通缉令，案由一栏赫然标注此人自封代号为“夜翼”（Nite-Wing，注意与正牌 Nightwing 仅拼写不同）。在查克·狄克逊所著的《夜翼》个人连载中，这名狂徒因崇拜夜翼而自制装甲在街头滥杀小偷，最终成为夜翼亲手逮捕的危险私刑犯。",
           "spoiler": false,
           "images": [
             "kn5-nite-wing-1-1"
@@ -2497,8 +2497,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "黑面具手下说起的红头罩",
-      "summary": "一组战斗闲谈，交代了故事包主角在街头的名声。",
+      "title": "红头罩战役黑面具暴徒私语清点死伤反派清单",
+      "summary": "黑面具麾下卫兵在交火前恐惧议论红头罩连续枪杀杀手蛾等重犯的铁血清洗。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Red Hoods Hit List",
       "chapterFrame": 230,
@@ -2506,8 +2506,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "被谈论的追杀名单",
-          "body": "红头罩故事包中，黑面具的手下会提到他杀死的反派，杀手蛾是其中一个名字。哈莉故事包的警员也会谈及杀手蛾。通过敌人与警察的转述，这名未在此登场的反派进入了阿卡姆世界。手下还谈到 Black Glove、Black Spider、Big Tony、Doctor Aesop 与 Clock King，并说红头罩已将萨尔·马罗尼赶出哥谭。不同敌人的转述，拼出他在镜头之外的行动名单。",
+          "title": "双枪死神的地下清算名册",
+          "body": "在红头罩独立故事包中操控杰森·托德突入黑面具军火码头前，掩体后方的黑帮保镖正处于极度恐慌的心理崩溃边缘：“听说那家伙根本不是蝙蝠侠！他不抓人审判，他只用双枪爆头！杀手蛾（Killer Moth）昨天刚在码头被他堵在巷子里连开六枪当场毙命！”从反派惊恐的闲谈中，冷酷确立了红头罩作为法外私刑者的绝对威慑力。",
           "spoiler": false,
           "images": [
             "kn5-red-hood-list-1-1",
@@ -2522,8 +2522,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "双面人的节日凶案纪念物",
-      "summary": "玻璃柜里的一把枪和一份报纸，带出《漫长的万圣节》。",
+      "title": "罗宾故事包双面人节日凶案物证柜与婴儿奶嘴消音器",
+      "summary": "地下钱庄展柜中陈列着套有婴儿奶嘴的 .22 口径凶枪与《漫长的万圣节》感恩节头条。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Two Faces Memorabilia",
       "chapterFrame": 335,
@@ -2531,8 +2531,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "奶嘴消音器与感恩节头条",
-          "body": "罗宾故事包“A Flip of a Coin”中，展示柜放着装有奶瓶橡胶奶嘴的 .22 手枪，附近报纸写着“Thanksgiving Massacre”。枪的特殊消音方式与节日案件，都对应《漫长的万圣节》的 Holiday 凶案。",
+          "title": "节日杀手专属的奶嘴消音器手枪与感恩节号外",
+          "body": "在提姆·德雷克（罗宾）专属战役“抛硬币之决”（A Flip of a Coin）潜入双面人洗钱金库时，走廊玻璃密封展柜内赫然陈列着一支枪管套着橡胶婴儿奶嘴作为简易消音器的 .22 紧凑型转轮手枪，旁侧摆放着泛黄的哥谭公报感恩节谋杀头版——完整重现了杰夫·洛布在《漫长的万圣节》中节日杀手（Holiday）作案时的核心特征物证。",
           "spoiler": false,
           "images": [
             "kn5-two-face-mementos-1-1",
@@ -2540,8 +2540,8 @@
           ]
         },
         {
-          "title": "硬币之外的随机选择",
-          "body": "另一只展示柜摆着骰子和塔罗牌，对应《Arkham Asylum: A Serious House on Serious Earth》中尝试改变哈维硬币依赖的治疗方式。二选一逐步扩展成更多可能，物件本身记录了这次思路。",
+          "title": "塔罗牌与骰子致敬《严肃的屋子》精神治疗",
+          "body": "相邻展柜中摆放着一副泛黄的塔罗牌与象牙六面骰子，直接致敬了 1989 年《阿卡姆疯人院：严肃的屋子》中精神医生试图用塔罗牌与骰子替代哈维·丹特那枚双头银币、却导致其连上厕所都无法做决定的荒诞精神矫正疗法。",
           "images": [
             "kn5-two-face-mementos-2-1"
           ],
@@ -2554,8 +2554,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "码头上遗下的冷冻舱",
-      "summary": "罗宾故事包开头的一件物品，与另一段支线的离别相接。",
+      "title": "罗宾战役港口货栈遗留的急冻人妻子诺拉维生舱",
+      "summary": "故事包开场码头地面放置的空置低温储存罐，承接了《恶棍之季》急冻人告别结局。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Noras Container",
       "chapterFrame": 395,
@@ -2563,8 +2563,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "来自寒冷中的遗物",
-          "body": "“A Flip of a Coin”开头可以发现诺拉留下的容器。把它与“Season of Infamy”的“In From the Cold”结尾放在一起，空下来的设备就成了急冻人与诺拉故事结束后的环境余音。",
+          "title": "融化冰霜旁空置的生命维生胶囊",
+          "body": "在罗宾追加篇章“抛硬币之决”开局降落的港口仓库外侧，地面赫然摆放着一具已被解冻清空的巨型低温维生舱，外壳印有 GothCorp 编号。该道具完美承接了全剧情 DLC《恶棍之季》（Season of Infamy）中急冻人最终支线“冰冷深情”的结局：维克托选择拔掉冷冻管唤醒诺拉，两人乘坐破冰船在仅剩的数日时光里相伴驶向最后的平静。",
           "spoiler": false,
           "images": [
             "kn5-nora-container-1-1"
@@ -2577,8 +2577,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "企鹅人的鲨鱼又回来了",
-      "summary": "夜翼故事包开头，一位旧作“宠物”准备了新的惊吓。",
+      "title": "夜翼故事包警局外水池中企鹅人的巨鲨再次伏击",
+      "summary": "“警局封锁”篇章开局若漫步靠近水边，前作冰山餐厅的巨鲨 Tiny 将破水暴起。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Tiny the Shark",
       "chapterFrame": 420,
@@ -2586,8 +2586,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "别太靠近那片水面",
-          "body": "《阿卡姆之城》中企鹅人的鲨鱼 Tiny，在“GCPD Lockdown”开头再次现身；基于这段场景的 AR 挑战也保留了它。安静看似安全的水边，依然沿用突然冲出的惊吓方式。",
+          "title": "冰山餐厅逃逸巨鲨的二度跳吓",
+          "body": "在夜翼专属剧情 DLC“哥谭警局大封锁”（GCPD Lockdown）开篇控制夜翼潜行在总署外部排水渠道边缘时，若玩家好奇靠近铁丝网下方看似平静的水洼，在《阿卡姆之城》中曾咬碎浮冰的企鹅人宠物白斑巨鲨“泰尼”（Tiny）会骤然破水而出、张开血盆大口实施高分贝近身突脸扑咬！以猝不及防的黑色幽默让老玩家梦回旧作。",
           "spoiler": false,
           "images": [
             "kn5-tiny-shark-1-1"
@@ -2600,8 +2600,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "电脑里的 Venom 文件",
-      "summary": "一块研究屏幕，把贝恩的力量来源带回视野。",
+      "title": "AR 挑战电脑终端显示“Venom File-031”生化数据",
+      "summary": "玩具士兵挑战地图控制台上闪烁的数据流，记录了贝恩毒液的分子配比全息图。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Banes Venom",
       "chapterFrame": 450,
@@ -2609,8 +2609,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Venom File-031",
-          "body": "AR 挑战“Toy Soldiers”里有一块写着“Venom File-031”“Venom Strand Sequence”的电脑屏幕。Venom 是与贝恩相连的强化物质，系列又用它的变体推进过重要情节；这里将其压缩成实验数据界面。",
+          "title": "贝恩早期毒液档案与泰坦合成链",
+          "body": "在“玩具士兵”（Toy Soldiers）AR 战斗挑战地图中央的监控终端屏幕上，绿色代码流清晰显示着文件名为“Venom File-031”与“Venom Structure Alpha”的高清化学分子模型。系统详尽罗列了自圣普里斯卡黑狱提炼的早期高纯度毒液（Venom）与后来阿卡姆岛泰坦（TITAN）药剂的分子式突变链条，印证军工科研黑幕对违禁药品的持续迭代。",
           "spoiler": false,
           "images": [
             "kn5-bane-venom-1-1"
@@ -2623,8 +2623,8 @@
       "game": "knight",
       "region": "Seagate Amusement Park",
       "regionLabel": "海门游乐园",
-      "title": "海门游乐园里的海星展品",
-      "summary": "隐藏房间的培养管里，关着一位特别的外星来客。",
+      "title": "海门游乐园隐藏密室生化培养舱内的外星征服者斯塔罗",
+      "summary": "使用遥控密码破解器潜入密封暗室，圆柱形福尔马林水箱中漂浮着活体海星斯塔罗。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Starro",
       "chapterFrame": 495,
@@ -2632,8 +2632,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "管中的斯塔罗",
-          "body": "蝙蝠女“A Matter of Family”故事包有一间隐藏房间，培养管里可以看到 Starro。它是 DC 世界中具有精神控制能力的海星状外星生物，放进游乐园的展演环境后，外形的奇趣与能力的危险形成落差。",
+          "title": "福尔马林圆柱舱中的活体寄生巨兽",
+          "body": "在芭芭拉·戈登（蝙蝠少女）前传故事包“家族恩仇”（A Matter of Family）的海门游乐园深处，利用黑客仪器破译一扇重锁的工业闸门进入密室，正中央巨大注水强化玻璃管内，赫然浸泡着一只巨大的单眼紫色外星寄生生物——征服者斯塔罗（Starro the Conqueror）。它正是 1960 年《勇敢与大胆》第 28 期中正义联盟建立初战面对的影史第一位宇宙级大反派。",
           "spoiler": false,
           "images": [
             "kn5-starro-1-1",
@@ -2641,8 +2641,8 @@
           ]
         },
         {
-          "title": "Starfish Freak 的演出广告",
-          "body": "“Great White”附近还可见“The Starfish Freak”广告，人物脸上贴着海星形生物，呼应斯塔罗通过孢子附着脸部的形象。广告和培养管共同构成了游乐园怪奇展品的线索。",
+          "title": "游乐园怪奇秀橱窗“海星异人”演出招贴",
+          "body": "在游乐园怪奇走廊“大白鲨”展厅外墙，张贴着一幅猎奇广告“The Starfish Freak”，画面中一名马戏团受害者的脸部被紧紧吸附着一只单眼海星寄生体，将外星宇宙神话与维多利亚怪奇马戏团演出完美糅合。",
           "spoiler": false,
           "images": [
             "kn5-starro-2-1"
@@ -2655,8 +2655,8 @@
       "game": "knight",
       "region": "Seagate Amusement Park",
       "regionLabel": "海门游乐园",
-      "title": "游乐园创建者的同名巧合",
-      "summary": "爱德华·伯克的名字，还能在另一位漫画反派身上找到。",
+      "title": "海门游乐园创立者爱德华·伯克与反派“行星大师”",
+      "summary": "海门游乐园创始人录音讲述家庭悲剧，其姓名与经典反派“行星大师”同名同姓。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Planet Master",
       "chapterFrame": 595,
@@ -2664,8 +2664,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从录音走向漫画姓名",
-          "body": "海门游乐园与 Edward Burke 的家庭故事相连。漫画中也有一位名叫 Edward Burke 的 Planet Master；视频将这组姓名并置。游乐园中的伯克，则通过录音与场景讲述自己的家庭悲剧。",
+          "title": "游乐园创始者与星际反派的命名巧合",
+          "body": "在芭芭拉故事包中搜集齐备的留声机录音档案，详述了海门游乐园建造者兼老派商人爱德华·伯克（Edward Burke）为了救治患有绝症的女儿筹建水上主题公园的辛酸往事。在 DC 漫画设定中，爱德华·伯克亦是 1961 年《侦探漫画》中登场、利用九大行星射线作案的著名古典反派“行星大师”（Planet Master）的本名，赋予老字号游乐场一层科幻维度的隐秘呼应。",
           "spoiler": false,
           "images": [
             "kn5-planet-master-1-1",
@@ -2679,8 +2679,8 @@
       "game": "knight",
       "region": "Seagate Amusement Park",
       "regionLabel": "海门游乐园",
-      "title": "小丑怀念“以前简单多了”",
-      "summary": "故事包开场的牢骚，与 TAS 中的一场独白彼此呼应。",
+      "title": "小丑在海门游乐园牢骚怀念当年“炸死蝙蝠侠多简单”",
+      "summary": "小丑对过往罪恶岁月的感慨，与 TAS 名集《杀死蝙蝠侠的男人》独白高度互文。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "The Man Who Killed Batman",
       "chapterFrame": 650,
@@ -2688,8 +2688,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "炸东西，他就会来",
-          "body": "小丑抱怨过去只要自己炸毁东西，蝙蝠侠就会出现。视频把这句话与 TAS《The Man Who Killed Batman》中的独白相对照：当熟悉的对手不在眼前，连犯罪表演也少了预期的观众。",
+          "title": "“以前的日子多纯粹，你炸栋楼他就来了”",
+          "body": "在前传战役中通过广播监听小丑在游乐园顶层的狂躁独白，小丑对着被绑架的戈登局长连连感叹：“局长，想想从前，日子多纯粹啊！只要我随手炸飞几座市政桥梁或者下毒放点气球，蝙蝠侠就会准时在窗外出现！而现在呢？这群新来的小辈非要搞什么民兵军团和无人坦克，无聊透顶！”这段关于犯罪仪式感退化的怀旧吐槽，与 1992 年经典动画 TAS 传世名篇《杀死蝙蝠侠的男人》（The Man Who Killed Batman）中小丑的独白精髓一脉相承。",
           "spoiler": false,
           "images": [
             "kn5-who-killed-batman-1-1",
@@ -2703,8 +2703,8 @@
       "game": "knight",
       "region": "Seagate Amusement Park",
       "regionLabel": "海门游乐园",
-      "title": "鬼船上的笑脸鱼",
-      "summary": "从漫画与 TAS 走来的怪鱼，成了游乐设施的一部分。",
+      "title": "海门游乐园幽灵船机关展台上的机械笑脸鱼",
+      "summary": "营救警员人质的鬼屋轨道终点，陈列着咧开惨白獠牙的小丑笑脸机械巨鱼。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "The Laughing Fish",
       "chapterFrame": 690,
@@ -2712,8 +2712,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "机械鱼与奖杯",
-          "body": "鬼船区域救出人质后，可以看到带着小丑式牙齿的机械鱼，相关奖杯名就叫“The Laughing Fish!”。哥谭街头“The Grinning Fishmonger”店名也延续了笑脸鱼意象。",
+          "title": "幽灵鬼船暗道里的变异生化鱼机械模型",
+          "body": "在海门游乐园“幽灵船”轨道射击惊悚设施深处解救受困的哥谭警员后，前方的机械布景道具赫然升起一条被改造为发条机械装置、嘴部露出标志性小丑狂笑假牙的变异海鱼。解锁该处秘密所获得的专属战役成就，正是直接以经典名作《笑脸鱼》（The Laughing Fish）命名。",
           "spoiler": false,
           "images": [
             "kn5-laughing-fish-1-1",
@@ -2727,8 +2727,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "小丑的游行气球",
-      "summary": "布莱克岛与游乐园的高处，还漂着伯顿电影式的笑脸。",
+      "title": "布莱克岛与海门游乐园高空飘浮的伯顿版小丑毒气游行气球",
+      "summary": "挂有小丑狂笑面具的庞大飞艇游行气球，完美复刻 1989 年电影哥谭两百周年庆典道具。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Jokers Balloons",
       "chapterFrame": 750,
@@ -2736,8 +2736,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "抬头看游行道具",
-          "body": "布莱克岛和蝙蝠女故事包的海门游乐园，都能看到与 1989 年《蝙蝠侠》毒气游行气球相似的造型。1989 Movie DLC 的“Joker Parade”赛道则更直接重建了电影游行的视觉元素。",
+          "title": "复刻 1989 年电影两百周年庆典毒气气球",
+          "body": "在布莱克岛港口吊臂顶端以及前传海门游乐园核心广场上空，系留缆绳悬吊着数具硕大无朋的充气游行气球。气球表面绘制着极其夸张的小丑笑脸油彩与绿色卷发，造型与 1989 年蒂姆·伯顿电影《蝙蝠侠》高潮庆典中小丑向全城倾泻微笑毒气（Smylex）的标志性悬浮游行气球完全一致。",
           "spoiler": false,
           "images": [
             "kn5-joker-balloons-1-1"
@@ -2750,8 +2750,8 @@
       "game": "knight",
       "region": "Seagate Amusement Park",
       "regionLabel": "海门游乐园",
-      "title": "从橙色玻璃里提取 DNA",
-      "summary": "海怪模型旁的闲谈，把游乐园带向《侏罗纪公园》。",
+      "title": "海门游乐园暴徒关于从琥珀提取 DNA 的闲谈致敬《侏罗纪公园》",
+      "summary": "小丑暴徒围绕深海巨兽标本商讨复活方案，台词幽默调侃了经典的恐龙琥珀克隆理论。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Jurassic Park",
       "chapterFrame": 790,
@@ -2759,8 +2759,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "一只不该复活的海怪",
-          "body": "蝙蝠女故事包中，敌人准备把警员放到 Kraken 式模型旁时，会谈起从橙色玻璃中提取 DNA、让它复活的设想。对白借用了《侏罗纪公园》从琥珀提取遗传物质的著名前提，把电影常识变成绑匪的荒唐聊天。",
+          "title": "“只要找到封在琥珀里的蚊子，巨兽就能活过来”",
+          "body": "在海门游乐园巨型克拉肯深海海怪模型展台前潜行时，可窃听两名小丑打手端着霰弹枪的一段荒诞争吵：“如果小丑老大真的想把这头假章鱼复活来咬人，只需要照着那部经典电影里演的，去海滩上找块裹着古代蚊子的琥珀，拿针管吸出血液 DNA 注射进去不就成了！”极富情趣地向史蒂文·斯皮尔伯格 1993 年影史传奇《侏罗纪公园》（Jurassic Park）致意。",
           "spoiler": false,
           "images": [
             "kn5-jurassic-park-1-1",
@@ -2774,8 +2774,8 @@
       "game": "knight",
       "region": "Season of Infamy",
       "regionLabel": "恶棍之季",
-      "title": "支线结束后留下的四组录音",
-      "summary": "恶棍之季的案件，还可以从现场的录音设备继续听下去。",
+      "title": "《恶棍之季》全通关后四大据点留存的终局审讯磁带",
+      "summary": "完成四大经典反派扩展战役后，疯帽匠、杀手鳄、急冻人与拉斯各留下一套深度录音。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy Tapes",
       "chapterFrame": 30,
@@ -2783,8 +2783,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "疯帽匠与杀手鳄",
-          "body": "完成对应任务后，疯帽匠与杀手鳄的录音留在不同地点。警局桌面与铁山监狱飞艇内的设备，把审讯、监禁和实验中的信息交给愿意回访的人。",
+          "title": "警局审讯室内的特奇自白与铁山监狱鳄鱼实验日志",
+          "body": "在《恶棍之季》将疯帽匠拘捕入狱后，其桌案上新增的审讯磁带记录了他对爱丽丝催眠术被破局后的狂乱辩解；而在坠毁的“铁山号”空中重刑监狱飞艇内，废弃终端完整录下了典狱长对杀手鳄施以极端电击酷刑诱发生理二次畸变的残忍医学报告。",
           "spoiler": false,
           "images": [
             "kn6-infamy-tapes-1-1",
@@ -2792,8 +2792,8 @@
           ]
         },
         {
-          "title": "忍者大师与急冻人",
-          "body": "拉斯·奥·古的相关记录位于医院任务空间，急冻人与诺拉的录音则继续他们关于病情、治疗与相处方式的谈话。它们补的是角色自身的声音，而非另一条必须完成的目标。",
+          "title": "艾略特纪念医院刺客内战录音与诺拉维生最后的坦白",
+          "body": "在托马斯·艾略特纪念医院地下，磁带详细交代了刺客联盟在首领拉斯·奥·古与反抗派尼萨之间爆发血腥内战的意识形态决裂；而在急冻人破冰船的舱室内，维克托与苏醒的诺拉相互倾吐衷肠，将二人关于生命有限与彼此宽恕的深情录音永远留在这片冰海之中。",
           "spoiler": false,
           "images": [
             "kn6-infamy-tapes-2-1",
@@ -2807,8 +2807,8 @@
       "game": "knight",
       "region": "Season of Infamy",
       "regionLabel": "恶棍之季",
-      "title": "故事书战场里的纸人蝠",
-      "summary": "疯帽匠的纸页世界，借用了哥谭另一位夜行生物的轮廓。",
+      "title": "疯帽匠弹出式立体童话书幻境中的剪纸人蝠",
+      "summary": "在羊皮纸童话书微缩擂台搏击时，背景立体剪纸赫然立着展开双翼的人蝠。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Man Bat",
       "chapterFrame": 210,
@@ -2816,8 +2816,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "折进书里的怪物",
-          "body": "疯帽匠故事书战斗中，布景里会出现纸艺人蝠。角色被转成平面剪纸，仍能凭翼膜和身体轮廓辨认出来，符合整个幻境把哥谭缩成童话书的形式。",
+          "title": "童话纸艺世界里的变异巨兽剪影",
+          "body": "在《恶棍之季》疯帽匠支线“梦游仙境”的立体折纸童话书幻象决战中，擂台边缘翻卷的泛黄牛皮纸山崖上，立着一具以立体剪纸插画工艺呈现的人蝠（Man-Bat）展翅造型。制作组将全城夜行异形巧妙转译为爱丽丝童话插画风格，浑然天成地融入了特奇的儿童文学幻梦。",
           "spoiler": false,
           "images": [
             "kn6-storybook-manbat-1-1"
@@ -2830,8 +2830,8 @@
       "game": "knight",
       "region": "Season of Infamy",
       "regionLabel": "恶棍之季",
-      "title": "铁山监狱里的格鲁德牢房",
-      "summary": "飞艇上的一块标牌，让闪电侠的对手有了拘押记录。",
+      "title": "坠毁铁山监狱飞艇内的大猩猩格鲁德特制牢房",
+      "summary": "重型特管区防暴牢门上方标牌，赫然打着闪电侠宿敌 Gorilla Grodd 专属编号。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Gorilla Grodd",
       "chapterFrame": 220,
@@ -2839,8 +2839,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "读牢门上的名字",
-          "body": "铁山监狱飞艇中有标注 Gorilla Grodd 的牢房。名字对应具有心灵能力的猩猩格鲁德；牢房标牌把这位闪电侠反派放进同一个监禁体系，现场展示的仍是他的收押空间。",
+          "title": "抑制心灵感应的超灵大猩猩重型牢门",
+          "body": "在深入调查坠毁在哥谭湾的“铁山号”空中重刑监狱飞艇时，穿过加固收押走廊，一扇带有强化高压电网与神经抑制头盔接口的合金气密门上方，端正铆接知名牌：“Gorilla Grodd — Security Level X”（大猩猩格鲁德：最高极度重刑）。证实这位拥有毁灭级心灵控制能力的闪电侠超能宿敌，曾被秘密引渡关押于此。",
           "spoiler": false,
           "images": [
             "kn6-grodd-cell-1-1"
@@ -2853,8 +2853,8 @@
       "game": "knight",
       "region": "Season of Infamy",
       "regionLabel": "恶棍之季",
-      "title": "Quorum 的基因研究标志",
-      "summary": "杀手鳄支线中的企业名称，也有一段漫画背景。",
+      "title": "杀手鳄人体改造试验背后的法定财团 Quorum 标志",
+      "summary": "飞艇生化实验室标牌上的军方秘密组织，揭示了杀手鳄异化畸变的幕后黑手。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Quorum",
       "chapterFrame": 235,
@@ -2862,8 +2862,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "公司名字带来的另一层联系",
-          "body": "飞艇里能看到 Quorum Genetic Research 的标识，与对杀手鳄所做的实验相连。视频又把 Quorum 联系到漫画中与 Major Force 有关的企业故事，实验机构的名字因此兼具支线线索与跨作品指向。",
+          "title": "基因改造阴谋背后的深层政府组织",
+          "body": "在飞艇内部解剖室与生化监控屏上，密集印制着带有三叶草螺旋的“Quorum Genetic Research”（法定人数基因研究财团）徽标。在 DC 漫画正史中，“Quorum”是勾结军工寡头并秘密开展超人类非法活体改造的深层影子情报机构，直接交代了典狱长折磨杀手鳄致其长出带刺骨板背鳍的科技背景。",
           "spoiler": false,
           "images": [
             "kn6-quorum-1-1"
@@ -2876,8 +2876,8 @@
       "game": "knight",
       "region": "Elliot Memorial Hospital",
       "regionLabel": "艾略特纪念医院",
-      "title": "医院为艾略特父母留下的铭牌",
-      "summary": "捐赠纪念文字，把缄默的家族史写进了医院。",
+      "title": "艾略特纪念医院大堂罗杰与玛拉父母奠基铜雕",
+      "summary": "门厅立柱镶嵌的父母肖像碑，昭示了缄默为继承家产不惜弑亲的童年黑幕。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Roger and Marla Elliot",
       "chapterFrame": 245,
@@ -2885,8 +2885,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "罗杰与玛拉",
-          "body": "艾略特纪念医院内有纪念 Roger Elliot 与 Marla Elliot 的肖像和铭牌，文字提到车祸、治疗与捐赠。汤米·艾略特父母的经历，被公共机构用庄重的纪念语言保存下来。",
+          "title": "镀金纪念浮雕下的弑亲谋杀惨案",
+          "body": "踏入托马斯·艾略特纪念医院（Elliot Memorial Hospital）门诊中央大堂，大理石主柱上悬挂着托马斯的父母——罗杰·艾略特与玛拉·艾略特的青铜浮雕肖像与奠基致谢铭牌。在《缄默》原作中，年少的托马斯因贪恋巨额遗产亲手剪断了父母座驾刹车线制造车祸弑亲，使这座宏伟慈善医院的门头铭文泛起浓重的讽刺血腥味。",
           "spoiler": false,
           "images": [
             "kn6-elliot-parents-1-1"
@@ -2899,8 +2899,8 @@
       "game": "knight",
       "region": "Elliot Memorial Hospital",
       "regionLabel": "艾略特纪念医院",
-      "title": "医院通缉的琳达医生",
-      "summary": "一张寻人告示，把稻草人的漫画同谋留在走廊里。",
+      "title": "医院走廊张贴琳达·弗里塔瓦医生通缉悬赏令",
+      "summary": "寻人布告栏上的 Dr. Linda Friitawa，对应漫画中与稻草人合谋的生化反派“惊骇”。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Fright",
       "chapterFrame": 260,
@@ -2908,8 +2908,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Dr. Linda Friitawa",
-          "body": "医院墙面的通缉告示写着 Dr. Linda Friitawa。她在漫画中对应 Fright，曾协助乔纳森·克莱恩研究毒素；医院里的普通安全告示，因此也能接回稻草人的化学恐惧世界。",
+          "title": "变异生化女博士“惊骇”的追缉令",
+          "body": "在艾略特纪念医院行政走廊墙面的布告栏上，张贴着由哥谭警方发布的紧急协查通报，被通缉者照片赫然标明为“琳达·弗里塔瓦博士”（Dr. Linda Friitawa）。在漫画中，这位基因学者为根治自身绝症与稻草人秘密联手开展恐惧毒气实验，最终变异为皮肤泛白、呼出剧毒恐惧素的超级罪犯“惊骇”（Fright）。",
           "spoiler": false,
           "images": [
             "kn6-fright-1-1"
@@ -2922,8 +2922,8 @@
       "game": "knight",
       "region": "Elliot Memorial Hospital",
       "regionLabel": "艾略特纪念医院",
-      "title": "白大褂上的布拉德福德·索恩",
-      "summary": "一张工作证，给没有出场的犯罪医生留下了位置。",
+      "title": "病房衣帽架白大褂工牌挂有“布拉德福德·索恩”",
+      "summary": "黑市无照行医专家的白大褂胸牌，致敬了为全城地下黑帮包扎的“罪恶医生”。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Season of Infamy / Crime Doctor",
       "chapterFrame": 270,
@@ -2931,8 +2931,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把证件翻到名字这一面",
-          "body": "医院里的医生外套挂着 Bradford Thorne 的工作证，对应漫画中的 Crime Doctor。职业服装与证件让这条线索保持日常形态，读懂姓名之后，医疗空间才浮现出与犯罪世界的连接。",
+          "title": "黑帮秘密外科圣手布拉德福德·索恩",
+          "body": "在医院地下隐蔽的一间闲置诊疗室内，衣架上挂着一件沾满血迹的无菌白大褂，胸前塑料工牌端正别着工作证，姓名标为“布拉德福德·索恩医生”（Dr. Bradford Thorne）。该名字源自黄金时代漫画便活跃于哥谭的经典反派“罪恶医生”（Crime Doctor）——一名专门隐蔽接治中弹受创超级罪犯的黑道外科圣手。",
           "spoiler": false,
           "images": [
             "kn6-crime-doctor-1-1"
@@ -2945,8 +2945,8 @@
       "game": "knight",
       "region": "Elliot Memorial Hospital",
       "regionLabel": "艾略特纪念医院",
-      "title": "停尸间里再次出现的食客",
-      "summary": "开场餐馆袭击的后果，延续到了医院的一排冷柜中。",
+      "title": "医院地下停尸间冰柜重现序章保利餐馆遇害食客",
+      "summary": "追踪刺客联盟潜入冷冻停尸库，抽屉中陈列的死者赫然复用序章餐馆食客建模。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Diner Corpses",
       "chapterFrame": 300,
@@ -2954,8 +2954,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "从餐桌到冷柜",
-          "body": "拉斯·奥·古任务经过停尸间时，可以认出餐馆袭击中的死者，其中也有采用开发团队面孔的模型。餐馆里热闹的顾客在这里变成标签与遗体，给开场的恐惧毒气事件留下了更沉重的收尾。",
+          "title": "从温馨餐桌到冰冷停尸铁抽屉的灾难余波",
+          "body": "在《恶棍之季》拉斯·奥·古支线潜入医院地下深层停尸间时，拉开数具冷冻停尸抽屉，其死者面孔与衣着完全对应序章保利餐馆内遭遇稻草人毒气自相残杀的无辜平民与警员（其中亦包含制作组数字化员工建模），严密印证了整场生化灾难不可挽回的人命浩劫。",
           "spoiler": false,
           "images": [
             "kn6-diner-corpses-1-1",
@@ -2969,8 +2969,8 @@
       "game": "knight",
       "region": "Elliot Memorial Hospital",
       "regionLabel": "艾略特纪念医院",
-      "title": "一格空下来的冷柜",
-      "summary": "医院保存的名牌，与冷柜里实际可见的状态并不相同。",
+      "title": "医院地下冷柜赫然标有名牌“塔莉亚·奥·古”",
+      "summary": "名牌标注刺客联盟千金姓名，抽屉拉开却空无一物，暗示其已入池复生。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Talias Missing Body",
       "chapterFrame": 355,
@@ -2978,8 +2978,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "塔莉亚的名字",
-          "body": "艾略特纪念医院冷柜标有塔莉亚·奥·古的名字，打开后却看不到遗体。《阿卡姆之城》的死亡、冷柜名牌与空缺共同留下谜面；这个空柜让人猜想遗体的去向。",
+          "title": "名牌犹在而遗体失踪的拉撒路复活玄机",
+          "body": "在医院停尸房深处的一具特级低温冷藏柜门把手处，插着一张手写的法医接收标签，死者姓名清晰书写为“塔莉亚·奥·古”（Talia al Ghul）。然而用力拉开冷冻铁屉，柜内却空空如也！结合此前《阿卡姆之城》中塔莉亚中弹倒地、遗体被刺客密谋带走的暗线，空置的冷柜直接暗示刺客联盟已暗中将首领千金运往拉撒路之池实施起死回生。",
           "spoiler": false,
           "images": [
             "kn6-talia-body-1-1",
@@ -2993,8 +2993,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "让雪留在哥谭的任务顺序",
-      "summary": "恶棍之季的一段天气变化，可以延续到自由探索。",
+      "title": "先通关后完成急冻人支线可使雪夜常驻哥谭",
+      "summary": "刻意规划任务完成顺序，急冻人破冰船引发的暴风雪将永久留存开放世界。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Snowy Gotham",
       "chapterFrame": 405,
@@ -3002,8 +3002,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "把急冻人支线留到最后",
-          "body": "“In From the Cold”会让哥谭降雪。视频展示的顺序是先完成原主线、原版通缉任务与完整“骑士陨落”，再结束急冻人支线，从而把雪景留在后续探索中。任务先后关系，给同一座城市留下了不同的天气尾声。",
+          "title": "让苍茫风雪覆盖全城开放世界的方法",
+          "body": "若玩家按特定顺序通关——即先完成全部主线战役、清除全城民兵检查站并激活“骑士陨落”终局，最后才去推进《恶棍之季》急冻人支线“冰天雪地”（In From the Cold），任务收尾时伴随急冻人引擎制冷引发的漫天暴风雪将不会被常态降雨刷新，而是永久性覆盖哥谭三岛，将整座都市定格为银装素裹的凄美雪夜。",
           "spoiler": false,
           "images": [
             "kn6-snowy-gotham-1-1",
@@ -3017,8 +3017,8 @@
       "game": "knight",
       "region": "Bleake Island",
       "regionLabel": "布莱克岛",
-      "title": "疏散夜里没能完成的求婚",
-      "summary": "帕内萨灯塔附近的一张长椅，摆着城市撤离打断的小事。",
+      "title": "布莱克岛长椅遗留求婚戒指与天台迷你高尔夫",
+      "summary": "帕内萨灯塔长椅上遗弃的订婚钻戒与天台球场，展现了全城疏散打断的凡人幸福。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Canceled Plans",
       "chapterFrame": 440,
@@ -3026,8 +3026,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "戒指、饮料与未到场的人",
-          "body": "灯塔附近长椅上的物件暗示了一场原本计划好的求婚。戒指与饮料仍在，城市却因紧急疏散空了下来。没有任务标记的布景，把一场大型危机缩成一位普通人的落空夜晚。",
+          "title": "灯塔长椅上未曾递出的求婚钻戒",
+          "body": "在布莱克岛帕内萨灯塔下方面朝海湾的一张木质休闲长椅上，遗落着一只敞开的丝绒首饰盒，盒内静静嵌着一枚价值不菲的订婚钻戒，旁侧摆着两杯未曾开封的香槟。突如其来的稻草人疏散警报在瞬间撕裂了这场凡人的海誓山盟，只留下一处无声凝固的遗憾现场。",
           "spoiler": false,
           "images": [
             "kn6-cancelled-plans-1-1",
@@ -3035,8 +3035,8 @@
           ]
         },
         {
-          "title": "阳台上的迷你高尔夫",
-          "body": "米亚加尼岛 Kingston 与 Grand Avenue 之间，一处阳台还搭着迷你高尔夫场地。墙上“Closed for Evacuation”告示、被禁入的名字和记分板，让疏散打断的社交生活有了另一组具体细节。",
+          "title": "米亚加尼岛公寓天台的迷你高尔夫练习场",
+          "body": "在米亚加尼岛金斯敦大街两座写字楼相连的高空私家天台上，屋主在寸土寸金的天台铺设了人工草皮、插上了旗杆洞杯与推杆，打造了一处精致的空中迷你高尔夫球场，真实生动地描摹出灾难降临前都会中产阶级闲适惬意的私人生活切片。",
           "images": [
             "kn6-cancelled-plans-2-1",
             "kn6-cancelled-plans-2-2"
@@ -3050,8 +3050,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "让角色长出大脑袋",
-      "summary": "一组手柄操作，把严肃的城市变成比例失常的舞台。",
+      "title": "全平台通用双扳机与右摇杆旋转激活大头模式",
+      "summary": "手柄输入复古秘籍让蝙蝠侠、罗宾、全城敌人与平民头部膨胀三倍。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Big Head Mode",
       "chapterFrame": 510,
@@ -3059,8 +3059,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "大头、大手与大脚",
-          "body": "视频展示的大头模式可用手柄触发：按住 LT 与 RT，或 L2 与 R2，再顺时针转动右摇杆，直到人物比例发生变化。重复操作或重启游戏可恢复。角色的大头、手脚与日常动画组合，会产生完全不同的喜剧效果。",
+          "title": "全平台经典复古秘籍指令判定",
+          "body": "在本作任意主线或自由漫步过程中按住手柄双侧扳机键（Xbox: LT+RT / PlayStation: L2+R2），同时以极快频率顺时针旋转右摇杆十至十五圈，伴随一声清脆的卡通特效音，即可即时激活隐藏的“大头模式”。所有角色的头部、手部与靴子均会夸张膨胀，且能无缝代入所有残酷的处决终结技之中。",
           "spoiler": false,
           "images": [
             "kn6-big-head-1-1",
@@ -3074,8 +3074,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "终章旁白里的早期漫画句子",
-      "summary": "一句关于罪犯与恐惧的话，从起源故事走到《骑士》结尾。",
+      "title": "完整终章戈登旁白致敬 1939 年《侦探漫画》第 33 期",
+      "summary": "“罪犯是懦弱而迷信之徒”，戈登局长的收尾致辞直接取自布鲁斯最初的立誓誓词。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "A Superstitious Cowardly Lot",
       "chapterFrame": 590,
@@ -3083,8 +3083,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "懦弱而迷信的人",
-          "body": "完整“骑士陨落”结尾，戈登说起罪犯懦弱而迷信的天性。视频将这句旁白与《Detective Comics》#33 中布鲁斯决定以蝙蝠形象制造恐惧的段落并置：开端的自我宣言，在终章变成另一个人的讲述。视频还并列《缄默》《Knightquest》和《未来蝙蝠侠》的音乐剧版本，展示这句话如何跨过漫画和动画不断被重新表演。",
+          "title": "“罪犯是一群迷信而懦弱之徒”的世纪回响",
+          "body": "在 100% 达成度的终极“骑士陨落”电影化过场中，吉姆·戈登局长站在夕阳下的市长办公室窗前，凝望着重获新生的哥谭，低沉诵出旁白：“因为罪犯终究是一群迷信而懦弱之徒（Criminals are a superstitious and cowardly lot）……”这句台词字字千钧，直接引述了 1939 年《侦探漫画》第 33 期中年轻的布鲁斯·韦恩在蝙蝠撞碎窗户飞入书房时对夜空立下的宿命誓词。",
           "spoiler": false,
           "images": [
             "kn6-cowardly-lot-1-1",
@@ -3098,8 +3098,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "他们也在问“下一部叫什么”",
-      "summary": "街头闲聊会把阿卡姆系列当成一串越来越离谱的名字。",
+      "title": "街头佣兵关于系列未来命名的连环元幽默调侃",
+      "summary": "巡逻暴徒讨论阿卡姆宇宙续集命名，从“阿卡姆宇宙”一路猜想至“阿卡姆银河”。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Whats Next",
       "chapterFrame": 650,
@@ -3107,8 +3107,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "从疯人院谈到骑士之后",
-          "body": "敌人会把 Arkham Asylum、Arkham City 与 Arkham Knight 连起来，猜测下一步又会是什么。《阿卡姆之城》已有“Arkham World”式的玩笑，《骑士》继续让城里人用自己的口吻议论系列的规模。",
+          "title": "从阿卡姆疯人院一路数到阿卡姆宇宙的命名通胀",
+          "body": "在屋顶潜伏窃听阿卡姆骑士军团两名重装守卫交谈时，可听见他们就系列命名进行长篇大论的元幽默吐槽：“先是疯人院，接着是阿卡姆之城，现在连我们脚下都成了‘阿卡姆骑士’！照这个速度搞下去，下一部是不是该叫《阿卡姆星系》或者《阿卡姆全宇宙》了？！”以自嘲口吻化解了三部曲不断攀升的史诗命题。",
           "spoiler": false,
           "images": [
             "kn6-whats-next-1-1",
@@ -3122,8 +3122,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "后日谈里的“幽灵蝙蝠侠”",
-      "summary": "主线之后的故事包，把结局画面转成街头传闻。",
+      "title": "后日谈 DLC 暴徒私语提及恐怖巨兽“梦魇蝙蝠侠”",
+      "summary": "主线之后的罗宾与猫女战役中，暴徒惊恐流传全城天际线浮现喷火恶魔的传闻。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Knightmare",
       "chapterFrame": 690,
@@ -3131,8 +3131,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "传说继续在人群中流动",
-          "body": "“A Flip of a Coin”与“Catwoman’s Revenge”都发生在主线之后。敌人会谈论“Ghost Batman”，与完整结局中具有恶魔轮廓的身影相呼应。玩家看到的终章，在罪犯口中已经变成难以把握的鬼故事。",
+          "title": "主线庄园自毁后诞生的都市恐怖恶魔传说",
+          "body": "在发生在战役落幕之后的“抛硬币之决”与“猫女的复仇”故事包中，街头残留的帮派分子在巡逻时战战兢兢地交头接耳：“听说韦恩庄园炸毁之后，蝙蝠侠根本没死！他变成了一种更可怕的幽灵恶魔，浑身冒着恐惧毒气黑烟在夜空盘旋……”直接印证了终局结尾利用稻草人恐惧毒剂重塑为“梦魇恶魔”（Knightmare Batman）的都市传奇已在哥谭生根发芽。",
           "spoiler": false,
           "images": [
             "kn6-knightmare-1-1",
@@ -3146,8 +3146,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "一句“我是蝙蝠侠”的几种说法",
-      "summary": "同一句自我介绍，在模仿、惊吓与宣言之间转换。",
+      "title": "“我是蝙蝠侠”名台词在全篇的多重变奏与终极宣言",
+      "summary": "从餐馆面具客人的调侃、街头警员拍照打断，到小丑潜意识决战的绝对夺舍誓约。",
       "source": "batman-arkham-videos-knight-6",
       "chapterTitle": "Im Batman",
       "chapterFrame": 730,
@@ -3155,8 +3155,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "面具爱好者与真正的来客",
-          "body": "餐馆戴蝙蝠侠面具的顾客会说“我是蝙蝠侠”；警局外，蝙蝠侠又用同一句话打断两名与战车合影的警察。重复的句子通过场景区分了角色扮演与本人现身。",
+          "title": "日常市井之中的致敬与模仿幽默",
+          "body": "在序章保利餐馆内，一名头戴廉价塑料蝙蝠侠面具的醉汉客人会压低嗓门故作威严地对服务员自报家门“我是蝙蝠侠”；而在哥谭警局总署大门外，当两名巡警兴奋拿出手机与战术蝙蝠车合影自拍时，蝙蝠侠自阴影中无声现身，同样以一句冰冷的“我是蝙蝠侠”吓得两名警员手机脱手。",
           "spoiler": false,
           "images": [
             "kn6-im-batman-1-1",
@@ -3164,8 +3164,8 @@
           ]
         },
         {
-          "title": "复仇、黑夜与最终宣言",
-          "body": "谜语人机甲战会模仿 TAS《Nothing to Fear》的复仇与黑夜宣言；终章与小丑争夺意识时，蝙蝠侠则用自己的声音说出这组话，重新确认精神中的主导权。",
+          "title": "潜意识终局审判彻底驱逐小丑的心灵终极宣言",
+          "body": "而在全剧最高潮布鲁斯于心灵病房反噬小丑意志的对决中，面对惊恐乞求被记住的小丑，蝙蝠侠一拳拳将宿敌砸入铁笼，字字如雷鸣般宣读出那段源自 TAS 动画《无所畏惧》（Nothing to Fear）的至高信仰：“我是复仇！我是黑夜！我是——蝙蝠侠！！”将一句标志性名台词升华为守护者灵魂不朽的绝对丰碑。",
           "spoiler": true,
           "images": [
             "kn6-im-batman-2-1",
@@ -3179,8 +3179,8 @@
       "game": "knight",
       "region": "ACE Chemicals",
       "regionLabel": "ACE 化工厂",
-      "title": "雷·帕尔默的更衣柜",
-      "summary": "化工厂一只柜门，把原子侠的名字与标志放在一起。",
+      "title": "ACE 化工厂工牌更衣柜写有原子侠雷·帕尔默全名",
+      "summary": "化工厂员工更衣室柜门上印有微观粒子物理学家 Ray Palmer 及其原子徽章。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Atom",
       "chapterFrame": 40,
@@ -3188,8 +3188,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "原子图案与姓名",
-          "body": "ACE 化工厂与稻草人对峙之前，可以看到一只写有 Ray Palmer、配着原子图案的柜子。姓名和图形共同对应原子侠，把一个微观尺度的超级英雄藏在大型工业设施里。",
+          "title": "正义联盟微缩巨擘“原子侠”的工程工柜",
+          "body": "在潜入 ACE 化工厂深入中央反应堆下方的员工更衣室长廊时，其中一具灰白色铁皮储物柜门中央，用黑色喷漆清晰喷印着姓名“雷·帕尔默”（Ray Palmer），正下方绘制着经典的原子核轨道几何徽标。在 DC 宇宙中，物理学博士雷·帕尔默正是利用白矮星碎片掌握自由缩放身形能力的超级英雄“原子侠”（The Atom）。",
           "spoiler": false,
           "images": [
             "kn2-atom-locker-1-1"
@@ -3202,8 +3202,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "广告英雄与报纸上的橄榄球员",
-      "summary": "海报直接写出的名字，与新闻照片留下的联想，采用不同的出场方式。",
+      "title": "街头金色先锋商业海报与体育版维克多·斯通照片",
+      "summary": "商业橱窗中代言广告的 Booster Gold 与报纸橄榄球版面上的钢骨维克多。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Booster Gold and Cyborg",
       "chapterFrame": 110,
@@ -3211,16 +3211,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Booster Gold 的宣传画",
-          "body": "哥谭有写着 Booster Gold 的海报，对应来自二十五世纪的迈克尔·乔恩·卡特。金色形象被包装成街头宣传，与这位英雄热衷公众形象的风格彼此贴合。",
+          "title": "来自二十五世纪的商业赞助代言人“金色先锋”",
+          "body": "在创始者岛繁华写字楼橱窗上，张贴着奢华的彩色商业代言海报，画面中身披金黄战甲的超级英雄正露出职业假笑，下方标语赫然书写着“Booster Gold”（金色先锋，迈克尔·乔恩·卡特）。这位来自二十五世纪、沉迷于拉商业赞助的时空旅人，将其标志性的名利场作风带入哥谭广告牌。",
           "spoiler": false,
           "images": [
             "kn2-booster-and-cyborg-1-1"
           ]
         },
         {
-          "title": "体育版里的维克多联想",
-          "body": "一份报纸使用橄榄球比赛照片。视频将球员形象联想到钢骨维克多·斯通成为英雄之前的运动员经历；这条联系来自画面解读，照片仍以体育新闻形式存在。",
+          "title": "先驱报体育头条的高中橄榄球四分卫维克多·斯通",
+          "body": "翻阅街头散落的旧报纸体育专版，一幅全版新闻图片展示着一名全美顶尖高中橄榄球明星飞身达阵的英姿，配文提及“高谭大学对阵大都会中学的全美明星赛四分卫维克多·斯通（Victor Stone）”。记录了正义联盟核心成员“钢骨”在遭受母盒爆炸重创被改造成生化机械人之前的肉身运动员辉煌。",
           "spoiler": false,
           "images": [
             "kn2-booster-and-cyborg-2-1"
@@ -3233,8 +3233,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "药房、家具店、古董铺与帽店",
-      "summary": "不起眼的商铺名字，容得下一整组哥谭人物。",
+      "title": "全城商业门面致敬毁灭者、钟王与理智帽匠",
+      "summary": "罗兰与马克大药房、托克曼古董钟表行与理智帽饰店，展现了反派的市井化转译。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Gotham Shops",
       "chapterFrame": 90,
@@ -3242,8 +3242,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "罗兰、马克与珍娜",
-          "body": "Roland and Mark’s Pharmacy 借用两位 Blockbuster 的本名 Mark Desmond 与 Roland Desmond；Jenna’s Furniture 则让人想到木匠 Jenna Duffy。反派姓名被重新放回了日常职业与门店关系中。",
+          "title": "毁灭者两代宿主开设的“罗兰与马克大药房”",
+          "body": "在布莱克岛贫民区街角悬挂着一块霓虹招牌“Roland & Mark’s Pharmacy”（罗兰与马克药房）。此处的两位合伙人姓名，分别精准对应了 DC 漫画中两代巨力反派“毁灭者”（Blockbuster）的人类真名——马克·德斯蒙德与罗兰·德斯蒙德兄弟，巧妙借用药房隐射其摄入类固醇变异的起源。",
           "spoiler": false,
           "images": [
             "kn2-shops-of-gotham-1-1",
@@ -3251,8 +3251,8 @@
           ]
         },
         {
-          "title": "钟王与理智帽匠",
-          "body": "Tockman’s Antiques 对应 William Tockman 的钟王；“Sane Hatter”用“理智”替换疯帽匠名号里的“疯狂”。古董与帽子这些商品类别，为角色指向补上了另一半线索。",
+          "title": "时钟王古董行与疯帽匠“理智帽饰”定制店",
+          "body": "街头挂牌的“Tockman’s Antiques”古董钟表铺，直接冠以时钟王威廉·托克曼（William Tockman）的姓氏；而相邻的“Sane Hatter”（理智帽匠）定制店，则反讽化用了疯帽匠杰维斯·特奇的疯癫意象，赋予虚构商业街极为严整的黑帮幽默。",
           "spoiler": false,
           "images": [
             "kn2-shops-of-gotham-2-1",
@@ -3266,8 +3266,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "小丑猩猩、单片眼镜与巡游公司",
-      "summary": "几块跨年代招牌，把更冷门的反派留在街上。",
+      "title": "小丑狂暴猩猩服饰店、雪瓦尔马具与索恩工业",
+      "summary": "Jackanapes 潮牌、马头轮廓鞍具店与犯罪头目鲁珀特·索恩的商业帝国。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Unusual Names",
       "chapterFrame": 380,
@@ -3275,8 +3275,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Jackanapes 与 Cheval’s",
-          "body": "Jackanapes 商店联想到另类未来中穿小丑服的智慧猩猩；Cheval’s 则可以联系到 Johnathan Cheval，也就是 Monocle。视频用角色图像与招牌并置，让这些冷门名字显出各自的造型。",
+          "title": "智慧大猩猩特工“Jackanapes”的潮牌店招",
+          "body": "在米亚加尼岛商业街上设立的“Jackanapes Clothing”服饰店，其商号致敬了格兰特·莫里森在《蝙蝠侠》第 666 期展现的严酷反乌托邦未来中，由小丑一手抚养长大、身穿滑稽小丑连体服并掌握重武器的暴走智慧大猩猩“愚弄者”（Jackanapes）。",
           "spoiler": false,
           "images": [
             "kn2-unusual-names-1-1",
@@ -3284,8 +3284,8 @@
           ]
         },
         {
-          "title": "Thorn 与 Hardwick Tours",
-          "body": "Thorn 店名可联想到犯罪头目鲁珀特·索恩；Hardwick Tours 则借 Gunther Hardwicke 的姓氏，指向 Terrible Trio 中的 The Shark。它们先是可信的商业命名，再给熟悉角色的玩家留一个识别入口。",
+          "title": "绅士大盗雪瓦尔马具店与鲁珀特·索恩物流",
+          "body": "“Cheval’s Saddlery”马具店招牌雕刻着精美的马头与马刺，向法国古典马术超级大盗约翰·雪瓦尔致意；而港口高悬的“Thorn Shipping”巨幅货运广告，则印证了哥谭老牌黑手党议长鲁珀特·索恩庞大的家族洗钱航运网。",
           "spoiler": false,
           "images": [
             "kn2-unusual-names-2-1",
@@ -3299,8 +3299,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "扎坦娜魔术店与奥西里斯影院",
-      "summary": "一处直写魔术师名字，另一处保留神话与漫画的多重含义。",
+      "title": "扎坦娜舞台魔术专营店与创始者岛奥西里斯影城",
+      "summary": "霓虹闪烁的 Zatanna Magic 门头与借用黑亚当养子之名的 Osiris Cinema。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Characters / Magic",
       "chapterFrame": 510,
@@ -3308,16 +3308,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "扎坦娜的招牌",
-          "body": "哥谭的魔术商店使用 Zatanna 的名字。舞台魔术与英雄魔法共享同一身份，让店铺招牌能够自然地藏在城市商业街中。",
+          "title": "扎坦娜舞台与超自然魔术精品店",
+          "body": "在全城主要商业地段均开设有挂满星盘与法杖霓虹的“Zatanna’s Magic”魔术行。这家商铺既向大众售卖高档舞台戏法道具，又在暗中为全城超自然义警提供破除诅咒的护身符，使正义联盟首屈一指的魔法女英雄扎坦娜·扎塔拉以招牌形式护佑哥谭。",
           "spoiler": false,
           "images": [
             "kn2-magic-stores-1-1"
           ]
         },
         {
-          "title": "Osiris 的多重指向",
-          "body": "创始者岛 Osiris Cinema 使用埃及神话中与死亡、复生相连的名字；DC 也有同名角色。视频将影院名字放在这组文化联系中，电影场所因此带上了另一层神秘意味。",
+          "title": "古埃及冥王与黑亚当家族奥西里斯影院",
+          "body": "在创始者岛新落成的宏伟“Osiris Cinema”超豪华电影宫门头，以金色浮雕雕刻着埃及冥王奥西里斯神话权杖，同时致敬了 DC 漫画中被黑亚当收养并赋予同等神力的少年英雄奥西里斯（阿蒙·托马兹），呈现出深厚的神话跨界意蕴。",
           "spoiler": false,
           "images": [
             "kn2-magic-stores-2-1"
@@ -3330,8 +3330,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "监狱名字变成了购物广告",
-      "summary": "黑门与巨石监狱的名字，都以商业标识回到哥谭。",
+      "title": "黑门购物中心讽刺广告与超人类重刑犯“巨石监狱”",
+      "summary": "商业广告将黑门监狱戏称为全城最大奥特莱斯，墙面招牌则隐射重刑地牢 The Slab。",
       "source": "batman-arkham-videos-knight-2",
       "chapterTitle": "DC Locations / Prisons",
       "chapterFrame": 885,
@@ -3339,16 +3339,16 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "Blackgate Mall",
-          "body": "Blackgate Mall 的广告将黑门写成购物中心。《阿卡姆之城》的囚犯已经讨论过黑门监狱改成商场的消息，这块广告把一句旧对白变成了可以看见的城市变化。",
+          "title": "从重度恶徒监牢到大众消费奥特莱斯的黑色幽默",
+          "body": "在公路两侧伫立的巨幅广告牌上，打着醒目的促销口号：“欢迎光临黑门购物中心（Blackgate Mall）——哥谭最好的打折去处！”在《阿卡姆之城》中暴徒便曾戏称“市政迟早会把黑门监狱拆了盖商场”，如今这处讽刺广告终于在开放世界街头成真，以极度辛辣的荒诞笔调调侃了城市公权力的逐利腐败。",
           "spoiler": false,
           "images": [
             "kn2-prison-shopping-1-1"
           ]
         },
         {
-          "title": "The Slab",
-          "body": "另一个招牌写着“The Slab”，与 DC 漫画中的 Slabside Penitentiary 相连。与 Belle Reve 一起看，哥谭的商业字面背后藏着不止一座超级罪犯监狱。",
+          "title": "极度防范超人类罪犯的水下死牢“巨石监狱”（The Slab）",
+          "body": "另一侧工业区建筑墙体上印制着斑驳的“The Slab Logistics”物流仓储标志。在 DC 漫画中，“The Slab”（斯莱布赛德重刑监狱）是全美唯一一所专为拘禁拥有灭世异能的超人类罪犯打造的超深水下特种重刑死牢，赋予该物流招牌极具压迫感的隐喻。",
           "spoiler": false,
           "images": [
             "kn2-prison-shopping-2-1"
@@ -3361,8 +3361,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "莎士比亚胸像里的红色开关",
-      "summary": "钟楼与办公室的机关，保留了六十年代电视剧的开门方式。",
+      "title": "钟楼与办公室莎士比亚半身像暗藏机关红钮",
+      "summary": "翻开大理石胸像颈部暗格按下红色按钮，完美重现 1966 电视剧经典开锁机关。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Shakespeares Bust",
       "chapterFrame": 780,
@@ -3370,8 +3370,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "抬起胸像，露出按钮",
-          "body": "钟楼和韦恩办公室的莎士比亚胸像都能触发蝙蝠电脑或装备装置。胸像内的红色按钮，与六十年代《蝙蝠侠》电视剧中打开蝙蝠洞入口的道具相呼应；文艺陈设因此变成通往秘密工作的门铃。",
+          "title": "翻开颈部暗格按下机关红钮的世纪重温",
+          "body": "在布莱克岛钟楼神谕核心工作站以及韦恩大厦总裁办公室内，均各自摆放着一尊神态威严的莎士比亚（Shakespeare）白色大理石半身雕像。走上前与之交互，蝙蝠侠会优雅扳开雕像后颈的铰链翻盖，露出内部安装的鲜红色圆形塑料按钮并用力按下，随之解锁隐藏工作台与武器库，完美复刻了 1966 年亚当·韦斯特经典电视剧中开启蝙蝠洞书架暗门的最著名祖师爷机关。",
           "spoiler": false,
           "images": [
             "kn4-shakespeare-bust-1-1",
@@ -3385,8 +3385,8 @@
       "game": "knight",
       "region": "AR Challenges",
       "regionLabel": "AR 挑战",
-      "title": "挑战图标里的动画蝙蝠侠",
-      "summary": "一枚很小的头像，也保存着前作的动画皮肤。",
+      "title": "全套 AR 战斗挑战界面角标采用 1992 动画版蝙蝠侠剪影",
+      "summary": "挑战排行榜与三星评级旁绘制的纯黑高耸尖耳头像，严格采样自 TAS 动画造型。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Animated Series Icon",
       "chapterFrame": 1137,
@@ -3394,8 +3394,8 @@
       "spoiler": false,
       "blocks": [
         {
-          "title": "把奖星旁的图标放大",
-          "body": "蝙蝠侠 AR 挑战使用的头像，采用《阿卡姆之城》TAS 皮肤的头部造型。三维角色被压缩成一枚黑色剪影，动画的尖耳和披风轮廓仍然足以让人辨认。",
+          "title": "战术 HUD 界面中的经典动画图腾",
+          "body": "在主菜单与暂停界面审视全套 AR 增强现实战术挑战列表时，每一项挑战评级徽章与排行榜结算分数正上方，均绘制着一枚极度冷峻的纯黑色侧面剪影头像——其极度修长锐利的面具双耳、方正刚毅的下颌以及三角狭长的白色眼洞，完全采集自 1992 年布鲁斯·蒂姆传奇动画《蝙蝠侠：动画系列》（TAS）中凯文·康罗伊献声的经典蝙蝠侠造型，以扁平化图腾向系列美学源头致意。",
           "spoiler": false,
           "images": [
             "kn4-animated-series-icon-1-1"
@@ -3408,8 +3408,8 @@
       "game": "knight",
       "region": "Across Gotham",
       "regionLabel": "哥谭各地",
-      "title": "毒藤女让士兵不敢吃沙拉",
-      "summary": "关于一顿午餐的恐惧，把街头对白带向《异形》。",
+      "title": "民兵闲谈恐慌毒藤女复活致敬科幻影史《异形》",
+      "summary": "巡逻哨兵战战兢兢担忧午餐吃下的沙拉复活并破胸而出，戏仿了异形幼体寄生。",
       "source": "batman-arkham-videos-knight-4",
       "chapterTitle": "Alien",
       "chapterFrame": 1040,
@@ -3417,8 +3417,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "如果沙拉又活过来",
-          "body": "毒藤女死亡后，一段民兵闲谈仍担心她的植物能力：午餐吃下的沙拉会不会复活，像外星寄生物一样从肚子里钻出？视频将对白与《异形》的破胸场景相联系，让超级反派的威力进入了士兵最日常的焦虑。",
+          "title": "“万一刚吃进肚子的蔬菜沙拉突然破肚钻出来怎么办？！”",
+          "body": "在毒藤女牺牲消散后，天台防空炮塔旁的阿卡姆骑士士兵在巡逻时仍心有余悸地连声咒骂：“别提艾薇那个毒女人了！我现在连军用口粮里的生菜沙拉都不敢咽下去！万一那些转基因叶子在她残存意念控制下突然在我的胃里疯狂发芽长出带刺藤蔓，像那部科幻惊悚片里的外星怪物一样把我的胸膛硬生生顶穿撕裂怎么办？！”以神经质的黑色幽默向 1979 年雷德利·斯科特影史科幻丰碑《异形》（Alien）破胸体桥段致敬。",
           "spoiler": false,
           "images": [
             "kn4-alien-parasite-1-1",
@@ -3432,8 +3432,8 @@
       "game": "knight",
       "region": "Arkham Episodes",
       "regionLabel": "阿卡姆故事包",
-      "title": "红头罩借来《落水狗》的挑衅",
-      "summary": "与黑面具交战时，一句电影台词混进了攻击动作。",
+      "title": "红头罩在战斗中暴揍黑面具致敬昆汀名作《落水狗》",
+      "summary": "处决黑帮打手时从齿缝中挤出的冷酷挑衅，直接引用了经典犯罪片对峙台词。",
       "source": "batman-arkham-videos-knight-5",
       "chapterTitle": "Reservoir Dogs",
       "chapterFrame": 298,
@@ -3441,8 +3441,8 @@
       "spoiler": true,
       "blocks": [
         {
-          "title": "只会叫，还是会咬",
-          "body": "红头罩在战斗中用“小狗只会叫，还是会咬”式的话挑衅黑面具，呼应昆汀·塔伦蒂诺《落水狗》的对峙台词。视频用电影画面并置，让短促的战斗嘲讽显出出处。",
+          "title": "“你只会狂吠，还是真的敢下嘴咬？！”",
+          "body": "在红头罩独立剧情故事包最终决战中操控杰森·托德冲入黑面具办公室，将罗曼·西恩尼斯逼入绝境并施以近身处决摔打时，红头罩将双枪枪管硬生生顶在黑面具的下颚上，从齿缝间冰冷吐出一句充满暴虐嘲弄的名台词：“告诉老子，你这只小狗到底只会成天狂吠，还是真的有种下嘴咬人啊？！”这句充斥着无情压迫感的经典问询，一字不差地引用了昆汀·塔伦蒂诺 1992 年犯罪处女作杰作《落水狗》（Reservoir Dogs）中标志性的黑帮决斗对白。",
           "spoiler": false,
           "images": [
             "kn5-reservoir-dogs-1-1",
