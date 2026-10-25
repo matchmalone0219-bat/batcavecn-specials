@@ -1,0 +1,4877 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "batman-arkham-videos-city-01",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Eggs and Secrets",
+      "url": "https://www.youtube.com/watch?v=JxOM3-cNDA4",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "01 - Batman： Arkham City - Easter Eggs and Secrets [JxOM3-cNDA4].mp4",
+      "sha256": "4edf2a8f50a1e7287612ee68a6b63e51317bd97453e26ddf5482838fcf3557bb",
+      "duration": 1701.79,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-02",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #1 - Harley Quinn Pregnant",
+      "url": "https://www.youtube.com/watch?v=oyd8xcVv8mg",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "02 - Batman： Arkham City - Easter Egg #1 - Harley Quinn Pregnant [oyd8xcVv8mg].mp4",
+      "sha256": "5febee4c5f828e59c3b31bccdbf81860e13f91b020a0e44622ff6f2768678169",
+      "duration": 50.34,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-03",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #2 - Joker singing ＂Only You＂",
+      "url": "https://www.youtube.com/watch?v=5b23MR0p5kA",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "03 - Batman： Arkham City - Easter Egg #2 - Joker singing ＂Only You＂ [5b23MR0p5kA].mp4",
+      "sha256": "20917f83de9290c4823643f77921ed0d9f9c197ad02f51eb12163cc00c10a89a",
+      "duration": 155.88,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-04",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #3 - Harley Quinn singing ＂Hush, Little Baby＂",
+      "url": "https://www.youtube.com/watch?v=OKJeVv43v8k",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "04 - Batman： Arkham City - Easter Egg #3 - Harley Quinn singing ＂Hush, Little Baby＂ [OKJeVv43v8k].mp4",
+      "sha256": "230884fd4b57b9b36f85589dc2b958a0128ff8fb97a951c92e89c4b0e951ee93",
+      "duration": 36.32,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-05",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #4 - Secret Radio Messages",
+      "url": "https://www.youtube.com/watch?v=0RbVBtSUMRg",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "05 - Batman： Arkham City - Easter Egg #4 - Secret Radio Messages [0RbVBtSUMRg].mp4",
+      "sha256": "cd41676698858e301e349aa8b8bfda0c07f360e2df6804a225da6e0b9fa70fea",
+      "duration": 208.32999999999998,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-06",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #5 - Scarecrow's Secret Room",
+      "url": "https://www.youtube.com/watch?v=kGwClEZ5qAs",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "06 - Batman： Arkham City - Easter Egg #5 - Scarecrow's Secret Room [kGwClEZ5qAs].mp4",
+      "sha256": "bf798cf7d6d75e89f144968b10b54b72f1420466108a4fb4575d9c9f088de331",
+      "duration": 188.01,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-07",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #6 - Killer Croc",
+      "url": "https://www.youtube.com/watch?v=3nCnMSbqeL8",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "07 - Batman： Arkham City - Easter Egg #6 - Killer Croc [3nCnMSbqeL8].mp4",
+      "sha256": "80952d38822ea7956935869d2d3b328164efad3e7fc3a02d29a6b83486269e96",
+      "duration": 149.57999999999998,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-08",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #7 - Ra's al Ghul Never Dies",
+      "url": "https://www.youtube.com/watch?v=wNLx5869gIk",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "08 - Batman： Arkham City - Easter Egg #7 - Ra's al Ghul Never Dies [wNLx5869gIk].mp4",
+      "sha256": "b1b052841f28eb2ce718277d9780223a68374abbc20895f4565ed112873bfb48",
+      "duration": 106.77000000000001,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-09",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #8 - Catwoman Alternate Ending",
+      "url": "https://www.youtube.com/watch?v=V1Q8XAW-bss",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "09 - Batman： Arkham City - Easter Egg #8 - Catwoman Alternate Ending [V1Q8XAW-bss].mp4",
+      "sha256": "56f544993a89c9f25f8b6373126c27c83f3e9978e9566b7c12a61b9381ce53c8",
+      "duration": 184.32,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-10",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #9 - The Lightsaber？",
+      "url": "https://www.youtube.com/watch?v=lYTFTlK4ylY",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "10 - Batman： Arkham City - Easter Egg #9 - The Lightsaber？ [lYTFTlK4ylY].mp4",
+      "sha256": "df0274318f76650a9a7d296475970d15dbd01354fff15214157070f45574f1a7",
+      "duration": 37.55,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-11",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #10 - Lost TV Show",
+      "url": "https://www.youtube.com/watch?v=GndAZ2cyh0k",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "11 - Batman： Arkham City - Easter Egg #10 - Lost TV Show [GndAZ2cyh0k].mp4",
+      "sha256": "edf3eb4cd695c9fb916aa3f6d9ffddf8c3a8a0af309565e2af6941a625604214",
+      "duration": 75.81,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-12",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #11 - Where It All Began",
+      "url": "https://www.youtube.com/watch?v=qMAgTGoPKGc",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "12 - Batman： Arkham City - Easter Egg #11 - Where It All Began [qMAgTGoPKGc].mp4",
+      "sha256": "1d887c9b36a0417548b0b9b7f070e078907ecd0315e0fe5eb2d11f4100d38ee0",
+      "duration": 79.39,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-13",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #12 - Scarecrow's Fear Gas",
+      "url": "https://www.youtube.com/watch?v=oOBk-t-8T_E",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "13 - Batman： Arkham City - Easter Egg #12 - Scarecrow's Fear Gas [oOBk-t-8T_E].mp4",
+      "sha256": "cb096923e98b00da777e79798995fd66199570f73db57b431d6993128f84c992",
+      "duration": 43.49,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-14",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #13 - The Duality of Man",
+      "url": "https://www.youtube.com/watch?v=NN6CN7UpimI",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "14 - Batman： Arkham City - Easter Egg #13 - The Duality of Man [NN6CN7UpimI].mp4",
+      "sha256": "13ba9290a72d8b81e1895a31f5cf023b62d1f22b9ad7b690f92069d5aabfaca6",
+      "duration": 48.32,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-15",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #14 - Scarecrow Thugs？",
+      "url": "https://www.youtube.com/watch?v=Ed7evJGwQ5U",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "15 - Batman： Arkham City - Easter Egg #14 - Scarecrow Thugs？ [Ed7evJGwQ5U].mp4",
+      "sha256": "d2a404af8905bfeb1c31bcc714b8cd754ed7e444a9910745af2cf0851033e4b1",
+      "duration": 62.09,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-16",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #15 - The Fake Joker",
+      "url": "https://www.youtube.com/watch?v=HnHOjPnHMYc",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "16 - Batman： Arkham City - Easter Egg #15 - The Fake Joker [HnHOjPnHMYc].mp4",
+      "sha256": "f5a0f13c5ff67527dabc2a066975c665c75689a3b29de0a35fff8b6f2512c04e",
+      "duration": 47.67,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-17",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #16 - The Ice Trail",
+      "url": "https://www.youtube.com/watch?v=ougxsZyqvQQ",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "17 - Batman： Arkham City - Easter Egg #16 - The Ice Trail [ougxsZyqvQQ].mp4",
+      "sha256": "eb68b9effb96d64faa88707257bb3918f11da856819490c7e6f078f890768ff8",
+      "duration": 73.35,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-18",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #17 - Familiar Faces",
+      "url": "https://www.youtube.com/watch?v=26PnCbMw3UA",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "18 - Batman： Arkham City - Easter Egg #17 - Familiar Faces [26PnCbMw3UA].mp4",
+      "sha256": "02c2333d8acba7f43d4aac526e8954badc8118b44fca56ba06fba92788a428ef",
+      "duration": 152.6,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-19",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #18 - Big Head Mode",
+      "url": "https://www.youtube.com/watch?v=UnezEkDbuks",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "19 - Batman： Arkham City - Easter Egg #18 - Big Head Mode [UnezEkDbuks].mp4",
+      "sha256": "f044e05c9a1e1711f976b45273129425c4939e2d033fc094b1e57cf78c9191d6",
+      "duration": 194.58,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-20",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #19 - Riddler Trophies",
+      "url": "https://www.youtube.com/watch?v=6ewPcBcU9gA",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "20 - Batman： Arkham City - Easter Egg #19 - Riddler Trophies [6ewPcBcU9gA].mp4",
+      "sha256": "fdaf4595474de4edda719a8fcc6e612ce71026ec0a8769c50016b8f0d22a54ec",
+      "duration": 162.17000000000002,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-21",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #20 - Catwoman Extra Dialogues",
+      "url": "https://www.youtube.com/watch?v=ZK1JEXhTLqI",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "21 - Batman： Arkham City - Easter Egg #20 - Catwoman Extra Dialogues [ZK1JEXhTLqI].mp4",
+      "sha256": "854a3a39905a5f124b43485592dacb27495c608fdbd651d3ff28252170186a2f",
+      "duration": 284.79,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-22",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #21 - Next Arkham",
+      "url": "https://www.youtube.com/watch?v=X6QAZPmdNOQ",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "22 - Batman： Arkham City - Easter Egg #21 - Next Arkham [X6QAZPmdNOQ].mp4",
+      "sha256": "b442e9a40bb5184a82fa6b89908f41b0f70b0014128f7e0b7f0c982f825930a5",
+      "duration": 59.58,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-23",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #22 - Prometheus Dossier",
+      "url": "https://www.youtube.com/watch?v=pBIZxTemQhg",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "23 - Batman： Arkham City - Easter Egg #22 - Prometheus Dossier [pBIZxTemQhg].mp4",
+      "sha256": "4f796a0c97f4309ac959a47e4a6771ef6e45788391f859f1b9849b70557d01fb",
+      "duration": 121.77,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-24",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #23 - Rocksteady Devs Arrested",
+      "url": "https://www.youtube.com/watch?v=RyaMSApjKtM",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "24 - Batman： Arkham City - Easter Egg #23 - Rocksteady Devs Arrested [RyaMSApjKtM].mp4",
+      "sha256": "d3546524e90408b460d385fb1e79a1c60ce119aad700812df4ce42f55ea78e24",
+      "duration": 59.33,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-25",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #24 - DC Universe",
+      "url": "https://www.youtube.com/watch?v=ysB57xk2occ",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "25 - Batman： Arkham City - Easter Egg #24 - DC Universe [ysB57xk2occ].mp4",
+      "sha256": "121002f462bad0fb62f2d4ddf58204b2c2a9097ae0fe756f024354ac2094b596",
+      "duration": 128.06,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-26",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #25 - A Death Foretold",
+      "url": "https://www.youtube.com/watch?v=pieSlwfefPU",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "26 - Batman： Arkham City - Easter Egg #25 - A Death Foretold [pieSlwfefPU].mp4",
+      "sha256": "dc24bdc1f2ae218fc5203581148d5d9e35e445d297d73d42b20344b61c322b19",
+      "duration": 123.79,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-27",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #26 - Hush & Scarecrow Team Up？",
+      "url": "https://www.youtube.com/watch?v=l-2uNZtGSiM",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "27 - Batman： Arkham City - Easter Egg #26 - Hush & Scarecrow Team Up？ [l-2uNZtGSiM].mp4",
+      "sha256": "eb831078b2143c4ea515900bd1cb3142f86919e4fcf7fc982e581c5abc230212",
+      "duration": 222.49,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-28",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #27 - Batman Returns",
+      "url": "https://www.youtube.com/watch?v=2Ma5P-ZJRP0",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "28 - Batman： Arkham City - Easter Egg #27 - Batman Returns [2Ma5P-ZJRP0].mp4",
+      "sha256": "8dbb288f73cac95ebeeeb8dead3d3724f0e9d6100cf0f2117f7f175710c6453f",
+      "duration": 132.77,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-29",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #28 - The Mystery of the Mechanical Guardians",
+      "url": "https://www.youtube.com/watch?v=kCuzBV590Zg",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "29 - Batman： Arkham City - Easter Egg #28 - The Mystery of the Mechanical Guardians [kCuzBV590Zg].mp4",
+      "sha256": "506743ffc7f4851d282794b4166b2bfe8a06bf98f40f61d055e8ac2ce44a1d42",
+      "duration": 123.79,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-30",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #29 - Joker's Secret Message",
+      "url": "https://www.youtube.com/watch?v=Ong9w0kZcgs",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "30 - Batman： Arkham City - Easter Egg #29 - Joker's Secret Message [Ong9w0kZcgs].mp4",
+      "sha256": "5f3a29855fe6a4ce98cf820dc5db1c49414de655a79bf34fc490ccfe205aa682",
+      "duration": 91.3,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-31",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #30 - Souvenirs from the Asylum",
+      "url": "https://www.youtube.com/watch?v=OhFHIBq0k5k",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "31 - Batman： Arkham City - Easter Egg #30 - Souvenirs from the Asylum [OhFHIBq0k5k].mp4",
+      "sha256": "61c1ad3a37bdaf6c61da76a8adad405e1d7e62302312272e3a35e5e9e064b6ee",
+      "duration": 230.06,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-32",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #31 - Killer Croc in the Iceberg Lounge",
+      "url": "https://www.youtube.com/watch?v=M1aW7w-piCQ",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "32 - Batman： Arkham City - Easter Egg #31 - Killer Croc in the Iceberg Lounge [M1aW7w-piCQ].mp4",
+      "sha256": "58651ae27aa7635a2181da27b7988c0426ed52381564ea4136f3594af0143839",
+      "duration": 222.26,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-33",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #32 - Batman Mythos [Part 1]",
+      "url": "https://www.youtube.com/watch?v=wObcbo3fWcs",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "33 - Batman： Arkham City - Easter Egg #32 - Batman Mythos [Part 1] [wObcbo3fWcs].mp4",
+      "sha256": "7a330c1a7edd578715f4daf6dce51fc2493585bb82b0c07cf04a64ea2e6e0a7a",
+      "duration": 572.19,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-34",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #33 - Harley's Negative Pregnancy Tests (Harley Quinn's Revenge)",
+      "url": "https://www.youtube.com/watch?v=w9cp3xsJCkU",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "34 - Batman： Arkham City - Easter Egg #33 - Harley's Negative Pregnancy Tests (Harley Quinn's Revenge) [w9cp3xsJCkU].mp4",
+      "sha256": "1c76bb845b23687e118102988319e5b4f1de424044c6e8d97c5839ced768bf5b",
+      "duration": 125.36,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-35",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #34 - Cadmus Labs (Harley Quinn's Revenge)",
+      "url": "https://www.youtube.com/watch?v=JangZq50ZbA",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "35 - Batman： Arkham City - Easter Egg #34 - Cadmus Labs (Harley Quinn's Revenge) [JangZq50ZbA].mp4",
+      "sha256": "fa225db32fe7275bccb61a8a8713dba09e518bfd2f958c2964c99bb8b52502d9",
+      "duration": 103.63,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-36",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #35 - Gotham in a Puddle",
+      "url": "https://www.youtube.com/watch?v=slxt2xYHroc",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "36 - Batman： Arkham City - Easter Egg #35 - Gotham in a Puddle [slxt2xYHroc].mp4",
+      "sha256": "443d4930d1d3484cf978a3a819ccf83c743a0953a6da3d8215a83d8c0594d1d2",
+      "duration": 114.71000000000001,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-37",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #36 - Batman Mythos [Part 2]",
+      "url": "https://www.youtube.com/watch?v=NztYb11BeYU",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "37 - Batman： Arkham City - Easter Egg #36 - Batman Mythos [Part 2] [NztYb11BeYU].mp4",
+      "sha256": "f4e97aa6e46cfb18652cc13a79b8c942ec3e9be842b9715aae437ca5b1a60e3e",
+      "duration": 1190.49,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-38",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City - Easter Egg #37 - Batman Mythos [Part 3]",
+      "url": "https://www.youtube.com/watch?v=_PBwtdsx92c",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "38 - Batman： Arkham City - Easter Egg #37 - Batman Mythos [Part 3] [_PBwtdsx92c].mp4",
+      "sha256": "fc26d35ce0e79b10d6b9038b2a6bb7c083a6edd03c11f89a977f04ca60f83e0c",
+      "duration": 1372.3,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    },
+    {
+      "id": "batman-arkham-videos-city-39",
+      "creator": "Batman Arkham Videos",
+      "title": "Batman： Arkham City New Easter Egg - Calendar Man's Secret Message",
+      "url": "https://www.youtube.com/watch?v=temF1OFCIPg",
+      "type": "第三方彩蛋收集视频，游戏画面与作者解说卡片",
+      "fileName": "39 - Batman： Arkham City New Easter Egg - Calendar Man's Secret Message [temF1OFCIPg].mp4",
+      "sha256": "4c91a5da9ba45bc6a1017fb49aa7eac540895f73a96384ded8e541c3a0f7b825",
+      "duration": 179.26,
+      "creditPlacement": "栏目开头统一署名；图片不重复附作者与时间"
+    }
+  ],
+  "entries": [
+    {
+      "id": "city-secret-harley-tests",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "经理室地板上的两种结果",
+      "summary": "同一间办公室里的几件小物，随着故事与追加篇章改变了含义。",
+      "source": "batman-arkham-videos-city-02",
+      "chapterTitle": "Harley Tests",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "原版里的一道加号",
+          "body": "钢铁厂经理室里，哈莉旧制服旁放着 Fruitful Endeavour 验孕棒与包装。棒上的加号对应包装所示的阳性结果。这个不起眼的角落，把哈莉与小丑的关系留成一处与主线并行的悬念。",
+          "spoiler": false,
+          "images": [
+            "ct02-harley-tests-1-1"
+          ]
+        },
+        {
+          "title": "复仇篇中的婴儿床",
+          "body": "《哈莉·奎恩的复仇》再次使用这间办公室。婴儿床里躺着打扮成小丑的疤脸木偶，四周散着大量显示阴性的验孕棒；包装还有可能出现假阳性的提示。原版那根阳性验孕棒仍在旧制服附近，两组结果共同构成哈莉执念中的矛盾。",
+          "spoiler": true,
+          "images": [
+            "ct02-harley-tests-2-1",
+            "ct02-harley-tests-2-2",
+            "ct02-harley-tests-2-3",
+            "ct02-harley-tests-2-4"
+          ]
+        },
+        {
+          "title": "片尾的摇篮曲",
+          "body": "新故事＋片尾，哈莉会唱起《Hush, Little Baby》。同一首摇篮曲也出现在动画电影《未来蝙蝠侠：小丑归来》的营救场景中；唱歌的人、被扭曲的家庭想象与罗宾的处境，使这段温柔旋律带上了阴冷的回声。",
+          "spoiler": true,
+          "images": [
+            "ct02-harley-tests-3-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01",
+        "batman-arkham-videos-city-04",
+        "batman-arkham-videos-city-34",
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-only-you",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "演职员表之后的一通留言",
+      "summary": "片尾还有一段声音表演，把熟悉的流行歌曲唱成了私人告别。",
+      "source": "batman-arkham-videos-city-03",
+      "chapterTitle": "Only You",
+      "chapterFrame": 8,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "小丑留下的歌",
+          "body": "主线结局后的演职员表中，小丑用《Only You》留下录音留言，歌曲原唱组合为 The Platters。与蝙蝠侠最后的对峙结束后，这段近乎献唱的表演仍把两人的关系放在中心：即使故事已经走到死亡，他仍要把最后一场戏唱给同一个人。",
+          "spoiler": false,
+          "images": [
+            "ct03-only-you-1-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-number-broadcasts",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "无线电中的三组数字",
+      "summary": "三处频段把数字读成字母，拼出了同一名敌人的威胁。",
+      "source": "batman-arkham-videos-city-05",
+      "chapterTitle": "Number Broadcasts",
+      "chapterFrame": 20,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "700 / 500：最直接的一句",
+          "body": "把频率调到 700 / 500，广播中的数字可以按 A=1、B=2 的顺序换成字母，得到“I will return, Batman”。第一组密码几乎像是在教玩家如何听懂这套数字广播，随后两组再逐渐增加变换步骤。",
+          "spoiler": false,
+          "images": [
+            "ct05-number-broadcasts-1-1"
+          ]
+        },
+        {
+          "title": "500 / 900：反排与移位",
+          "body": "500 / 900 的信息先使用反向字母表把数字换成字母，再进行三位移位。最终意思是：你会为对我做过的事付出代价。与第一组简短的回归宣言相比，这一次的信息更像一笔仍未结清的旧账。",
+          "spoiler": false,
+          "images": [
+            "ct05-number-broadcasts-2-1"
+          ]
+        },
+        {
+          "title": "200 / 500：钥匙是稻草人",
+          "body": "200 / 500 先经过数字换字母，再做 Atbash 反排，最后使用 SCARECROW 作为维吉尼亚密码的密钥。得到的信息预告恐惧将撕碎哥谭。密钥把三段威胁与乔纳森·克莱恩联系起来，也为工业区货船里的发现添上一层背景。",
+          "spoiler": false,
+          "images": [
+            "ct05-number-broadcasts-3-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-scarecrow-boat",
+      "game": "city",
+      "region": "Industrial District",
+      "regionLabel": "工业区",
+      "title": "货船甲板下的实验室",
+      "summary": "工业区海边的一艘船，藏着需要密码才能开启的舱门。",
+      "source": "batman-arkham-videos-city-06",
+      "chapterTitle": "Scarecrow Boat",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "CITYOFTERROR",
+          "body": "在工业区近海货船的甲板上，使用密码分析器寻找隐藏的交互点，可以输入 CITYOFTERROR 打开舱门。室外看起来只是普通货运空间，进入后却能发现被改造成实验现场的船舱。",
+          "spoiler": false,
+          "images": [
+            "ct06-scarecrow-boat-1-1",
+            "ct06-scarecrow-boat-1-2"
+          ]
+        },
+        {
+          "title": "货物仍在途中",
+          "body": "船舱里有成箱活蟑螂、一名遭到实验的囚犯，以及 Falcone Shipping 的货运单据。收货人写着 Jonathan Crane，装运说明提及首批十五份货物与仍在运输中的其余部分。稻草人的计划以物流文件与实验残迹继续存在。",
+          "spoiler": false,
+          "images": [
+            "ct06-scarecrow-boat-2-1",
+            "ct06-scarecrow-boat-2-2",
+            "ct06-scarecrow-boat-2-3"
+          ]
+        },
+        {
+          "title": "Crane 的另一层意思",
+          "body": "《疯人院》关于克莱恩的谜语，把“提升恐惧”与“新的深度”放在一句话里。《之城》的藏身处则位于吊车旁的船舱；Crane 同时是姓氏与吊车的英文，让旧谜语与新地点形成了可以回头读出的双关。",
+          "spoiler": false,
+          "images": [
+            "ct06-scarecrow-boat-3-1",
+            "ct06-scarecrow-boat-3-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01",
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-croc-sewer",
+      "game": "city",
+      "region": "Wonder City",
+      "regionLabel": "奇迹之城",
+      "title": "离开地下城之前，回头走一次",
+      "summary": "一段容易错过的返程路线，会让旧日对手出现在铁栏后。",
+      "source": "batman-arkham-videos-city-07",
+      "chapterTitle": "Croc Sewer",
+      "chapterFrame": 40,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "偏离当前目标的返程",
+          "body": "击败拉斯·奥·古、离开奇迹之城时，沿进入地下区域的路线回走，可以通过发射器与遥控蝙蝠镖接近一处开关。开启通路后，杀手鳄会在铁栏另一侧现身。他嗅出蝙蝠侠身体里的变化，短暂对话后便重新退回下水道。",
+          "spoiler": false,
+          "images": [
+            "ct07-croc-sewer-1-1",
+            "ct07-croc-sewer-1-2",
+            "ct07-croc-sewer-1-3"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-sword-outline",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "围栏下留下的一把剑",
+      "summary": "重访主线中的一个落点，可以看到现场在结局之后发生的变化。",
+      "source": "batman-arkham-videos-city-08",
+      "chapterTitle": "Sword Outline",
+      "chapterFrame": 40,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "身体与遗物的去向",
+          "body": "拉斯·奥·古从奇迹之塔坠落后，身体一度挂在下方围栏上。完成主线再返回，原地留下剑与粉笔轮廓，身体已经消失。反复死亡与归来的角色经历，在这里被缩成一件兵器和一个空出来的位置。",
+          "spoiler": false,
+          "images": [
+            "ct08-sword-outline-1-1",
+            "ct08-sword-outline-1-2",
+            "ct08-sword-outline-1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-catwoman-choice",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "猫女离开金库后的另一条路",
+      "summary": "搬走战利品或回头救人，走错的一边也准备了一段完整回应。",
+      "source": "batman-arkham-videos-city-09",
+      "chapterTitle": "Catwoman Choice",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "让选择真的走到尽头",
+          "body": "猫女金库段落结束后，左边通向营救蝙蝠侠，右边则带着赃物离开。选择后者会进入替代结局，神谕的通讯交代哥谭失去蝙蝠侠后的灾难。游戏随后倒带，把猫女送回岔路，让玩家重新作出选择。",
+          "spoiler": false,
+          "images": [
+            "ct09-catwoman-choice-1-1",
+            "ct09-catwoman-choice-1-2",
+            "ct09-catwoman-choice-1-3"
+          ]
+        },
+        {
+          "title": "倒带里的小丑",
+          "body": "替代结局倒带时，声音里还藏着一段倒放的小丑留言。将这段倒放恢复后，意思是感谢蝙蝠侠带来的娱乐。一次被剧情撤回的离开，也被小丑当作可供谢幕的演出。",
+          "spoiler": false,
+          "images": [
+            "ct09-catwoman-choice-2-1",
+            "ct09-catwoman-choice-2-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01",
+        "batman-arkham-videos-city-30"
+      ]
+    },
+    {
+      "id": "city-secret-deadshot-device",
+      "game": "city",
+      "region": "Industrial District",
+      "regionLabel": "工业区",
+      "title": "电路箱里像光剑的装置",
+      "summary": "死亡射手任务附近的一件小道具，有着容易让人联想到科幻电影的外形。",
+      "source": "batman-arkham-videos-city-10",
+      "chapterTitle": "Deadshot Device",
+      "chapterFrame": 20,
+      "kind": "道具与联想",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "一截金属握柄",
+          "body": "死亡射手线索所在的电路箱里，可以看到一件细长、带有金属握柄感的装置。视频用它与光剑的外形作比较，并联想到同时为小丑和卢克配音的马克·哈米尔；镜头展示的是道具的相似形状，也容得下激光指示器一类的日常解释。",
+          "spoiler": false,
+          "images": [
+            "ct10-deadshot-device-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-lost-tv",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "哥谭也有人追过《迷失》",
+      "summary": "电视中的牢骚与街头闲谈，都把同一部美剧带进了监狱城。",
+      "source": "batman-arkham-videos-city-11",
+      "chapterTitle": "Lost Tv",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "小丑对大结局的意见",
+          "body": "小丑在屏幕上向蝙蝠侠讲话时，突然抱怨起《迷失》如何收场，尤其提到最后为什么来到教堂。街头囚犯的另一段闲谈则追问那座岛究竟是什么。两处对白让罪犯也像刚追完剧的普通观众一样争论剧情。",
+          "spoiler": false,
+          "images": [
+            "ct11-lost-tv-1-1",
+            "ct11-lost-tv-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-crime-alley",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "君主剧院后的鲜花",
+      "summary": "犯罪巷里的粉笔、花束与一个跪下的动作，让赶路暂时停住。",
+      "source": "batman-arkham-videos-city-12",
+      "chapterTitle": "Crime Alley",
+      "chapterFrame": 20,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "回到那条小巷",
+          "body": "君主剧院后方的犯罪巷保留着韦恩夫妇遇害位置的粉笔轮廓，地上还放着花束。靠近后可以选择悼念，蝙蝠侠会跪下、低头，给这段没有战斗的停顿留出时间。城市里最私人的记忆，就放在一条仍能自由进入的小路上。",
+          "spoiler": false,
+          "images": [
+            "ct12-crime-alley-1-1",
+            "ct12-crime-alley-1-2",
+            "ct12-crime-alley-1-3"
+          ]
+        },
+        {
+          "title": "有人把这里变成留言地点",
+          "body": "现场还留有雨果·斯特兰奇的录音。他把蝙蝠侠的诞生地点与故事将如何结束联系起来，使悼念空间同时受到敌人的窥视。花束代表布鲁斯与父母的关系，录音则把这份私密哀悼重新拖回围绕身份展开的较量。",
+          "spoiler": true,
+          "images": [
+            "ct12-crime-alley-2-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-fear-gas-canisters",
+      "game": "city",
+      "region": "Riddler Rooms",
+      "regionLabel": "谜语人房间",
+      "title": "谜语人房间里的旧毒气罐",
+      "summary": "第三间人质房的一组布景，延续了《疯人院》的恐惧实验痕迹。",
+      "source": "batman-arkham-videos-city-13",
+      "chapterTitle": "Fear Gas Canisters",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "认出重复出现的容器",
+          "body": "谜语人的第三间人质房里，能找到与《阿卡姆疯人院》稻草人关卡相近的恐惧毒气罐。它们没有在这里开启一场独立的幻觉战，而是作为旧道具进入另一名反派搭建的空间，使不同案件的视觉记忆在布景中交叠。",
+          "spoiler": false,
+          "images": [
+            "ct13-fear-gas-canisters-1-1",
+            "ct13-fear-gas-canisters-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-duality-painting",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "保险柜前的《人性二重性》",
+      "summary": "猫女开场房间的一幅画，同时连接双面人的主题与后来的构图。",
+      "source": "batman-arkham-videos-city-14",
+      "chapterTitle": "Duality Painting",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "该隐与亚伯",
+          "body": "双面人办公室保险柜前的画作，铭牌写着“Cain & Abel — The Duality of Man”。兄弟、暴力与一体两面的题意，放在哈维·登特的房间里格外贴合，也为整部游戏不断成对出现的人物关系留下提示。",
+          "spoiler": false,
+          "images": [
+            "ct14-duality-painting-1-1",
+            "ct14-duality-painting-1-2"
+          ]
+        },
+        {
+          "title": "抱起对手的构图",
+          "body": "结局中蝙蝠侠抱着小丑走出剧院的姿态，与画作形成呼应；“Batman carrying a body”的图像又让人想到《家庭之死》中抱着杰森·托德的经典场面。相似构图把敌人的死亡放进蝙蝠侠熟悉的哀悼姿态。",
+          "spoiler": true,
+          "images": [
+            "ct14-duality-painting-2-1",
+            "ct14-duality-painting-2-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01",
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-texture-anomaly",
+      "game": "city",
+      "region": "Amusement Mile",
+      "regionLabel": "游乐里",
+      "title": "尸体衣服上的异常纹理",
+      "summary": "十号协议之后的一处画面异常，曾引出关于稻草人的猜想。",
+      "source": "batman-arkham-videos-city-15",
+      "chapterTitle": "Texture Anomaly",
+      "chapterFrame": 20,
+      "kind": "画面异常与玩家联想",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "纹理看起来像换了主人",
+          "body": "十号协议后，游乐里部分倒下的囚犯会出现异常服装纹理，粗糙布料和拼接感让人联想到稻草人的装束。视频把这一现象放在贴图错误与玩家猜想之间讨论。这里可观察的是同一类人物模型的外观变化，稻草人部队的说法由此产生。",
+          "spoiler": false,
+          "images": [
+            "ct15-texture-anomaly-1-1",
+            "ct15-texture-anomaly-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-detective-scan",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "扫描留下的一处异常",
+      "summary": "侦探模式会给一位熟悉人物显示与平常不同的信息。",
+      "source": "batman-arkham-videos-city-16",
+      "chapterTitle": "Detective Scan",
+      "chapterFrame": 12,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "没有出现的骨骼",
+          "body": "健康模样的小丑与蝙蝠侠交手时，侦探模式没有显示普通人体那样的骨骼。此前的电视亮相还藏着画外咳嗽声：病中的真小丑与台前的替身并不处于同一位置。结局揭开泥脸的伪装后，这些异常才有了共同的解释。",
+          "spoiler": false,
+          "images": [
+            "ct16-detective-scan-1-1",
+            "ct16-detective-scan-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-freeze-ice-trail",
+      "game": "city",
+      "region": "GCPD",
+      "regionLabel": "旧哥谭警局",
+      "title": "警局后方的一条冰路",
+      "summary": "完成急冻人委托之后，旧警局外多了一条可以跟随的痕迹。",
+      "source": "batman-arkham-videos-city-17",
+      "chapterTitle": "Freeze Ice Trail",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "从旧警局走向码头",
+          "body": "找到诺拉后，回到旧警局背面，可以看到急冻人留下的冰面一路伸向北哥谭码头。沿着冰路前进并进入仓库，便能见到维克多与妻子重聚。任务结束后的环境变化，为这场寻人留下了一段可亲自走完的返程。",
+          "spoiler": false,
+          "images": [
+            "ct17-freeze-ice-trail-1-1",
+            "ct17-freeze-ice-trail-1-2",
+            "ct17-freeze-ice-trail-1-3"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-hatter-tea-roof",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "屋顶上遗下的茶具",
+      "summary": "一场奇异邀约过去之后，屋顶仍然留着熟悉的摆设。",
+      "source": "batman-arkham-videos-city-17",
+      "chapterTitle": "Hatter Tea Roof",
+      "chapterFrame": 56,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "从幻觉回到城市",
+          "body": "疯帽匠的茶会结束后，回到相关屋顶，可以看到桌椅和茶具仍留在那里。曾经被“解药”信息引入的幻象，回到现实后只剩下一组安静道具。环境保留了事件的入口，也把任务结束后的城市与刚才那场梦连接起来。",
+          "spoiler": false,
+          "images": [
+            "ct17-hatter-tea-roof-1-1",
+            "ct17-hatter-tea-roof-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-opening-cameos",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "入城队伍旁的熟面孔",
+      "summary": "布鲁斯第一次走进阿卡姆城时，支线人物已在画面边缘出现。",
+      "source": "batman-arkham-videos-city-18",
+      "chapterTitle": "Opening Cameos",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "黑面具与死亡射手",
+          "body": "开场羁押区里，黑面具正在反抗 TYGER 警卫；布鲁斯经过囚犯队伍时，还会遇见弗洛伊德·劳顿，也就是死亡射手。两个人都先以短暂插曲出现，之后的探索才把名字与更完整的背景连接起来。",
+          "spoiler": false,
+          "images": [
+            "ct18-opening-cameos-1-1",
+            "ct18-opening-cameos-1-2"
+          ]
+        },
+        {
+          "title": "屋顶上的观察者",
+          "body": "进入阿卡姆城的途中，屋顶还能看到阿兹拉尔在高处观察。与之后四处出现的“羽翼中的守望者”支线相比，这个很早的远景几乎没有打断行进，只把一名沉默的见证者放进城市上方。",
+          "spoiler": false,
+          "images": [
+            "ct18-opening-cameos-2-1"
+          ]
+        },
+        {
+          "title": "教堂里的伤员",
+          "body": "早期教堂救援中，一名缠着绷带、接受照料的人后来会显出另一重身份：托马斯·艾略特。缄默支线开始前，他已经借伤员的外表与蝙蝠侠共享过同一个空间。",
+          "spoiler": true,
+          "images": [
+            "ct18-opening-cameos-3-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-big-head-mode",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "让阿卡姆城变成大头舞台",
+      "summary": "手柄上的一组操作，可以改变角色比例而保留原本的动作。",
+      "source": "batman-arkham-videos-city-19",
+      "chapterTitle": "Big Head Mode",
+      "chapterFrame": 12,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "扣住扳机，再转动摇杆",
+          "body": "在视频展示的手柄操作中，按住 Xbox 360 的 LT、RT，或 PS3 的 L2、R2，再让右摇杆连续转圈，就能触发大头效果。重复操作可以恢复。蝙蝠侠、猫女与挑战地图人物仍按原本方式行动，夸张比例因而成了整座城市都能参与的笑话。",
+          "spoiler": false,
+          "images": [
+            "ct19-big-head-mode-1-1",
+            "ct19-big-head-mode-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-twins-reunited",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "重新关在一起的阿布拉莫维奇兄弟",
+      "summary": "回到钢铁厂，能看到两位守卫的关系被变成一个环境笑话。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Twins Reunited",
+      "chapterFrame": 12,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "同一个笼子里的两张脸",
+          "body": "阿布拉莫维奇兄弟原本分开守在小丑的据点，围绕兄弟关系有过互相抱怨。后来再到钢铁厂，二人被关进同一个笼子。曾经的冲突只留下一个可路过查看的场面，名字、站位与牢笼一起完成了“团聚”的笑点。",
+          "spoiler": false,
+          "images": [
+            "ct20-twins-reunited-1-1",
+            "ct20-twins-reunited-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-calendar-empty-cell",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "法庭下方的牢房换了住客",
+      "summary": "节日会面结束后，法庭下方牢房里的人也发生了变化。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Calendar Empty Cell",
+      "chapterFrame": 44,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "回访一间熟悉的牢房",
+          "body": "完成十二次节日会面后，再回到法院地下，日历人已经离开，牢房中出现了被吊起的双面人手下。挂满日期的墙面依旧保留，而原本坐在其中讲述节日凶案的人已经不在。十二段回忆之后，游戏用改变了的牢房现场留下最后一幕。",
+          "spoiler": false,
+          "images": [
+            "ct20-calendar-empty-cell-1-1"
+          ]
+        }
+      ],
+      "supportingReferences": [
+        {
+          "title": "Story Teller — Arkham Wiki",
+          "url": "https://arkhamcity.fandom.com/wiki/Story_Teller",
+          "type": "玩家百科；十二次会面后的牢房变化"
+        }
+      ]
+    },
+    {
+      "id": "city-secret-black-mask-traces",
+      "game": "city",
+      "region": "Industrial District",
+      "regionLabel": "工业区",
+      "title": "黑面具留下的名字与洞口",
+      "summary": "钢铁厂的所有者并非只有开场的一次露脸，城市还保留着他的资产与逃跑痕迹。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Black Mask Traces",
+      "chapterFrame": 64,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "围墙上的逃离路线",
+          "body": "一处被掘开的墙洞配着 TYGER 通告，构成黑面具越狱的谜语现场。工业区随处可见 Sionis 的企业名字，钢铁厂同样属于这套资产背景：罗曼·西恩尼斯虽被赶出据点，姓氏仍写在建筑上。",
+          "spoiler": false,
+          "images": [
+            "ct20-black-mask-traces-1-1",
+            "ct20-black-mask-traces-1-2"
+          ]
+        },
+        {
+          "title": "木面具与挑战关卡",
+          "body": "企鹅人博物馆的展示柜收藏着罗曼早期的木面具。罗宾的黑面具挑战战役则让他本人在工厂办公室与货运列车中登场；在列车挑战失败时，还会看到由他出面的专属嘲讽画面。",
+          "spoiler": false,
+          "images": [
+            "ct20-black-mask-traces-2-1",
+            "ct20-black-mask-traces-2-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01",
+        "batman-arkham-videos-city-37"
+      ]
+    },
+    {
+      "id": "city-secret-city-signals",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "高处的蝙蝠信号与远方岛屿",
+      "summary": "屋顶视野里的两个熟悉轮廓，让开放城市仍与前作保持距离感。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "City Signals",
+      "chapterFrame": 56,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "看向城市之外",
+          "body": "游乐里能够遥望阿卡姆疯人院的轮廓，屋顶上也能找到蝙蝠信号灯。前作发生在一座岛上，这一次玩家站在更大的城区眺望它；地标没有变成新的任务入口，而是帮助两部作品共享同一片哥谭夜空。",
+          "spoiler": false,
+          "images": [
+            "ct20-city-signals-1-1",
+            "ct20-city-signals-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-pest-control-shop",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "害虫防治公司的小招牌",
+      "summary": "一块日常服务业招牌，把藏在下水道世界的人带到街面。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Pest Control Shop",
+      "chapterFrame": 84,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "Flannegan Pest Control",
+          "body": "街头的 Flannegan Pest Control 招牌借用了捕鼠者奥蒂斯·弗兰尼根的姓氏与职业背景。普通的害虫防治广告，碰上能号令鼠群的反派名字，就多出一层反讽。它与更显眼的反派据点相比，需要玩家停下来看清门面的文字。",
+          "spoiler": false,
+          "images": [
+            "ct20-pest-control-shop-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-wanted-and-magic",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "悬赏海报旁的魔术店",
+      "summary": "街面上的通告与橱窗，让人物关系藏在普通行走路线里。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Wanted And Magic",
+      "chapterFrame": 92,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "布鲁斯也上了墙",
+          "body": "布鲁斯·韦恩的悬赏海报被贴进这座监狱城，提醒玩家开场的政治抗争并未随着换上战衣而消失。附近 Magic & Ventriloquism 店面的命名又把魔术、腹语术与蝙蝠侠反派的表演传统放进同一条街。",
+          "spoiler": false,
+          "images": [
+            "ct20-wanted-and-magic-1-1",
+            "ct20-wanted-and-magic-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-harleen-diploma",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "哈琳·昆泽尔的毕业证",
+      "summary": "钢铁厂里的一个相框，保留着哈莉成为小丑搭档之前的名字。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Harleen Diploma",
+      "chapterFrame": 108,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "墙上的另一个人生",
+          "body": "哈莉据点里挂着她以 Harleen Quinzel 身份取得的学位证书。与周围小丑化的布置相处，这份职业资格像是旧生活留下的物证：她曾以医生身份进入阿卡姆，而这张纸如今被放进了完全不同的工作场所。",
+          "spoiler": false,
+          "images": [
+            "ct20-harleen-diploma-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-tyger-and-sharp",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "预告片中的警卫与市长的碑文",
+      "summary": "阿卡姆城的官方形象，散落在伤员现场与一块开幕纪念牌上。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Tyger And Sharp",
+      "chapterFrame": 116,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "宣传背后的现场",
+          "body": "视频把一名遭拷问的 TYGER 警卫与《之城》早期宣传片中的人物相连，强调宣传素材如何被嵌回游戏空间。另一处以夏普市长名义立起的开幕碑文，则用整齐的官方语气纪念这座监狱城的建立。",
+          "spoiler": false,
+          "images": [
+            "ct20-tyger-and-sharp-1-1",
+            "ct20-tyger-and-sharp-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-scarecrow-mask",
+      "game": "city",
+      "region": "Amusement Mile",
+      "regionLabel": "游乐里",
+      "title": "桥下草堆里的面罩",
+      "summary": "水边的一张旧面罩，把没有正面现身的人留在城市角落。",
+      "source": "batman-arkham-videos-city-20",
+      "chapterTitle": "Scarecrow Mask",
+      "chapterFrame": 140,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "低头看向桥下",
+          "body": "游乐里水边、桥下的草堆里藏着稻草人的面罩。粗布、呼吸部件与熟悉的脸型足以让人认出它。无线电威胁和货船实验室之外，这件小物让克莱恩的存在落在可见、可扫描的实物上。",
+          "spoiler": false,
+          "images": [
+            "ct20-scarecrow-mask-1-1",
+            "ct20-scarecrow-mask-1-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-01"
+      ]
+    },
+    {
+      "id": "city-secret-catwoman-visits",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "猫女回访时，大家换了一套说法",
+      "summary": "同一批支线人物面对猫女，会谈起与蝙蝠侠交涉时不同的事情。",
+      "source": "batman-arkham-videos-city-21",
+      "chapterTitle": "Catwoman Visits",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "日历人与企鹅人",
+          "body": "猫女与日历人交谈时，对方拿她的父亲、生日与法尔科内家族制造不安；到了被困住的企鹅人面前，她又用猫与鸟的关系反过来威胁他。人物没有增加一场新战斗，而是用不同态度暴露各自的处境。",
+          "spoiler": false,
+          "images": [
+            "ct21-catwoman-visits-1-1",
+            "ct21-catwoman-visits-1-2"
+          ]
+        },
+        {
+          "title": "茶会与牢笼",
+          "body": "疯帽匠仍在等待爱丽丝，猫女便顺着他的童话说起柴郡猫。贝恩隔着铁门提出威胁与要求，她则把是否放人变成一堂礼貌课。两次回访都让猫女借眼前的困局调侃对方。",
+          "spoiler": false,
+          "images": [
+            "ct21-catwoman-visits-2-1",
+            "ct21-catwoman-visits-2-2"
+          ]
+        },
+        {
+          "title": "急冻人与扎斯",
+          "body": "与诺拉团聚后的急冻人只想守着妻子，猫女却还想邀他去偷埃及展品；走到扎斯门外，她又明确表现出不愿进门的厌恶。同为自由探索中的短句，两处反应划出了她愿意接近与主动避开的边界。",
+          "spoiler": false,
+          "images": [
+            "ct21-catwoman-visits-3-1",
+            "ct21-catwoman-visits-3-2"
+          ]
+        },
+        {
+          "title": "回到毒藤女面前",
+          "body": "猫女没有带回答应交给毒藤女的东西，两人的争执因而从植物损失延伸到斯特兰奇与哥谭。把这场会面与前面的支线回访连起来，能看到猫女如何逐个处理自己曾利用、得罪或欠过人情的人。",
+          "spoiler": false,
+          "images": [
+            "ct21-catwoman-visits-4-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-37"
+      ]
+    },
+    {
+      "id": "city-secret-arkham-world",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "囚犯也在猜“下一座阿卡姆”",
+      "summary": "街头的一段闲聊，把越建越大的监狱开成了系列命名的玩笑。",
+      "source": "batman-arkham-videos-city-22",
+      "chapterTitle": "Arkham World",
+      "chapterFrame": 12,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "County、Country 与 World",
+          "body": "两名囚犯谈起阿卡姆疯人院与阿卡姆城之后还会有什么，把名称一路推向 County、Country 和 World。它既是在取笑这套收押制度不断扩大，也像玩家一样拿系列续作起名开玩笑。笑话成立于规模越来越失控的城市日常。",
+          "spoiler": false,
+          "images": [
+            "ct22-arkham-world-1-1",
+            "ct22-arkham-world-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-prometheus-records",
+      "game": "city",
+      "region": "GCPD",
+      "regionLabel": "旧哥谭警局",
+      "title": "旧警局里的普罗米修斯档案",
+      "summary": "一份剪报与一张医疗记录，把蝙蝠侠的镜像人物留在了纸面上。",
+      "source": "batman-arkham-videos-city-23",
+      "chapterTitle": "Prometheus Records",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "同样目睹父母死亡的孩子",
+          "body": "旧警局文件里，剪报讲述一对罪犯夫妇被击毙、儿子目睹现场的事件。这组出身与普罗米修斯相连：与布鲁斯类似的创伤，通向了完全相反的立场。旁边的医疗记录还保留着通过检查与获释日期等制式字段。",
+          "spoiler": false,
+          "images": [
+            "ct23-prometheus-records-1-1",
+            "ct23-prometheus-records-1-2",
+            "ct23-prometheus-records-1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-rocksteady-arrests",
+      "game": "city",
+      "region": "GCPD",
+      "regionLabel": "旧哥谭警局",
+      "title": "近期逮捕名单里的制作组",
+      "summary": "旧警局的一块名单，把开发者的姓名放进了哥谭警务系统。",
+      "source": "batman-arkham-videos-city-24",
+      "chapterTitle": "Rocksteady Arrests",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "六个名字的一次客串",
+          "body": "近期逮捕名单列出 Joshua Dahdrai、David Tyndale、David Higgins、Jigar Patel、Noel Chamberlain 与 Johnny Armstrong。视频以制作组成员客串来介绍这张表。工作名单被改写成警方记录，使创作者也成了自己搭建的城市中的一部分。",
+          "spoiler": false,
+          "images": [
+            "ct24-rocksteady-arrests-1-1",
+            "ct24-rocksteady-arrests-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-white-canary-clinic",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "诊所、黑金丝雀与 W WHITE",
+      "summary": "不承担任务的门面名字，也在向更大的 DC 世界打开小窗口。",
+      "source": "batman-arkham-videos-city-25",
+      "chapterTitle": "White Canary Clinic",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "怀特与汤普金斯",
+          "body": "游乐里的 W WHITE 店招对应“巨白鲨”沃伦·怀特；莱斯莉·汤普金斯的诊所则把蝙蝠侠的重要医护盟友放进街区。一个让罪犯身份藏进商业名称，一个让熟悉的关怀者通过诊所门面出现。",
+          "spoiler": false,
+          "images": [
+            "ct25-white-canary-clinic-1-1",
+            "ct25-white-canary-clinic-1-2"
+          ]
+        },
+        {
+          "title": "黑金丝雀的名字",
+          "body": "Black Canary 字样出现在街面招牌上，让另一位 DC 英雄以城市广告的形式进入视野。与街头随处可见的罪犯名字相比，这些门面使哥谭也能保留英雄、医生与普通生意共存的生活层。",
+          "spoiler": false,
+          "images": [
+            "ct25-white-canary-clinic-2-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-metropolis-keystone",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "对白与密码里的外地城市",
+      "summary": "大都会和楔石城通过几句闲谈、一段密码出现在阿卡姆城。",
+      "source": "batman-arkham-videos-city-25",
+      "chapterTitle": "Metropolis Keystone",
+      "chapterFrame": 64,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "城市并不止一座",
+          "body": "塔莉亚与斯特兰奇的对白提到哥谭以外的城市，视频特别指出大都会与楔石城。前者与超人相连，后者属于闪电侠的重要活动城市；名字使人物的过去与计划不必只停留在围墙以内。",
+          "spoiler": false,
+          "images": [
+            "ct25-metropolis-keystone-1-1",
+            "ct25-metropolis-keystone-1-2"
+          ]
+        },
+        {
+          "title": "METROPOLIS 也是密码",
+          "body": "单轨设施的密码分析器还会拼出 METROPOLIS。与对话里的地名相互参照，同一个词既承担了开锁交互，又让熟悉 DC 城市的玩家多看懂一层。它把世界背景藏进了日常使用的工具界面。",
+          "spoiler": false,
+          "images": [
+            "ct25-metropolis-keystone-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-bell-tower-forecast",
+      "game": "city",
+      "region": "Park Row / Church",
+      "regionLabel": "公园街教堂",
+      "title": "倒计时旁的一句预言",
+      "summary": "教堂钟楼中的威胁，还藏着一段需要停留片刻才能等到的独白。",
+      "source": "batman-arkham-videos-city-26",
+      "chapterTitle": "Bell Tower Forecast",
+      "chapterFrame": 44,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "谁会俯视谁",
+          "body": "在钟楼炸弹倒计时附近多停留一会，小丑会设想两人终有一天只剩一人站着，低头看着另一个人的身体、不知下一步该怎么办。最后是谁倒下成为话里的问题；结局中蝙蝠侠抱起小丑的场面，则让这句早先的玩笑变得沉重。",
+          "spoiler": false,
+          "images": [
+            "ct26-bell-tower-forecast-1-1",
+            "ct26-bell-tower-forecast-1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-hush-room",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "藏身处的毒气罐与羽毛",
+      "summary": "一间秘密房间，把手术痕迹与其他反派的物件放在同一处。",
+      "source": "batman-arkham-videos-city-27",
+      "chapterTitle": "Hush Room",
+      "chapterFrame": 48,
+      "kind": "场景线索与人物执念",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "缄默身边的异物",
+          "body": "缄默藏身处除了手术与面部重塑的痕迹，还能看见毒气容器、羽毛与蟑螂一类物件。视频将这些布景联系到稻草人与玩家关于合作关系的猜想；同室出现的道具构成了联想的起点，故事中的两人关系仍留在暗处。",
+          "spoiler": false,
+          "images": [
+            "ct27-hush-room-1-1",
+            "ct27-hush-room-1-2"
+          ]
+        },
+        {
+          "title": "项链指向谁的家人",
+          "body": "藏身处与旧警局手术相关空间里，还能找到一条项链。视频把它与漫画中托马斯·艾略特母亲留下的绿色项链相联系。手术器具之外的私人饰品，使缄默的外科身份与家族怨恨出现在同一个房间里，也让小型道具承担了人物背景的提示。",
+          "spoiler": false,
+          "images": [
+            "ct27-hush-room-2-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-33"
+      ]
+    },
+    {
+      "id": "city-secret-batman-returns",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "猫头招牌与黄色大鸭子",
+      "summary": "两件夸张道具，让《蝙蝠侠归来》的视觉记忆留在游戏里。",
+      "source": "batman-arkham-videos-city-28",
+      "chapterTitle": "Batman Returns",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "柴郡猫般的笑脸",
+          "body": "城市里张嘴露齿的猫头招牌，与 1992 年《蝙蝠侠归来》中施雷克百货公司的猫头标志相似。猫的笑脸又能让人想到《爱丽丝梦游仙境》，在疯帽匠与猫女都活动的城市里形成了额外联想。",
+          "spoiler": false,
+          "images": [
+            "ct28-batman-returns-1-1",
+            "ct28-batman-returns-1-2"
+          ]
+        },
+        {
+          "title": "钢铁厂里的鸭车",
+          "body": "钢铁厂还藏着一只巨大的黄色鸭子。视频把它与《蝙蝠侠归来》中企鹅人的鸭形载具并置：体积、颜色与荒诞外形都保留下来，电影中的怪诞游行道具在游戏里变成了可绕过去观察的布景。",
+          "spoiler": false,
+          "images": [
+            "ct28-batman-returns-2-1",
+            "ct28-batman-returns-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-mechanical-guardians",
+      "game": "city",
+      "region": "Wonder City",
+      "regionLabel": "奇迹之城",
+      "title": "机械守卫在三个阶段的位置",
+      "summary": "奇迹之城的旧机器，会随着大事件改变在场景里的摆放状态。",
+      "source": "batman-arkham-videos-city-29",
+      "chapterTitle": "Mechanical Guardians",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "陈列、堆放与消失",
+          "body": "最初进入奇迹之城，机械守卫以相对完整的姿态出现在遗址和玻璃陈列中。十号协议阶段再访，会看见它们被成堆集中；主线结束后的同一片空间又少了这些机器。三次回访把静态遗迹变成了持续发生变化的地点。",
+          "spoiler": false,
+          "images": [
+            "ct29-mechanical-guardians-1-1",
+            "ct29-mechanical-guardians-1-2",
+            "ct29-mechanical-guardians-1-3",
+            "ct29-mechanical-guardians-1-4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-asylum-osito",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "疯人院箱子与贝恩的小熊",
+      "summary": "前作物件沿着箱子、工厂与一只玩具熊，进入了阿卡姆城。",
+      "source": "batman-arkham-videos-city-31",
+      "chapterTitle": "Asylum Osito",
+      "chapterFrame": 8,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "旧箱子没有退场",
+          "body": "带阿卡姆疯人院标志的货箱继续出现在城里，物件沿用使两部游戏的机构与物流保持联系。贝恩身旁的 Osito 玩具熊也把他的个人记忆带回据点；同样的熊曾在前作相关空间里出现。",
+          "spoiler": false,
+          "images": [
+            "ct31-asylum-osito-1-1",
+            "ct31-asylum-osito-1-2"
+          ]
+        },
+        {
+          "title": "玩具工厂里的另一层回声",
+          "body": "视频将哥谭的 Krank 玩具工厂与动画《The Batman》中的 Cosmo Krank 联系起来。工厂场景与贝恩的玩具熊可以并读：城市的大型工业布景里，装进了来自动画怪客与角色童年的两种玩具记忆。",
+          "spoiler": false,
+          "images": [
+            "ct31-asylum-osito-2-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-33"
+      ]
+    },
+    {
+      "id": "city-secret-asylum-patients-titan",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "集装箱里的病人与 TITAN 箱子",
+      "summary": "钢铁厂与研究空间里，前作留下的危险物品和人物被重新摆放。",
+      "source": "batman-arkham-videos-city-31",
+      "chapterTitle": "Asylum Patients Titan",
+      "chapterFrame": 56,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "熟悉的病人进入容器",
+          "body": "《疯人院》中游荡的病人，在《之城》里被关进容器，成为斯特兰奇研究与控制下的对象。两部作品的相近人物模型在这里承担不同处境，提醒玩家监禁方式的扩大并未带来更好的照料。",
+          "spoiler": false,
+          "images": [
+            "ct31-asylum-patients-titan-1-1",
+            "ct31-asylum-patients-titan-1-2"
+          ]
+        },
+        {
+          "title": "礼盒与货箱",
+          "body": "带有 TITAN 关联的容器也在新场景中出现。视频以《疯人院》小丑准备的礼物与《之城》的箱体作比较，让相似包装连接起强化药剂的后续危机；危险的东西始终被装在看起来可以运输、赠送或储存的日常外壳中。",
+          "spoiler": false,
+          "images": [
+            "ct31-asylum-patients-titan-2-1",
+            "ct31-asylum-patients-titan-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-gotham-magazines",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "再次出现在桌边的《Gotham》杂志",
+      "summary": "旧杂志的封面人物，替场景保留了一小块城市舆论。",
+      "source": "batman-arkham-videos-city-31",
+      "chapterTitle": "Gotham Magazines",
+      "chapterFrame": 136,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "封面组成另一份人物表",
+          "body": "视频逐一比较《之城》与《疯人院》中的《Gotham》杂志，封面涉及小丑、戈登、布鲁斯、企鹅人与夏普等名字。它们把警务、政治、财富与犯罪同时放到媒体包装中；相同刊物在不同建筑里出现，使哥谭拥有一种延续的公共话题。",
+          "spoiler": false,
+          "images": [
+            "ct31-gotham-magazines-1-1",
+            "ct31-gotham-magazines-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-helena-mannequin",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "被带到钢铁厂的人形模特",
+      "summary": "一件看似普通的店铺道具，也连接着另一位泥脸的漫画经历。",
+      "source": "batman-arkham-videos-city-31",
+      "chapterTitle": "Helena Mannequin",
+      "chapterFrame": 160,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "名叫海伦娜的形象",
+          "body": "钢铁厂里的人形模特被视频与《疯人院》中的相似道具并置，并联系到普雷斯顿·佩恩的漫画故事：他把一具名叫海伦娜的模特当作伴侣。这层典故属于不同泥脸的角色历史，给游戏中的重复资产添上一段怪诞而悲伤的联想。",
+          "spoiler": false,
+          "images": [
+            "ct31-helena-mannequin-1-1",
+            "ct31-helena-mannequin-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-iceberg-vip",
+      "game": "city",
+      "region": "Challenge Maps",
+      "regionLabel": "挑战地图",
+      "title": "冰山餐厅里的贵宾席",
+      "summary": "挑战地图的背景里，有一位不会立刻加入战斗的特殊观众。",
+      "source": "batman-arkham-videos-city-32",
+      "chapterTitle": "Iceberg Vip",
+      "chapterFrame": 48,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "让遥控蝙蝠镖看一眼",
+          "body": "冰山餐厅 VIP 挑战中，企鹅人观看场下战斗，杀手鳄则坐在贵宾位置抽雪茄、喝酒。使用遥控蝙蝠镖向高处绕行，能更清楚地看见这位观众。场地上方还有庆祝与生日横幅，让整场格斗像一场危险的私人宴会。",
+          "spoiler": false,
+          "images": [
+            "ct32-iceberg-vip-1-1",
+            "ct32-iceberg-vip-1-2",
+            "ct32-iceberg-vip-1-3"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-jokers-carnival",
+      "game": "city",
+      "region": "Challenge Maps",
+      "regionLabel": "挑战地图",
+      "title": "狂欢节的一百连击",
+      "summary": "挑战得分达到一个节点时，原本旁观的人也会跳进场地。",
+      "source": "batman-arkham-videos-city-32",
+      "chapterTitle": "Jokers Carnival",
+      "chapterFrame": 96,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "小丑亲自下场",
+          "body": "在“Joker’s Carnival”战斗挑战里，小丑最初留在高处观看。连击到达一百后，他会跳下来加入战斗，把看客身份换成可被击中的对手。计分系统由此触发一段表演，而不是只在屏幕角落增加一个数字。",
+          "spoiler": false,
+          "images": [
+            "ct32-jokers-carnival-1-1",
+            "ct32-jokers-carnival-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-robin-joker-taunt",
+      "game": "city",
+      "region": "Challenge Maps",
+      "regionLabel": "挑战地图",
+      "title": "小丑对罗宾的一句旧账",
+      "summary": "挑战开场的玩笑，会把面前的罗宾与另一个故事中的罗宾重叠。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Robin Joker Taunt",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "他是不是认错了人",
+          "body": "用罗宾进入小丑主题战斗挑战，小丑会问自己是否已经杀过他。眼前可操作的罗宾是提姆·德雷克，这句话却牵向杰森·托德在《家庭之死》中的遭遇。挑衅故意把“罗宾”当成同一个名字，残酷的笑点来自代号背后的不同年轻人。",
+          "spoiler": false,
+          "images": [
+            "ct33-robin-joker-taunt-1-1"
+          ]
+        },
+        {
+          "title": "蝙蝠车旁的四只轮胎",
+          "body": "蝙蝠洞挑战地图中，蝙蝠车旁还摆着四只轮胎。视频把它们与杰森试图偷走蝙蝠车轮胎、由此遇见蝙蝠侠的漫画经历联系起来；没有台词解释的摆设因此可以和前一句嘲讽读在一起。",
+          "spoiler": false,
+          "images": [
+            "ct33-robin-joker-taunt-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-gcpd-radio",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "警方电台里的两条消息",
+      "summary": "密码分析器除了开锁，也能接到仍在运转的哥谭警务。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Gcpd Radio",
+      "chapterFrame": 80,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "韦斯克扣留了一名警察",
+          "body": "接收 GCPD 调度信号时，一名警员提到韦斯克手里有人质。名字指向腹语者阿诺德·韦斯克，疤脸木偶的主人因此通过一条警方消息留在画面之外，与城里的腹语术店面形成远距离呼应。",
+          "spoiler": false,
+          "images": [
+            "ct33-gcpd-radio-1-1"
+          ]
+        },
+        {
+          "title": "戈登要求改变收押地点",
+          "body": "布鲁斯遭逮捕后不久，警方频段还能收到戈登要求把被捕者带往 GCPD、不要再送进阿卡姆城的指令。开场把监狱描述为既成制度，这段无线电则让人听见警局内部仍有人试图阻止它继续吞下更多市民。",
+          "spoiler": false,
+          "images": [
+            "ct33-gcpd-radio-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-animated-fights",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "两场首领战的动画回声",
+      "summary": "游戏里的两种战斗方法，可以和《The Batman》的相似场面并读。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Animated Fights",
+      "chapterFrame": 140,
+      "kind": "动画与游戏的画面比较",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "同一种对抗方法",
+          "body": "《之城》最后用冷冻装备对付巴兹尔·卡洛，与动画《The Batman》中用低温限制伊森·班奈特版泥脸的做法相似。两位泥脸属于不同作品与人物身份，相近的战斗逻辑让“让流动物质凝固”成为共同的解决方式。",
+          "spoiler": false,
+          "images": [
+            "ct33-animated-fights-1-1"
+          ]
+        },
+        {
+          "title": "力量也会变成怪物",
+          "body": "视频还把《疯人院》的 TITAN 小丑与《The Batman》第三季《Brawn》中偷用贝恩注射装置的小丑并置。两处都让原本依靠诡计的人变成体型失控的猛兽，比较的重点在于形象与战斗方式的相似。",
+          "spoiler": false,
+          "images": [
+            "ct33-animated-fights-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-crazy-quilt",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "囚犯闲谈中的疯狂拼布人",
+      "summary": "两个人争论谁打倒了双面人时，顺口搬出了一位冷门反派。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Crazy Quilt",
+      "chapterFrame": 240,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "谁会相信是他干的",
+          "body": "街头囚犯谈起双面人被击败的消息，有人声称在法院附近看见 Crazy Quilt，另一个人立即质疑这种小角色能否办到。疯狂拼布人的名字因而以一段互不相信的传闻出现，未露面的反派也获得了街头同行对他的评价。",
+          "spoiler": false,
+          "images": [
+            "ct33-crazy-quilt-1-1",
+            "ct33-crazy-quilt-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-bludhaven",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "电话转接去了布鲁德海文",
+      "summary": "逃亡计划、犯罪家族与一段信号追踪，都提到了哥谭的邻城。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Bludhaven",
+      "chapterFrame": 320,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "围墙之外的退路",
+          "body": "街头囚犯说离开后宁愿去布鲁德海文；“A Family Business”短篇则讲述法尔科内家族为避开阿卡姆城收押而迁往那里。扎斯的电话支线还提到把信号经各个中继站转向布鲁德海文。这座夜翼活动的城市，由日常话题与通信路线共同进入背景。",
+          "spoiler": false,
+          "images": [
+            "ct33-bludhaven-1-1",
+            "ct33-bludhaven-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-dini-towers",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "薇姬口中的 Dini Towers",
+      "summary": "救援现场的一句地名，把剧本作者的姓氏写进了城市天际线。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Dini Towers",
+      "chapterFrame": 356,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "先处理那两名狙击手",
+          "body": "营救薇姬·维尔时，最先需要解决的两名狙击手位于她称作 Dini Towers 的建筑。Dini 指向保罗·迪尼，他参与 TAS 创作、与布鲁斯·蒂姆共同创造哈莉，也为《疯人院》和《之城》写作。名字被安放在正常的任务报点里。",
+          "spoiler": false,
+          "images": [
+            "ct33-dini-towers-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-stacked-deck",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "街头的 Stacked Deck 酒吧招牌",
+      "summary": "一块桌球酒吧的门面，让动画中的罪犯聚会地点有了城市地址。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Stacked Deck",
+      "chapterFrame": 417,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "熟客聚会的地方",
+          "body": "The Stacked Deck 是 TAS 中罪犯常去的酒吧与桌球馆，也曾出现在《未来蝙蝠侠》中。《之城》把这个名字写在街头招牌上，不必重演某一集的剧情，就能让熟悉动画的人把眼前门面想成另一群角色下班后会去的地方。",
+          "spoiler": false,
+          "images": [
+            "ct33-stacked-deck-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-huntress-creeper",
+      "game": "city",
+      "region": "Park Row / Church",
+      "regionLabel": "公园街教堂",
+      "title": "采访中提到的女猎手与爬行者",
+      "summary": "夏普与薇姬的录音，把蝙蝠侠之外的哥谭义警放进争论。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Huntress Creeper",
+      "chapterFrame": 433,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "政客的秩序，记者的问题",
+          "body": "与教堂里的薇姬和夏普交谈，可获得他们的采访录音。薇姬在追问阿卡姆城时提及女猎手与爬行者这些蝙蝠侠盟友，使“谁有权维护城市”不只围绕蝙蝠侠一人展开。爬行者的平民身份杰克·莱德，也已经在游戏里出现。",
+          "spoiler": false,
+          "images": [
+            "ct33-huntress-creeper-1-1",
+            "ct33-huntress-creeper-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-shark-repellent",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "没做进战斗的驱鲨喷雾",
+      "summary": "一条死亡提示，保留了原本更接近六十年代电影的笑话。",
+      "source": "batman-arkham-videos-city-33",
+      "chapterTitle": "Shark Repellent",
+      "chapterFrame": 505,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "喷罐里面本来是什么",
+          "body": "视频转述塞夫顿·希尔谈过的设计：博物馆鲨鱼咬住木筏后，蝙蝠侠原本会取出驱鲨喷雾，打开后却是一只巨大的指虎，直接击打鲨鱼。这个方案后来因整体语气而取消，也曾被考虑留给新故事＋。",
+          "spoiler": false,
+          "images": [
+            "ct33-shark-repellent-1-1"
+          ]
+        },
+        {
+          "title": "留下来的文字笑点",
+          "body": "正式游戏仍有一条鲨鱼相关的死亡提示，把蝙蝠侠连续挥拳称作强力“驱鲨剂”。没有出现那只道具喷罐，提示语却保留了对亚当·韦斯特版《蝙蝠侠》驱鲨喷雾的幽默回声。",
+          "spoiler": false,
+          "images": [
+            "ct33-shark-repellent-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-cadmus-posters",
+      "game": "city",
+      "region": "Harley Quinns Revenge",
+      "regionLabel": "哈莉·奎恩的复仇",
+      "title": "船坞里卡德摩斯的明日广告",
+      "summary": "追加篇章的工业墙面上，出现了一家熟悉的 DC 科研机构。",
+      "source": "batman-arkham-videos-city-35",
+      "chapterTitle": "Cadmus Posters",
+      "chapterFrame": 24,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "Building a brighter tomorrow",
+          "body": "《哈莉·奎恩的复仇》船坞中，可以找到 Cadmus Labs 海报，标语承诺建设更明亮的明天。卡德摩斯在 DC 故事里与基因工程、克隆和超级英雄的复制研究相连，乐观的科研广告因此与眼前阴暗据点形成反差。",
+          "spoiler": false,
+          "images": [
+            "ct35-cadmus-posters-1-1",
+            "ct35-cadmus-posters-1-2"
+          ]
+        },
+        {
+          "title": "小丑模型旁的研究机构",
+          "body": "数张海报被放在小丑模型附近，视频由此联想到《未来蝙蝠侠：小丑归来》中的身份复制情节。模型、广告与哈莉对小丑的执念构成这组画面的并置关系，留下的是关于重造与延续的想象。",
+          "spoiler": true,
+          "images": [
+            "ct35-cadmus-posters-2-2"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-38"
+      ]
+    },
+    {
+      "id": "city-secret-gotham-reflection",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "一小洼水里的哥谭天际线",
+      "summary": "博物馆暗室的地板上，倒映着与室内位置不相称的城市。",
+      "source": "batman-arkham-videos-city-36",
+      "chapterTitle": "Gotham Reflection",
+      "chapterFrame": 24,
+      "kind": "反射贴图与场景细节",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "室内为什么会看见高楼",
+          "body": "博物馆角斗场旁上锁的房间里，一小片水面会映出哥谭建筑轮廓。相近的反射贴图也被用于旧警局墙面、奇迹之城窗玻璃等处；远方城市因此能出现在不直接面对天际线的室内表面，形成一个醒目的环境细节。",
+          "spoiler": false,
+          "images": [
+            "ct36-gotham-reflection-1-1",
+            "ct36-gotham-reflection-1-2"
+          ]
+        },
+        {
+          "title": "倒影前的书与铭牌",
+          "body": "水洼附近还能看到写有 Gotham 的书，以及反向出现的“Sanity fighting the Madness”铭牌。类似书本、铭牌与反射资产散见各处，把这些物件放在一起观看，更能看出游戏如何用重复的小素材拼装城市空间。",
+          "spoiler": false,
+          "images": [
+            "ct36-gotham-reflection-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-killing-joke-interview",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "小丑讲述的化工厂往事",
+      "summary": "一组访谈录音，用似曾相识的故事回答小丑从哪里来。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Killing Joke Interview",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "经济困境与一场坏掉的日子",
+          "body": "小丑的访谈讲到尚未成名的喜剧表演、经济压力与妻子珍妮，情节与《致命玩笑》的那段过去相近。犯罪计划不是从宏大宣言开始，而是从想改善处境的失败者出发；化工厂事故最终把整个自述推向另一种身份。",
+          "spoiler": false,
+          "images": [
+            "ct37-killing-joke-interview-1-1",
+            "ct37-killing-joke-interview-1-2"
+          ]
+        },
+        {
+          "title": "红头罩与不可靠的记忆",
+          "body": "录音又涉及红头罩装束与抢劫。斯特兰奇质疑这些叙述，小丑则把自己的过去说成可以多选的版本。游戏引用了熟悉的起源故事，也让讲述者继续破坏它的确定感：每次解释都可能是另一场表演。",
+          "spoiler": false,
+          "images": [
+            "ct37-killing-joke-interview-2-1",
+            "ct37-killing-joke-interview-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-lucius-fox",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "阿尔弗雷德提到的福克斯先生",
+      "summary": "装备升级的联络，把韦恩企业的技术支持带进围墙内。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Lucius Fox",
+      "chapterFrame": 408,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "钩爪助推原型",
+          "body": "阿尔弗雷德介绍钩爪助推升级时，提到卢修斯·福克斯。这名韦恩企业的重要伙伴没有走到阿卡姆城街上，却通过装备研发参与行动，使蝙蝠侠背后的技术工作仍然可见。",
+          "spoiler": false,
+          "images": [
+            "ct37-lucius-fox-1-1"
+          ]
+        },
+        {
+          "title": "另一通“解药”联络",
+          "body": "疯帽匠茶会前的联络也借用了福克斯与治疗研究的可信度，将蝙蝠侠引向所谓解药。等茶会揭开，这段联系便成为幻觉利用熟悉人名与现实需求的方法：最可信的后勤声音，也能被包装成诱饵。",
+          "spoiler": true,
+          "images": [
+            "ct37-lucius-fox-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-holly-falcone",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "猫女访谈里的家人与朋友",
+      "summary": "斯特兰奇用亲近的人试探猫女，谈话牵出了她的另一段漫画背景。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Holly Falcone",
+      "chapterFrame": 456,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "霍莉·罗宾逊",
+          "body": "斯特兰奇在猫女访谈中提到霍莉·罗宾逊，拿她与猫女身边人的安全施压。霍莉是《第一年》等漫画中与塞琳娜关系密切的人物；录音把朋友变成审讯筹码，也说明猫女并非只在乎自己能否脱身。",
+          "spoiler": false,
+          "images": [
+            "ct37-holly-falcone-1-1",
+            "ct37-holly-falcone-1-2"
+          ]
+        },
+        {
+          "title": "“罗马人”的姓氏",
+          "body": "访谈又借卡迈恩·法尔科内的名字试探塞琳娜的出身，呼应《Catwoman: When in Rome》中围绕父亲身份展开的追问。这里的重点是斯特兰奇如何用可能的家族联系制造压力，塞琳娜与法尔科内的关系因此继续保持疑问。",
+          "spoiler": false,
+          "images": [
+            "ct37-holly-falcone-2-1",
+            "ct37-holly-falcone-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-long-halloween-court",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "法庭下方的《漫长的万圣节》",
+      "summary": "牢房形制、生日话题与旧帮派名字，把几条漫画线索聚到法院。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Long Halloween Court",
+      "chapterFrame": 576,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "隔着玻璃的日历人",
+          "body": "日历人在法院地下隔着玻璃与来客交谈，这种安排让人想到《漫长的万圣节》中对他的探访。视频也比较漫画里的体态、腿部特征与游戏造型；当猫女来访，法尔科内与生日又进入同一场对话。",
+          "spoiler": false,
+          "images": [
+            "ct37-long-halloween-court-1-1",
+            "ct37-long-halloween-court-1-2"
+          ]
+        },
+        {
+          "title": "马罗尼留在餐馆招牌上",
+          "body": "附近 Sal Maroni 餐馆的名字继续保留了萨尔·马罗尼。这个与哈维·登特遭遇相连的黑帮姓氏，和法院、双面人及日历人放在同一条观察路线中，使漫画的犯罪家族背景不只存在于访谈录音里。",
+          "spoiler": false,
+          "images": [
+            "ct37-long-halloween-court-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-two-face-white-knight",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "哈维口中的白骑士往事",
+      "summary": "双面人的访谈录音，回望了检察官与罪犯之间的断裂。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Two Face White Knight",
+      "chapterFrame": 720,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "一枚硬币之前",
+          "body": "双面人讲述自己作为地区检察官与蝙蝠侠、戈登合作的经历，并把马罗尼的酸液袭击与人格转变连在一起。这条线与《漫长的万圣节》的哈维悲剧相近；录音里的他把复杂的道德选择压进硬币的两面，称之为获得了纯粹与清晰。",
+          "spoiler": false,
+          "images": [
+            "ct37-two-face-white-knight-1-1",
+            "ct37-two-face-white-knight-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-freak-show-poster",
+      "game": "city",
+      "region": "Industrial District",
+      "regionLabel": "工业区",
+      "title": "“以为自己是蝙蝠的人”",
+      "summary": "工业区怪奇秀的广告，把城市里最显眼的义警也变成了展演对象。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Freak Show Poster",
+      "chapterFrame": 816,
+      "kind": "街头广告与玩家联想",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "先把广告的句子读完",
+          "body": "怪奇秀广告写着即将登场的是一个“以为自己是蝙蝠的人”。它抓住了蝙蝠侠以人类身份扮成蝙蝠的荒诞一面，也曾让玩家联想到人蝠。海报展示的是招徕观众的噱头，用一句绕着说的话戏弄城市里那个最认真的符号。",
+          "spoiler": false,
+          "images": [
+            "ct37-freak-show-poster-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-no-mans-land",
+      "game": "city",
+      "region": "Amusement Mile",
+      "regionLabel": "游乐里",
+      "title": "沉降区与《无人之地》",
+      "summary": "裂开的街道、淹没的游乐设施，把城市灾变留在通行路线里。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "No Mans Land",
+      "chapterFrame": 1008,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "地震之后的哥谭",
+          "body": "游戏“Seismic Disturbances”短篇讲到建成前后的地震活动、地基不稳与沉降后果，游乐里也有大面积浸水和损毁。视频把它们与漫画《无人之地》地震后被隔离的哥谭并读：两者都让城市结构本身成为困住居民的一部分。",
+          "spoiler": false,
+          "images": [
+            "ct37-no-mans-land-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-batman-1989",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "“我的右手”与一场薇姬救援",
+      "summary": "猫女篇的台词和发射器的救人动作，都让人想起 1989 年电影。",
+      "source": "batman-arkham-videos-city-37",
+      "chapterTitle": "Batman 1989",
+      "chapterFrame": 1080,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "双面人也需要右手",
+          "body": "猫女第四篇章里，双面人对手下说第一个找到她的人可以成为自己的右手。视频将其与杰克·尼科尔森版小丑对鲍勃的偏爱台词相比较，同样的奖赏口吻在另一位哥谭头目手里变得更阴险。",
+          "spoiler": false,
+          "images": [
+            "ct37-batman-1989-1-1"
+          ]
+        },
+        {
+          "title": "把薇姬从包围中带走",
+          "body": "游戏营救薇姬·维尔时，蝙蝠侠利用发射器迅速带她脱离小丑手下的包围，与 1989 年电影的救援段落相似。视频还将薇姬的金发造型与金·贝辛格版人物并置，让人物形象与动作一起留下银幕回声。",
+          "spoiler": false,
+          "images": [
+            "ct37-batman-1989-2-1",
+            "ct37-batman-1989-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-laughing-fish",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "铸造间箱子里的笑脸鱼",
+      "summary": "小丑的杂物箱里，藏着一条从漫画与动画游来的怪鱼。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Laughing Fish",
+      "chapterFrame": 16,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把犯罪工具当收藏",
+          "body": "钢铁厂铸造间的小丑道具箱中，有一条带着夸张笑脸的鱼。它呼应漫画与 TAS《The Laughing Fish》的笑脸鱼情节：小丑使哥谭水域的鱼长出自己的表情，再把这种结果当作私人作品。游戏把整场闹剧压缩成箱子里的一个物件。",
+          "spoiler": false,
+          "images": [
+            "ct38-laughing-fish-1-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-20"
+      ]
+    },
+    {
+      "id": "city-secret-jezebel-center",
+      "game": "city",
+      "region": "The Bowery",
+      "regionLabel": "包厘街",
+      "title": "Jezebel Center 的名字",
+      "summary": "包厘街的一块中心招牌，把一段漫画关系留成了可扫描的地名。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Jezebel Center",
+      "chapterFrame": 88,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把人名藏进建筑名称",
+          "body": "Jezebel Center 的名字让人联想到 Jezebel Jet。她在漫画里曾以模特和布鲁斯恋人的身份出现，又与 Black Glove 的阴谋相连。游戏没有用这个门面重演两人的关系，而是把名字放进街区的商业与公共建筑语言中。",
+          "spoiler": false,
+          "images": [
+            "ct38-jezebel-center-1-1",
+            "ct38-jezebel-center-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-azrael-symbols",
+      "game": "city",
+      "region": "Park Row / Church",
+      "regionLabel": "公园街教堂",
+      "title": "守望者留下的符号",
+      "summary": "几次短暂会面之后，一组图形把城市地点连接起来。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Azrael Symbols",
+      "chapterFrame": 176,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "四个观察点与最后会面",
+          "body": "阿兹拉尔先在入城时的屋顶出现，随后通过四处观察点推进“Watcher in the Wings”。把收集到的符号叠到地图上，可找到最后的会面位置。他自称来自圣杜马教团，向蝙蝠侠讲述关于战士、地狱之门与哥谭大火的预言。",
+          "spoiler": false,
+          "images": [
+            "ct38-azrael-symbols-1-1",
+            "ct38-azrael-symbols-1-2",
+            "ct38-azrael-symbols-1-3"
+          ]
+        },
+        {
+          "title": "教堂墙面与地图纹样",
+          "body": "完成支线后，教堂墙面还留着符号组合。视频比较了墙上的图形、任务菜单的地图与《无人之地》哥谭地图，指出若干位置和纹样的相似。预言之外，可直接观察的是同一组符号在不同界面与场景中的变化。",
+          "spoiler": false,
+          "images": [
+            "ct38-azrael-symbols-2-1",
+            "ct38-azrael-symbols-2-2",
+            "ct38-azrael-symbols-2-3"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-18",
+        "batman-arkham-videos-city-37"
+      ]
+    },
+    {
+      "id": "city-secret-amanda-texture",
+      "game": "city",
+      "region": "Park Row / Church",
+      "regionLabel": "公园街教堂",
+      "title": "符号纹理里藏着的 Amanda",
+      "summary": "教堂墙面符号的细看版本中，还夹着一段像是私人文字的残迹。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Amanda Texture",
+      "chapterFrame": 304,
+      "kind": "纹理文字与作者联想",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "比预言更日常的句子",
+          "body": "放大符号纹理，视频辨出关于放弃、生产活动与 Amanda 的零碎句子，看起来更接近日常工作或私人文字。作者由 Amanda 联想到阿曼达·沃勒与卡德摩斯，但这层联想来自名字的重合；纹理本身留下的是难以完整连读的片段。",
+          "spoiler": false,
+          "images": [
+            "ct38-amanda-texture-1-1",
+            "ct38-amanda-texture-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-end-game-comic",
+      "game": "city",
+      "region": "Harley Quinns Revenge",
+      "regionLabel": "哈莉·奎恩的复仇",
+      "title": "《End Game》留进复仇篇的对白",
+      "summary": "哈莉与戈登说出的几句话，把追加篇章与游戏衍生漫画接在一起。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "End Game Comic",
+      "chapterFrame": 436,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "哈莉重复医生的解释",
+          "body": "《哈莉·奎恩的复仇》中，哈莉向被扣住的警员提到创伤后应激，以及失去亲近之人后可能出现的内疚或暴力。视频将这段话与衍生漫画《Batman: Arkham City — End Game》中医生对她的说明并置：原本的诊断被她重新拿来威胁别人。",
+          "spoiler": false,
+          "images": [
+            "ct38-end-game-comic-1-1",
+            "ct38-end-game-comic-1-2"
+          ]
+        },
+        {
+          "title": "戈登说的“另一件事”",
+          "body": "结尾戈登提醒蝙蝠侠，处理完眼前事件后还需要谈谈另一个问题。《End Game》把后续与小丑遗体的处理相连，让一句没有展开的提醒接上漫画中的余波。两种媒介各自留下的半句话，在此形成了前后关系。",
+          "spoiler": false,
+          "images": [
+            "ct38-end-game-comic-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-moth-display",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "破损的蝴蝶与飞蛾展示柜",
+      "summary": "博物馆里两扇打开的小柜，曾让玩家联想到杀手蛾。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Moth Display",
+      "chapterFrame": 512,
+      "kind": "场景道具与玩家联想",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "先看柜子的尺度",
+          "body": "企鹅人博物馆的昆虫标本柜有破损、打开的状态，蝴蝶与飞蛾图案让人联想到杀手蛾。柜体本身却是小型标本展示的尺度，和扎斯、蝙蝠侠或疤脸的专门展位不同。视频由此把“杀手蛾从这里逃走”的说法放回了玩家联想的层面。",
+          "spoiler": false,
+          "images": [
+            "ct38-moth-display-1-1",
+            "ct38-moth-display-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-toyman",
+      "game": "city",
+      "region": "Harley Quinns Revenge",
+      "regionLabel": "哈莉·奎恩的复仇",
+      "title": "手下想把蝙蝠腰带卖给谁",
+      "summary": "罗宾潜行时的一句闲谈，把超人的玩具主题对手带进了仓库。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Toyman",
+      "chapterFrame": 548,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "战利品该卖给懂行的人",
+          "body": "《哈莉·奎恩的复仇》中，仓库敌人谈起如何分配蝙蝠侠的装备，有人觉得疯帽匠或玩具人会为腰带付好价钱。玩具人温斯洛·肖特以玩具机关犯罪，适合被这群手下想象成高科技战利品的买主。名字出现在很现实的赃物盘算里。",
+          "spoiler": false,
+          "images": [
+            "ct38-toyman-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-sarah-password",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "卧底警员的暗号 Sarah",
+      "summary": "博物馆救援中的身份确认，借用了戈登身边一个熟悉的名字。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Sarah Password",
+      "chapterFrame": 576,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "琼斯证明自己是谁",
+          "body": "蝙蝠侠第一次进入博物馆，获救的琼斯警员用 Sarah 作为身份暗号，证明自己属于戈登派出的卧底小队。这个名字对应漫画中的萨拉·埃森·戈登，让简短的警务验证也保留了人物生活的私人痕迹。",
+          "spoiler": false,
+          "images": [
+            "ct38-sarah-password-1-1",
+            "ct38-sarah-password-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-the-terror",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "Basil Karlo 主演的《The Terror》",
+      "summary": "街头电影海报，保留了泥脸成为反派之前的银幕身份。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "The Terror",
+      "chapterFrame": 624,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "明星的名字还在海报上",
+          "body": "公园街《The Terror》海报把 Basil Karlo 写成主演，呼应泥脸原本的演员职业。视频将片名与《Joker’s Asylum》中关于卡洛的故事联系起来；走在街上看到的演员宣传，因而也能成为读懂角色身世的入口。",
+          "spoiler": false,
+          "images": [
+            "ct38-the-terror-1-1",
+            "ct38-the-terror-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-church-bell",
+      "game": "city",
+      "region": "Park Row / Church",
+      "regionLabel": "公园街教堂",
+      "title": "教堂钟内侧的旧日期",
+      "summary": "向钟里看去，可以发现一段反向文字与前作相同的铸造痕迹。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Church Bell",
+      "chapterFrame": 656,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "1922 年 4 月 1 日",
+          "body": "教堂钟内侧能看到反向的“Arkham Asylum April 1 1922”铭文。视频用《疯人院》钟楼中更易读的同一纹理作比较，并把日期联系到阿玛迪斯·阿卡姆电死马丁“疯狗”霍金斯的往事。旧机构的黑暗历史，被重复使用的模型细节带进另一座钟楼。",
+          "spoiler": false,
+          "images": [
+            "ct38-church-bell-1-1",
+            "ct38-church-bell-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-gbs-trailer",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "预告片高楼上的 GBS",
+      "summary": "同一个城市远景，在宣传片与正式游戏里保留了不同的招牌。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Gbs Trailer",
+      "chapterFrame": 752,
+      "kind": "预告片与正式版比较",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "从广播公司到楼顶空位",
+          "body": "“This Ain’t No Place for a Hero”预告片中，韦恩企业附近的高楼曾挂着 GBS 字样，对应 Galaxy Broadcasting System 这家 DC 媒体公司。视频再以正式游戏的相近视角比较，楼顶标识已经改变。这个细节属于宣传版本与成品画面的差异。",
+          "spoiler": false,
+          "images": [
+            "ct38-gbs-trailer-1-1",
+            "ct38-gbs-trailer-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-wonder-stores",
+      "game": "city",
+      "region": "Wonder City",
+      "regionLabel": "奇迹之城",
+      "title": "奇迹之城的烟草店、书店与药房",
+      "summary": "老式商业招牌既借用扑克牌反派，也把制作人员放进旧城街道。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Wonder Stores",
+      "chapterFrame": 800,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "Royal Flush Tobacco",
+          "body": "奇迹之塔地基区域的 Royal Flush Tobacco，以扑克牌术语给烟草店命名。Royal Flush 同时让人想到 DC 的皇家同花顺帮；一块符合旧城商业气质的招牌，给熟悉反派名号的人留下第二种读法。",
+          "spoiler": false,
+          "images": [
+            "ct38-wonder-stores-1-1"
+          ]
+        },
+        {
+          "title": "书店与药房里的姓名",
+          "body": "Underhill & Davies Books 对应 Alex Underhill 与 Tim Davies；Adamson & Stjernberg Drugstore 对应 Lee Adamson 与 Karl Stjernberg。视觉特效、音乐及资产制作人员的姓氏，被排成像经营多年的老店名称，成为埋在城市历史里的幕后署名。",
+          "spoiler": false,
+          "images": [
+            "ct38-wonder-stores-2-1",
+            "ct38-wonder-stores-2-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-gentleman-ghost",
+      "game": "city",
+      "region": "Wonder City",
+      "regionLabel": "奇迹之城",
+      "title": "礼帽店招牌上的无头绅士",
+      "summary": "配饰店的招牌，用一顶漂浮礼帽暗示了一位幽灵反派。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Gentleman Ghost",
+      "chapterFrame": 916,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "Gentlemen’s Hats & Accessories",
+          "body": "奇迹之塔地基区域的帽饰店画着礼帽与衣领般的轮廓，让人联想到 Gentleman Ghost。店内还摆着钢铁厂幽灵列车的小模型。幽灵人物、绅士用品与游乐道具在同一间店相遇，延续了旧城商店带着怪奇意味的命名方式。",
+          "spoiler": false,
+          "images": [
+            "ct38-gentleman-ghost-1-1",
+            "ct38-gentleman-ghost-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-asylum-cctv",
+      "game": "city",
+      "region": "Steel Mill",
+      "regionLabel": "钢铁厂",
+      "title": "显示器里的极限拘禁区",
+      "summary": "钢铁厂一张不太起眼的监控画面，仍在显示前作的房间。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Asylum Cctv",
+      "chapterFrame": 972,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "另一个地方的监视图像",
+          "body": "钢铁厂的屏幕上，可以找到与《疯人院》拘留区相近的监控图像，视频把它辨作极限拘禁区的画面。即使玩家已在更大的阿卡姆城活动，旧监狱的房间仍以一小格屏幕的方式出现在背景里。",
+          "spoiler": false,
+          "images": [
+            "ct38-asylum-cctv-1-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-hush-lullaby",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "同一首摇篮曲，三个阴暗语境",
+      "summary": "哈莉的片尾歌，还能与缄默漫画和未来蝙蝠侠动画并读。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Hush Lullaby",
+      "chapterFrame": 992,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "Hush 也是一个动词",
+          "body": "新故事＋片尾的《Hush, Little Baby》同时拥有“安静下来”的安抚语气与 Hush 这个反派名字的联想。视频以《Batman: Hush》中稻草人唱起摇篮曲的情节，以及《小丑归来》中哈莉的演唱作比较，让同一旋律串起身份伪装、囚禁与扭曲的家庭想象。",
+          "spoiler": false,
+          "images": [
+            "ct38-hush-lullaby-1-1"
+          ]
+        }
+      ],
+      "relatedSources": [
+        "batman-arkham-videos-city-04"
+      ]
+    },
+    {
+      "id": "city-secret-bud-lou",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "博物馆里的巴德与卢",
+      "summary": "企鹅人的陈列柜里，收着小丑那对熟悉的鬣狗形象。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Bud Lou",
+      "chapterFrame": 1120,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "宠物成为收藏",
+          "body": "博物馆战争室的展品里，可以看到巴德与卢的鬣狗标本形象。它们是漫画和动画中小丑的宠物，名字又借用了喜剧搭档阿博特与科斯特洛。过去活跃在小丑身边的笑闹角色，在这里被纳入企鹅人占有与展示敌人遗物的收藏逻辑。",
+          "spoiler": false,
+          "images": [
+            "ct38-bud-lou-1-1",
+            "ct38-bud-lou-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-gcpd-boat-model",
+      "game": "city",
+      "region": "Museum",
+      "regionLabel": "博物馆",
+      "title": "玻璃柜中的警艇与灯塔",
+      "summary": "博物馆一处微缩场景，把前作的离岛镜头做成了展品。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Gcpd Boat Model",
+      "chapterFrame": 1176,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "把一段航程缩进橱窗",
+          "body": "军械库前的走廊里，多数展示柜空着，一处却放着警艇、波浪与灯塔组成的小景。视频将它和《疯人院》贝恩战之后戈登乘 GCPD 船离岛的场面并置。熟悉的大场景被缩成模型，成了博物馆收藏中的一段系列记忆。",
+          "spoiler": false,
+          "images": [
+            "ct38-gcpd-boat-model-1-1",
+            "ct38-gcpd-boat-model-1-2",
+            "ct38-gcpd-boat-model-1-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-batman-sixties",
+      "game": "city",
+      "region": "Across Arkham City",
+      "regionLabel": "阿卡姆城各地",
+      "title": "谜语人与街头人的六十年代玩笑",
+      "summary": "驱鲨喷雾之外，老版蝙蝠侠还以声音和机关设想留在城市里。",
+      "source": "batman-arkham-videos-city-38",
+      "chapterTitle": "Batman Sixties",
+      "chapterFrame": 1272,
+      "kind": "秘密与致敬",
+      "spoiler": false,
+      "blocks": [
+        {
+          "title": "偷一条鲨鱼来难倒他",
+          "body": "谜语人独自琢磨机关时，会考虑从企鹅人那里偷来鲨鱼，设想蝙蝠侠绝对过不了这一关。视频把这段自言自语与亚当·韦斯特版蝙蝠侠面对鲨鱼的桥段并置，严肃的挑战设计突然带上了老电视剧的荒诞节奏。",
+          "spoiler": false,
+          "images": [
+            "ct38-batman-sixties-1-1",
+            "ct38-batman-sixties-1-2"
+          ]
+        },
+        {
+          "title": "连敌人也会哼主题旋律",
+          "body": "视频还收录一段少见的敌人嘲讽，对方用六十年代电视剧主题曲的节奏取笑蝙蝠侠。任务外的声音把熟悉旋律转成交手前的挑衅，与谜语人的机关笑话一起，让旧版电视形象继续混在哥谭街头。",
+          "spoiler": false,
+          "images": [
+            "ct38-batman-sixties-2-1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-secret-calendar-extra-date",
+      "game": "city",
+      "region": "Park Row",
+      "regionLabel": "公园街",
+      "title": "日历之外的一天",
+      "summary": "普通节日清单之外，一个特定日期会开启日历人的额外对白。",
+      "source": "batman-arkham-videos-city-39",
+      "chapterTitle": "Calendar Extra Date",
+      "chapterFrame": 64,
+      "kind": "秘密与致敬",
+      "spoiler": true,
+      "blocks": [
+        {
+          "title": "2004 年 12 月 13 日",
+          "body": "把系统日期设为 2004 年 12 月 13 日，再到法院地下探访日历人，会触发另一组独白。视频将日期与 Rocksteady 在 2004 年 12 月成立的历史相连，谜面由“JG Jour”频道发布，借 Julian Gregory Day 的名字和法语“日”构成提示。",
+          "spoiler": false,
+          "images": [
+            "ct39-calendar-extra-date-1-1",
+            "ct39-calendar-extra-date-1-2"
+          ]
+        },
+        {
+          "title": "从最初作品说到终结",
+          "body": "日历人回顾自己从不成熟的早期作品逐渐精进，按季节、周与日期展开创作，最后谈到末日临近，并承诺在蝙蝠侠的开端与终点都在场。人物对日期的执迷与制作组回望作品的语气重叠，使牢房内的低语越过了眼前这次案件。",
+          "spoiler": false,
+          "images": [
+            "ct39-calendar-extra-date-2-1",
+            "ct39-calendar-extra-date-2-2",
+            "ct39-calendar-extra-date-2-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "ct02-harley-tests-1-1",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-1-1.webp",
+      "timestamp": 32.25,
+      "caption": "原版里的一道加号",
+      "source": "batman-arkham-videos-city-02",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cb646d70e1654aaae495fee1458a1eced4dae3dd2eb3c095af3d434e6a42588e"
+    },
+    {
+      "id": "ct02-harley-tests-2-1",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-2-1.webp",
+      "timestamp": 32.25,
+      "caption": "婴儿床中的小丑装束木偶",
+      "source": "batman-arkham-videos-city-34",
+      "width": 1280,
+      "height": 720,
+      "sha256": "666bd11ed630006d3091502a0117c4224a00b2aae8e5ceb427a9b01e834475c4"
+    },
+    {
+      "id": "ct02-harley-tests-2-2",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-2-2.webp",
+      "timestamp": 40.25,
+      "caption": "验孕棒包装的假阳性提示",
+      "source": "batman-arkham-videos-city-34",
+      "width": 1280,
+      "height": 720,
+      "sha256": "20905f0859ff10d9a5c9293e8e23b5ef3dee385323db91a21265f916de0c0766"
+    },
+    {
+      "id": "ct02-harley-tests-2-3",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-2-3.webp",
+      "timestamp": 64.25,
+      "caption": "婴儿床旁散落的阴性验孕棒",
+      "source": "batman-arkham-videos-city-34",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a81b16e4a38945a267327c604b5271916b01fef4ad687375ba86c92d744d3e37"
+    },
+    {
+      "id": "ct02-harley-tests-2-4",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-2-4.webp",
+      "timestamp": 88.25,
+      "caption": "旧制服附近保留的阳性验孕棒",
+      "source": "batman-arkham-videos-city-34",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b241ee06f5e79697d68759b15004780541cdca5de597bf3e78b9b2dc4e1d39e0"
+    },
+    {
+      "id": "ct02-harley-tests-3-1",
+      "file": "arkham-city-easter-eggs/ct02-harley-tests-3-1.webp",
+      "timestamp": 112.25,
+      "caption": "哈莉房间中的婴儿床与木偶",
+      "source": "batman-arkham-videos-city-34",
+      "width": 1280,
+      "height": 720,
+      "sha256": "381a1aaebf9603056f479ce43306c8b293ac64cfa38b85640e8cf4966e162f64"
+    },
+    {
+      "id": "ct03-only-you-1-1",
+      "file": "arkham-city-easter-eggs/ct03-only-you-1-1.webp",
+      "timestamp": 8.25,
+      "caption": "小丑留下的歌",
+      "source": "batman-arkham-videos-city-03",
+      "width": 1280,
+      "height": 720,
+      "sha256": "878fc77f8f09386940a3b69507e222ad8bcb5979e70a623b9a606163124feb45"
+    },
+    {
+      "id": "ct05-number-broadcasts-1-1",
+      "file": "arkham-city-easter-eggs/ct05-number-broadcasts-1-1.webp",
+      "timestamp": 36.25,
+      "caption": "700 / 500：最直接的一句",
+      "source": "batman-arkham-videos-city-05",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0dfee0d61c174884fa8748d5b3a5b9bb88050b505ff769a436244f7b5ed1f733"
+    },
+    {
+      "id": "ct05-number-broadcasts-2-1",
+      "file": "arkham-city-easter-eggs/ct05-number-broadcasts-2-1.webp",
+      "timestamp": 84.25,
+      "caption": "500 / 900：反排与移位",
+      "source": "batman-arkham-videos-city-05",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d9d5fb6be620212637935a4db857442ff61429b05e02968534949ab81f9ae90e"
+    },
+    {
+      "id": "ct05-number-broadcasts-3-1",
+      "file": "arkham-city-easter-eggs/ct05-number-broadcasts-3-1.webp",
+      "timestamp": 144.25,
+      "caption": "200 / 500：钥匙是稻草人",
+      "source": "batman-arkham-videos-city-05",
+      "width": 1280,
+      "height": 720,
+      "sha256": "adf0786913c5c9702c4550501e7b35d45079d3708d5eb370ce5ebc49cad755d0"
+    },
+    {
+      "id": "ct06-scarecrow-boat-1-1",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-1-1.webp",
+      "timestamp": 16.25,
+      "caption": "CITYOFTERROR",
+      "source": "batman-arkham-videos-city-06",
+      "width": 1280,
+      "height": 720,
+      "sha256": "23df92bfae282076ca4f04d03b75b8b7f7a78ff86cd77236e4000d42d38fb97e"
+    },
+    {
+      "id": "ct06-scarecrow-boat-1-2",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-1-2.webp",
+      "timestamp": 48.25,
+      "caption": "CITYOFTERROR",
+      "source": "batman-arkham-videos-city-06",
+      "width": 1280,
+      "height": 720,
+      "sha256": "03e4666ccdde923f7859b452fe4b5a67a243481fd6cde52c4042aeef5f7a7039"
+    },
+    {
+      "id": "ct06-scarecrow-boat-2-1",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-2-1.webp",
+      "timestamp": 80.25,
+      "caption": "货物仍在途中",
+      "source": "batman-arkham-videos-city-06",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6723cafd97d2b43eb7aec277762f3a51755bff1ff64d26e97d66b18cccf580fa"
+    },
+    {
+      "id": "ct06-scarecrow-boat-2-2",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-2-2.webp",
+      "timestamp": 104.25,
+      "caption": "货物仍在途中",
+      "source": "batman-arkham-videos-city-06",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2e547b8d5f974bb4fb9bdb739ecd679b008577f091b9a503c971a6ce741391d6"
+    },
+    {
+      "id": "ct06-scarecrow-boat-2-3",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-2-3.webp",
+      "timestamp": 120.25,
+      "caption": "货物仍在途中",
+      "source": "batman-arkham-videos-city-06",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f1bccf39b7f730d2d9cb3cacf9d6b507ed65897151346043593ac5031b22de56"
+    },
+    {
+      "id": "ct06-scarecrow-boat-3-1",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-3-1.webp",
+      "timestamp": 888.25,
+      "caption": "《疯人院》中乔纳森·克莱恩的谜语",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6452b423fb116ee84e2dfd08813dc9e473f138e1f18361471c2f24575736486e"
+    },
+    {
+      "id": "ct06-scarecrow-boat-3-2",
+      "file": "arkham-city-easter-eggs/ct06-scarecrow-boat-3-2.webp",
+      "timestamp": 912.25,
+      "caption": "货船与岸边吊车",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6e35bb262796af7e74be9cba66d41605986bb81ddd6f6381b002b5483f305fe8"
+    },
+    {
+      "id": "ct07-croc-sewer-1-1",
+      "file": "arkham-city-easter-eggs/ct07-croc-sewer-1-1.webp",
+      "timestamp": 72.25,
+      "caption": "偏离当前目标的返程",
+      "source": "batman-arkham-videos-city-07",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5920712ebc8dac120b6cbc14b4aca8be66cbc8320cd35d57fc3adf52fbf8fe2b"
+    },
+    {
+      "id": "ct07-croc-sewer-1-2",
+      "file": "arkham-city-easter-eggs/ct07-croc-sewer-1-2.webp",
+      "timestamp": 88.25,
+      "caption": "偏离当前目标的返程",
+      "source": "batman-arkham-videos-city-07",
+      "width": 1280,
+      "height": 720,
+      "sha256": "40de76828e730d125f13a1791407a1387971a0fc08833ea16e9fd14becb026ea"
+    },
+    {
+      "id": "ct07-croc-sewer-1-3",
+      "file": "arkham-city-easter-eggs/ct07-croc-sewer-1-3.webp",
+      "timestamp": 100.25,
+      "caption": "偏离当前目标的返程",
+      "source": "batman-arkham-videos-city-07",
+      "width": 1280,
+      "height": 720,
+      "sha256": "a6af4e773c4ef92c11b27023def175f6a518ceb43a319722a756e3eafc2d6009"
+    },
+    {
+      "id": "ct08-sword-outline-1-1",
+      "file": "arkham-city-easter-eggs/ct08-sword-outline-1-1.webp",
+      "timestamp": 44.25,
+      "caption": "身体与遗物的去向",
+      "source": "batman-arkham-videos-city-08",
+      "width": 1280,
+      "height": 720,
+      "sha256": "7df56dacd67ed7084dfca07345e3c3f223aef4151367eb485750d0aba09aa6c5"
+    },
+    {
+      "id": "ct08-sword-outline-1-2",
+      "file": "arkham-city-easter-eggs/ct08-sword-outline-1-2.webp",
+      "timestamp": 56.25,
+      "caption": "身体与遗物的去向",
+      "source": "batman-arkham-videos-city-08",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b8c956aa12e4021d6997eb4782719019a932cb8365b7d0c2b5931d1ad19fae2d"
+    },
+    {
+      "id": "ct08-sword-outline-1-3",
+      "file": "arkham-city-easter-eggs/ct08-sword-outline-1-3.webp",
+      "timestamp": 96.25,
+      "caption": "身体与遗物的去向",
+      "source": "batman-arkham-videos-city-08",
+      "width": 1280,
+      "height": 720,
+      "sha256": "52c1ce17a0e5d714bc334117a92445ddea837d3f8d949a326e10f34be375ea49"
+    },
+    {
+      "id": "ct09-catwoman-choice-1-1",
+      "file": "arkham-city-easter-eggs/ct09-catwoman-choice-1-1.webp",
+      "timestamp": 32.25,
+      "caption": "让选择真的走到尽头",
+      "source": "batman-arkham-videos-city-09",
+      "width": 1280,
+      "height": 720,
+      "sha256": "30c16a2cdcac27185067b5183b5053c5bcbdda452ebfd1804fe1bbe7846544bd"
+    },
+    {
+      "id": "ct09-catwoman-choice-1-2",
+      "file": "arkham-city-easter-eggs/ct09-catwoman-choice-1-2.webp",
+      "timestamp": 48.25,
+      "caption": "让选择真的走到尽头",
+      "source": "batman-arkham-videos-city-09",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d09a9c98295dc9d6ac70b07d789c08609b0f9b1301def97529e0820882c530b9"
+    },
+    {
+      "id": "ct09-catwoman-choice-1-3",
+      "file": "arkham-city-easter-eggs/ct09-catwoman-choice-1-3.webp",
+      "timestamp": 64.25,
+      "caption": "让选择真的走到尽头",
+      "source": "batman-arkham-videos-city-09",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3500a9d7cd535f24117a80cb6ea7e7ef761b417e6e6599d327e5fffc39766734"
+    },
+    {
+      "id": "ct09-catwoman-choice-2-1",
+      "file": "arkham-city-easter-eggs/ct09-catwoman-choice-2-1.webp",
+      "timestamp": 20.25,
+      "caption": "猫女走向离开的路线",
+      "source": "batman-arkham-videos-city-30",
+      "width": 1280,
+      "height": 720,
+      "sha256": "95b3e072efeaa1798d88851cbc7e0c22129ef4b76bd2072f0b997aeddc2a4a4f"
+    },
+    {
+      "id": "ct09-catwoman-choice-2-2",
+      "file": "arkham-city-easter-eggs/ct09-catwoman-choice-2-2.webp",
+      "timestamp": 60.25,
+      "caption": "替代结局倒带回到金库",
+      "source": "batman-arkham-videos-city-30",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b9ee0c8aab5797348c4427e8f7f8005a80863d580af62cc4f6f35521f5808a9a"
+    },
+    {
+      "id": "ct10-deadshot-device-1-1",
+      "file": "arkham-city-easter-eggs/ct10-deadshot-device-1-1.webp",
+      "timestamp": 28.25,
+      "caption": "一截金属握柄",
+      "source": "batman-arkham-videos-city-10",
+      "width": 1280,
+      "height": 720,
+      "sha256": "348eebf58a02684e69d435ad64ccba5a20e2f39dbd8059f538d4301ae2d2c6e0"
+    },
+    {
+      "id": "ct11-lost-tv-1-1",
+      "file": "arkham-city-easter-eggs/ct11-lost-tv-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "小丑对大结局的意见",
+      "source": "batman-arkham-videos-city-11",
+      "width": 1280,
+      "height": 720,
+      "sha256": "14fedcc5585bcb1ecc65990bed1956372caebc454a0d8bca18c98a3a0dcc939d"
+    },
+    {
+      "id": "ct11-lost-tv-1-2",
+      "file": "arkham-city-easter-eggs/ct11-lost-tv-1-2.webp",
+      "timestamp": 68.25,
+      "caption": "小丑对大结局的意见",
+      "source": "batman-arkham-videos-city-11",
+      "width": 1280,
+      "height": 720,
+      "sha256": "48452b6927b2350f7a66352cf693b86c67c4910fb967c39d34f9c18930e73cfd"
+    },
+    {
+      "id": "ct12-crime-alley-1-1",
+      "file": "arkham-city-easter-eggs/ct12-crime-alley-1-1.webp",
+      "timestamp": 28.25,
+      "caption": "回到那条小巷",
+      "source": "batman-arkham-videos-city-12",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f3af0e1afe42e7c19378ac9f966075a2d5aa75cd7693d988eb1926ffa9ef05e2"
+    },
+    {
+      "id": "ct12-crime-alley-1-2",
+      "file": "arkham-city-easter-eggs/ct12-crime-alley-1-2.webp",
+      "timestamp": 44.25,
+      "caption": "回到那条小巷",
+      "source": "batman-arkham-videos-city-12",
+      "width": 1280,
+      "height": 720,
+      "sha256": "852668e51ec49b1b62e78132a2cb7c3d3b0787dc5163bdc173e93ba1618fd6bf"
+    },
+    {
+      "id": "ct12-crime-alley-1-3",
+      "file": "arkham-city-easter-eggs/ct12-crime-alley-1-3.webp",
+      "timestamp": 56.25,
+      "caption": "回到那条小巷",
+      "source": "batman-arkham-videos-city-12",
+      "width": 1280,
+      "height": 720,
+      "sha256": "09c2145a246f8fa6d3651cb17c181b4d61d45fda43191856518e1ba690d4ff69"
+    },
+    {
+      "id": "ct12-crime-alley-2-1",
+      "file": "arkham-city-easter-eggs/ct12-crime-alley-2-1.webp",
+      "timestamp": 40.25,
+      "caption": "有人把这里变成留言地点",
+      "source": "batman-arkham-videos-city-12",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ec8475a9995d4b00e2ce0a253549e00295a92488f385f5c8da5451f037cb197a"
+    },
+    {
+      "id": "ct13-fear-gas-canisters-1-1",
+      "file": "arkham-city-easter-eggs/ct13-fear-gas-canisters-1-1.webp",
+      "timestamp": 32.25,
+      "caption": "认出重复出现的容器",
+      "source": "batman-arkham-videos-city-13",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bb17769f036bc4381c6973021e408ac4a71774a9a3aa8b7dbfa35523ac5546dd"
+    },
+    {
+      "id": "ct13-fear-gas-canisters-1-2",
+      "file": "arkham-city-easter-eggs/ct13-fear-gas-canisters-1-2.webp",
+      "timestamp": 36.25,
+      "caption": "认出重复出现的容器",
+      "source": "batman-arkham-videos-city-13",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b41c9bffe844be002f72af28ad8ea9deb09fa557d6999dca4a475ecd0a4c47cf"
+    },
+    {
+      "id": "ct14-duality-painting-1-1",
+      "file": "arkham-city-easter-eggs/ct14-duality-painting-1-1.webp",
+      "timestamp": 20.25,
+      "caption": "该隐与亚伯",
+      "source": "batman-arkham-videos-city-14",
+      "width": 1280,
+      "height": 720,
+      "sha256": "974896169c1b1fc108a76703a63ecc70fab25b0ab7a6d5e06a55ffb3cde396a3"
+    },
+    {
+      "id": "ct14-duality-painting-1-2",
+      "file": "arkham-city-easter-eggs/ct14-duality-painting-1-2.webp",
+      "timestamp": 32.25,
+      "caption": "该隐与亚伯",
+      "source": "batman-arkham-videos-city-14",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4381a7d3686c7936b67a50073e5f53cab0e8c21033edc5019571a3280975f303"
+    },
+    {
+      "id": "ct14-duality-painting-2-1",
+      "file": "arkham-city-easter-eggs/ct14-duality-painting-2-1.webp",
+      "timestamp": 44.25,
+      "caption": "抱起对手的构图",
+      "source": "batman-arkham-videos-city-14",
+      "width": 1280,
+      "height": 720,
+      "sha256": "52c0a4fde0e009c5357b7e70c5f1ee024b465a88994923031f28f239943f9868"
+    },
+    {
+      "id": "ct14-duality-painting-2-2",
+      "file": "arkham-city-easter-eggs/ct14-duality-painting-2-2.webp",
+      "timestamp": 168.25,
+      "caption": "剧院出口与《家庭之死》构图比较",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "309307b3659d8a582d3c7035c6fa0046b5346510cf550e6e0ca23ab01e66d70f"
+    },
+    {
+      "id": "ct15-texture-anomaly-1-1",
+      "file": "arkham-city-easter-eggs/ct15-texture-anomaly-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "纹理看起来像换了主人",
+      "source": "batman-arkham-videos-city-15",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b492ac1d49c4c56c5149c3e5387914c642fab12a8dc5dab72ef6a7e2446a9053"
+    },
+    {
+      "id": "ct15-texture-anomaly-1-2",
+      "file": "arkham-city-easter-eggs/ct15-texture-anomaly-1-2.webp",
+      "timestamp": 40.25,
+      "caption": "纹理看起来像换了主人",
+      "source": "batman-arkham-videos-city-15",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d50d59f32c83e37d14062f7102a64a4540fc59248fbf3933e33872b90b16cc7b"
+    },
+    {
+      "id": "ct16-detective-scan-1-1",
+      "file": "arkham-city-easter-eggs/ct16-detective-scan-1-1.webp",
+      "timestamp": 20.25,
+      "caption": "没有出现的骨骼",
+      "source": "batman-arkham-videos-city-16",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aca0fea4ef48e0cd9d3c85ac133786503d1a4161ec272586744a0702e6cfc764"
+    },
+    {
+      "id": "ct16-detective-scan-1-2",
+      "file": "arkham-city-easter-eggs/ct16-detective-scan-1-2.webp",
+      "timestamp": 24.25,
+      "caption": "没有出现的骨骼",
+      "source": "batman-arkham-videos-city-16",
+      "width": 1280,
+      "height": 720,
+      "sha256": "20c527c9f77c2de7ee3a3ada5991100bd6f49c05023d83a77614071ef3e332db"
+    },
+    {
+      "id": "ct17-freeze-ice-trail-1-1",
+      "file": "arkham-city-easter-eggs/ct17-freeze-ice-trail-1-1.webp",
+      "timestamp": 28.25,
+      "caption": "从旧警局走向码头",
+      "source": "batman-arkham-videos-city-17",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2ac1386a59c8c1a7895e1eb5c569330dc94030447eef2d1d5bc83b3be3296ac4"
+    },
+    {
+      "id": "ct17-freeze-ice-trail-1-2",
+      "file": "arkham-city-easter-eggs/ct17-freeze-ice-trail-1-2.webp",
+      "timestamp": 44.25,
+      "caption": "从旧警局走向码头",
+      "source": "batman-arkham-videos-city-17",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b77b92df41cc1cdd92de1756726481d16b2e607fc67ddb18090113195d9cefc7"
+    },
+    {
+      "id": "ct17-freeze-ice-trail-1-3",
+      "file": "arkham-city-easter-eggs/ct17-freeze-ice-trail-1-3.webp",
+      "timestamp": 48.25,
+      "caption": "从旧警局走向码头",
+      "source": "batman-arkham-videos-city-17",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ee664435a015c299edf131d11139c5dc1c5b05c273975acc1fa417a526d3f418"
+    },
+    {
+      "id": "ct17-hatter-tea-roof-1-1",
+      "file": "arkham-city-easter-eggs/ct17-hatter-tea-roof-1-1.webp",
+      "timestamp": 60.25,
+      "caption": "从幻觉回到城市",
+      "source": "batman-arkham-videos-city-17",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0cba991a95088997a58af033d0ad774721424898f0620f3ae8ed8099bbc693fd"
+    },
+    {
+      "id": "ct17-hatter-tea-roof-1-2",
+      "file": "arkham-city-easter-eggs/ct17-hatter-tea-roof-1-2.webp",
+      "timestamp": 68.25,
+      "caption": "从幻觉回到城市",
+      "source": "batman-arkham-videos-city-17",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cb2946d5a7d09a2ac9a1d60c1a1e1c46b8334e890daf0623aa557e7cc96518cd"
+    },
+    {
+      "id": "ct18-opening-cameos-1-1",
+      "file": "arkham-city-easter-eggs/ct18-opening-cameos-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "黑面具与死亡射手",
+      "source": "batman-arkham-videos-city-18",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2ed91f4bb6c54d1d36194571ccd40116f43c79d9d4b22eec6c812035f1c54f0e"
+    },
+    {
+      "id": "ct18-opening-cameos-1-2",
+      "file": "arkham-city-easter-eggs/ct18-opening-cameos-1-2.webp",
+      "timestamp": 40.25,
+      "caption": "黑面具与死亡射手",
+      "source": "batman-arkham-videos-city-18",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c98f53628dfc20800d9d4f227689dc4a030c858e95ac388987d57938550f796e"
+    },
+    {
+      "id": "ct18-opening-cameos-2-1",
+      "file": "arkham-city-easter-eggs/ct18-opening-cameos-2-1.webp",
+      "timestamp": 80.25,
+      "caption": "屋顶上的观察者",
+      "source": "batman-arkham-videos-city-18",
+      "width": 1280,
+      "height": 720,
+      "sha256": "38c8bfd95cc918409b1da449e5c27b42dac15ea521fd4a047822bf66dc620eac"
+    },
+    {
+      "id": "ct18-opening-cameos-3-1",
+      "file": "arkham-city-easter-eggs/ct18-opening-cameos-3-1.webp",
+      "timestamp": 144.25,
+      "caption": "教堂里的伤员",
+      "source": "batman-arkham-videos-city-18",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4cd20f6590a13bb7010489b195c4399f6847196de23ee114532805a89dbf9926"
+    },
+    {
+      "id": "ct19-big-head-mode-1-1",
+      "file": "arkham-city-easter-eggs/ct19-big-head-mode-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "扣住扳机，再转动摇杆",
+      "source": "batman-arkham-videos-city-19",
+      "width": 1280,
+      "height": 720,
+      "sha256": "81764b67e7aea4f1429f7b3435449bb19b993bf854b3077f725584ae336e748c"
+    },
+    {
+      "id": "ct19-big-head-mode-1-2",
+      "file": "arkham-city-easter-eggs/ct19-big-head-mode-1-2.webp",
+      "timestamp": 168.25,
+      "caption": "扣住扳机，再转动摇杆",
+      "source": "batman-arkham-videos-city-19",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b569f72144c727ca8c2a19d2a9a42f32ce72f1ca5ef966bad30c8b530de015f6"
+    },
+    {
+      "id": "ct20-twins-reunited-1-1",
+      "file": "arkham-city-easter-eggs/ct20-twins-reunited-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "同一个笼子里的两张脸",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d92f1dd0d41dc2c4354c4d1479e1043a3852e3b1f05c12eee25a24d20b2ef8a5"
+    },
+    {
+      "id": "ct20-twins-reunited-1-2",
+      "file": "arkham-city-easter-eggs/ct20-twins-reunited-1-2.webp",
+      "timestamp": 36.25,
+      "caption": "同一个笼子里的两张脸",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "27e7af8a9f1aa87b8549218195d0a5d6e908d5238e93e1a436141f68a630e007"
+    },
+    {
+      "id": "ct20-calendar-empty-cell-1-1",
+      "file": "arkham-city-easter-eggs/ct20-calendar-empty-cell-1-1.webp",
+      "timestamp": 48.25,
+      "caption": "回访一间熟悉的牢房",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "42791d7a8e81f6b84d6bec254c18482a3523f0ad9c8188c9b2024c86989b2f0e"
+    },
+    {
+      "id": "ct20-black-mask-traces-1-1",
+      "file": "arkham-city-easter-eggs/ct20-black-mask-traces-1-1.webp",
+      "timestamp": 72.25,
+      "caption": "围墙上的逃离路线",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "49c4b34eb2bbc1138c7d239b649156580bfaaa98b786cab4e3e358d2144f46d1"
+    },
+    {
+      "id": "ct20-black-mask-traces-1-2",
+      "file": "arkham-city-easter-eggs/ct20-black-mask-traces-1-2.webp",
+      "timestamp": 888.25,
+      "caption": "黑面具逃离地点与通告",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6fc724d13bba79a27f37a1e2f2d9df15f213737eca51191038ad4f739a756c66"
+    },
+    {
+      "id": "ct20-black-mask-traces-2-1",
+      "file": "arkham-city-easter-eggs/ct20-black-mask-traces-2-1.webp",
+      "timestamp": 912.25,
+      "caption": "挑战地图中的黑面具办公室",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1e9df8cf112d1b90556a392aeda054101532a2ef1c411f33afa1b2928d9816f7"
+    },
+    {
+      "id": "ct20-black-mask-traces-2-2",
+      "file": "arkham-city-easter-eggs/ct20-black-mask-traces-2-2.webp",
+      "timestamp": 984.25,
+      "caption": "货运列车挑战的黑面具失败画面",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5a2d32dfeaf030c565b5993b6939575c433b68dc4991983999de1a289687b1aa"
+    },
+    {
+      "id": "ct20-city-signals-1-1",
+      "file": "arkham-city-easter-eggs/ct20-city-signals-1-1.webp",
+      "timestamp": 64.25,
+      "caption": "看向城市之外",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "25d5060d5aa161a93cea14e3aaf5ea8b1e4347ad51c039cbaf0346ba6b8b0b69"
+    },
+    {
+      "id": "ct20-city-signals-1-2",
+      "file": "arkham-city-easter-eggs/ct20-city-signals-1-2.webp",
+      "timestamp": 80.25,
+      "caption": "看向城市之外",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "50e3cc405240bb1d307f722faa6a2c373a1c1a6bcf848eb86616879b05a8f766"
+    },
+    {
+      "id": "ct20-pest-control-shop-1-1",
+      "file": "arkham-city-easter-eggs/ct20-pest-control-shop-1-1.webp",
+      "timestamp": 88.25,
+      "caption": "Flannegan Pest Control",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2edf42829317ed87f2450347afb9ab454dea1e45c34231151bc8189eb77b0e34"
+    },
+    {
+      "id": "ct20-wanted-and-magic-1-1",
+      "file": "arkham-city-easter-eggs/ct20-wanted-and-magic-1-1.webp",
+      "timestamp": 96.25,
+      "caption": "布鲁斯也上了墙",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8c0008f0ef3f063984afd2c582e71ace77317f2950e50de3fdf5c0456e538d01"
+    },
+    {
+      "id": "ct20-wanted-and-magic-1-2",
+      "file": "arkham-city-easter-eggs/ct20-wanted-and-magic-1-2.webp",
+      "timestamp": 104.25,
+      "caption": "布鲁斯也上了墙",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "018f9f1911de73f0dc4c3f6a824c1dce52b9b2447c41404cfad2a69bf765f30a"
+    },
+    {
+      "id": "ct20-harleen-diploma-1-1",
+      "file": "arkham-city-easter-eggs/ct20-harleen-diploma-1-1.webp",
+      "timestamp": 112.25,
+      "caption": "墙上的另一个人生",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2c3752aca04b2fdaed8c469dd2f766c6734961628803227ea5fdf5ae6df0ce28"
+    },
+    {
+      "id": "ct20-tyger-and-sharp-1-1",
+      "file": "arkham-city-easter-eggs/ct20-tyger-and-sharp-1-1.webp",
+      "timestamp": 120.25,
+      "caption": "宣传背后的现场",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8ab4005aec55b77c3707cce893c1736e0d8d3f4785900a81a6a95fc2d0165094"
+    },
+    {
+      "id": "ct20-tyger-and-sharp-1-2",
+      "file": "arkham-city-easter-eggs/ct20-tyger-and-sharp-1-2.webp",
+      "timestamp": 136.25,
+      "caption": "宣传背后的现场",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cfcfd21ad9330581e485d96efeb42238dddc66d99431276bab6fa77a4612e9aa"
+    },
+    {
+      "id": "ct20-scarecrow-mask-1-1",
+      "file": "arkham-city-easter-eggs/ct20-scarecrow-mask-1-1.webp",
+      "timestamp": 144.25,
+      "caption": "低头看向桥下",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fb48e45c3a1dc12711cf31b4c2d09aea1dc7c00fbf1ef2d4d3715505ae90cde2"
+    },
+    {
+      "id": "ct20-scarecrow-mask-1-2",
+      "file": "arkham-city-easter-eggs/ct20-scarecrow-mask-1-2.webp",
+      "timestamp": 152.25,
+      "caption": "低头看向桥下",
+      "source": "batman-arkham-videos-city-20",
+      "width": 1280,
+      "height": 720,
+      "sha256": "871a91a6794116a545a17d4674b60c136c6a27b3edcdbf4086bad42cf4a5c007"
+    },
+    {
+      "id": "ct21-catwoman-visits-1-1",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-1-1.webp",
+      "timestamp": 28.25,
+      "caption": "日历人与企鹅人",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "2241db6406e44376ff87afa695d0e464d4d7f609e81fe1dd6b2cc0e54bbf81f3"
+    },
+    {
+      "id": "ct21-catwoman-visits-1-2",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-1-2.webp",
+      "timestamp": 68.25,
+      "caption": "日历人与企鹅人",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e583ac1281147c9159acead95675ffcdae53ff61b47ef52478ad4e4dbe72b174"
+    },
+    {
+      "id": "ct21-catwoman-visits-2-1",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-2-1.webp",
+      "timestamp": 100.25,
+      "caption": "茶会与牢笼",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "de70df27994286a7fdf8c7575cc68ed74b4a56ab6a2d560a012107f779e63a79"
+    },
+    {
+      "id": "ct21-catwoman-visits-2-2",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-2-2.webp",
+      "timestamp": 132.25,
+      "caption": "茶会与牢笼",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "28f373f260d5f07f1afae3a9881da8d513722323b4d63b04b3ffee6a7914b35e"
+    },
+    {
+      "id": "ct21-catwoman-visits-3-1",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-3-1.webp",
+      "timestamp": 164.25,
+      "caption": "急冻人与扎斯",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b8839aa2803aa774f458caa479740adccd8fb69ebcc9f74782f81ad686c644cd"
+    },
+    {
+      "id": "ct21-catwoman-visits-3-2",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-3-2.webp",
+      "timestamp": 192.7,
+      "caption": "急冻人与扎斯",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "b2cf2d27d65a0816f43bea09cb8403b7bbd0fd48c6b83538ec1f22dad4ddd69f"
+    },
+    {
+      "id": "ct21-catwoman-visits-4-1",
+      "file": "arkham-city-easter-eggs/ct21-catwoman-visits-4-1.webp",
+      "timestamp": 232.25,
+      "caption": "回到毒藤女面前",
+      "source": "batman-arkham-videos-city-21",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fbcb32a24d81e52eb2005c8e04dde15f5af7f411466f52852ff6aa09491b9229"
+    },
+    {
+      "id": "ct22-arkham-world-1-1",
+      "file": "arkham-city-easter-eggs/ct22-arkham-world-1-1.webp",
+      "timestamp": 20.25,
+      "caption": "County、Country 与 World",
+      "source": "batman-arkham-videos-city-22",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8dbab13d38f4d15fafc4727b4a25344bbaa3b9391c99ebb76a78bb2fdb8dc464"
+    },
+    {
+      "id": "ct22-arkham-world-1-2",
+      "file": "arkham-city-easter-eggs/ct22-arkham-world-1-2.webp",
+      "timestamp": 28.25,
+      "caption": "County、Country 与 World",
+      "source": "batman-arkham-videos-city-22",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4bef0fdb57b383871f35a59d3d6e96eeea9d4e71f26a12cd79f62157b7fa8688"
+    },
+    {
+      "id": "ct23-prometheus-records-1-1",
+      "file": "arkham-city-easter-eggs/ct23-prometheus-records-1-1.webp",
+      "timestamp": 48.25,
+      "caption": "同样目睹父母死亡的孩子",
+      "source": "batman-arkham-videos-city-23",
+      "width": 1280,
+      "height": 720,
+      "sha256": "836693ba57fc6a738d251f9b809749a3981d3da3850f3165fbde8eac64642144"
+    },
+    {
+      "id": "ct23-prometheus-records-1-2",
+      "file": "arkham-city-easter-eggs/ct23-prometheus-records-1-2.webp",
+      "timestamp": 60.25,
+      "caption": "同样目睹父母死亡的孩子",
+      "source": "batman-arkham-videos-city-23",
+      "width": 1280,
+      "height": 720,
+      "sha256": "42f242907d19d9179b6818a75d83e7315b949a9ec61a8619209a1e59e3fde210"
+    },
+    {
+      "id": "ct23-prometheus-records-1-3",
+      "file": "arkham-city-easter-eggs/ct23-prometheus-records-1-3.webp",
+      "timestamp": 108.25,
+      "caption": "同样目睹父母死亡的孩子",
+      "source": "batman-arkham-videos-city-23",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aa36c2c66f6054b11976a21399bcb70ff371e01ba21e694156def94fd7f0d097"
+    },
+    {
+      "id": "ct24-rocksteady-arrests-1-1",
+      "file": "arkham-city-easter-eggs/ct24-rocksteady-arrests-1-1.webp",
+      "timestamp": 28.25,
+      "caption": "六个名字的一次客串",
+      "source": "batman-arkham-videos-city-24",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8b8b5796d26b61aa7b4ce73553663db814acb2be1c66ed7185497be1d7c032a8"
+    },
+    {
+      "id": "ct24-rocksteady-arrests-1-2",
+      "file": "arkham-city-easter-eggs/ct24-rocksteady-arrests-1-2.webp",
+      "timestamp": 40.25,
+      "caption": "六个名字的一次客串",
+      "source": "batman-arkham-videos-city-24",
+      "width": 1280,
+      "height": 720,
+      "sha256": "389e15431be3453c1d60456c4ee3c13cf58dabbdc181b1e5eb0c7194fd911a44"
+    },
+    {
+      "id": "ct25-white-canary-clinic-1-1",
+      "file": "arkham-city-easter-eggs/ct25-white-canary-clinic-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "怀特与汤普金斯",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9eb90496a6cd77ec49ca6d0bca92909f90135eee950dcd5cd3d836f5aa1a45d5"
+    },
+    {
+      "id": "ct25-white-canary-clinic-1-2",
+      "file": "arkham-city-easter-eggs/ct25-white-canary-clinic-1-2.webp",
+      "timestamp": 40.25,
+      "caption": "怀特与汤普金斯",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "db0665d07875ff85b814f4c2dc9f8bea86a013e839b3f56ae5ef0f82f16b347a"
+    },
+    {
+      "id": "ct25-white-canary-clinic-2-1",
+      "file": "arkham-city-easter-eggs/ct25-white-canary-clinic-2-1.webp",
+      "timestamp": 56.25,
+      "caption": "黑金丝雀的名字",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fdf50317f3702fb29759f94b9e39164f7f5b35107fb471c45e77d5a157dfa761"
+    },
+    {
+      "id": "ct25-metropolis-keystone-1-1",
+      "file": "arkham-city-easter-eggs/ct25-metropolis-keystone-1-1.webp",
+      "timestamp": 76.25,
+      "caption": "城市并不止一座",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1a0699b036f24735b8bbc0fa06c66f0ed9427aa75fb073398d3c076f4b7aa622"
+    },
+    {
+      "id": "ct25-metropolis-keystone-1-2",
+      "file": "arkham-city-easter-eggs/ct25-metropolis-keystone-1-2.webp",
+      "timestamp": 92.25,
+      "caption": "城市并不止一座",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "82c372f030acc6c797ef1a7c4252b95eeaa235da7d9e575f67b8f0757b9e67c2"
+    },
+    {
+      "id": "ct25-metropolis-keystone-2-1",
+      "file": "arkham-city-easter-eggs/ct25-metropolis-keystone-2-1.webp",
+      "timestamp": 120.25,
+      "caption": "METROPOLIS 也是密码",
+      "source": "batman-arkham-videos-city-25",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9e008b2a2cbea233a51b76a92313440db1ca118bdaf63a5be80e17d22ea1a9ac"
+    },
+    {
+      "id": "ct26-bell-tower-forecast-1-1",
+      "file": "arkham-city-easter-eggs/ct26-bell-tower-forecast-1-1.webp",
+      "timestamp": 52.25,
+      "caption": "谁会俯视谁",
+      "source": "batman-arkham-videos-city-26",
+      "width": 1280,
+      "height": 720,
+      "sha256": "61d66e6dced0ec22befa91c0447d9b6413baa958b5af3fbe5efa1418c952eb60"
+    },
+    {
+      "id": "ct26-bell-tower-forecast-1-3",
+      "file": "arkham-city-easter-eggs/ct26-bell-tower-forecast-1-3.webp",
+      "timestamp": 92.25,
+      "caption": "谁会俯视谁",
+      "source": "batman-arkham-videos-city-26",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8a21df9a5aaddef8ab329c9fcde1c5b2957d5059da7d840c075957d580a6b424"
+    },
+    {
+      "id": "ct27-hush-room-1-1",
+      "file": "arkham-city-easter-eggs/ct27-hush-room-1-1.webp",
+      "timestamp": 60.25,
+      "caption": "缄默身边的异物",
+      "source": "batman-arkham-videos-city-27",
+      "width": 1280,
+      "height": 720,
+      "sha256": "dbfa792317b2b715b6d8ebdfbc6f490d40f2e13daf1286796590d695c2035c36"
+    },
+    {
+      "id": "ct27-hush-room-1-2",
+      "file": "arkham-city-easter-eggs/ct27-hush-room-1-2.webp",
+      "timestamp": 108.25,
+      "caption": "缄默身边的异物",
+      "source": "batman-arkham-videos-city-27",
+      "width": 1280,
+      "height": 720,
+      "sha256": "97ba5ece61c53288a85a4d7606895d645e984b666420388d9821970191b8d142"
+    },
+    {
+      "id": "ct27-hush-room-2-1",
+      "file": "arkham-city-easter-eggs/ct27-hush-room-2-1.webp",
+      "timestamp": 409.25,
+      "caption": "缄默藏身处中的项链",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4b0dd89dcb98a70d1e221287ee37a3ea16500cff48852093b002d2d5099734d4"
+    },
+    {
+      "id": "ct28-batman-returns-1-1",
+      "file": "arkham-city-easter-eggs/ct28-batman-returns-1-1.webp",
+      "timestamp": 40.25,
+      "caption": "柴郡猫般的笑脸",
+      "source": "batman-arkham-videos-city-28",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0a9be2caec1897613d9bbee23e3e1df4c861f33a29385b3f678c9c431d99cb3a"
+    },
+    {
+      "id": "ct28-batman-returns-1-2",
+      "file": "arkham-city-easter-eggs/ct28-batman-returns-1-2.webp",
+      "timestamp": 56.25,
+      "caption": "柴郡猫般的笑脸",
+      "source": "batman-arkham-videos-city-28",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e6a6b1599cc14141a7b098eacd7adb0202a010bb83592369bce578f9746408a6"
+    },
+    {
+      "id": "ct28-batman-returns-2-1",
+      "file": "arkham-city-easter-eggs/ct28-batman-returns-2-1.webp",
+      "timestamp": 112.25,
+      "caption": "钢铁厂里的鸭车",
+      "source": "batman-arkham-videos-city-28",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3c11ed5f404dd5b4924e2f6dfa6d3920c01105959654fa8652be50d771730fc3"
+    },
+    {
+      "id": "ct28-batman-returns-2-2",
+      "file": "arkham-city-easter-eggs/ct28-batman-returns-2-2.webp",
+      "timestamp": 120.25,
+      "caption": "钢铁厂里的鸭车",
+      "source": "batman-arkham-videos-city-28",
+      "width": 1280,
+      "height": 720,
+      "sha256": "590826293b394effbf43b58c80048d747cb899988c48bb1a609c78249ec5a0ef"
+    },
+    {
+      "id": "ct29-mechanical-guardians-1-1",
+      "file": "arkham-city-easter-eggs/ct29-mechanical-guardians-1-1.webp",
+      "timestamp": 24.25,
+      "caption": "陈列、堆放与消失",
+      "source": "batman-arkham-videos-city-29",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3490c3ce31a311d569306aed168359fbf03d56513efb520f50bc0bba37ae6636"
+    },
+    {
+      "id": "ct29-mechanical-guardians-1-2",
+      "file": "arkham-city-easter-eggs/ct29-mechanical-guardians-1-2.webp",
+      "timestamp": 36.25,
+      "caption": "陈列、堆放与消失",
+      "source": "batman-arkham-videos-city-29",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bb0a57ee07b007712bcf36d583358020782b59df096a61e950b856857a6626f0"
+    },
+    {
+      "id": "ct29-mechanical-guardians-1-3",
+      "file": "arkham-city-easter-eggs/ct29-mechanical-guardians-1-3.webp",
+      "timestamp": 80.25,
+      "caption": "陈列、堆放与消失",
+      "source": "batman-arkham-videos-city-29",
+      "width": 1280,
+      "height": 720,
+      "sha256": "27392366cb22464f61e7e16dc1e0419e3033084297b17be8b5209c0f898fedba"
+    },
+    {
+      "id": "ct29-mechanical-guardians-1-4",
+      "file": "arkham-city-easter-eggs/ct29-mechanical-guardians-1-4.webp",
+      "timestamp": 116.25,
+      "caption": "陈列、堆放与消失",
+      "source": "batman-arkham-videos-city-29",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c408b01c8253d1bb7fddb187a754955fbb2125a044bcf00718d4723d1659cf91"
+    },
+    {
+      "id": "ct31-asylum-osito-1-1",
+      "file": "arkham-city-easter-eggs/ct31-asylum-osito-1-1.webp",
+      "timestamp": 12.25,
+      "caption": "旧箱子没有退场",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "d4c274480b96f03dbea818247dad42a12fc11dd4bea2437336d5de3c8996c38b"
+    },
+    {
+      "id": "ct31-asylum-osito-1-2",
+      "file": "arkham-city-easter-eggs/ct31-asylum-osito-1-2.webp",
+      "timestamp": 36.25,
+      "caption": "旧箱子没有退场",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5cf6715434f2d0c13a753c2cb074b686e8e832330bf551a21472dc67888dc74a"
+    },
+    {
+      "id": "ct31-asylum-osito-2-2",
+      "file": "arkham-city-easter-eggs/ct31-asylum-osito-2-2.webp",
+      "timestamp": 132.25,
+      "caption": "玩具工厂的场景",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5fe6a667a961d8a1f058b1bc969076d355dc7bcef439941be07d3566d72d4a4c"
+    },
+    {
+      "id": "ct31-asylum-patients-titan-1-1",
+      "file": "arkham-city-easter-eggs/ct31-asylum-patients-titan-1-1.webp",
+      "timestamp": 60.25,
+      "caption": "熟悉的病人进入容器",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "294686821f3c63a05dbfe078ad48ca4db476d0ac418de039ec6818c29e4235cd"
+    },
+    {
+      "id": "ct31-asylum-patients-titan-1-2",
+      "file": "arkham-city-easter-eggs/ct31-asylum-patients-titan-1-2.webp",
+      "timestamp": 72.25,
+      "caption": "熟悉的病人进入容器",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5bfb1d9a868adfa98843774afe2b22c5614f439e86b9388362908bc26ed5cd04"
+    },
+    {
+      "id": "ct31-asylum-patients-titan-2-1",
+      "file": "arkham-city-easter-eggs/ct31-asylum-patients-titan-2-1.webp",
+      "timestamp": 108.25,
+      "caption": "礼盒与货箱",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "87ff8e133b231479edb6748f3dc1fea24ceb60c21b0729b7907da3a6f41834f7"
+    },
+    {
+      "id": "ct31-asylum-patients-titan-2-2",
+      "file": "arkham-city-easter-eggs/ct31-asylum-patients-titan-2-2.webp",
+      "timestamp": 120.25,
+      "caption": "礼盒与货箱",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8b2ad1530765d3a89043bdf99917c9e2d5bdc162a557b177842ad49b806b9614"
+    },
+    {
+      "id": "ct31-gotham-magazines-1-1",
+      "file": "arkham-city-easter-eggs/ct31-gotham-magazines-1-1.webp",
+      "timestamp": 144.25,
+      "caption": "封面组成另一份人物表",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fae303eda37f1c269f3d9d69571308df66b25f7a3181ee411c8432346197b9e5"
+    },
+    {
+      "id": "ct31-gotham-magazines-1-2",
+      "file": "arkham-city-easter-eggs/ct31-gotham-magazines-1-2.webp",
+      "timestamp": 156.25,
+      "caption": "封面组成另一份人物表",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e90a2fb7f27a76c8b6a48a48b63dd6755f36e1e48450ef88084ce49e94a8e5ec"
+    },
+    {
+      "id": "ct31-helena-mannequin-1-1",
+      "file": "arkham-city-easter-eggs/ct31-helena-mannequin-1-1.webp",
+      "timestamp": 176.25,
+      "caption": "名叫海伦娜的形象",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "f0937f605cff02988ec45a8c2694986dea926328225d3c53d58783abac87e3f3"
+    },
+    {
+      "id": "ct31-helena-mannequin-1-2",
+      "file": "arkham-city-easter-eggs/ct31-helena-mannequin-1-2.webp",
+      "timestamp": 192.25,
+      "caption": "名叫海伦娜的形象",
+      "source": "batman-arkham-videos-city-31",
+      "width": 1280,
+      "height": 720,
+      "sha256": "99416bb483f878a35c5e0dc249f3fd143ca9c0e6045e73c568d48170ebd27e23"
+    },
+    {
+      "id": "ct32-iceberg-vip-1-1",
+      "file": "arkham-city-easter-eggs/ct32-iceberg-vip-1-1.webp",
+      "timestamp": 56.3,
+      "caption": "让遥控蝙蝠镖看一眼",
+      "source": "batman-arkham-videos-city-32",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5d89e07c5b1f5361adc8baacd07f296ba21fcad6cf1d25a672fa833d0facd368"
+    },
+    {
+      "id": "ct32-iceberg-vip-1-2",
+      "file": "arkham-city-easter-eggs/ct32-iceberg-vip-1-2.webp",
+      "timestamp": 68.3,
+      "caption": "让遥控蝙蝠镖看一眼",
+      "source": "batman-arkham-videos-city-32",
+      "width": 1280,
+      "height": 720,
+      "sha256": "febd32ad3800f78ed2af8db6918f13931287b9ff37b92284fe4d8bd448ca8c45"
+    },
+    {
+      "id": "ct32-iceberg-vip-1-3",
+      "file": "arkham-city-easter-eggs/ct32-iceberg-vip-1-3.webp",
+      "timestamp": 132.4,
+      "caption": "冰山餐厅挑战地图上方的生日横幅",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e237a93daa17ca6e6807efc6f35c2ceda384664e34d0de26bba1f78cfb1712ca"
+    },
+    {
+      "id": "ct32-jokers-carnival-1-1",
+      "file": "arkham-city-easter-eggs/ct32-jokers-carnival-1-1.webp",
+      "timestamp": 156.25,
+      "caption": "小丑亲自下场",
+      "source": "batman-arkham-videos-city-32",
+      "width": 1280,
+      "height": 720,
+      "sha256": "9cc85a349b0140ca6234b05c084bcf11eb8342dd2430e2784f489e324c23577a"
+    },
+    {
+      "id": "ct32-jokers-carnival-1-2",
+      "file": "arkham-city-easter-eggs/ct32-jokers-carnival-1-2.webp",
+      "timestamp": 168.25,
+      "caption": "小丑亲自下场",
+      "source": "batman-arkham-videos-city-32",
+      "width": 1280,
+      "height": 720,
+      "sha256": "962c14d8f926cc093e3725fe80d4f9fce39ed9bf8fd7c445c6e271a8fd6a8f8e"
+    },
+    {
+      "id": "ct33-robin-joker-taunt-1-1",
+      "file": "arkham-city-easter-eggs/ct33-robin-joker-taunt-1-1.webp",
+      "timestamp": 48.25,
+      "caption": "他是不是认错了人",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "38083746be91638ea4a6ae45067c9ef4fcb0adbaf431b061ccf843b069405503"
+    },
+    {
+      "id": "ct33-robin-joker-taunt-2-1",
+      "file": "arkham-city-easter-eggs/ct33-robin-joker-taunt-2-1.webp",
+      "timestamp": 72.25,
+      "caption": "蝙蝠车旁的四只轮胎",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "cb8b37e4a0cae054bb3d08fd40c06ad6532e93b4103a480fe4b2d4a0b83ac3b8"
+    },
+    {
+      "id": "ct33-gcpd-radio-1-1",
+      "file": "arkham-city-easter-eggs/ct33-gcpd-radio-1-1.webp",
+      "timestamp": 96.25,
+      "caption": "韦斯克扣留了一名警察",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4271e0612dce625054b65b77704d44aead2daf455af1e6c00d3201843c291b59"
+    },
+    {
+      "id": "ct33-gcpd-radio-2-2",
+      "file": "arkham-city-easter-eggs/ct33-gcpd-radio-2-2.webp",
+      "timestamp": 228.25,
+      "caption": "戈登要求改变收押地点",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c2257fe3fdfea9274b8adc452c30f0d16b231e897f694979e29e9e271f0e469f"
+    },
+    {
+      "id": "ct33-animated-fights-1-1",
+      "file": "arkham-city-easter-eggs/ct33-animated-fights-1-1.webp",
+      "timestamp": 168.25,
+      "caption": "同一种对抗方法",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fc321c6b75a5bbf4ff226e6422ddb321a13124e1b0bdd13c10e45269e59a5415"
+    },
+    {
+      "id": "ct33-animated-fights-2-1",
+      "file": "arkham-city-easter-eggs/ct33-animated-fights-2-1.webp",
+      "timestamp": 180.25,
+      "caption": "力量也会变成怪物",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4080696414ee24b00144e2cdd03f7c183c36edbc984ee485a6ac76d298fb7430"
+    },
+    {
+      "id": "ct33-crazy-quilt-1-1",
+      "file": "arkham-city-easter-eggs/ct33-crazy-quilt-1-1.webp",
+      "timestamp": 276.25,
+      "caption": "谁会相信是他干的",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "bb3a0f5c335eccc1f6a5c5669857b8187671b5650d3e305017601a9e1ce26a98"
+    },
+    {
+      "id": "ct33-crazy-quilt-1-2",
+      "file": "arkham-city-easter-eggs/ct33-crazy-quilt-1-2.webp",
+      "timestamp": 288.25,
+      "caption": "谁会相信是他干的",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "4c84c62d4a5dcf5769eabe6fa263931181f85e205b62ddc38a460da8922e6e4d"
+    },
+    {
+      "id": "ct33-bludhaven-1-1",
+      "file": "arkham-city-easter-eggs/ct33-bludhaven-1-1.webp",
+      "timestamp": 336.25,
+      "caption": "围墙之外的退路",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e36bbe339536e23284c0b25afd9f0d7d870855c6deb26f82e866eb5bc24d7cbb"
+    },
+    {
+      "id": "ct33-bludhaven-1-2",
+      "file": "arkham-city-easter-eggs/ct33-bludhaven-1-2.webp",
+      "timestamp": 344.25,
+      "caption": "围墙之外的退路",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "6b40af693b29aaf9e26c539c0f0a4f81fd92225e5f97dba44b6e3c0ed0eb8746"
+    },
+    {
+      "id": "ct33-dini-towers-1-1",
+      "file": "arkham-city-easter-eggs/ct33-dini-towers-1-1.webp",
+      "timestamp": 372.25,
+      "caption": "先处理那两名狙击手",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "96cd786b7a3b716b0c0048993bee44a169d451a2f3c2a68e18a9a1fd0bc329fd"
+    },
+    {
+      "id": "ct33-stacked-deck-1-1",
+      "file": "arkham-city-easter-eggs/ct33-stacked-deck-1-1.webp",
+      "timestamp": 425.25,
+      "caption": "熟客聚会的地方",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "37313d8a3db8c16c4677355960f3045a4a6b1684d91d94271dad731d63650b8c"
+    },
+    {
+      "id": "ct33-huntress-creeper-1-1",
+      "file": "arkham-city-easter-eggs/ct33-huntress-creeper-1-1.webp",
+      "timestamp": 457.25,
+      "caption": "政客的秩序，记者的问题",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e37a33d967cbf80450a76e0a811537573d031af9432881e0b5e7432b2857031b"
+    },
+    {
+      "id": "ct33-huntress-creeper-1-2",
+      "file": "arkham-city-easter-eggs/ct33-huntress-creeper-1-2.webp",
+      "timestamp": 481.25,
+      "caption": "政客的秩序，记者的问题",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "17123b3eb8a10ea41b428c66d4a38c031b85334efa8aaf71504a8894d4bcac83"
+    },
+    {
+      "id": "ct33-shark-repellent-1-1",
+      "file": "arkham-city-easter-eggs/ct33-shark-repellent-1-1.webp",
+      "timestamp": 529.25,
+      "caption": "喷罐里面本来是什么",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "aba6377e42812962959231c5bb7c54aa7e958a21af4b0de2f8817afa8fd71b86"
+    },
+    {
+      "id": "ct33-shark-repellent-2-2",
+      "file": "arkham-city-easter-eggs/ct33-shark-repellent-2-2.webp",
+      "timestamp": 561.25,
+      "caption": "留下来的文字笑点",
+      "source": "batman-arkham-videos-city-33",
+      "width": 1280,
+      "height": 720,
+      "sha256": "409f6503bd5dfa6a08bd5f7a5e09828194eb866df1bac2ff6852b1311706aee7"
+    },
+    {
+      "id": "ct35-cadmus-posters-1-1",
+      "file": "arkham-city-easter-eggs/ct35-cadmus-posters-1-1.webp",
+      "timestamp": 32.25,
+      "caption": "Building a brighter tomorrow",
+      "source": "batman-arkham-videos-city-35",
+      "width": 1280,
+      "height": 720,
+      "sha256": "926d40ed0ef746826b4c9d91f2c8162ba98a26506260d7b60ec91be7bf4658f6"
+    },
+    {
+      "id": "ct35-cadmus-posters-1-2",
+      "file": "arkham-city-easter-eggs/ct35-cadmus-posters-1-2.webp",
+      "timestamp": 48.25,
+      "caption": "Building a brighter tomorrow",
+      "source": "batman-arkham-videos-city-35",
+      "width": 1280,
+      "height": 720,
+      "sha256": "67c1477c1fbdae73a7ace593ed057b667ea2e8200ea37c6ad2d04aaa4b7b4fc9"
+    },
+    {
+      "id": "ct35-cadmus-posters-2-2",
+      "file": "arkham-city-easter-eggs/ct35-cadmus-posters-2-2.webp",
+      "timestamp": 92.25,
+      "caption": "小丑模型旁的研究机构",
+      "source": "batman-arkham-videos-city-35",
+      "width": 1280,
+      "height": 720,
+      "sha256": "ddd9508ac9cc9e6dccb94c05e51dee1d7b512b0834e36110131a104bf626354b"
+    },
+    {
+      "id": "ct36-gotham-reflection-1-1",
+      "file": "arkham-city-easter-eggs/ct36-gotham-reflection-1-1.webp",
+      "timestamp": 32.6,
+      "caption": "室内为什么会看见高楼",
+      "source": "batman-arkham-videos-city-36",
+      "width": 1280,
+      "height": 720,
+      "sha256": "04471a0996d08b8119e1f2b2f81da84c73f540cc7d440e3a6c23097db6b31acc"
+    },
+    {
+      "id": "ct36-gotham-reflection-1-2",
+      "file": "arkham-city-easter-eggs/ct36-gotham-reflection-1-2.webp",
+      "timestamp": 52.6,
+      "caption": "室内为什么会看见高楼",
+      "source": "batman-arkham-videos-city-36",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1bd0ee74aef382a1abda70cb04a0757973ae936ecfa6222f0e94baaec963d95f"
+    },
+    {
+      "id": "ct36-gotham-reflection-2-2",
+      "file": "arkham-city-easter-eggs/ct36-gotham-reflection-2-2.webp",
+      "timestamp": 96.25,
+      "caption": "倒影前的书与铭牌",
+      "source": "batman-arkham-videos-city-36",
+      "width": 1280,
+      "height": 720,
+      "sha256": "128724187a89a8d63c7a84a8f888d1f9a9abb85d5962656156d90368bd41d897"
+    },
+    {
+      "id": "ct37-killing-joke-interview-1-1",
+      "file": "arkham-city-easter-eggs/ct37-killing-joke-interview-1-1.webp",
+      "timestamp": 120.25,
+      "caption": "经济困境与一场坏掉的日子",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e1c27b21397a39a545e975b30121948caae595b73c78095f53e7d3fd792e52af"
+    },
+    {
+      "id": "ct37-killing-joke-interview-1-2",
+      "file": "arkham-city-easter-eggs/ct37-killing-joke-interview-1-2.webp",
+      "timestamp": 216.25,
+      "caption": "经济困境与一场坏掉的日子",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ae82905eef98e2b64b4ae3b1ad848b5049b3bec824c9fd391a785b0874b3e1f1"
+    },
+    {
+      "id": "ct37-killing-joke-interview-2-1",
+      "file": "arkham-city-easter-eggs/ct37-killing-joke-interview-2-1.webp",
+      "timestamp": 312.25,
+      "caption": "红头罩与不可靠的记忆",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "40271c1db4b2e87bbdc6769473341ae948399187edbe4f61d4f4949125954b22"
+    },
+    {
+      "id": "ct37-killing-joke-interview-2-2",
+      "file": "arkham-city-easter-eggs/ct37-killing-joke-interview-2-2.webp",
+      "timestamp": 360.25,
+      "caption": "红头罩与不可靠的记忆",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "11857436dcd92146e7f8031d8d9f3b172d9aa49f348d860c74d1e951291e82f1"
+    },
+    {
+      "id": "ct37-lucius-fox-1-1",
+      "file": "arkham-city-easter-eggs/ct37-lucius-fox-1-1.webp",
+      "timestamp": 432.25,
+      "caption": "钩爪助推原型",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4ef7e8371fd37d509975f01799104c310b2cd4f3106aa0a2d20c6d01068a7703"
+    },
+    {
+      "id": "ct37-lucius-fox-2-1",
+      "file": "arkham-city-easter-eggs/ct37-lucius-fox-2-1.webp",
+      "timestamp": 440.25,
+      "caption": "另一通“解药”联络",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5f953f9775f4a0f7ea236ec7bb2b27fba7fdb570b7f290445e130bab905ad065"
+    },
+    {
+      "id": "ct37-holly-falcone-1-1",
+      "file": "arkham-city-easter-eggs/ct37-holly-falcone-1-1.webp",
+      "timestamp": 480.25,
+      "caption": "霍莉·罗宾逊",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "641b1590de9a98428c68820a5cff849ed7a7e49892bf2a16fc8c79e11f322787"
+    },
+    {
+      "id": "ct37-holly-falcone-1-2",
+      "file": "arkham-city-easter-eggs/ct37-holly-falcone-1-2.webp",
+      "timestamp": 504.25,
+      "caption": "霍莉·罗宾逊",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "613b0deb7c048f5fc7242fdd8f3349981b157da629a165a956b1f5fb09da678b"
+    },
+    {
+      "id": "ct37-holly-falcone-2-1",
+      "file": "arkham-city-easter-eggs/ct37-holly-falcone-2-1.webp",
+      "timestamp": 552.25,
+      "caption": "“罗马人”的姓氏",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "95454cb448c3b0323b0d22820502e0befb3a36b0fa96418fe3ae4fdc3c676975"
+    },
+    {
+      "id": "ct37-holly-falcone-2-2",
+      "file": "arkham-city-easter-eggs/ct37-holly-falcone-2-2.webp",
+      "timestamp": 560.25,
+      "caption": "“罗马人”的姓氏",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "72c2f03daa870a5bb633b6afca87431078738090f522016c261068d3d6c99fc1"
+    },
+    {
+      "id": "ct37-long-halloween-court-1-1",
+      "file": "arkham-city-easter-eggs/ct37-long-halloween-court-1-1.webp",
+      "timestamp": 600.25,
+      "caption": "隔着玻璃的日历人",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "feab151014bf1224da1792f7ee212a9977142be590e41df1d47f10b45668cf92"
+    },
+    {
+      "id": "ct37-long-halloween-court-1-2",
+      "file": "arkham-city-easter-eggs/ct37-long-halloween-court-1-2.webp",
+      "timestamp": 696.25,
+      "caption": "隔着玻璃的日历人",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a0afcddb22390bf8f2c0a0726310f11318a554ac56f5f17e67a4703bf04b998f"
+    },
+    {
+      "id": "ct37-long-halloween-court-2-1",
+      "file": "arkham-city-easter-eggs/ct37-long-halloween-court-2-1.webp",
+      "timestamp": 648.25,
+      "caption": "马罗尼留在餐馆招牌上",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a22e5dd8b0bdb776b70560681203fafe67823e229642a366b8b2be7abab20e49"
+    },
+    {
+      "id": "ct37-two-face-white-knight-1-1",
+      "file": "arkham-city-easter-eggs/ct37-two-face-white-knight-1-1.webp",
+      "timestamp": 744.25,
+      "caption": "一枚硬币之前",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d3365823e88d7591c86ac7a3919a5b69d05c5de96a6fbd9590871dab858d6ba6"
+    },
+    {
+      "id": "ct37-two-face-white-knight-1-2",
+      "file": "arkham-city-easter-eggs/ct37-two-face-white-knight-1-2.webp",
+      "timestamp": 792.25,
+      "caption": "一枚硬币之前",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b22c5823f31f4a3b9dbc1a89cc08b02ca8da4631c34cda69600793971d79c4f7"
+    },
+    {
+      "id": "ct37-freak-show-poster-1-1",
+      "file": "arkham-city-easter-eggs/ct37-freak-show-poster-1-1.webp",
+      "timestamp": 840.25,
+      "caption": "先把广告的句子读完",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b32563de0937013766359729ca00bb635d7e53ecaee23212871981c88e504ddf"
+    },
+    {
+      "id": "ct37-no-mans-land-1-1",
+      "file": "arkham-city-easter-eggs/ct37-no-mans-land-1-1.webp",
+      "timestamp": 1032.25,
+      "caption": "地震之后的哥谭",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "389bec796a28bb47a48e64284838cd1d83a8dd2c59313ffd823a74ff0686740d"
+    },
+    {
+      "id": "ct37-batman-1989-1-1",
+      "file": "arkham-city-easter-eggs/ct37-batman-1989-1-1.webp",
+      "timestamp": 1056.25,
+      "caption": "双面人也需要右手",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "83eee303a6c18a4d46899db7f3d7defc998e11236e769f9f050acea003afd19a"
+    },
+    {
+      "id": "ct37-batman-1989-2-1",
+      "file": "arkham-city-easter-eggs/ct37-batman-1989-2-1.webp",
+      "timestamp": 1104.25,
+      "caption": "把薇姬从包围中带走",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b29f734cfdd1c75dc41ac9e4ed27f1739d4e67bb514ec095edfbf031cdb913b4"
+    },
+    {
+      "id": "ct37-batman-1989-2-2",
+      "file": "arkham-city-easter-eggs/ct37-batman-1989-2-2.webp",
+      "timestamp": 1152.25,
+      "caption": "把薇姬从包围中带走",
+      "source": "batman-arkham-videos-city-37",
+      "width": 1600,
+      "height": 900,
+      "sha256": "71db9aac71d5efc91aa792749a19105d92d928970a32ab46f59a31a3a3f1f7bd"
+    },
+    {
+      "id": "ct38-laughing-fish-1-1",
+      "file": "arkham-city-easter-eggs/ct38-laughing-fish-1-1.webp",
+      "timestamp": 48.25,
+      "caption": "把犯罪工具当收藏",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6f3ff9ffe64bcdeafcf211c2d37239f72c7fb73a9888848d426ba974e5d9200a"
+    },
+    {
+      "id": "ct38-jezebel-center-1-1",
+      "file": "arkham-city-easter-eggs/ct38-jezebel-center-1-1.webp",
+      "timestamp": 108.35,
+      "caption": "把人名藏进建筑名称",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a794c8c8d0df6327bfa460f3b75e62b0d1d48fb5f52cc4feafb03a188733801a"
+    },
+    {
+      "id": "ct38-jezebel-center-1-2",
+      "file": "arkham-city-easter-eggs/ct38-jezebel-center-1-2.webp",
+      "timestamp": 112.35,
+      "caption": "把人名藏进建筑名称",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "622b5f96181d3202c3d16cb25110b389817757f27359a15be51eb4d84fc0f93c"
+    },
+    {
+      "id": "ct38-azrael-symbols-1-1",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-1-1.webp",
+      "timestamp": 192.25,
+      "caption": "四个观察点与最后会面",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "cb92799592dfa59b329c37226b4982dcfa2b374dd7a825d0605889a93bd49c13"
+    },
+    {
+      "id": "ct38-azrael-symbols-1-2",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-1-2.webp",
+      "timestamp": 216.25,
+      "caption": "四个观察点与最后会面",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "eb1bdac9d00a0d4962e9243c05437345dc102b4af18a9bbcaab9f2f35d5c3362"
+    },
+    {
+      "id": "ct38-azrael-symbols-1-3",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-1-3.webp",
+      "timestamp": 264.25,
+      "caption": "四个观察点与最后会面",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "71ea7b2560708e1398d2d3973e449d64ff5d9e4264b2aece6c3a42d4985912e4"
+    },
+    {
+      "id": "ct38-azrael-symbols-2-1",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-2-1.webp",
+      "timestamp": 292.25,
+      "caption": "教堂墙面与地图纹样",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "552f841116eb21cc322040606aa7cbc58c4303960819319a0447f2146a8b2d47"
+    },
+    {
+      "id": "ct38-azrael-symbols-2-2",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-2-2.webp",
+      "timestamp": 312.25,
+      "caption": "教堂墙面与地图纹样",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a7031aa88c6a4f6b99c25ce9d0910c7b4b92f40db99bbd2ce34fb420fa7bda5c"
+    },
+    {
+      "id": "ct38-azrael-symbols-2-3",
+      "file": "arkham-city-easter-eggs/ct38-azrael-symbols-2-3.webp",
+      "timestamp": 432.25,
+      "caption": "教堂墙面与地图纹样",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "cc9f959d641da9ce6d0e24d8280fc8c596a6dce8c369853a649ddd30a9cc954a"
+    },
+    {
+      "id": "ct38-amanda-texture-1-1",
+      "file": "arkham-city-easter-eggs/ct38-amanda-texture-1-1.webp",
+      "timestamp": 336.25,
+      "caption": "比预言更日常的句子",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6c8dfd71b3805369b83e7d1aa57034b0d829df0f95ed6df5c4fd07feabe27f59"
+    },
+    {
+      "id": "ct38-amanda-texture-1-2",
+      "file": "arkham-city-easter-eggs/ct38-amanda-texture-1-2.webp",
+      "timestamp": 384.25,
+      "caption": "比预言更日常的句子",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0f1b8b4a5af76ce992343127289c9f92fc6a4cf1489a0439757a63ebdaa01d8a"
+    },
+    {
+      "id": "ct38-end-game-comic-1-1",
+      "file": "arkham-city-easter-eggs/ct38-end-game-comic-1-1.webp",
+      "timestamp": 456.25,
+      "caption": "哈莉重复医生的解释",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "650a05dc079a07e6715822ec422afda089fe51cdae6d37022646f57bf7cd7113"
+    },
+    {
+      "id": "ct38-end-game-comic-1-2",
+      "file": "arkham-city-easter-eggs/ct38-end-game-comic-1-2.webp",
+      "timestamp": 480.25,
+      "caption": "哈莉重复医生的解释",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b36f3c2504666e18f481049a6b899f25caf172c01fbc4f0c6e3c5c90be289ca1"
+    },
+    {
+      "id": "ct38-end-game-comic-2-1",
+      "file": "arkham-city-easter-eggs/ct38-end-game-comic-2-1.webp",
+      "timestamp": 504.25,
+      "caption": "戈登说的“另一件事”",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "682a127171e43b559a67dc39e170216afc3769ce12dc97d32ac6cf53c6b7acab"
+    },
+    {
+      "id": "ct38-moth-display-1-1",
+      "file": "arkham-city-easter-eggs/ct38-moth-display-1-1.webp",
+      "timestamp": 528.25,
+      "caption": "先看柜子的尺度",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6d83e0318412ff4def984afb21c1293dc1fe56df8290324d054fd0df6c88e207"
+    },
+    {
+      "id": "ct38-moth-display-1-2",
+      "file": "arkham-city-easter-eggs/ct38-moth-display-1-2.webp",
+      "timestamp": 536.25,
+      "caption": "先看柜子的尺度",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3b7e5f78de72906e0088c094fdc952f98456bc61e476cdb2ed1b58f4672cc229"
+    },
+    {
+      "id": "ct38-toyman-1-1",
+      "file": "arkham-city-easter-eggs/ct38-toyman-1-1.webp",
+      "timestamp": 560.25,
+      "caption": "战利品该卖给懂行的人",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5a41cef5dcee4f103ced8b0cac19b1bf7df7f36b2844f9a10b8230b5b0c3016a"
+    },
+    {
+      "id": "ct38-sarah-password-1-1",
+      "file": "arkham-city-easter-eggs/ct38-sarah-password-1-1.webp",
+      "timestamp": 600.25,
+      "caption": "琼斯证明自己是谁",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "104e20a55d0ff3e61ebd0dcc32418a1a737ab9e858e80d23e5e6d8f3970754c8"
+    },
+    {
+      "id": "ct38-sarah-password-1-2",
+      "file": "arkham-city-easter-eggs/ct38-sarah-password-1-2.webp",
+      "timestamp": 612.25,
+      "caption": "琼斯证明自己是谁",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7f85d884259cb3fe001e3af6bafe4b95e0e01e5871982e6ea64e1f22e3490ce9"
+    },
+    {
+      "id": "ct38-the-terror-1-1",
+      "file": "arkham-city-easter-eggs/ct38-the-terror-1-1.webp",
+      "timestamp": 644.25,
+      "caption": "明星的名字还在海报上",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "883315184813dd246cb073e9eae54d6870299548dba6d4c4d09b2b45d7cc1714"
+    },
+    {
+      "id": "ct38-the-terror-1-2",
+      "file": "arkham-city-easter-eggs/ct38-the-terror-1-2.webp",
+      "timestamp": 648.25,
+      "caption": "明星的名字还在海报上",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9baa64a47d596b39ec4e667529825d0d80c96a2a4109d936763cdf285e2cf110"
+    },
+    {
+      "id": "ct38-church-bell-1-1",
+      "file": "arkham-city-easter-eggs/ct38-church-bell-1-1.webp",
+      "timestamp": 672.25,
+      "caption": "1922 年 4 月 1 日",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b305a1b4923b942fa1795b06b965499f71de413196c9e2505549f7ed25f1923b"
+    },
+    {
+      "id": "ct38-church-bell-1-2",
+      "file": "arkham-city-easter-eggs/ct38-church-bell-1-2.webp",
+      "timestamp": 720.25,
+      "caption": "1922 年 4 月 1 日",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d289ae9c614947d03a005e434e5a985d3b8673bc613d0bb4023b64ca17e7522c"
+    },
+    {
+      "id": "ct38-gbs-trailer-1-1",
+      "file": "arkham-city-easter-eggs/ct38-gbs-trailer-1-1.webp",
+      "timestamp": 768.25,
+      "caption": "从广播公司到楼顶空位",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c86d4895d0ba510c91bf517e0638aba567926990a62fad1ce8726be705dde00e"
+    },
+    {
+      "id": "ct38-gbs-trailer-1-2",
+      "file": "arkham-city-easter-eggs/ct38-gbs-trailer-1-2.webp",
+      "timestamp": 792.25,
+      "caption": "从广播公司到楼顶空位",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "df77400be3ff226041a742e40ce2ddcaf86fe7ad0ca41b9db0c84c12cda3748c"
+    },
+    {
+      "id": "ct38-wonder-stores-1-1",
+      "file": "arkham-city-easter-eggs/ct38-wonder-stores-1-1.webp",
+      "timestamp": 812.4,
+      "caption": "Royal Flush Tobacco",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "84ba506556957f6edba3acf0a1a3521cc70e67a9aef89696bc5a094dfa30c209"
+    },
+    {
+      "id": "ct38-wonder-stores-2-1",
+      "file": "arkham-city-easter-eggs/ct38-wonder-stores-2-1.webp",
+      "timestamp": 832.25,
+      "caption": "书店与药房里的姓名",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9dc89a61c6206e0134e4c17fdd5f9e38d4a3476497cfad1fa4c7c6927d6c62e0"
+    },
+    {
+      "id": "ct38-wonder-stores-2-2",
+      "file": "arkham-city-easter-eggs/ct38-wonder-stores-2-2.webp",
+      "timestamp": 852.25,
+      "caption": "书店与药房里的姓名",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "81a27109804f26e5e50260ed93255fe79dafbd7b2812b64f5856921f3a6a28b8"
+    },
+    {
+      "id": "ct38-gentleman-ghost-1-1",
+      "file": "arkham-city-easter-eggs/ct38-gentleman-ghost-1-1.webp",
+      "timestamp": 936.25,
+      "caption": "Gentlemen’s Hats & Accessories",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "99721f74faf848f6d78bfed09ae2bc062b9b34263f3e27c3f9698052a71a5ba6"
+    },
+    {
+      "id": "ct38-gentleman-ghost-1-2",
+      "file": "arkham-city-easter-eggs/ct38-gentleman-ghost-1-2.webp",
+      "timestamp": 960.25,
+      "caption": "Gentlemen’s Hats & Accessories",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3f42d7e866890427156c62f8f865b594570155275c9ce739b50f7b4a2a3924c2"
+    },
+    {
+      "id": "ct38-asylum-cctv-1-1",
+      "file": "arkham-city-easter-eggs/ct38-asylum-cctv-1-1.webp",
+      "timestamp": 984.25,
+      "caption": "另一个地方的监视图像",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "240bc891214dd9986de9316899db6085c345ea695aeb83bf6591e1829cb7d018"
+    },
+    {
+      "id": "ct38-hush-lullaby-1-1",
+      "file": "arkham-city-easter-eggs/ct38-hush-lullaby-1-1.webp",
+      "timestamp": 1008.25,
+      "caption": "Hush 也是一个动词",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "33ba3c3377ceb0fc39df9af2e4fa65b7e56d1ad8f6ea4df2e5043d9cf257f8a7"
+    },
+    {
+      "id": "ct38-bud-lou-1-1",
+      "file": "arkham-city-easter-eggs/ct38-bud-lou-1-1.webp",
+      "timestamp": 1144.25,
+      "caption": "宠物成为收藏",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7732312aac58665ef21fa4d789e0ba1772fccdf1805d72beca29e72cce9459e1"
+    },
+    {
+      "id": "ct38-bud-lou-1-2",
+      "file": "arkham-city-easter-eggs/ct38-bud-lou-1-2.webp",
+      "timestamp": 1152.25,
+      "caption": "宠物成为收藏",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "30e8b99ac8a22dab385886c1470b5e3fed57ef6cb8dd375885468cdfb4d30c4f"
+    },
+    {
+      "id": "ct38-gcpd-boat-model-1-1",
+      "file": "arkham-city-easter-eggs/ct38-gcpd-boat-model-1-1.webp",
+      "timestamp": 1208.4,
+      "caption": "把一段航程缩进橱窗",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d3ffdd72e152637554914d988b8f6e899fa6a80dff822ece9513dd32c4b8dc35"
+    },
+    {
+      "id": "ct38-gcpd-boat-model-1-2",
+      "file": "arkham-city-easter-eggs/ct38-gcpd-boat-model-1-2.webp",
+      "timestamp": 1224.25,
+      "caption": "把一段航程缩进橱窗",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "96014cb1f834a976d1834e77879e943523d885cd9373d4b756f135971ded2d72"
+    },
+    {
+      "id": "ct38-gcpd-boat-model-1-3",
+      "file": "arkham-city-easter-eggs/ct38-gcpd-boat-model-1-3.webp",
+      "timestamp": 1248.25,
+      "caption": "把一段航程缩进橱窗",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d44e7058abc2a6df671e8ac17839ed282ff9ce834e89298f19b5c9397aa0ceb4"
+    },
+    {
+      "id": "ct38-batman-sixties-1-1",
+      "file": "arkham-city-easter-eggs/ct38-batman-sixties-1-1.webp",
+      "timestamp": 1296.25,
+      "caption": "偷一条鲨鱼来难倒他",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3ac7c0e8c38b3b066440c37804e2d1d68914236eaa7ebd56d527e7da739efa51"
+    },
+    {
+      "id": "ct38-batman-sixties-1-2",
+      "file": "arkham-city-easter-eggs/ct38-batman-sixties-1-2.webp",
+      "timestamp": 1320.25,
+      "caption": "偷一条鲨鱼来难倒他",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "517db0a8dcd06b6748d8506034e34333bbc6acc4b778eacc4f0b38adaed14576"
+    },
+    {
+      "id": "ct38-batman-sixties-2-1",
+      "file": "arkham-city-easter-eggs/ct38-batman-sixties-2-1.webp",
+      "timestamp": 1344.25,
+      "caption": "连敌人也会哼主题旋律",
+      "source": "batman-arkham-videos-city-38",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bdc00cbd7a7daea089e6ad2a83120e588d1353a1c4531615912476915b592620"
+    },
+    {
+      "id": "ct39-calendar-extra-date-1-1",
+      "file": "arkham-city-easter-eggs/ct39-calendar-extra-date-1-1.webp",
+      "timestamp": 72.25,
+      "caption": "2004 年 12 月 13 日",
+      "source": "batman-arkham-videos-city-39",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0e3ed2cc4235bbfb50849be306618ec9c600c52ded7ebca9e0d559dc8297f63e"
+    },
+    {
+      "id": "ct39-calendar-extra-date-1-2",
+      "file": "arkham-city-easter-eggs/ct39-calendar-extra-date-1-2.webp",
+      "timestamp": 104.25,
+      "caption": "2004 年 12 月 13 日",
+      "source": "batman-arkham-videos-city-39",
+      "width": 1600,
+      "height": 900,
+      "sha256": "1034be78766362556dfc7b8eb3fdc9fcc95c8ef491d2e296c169e49686197408"
+    },
+    {
+      "id": "ct39-calendar-extra-date-2-1",
+      "file": "arkham-city-easter-eggs/ct39-calendar-extra-date-2-1.webp",
+      "timestamp": 120.25,
+      "caption": "从最初作品说到终结",
+      "source": "batman-arkham-videos-city-39",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b697ea264371fee1d485446a19256fa174f2ac890d580717beecf737dbb32946"
+    },
+    {
+      "id": "ct39-calendar-extra-date-2-2",
+      "file": "arkham-city-easter-eggs/ct39-calendar-extra-date-2-2.webp",
+      "timestamp": 136.25,
+      "caption": "从最初作品说到终结",
+      "source": "batman-arkham-videos-city-39",
+      "width": 1600,
+      "height": 900,
+      "sha256": "a1621a550b008eeac8a72a464ee7c0da22e0a5e31b4c579e2c75fdb50fae44df"
+    },
+    {
+      "id": "ct39-calendar-extra-date-2-3",
+      "file": "arkham-city-easter-eggs/ct39-calendar-extra-date-2-3.webp",
+      "timestamp": 152.25,
+      "caption": "从最初作品说到终结",
+      "source": "batman-arkham-videos-city-39",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fbc443165bd13da8754d21ad4b7d2677f7ea5b46f8d8b8185e30c553879d9f8a"
+    }
+  ]
+}
