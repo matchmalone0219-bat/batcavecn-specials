@@ -93,7 +93,7 @@ def build_arkham_archive(data,shell):
         record(i['title'],i['body'],base,i['id'],['档案注释'])
         return f'<article class="dossier-entry" id="{i["id"]}"><p class="label">档案注释</p><h2>{esc(i["title"])}</h2><p>{esc(i["body"])}</p>'+''.join(picture(id) for id in i['images'])+f'</article>'
 
-    hub_title,hub_intro='哥谭档案馆','查看场景彩蛋、阅读游戏内背景故事，或进入终端收听录音、重建案件。'
+    hub_title,hub_intro='哥谭档案馆','收录全系列场景彩蛋、背景故事与录音档案。'
     cases,patient_total,transmission_total=record_totals();riddle_total=len(riddles['riddles'])
     # (href, icon, title, english, summary, record key, record label, record total)
     terminals=[('/arkham/detective/','evidence','案件重建','DETECTIVE MODE','扫描现场物证，沿物证链推演案情始末与嫌犯背景。','cases','案件重建 · 已完成',len(cases)),
@@ -131,7 +131,7 @@ def build_arkham_archive(data,shell):
     rows=''.join(f'<p class="pause-group">{label}</p><ol class="pause-rows">'+''.join(f'<li><a href="{h}">{token(ic)}<span><strong>{esc(t)}</strong><small>{esc(d)}</small></span>{count(k,kl,kt)}</a></li>' for h,ic,t,en,d,k,kl,kt in g)+'</ol>' for label,g in groups)
     opening=(f'''<section class="section archive-pause" data-protocol-record data-cases='{esc(json.dumps(cases))}'>'''
              f'<div class="pause-head"><div class="pause-title"><p class="game-eyebrow">{token(ROOM_ICONS[""])}GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(hub_title)}</h1><p class="lead">{esc(hub_intro)}</p></div>'
-             f'<details class="pause-brief"><summary>档案导言</summary><h2>一张海报，<br>一段哥谭往事。</h2><p>墙后的城市蓝图、格雷森家族的演出海报、钟楼保存的旧战衣：场景细节留下人物线索，游戏中的背景短篇补充他们的经历。也可以从谜语人考据、院史录音与漫画书目继续阅读。</p><p class="fine">20个考据专题 · {len(reading["scenes"])+len(reading["easterEggs"]["entries"])}处场景与彩蛋 · {len(archive["stories"])}篇哥谭故事导读 · 10部关联文献。</p></details></div>'
+             f'<details class="pause-brief"><summary>档案导言</summary><h2>一张海报，<br>一段哥谭往事。</h2><p>一张马戏团演出海报、一幅藏在墙后的城市蓝图，或是一套封存在钟楼里的旧战衣——场景中的细节留下了人物过往的线索，也补充着主线之外的哥谭历史。</p><p class="fine">20个考据专题 · {len(reading["scenes"])+len(reading["easterEggs"]["entries"])}处场景与彩蛋 · {len(archive["stories"])}篇哥谭故事导读 · 10部关联文献。</p></details></div>'
              f'<div class="recent-object" data-recent-object hidden><a data-recent-link href="/arkham/archive/">{token("record")}<span><small>继续上次浏览</small><strong data-recent-title></strong></span></a></div><script type="application/json" data-recent-index>{recent_payload}</script>'
              f'<div class="game-browser pause-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side">{side}</div><div class="browser-preview">{panels}</div></div>'
              f'<div class="pause-fallback" data-browser-fallback>{rows}</div>'

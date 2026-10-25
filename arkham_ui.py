@@ -20,16 +20,16 @@ def arkham_menu_background():
 
 def arkham_menu(heading="h1"):
     entries = [
-        ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "games"),
-        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "案件重建 · 患者终端 · 场景与创作档案", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "dossiers"),
-        ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊 · 游戏作品与表演档案", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "voice"),
-        ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "人偶 · 战衣版本 · 雕像与游戏衍生收藏", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "collectibles"),
-        ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "八部游戏与研究图片", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "gallery"),
-        ("搜索档案", "SEARCH", "/arkham/search/", "检索阿卡姆作品、人物、物件与主题", "arkham-origins-blackgate-01.jpg", "《阿卡姆起源：黑门》官方商店截图 · 豪华版（2014）", "search"),
-        ("资料来源", "SOURCE NOTES", "/arkham/sources/", "作品资料 · 主创访谈 · 版本书目", "suicide-squad-kill-the-justice-league-01.jpg", "《自杀小队：消灭正义联盟》官方商店截图", "sources"),
+        ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "收录正传、掌机与衍生作品，整理发行沿革与故事背景", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "games"),
+        ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "汇集全系列场景彩蛋、院内录音档案与背景故事考据", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "dossiers"),
+        ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊专题特稿：三十载声音历程与表演纪事", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "voice"),
+        ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "历代官方可动人偶、雕像与载具周边的实体图鉴", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "collectibles"),
+        ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "历代游戏实机截图、原画与官方主视觉影像归档", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "gallery"),
+        ("搜索档案", "SEARCH", "/arkham/search/", "跨作品检索角色、案卷、场景线索与主创资料", "arkham-origins-blackgate-01.jpg", "《阿卡姆起源：黑门》官方商店截图 · 豪华版（2014）", "search"),
+        ("资料来源", "SOURCE NOTES", "/arkham/sources/", "官方发行通告、主创访谈实录与考证文献索引", "suicide-squad-kill-the-justice-league-01.jpg", "《自杀小队：消灭正义联盟》官方商店截图", "sources"),
     ]
     tiles = "".join(f'<a class="menu-tile" href="{url}" data-title="{esc(title)}" data-description="{esc(desc)}" data-image="/assets/media/{image}" data-caption="{esc(caption)}">{arkham_icon(icon, cls="menu-icon")}<span>{esc(title)}</span><small>{english}</small></a>' for title, english, url, desc, image, caption, icon in entries)
-    return f'<div class="game-menu game-menu-console"><div class="menu-selection"><p class="game-eyebrow">BATCAVECN // PROTOCOL ARKHAM</p><p class="menu-brand">阿卡姆协议<span>PROTOCOL ARKHAM</span></p><nav class="menu-grid" aria-label="档案主菜单">{tiles}</nav><div class="game-controls"><a href="/arkham/?opening=1"><kbd>Esc</kbd> 返回启动画面</a><span class="keyboard-hint"><kbd>↵</kbd> 进入 · ↑ ↓ 选择</span></div></div><div class="menu-preview"><p class="game-eyebrow">ARCHIVE SELECT</p><{heading} id="menu-title">作品档案</{heading}><p id="menu-description" aria-live="polite">八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会</p><p class="menu-preview-note">作品 · 人物 · 现场机要档案</p></div></div><div class="menu-background-tools"><button id="menu-background-toggle" type="button" aria-pressed="true" hidden>背景轮播：开</button></div>'
+    return f'<div class="game-menu game-menu-console"><div class="menu-selection"><p class="game-eyebrow">BATCAVECN // PROTOCOL ARKHAM</p><p class="menu-brand">阿卡姆协议<span>PROTOCOL ARKHAM</span></p><nav class="menu-grid" aria-label="档案主菜单">{tiles}</nav><div class="game-controls"><a href="/arkham/?opening=1"><kbd>Esc</kbd> 返回启动画面</a><span class="keyboard-hint"><kbd>↵</kbd> 进入 · ↑ ↓ 选择</span></div></div><div class="menu-preview"><p class="game-eyebrow">ARCHIVE SELECT</p><{heading} id="menu-title">作品档案</{heading}><p id="menu-description" aria-live="polite">收录正传、掌机与衍生作品，整理发行沿革与故事背景</p><p class="menu-preview-note">作品 · 人物 · 现场机要档案</p></div></div><div class="menu-background-tools"><button id="menu-background-toggle" type="button" aria-pressed="true" hidden>背景轮播：开</button></div>'
 
 
 def arkham_catalog(data):

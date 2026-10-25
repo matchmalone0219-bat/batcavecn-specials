@@ -24,13 +24,13 @@ async function searchPage() {
     const render = () => {
       const terms = query.value.trim().toLocaleLowerCase().split(/\s+/u).filter(Boolean);
       results.replaceChildren();
-      if (!terms.length) { count.textContent = "输入集名、作品名、人物或主题，开始检索。"; return; }
+      if (!terms.length) { count.textContent = "输入作品、角色或事件关键词开始检索。"; return; }
       const found = index.filter(item =>
         (site ? [site, "shared"].includes(item.site) : (scope.value === "all" || item.site === scope.value || item.site === "shared")) &&
         (!site || !item.scopedUrls || item.scopedUrls[site]) &&
         terms.every(term => [item.title, item.original, item.summary, ...item.tags].join(" ").toLocaleLowerCase().includes(term))
       );
-      count.textContent = found.length ? `找到 ${found.length} 条记录 · 点击结果阅读档案或定位目录。` : "没有找到对应记录。可以换一个集名、作品名、人物或主题。";
+      count.textContent = found.length ? `找到 ${found.length} 条相关记录 · 点击可直接查看。` : "未找到匹配记录，可尝试更换关键词。";
       for (const item of found) {
         const card = make("a", undefined, "route-card");
         const scopedConroy = { arkham: "/arkham/people/kevin-conroy/", tas: "/tas/people/kevin-conroy/" }[site];
@@ -374,15 +374,15 @@ function riddleChallenge() {
     function markSolved() {
       form.classList.add('is-solved'); link.hidden = false;
       input.disabled = true; form.querySelector('button').disabled = true;
-      status.textContent = '答对了。';
+      status.textContent = '回答正确，线索已解锁。';
     }
     if (solved.has(form.dataset.riddle)) markSolved();
     form.addEventListener('submit', async event => {
       event.preventDefault();
-      if (!normalise(input.value)) { status.textContent = '先写下你的答案。'; return; }
+      if (!normalise(input.value)) { status.textContent = '请先输入你的答案。'; return; }
       const hash = await digest(input.value);
       if (form.dataset.hashes.split(' ').includes(hash)) { protocolRecord.solve(form.dataset.riddle); markSolved(); }
-      else { status.textContent = '不对。再看看下面的考据。'; input.select(); }
+      else { status.textContent = '答案并不正确，可参考下方场景细节重新推导。'; input.select(); }
     });
   });
   section.hidden = false;
