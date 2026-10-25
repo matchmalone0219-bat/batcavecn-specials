@@ -59,5 +59,47 @@ function harness() {
   for (const path of ['/arkham/catalog/','/arkham/archive/','/arkham/people/kevin-conroy/','/arkham/collectibles/','/arkham/gallery/','/arkham/search/','/arkham/sources/']) {
     const menu=harness(); assert.equal(menu.click(path),true,path); assert.ok(menu.callbacks,path);
   }
-  console.log('PASS: failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, seven menu entries and native in-page reading links');
+  // A page with its own stylesheet gets it before the swap; a page with extra scripts falls back to a real load.
+  async function swap({styles=[], scripts=[], failStyle=false}) {
+    const visited = [], scheduled = [], appended = [], removed = [];
+    let callbacks, swapped = false;
+    const el = (props={}) => ({...props, remove() { removed.push(props.href); }, replaceWith() {}, setAttribute() {}, focus() {}, scrollIntoView() {}});
+    const headLinks = ['style.css','arkham.css'].map(name => ({...el({href:`http://127.0.0.1:8765/assets/${name}`}), getAttribute:()=>`/assets/${name}`}));
+    const document = {
+      body:{classList:{contains:()=>true}, replaceChildren() { swapped = true; }},
+      head:{querySelectorAll:()=>headLinks, append(link) { appended.push(link.href); setTimeout0(() => failStyle ? link.onerror() : link.onload()); }},
+      addEventListener(type, fn) { handlers[type] = fn; },
+      querySelector: () => el(), querySelectorAll: selector => selector === 'script[src]' ? [{src:'http://127.0.0.1:8765/assets/app.js'}] : [],
+      createElement: () => ({}), createDocumentFragment: () => ({append() {}, querySelector: () => el()}), importNode: node => node,
+    };
+    const handlers = {};
+    const setTimeout0 = fn => Promise.resolve().then(fn);
+    const page = {
+      title:'t', head:{querySelectorAll:()=>[...headLinks, ...styles.map(name => ({getAttribute:()=>`/assets/${name}`}))]},
+      body:{className:'arkham', classList:{contains:()=>true}, querySelectorAll:()=>[], childNodes:[]},
+      querySelectorAll:()=>['/assets/app.js', ...scripts].map(src => ({getAttribute:()=>src})),
+    };
+    const location = {origin:'http://127.0.0.1:8765', pathname:'/arkham/menu/', search:'', href:'http://127.0.0.1:8765/arkham/menu/', assign:url=>visited.push(url)};
+    vm.runInNewContext(source, {document, location, URL, AbortController, Promise, Error,
+      window:{ArkhamTransition:{busy:false, play(value) { callbacks = value; }}, addEventListener() {}, scrollTo() {}},
+      history:{pushState() {}}, Event:class {}, DOMParser:class { parseFromString() { return page; } },
+      fetch: async () => ({ok:true, text: async () => ''}),
+      setTimeout(fn, delay) { scheduled.push({fn,delay}); return scheduled.length; }, clearTimeout() {},
+    });
+    document.dispatchEvent = () => {};
+    const link = {href:'http://127.0.0.1:8765/arkham/people/kevin-conroy/',target:'',classList:{contains:()=>false},hasAttribute:()=>false,matches:()=>true};
+    handlers.click({button:0,target:{closest:()=>link},preventDefault() {}});
+    await callbacks.onCovered();
+    callbacks.onFinished();
+    scheduled.filter(t => t.delay === 150).forEach(t => t.fn());
+    return {visited, appended, swapped};
+  }
+  const styled = await swap({styles:['conroy-profile.css']});
+  assert.deepEqual(styled.appended, ['http://127.0.0.1:8765/assets/conroy-profile.css'], 'Page stylesheet must be added before the swap');
+  assert.equal(styled.swapped, true); assert.deepEqual(styled.visited, []);
+  const scripted = await swap({scripts:['/assets/arkham-investigation.js']});
+  assert.equal(scripted.swapped, false); assert.equal(scripted.visited.length, 1, 'Pages needing other scripts must load natively');
+  const broken = await swap({styles:['missing.css'], failStyle:true});
+  assert.equal(broken.swapped, false); assert.equal(broken.visited.length, 1, 'A stylesheet that fails must fall back to a real load');
+  console.log('PASS: page stylesheets before swap, script and stylesheet fallbacks, failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, seven menu entries and native in-page reading links');
 })().catch(error => {console.error(error);process.exitCode=1;});

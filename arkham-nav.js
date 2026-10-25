@@ -15,6 +15,24 @@
     }
     return cached.get(url);
   }
+  // The swap replaces <body> only, so the new page's own stylesheets are loaded first.
+  function syncHead(page) {
+    const absolute = value => new URL(value, location.href).href;
+    const loaded = new Set([...document.querySelectorAll('script[src]')].map(script => script.src));
+    if ([...page.querySelectorAll('script[src]')].some(script => !loaded.has(absolute(script.getAttribute('src'))))) throw new Error('scripts');
+    const wanted = [...page.head.querySelectorAll('link[rel="stylesheet"]')].map(link => absolute(link.getAttribute('href')));
+    const current = [...document.head.querySelectorAll('link[rel="stylesheet"]')];
+    const added = wanted.filter(href => !current.some(link => link.href === href)).map(href => {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      const ready = new Promise((resolve, reject) => { link.onload = resolve; link.onerror = reject; });
+      link.href = href;
+      document.head.append(link);
+      return ready;
+    });
+    const timeout = new Promise((resolve, reject) => setTimeout(() => reject(new Error('styles')), 5000));
+    return {ready: Promise.race([Promise.all(added), timeout]), stale: current.filter(link => !wanted.includes(link.href))};
+  }
   function eligible(link) {
     if (transition.quick) return false;
     if (!link || !link.matches('.menu-grid .menu-tile') || link.target || link.hasAttribute('download') || link.classList.contains('intro-entry')) return false;
@@ -44,6 +62,8 @@
         try {
           const page = new DOMParser().parseFromString(await request, 'text/html');
           if (!page.body.classList.contains('arkham')) throw new Error('scope');
+          const head = syncHead(page);
+          await head.ready;
           page.body.querySelectorAll('script').forEach(script => script.remove());
           const content = document.createDocumentFragment();
           page.body.childNodes.forEach(node => content.append(document.importNode(node, true)));
@@ -53,6 +73,7 @@
           document.querySelectorAll('video').forEach(video => video.pause());
           document.body.className = page.body.className + ' arkham-transitioning';
           document.body.replaceChildren(content);
+          head.stale.forEach(link => link.remove());
           cached.delete(url.href);
           document.title = page.title;
           history.pushState({}, '', url.pathname + url.search + url.hash);

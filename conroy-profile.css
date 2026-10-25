@@ -316,3 +316,6 @@
  .profile-episode-directory>summary{font-size:12px}
  .profile-episode-list{grid-template-columns:1fr;gap:0}
 }
+/* Protocol Arkham view: small labels kept at 4.5:1 or above. */
+.arkham .conroy-reading .profile-chapter-voice .profile-voice-pair p{color:#6e5a40}
+.arkham .profile-contents a>span{opacity:.85}

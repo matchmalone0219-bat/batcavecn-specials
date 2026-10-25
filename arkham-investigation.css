@@ -64,7 +64,7 @@
 .arkham-investigation .patient-file .console-bar{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid #2a4045}
 .console-case-track{display:flex;align-items:center;gap:10px}
 .case-badge{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.14em;color:#cdded9}
-.dept-badge{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.12em;color:#6a7578;border-left:1px solid #2c373a;padding-left:10px}
+.dept-badge{font-family:ui-monospace,monospace;font-size:9px;letter-spacing:.12em;color:#849193;border-left:1px solid #2c373a;padding-left:10px}
 .arkham-investigation .patient-file .security-level{color:#cdded9;font-size:9px;letter-spacing:.16em;font-family:ui-monospace,monospace}
 
 /* Patient Identity, Barcode & Stencil Badge */
@@ -117,7 +117,7 @@
 .tape-deck-brand{color:#cdded9;font-weight:700}
 .deck-specs{display:flex;align-items:center;gap:10px}
 .tape-deck-speed{color:#cdded9}
-.tape-deck-serial{color:#566062}
+.tape-deck-serial{color:#849193}
 
 /* Dual Large Precision Spools & Mechanical Bridge */
 .arkham-investigation .tape-reels{display:flex;justify-content:space-between;align-items:center;padding:16px 12px;background:radial-gradient(ellipse at 50% 30%,#0c1c1e 0%,#071113 100%);border:1px solid #14272a;border-radius:4px;box-shadow:inset 0 4px 16px #000;position:relative}

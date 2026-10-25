@@ -10,6 +10,8 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parent
 LOCAL_URL = re.compile(r'(?<![\w:/])/(?:arkham|tas|people|voices|crossover|assets|content|editor)(?=/)')
 
+EDIT_LINK = '<a href="/editor/" data-local-edit hidden>编辑文案</a>'
+
 
 class PageLinks(HTMLParser):
     def __init__(self):
@@ -30,15 +32,19 @@ def prepare(base_path):
     if target.exists():
         shutil.rmtree(target)
     shutil.copytree(source, target)
+    # The text editor only works with serve.py on this machine; it is not published.
+    shutil.rmtree(target / 'editor', ignore_errors=True)
     for file in target.rglob('*'):
         if file.is_file() and file.suffix in ('.html', '.js', '.css', '.json'):
             text = file.read_text()
+            text = text.replace(EDIT_LINK, '')
             text = LOCAL_URL.sub(lambda match: base_path + match.group(), text)
             text = text.replace('href="/"', f'href="{base_path}/"')
             # Home-page anchors such as "/#voices" in HTML attributes, search records and scripts.
             text = re.sub(r'(?<=["\'])/(?=#)', base_path + '/', text)
             file.write_text(text)
     (target / '.nojekyll').touch()
+    assert not any('data-local-edit' in page.read_text() for page in target.rglob('*.html')), 'Editor link left in Pages'
     links = 0
     for page in target.rglob('*.html'):
         parser = PageLinks()
@@ -60,7 +66,7 @@ def prepare(base_path):
     index = json.loads((target / 'content/search.json').read_text())
     assert all(item['url'].startswith(base_path + '/') for item in index)
     for file in source.rglob('*'):
-        if file.is_file() and file.suffix not in ('.html', '.js', '.css', '.json'):
+        if file.is_file() and file.parts[len(source.parts)] != 'editor' and file.suffix not in ('.html', '.js', '.css', '.json'):
             assert file.read_bytes() == (target / file.relative_to(source)).read_bytes()
     print(f'Pages ready: {len(list(target.rglob("*.html")))} pages, '
           f'{len(index)} search records, {links} links/assets; base={base_path or "/"}')

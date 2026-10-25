@@ -270,7 +270,8 @@ for a in catalog_art:
     assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     catalog_page = pages["arkham/catalog/index.html"]
-    assert catalog_page.count(f'src="/assets/media/{a["file"]}"') == 2
+    shown = a["file"][:-4] + ".webp" if (CONTENT.parent / (a["file"][:-4] + ".webp")).is_file() else a["file"]
+    assert catalog_page.count(f'src="/assets/media/{shown}"') == 2, "Catalog art (or its WebP copy) appears twice"
     assert f'href="{a["sourcePage"]}"' not in catalog_page
     assert all(a["file"] not in body for filename, body in pages.items() if filename != "arkham/catalog/index.html")
 print("PASS: eight landscape catalogue key-art images; source metadata retained, original bytes and page scope")

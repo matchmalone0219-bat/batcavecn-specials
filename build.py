@@ -4,7 +4,7 @@ from pathlib import Path
 from render_common import route  # Public import used by the local editor.
 from site_layout import shell  # Public import used by content verification.
 from site_pages import render_pages
-from build_assets import copy_asset
+from build_assets import copy_asset, prefer_webp
 from build_fonts import ship_fonts
 from tas_opening import media_assets as opening_assets
 
@@ -38,6 +38,7 @@ def build(data=None):
     validate(data)
     pages, index, research_images = render_pages(data)
     DIST.mkdir(exist_ok=True)
+    arkham_webp = prefer_webp(pages, ROOT, DIST)
     for filename, body in pages.items():
         path = DIST / filename
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -46,7 +47,7 @@ def build(data=None):
     copy_asset(ROOT / 'conroy-profile.css', DIST / 'assets/conroy-profile.css')
     for filename in ('tas-opening.css', 'tas-opening.js'):
         copy_asset(ROOT / filename, DIST / 'assets' / filename)
-    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-channel-tuning.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
+    for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-channel-tuning.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-720.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/media").mkdir(exist_ok=True)
     (DIST / 'assets/media/maps').mkdir(exist_ok=True)
@@ -66,6 +67,9 @@ def build(data=None):
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
+    for source, destination in arkham_webp.items():
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        copy_asset(source, destination)
     copy_asset(ROOT / 'arkham-intercom.js', DIST / 'assets/arkham-intercom.js')
     for filename in ('arkham-sequencer.js', 'arkham-sequencer.css'):
         copy_asset(ROOT / filename, DIST / 'assets' / filename)
