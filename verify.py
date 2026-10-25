@@ -80,7 +80,8 @@ for image in ark_images:
     assert hashlib.sha256((CONTENT.parent / image["file"]).read_bytes()).hexdigest() == image["sha256"]
     assert hashlib.sha256((DIST / "assets/media" / image["file"]).read_bytes()).hexdigest() == image["sha256"]
 reading = json.loads((CONTENT.parent / 'arkham-reading.json').read_text())
-easter_eggs = json.loads((CONTENT.parent / 'arkham-easter-eggs.json').read_text())
+from arkham_easter_eggs import load_easter_eggs
+easter_eggs = load_easter_eggs()
 scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
 riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
 omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])

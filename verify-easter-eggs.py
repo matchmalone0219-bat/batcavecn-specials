@@ -36,18 +36,29 @@ class Page(HTMLParser):
 
 packet = load_easter_eggs()
 images = {image['id']: image for image in packet['images']}
-assert len(packet['entries']) == 20 and len(images) == 50
+asylum = [entry for entry in packet['entries'] if entry['game'] == 'asylum']
+knight = [entry for entry in packet['entries'] if entry['game'] == 'knight']
+assert len(asylum) == 20 and len(knight) == 125 and len(images) == 360
+assert len({image['id'] for image in packet['images'] if image['source'] == packet['source']['id']}) == 50
+assert len(packet['sources']) == 7
 assert re.fullmatch(r'[a-f0-9]{64}', packet['source']['sha256'])
 assert packet['source']['url'] == 'https://www.youtube.com/watch?v=nRBWe14tYdo'
 assert {id for entry in packet['entries'] for block in entry['blocks'] for id in block['images']} == images.keys()
-assert len({entry['chapterTitle'] for entry in packet['entries']}) == 20
+assert len({entry['chapterTitle'] for entry in asylum}) == 20
+for source in packet['sources']:
+    assert re.fullmatch(r'[a-f0-9]{64}', source['sha256'])
+    assert source['creator'] == 'Batman Arkham Videos'
+    assert any(entry['source'] == source['id'] for entry in packet['entries'])
 
 page = (ROOT / 'dist/arkham/archive/clues/index.html').read_text()
 assert page.count('class="scene-credit"') == 1
 assert page.count(packet['source']['url']) == 1
 assert page.count(packet['source']['creator']) == 1
-assert page.count('data-browse-item') == 28
+assert page.count('data-browse-item') == 153
 assert 'data-zone-game="asylum" aria-pressed="false">阿卡姆疯人院 · 22</button>' in page
+assert 'data-zone-game="knight" aria-pressed="false">阿卡姆骑士 · 126</button>' in page
+for source in packet['sources']:
+    assert page.count(source['url']) == 1
 search = json.loads((ROOT / 'dist/content/search.json').read_text())
 spoiler_images = set()
 for entry in packet['entries']:
@@ -66,7 +77,7 @@ for entry in packet['entries']:
     assert len(rows) == 1 and rows[0]['summary'] == entry['summary']
     assert not any(block['body'] in json.dumps(rows, ensure_ascii=False) for block in entry['blocks'])
 for image in images.values():
-    assert image['file'].startswith('arkham-easter-eggs/')
+    assert image['file'].startswith(('arkham-easter-eggs/', 'arkham-knight-easter-eggs/'))
     assert (image['width'], image['height']) == (1600, 900)
     for path in (ROOT / image['file'], ROOT / 'dist/assets/media' / image['file']):
         assert hashlib.sha256(path.read_bytes()).hexdigest() == image['sha256'], path
@@ -77,4 +88,10 @@ for image in images.values():
         assert appearances[0][1], image['id']
 assert 'arkham-easter-eggs/' not in (ROOT / 'dist/arkham/gallery/index.html').read_text()
 assert all('arkham-easter-eggs/' not in file.read_text() for file in (ROOT / 'dist/tas').rglob('*.html'))
-print('PASS: 20 video chapters, 50 hashed images, one shared credit, folded spoilers and safe search summaries; 28 browse items and topic boundaries')
+assert 'arkham-knight-easter-eggs/' not in (ROOT / 'dist/arkham/gallery/index.html').read_text()
+assert all('arkham-knight-easter-eggs/' not in file.read_text() for file in (ROOT / 'dist/tas').rglob('*.html'))
+assert all(entry['spoiler'] for entry in knight if entry['source'].endswith('knight-3'))
+for entry in knight:
+    assert len(entry['summary']) > 15
+    assert all(len(block['body']) > 45 and block['images'] for block in entry['blocks'])
+print('PASS: Asylum 20/50 + Knight 125/310 entries/images, all seven sources, one credit, folded spoilers, safe search, 153 browse items and topic boundaries')

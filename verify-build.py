@@ -59,7 +59,8 @@ class BuildChecks(unittest.TestCase):
         reading = json.loads((builder.ROOT / 'arkham-reading.json').read_text())
         scene_entries = json.loads((builder.ROOT / 'riddler-research.json').read_text())['entries']
         omitted_scenes = len(scene_entries) - len(reading['scenes'])
-        video_scenes = len(json.loads((builder.ROOT / 'arkham-easter-eggs.json').read_text())['entries'])
+        from arkham_easter_eggs import load_easter_eggs
+        video_scenes = len(load_easter_eggs()['entries'])
         crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
         self.assertEqual((len(pages), len(records)), (160, 505 + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():

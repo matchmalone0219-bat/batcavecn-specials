@@ -18,7 +18,7 @@
 
 ## 彩蛋视频的统一署名
 
-《疯人院》彩蛋栏目采用 Batman Arkham Videos 的《Batman: Arkham Asylum - Easter Eggs and Secrets》（https://www.youtube.com/watch?v=nRBWe14tYdo）时，在栏目开头统一写明“转载整理自”及作者、视频标题和原链接，感谢原作者的收集与展示。按用户2026-10-24的要求，截图和片段不再逐项重复作者及时间标注；素材原有署名与水印保留。
+彩蛋栏目采用 Batman Arkham Videos 的《Batman: Arkham Asylum - Easter Eggs and Secrets》与《Batman: Arkham Knight Easter Eggs》Part 1—6 时，在栏目开头统一写明“转载整理自”及作者和全部原视频链接，感谢原作者的收集与展示。按用户2026-10-24的要求，截图和片段不再逐项重复作者及时间标注；素材原有署名与水印保留。Part 3 的公开链接名使用分集编号，不把剧透内容加进目录。
 
 实际截取的时间点、原文件与图像哈希保存在资料数据中。截图与比较能支持的观察、视频作者的推测以及版本差异分别写清；不把简介或章节目录当作已经看过画面的证明。
 
