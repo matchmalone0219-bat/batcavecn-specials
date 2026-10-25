@@ -1,0 +1,57 @@
+[
+  {
+    "file": "arkham/archive/clues/index.html",
+    "sha256": "73a239f8446898b178802a719a9e1316661c5a39d6e7130f3a8f64ae70f5f99c",
+    "matchesRelease": true
+  },
+  {
+    "file": "arkham/transmissions/index.html",
+    "sha256": "592e072970bd59644f87833d2336eaba10170f1e878c7765fa78b144f14d2a2b",
+    "matchesRelease": true
+  },
+  {
+    "file": "arkham/archive/stories/index.html",
+    "sha256": "a692c0328354013da8f6543ae84bde1d81514cb57d8f480db4eabdd775697bde",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/arkham-clues.js",
+    "sha256": "dbe143aef698a701f4e08a1c573f13a06bf91f32227471d91c40d8bacde3e4ca",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/arkham-map.js",
+    "sha256": "7772c9c59ef5e6538eeaef8c4b9118893e20f460fe32d7a0310f2538c6124429",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/arkham-channel-tuning.js",
+    "sha256": "20d04fb6bf2a63524f530ffe4ed9ffa180bece8fae0469156bd0b271c544e9be",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/arkham-sequencer.js",
+    "sha256": "2265c211426a3d0767ea8ab2491147cbe2ea901c84a7028d1064e46df27672b7",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/arkham.css",
+    "sha256": "144ecce1cee243148f7049a4166106e2eb5689c43587b63d59950ae86d175fd6",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/media/maps/arkham-asylum-reference.png",
+    "sha256": "04fc3d64f632031c2e3909413222b4f274543e0f12c5bd7b035f9cbf2cbfc8e5",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/media/maps/arkham-city-reference.webp",
+    "sha256": "053c5022f50a29ef6bcaf96e356b3dcef3dac028aafb7447535c8d0ed8ae63f3",
+    "matchesRelease": true
+  },
+  {
+    "file": "assets/media/maps/arkham-knight-reference.jpg",
+    "sha256": "2299c0605da9beb37a72ba54f1c8d0e63dedfe1b328cd0d1c202b930116a1d46",
+    "matchesRelease": true
+  }
+]

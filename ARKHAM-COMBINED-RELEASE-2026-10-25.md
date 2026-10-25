@@ -19,3 +19,7 @@
 证据：`docs/verification/arkham-ui-publication-20261025/combined-validation.json`、`combined-browser-checks.json`。既往单批验证记录保留其当时状态，当前范围以本交接为准。
 
 发布目标为原PR #2合入main，沿用既有GitHub Pages工作流与项目域名；未改变WordPress主站和TAS内容。
+
+## 发布完成
+
+PR #2 已合入main，部署内容提交 `75cfc84618b4edd243b9795834c206022d5c4276`。[Pages运行40189376860](https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/40189376860)的build、deploy均成功。线上11项页面／脚本／样式／地图文件与发布产物字节一致，三张原图均完成加载，监听调谐与密码模式均可打开。站点为 https://matchmalone0219-bat.github.io/batcavecn-specials/ 。详细结果见 `docs/verification/arkham-ui-publication-20261025/publication.json`。日常源码与本地预览已同步合并版本，1622个生成文件与发布副本一致；原素材视频未入库。
