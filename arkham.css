@@ -1,46 +1,51 @@
 /* Arkham game screens and reading archive. */
+.arkham{--selection-bg:#e4e5dc;--selection-fg:#121716}
+.arkham-icon-defs{position:absolute;overflow:hidden;pointer-events:none}
+.arkham svg.ai,.arkham svg.menu-icon{--icon-paint:url(#arkham-icon-metal);--icon-shade:#7d969c}
+.arkham svg .icon-shade{fill:var(--icon-shade);stroke:none}
+.arkham :is(.menu-tile.selected,.menu-tile:focus-visible,.rail-item[aria-current],.browser-item[aria-current=true],.dossier-index article[aria-current=true],.case-register a[aria-current],.patient-selector a[aria-current],.transmission-channel-card[aria-current],.recording-game-tabs button[aria-pressed=true],.transmission-track-btn[aria-pressed=true],.terminal-switch a[aria-current]) :is(svg.ai,svg.menu-icon){--icon-paint:url(#arkham-icon-metal-dark);--icon-shade:#587075}
 .art-arkham-city{background:linear-gradient(130deg,#32434f,#131921)}
-.art-arkham-origins{background:linear-gradient(130deg,#4a5358,#152733)}
-.art-arkham-knight{background:linear-gradient(130deg,#325250,#041419)}
-.arkham{--arkham-font:"DIN Alternate","DIN Condensed","Franklin Gothic Heavy","Arial Narrow","Hiragino Sans GB","PingFang SC","Heiti SC","Microsoft YaHei",sans-serif;--arkham-condensed:"DIN Condensed","Franklin Gothic Heavy","Arial Narrow",-apple-system,sans-serif;--bg:#171918;--surface:#262927;--text:#efefe7;--muted:#b1b5ad;--accent:#e4e5cc;--line:#5c635b;background:#171918;color-scheme:dark}
-.arkham header{background:#181b19;border-bottom:1px solid #72786b}
+.art-arkham-origins{background:linear-gradient(130deg,#4d5658,#152733)}
+.art-arkham-knight{background:linear-gradient(130deg,#324c52,#041419)}
+.arkham{--arkham-font:"DIN Alternate","DIN Condensed","Franklin Gothic Heavy","Arial Narrow","Hiragino Sans GB","PingFang SC","Heiti SC","Microsoft YaHei",sans-serif;--arkham-condensed:"DIN Condensed","Franklin Gothic Heavy","Arial Narrow",-apple-system,sans-serif;--bg:#121716;--surface:#102226;--text:#e4e5dc;--muted:#9bada7;--accent:#cdded9;--line:#3e565c;background:#121716;color-scheme:dark}
+.arkham header{background:#0b1b1d;border-bottom:1px solid #6a878e}
 .arkham .brand{letter-spacing:2px}
-.arkham .card-art{background:linear-gradient(130deg,#656c5d,#191d19)}
-.arkham .card-art strong{color:#efefe7}
+.arkham .card-art{background:linear-gradient(130deg,#5f6a6c,#161c1d)}
+.arkham .card-art strong{color:#e4e5dc}
 .arkham .reading{max-width:820px}
 .arkham .detail-title{padding:30px 0}
-.arkham .facts{background:#252b2580;padding:0 24px}
+.arkham .facts{background:#21292b80;padding:0 24px}
 .arkham .chapter-nav{border-bottom:1px solid var(--line)}
 .game-screen{min-height:100svh;position:relative;isolation:isolate;overflow-x:hidden}
 .game-screen main{min-height:100svh;display:flex;align-items:center;position:relative;z-index:2}
 .game-scene,.game-fog,.game-rain{position:fixed;inset:0;pointer-events:none;z-index:-1}
 .game-scene{background:url('/assets/arkham-city-background.jpg') 60% center/cover;filter:grayscale(1) sepia(.18) brightness(1.6);animation:scene-drift 24s ease-in-out infinite alternate;transform:scale(1.06)}
-.game-screen:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#0b0e0bc9,transparent 85%),linear-gradient(0deg,#080b0bbb,transparent 45%)}
-.game-fog{inset:-20%;background:radial-gradient(ellipse at 20% 70%,#b3bbab36,transparent 45%),radial-gradient(ellipse at 80% 40%,#b3bbab29,transparent 40%);filter:blur(28px);animation:fog-drift 20s linear infinite alternate}
-.game-rain{opacity:.15;background:repeating-linear-gradient(105deg,transparent 0 79px,#e7e9dc70 80px,transparent 81px 160px);background-size:160px 290px;mask-image:linear-gradient(transparent,#0008);animation:rain-fall 1s linear infinite}
+.game-screen:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,#0b0e0dc9,transparent 85%),linear-gradient(0deg,#080b0bbb,transparent 45%)}
+.game-fog{inset:-20%;background:radial-gradient(ellipse at 20% 70%,#aebbb936,transparent 45%),radial-gradient(ellipse at 80% 40%,#aebbb929,transparent 40%);filter:blur(28px);animation:fog-drift 20s linear infinite alternate}
+.game-rain{opacity:.15;background:repeating-linear-gradient(105deg,transparent 0 79px,#d9e9e670 80px,transparent 81px 160px);background-size:160px 290px;mask-image:linear-gradient(transparent,#0008);animation:rain-fall 1s linear infinite}
 .start-title{margin-left:12%;padding:90px 0;max-width:550px;text-align:center}
-.game-eyebrow{font:11px/1.8 monospace;letter-spacing:4px;color:#c2c6b6}
-.start-title h1{font:900 clamp(70px,9vw,120px)/.87 var(--arkham-condensed);letter-spacing:3px;text-shadow:0 3px 2px #0009;color:#ecede3;margin:24px 0 48px}
+.game-eyebrow{font:11px/1.8 monospace;letter-spacing:4px;color:#b8c6c4}
+.start-title h1{font:900 clamp(70px,9vw,120px)/.87 var(--arkham-condensed);letter-spacing:3px;text-shadow:0 3px 2px #0009;color:#dcedea;margin:24px 0 48px}
 .start-title h1>span{display:block;font-size:.44em;letter-spacing:12px;margin-bottom:12px}
-.start-title h1 small{display:block;font:400 18px/1.8 var(--sans);letter-spacing:8px;margin-top:24px;color:#c0c5b9}
+.start-title h1 small{display:block;font:400 18px/1.8 var(--sans);letter-spacing:8px;margin-top:24px;color:#b7c5c3}
 .press-start{display:inline-block;font-size:20px;letter-spacing:8px;padding:16px 25px;animation:start-pulse 3s ease-in-out infinite}
 .press-start span{display:block;font:11px/2 monospace;letter-spacing:3px;margin-top:8px}
 .press-start:hover{color:white;text-shadow:0 0 16px #fff9}
-.press-start:focus-visible,.menu-tile:focus-visible{outline:2px solid #f9fbea;outline-offset:7px}
-.start-note{font-size:11px;color:#8c958b;letter-spacing:3px;margin-top:35px}
-.screen-home{position:absolute;top:28px;left:35px;z-index:3;font:10px/1.7 monospace;letter-spacing:2px;color:#c5c9bd}
-.screen-note{position:absolute;bottom:20px;right:35px;font-size:10px;color:#a4aa9e;z-index:3}
+.press-start:focus-visible,.menu-tile:focus-visible{outline:2px solid #e9fbf8;outline-offset:7px}
+.start-note{font-size:11px;color:#839295;letter-spacing:3px;margin-top:35px}
+.screen-home{position:absolute;top:28px;left:35px;z-index:3;font:10px/1.7 monospace;letter-spacing:2px;color:#bbc9c6}
+.screen-note{position:absolute;bottom:20px;right:35px;font-size:10px;color:#9ea8aa;z-index:3}
 .game-menu{margin:90px 8% 75px;max-width:760px;width:100%}
 .game-menu h1{font:900 clamp(38px,5vw,64px)/1.2 var(--sans);letter-spacing:4px;margin:28px 0 10px;text-shadow:2px 2px #0008}
-.game-menu #menu-description{color:#c4c7bb;font-size:14px;min-height:28px;margin-bottom:40px}
+.game-menu #menu-description{color:#b9c7c4;font-size:14px;min-height:28px;margin-bottom:40px}
 .menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:650px}
-.menu-tile{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:15px 8px;border:3px solid #7b8272;background:#151915b3;box-shadow:0 0 0 1px #121510, inset 0 0 20px #0006;min-height:155px;transition:background .2s,border-color .2s,transform .2s}
-.menu-tile:hover,.menu-tile:focus,.menu-tile.selected{border-color:#eff1e3;background:#5c6354d9;transform:translateY(-2px)}
-.tile-icon{font:900 40px/1.2 var(--arkham-condensed);letter-spacing:2px;color:#c3c9ba;opacity:.8;margin-bottom:10px}
+.menu-tile{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:15px 8px;border:3px solid #727f82;background:#131819b3;box-shadow:0 0 0 1px #101415, inset 0 0 20px #0006;min-height:155px;transition:background .2s,border-color .2s,transform .2s}
+.menu-tile:hover,.menu-tile:focus,.menu-tile.selected{border-color:#e0f1ee;background:#576163d9;transform:translateY(-2px)}
+.tile-icon{font:900 40px/1.2 var(--arkham-condensed);letter-spacing:2px;color:#bbc9c6;opacity:.8;margin-bottom:10px}
 .menu-tile>span:not(.tile-icon){font-size:14px;letter-spacing:2px}
-.menu-tile small{font:9px/1.6 monospace;letter-spacing:1px;color:#b9c0b0;margin-top:4px}
-.game-controls{display:flex;flex-wrap:wrap;gap:30px;margin-top:35px;font-size:12px;color:#bdc5b8}
-.game-controls kbd{font:11px monospace;border:1px solid #839078;border-radius:50%;padding:5px 7px;margin-right:5px}
+.menu-tile small{font:9px/1.6 monospace;letter-spacing:1px;color:#b3c0be;margin-top:4px}
+.game-controls{display:flex;flex-wrap:wrap;gap:30px;margin-top:35px;font-size:12px;color:#b7c5c3}
+.game-controls kbd{font:11px monospace;border:1px solid #7f8d90;border-radius:50%;padding:5px 7px;margin-right:5px}
 .menu-screen .game-scene{background-position:75% center;filter:grayscale(1) sepia(.2) brightness(1.3)}
 @keyframes scene-drift{to{transform:scale(1.12) translateX(-1%)}}
 @keyframes fog-drift{to{transform:translateX(10%) translateY(-3%)}}
@@ -70,6 +75,15 @@
 .dossier-nav,.dossier-case-nav{display:flex;flex-wrap:wrap;gap:14px 24px;padding:20px 0;margin:24px 0 40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:14px}
 .dossier-nav a:hover,.dossier-nav a[aria-current],.dossier-case-nav a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
 .dossier-reading{max-width:820px;margin:auto}
+.scene-reference{display:none}
+.scene-reference:target{display:block}
+.scene-zone-alias{display:block;scroll-margin-top:28px}
+.scene-sources{margin:24px 0 0;font-size:13px;line-height:1.7}
+.scene-sources ul{padding-left:18px}
+.scene-sources li{margin:10px 0;overflow-wrap:anywhere}
+.scene-sources small{display:block;color:var(--muted)}
+.scene-mechanics{margin:36px 0;padding-top:24px;border-top:1px solid var(--line)}
+.story-reading .original{font-size:16px;letter-spacing:.03em;overflow-wrap:anywhere}
 .dossier-entry{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
 .dossier-entry h2{font-size:30px}
 .dossier-entry h3{font-size:21px;margin-top:25px}
@@ -93,13 +107,13 @@
 .clue-zones>h2{margin:0 0 18px}
 .clue-zone-games{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
 .clue-zone-games button,.clue-zone-reset{padding:9px 14px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
-.clue-zone-games button[aria-pressed=true]{background:#e4e5cc1c;border-color:var(--accent);color:var(--text)}
+.clue-zone-games button[aria-pressed=true]{background:#cdded91c;border-color:var(--accent);color:var(--text)}
 .clue-zone-board{margin:0 0 22px}
 .clue-zone-board h3{margin:0 0 10px;font-size:14px;letter-spacing:.08em;opacity:.75}
 .clue-zone-tiles{display:flex;flex-wrap:wrap;gap:6px}
 .clue-zone{flex-basis:120px;min-height:76px;display:flex;flex-direction:column;justify-content:space-between;padding:12px 14px;border:1px solid var(--line);background:#ffffff08;color:inherit;text-decoration:none;transition:background .16s ease-out,border-color .16s ease-out}
-.clue-zone:hover{background:#e4e5cc12;border-color:#e4e5cc80;text-decoration:none}
-.clue-zone[aria-current=true]{background:#e4e5cc29;border-color:var(--accent)}
+.clue-zone:hover{background:#cdded912;border-color:#cdded980;text-decoration:none}
+.clue-zone[aria-current=true]{background:#cdded929;border-color:var(--accent)}
 .clue-zone strong{font-size:15px;line-height:1.35;overflow-wrap:anywhere}
 .clue-zone span{font-size:12px;opacity:.75}
 .clue-zone-status{margin:6px 0 0;font-size:14px;opacity:.85}
@@ -112,7 +126,7 @@
 .riddle-card.is-solved{border-color:var(--accent)}
 .riddle-question{font-size:17px;line-height:1.7;margin:8px 0 16px}
 .riddle-input{display:flex;gap:8px}
-.riddle-input input{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--line);background:#0e100f;color:var(--text);font:inherit;font-size:16px}
+.riddle-input input{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--line);background:#0c0f10;color:var(--text);font:inherit;font-size:16px}
 .riddle-input button:disabled,.riddle-input input:disabled{opacity:.5;cursor:default}
 .riddle-status{min-height:1.6em;margin:10px 0 0;font-size:14px;color:var(--muted)}
 .riddle-solved{display:inline-block;margin-top:4px;color:var(--accent)}
@@ -133,17 +147,17 @@
 .dossier-photo figcaption{font-size:11px}
 }
 .interview-player{display:block;width:100%;aspect-ratio:16/9;height:auto;border:0;background:#080b0d;margin:22px 0}
-.arkham .patient-terminal{background:#101716;color:#d5e4df;padding:30px 34px;margin:36px 0 52px;border-top:1px solid #77968a;border-bottom:1px solid #77968a;background-image:linear-gradient(#b8d5c803 1px,transparent 1px);background-size:100% 4px}
-.arkham .patient-terminal-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:20px;border-bottom:1px solid #3d5149}
-.arkham .patient-terminal-heading .label{color:#9bbcaa;margin:0;letter-spacing:.16em}
-.arkham .patient-terminal-heading>p:last-child{font-size:12px;color:#9dafaa;margin:0}
+.arkham .patient-terminal{background:#101617;color:#d4e4e1;padding:30px 34px;margin:36px 0 52px;border-top:1px solid #849396;border-bottom:1px solid #849396;background-image:linear-gradient(#c6d5d203 1px,transparent 1px);background-size:100% 4px}
+.arkham .patient-terminal-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-bottom:20px;border-bottom:1px solid #3e4e51}
+.arkham .patient-terminal-heading .label{color:#afbcba;margin:0;letter-spacing:.16em}
+.arkham .patient-terminal-heading>p:last-child{font-size:12px;color:#a3adaf;margin:0}
 .arkham .patient-register{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}
-.arkham .patient-register>a{display:grid;grid-template-columns:36px 1fr auto;gap:18px;align-items:center;padding:24px 10px;border-bottom:1px solid #34473f;font-size:19px}
-.arkham .patient-register>a:hover{background:#23372e;color:#f4faf6}
-.arkham .patient-index{font:13px/1.5 ui-monospace,monospace;color:#90b3a3}
-.arkham .patient-register small{display:block;font:11px/1.7 var(--sans);color:#9badA4;margin-top:5px}
+.arkham .patient-register>a{display:grid;grid-template-columns:36px 1fr auto;gap:18px;align-items:center;padding:24px 10px;border-bottom:1px solid #364447;font-size:19px}
+.arkham .patient-register>a:hover{background:#233337;color:#e8faf7}
+.arkham .patient-index{font:13px/1.5 ui-monospace,monospace;color:#a6b3b1}
+.arkham .patient-register small{display:block;font:11px/1.7 var(--sans);color:#a1abad;margin-top:5px}
 .arkham .patient-duration{font:14px/1.5 ui-monospace,monospace;text-align:right;white-space:nowrap}
-.arkham .patient-terminal-note{color:#9aafa4;font-size:12px;margin:22px 0 0;max-width:750px;line-height:1.9}
+.arkham .patient-terminal-note{color:#a3adaf;font-size:12px;margin:22px 0 0;max-width:750px;line-height:1.9}
 @media(max-width:700px){
 .arkham .patient-terminal{padding:22px 18px}
 .arkham .patient-terminal-heading{display:block}
@@ -152,22 +166,22 @@
 .arkham .patient-register>a{grid-template-columns:24px 1fr auto;gap:12px;font-size:18px;padding:20px 0}
 .arkham .patient-register small{font-size:10px}
 }
-.arkham-intro{background:#000;color:#dde2e3}
+.arkham-intro{background:#000;color:#d3e3e0}
 .arkham-intro [hidden]{display:none!important}
 .arkham-intro:not(.intro-entered) .game-scene,.arkham-intro:not(.intro-entered) .game-fog,.arkham-intro:not(.intro-entered) .game-rain{display:none}
 .arkham-intro .intro-stage{position:fixed;inset:0;background:#000}
 .arkham-intro .intro-film{position:absolute;inset:0;pointer-events:none}
 .arkham-intro .intro-film video{display:block;width:100%;height:100%;object-fit:contain;background:#000 url('/assets/arkham-city-intro-poster.jpg') center/contain no-repeat}
 .arkham-intro .intro-identity{position:absolute;z-index:2;top:26px;left:32px;margin:0;font-size:16px;font-weight:400;letter-spacing:.2em;text-shadow:0 1px 6px #000}
-.arkham-intro .intro-identity span{display:block;margin-top:7px;font-size:9px;letter-spacing:.15em;color:#929c9f}
-.arkham-intro .intro-entry{position:absolute;left:50%;top:50%;width:min(100%,calc(100svh * 16 / 9));aspect-ratio:16/9;transform:translate(-50%,-50%);display:block;text-decoration:none;color:#e4e9e9;outline-offset:-7px;-webkit-tap-highlight-color:transparent}
+.arkham-intro .intro-identity span{display:block;margin-top:7px;font-size:9px;letter-spacing:.15em;color:#8c9c9f}
+.arkham-intro .intro-entry{position:absolute;left:50%;top:50%;width:min(100%,calc(100svh * 16 / 9));aspect-ratio:16/9;transform:translate(-50%,-50%);display:block;text-decoration:none;color:#d9e9e6;outline-offset:-7px;-webkit-tap-highlight-color:transparent}
 .arkham-intro .intro-entry>span{position:absolute;left:36.8%;top:82%;transform:translateX(-50%);padding:4px 14px;text-align:center;font-size:18px;line-height:1.4;letter-spacing:.2em;white-space:nowrap;text-shadow:0 1px 4px #000,0 0 12px #000}
-.arkham-intro .intro-entry>span>span{display:block;margin-top:7px;font-size:10px;letter-spacing:.22em;color:#9caaae}
+.arkham-intro .intro-entry>span>span{display:block;margin-top:7px;font-size:10px;letter-spacing:.22em;color:#a2acae}
 .arkham-intro .intro-entry:hover>span{color:#fff}
 .arkham-intro .intro-tools{position:absolute;z-index:3;bottom:max(47px,env(safe-area-inset-bottom));right:32px;display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
-.arkham-intro .intro-tools button{padding:8px 12px;border:1px solid #adbfc13b;border-radius:2px;background:#0009;color:#a9b4b7;font:inherit;font-size:11px;cursor:pointer;letter-spacing:.08em}
-.arkham-intro .intro-tools button:hover,.arkham-intro .intro-tools button:focus-visible{color:#fff;border-color:#c6dce1}
-.arkham-intro .intro-status{position:absolute;bottom:154px;left:24px;right:24px;text-align:center;font-size:12px;color:#aebbc0;pointer-events:none}
+.arkham-intro .intro-tools button{padding:8px 12px;border:1px solid #b3c1bf3b;border-radius:2px;background:#0009;color:#aab7b5;font:inherit;font-size:11px;cursor:pointer;letter-spacing:.08em}
+.arkham-intro .intro-tools button:hover,.arkham-intro .intro-tools button:focus-visible{color:#fff;border-color:#d1e1de}
+.arkham-intro .intro-status{position:absolute;bottom:154px;left:24px;right:24px;text-align:center;font-size:12px;color:#b3c0be;pointer-events:none}
 .arkham-intro #intro-bats{position:fixed;inset:0;z-index:100;width:100vw;height:100svh;pointer-events:none}
 .arkham-intro.intro-entering .intro-tools{pointer-events:none}
 .arkham-intro #intro-menu{width:100%}
@@ -184,50 +198,49 @@
 @media(max-width:640px){
 .arkham-intro .screen-home{right:20px;top:23px}
 }
-.arkham{--accent:#c6d2cf;--line:#65716b;--bg:#101312;--surface:#1a201e;--muted:#b3bbb7}
 .arkham #intro-bats{position:fixed;inset:0;z-index:100;width:100vw;height:100svh;pointer-events:none}
 .arkham.arkham-transitioning #intro-bats{pointer-events:auto}
-.arkham-sound{position:fixed;right:24px;bottom:18px;z-index:8;border:1px solid #86948c55;background:#101513e8;color:#c2ccc6;padding:9px 13px;font:11px/1.4 var(--sans);cursor:pointer}
+.arkham-sound{position:fixed;right:24px;bottom:18px;z-index:8;border:1px solid #82919455;background:#101415e8;color:#beccc9;padding:9px 13px;font:11px/1.4 var(--sans);cursor:pointer}
 .arkham-intro:not(.intro-entered) .arkham-sound{display:none}
-.arkham.menu-screen .game-scene{background-image:linear-gradient(90deg,#080b0af0 0%,#0b0e0cbf 35%,#13171144 100%),url('/assets/media/arkham-city-02.jpg');filter:grayscale(.85);animation:none;transform:none;background-position:center}
+.arkham.menu-screen .game-scene{background-image:linear-gradient(90deg,#080b0bf0 0%,#0b0e0dbf 35%,#11161744 100%),url('/assets/media/arkham-city-02.jpg');filter:grayscale(.85);animation:none;transform:none;background-position:center}
 .arkham.menu-screen .game-fog,.arkham.menu-screen .game-rain{display:block;z-index:1;opacity:.12}
 .arkham .game-menu-console{max-width:1320px;width:100%;margin:90px auto 76px;padding:0 6%;display:grid;grid-template-columns:minmax(270px,.75fr) minmax(0,1.25fr);gap:7%}
 .arkham .menu-brand{font-size:clamp(27px,3vw,42px);font-weight:600;letter-spacing:.15em;margin:25px 0 32px}
-.arkham .menu-brand>span{display:block;font:11px/1.6 ui-monospace,monospace;letter-spacing:.18em;color:#8c9990;margin-top:10px}
+.arkham .menu-brand>span{display:block;font:11px/1.6 ui-monospace,monospace;letter-spacing:.18em;color:#879699;margin-top:10px}
 .arkham .game-menu-console .menu-grid{display:flex;flex-direction:column;gap:7px;max-width:none}
-.arkham .game-menu-console .menu-tile{min-height:61px;display:grid;grid-template-columns:26px 1fr;gap:0 17px;padding:12px 18px;text-align:left;border:0;border-bottom:1px solid #89988b35;box-shadow:none;background:#0c100d7d;transform:none;position:relative;transition:background .1s ease-out,color .1s ease-out,transform .12s cubic-bezier(.16,1,.3,1);clip-path:polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%)}
+.arkham .game-menu-console .menu-tile{min-height:61px;display:grid;grid-template-columns:26px 1fr;gap:0 17px;padding:12px 18px;text-align:left;border:0;border-bottom:1px solid #86959835;box-shadow:none;background:#0c0f107d;transform:none;position:relative;transition:background .1s ease-out,color .1s ease-out,transform .12s cubic-bezier(.16,1,.3,1);clip-path:polygon(0 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%)}
 .arkham .game-menu-console .menu-tile>svg{grid-row:1/3;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linejoin:miter;stroke-linecap:square}
 .arkham .game-menu-console .menu-tile>span{display:inline-block;font-family:var(--arkham-font);font-size:17px;font-weight:600;letter-spacing:.14em;transform:scaleX(.96);transform-origin:left center}
 .arkham .game-menu-console .menu-tile small{color:inherit;font-size:9px;letter-spacing:.15em;margin-top:2px;opacity:.64}
-.arkham .game-menu-console .menu-tile.selected,.arkham .game-menu-console .menu-tile:focus-visible{background:#e4eadf;color:#121814;transform:translateX(8px);box-shadow:inset 0 -1px 0 #f4faed}
+.arkham .game-menu-console .menu-tile.selected,.arkham .game-menu-console .menu-tile:focus-visible{background:#cdded9;color:#102226;transform:translateX(8px);box-shadow:inset 0 -1px 0 #edf6f0}
 .arkham .game-menu-console .menu-tile:focus-visible{outline:none;box-shadow:inset 0 0 0 2px white}
 .arkham .menu-preview{align-self:center;min-width:0;padding-top:35px}
-.arkham .menu-preview .game-eyebrow{color:#a5bca8;font-size:10px;letter-spacing:.23em;margin-bottom:12px}
+.arkham .menu-preview .game-eyebrow{color:#afbcba;font-size:10px;letter-spacing:.23em;margin-bottom:12px}
 .arkham .menu-preview #menu-title{font-size:clamp(26px,3.5vw,46px);letter-spacing:.12em;margin:0 0 14px}
-.arkham .menu-preview #menu-description{font-size:14px;line-height:1.9;margin:0;min-height:54px;color:#ced5c8}
-.arkham .menu-preview-note{font:10px/1.7 var(--sans);letter-spacing:.25em;color:#859486;margin-top:22px}
+.arkham .menu-preview #menu-description{font-size:14px;line-height:1.9;margin:0;min-height:54px;color:#c4d6cf}
+.arkham .menu-preview-note{font:10px/1.7 var(--sans);letter-spacing:.25em;color:#829194;margin-top:22px}
 .arkham .game-menu-console .game-controls{gap:12px;font-size:10px;margin-top:24px}
-.arkham>header{background:#0e1311f5;border-bottom:1px solid #778a7752}
+.arkham>header{background:#0b191bf5;border-bottom:1px solid #79878a52}
 .arkham>header .brand{font-family:var(--sans);font-weight:500;letter-spacing:.12em}
 .arkham>header nav{gap:18px;font-size:12px}
-.arkham>header nav a[aria-current]{color:#e3eadf}
-.arkham>footer{padding-bottom:80px;background:#0c100e}
+.arkham>header nav a[aria-current]{color:#daeae7}
+.arkham>footer{padding-bottom:80px;background:#0c0f10}
 .arkham-game-catalog{max-width:1320px;padding-top:42px}
-.arkham .arkham-catalog-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;padding-bottom:26px;border-bottom:1px solid #89968c78;margin-bottom:28px}
+.arkham .arkham-catalog-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;padding-bottom:26px;border-bottom:1px solid #71909778;margin-bottom:28px}
 .arkham-catalog-heading h1{font-size:48px;letter-spacing:.12em;margin:0}
-.arkham-catalog-heading>p{font-size:12px;line-height:1.8;color:#9dad9f;margin:0}
+.arkham-catalog-heading>p{font-size:12px;line-height:1.8;color:#a1abad;margin:0}
 .arkham-games-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
-.arkham-game-card{display:block;background:#1b211dde;border:1px solid #64776866;min-width:0;transition:border-color .2s,background .2s,transform .2s}
-.arkham-game-card:hover,.arkham-game-card:focus-visible{border-color:#d4ded0;background:#252f26;transform:translateY(-3px)}
+.arkham-game-card{display:block;background:#192021de;border:1px solid #69747766;min-width:0;transition:border-color .2s,background .2s,transform .2s}
+.arkham-game-card:hover,.arkham-game-card:focus-visible{border-color:#cededb;background:#242d2f;transform:translateY(-3px)}
 .arkham-game-image{position:relative;overflow:hidden}
 .arkham-game-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;filter:saturate(.55);transition:filter .2s}
 .arkham-game-card:hover img,.arkham-game-card:focus-visible img{filter:saturate(1)}
-.arkham-game-image>span{position:absolute;right:18px;bottom:14px;font:36px/1 var(--arkham-condensed);color:#edf3e5;text-shadow:0 2px 9px #000}
+.arkham-game-image>span{position:absolute;right:18px;bottom:14px;font:36px/1 var(--arkham-condensed);color:#e2f3f0;text-shadow:0 2px 9px #000}
 .arkham-game-copy{padding:22px}
-.arkham-game-copy .game-eyebrow{font-size:10px;letter-spacing:.08em;color:#9caf9f;margin-bottom:9px}
+.arkham-game-copy .game-eyebrow{font-size:10px;letter-spacing:.08em;color:#a3adaf;margin-bottom:9px}
 .arkham-game-copy h2{font-size:23px;font-weight:500;letter-spacing:.04em;margin-bottom:14px}
-.arkham-game-copy>p:not(.game-eyebrow){font-size:13px;line-height:1.9;color:#b7c3b7;margin-bottom:18px}
-.arkham-game-meta{display:flex;justify-content:space-between;gap:10px;padding-top:13px;border-top:1px solid #7e8e7855;font:10px/1.6 var(--sans);color:#9ea89a}
+.arkham-game-copy>p:not(.game-eyebrow){font-size:13px;line-height:1.9;color:#b5c3c1;margin-bottom:18px}
+.arkham-game-meta{display:flex;justify-content:space-between;gap:10px;padding-top:13px;border-top:1px solid #7d8b8e55;font:10px/1.6 var(--sans);color:#9ca6a8}
 @media(max-width:760px){
 .arkham .game-menu-console{grid-template-columns:1fr;gap:25px;margin:78px auto 92px;padding:0 22px}
 .arkham .menu-brand{font-size:29px;margin:18px 0 24px}
@@ -261,7 +274,7 @@
 .arkham.menu-screen .screen-note{left:22px;right:auto;font-size:8px;bottom:22px}
 }
 .arkham h1[tabindex="-1"]:focus{outline:none}
-.arkham.menu-screen .menu-backdrop{background:#0a0c0d;filter:none;transform:none;animation:none}
+.arkham.menu-screen .menu-backdrop{background:#0a0d0c;filter:none;transform:none;animation:none}
 .arkham .menu-backdrop img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;filter:saturate(.7);pointer-events:none}
 .arkham .menu-background-base{opacity:1;z-index:0}
 .arkham .menu-background-next{opacity:0;z-index:1;transition:none}
@@ -270,11 +283,11 @@
 .arkham.menu-screen .game-menu-console{grid-template-columns:minmax(270px,390px) minmax(0,1fr);gap:8%;align-items:end}
 .arkham.menu-screen .menu-preview{padding:0 0 48px;max-width:460px;text-shadow:0 2px 12px #000}
 .arkham.menu-screen .menu-preview #menu-title{font-size:clamp(26px,3vw,42px)}
-.arkham.menu-screen .menu-preview #menu-description{color:#eef0e9}
-.arkham.menu-screen .menu-preview-note{color:#c0c8c0}
-.arkham .menu-background-tools{position:fixed;left:6%;bottom:76px;z-index:4;display:flex;align-items:center;gap:18px;color:#b5beb9;font-size:10px;text-shadow:0 1px 5px #000}
-.arkham .menu-background-tools button{background:#0b100cbf;border:1px solid #8d9b854d;padding:8px 11px;color:#c6d0c1;font:inherit;cursor:pointer}
-.arkham .menu-background-tools button:hover,.arkham .menu-background-tools button:focus-visible{color:#fff;border-color:#e0e6db}
+.arkham.menu-screen .menu-preview #menu-description{color:#dff0ed}
+.arkham.menu-screen .menu-preview-note{color:#bac8c5}
+.arkham .menu-background-tools{position:fixed;left:6%;bottom:76px;z-index:4;display:flex;align-items:center;gap:18px;color:#b1bebc;font-size:10px;text-shadow:0 1px 5px #000}
+.arkham .menu-background-tools button{background:#0b0f10bf;border:1px solid #88989b4d;padding:8px 11px;color:#c1d0cd;font:inherit;cursor:pointer}
+.arkham .menu-background-tools button:hover,.arkham .menu-background-tools button:focus-visible{color:#fff;border-color:#d6e6e3}
 .arkham .menu-background-tools button:disabled{cursor:default;opacity:.7}
 .arkham-intro:not(.intro-entered) .menu-background-tools{display:none}
 .arkham.menu-screen .screen-note{display:none}
@@ -293,27 +306,27 @@
 }
 
 /* Title prompt and console HUD. Animate the prompt group once, not both nested spans. */
-@keyframes prompt-pulse{0%,100%{opacity:.45;filter:drop-shadow(0 0 2px #ffffff33)}50%{opacity:1;filter:drop-shadow(0 0 10px #e6ebdc99)}}
+@keyframes prompt-pulse{0%,100%{opacity:.45;filter:drop-shadow(0 0 2px #ffffff33)}50%{opacity:1;filter:drop-shadow(0 0 10px #dbebe899)}}
 .arkham-intro .intro-entry>span{animation:prompt-pulse 2.8s ease-in-out infinite}
 .arkham-intro .intro-entry>span>span,.arkham .menu-brand>span{font-family:var(--arkham-condensed);letter-spacing:.08em;text-transform:uppercase}
-.arkham-intro .intro-entry>span:hover,.arkham-intro .intro-entry:focus-visible>span{animation:none;opacity:1;filter:drop-shadow(0 0 8px #e6ebdc66)}
+.arkham-intro .intro-entry>span:hover,.arkham-intro .intro-entry:focus-visible>span{animation:none;opacity:1;filter:drop-shadow(0 0 8px #dbebe866)}
 .arkham-intro.intro-motion-paused .intro-entry>span{animation-play-state:paused}
 .arkham .intro-identity{font-family:var(--arkham-condensed)}
 .arkham .menu-brand,.arkham .menu-preview #menu-title,.arkham .arkham-catalog-heading h1{font-family:var(--arkham-font);font-weight:600;letter-spacing:.12em}
 .arkham .menu-brand>span,.arkham .game-menu-console .game-eyebrow,.arkham .game-menu-console .menu-tile small,.arkham .game-menu-console .game-controls kbd,.arkham .arkham-catalog-heading .game-eyebrow,.arkham .arkham-game-image>span{font-family:var(--arkham-font)}
-.arkham .game-menu-console .menu-tile:after{content:"";position:absolute;right:0;bottom:0;width:16px;height:16px;pointer-events:none;opacity:0;background:linear-gradient(135deg,transparent 40%,#faffed 46%,#faffed 52%,transparent 58%)}
+.arkham .game-menu-console .menu-tile:after{content:"";position:absolute;right:0;bottom:0;width:16px;height:16px;pointer-events:none;opacity:0;background:linear-gradient(135deg,transparent 40%,#edfffc 46%,#edfffc 52%,transparent 58%)}
 .arkham .game-menu-console .menu-tile.selected:after,.arkham .game-menu-console .menu-tile:focus-visible:after{opacity:1}
 @keyframes text-refresh{from{opacity:.3;transform:translateX(-6px)}to{opacity:1;transform:translateX(0)}}
 .arkham .menu-preview-refresh #menu-title,.arkham .menu-preview-refresh #menu-description{animation:text-refresh .18s ease-out}
 @keyframes menu-camera-drift{from{transform:scale(1)}to{transform:scale(1.03)}}
 .arkham .menu-backdrop img.camera-active{animation:menu-camera-drift 10s linear forwards}
 .arkham.menu-screen.menu-motion-paused .menu-backdrop img,.arkham.menu-screen.menu-motion-paused .game-fog,.arkham.menu-screen.menu-motion-paused .game-rain{animation-play-state:paused}
-.arkham.menu-screen .game-menu-console .game-controls{position:fixed;left:6%;bottom:calc(18px + env(safe-area-inset-bottom));z-index:5;margin:0;gap:24px;max-width:calc(100% - 240px);padding:8px 0;color:#d7dfd5;text-shadow:0 1px 6px #000}
+.arkham.menu-screen .game-menu-console .game-controls{position:fixed;left:6%;bottom:calc(18px + env(safe-area-inset-bottom));z-index:5;margin:0;gap:24px;max-width:calc(100% - 240px);padding:8px 0;color:#cfdfdc;text-shadow:0 1px 6px #000}
 .arkham .game-controls a{display:inline-flex;align-items:center;min-height:32px}
-.arkham .game-controls kbd,.arkham .menu-return kbd{display:inline-block;border:1px solid #b1c0b177;border-radius:3px;padding:3px 7px;font:11px/1.5 ui-monospace,monospace;letter-spacing:0;text-transform:none}
-.arkham .menu-return{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;min-height:36px;background:#17211be6;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);font:12px/1.5 var(--arkham-condensed);letter-spacing:.08em}
-.arkham .menu-return:hover,.arkham .menu-return:focus-visible{background:#dce5d7;color:#142019}
-.arkham .menu-return:focus-visible{outline:2px solid #f2f8ec;outline-offset:3px}
+.arkham .game-controls kbd,.arkham .menu-return kbd{display:inline-block;border:1px solid #b3c0be77;border-radius:3px;padding:3px 7px;font:11px/1.5 ui-monospace,monospace;letter-spacing:0;text-transform:none}
+.arkham .menu-return{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;min-height:36px;background:#171f21e6;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);font:12px/1.5 var(--arkham-condensed);letter-spacing:.08em}
+.arkham .menu-return:hover,.arkham .menu-return:focus-visible{background:#d5e5e2;color:#141e20}
+.arkham .menu-return:focus-visible{outline:2px solid #e7f8f5;outline-offset:3px}
 @media(max-width:760px){
 .arkham.menu-screen main{display:block;min-height:0;height:calc(100svh - 122px - env(safe-area-inset-bottom));overflow-y:auto;overflow-x:hidden}
 .arkham.menu-screen .menu-background-tools{margin-bottom:24px}
@@ -324,11 +337,11 @@
 .arkham .menu-preview-refresh #menu-title,.arkham .menu-preview-refresh #menu-description,.arkham .menu-backdrop img.camera-active{animation:none}
 .arkham .game-menu-console .menu-tile.selected,.arkham .game-menu-console .menu-tile:hover,.arkham .game-menu-console .menu-tile:focus-visible{transform:none}
 }
-.arkham .game-menu-console .menu-tile:hover:not(.selected):not(:focus-visible){background:#0c100d7d;color:inherit;transform:none;box-shadow:none}
+.arkham .game-menu-console .menu-tile:hover:not(.selected):not(:focus-visible){background:#0c0f107d;color:inherit;transform:none;box-shadow:none}
 @media(min-width:761px) and (max-height:800px){.arkham.menu-screen .game-menu-console{position:relative;top:-12px}}
 
 /* Quick browsing is opt-in; return to the opening remains explicit. */
-.arkham-quick{position:fixed;right:150px;bottom:18px;z-index:8;border:1px solid #86948c55;background:#101513e8;color:#c2ccc6;padding:9px 13px;font:11px/1.4 var(--sans);cursor:pointer}
+.arkham-quick{position:fixed;right:150px;bottom:18px;z-index:8;border:1px solid #82919455;background:#101415e8;color:#beccc9;padding:9px 13px;font:11px/1.4 var(--sans);cursor:pointer}
 .arkham-intro:not(.intro-entered)>.arkham-quick{display:none}
 .arkham.menu-screen .game-menu-console .game-controls{max-width:calc(100% - 350px)}
 @media(max-width:760px){
@@ -348,21 +361,21 @@
 .topic-menu-controls .arkham-quick,.topic-menu-controls .arkham-sound{position:static;inset:auto;min-height:44px;padding:0;border:0;background:none;color:inherit;font:inherit;font-size:14px;text-align:left;cursor:pointer}
 .topic-menu-controls .arkham-quick:hover,.topic-menu-controls .arkham-sound:hover{color:var(--accent)}
 
-.arkham-intercom-controls{position:fixed;right:18px;bottom:66px;z-index:8;display:flex;align-items:center;gap:14px;padding:8px 12px;border:1px solid #86948c55;background:#101513e8;color:#c2ccc6;font:11px/1.4 var(--sans)}
+.arkham-intercom-controls{position:fixed;right:18px;bottom:66px;z-index:8;display:flex;align-items:center;gap:14px;padding:8px 12px;border:1px solid #82919455;background:#101415e8;color:#beccc9;font:11px/1.4 var(--sans)}
 .arkham-intercom-controls[hidden]{display:none}
 .arkham-intercom-controls button{padding:0;min-height:28px;border:0;background:none;color:inherit;font:inherit;cursor:pointer;white-space:nowrap}
 .arkham-intercom-controls label{display:flex;align-items:center;gap:7px;white-space:nowrap}
-.arkham-intercom-controls input{width:82px;min-height:28px;padding:0;margin:0;accent-color:#aeb9a0;cursor:pointer}
-.arkham-intercom-controls button:focus-visible,.arkham-intercom-controls input:focus-visible{outline:2px solid #e4e5cc;outline-offset:4px}
+.arkham-intercom-controls input{width:82px;min-height:28px;padding:0;margin:0;accent-color:#acb9b7;cursor:pointer}
+.arkham-intercom-controls button:focus-visible,.arkham-intercom-controls input:focus-visible{outline:2px solid #cdded9;outline-offset:4px}
 .arkham-intro:not(.intro-entered) .arkham-intercom-controls{display:none}
 .topic-menu-controls .arkham-intercom-controls{position:static;inset:auto;flex-wrap:wrap;gap:0 14px;padding:0;border:0;background:none;color:inherit;font-size:14px}
 .topic-menu-controls .arkham-intercom-controls button{min-height:44px;text-align:left}
 .topic-menu-controls .arkham-intercom-controls label{font-size:12px}
 @media(max-width:760px){.arkham-intercom-controls{right:12px;bottom:calc(64px + env(safe-area-inset-bottom));max-width:calc(100vw - 24px)}.arkham-intercom-controls button,.arkham-intercom-controls input{min-height:36px}.arkham.menu-screen main{height:calc(100svh - 148px - env(safe-area-inset-bottom))}}
 
-.arkham .detail-hero{position:relative;margin:18px 0 0;aspect-ratio:21/9;max-height:520px;overflow:hidden;background:#101312}
+.arkham .detail-hero{position:relative;margin:18px 0 0;aspect-ratio:21/9;max-height:520px;overflow:hidden;background:#0e1213}
 .arkham .detail-hero img{display:block;width:100%;height:100%;object-fit:cover}
-.arkham .detail-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#17191800 45%,#171918 100%)}
+.arkham .detail-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#12171600 45%,#121716 100%)}
 .arkham .detail-hero+.detail-title{position:relative;z-index:1;margin-top:-150px;padding-top:0}
 .arkham .detail-title .original{font-family:var(--arkham-condensed);font-style:normal;letter-spacing:.06em}
 .arkham .facts-summary{border-color:var(--line)}
@@ -374,23 +387,23 @@
 .arkham .work-list a{font-family:var(--arkham-font)}
 
 /* Reading-page type system: labels and original titles use the game's condensed face; terminals keep their own accents. */
-.arkham:not(.game-screen) .label{font-family:var(--arkham-condensed);font-size:12px;letter-spacing:.16em;color:#a3a99f}
-.arkham:not(.game-screen) .original{font-family:var(--arkham-condensed);font-style:normal;font-size:clamp(18px,2vw,24px);letter-spacing:.06em;color:#c9cbbb}
+.arkham:not(.game-screen) .label{font-family:var(--arkham-condensed);font-size:12px;letter-spacing:.16em;color:#9bada7}
+.arkham:not(.game-screen) .original{font-family:var(--arkham-condensed);font-style:normal;font-size:clamp(18px,2vw,24px);letter-spacing:.06em;color:#c6d7d1}
 .arkham .back-site{font-family:var(--arkham-condensed);letter-spacing:.18em}
-.arkham .source-list h3 a,.arkham .dossier-refs a,.arkham .merch-refs a{text-decoration-color:#e4e5cc66}
+.arkham .source-list h3 a,.arkham .dossier-refs a,.arkham .merch-refs a{text-decoration-color:#cdded966}
 
 /* Original Arkham line icons (arkham_icons.py). */
 .arkham svg.ai{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:miter;vertical-align:-.22em}
 .arkham .label svg.ai,.arkham .game-eyebrow svg.ai{width:15px;height:15px;margin-right:9px;vertical-align:-3px}
 .arkham .room-head{display:flex;align-items:center;gap:20px;margin-bottom:6px}
-.arkham .room-head>svg.ai{width:46px;height:46px;stroke-width:1.25;color:#e4e5cc}
+.arkham .room-head>svg.ai{width:46px;height:46px;stroke-width:1.25;color:#cdded9}
 .arkham .room-head .label{margin-bottom:6px}
 .arkham .room-head h1{margin:0}
-.arkham .dossier-nav a svg.ai{width:15px;height:15px;margin-right:6px;vertical-align:-2px;color:#a3a99f}
-.arkham .dossier-nav a[aria-current] svg.ai,.arkham .dossier-nav a:hover svg.ai{color:#e4e5cc}
+.arkham .dossier-nav a svg.ai{width:15px;height:15px;margin-right:6px;vertical-align:-2px;color:#9bada7}
+.arkham .dossier-nav a[aria-current] svg.ai,.arkham .dossier-nav a:hover svg.ai{color:#cdded9}
 .arkham .facts-icons{display:flex;flex-wrap:wrap;gap:6px 22px}
 .arkham .facts-icons span{display:inline-flex;align-items:center;gap:8px}
-.arkham .facts-summary svg.ai{width:17px;height:17px;color:#a3a99f}
+.arkham .facts-summary svg.ai{width:17px;height:17px;color:#9bada7}
 .arkham .detail-pager span svg.ai{width:14px;height:14px;margin:0 6px;vertical-align:-2px}
 .arkham .merch-chips svg.ai,.arkham .merch-selects svg.ai{width:15px;height:15px;margin-right:6px}
 .arkham .riddle-challenge h2 svg.ai{width:.9em;height:.9em;margin-right:12px;vertical-align:-.08em}
@@ -400,21 +413,21 @@
 /* Archive rail: game-menu style navigation for the archive hub and rooms. */
 .arkham .dossier-room.has-rail{display:grid;grid-template-columns:232px minmax(0,1fr);gap:0 52px;max-width:1260px}
 .arkham .dossier-rail{position:sticky;top:20px;align-self:start;max-height:calc(100vh - 40px);overflow:auto;padding:6px 0 24px;scrollbar-width:thin}
-.arkham .rail-title{margin:18px 0 8px;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .rail-title{margin:18px 0 8px;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#83979c}
 .arkham .rail-title:first-child{margin-top:4px}
 .arkham .rail-menu{display:grid;gap:2px}
-.arkham .rail-item{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;align-items:center;padding:8px 12px;color:#c9cbbb;text-decoration:none;transition:background .16s ease-out,color .16s ease-out}
+.arkham .rail-item{display:grid;grid-template-columns:22px minmax(0,1fr);gap:12px;align-items:center;padding:8px 12px;color:#c6d7d1;text-decoration:none;transition:background .16s ease-out,color .16s ease-out}
 .arkham .rail-item svg.ai{width:20px;height:20px}
 .arkham .rail-item span{font-size:15px;font-weight:600;line-height:1.3}
-.arkham .rail-item small{display:block;margin-top:2px;font:10px/1.3 var(--arkham-condensed);letter-spacing:.16em;color:#8f968c;font-weight:400}
-.arkham .rail-item:hover{background:#e4e5cc12;color:#efefe7;text-decoration:none}
-.arkham .rail-item[aria-current]{background:#e4e5cc;color:#171918;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
-.arkham .rail-item[aria-current] small{color:#4d524b}
+.arkham .rail-item small{display:block;margin-top:2px;font:10px/1.3 var(--arkham-condensed);letter-spacing:.16em;color:#91a4a8;font-weight:400}
+.arkham .rail-item:hover{background:#cdded912;color:#e4e5dc;text-decoration:none}
+.arkham .rail-item[aria-current]{background:#cdded9;color:#121716;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.arkham .rail-item[aria-current] small{color:#40575c}
 .arkham .room-main{min-width:0}
 .arkham .has-rail .dossier-reading{margin:0}
 .arkham .rail-toc:empty{display:none}
 .arkham .rail-toc .page-toc{margin:22px 0 0;padding:14px 0 0;border:0;border-top:1px solid var(--line)}
-.arkham .rail-toc .page-toc summary{pointer-events:none;list-style:none;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .rail-toc .page-toc summary{pointer-events:none;list-style:none;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#83979c}
 .arkham .rail-toc .page-toc summary::-webkit-details-marker{display:none}
 .arkham .rail-toc .page-toc a{padding:4px 12px;font-size:13px}
 @media(max-width:960px){
@@ -434,15 +447,15 @@
 .arkham .game-browser{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:44px;align-items:start;margin:8px 0 48px}
 .arkham .browser-side{position:sticky;top:20px}
 .arkham .browser-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
-.arkham .browser-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:12px;align-items:center;width:100%;padding:12px 14px;border:0;background:none;color:#c9cbbb;font:inherit;text-align:left;text-decoration:none;cursor:pointer;transition:background .16s ease-out,color .16s ease-out}
-.arkham .browser-item:hover{background:#e4e5cc12;color:#efefe7;text-decoration:none}
-.arkham .browser-item[aria-current=true]{background:#e4e5cc;color:#171918;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
-.arkham .browser-year{font:24px/1 var(--arkham-condensed);color:#8f968c}
+.arkham .browser-item{display:grid;grid-template-columns:56px minmax(0,1fr);gap:12px;align-items:center;width:100%;padding:12px 14px;border:0;background:none;color:#c6d7d1;font:inherit;text-align:left;text-decoration:none;cursor:pointer;transition:background .16s ease-out,color .16s ease-out}
+.arkham .browser-item:hover{background:#cdded912;color:#e4e5dc;text-decoration:none}
+.arkham .browser-item[aria-current=true]{background:#cdded9;color:#121716;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.arkham .browser-year{font:24px/1 var(--arkham-condensed);color:#91a4a8}
 .arkham .browser-name{font-size:16px;font-weight:600;line-height:1.35;min-width:0}
-.arkham .browser-name small{display:block;margin-top:3px;font:11px/1.4 var(--arkham-condensed);letter-spacing:.1em;color:#8f968c;font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.arkham .browser-item[aria-current=true] .browser-year,.arkham .browser-item[aria-current=true] small{color:#4d524b}
-.arkham .browser-hint{margin:16px 0 0;font-size:12px;color:#8f968c}
-.arkham .browser-hint kbd{display:inline-block;margin-right:4px;padding:1px 6px;border:1px solid #b1c0b177;border-radius:3px;font:11px/1.5 var(--arkham-condensed)}
+.arkham .browser-name small{display:block;margin-top:3px;font:11px/1.4 var(--arkham-condensed);letter-spacing:.1em;color:#91a4a8;font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.arkham .browser-item[aria-current=true] .browser-year,.arkham .browser-item[aria-current=true] small{color:#40575c}
+.arkham .browser-hint{margin:16px 0 0;font-size:12px;color:#91a4a8}
+.arkham .browser-hint kbd{display:inline-block;margin-right:4px;padding:1px 6px;border:1px solid #b3c0be77;border-radius:3px;font:11px/1.5 var(--arkham-condensed)}
 .arkham .browser-panel{display:block;color:inherit;text-decoration:none}
 .arkham .browser-panel[hidden]{display:none}
 .arkham .browser-panel img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;filter:saturate(.8);transition:filter .2s ease-out}
@@ -450,23 +463,23 @@
 .arkham .browser-panel:hover h2{color:#fff}
 .arkham .browser-panel-copy{padding:24px 0 0}
 .arkham .browser-panel-copy h2{margin:6px 0 12px;font-size:clamp(26px,2.6vw,34px)}
-.arkham .browser-panel-copy>p:not(.game-eyebrow):not(.facts-icons){max-width:640px;color:#c3c8c0;line-height:1.85}
-.arkham .browser-panel .facts-icons{color:#c9cbbb;font-size:14px;margin-top:16px}
-.arkham .browser-panel .facts-icons svg.ai{width:16px;height:16px;color:#a3a99f}
+.arkham .browser-panel-copy>p:not(.game-eyebrow):not(.facts-icons){max-width:640px;color:#bacfc6;line-height:1.85}
+.arkham .browser-panel .facts-icons{color:#c6d7d1;font-size:14px;margin-top:16px}
+.arkham .browser-panel .facts-icons svg.ai{width:16px;height:16px;color:#9bada7}
 .arkham .clue-preview{display:none}
 .arkham .clue-browser.is-browsing{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:36px;align-items:start}
-.arkham .clue-browser.is-browsing .clue-preview{display:block;position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto;padding:24px 26px;border:1px solid var(--line);background:#e4e5cc08}
+.arkham .clue-browser.is-browsing .clue-preview{display:block;position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto;padding:24px 26px;border:1px solid var(--line);background:#cdded908}
 .arkham .clue-browser.is-browsing .dossier-group{margin:28px 0}
 .arkham .clue-browser.is-browsing .dossier-group h2{font-size:18px;margin-bottom:8px}
 .arkham .clue-browser.is-browsing .dossier-index{display:grid;grid-template-columns:1fr;gap:2px}
 .arkham .clue-browser.is-browsing .dossier-index article{padding:10px 14px;border:0;cursor:pointer;transition:background .16s ease-out}
-.arkham .clue-browser.is-browsing .dossier-index article:hover{background:#e4e5cc12}
-.arkham .clue-browser.is-browsing .dossier-index article[aria-current=true]{background:#e4e5cc;color:#171918;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
-.arkham .clue-browser.is-browsing .dossier-index article[aria-current=true] .label{color:#4d524b}
+.arkham .clue-browser.is-browsing .dossier-index article:hover{background:#cdded912}
+.arkham .clue-browser.is-browsing .dossier-index article[aria-current=true]{background:#cdded9;color:#121716;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.arkham .clue-browser.is-browsing .dossier-index article[aria-current=true] .label{color:#40575c}
 .arkham .clue-browser.is-browsing .dossier-index article .label{margin-bottom:2px}
 .arkham .clue-browser.is-browsing .dossier-index article h3{font-size:17px;margin:0}
 .arkham .clue-browser.is-browsing .dossier-index .clue-detail{display:none}
-.arkham .clue-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:#a3a99f;font-size:14px}
+.arkham .clue-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px;color:#9bada7;font-size:14px}
 .arkham .clue-meta svg.ai{width:15px;height:15px}
 .arkham .clue-case{margin:18px 0;padding-top:16px;border-top:1px solid var(--line)}
 .arkham .clue-case h4{margin:4px 0 8px;font-size:18px}
@@ -477,7 +490,7 @@
 .arkham .merch-browser-list{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto}
 .arkham .merch-browser-list .browser-item{grid-template-columns:48px minmax(0,1fr);padding:8px 12px}
 .arkham .merch-browser-list img{width:48px;height:48px;object-fit:contain;background:#fff}
-.arkham .browser-noimg{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--line);color:#8f968c}
+.arkham .browser-noimg{display:grid;place-items:center;width:48px;height:48px;border:1px solid var(--line);color:#91a4a8}
 .arkham .browser-noimg svg.ai{width:20px;height:20px}
 .arkham .merch-browser-list li[hidden]{display:none}
 .arkham .merch-browser.is-browsing .merch-section{margin-top:0}
@@ -488,8 +501,8 @@
 .arkham .merch-browser.is-browsing .merch-list{display:block}
 
 /* Catalogue key art keeps the full title and logo visible. */
-.arkham .arkham-game-catalog .browser-panel img,.arkham .arkham-game-catalog .arkham-game-image img{object-fit:contain;background:#0b0d0c;filter:none}
-.arkham .arkham-game-catalog .arkham-game-image>span{top:12px;right:12px;bottom:auto;padding:6px 8px;background:#0b0d0c;color:#edf3e5;font-size:22px;text-shadow:none}
+.arkham .arkham-game-catalog .browser-panel img,.arkham .arkham-game-catalog .arkham-game-image img{object-fit:contain;background:#0a0d0c;filter:none}
+.arkham .arkham-game-catalog .arkham-game-image>span{top:12px;right:12px;bottom:auto;padding:6px 8px;background:#0a0d0c;color:#e2f3f0;font-size:22px;text-shadow:none}
 .arkham .catalog-art-sources{margin-top:28px;color:var(--muted);font-size:12px}
 .arkham .catalog-art-sources summary{cursor:pointer;padding:10px 0}
 .arkham .catalog-art-sources ul{padding:0;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 24px}
@@ -499,44 +512,44 @@
 
 /* Archive hub as a pause menu: grouped list, one preview, key hints. */
 .arkham .archive-pause{max-width:1320px;padding-top:42px}
-.arkham .pause-head{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:end;padding-bottom:28px;margin-bottom:30px;border-bottom:1px solid #89968c78}
+.arkham .pause-head{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:56px;align-items:end;padding-bottom:28px;margin-bottom:30px;border-bottom:1px solid #71909778}
 .arkham .pause-title .game-eyebrow svg.ai{width:14px;height:14px;margin-right:8px;vertical-align:-2px}
 .arkham .pause-title h1{margin:8px 0 14px;font-family:var(--arkham-font);font-weight:600;font-size:clamp(30px,3.1vw,44px);letter-spacing:.04em;line-height:1.15;word-break:keep-all;text-wrap:balance}
-.arkham .pause-title .lead{margin:0;max-width:34em;font-size:15px;line-height:1.8;color:#b9bfb6}
+.arkham .pause-title .lead{margin:0;max-width:34em;font-size:15px;line-height:1.8;color:#b2bfbd}
 .arkham .pause-brief h2{margin:0 0 10px;font-size:20px;line-height:1.5}
-.arkham .pause-brief p{margin:0 0 10px;max-width:38em;font-size:14px;line-height:1.85;color:#aeb4ab}
-.arkham .pause-brief .fine{margin:0;font-size:12px;color:#8f968c}
-.arkham .pause-group{margin:26px 0 6px;padding:0 14px;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .pause-brief p{margin:0 0 10px;max-width:38em;font-size:14px;line-height:1.85;color:#a7b4b2}
+.arkham .pause-brief .fine{margin:0;font-size:12px;color:#91a4a8}
+.arkham .pause-group{margin:26px 0 6px;padding:0 14px;font:12px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#83979c}
 .arkham .pause-group:first-child{margin-top:0}
 .arkham .pause-item{grid-template-columns:28px minmax(0,1fr) auto;gap:14px}
 .arkham .pause-item>svg.ai{width:22px;height:22px;stroke-width:1.4}
-.arkham .pause-count{display:none;font:18px/1 var(--arkham-condensed);letter-spacing:.04em;color:#8f968c;font-variant-numeric:tabular-nums;white-space:nowrap}
+.arkham .pause-count{display:none;font:18px/1 var(--arkham-condensed);letter-spacing:.04em;color:#91a4a8;font-variant-numeric:tabular-nums;white-space:nowrap}
 .arkham .has-record .pause-count{display:inline}
 .arkham li.is-complete .pause-count{color:var(--accent)}
-.arkham .pause-item[aria-current=true] .pause-count{color:#4d524b}
-.arkham .pause-art{display:grid;place-items:center;margin:0;aspect-ratio:2/1;max-height:50vh;overflow:hidden;background:#0b0d0c;border:1px solid #5c635b80}
+.arkham .pause-item[aria-current=true] .pause-count{color:#40575c}
+.arkham .pause-art{display:grid;place-items:center;margin:0;aspect-ratio:2/1;max-height:50vh;overflow:hidden;background:#0a0d0c;border:1px solid #3e565c80}
 .arkham .pause-panel .pause-art img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
 .arkham .pause-panel .pause-art.is-contain img{object-fit:contain}
 .arkham .pause-panel .pause-art.is-small img{width:auto;height:auto;max-width:100%;max-height:100%}
-.arkham .pause-panel .browser-panel-copy>p.pause-enter{margin:18px 0 0;font-size:13px;color:#8f968c}
-.arkham .pause-enter kbd,.arkham .pause-controls kbd{display:inline-block;margin-right:6px;padding:1px 6px;border:1px solid #b1c0b177;border-radius:3px;font:11px/1.5 var(--arkham-condensed);color:#c9cbbb}
+.arkham .pause-panel .browser-panel-copy>p.pause-enter{margin:18px 0 0;font-size:13px;color:#91a4a8}
+.arkham .pause-enter kbd,.arkham .pause-controls kbd{display:inline-block;margin-right:6px;padding:1px 6px;border:1px solid #b3c0be77;border-radius:3px;font:11px/1.5 var(--arkham-condensed);color:#c6d7d1}
 .arkham .pause-fallback[hidden]{display:none}
 .arkham .pause-rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 .arkham .pause-rows a{display:grid;grid-template-columns:24px minmax(0,1fr) auto;gap:14px;align-items:start;padding:16px 4px;border-bottom:1px solid var(--line);color:inherit;text-decoration:none;transition:background .16s ease-out}
-.arkham .pause-rows a:hover{background:#e4e5cc0d;text-decoration:none}
+.arkham .pause-rows a:hover{background:#cdded90d;text-decoration:none}
 .arkham .pause-rows svg.ai{width:20px;height:20px;margin-top:3px}
 .arkham .pause-rows strong{display:block;font-size:17px}
-.arkham .pause-rows small{display:block;margin-top:4px;font-size:13px;line-height:1.7;color:#a3a99f}
+.arkham .pause-rows small{display:block;margin-top:4px;font-size:13px;line-height:1.7;color:#9bada7}
 .arkham .pause-rows .pause-count{margin-top:4px;font-size:16px}
-.arkham .pause-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin-top:36px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px;color:#a3a99f}
+.arkham .pause-controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin-top:36px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px;color:#9bada7}
 .arkham .pause-controls a{color:inherit;text-decoration:none}
 .arkham .pause-controls a:hover{color:var(--accent)}
-.arkham .pause-record-note{display:none;margin-left:auto;font-size:12px;color:#7f857c}
+.arkham .pause-record-note{display:none;margin-left:auto;font-size:12px;color:#83979c}
 .arkham .pause-controls button{display:none;padding:0;border:0;background:none;color:inherit;font:inherit;cursor:pointer}
 .arkham .pause-controls button:hover{color:var(--accent)}
 .arkham .has-record .pause-record-note,.arkham .has-record .pause-controls button{display:inline}
-.arkham .pause-note{max-width:860px;margin:16px 0 0;font-size:13px;line-height:1.8;color:#8f968c}
-.arkham .pause-note strong{margin-right:12px;font-weight:600;color:#c9cbbb}
+.arkham .pause-note{max-width:860px;margin:16px 0 0;font-size:13px;line-height:1.8;color:#91a4a8}
+.arkham .pause-note strong{margin-right:12px;font-weight:600;color:#c6d7d1}
 @media(max-width:960px){
 .arkham .archive-pause{padding-top:28px}
 .arkham .pause-head{grid-template-columns:minmax(0,1fr);gap:18px}
@@ -546,12 +559,96 @@
 }
 
 /* Related file: a single hairline row instead of a shelf card. */
-.arkham .file-link{display:grid;grid-template-columns:22px auto auto minmax(0,1fr);align-items:baseline;gap:6px 16px;margin:44px 0 0;padding:16px 4px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#c9cbbb;text-decoration:none;transition:background .16s ease-out,color .16s ease-out}
-.arkham .file-link svg.ai{align-self:center;width:20px;height:20px;color:#a3a99f}
-.arkham .file-link-label{font:11px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#7f857c}
+.arkham .file-link{display:grid;grid-template-columns:22px auto auto minmax(0,1fr);align-items:baseline;gap:6px 16px;margin:44px 0 0;padding:16px 4px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#c6d7d1;text-decoration:none;transition:background .16s ease-out,color .16s ease-out}
+.arkham .file-link svg.ai{align-self:center;width:20px;height:20px;color:#9bada7}
+.arkham .file-link-label{font:11px/1.4 var(--arkham-condensed);letter-spacing:.22em;color:#83979c}
 .arkham .file-link strong{font-size:17px;font-weight:600;color:var(--text)}
-.arkham .file-link-note{font-size:13px;line-height:1.7;color:#a3a99f}
-.arkham .file-link:hover{background:#e4e5cc0d;text-decoration:none}
+.arkham .file-link-note{font-size:13px;line-height:1.7;color:#9bada7}
+.arkham .file-link:hover{background:#cdded90d;text-decoration:none}
 .arkham .file-link:hover strong{color:var(--accent);text-decoration:underline;text-underline-offset:5px}
+
+/* Compact archive entry and a stable reading zone over all menu backgrounds. */
+.arkham.menu-screen .menu-preview{position:relative;isolation:isolate}
+.arkham.menu-screen .menu-preview:before{content:"";position:absolute;inset:-32px -40px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at center,#081313e6 15%,#081313a8 55%,transparent 75%);filter:blur(12px)}
+.arkham .archive-pause .pause-head{display:block;padding-bottom:18px;margin-bottom:18px}
+.arkham .archive-pause .pause-title h1{font-size:clamp(28px,3vw,38px)}
+.arkham .archive-pause .pause-brief{margin-top:12px;max-width:760px}
+.arkham .pause-brief summary{cursor:pointer;font-size:13px;color:var(--muted)}
+.arkham .pause-brief h2{font-size:20px;margin:16px 0 10px}
+.arkham .pause-count{font-size:12px;letter-spacing:0}
+.arkham .clue-room{padding-top:30px}
+.arkham .clue-room .room-head{margin-bottom:12px}
+.arkham .clue-room .room-head h1{font-size:clamp(28px,3vw,38px)}
+.arkham .clue-room .lead{font-size:15px;margin-bottom:10px}
+.arkham .clue-introduction{font-size:13px;color:var(--muted);margin-bottom:14px}
+.arkham .clue-introduction summary{cursor:pointer}
+.clue-zone-control[hidden]{display:none}
+.clue-zone-control{display:flex;align-items:center;gap:12px;font-size:14px}
+.clue-zone-control select{min-width:0;width:min(100%,480px);padding:10px 12px;font:inherit;color:var(--text);background:var(--surface);border:1px solid var(--line)}
+.clue-zone-control select:focus-visible,.clue-workspace-ready button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.clue-workspace-ready .clue-zones{margin:12px 0 20px;padding:16px 0}
+.clue-workspace-ready .clue-zones>h2{font-size:18px;margin:0 0 12px}
+.clue-workspace-ready .clue-zone-games{margin-bottom:12px}
+.clue-workspace-ready .clue-zone-games button{font-size:13px;padding:9px 12px;min-height:40px}
+.clue-workspace-ready .clue-zone-status{display:inline-block;font-size:12px;margin:10px 16px 0 0}
+.clue-workspace-ready .clue-zone-reset{font-size:12px;padding:7px 10px}
+.arkham .clue-workspace-ready .clue-browser.is-browsing{grid-template-columns:minmax(0,.9fr) minmax(0,1.2fr);gap:20px;scroll-margin-top:20px}
+.arkham .clue-workspace-ready .clue-list{max-height:560px;overflow:auto;overscroll-behavior:contain;scrollbar-color:#587075 #102226;padding-right:8px}
+.arkham .clue-workspace-ready .dossier-group{margin:0}
+.arkham .clue-workspace-ready .dossier-group>h2{font-size:13px;padding:10px 4px;margin:0;color:var(--muted)}
+.arkham .clue-workspace-ready .clue-browser.is-browsing .clue-preview{position:static;max-height:560px;padding:16px 18px;background:#102226;scrollbar-color:#587075 #102226}
+.arkham .clue-workspace-ready .clue-preview-body h3{font-size:25px}
+.arkham .clue-workspace-ready .clue-preview-body p{font-size:14px}
+.arkham [data-clue-back]{border:0;border-bottom:1px solid var(--line);width:100%;padding:0 0 12px;margin-bottom:14px;background:none;color:var(--muted);font:inherit;font-size:13px;text-align:left;cursor:pointer}
+@media(max-width:960px){
+ .arkham .clue-workspace-ready .clue-browser.is-browsing{display:block}
+ .arkham .clue-workspace-ready .clue-list{max-height:none;overflow:visible;padding-right:0}
+ .arkham .clue-workspace-ready .clue-browser:not(.is-detail) .clue-preview{display:none}
+ .arkham .clue-workspace-ready .clue-browser.is-detail .clue-list{display:none}
+ .arkham .clue-workspace-ready .clue-browser.is-detail .clue-preview{display:block;max-height:none;overflow:visible}
+ .clue-zone-games{gap:6px}
+ .clue-zone-control{align-items:flex-start;flex-direction:column;gap:6px}
+ .clue-zone-control select{width:100%}
+}
 @media(max-width:700px){.arkham .file-link{grid-template-columns:22px minmax(0,1fr)}.arkham .file-link-label{grid-column:2}.arkham .file-link strong,.arkham .file-link-note{grid-column:2}}
+
+/* One inversion contract overrides the older component-specific selected paints. */
+.arkham :is([aria-current]:not([aria-current="false"]),[aria-pressed="true"],[aria-selected="true"],.menu-tile.selected){background:var(--selection-bg)!important;color:var(--selection-fg)!important;border-color:var(--selection-bg)!important;box-shadow:none!important;opacity:1!important}
+.arkham :is([aria-current]:not([aria-current="false"]),[aria-pressed="true"],[aria-selected="true"],.menu-tile.selected) :is(span,small,strong,p,h2,h3,h4,label,code,.label){color:var(--selection-fg)!important}
+.arkham :is([aria-current]:not([aria-current="false"]),[aria-pressed="true"],[aria-selected="true"],.menu-tile.selected) :is(svg.ai,svg.menu-icon){--icon-paint:var(--selection-fg)!important;--icon-shade:var(--selection-fg)!important}
+.arkham :is([aria-current]:not([aria-current="false"]),[aria-pressed="true"]) :is(.pip-core,.inmate-status-pip){background:var(--selection-fg)!important;border-color:var(--selection-fg)!important;box-shadow:none!important}
+.arkham select option:checked{background:var(--selection-bg);color:var(--selection-fg)}
+.arkham input:is([type=checkbox],[type=radio]):checked{accent-color:var(--selection-bg)}
+.arkham :is([aria-current]:not([aria-current="false"]),[aria-pressed="true"],[aria-selected="true"],.menu-tile.selected):focus-visible{outline:2px solid var(--text);outline-offset:3px;box-shadow:inset 0 0 0 2px var(--selection-fg)!important}
+.arkham .recent-object{margin:0 0 18px}
+.arkham .recent-object a{display:grid;grid-template-columns:26px minmax(0,1fr);align-items:center;gap:12px;padding:12px 16px;border:1px solid var(--line);background:var(--surface);color:var(--text);text-decoration:none}
+.arkham details.clue-map{margin:14px 0 0;padding:0;border:1px solid var(--line);background:var(--surface)}
+.arkham .clue-map[hidden],.arkham .clue-map [hidden]{display:none!important}
+.arkham .clue-map>summary{display:flex;align-items:center;gap:12px;min-height:48px;padding:10px 14px;color:var(--text);cursor:pointer;list-style:none}
+.arkham .clue-map>summary::-webkit-details-marker{display:none}
+.arkham .clue-map>summary:after{content:'＋';margin-left:auto;font-size:18px}
+.arkham .clue-map>summary small{display:block;font-size:11px;font-weight:400;color:var(--muted);margin-top:3px}
+.arkham .clue-map[open]>summary{margin:0;background:var(--selection-bg);color:var(--selection-fg)}
+.arkham .clue-map[open]>summary:after{content:'−'}
+.arkham .clue-map[open]>summary small{color:inherit}
+.arkham .clue-map[open]>summary svg.ai{--icon-paint:var(--selection-fg);--icon-shade:var(--selection-fg);color:var(--selection-fg)}
+.arkham .clue-map>summary:focus-visible,.arkham .clue-map-viewport:focus-visible{outline:2px solid var(--text);outline-offset:3px}
+.arkham .clue-map-body{padding:14px;min-width:0}
+.arkham .clue-map-context{font-size:12px;color:var(--muted);margin:0 0 10px;overflow-wrap:anywhere}
+.arkham .clue-map-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:12px}
+.arkham .clue-map-controls button{min-width:44px;min-height:44px;padding:8px 12px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit;cursor:pointer}
+.arkham .clue-map-controls button:disabled{opacity:.45;cursor:default}
+.arkham .clue-map-controls output{min-width:42px;text-align:center;font-size:12px}
+.arkham .clue-map-controls>span{flex-basis:100%;font-size:11px;color:var(--muted)}
+.arkham .clue-map-viewport{aspect-ratio:16/9;overflow:auto;overscroll-behavior:contain;scrollbar-color:#587075 #102226;background:#0b2024;touch-action:pan-y}
+.arkham .clue-map-viewport.is-zoomed{cursor:grab;touch-action:none}
+.arkham .clue-map-viewport.is-zoomed:active{cursor:grabbing}
+.arkham .clue-map-plane{width:100%}
+.arkham .clue-map-plane img{display:block;width:100%;height:auto;max-width:none;user-select:none;-webkit-user-drag:none}
+.arkham .clue-map-source{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:11px;margin:10px 0 0;color:var(--muted)}
+.arkham .clue-map-source a{color:inherit;text-underline-offset:3px}
+.arkham .recent-object a:hover{background:#17323a;border-color:var(--muted)}
+.arkham .recent-object svg.ai{width:24px;height:24px}
+.arkham .recent-object small{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
+.arkham .recent-object strong{display:block;font-size:15px;font-weight:500;overflow-wrap:anywhere}
 

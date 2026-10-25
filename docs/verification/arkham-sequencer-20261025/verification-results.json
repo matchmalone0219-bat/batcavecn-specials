@@ -1,0 +1,48 @@
+{
+  "build": {
+    "pages": 160,
+    "searchRecords": 589
+  },
+  "content": {
+    "internalLinks": 6245,
+    "result": "PASS"
+  },
+  "buildRegression": {
+    "tests": 4,
+    "result": "PASS"
+  },
+  "scripts": {
+    "verify-sequencer.js": "PASS",
+    "verify-investigation.js": "PASS",
+    "verify-recent.js": "PASS",
+    "verify-clues.js": "PASS",
+    "verify-arkham-nav.js": "PASS",
+    "verify-arkham-menu.js": "PASS",
+    "verify-intercom.js": "PASS"
+  },
+  "pages": {
+    "basePath": "/batcavecn-specials",
+    "pages": 160,
+    "linksAndAssets": 8423,
+    "result": "PASS"
+  },
+  "browser": {
+    "views": 24,
+    "widths": [
+      320,
+      390,
+      1280,
+      1440
+    ],
+    "overflow": 0,
+    "stableSelectionMismatches": 0,
+    "consoleErrors": 0,
+    "pointer": "Actual Chrome drag to X 062 / Y 022, followed by native retrieval to sharp-city",
+    "keyboard": "Shift+ArrowDown loses capture; Escape returns list without navigating away",
+    "audio": "All 12 transmission views left spoilers closed and no audio source loaded"
+  },
+  "scope": {
+    "localOnly": true,
+    "published": false
+  }
+}

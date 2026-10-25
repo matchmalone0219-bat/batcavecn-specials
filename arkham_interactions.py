@@ -4,9 +4,19 @@ import math
 from render_common import ROOT, esc, paragraphs
 from patient_player import recording_controls
 from transmission_player import transmission_controls
+from arkham_icons import icon
+from arkham_sequencer import sequencer
 
 
 TERMINALS = [('/arkham/detective/', 'evidence', '案件重建'), ('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
+# Interface positions, independent of the source recordings' frequency fields.
+TUNING_POSITIONS = {
+    'joker-city': (24, 34), 'sharp-city': (62, 22), 'zsasz-city': (78, 70),
+    'knight-oracle': (14, 20), 'knight-scarecrow': (44, 15),
+    'knight-harley': (78, 18), 'knight-riddler': (25, 48),
+    'knight-penguin': (60, 46), 'knight-stagg': (87, 53),
+    'knight-joker-case': (35, 80), 'knight-pyg': (74, 82),
+}
 
 
 def terminal_bar(current):
@@ -43,8 +53,9 @@ def build_interactions(data, shell):
     def record(title, summary, url):
         records.append(dict(title=title, original=title, summary=summary, tags=['调查终端'], site='arkham', status='互动档案', url=url))
 
-    def page(title, body):
-        return shell(data, 'arkham', title, body, 'archive').replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css"><script src="/assets/arkham-investigation.js" defer></script></head>')
+    def page(title, body, sequencer=False):
+        extra = '<script src="/assets/arkham-channel-tuning.js" defer></script>' if sequencer else ''
+        return shell(data, 'arkham', title, body, 'archive').replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css">' + extra + '<script src="/assets/arkham-investigation.js" defer></script></head>')
 
     case_data = []
     fallback = ''
@@ -57,7 +68,7 @@ def build_interactions(data, shell):
         for e in c['evidence']:
             assert set(e['sources']) <= sources.keys()
         item = dict(c, number=f'{n:02d}', src='/assets/media/' + image['file'], width=image['width'], height=image['height'], caption=image['caption'])
-        item['evidence'] = [dict(e, linksHtml=links(e['links'])) for e in c['evidence']]
+        item['evidence'] = [dict(e, linksHtml=links(e['links']), iconHtml=icon('evidence' if index == 0 else 'dossiers')) for index, e in enumerate(c['evidence'])]
         case_data.append(item)
         fallback += f'<article id="case-{esc(c["id"])}"><h2>{esc(c["title"])}</h2><p>{esc(c["game"])} · {esc(c["region"])}</p><img src="{item["src"]}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["caption"])}">' + ''.join(f'<h3>{esc(e["title"])}</h3>{paragraphs(e["body"])}{links(e["links"])}' for e in c['evidence']) + f'<h3>案件总结</h3>{paragraphs(c["summary"])}</article>'
         record(c['title'] + ' · 案件重建', c['subtitle'], '/arkham/detective/#case-' + c['id'])
@@ -70,9 +81,9 @@ def build_interactions(data, shell):
 <nav class="case-register" aria-label="选择调查">{tabs}</nav>
 <div class="investigation-workspace" hidden data-workspace>
 <section class="scene-console"><div class="console-bar"><span data-case-number>CASE 01</span><button type="button" class="terminal-motion" data-motion aria-pressed="true">终端动效：开</button><span data-mode-label>NORMAL VISION</span></div><h2 data-case-title>{esc(first['title'])}</h2><p class="scene-location" data-location>{esc(first['game'])} · {esc(first['region'])}</p>
-<div class="investigation-scene" data-scene><img data-scene-image src="{first['src']}" width="{first['width']}" height="{first['height']}" alt="{esc(first['caption'])}"><div class="scan-grid" aria-hidden="true"></div><button type="button" class="scan-hotspot" data-scan hidden aria-label="扫描现场物件"><span>01</span><small>SCAN</small></button></div>
-<div class="scan-controls"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span></div></section>
-<aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN</p><p class="terminal-feedback" data-feedback role="status">普通视野</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div></div></aside></div>
+<div class="scan-controls scene-toolbar"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span><p class="terminal-feedback" data-feedback role="status">普通视野 · 激活侦探模式以锁定现场物证</p></div>
+<div class="investigation-scene" data-scene><img data-scene-image src="{first['src']}" width="{first['width']}" height="{first['height']}" alt="{esc(first['caption'])}"><div class="scan-grid" aria-hidden="true"></div><button type="button" class="scan-hotspot" data-scan hidden aria-label="扫描现场物件"><span>01</span><small>SCAN</small></button></div></section>
+<aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN / 现场物证与关联档案</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div></div></aside></div>
 <section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
 <div class="terminal-fallback" data-case-fallback>{fallback}</div>
 {terminal_bar("/arkham/detective/")}
@@ -96,7 +107,7 @@ def build_interactions(data, shell):
         for deg in [-30, 90, 210]:
             rad = math.radians(deg)
             sx, sy = 100 + 83 * math.cos(rad), 100 + 83 * math.sin(rad)
-            screws.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="2.8" fill="#52564a" stroke="#1d1e1b" stroke-width="0.8"/><line x1="{sx-1.8:.1f}" y1="{sy:.1f}" x2="{sx+1.8:.1f}" y2="{sy:.1f}" stroke="#1d1e1b" stroke-width="0.8"/>')
+            screws.append(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="2.8" fill="#4a5456" stroke="#1b1d1e" stroke-width="0.8"/><line x1="{sx-1.8:.1f}" y1="{sy:.1f}" x2="{sx+1.8:.1f}" y2="{sy:.1f}" stroke="#1b1d1e" stroke-width="0.8"/>')
         screws_svg = "".join(screws)
 
         ticks = []
@@ -106,17 +117,17 @@ def build_interactions(data, shell):
             x1, y1 = 100 + 91 * math.cos(rad), 100 + 91 * math.sin(rad)
             x2, y2 = 100 + 94.5 * math.cos(rad), 100 + 94.5 * math.sin(rad)
             stroke_w = "1.2" if i % 6 == 0 else "0.6"
-            stroke_col = "#727767" if i % 6 == 0 else "#3d4038"
+            stroke_col = "#677477" if i % 6 == 0 else "#383f40"
             ticks.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{stroke_col}" stroke-width="{stroke_w}"/>')
         ticks_svg = "".join(ticks)
 
         return f'''<svg class="reel-spool-svg" viewBox="0 0 200 200" aria-hidden="true">
 <defs>
 <radialGradient id="al-flange-{uid}" cx="45%" cy="40%" r="60%">
-<stop offset="0%" stop-color="#3d4037"/>
-<stop offset="45%" stop-color="#21231e"/>
-<stop offset="75%" stop-color="#363931"/>
-<stop offset="100%" stop-color="#171815"/>
+<stop offset="0%" stop-color="#373e40"/>
+<stop offset="45%" stop-color="#1e2223"/>
+<stop offset="75%" stop-color="#313839"/>
+<stop offset="100%" stop-color="#151718"/>
 </radialGradient>
 <radialGradient id="tape-pack-{uid}" cx="50%" cy="50%" r="50%">
 <stop offset="0%" stop-color="#301a0f"/>
@@ -125,9 +136,9 @@ def build_interactions(data, shell):
 <stop offset="100%" stop-color="#150a05"/>
 </radialGradient>
 <radialGradient id="hub-met-{uid}" cx="40%" cy="35%" r="65%">
-<stop offset="0%" stop-color="#52564b"/>
-<stop offset="60%" stop-color="#292b25"/>
-<stop offset="100%" stop-color="#141513"/>
+<stop offset="0%" stop-color="#4b5456"/>
+<stop offset="60%" stop-color="#252a2b"/>
+<stop offset="100%" stop-color="#131515"/>
 </radialGradient>
 <mask id="mask-{uid}">
 <rect width="200" height="200" fill="white"/>
@@ -138,41 +149,41 @@ def build_interactions(data, shell):
 <circle cx="100" cy="100" r="{tape_r}" fill="url(#tape-pack-{uid})"/>
 <circle cx="100" cy="100" r="{tape_r - 8}" fill="none" stroke="#381f12" stroke-width="0.7" stroke-dasharray="3 2"/>
 <circle cx="100" cy="100" r="{tape_r - 18}" fill="none" stroke="#381f12" stroke-width="0.7" stroke-dasharray="4 2"/>
-<circle cx="100" cy="100" r="96" fill="url(#al-flange-{uid})" mask="url(#mask-{uid})" stroke="#666b5d" stroke-width="1.8"/>
-<circle cx="100" cy="100" r="90" fill="none" stroke="#272924" stroke-width="1" mask="url(#mask-{uid})"/>
-<path d="{holes_path}" fill="none" stroke="#666b5d" stroke-width="1.4" opacity="0.85"/>
+<circle cx="100" cy="100" r="96" fill="url(#al-flange-{uid})" mask="url(#mask-{uid})" stroke="#5d686b" stroke-width="1.8"/>
+<circle cx="100" cy="100" r="90" fill="none" stroke="#242829" stroke-width="1" mask="url(#mask-{uid})"/>
+<path d="{holes_path}" fill="none" stroke="#5d686b" stroke-width="1.4" opacity="0.85"/>
 {ticks_svg}
 {screws_svg}
-<circle cx="100" cy="100" r="36" fill="url(#hub-met-{uid})" stroke="#6b7062" stroke-width="1.5"/>
-<circle cx="100" cy="100" r="28" fill="none" stroke="#363931" stroke-width="1.2"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8" transform="rotate(120 100 100)"/>
-<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#121311" stroke="#4b4e44" stroke-width="0.8" transform="rotate(240 100 100)"/>
-<circle cx="100" cy="100" r="16" fill="#1f201c" stroke="#8d9282" stroke-width="1.2"/>
-<circle cx="100" cy="100" r="7" fill="#090908" stroke="#5b5f53" stroke-width="1"/>
+<circle cx="100" cy="100" r="36" fill="url(#hub-met-{uid})" stroke="#626d70" stroke-width="1.5"/>
+<circle cx="100" cy="100" r="28" fill="none" stroke="#313839" stroke-width="1.2"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#111313" stroke="#444c4e" stroke-width="0.8"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#111313" stroke="#444c4e" stroke-width="0.8" transform="rotate(120 100 100)"/>
+<rect x="97.5" y="68" width="5" height="8" rx="1" fill="#111313" stroke="#444c4e" stroke-width="0.8" transform="rotate(240 100 100)"/>
+<circle cx="100" cy="100" r="16" fill="#1c1f20" stroke="#828f92" stroke-width="1.2"/>
+<circle cx="100" cy="100" r="7" fill="#090908" stroke="#535d5f" stroke-width="1"/>
 </svg>'''
 
     VU_SCALE_SVG = '''<svg viewBox="0 0 110 44" class="vu-scale-svg" aria-hidden="true">
-<path d="M 10 38 A 60 60 0 0 1 100 38" fill="none" stroke="#30322b" stroke-width="2"/>
+<path d="M 10 38 A 60 60 0 0 1 100 38" fill="none" stroke="#2b3132" stroke-width="2"/>
 <path d="M 76 21 A 60 60 0 0 1 100 38" fill="none" stroke="#d94b38" stroke-width="2.2"/>
-<line x1="16" y1="33" x2="19" y2="30" stroke="#616558" stroke-width="1"/>
-<line x1="32" y1="26" x2="34" y2="23" stroke="#616558" stroke-width="1"/>
-<line x1="52" y1="21" x2="53" y2="18" stroke="#616558" stroke-width="1.2"/>
+<line x1="16" y1="33" x2="19" y2="30" stroke="#586365" stroke-width="1"/>
+<line x1="32" y1="26" x2="34" y2="23" stroke="#586365" stroke-width="1"/>
+<line x1="52" y1="21" x2="53" y2="18" stroke="#586365" stroke-width="1.2"/>
 <line x1="76" y1="21" x2="77" y2="18" stroke="#d94b38" stroke-width="1.4"/>
 <line x1="92" y1="28" x2="94" y2="25" stroke="#d94b38" stroke-width="1.4"/>
-<text x="18" y="40" fill="#666a5d" font-size="6" font-family="monospace">-20</text>
-<text x="50" y="29" fill="#666a5d" font-size="6" font-family="monospace">-5</text>
+<text x="18" y="40" fill="#5d686a" font-size="6" font-family="monospace">-20</text>
+<text x="50" y="29" fill="#5d686a" font-size="6" font-family="monospace">-5</text>
 <text x="74" y="27" fill="#d94b38" font-size="7" font-weight="bold" font-family="monospace">0</text>
 <text x="94" y="36" fill="#d94b38" font-size="6" font-weight="bold" font-family="monospace">+3</text>
 </svg>'''
 
     BARCODE_SVG = '<svg viewBox="0 0 140 22" class="inmate-barcode-svg" aria-hidden="true">' + ''.join(
-        f'<rect x="{x}" y="0" width="{w}" height="22" fill="#54584d"/>'
+        f'<rect x="{x}" y="0" width="{w}" height="22" fill="#4d5658"/>'
         for x, w in [(4, 2), (8, 4), (14, 1), (17, 3), (22, 1), (25, 4), (31, 2), (35, 1), (38, 4), (44, 2), (48, 1), (51, 3), (56, 4), (62, 1), (65, 3), (70, 2), (74, 4), (80, 1), (83, 3), (88, 2), (92, 4), (98, 1), (101, 3), (106, 2), (110, 4), (116, 2), (120, 1), (123, 3), (128, 4), (134, 2)]
     ) + '</svg>'
 
     def game_tabs(games):
-        return '<nav class="recording-game-tabs" aria-label="选择游戏">' + ''.join(f'<button type="button" data-recording-game="{esc(key)}" aria-pressed="{str(n == 0).lower()}">{esc(title)}</button>' for n, (key, title) in enumerate(games)) + '</nav>'
+        return '<nav class="recording-game-tabs" aria-label="选择游戏" hidden>' + ''.join(f'<button type="button" data-recording-game="{esc(key)}" aria-pressed="{str(n == 0).lower()}">{esc(title)}</button>' for n, (key, title) in enumerate(games)) + '</nav>'
 
     registers = ''
     panels = ''
@@ -234,7 +245,7 @@ def build_interactions(data, shell):
 </div>
 <details class="spoiler patient-recording">
 <summary>访谈导读与原声 · 含剧透</summary>
-{paragraphs(p['gist'])}
+{recording_controls(p, compact=True)}
 <div class="tape-console">
 <div class="tape-deck-housing">
 <span class="chassis-screw screw-tl" aria-hidden="true"></span>
@@ -333,7 +344,7 @@ def build_interactions(data, shell):
 </div>
 </div>
 </div>
-{recording_controls(p)}
+{paragraphs(p['gist'])}
 
 </details>
 </article>'''
@@ -359,6 +370,8 @@ def build_interactions(data, shell):
     record('患者终端', '《疯人院》与《之城》的患者访谈原声与导读。', '/arkham/patients/')
 
     channels = transmissions['channels']
+    assert set(TUNING_POSITIONS) == {ch['id'] for ch in channels}
+    tuning_data = json.dumps([dict(id=ch['id'], game=ch['gameId'], title=ch['title'], x=TUNING_POSITIONS[ch['id']][0], y=TUNING_POSITIONS[ch['id']][1]) for ch in channels], ensure_ascii=False).replace('<', '\\u003c')
     channel_cards = ''
     panels_trans = ''
     for n, ch in enumerate(channels, 1):
@@ -375,9 +388,9 @@ def build_interactions(data, shell):
 {portrait('channels', ch['id'])}
 <div><p class="label">INTERCEPTED FREQUENCY · 截获通信</p><h2>{esc(ch['title'])}</h2><p>{esc(ch['englishTitle'])}</p><p class="fine">发信人：{esc(ch['speaker'])} ({esc(ch['speakerEnglish'])}){esc(actor_note)} · {esc(ch['device'])}</p></div>
 </div>
-<div class="listening-question"><p class="label">TRANSMISSION OVERVIEW / 信道背景</p><p>{esc(ch['summary'])}</p></div>
 <details class="spoiler transmission-recording"><summary>原声与录音导读 · 含剧透</summary>
 {transmission_controls(ch)}
+<div class="listening-question"><p class="label">TRANSMISSION OVERVIEW / 信道背景</p><p>{esc(ch['summary'])}</p></div>
 <div class="transmission-lore">
 <p class="label">TACTICAL ANALYSIS / 叙事解构与背景</p>
 <h2>{esc(ch.get("loreTitle", "泰坦绝症下的病态共生"))}</h2>
@@ -393,15 +406,30 @@ def build_interactions(data, shell):
 
     terminal_trans = f'''<section class="section arkham-investigation" data-transmissions-terminal>
 <div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">调取哥谭的电话留言、广播访谈、密谈与案件录音。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+{sequencer()}
+<div data-frequency-workspace>
 {game_tabs([("arkham-city", "阿卡姆之城"), ("arkham-knight", "阿卡姆骑士")])}
-<div class="transmission-channels" aria-label="可用频段">{channel_cards}</div>
+<div class="transmission-desk"><div class="transmission-browser">
+<div class="sequencer-modes" data-sequencer-modes hidden aria-label="选择信道方式"><button type="button" data-sequencer-mode="list" aria-pressed="true">信道列表</button><button type="button" data-sequencer-mode="tune" aria-pressed="false">双轴调谐</button></div>
+<div class="transmission-channels" data-sequencer-list aria-label="可用频段">{channel_cards}</div>
+<section class="channel-tuning" data-channel-tuning hidden aria-label="双轴信道调谐器">
+<div class="sequencer-coordinates"><span>专题调谐坐标</span><output data-tuning-coordinates aria-live="off">X 050 · Y 050</output></div>
+<p class="fine" id="sequencer-help">拖动准星或使用下方滑块；在网格中按方向键微调，Shift 加速。</p>
+<div class="sequencer-field" data-tuning-field tabindex="0" role="group" aria-label="调谐网格" aria-describedby="sequencer-help"><div data-tuning-signals></div><span class="sequencer-cursor" data-tuning-cursor aria-hidden="true"></span></div>
+<div class="sequencer-sliders"><label for="tuning-x">横轴 X</label><input id="tuning-x" type="range" min="0" max="100" value="50" data-tuning-x><label for="tuning-y">纵轴 Y</label><input id="tuning-y" type="range" min="0" max="100" value="50" data-tuning-y></div>
+<p class="sequencer-state" data-tuning-state role="status" aria-live="polite">搜寻信号</p>
+<button class="sequencer-retrieve" type="button" data-tuning-retrieve disabled>锁定后调取信道</button>
+<script type="application/json" data-tuning-data>{tuning_data}</script>
+</section></div>
 <div class="transmission-workspace">{panels_trans}</div>
+</div></div>
 {terminal_bar("/arkham/transmissions/")}
 </section>'''
+    record('密码破译 · 警局安保终端', '调谐左右密钥，接入哥谭市政网络并解开警局门禁。', '/arkham/transmissions/#password-terminal')
     record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 
     return {
         'arkham/detective/index.html': page('案件重建', detective),
         'arkham/patients/index.html': page('患者终端', terminal),
-        'arkham/transmissions/index.html': page('频段监听', terminal_trans)
+        'arkham/transmissions/index.html': page('频段监听', terminal_trans, sequencer=True).replace('</head>', '<link rel="stylesheet" href="/assets/arkham-sequencer.css"><script src="/assets/arkham-sequencer.js" defer></script></head>')
     }, records

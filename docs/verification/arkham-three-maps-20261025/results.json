@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "scope": "现场物证索引的三作地图参考；仅本地更新",
+  "build": {
+    "pages": 160,
+    "searchRecords": 589
+  },
+  "validation": {
+    "internalLinksAndAnchors": 6248,
+    "buildRegressionTests": 4,
+    "pagesLinksAndAssets": 8430,
+    "nodeSuites": [
+      "verify-map.js",
+      "verify-clues.js",
+      "verify-investigation.js",
+      "verify-recent.js",
+      "verify-sequencer.js"
+    ]
+  },
+  "browser": {
+    "widths": [
+      320,
+      390,
+      1280,
+      1440
+    ],
+    "normalViews": 36,
+    "scriptBlockedViews": 12,
+    "horizontalOverflow": false,
+    "selectedBackground": "#e4e5dc",
+    "selectedForeground": "#121716",
+    "asylumAndKnightKeyboardDelta": 40,
+    "homeReset": "100%",
+    "allAndOriginsMapCount": 0
+  },
+  "limitations": [
+    "地图参考不包含逐项物证坐标",
+    "骑士截图为公开转载镜像，原始上传者未查明",
+    "未使用真实手机硬件验收",
+    "本批未另做新地图实际指针拖动实拍；组件指针逻辑回归通过，上批City实际拖动证据保留"
+  ],
+  "deployment": "未提交、未部署"
+}

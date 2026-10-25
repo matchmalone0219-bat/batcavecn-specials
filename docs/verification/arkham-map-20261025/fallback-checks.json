@@ -1,0 +1,34 @@
+[
+  {
+    "controlsHidden": true,
+    "imageWidth": 1024,
+    "open": true,
+    "overflow": false,
+    "sourceLinks": 2,
+    "width": 320
+  },
+  {
+    "controlsHidden": true,
+    "imageWidth": 1024,
+    "open": true,
+    "overflow": false,
+    "sourceLinks": 2,
+    "width": 390
+  },
+  {
+    "controlsHidden": true,
+    "imageWidth": 1024,
+    "open": true,
+    "overflow": false,
+    "sourceLinks": 2,
+    "width": 1280
+  },
+  {
+    "controlsHidden": true,
+    "imageWidth": 1024,
+    "open": true,
+    "overflow": false,
+    "sourceLinks": 2,
+    "width": 1440
+  }
+]

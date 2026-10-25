@@ -1,0 +1,25 @@
+{
+  "id": "arkham-asylum-reference",
+  "game": "asylum",
+  "title": "阿卡姆岛地图参考",
+  "subtitle": "北、东、西院区与主要建筑",
+  "alt": "阿卡姆岛院区总览，显示北、东、西院区和植物园、监狱、重症治疗区、医疗区、阿卡姆宅邸",
+  "file": "maps/arkham-asylum-reference.png",
+  "width": 969,
+  "height": 862,
+  "sha256": "04fc3d64f632031c2e3909413222b4f274543e0f12c5bd7b035f9cbf2cbfc8e5",
+  "source": {
+    "title": "Arkham Wiki：Clean Arkham Asylum Map",
+    "label": "Arkham Wiki",
+    "url": "https://arkhamcity.fandom.com/wiki/File:Clean_Arkham_Asylum_Map.png",
+    "imageUrl": "https://vignette.wikia.nocookie.net/arkhamcity/images/a/a2/Clean_Arkham_Asylum_Map.png/revision/latest?cb=20160524155042",
+    "type": "社区整理的院区总览图"
+  },
+  "annotations": {
+    "meaning": "院区名称、建筑轮廓及黄色出入口标记",
+    "useAsClueCoordinates": false
+  },
+  "use": "物证页按作品切换的可折叠地图参照，不提供精确物证标点",
+  "rights": "原游戏图像权利归DC / Warner Bros. / Rocksteady；转载来源不代表图片另获授权",
+  "reviewed": "2026-10-25"
+}

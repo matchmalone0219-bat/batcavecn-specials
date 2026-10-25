@@ -1,0 +1,29 @@
+{
+  "method": "640x450 CSS viewport, equivalent reflow width for 1280x900 at 200 percent; not a native browser zoom test.",
+  "views": [
+    {
+      "path": "/arkham/transmissions/",
+      "heading": "频段监听",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "path": "/arkham/patients/",
+      "heading": "患者终端",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "path": "/arkham/detective/",
+      "heading": "现场案件重建",
+      "overflow": false,
+      "width": 640
+    },
+    {
+      "path": "/arkham/archive/clues/",
+      "heading": "现场物证索引",
+      "overflow": false,
+      "width": 640
+    }
+  ]
+}

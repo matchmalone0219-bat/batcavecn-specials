@@ -1,0 +1,16 @@
+{
+  "before": 1049,
+  "after": 1051,
+  "changed": [
+    "assets/arkham-map.js",
+    "assets/arkham-clues.js",
+    "assets/arkham.css",
+    "arkham/archive/clues/index.html"
+  ],
+  "added": [
+    "assets/media/maps/arkham-asylum-reference.png",
+    "assets/media/maps/arkham-knight-reference.jpg"
+  ],
+  "removed": [],
+  "unchanged": 1045
+}

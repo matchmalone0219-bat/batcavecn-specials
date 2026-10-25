@@ -1,0 +1,126 @@
+[
+  {
+    "label": "/arkham/patients/",
+    "width": 320,
+    "audioLoaded": 0,
+    "pageWidth": 320,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgba(228, 229, 220, 0.32)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 320
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 390,
+    "audioLoaded": 0,
+    "pageWidth": 390,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgba(228, 229, 220, 0.306)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 390
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 1280,
+    "audioLoaded": 0,
+    "pageWidth": 1280,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgba(228, 229, 220, 0.318)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1280
+  },
+  {
+    "label": "/arkham/patients/",
+    "width": 1440,
+    "audioLoaded": 0,
+    "pageWidth": 1440,
+    "selected": [
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "转场音效：开"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "阿卡姆疯人院"
+      },
+      {
+        "bg": "rgba(228, 229, 220, 0.32)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "01小丑The Joker■■■■■"
+      },
+      {
+        "bg": "rgb(228, 229, 220)",
+        "fg": "rgb(18, 23, 22)",
+        "text": "TAPE 011:10TRACK 01"
+      }
+    ],
+    "signalCount": 0,
+    "spoilersOpen": 0,
+    "viewport": 1440
+  }
+]

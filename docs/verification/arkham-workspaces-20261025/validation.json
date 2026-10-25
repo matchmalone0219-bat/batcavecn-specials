@@ -1,0 +1,31 @@
+{
+  "changed": [
+    "arkham/archive/clues/index.html",
+    "arkham/archive/index.html",
+    "arkham/detective/index.html",
+    "arkham/patients/index.html",
+    "arkham/transmissions/index.html",
+    "assets/app.js",
+    "assets/arkham-investigation.css",
+    "assets/arkham-investigation.js",
+    "assets/arkham.css"
+  ],
+  "added": [
+    "assets/arkham-clues.js"
+  ],
+  "removed": [],
+  "unchangedFiles": 1035,
+  "readingPlayerOutputUnchangedForPatients": 14,
+  "noScriptClueFallback": {
+    "items": 138,
+    "details": 138,
+    "districtGroups": 31,
+    "allDistrictBoardsVisible": true
+  },
+  "build": {
+    "pages": 160,
+    "searchRecords": 589,
+    "internalLinksAndAnchors": 6244
+  },
+  "publication": "local only; release copy untouched"
+}

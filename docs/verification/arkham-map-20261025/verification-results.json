@@ -1,0 +1,26 @@
+{
+  "build": {
+    "pages": 160,
+    "searchRecords": 589
+  },
+  "contentLinks": 6246,
+  "buildRegressionTests": 4,
+  "regressions": {
+    "verify-map.js": "PASS",
+    "verify-clues.js": "PASS",
+    "verify-investigation.js": "PASS",
+    "verify-recent.js": "PASS",
+    "verify-sequencer.js": "PASS"
+  },
+  "pagesLinksAndAssets": 8426,
+  "browserViews": 12,
+  "blockedScriptViews": 4,
+  "widths": [
+    320,
+    390,
+    1280,
+    1440
+  ],
+  "fakeCluePins": 0,
+  "published": false
+}

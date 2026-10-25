@@ -3,7 +3,7 @@ import json
 from render_common import esc
 
 
-def recording_controls(patient):
+def recording_controls(patient, *, compact=False):
     tapes = patient['tapes']
     buttons = ''.join(
         f'<button type="button" data-tape="{n}" aria-pressed="{str(n == 0).lower()}" class="cassette-btn">'
@@ -16,7 +16,8 @@ def recording_controls(patient):
     )
     payload = json.dumps([dict(src='/assets/' + t['audioFile'], label=f'TAPE {n + 1:02d}', cues=t['cues'], summary=t.get('summary', '')) for n, t in enumerate(tapes)], ensure_ascii=False).replace('<', '\\u003c')
     fallback = ''.join(f'<a href="/assets/{esc(t["audioFile"])}">录音 {n + 1:02d}</a> ' for n, t in enumerate(tapes))
-    return f'''<nav class="tape-selector" aria-label="选择录音">{buttons}</nav>
+    transport = f'<button type="button" class="load-recording" data-load-recording hidden>播放所选录音</button><div class="patient-player"><audio controls preload="none" hidden aria-label="{esc(patient["name"])}访谈录音"></audio><div data-recording-fallback>{fallback}</div></div>'
+    return f'''{transport if compact else ''}<nav class="tape-selector" aria-label="选择录音" hidden>{buttons}</nav>
 <div class="tape-deck-telemetry">
 <p class="label tape-label" data-tape-label>TAPE 01 / {len(tapes):02d}</p>
 <span class="vu-meter-tag" aria-hidden="true">OSCILLOSCOPE // 44.1kHz AAC · MONO</span>
@@ -42,5 +43,5 @@ def recording_controls(patient):
 </div>
 <p data-subtitle>{esc(tapes[0].get('summary') or '点击播放，显示本段字幕。')}</p>
 </div>
-<button type="button" class="load-recording" data-load-recording hidden>播放所选录音</button><div class="patient-player"><audio controls preload="none" hidden aria-label="{esc(patient['name'])}访谈录音"></audio><noscript>{fallback}</noscript></div>
+{'' if compact else transport}
 <script type="application/json" data-tape-data>{payload}</script>'''

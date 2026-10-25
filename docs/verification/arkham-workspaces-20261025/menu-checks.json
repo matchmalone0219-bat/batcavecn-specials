@@ -1,0 +1,35 @@
+{
+  "method": "Production HTML and styles, single-slide local fixtures, screenshots after the 180ms selection animation",
+  "backgrounds": [
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/arkham-city-02.jpg",
+      "overflow": false
+    },
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/arkham-asylum-01.jpg",
+      "overflow": false
+    },
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/arkham-origins-01.jpg",
+      "overflow": false
+    },
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/arkham-origins-blackgate-01.jpg",
+      "overflow": false
+    },
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/arkham-knight-01.jpg",
+      "overflow": false
+    },
+    {
+      "description": "八部作品 · 阿卡姆岛、黑门、虚拟现实与大都会",
+      "image": "http://127.0.0.1:8877/assets/media/suicide-squad-kill-the-justice-league-01.jpg",
+      "overflow": false
+    }
+  ]
+}

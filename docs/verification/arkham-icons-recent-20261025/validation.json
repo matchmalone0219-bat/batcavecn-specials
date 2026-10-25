@@ -1,0 +1,64 @@
+{
+  "baselineFiles": 1045,
+  "changed": [
+    "arkham/archive/asylum-history/index.html",
+    "arkham/archive/clues/index.html",
+    "arkham/archive/index.html",
+    "arkham/archive/interviews/index.html",
+    "arkham/archive/publications/index.html",
+    "arkham/archive/riddler/index.html",
+    "arkham/archive/rocksteady/index.html",
+    "arkham/archive/stories/index.html",
+    "arkham/catalog/index.html",
+    "arkham/collectibles/index.html",
+    "arkham/detective/index.html",
+    "arkham/gallery/index.html",
+    "arkham/games/arkham-asylum/index.html",
+    "arkham/games/arkham-city/index.html",
+    "arkham/games/arkham-knight/index.html",
+    "arkham/games/arkham-origins-blackgate/index.html",
+    "arkham/games/arkham-origins/index.html",
+    "arkham/games/arkham-shadow/index.html",
+    "arkham/games/arkham-vr/index.html",
+    "arkham/games/suicide-squad-kill-the-justice-league/index.html",
+    "arkham/index.html",
+    "arkham/menu/index.html",
+    "arkham/patients/index.html",
+    "arkham/people/kevin-conroy/index.html",
+    "arkham/search/index.html",
+    "arkham/sources/index.html",
+    "arkham/transmissions/index.html",
+    "assets/app.js",
+    "assets/arkham-clues.js",
+    "assets/arkham-investigation.css",
+    "assets/arkham-investigation.js",
+    "assets/arkham.css"
+  ],
+  "added": [
+    "assets/arkham-recent.js"
+  ],
+  "removed": [],
+  "unchangedFiles": 1013,
+  "build": {
+    "pages": 160,
+    "internalLinksAndAnchors": 6245,
+    "searchRecords": 589
+  },
+  "singleSurfaceDefinition": true,
+  "selection": {
+    "background": "#e4e5dc",
+    "foreground": "#121716"
+  },
+  "checks": [
+    "verify.py",
+    "verify-build.py (4 tests)",
+    "verify-clues.js",
+    "verify-recent.js",
+    "verify-investigation.js",
+    "verify-arkham-nav.js",
+    "verify-arkham-menu.js",
+    "verify-intercom.js",
+    "prepare_pages.py --base-path /batcavecn-specials (8422 links/assets)"
+  ],
+  "release": "local only, no publication"
+}

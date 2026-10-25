@@ -1,0 +1,452 @@
+{
+  "matrix": [
+    {
+      "height": 844,
+      "path": "/arkham/menu/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/catalog/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/clues/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/detective/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/patients/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/transmissions/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/collectibles/",
+      "scrollWidth": 320,
+      "selectionFailures": [],
+      "width": 320
+    },
+    {
+      "height": 844,
+      "path": "/arkham/menu/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/catalog/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/archive/clues/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/detective/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/patients/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/transmissions/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 844,
+      "path": "/arkham/collectibles/",
+      "scrollWidth": 390,
+      "selectionFailures": [],
+      "width": 390
+    },
+    {
+      "height": 720,
+      "path": "/arkham/menu/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/catalog/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/archive/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/archive/clues/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/detective/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/patients/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/transmissions/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 720,
+      "path": "/arkham/collectibles/",
+      "scrollWidth": 1280,
+      "selectionFailures": [],
+      "width": 1280
+    },
+    {
+      "height": 900,
+      "path": "/arkham/menu/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/catalog/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/archive/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/archive/clues/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/detective/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/patients/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/transmissions/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    },
+    {
+      "height": 900,
+      "path": "/arkham/collectibles/",
+      "scrollWidth": 1440,
+      "selectionFailures": [],
+      "width": 1440
+    }
+  ],
+  "colorChecks": [
+    {
+      "path": "/arkham/menu/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "作品档案GAME ARCHIVE"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "动态背景：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/catalog/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "作品档案"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "2009蝙蝠侠：阿卡姆疯人院Batman: Arkham Asylum"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/archive/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "档案馆"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "案件重建DETECTIVE MODE已完成 0 / 3"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/archive/clues/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "档案馆"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "现场物证索引EVIDENCE INDEX"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "阿卡姆之城 · 70"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "透视扫描透视问号阿卡姆之城 · Amusement Mile"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/patients/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "档案馆"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "阿卡姆疯人院"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "01小丑The Joker■■■■■"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "TAPE 011:10TRACK 01"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "患者终端"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/transmissions/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "档案馆"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "阿卡姆之城"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "CHANNEL: 104.5 MHz小丑的加密通讯与绝唱阿卡姆之城 · 小丑"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "TRACK 01直通热线与浪漫晚餐0:23"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "频段监听"
+        }
+      ]
+    },
+    {
+      "path": "/arkham/collectibles/",
+      "selected": [
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "周边档案"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "转场音效：开"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": "#121716",
+          "label": "全部 · 16"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": "《阿卡姆之城》BatmanHot Toys · Arkham City"
+        },
+        {
+          "bg": "rgb(228, 229, 220)",
+          "fg": "rgb(18, 23, 22)",
+          "iconPaint": null,
+          "label": ""
+        }
+      ]
+    }
+  ],
+  "channelResume": "channel-sharp-city"
+}

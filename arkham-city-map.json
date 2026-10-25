@@ -1,0 +1,27 @@
+{
+  "id": "arkham-city-reference",
+  "file": "maps/arkham-city-reference.webp",
+  "width": 1024,
+  "height": 576,
+  "sha256": "053c5022f50a29ef6bcaf96e356b3dcef3dac028aafb7447535c8d0ed8ae63f3",
+  "providedFile": "Arkham_City.webp",
+  "source": {
+    "title": "Batman维基：阿甘之城 / 地图",
+    "url": "https://arkhamcity.fandom.com/zh/wiki/%E9%98%BF%E7%94%98%E4%B9%8B%E5%9F%8E",
+    "imageUrl": "https://static.wikia.nocookie.net/batman/images/d/d2/Arkham_City.jpg/revision/latest?cb=20111221123733",
+    "type": "用户提供的社区收录游戏地图截图",
+    "label": "Batman维基"
+  },
+  "annotations": {
+    "meaning": "Watcher in the Wings / 死亡天使支线位置及符号叠层",
+    "support": "https://www.eliteguias.com/guias/b/batac/batman-arkham-city-p13.php",
+    "useAsClueCoordinates": false
+  },
+  "use": "物证页可折叠的地图参照，不提供精确物证标点",
+  "rights": "原游戏图像权利归DC / Warner Bros. / Rocksteady；社区来源不代表图片另获授权",
+  "reviewed": "2026-10-25",
+  "game": "city",
+  "title": "阿卡姆城地图参考",
+  "subtitle": "含死亡天使支线位置标记",
+  "alt": "阿卡姆城俯视地图，保留死亡天使支线的1至5号位置与符号叠层"
+}

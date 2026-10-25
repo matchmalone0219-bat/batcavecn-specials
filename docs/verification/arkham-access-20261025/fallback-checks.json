@@ -1,0 +1,105 @@
+{
+  "method": "Unmodified generated HTML served with CSP script-src none. No markup substitution; browser JS preference unchanged.",
+  "views": [
+    {
+      "path": "/arkham/patients/",
+      "deadControls": 0,
+      "links": 69,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "path": "/arkham/transmissions/",
+      "deadControls": 0,
+      "links": 36,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "path": "/arkham/archive/interviews/",
+      "deadControls": 0,
+      "links": 0,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "path": "/arkham/patients/",
+      "deadControls": 0,
+      "links": 69,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "path": "/arkham/transmissions/",
+      "deadControls": 0,
+      "links": 36,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "path": "/arkham/archive/interviews/",
+      "deadControls": 0,
+      "links": 49,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "path": "/arkham/patients/",
+      "deadControls": 0,
+      "links": 69,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "path": "/arkham/transmissions/",
+      "deadControls": 0,
+      "links": 36,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "path": "/arkham/archive/interviews/",
+      "deadControls": 0,
+      "links": 0,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1280
+    },
+    {
+      "path": "/arkham/patients/",
+      "deadControls": 0,
+      "links": 69,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "path": "/arkham/transmissions/",
+      "deadControls": 0,
+      "links": 36,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1440
+    },
+    {
+      "path": "/arkham/archive/interviews/",
+      "deadControls": 0,
+      "links": 54,
+      "openSpoilers": 0,
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "foldedRecording": {
+    "open": true,
+    "visibleLinks": 5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "arkham-knight-reference",
+  "game": "knight",
+  "title": "哥谭三岛地图参考",
+  "subtitle": "游戏地图界面 · 保留原有任务标记",
+  "alt": "阿卡姆骑士游戏地图界面，显示布雷克岛、三浦岛、创始人岛及原有绿色任务图标",
+  "file": "maps/arkham-knight-reference.jpg",
+  "width": 1920,
+  "height": 1080,
+  "sha256": "2299c0605da9beb37a72ba54f1c8d0e63dedfe1b328cd0d1c202b930116a1d46",
+  "source": {
+    "title": "Batman Arkham Knight 游戏地图界面截图（公开转载）",
+    "label": "公开游戏截图（Pinterest镜像）",
+    "url": "https://i.pinimg.com/originals/32/ea/72/32ea7298b43cea5beefcfc1abebda514.jpg",
+    "imageUrl": "https://i.pinimg.com/originals/32/ea/72/32ea7298b43cea5beefcfc1abebda514.jpg",
+    "type": "公开转载的游戏地图界面截图；未取得原始上传者信息"
+  },
+  "annotations": {
+    "meaning": "原图游戏菜单、三岛轮廓及绿色任务图标",
+    "useAsClueCoordinates": false
+  },
+  "use": "物证页按作品切换的可折叠地图参照，不提供精确物证标点",
+  "rights": "原游戏图像权利归DC / Warner Bros. / Rocksteady；转载来源不代表图片另获授权",
+  "reviewed": "2026-10-25"
+}

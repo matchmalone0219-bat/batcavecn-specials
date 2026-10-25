@@ -1,0 +1,492 @@
+{
+  "views": [
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "asylum"
+      ],
+      "width": 320
+    },
+    {
+      "context": "列表当前：阿卡姆疯人院 / Medical Facility / Morgue / 大白鲨标本",
+      "game": "asylum",
+      "natural": [
+        969,
+        862
+      ],
+      "overflow": false,
+      "scroll": [
+        246,
+        219
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        246,
+        219
+      ],
+      "width": 320
+    },
+    {
+      "canPan": true,
+      "game": "asylum",
+      "overflow": false,
+      "state": "zoom",
+      "width": 320,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "city"
+      ],
+      "width": 320
+    },
+    {
+      "context": "列表当前：阿卡姆之城 / Park Row / 猫女公寓",
+      "game": "city",
+      "natural": [
+        1024,
+        576
+      ],
+      "overflow": false,
+      "scroll": [
+        246,
+        138
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        246,
+        138
+      ],
+      "width": 320
+    },
+    {
+      "canPan": true,
+      "game": "city",
+      "overflow": false,
+      "state": "zoom",
+      "width": 320,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "knight"
+      ],
+      "width": 320
+    },
+    {
+      "context": "列表当前：阿卡姆骑士 / Bleake Island / 灯塔残骸",
+      "game": "knight",
+      "natural": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "scroll": [
+        246,
+        138
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        246,
+        138
+      ],
+      "width": 320
+    },
+    {
+      "canPan": true,
+      "game": "knight",
+      "overflow": false,
+      "state": "zoom",
+      "width": 320,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "asylum"
+      ],
+      "width": 390
+    },
+    {
+      "context": "列表当前：阿卡姆疯人院 / Medical Facility / Morgue / 大白鲨标本",
+      "game": "asylum",
+      "natural": [
+        969,
+        862
+      ],
+      "overflow": false,
+      "scroll": [
+        316,
+        281
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        316,
+        281
+      ],
+      "width": 390
+    },
+    {
+      "canPan": true,
+      "game": "asylum",
+      "overflow": false,
+      "state": "zoom",
+      "width": 390,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "city"
+      ],
+      "width": 390
+    },
+    {
+      "context": "列表当前：阿卡姆之城 / Park Row / 猫女公寓",
+      "game": "city",
+      "natural": [
+        1024,
+        576
+      ],
+      "overflow": false,
+      "scroll": [
+        316,
+        178
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        316,
+        178
+      ],
+      "width": 390
+    },
+    {
+      "canPan": true,
+      "game": "city",
+      "overflow": false,
+      "state": "zoom",
+      "width": 390,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "knight"
+      ],
+      "width": 390
+    },
+    {
+      "context": "列表当前：阿卡姆骑士 / Bleake Island / 灯塔残骸",
+      "game": "knight",
+      "natural": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "scroll": [
+        316,
+        178
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        316,
+        178
+      ],
+      "width": 390
+    },
+    {
+      "canPan": true,
+      "game": "knight",
+      "overflow": false,
+      "state": "zoom",
+      "width": 390,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "asylum"
+      ],
+      "width": 1280
+    },
+    {
+      "context": "列表当前：阿卡姆疯人院 / Medical Facility / Morgue / 大白鲨标本",
+      "game": "asylum",
+      "natural": [
+        969,
+        862
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        703
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        703
+      ],
+      "width": 1280
+    },
+    {
+      "canPan": true,
+      "game": "asylum",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1280,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "city"
+      ],
+      "width": 1280
+    },
+    {
+      "context": "列表当前：阿卡姆之城 / Park Row / 猫女公寓",
+      "game": "city",
+      "natural": [
+        1024,
+        576
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        444
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        444
+      ],
+      "width": 1280
+    },
+    {
+      "canPan": true,
+      "game": "city",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1280,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "knight"
+      ],
+      "width": 1280
+    },
+    {
+      "context": "列表当前：阿卡姆骑士 / Bleake Island / 灯塔残骸",
+      "game": "knight",
+      "natural": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        444
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        444
+      ],
+      "width": 1280
+    },
+    {
+      "canPan": true,
+      "game": "knight",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1280,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "asylum"
+      ],
+      "width": 1440
+    },
+    {
+      "context": "列表当前：阿卡姆疯人院 / Medical Facility / Morgue / 大白鲨标本",
+      "game": "asylum",
+      "natural": [
+        969,
+        862
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        703
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        703
+      ],
+      "width": 1440
+    },
+    {
+      "canPan": true,
+      "game": "asylum",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1440,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "city"
+      ],
+      "width": 1440
+    },
+    {
+      "context": "列表当前：阿卡姆之城 / Park Row / 猫女公寓",
+      "game": "city",
+      "natural": [
+        1024,
+        576
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        444
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        444
+      ],
+      "width": 1440
+    },
+    {
+      "canPan": true,
+      "game": "city",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1440,
+      "zoom": "200%"
+    },
+    {
+      "overflow": false,
+      "state": "folded",
+      "visible": [
+        "knight"
+      ],
+      "width": 1440
+    },
+    {
+      "context": "列表当前：阿卡姆骑士 / Bleake Island / 灯塔残骸",
+      "game": "knight",
+      "natural": [
+        1920,
+        1080
+      ],
+      "overflow": false,
+      "scroll": [
+        790,
+        444
+      ],
+      "selection": [
+        "rgb(228, 229, 220)",
+        "rgb(18, 23, 22)"
+      ],
+      "state": "fit",
+      "viewport": [
+        790,
+        444
+      ],
+      "width": 1440
+    },
+    {
+      "canPan": true,
+      "game": "knight",
+      "overflow": false,
+      "state": "zoom",
+      "width": 1440,
+      "zoom": "200%"
+    }
+  ],
+  "extra": [
+    {
+      "game": "asylum",
+      "keyboardDelta": 40,
+      "reset": "100%"
+    },
+    {
+      "game": "knight",
+      "keyboardDelta": 40,
+      "reset": "100%"
+    },
+    {
+      "game": "all",
+      "mapsVisible": 0
+    },
+    {
+      "game": "origins",
+      "mapsVisible": 0
+    }
+  ]
+}

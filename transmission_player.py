@@ -36,8 +36,10 @@ def transmission_controls(channel):
     fallback = "".join(f'<a href="/assets/{esc(t["audioFile"])}">{esc(t["title"])}</a> ' for t in tracks)
     first_title = tracks[0]["title"]
     freq = esc(channel["frequency"])
+    transport = '<button type="button" class="load-recording" data-load-recording hidden>播放所选通讯</button>' + f'<div class="patient-player"><audio controls preload="none" hidden aria-label="{esc(channel["title"])}"></audio><div data-recording-fallback>{fallback}</div></div>'
     return (
-        f'<nav class="tape-selector transmission-selector" aria-label="选择通讯录音">{buttons}</nav>\n'
+        transport +
+        f'<nav class="tape-selector transmission-selector" aria-label="选择通讯录音" hidden>{buttons}</nav>\n'
         f'<div class="transmission-console-meta">'
         f'<p class="label tape-label" data-tape-label>TRACK 01 / {total:02d} · {esc(first_title)}</p>'
         f'<div class="transmission-meta-right">'
@@ -52,7 +54,5 @@ def transmission_controls(channel):
         '<p class="sub-zh">点击播放，截获并解密信道音频。</p>'
         '<p class="sub-en">Click play to intercept and decode frequency audio.</p>'
         '</div></div>\n'
-        '<button type="button" class="load-recording" data-load-recording hidden>播放所选通讯</button>'
-        f'<div class="patient-player"><audio controls preload="none" hidden aria-label="{esc(channel["title"])}"></audio><noscript>{fallback}</noscript></div>\n'
         f'<script type="application/json" data-tape-data>{payload}</script>'
     )

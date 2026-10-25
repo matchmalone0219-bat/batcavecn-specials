@@ -1,0 +1,14 @@
+{
+  "baselineFiles": 1047,
+  "changed": [
+    "assets/arkham-clues.js",
+    "assets/arkham.css",
+    "arkham/archive/clues/index.html"
+  ],
+  "added": [
+    "assets/arkham-map.js",
+    "assets/media/maps/arkham-city-reference.webp"
+  ],
+  "removed": [],
+  "unchanged": 1044
+}

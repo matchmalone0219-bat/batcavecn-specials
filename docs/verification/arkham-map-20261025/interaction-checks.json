@@ -1,0 +1,11 @@
+{
+  "keyboardDelta": 40,
+  "home": {
+    "context": "列表当前：阿卡姆之城 / Amusement Mile / 格雷森海报",
+    "left": 0,
+    "url": "http://localhost:8877/arkham/archive/clues/#city-amusement-mile-02",
+    "zoom": "100%"
+  },
+  "hiddenForKnight": true,
+  "hiddenForAll": true
+}

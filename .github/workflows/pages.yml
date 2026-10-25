@@ -28,6 +28,7 @@ jobs:
       - name: Validate archives and interactions
         run: |
           python3 verify.py
+          python3 verify-easter-eggs.py
           python3 verify-artbooks.py
           python3 verify-conroy.py
           python3 verify-build.py
@@ -35,7 +36,12 @@ jobs:
           node verify-arkham-nav.js
           node verify-arkham-menu.js
           node verify-intercom.js
+          node verify-sequencer.js
           node verify-investigation.js
+          node verify-clues.js
+          node verify-recent.js
+          node verify-map.js
+          node verify-channel-tuning.js
           node verify-tas-motion.js
           node verify-lightbox.js
           node verify-opening.js
