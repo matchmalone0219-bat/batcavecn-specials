@@ -42,6 +42,7 @@
   function blocked() {
     const intro = document.querySelector('#intro-stage');
     return leaving || document.hidden || Boolean(intro && !intro.hidden) ||
+      Boolean(document.querySelector('[data-sequencer][data-active="true"]')) ||
       [...document.querySelectorAll('audio,video')].some(other => other !== audio && !other.paused && !other.ended && (other.tagName === 'AUDIO' || !other.muted));
   }
   function stop() {

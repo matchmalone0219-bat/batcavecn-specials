@@ -1,0 +1,57 @@
+{
+  "source": {
+    "url": "https://www.bilibili.com/video/BV1c46GYLETu?p=6",
+    "title": "【蝙蝠侠：阿卡姆之城】最高难度全流程无伤速攻不断连100%通关（全支线+全挑战+全收集+DLC内容） p06 6.哥谭警署",
+    "uploader": "DJ_Jacket",
+    "version": "Arkham City PC with Chinese localization",
+    "localFile": "city-original-gcpd.mp4",
+    "sha256": "b7887d52369d2df77c7d15077b53ebc5128435bcc7fa8a77fd97da2388bdb8f0",
+    "approval": "用户于2026-10-25确认使用该原声片段；未声称模型直接听审。"
+  },
+  "clips": [
+    {
+      "id": "connect",
+      "file": "audio/city-sequencer-connect.wav",
+      "start": 601.5,
+      "duration": 1.5,
+      "loop": false,
+      "sha256": "033210091fbf7e4728bd0bba75c2f3471bfe1b4db19de506fabfc70b34f50ad0"
+    },
+    {
+      "id": "tune",
+      "file": "audio/city-sequencer-tune.wav",
+      "start": 603.0,
+      "duration": 3.6,
+      "loop": true,
+      "sha256": "3cb77ad5b0a2ecbfaf910f2b7fc59a9cc7e10303b9a1a54bf89c446d1342725e"
+    },
+    {
+      "id": "exchange",
+      "file": "audio/city-sequencer-exchange.wav",
+      "start": 606.8,
+      "duration": 1.6,
+      "loop": false,
+      "sha256": "918cfe095cdf665974883f450b8ba22fc2ab6adafa274b3ecd6b8447e66f1bcd"
+    },
+    {
+      "id": "unlock",
+      "file": "audio/city-sequencer-unlock.wav",
+      "start": 608.6,
+      "duration": 2.4,
+      "loop": false,
+      "sha256": "e31682205e5380681a2dbb3b768776a322823a5d563739b9653c4c52a7fbc28d"
+    }
+  ],
+  "terminal": {
+    "id": "gcpd-security-door",
+    "network": "Gotham Municipal Network",
+    "target": "GCPD Security Door",
+    "passkeys": [
+      "DIS",
+      "SECT"
+    ],
+    "securityLevel": 1,
+    "holdMs": 700,
+    "exchangeMs": 1600
+  }
+}

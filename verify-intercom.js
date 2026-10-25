@@ -2,7 +2,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const source = fs.readFileSync(`${__dirname}/arkham-intercom.js`, 'utf8');
-function harness({saved, now = 1000000, referrer = 'http://127.0.0.1:8765/arkham/menu/', deniedStorage = false, otherPlaying = false, intro = false, arkham = true, reject = null} = {}) {
+function harness({saved, now = 1000000, referrer = 'http://127.0.0.1:8765/arkham/menu/', deniedStorage = false, otherPlaying = false, intro = false, decoding = false, arkham = true, reject = null} = {}) {
   let clock = now, seed = 71, serial = 0, sources = 5, failure = reject;
   const tasks = new Map(), storage = new Map(saved ? [['arkham-intercom-v1', saved]] : []), played = [];
   const handlers = {}, events = {};
@@ -17,7 +17,7 @@ function harness({saved, now = 1000000, referrer = 'http://127.0.0.1:8765/arkham
   const other = {tagName: 'AUDIO', paused: !otherPlaying, ended: false, matches() { return true; }};
   const stage = intro ? {hidden: false} : null;
   const document = {hidden: false, referrer, body: {classList: {contains: () => arkham}},
-    querySelector(selector) { return selector === '#arkham-intercom' ? audio : stage; },
+    querySelector(selector) { return selector === '#arkham-intercom' ? audio : selector === '#intro-stage' ? stage : selector === '[data-sequencer][data-active="true"]' && decoding ? {} : null; },
     querySelectorAll(selector) { return {'[data-intercom-controls]': [group], '[data-intercom-toggle]': [button], '[data-intercom-volume]': [input], 'audio,video': [audio, other]}[selector] || []; },
     addEventListener(type, fn) { handlers[type] = fn; },
   };
@@ -60,6 +60,7 @@ const flush = async () => { await Promise.resolve(); await Promise.resolve(); aw
   priority.hide(true); assert.equal(priority.audio.paused, true); assert.equal(priority.audio.currentTime, 0); assert.equal(priority.tasks.size, 0);
   priority.wait(200000); priority.hide(false); assert.equal(priority.tasks.size, 1); assert.ok([...priority.tasks.values()][0].delay >= 90000);
   priority.events.pagehide(); assert.equal(priority.tasks.size, 0); priority.events.pageshow({persisted: true}); assert.equal(priority.tasks.size, 1);
+  const decoding = harness({decoding: true}); decoding.click(); await flush(); assert.equal(decoding.played.length, 0, 'Active decoding blocks ambient radio even with its effects muted');
   const held = harness({otherPlaying: true}); held.click(); await flush(); assert.equal(held.played.length, 0); held.media('pause', false); assert.equal(held.tasks.size, 1);
   const opening = harness({intro: true}); opening.click(); await flush(); assert.equal(opening.played.length, 0); opening.stage.hidden = true; opening.media('pause', false); assert.equal(opening.tasks.size, 1);
   const denial = harness({reject: {name: 'NotAllowedError'}}); denial.click(); await flush(); const bag = JSON.stringify(denial.saved().queue); assert.equal(denial.button.textContent, '院内广播：继续'); assert.equal(denial.tasks.size, 0);

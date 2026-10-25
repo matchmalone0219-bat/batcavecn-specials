@@ -62,6 +62,10 @@ def build(data=None):
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
     copy_asset(ROOT / 'arkham-intercom.js', DIST / 'assets/arkham-intercom.js')
+    for filename in ('arkham-sequencer.js', 'arkham-sequencer.css'):
+        copy_asset(ROOT / filename, DIST / 'assets' / filename)
+    for clip in json.loads((ROOT / 'arkham-sequencer.json').read_text())['clips']:
+        copy_asset(ROOT / clip['file'], DIST / 'assets' / clip['file'])
     for clip in json.loads((ROOT / 'arkham-intercom.json').read_text())['clips']:
         copy_asset(ROOT / clip['file'], DIST / 'assets' / clip['file'])
     for patient in json.loads((ROOT / 'patient-interviews.json').read_text())['patients']:

@@ -4,6 +4,7 @@ import math
 from render_common import ROOT, esc, paragraphs
 from patient_player import recording_controls
 from transmission_player import transmission_controls
+from arkham_sequencer import sequencer
 
 
 TERMINALS = [('/arkham/detective/', 'evidence', '案件重建'), ('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
@@ -393,15 +394,19 @@ def build_interactions(data, shell):
 
     terminal_trans = f'''<section class="section arkham-investigation" data-transmissions-terminal>
 <div class="terminal-heading"><p class="label"><i data-arkham-icon="radio"></i>CRYPTOGRAPHIC SEQUENCER / INTERCEPTED TRANSMISSIONS</p><h1>频段监听</h1><p class="lead">调取哥谭的电话留言、广播访谈、密谈与案件录音。</p><p class="fine">阿卡姆通讯频段终端 · 含主线重要剧情与片尾剧透</p></div>
+{sequencer()}
+<div data-frequency-workspace>
 {game_tabs([("arkham-city", "阿卡姆之城"), ("arkham-knight", "阿卡姆骑士")])}
 <div class="transmission-channels" aria-label="可用频段">{channel_cards}</div>
 <div class="transmission-workspace">{panels_trans}</div>
+</div>
 {terminal_bar("/arkham/transmissions/")}
 </section>'''
+    record('密码破译 · 警局安保终端', '调谐左右密钥，接入哥谭市政网络并解开警局门禁。', '/arkham/transmissions/#password-terminal')
     record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 
     return {
         'arkham/detective/index.html': page('案件重建', detective),
         'arkham/patients/index.html': page('患者终端', terminal),
-        'arkham/transmissions/index.html': page('频段监听', terminal_trans)
+        'arkham/transmissions/index.html': page('频段监听', terminal_trans).replace('</head>', '<link rel="stylesheet" href="/assets/arkham-sequencer.css"><script src="/assets/arkham-sequencer.js" defer></script></head>')
     }, records
