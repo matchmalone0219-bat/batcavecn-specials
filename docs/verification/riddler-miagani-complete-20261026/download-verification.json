@@ -1,0 +1,68 @@
+{
+  "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/02 - Batman： Arkham Knight - Riddler Trophies - Miagani Island.mp4",
+  "sha256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "av1",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "60/1",
+        "duration": "3627.633333"
+      },
+      {
+        "codec_name": "opus",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "3627.674000"
+      }
+    ],
+    "format": {
+      "duration": "3627.674000",
+      "size": "1423057005"
+    }
+  },
+  "samples": [
+    {
+      "seconds": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 1984,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 2400,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 3000,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 3500,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 3620,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "seconds": 3626,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "temporaryCredentialsRemoved": true,
+  "oldPartialBytes": 770020949,
+  "downloadExitCode": 0
+}

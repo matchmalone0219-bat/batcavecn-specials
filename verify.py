@@ -507,8 +507,8 @@ assert all(f'/assets/media/{f}' in crossover_page for n in crossover["nodes"] fo
 print(f'PASS: 蝙蝠侠之声 page with Conroy chapter, {len(crossover["nodes"])} people and characters, {len(crossover_works)} works; old addresses redirect; footers link only the shared page')
 riddler_page = pages["arkham/archive/riddler/index.html"]
 comic_cases = [case for case in riddler_packet['cases'] if case.get('comicReading')]
-assert riddler_page.count('data-riddler-item ') == len(scan_packet['riddles']) == 137
-assert riddler_page.count('data-riddler-solution') == 137
+assert riddler_page.count('data-riddler-item ') == len(scan_packet['riddles']) == 143
+assert riddler_page.count('data-riddler-solution') == 143
 assert riddler_page.count('data-riddler-technique') == 17
 assert len(re.findall(r'<video[^>]+preload="none"', riddler_page)) == 17
 assert all(row['english'] in riddler_page.replace('&#x27;', "'") for row in scan_packet['riddles'])
@@ -522,7 +522,7 @@ assert 'id="artbook-a12"' in pages['arkham/games/arkham-knight/index.html']
 hub = pages["arkham/archive/index.html"]
 assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 14' in hub and '0 / 36' in hub
 assert 'data-record="riddles"' not in hub
-print('PASS: 137 original scan riddles with folded solutions, 17 perspective demonstrations, 14 comic backgrounds, all 21 case anchors retained')
+print('PASS: 143 original scan riddles with folded solutions, 17 perspective demonstrations, 14 comic backgrounds, all 21 case anchors retained')
 for route_key, html in pages.items():
     if route_key.endswith(".html") and "<head>" in html:
         assert 'rel="icon"' in html, route_key

@@ -2979,7 +2979,7 @@
         "dc-catwoman-profile"
       ],
       "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院：驯服一只猫不费多少工夫：让她戴上这个，再把蝙蝠叫来。",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "secretNumber": 12,
       "comic": {
         "book": "Batman #1（1940）",
@@ -3002,7 +3002,7 @@
         "dc-hush-history"
       ],
       "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 埃利奥特纪念医院：他们是韦恩家的朋友，财富略逊一筹；以他们命名的病房，照顾着哥谭的健康。",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "secretNumber": 13,
       "comic": {
         "book": "Batman: Hush（2002—2003）；Detective Comics #846—850：Heart of Hush（2008）",
@@ -3025,7 +3025,7 @@
         "dc-strange-debut"
       ],
       "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 眺望奇迹塔：阿卡姆之城最高的建筑里，曾有一位毫无怜悯的Strange之人工作。",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "secretNumber": 14,
       "comic": {
         "book": "Detective Comics #36（1940）",
@@ -3048,11 +3048,144 @@
         "dc-origin-history"
       ],
       "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 韦恩塔办公室：哥谭的王子高坐塔楼，这幅画却留着更幸福的时光。",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "secretNumber": 15,
       "comic": {
         "book": "Detective Comics #33（1939）",
         "body": "布鲁斯失去父母的起源故事在《侦探漫画》#33展开。全家福补上这场创伤之前的家庭形象，让高塔中的财富与画里的亲情形成呼应。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-sharp-campaign",
+      "title": "前院长的Strange式转变",
+      "game": "knight",
+      "region": "米亚加尼岛 · 大街竞选海报",
+      "english": "A former warden who had a Strange turn, his appointment as mayor was a cause for concern.",
+      "translation": "前院长经历了Strange式的转变；他获任市长，实在令人忧心。",
+      "scene": "knight-sharp-campaign-scene",
+      "target": "knight-sharp-campaign-target",
+      "solution": "扫描街边写着Vote Quincy Sharp的竞选海报。warden连接夏普的疯人院院长经历，Strange既是古怪，也点出雨果·斯特兰奇的姓；mayor则指向他在《阿卡姆之城》的职务。",
+      "sources": [
+        "bav-knight-riddles-02"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 大街竞选海报：前院长经历了Strange式的转变；他获任市长，实在令人忧心。",
+      "video": "knight-02",
+      "secretNumber": 16,
+      "context": "这张旧竞选海报承接游戏系列里昆西·夏普的政治经历。他的公众形象也曾以疯人院肖像和宣传材料的形式出现在前作扫描题中。"
+    },
+    {
+      "id": "knight-ivy-new-bloom",
+      "title": "仍在开花的天然解药",
+      "game": "knight",
+      "region": "米亚加尼岛 · 植物遗迹",
+      "english": "A natural cure for Scarecrow's doom, your savior's gone but still in bloom.",
+      "translation": "对抗稻草人灾厄的天然解药；拯救你的人已经离去，却仍在开花。",
+      "scene": "knight-ivy-new-bloom-scene",
+      "target": "knight-ivy-new-bloom-target",
+      "solution": "扫描巨型植物遗迹旁地面冒出的花朵。natural cure把毒藤女的植物能力与恐惧毒素相连，gone和still in bloom则将她的离去与新生并置。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-ivy"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 植物遗迹：对抗稻草人灾厄的天然解药；拯救你的人已经离去，却仍在开花。",
+      "video": "knight-02",
+      "secretNumber": 17,
+      "comic": {
+        "book": "Batman #181（1966）",
+        "body": "帕梅拉·艾斯利在《蝙蝠侠》#181以毒藤女身份登场，植物控制与生态主题是她的核心形象。游戏将这种能力用于对抗稻草人的毒素，并用一株新芽留下人物的余韵。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-vicki-vale-sign",
+      "title": "谁能揭开这一层Vale",
+      "game": "knight",
+      "region": "米亚加尼岛 · 屋顶节目招牌",
+      "english": "Disarming, charming, quite the inquisitor. She'll pull back the vale, whoever her visitor.",
+      "translation": "亲切迷人，却善于追问；无论来访者是谁，她都要揭开那一层vale。",
+      "scene": "knight-vicki-vale-sign-scene",
+      "target": "knight-vicki-vale-sign-target",
+      "solution": "扫描楼顶的The Vicki Vale Show霓虹招牌。vale用记者维姬·维尔的姓替换veil（面纱）的发音，pull back the veil就是揭开真相；inquisitor强调她追问来宾的角色。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-vicki-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 屋顶节目招牌：亲切迷人，却善于追问；无论来访者是谁，她都要揭开那一层vale。",
+      "video": "knight-02",
+      "secretNumber": 18,
+      "comic": {
+        "book": "Batman #49（1948）",
+        "body": "维姬·维尔在《蝙蝠侠》#49登场，记者身份使她与布鲁斯的公众生活和秘密行动不断相遇。游戏把她的名字放进电视节目广告，再用谐音将报道与揭密连接起来。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-assassins-defaced-art",
+      "title": "从刺穿心脏到刺穿海报",
+      "game": "knight",
+      "region": "米亚加尼岛 · 巷内刺客海报",
+      "english": "The League of Assassins stuck blades through hearts, now they impale each other's art.",
+      "translation": "刺客联盟曾用利刃贯穿心脏，如今却刺穿彼此的画像。",
+      "scene": "knight-assassins-defaced-art-scene",
+      "target": "knight-assassins-defaced-art-target",
+      "solution": "扫描小巷里被利刃划穿的The Demon’s Head海报。hearts与art押韵，刺杀敌人的武器转而破坏同伴的形象；海报标题又点出雷霄古的恶魔之首称号。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-ras"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 巷内刺客海报：刺客联盟曾用利刃贯穿心脏，如今却刺穿彼此的画像。",
+      "video": "knight-02",
+      "secretNumber": 19,
+      "comic": {
+        "book": "Batman #232（1971）：雷霄古",
+        "body": "雷霄古在《蝙蝠侠》#232登场，长久以来与刺客组织及其继承问题相连。墙上海报和交错刀痕把这套人物背景留在哥谭的小巷中。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-hells-gate-services",
+      "title": "先倒垃圾，再替它辩护",
+      "game": "knight",
+      "region": "米亚加尼岛 · Hell’s Gate门面",
+      "english": "Are you suffering from a mental split? Take out the trash before you defend it!",
+      "translation": "你正遭受精神分裂之苦？先把垃圾倒出去，再为它辩护吧！",
+      "scene": "knight-hells-gate-services-scene",
+      "target": "knight-hells-gate-services-target",
+      "solution": "扫描Hell’s Gate的整面招牌：一侧写Legal Services，另一侧写Waste Disposal Services。trash与defend把垃圾清运和法律辩护并在一起，mental split又给双重业务加上一层两面性的暗示。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-two-face-66"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · Hell’s Gate门面：你正遭受精神分裂之苦？先把垃圾倒出去，再为它辩护吧！",
+      "video": "knight-02",
+      "secretNumber": 20,
+      "comic": {
+        "book": "Detective Comics #66（1942）",
+        "body": "哈维·丹特曾是哥谭检察官，后来成为双面人。门面上的法律服务与处理垃圾形成反差，也让谜面里关于分裂和辩护的措辞与他的人物经历相呼应。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-brain-contraption",
+      "title": "被强套在头上的装置",
+      "game": "knight",
+      "region": "米亚加尼岛 · 平克尼孤儿院秘密工作室",
+      "english": "You forced this contraption over my brain, I'll reward you with punishment, debasement and pain.",
+      "translation": "你把这套装置强套在我的头上；我要用惩罚、屈辱和痛苦回报你。",
+      "scene": "knight-brain-contraption-scene",
+      "target": "knight-brain-contraption-target",
+      "solution": "进入孤儿院的秘密工作室，扫描工作台上头戴装置。contraption指眼前的机械头盔，brain强调谜语人对智力和控制的执念；后半句将装置的记忆写成报复宣言。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-riddler"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院秘密工作室：你把这套装置强套在我的头上；我要用惩罚、屈辱和痛苦回报你。",
+      "video": "knight-02",
+      "secretNumber": 21,
+      "comic": {
+        "book": "Detective Comics #140（1948）：谜语人",
+        "body": "爱德华·尼格玛在《侦探漫画》#140登场，以谜题证明智力优势是他的核心动机。这里的头戴机械属于游戏现场，漫画联系在人物对智力竞赛与自我证明的执念。",
         "images": []
       }
     },
@@ -6931,12 +7064,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "fd4a90ffe64089acff184e55e326f9bcf5c8b5e3641a5095b71d5aee658c96a8",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 24,
       "caption": "米亚加尼岛 · 平克尼孤儿院 · 现场",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-cat-collar-target",
@@ -6944,12 +7077,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "43a698779f179d307cbf0fe07bf3fc61a5a666210055681c408131ffe5f4bb56",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 44,
       "caption": "米亚加尼岛 · 平克尼孤儿院 · 怎样让猫戴上项圈：扫描目标",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-elliot-hospital-scene",
@@ -6957,12 +7090,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "b42ef269bdc38d337e0eb4d79533577280d0e66215b1ebc2d69aa162bd2fb86d",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 688,
       "caption": "米亚加尼岛 · 埃利奥特纪念医院 · 现场",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-elliot-hospital-target",
@@ -6970,12 +7103,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "93d704a54db1d41c817ca145a43af33b6cd1919be89e30dc87c7efe7364e3226",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 696,
       "caption": "米亚加尼岛 · 埃利奥特纪念医院 · 韦恩家朋友的纪念病房：扫描目标",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-wonder-tower-scene",
@@ -6983,12 +7116,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "9d073534dd0c4b6b14862a9566507bf7c5d2e98675d86a4ca65f8e9c5541d81e",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 928,
       "caption": "米亚加尼岛 · 眺望奇迹塔 · 现场",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-wonder-tower-target",
@@ -6996,12 +7129,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "fbf03aa32b8f24157d50aef7938cd0f7896708e9f9fa27fcca190f6f3beb0a5b",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 944,
       "caption": "米亚加尼岛 · 眺望奇迹塔 · 高塔上的Strange之人：扫描目标",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-wayne-family-portrait-scene",
@@ -7009,12 +7142,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "9f0a4fdb3ce405254445fc8726c475447c93a683c12554b3207266ec0c5d1551",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 1964,
       "caption": "米亚加尼岛 · 韦恩塔办公室 · 现场",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-wayne-family-portrait-target",
@@ -7022,12 +7155,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "fb020d6fd4c98ded708e132014434c39201a13cb6b3d3d453c34669a21931521",
-      "video": "knight-02-part",
+      "video": "knight-02",
       "timestamp": 1970,
       "caption": "米亚加尼岛 · 韦恩塔办公室 · 塔楼里更幸福的时光：扫描目标",
       "source": "bav-knight-riddles-02",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
-      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     },
     {
       "id": "knight-bane-shipping-crate-scene",
@@ -7522,6 +7655,162 @@
       "source": "bav-knight-riddles-06",
       "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
       "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-sharp-campaign-scene",
+      "file": "riddler-scans/knight-sharp-campaign-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2059eef4026815e1a9259e3df78b223a779c83e71b49afacb66fa8ec703b3c9b",
+      "video": "knight-02",
+      "timestamp": 2152,
+      "caption": "米亚加尼岛 · 大街竞选海报 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-sharp-campaign-target",
+      "file": "riddler-scans/knight-sharp-campaign-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4fc27c6faeb397caaa91d6f0ff6ca08634c1830464bdfa1a46271d4277792703",
+      "video": "knight-02",
+      "timestamp": 2164,
+      "caption": "米亚加尼岛 · 大街竞选海报 · 前院长的Strange式转变：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-ivy-new-bloom-scene",
+      "file": "riddler-scans/knight-ivy-new-bloom-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8adada0f40093697c4c8a472726dc2cc507d00f8fd3c83df6c7dce2240fc9a42",
+      "video": "knight-02",
+      "timestamp": 2264,
+      "caption": "米亚加尼岛 · 植物遗迹 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-ivy-new-bloom-target",
+      "file": "riddler-scans/knight-ivy-new-bloom-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4190be0a6ece753e787b5c8e207e082908268c33aa7dd1726b6d4f01527b7424",
+      "video": "knight-02",
+      "timestamp": 2270,
+      "caption": "米亚加尼岛 · 植物遗迹 · 仍在开花的天然解药：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-vicki-vale-sign-scene",
+      "file": "riddler-scans/knight-vicki-vale-sign-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f7236460f1362ce284aa7bc3f9c663caa5c52781c40d87cc5ca574e22f1c9c4a",
+      "video": "knight-02",
+      "timestamp": 2976,
+      "caption": "米亚加尼岛 · 屋顶节目招牌 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-vicki-vale-sign-target",
+      "file": "riddler-scans/knight-vicki-vale-sign-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5589931efa9274cff35e227242de0bedf7136a8ea081b46a0bb6bdfe779bb3bc",
+      "video": "knight-02",
+      "timestamp": 2984,
+      "caption": "米亚加尼岛 · 屋顶节目招牌 · 谁能揭开这一层Vale：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-assassins-defaced-art-scene",
+      "file": "riddler-scans/knight-assassins-defaced-art-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "7965318349a365ad4b9e65ef4622d57f0cd043be2d24ef1c825bbed17024e354",
+      "video": "knight-02",
+      "timestamp": 3028,
+      "caption": "米亚加尼岛 · 巷内刺客海报 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-assassins-defaced-art-target",
+      "file": "riddler-scans/knight-assassins-defaced-art-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "41b12066783ff5404df9b60aaa4da55ade3b048499063f72a9ec2fd7ab761905",
+      "video": "knight-02",
+      "timestamp": 3036,
+      "caption": "米亚加尼岛 · 巷内刺客海报 · 从刺穿心脏到刺穿海报：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-hells-gate-services-scene",
+      "file": "riddler-scans/knight-hells-gate-services-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "bb52d23a69581b40fcc7825b4c740978b24d2f6a6ae59bb3998bf1fcacecfc19",
+      "video": "knight-02",
+      "timestamp": 3192,
+      "caption": "米亚加尼岛 · Hell’s Gate门面 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-hells-gate-services-target",
+      "file": "riddler-scans/knight-hells-gate-services-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e17c874c5285cae1bcf8e8a49a7005cb52abe02da828dec1ecf382c643e7f26c",
+      "video": "knight-02",
+      "timestamp": 3204,
+      "caption": "米亚加尼岛 · Hell’s Gate门面 · 先倒垃圾，再替它辩护：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-brain-contraption-scene",
+      "file": "riddler-scans/knight-brain-contraption-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "44efd829d9a83126adb588f021ed7491d129bf3371704e7cf63ca3dd45dadf71",
+      "video": "knight-02",
+      "timestamp": 3480,
+      "caption": "米亚加尼岛 · 平克尼孤儿院秘密工作室 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
+    },
+    {
+      "id": "knight-brain-contraption-target",
+      "file": "riddler-scans/knight-brain-contraption-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "64a5a2ca8082851ffe2c448fac89f60d01d3765634eec2f6579629d02d58c870",
+      "video": "knight-02",
+      "timestamp": 3523,
+      "caption": "米亚加尼岛 · 平克尼孤儿院秘密工作室 · 被强套在头上的装置：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1"
     }
   ],
   "clips": [
@@ -7919,20 +8208,6 @@
       "fps": "60/1",
       "game": "knight"
     },
-    "knight-02-part": {
-      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/02 - Batman： Arkham Knight - Riddler Trophies - Miagani Island.f399.mp4.part",
-      "duration": 3627.633333,
-      "size": 770020949,
-      "sha256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf",
-      "width": 1920,
-      "height": 1080,
-      "codec": "AV1",
-      "fps": "60/1",
-      "game": "knight",
-      "partial": true,
-      "firstUndecodableSample": 1984,
-      "lastDecodedSample": 1976
-    },
     "knight-03": {
       "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/03 - Batman： Arkham Knight - Riddler Trophies - Founders' Island.mp4",
       "duration": 3593.014,
@@ -7971,6 +8246,17 @@
       "duration": 2058.674,
       "size": 598665755,
       "sha256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    },
+    "knight-02": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/02 - Batman： Arkham Knight - Riddler Trophies - Miagani Island.mp4",
+      "duration": 3627.674,
+      "size": 1423057005,
+      "sha256": "4c2ec090a72523546ac7f0b098e972257e68346b95004e0f92f63d97c84784c1",
       "width": 1920,
       "height": 1080,
       "codec": "AV1",

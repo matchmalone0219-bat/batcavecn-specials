@@ -47,7 +47,7 @@ class ScanPage(HTMLParser):
 
 parsed = ScanPage()
 parsed.feed(page)
-assert len(parsed.questions) == parsed.solutions == len(packet['riddles']) == 137
+assert len(parsed.questions) == parsed.solutions == len(packet['riddles']) == 143
 assert len(parsed.videos) == len(packet['techniques']) == 17
 assert 'type="text"' not in page and 'data-riddles' not in page
 for row in packet['riddles']:
@@ -83,8 +83,9 @@ assert sum(row['game'] == 'asylum' for row in packet['riddles'] + packet['techni
 city = [row for row in packet['riddles'] + packet['techniques'] if row['game'] == 'city']
 assert len(city) == 69 and sorted(row['secretNumber'] for row in city) == list(range(1, 70))
 knight = [row for row in packet['riddles'] if row['game'] == 'knight']
-assert len(knight) == 34
-assert sorted(row['secretNumber'] for row in knight) == list(range(1, 16)) + list(range(22, 41))
+assert len(knight) == 40
+assert sorted(row['secretNumber'] for row in knight) == list(range(1, 41))
+assert not any(source.get('partial') for source in packet['videos'].values())
 identity = next(row for row in knight if row['secretNumber'] == 38)
 assert identity['comic']['spoiler'] is True
 assert not any(name in identity['summary'] + identity['title'] for name in ('杰森', 'Jason', '托德', 'Todd'))
@@ -95,4 +96,4 @@ assert sum(row['id'] == 'crime-alley' for row in packet['riddles']) == 1
 assert all(row['game'] in ('asylum', 'city') for row in packet['techniques'])
 assert page.count('data-riddler-region') == 2
 assert page.count('https://www.youtube.com/watch?v=') >= 23
-print(f"PASS: 51 Asylum + 69 City + 34 Knight scans, 137 folded answers, protected identity, 17 on-demand demonstrations, native image sizes, partial-source boundaries, 21 legacy anchors and {len(packet['images'])+len(packet['clips'])} media hashes")
+print(f"PASS: 51 Asylum + 69 City + 40 Knight scans, 143 folded answers, protected identity, 17 on-demand demonstrations, native image sizes, complete video sources, 21 legacy anchors and {len(packet['images'])+len(packet['clips'])} media hashes")

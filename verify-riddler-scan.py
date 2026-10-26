@@ -53,4 +53,4 @@ for path in (ROOT / 'dist').rglob('*.html'):
     for asset in ('arkham-riddler-scan.js', 'arkham-riddler-scan.css'):
         assert ('/assets/' + asset in html) == target
 assert (ROOT / 'arkham-batmark.svg').read_bytes() == (ROOT / 'dist/assets/arkham-batmark.svg').read_bytes()
-print(f'PASS: {len(hooks.games)} scene scan hooks, separately folded comic context, three sourced short sounds and Riddler-only enhancement assets')
+print(f"PASS: {len(hooks.games)} scene scan hooks, separately folded comic context, {len(feedback['sources'])} sourced short sounds and Riddler-only enhancement assets")
