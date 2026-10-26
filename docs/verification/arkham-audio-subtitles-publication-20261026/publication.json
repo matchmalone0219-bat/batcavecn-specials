@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-26",
+  "branch": "main",
+  "deployedCommit": "e8ac6b6e36b43ce459a42b33c4d44e85297ad23a",
+  "baseCommit": "69c5dde900ca028dbe9c6547d385ff97e5c26504",
+  "workflowRun": 40253772372,
+  "workflowUrl": "https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/40253772372",
+  "build": "success",
+  "deploy": "success",
+  "publicPages": 159,
+  "searchRecords": 687,
+  "onlineRecordingsWithSubtitles": 129,
+  "repairedRecordings": 88,
+  "newCueCount": 1350,
+  "originalCueSetsPreserved": 41,
+  "audioFilesChanged": 0,
+  "onlineAssetMatches": 4,
+  "liveCaptionPages": [
+    "patients",
+    "transmissions",
+    "history"
+  ],
+  "remoteUpdatesPreserved": true,
+  "nextTask": "继续现有谜语人专题改版：21组考据，含已上线犯罪巷案例。"
+}

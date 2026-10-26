@@ -21,4 +21,4 @@
 
 患者、监听和院史三页的320／390／1280／1440四屏宽均无页面横向溢出；长段字幕自然换行。共保存19项浏览器观察，新增字幕与当前播放时段匹配，中文字幕隐藏空英文行，原有双语保留；院史折叠从播放状态变为暂停，切条后仅一个音频源；无浏览器错误日志。进度前后跳转与空档清理由实际控制器的`seeked`回归验证；浏览器原生进度滑块未通过自动化直接定位，本轮不等同于真实手机硬件验收。
 
-证据目录：`docs/verification/arkham-audio-subtitles-20261025/`，包含`main-validation.log`、`validation.json`、`browser-checks.json`及页面截图。2026-10-26用户已授权将本轮字幕推送上线；提交、部署及线上核验结果在发布完成后回填。修复源码同步到日常目录，构建产物只由构建脚本生成。
+证据目录：`docs/verification/arkham-audio-subtitles-20261025/`，包含`main-validation.log`、`validation.json`、`browser-checks.json`及页面截图。2026-10-26已推送main并上线：内容提交`e8ac6b6e36b43ce459a42b33c4d44e85297ad23a`，[Pages运行40253772372](https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/40253772372)的build／deploy均成功。线上三类录音页面与播放器脚本共4项文件逐字节一致，129条字幕覆盖、88条新增／1350个时段及三类录音实际字幕显示通过。发布前保留69c5dde的5个主线新提交，完整发布证据见`docs/verification/arkham-audio-subtitles-publication-20261026/`。修复源码同步到日常目录，构建产物只由构建脚本生成。

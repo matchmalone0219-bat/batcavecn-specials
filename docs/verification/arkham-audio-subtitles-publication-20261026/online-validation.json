@@ -1,0 +1,33 @@
+{
+  "commit": "e8ac6b6e36b43ce459a42b33c4d44e85297ad23a",
+  "baseUrl": "https://matchmalone0219-bat.github.io/batcavecn-specials/",
+  "assets": [
+    {
+      "path": "arkham/patients/index.html",
+      "status": 200,
+      "sha256": "524c0aee2a7deaec925235a1a6f8818a01b3b5ebb0c4e13999b0446481a9c6a2",
+      "bytes": 468311
+    },
+    {
+      "path": "arkham/transmissions/index.html",
+      "status": 200,
+      "sha256": "38654c5e27dd8d1b37dca7bf405eb9baa7a311701319ac6c0091fb74de65a90d",
+      "bytes": 127296
+    },
+    {
+      "path": "arkham/archive/asylum-history/index.html",
+      "status": 200,
+      "sha256": "400e2f1d9b47235071f14ca9ade69727f159af246efc8117d12f1c27a3868e0b",
+      "bytes": 50052
+    },
+    {
+      "path": "assets/arkham-investigation.js",
+      "status": 200,
+      "sha256": "7ca4a999bdf7e0f41f30323c831d8f1b629f03e2bbdf2fba586f93796ea1f3fe",
+      "bytes": 23155
+    }
+  ],
+  "onlineRecordingsWithSubtitles": 129,
+  "repairedRecordings": 88,
+  "newCueCount": 1350
+}

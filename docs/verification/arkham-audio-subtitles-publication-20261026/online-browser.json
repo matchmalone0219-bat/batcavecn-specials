@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "page": "patients",
+      "expected": "…",
+      "shown": "…",
+      "src": "/batcavecn-specials/assets/audio/patient-city-mad-hatter-01.m4a",
+      "time": 0.213333
+    },
+    {
+      "page": "transmissions",
+      "englishHidden": true,
+      "expected": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "paused": true,
+      "shown": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "time": 35.758583
+    },
+    {
+      "page": "history",
+      "expected": "…",
+      "paused": false,
+      "shown": "…",
+      "time": 0.235102
+    },
+    {
+      "page": "patients-playing-caption",
+      "expected": "…",
+      "paused": true,
+      "shown": "…",
+      "time": 23.577647
+    },
+    {
+      "page": "patients-caption-confirmed",
+      "expected": "我的爱丽丝在哪里？",
+      "paused": true,
+      "shown": "我的爱丽丝在哪里？",
+      "time": 24.110986
+    },
+    {
+      "page": "history-caption-confirmed",
+      "collapse": {
+        "closed": true,
+        "paused": true
+      },
+      "expected": "我是阿玛迪斯·阿卡姆之魂。",
+      "paused": true,
+      "shown": "我是阿玛迪斯·阿卡姆之魂。",
+      "time": 1.613787
+    }
+  ],
+  "errors": []
+}
