@@ -28,6 +28,7 @@ jobs:
       - name: Validate archives and interactions
         run: |
           python3 verify.py
+          python3 verify-subtitles.py
           python3 verify-easter-eggs.py
           python3 verify-artbooks.py
           python3 verify-conroy.py

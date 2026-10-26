@@ -187,16 +187,6 @@
     syncMotion();
   }
 
-  const historyAudio = [...document.querySelectorAll('[data-history-audio] audio')];
-  if (historyAudio.length) {
-    historyAudio.forEach(audio => {
-      audio.addEventListener('playing', () => historyAudio.forEach(other => { if (other !== audio) other.pause(); }));
-      const details = audio.closest('details');
-      details.addEventListener('toggle', () => { if (!details.open) audio.pause(); });
-    });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) historyAudio.forEach(audio => audio.pause()); });
-    window.addEventListener('pagehide', () => historyAudio.forEach(audio => audio.pause()));
-  }
   const recordings = [...document.querySelectorAll('[data-audio-recording]')];
   if (!recordings.length) return;
   let active, frame, context;
@@ -214,7 +204,7 @@
     if (!sub) return;
     const subZh = sub.querySelector?.('.sub-zh');
     const subEn = sub.querySelector?.('.sub-en');
-    if (active.tape.summary) {
+    if (!active.tape.cues.length && active.tape.summary) {
       if (subZh && subEn) {
         subZh.textContent = active.tape.summary;
         subEn.textContent = '';
@@ -223,6 +213,7 @@
     }
     if (subZh && subEn) {
       subZh.textContent = cue?.text || (active.audio.ended ? '本段通讯截获完毕。' : '…');
+      subEn.hidden = !active.tape.cues.some(c => c.en);
       subEn.textContent = cue?.en || (active.audio.ended ? 'Transmission concluded.' : '…');
     } else {
       sub.textContent = cue?.text || (active.audio.ended ? '本段播放结束。' : '…');
@@ -289,6 +280,7 @@
     const subEn = sub?.querySelector?.('.sub-en');
     if (subZh && subEn) {
       subZh.textContent = '点击播放，截获并解密信道音频。';
+      subEn.hidden = false;
       subEn.textContent = 'Click play to intercept and decode frequency audio.';
     } else if (sub) {
       sub.textContent = '点击播放，显示本段字幕。';
@@ -310,7 +302,7 @@
       if ((details && !details.open) || file.hidden) return;
       stop(); active = {file, audio, tape: tapes[selectedTape]};
       const heading = file.querySelector('[data-transcript-heading]');
-      if (heading) heading.textContent = active.tape.summary ? 'LISTENING NOTES · 本段导读' : 'AUDIO TRANSCRIPT · 实时字幕';
+      if (heading) heading.textContent = !active.tape.cues.length && active.tape.summary ? 'LISTENING NOTES · 本段导读' : 'AUDIO TRANSCRIPT · 实时字幕';
       audio.src = active.tape.src; audio.hidden = false;
       if (button) button.hidden = true;
       subtitles(); status(file, '正在载入录音…');

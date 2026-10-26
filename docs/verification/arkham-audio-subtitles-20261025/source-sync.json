@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-26",
+  "subtitlePlayerPayloadsCompared": 129,
+  "subtitlePlayerPayloadsIdentical": true,
+  "preservedDailyOnlyChange": "verify.py中既有目录图WebP副本校验保留。日常目录另有既有样式、导航与资源差异，未整包覆盖；两份dist不声称逐文件相同。",
+  "audioFilesChanged": 0,
+  "originalSubtitleSetsChanged": 0
+}

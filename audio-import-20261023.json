@@ -7,7 +7,7 @@
     "之城广播与来电": 8,
     "骑士录音": 22
   },
-  "textMode": "原声与分段导读；新录音未生成逐字字幕",
+  "textMode": "原声、分段导读与同步中文字幕；88条新增录音的字幕已于2026-10-25补齐",
   "originalFiles": [
     {
       "file": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
@@ -1029,5 +1029,6 @@
       "kind": "city-transmission",
       "number": 6
     }
-  ]
+  ],
+  "subtitleCompletion": "audio-subtitles-20261025.json"
 }

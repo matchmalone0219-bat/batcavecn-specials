@@ -1,0 +1,1087 @@
+{
+  "method": "两轮OCR文本比对、全文文字校对；对疑似错字、长句截断、换行乱序及漏识别间隔回看原视频画面。原译中已有的不自然措辞保留。",
+  "newRecordings": 88,
+  "newCues": 1350,
+  "preservedOriginalCueSets": 41,
+  "corrections": [
+    {
+      "file": "audio/patient-city-mad-hatter-03.m4a",
+      "start": 1.0,
+      "before": "你跟我说爱丽丝会来",
+      "after": "你跟我说爱丽丝会来的",
+      "frame": "frames-city-v2/patient-city-mad-hatter-03/00003.jpg"
+    },
+    {
+      "file": "audio/patient-city-mad-hatter-03.m4a",
+      "start": 46.0,
+      "before": "她也不是血淋淋",
+      "after": "她也不是血淋淋的",
+      "frame": "frames-city-v2/patient-city-mad-hatter-03/00093.jpg"
+    },
+    {
+      "file": "audio/patient-city-mad-hatter-03.m4a",
+      "start": 58.0,
+      "before": "及你是怎么请她喝杀的",
+      "after": "以及你是怎么请她喝茶的",
+      "frame": "frames-city-v2/patient-city-mad-hatter-03/00117.jpg"
+    },
+    {
+      "file": "audio/patient-city-mad-hatter-03.m4a",
+      "start": 58.5,
+      "before": "人及你是怎么请她喝杀的",
+      "after": "以及你是怎么请她喝茶的",
+      "frame": "frames-city-v2/patient-city-mad-hatter-03/00118.jpg"
+    },
+    {
+      "file": "audio/patient-city-riddler-01.m4a",
+      "start": 43.5,
+      "before": "我想我是在和爱德华•尼格玛先生说话",
+      "after": "我想我是在和爱德华·尼格玛先生说话",
+      "frame": "frames-city-v2/patient-city-riddler-01/00088.jpg"
+    },
+    {
+      "file": "audio/patient-city-riddler-02.m4a",
+      "start": 34.5,
+      "before": "然后在那个困感帽商的帮助下融化了他们的大脑？",
+      "after": "然后在那个困惑帽商的帮助下融化了他们的大脑？",
+      "frame": "frames-city-v2/patient-city-riddler-02/00070.jpg"
+    },
+    {
+      "file": "audio/patient-city-riddler-04.m4a",
+      "start": 33.0,
+      "before": "说真的爱德华，如果我能弄明自，那对你来说一定是小菜一碟",
+      "after": "说真的爱德华，如果我能弄明白，那对你来说一定是小菜一碟",
+      "frame": "frames-city-v2/patient-city-riddler-04/00067.jpg"
+    },
+    {
+      "file": "audio/patient-city-riddler-04.m4a",
+      "start": 43.0,
+      "before": "告诉我，爱德华，为什么一个谜语人此刻却像一本空自字典？",
+      "after": "告诉我，爱德华，为什么一个谜语人此刻却像一本空白字典？",
+      "frame": "frames-city-v2/patient-city-riddler-04/00087.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-02.m4a",
+      "start": 30.0,
+      "before": "所以你现在是打算到处去宜扬吗？",
+      "after": "所以你现在是打算到处去宣扬吗？",
+      "frame": "frames-city-v2/patient-city-catwoman-02/00061.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-04.m4a",
+      "start": 17.0,
+      "before": "你和蝙蝠侠昀关系",
+      "after": "你和蝙蝠侠的关系",
+      "frame": "frames-city-v2/patient-city-catwoman-04/00035.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-04.m4a",
+      "start": 41.0,
+      "before": "对法律共同漠视",
+      "after": "对法律的共同漠视",
+      "frame": "frames-city-v2/patient-city-catwoman-04/00083.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-05.m4a",
+      "start": 49.0,
+      "before": "你会失败",
+      "after": "你会失败的",
+      "frame": "frames-city-v2/patient-city-catwoman-05/00099.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-05.m4a",
+      "start": 70.0,
+      "before": "双面人把你要找的东西放在了他以前竞选办公室的保险稍里",
+      "after": "双面人把你要找的东西放在了他以前竞选办公室的保险箱里",
+      "frame": "frames-city-v2/patient-city-catwoman-05/00142.jpg"
+    },
+    {
+      "file": "audio/patient-city-catwoman-05.m4a",
+      "start": 79.5,
+      "before": "我希望保险稍里的东西能让你开心",
+      "after": "我希望保险箱里的东西能让你开心",
+      "frame": "frames-city-v2/patient-city-catwoman-05/00160.jpg"
+    },
+    {
+      "file": "audio/patient-city-freeze-01.m4a",
+      "start": 55.5,
+      "before": "我会冻住你腿里的肯髓",
+      "after": "我会冻住你腿里的骨髓",
+      "frame": "frames-city-v2/patient-city-freeze-01/00112.jpg"
+    },
+    {
+      "file": "audio/patient-city-freeze-01.m4a",
+      "start": 58.5,
+      "before": "而当意识到自己即将瘫痪的时候，你的每根导头都会破碎和断裂",
+      "after": "而当意识到自己即将瘫痪的时候，你的每根骨头都会破碎和断裂",
+      "frame": "frames-city-v2/patient-city-freeze-01/00118.jpg"
+    },
+    {
+      "file": "audio/patient-city-freeze-04.m4a",
+      "start": 66.0,
+      "before": "我到实验室的时候，首席执行官费里斯•博伊尔已经在那里等我了",
+      "after": "我到实验室的时候，首席执行官费里斯·博伊尔已经在那里等我了",
+      "frame": "frames-city-v2/patient-city-freeze-04/00134.jpg"
+    },
+    {
+      "file": "audio/patient-city-freeze-04.m4a",
+      "start": 126.5,
+      "before": "我感到一种奇怪的刺痛和恐惧昀疼痛",
+      "after": "我感到一种奇怪的刺痛和恐惧的疼痛",
+      "frame": "frames-city-v2/patient-city-freeze-04/00254.jpg"
+    },
+    {
+      "file": "audio/patient-city-freeze-04.m4a",
+      "start": 138.5,
+      "before": "刺的寒意使我疼痛的身体平静下来",
+      "after": "刺骨的寒意使我疼痛的身体平静下来",
+      "frame": "frames-city-v2/patient-city-freeze-04/00278.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-01.m4a",
+      "start": 8.5,
+      "before": "坚强沉默类型",
+      "after": "坚强沉默的类型",
+      "frame": "frames-city-v2/patient-city-joker-01/00018.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-01.m4a",
+      "start": 46.5,
+      "before": "在我的机构里你不会",
+      "after": "在我的机构里你不会的",
+      "frame": "frames-city-v2/patient-city-joker-01/00094.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-01.m4a",
+      "start": 54.0,
+      "before": "我完全了解你的.病情",
+      "after": "我完全了解你的病情",
+      "frame": "frames-city-v2/patient-city-joker-01/00109.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-02.m4a",
+      "start": 17.0,
+      "before": "此外，为了看她脸上那难得的表情也是值得",
+      "after": "此外，为了看她脸上那难得的表情也是值得的",
+      "frame": "frames-city-v2/patient-city-joker-02/00035.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 16.5,
+      "before": "其中一个被肢解在通往我办公室的电棉外",
+      "after": "其中一个被肢解在通往我办公室的电梯外",
+      "frame": "frames-city-v2/patient-city-joker-03/00034.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 48.0,
+      "before": "金妮死了，一切都不像是真",
+      "after": "金妮死了，一切都不像是真的",
+      "frame": "frames-city-v2/patient-city-joker-03/00097.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 50.5,
+      "before": "金妮死了，一切都不像是真白",
+      "after": "金妮死了，一切都不像是真的",
+      "frame": "frames-city-v2/patient-city-joker-03/00102.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 82.5,
+      "before": "世且仁人杯，耳以郁化天，1以胁要用钉子和砖头给我做口腔手术",
+      "after": "他抓住我的衣领把我拉近——他一直在吃大蒜，每句话都很臭，他威胁要用钉子和砖头给我做口腔手术",
+      "frame": "frames-city-v2/patient-city-joker-03/00166.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 84.5,
+      "before": "世且仁品人杯，耳门郁化天，心及胁要用钉子和砖头给我做口腔手术",
+      "after": "他抓住我的衣领把我拉近——他一直在吃大蒜，每句话都很臭，他威胁要用钉子和砖头给我做口腔手术",
+      "frame": "frames-city-v2/patient-city-joker-03/00170.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 89.5,
+      "before": "世且仁人杯，耳以郁化天，1必胁要用钉子和砖头给我做口腔手术",
+      "after": "他抓住我的衣领把我拉近——他一直在吃大蒜，每句话都很臭，他威胁要用钉子和砖头给我做口腔手术",
+      "frame": "frames-city-v2/patient-city-joker-03/00180.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-03.m4a",
+      "start": 112.0,
+      "before": "等你派来了，我再告诉你剩下",
+      "after": "等你派来了，我再告诉你剩下的",
+      "frame": "frames-city-v2/patient-city-joker-03/00225.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-04.m4a",
+      "start": 75.5,
+      "before": "是的，真",
+      "after": "是的，真的",
+      "frame": "frames-city-v2/patient-city-joker-04/00152.jpg"
+    },
+    {
+      "file": "audio/patient-city-joker-05.m4a",
+      "start": 11.0,
+      "before": "谁的错？蝙蝠侠的吗？",
+      "after": "谁的错？蝙蝠侠吗？",
+      "frame": "frames-city-v2/patient-city-joker-05/00023.jpg"
+    },
+    {
+      "file": "audio/patient-city-penguin-01.m4a",
+      "start": 19.0,
+      "before": "毕竟考虑到你所面临哟挑战",
+      "after": "毕竟考虑到你所面临的挑战",
+      "frame": "frames-city-v2/patient-city-penguin-01/00039.jpg"
+    },
+    {
+      "file": "audio/patient-city-penguin-03.m4a",
+      "start": 0.5,
+      "before": "②s0我告诉过你，斯特恩奇",
+      "after": "我告诉过你，斯特恩奇",
+      "frame": "frames-city-v2/patient-city-penguin-03/00002.jpg"
+    },
+    {
+      "file": "audio/patient-city-penguin-05.m4a",
+      "start": 29.0,
+      "before": "你本可以把那玻璃拿掉",
+      "after": "你本可以把那玻璃拿掉的",
+      "frame": "frames-city-v2/patient-city-penguin-05/00059.jpg"
+    },
+    {
+      "file": "audio/patient-city-two-face-03.m4a",
+      "start": 7.5,
+      "before": "。你曾是一颗冉冉升起的新星，是这座城市钓一盏明灯",
+      "after": "你曾是一颗冉冉升起的新星，是这座城市的一盏明灯",
+      "frame": "frames-city-v2/patient-city-two-face-03/00016.jpg"
+    },
+    {
+      "file": "audio/patient-city-two-face-03.m4a",
+      "start": 12.5,
+      "before": "一个从天而降的自衣骑士，后面还跟着一个黑暗骑士",
+      "after": "一个从天而降的白衣骑士，后面还跟着一个黑暗骑士",
+      "frame": "frames-city-v2/patient-city-two-face-03/00026.jpg"
+    },
+    {
+      "file": "audio/patient-city-two-face-05.m4a",
+      "start": 72.0,
+      "before": "猫女正准备偷你旧竟选办公室保险稍里的东西",
+      "after": "猫女正准备偷你旧竞选办公室保险箱里的东西",
+      "frame": "frames-city-v2/patient-city-two-face-05/00145.jpg"
+    },
+    {
+      "file": "audio/transmission-city-sharp-01.m4a",
+      "start": 1.5,
+      "before": "我是薇姬•瓦尔",
+      "after": "我是薇姬·瓦尔",
+      "frame": "frames-city-v2/transmission-city-sharp-01/00004.jpg"
+    },
+    {
+      "file": "audio/transmission-city-zsasz-01.m4a",
+      "start": 39.5,
+      "before": "我不知道怎样才能把这些人从无尽钓痛苦中拯救出来",
+      "after": "我不知道怎样才能把这些人从无尽的痛苦中拯救出来",
+      "frame": "frames-city-v2/transmission-city-zsasz-01/00080.jpg"
+    },
+    {
+      "file": "audio/transmission-city-zsasz-05.m4a",
+      "start": 10.5,
+      "before": "哭得像个婴儿，蹒珊着穿过城市的街道",
+      "after": "哭得像个婴儿，蹒跚着穿过城市的街道",
+      "frame": "frames-city-v2/transmission-city-zsasz-05/00022.jpg"
+    },
+    {
+      "file": "audio/transmission-city-zsasz-05.m4a",
+      "start": 44.0,
+      "before": "我糙他奶奶",
+      "after": "我糙他奶奶的",
+      "frame": "frames-city-v2/transmission-city-zsasz-05/00089.jpg"
+    },
+    {
+      "file": "audio/transmission-city-zsasz-05.m4a",
+      "start": 62.0,
+      "before": "被困在一到需要拯救的悲惨表情中",
+      "after": "被困在一副需要拯救的悲惨表情中",
+      "frame": "frames-city-v2/transmission-city-zsasz-05/00125.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-oracle-01.m4a",
+      "start": 35.0,
+      "before": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "after": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "frame": "frames/transmission-knight-oracle-01/00074.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-oracle-02.m4a",
+      "start": 16.0,
+      "before": "阿卡姆骑士：我知道我已经说了很久了，对吗？蝙蝠侠正在救我的路上。这个混蛋让我说话……最后我也只是⋯•只字未提。所以相信我。你不要指望布鲁斯能来救你。",
+      "after": "阿卡姆骑士：我知道我已经说了很久了，对吗？蝙蝠侠正在救我的路上。这个混蛋让我说话……最后我也只是…·只字未提。所以相信我。你不要指望布鲁斯能来救你。",
+      "frame": "frames/transmission-knight-oracle-02/00035.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-oracle-03.m4a",
+      "start": 26.5,
+      "before": "先知：杰森，我们可以挽回的⋯⋯",
+      "after": "先知：杰森，我们可以挽回的……",
+      "frame": "frames/transmission-knight-oracle-03/00054.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-oracle-03.m4a",
+      "start": 52.0,
+      "before": "阿卡姆骑士：⋯⋯阿尔弗雷德怎么样了？",
+      "after": "阿卡姆骑士：……阿尔弗雷德怎么样了？",
+      "frame": "frames/transmission-knight-oracle-03/00105.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-oracle-03.m4a",
+      "start": 63.0,
+      "before": "阿卡姆骑士：有人塞住了她的嘴。所有伤害她的人，都得",
+      "after": "阿卡姆骑士：有人塞住了她的嘴。所有伤害她的人，都得死。",
+      "frame": "frames/transmission-knight-oracle-03/00132.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-scarecrow-01.m4a",
+      "start": 4.0,
+      "before": "草人：而且你应该懂得一些礼数⋯⋯你是谁？另一个躲在兜帽下的冒牌货？",
+      "after": "稻草人：而且你应该懂得一些礼数…你是谁？另一个躲在兜帽下的冒牌货？",
+      "frame": "frames/transmission-knight-scarecrow-01/00011.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-scarecrow-02.m4a",
+      "start": 11.5,
+      "before": "阿卡姆骑士：坦克，无人机，一支高素质军队。",
+      "after": "阿卡姆骑士：坦克，无人机，一支高素质的军队。",
+      "frame": "frames/transmission-knight-scarecrow-02/00024.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-scarecrow-03.m4a",
+      "start": 1.5,
+      "before": "稻草人：如果你想让他死，为什么来找我？你看起来⋯很有能力。",
+      "after": "稻草人：如果你想让他死，为什么来找我？你看起来…很有能力。",
+      "frame": "frames/transmission-knight-scarecrow-03/00004.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-scarecrow-03.m4a",
+      "start": 28.0,
+      "before": "稻草人：你对我们了如指掌，阿卡姆骑士。但是你似乎误会了什么。我不想让蝙蝠侠死。我想让他的传奇被揭奇。",
+      "after": "稻草人：你对我们了如指掌，阿卡姆骑士。但是你似乎误会了什么。我不想让蝙蝠侠死。我想让他的传奇被揭穿。",
+      "frame": "frames/transmission-knight-scarecrow-03/00057.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-scarecrow-03.m4a",
+      "start": 39.5,
+      "before": "稻草人：如果你杀了他，就会把他塑造成一个殉道者，那会让他成为传说。但是你若毁了他，羞辱他，让他感到恐惧，让全世界都看到他丑态。那个时候他便仅仅是个普通人了。",
+      "after": "稻草人：如果你杀了他，就会把他塑造成一个殉道者，那会让他成为传说。但是你若毁了他，羞辱他，让他感到恐惧，让全世界都看到他的丑态。那个时候他便仅仅是个普通人了。",
+      "frame": "frames/transmission-knight-scarecrow-03/00086.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 0.5,
+      "before": "哈莉•奎茵：谁在那儿？",
+      "after": "哈莉·奎茵：谁在那儿？",
+      "frame": "frames/transmission-knight-harley-01/00002.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 2.0,
+      "before": "亨利•亚当斯：是亚当斯先生。我们打过电话。",
+      "after": "亨利·亚当斯：是亚当斯先生。我们打过电话的。",
+      "frame": "frames/transmission-knight-harley-01/00005.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 4.5,
+      "before": "哈莉•奎茵：进来吧。但是得慢慢地！还有手举高点！",
+      "after": "哈莉·奎茵：进来吧。但是得慢慢地！还有手举高点！",
+      "frame": "frames/transmission-knight-harley-01/00010.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 10.5,
+      "before": "亨利•亚当斯：谢谢你同意见我，奎泽尔小姐。",
+      "after": "亨利·亚当斯：谢谢你同意见我，奎泽尔小姐。",
+      "frame": "frames/transmission-knight-harley-01/00022.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 14.0,
+      "before": "哈莉•奎茵：好吧，你说过你知道J先生什么事儿的。开始说吧！",
+      "after": "哈莉·奎茵：好吧，你说过你知道J先生什么事儿的。开始说吧！",
+      "frame": "frames/transmission-knight-harley-01/00029.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 18.5,
+      "before": "亨利•亚当斯：好吧，不是每天都有枪指着我的脸。很兴奋吧，不是么？",
+      "after": "亨利·亚当斯：好吧，不是每天都有枪指着我的脸。很兴奋吧，不是么？",
+      "frame": "frames/transmission-knight-harley-01/00038.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 25.0,
+      "before": "哈莉•奎茵：你还有两秒钟，不然我爆了你那又皱又老脑袋！",
+      "after": "哈莉·奎茵：你还有两秒钟，不然我爆了你那又皱又老脑袋！",
+      "frame": "frames/transmission-knight-harley-01/00051.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 30.0,
+      "before": "亨利•亚当斯：［LAUGHS］",
+      "after": "亨利·亚当斯：［LAUGHS］",
+      "frame": "frames/transmission-knight-harley-01/00061.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 31.5,
+      "before": "亨利•亚当斯：［LAUGHS］",
+      "after": "亨利·亚当斯：［LAUGHS］",
+      "frame": "frames/transmission-knight-harley-01/00064.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 35.5,
+      "before": "哈莉•奎茵：有什么好笑的？！",
+      "after": "哈莉·奎茵：有什么好笑的？！",
+      "frame": "frames/transmission-knight-harley-01/00072.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 38.0,
+      "before": "亨利•亚当斯：哦，我刚想起一个老的小丑-不好意思，我说的是笑话。",
+      "after": "亨利·亚当斯：哦，我刚想起一个老的小丑-不好意思，我说的是笑话。",
+      "frame": "frames/transmission-knight-harley-01/00077.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 44.0,
+      "before": "哈莉•奎茵：我不想再听什么笑话。",
+      "after": "哈莉·奎茵：我不想再听什么笑话。",
+      "frame": "frames/transmission-knight-harley-01/00089.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 47.0,
+      "before": "亨利•亚当斯：什么是红的和平的？",
+      "after": "亨利·亚当斯：什么是红的和平的？",
+      "frame": "frames/transmission-knight-harley-01/00097.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 51.5,
+      "before": "亨利•亚当斯：是铁站下的小婴孩。",
+      "after": "亨利·亚当斯：是铁站下的小婴孩。",
+      "frame": "frames/transmission-knight-harley-01/00104.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 53.5,
+      "before": "哈莉•奎茵：［LAUGHS］",
+      "after": "哈莉·奎茵：［LAUGHS］",
+      "frame": "frames/transmission-knight-harley-01/00108.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 56.0,
+      "before": "亨利•亚当斯：为什么那个警察抓不到小偷？",
+      "after": "亨利·亚当斯：为什么那个警察抓不到小偷？",
+      "frame": "frames/transmission-knight-harley-01/00113.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 60.0,
+      "before": "亨利•亚当斯：是因为他的腿被砍掉啦！",
+      "after": "亨利·亚当斯：是因为他的腿被砍掉啦！",
+      "frame": "frames/transmission-knight-harley-01/00121.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 62.5,
+      "before": "哈莉•奎茵：［LAUGHS］",
+      "after": "哈莉·奎茵：［LAUGHS］",
+      "frame": "frames/transmission-knight-harley-01/00126.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 65.0,
+      "before": "亨利•亚当斯：一个父亲带着他的家人去公园玩。",
+      "after": "亨利·亚当斯：一个父亲带着他的家人去公园玩。",
+      "frame": "frames/transmission-knight-harley-01/00131.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 69.5,
+      "before": "亨利・亚当斯：他们都死在回家路上的一场车祸！",
+      "after": "亨利·亚当斯：他们都死在回家路上的一场车祸！",
+      "frame": "frames/transmission-knight-harley-01/00140.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 74.0,
+      "before": "哈莉•奎茵：［LAUGHS］",
+      "after": "哈莉·奎茵：［LAUGHS］",
+      "frame": "frames/transmission-knight-harley-01/00149.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 79.5,
+      "before": "哈莉，奎茵：你真好玩。我没那样笑过，自从⋯我好想我的小甜心。",
+      "after": "哈莉·奎茵：你真好玩。我没那样笑过，自从…我好想我的小甜心。",
+      "frame": "frames/transmission-knight-harley-01/00160.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-01.m4a",
+      "start": 86.5,
+      "before": "亨利•亚当斯：噢，哈莉。我也好想你。",
+      "after": "亨利·亚当斯：噢，哈莉。我也好想你。",
+      "frame": "frames/transmission-knight-harley-01/00174.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 1.5,
+      "before": "蝙蝠侠：患者访谈。10月15日。请输入你名字。",
+      "after": "蝙蝠侠：患者访谈。10月15日。请输入你的名字。",
+      "frame": "frames/transmission-knight-harley-02/00004.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 5.5,
+      "before": "亨利•亚当斯：亨利。亨利•亚当。蝙蝠侠，这是什么地方？我在哪儿？",
+      "after": "亨利·亚当斯：亨利。亨利·亚当。蝙蝠侠，这是什么地方？我在哪儿？",
+      "frame": "frames/transmission-knight-harley-02/00012.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 16.5,
+      "before": "享利•亚当斯：生病了？我一生之中从来没有比此刻更健康了。",
+      "after": "亨利·亚当斯：生病了？我一生之中从来没有比此刻更健康了。",
+      "frame": "frames/transmission-knight-harley-02/00034.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 23.5,
+      "before": "亨利•亚当斯：当然没有。那些在其它设备中的人，他们是谁？",
+      "after": "亨利·亚当斯：当然没有。那些在其它设备中的人，他们是谁？",
+      "frame": "frames/transmission-knight-harley-02/00048.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 32.5,
+      "before": "亨利•亚当斯：什么？难道说，我不是唯一的感染者？",
+      "after": "亨利·亚当斯：什么？难道说，我不是唯一的感染者？",
+      "frame": "frames/transmission-knight-harley-02/00066.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 39.5,
+      "before": "亨利，亚当斯：那些笑容。我从来没有看见过的笑容。对的，是他，是小丑。",
+      "after": "亨利·亚当斯：那些笑容。我从来没有看见过的笑容。对的，是他，是小丑。",
+      "frame": "frames/transmission-knight-harley-02/00080.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-02.m4a",
+      "start": 49.0,
+      "before": "亨利•亚当斯：蝙蝠侠，我们现在很危险。你不能冒险来帮助那些恶魔来逃离这个世界。你应该杀了他们所有人。这是唯一的能够保证安全的办法。",
+      "after": "亨利·亚当斯：蝙蝠侠，我们现在很危险。你不能冒险来帮助那些恶魔来逃离这个世界。你应该杀了他们所有人。这是唯一的能够保证安全的办法。",
+      "frame": "frames/transmission-knight-harley-02/00099.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 1.0,
+      "before": "亨利•亚当斯：0小姐，我是J先生，进来吧。完毕。",
+      "after": "亨利·亚当斯：Q小姐，我是J先生，进来吧。完毕。",
+      "frame": "frames/transmission-knight-harley-03/00003.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 5.0,
+      "before": "哈莉•奎茵：大声清晰地读出来，J先生。",
+      "after": "哈莉·奎茵：大声清晰地读出来，J先生。",
+      "frame": "frames/transmission-knight-harley-03/00011.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 7.5,
+      "before": "享利•亚当斯：我的渗透是完美无瑕的。‘布丁时间’作战成功。",
+      "after": "亨利·亚当斯：我的渗透是完美无瑕的。‘布丁时间’作战成功。",
+      "frame": "frames/transmission-knight-harley-03/00017.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 13.0,
+      "before": "哈莉•奎茵：哈哈！我的孩子们怎么样？",
+      "after": "哈莉·奎茵：哈哈！我的孩子们怎么样？",
+      "frame": "frames/transmission-knight-harley-03/00027.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 16.0,
+      "before": "亨利，亚当斯：他们体格强壮，亲爱的。都迫不及待的等着见妈妈呢。现在你还记得你的计划吧？",
+      "after": "亨利·亚当斯：他们体格强壮，亲爱的。都迫不及待的等着见妈妈呢。现在你还记得你的计划吧？",
+      "frame": "frames/transmission-knight-harley-03/00033.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 24.5,
+      "before": "哈莉•奎茵：当然。不过我真的不想打你头，那会很疼",
+      "after": "哈莉·奎茵：当然。不过我真的不想打你的头，那会很疼",
+      "frame": "frames/transmission-knight-harley-03/00050.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 29.0,
+      "before": "亨利•亚当斯：我们已经讨论过这点了，我的小指虎。这是唯一能让蝙蝠侠相信我可以信任的方法。你也想杀了他，不是吗？",
+      "after": "亨利·亚当斯：我们已经讨论过这点了，我的小指虎。这是唯一能让蝙蝠侠相信我可以信任的方法。你也想杀了他，不是吗？",
+      "frame": "frames/transmission-knight-harley-03/00059.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 38.0,
+      "before": "哈莉•奎茵：是的……好吧！",
+      "after": "哈莉·奎茵：是的……好吧！",
+      "frame": "frames/transmission-knight-harley-03/00077.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-harley-03.m4a",
+      "start": 39.5,
+      "before": "亨利•亚当斯：哦，不得不赶紧离开了，乌男孩来了。再见吧。J先生完毕，出去了。",
+      "after": "亨利·亚当斯：哦，不得不赶紧离开了，鸟男孩来了。再见吧。J先生完毕，出去了。",
+      "frame": "frames/transmission-knight-harley-03/00080.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-riddler-02.m4a",
+      "start": 28.5,
+      "before": "猫女：我打算崇拜地挂上你的电话，艾迪⋯⋯",
+      "after": "猫女：我打算崇拜地挂上你的电话，艾迪……",
+      "frame": "frames/transmission-knight-riddler-02/00059.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-riddler-02.m4a",
+      "start": 31.0,
+      "before": "谜语人：不！不！听着，我需要⋯•得到些⋯•有用的东西。",
+      "after": "谜语人：不！不！听着，我需要…·得到些…·有用的东西。",
+      "frame": "frames/transmission-knight-riddler-02/00065.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-riddler-02.m4a",
+      "start": 48.0,
+      "before": "猫女：⋯信息。",
+      "after": "猫女：…信息。",
+      "frame": "frames/transmission-knight-riddler-02/00097.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-riddler-03.m4a",
+      "start": 32.5,
+      "before": "谜语人：为什么你•好吧。无论如何，在某种意义上来讲，我已经殚精竭虑了。",
+      "after": "谜语人：为什么你……好吧。无论如何，在某种意义上来讲，我已经殚精竭虑了。",
+      "frame": "frames/transmission-knight-riddler-03/00070.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-01.m4a",
+      "start": 7.0,
+      "before": "哈莉•奎茵：你俩是一对儿笨蛋！",
+      "after": "哈莉·奎茵：你俩是一对儿笨蛋！",
+      "frame": "frames/transmission-knight-penguin-01/00016.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-01.m4a",
+      "start": 14.0,
+      "before": "哈莉•奎茵：好吧。它的左面是什么？",
+      "after": "哈莉·奎茵：好吧。它的左面是什么？",
+      "frame": "frames/transmission-knight-penguin-01/00029.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-02.m4a",
+      "start": 35.0,
+      "before": "双面人：你只要确保我们的人都全副武装，子弹上膛就",
+      "after": "双面人：你只要确保我们的人都全副武装，子弹上膛就好。",
+      "frame": "frames/transmission-knight-penguin-02/00071.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-03.m4a",
+      "start": 6.0,
+      "before": "暴徒：我的胳膊⋯…我想它断了！",
+      "after": "暴徒：我的胳膊……我想它断了！",
+      "frame": "frames/transmission-knight-penguin-03/00013.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-03.m4a",
+      "start": 8.5,
+      "before": "企鹅：最好如此，要不然我也会自己把它打断。发生了什",
+      "after": "企鹅：最好如此，要不然我也会自己把它打断。发生了什么事？",
+      "frame": "frames/transmission-knight-penguin-03/00021.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-03.m4a",
+      "start": 22.0,
+      "before": "暴徒：老大，别……有人找到了我们所有人⋯…并且杀了所有的人…",
+      "after": "暴徒：老大，别……有人找到了我们所有人……并且杀了所有的人…",
+      "frame": "frames/transmission-knight-penguin-03/00046.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-penguin-03.m4a",
+      "start": 26.5,
+      "before": "暴徒：他旁若无人地走过我们。我从来没看过这样的事",
+      "after": "暴徒：他旁若无人地走过我们。我从来没看过这样的事情。",
+      "frame": "frames/transmission-knight-penguin-03/00054.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-01.m4a",
+      "start": 11.5,
+      "before": "医生：抱歉，我忘了介绍自己了，对吧？我的名字是艾利克斯•赛多利斯。艾利克斯•赛多利斯博士。这个？我想这个是我的自白书。",
+      "after": "医生：抱歉，我忘了介绍自己了，对吧？我的名字是艾利克斯·赛多利斯。艾利克斯·赛多利斯博士。这个？我想这个是我的自白书。",
+      "frame": "frames/transmission-knight-stagg-01/00025.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-01.m4a",
+      "start": 24.5,
+      "before": "医生：20年前，我和我的朋友和商业伙伴，西蒙•斯塔格，开始经商。",
+      "after": "医生：20年前，我和我的朋友和商业伙伴，西蒙·斯塔格，开始经商。",
+      "frame": "frames/transmission-knight-stagg-01/00050.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-02.m4a",
+      "start": 18.5,
+      "before": "医生：现在。我说到哪儿了。哦对！化学武器。生化武噐。多么美妙的东西。我们把它投放到商业中来拯救人类。但是事实证明，杀了他们会更加划算。",
+      "after": "医生：现在。我说到哪儿了。哦对！化学武器。生化武器。多么美妙的东西。我们把它投放到商业中来拯救人类。但是事实证明，杀了他们会更加划算。",
+      "frame": "frames/transmission-knight-stagg-02/00038.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-02.m4a",
+      "start": 32.0,
+      "before": "医生：但是对于西蒙来说这是不够的。他是个贪梦的寄生虫。那个混蛋！",
+      "after": "医生：但是对于西蒙来说这是不够的。他是个贪婪的寄生虫。那个混蛋！",
+      "frame": "frames/transmission-knight-stagg-02/00065.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-02.m4a",
+      "start": 38.5,
+      "before": "医生：你知道的，没有很多买家买这个东西。至少，不是合法的买家。所以你需要有竟争力。但是人体试验是非法的，你要怎么样才能高效地进行研究？更不要提其中蕴含的不道德的、难以预估的、危及生命的危险了。",
+      "after": "医生：你知道的，没有很多买家买这个东西。至少，不是合法的买家。所以你需要有竞争力。但是人体试验是非法的，你要怎么样才能高效地进行研究？更不要提其中蕴含的不道德的、难以预估的、危及生命的危险了。",
+      "frame": "frames/transmission-knight-stagg-02/00078.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-03.m4a",
+      "start": 1.5,
+      "before": "医生：你觉得我需要竞恕？你觉得这是不可挽回的过失？我虽生为天主教徒，但是我依然选择了科学信仰。",
+      "after": "医生：你觉得我需要宽恕？你觉得这是不可挽回的过失？我虽生为天主教徒，但是我依然选择了科学信仰。",
+      "frame": "frames/transmission-knight-stagg-03/00004.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-03.m4a",
+      "start": 36.0,
+      "before": "医生：他的状况越来越糟了。这些天来，我们只有在名义上还算是个制药公司了。现在这里生产的全是武器，有些给了军队，更多给了与军队战斗人们。",
+      "after": "医生：他的状况越来越糟了。这些天来，我们只有在名义上还算是个制药公司了。现在这里生产的全是武器，有些给了军队，更多的给了与军队战斗的人们。",
+      "frame": "frames/transmission-knight-stagg-03/00074.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-stagg-03.m4a",
+      "start": 48.5,
+      "before": "医生：我知道他们在做什么。他们在利用我的技术，我全部的预防接种的方法，然后他们将之变得扭曲，让事与愿",
+      "after": "医生：我知道他们在做什么。他们在利用我的技术，我全部的预防接种的方法，然后他们将之变得扭曲，让事与愿违。",
+      "frame": "frames/transmission-knight-stagg-03/00098.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-pyg-02.m4a",
+      "start": 2.0,
+      "before": "猪面教授：雅诺什，我最亲爱的儿子，我最完美的孩子。为了让你不再孤单，我为你录制了这样的留言，这样你就会明白芭芭是多么的爱你。首首永远爱他的小猪仔。",
+      "after": "猪面教授：雅诺什，我最亲爱的儿子，我最完美的孩子。为了让你不再孤单，我为你录制了这样的留言，这样你就会明白爸爸是多么的爱你。爸爸永远爱他的小猪仔。",
+      "frame": "frames/transmission-knight-pyg-02/00008.jpg"
+    },
+    {
+      "file": "audio/transmission-knight-pyg-03.m4a",
+      "start": 42.5,
+      "before": "猪面教授：当我从泡沫般的梦幻中苏醒，发现了她所做的一切之后，想想那时的我是多么恐惧。胎盘的脸，戈尔工的微笑，被撕裂肉体的干丝万缕。",
+      "after": "猪面教授：当我从泡沫般的梦幻中苏醒，发现了她所做的一切之后，想想那时的我是多么恐惧。胎盘的脸，戈尔工的微笑，被撕裂肉体的千丝万缕。",
+      "frame": "frames/transmission-knight-pyg-03/00086.jpg"
+    },
+    {
+      "file": "audio/chronicle-01.m4a",
+      "start": 1.5,
+      "before": "我是阿玛迪斯•阿卡姆之魂。",
+      "after": "我是阿玛迪斯·阿卡姆之魂。",
+      "frame": "frames/chronicle-01/00004.jpg"
+    },
+    {
+      "file": "audio/chronicle-02.m4a",
+      "start": 6.0,
+      "before": "我们是医生、政客和教师；我们锌除着城市中的污秽。",
+      "after": "我们是医生、政客和教师；我们铲除着城市中的污秽。",
+      "frame": "frames/chronicle-02/00013.jpg"
+    },
+    {
+      "file": "audio/chronicle-04.m4a",
+      "start": 13.5,
+      "before": "我精神抖擞地踏上归途，急切地想见到我的妻子和家、入。",
+      "after": "我精神抖擞地踏上归途，急切地想见到我的妻子和家人。",
+      "frame": "frames/chronicle-04/00029.jpg"
+    },
+    {
+      "file": "audio/chronicle-05.m4a",
+      "start": 1.0,
+      "before": "找日到自己的工作中但始终无法摆脱脑海中的胡月影。",
+      "after": "我回到自己的工作中，但始终无法摆脱脑海中的阴影。",
+      "frame": "frames/chronicle-05/00003.jpg"
+    },
+    {
+      "file": "audio/chronicle-05.m4a",
+      "start": 1.5,
+      "before": "但始终无法摆脱脑海中的我回到自己的工作中阴影。",
+      "after": "我回到自己的工作中，但始终无法摆脱脑海中的阴影。",
+      "frame": "frames/chronicle-05/00004.jpg"
+    },
+    {
+      "file": "audio/chronicle-05.m4a",
+      "start": 2.0,
+      "before": "找日到自己的工作中但始终无法摆脱脑海中的钥影。",
+      "after": "我回到自己的工作中，但始终无法摆脱脑海中的阴影。",
+      "frame": "frames/chronicle-05/00005.jpg"
+    },
+    {
+      "file": "audio/chronicle-05.m4a",
+      "start": 7.0,
+      "before": "但始终无法摆脱脑海中的我回到自己的工作中阴影。",
+      "after": "我回到自己的工作中，但始终无法摆脱脑海中的阴影。",
+      "frame": "frames/chronicle-05/00015.jpg"
+    },
+    {
+      "file": "audio/chronicle-05.m4a",
+      "start": 7.5,
+      "before": "我本应被这个打击击溃，1日我却比以往更加急切地想弄清楚是谁、为什么这么做。",
+      "after": "我本应被这个打击击溃，但我却比以往更加急切地想弄清楚是谁、为什么这么做。",
+      "frame": "frames/chronicle-05/00016.jpg"
+    },
+    {
+      "file": "audio/chronicle-07.m4a",
+      "start": 4.5,
+      "before": "它已名声扫地，但我发哲要挽回这一切。",
+      "after": "它已名声扫地，但我发誓要挽回这一切。",
+      "frame": "frames/chronicle-07/00012.jpg"
+    },
+    {
+      "file": "audio/chronicle-09.m4a",
+      "start": 1.0,
+      "before": "杀害我家人的凶手站在我面前。多年的治疗应该三让他心智健全。看到他重拾自由我感到骄傲。",
+      "after": "杀害我家人的凶手站在我面前。多年的治疗应该已让他心智健全。看到他重拾自由我感到骄傲。",
+      "frame": "frames/chronicle-09/00003.jpg"
+    },
+    {
+      "file": "audio/chronicle-09.m4a",
+      "start": 18.0,
+      "before": "他怀念新鲜空气扑面焦粢制儱嬰獎綦倉囧鮸紫起艘筊鑫僭韝奙彖艼霟百秘书。",
+      "after": "他谈到他想要在公园散步，他怀念新鲜空气扑面而来的感受，然后他就拿起我父亲的钢笔杀了我的秘书。",
+      "frame": "frames/chronicle-09/00037.jpg"
+    },
+    {
+      "file": "audio/chronicle-09.m4a",
+      "start": 22.0,
+      "before": "他谈到他想要在公园散步他怀念新鲜空气扑面而来的感受，然后他就拿起我父業約钢電杀了我百秘书。",
+      "after": "他谈到他想要在公园散步，他怀念新鲜空气扑面而来的感受，然后他就拿起我父亲的钢笔杀了我的秘书。",
+      "frame": "frames/chronicle-09/00045.jpg"
+    },
+    {
+      "file": "audio/chronicle-10.m4a",
+      "start": 1.0,
+      "before": "春大是个转折点一个新的开端，我真正的命运将得到辉煌的现。",
+      "after": "春天是个转折点，一个新的开端，我真正的命运将得到辉煌的展现。",
+      "frame": "frames/chronicle-10/00008.jpg"
+    },
+    {
+      "file": "audio/chronicle-10.m4a",
+      "start": 15.5,
+      "before": "这些禽兽无葯可救。就像狗一样，它们只会屈从于管教。",
+      "after": "这些禽兽无药可救。就像狗一样，它们只会屈从于管教。",
+      "frame": "frames/chronicle-10/00038.jpg"
+    },
+    {
+      "file": "audio/chronicle-10.m4a",
+      "start": 23.0,
+      "before": "恐怕这种意外事故将继续如果管教也无效的话发室。",
+      "after": "如果管教也无效的话，恐怕这种意外事故将继续发生。",
+      "frame": "frames/chronicle-10/00048.jpg"
+    },
+    {
+      "file": "audio/chronicle-11.m4a",
+      "start": 11.0,
+      "before": "我向哥谭港湾处望去，远远地看见灯光，毫无疑可文有船把更多的堕落者送到我的城市中来。",
+      "after": "我向哥谭港湾处望去，远远地看见灯光，毫无疑问，又有船把更多的堕落者送到我的城市中来。",
+      "frame": "frames/chronicle-11/00029.jpg"
+    },
+    {
+      "file": "audio/chronicle-13.m4a",
+      "start": 29.0,
+      "before": "医生们围着他，式探，观察但只有我才知道如可永远治愈他。",
+      "after": "医生们围着他，试探，观察，但只有我才知道如何永远治愈他。",
+      "frame": "frames/chronicle-13/00069.jpg"
+    },
+    {
+      "file": "audio/chronicle-15.m4a",
+      "start": 18.0,
+      "before": "只有一种方法来净化只有一种方法祛除这恶魔，这个城市和确保它的光明前途。",
+      "after": "只有一种方法祛除这恶魔，只有一种方法来净化这个城市和确保它的光明前途。",
+      "frame": "frames/chronicle-15/00037.jpg"
+    },
+    {
+      "file": "audio/chronicle-15.m4a",
+      "start": 27.0,
+      "before": "＝我必须准备好。。",
+      "after": "我必须准备好……",
+      "frame": "frames/chronicle-15/00055.jpg"
+    },
+    {
+      "file": "audio/chronicle-16.m4a",
+      "start": 16.5,
+      "before": "枚师说一切生灵皆神圣，但如果我的杀戮是为了拯救其他生灵，就不会受到审判。",
+      "after": "牧师说一切生灵皆神圣，但如果我的杀戮是为了拯救其他生灵，就不会受到审判。",
+      "frame": "frames/chronicle-16/00035.jpg"
+    },
+    {
+      "file": "audio/chronicle-18.m4a",
+      "start": 1.0,
+      "before": "我坐在他牢房外面的黑暗中，看着这个抽搐的疯子，听着他嘴重吐出来的污首秽语。",
+      "after": "我坐在他牢房外面的黑暗中，看着这个抽搐的疯子，听着他嘴里吐出来的污言秽语。",
+      "frame": "frames/chronicle-18/00003.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 1.5,
+      "before": "我真是笨死了我怎到现在才发现？这怪物有个間霓「我躲在他全房附近附黑暗中，亲眼看苋有个医生和他交头接耳。",
+      "after": "我真是笨死了。我怎么到现在才发现？这怪物有个同党！我躲在他牢房附近的黑暗中，亲眼看见有个医生和他交头接耳。",
+      "frame": "frames/chronicle-19/00004.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 2.0,
+      "before": "我真是笨死了我怎到现在才发现？这怪物有个間霓下我躲在他全房附近附黑暗中，亲眼看苋有个医生和他交头接耳。",
+      "after": "我真是笨死了。我怎么到现在才发现？这怪物有个同党！我躲在他牢房附近的黑暗中，亲眼看见有个医生和他交头接耳。",
+      "frame": "frames/chronicle-19/00010.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 13.5,
+      "before": "我真是笨死了我怎到现在才发现？这怪物有个简竟我躲在他牵房附近的黑暗中，亲最着觉有个医生和他交头接耳。",
+      "after": "我真是笨死了。我怎么到现在才发现？这怪物有个同党！我躲在他牢房附近的黑暗中，亲眼看见有个医生和他交头接耳。",
+      "frame": "frames/chronicle-19/00028.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 18.5,
+      "before": "她透过透明的屏障温柔地看看他，我斗胆这么远巴，眼中充俩了渴望。当看到她亲吻玻璃旳时候，我浑身直起鸡皮疙瘩。",
+      "after": "她透过透明的屏障温柔地看着他，我斗胆这么说吧，眼中充满了渴望。当看到她亲吻玻璃的时候，我浑身直起鸡皮疙瘩。",
+      "frame": "frames/chronicle-19/00038.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 25.5,
+      "before": "她透过透明的屏障温柔地看看他，我斗胆这么远巴，眼中充俩了渴望。当看到她亲吻玻璃的时候，我浑身直起鸡皮疙瘩。",
+      "after": "她透过透明的屏障温柔地看着他，我斗胆这么说吧，眼中充满了渴望。当看到她亲吻玻璃的时候，我浑身直起鸡皮疙瘩。",
+      "frame": "frames/chronicle-19/00052.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 51.0,
+      "before": "我敢肯定这女的会把她所知的告诉我。若不乖乖招来，也会在电椅上招供。然后，再给她来个脑旰切除手术。",
+      "after": "我敢肯定这女的会把她所知的告诉我。若不乖乖招来，也会在电椅上招供。然后，再给她来个脑叶切除手术。",
+      "frame": "frames/chronicle-19/00108.jpg"
+    },
+    {
+      "file": "audio/chronicle-19.m4a",
+      "start": 68.5,
+      "before": "对她这么年轻的人来说这十分不幸，但她的欲望上阿卡姆的声誉可危。没错。脑叶切除手术，极端手段。只有这样才能便她对这让人扼腕的事情保持沉默。",
+      "after": "对她这么年轻的人来说这十分不幸，但她的欲望让阿卡姆的声誉岌岌可危。没错。脑叶切除手术，极端手段。只有这样才能使她对这让人扼腕的事情保持沉默。",
+      "frame": "frames/chronicle-19/00138.jpg"
+    },
+    {
+      "file": "audio/chronicle-20.m4a",
+      "start": 18.5,
+      "before": "再呷一白白兰地我就准备好了。",
+      "after": "再呷一口白兰地我就准备好了。",
+      "frame": "frames/chronicle-20/00039.jpg"
+    },
+    {
+      "file": "audio/chronicle-21.m4a",
+      "start": 4.0,
+      "before": "当我拿出刀子时，1也面带微笑。我告诉他我会怎么使用它，我会如何净化这个城市。",
+      "after": "当我拿出刀子时，他面带微笑。我告诉他我会怎么使用它，我会如何净化这个城市。",
+      "frame": "frames/chronicle-21/00013.jpg"
+    },
+    {
+      "file": "audio/chronicle-21.m4a",
+      "start": 22.5,
+      "before": "他用我的刀子慢慢这个怪物面无表情地看着我。划过我的额头；像瓷块一样的脸上露出邪恶的笑容，嘴里涌出污秽的言语。",
+      "after": "这个怪物面无表情地看着我。他用我的刀子慢慢划过我的额头；像瓷块一样的脸上露出邪恶的笑容，嘴里涌出污秽的言语。",
+      "frame": "frames/chronicle-21/00046.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 7.0,
+      "before": "为什么这些人在混乱中生生不息？小丑尤其崇尚保乱，希自你己道况，美是会对我的城市通改接",
+      "after": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。",
+      "frame": "frames/chronicle-22/00016.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 10.5,
+      "before": "为什么这些人在混乱中生生不息？小丑尤其崇尚信制，而首业己题说，真是会对我的城市通改授",
+      "after": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。",
+      "frame": "frames/chronicle-22/00022.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 11.5,
+      "before": "为什么这些人在混乱中生生不息？小丑尤其崇尚保乱，而自你己题况，美是会对我的城市通改接",
+      "after": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。",
+      "frame": "frames/chronicle-22/00024.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 12.0,
+      "before": "为什么这些人在混乱中生生不息？小丑尤其崇尚信制，而首业己题说，真是会对我的城市通改授",
+      "after": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。",
+      "frame": "frames/chronicle-22/00025.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 15.5,
+      "before": "为什么这些人在混乱中生生不息？小丑尤其崇尚保乱，而自你己道况，是是会对我的城市通改接",
+      "after": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。",
+      "frame": "frames/chronicle-22/00032.jpg"
+    },
+    {
+      "file": "audio/chronicle-22.m4a",
+      "start": 23.5,
+      "before": "小五将再次被捉拿归案，而我的故事将被世人传颂。",
+      "after": "小丑将再次被捉拿归案，而我的故事将被世人传颂。",
+      "frame": "frames/chronicle-22/00052.jpg"
+    },
+    {
+      "file": "audio/chronicle-23.m4a",
+      "start": 1.5,
+      "before": "我是阿玛迪斯•阿卡姆之魂。",
+      "after": "我是阿玛迪斯·阿卡姆之魂。",
+      "frame": "frames/chronicle-23/00004.jpg"
+    },
+    {
+      "file": "audio/chronicle-24.m4a",
+      "start": 1.5,
+      "before": "我是昆西•夏普，阿玛迪斯•阿卡姆之魂。",
+      "after": "我是昆西·夏普，阿玛迪斯·阿卡姆之魂。",
+      "frame": "frames/chronicle-24/00004.jpg"
+    }
+  ],
+  "timingRepair": {
+    "audio/chronicle-19.m4a": "18.5–35秒为同一字幕块；23.5–25.5及27–35的OCR漏识别间隔已按29秒和32秒原帧补齐。"
+  },
+  "sourceHashes": {
+    "蝙蝠侠阿卡姆之城录音磁带合集.mp4": "766552c7e94bf1322bcfe0b4ac8a48b25e3f77c3d72bfdd07ede1b7e4ad7b512",
+    "阿卡姆疯人院 病人访谈记录.mp4": "582649071b2d23de2171b3e16e0d306e38eff017aeadc2998a54ec25790a9d93",
+    "阿卡姆骑士录音收集 (1).mp4": "05216f56ee4bdcd2fdfee0c5d0ad52c5bab46fbd58e35dab512db815d703af8c",
+    "阿卡姆骑士录音收集 (2).mp4": "ea570a41eb631e45b703811042b2498c675d6683eb3632e108fe7ef2a55d09b9",
+    "阿卡姆骑士录音收集 (3).mp4": "5cf29c25eeb9555fbfaba55c3c220063c1e444600d237c2393ef9860f8bfa064",
+    "阿卡姆骑士录音收集 (4).mp4": "c95f19f1a4cd64b736c2757ca2fac81907299046dc13d2bd116ba6edfdb7cea5",
+    "阿卡姆骑士录音收集 (5).mp4": "18756cf532c685e319e9582ecf4126a7d031254d4df8253fa1c42b69fdf4fefb",
+    "阿卡姆骑士录音收集 (6).mp4": "623f2da2fc367e26fc03a2f4fbcc898a45557cc7d60f70ccd602b3629604331d",
+    "阿卡姆骑士录音收集 (7).mp4": "df4124cb482316352de81d1aaaecd006fc94174a7c97070d8b8fa99023312da5",
+    "阿卡姆骑士录音收集.mp4": "53c0fcaec690be6945e7c871c630cf797cb286d3dda3b1387505ccdafa1e475a"
+  }
+}

@@ -1,0 +1,1333 @@
+{
+  "date": "2026-10-25",
+  "id": "local-video-captions-20261025",
+  "recordings": 88,
+  "cueCount": 1350,
+  "language": "zh-Hans",
+  "method": "从用户提供原视频的画面字幕提取，校正OCR错字与换行顺序，保留原译措辞；字幕以原画面整块显示时段为单位。",
+  "timing": {
+    "sampleIntervalSeconds": 0.5,
+    "reference": "相对各段音频；sourceStart/sourceEnd对应原视频",
+    "precision": "0.5秒采样分辨率；不表示逐词或音素对齐"
+  },
+  "preserved": "原有35条疯人院访谈及6条小丑双语通讯字幕不改；全部音频文件不改。",
+  "sourceFiles": [
+    {
+      "file": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "bytes": 312205436,
+      "sha256": "766552c7e94bf1322bcfe0b4ac8a48b25e3f77c3d72bfdd07ede1b7e4ad7b512"
+    },
+    {
+      "file": "阿卡姆疯人院 病人访谈记录.mp4",
+      "bytes": 62227760,
+      "sha256": "582649071b2d23de2171b3e16e0d306e38eff017aeadc2998a54ec25790a9d93"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (1).mp4",
+      "bytes": 61114252,
+      "sha256": "05216f56ee4bdcd2fdfee0c5d0ad52c5bab46fbd58e35dab512db815d703af8c"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (2).mp4",
+      "bytes": 82375570,
+      "sha256": "ea570a41eb631e45b703811042b2498c675d6683eb3632e108fe7ef2a55d09b9"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (3).mp4",
+      "bytes": 111239007,
+      "sha256": "5cf29c25eeb9555fbfaba55c3c220063c1e444600d237c2393ef9860f8bfa064"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (4).mp4",
+      "bytes": 47364592,
+      "sha256": "c95f19f1a4cd64b736c2757ca2fac81907299046dc13d2bd116ba6edfdb7cea5"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (5).mp4",
+      "bytes": 91257588,
+      "sha256": "18756cf532c685e319e9582ecf4126a7d031254d4df8253fa1c42b69fdf4fefb"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (6).mp4",
+      "bytes": 19869045,
+      "sha256": "623f2da2fc367e26fc03a2f4fbcc898a45557cc7d60f70ccd602b3629604331d"
+    },
+    {
+      "file": "阿卡姆骑士录音收集 (7).mp4",
+      "bytes": 111549245,
+      "sha256": "df4124cb482316352de81d1aaaecd006fc94174a7c97070d8b8fa99023312da5"
+    },
+    {
+      "file": "阿卡姆骑士录音收集.mp4",
+      "bytes": 91513316,
+      "sha256": "53c0fcaec690be6945e7c871c630cf797cb286d3dda3b1387505ccdafa1e475a"
+    }
+  ],
+  "entries": [
+    {
+      "audioFile": "audio/patient-city-mad-hatter-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 0,
+      "sourceEnd": 53.375,
+      "duration": 53.375,
+      "kind": "patient",
+      "owner": "city-mad-hatter",
+      "cueCount": 20,
+      "cueSha256": "75d8e6dea4988f55dbf2bf4d4304ec64f02d05f7e88bbd180898fb00a8cbfb30"
+    },
+    {
+      "audioFile": "audio/patient-city-mad-hatter-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 53.375,
+      "sourceEnd": 128.875,
+      "duration": 75.5,
+      "kind": "patient",
+      "owner": "city-mad-hatter",
+      "cueCount": 24,
+      "cueSha256": "8ac558c9ec29d55ba4ffefa02370be111984cede6e19b90e270d4040a03b5b44"
+    },
+    {
+      "audioFile": "audio/patient-city-mad-hatter-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 128.875,
+      "sourceEnd": 207.125,
+      "duration": 78.25,
+      "kind": "patient",
+      "owner": "city-mad-hatter",
+      "cueCount": 28,
+      "cueSha256": "3fb4586fb9ff03b9950548d4e104e766369d39521f5f4cc4ec429814d5b09cbd"
+    },
+    {
+      "audioFile": "audio/patient-city-mad-hatter-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 207.125,
+      "sourceEnd": 298.125,
+      "duration": 91,
+      "kind": "patient",
+      "owner": "city-mad-hatter",
+      "cueCount": 27,
+      "cueSha256": "fb72306aafac9045b501042ec19f58601cee86100cc24d1efc82752b762b9159"
+    },
+    {
+      "audioFile": "audio/patient-city-mad-hatter-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 298.125,
+      "sourceEnd": 375.375,
+      "duration": 77.25,
+      "kind": "patient",
+      "owner": "city-mad-hatter",
+      "cueCount": 30,
+      "cueSha256": "329693437ef1793b1c69e8f8facaad0d0efaebb07d241c9d119d4d8c98fa2a0c"
+    },
+    {
+      "audioFile": "audio/patient-city-riddler-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 375.375,
+      "sourceEnd": 450.375,
+      "duration": 75,
+      "kind": "patient",
+      "owner": "city-riddler",
+      "cueCount": 26,
+      "cueSha256": "9ffc7a8b694dd783259487930dcbabca329f24ca846db096fceb7a0d4d4ec14b"
+    },
+    {
+      "audioFile": "audio/patient-city-riddler-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 450.375,
+      "sourceEnd": 529.125,
+      "duration": 78.75,
+      "kind": "patient",
+      "owner": "city-riddler",
+      "cueCount": 24,
+      "cueSha256": "7c552a85f1be6ebf423a52b1e8dc9327c0da0ea47d5807d0d7c10c2fee9ddf03"
+    },
+    {
+      "audioFile": "audio/patient-city-riddler-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 529.125,
+      "sourceEnd": 595.375,
+      "duration": 66.25,
+      "kind": "patient",
+      "owner": "city-riddler",
+      "cueCount": 23,
+      "cueSha256": "2299f79f32674f8dde8ecd7a63798b294648d13f7153d0728b27dbc4256293b2"
+    },
+    {
+      "audioFile": "audio/patient-city-riddler-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 595.375,
+      "sourceEnd": 648.875,
+      "duration": 53.5,
+      "kind": "patient",
+      "owner": "city-riddler",
+      "cueCount": 16,
+      "cueSha256": "acadeda4fa228ac19928e0237879458365c2f359a00473c928c4e9a7ad3e9990"
+    },
+    {
+      "audioFile": "audio/patient-city-catwoman-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 785.125,
+      "sourceEnd": 836.375,
+      "duration": 51.25,
+      "kind": "patient",
+      "owner": "city-catwoman",
+      "cueCount": 18,
+      "cueSha256": "18c136a156adaa5eaddc7ff807270933d61b967d049ad208777f819a50d092fe"
+    },
+    {
+      "audioFile": "audio/patient-city-catwoman-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 836.375,
+      "sourceEnd": 898.375,
+      "duration": 62,
+      "kind": "patient",
+      "owner": "city-catwoman",
+      "cueCount": 22,
+      "cueSha256": "31c69faa4ea8551a30fe4460ce65474d54dc5a137cbfb8114cbe0edcd3e76aaa"
+    },
+    {
+      "audioFile": "audio/patient-city-catwoman-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 898.375,
+      "sourceEnd": 952.875,
+      "duration": 54.5,
+      "kind": "patient",
+      "owner": "city-catwoman",
+      "cueCount": 26,
+      "cueSha256": "7a24c5045d656e3230aa2df4cc16035a815bb088fe01d3c93fe7aa9af982c1b2"
+    },
+    {
+      "audioFile": "audio/patient-city-catwoman-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 952.875,
+      "sourceEnd": 1034.375,
+      "duration": 81.5,
+      "kind": "patient",
+      "owner": "city-catwoman",
+      "cueCount": 28,
+      "cueSha256": "66a51833750d7c4c15ffb05f1ef15302c68cfafa01545f4a4bddaca2117a817c"
+    },
+    {
+      "audioFile": "audio/patient-city-catwoman-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1034.375,
+      "sourceEnd": 1118.625,
+      "duration": 84.25,
+      "kind": "patient",
+      "owner": "city-catwoman",
+      "cueCount": 25,
+      "cueSha256": "6ba57c3a0aaa7db5200daa06c603adbfa2e0fdb30c2f04b7ccefe672843a3ad2"
+    },
+    {
+      "audioFile": "audio/patient-city-freeze-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1118.625,
+      "sourceEnd": 1198.875,
+      "duration": 80.25,
+      "kind": "patient",
+      "owner": "city-freeze",
+      "cueCount": 23,
+      "cueSha256": "5b46ec81c256a395a86f18a902ff321b3d3a417d416daccfca82de5b9461dd4f"
+    },
+    {
+      "audioFile": "audio/patient-city-freeze-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1198.875,
+      "sourceEnd": 1264.125,
+      "duration": 65.25,
+      "kind": "patient",
+      "owner": "city-freeze",
+      "cueCount": 24,
+      "cueSha256": "6506c4d20e944a3bd75498d275830fb03a49e0da13c11b3932abfea72b9ec9f5"
+    },
+    {
+      "audioFile": "audio/patient-city-freeze-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1264.125,
+      "sourceEnd": 1338.375,
+      "duration": 74.25,
+      "kind": "patient",
+      "owner": "city-freeze",
+      "cueCount": 24,
+      "cueSha256": "8ed67c26fb53c9e7e7f76893e641ee115cd97856c387d96295e13241273ee76f"
+    },
+    {
+      "audioFile": "audio/patient-city-freeze-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1338.375,
+      "sourceEnd": 1493.875,
+      "duration": 155.5,
+      "kind": "patient",
+      "owner": "city-freeze",
+      "cueCount": 42,
+      "cueSha256": "a1c80eda527abc32805324f3710c4afd5812aa1caf83cd2e4cfc097f18d1008d"
+    },
+    {
+      "audioFile": "audio/patient-city-freeze-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1493.875,
+      "sourceEnd": 1583.25,
+      "duration": 89.375,
+      "kind": "patient",
+      "owner": "city-freeze",
+      "cueCount": 28,
+      "cueSha256": "a9d0a23b2043453744b2dedcef90593e2f7b8e2f12a8f908e40cdaed1856bad5"
+    },
+    {
+      "audioFile": "audio/patient-city-joker-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1583.25,
+      "sourceEnd": 1672.625,
+      "duration": 89.375,
+      "kind": "patient",
+      "owner": "city-joker",
+      "cueCount": 29,
+      "cueSha256": "46a27d907e644df34ba84ab5218696392d032e67bb3362edf047b5c9bc082475"
+    },
+    {
+      "audioFile": "audio/patient-city-joker-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1672.625,
+      "sourceEnd": 1820.125,
+      "duration": 147.5,
+      "kind": "patient",
+      "owner": "city-joker",
+      "cueCount": 42,
+      "cueSha256": "474b4ab0d8e9c3141567ae3cf9e4d02f858312f665c01d51617e4e68f16ff392"
+    },
+    {
+      "audioFile": "audio/patient-city-joker-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1820.125,
+      "sourceEnd": 1934.625,
+      "duration": 114.5,
+      "kind": "patient",
+      "owner": "city-joker",
+      "cueCount": 32,
+      "cueSha256": "1fc158ae6b29051cc5c7d60a6ada2cb81f680c615e670b6608e9476e85955fbf"
+    },
+    {
+      "audioFile": "audio/patient-city-joker-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 1934.625,
+      "sourceEnd": 2048.125,
+      "duration": 113.5,
+      "kind": "patient",
+      "owner": "city-joker",
+      "cueCount": 38,
+      "cueSha256": "f59d02f5584b5db6dc130f320a3963d491b3a2c44338c17a5d15a035071153a2"
+    },
+    {
+      "audioFile": "audio/patient-city-joker-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2048.125,
+      "sourceEnd": 2160.5,
+      "duration": 112.375,
+      "kind": "patient",
+      "owner": "city-joker",
+      "cueCount": 36,
+      "cueSha256": "50f4284e112d0f2c8bbfe205026707e176d8f3b44440b5fb52f46b4ab25c1020"
+    },
+    {
+      "audioFile": "audio/patient-city-penguin-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2160.5,
+      "sourceEnd": 2244.125,
+      "duration": 83.625,
+      "kind": "patient",
+      "owner": "city-penguin",
+      "cueCount": 26,
+      "cueSha256": "761b089d8b962a468d75e3f40c55f60d4abbc9311295783a12badf7ab2aadb68"
+    },
+    {
+      "audioFile": "audio/patient-city-penguin-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2244.125,
+      "sourceEnd": 2292.625,
+      "duration": 48.5,
+      "kind": "patient",
+      "owner": "city-penguin",
+      "cueCount": 20,
+      "cueSha256": "509f654e36fddd311c406f8421d187b924691a9d08a44ee08896579053933a15"
+    },
+    {
+      "audioFile": "audio/patient-city-penguin-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2292.625,
+      "sourceEnd": 2360.625,
+      "duration": 68,
+      "kind": "patient",
+      "owner": "city-penguin",
+      "cueCount": 22,
+      "cueSha256": "8f174ff29e5e6fb90350f4eaeea5626e17068d6a772869b99fa47b53edcfbb09"
+    },
+    {
+      "audioFile": "audio/patient-city-penguin-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2360.625,
+      "sourceEnd": 2413.875,
+      "duration": 53.25,
+      "kind": "patient",
+      "owner": "city-penguin",
+      "cueCount": 18,
+      "cueSha256": "f19eb0f2cc7e30d04d4b8c0d2ef0ea93ee66e90db4c66c1b0044ae57f9607e3e"
+    },
+    {
+      "audioFile": "audio/patient-city-penguin-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2413.875,
+      "sourceEnd": 2497.625,
+      "duration": 83.75,
+      "kind": "patient",
+      "owner": "city-penguin",
+      "cueCount": 30,
+      "cueSha256": "53d9801248c7c628f2628e0171417ce0b5fca74bed8b5705fdadb51944eeaec9"
+    },
+    {
+      "audioFile": "audio/patient-city-two-face-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2497.625,
+      "sourceEnd": 2554.875,
+      "duration": 57.25,
+      "kind": "patient",
+      "owner": "city-two-face",
+      "cueCount": 19,
+      "cueSha256": "6cf614316af40e7b570fb782c795a61c0aa1d0ff3378776106f139e00854a0a4"
+    },
+    {
+      "audioFile": "audio/patient-city-two-face-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2554.875,
+      "sourceEnd": 2598.375,
+      "duration": 43.5,
+      "kind": "patient",
+      "owner": "city-two-face",
+      "cueCount": 17,
+      "cueSha256": "81633d156a74a5c0e67b97bdc580acf841e8f8827fa1db0344c64613fff98108"
+    },
+    {
+      "audioFile": "audio/patient-city-two-face-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2598.375,
+      "sourceEnd": 2671.375,
+      "duration": 73,
+      "kind": "patient",
+      "owner": "city-two-face",
+      "cueCount": 27,
+      "cueSha256": "b1294a740280e9e2c22ffcdc329a2e1a1c114915f7d5824220ecb77bdac43e90"
+    },
+    {
+      "audioFile": "audio/patient-city-two-face-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2671.375,
+      "sourceEnd": 2729.375,
+      "duration": 58,
+      "kind": "patient",
+      "owner": "city-two-face",
+      "cueCount": 29,
+      "cueSha256": "df7c9521ce9eabf1c968b52fcc0e00fed0b1691b1d27f7ffc1478959e87d1a54"
+    },
+    {
+      "audioFile": "audio/patient-city-two-face-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 2729.375,
+      "sourceEnd": 2813.875,
+      "duration": 84.5,
+      "kind": "patient",
+      "owner": "city-two-face",
+      "cueCount": 28,
+      "cueSha256": "e929ab248a87ca4dca6d4cbbf88cc84660ce4d6550d27fe80cca0198f6dae677"
+    },
+    {
+      "audioFile": "audio/transmission-city-sharp-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 648.875,
+      "sourceEnd": 675.625,
+      "duration": 26.75,
+      "kind": "transmission",
+      "owner": "sharp-city",
+      "cueCount": 9,
+      "cueSha256": "9f5c51c56ede6d22fe1ea1a9104a4ee7ad6e3d8e002ba41527e0b16854d52b9b"
+    },
+    {
+      "audioFile": "audio/transmission-city-sharp-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 675.625,
+      "sourceEnd": 785.125,
+      "duration": 109.5,
+      "kind": "transmission",
+      "owner": "sharp-city",
+      "cueCount": 33,
+      "cueSha256": "8acabda2c68d7b267c79183f6b562a7946c36a6a4dbb7c924e27e45fec828204"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-01.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3070.375,
+      "sourceEnd": 3123.375,
+      "duration": 53,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 11,
+      "cueSha256": "5594577a913f5dca9589c3f2c51a6cae1a98e80ea64c0ca541e3f400c4695846"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-02.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3123.375,
+      "sourceEnd": 3175.875,
+      "duration": 52.5,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 15,
+      "cueSha256": "9f12972da05dc75f077750a816e9fe0c7688213cba663f07cd400dec23584868"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-03.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3175.875,
+      "sourceEnd": 3226.125,
+      "duration": 50.25,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 8,
+      "cueSha256": "65c534e4e492045f9bd6cd84bb8048f9b3c7d8415c34aa2c2ef528929021ca8f"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-04.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3226.125,
+      "sourceEnd": 3286.375,
+      "duration": 60.25,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 16,
+      "cueSha256": "e95aeb03c5d8aefc440c0c7a48be4922cecf09bfcd545f959b8c08dffde8e2d3"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-05.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3286.375,
+      "sourceEnd": 3356.875,
+      "duration": 70.5,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 18,
+      "cueSha256": "2bfb9c584ca0114689b78a50b5ae02634992430c70d3c085f9b13f6330807481"
+    },
+    {
+      "audioFile": "audio/transmission-city-zsasz-06.m4a",
+      "sourceFile": "蝙蝠侠阿卡姆之城录音磁带合集.mp4",
+      "sourceStart": 3356.875,
+      "sourceEnd": 3425.065,
+      "duration": 68.19,
+      "kind": "transmission",
+      "owner": "zsasz-city",
+      "cueCount": 14,
+      "cueSha256": "229dc3b98b4243651a20292b6a052baf24121575c70a67fd5158e093666bd618"
+    },
+    {
+      "audioFile": "audio/transmission-knight-oracle-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集.mp4",
+      "sourceStart": 0,
+      "sourceEnd": 87.25,
+      "duration": 87.25,
+      "kind": "transmission",
+      "owner": "knight-oracle",
+      "cueCount": 14,
+      "cueSha256": "9f14d660c6e273570e45dded3592e75088690c348b6f11dcb563a25163fa4fda"
+    },
+    {
+      "audioFile": "audio/transmission-knight-oracle-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集.mp4",
+      "sourceStart": 87.25,
+      "sourceEnd": 158.25,
+      "duration": 71,
+      "kind": "transmission",
+      "owner": "knight-oracle",
+      "cueCount": 11,
+      "cueSha256": "fb08a4b0534742937a7089190395172cebf681a004d490de836935c37f2d2b8f"
+    },
+    {
+      "audioFile": "audio/transmission-knight-oracle-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集.mp4",
+      "sourceStart": 158.25,
+      "sourceEnd": 227.263,
+      "duration": 69.01233333333333,
+      "kind": "transmission",
+      "owner": "knight-oracle",
+      "cueCount": 11,
+      "cueSha256": "558ccf412dd98db5edbc1283e989f60a1934186740e7f0fbf64f3f305098e41d"
+    },
+    {
+      "audioFile": "audio/transmission-knight-scarecrow-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (1).mp4",
+      "sourceStart": 0,
+      "sourceEnd": 65.25,
+      "duration": 65.25,
+      "kind": "transmission",
+      "owner": "knight-scarecrow",
+      "cueCount": 11,
+      "cueSha256": "63bc1c5477f9c5803e2ba022d9091a22a91bf129d73b0aa3890e05ea78bd7feb"
+    },
+    {
+      "audioFile": "audio/transmission-knight-scarecrow-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (1).mp4",
+      "sourceStart": 65.25,
+      "sourceEnd": 107.75,
+      "duration": 42.5,
+      "kind": "transmission",
+      "owner": "knight-scarecrow",
+      "cueCount": 8,
+      "cueSha256": "8dd316407a7e3126638631017ba1384bd8808cb9400d4d124ea72fa1ebdac359"
+    },
+    {
+      "audioFile": "audio/transmission-knight-scarecrow-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (1).mp4",
+      "sourceStart": 107.75,
+      "sourceEnd": 175.956,
+      "duration": 68.20566666666667,
+      "kind": "transmission",
+      "owner": "knight-scarecrow",
+      "cueCount": 10,
+      "cueSha256": "69c0318792fb7b6b0b57f06b8c6235afbf7b57d60f852fbf47ae43a94ee4058d"
+    },
+    {
+      "audioFile": "audio/transmission-knight-harley-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (2).mp4",
+      "sourceStart": 0.25,
+      "sourceEnd": 94.25,
+      "duration": 94,
+      "kind": "transmission",
+      "owner": "knight-harley",
+      "cueCount": 23,
+      "cueSha256": "f27631a4149aff129fcef749156a89897576ca232b0718261fa301e5fb2b2f23"
+    },
+    {
+      "audioFile": "audio/transmission-knight-harley-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (2).mp4",
+      "sourceStart": 94.25,
+      "sourceEnd": 158.25,
+      "duration": 64,
+      "kind": "transmission",
+      "owner": "knight-harley",
+      "cueCount": 13,
+      "cueSha256": "f538b81824eb964cb2ba6ece6ac88c8ed031aaa8b51b18ec584cc296dd8f8622"
+    },
+    {
+      "audioFile": "audio/transmission-knight-harley-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (2).mp4",
+      "sourceStart": 158.25,
+      "sourceEnd": 204.372,
+      "duration": 46.121833333333335,
+      "kind": "transmission",
+      "owner": "knight-harley",
+      "cueCount": 9,
+      "cueSha256": "bdaf18c69cf1cd3ddd1eee8f83f090ac798107b6e2bed7e001e2c35357351619"
+    },
+    {
+      "audioFile": "audio/transmission-knight-riddler-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (3).mp4",
+      "sourceStart": 0.25,
+      "sourceEnd": 93.25,
+      "duration": 93,
+      "kind": "transmission",
+      "owner": "knight-riddler",
+      "cueCount": 11,
+      "cueSha256": "8757ac12b06d8c17ee2fbea51244984e9fe263bec163e23ccbe08a47705ed538"
+    },
+    {
+      "audioFile": "audio/transmission-knight-riddler-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (3).mp4",
+      "sourceStart": 93.25,
+      "sourceEnd": 160.75,
+      "duration": 67.5,
+      "kind": "transmission",
+      "owner": "knight-riddler",
+      "cueCount": 14,
+      "cueSha256": "c68fac44d0176d25fad0b75460ab3abc6dffe293f98209ec2da512c78d4b3a60"
+    },
+    {
+      "audioFile": "audio/transmission-knight-riddler-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (3).mp4",
+      "sourceStart": 160.75,
+      "sourceEnd": 276.586,
+      "duration": 115.83516666666667,
+      "kind": "transmission",
+      "owner": "knight-riddler",
+      "cueCount": 18,
+      "cueSha256": "a7ddc14f29ff2003dff72d67ce871724ef23f2fe71d712cba30559002c5996d8"
+    },
+    {
+      "audioFile": "audio/transmission-knight-penguin-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (4).mp4",
+      "sourceStart": 0,
+      "sourceEnd": 37.25,
+      "duration": 37.25,
+      "kind": "transmission",
+      "owner": "knight-penguin",
+      "cueCount": 11,
+      "cueSha256": "717b3043c5afae90d41a2125f54ba488d64da2bde60fbd32643f3624565e845b"
+    },
+    {
+      "audioFile": "audio/transmission-knight-penguin-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (4).mp4",
+      "sourceStart": 37.25,
+      "sourceEnd": 84.75,
+      "duration": 47.5,
+      "kind": "transmission",
+      "owner": "knight-penguin",
+      "cueCount": 9,
+      "cueSha256": "bf188713f91a10a1338e0ac402a9f1a686106fe22c16985727fba2c1e4fb77ca"
+    },
+    {
+      "audioFile": "audio/transmission-knight-penguin-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (4).mp4",
+      "sourceStart": 84.75,
+      "sourceEnd": 136.02,
+      "duration": 51.269666666666666,
+      "kind": "transmission",
+      "owner": "knight-penguin",
+      "cueCount": 15,
+      "cueSha256": "eb65e09a6d2176a7cdeefff9c34732450218776196845a3768ac5cc2ebff30ab"
+    },
+    {
+      "audioFile": "audio/transmission-knight-stagg-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (5).mp4",
+      "sourceStart": 0,
+      "sourceEnd": 110.25,
+      "duration": 110.25,
+      "kind": "transmission",
+      "owner": "knight-stagg",
+      "cueCount": 9,
+      "cueSha256": "d9705367d437f99aa29ea7e74afbb6943523f77f97ede0398f79444eb2db4559"
+    },
+    {
+      "audioFile": "audio/transmission-knight-stagg-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (5).mp4",
+      "sourceStart": 110.25,
+      "sourceEnd": 181.25,
+      "duration": 71,
+      "kind": "transmission",
+      "owner": "knight-stagg",
+      "cueCount": 7,
+      "cueSha256": "c3bfd20cd3a19b886c8612129c80e8fea3f5391b7b7f4719866ce1cb871a74b1"
+    },
+    {
+      "audioFile": "audio/transmission-knight-stagg-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (5).mp4",
+      "sourceStart": 181.25,
+      "sourceEnd": 263.295,
+      "duration": 82.04433333333333,
+      "kind": "transmission",
+      "owner": "knight-stagg",
+      "cueCount": 8,
+      "cueSha256": "7267027042e8fdac632138addde6d7efa8d6ba2185d2e5653672406726d2872b"
+    },
+    {
+      "audioFile": "audio/transmission-knight-joker-case-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (6).mp4",
+      "sourceStart": 0,
+      "sourceEnd": 56.383,
+      "duration": 56.382333333333335,
+      "kind": "transmission",
+      "owner": "knight-joker-case",
+      "cueCount": 5,
+      "cueSha256": "28c3b07982782b30608aa98290688b81cc09852653a475735b71c6957f95510f"
+    },
+    {
+      "audioFile": "audio/transmission-knight-pyg-01.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (7).mp4",
+      "sourceStart": 0,
+      "sourceEnd": 66.75,
+      "duration": 66.75,
+      "kind": "transmission",
+      "owner": "knight-pyg",
+      "cueCount": 5,
+      "cueSha256": "e888b4d48268fe8378900ee014eb788420f49c3cac26c7a9e5bdd6f14d320171"
+    },
+    {
+      "audioFile": "audio/transmission-knight-pyg-02.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (7).mp4",
+      "sourceStart": 66.75,
+      "sourceEnd": 193.75,
+      "duration": 127,
+      "kind": "transmission",
+      "owner": "knight-pyg",
+      "cueCount": 8,
+      "cueSha256": "050c9ce9e15994e2c03a02bcd7b62b1586aa08a15ce8e95b3ddfae5e1b3a100a"
+    },
+    {
+      "audioFile": "audio/transmission-knight-pyg-03.m4a",
+      "sourceFile": "阿卡姆骑士录音收集 (7).mp4",
+      "sourceStart": 193.75,
+      "sourceEnd": 321.961,
+      "duration": 128.211,
+      "kind": "transmission",
+      "owner": "knight-pyg",
+      "cueCount": 12,
+      "cueSha256": "ed530d37584a8dbbc6d76e63a9a66da1446764f223943df76d0461364175d29c"
+    },
+    {
+      "audioFile": "audio/chronicle-01.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 6.5,
+      "sourceEnd": 30.5,
+      "duration": 24,
+      "kind": "history",
+      "owner": "chronicle-01",
+      "cueCount": 3,
+      "cueSha256": "0c379a426d9cd92a3ea5372d63ac4302edfb90df322190667c843305979f1538"
+    },
+    {
+      "audioFile": "audio/chronicle-02.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 32.0,
+      "sourceEnd": 55.5,
+      "duration": 23.5,
+      "kind": "history",
+      "owner": "chronicle-02",
+      "cueCount": 3,
+      "cueSha256": "092c1dc6a40c57061e1d456f7d52204bf864745de57aa10930011d3d3d05ba6a"
+    },
+    {
+      "audioFile": "audio/chronicle-03.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 57.0,
+      "sourceEnd": 90.5,
+      "duration": 33.5,
+      "kind": "history",
+      "owner": "chronicle-03",
+      "cueCount": 4,
+      "cueSha256": "f37dc6ca9c4fb8ca08df09bb4983e07bb5f96d899563aa474dc2dfd1cf7200ff"
+    },
+    {
+      "audioFile": "audio/chronicle-04.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 92.5,
+      "sourceEnd": 122.0,
+      "duration": 29.5,
+      "kind": "history",
+      "owner": "chronicle-04",
+      "cueCount": 3,
+      "cueSha256": "756941b99f457681ad65ca36e3e6bcd699b3b4b98e1e84f6e1923b34563c7014"
+    },
+    {
+      "audioFile": "audio/chronicle-05.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 123.0,
+      "sourceEnd": 140.5,
+      "duration": 17.5,
+      "kind": "history",
+      "owner": "chronicle-05",
+      "cueCount": 2,
+      "cueSha256": "8dcd0b9493be0649903f906acf28625eb970f2ace9612d3ea0bb91da2377555f"
+    },
+    {
+      "audioFile": "audio/chronicle-06.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 143.0,
+      "sourceEnd": 171.5,
+      "duration": 28.5,
+      "kind": "history",
+      "owner": "chronicle-06",
+      "cueCount": 4,
+      "cueSha256": "707695cc6379433fcc5e724f9db2d2113cf7a85f1654a70e85d76e1266dbb166"
+    },
+    {
+      "audioFile": "audio/chronicle-07.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 173.5,
+      "sourceEnd": 190.5,
+      "duration": 17,
+      "kind": "history",
+      "owner": "chronicle-07",
+      "cueCount": 3,
+      "cueSha256": "dac9ff1570d681f0e0b2c94ed130ef8a230288872e69d69eb31072b34d28d37f"
+    },
+    {
+      "audioFile": "audio/chronicle-08.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 192.0,
+      "sourceEnd": 215.5,
+      "duration": 23.5,
+      "kind": "history",
+      "owner": "chronicle-08",
+      "cueCount": 5,
+      "cueSha256": "e97ca7e54d14250f73a4831457f7ba8afed5bc329015a438fa7b4a87da6a662c"
+    },
+    {
+      "audioFile": "audio/chronicle-09.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 218.0,
+      "sourceEnd": 263.0,
+      "duration": 45,
+      "kind": "history",
+      "owner": "chronicle-09",
+      "cueCount": 5,
+      "cueSha256": "00b39942e75c81c62dcf4795eb7c876580a1846fa9a80b73e526728114f8960b"
+    },
+    {
+      "audioFile": "audio/chronicle-10.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 266.5,
+      "sourceEnd": 299.5,
+      "duration": 33,
+      "kind": "history",
+      "owner": "chronicle-10",
+      "cueCount": 4,
+      "cueSha256": "436ddf58b60c08343ad015a063b39f80ef6e4fb94a81845fd0f5f9727aed9645"
+    },
+    {
+      "audioFile": "audio/chronicle-11.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 301.0,
+      "sourceEnd": 329.5,
+      "duration": 28.5,
+      "kind": "history",
+      "owner": "chronicle-11",
+      "cueCount": 3,
+      "cueSha256": "b36c7d80abf72bac913a7e09c780cdf1820410dfc855d321a76cf3940b6bdeb4"
+    },
+    {
+      "audioFile": "audio/chronicle-12.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 331.5,
+      "sourceEnd": 361.5,
+      "duration": 30,
+      "kind": "history",
+      "owner": "chronicle-12",
+      "cueCount": 4,
+      "cueSha256": "c36d06024b11e8af29de1ee1707645784125a7b8222f7a3ed9bdcac6becfbe0c"
+    },
+    {
+      "audioFile": "audio/chronicle-13.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 364.0,
+      "sourceEnd": 406.5,
+      "duration": 42.5,
+      "kind": "history",
+      "owner": "chronicle-13",
+      "cueCount": 4,
+      "cueSha256": "2c07a01e12aa45c088fd89c6436e59497daab23fc40747a6e997277c68f14720"
+    },
+    {
+      "audioFile": "audio/chronicle-14.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 408.0,
+      "sourceEnd": 446.0,
+      "duration": 38,
+      "kind": "history",
+      "owner": "chronicle-14",
+      "cueCount": 5,
+      "cueSha256": "35bdc14b41250b8c0f477dd7d5fe1d9cd3fdaec19f74f596eff3bbcd3be0f1e8"
+    },
+    {
+      "audioFile": "audio/chronicle-15.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 450.0,
+      "sourceEnd": 479.5,
+      "duration": 29.5,
+      "kind": "history",
+      "owner": "chronicle-15",
+      "cueCount": 4,
+      "cueSha256": "9fba2c90cf79884069fe546a8cc506608cb4bf5de9b14b328cdc0e108232336a"
+    },
+    {
+      "audioFile": "audio/chronicle-16.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 482.0,
+      "sourceEnd": 527.0,
+      "duration": 45,
+      "kind": "history",
+      "owner": "chronicle-16",
+      "cueCount": 3,
+      "cueSha256": "954b479a55492e5fdc5fa5daf57f20d322ea333fbd87c2246ffdd78d6c4713ed"
+    },
+    {
+      "audioFile": "audio/chronicle-17.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 528.5,
+      "sourceEnd": 573.0,
+      "duration": 44.5,
+      "kind": "history",
+      "owner": "chronicle-17",
+      "cueCount": 3,
+      "cueSha256": "48ae66bfd69f1d9903b3b61223e9d649c385c7e0570824f7e842a5dd801c0615"
+    },
+    {
+      "audioFile": "audio/chronicle-18.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 577.5,
+      "sourceEnd": 602.5,
+      "duration": 25,
+      "kind": "history",
+      "owner": "chronicle-18",
+      "cueCount": 2,
+      "cueSha256": "43116c2c81053ae31d69640b56ee2ba3ff3619317e2d7acb0a59c818ca621fec"
+    },
+    {
+      "audioFile": "audio/chronicle-19.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 604.5,
+      "sourceEnd": 696.0,
+      "duration": 91.5,
+      "kind": "history",
+      "owner": "chronicle-19",
+      "cueCount": 5,
+      "cueSha256": "7bb7fb363b8cd10281f4aa2e1645b592a200656bd63bcd172fdfa43d8bd93373"
+    },
+    {
+      "audioFile": "audio/chronicle-20.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 697.0,
+      "sourceEnd": 720.5,
+      "duration": 23.5,
+      "kind": "history",
+      "owner": "chronicle-20",
+      "cueCount": 4,
+      "cueSha256": "4a8adf461797ce2775c9a80e434cb02f86b602bf8a07fe2bdf1cfb4174275d1f"
+    },
+    {
+      "audioFile": "audio/chronicle-21.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 724.0,
+      "sourceEnd": 770.0,
+      "duration": 46,
+      "kind": "history",
+      "owner": "chronicle-21",
+      "cueCount": 6,
+      "cueSha256": "d7fa9094700c0b759fd429e3bde29ddd42407c42855e2686903bb06d17b3a47e"
+    },
+    {
+      "audioFile": "audio/chronicle-22.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 772.5,
+      "sourceEnd": 815.0,
+      "duration": 42.5,
+      "kind": "history",
+      "owner": "chronicle-22",
+      "cueCount": 5,
+      "cueSha256": "d42767101edcb4ec55d91cf7fc9c09b69eea5cf430749961d30b42f694905f63"
+    },
+    {
+      "audioFile": "audio/chronicle-23.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 816.0,
+      "sourceEnd": 859.0,
+      "duration": 43,
+      "kind": "history",
+      "owner": "chronicle-23",
+      "cueCount": 5,
+      "cueSha256": "67d4a675d613712965bae25bed78bd3257a879a95ffa70cca446a371bc32a52a"
+    },
+    {
+      "audioFile": "audio/chronicle-24.m4a",
+      "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+      "sourceStart": 861.5,
+      "sourceEnd": 886.5,
+      "duration": 25,
+      "kind": "history",
+      "owner": "chronicle-24",
+      "cueCount": 4,
+      "cueSha256": "1e9cd057aa9b64bff3a3907662666de804a8b374a6d3618bd56f711af8036223"
+    }
+  ],
+  "preservedCueHashes": [
+    {
+      "audioFile": "audio/patient-joker-01.m4a",
+      "cueSha256": "b9c179a37c8d54bf2f23705cb537c06358fe3b4f0cdd1368a3ff5cd4253d2443"
+    },
+    {
+      "audioFile": "audio/patient-joker-02.m4a",
+      "cueSha256": "7e5db8cd83908997a8433dc184e1ff1246dbd1679626e03b940b5b720a851156"
+    },
+    {
+      "audioFile": "audio/patient-joker-03.m4a",
+      "cueSha256": "5ec59430212257ed78bb651fc8fbe85678d007195834b94d150233c3d55052b8"
+    },
+    {
+      "audioFile": "audio/patient-joker-04.m4a",
+      "cueSha256": "9cb7cbfd424a99ad1eef0420a65de39379f2b63db19f930c68319effa131a651"
+    },
+    {
+      "audioFile": "audio/patient-joker-05.m4a",
+      "cueSha256": "704f7dc775d84e759ff411ec610370282f2230cc603ff0f681d3131caca106f9"
+    },
+    {
+      "audioFile": "audio/patient-harley-01.m4a",
+      "cueSha256": "dd155a612ae1f794927047bec65001b71244dd047e674032a4309d7275ea32cb"
+    },
+    {
+      "audioFile": "audio/patient-harley-02.m4a",
+      "cueSha256": "db31ab6147774cb41440fd7b1030a7c429f8f2fc6476fc1681074bb26c25b3a5"
+    },
+    {
+      "audioFile": "audio/patient-harley-03.m4a",
+      "cueSha256": "5e1efb361cfef49a984f159f54f1a1545486683ba099e5787764a52a5b24368c"
+    },
+    {
+      "audioFile": "audio/patient-harley-04.m4a",
+      "cueSha256": "c2b1b008fae371e0b3bc44187e3860d640e269d596ac528769c19ccf5fa040f3"
+    },
+    {
+      "audioFile": "audio/patient-harley-05.m4a",
+      "cueSha256": "09908d84d52dc5a80b99fcc07b3504e1cf5742a32dd5ecaaa10da0ab0ec4b8a8"
+    },
+    {
+      "audioFile": "audio/patient-croc-01.m4a",
+      "cueSha256": "4499e34ed33de369909c76a4614a30d8199cd5ed4d942e0e24d7f061f306db03"
+    },
+    {
+      "audioFile": "audio/patient-croc-02.m4a",
+      "cueSha256": "2e8b6733f78f7d9c1aa23c6395377d7cc540fa4c5012c7619bb2470d85ca25e4"
+    },
+    {
+      "audioFile": "audio/patient-croc-03.m4a",
+      "cueSha256": "770a19bf3a90b7cae89d2334e5112a59e8f8c472abd4e577c02066202cdbad07"
+    },
+    {
+      "audioFile": "audio/patient-croc-04.m4a",
+      "cueSha256": "d7272d679dc4a12139e8222b592a188890dba57ca67537d13aa81bb134a36d94"
+    },
+    {
+      "audioFile": "audio/patient-croc-05.m4a",
+      "cueSha256": "8cdc8e464096bbf9e91ab69800ddf2c9b40ccfb409baf93f3eb3fb6933cb41ca"
+    },
+    {
+      "audioFile": "audio/patient-riddler-01.m4a",
+      "cueSha256": "f7959cf3f576a33dfec7b24849cc3c5ef0b36b65c86afdfa803b579e8e19e6b5"
+    },
+    {
+      "audioFile": "audio/patient-riddler-02.m4a",
+      "cueSha256": "383afd9d851891280ea995ee7883621781fa41124e11fce1405b029317deac9f"
+    },
+    {
+      "audioFile": "audio/patient-riddler-03.m4a",
+      "cueSha256": "7c4da52215f840dbb7035944c2f30ec63372c5e8941e1521054e640e74d9e7c1"
+    },
+    {
+      "audioFile": "audio/patient-riddler-04.m4a",
+      "cueSha256": "751a1b32361717b2de88c9f0cfb1550c975412f535787c480b7779bb6c45d2d6"
+    },
+    {
+      "audioFile": "audio/patient-riddler-05.m4a",
+      "cueSha256": "dfdd4f06c3baa61f30119ac52e77321691e408387fef2eaa8db644b6d46ce0d9"
+    },
+    {
+      "audioFile": "audio/patient-zsasz-01.m4a",
+      "cueSha256": "40124929438818b73d8417ba5f10a08560fcab4b8fe4cd1fe99ba2768e4e25ba"
+    },
+    {
+      "audioFile": "audio/patient-zsasz-02.m4a",
+      "cueSha256": "ba5c55020769ccae8d65b04801ef308141f6ae238c842f487ae673a7de2d47db"
+    },
+    {
+      "audioFile": "audio/patient-zsasz-03.m4a",
+      "cueSha256": "115d3934e93eda707651d88eba06f4df88fffae2c67ea60b6a8b947e5be03006"
+    },
+    {
+      "audioFile": "audio/patient-zsasz-04.m4a",
+      "cueSha256": "d0e065bd0c8f079c638d3fa5bef62ea4055e982177f34a4da7a41bc38b088ae2"
+    },
+    {
+      "audioFile": "audio/patient-zsasz-05.m4a",
+      "cueSha256": "7c6771de185155c9d5897a59ee1d817d9681ca5fc431a63404a814a6fbe49ae3"
+    },
+    {
+      "audioFile": "audio/patient-ivy-01.m4a",
+      "cueSha256": "a246da88af3472860bc459c9ad02b003e329a27071df097d2e36b2ee8a149b45"
+    },
+    {
+      "audioFile": "audio/patient-ivy-02.m4a",
+      "cueSha256": "91bcc526f8b0a11d3345926a68c9f62f9e2a2bd9364439ba3c084b25d1d76131"
+    },
+    {
+      "audioFile": "audio/patient-ivy-03.m4a",
+      "cueSha256": "dfc053504ca58ad81f41a2b274a49b62a7a56e1d740b1ac25d948c8e32c4f4c7"
+    },
+    {
+      "audioFile": "audio/patient-ivy-04.m4a",
+      "cueSha256": "c9107b8cc4b18ad34e44c49731d21a0ce8fa7416858df2aac0c689fdbdaa0a5f"
+    },
+    {
+      "audioFile": "audio/patient-ivy-05.m4a",
+      "cueSha256": "946d7ea61b56034a636b1b75bd5d0781ca3121a375bac11b88cb345a20ae3f6a"
+    },
+    {
+      "audioFile": "audio/patient-scarecrow-01.m4a",
+      "cueSha256": "57b1f311d338656783e6daa41b244a61fa9e176b9de57313a4543a7df209d49a"
+    },
+    {
+      "audioFile": "audio/patient-scarecrow-02.m4a",
+      "cueSha256": "55b02c926fdfada63c2860151a98aa1f4b26e1a9401f6f0883233dac15b03e60"
+    },
+    {
+      "audioFile": "audio/patient-scarecrow-03.m4a",
+      "cueSha256": "298736fe82fcc44d519571321c43198be8c3411df6a7ac8b6254724751dfdb0f"
+    },
+    {
+      "audioFile": "audio/patient-scarecrow-04.m4a",
+      "cueSha256": "25a3044dd6c21723807c27c27ad331e940cbf6afe401efc3146757dfbc60f576"
+    },
+    {
+      "audioFile": "audio/patient-scarecrow-05.m4a",
+      "cueSha256": "baa818b4b07ec324454c94f9735b68d642e6fc2ace4e1674a7ec1910f9c77cf4"
+    },
+    {
+      "audioFile": "audio/transmission-joker-01.m4a",
+      "cueSha256": "1d0b09442f8deefb0528f2fb15d48eed2db509c04f40756c5bb31bedd0468e2b"
+    },
+    {
+      "audioFile": "audio/transmission-joker-02.m4a",
+      "cueSha256": "3a35f033a4ca633b530cf6fc25394910aa8069d34d0b42d0b3dbb4e60ed62b67"
+    },
+    {
+      "audioFile": "audio/transmission-joker-03.m4a",
+      "cueSha256": "732ef7c9a6668ffb9ed14937d680cab73777923844b5290ca1f8c7f18c3d7f71"
+    },
+    {
+      "audioFile": "audio/transmission-joker-04.m4a",
+      "cueSha256": "a0c5199db720b3aa35970a872ed51997191962cb12b0cea7f92c25167be22ce6"
+    },
+    {
+      "audioFile": "audio/transmission-joker-05.m4a",
+      "cueSha256": "38b370cf6dae52c45ff6399ec668e77a7e635a47543aa0ada1b3e5d78bd5e564"
+    },
+    {
+      "audioFile": "audio/transmission-joker-only-you.m4a",
+      "cueSha256": "fac69d0acc7eb463741c7fafc7aaebbad43548a4a27f167d7a5e7ce36134e27b"
+    }
+  ],
+  "audioHashes": {
+    "audio/patient-joker-01.m4a": "983f21a85bd59ade06c09fa36dc47a66dd42f855387e03af8e21eb6660db583a",
+    "audio/patient-joker-02.m4a": "fa2236aeeb743a61d3c0e0cca84254012e5819e8168981eddf6f0ed482d6b820",
+    "audio/patient-joker-03.m4a": "93570713d22e52beab471481a986193a477b8e8a2a1aa059709ef38597ec24e2",
+    "audio/patient-joker-04.m4a": "ac6e2dbb17c2540ca398bd2835bcea19f8bd6c751119ee45cb1352cafa4ecda9",
+    "audio/patient-joker-05.m4a": "e170947b938ebd7ceeaff670268c280a129cf936eaa97e738982351a40e39162",
+    "audio/patient-harley-01.m4a": "9caecd3b627ce16afe1abb6abd322fad4fad631b238192b3653c46035df7f9cb",
+    "audio/patient-harley-02.m4a": "80474bddfd0c211e29fc3c62e051d95039dd90c9853cf2b956c92dfac9694da7",
+    "audio/patient-harley-03.m4a": "8b3e1d15113b9153d2699d27707cb16ff4c8495ee8f4e022806a6bce317eac4c",
+    "audio/patient-harley-04.m4a": "ca54b898cfc290385870c7bef075a8ea279eaebb801b7aaa2cd389dee8361bdc",
+    "audio/patient-harley-05.m4a": "4651f89f294584929e1414008eef8a7020be9e92d90161478b49d7644942750f",
+    "audio/patient-croc-01.m4a": "6735f61363c347ec2ed7c2201c38fad30e7054e6b54c482ef32436d98c5d9e9d",
+    "audio/patient-croc-02.m4a": "2926d3a22f064ba9c86aa7f830b991147d36d06f7b73f599cce14a081e54e76f",
+    "audio/patient-croc-03.m4a": "0cf711b0bdf303c4a50af54ab827d6044db32783ee85eb7db2c222a7ae1bb50f",
+    "audio/patient-croc-04.m4a": "23f8965611598c9019b86682ed96fe6ee070a9a17d932006fdffa396ebc0407d",
+    "audio/patient-croc-05.m4a": "8e54395459915d99daa97fac15ada96b03a4302ad68c1c5d7206043473c43827",
+    "audio/patient-riddler-01.m4a": "a0de78940dd22172d93fc45b182b6685a0f9305dcc8c1e3da26f64750e6ec649",
+    "audio/patient-riddler-02.m4a": "81e680883b0bee9160d5cc1aa4ebccc5105fb68371a7fdebc63f134c3b9fb5a0",
+    "audio/patient-riddler-03.m4a": "d0f6a2ad60ffa50c6746a5bee25e74645653180cda2f5f1189e7fffa370ed111",
+    "audio/patient-riddler-04.m4a": "1d195dc39d007816b90299cda2d2bcad2ccfebc8e4c9211bd6ccf340f76ea8be",
+    "audio/patient-riddler-05.m4a": "564a8fe3bfc32ad5d489cc474ccb51ba0720a8d5734589641a1b362f2ff3484c",
+    "audio/patient-zsasz-01.m4a": "798c4715b74f805d436684839404edb579988bf5fa5e412117bfdacb09e60083",
+    "audio/patient-zsasz-02.m4a": "05ae2f18caf54a9369e72c9859048ae25e8fd02243186d8408d0afedb7a4b0c2",
+    "audio/patient-zsasz-03.m4a": "709cba45af401ea8e0c8cada04282973c805c8a2d7b27a348d88c25934f04576",
+    "audio/patient-zsasz-04.m4a": "bb8a78fdd1a725205c2939f43169293e25a41068e5354371922e7b6a90cae5bb",
+    "audio/patient-zsasz-05.m4a": "187bb19a933b22c9e87a5ed7961855c49e2ae2bf63fe71fbeb79762124770b3a",
+    "audio/patient-ivy-01.m4a": "47c8f99967669c225743563b731b65ae933c3911d6c30f060320ee3e5360b61d",
+    "audio/patient-ivy-02.m4a": "1ebf2a9470f6a94024d31ea8356299aa07b2de97b1a09eee6197e2b24621d0d7",
+    "audio/patient-ivy-03.m4a": "238985facae1f93ebfa64bdcb2404732f78375497fe8bafc68bcf076efb71f0f",
+    "audio/patient-ivy-04.m4a": "c295ea685e45e8664b5953817de635d3ae2fd03ef3080f89fdb8351c59f47e16",
+    "audio/patient-ivy-05.m4a": "207c25a522100e5c79d08e3aeda1c7907abb14dfd6c802a0f29029a53c4d0898",
+    "audio/patient-scarecrow-01.m4a": "07aad838934849482f4dec7deafc5e45a930ad7258ef5725641b929b5e19b2ad",
+    "audio/patient-scarecrow-02.m4a": "684fb300bb759e26aa038e8fa2ff69fce984a241914fe461b80f6387b16af627",
+    "audio/patient-scarecrow-03.m4a": "ee1678c59798b2786140ea052edd995be29a88740a678259fbfff764808c2444",
+    "audio/patient-scarecrow-04.m4a": "0a101c503b6d92937a07f7bcc26cf0b3d2eadeaf6eb0e84d8fba6c380c05ce7b",
+    "audio/patient-scarecrow-05.m4a": "82b557fd400aa5980a0a2d026e512e085962db2fe40cbf48ff3527bce335b5ca",
+    "audio/patient-city-mad-hatter-01.m4a": "dada81f8b6eeef495b841db36d9fe919820fe0f5f50edd66788e834426972fc6",
+    "audio/patient-city-mad-hatter-02.m4a": "80ab63d7fb505467fb819477aabd7d386df6cf318f81309e1639367b003aff11",
+    "audio/patient-city-mad-hatter-03.m4a": "47d79ade55cc99ddf4ac44263af5ab0da5f5e2b65833ac6df8f71ef59d61d3ca",
+    "audio/patient-city-mad-hatter-04.m4a": "d6cd3b8420a88ef307b51627afe85c7288a1d4b0ba4efc58d388e860bc229c59",
+    "audio/patient-city-mad-hatter-05.m4a": "482ef5fc39b00f1aa970d31bddb0eee9ede0d6a4a5e4de582cdc69b1d6c0063f",
+    "audio/patient-city-riddler-01.m4a": "74cbc3d8962612b97e62c4e5d6158603af67f626e06dddc3014ebde6e26eb9ec",
+    "audio/patient-city-riddler-02.m4a": "cb859c9b30a8dda2cf1a378fb977068d5f1a5e4569d8f5aaebec9780683edf9a",
+    "audio/patient-city-riddler-03.m4a": "e3e70685685c6651f12d47dee629bc3ebfb355dcb3c4529c1486743208341778",
+    "audio/patient-city-riddler-04.m4a": "594ea46d1d297fae5e6ced843944898bb692b5735cc36b022c50ee6a5d654152",
+    "audio/patient-city-catwoman-01.m4a": "f0fa717f8c5618bc7aee5e06a25fa2ecc4ec648aa9baef66cff958570c94eb12",
+    "audio/patient-city-catwoman-02.m4a": "ca8d7bfe946760829593fb3f52090c570828a4043340a1523ef2c0546ec365fd",
+    "audio/patient-city-catwoman-03.m4a": "70d6633531d1806e12338dcdc8cb804aa40068e95519961588f217c4dcb31ac1",
+    "audio/patient-city-catwoman-04.m4a": "b0b80af92fdc588a004dcecb6faba23f26d871352a11aa2e4abaceb09fecfdb7",
+    "audio/patient-city-catwoman-05.m4a": "077abb92d2eeaa8f31d8d83110a967f1911cb5f6e81b79567c84f51719769a5a",
+    "audio/patient-city-freeze-01.m4a": "4cda2fc539fd057af1dd46c6eebaba0cea7d637ff42d4eba58d3ddbdee2222b1",
+    "audio/patient-city-freeze-02.m4a": "60f8b31c93b3d97ff44d1d8d43b011e98d3aa553ced241a05d001291deea38fa",
+    "audio/patient-city-freeze-03.m4a": "a0e42883403d27ed06b06e5cb5432a435c19f73e608da49befbc9ad824ddfb05",
+    "audio/patient-city-freeze-04.m4a": "0eeb67b192ab4cc0c5b50e1878f7483189901f90fab623f6013df9ead4e7c45e",
+    "audio/patient-city-freeze-05.m4a": "c1f9a8e638336d81ea438d39fca6b01e7a63f71021259870d1d10733bfcb201b",
+    "audio/patient-city-joker-01.m4a": "3c8b603e097e156e2c003b1bb2b9a7dbb1bc57807c0a41c46d8fedbaaa00ae93",
+    "audio/patient-city-joker-02.m4a": "8f2f04fad6b00fa1eabc41e98e518af9dfb18be4c2379faa8bd9c78a6e02fce3",
+    "audio/patient-city-joker-03.m4a": "a6ba75f77769b9cf29af225342709337afe37bef98dbebd8e0a79f92a1ce914c",
+    "audio/patient-city-joker-04.m4a": "fce5cdc5c0d8790db922526605a115265759a5c84936148aef7e754bd3847bdc",
+    "audio/patient-city-joker-05.m4a": "5d63aa2da2c5ed306d42b505512c7eb782eedeb122f210764426a89ee7d8928b",
+    "audio/patient-city-penguin-01.m4a": "24d9c1a6e39b9beb9903e01e3b28625d997eddcd86d6ccf2ea3000c86d27563b",
+    "audio/patient-city-penguin-02.m4a": "17a63bef66ccdef1a9aa26b428b63f59e79010e67030d638ffecd92c89c68bbb",
+    "audio/patient-city-penguin-03.m4a": "a42c1f607ebcf3faf1257b6171ae6c776b465d4d6c949ad5dfbf1a43c051e39f",
+    "audio/patient-city-penguin-04.m4a": "bec39cf6615a5043a5c0674dcf19838db25e8eb26ba5b245b4803707cb4268cd",
+    "audio/patient-city-penguin-05.m4a": "2682f847bd580807597717a7192ea9c63786f2f4808b9125ecf891ff0e31795f",
+    "audio/patient-city-two-face-01.m4a": "9ab7f775287a441033bf6e27ac672d6687130902956943a08bd7ad0e7b6940e8",
+    "audio/patient-city-two-face-02.m4a": "a3d7b74cf398d5b03e85c2187264d11a78e97debf676ec565378d70cd59e045c",
+    "audio/patient-city-two-face-03.m4a": "c5735c3b841c1f9c1e95e02a4f666860ae015b2ac255f3b145d2c546c12d6461",
+    "audio/patient-city-two-face-04.m4a": "a86c4a92f7f0cd518eec3e9b1ddd35f92e38a7f0844f9b8fad93c723ce1df2ca",
+    "audio/patient-city-two-face-05.m4a": "75e0ea05a638b1b8e7bd7cbaf7fca3b7e98484bff007b95941cc53d73d7f3896",
+    "audio/transmission-joker-01.m4a": "d6800384c7268e38a647b5181a320b6b17448a00c4dcb2f9d91f526c4126db59",
+    "audio/transmission-joker-02.m4a": "f1e3db616f895535a089b9642cdd7357a221aaec6e47f14044fbb53e1d49f565",
+    "audio/transmission-joker-03.m4a": "c2bb9b5b0575934376ae99b2852b0e776f2eb25dc3f8b9f7ba3ac19adb2fc885",
+    "audio/transmission-joker-04.m4a": "3d97b932366de9b17055e99f262e5b3ae730f7ab48eea5535adbef8bb9a559e4",
+    "audio/transmission-joker-05.m4a": "81a23b0c703c66e93037eaf6387d1360de4ca4ce4f6ed9da3e604ac36c3685d6",
+    "audio/transmission-joker-only-you.m4a": "fe7a4da5d1673df93f0039beeaeb84cb90068f3908eb6ffbffa4b1fa9082f586",
+    "audio/transmission-city-sharp-01.m4a": "b0721a72f90f4e1bc5060181776a7ada5026d836ca99060e5a92c8eeb8ff415d",
+    "audio/transmission-city-sharp-02.m4a": "0ec7c62db8822733555ccb53b2f34028b5e07f99fc956dd9ac7b16a23eca1f7c",
+    "audio/transmission-city-zsasz-01.m4a": "0aff32a3c91d4097cbadd49668940f04f222bc98e03a1d972c845c3ffbaa2563",
+    "audio/transmission-city-zsasz-02.m4a": "f992f31579fed88293941576d1e718f8b202edec3d0794c826fcf4970e5be962",
+    "audio/transmission-city-zsasz-03.m4a": "715fc45b7af0ad8266cb5b9af9484c6379e8227c6b918d5df27b536e3a6b6a5f",
+    "audio/transmission-city-zsasz-04.m4a": "766ec3ee600ee735fab04a33660adb58a9bd63d5ee4a91589780cb01e2f028a1",
+    "audio/transmission-city-zsasz-05.m4a": "f4bbcfec95cba32a33f054514c648f4c69bf99c6be05d3ade0c3d53a7e96ca31",
+    "audio/transmission-city-zsasz-06.m4a": "85d5a855e5aba194375fc112cf55c036c045f524991245a274172e14a7ea1898",
+    "audio/transmission-knight-oracle-01.m4a": "cee8db0ad6faeb5d5ffa8b9b7f2a6bbe86a0409b7397304cb81baa8747e999c9",
+    "audio/transmission-knight-oracle-02.m4a": "9296e9c3bb47648c7e44a2b05cbbfb32237296c1e2d561dc44c9b79a3f452fd9",
+    "audio/transmission-knight-oracle-03.m4a": "05fb2a63f37e6988abdd95ae772a4979d508398138677f461f11a9b740cd8082",
+    "audio/transmission-knight-scarecrow-01.m4a": "b98053f566f59819f2b0d3c7c31e70ea58504fe9a10e927c2143ee1de947c27b",
+    "audio/transmission-knight-scarecrow-02.m4a": "896891860beb2b4bbe540505fa8ba39f9b86c091466e78ea809e8701fdfb5735",
+    "audio/transmission-knight-scarecrow-03.m4a": "d46268087eb931e3078b50486c404a6b231d4b9d38d1dece60826fb3ad4187ef",
+    "audio/transmission-knight-harley-01.m4a": "94ab82445d30813ee698ad8eae9b18ccd57c3087e511ba1f0b21fd4e9bedc05d",
+    "audio/transmission-knight-harley-02.m4a": "a7bd88d4757c0bb931eddc22bf5c699e52fcab969419dd37cb3d4a2894ac5c16",
+    "audio/transmission-knight-harley-03.m4a": "042bde1dea175784f5a2ce74534bbe5e141028bdd6a64d148b2a068ac944464f",
+    "audio/transmission-knight-riddler-01.m4a": "0b12055d37a90523cdeee007c8f92239c86135992a6d6aad529780fb46fb5afe",
+    "audio/transmission-knight-riddler-02.m4a": "68b8df16ceee450e5af02bd8c642bdc9c3a4da397e1d54c84954b9506e0ebc83",
+    "audio/transmission-knight-riddler-03.m4a": "e783f4c299c085609096963b004a046f7d1dad22c490fd60775e2bc010d38438",
+    "audio/transmission-knight-penguin-01.m4a": "59fb8ebf74cb9450d68c8edefd58d73a45a23cff1b25e96d20a3abf4d8eeaa7d",
+    "audio/transmission-knight-penguin-02.m4a": "2ca046dc6fa84c749d5196f6cb9e0c4f48d4b256bce9141d446bc932e63ca913",
+    "audio/transmission-knight-penguin-03.m4a": "1349fd0c0608a4b30ea5691ae03e03a0233f7509ba25ae844cac88ab0f4061bf",
+    "audio/transmission-knight-stagg-01.m4a": "45001d9154323e789e508e430ce07f102cf91f2bcba7c3cb32819986cf667372",
+    "audio/transmission-knight-stagg-02.m4a": "da692aa9f11640e3436d105cc896b006c5590febcc2b2365c8f02dc62585a6b5",
+    "audio/transmission-knight-stagg-03.m4a": "2a8de65a29c78049ed41f5d3aa6fa90f8ed4a3888f9e67a6f54a861926dcba96",
+    "audio/transmission-knight-joker-case-01.m4a": "275565808ae818344b290db1144bd36a863181f707673f253730bdde78570622",
+    "audio/transmission-knight-pyg-01.m4a": "6f8f8a026cdc5db0e9379862206cae0a528869a5e2f4f44255a6f0277a6ed9a0",
+    "audio/transmission-knight-pyg-02.m4a": "67a108a0c4215c025bef35c7ead20caddc4be85aee18d1e940464bccd52365be",
+    "audio/transmission-knight-pyg-03.m4a": "98ae1dfb2b204975eb9602302c3e562cc94232e5d0cbf572a64a3ce3cde0f4f4",
+    "audio/chronicle-01.m4a": "300eee51af3db2387b0da5a7ce43a321be4b666ac7c04fcb833578fad57a0463",
+    "audio/chronicle-02.m4a": "f1959a5d17a991b37352912e3f82d0ecdf701ada7ee5ec3402ff6c9092abc34b",
+    "audio/chronicle-03.m4a": "5174c6a9e2c83eb3ce927298eb3eda962cf36acb47b844c86c7aec0392c1861b",
+    "audio/chronicle-04.m4a": "d2adf889c7e98d8ea971a4368c451ca044789898903a235b10d9ce2b1a4ee535",
+    "audio/chronicle-05.m4a": "6e286dca48696923e538be9dcdf2ad721c58deb6623c0ea54737da322a7d38b9",
+    "audio/chronicle-06.m4a": "4d1607c12786a880442d58631e886434d6686b3d34f95a6a8ed431188f56ce27",
+    "audio/chronicle-07.m4a": "4e755a4f694f5c82a1820cd78d96485fdcdefd821b62af540e7b2e16c7f71fca",
+    "audio/chronicle-08.m4a": "fbd212b16df66fd8dc5c032dfe974a245fe0c9797bafb82dbf0c2a7c22987b80",
+    "audio/chronicle-09.m4a": "a587d3a8a406621ede7d09f6c22e2f812035b6d2ea464fc858abad0f00fd4830",
+    "audio/chronicle-10.m4a": "fa95885b1648794c20c786ed9e84cb7d3b9f76fc37bcebf675ab3e93f4574292",
+    "audio/chronicle-11.m4a": "0f5c0bc880935c04cefcd39e53b012cd3e39331d4515bc916afe9de8647be954",
+    "audio/chronicle-12.m4a": "e9f4897d272cfd3f19682db73339fe9f674bf6072482b544ab77461616b38355",
+    "audio/chronicle-13.m4a": "cd6faa40376693d388e09af6987b224bfd7ecbd088014bcbaba1de3e935a274e",
+    "audio/chronicle-14.m4a": "becdd3b368f5a2827b96f676aad0e42cf05afa280a7dcd9cf021b9ee8320d8ea",
+    "audio/chronicle-15.m4a": "0abb6335c22069912aa80f9bf374d6c68f22ad5e10b82782b2dc4da4b058c7e8",
+    "audio/chronicle-16.m4a": "77862aa39ae3e4e2b41e0874713e68eeae209b8d24254c311c3d78720be1ba46",
+    "audio/chronicle-17.m4a": "c77f1f441dc4d2d1b65efb0a742474a31abe145b7255a9174dd7ef5964aaf33b",
+    "audio/chronicle-18.m4a": "6f497e8f1bdc0ec80c810b46180afe131d289ff19f9bd36f90f262b1675f101b",
+    "audio/chronicle-19.m4a": "8e6f6c7444f16e4b8516bcb1d9dd694e6520efd8e3fe45b185e64423acdbc477",
+    "audio/chronicle-20.m4a": "cdaed7725d4885bf9e2abaab3320e401e27f9112874f90f984edd450dedd6daa",
+    "audio/chronicle-21.m4a": "9ac885e9d6dbb4525c8f38c21f9e54a5aa3943db7a5e20099e30953215ddc39d",
+    "audio/chronicle-22.m4a": "9a144e049e583022ee074e79febeb1f4f0fac53a8c2c076ec8f1c640fd8d3346",
+    "audio/chronicle-23.m4a": "2183f35e36bbd3193fd33b95b27a684852ad7262d389d2837ad9b47c39c7debe",
+    "audio/chronicle-24.m4a": "a12c3db02a6f2e27763cc6fd0cb6c6a7506b12c717d0acab1bf88d8cf89c5c9b"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "page": "transmissions",
+      "englishHidden": true,
+      "expected": "…",
+      "overflow": 0,
+      "subtitle": "…",
+      "subtitleRight": 264,
+      "time": 29.332418,
+      "viewport": 320
+    },
+    {
+      "page": "transmissions",
+      "englishHidden": true,
+      "expected": "…",
+      "overflow": 0,
+      "subtitle": "…",
+      "subtitleRight": 334,
+      "time": 29.338667,
+      "viewport": 390
+    },
+    {
+      "page": "transmissions",
+      "englishHidden": true,
+      "expected": "…",
+      "overflow": 0,
+      "subtitle": "…",
+      "subtitleRight": 1214,
+      "time": 29.352779,
+      "viewport": 1280
+    },
+    {
+      "page": "transmissions",
+      "englishHidden": true,
+      "expected": "…",
+      "overflow": 0,
+      "subtitle": "…",
+      "subtitleRight": 1294,
+      "time": 29.358093,
+      "viewport": 1440
+    },
+    {
+      "page": "transmissions-long",
+      "englishHidden": true,
+      "overflow": 0,
+      "subtitle": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "subtitleHeight": 236.75,
+      "subtitleRight": 264,
+      "viewport": 320
+    },
+    {
+      "page": "transmissions-long",
+      "englishHidden": true,
+      "overflow": 0,
+      "subtitle": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "subtitleHeight": 207.15625,
+      "subtitleRight": 334,
+      "viewport": 390
+    },
+    {
+      "page": "transmissions-long",
+      "englishHidden": true,
+      "overflow": 0,
+      "subtitle": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "subtitleHeight": 59.1875,
+      "subtitleRight": 1214,
+      "viewport": 1280
+    },
+    {
+      "page": "transmissions-long",
+      "englishHidden": true,
+      "overflow": 0,
+      "subtitle": "稻草人：我通常把我的毒气像分散大气一样分散开来。这样效率很高，但会稀释毒气。现在，我能够通过经浓缩的针剂来诱发恐惧，将恐惧直接注入到血液当中。之后的景象…将十分赏心悦目。当然，它也会造成更为严重的长期伤害。",
+      "subtitleHeight": 59.1875,
+      "subtitleRight": 1294,
+      "viewport": 1440
+    },
+    {
+      "page": "history",
+      "expected": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "overflow": 0,
+      "subtitle": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "subtitleRight": 275,
+      "time": 7.611081,
+      "viewport": 320
+    },
+    {
+      "page": "history",
+      "expected": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "overflow": 0,
+      "subtitle": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "subtitleRight": 345,
+      "time": 7.611081,
+      "viewport": 390
+    },
+    {
+      "page": "history",
+      "expected": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "overflow": 0,
+      "subtitle": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "subtitleRight": 1115,
+      "time": 7.611081,
+      "viewport": 1280
+    },
+    {
+      "page": "history",
+      "expected": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "overflow": 0,
+      "subtitle": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。",
+      "subtitleRight": 1195,
+      "time": 7.611081,
+      "viewport": 1440
+    },
+    {
+      "page": "history-interactions",
+      "switchHistory": {
+        "firstSource": null,
+        "playing": true,
+        "secondSource": "/assets/audio/chronicle-02.m4a",
+        "sources": 1
+      },
+      "collapseHistory": {
+        "closed": true,
+        "paused": true
+      }
+    },
+    {
+      "page": "patients",
+      "expected": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "overflow": 0,
+      "subtitle": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "subtitleRight": 264,
+      "time": 16.512,
+      "viewport": 320
+    },
+    {
+      "page": "patients",
+      "expected": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "overflow": 0,
+      "subtitle": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "subtitleRight": 334,
+      "time": 16.512,
+      "viewport": 390
+    },
+    {
+      "page": "patients",
+      "expected": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "overflow": 0,
+      "subtitle": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "subtitleRight": 1214,
+      "time": 16.512,
+      "viewport": 1280
+    },
+    {
+      "page": "patients",
+      "expected": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "overflow": 0,
+      "subtitle": "患者表现出强迫症和偏执型精神分裂症的症状",
+      "subtitleRight": 1294,
+      "time": 16.512,
+      "viewport": 1440
+    },
+    {
+      "page": "patient-track-switch",
+      "selected": "true",
+      "src": "/assets/audio/patient-city-mad-hatter-03.m4a"
+    },
+    {
+      "page": "original-bilingual",
+      "en": "The next thing you know is we'll be exchanging emails or meeting up for romantic dinners.",
+      "englishHidden": false,
+      "zh": "下一步我们就要交换邮箱，或是一起来场浪漫的晚餐了。"
+    }
+  ],
+  "errors": [],
+  "limits": "原生播放器进度滑块未通过自动化直接定位；seeked前后跳转与空档清理由verify-investigation.js驱动实际控制器回归。非真实手机硬件验收。"
+}

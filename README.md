@@ -8,6 +8,8 @@ Batman小站专题档案项目：一个仓库、两个独立专题。两站共�
 
 ## 当前状态
 
+最新接手入口：[项目交接与下一轮优化（2026-10-26更新）](PROJECT-HANDOFF-2026-10-25.md)，包含字幕修复的验收与发布记录；下一步由用户指定为谜语人专题，代码、资料入口及保留约束见第5节。
+
 ### Protocol Arkham
 
 - 首页使用约一分钟的《阿卡姆之城》标题画面剪辑：1920×1080、30fps、59.93秒、约18.09MiB，静音循环。
@@ -52,6 +54,7 @@ python3 serve.py
 ```sh
 python3 build.py
 python3 verify.py
+python3 verify-subtitles.py
 python3 verify-build.py
 node verify-intro.js
 node verify-arkham-nav.js

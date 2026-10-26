@@ -62,8 +62,25 @@
         "duration": 24,
         "audioBytes": 398979,
         "audioSha256": "300eee51af3db2387b0da5a7ce43a321be4b666ac7c04fcb833578fad57a0463",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 5.5,
+            "text": "我是阿玛迪斯·阿卡姆之魂。"
+          },
+          {
+            "start": 5.5,
+            "end": 14.5,
+            "text": "我用我的行动拯救了这座受到诅咒的城市，但我却被诅咒永远困在黑暗中。"
+          },
+          {
+            "start": 14.5,
+            "end": 24,
+            "text": "我的故事深深镌刻在阿卡姆之魂中，只对那些执着探索它的人昭示。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -82,8 +99,25 @@
         "duration": 23.5,
         "audioBytes": 390635,
         "audioSha256": "f1959a5d17a991b37352912e3f82d0ecdf701ada7ee5ec3402ff6c9092abc34b",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 6.0,
+            "text": "我的家族曾是哥谭市的中流砥柱。"
+          },
+          {
+            "start": 6.0,
+            "end": 15.0,
+            "text": "我们是医生、政客和教师；我们铲除着城市中的污秽。"
+          },
+          {
+            "start": 15.0,
+            "end": 23.5,
+            "text": "我们曾经竭尽全力地保护这个城市。而它却选择了伤害我们。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -102,8 +136,30 @@
         "duration": 33.5,
         "audioBytes": 556378,
         "audioSha256": "5174c6a9e2c83eb3ce927298eb3eda962cf36acb47b844c86c7aec0392c1861b",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 9.5,
+            "text": "当哥谭市慢慢地被痛苦和折磨弥漫时，到处都能感受到它的影响。"
+          },
+          {
+            "start": 9.5,
+            "end": 20.5,
+            "text": "第一个遇难的是我父亲，他被某种邪恶的疾病感染了；我母亲还活着，但只活在一个梦中。"
+          },
+          {
+            "start": 20.5,
+            "end": 29.5,
+            "text": "我回到家中去照顾卧床的母亲，只要她还有呼吸我就要一直照顾她。"
+          },
+          {
+            "start": 29.5,
+            "end": 33.0,
+            "text": "她的眼泪使我夜不能寐。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -122,8 +178,25 @@
         "duration": 29.5,
         "audioBytes": 489933,
         "audioSha256": "d2adf889c7e98d8ea971a4368c451ca044789898903a235b10d9ce2b1a4ee535",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 13.5,
+            "text": "我在一个多月的旅途中，拜访了大都市和契斯通的学院，接触到了很多新的思想。"
+          },
+          {
+            "start": 13.5,
+            "end": 20.5,
+            "text": "我精神抖擞地踏上归途，急切地想见到我的妻子和家人。"
+          },
+          {
+            "start": 20.5,
+            "end": 29.0,
+            "text": "而我最终却跪倒在他们的血泊中，我的人生突遭巨变，支离破碎。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -142,8 +215,20 @@
         "duration": 17.5,
         "audioBytes": 290999,
         "audioSha256": "6e286dca48696923e538be9dcdf2ad721c58deb6623c0ea54737da322a7d38b9",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 7.5,
+            "text": "我回到自己的工作中，但始终无法摆脱脑海中的阴影。"
+          },
+          {
+            "start": 7.5,
+            "end": 17.0,
+            "text": "我本应被这个打击击溃，但我却比以往更加急切地想弄清楚是谁、为什么这么做。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -162,8 +247,30 @@
         "duration": 28.5,
         "audioBytes": 473793,
         "audioSha256": "4d1607c12786a880442d58631e886434d6686b3d34f95a6a8ed431188f56ce27",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 8.0,
+            "text": "他们把这个禽兽带到我面前，它还在不知羞耻地像条疯狗一样乱吠。"
+          },
+          {
+            "start": 8.0,
+            "end": 12.5,
+            "text": "我忍受着他滔滔不绝的自吹自擂。"
+          },
+          {
+            "start": 12.5,
+            "end": 19.0,
+            "text": "他以回顾自己的所做所为为乐，把他的罪行逐一分类。"
+          },
+          {
+            "start": 19.0,
+            "end": 28.0,
+            "text": "我的复仇之心变成了怜悯。这个可怜的疯狗需要我的帮助。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -182,8 +289,25 @@
         "duration": 17,
         "audioBytes": 283524,
         "audioSha256": "4e755a4f694f5c82a1820cd78d96485fdcdefd821b62af540e7b2e16c7f71fca",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 4.5,
+            "text": "多年来，岛屿鲜有改变。"
+          },
+          {
+            "start": 4.5,
+            "end": 10.0,
+            "text": "它已名声扫地，但我发誓要挽回这一切。"
+          },
+          {
+            "start": 10.0,
+            "end": 17,
+            "text": "当建筑物重建之后，我看到了未来，一个无限光明的未来。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -202,8 +326,35 @@
         "duration": 23.5,
         "audioBytes": 390575,
         "audioSha256": "fbd212b16df66fd8dc5c032dfe974a245fe0c9797bafb82dbf0c2a7c22987b80",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 6.0,
+            "text": "新的砖块、钢筋和油漆填补了昔日的创伤。"
+          },
+          {
+            "start": 6.0,
+            "end": 9.5,
+            "text": "这个躯壳里又被注入了新鲜的血液。"
+          },
+          {
+            "start": 9.5,
+            "end": 15.5,
+            "text": "具有睿智新思想的人们聚到这里，誓要信守诺言"
+          },
+          {
+            "start": 15.5,
+            "end": 20.5,
+            "text": "我们都清楚，我们有责任去拯救这座城市。"
+          },
+          {
+            "start": 20.5,
+            "end": 23.5,
+            "text": "而这个城市会感激我们。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -222,8 +373,35 @@
         "duration": 45,
         "audioBytes": 747010,
         "audioSha256": "a587d3a8a406621ede7d09f6c22e2f812035b6d2ea464fc858abad0f00fd4830",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 12.0,
+            "text": "杀害我家人的凶手站在我面前。多年的治疗应该已让他心智健全。看到他重拾自由我感到骄傲。"
+          },
+          {
+            "start": 12.0,
+            "end": 18.0,
+            "text": "政府只需一道签名便可换取他的自由。"
+          },
+          {
+            "start": 18.0,
+            "end": 30.5,
+            "text": "他谈到他想要在公园散步，他怀念新鲜空气扑面而来的感受，然后他就拿起我父亲的钢笔杀了我的秘书。"
+          },
+          {
+            "start": 30.5,
+            "end": 39.0,
+            "text": "他被制服后还大喊大叫，乞求原谅和同情，但我却无以施舍。"
+          },
+          {
+            "start": 39.0,
+            "end": 45,
+            "text": "我看着警卫把他打趴在地下，鲜血直流。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -242,8 +420,30 @@
         "duration": 33,
         "audioBytes": 548365,
         "audioSha256": "fa95885b1648794c20c786ed9e84cb7d3b9f76fc37bcebf675ab3e93f4574292",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 10.0,
+            "text": "春天是个转折点，一个新的开端，我真正的命运将得到辉煌的展现。"
+          },
+          {
+            "start": 10.0,
+            "end": 15.5,
+            "text": "杀害我家人的凶手在一次意外事故中丧生。"
+          },
+          {
+            "start": 15.5,
+            "end": 23.0,
+            "text": "这些禽兽无药可救。就像狗一样，它们只会屈从于管教。"
+          },
+          {
+            "start": 23.0,
+            "end": 32.5,
+            "text": "如果管教也无效的话，恐怕这种意外事故将继续发生。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -262,8 +462,25 @@
         "duration": 28.5,
         "audioBytes": 473645,
         "audioSha256": "0f5c0bc880935c04cefcd39e53b012cd3e39331d4515bc916afe9de8647be954",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 11.0,
+            "text": "我在岛上转了转。经过监狱时，对它所容纳那些肮脏污秽的头脑感到恶心。"
+          },
+          {
+            "start": 11.0,
+            "end": 22.5,
+            "text": "我向哥谭港湾处望去，远远地看见灯光，毫无疑问，又有船把更多的堕落者送到我的城市中来。"
+          },
+          {
+            "start": 22.5,
+            "end": 28.5,
+            "text": "我再次发誓要从黑暗中拯救我的城市。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -282,8 +499,30 @@
         "duration": 30,
         "audioBytes": 498709,
         "audioSha256": "e9f4897d272cfd3f19682db73339fe9f674bf6072482b544ab77461616b38355",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 6.5,
+            "text": "我和那批乳臭未干的医生争论。"
+          },
+          {
+            "start": 6.5,
+            "end": 16.5,
+            "text": "他们用各种理论和想法来折磨我的耳朵，想证明治愈这些禽兽毫无理论依据。"
+          },
+          {
+            "start": 16.5,
+            "end": 20.0,
+            "text": "只有一人与我想法相同。"
+          },
+          {
+            "start": 20.0,
+            "end": 30,
+            "text": "我给她一个实现她梦想的机会。她接受了。我们会合作愉快的。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -302,8 +541,30 @@
         "duration": 42.5,
         "audioBytes": 704811,
         "audioSha256": "cd6faa40376693d388e09af6987b224bfd7ecbd088014bcbaba1de3e935a274e",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 6.5,
+            "text": "哥谭市警局又把一个新的病号扔到这岛上。"
+          },
+          {
+            "start": 6.5,
+            "end": 14.0,
+            "text": "他们说此人是造成本城数百个流浪汉失踪的罪魁祸首。"
+          },
+          {
+            "start": 14.0,
+            "end": 29.0,
+            "text": "当我看着他恶心的身躯，那些鳞片和牙齿的时候心中不禁想像用各种各样的酷刑来让这个怪物屈服。"
+          },
+          {
+            "start": 29.0,
+            "end": 42.0,
+            "text": "医生们围着他，试探，观察，但只有我才知道如何永远治愈他。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -322,8 +583,35 @@
         "duration": 38,
         "audioBytes": 630383,
         "audioSha256": "becdd3b368f5a2827b96f676aad0e42cf05afa280a7dcd9cf021b9ee8320d8ea",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 10.0,
+            "text": "这只野兽太强壮了。他的兽性差点要了我的命。"
+          },
+          {
+            "start": 10.0,
+            "end": 21.0,
+            "text": "我在一个病人身上发泄着沮丧。病历显示他患有妄想型精神分裂症。"
+          },
+          {
+            "start": 21.0,
+            "end": 29.0,
+            "text": "在我将他殴打致死的过程中，他的乞求却让我想到更多。"
+          },
+          {
+            "start": 29.0,
+            "end": 34.0,
+            "text": "他的忏悔让我深受启迪。"
+          },
+          {
+            "start": 34.0,
+            "end": 38,
+            "text": "我的道路明朗了。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -342,8 +630,30 @@
         "duration": 29.5,
         "audioBytes": 489945,
         "audioSha256": "0abb6335c22069912aa80f9bf374d6c68f22ad5e10b82782b2dc4da4b058c7e8",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 13.0,
+            "text": "每天我都发现这些病人越来越闹心。他们的疯言疯语和不停的颤搐令我感到恶心。"
+          },
+          {
+            "start": 13.0,
+            "end": 24.0,
+            "text": "只有一种方法祛除这恶魔，只有一种方法来净化这个城市和确保它的光明前途。"
+          },
+          {
+            "start": 24.0,
+            "end": 27.0,
+            "text": "必须做好充分准备。"
+          },
+          {
+            "start": 27.0,
+            "end": 29.5,
+            "text": "我必须准备好……"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -362,8 +672,25 @@
         "duration": 45,
         "audioBytes": 746323,
         "audioSha256": "77862aa39ae3e4e2b41e0874713e68eeae209b8d24254c311c3d78720be1ba46",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 16.5,
+            "text": "我忽然感到良心难安。我把我的选择告诉牧师，寻求他的建议。我问他为了拯救一条性命而杀人是不是一种罪过。"
+          },
+          {
+            "start": 16.5,
+            "end": 28.5,
+            "text": "牧师说一切生灵皆神圣，但如果我的杀戮是为了拯救其他生灵，就不会受到审判。"
+          },
+          {
+            "start": 28.5,
+            "end": 44.5,
+            "text": "我深受鼓舞地离开忏悔室，比以往更加坚信我不仅是在为人类服务，也是在为上帝服务。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -382,8 +709,25 @@
         "duration": 44.5,
         "audioBytes": 738326,
         "audioSha256": "c77f1f441dc4d2d1b65efb0a742474a31abe145b7255a9174dd7ef5964aaf33b",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 19.5,
+            "text": "当他把那女的带进来时，我一声不响的看着。她的皮肤呈现出剧毒的绿色，这个怪物看起来不再像是人类，更不像是女人了。"
+          },
+          {
+            "start": 19.5,
+            "end": 34.0,
+            "text": "圣经上说：“行邪术的女人，不可容她存活”而上帝却又把这个女恶魔交由我们看护。"
+          },
+          {
+            "start": 34.0,
+            "end": 44.5,
+            "text": "一旦我解决了怪物之后，就会知道潮湿的绿木到底能不能焚为灰烬。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -402,8 +746,20 @@
         "duration": 25,
         "audioBytes": 415297,
         "audioSha256": "6f497e8f1bdc0ec80c810b46180afe131d289ff19f9bd36f90f262b1675f101b",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 14.0,
+            "text": "我坐在他牢房外面的黑暗中，看着这个抽搐的疯子，听着他嘴里吐出来的污言秽语。"
+          },
+          {
+            "start": 14.0,
+            "end": 24.5,
+            "text": "我怎么能让这种肮脏的禽兽活在世上？他就是那种我发誓保护城市免于遭受的祸害。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -422,8 +778,35 @@
         "duration": 91.5,
         "audioBytes": 1515987,
         "audioSha256": "8e6f6c7444f16e4b8516bcb1d9dd694e6520efd8e3fe45b185e64423acdbc477",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 18.5,
+            "text": "我真是笨死了。我怎么到现在才发现？这怪物有个同党！我躲在他牢房附近的黑暗中，亲眼看见有个医生和他交头接耳。"
+          },
+          {
+            "start": 18.5,
+            "end": 35,
+            "text": "她透过透明的屏障温柔地看着他，我斗胆这么说吧，眼中充满了渴望。当看到她亲吻玻璃的时候，我浑身直起鸡皮疙瘩。"
+          },
+          {
+            "start": 35.0,
+            "end": 51.0,
+            "text": "我忍着拎起这女人脑袋砸穿玻璃的冲动，让她继续；那个该死的小丑可能透露她一些秘密，当这条疯狗被处决之后可能对我们有用。"
+          },
+          {
+            "start": 51.0,
+            "end": 68.5,
+            "text": "我敢肯定这女的会把她所知的告诉我。若不乖乖招来，也会在电椅上招供。然后，再给她来个脑叶切除手术。"
+          },
+          {
+            "start": 68.5,
+            "end": 91.5,
+            "text": "对她这么年轻的人来说这十分不幸，但她的欲望让阿卡姆的声誉岌岌可危。没错。脑叶切除手术，极端手段。只有这样才能使她对这让人扼腕的事情保持沉默。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -442,8 +825,30 @@
         "duration": 23.5,
         "audioBytes": 390615,
         "audioSha256": "cdaed7725d4885bf9e2abaab3320e401e27f9112874f90f984edd450dedd6daa",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 6.5,
+            "text": "又一次，我发现在看着他。"
+          },
+          {
+            "start": 6.5,
+            "end": 12.5,
+            "text": "没人能治好他。他嘲笑所有尝试此事的人。"
+          },
+          {
+            "start": 12.5,
+            "end": 18.5,
+            "text": "阿玛迪斯不会让他活下去，我也不会。"
+          },
+          {
+            "start": 18.5,
+            "end": 23.5,
+            "text": "再呷一口白兰地我就准备好了。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -462,8 +867,40 @@
         "duration": 46,
         "audioBytes": 762754,
         "audioSha256": "9ac885e9d6dbb4525c8f38c21f9e54a5aa3943db7a5e20099e30953215ddc39d",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 4.0,
+            "text": "我进入牢房时他目不转睛地盯着。"
+          },
+          {
+            "start": 4.0,
+            "end": 13.5,
+            "text": "当我拿出刀子时，他面带微笑。我告诉他我会怎么使用它，我会如何净化这个城市。"
+          },
+          {
+            "start": 13.5,
+            "end": 16.5,
+            "text": "然后恐怖来临。"
+          },
+          {
+            "start": 16.5,
+            "end": 22.5,
+            "text": "我浑身麻痹了。我挣扎着想要叫，但一点声音都发不出来。"
+          },
+          {
+            "start": 22.5,
+            "end": 41.0,
+            "text": "这个怪物面无表情地看着我。他用我的刀子慢慢划过我的额头；像瓷块一样的脸上露出邪恶的笑容，嘴里涌出污秽的言语。"
+          },
+          {
+            "start": 41.0,
+            "end": 46,
+            "text": "他狞笑着并叫着我那可怕的名字。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -482,8 +919,35 @@
         "duration": 42.5,
         "audioBytes": 705885,
         "audioSha256": "9a144e049e583022ee074e79febeb1f4f0fac53a8c2c076ec8f1c640fd8d3346",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.0,
+            "end": 7.0,
+            "text": "肯定是克莱恩，另一个该死的人。"
+          },
+          {
+            "start": 7.0,
+            "end": 19.0,
+            "text": "为什么这些人在混乱中生生不息？小丑尤其崇尚混乱，而且业已逃脱，肯定会对我的城市施以报复。"
+          },
+          {
+            "start": 19.0,
+            "end": 23.5,
+            "text": "我想我的日记就写到这吧。"
+          },
+          {
+            "start": 23.5,
+            "end": 29.5,
+            "text": "小丑将再次被捉拿归案，而我的故事将被世人传颂。"
+          },
+          {
+            "start": 29.5,
+            "end": 42.0,
+            "text": "我无所畏惧。如果阿卡姆成为我的牢笼，那就意味着我尽了全力。我将会被铭记。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -502,8 +966,35 @@
         "duration": 43,
         "audioBytes": 713329,
         "audioSha256": "2183f35e36bbd3193fd33b95b27a684852ad7262d389d2837ad9b47c39c7debe",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 5.0,
+            "text": "我是阿玛迪斯·阿卡姆之魂。"
+          },
+          {
+            "start": 5.0,
+            "end": 15.5,
+            "text": "虽然阿玛迪斯已去世多年，但他的灵魂永存，穿梭于疯人院的高墙间。"
+          },
+          {
+            "start": 15.5,
+            "end": 25.0,
+            "text": "当它选择了我的时候，我感到自豪。我很荣幸能继续他的工作，净化这个城市。"
+          },
+          {
+            "start": 25.0,
+            "end": 36.0,
+            "text": "如果你能坚韧不拔地追寻我的传说，你坚强的意志就能推断出我的身份。"
+          },
+          {
+            "start": 36.0,
+            "end": 42.5,
+            "text": "来找我吧，朋友。我们并肩便能拯救哥谭市。"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     },
     {
@@ -522,8 +1013,30 @@
         "duration": 25,
         "audioBytes": 415531,
         "audioSha256": "a12c3db02a6f2e27763cc6fd0cb6c6a7506b12c717d0acab1bf88d8cf89c5c9b",
-        "cues": [],
-        "audioSource": "local-asylum-recording-20261022"
+        "cues": [
+          {
+            "start": 1.5,
+            "end": 5.5,
+            "text": "我是昆西·夏普，阿玛迪斯·阿卡姆之魂。"
+          },
+          {
+            "start": 5.5,
+            "end": 11.0,
+            "text": "做得很好，你已经解开了我的故事，我希望它能够在你冒险的路上帮上你。"
+          },
+          {
+            "start": 11.0,
+            "end": 16.5,
+            "text": "我相信，看了我写的东西，你会去做那些正确的事的。"
+          },
+          {
+            "start": 16.5,
+            "end": 24.5,
+            "text": "我恳请你，继续我的工作。这座城市需要一个救世主；继续我的工作！"
+          }
+        ],
+        "audioSource": "local-asylum-recording-20261022",
+        "subtitleSource": "local-video-captions-20261025"
       }
     }
   ],
@@ -642,5 +1155,6 @@
       "spoiler": true,
       "caption": "安全控制室地面的圆形书写；最终记录的物件形态不同于前23处石碑。"
     }
-  ]
+  ],
+  "subtitleUpdated": "2026-10-25"
 }

@@ -119,6 +119,7 @@ function patient(id) {
 (async()=>{
   for (const inTerminal of [true,false]) {
     const a=patient('joker'),b=patient('harley');
+    a.tapes[0].summary='保留的录音导读不能覆盖同步字幕';
     const selectors=[a,b].map(p=>Object.assign(element(),{dataset:{patient:p.file.dataset.patientFile}}));
     const list={clientHeight:100,scrollHeight:300,scrollTop:0,getBoundingClientRect:()=>({top:0,bottom:100,height:100})};
     selectors.forEach((link,i)=>{link.parentElement=list;link.getBoundingClientRect=()=>({top:i*140-list.scrollTop,bottom:i*140+80-list.scrollTop,height:80});});
@@ -183,7 +184,8 @@ function patient(id) {
     audio.removeAttribute = name => { if (name === 'src') audio.src = ''; };
     const tracks = [
       {src: '/assets/audio/transmission-joker-01.m4a', label: 'TRACK 01', cues: [{start: 0, end: 5, text: '直通热线', en: 'Hotline straight to Bats'}]},
-      {src: '/assets/audio/transmission-joker-only-you.m4a', label: 'TRACK 06', cues: [{start: 0, end: 10, text: '唯有你', en: 'Only you'}]}
+      {src: '/assets/audio/transmission-joker-only-you.m4a', label: 'TRACK 06', cues: [{start: 0, end: 10, text: '唯有你', en: 'Only you'}]},
+      {src: '/assets/audio/transmission-city-sharp-01.m4a', label: 'TRACK 01', summary: '保留的广播导读', cues: [{start: 1, end: 5, text: '我是薇姬·瓦尔'}]}
     ];
     const choices = tracks.map(() => element());
     file.querySelector = selector => ({
@@ -221,6 +223,36 @@ function patient(id) {
     assert.equal(audio.src, tracks[1].src);
     assert.equal(subZh.textContent, '唯有你');
     assert.equal(subEn.textContent, 'Only you');
+
+    choices[2].listeners.click();
+    assert.equal(subEn.hidden, true, 'Chinese-only tracks hide the absent English line');
+    audio.currentTime = 2; audio.listeners.seeked();
+    assert.equal(subZh.textContent, '我是薇姬·瓦尔', 'Cues take priority over the retained introduction');
+    audio.currentTime = 6; audio.listeners.seeked();
+    assert.equal(subZh.textContent, '…', 'Seeking past a cue clears the old text');
+    audio.currentTime = 2; audio.listeners.seeked();
+    assert.equal(subZh.textContent, '我是薇姬·瓦尔', 'Seeking backwards restores the current cue');
+    choices[0].listeners.click();
+    assert.equal(subEn.hidden, false, 'Switching back restores bilingual subtitles');
+    assert.equal(subEn.textContent, 'Hotline straight to Bats');
+  }
+
+  // A history entry has one track and no waveform or tape selector.
+  {
+    const p = patient('chronicle');
+    p.tapes.splice(1); p.choices.splice(0);
+    const query = p.file.querySelector;
+    p.file.querySelector = selector => ['[data-waveform]', '.tape-selector'].includes(selector) ? null : query(selector);
+    const document = {hidden: false, querySelector: () => null, querySelectorAll: selector => selector === '[data-audio-recording]' ? [p.file] : [], addEventListener() {}};
+    vm.runInNewContext(source, {window: {addEventListener() {}}, document});
+    assert.equal(p.audio.src, '', 'History audio also waits for an explicit click');
+    p.details.open = true; p.button.listeners.click();
+    p.audio.currentTime = 2; p.audio.listeners.timeupdate();
+    assert.equal(p.subtitle.textContent, 'chronicle 1 开场');
+    p.audio.currentTime = 6; p.audio.listeners.seeked();
+    assert.equal(p.subtitle.textContent, 'chronicle 1 后续');
+    p.details.open = false; p.details.listeners.toggle();
+    assert.equal(p.audio.paused, true, 'Closing the history spoiler pauses playback');
   }
 
   console.log('PASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages; bilingual transmissions');

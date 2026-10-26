@@ -3,6 +3,7 @@ import html
 import re
 import json
 from render_common import paragraphs
+from patient_player import history_recording_controls
 from arkham_reading import load_reading, scene_page, story_page
 from arkham_icons import ROOM_ICONS, token, file_link
 ROOM_EN = {'riddler': 'RIDDLER FILES', 'clues': 'SCENE DETAILS', 'stories': 'CITY STORIES', 'publications': 'PUBLICATIONS', 'asylum-history': 'ASYLUM HISTORY', 'rocksteady': 'ROCKSTEADY'}
@@ -205,7 +206,7 @@ def build_arkham_archive(data,shell):
     for r in history['records']:
         title=f'阿卡姆之魂 · 记录{r["number"]:02d}'
         audio = r['audio']
-        content+=f'<article id="{r["id"]}" data-history-audio><h3>{title}</h3><details class="spoiler"><summary>主题与原声 · 含剧透</summary><p>{esc(r["topic"])}</p><audio controls preload="none" aria-label="{title}" src="/assets/{esc(audio["audioFile"])}"></audio></details></article>'
+        content+=f'<article id="{r["id"]}" data-history-audio data-audio-recording><h3>{title}</h3><details class="spoiler"><summary>主题与原声 · 含剧透</summary><p>{esc(r["topic"])}</p>{history_recording_controls(audio,title)}</details></article>'
         record(title,'院史记录的主题索引；主题与身份信息默认折叠。',base,r['id'],['疯人院院史','阿卡姆之魂'],f'Chronicles of Arkham · {r["number"]:02d}')
     content+='</div>'+'</section>'
     for s in history['sections']:

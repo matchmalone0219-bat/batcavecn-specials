@@ -328,18 +328,20 @@ for p in interviews['patients']:
         assert audio.stat().st_size == tape['audioBytes']
         assert hashlib.sha256(audio.read_bytes()).hexdigest() == tape['audioSha256']
         assert hashlib.sha256((DIST / 'assets' / tape['audioFile']).read_bytes()).hexdigest() == tape['audioSha256']
-        assert bool(tape['cues']) != bool(tape.get('summary'))
+        assert tape['cues'], tape['audioFile']
         end = 0
         for cue in tape['cues']:
             assert end <= cue['start'] < cue['end'] <= tape['duration'] + .08
-            assert cue['text'] and cue['text'] not in json.dumps(interactive_records, ensure_ascii=False)
+            assert cue['text']
+            if len(cue['text']) >= 12:
+                assert cue['text'] not in json.dumps(interactive_records, ensure_ascii=False)
             end = cue['end']
     if p['gameId'] == 'asylum':
         assert abs(previous_end - p['biliDuration']) < 2
         assert p['audioSource'] == 'patient-bili'
     else:
         assert p['audioSource'] == 'local-city-recording-20261022'
-        assert all(t['summary'] and not t['cues'] for t in p['tapes'])
+        assert all(t['cues'] for t in p['tapes'])
 for html in [patient_terminal]:
     assert html.count('<audio controls preload="none" hidden') == 14
     assert html.count('data-tape-data>') == 14 and html.count('data-tape="') == 69
@@ -364,11 +366,12 @@ for ch in trans_json['channels']:
         assert audio.stat().st_size == t['audioBytes']
         assert hashlib.sha256(audio.read_bytes()).hexdigest() == t['audioSha256']
         assert hashlib.sha256((DIST / 'assets' / t['audioFile']).read_bytes()).hexdigest() == t['audioSha256']
-        assert bool(t['cues']) != bool(t.get('summary'))
+        assert t['cues'], t['audioFile']
         end = 0
         for cue in t['cues']:
             assert end <= cue['start'] < cue['end'] <= t['duration'] + .15
-            assert cue['text'] and cue['en']
+            assert cue['text']
+            if ch['id']=='joker-city': assert cue['en']
             end = cue['end']
 assert len(list((DIST / 'assets/audio').glob('transmission-*.m4a'))) == 36
 for r in history['records']:
@@ -381,10 +384,15 @@ for r in history['records']:
     section=ark_pages['arkham/archive/asylum-history/index.html'].split('id="'+r['id']+'"',1)[1].split('</article>',1)[0]
     assert section.index('<details class="spoiler">') < section.index('<audio ') < section.index('</details>')
     assert 'preload="none"' in section
+    assert t['cues'] and 'data-tape-data' in section and 'data-subtitle' in section
+    end = 0
+    for cue in t['cues']:
+        assert end <= cue['start'] < cue['end'] <= t['duration'] + .08 and cue['text']
+        end = cue['end']
 assert len(list((DIST / 'assets/audio').glob('chronicle-*.m4a'))) == 24
 intercom = json.loads((CONTENT.parent / 'arkham-intercom.json').read_text())
 assert len(list((DIST / 'assets/audio').glob('*.m4a'))) == 129 + len(intercom['clips'])
-print('PASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, bounded cues or explicit listening notes, on-demand players and spoiler boundaries')
+print('PASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, synchronized subtitles on every recording, on-demand players and spoiler boundaries')
 
 # The two topics share biography data, not Arkham navigation or search scope.
 for path, page in parsed.items():

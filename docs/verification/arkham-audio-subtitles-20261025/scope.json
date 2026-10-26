@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26",
+  "modifiedTrackedFiles": [
+    ".github/workflows/pages.yml",
+    "HANDOFF-2026-10-23.md",
+    "README.md",
+    "arkham-investigation.js",
+    "arkham-transmissions.json",
+    "arkham_pages.py",
+    "asylum-history.json",
+    "audio-import-20261023.json",
+    "patient-interviews.json",
+    "patient_player.py",
+    "transmission_player.py",
+    "verify-investigation.js",
+    "verify.py"
+  ],
+  "allAudioUnchanged": true,
+  "originalSubtitleSetsUnchanged": 41,
+  "tasSourceChanges": [],
+  "sharedContentSourceChanges": []
+}
