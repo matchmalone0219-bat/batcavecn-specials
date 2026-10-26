@@ -41,7 +41,7 @@ def prepare(base_path):
             text = LOCAL_URL.sub(lambda match: base_path + match.group(), text)
             text = text.replace('href="/"', f'href="{base_path}/"')
             # Home-page anchors such as "/#voices" in HTML attributes, search records and scripts.
-            text = re.sub(r'(?<=["\'])/(?=#)', base_path + '/', text)
+            text = re.sub(r'(?<=["\'])/(?=[#?])', base_path + '/', text)
             file.write_text(text)
     (target / '.nojekyll').touch()
     assert not any('data-local-edit' in page.read_text() for page in target.rglob('*.html')), 'Editor link left in Pages'

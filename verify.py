@@ -34,6 +34,7 @@ class Page(HTMLParser):
 data = json.loads(CONTENT.read_text())
 validate(data)
 pages = build()
+CONROY_REDIRECTS = {'arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'}  # bare redirects to the shared feature
 parsed = {}
 for filename, body in pages.items():
     parser = Page()
@@ -399,7 +400,7 @@ for path, page in parsed.items():
     if path.startswith('/arkham/'):
         assert not any(link.startswith('/tas/') for link in page.links), path
         assert not any(link.startswith('/people/kevin-conroy/') for link in page.links), path
-assert '/arkham/people/kevin-conroy/' in parsed
+assert 'href="/?route=arkham#kevin-conroy"' in pages['arkham/catalog/index.html']
 assert '<option value="all">' not in pages['arkham/search/index.html']
 assert pages['arkham/catalog/index.html'].count('class="arkham-game-card"') == 8
 for filename in ['arkham-transition.js','arkham-menu.js','arkham-nav.js','arkham-bat-transition.m4a']:
@@ -417,7 +418,7 @@ blackgate_html = pages['arkham/games/arkham-origins-blackgate/index.html']
 assert 'Steam Deluxe Edition' in blackgate_html and '2014-04-01' in blackgate_html
 assert '待核' not in blackgate_html and '蝙蝠侠英语配音' not in blackgate_html
 squad_html = pages['arkham/games/suicide-squad-kill-the-justice-league/index.html']
-assert '/arkham/people/kevin-conroy/' in squad_html
+assert '/?route=arkham#kevin-conroy' in squad_html
 creative = json.loads((CONTENT.parent / 'rocksteady-history.json').read_text())
 creative_html = ark_pages['arkham/archive/rocksteady/index.html']
 assert len({section['id'] for section in creative['sections']}) == len(creative['sections'])
@@ -486,7 +487,8 @@ assert all(f'id="source-{sid}"' in crossover_page for sid in crossover_ids)
 assert 'id="voices"' in crossover_page and crossover_page.count('class="gate ') == 2 and 'id="kevin-conroy"' in crossover_page
 assert crossover_page.count('<h1') == 1, 'home page keeps one h1; the Voices cover uses h2'
 assert all(f'id="{sec["id"]}"' in crossover_page for sec in data["person"]["sections"])
-for old, target in (("voices/index.html", "#voices"), ("crossover/index.html", "#voices"), ("people/kevin-conroy/index.html", "#kevin-conroy")):
+for old, target in (("voices/index.html", "#voices"), ("crossover/index.html", "#voices"), ("people/kevin-conroy/index.html", "#kevin-conroy"),
+                    ("arkham/people/kevin-conroy/index.html", "?route=arkham"), ("tas/people/kevin-conroy/index.html", "?route=tas")):
     assert 'http-equiv="refresh"' in pages[old] and target in pages[old] and '/voices/' not in pages[old], old
 for route_key, html in pages.items():
     if route_key.startswith(("arkham/", "tas/")) and "<footer>" in html:
@@ -495,7 +497,10 @@ for route_key, html in pages.items():
         assert 'href="/tas/' not in html, route_key
     if route_key.startswith("tas/"):
         assert 'href="/arkham/' not in html, route_key
-assert '/tas/people/kevin-conroy/' in pages["tas/index.html"] and 'href="/arkham/' not in pages["tas/people/kevin-conroy/index.html"]
+assert '/?route=tas#voice' in pages["tas/index.html"]
+# The Conroy feature is shared: its work lists sit in the animation and game panels of the home page.
+tas_works = pages["index.html"].split('id="works-tas"', 1)[1].split('id="works-arkham"', 1)[0]
+arkham_works = pages["index.html"].split('id="works-arkham"', 1)[1].split('class="profile-sources"', 1)[0]
 assert all(f'/assets/media/{f}' in crossover_page for n in crossover["nodes"] for k, f in n.get("images", {}).items() if k in ("tas", "arkham"))
 print(f'PASS: 蝙蝠侠之声 page with Conroy chapter, {len(crossover["nodes"])} people and characters, {len(crossover_works)} works; old addresses redirect; footers link only the shared page')
 from arkham_pages import riddle_hash
@@ -530,6 +535,8 @@ for clip in intercom['clips']:
     for path in (CONTENT.parent / clip['file'], DIST / 'assets' / clip['file']):
         assert hashlib.sha256(path.read_bytes()).hexdigest() == clip['sha256'], path
 for page_key, html in pages.items():
+    if page_key in CONROY_REDIRECTS:
+        continue
     if page_key.startswith('arkham/'):
         assert html.count('id="arkham-intercom"') == 1, page_key
         assert html.count('data-intercom-toggle') == 1, page_key
@@ -540,9 +547,9 @@ for page_key, html in pages.items():
 print('PASS: five approved intercom clips retain their hashes; optional controls and tracks stay within Arkham')
 for page_key in ("index.html", "404.html"):
     assert pages[page_key].count('class="gate ') == 2 and 'href="/#voices"' in pages[page_key] and 'route-card' not in pages[page_key]
-for page_key in ("arkham/people/kevin-conroy/index.html", "tas/people/kevin-conroy/index.html"):
-    assert 'class="work-list"' in pages[page_key] and 'grid routes' not in pages[page_key]
-print('PASS: hub and 404 use the two-door entry; scoped Conroy pages use the work list')
+for panel in (tas_works, arkham_works):
+    assert 'class="work-list"' in panel and 'grid routes' not in panel
+print('PASS: hub and 404 use the two-door entry; the shared Conroy works panels use the work list')
 merch = json.loads((CONTENT.parent / "merchandise.json").read_text())
 for site in ("arkham", "tas"):
     html = pages[f"{site}/collectibles/index.html"]
@@ -555,7 +562,7 @@ import arkham_icons
 assert arkham_icons.FILLED_ICONS.keys() == arkham_icons.ICONS.keys(), 'Every Arkham icon uses the filled silhouette system'
 for route_key, html in pages.items():
     assert 'data-arkham-icon' not in html, route_key
-    if route_key.startswith("arkham/"):
+    if route_key.startswith("arkham/") and route_key not in CONROY_REDIRECTS:
         assert all(name in arkham_icons.ICONS for name in re.findall(r'data-arkham-icon="([a-z-]+)"', html))
         for paint_id in ('arkham-icon-metal', 'arkham-icon-metal-dark'):
             assert html.count(f'id="{paint_id}"') == 1, (route_key, paint_id)
@@ -598,7 +605,7 @@ for terminal_key in ("arkham/detective/index.html", "arkham/patients/index.html"
     bar = page_html.split('class="terminal-bar"')[1].split('</nav>')[0]
     assert page_html.count('class="terminal-bar"') == 1 and 'dossier-shelf' not in page_html, terminal_key
     assert bar.count('aria-current="page"') == 1 and f'href="/{terminal_key.removesuffix("index.html")}" aria-current="page"' in bar, terminal_key
-arkham_html = {k: v for k, v in pages.items() if k.startswith("arkham/") and k.endswith(".html")}
+arkham_html = {k: v for k, v in pages.items() if k.startswith("arkham/") and k.endswith(".html") and k not in CONROY_REDIRECTS}
 assert not [k for k, v in arkham_html.items() if 'dossier-shelf' in v or '六部作品' in v]
 for link_key in ("arkham/catalog/index.html", "arkham/archive/asylum-history/index.html", "arkham/archive/rocksteady/index.html"):
     assert pages[link_key].count('class="file-link"') == 1, link_key
@@ -624,7 +631,7 @@ for slug in ('feat-of-clay-part-1', 'feat-of-clay-part-2', 'read-my-lips', 'tnba
     url = f'/tas/episodes/{slug}/'
     assert url in parsed and f'href="{url}"' in catalog_html
     assert any(record['url'] == url and record['status'] == '分集导读' for record in search)
-    assert f'href="{url}"' in pages['tas/people/kevin-conroy/index.html']
+    assert f'href="{url}"' in tas_works
     assert 'class="film-strip"' in pages[url.strip('/') + '/index.html']
 for slug in ('tnba-mad-love', 'tnba-over-the-edge', 'tnba-old-wounds', 'tnba-never-fear', 'tnba-growing-pains', 'tnba-legends-of-the-dark-knight', 'tnba-sins-of-the-father', 'tnba-double-talk', 'tnba-cold-comfort'):
     page = pages[f'tas/episodes/{slug}/index.html']
@@ -632,8 +639,8 @@ for slug in ('tnba-mad-love', 'tnba-over-the-edge', 'tnba-old-wounds', 'tnba-nev
     assert '/tas/episodes/tnba-' in pager_html and 'TNBA' in page
     assert all('/tas/episodes/tnba-' in href for href in re.findall(r'href="([^"]+)"', pager_html))
     assert 'episode-title-card' not in page
-assert '/arkham/games/arkham-vr/' in pages['arkham/people/kevin-conroy/index.html']
-assert '/arkham/games/arkham-shadow/' not in pages['arkham/people/kevin-conroy/index.html']
+assert '/arkham/games/arkham-vr/' in arkham_works
+assert '/arkham/games/arkham-shadow/' not in arkham_works
 print('PASS: two VR works; five promoted guides; TNBA-only pager; correct actor links; genuine title cards and episode frames')
 
 # Second content batch: original catalogue identifiers and spoiler boundaries.
@@ -706,7 +713,7 @@ for episode in data['episodes'] + data['tnbaEpisodes']:
     if 'wf-dossier-' + episode['id'] in episode['sources']:
         assert len(episode['sections']) == 5
     assert f'href="{url}"' in catalog_html
-    assert f'href="{url}"' in pages['tas/people/kevin-conroy/index.html']
+    assert f'href="{url}"' in tas_works
     record = next(r for r in search if r['url'] == url)
     assert record['status'] == '分集导读' and episode['spoiler'] not in json.dumps(record, ensure_ascii=False)
     assert 'class="film-strip"' in body
@@ -736,6 +743,8 @@ print('PASS: all 109 episode dossiers, series-only paging, protected mystery cre
 
 # TAS lightbox, iris and font subset.
 for page in DIST.glob('tas/**/index.html'):
+    if str(page.relative_to(DIST)) in CONROY_REDIRECTS:
+        continue
     assert '/assets/tas-lightbox.js' in page.read_text(), page
 assert (DIST / 'assets/tas-lightbox.js').is_file()
 assert 'tas-iris' in (DIST / 'assets/tas-motion.js').read_text() and '@property --iris' in (DIST / 'assets/tas.css').read_text()

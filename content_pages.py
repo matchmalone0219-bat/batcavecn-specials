@@ -28,7 +28,7 @@ def home(data, site):
         body += '<section class="section cinema-folio"><div class="programme-heading"><h2>翻开制作图册</h2><p>MODEL / STORYBOARD</p></div><p class="folio-intro">角色的动作与表情，片头的剪影与格斗。</p>' + production_preview() + '</section>'
         modern = data["capedCrusader"]
         body += f'<section class="section"><p class="label">延续与再诠释 / MODERN GOTHAM</p><a class="route-card" href="{route(modern)}"><h2>{esc(modern["title"])}</h2><p>{esc(modern["summary"])}</p><span class="fine">系列概览 · 两季二十集节目单</span></a></section>'
-        body += f'<section class="section"><a href="/tas/people/kevin-conroy/#voice" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 动画人物档案</span></div></a></section>'
+        body += f'<section class="section"><a href="{person_url("tas", "voice")}" class="radio-column"><div class="radio-mark" aria-hidden="true"><span>ON AIR</span><strong>KC</strong><small>1955—2022</small></div><div><p class="label">声音专栏 / THE VOICE BEHIND THE MASK</p><h2>{esc(info["conroyTitle"])}</h2><p>{esc(info["conroyText"])}</p><span>凯文·康罗伊 · 动画人物档案</span></div></a></section>'
         body += '<section class="section programme-tail"><a href="/tas/episodes/nothing-to-fear/"><p class="label">主题放映 / FEAR & WILL</p><h3>恐惧与意志</h3><p>从《Nothing to Fear》看面具下的坚定与脆弱。</p></a><a href="/tas/sources/"><p class="label">放映资料 / SOURCE NOTES</p><h3>片尾署名与制作档案</h3><p>查阅英文原名、制作署名与分集资料出处。</p></a></section>'
     return shell(data, site, "动画放映室", body, "home")
 
@@ -93,7 +93,7 @@ def detail(data, item):
         body += f'<details class="spoiler"><summary>剧情与结局 · 含剧透，展开阅读</summary>{paragraphs(item["spoiler"])}</details>'
     if item["actorLink"]:
         continuation = "继续阅读相关的作品与表演资料。" if site == "arkham" else "继续阅读动画作品与表演资料。"
-        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site)}#works"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>打开凯文·康罗伊的人物档案，{continuation}</p></a></section>'
+        body += f'<section><h2>继续沿着声音阅读</h2><a class="route-card" href="{person_url(site, "works")}"><span class="label">演员档案 / 表演路线</span><h3>凯文·康罗伊：蝙蝠侠之声</h3><p>打开凯文·康罗伊的人物档案，{continuation}</p></a></section>'
     body += pager(data, item)
     body += '</div></div>'
     return shell(data, site, item["title"], body, "catalog")
@@ -128,53 +128,3 @@ def caped_series(data):
     body += '<section><h2>图片资料</h2>' + image_gallery("tas", "caped-crusader") + '</section>'
     body += f'<section><a class="route-card" href="/tas/catalog/"><h3>回到经典TAS</h3><p>查阅BTAS全集目录，对照两座不同时代的动画哥谭。</p></a></section></div></section>'
     return shell(data, "tas", item["title"], body, "caped")
-
-
-def person_chapters(data, site="shared"):
-    from conroy_profile import chapters, chapter_citations, profile_photo, timeline, finding_feature, recording_notes, shared_work_directory
-    sections = chapters(data, site)
-    titles = {s['id']: f'{n:02d} / ' + s['title'].split(' / ', 1)[-1] for n, s in enumerate(sections, 1)}
-    groups = [
-        ('I', '面具之前', {'life', 'stage', 'voice'}),
-        ('II', '声音的工作', {'ensemble', 'performances', 'beyond', 'comparison'}),
-        ('III', '生活与回声', {'finding', 'audience', 'memory', 'works'}),
-    ]
-    contents = ''.join(f'<div><p><span>{number}</span>{label}</p><ol>' + ''.join(f'<li><a href="#{s["id"]}"><span>{titles[s["id"]].split(" / ")[0]}</span>{esc(titles[s["id"]].split(" / ",1)[-1])}</a></li>' for s in sections if s['id'] in ids) + '</ol></div>' for number, label, ids in groups)
-    body = '<nav class="profile-contents" aria-label="人物章节">' + contents + '</nav><div class="reading conroy-reading">'
-    for s in sections:
-        text = s.get('siteBodies', {}).get(site, s['body'])
-        number, title = titles[s['id']].split(' / ', 1)
-        if s['id'] == 'finding':
-            body += finding_feature(number)
-            continue
-        english = {'life':'EARLY YEARS','stage':'ON THE STAGE','voice':'BECOMING BATMAN','ensemble':'IN THE BOOTH','performances':'THE INNER VOICE','beyond':'A LIFETIME IN GOTHAM','comparison':'VOICING THE GAMES','finding':'FINDING BATMAN','audience':'BEYOND THE MICROPHONE','memory':'THE VOICE REMAINS','works':'SELECTED WORKS'}[s['id']]
-        body += f'<section class="profile-chapter profile-chapter-{s["id"]}" id="{s["id"]}"><div class="profile-chapter-heading"><span class="profile-chapter-number" aria-hidden="true">{number}</span><p class="profile-eyebrow">{english}</p><h2>{esc(title)}</h2></div><div class="profile-chapter-copy">{paragraphs(text)}'
-        if s['id'] == 'voice':
-            body += '<div class="profile-voice-pair"><div><p>BRUCE WAYNE</p><h3>在人群之中</h3><span>轻松、圆滑的公众形象</span></div><div><p>BATMAN</p><h3>在面罩之后</h3><span>压低声音，让话语更有重量</span></div></div>'
-        body += chapter_citations(data, s, site) + recording_notes(data, s, site) + '</div>'
-        for photo in s.get('photos', []):
-            if photo == 'conroy-2009' and site == 'tas':
-                continue
-            body += profile_photo(photo)
-        if s["id"] == "works":
-            linked = [i for i in data["games"] + data["episodes"] + data["tnbaEpisodes"] if i["actor"] == "Kevin Conroy" and i["status"] == "详情样板"]
-            if site in ("arkham", "tas"):
-                linked = sorted((i for i in linked if i["site"] == site), key=lambda i: i.get("airDate") or i.get("date") or i["year"])
-                body += f'<details class="profile-works"><summary>展开作品目录 · {len(linked)}项</summary><ol class="work-list">' + "".join(f'<li><span class="xc-year">{esc(i["year"])}</span><a href="{route(i)}">{esc(i["title"])}</a><span class="xc-note">{esc(i["original"])}</span></li>' for i in linked) + '</ol></details></section>'
-                continue
-            else:
-                body += shared_work_directory(linked) + '</section>'
-                continue
-        body += '</section>'
-        if s['id'] == 'memory':
-            body += timeline(data, site)
-    return body + '</div>'
-
-
-def person(data, site):
-    from conroy_profile import cover, profile_sources, with_profile_styles
-    p = data["person"]
-    memorial_links = '<a href="/arkham/menu/">返回Protocol Arkham</a>' if site == "arkham" else '<a href="/tas/">返回Dark Deco</a>'
-    body = '<div class="profile-feature">' + cover(p['title'], p['intro']) + f'<div class="profile-return">{memorial_links}</div>{person_chapters(data, site)}'
-    body += profile_sources(data, site) + '</div>'
-    return with_profile_styles(shell(data, site, p["title"], body, "person"))

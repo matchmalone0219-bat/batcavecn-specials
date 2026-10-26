@@ -22,7 +22,7 @@ def arkham_menu(heading="h1"):
     entries = [
         ("作品档案", "GAME ARCHIVE", "/arkham/catalog/", "收录正传、掌机与衍生作品，整理发行沿革与故事背景", "arkham-city-02.jpg", "《阿卡姆之城》官方商店截图", "games"),
         ("哥谭档案馆", "GOTHAM DOSSIERS", "/arkham/archive/", "汇集全系列场景彩蛋、院内录音档案与背景故事考据", "arkham-asylum-01.jpg", "《阿卡姆疯人院》官方商店截图", "dossiers"),
-        ("蝙蝠侠之声", "KEVIN CONROY", "/arkham/people/kevin-conroy/", "凯文·康罗伊专题特稿：三十载声音历程与表演纪事", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "voice"),
+        ("蝙蝠侠之声", "KEVIN CONROY", "/?route=arkham#kevin-conroy", "凯文·康罗伊专题特稿：三十载声音历程与表演纪事", "arkham-city-03.jpg", "《阿卡姆之城》官方商店截图", "voice"),
         ("周边档案", "COLLECTIBLES", "/arkham/collectibles/", "历代官方可动人偶、雕像与载具周边的实体图鉴", "arkham-origins-01.jpg", "《阿卡姆起源》官方商店截图", "collectibles"),
         ("图片资料", "IMAGE ARCHIVE", "/arkham/gallery/", "历代游戏实机截图、原画与官方主视觉影像归档", "arkham-knight-01.jpg", "《阿卡姆骑士》官方商店截图", "gallery"),
         ("搜索档案", "SEARCH", "/arkham/search/", "跨作品检索角色、案卷、场景线索与主创资料", "arkham-origins-blackgate-01.jpg", "《阿卡姆起源：黑门》官方商店截图 · 豪华版（2014）", "search"),

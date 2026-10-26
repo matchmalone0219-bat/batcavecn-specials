@@ -6,8 +6,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 
-def person_url(site):
-    return {"arkham": "/arkham/people/kevin-conroy/", "tas": "/tas/people/kevin-conroy/"}.get(site, "/#kevin-conroy")
+def person_url(site, anchor="kevin-conroy"):
+    """The Conroy feature lives in the shared archive; each site opens it on its own reading route."""
+    route_query = f"?route={site}" if site in ("arkham", "tas") else ""
+    return f"/{route_query}#{anchor}"
 
 
 def esc(value):

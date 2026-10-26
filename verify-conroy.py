@@ -2,11 +2,11 @@
 import hashlib
 import json
 from html.parser import HTMLParser
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 from render_common import ROOT
 from site_pages import render_pages
-from conroy_profile import media_assets, chapters, finding_packet, main_reading_packet
+from conroy_profile import media_assets, chapters, finding_packet, main_reading_packet, BRANCH, ROUTES
 
 main_urls = {a['url'] for a in main_reading_packet()['articles']}
 
@@ -32,7 +32,8 @@ class ProfilePage(HTMLParser):
             if tag == 'img':
                 self.images.append(attrs)
                 assert attrs['src'].startswith('/assets/media/'), attrs['src']
-                assert attrs.get('alt') and int(attrs['width']) > 0 and int(attrs['height']) > 0
+                # Decorative door art has an empty alt and is hidden from assistive technology.
+                assert (attrs.get('alt') or attrs.get('aria-hidden') == 'true') and int(attrs['width']) > 0 and int(attrs['height']) > 0
             if tag == 'a' and urlsplit(attrs.get('href', '')).netloc:
                 assert self.credit or (attrs.get('class') == 'profile-main-row' and attrs['href'] in main_urls), ('External reading link', attrs['href'])
                 self.external.append(attrs['href'])
@@ -76,42 +77,57 @@ for photo in photos:
     for path in (ROOT / photo['file'], ROOT / 'dist/assets/media' / photo['file']):
         assert hashlib.sha256(path.read_bytes()).hexdigest() == photo['sha256'], path
 
-parsed = {}
-for site, path in [('shared', 'index.html'), ('arkham', 'arkham/people/kevin-conroy/index.html'), ('tas', 'tas/people/kevin-conroy/index.html')]:
-    parser = ProfilePage()
-    html = pages[path]
-    if path == 'index.html':
-        # The home page opens with the two site gates; the profile checks start at the Voices feature.
-        start = html.index('<section class="gates')
-        html = html[:start] + html[html.index('</section>', start) + len('</section>'):]
-    parser.feed(html)
-    assert set(parser.external) <= allowed_external | (main_urls if site == 'shared' else set())
-    assert set(parser.external) & main_urls == (main_urls if site == 'shared' else set())
-    if site == 'shared':
-        assert pages[path].index('id="main-reading"') < pages[path].index('class="xspreads"')
-    assert all(s['id'] in parser.ids for s in chapters(data, site))
-    assert {'life', 'voice', 'works', 'comparison', 'finding', 'memory'} <= parser.ids
-    assert 'youtube.com' not in pages[path] and 'youtu.be' not in pages[path]
-    assert 'profile-reference-list' in pages[path]
-    assert finding_ids | {'finding-original', 'finding-title'} <= parser.ids
-    assert len([i for i in parser.images if i['src'].endswith('finding-batman-opening.jpg')]) == 1
-    assert all(s['title'] in pages[path] for s in finding['sources'])
-    assert '/assets/conroy-profile.css' in pages[path]
-    for section in chapters(data, site):
-        for note in section.get('recordingNotes', []):
-            assert (note['title'] in pages[path]) == (site in note.get('sites', ('shared', 'arkham', 'tas')))
-    parsed[site] = parser
-profile_pages = {'index.html', 'arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'}
-assert all(('/assets/conroy-profile.css' in html) == (path in profile_pages) for path, html in pages.items())
+html = pages['index.html']
+# The home page opens with the two site gates; the profile checks start at the Voices feature.
+start = html.index('<section class="gates')
+parser = ProfilePage()
+parser.feed(html[:start] + html[html.index('</section>', start) + len('</section>'):])
+assert set(parser.external) <= allowed_external | main_urls and set(parser.external) & main_urls == main_urls
+assert html.index('id="main-reading"') < html.index('class="xspreads"')
+assert all(s['id'] in parser.ids for s in person['sections'])
+assert 'youtube.com' not in html and 'youtu.be' not in html and 'profile-reference-list' in html
+assert finding_ids | {'finding-original', 'finding-title'} <= parser.ids
+assert len([i for i in parser.images if i['src'].endswith('finding-batman-opening.jpg')]) == 1
+assert all(s['title'] in html for s in finding['sources'])
+assert all(note['title'] in html for s in person['sections'] for note in s.get('recordingNotes', []))
+assert all(('/assets/conroy-profile.css' in body) == (path == 'index.html') for path, body in pages.items())
 
-# Every scoped chapter must actually exist on the chosen site's profile, with no cross-site jump.
+# One shared feature: common chapters, then two lanes (animation / games) switched in place, then the shared ending.
+branch = html[html.index('id="routes"'):html.index('class="xroute-merge"')]
+lanes = {side: branch.split(f'id="route-{side}"', 1)[1] for side in ROUTES}
+lanes['tas'] = lanes['tas'].split('id="route-arkham"', 1)[0]
+for section in person['sections']:
+    side = BRANCH.get(section['id'])
+    marker = f'id="{section["id"]}"'
+    if side:
+        assert marker in lanes[side] and all(marker not in lane for other, lane in lanes.items() if other != side), section['id']
+    else:
+        assert marker not in branch, section['id']
+assert html.index('id="ensemble"') < html.index('id="routes"') < html.index('id="finding"')
+# Without JavaScript both lanes read in order; the tabs and lane switches appear only when app.js runs.
+assert branch.count('data-route-ui hidden') == 3 and 'role="tablist"' in branch
+for side, info in ROUTES.items():
+    assert f'data-route-tab="{side}"' in branch and f'/assets/media/{info["image"]}' in branch
+    assert (ROOT / 'dist/assets/media' / info['image']).is_file()
+    assert f'id="works-{side}"' in html and f'data-route-panel="{side}"' in html
+assert 'data-route-item="tas"' in html and 'data-route-item="arkham"' in html
+
+# Old site addresses and every Conroy entry open the shared feature on that site's route.
+for site in ROUTES:
+    redirect = pages[f'{site}/people/kevin-conroy/index.html']
+    assert 'http-equiv="refresh"' in redirect and f'?route={site}' in redirect
+    target = redirect.split('url=', 1)[1].split('"', 1)[0]
+    assert urljoin(f'https://example.test/{site}/people/kevin-conroy/', target) == f'https://example.test/?route={site}#kevin-conroy', target
+    nav = pages[f'{site}/sources/index.html']
+    assert f'href="/?route={site}#kevin-conroy"' in nav and f'/{site}/people/kevin-conroy/' not in nav
 chapter_records = [r for r in records if r.get('scopedUrls') is not None]
 assert {urlsplit(r['url']).fragment for r in chapter_records} == {s['id'] for s in person['sections']}
 for record in chapter_records:
-    assert urlsplit(record['url']).fragment in parsed['shared'].ids
+    fragment = urlsplit(record['url']).fragment
+    assert fragment in parser.ids
     for site, target in record['scopedUrls'].items():
         url = urlsplit(target)
-        assert url.path == f'/{site}/people/kevin-conroy/'
-        assert url.fragment in parsed[site].ids
+        assert url.path == '/' and url.fragment == fragment
+        assert url.query == f'route={BRANCH.get(fragment, site)}', target
 
-print(f'PASS: sourced biography, {len(photos)} licensed photos, seven-part Finding Batman feature with original page, plain-text references and scoped chapter search')
+print(f'PASS: sourced biography, {len(photos)} licensed photos, seven-part Finding Batman feature, shared Conroy feature with animation/game lanes, old addresses and scoped search open the right route')
