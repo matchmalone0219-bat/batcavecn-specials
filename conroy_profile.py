@@ -137,11 +137,18 @@ def cover(title, intro, shared=False):
     label = '声音人物志 / THE VOICES OF GOTHAM' if shared else '人物档案 / KEVIN CONROY'
     sub = '从动画到阿卡姆' if shared else '1955—2022 · 蝙蝠侠之声'
     tag = 'h2' if shared else 'h1'  # the shared cover sits under the home page's h1
+    quote = (
+        '<blockquote class="profile-cover-quote">'
+        '<p class="profile-quote-en">&ldquo;I am vengeance. I am the night. I am Batman!&rdquo;</p>'
+        '<p class="profile-quote-cn">&ldquo;我是复仇，我是黑夜，我是蝙蝠侠！&rdquo;</p>'
+        '<cite>&mdash;&mdash; 凯文&middot;康罗伊（《动画系列》1992 &middot; 《阿卡姆骑士》2015）</cite>'
+        '</blockquote>'
+    )
     return (
         '<section class="profile-cover"><div class="profile-cover-meta"><span>BATCAVECN / SPECIAL ARCHIVES</span>'
         '<span>人物 · 声音 · 创作</span></div><div class="profile-cover-grid"><div class="profile-cover-copy">'
         f'<p class="profile-eyebrow">{label}</p><{tag} class="profile-cover-title" aria-label="{esc(title)}">{heading}</{tag}>'
-        f'<p class="profile-cover-sub">{sub}</p><p class="profile-cover-intro">{esc(intro)}</p>'
+        f'<p class="profile-cover-sub">{sub}</p>{quote}<p class="profile-cover-intro">{esc(intro)}</p>'
         '<a class="profile-cover-jump" href="#life"><span>01</span> 开始阅读 <span aria-hidden="true">↓</span></a></div>'
         f'<div class="profile-cover-portrait">{profile_photo("conroy-2017", eager=True)}'
         '<p class="profile-cover-signature" aria-hidden="true">KEVIN<br>CONROY<span>THE VOICE BEHIND THE MASK</span></p></div></div></section>'
@@ -149,14 +156,32 @@ def cover(title, intro, shared=False):
 
 
 # Chapters that belong to one medium. They sit in a two-lane branch on the shared page.
-BRANCH = {'performances': 'tas', 'beyond': 'tas', 'comparison': 'arkham'}
+BRANCH = {'performances': 'tas', 'beyond': 'tas', 'comparison': 'arkham', 'arkham-climax': 'arkham'}
 ROUTES = {
     'tas': {'medium': '动画', 'site': 'Dark Deco', 'english': 'ANIMATION', 'image': 'tas-episode-i-am-the-night-01.jpg'},
     'arkham': {'medium': '游戏', 'site': 'Protocol Arkham', 'english': 'GAMES', 'image': 'arkham-knight-03.jpg'},
 }
 CHAPTER_ENGLISH = {'life': 'EARLY YEARS', 'stage': 'ON THE STAGE', 'voice': 'BECOMING BATMAN', 'ensemble': 'IN THE BOOTH',
                    'performances': 'THE INNER VOICE', 'beyond': 'A LIFETIME IN GOTHAM', 'comparison': 'VOICING THE GAMES',
+                   'arkham-climax': 'THE FINAL CRUSADE',
                    'finding': 'FINDING BATMAN', 'audience': 'BEYOND THE MICROPHONE', 'memory': 'THE VOICE REMAINS', 'works': 'SELECTED WORKS'}
+CHAPTER_QUOTES = {
+    'performances': (
+        '&ldquo;I am vengeance. I am the night. I am Batman!&rdquo;',
+        '&ldquo;我是复仇，我是黑夜，我是蝙蝠侠！&rdquo;',
+        '《无所畏惧》（Nothing to Fear, 1992）&middot; 突破恐惧之音'
+    ),
+    'comparison': (
+        '&ldquo;It&rsquo;s just you in a booth for four-hour sessions doing every possible variation on lines.&rdquo;',
+        '&ldquo;只有你独自留在录音棚里，在一次次长达四小时的高压录音中，穷尽每一句台词的所有语气变体。&rdquo;',
+        '2011年《WIRED》专访 &middot; 独立录音棚的挑战'
+    ),
+    'arkham-climax': (
+        '&ldquo;Even after everything you&rsquo;ve done, I would have saved you.&rdquo;',
+        '&ldquo;即便在你做尽了这一切之后，我也依然会救你。&rdquo;',
+        '《蝙蝠侠：阿卡姆之城》（2011）&middot; 最后的底线'
+    ),
+}
 
 
 def route_tabs(prefix, label, compact=False):
@@ -255,9 +280,19 @@ def voices_chapters(data):
         number = numbers[s['id']]
         if s['id'] == 'finding':
             return finding_feature(number)
+        quote_html = ''
+        if s['id'] in CHAPTER_QUOTES:
+            en, cn, cite = CHAPTER_QUOTES[s['id']]
+            quote_html = (
+                f'<blockquote class="profile-chapter-quote">'
+                f'<p class="profile-quote-en">{en}</p>'
+                f'<p class="profile-quote-cn">{cn}</p>'
+                f'<cite>{cite}</cite>'
+                f'</blockquote>'
+            )
         html = (f'<section class="profile-chapter profile-chapter-{s["id"]}" id="{s["id"]}"><div class="profile-chapter-heading">'
                 f'<span class="profile-chapter-number" aria-hidden="true">{number}</span><p class="profile-eyebrow">{CHAPTER_ENGLISH[s["id"]]}</p>'
-                f'<h2>{esc(title_of(s))}</h2></div><div class="profile-chapter-copy">{paragraphs(s["body"])}')
+                f'<h2>{esc(title_of(s))}</h2></div><div class="profile-chapter-copy">{quote_html}{paragraphs(s["body"])}')
         if s['id'] == 'voice':
             html += '<div class="profile-voice-pair"><div><p>BRUCE WAYNE</p><h3>在人群之中</h3><span>轻松、圆滑的公众形象</span></div><div><p>BATMAN</p><h3>在面罩之后</h3><span>压低声音，让话语更有重量</span></div></div>'
         html += chapter_citations(data, s, 'shared') + recording_notes(data, s, 'shared')

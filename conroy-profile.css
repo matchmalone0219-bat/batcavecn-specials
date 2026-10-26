@@ -34,6 +34,10 @@
 .profile-cover .profile-cover-title{font-size:clamp(64px,7.8vw,112px);font-weight:400;line-height:1.12;letter-spacing:-.065em;margin:24px 0}
 .profile-cover .profile-cover-title>span{display:block}
 .profile-cover-sub{font-size:15px;letter-spacing:.25em;margin:0 0 30px;color:var(--accent)}
+.profile-cover-quote{margin:0 0 28px;padding:16px 20px;border-left:2px solid var(--accent);background:var(--surface);max-width:440px}
+.profile-cover-quote .profile-quote-en{font:italic 16px/1.55 Georgia,serif;color:var(--text);margin:0 0 6px;letter-spacing:.01em}
+.profile-cover-quote .profile-quote-cn{font:14px/1.8 ConroySans,var(--sans);color:var(--text);margin:0 0 8px;letter-spacing:.03em}
+.profile-cover-quote cite{display:block;font:11px/1.6 ConroySans,var(--sans);color:var(--muted);font-style:normal;letter-spacing:.04em}
 .profile-cover-intro{max-width:355px;font-size:14px;line-height:2.1;color:var(--muted)}
 .profile-cover-jump{display:flex;align-items:center;justify-content:space-between;gap:16px;width:190px;border-top:1px solid var(--line);padding-top:16px;margin-top:28px;font-size:13px}
 .profile-cover-jump>span:first-child{font-family:Georgia,serif;font-size:22px;color:var(--accent)}
@@ -65,6 +69,10 @@
 .conroy-reading .profile-chapter h2{font-size:25px;font-weight:400;line-height:1.55;letter-spacing:.02em;color:var(--text);margin:0;max-width:260px}
 .conroy-reading .profile-chapter-copy>p{font-size:18px;line-height:2;margin:0 0 22px;color:var(--muted)}
 .conroy-reading .profile-chapter-copy>p:last-child{margin-bottom:0}
+.profile-chapter-quote{margin:0 0 32px;padding:20px 24px;border-left:3px solid var(--accent);background:var(--surface)}
+.profile-chapter-quote .profile-quote-en{font:italic 18px/1.6 Georgia,serif;color:var(--text);margin:0 0 8px;letter-spacing:.01em}
+.profile-chapter-quote .profile-quote-cn{font:15px/1.85 ConroySans,var(--sans);color:var(--text);margin:0 0 10px}
+.profile-chapter-quote cite{display:block;font:11px/1.6 ConroySans,var(--sans);color:var(--muted);font-style:normal;letter-spacing:.05em}
 .conroy-reading .profile-chapter .profile-citations{font-size:10px;line-height:1.6;letter-spacing:.07em;color:var(--muted);margin-top:26px}
 .conroy-reading .profile-chapter>.profile-photo{grid-column:1/-1;margin:32px 0 0}
 .profile-chapter>.profile-photo figcaption{display:block;max-width:900px;font-size:12px;line-height:1.8}
@@ -123,6 +131,10 @@
  .profile-cover .profile-cover-title{font-size:51px;letter-spacing:-.06em;margin:14px 0 20px;line-height:1.2}
  .profile-cover .profile-cover-title>span{display:inline}
  .profile-cover-sub{font-size:12px;margin-bottom:22px}
+ .profile-cover-quote{margin-bottom:20px;padding:12px 14px}
+ .profile-cover-quote .profile-quote-en{font-size:14px}
+ .profile-cover-quote .profile-quote-cn{font-size:13px}
+ .profile-cover-quote cite{font-size:10px}
  .profile-eyebrow{font-size:9px;margin-bottom:12px}
  .profile-cover-intro{font-size:13px;max-width:none;margin-bottom:0}
  .profile-cover-jump{margin-top:22px;padding-top:10px;width:168px;font-size:12px}
@@ -382,6 +394,9 @@
 .xroute-skin-tas .profile-chapter h2{font-family:ConroyDeco,var(--sans);font-weight:250;font-size:28px;letter-spacing:.06em}
 .xroute-skin-tas .profile-eyebrow,.xroute-skin-tas .xroute-chapter-mark{font-family:Georgia,serif}
 .xroute-skin-tas .profile-photo img{box-shadow:0 0 0 1px #b9a07f,0 0 0 6px var(--route-tas-paper),0 0 0 7px #b9a07f}
+.xroute-skin-tas .profile-chapter-quote{border-left-color:var(--route-tas-red);background:rgba(0,0,0,.03);box-shadow:inset 0 0 0 1px #d6c6ad}
+.xroute-skin-tas .profile-chapter-quote .profile-quote-en{font-family:Georgia,serif}
+.xroute-skin-tas .profile-chapter-quote cite{font-family:Georgia,serif;color:#786657}
 /* Protocol Arkham: condensed uppercase labels, steel numerals, a HUD rule with ticks. */
 /* Each lane closes off the other door with its own rule: a HUD ruler under Dark Deco's tab, a deco double rule under Arkham's. */
 .has-routes .xroute-lane.xroute-skin-arkham::before{content:"";position:absolute;top:0;left:0;right:50%;height:8px;border-top:1px solid #6a878e;background:repeating-linear-gradient(90deg,#6a878e 0 1px,transparent 1px 24px);pointer-events:none}
@@ -392,6 +407,9 @@
 .xroute-skin-arkham .profile-eyebrow,.xroute-skin-arkham .xroute-chapter-mark{font-family:var(--route-din);letter-spacing:.24em;color:#9fb3ad}
 .xroute-skin-arkham .profile-chapter h2{font-family:var(--route-din);font-size:27px;letter-spacing:.06em}
 .xroute-skin-arkham .profile-recording-note{background:#0b1b1d;padding:22px 24px;clip-path:polygon(0 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%)}
+.xroute-skin-arkham .profile-chapter-quote{border-left:2px solid var(--route-arkham-steel);background:#0b1b1d;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.xroute-skin-arkham .profile-chapter-quote .profile-quote-en{font-family:Georgia,serif;color:var(--route-arkham-ink)}
+.xroute-skin-arkham .profile-chapter-quote cite{font-family:var(--route-din);letter-spacing:.15em;text-transform:uppercase;color:#9fb3ad}
 /* The scan line rides the reveal edge while the game lane comes online. */
 .xroute-skin-arkham.is-scanning::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:#e4f2ee;box-shadow:0 0 14px 3px #cdded9aa,0 0 42px 8px #6a878e66;animation:xroute-scan 900ms cubic-bezier(.25,.7,.2,1) both;pointer-events:none}
 @keyframes xroute-scan{from{top:0}to{top:100%;opacity:0}}
@@ -458,5 +476,9 @@
 .xroute-tabs.is-compact .xroute-tab{flex:1;justify-content:center;padding:10px 8px}
 .xroute-tab-site{display:none}
 .profile-contents-branch>ol{margin-left:22px}
+.profile-chapter-quote{margin-bottom:24px;padding:14px 18px}
+.profile-chapter-quote .profile-quote-en{font-size:15px}
+.profile-chapter-quote .profile-quote-cn{font-size:13px}
+.profile-chapter-quote cite{font-size:10px}
 }
 @media(prefers-reduced-motion:reduce){.xroute-tab,.xroute-door-image,.xroute-door-image img,.xroute-switch>span:last-child{transition:none}.xroute-skin-arkham.is-scanning::after{display:none}}
