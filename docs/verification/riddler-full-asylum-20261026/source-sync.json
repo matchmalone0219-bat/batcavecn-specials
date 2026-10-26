@@ -1,0 +1,546 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "file": "arkham-riddler-scans.json",
+      "before": "d9001ae6061295d6db6f739d4f5f92779fef64cbe52a4d98dd29b77631d2b1c7",
+      "after": "56e1316c63fc30eb383f25ccc294f4c431ccbea55c30051419eb2ac5da94fc44",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "arkham_riddler.py",
+      "before": "b4dbb02d1805321fe4b7cd6eccef16ba8d7bf2ceb5ed5d66bf9d79a99821b6da",
+      "after": "57a5b3f61b6e97f70eee0ffced4638cf2227761cc172fb74373a269ea1767f00",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "app.js",
+      "before": "a741648949de2a3962ecea9b67568984f4aeab6de8182c6ca8ecd05d5c47b5e1",
+      "after": "5a46486782737beac0312d7541c7e752feaeae9f1fa2f36ce483a78609a0efc8",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "arkham.css",
+      "before": "753314d84c1e1363176e345b65dfadc0316abbb711ea606c2e5c52937971071e",
+      "after": "3b0cec3133fdc195f1ad12a93dab0f400c3ee31135fce70d6d1d3f940aeb5a39",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "verify-riddler.py",
+      "before": "0d6a2a26de2977527ba9c0fd2478bbd41089f788094bc1d93856391f649fd229",
+      "after": "76e78955cb8697ca75eaee999e1692533edd5a4170b4d5711131d4beff502bb4",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "verify.py",
+      "before": "7620a28d6cb14c7b370791e73eda1bfffee71ab35b8c4bc8d55fd45982990cf7",
+      "after": "453a99fa7f46f4bdd283c70c325590d6c9128fe5af2fd6d203d9acb150ad9610",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "verify-build.py",
+      "before": "fe4d0a5555b2933fd2afff69005ae7a44f87a8c4292f8cc4fd2bc794c981112d",
+      "after": "9b009a638b01ddcfa517a7e04df4b08b5c9b6a5b759d6d117bc7369a67af2022",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "PROJECT-HANDOFF-2026-10-25.md",
+      "before": "7d2f71417f6242797c59f6200a1eef9c175a0dcb51b7769dbc615a322988bc55",
+      "after": "3eecfe590fa42809c15ad327ac2f159ed364d650499a1877cfeca9962c45a279",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "riddler-scans/north-dent-posters-scene.jpg",
+      "before": null,
+      "after": "5cd13b625e8f0e49820687842334dfa25c7ad979f03c6007359cad78951f333b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/north-dent-posters-target.jpg",
+      "before": null,
+      "after": "8c73b61d020a20cc9798cb0320e5566150f7645af079d33c87b4ed5a9edfa584",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/north-seesaw-scene.jpg",
+      "before": null,
+      "after": "b935b8d4b185eabb590b782402aeacff013ba4d3ce2b5aff9e369925eea987a0",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/north-seesaw-target.jpg",
+      "before": null,
+      "after": "6b90ac02668eed403ce0ad78259ebdc75bac3d50341e34d3517fdc473142da4f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-fear-gas-scene.jpg",
+      "before": null,
+      "after": "cc2454efe20d3353e518ef99aff9154144136b7cf46f4a40ff7cc2a84f2ab8bb",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-fear-gas-target.jpg",
+      "before": null,
+      "after": "d1b7006bccee8ad3598410a8ef71c7f218bd3c032e1380b684c9ab5c94a50c90",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-zsasz-victims-scene.jpg",
+      "before": null,
+      "after": "22275c3f2ffddad2f5be433333db5480d5a2508b8d32f527b2869b3affac74d1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-zsasz-victims-target.jpg",
+      "before": null,
+      "after": "f09bbd5f97c170ff64325ec6e6050391932101fab58f4968fc41cce14cdb35c1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-harley-hat-scene.jpg",
+      "before": null,
+      "after": "5cbfbd729aed609917776b0f63d64d4c45726165dcb677a6d5e1d0dfc8d6c8d9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-harley-hat-target.jpg",
+      "before": null,
+      "after": "e7e9d1d7d68a2c53172fbd9a5976e565fccb16d8512e7b527343b057982a6147",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-elliot-board-scene.jpg",
+      "before": null,
+      "after": "91b505ba45476cc2f4ba95a353a98241ba230e1f0c2566a5c60be6b87a490829",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-elliot-board-target.jpg",
+      "before": null,
+      "after": "78f40aa532def94b91a2baadf84a2c257686b4f99d09480342f20c9b58eaa745",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-bane-bear-scene.jpg",
+      "before": null,
+      "after": "b87fffcb2a9dff82d7c5ca8be95135728f022ebb2a377c5fcaac282087c18929",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-bane-bear-target.jpg",
+      "before": null,
+      "after": "b12dd7d0bb7060268ac0ada8ec7a75643fa885b1cb6db02dbe7db905948b9d32",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-firefly-news-scene.jpg",
+      "before": null,
+      "after": "e38fc762cc8e7cd84233e99b3e434d6d357329f6edddc45d3b255126ff9d1618",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-firefly-news-target.jpg",
+      "before": null,
+      "after": "e8ad249b62fb6750b7c0176a83ca8c70bf3c4d00d1c15f37522ac16a1added47",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-shark-jar-scene.jpg",
+      "before": null,
+      "after": "3e57b7b4379e1caa11807a13b147a0830791dcf2a3887672cb896a29cf1182b4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-shark-jar-target.jpg",
+      "before": null,
+      "after": "e3e700e55837dc23118444933f8fbc628e90d3c359b8e85e800569344c66e08a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-ticking-cage-scene.jpg",
+      "before": null,
+      "after": "2d56e21f403771db17ffcfded9d700350322a60e98770dc72abd4d196f673833",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-ticking-cage-target.jpg",
+      "before": null,
+      "after": "b4e39747aa9757aeac60763fab5ca0140ba242e286c0865aaab2de897de86201",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-wayne-donor-scene.jpg",
+      "before": null,
+      "after": "785af4adaf82a3c7e5b325a755688dffab4d8d6ee74a88f724b3a256fee2ae99",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-wayne-donor-target.jpg",
+      "before": null,
+      "after": "a4a00e64e3adf561478ebbe55858bb4ed43e8b667162cf5eac699e66d1444459",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-penguin-umbrellas-scene.jpg",
+      "before": null,
+      "after": "5ec13a92f5eb7b63f833a0af6b5dffa07d95c5c4d6cfd37809cab44309edb8d7",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-penguin-umbrellas-target.jpg",
+      "before": null,
+      "after": "c5d4a8d6674481a56bfe60d59167ae85127d199694d5ec83c461ac890ab174df",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-scarface-puppet-scene.jpg",
+      "before": null,
+      "after": "64058039235c290c6d70557e4d5fc62182b119a200532c259d27c96f08d5b0e8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-scarface-puppet-target.jpg",
+      "before": null,
+      "after": "3c9bf7bdac364f357ea42357bc7d565fa254cde06fc3f36d193985cffe4a14e7",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-sharp-plaque-scene.jpg",
+      "before": null,
+      "after": "ff2fb43541224b5432cfa44f127366034cb0d1a651c8676a0b1e32fa8ddabf43",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-sharp-plaque-target.jpg",
+      "before": null,
+      "after": "bf4a0b625d5a322ddddef303f539a95c09c5e2c6cb44e03b5b41f8bfeae7457b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-ras-body-scene.jpg",
+      "before": null,
+      "after": "ffdd33e67a41b77ca782fbd42ef5ae3c2b9cfc63849b22711c97dbb0316b238c",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-ras-body-target.jpg",
+      "before": null,
+      "after": "430b528c76c5e1e442f837f3e25d123b35882ef77f062505341fd31edcdbe930",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-strange-files-scene.jpg",
+      "before": null,
+      "after": "02042202aeb9280070c25e8bf692d8a96aa21a57116a92e1d8181eed3d5761a9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-strange-files-target.jpg",
+      "before": null,
+      "after": "7a67cfc6ee4a615d5a68aa37b4a196599bf99c9fcf34a4c586172e680229b4a0",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-amadeus-cell-scene.jpg",
+      "before": null,
+      "after": "e9fef5ecb8046fe8e9e0256dd9b68e31a4159095365103589222b543d31107c6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-amadeus-cell-target.jpg",
+      "before": null,
+      "after": "de6936249c1615eae91c71e64e5520492f03f0742503ece8c1d5d82afb5dc2b4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-catwoman-kit-scene.jpg",
+      "before": null,
+      "after": "081a8d56fdb2ac7fb1c6e3fbc7a66866f18ce90d0718bdf4b8fbb6cf42a0af2c",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-catwoman-kit-target.jpg",
+      "before": null,
+      "after": "c8763820302d10a407acbe72a1272077dab20f5de421e8e6863f4a2d16067d0b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-black-mask-scene.jpg",
+      "before": null,
+      "after": "87c80ae99279223d77dbd56648807deda0ed0bd66a6233f8c3fb7be87ead5e7b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-black-mask-target.jpg",
+      "before": null,
+      "after": "f4baf382cb5b2f82fdb86796c70076a8454997b162854af2baa5bc55605e0930",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-hatter-tea-scene.jpg",
+      "before": null,
+      "after": "51d810c42fdf365fac5bfd5479259011923b551b4a9081721212d59e1a0891e6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-hatter-tea-target.jpg",
+      "before": null,
+      "after": "31637976a1199e104cdb7adf81b58ddf9a87e002553cf0e0addc9c81782f1212",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-wayne-memorial-scene.jpg",
+      "before": null,
+      "after": "f0c64d2bf5f61d2e84be915826f37064ebe2ee84b0852db99ab6b2a89d434d19",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-wayne-memorial-target.jpg",
+      "before": null,
+      "after": "2748db5a60dd34cf0a2d76c8a1547616d0e056740f8015de2cfb49f84a3240c6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-ratcatcher-kit-scene.jpg",
+      "before": null,
+      "after": "74ab25ca8f589b0803dd2b6d6cc493136076f33e0eca9b5a263b0cd028465c20",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-ratcatcher-kit-target.jpg",
+      "before": null,
+      "after": "6c9a97b6aa7227aa59305be2c640fbddc7f36c71d70596265d2f3f19446093fc",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-humpty-dolls-scene.jpg",
+      "before": null,
+      "after": "1e7789978ea2a7bf1adf632106b3aab63875ce0aa88493396ff47fba50db320e",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-humpty-dolls-target.jpg",
+      "before": null,
+      "after": "a0bf1881d1481110994a7d72dd83d3751d1b87b3be19bed08858bd02a53cb4b1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-constance-memorial-scene.jpg",
+      "before": null,
+      "after": "e6579ee250e474d5a6b33e20186a689732284974cd3c2822de9763daff85cfb4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-constance-memorial-target.jpg",
+      "before": null,
+      "after": "cefa264c37c06990dbc55b72a05fd41f3a2b78d4b5dd6b7cb5319b3af1943db8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-roof-skeleton-scene.jpg",
+      "before": null,
+      "after": "45b9e0f4c1bdb0e997b5331e4e5aeee25667f6559c09fe2b53a364cb222c3947",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-roof-skeleton-target.jpg",
+      "before": null,
+      "after": "6db47e7d84a3c3530d19cc4bacf25da75be5e32e6814f65b6aeb5fc820ee3ef3",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-guards-count-scene.jpg",
+      "before": null,
+      "after": "c7f2657ae9a69d3bc31630c12d7fe8d08ca00ab6ea2382b8dd323c6b1118df31",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-guards-count-target.jpg",
+      "before": null,
+      "after": "f7c1fd0ebdfcd544c1d8de839f8eae512b0928ea4eb1d0bd92000f918ff96553",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-calendar-cell-scene.jpg",
+      "before": null,
+      "after": "b60bc8b4777d6d0115214883e8f14a4feeaa96179190c82392a93d47b518629e",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-calendar-cell-target.jpg",
+      "before": null,
+      "after": "63de13049f41d1c007bf8f69aac74cf21471e5bd3240e8f25ee66e907d2ff098",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-freeze-cell-scene.jpg",
+      "before": null,
+      "after": "101ec636b589a0ae802997db8640e841772646afaf58906ecd1c0b6c9d76fb7f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-freeze-cell-target.jpg",
+      "before": null,
+      "after": "150f126e9c3a49d3a6aec7b87745065c1d02f448b9dbee4f8bcdff923137d6ae",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-clayface-identity-scene.jpg",
+      "before": null,
+      "after": "b80a8812550bbcfd6d15f895fbda5c3d8a1abbfba8fc3fb697eb5638342096e9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-clayface-identity-target.jpg",
+      "before": null,
+      "after": "5b099ddf438a49f1a9dd2b04d9337b7df90f7fdb089407ed0a6211c9b64428e5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-ventriloquist-gun-scene.jpg",
+      "before": null,
+      "after": "1d8c49bb69d42b387771faba11e33201c5b484d453211e38d5f530f7ce7be545",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-ventriloquist-gun-target.jpg",
+      "before": null,
+      "after": "1dc445fd90b3e6e04270115e5aec659b90b974abd7a13b9767ac3145f3521ca3",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-two-face-cell-scene.jpg",
+      "before": null,
+      "after": "ad3555453c35d6d169e1411522de34cb0816b9d1b5b74919530d75d8a9f59c53",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-two-face-cell-target.jpg",
+      "before": null,
+      "after": "86b0d4abc157bb1d46eeb9ff396ba94841b524b4da3af414642d81e3784f2346",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-prometheus-poster-scene.jpg",
+      "before": null,
+      "after": "ef558f68d72a27f29b30351fcaed53f7458890a9674e26773b221b4d1e961f00",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-prometheus-poster-target.jpg",
+      "before": null,
+      "after": "e23c3fc9af241b8d724e97e485f5bf0192ea2d76a6eb6be99495276cc58210de",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-batman-mirror-scene.jpg",
+      "before": null,
+      "after": "fb4ac015a5e56bc2fede7194ee32382d5bcf46cbf9d5cb155c8bbd53eb596023",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-batman-mirror-target.jpg",
+      "before": null,
+      "after": "d22f25aafc7e24e00fd264aeaa716700ca5b83cf058d4e50923a0b7fc16e66d6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/north-perspective-target.jpg",
+      "before": null,
+      "after": "a764dfcc3f5404fc294775b659117fa6e93f8e502503e970f074b480a277c6b0",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-perspective-target.jpg",
+      "before": null,
+      "after": "c9459180d1af7c65b03d39efa0371c73790105371aa4cd763b11f32ba9813a73",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-perspective-target.jpg",
+      "before": null,
+      "after": "43ec74b2e3d8d746e5c6ecee66a2d2bb7ae0ee48179db304662b6c16cf7d700c",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/caves-perspective-target.jpg",
+      "before": null,
+      "after": "5c913ec02a4d72b5212d25763e95e8d40e3a5bf2daa619191f8cd46c0057c5de",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-perspective-target.jpg",
+      "before": null,
+      "after": "48f1c85a358480462719b832b62fbb8148248540e0f1cebb424e285d65605f09",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-perspective-target.jpg",
+      "before": null,
+      "after": "98033eaba9da58abe17cf214ce669f263a3c1008eca17928632fa4741abdd900",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-perspective-target.jpg",
+      "before": null,
+      "after": "c7fec02a2bff40d5c04ae1db5f9ddca28c7acb775dce0d95c4036e5bf19bab25",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/north-perspective.mp4",
+      "before": null,
+      "after": "c45f0b86e1e678e96ef32740dff423173674891129a7fe982a0b962a73739f6c",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/west-perspective.mp4",
+      "before": null,
+      "after": "17e09eff8ba6254e424ba0fd932ae7dc476d6e47337cae99a408a52e83915f5d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/medical-perspective.mp4",
+      "before": null,
+      "after": "466add84a2d4fd562966d1a7d61c240f391175e1db225f1ed6aec4b24b0ad595",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/caves-perspective.mp4",
+      "before": null,
+      "after": "61dd8b32d1aeba087cf092d2d95fc458ea965e1e5c094651d6ed31cb6ab7b082",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/mansion-perspective.mp4",
+      "before": null,
+      "after": "94a07824b9af816b41205b3bd945afb844e14775fb3551febb949178fd7fb134",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/gardens-perspective.mp4",
+      "before": null,
+      "after": "1b7117c7f938f79da222241aaf84b00ae03cc40bda4d988a255eb2c3730bbcbc",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/prison-perspective.mp4",
+      "before": null,
+      "after": "83ca4dc48f720cdb8134743ef1d650ffe927166b71706def98f6c3ee1d1aa1e1",
+      "action": "add media"
+    },
+    {
+      "file": "docs/research/riddler-full-asylum-20261026.md",
+      "before": null,
+      "after": "b987cc3e294156398c2a880c05283251ba5011cb94d53878e9960827a3519aca",
+      "action": "add research"
+    },
+    {
+      "file": "docs/research/riddler-full-asylum-20261026.json",
+      "before": null,
+      "after": "85d9828706d7501cf3712dd4c0efcb75e44c4fb1cdbd809e90858fbb0f285856",
+      "action": "add research"
+    }
+  ],
+  "unrelatedFilesPreserved": true
+}

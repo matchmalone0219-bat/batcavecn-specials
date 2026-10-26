@@ -1,0 +1,26 @@
+{
+  "count": 20,
+  "checks": [
+    "Space activates scan; failed audio does not block answer",
+    "failed audio unloads its source",
+    "region change cancels pending reveal",
+    "failed scene still permits reading the answer",
+    "failed scene displays a useful prompt",
+    "failed-scene answer can be folded again",
+    "prefix: asylum original link",
+    "prefix: asylum native feedback decodes",
+    "prefix: asylum answer reveals",
+    "prefix: city original link",
+    "prefix: city native feedback decodes",
+    "prefix: city answer reveals",
+    "prefix: knight original link",
+    "prefix: knight native feedback decodes",
+    "prefix: knight answer reveals",
+    "prefix: original bat mask resolves in CSS",
+    "viewport screenshot: asylum 1440 no overflow",
+    "viewport screenshot: city 390 no overflow",
+    "viewport screenshot: knight 320 no overflow",
+    "no script errors in edge or prefix checks"
+  ],
+  "errors": []
+}

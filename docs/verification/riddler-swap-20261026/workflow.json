@@ -1,0 +1,158 @@
+[
+  {
+    "command": "python3 verify.py",
+    "exitCode": 0,
+    "seconds": 2.15,
+    "output": "Fonts copied in full (install fonttools and brotli to subset them)\nBuilt 160 pages, 832 searchable records\nPASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets\nPASS: Chinese story introductions, original English titles, attributed summaries, collapsed spoilers and safe search excerpts\nPASS: 35 merchandise records; 19 sourced product images; version boundaries\nPASS: 106 analytical sections collapsed; ending details excluded from search summaries\nPASS: 160 pages; 7287 internal links and anchors; content boundaries; 832 search records\nPASS: 32 sourced original images; TNBA separate; paired episode links reciprocal\nPASS: eight landscape catalogue key-art images; source metadata retained, original bytes and page scope\nPASS: eight Arkham archive pages; 23 research images; 412 episode images; history identity, final image and story spoilers collapsed\nPASS: 69 patient tapes + 36 transmissions + 24 history recordings, hashes, synchronized subtitles on every recording, on-demand players and spoiler boundaries\nPASS: Arkham-only navigation and biography view; eight real-image game cards; scoped search and transition assets\nPASS: Blackgate original/Deluxe boundaries; eight chronological works; sourced creative history and Arkham-scoped actor links\nPASS: catalogue conceals spoiler roles; same-name and cameo tags corrected; search UI scoped; actor copy and reviewed wording corrected\nPASS: 85 BTAS credit records; villain, writer, director and studio filters; credit source metadata retained\nPASS: 8 illustrated scenes; name-only entries excluded from browsing/search; all 138 old entry anchors retained\nPASS: 蝙蝠侠之声 page with Conroy chapter, 18 people and characters, 27 works; old addresses redirect; footers link only the shared page\nPASS: 137 original scan riddles with folded solutions, 17 perspective demonstrations, 14 comic backgrounds, all 21 case anchors retained\nPASS: site icons on every page; branded 404; detail pages carry hero or plate, compact facts and prev/next; Arkham toggles in 更多导航\nPASS: five approved intercom clips retain their hashes; optional controls and tracks stay within Arkham\nPASS: hub and 404 use the two-door entry; scoped Conroy pages use the work list\nPASS: collectibles lead with product photos, list the rest compactly, keep every anchor and offer category/maker/work filters\nPASS: 26 filled Arkham icons; unique shared paints; menu, room headers, labels, facts, pager and filters; no icons or paints outside Arkham\nPASS: Arkham archive rail on 6 room pages; hub is a pause menu with 9 entries and record counts; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained\nPASS: TAS programme in two broadcast runs with 85 title-card rows and ticket preview; six screening halls; end-credit roster\nPASS: two VR works; five promoted guides; TNBA-only pager; correct actor links; genuine title cards and episode frames\nPASS: two further TNBA guides, preserved catalogue metadata, sourced DLC types and folded ending context\nPASS: two more TNBA guides; hidden identity protected; City content types and Blackgate design notes\nPASS: three TNBA dossiers, SubZero film page, four original images, edition dates and folded movie ending\nPASS: all 109 episode dossiers, series-only paging, protected mystery credits, Batwoman film/short and edition records\nPASS: TAS screening lightbox on every TAS page; iris entry; fonts copied in full (fonttools not installed)\n"
+  },
+  {
+    "command": "python3 verify-subtitles.py",
+    "exitCode": 0,
+    "seconds": 0.08,
+    "output": "PASS: 129 recordings have timed subtitles; 88 repaired, 41 original cue sets and all audio hashes preserved\n"
+  },
+  {
+    "command": "python3 verify-soul.py",
+    "exitCode": 0,
+    "seconds": 0.04,
+    "output": "PASS: one on-demand soul player, 24 unchanged cue sets and old anchors, gated final message, native audio links and source menu art/icon hashes\n"
+  },
+  {
+    "command": "python3 verify-easter-eggs.py",
+    "exitCode": 0,
+    "seconds": 11.54,
+    "output": "PASS: Asylum 20/50 + City 81/209 + Knight 125/310 entries/images, all 46 sources, one credit, folded spoilers, safe search, 234 browse items and topic boundaries\n"
+  },
+  {
+    "command": "python3 verify-riddler.py",
+    "exitCode": 0,
+    "seconds": 0.17,
+    "output": "PASS: 51 Asylum + 69 City + 34 Knight scans, 137 folded answers, protected identity, 17 on-demand demonstrations, native image sizes, partial-source boundaries, 21 legacy anchors and 310 media hashes\n"
+  },
+  {
+    "command": "python3 verify-riddler-scan.py",
+    "exitCode": 0,
+    "seconds": 0.06,
+    "output": "PASS: 137 scene scan hooks, separately folded comic context, three sourced short sounds and Riddler-only enhancement assets\n"
+  },
+  {
+    "command": "python3 verify-artbooks.py",
+    "exitCode": 0,
+    "seconds": 0.44,
+    "output": "PASS: 41 chapters, 15 episode additions, 15 portraits; 156 image files; provenance, search, topic and spoiler boundaries\n"
+  },
+  {
+    "command": "python3 verify-conroy.py",
+    "exitCode": 0,
+    "seconds": 0.41,
+    "output": "PASS: sourced biography, 4 licensed photos, seven-part Finding Batman feature with original page, plain-text references and scoped chapter search\n"
+  },
+  {
+    "command": "python3 verify-build.py",
+    "exitCode": 0,
+    "seconds": 4.46,
+    "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 4.387s\n\nOK\n"
+  },
+  {
+    "command": "node verify-intro.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: entry timing, duplicate clicks, continuous transition sound, reduced motion, failure fallback, lazy independent music, pause/resume, visibility, exit and stale playback rejection\n"
+  },
+  {
+    "command": "node verify-arkham-nav.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: page stylesheets before swap, script and stylesheet fallbacks, failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, seven menu entries and native in-page reading links\n"
+  },
+  {
+    "command": "node verify-arkham-menu.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: decode-before-fade, late-load races, queued selection, failed-image fallback, pause, reduced motion, hidden entry and page cleanup\n"
+  },
+  {
+    "command": "node verify-intercom.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: 10 shuffle rounds, no boundary repeats, 90–180s gaps, session/volume persistence, page rebinding, priority audio, visibility, BFCache, denied playback, load errors, pending-play cancellation and storage failures\n"
+  },
+  {
+    "command": "node verify-sequencer.js",
+    "exitCode": 0,
+    "seconds": 0.04,
+    "output": "PASS: dual-key tuning, stable hold, exchange, cancellation in every phase, bounds, restoration, four source-backed audio clips, lazy playback and page/search scope\n"
+  },
+  {
+    "command": "node verify-investigation.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: detective collection timing, next evidence, completion, rereading, reset, cancellation, motion preference and restoration\nPASS: case progress; five-tape selection; seek-synchronized subtitles; analyser-driven waveform; one graph per player; one active source; pause, buffering, late events, retry and cleanup on both pages; bilingual transmissions\n"
+  },
+  {
+    "command": "node verify-clues.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: City default, game/district filters, deep-link precedence, selection and scroll restoration, All preservation, mobile return, keyboard and denied storage\n"
+  },
+  {
+    "command": "node verify-recent.js",
+    "exitCode": 0,
+    "seconds": 0.02,
+    "output": "PASS: recent object whitelist, route safety, no placeholder, denied storage, clear, async navigation and project paths\n"
+  },
+  {
+    "command": "node verify-map.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: source image hash, reference annotations, three-game loading and independent views, folded fallback, zoom limits/center, keyboard, pointer cancellation and image failure\n"
+  },
+  {
+    "command": "node verify-channel-tuning.js",
+    "exitCode": 0,
+    "seconds": 0.02,
+    "output": "PASS: optional tuning, capture/loss, work isolation, pointer cancellation, keyboard limits, direct markers and list return; no storage or audio dependency\n"
+  },
+  {
+    "command": "node verify-tas-motion.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: TAS scope, session opening, storage fallback, native links, project path, repeated clicks, timer navigation, back/forward cleanup, reduced motion, lazy image projection and visibility pause\nPASS: selected-episode handoff, exact title card, single admission, keyboard skip/focus, restored/stale admissions, image timeout, automatic return, replay and saved motion preference\n"
+  },
+  {
+    "command": "node verify-lightbox.js",
+    "exitCode": 0,
+    "seconds": 0.02,
+    "output": "PASS: closed spoilers/groups excluded; explicit reveals, next/previous, Escape, focus restoration and modified-link fallback\n"
+  },
+  {
+    "command": "node verify-opening.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": "PASS: unsolved shuffles, click/drag/keyboard input, image dialog, hints, gated video, reset races, retry, project paths and reduced motion\n"
+  },
+  {
+    "command": "python3 verify-opening.py",
+    "exitCode": 0,
+    "seconds": 0.07,
+    "output": "PASS: nine ordered source selections; original video bytes; one TAS-only table; on-demand video and project-path preparation\n"
+  },
+  {
+    "command": "node --check app.js",
+    "exitCode": 0,
+    "seconds": 0.03,
+    "output": ""
+  },
+  {
+    "command": "node --check arkham-soul.js",
+    "exitCode": 0,
+    "seconds": 0.02,
+    "output": ""
+  },
+  {
+    "command": "node --check arkham-riddler-scan.js",
+    "exitCode": 0,
+    "seconds": 0.02,
+    "output": ""
+  }
+]

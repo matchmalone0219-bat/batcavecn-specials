@@ -1,0 +1,76 @@
+async (page) => {
+  const base = 'http://127.0.0.1:8893';
+  const results = [];
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  const check = (value, label) => { if (!value) throw Error(label); results.push(label); };
+  await page.goto(base + '/arkham/archive/riddler/');
+  await page.evaluate(() => sessionStorage.clear());
+  await page.reload();
+  const items = page.locator('[data-riddler-item]');
+  await page.waitForSelector('.riddler-reading.clue-workspace-ready');
+  check(await items.count() === 15, '15 comic dossiers');
+  check(await page.locator('form.riddle-card, [data-riddles], .artbook-chapter').count() === 0, 'original quizzes and artbook absent');
+  check(await page.locator('[data-riddler-reference]').count() === 6, 'six other source anchors retained');
+  for (const width of [320, 390, 1280, 1440]) {
+    await page.setViewportSize({width, height: 900});
+    await page.getByRole('button', {name: '全部作品 · 15', exact: true}).click();
+    check(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), width + ': no horizontal overflow');
+    await page.getByRole('button', {name: '阿卡姆骑士 · 9', exact: true}).click();
+    check(await page.locator('[data-riddler-item]:visible').count() === 9, width + ': Knight filter');
+    await page.locator('#oracle').click();
+    check(await page.locator('[data-riddler-detail] h3').textContent() === 'Batgirl空战衣：身份转换与游戏改编', width + ': card opens corresponding comic');
+    if (width < 961) {
+      check(await page.locator('.clue-list').isHidden(), width + ': mobile detail replaces list');
+      await page.getByRole('button', {name:'返回当前列表'}).click();
+      check(await page.locator('#oracle').isVisible(), width + ': return retains selection');
+    }
+    await page.getByRole('button', {name:'阿卡姆疯人院 · 3', exact: true}).click();
+    check(await page.locator('#ratcatcher').isVisible() && await page.locator('#hush').isVisible(), width + ': cross-game cards remain in Asylum filter');
+  }
+  await page.setViewportSize({width:1440,height:900});
+  await page.goto(base + '/arkham/archive/riddler/#identity-wall');
+  check(await page.locator('#identity-wall').getAttribute('aria-current') === 'true', 'deep link overrides incompatible saved filter');
+  const spoiler = page.locator('[data-riddler-detail] details.spoiler');
+  check(await spoiler.count() === 1 && await spoiler.getAttribute('open') === null, 'identity spoiler remains folded');
+  check(!await page.locator('[data-riddler-detail]').innerText().then(text => text.includes('杰森')), 'identity hidden from visible preview');
+  await spoiler.locator('summary').click();
+  check(await spoiler.innerText().then(text => text.includes('杰森')), 'identity appears only after expansion');
+  await page.getByRole('button', {name:'全部作品 · 15',exact:true}).click();
+  await page.locator('#crime-alley').focus();
+  await page.keyboard.press('ArrowDown');
+  check(await page.locator('#great-white').getAttribute('aria-current') === 'true', 'keyboard advances selection');
+  await page.getByRole('button', {name:'阿卡姆之城 · 9',exact:true}).click();
+  await page.locator('#scarface').click();
+  await page.locator('.clue-list').evaluate(element => { element.scrollTop = 100; });
+  await page.goto(base + '/arkham/archive/');
+  check(await page.locator('[data-record="riddles"]').count() === 0, 'hub no longer shows quiz progress');
+  await page.goBack();
+  check(await page.locator('#scarface').getAttribute('aria-current') === 'true', 'return restores selected dossier');
+  check(await page.getByRole('button', {name:'阿卡姆之城 · 9',exact:true}).getAttribute('aria-pressed') === 'true', 'return restores game filter');
+  await page.goto(base + '/arkham/archive/riddler/#subsidence');
+  await page.locator('#subsidence').waitFor({state:'visible'});
+  await page.reload();
+  await page.locator('#subsidence').waitFor({state:'visible'});
+  check(await page.locator('#subsidence').isVisible(), 'old non-comic link opens scene references');
+  await page.goto(base + '/arkham/archive/riddler/#artbook-a12');
+  await page.waitForURL('**/arkham/games/arkham-knight/#artbook-a12');
+  check(await page.locator('#artbook-a12').count() === 1, 'old artbook link reaches Knight chapter');
+  const nojs = await page.context().browser().newContext({javaScriptEnabled:false});
+  const fallback = await nojs.newPage();
+  await fallback.goto(base + '/arkham/archive/riddler/');
+  check(await fallback.locator('[data-riddler-item]:visible').count() === 15, 'all comic entries readable without JavaScript');
+  check(await fallback.locator('#identity-wall details').getAttribute('open') === null, 'no-script identity remains folded');
+  await nojs.close();
+  const denied = await page.context().browser().newContext();
+  await denied.addInitScript(() => { Storage.prototype.getItem = Storage.prototype.setItem = () => { throw Error('storage denied'); }; });
+  const deniedPage = await denied.newPage();
+  deniedPage.on('pageerror', error => errors.push(error.message));
+  await deniedPage.goto(base + '/arkham/archive/riddler/');
+  await deniedPage.waitForSelector('.riddler-reading.clue-workspace-ready');
+  await deniedPage.getByRole('button', {name:'阿卡姆疯人院 · 3',exact:true}).click();
+  check(await deniedPage.locator('[data-riddler-item]:visible').count() === 3, 'filter works with denied browser storage');
+  await denied.close();
+  check(errors.length === 0, 'no browser script errors');
+  console.log(JSON.stringify({checks:results, errors}, null, 2));
+}

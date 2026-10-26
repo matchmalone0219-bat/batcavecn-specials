@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "file": "arkham-riddler-scans.json",
+      "before": "4dc8b8163291feb393e4dbb3db349e13be93c88126f8adf5047d610b7b721e45",
+      "after": "d1bd10e7cf81bb88ade7016645c0b9a7c8f43ea713eb39e5f230f3847531eb48",
+      "action": "replace matched pre-Knight baseline"
+    },
+    {
+      "file": "verify-riddler.py",
+      "before": "4f52142a5527862370849baacffb659bdb828f4c785dbb2fdbae836ab4270349",
+      "after": "bb7b5c209d684eb749820554562ee0ba47df6d784cebc220c4e827eb3ee49b22",
+      "action": "replace matched pre-Knight baseline"
+    },
+    {
+      "file": "arkham_riddler.py",
+      "before": "6bab0ba799b6fe045455a831993923085c77db1df3d0865ce111a33a5509e89e",
+      "after": "a341ca281fad29eba4ad9abb7ea005efaba19ea2f7c2068474c7ac2cc913b822",
+      "action": "patch only Knight credits and identity fold; retain daily renderer structure"
+    },
+    {
+      "file": "app.js",
+      "before": "f6e027bbfbb5a9d88176a7661e8a768e91055fd1a5331db91ddf827e78eaa0b1",
+      "after": "d020d56f95fffb9b89bc363df7c30d38adcd854a265492580f6d94b29b88d45a",
+      "action": "one-line Riddler empty-section filter; daily Conroy and other code preserved"
+    },
+    {
+      "file": "verify.py",
+      "before": "e95fdf82a0da76a69f5ebeb777d477d653e664ec9065eb6788e40d87df390d97",
+      "after": "34f79839e45a9f768142d60c77272bc9d61369245a36a01c49ba9c5ac3af2b67",
+      "action": "patch Knight counts only; preserve unrelated daily checks"
+    },
+    {
+      "file": "riddler-scans/knight-clocktower-empty-suit-scene.jpg",
+      "before": null,
+      "after": "0aa099e08da4f9934294b1098303afb486da6caeeca3e484fbb206ca0e23503e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-clocktower-empty-suit-target.jpg",
+      "before": null,
+      "after": "6af0b586e493d3733d2322585c79ab8e1fa7b58089528eaed3196797fece3e78",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cash-souvenir-scene.jpg",
+      "before": null,
+      "after": "272c4fa7676f62dcdbe1b5caad623c9f890faee2035563f8542e0886fab866bb",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cash-souvenir-target.jpg",
+      "before": null,
+      "after": "d1f97a92595e53c029902095f1e16b6d9a375adef3c4f488ba6e6a408c5787b3",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-lighthouse-bones-scene.jpg",
+      "before": null,
+      "after": "776e87522eb75e1f27432ed3f024807196c333b032e5412b3a08a807912bfe7e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-lighthouse-bones-target.jpg",
+      "before": null,
+      "after": "8df4cc42348ead114b99ea472a2c3eb79526b8a0f967c2cb03d75eb52ea2bd9b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-mercenary-file-scene.jpg",
+      "before": null,
+      "after": "8b3686075fc8fa728333c7e372a47fc6bb00e03afb21d25933c5bf3ddf1a07df",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-mercenary-file-target.jpg",
+      "before": null,
+      "after": "31a80e7fc4c50cc0a38aa6d7b0a97cfd0826e4fed306b6a6691ff6d1178386b5",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-deacon-mission-scene.jpg",
+      "before": null,
+      "after": "916c39005f8b35f9f5e0551fbcbed857b3d0bbe6ba42997d003ba997a110b94f",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-deacon-mission-target.jpg",
+      "before": null,
+      "after": "42eba5d34e915d549f6189557d81025d7cab7e909767aa36ca876c4034ca8a23",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-ryder-research-scene.jpg",
+      "before": null,
+      "after": "be90ec0bc792e12ef514d103dd0abafb2a254abefd33b74205be9abedf61e16e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-ryder-research-target.jpg",
+      "before": null,
+      "after": "c0dfb6b0dad0b692173efa2477c8536dd7e815460076ce226af0f8b6e5d902d3",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-distant-asylum-scene.jpg",
+      "before": null,
+      "after": "cce5cf4caab7b25622810ce0490c522a94cc1decf9ad8d8f210ed53d09b32c2c",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-distant-asylum-target.jpg",
+      "before": null,
+      "after": "71de0685ad633299d0774a918257bb2e6c1e92e85c401702dd33146c9c92055e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-gcpd-signal-scene.jpg",
+      "before": null,
+      "after": "acc1134f38527068ad9ac34ff7da362904ab6a0e53c3fb020738bb325aa4002e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-gcpd-signal-target.jpg",
+      "before": null,
+      "after": "76d31fc383d4378bc29eab5db71bb34267bb26ae7346bece7239dc34fee2afb3",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-langstrom-whiteboard-scene.jpg",
+      "before": null,
+      "after": "07a7dee4c25617fffacff6877356e70e4a03406fa623c6664b08f8ab8bff992b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-langstrom-whiteboard-target.jpg",
+      "before": null,
+      "after": "d28ef1fa44187ef721d3a53942d590d1114e64f6d9118e373a939c2382f8af57",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-masquerade-invitation-scene.jpg",
+      "before": null,
+      "after": "32045f380c5c3031b338b8ef6698a56b43f796f739f4ced758209f6c33890067",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-masquerade-invitation-target.jpg",
+      "before": null,
+      "after": "0029fde3a8cadde42b4e89548aa831f137bf9b9a189dc113c97b2e13a0050912",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-lady-gotham-scene.jpg",
+      "before": null,
+      "after": "c3a1b67872383dd5c8776a8b3b49021f66558fa3fd185572ac3683aad0d31ed6",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-lady-gotham-target.jpg",
+      "before": null,
+      "after": "0471142763db0967093d511c35ef7c64d7cc3e9b93a65388a424478b26977de8",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cat-collar-scene.jpg",
+      "before": null,
+      "after": "fd4a90ffe64089acff184e55e326f9bcf5c8b5e3641a5095b71d5aee658c96a8",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cat-collar-target.jpg",
+      "before": null,
+      "after": "43a698779f179d307cbf0fe07bf3fc61a5a666210055681c408131ffe5f4bb56",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-elliot-hospital-scene.jpg",
+      "before": null,
+      "after": "b42ef269bdc38d337e0eb4d79533577280d0e66215b1ebc2d69aa162bd2fb86d",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-elliot-hospital-target.jpg",
+      "before": null,
+      "after": "93d704a54db1d41c817ca145a43af33b6cd1919be89e30dc87c7efe7364e3226",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-wonder-tower-scene.jpg",
+      "before": null,
+      "after": "9d073534dd0c4b6b14862a9566507bf7c5d2e98675d86a4ca65f8e9c5541d81e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-wonder-tower-target.jpg",
+      "before": null,
+      "after": "fbf03aa32b8f24157d50aef7938cd0f7896708e9f9fa27fcca190f6f3beb0a5b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-wayne-family-portrait-scene.jpg",
+      "before": null,
+      "after": "9f0a4fdb3ce405254445fc8726c475447c93a683c12554b3207266ec0c5d1551",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-wayne-family-portrait-target.jpg",
+      "before": null,
+      "after": "fb020d6fd4c98ded708e132014434c39201a13cb6b3d3d453c34669a21931521",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-bane-shipping-crate-scene.jpg",
+      "before": null,
+      "after": "052f37845659bec5454ee31db5b71a301cc55c97da311b743c05a094ff89304d",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-bane-shipping-crate-target.jpg",
+      "before": null,
+      "after": "ead88f2bbcccc74c5f1be17ea1b52b2adf3d0fc35e3a8d272e790c307ccc38d6",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-saint-dumas-tomb-scene.jpg",
+      "before": null,
+      "after": "c870bb0b6685a1855773e9d2213240a92b10b01d4fa4cbbabed0b9ddcd3f7bdd",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-saint-dumas-tomb-target.jpg",
+      "before": null,
+      "after": "5fa4b1961986149d99aa6696fe2b75f5d5e8a8211e0bd8ca91fdc8a7f0616539",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-calendar-hideout-scene.jpg",
+      "before": null,
+      "after": "182a66c354be5a419212de0261f37d8b36bceb2a3b0b12be06191c34e2a39766",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-calendar-hideout-target.jpg",
+      "before": null,
+      "after": "3da3acaaa859ca73dc90324c10ca93621bca304d81cabdfcc0eef1a8d2eabe14",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-distant-wayne-manor-scene.jpg",
+      "before": null,
+      "after": "4486526988d74f8da9da99b2f494be891c8140b8d3feba1118308b066c13156b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-distant-wayne-manor-target.jpg",
+      "before": null,
+      "after": "3f892adc90277c2d726c0a40d22c5dc1777d8d9b5d461413b8367e976a946626",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cobblepot-manor-scene.jpg",
+      "before": null,
+      "after": "0ab4005d9517a56d7c471b90e50bd96c49a5d8fb6a0adfbeaaeb7e099ad795ce",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-cobblepot-manor-target.jpg",
+      "before": null,
+      "after": "15a1947383109ecccf670e9b3442ba04a3278768acf1e6db328facd40d376473",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-batmobile-steed-scene.jpg",
+      "before": null,
+      "after": "8ac5408d2af42bb25bb62def4b6d53345f7d6b05a0d0be05c1077eb43ede251a",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-batmobile-steed-target.jpg",
+      "before": null,
+      "after": "53ea8b3dd71a2d3e7774df0186a0ff274fd67e091022da6c077d1d5014f17c09",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-gothcorp-sign-scene.jpg",
+      "before": null,
+      "after": "d78268eac00a3b2e242f927017eedaa76cc149cf0982f992af8299baa997628b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-gothcorp-sign-target.jpg",
+      "before": null,
+      "after": "92992cd8134cce5464bf02b0495a446f9aaed01b3f9cff282464cd202b48a25a",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-grundy-gramophone-scene.jpg",
+      "before": null,
+      "after": "97913be9537e11287a2a1568b51c94d9d9c867b00852f0eb4df7dafd469c1a9f",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-grundy-gramophone-target.jpg",
+      "before": null,
+      "after": "f9d85b7c4c05226fcc0e034bda5066dd813a249303aa95ca5ecf6abd082c15ef",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-circus-of-strange-scene.jpg",
+      "before": null,
+      "after": "8b447a8db9cdb0c9e88f54a02ad814dddee327926d44241bb6751614515c12df",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-circus-of-strange-target.jpg",
+      "before": null,
+      "after": "ab2e11a39d468172930b9be78c0675e75e2f6433d0e1f7dbc6dacb46926b069f",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-one-fishing-line-scene.jpg",
+      "before": null,
+      "after": "022fa537336f402af8e09a93eba8b24dab4782c6a3beef7554f574058296cd29",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-one-fishing-line-target.jpg",
+      "before": null,
+      "after": "94987973ebe805df044e92b364bbb6a8da4b74dfd77bd2184b281929008b0c2d",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-refrigeration-advert-scene.jpg",
+      "before": null,
+      "after": "dedbdd5e9e73c1f232640be44bbdeb00e86b37278c9a28393d0816201f27c828",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-refrigeration-advert-target.jpg",
+      "before": null,
+      "after": "ae49d155a1fb391bcabd723e51982c035336acae0b7dde89c616753512bf7896",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-ryder-deadshot-magazine-scene.jpg",
+      "before": null,
+      "after": "d2312d43861ba9c8d81de19d6049849274b49ce915c0878385b7a7fc22d2c91b",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-ryder-deadshot-magazine-target.jpg",
+      "before": null,
+      "after": "d708b06ef43c5ad76f63db23877705acc026800d296106b79601c44a697690be",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-albino-chimp-scene.jpg",
+      "before": null,
+      "after": "8315fca72510ba2d1b5f49e552ebeb011ddb476809ed940821d57a27341b1d9e",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-albino-chimp-target.jpg",
+      "before": null,
+      "after": "0c09a5f6bd24df700068fa68676e67ab766362cdba992873deb1699391b3d363",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-inferno-poster-scene.jpg",
+      "before": null,
+      "after": "246afea4f20ccb2c530d8c2452ba0f2718be9f62335025b2e9210520931084a5",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-inferno-poster-target.jpg",
+      "before": null,
+      "after": "4a4ec815acf22db298d6673bec42fd5f8e946cdcf240f2098f09d6e5cc82bc05",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-broken-robin-staff-scene.jpg",
+      "before": null,
+      "after": "6b6f2c085b4de1eacdc378b399bf44a56e866546e74e1c27505802a2442e9f2c",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-broken-robin-staff-target.jpg",
+      "before": null,
+      "after": "6002e09db3ccb7809dacc45088e324ee9ef3e316b53ad736d3eb1191d83a418a",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-joker-shrine-scene.jpg",
+      "before": null,
+      "after": "e61ad0100578e93ea2efbb3bedacf2607de10fab1a3aef5056be70a1584560fe",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-joker-shrine-target.jpg",
+      "before": null,
+      "after": "0ea861a4d90daead6c591b5fba55484984a9a0899521206557ce27a7ad09e676",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-unpaid-debts-scene.jpg",
+      "before": null,
+      "after": "f87b65fae0c1fb9c67aafd67b3172447b896bb2a143ef292b0b3ea9fb1a2bb24",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-unpaid-debts-target.jpg",
+      "before": null,
+      "after": "6f8e0213f567fcfb1d12c4972e1554ba2157929a3065499e21a898ee5a1fa4a3",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-white-rabbit-display-scene.jpg",
+      "before": null,
+      "after": "ce09e1c65f8969b922bf457c052c33e38f4ed13e73423985bec46735f9df3847",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-white-rabbit-display-target.jpg",
+      "before": null,
+      "after": "c100287adbf7f274a908eee8d505d1abcfcc7f285d34f2fe75544cc549a32b8c",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-fear-toxin-lab-scene.jpg",
+      "before": null,
+      "after": "e30f6db2342e6d41ebb3a85ed38cd6e59d274727cc6c1f09ad073ef8ba6e76eb",
+      "action": "add Knight image"
+    },
+    {
+      "file": "riddler-scans/knight-fear-toxin-lab-target.jpg",
+      "before": null,
+      "after": "82a0bee27752e936a4d6fd89b1b413c9ac79afa5a93478b2d66bf47537faf878",
+      "action": "add Knight image"
+    },
+    {
+      "file": "docs/research/riddler-knight-20261026.md",
+      "before": null,
+      "after": "f609c6d5bf4c3a0a0939bc4fd068c6599a7e25b83b0b238c9968f9690da9b7af",
+      "action": "add research"
+    },
+    {
+      "file": "docs/research/riddler-knight-20261026.json",
+      "before": null,
+      "after": "762851d170acb09e7537c65916b6ee24cd207f3d5b72dd5a6ec494cd04cf783c",
+      "action": "add research"
+    }
+  ],
+  "backup": "/Users/dinghaowei/Downloads/batcavecn/specials/backups/riddler-knight-daily-before-20261026.tar.gz",
+  "otherWorkPreserved": true,
+  "excludedConcurrentEnhancements": [
+    "arkham-riddler-scan.js",
+    "arkham-riddler-scan.css",
+    "riddler-scan-feedback.json",
+    "verify-riddler-scan.py",
+    "Soul source files"
+  ],
+  "followup": [
+    {
+      "file": "app.js",
+      "action": "reset detail scroll when selecting another riddle",
+      "dailySHA256": "ac88176aa0d408c9b50abc176fd25bdd1aa2c37122c43a4e904b1edd0cb4c5ac"
+    }
+  ]
+}

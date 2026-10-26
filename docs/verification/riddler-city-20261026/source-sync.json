@@ -1,0 +1,901 @@
+{
+  "date": "2026-10-26",
+  "records": [
+    {
+      "file": "arkham-riddler-scans.json",
+      "before": "56e1316c63fc30eb383f25ccc294f4c431ccbea55c30051419eb2ac5da94fc44",
+      "after": "4dc8b8163291feb393e4dbb3db349e13be93c88126f8adf5047d610b7b721e45",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "arkham_riddler.py",
+      "before": "57a5b3f61b6e97f70eee0ffced4638cf2227761cc172fb74373a269ea1767f00",
+      "after": "6bab0ba799b6fe045455a831993923085c77db1df3d0865ce111a33a5509e89e",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "verify-riddler.py",
+      "before": "76e78955cb8697ca75eaee999e1692533edd5a4170b4d5711131d4beff502bb4",
+      "after": "4f52142a5527862370849baacffb659bdb828f4c785dbb2fdbae836ab4270349",
+      "action": "replace matched baseline"
+    },
+    {
+      "file": "app.js",
+      "before": "06b2e1f1315c689cc6dfabb2a31e58f01291acfe6c3894236c8c699fdf0ab233",
+      "after": "f6e027bbfbb5a9d88176a7661e8a768e91055fd1a5331db91ddf827e78eaa0b1",
+      "action": "replace Riddler function only; daily Conroy changes preserved"
+    },
+    {
+      "file": "verify.py",
+      "before": "8548a8c814ca4b3c3b5f66379674b3d21b062ddc336a39688a6f013702c01c6b",
+      "after": "e95fdf82a0da76a69f5ebeb777d477d653e664ec9065eb6788e40d87df390d97",
+      "action": "patch Riddler checks only; other daily checks preserved"
+    },
+    {
+      "file": "verify-build.py",
+      "before": "0d35d671bd4aff6be03c9bd2a3d5860a4efcb2421ffea190c86b58d5ca90e2ac",
+      "after": "877c2aa6c69e45e782e7cda05824afa3e596d04d3da79577315cdd22aa82fb73",
+      "action": "patch one record-count constant; other daily checks preserved"
+    },
+    {
+      "file": "riddler-scans/city-park-dent-campaign-scene.jpg",
+      "before": null,
+      "after": "dee97f8bf7384f69cd72272100a955f2ba5404c64c2eb7e74660c1a560dab6ff",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-dent-campaign-target.jpg",
+      "before": null,
+      "after": "de090f51249c1ac2a39ef06bfd44183a003cc6fc5e1341c0bcd5de76ed828424",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-court-guns-scene.jpg",
+      "before": null,
+      "after": "138e540aa16fdb372da8ccff1c658b4a37900ff32c01f9f06104503df08ca831",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-court-guns-target.jpg",
+      "before": null,
+      "after": "37ab37dac76d424c11ed3e205d3e73656426c45b7aeddcadae3592fd1d8cdcd9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-calendar-cell-scene.jpg",
+      "before": null,
+      "after": "a6f9fa1859088a05c06a788262294d6883c70ac8fcc6bdf251f2b5db16bd6765",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-calendar-cell-target.jpg",
+      "before": null,
+      "after": "4aaa4be838949ad0d9ded0c064685c30c9fe811b9fb58a4dda7152f042ad2f60",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-catwoman-home-scene.jpg",
+      "before": null,
+      "after": "5702b4b7b3e7078c4e1f42f6a7b0d4179ba0fb3a2bfd5f2a4ded0ae4cd11846e",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-catwoman-home-target.jpg",
+      "before": null,
+      "after": "e2633169ceca7bf3e8dfe77e26ea421efe8a04fb80981b3fbdca8ba9db345a5f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-subsidence-scene.jpg",
+      "before": null,
+      "after": "d48e0cedd34d0e08ad04df0bf36a820ffd1342562f67eb1c026999a69635fb36",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-subsidence-target.jpg",
+      "before": null,
+      "after": "1b5d21fb84afb2b418e2f2f95d5116f9e1039de180230c052930cbd7657eedf5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-cash-hand-scene.jpg",
+      "before": null,
+      "after": "2e24193fdefc34a45fb943ae29621cb7118f0bae721e5b8591231a5bb26f9b0d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-cash-hand-target.jpg",
+      "before": null,
+      "after": "d69ea944569a0d301236327acd13eac0b7af26e0008f1c171c47327ca74500b3",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-confiscated-goods-scene.jpg",
+      "before": null,
+      "after": "cd336a6575b947395870705a54111d6c3853e5274397cb63d97cfbfbdee779e6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-confiscated-goods-target.jpg",
+      "before": null,
+      "after": "c177d81f2e59636872c38ef90d992986a37c55b136f672f92326ab70ca1a3ba4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-ivy-florist-scene.jpg",
+      "before": null,
+      "after": "0c34d36bf711e0fae77e9f6f6119fa2365235fa5ca1a3bc138c267c171f6321b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-ivy-florist-target.jpg",
+      "before": null,
+      "after": "786ca173f44dde5a903c3339b8472a87daac7e47745028bc231c0c80292db15d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-hatter-book-scene.jpg",
+      "before": null,
+      "after": "f2f21ae9a3ee92943e55916999ef18b292566588946d26fe7799460cedb1fa53",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-hatter-book-target.jpg",
+      "before": null,
+      "after": "98cb87b505ff252f8bbf278cc32827421db353950102193e906dbcc623b54a99",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-strange-clinic-scene.jpg",
+      "before": null,
+      "after": "1fa1de61975488e7a77f4e1085eca721a3880c140d050b06739128d82acb49f0",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-strange-clinic-target.jpg",
+      "before": null,
+      "after": "e69b2d03b3f727b822f5f3339dae78107af24ceb501b9ed4fd6634a8a1c7ee22",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-karlo-poster-scene.jpg",
+      "before": null,
+      "after": "f85a73dd9bf517d94d13109b7013d111d42a60c96b4eadc5a1f9f9b50b3b070c",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-karlo-poster-target.jpg",
+      "before": null,
+      "after": "a6d0cd94cb746cfee56d797d706d33636fec9798aff5595293bc032a2ba3cdb6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-crime-alley-scene.jpg",
+      "before": null,
+      "after": "a87c7914f73f642a9de7370e2222f59185c458906366ebd9f9d67137d33bc1e5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-crime-alley-target.jpg",
+      "before": null,
+      "after": "9d1c0c5ef5de67a5c4e92f2cbc22ae478f7dd7d658de7f10bed8ad0338eb872b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-ace-chemicals-scene.jpg",
+      "before": null,
+      "after": "6feae91321dbd68d77ba129583fed775743f13c94aa18be08d85698f391d6eda",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-ace-chemicals-target.jpg",
+      "before": null,
+      "after": "9fa5fed6b14dc90cae690b8e5d729d8993d24eb1f90e7da24300168d94de430f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-asylum-view-scene.jpg",
+      "before": null,
+      "after": "828c887a0bbc6a1d8acace15fc67cc20b558a6d1a52a5f6ec0984d7f6c89cf74",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-asylum-view-target.jpg",
+      "before": null,
+      "after": "d45a10bce7b364845f59ed64324fd640e0f9501cdfb16fa327c7b19f0149dcc8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-ivy-container-scene.jpg",
+      "before": null,
+      "after": "c84dd7cbcc1841bf8e6363df7be89ef5786d02c2929804f75e1f1db38db8ce68",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-ivy-container-target.jpg",
+      "before": null,
+      "after": "c0db72d466922a3354eb7e203116d51648f1b8c43c943fdaeaa15ec159f09375",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-graysons-poster-scene.jpg",
+      "before": null,
+      "after": "dce3f0f68e512dfa99a1b752d06540380292fb91e531b8f844d1fc0fa7b93a04",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-graysons-poster-target.jpg",
+      "before": null,
+      "after": "669c238d2c07340bca6895c818e9ae95532583400c7e40af3239a50dbf412f6b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-olympus-club-scene.jpg",
+      "before": null,
+      "after": "d9521c66544ea80897a8bbae4bf74d62616744cfd279cdfaa584a574750768f4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-olympus-club-target.jpg",
+      "before": null,
+      "after": "3a151aac4c83543ca6644b938b690d4e226f8d497b8b84fa42c377432914ad81",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-gordon-parking-scene.jpg",
+      "before": null,
+      "after": "ec98d24e804c654f5d65c349a836cef36240bd170afb1d53cb3330f58e758afb",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-gordon-parking-target.jpg",
+      "before": null,
+      "after": "0d69a7a6e6d1a63e4bd2de2394c596c5e11b1106b21c97c5826a6cd967b3ad18",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-bat-signal-scene.jpg",
+      "before": null,
+      "after": "ab55ae142c86bbc976049b5eb5581aa42015bdb9f7401702d6f198bceafb23ab",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-bat-signal-target.jpg",
+      "before": null,
+      "after": "580ca8a5fd39be16d5329f0cc55504728d455ddb832eb7d935531773120cc150",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-scarecrow-mask-scene.jpg",
+      "before": null,
+      "after": "ca5393b1fed24285eb8a7aad5179cb4c8699f669e5cbad5237dc6127f8bae0af",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-scarecrow-mask-target.jpg",
+      "before": null,
+      "after": "6420a8c45025a7ec0a018bf14f61048b601329093c5b611d76994c7870607d19",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-krank-toys-scene.jpg",
+      "before": null,
+      "after": "4628aa81f93b991c9a7082a0eb6372a1ffc9d9c33205be7d547d6886dd7e60a2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-krank-toys-target.jpg",
+      "before": null,
+      "after": "5eb2ba420663c35324de47844d4e6663fa730a99365462496a60087889bf28ab",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-falcone-barge-scene.jpg",
+      "before": null,
+      "after": "0b9465b5ee74710715c957102d5d49e7e69ea7b3de4d5b2e175006661e6e3ea8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-falcone-barge-target.jpg",
+      "before": null,
+      "after": "58e0a51428f36582ad36a25729d15d5abb4c9c42f7a2b0b320d368c1c3f78207",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-newspaper-scene.jpg",
+      "before": null,
+      "after": "a9b45118c86dd25eef573240b5e8c52cdb4c0731f94bb5db2faa640f3f12ec30",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-newspaper-target.jpg",
+      "before": null,
+      "after": "3063441c1095182e8d44ce1f9ab3acf7355f8ea8a83e67adac674c4629699fa6",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-falcone-storage-scene.jpg",
+      "before": null,
+      "after": "31986a392a40d9aa64464cb3f5c18ae7659fa2abff91e30808be97d1d41919d7",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-falcone-storage-target.jpg",
+      "before": null,
+      "after": "9b1f3348ada59fdcd74eed25aa46ef48b847c8b847c23d816974ee0421156dcc",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-ratcatcher-ad-scene.jpg",
+      "before": null,
+      "after": "8c483bb28565b20091f3307e30a0e42a455b543ef19d6f3365c934384bff175b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-ratcatcher-ad-target.jpg",
+      "before": null,
+      "after": "42f02c1a59d258c32d1f22bbccd88fcfdd44e6168c3ff6e175ba078943535597",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-zsasz-phone-scene.jpg",
+      "before": null,
+      "after": "20b35808498473d57db64f680aded1ce5329365260e9c0b1a8ee257145c47d47",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-zsasz-phone-target.jpg",
+      "before": null,
+      "after": "30ea8072e90cd64d56c13299da7a69ec4ab75059a1a4d4ec8b151340a0ad3b65",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-black-mask-hole-scene.jpg",
+      "before": null,
+      "after": "222f2fe119f74706a0a04051aa8857dc347fddeaae14b9b1120c51c8b7fafd06",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-black-mask-hole-target.jpg",
+      "before": null,
+      "after": "95f0d1669133bfae7c07c443ce0afa1264516d263a55bec3be2e2fe5c67627d5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-broker-cards-scene.jpg",
+      "before": null,
+      "after": "c893d299a64cd6214457f66167ddddb66fab1ba1aa7753a61d8a64c92d1b89dc",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-broker-cards-target.jpg",
+      "before": null,
+      "after": "946191239917ef2e81b6280e5c1754f32dc89441fad124f9b336ee09bfefe0d7",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-freeze-couple-scene.jpg",
+      "before": null,
+      "after": "fb2d0a7785d5e72b85cabe373e190764c5cf5d6fa0e6e755fd4c65e582221f65",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-freeze-couple-target.jpg",
+      "before": null,
+      "after": "771e5e242c93508670833ba34cb0a807c880bc9201118627ec5a05374b48c9f9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-vicki-board-scene.jpg",
+      "before": null,
+      "after": "c4d15a2465bf953fd367da8b2fcc9610b630654e9f26f77b5bbe80e1cf11af88",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-vicki-board-target.jpg",
+      "before": null,
+      "after": "f36b7913e78a96fe2959e9211ff7a901e6d5ee1793ede2674bf7cd981620e6b7",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-grundy-poster-scene.jpg",
+      "before": null,
+      "after": "11b8c6ebf93ed636fba5df560321292ad253f039d90873583492108e4e85a1c2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-grundy-poster-target.jpg",
+      "before": null,
+      "after": "343059ef229aa432d6ef43be7a30bd916df53bc2ca2cc74151b44269cd37621a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-santa-prisca-scene.jpg",
+      "before": null,
+      "after": "3360bb8bd0d4aacb1f0735ea9a7aee35d50f694bdac084da96655e0f179c4687",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-santa-prisca-target.jpg",
+      "before": null,
+      "after": "443c3014fd981a932c5064d2e0f11ba8ece3870e240139a1eab773d558ddc657",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-croc-collar-scene.jpg",
+      "before": null,
+      "after": "7ecc1c347b80c3641adf9dcb35fc518ac7dcefdc569a1f50800faf6c4bdd712f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-croc-collar-target.jpg",
+      "before": null,
+      "after": "b99228b2398b3c9220d20ac3990c0bf5a9bd36a098d921f03f1d4fd421b1402a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-wonder-tower-scene.jpg",
+      "before": null,
+      "after": "560e995757dd1a73a0129f079dd3d79b0c22b00c5afee62cf5746b6354088761",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-wonder-tower-target.jpg",
+      "before": null,
+      "after": "1975e16a667406cc56a06a8cd91ddb824d70c0a3606b0f08959c27138f23f8ed",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-maroni-restaurant-scene.jpg",
+      "before": null,
+      "after": "576c19c0bf7034d477dbcb6b8aa3f1a5ec4a0acbde2e36cef39bfe629b347f18",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-maroni-restaurant-target.jpg",
+      "before": null,
+      "after": "3f249dab1ff18f83b6c3636ece7255a0b5129a8b209c10a9e300d0a5f420facb",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-hat-shop-scene.jpg",
+      "before": null,
+      "after": "33cc817ac6937f2af54d77fca91c9d650fed7869e697f4377443402ccfc72815",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-hat-shop-target.jpg",
+      "before": null,
+      "after": "a6e39c3f815955e0c9823f939e3d06210f481ede0df016b4c24403fcaa7aae22",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-sharp-election-scene.jpg",
+      "before": null,
+      "after": "119ca803dd66379258e798546337b748adcc4e1567ee8139544cdcd950a118de",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-sharp-election-target.jpg",
+      "before": null,
+      "after": "2635b6707292ee095f0f000a799bba57950ddd0d0c7a0df6ac4abce7585f7bbf",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-opening-plaque-scene.jpg",
+      "before": null,
+      "after": "44b183afae6429ae49c996fa03ed08ab8dfd9f248b62fc40c8fd528d8172ae4a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-opening-plaque-target.jpg",
+      "before": null,
+      "after": "2048be0359ef6327bdfddf0aabf3e1b88f8658ac54b7b1bd9cecc611be9bae21",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-bruce-wanted-scene.jpg",
+      "before": null,
+      "after": "c8803239ed75466d9271937a4866ea4779e88544c61004e2385b17bcff20ef05",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-bruce-wanted-target.jpg",
+      "before": null,
+      "after": "a2f20db5c59b4aa1b47c7eb3e5d8c3acd716b604907d7537b548594601f41ef3",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-magic-props-scene.jpg",
+      "before": null,
+      "after": "1316365b243cb5d7d8f7ad56e73371ccedadcaccb3970faa766fdc47d335eb65",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-magic-props-target.jpg",
+      "before": null,
+      "after": "04971f971cab7c7658a36cabe9f6bd7f5e0dd4e3c45384fb8ebdfbea0fedbbf2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-behavior-unit-scene.jpg",
+      "before": null,
+      "after": "ad1c674ffc883c3b2de84f5c1da4f5d4ada13573eb6d768783eec3f46b024951",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-behavior-unit-target.jpg",
+      "before": null,
+      "after": "663f622cbafa90d5ca6a66a1d171d7ddfd771bd2e2bc161a3324e71030893a2a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-captured-guard-scene.jpg",
+      "before": null,
+      "after": "bac1029330b79f0f95509ba884aee41d1f5b483c731f01a560e711eb5b2f1a4a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-captured-guard-target.jpg",
+      "before": null,
+      "after": "6aa19b34cea218c95d0bd1d69c4b3bb3e22cbb327c5603d014a039a3eabaad0d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-shopping-sign-scene.jpg",
+      "before": null,
+      "after": "7924f3396ae5e8359b4daffee24b625a274323487d0ded94656216692d58a2a0",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-shopping-sign-target.jpg",
+      "before": null,
+      "after": "401986ea11753809e2d5825f76987ad9173ce9ae650c62903d966a93d830ab14",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-costume-scene.jpg",
+      "before": null,
+      "after": "6caa2a11c3ae84b52b0263c0be45a72144e5c30d254848ad2cf05d6bfa5895a2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-costume-target.jpg",
+      "before": null,
+      "after": "efa4477475943e06d957dd20d5b38979dc24d328d87dcb500ab8b2e04d351855",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-abramovici-brothers-scene.jpg",
+      "before": null,
+      "after": "bbc0f70cd5d9ceb842e39a0aff4f379917deced4836f43b2b6a5a583ed07143d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-abramovici-brothers-target.jpg",
+      "before": null,
+      "after": "b9cde5da809ebef4149431794c77579c79766577e42a4cbfa32b23cf1e07205b",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-diploma-scene.jpg",
+      "before": null,
+      "after": "47b472e402d16009bdbffa400ed0277b1dc780f700044824026e6e00dda985ac",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-diploma-target.jpg",
+      "before": null,
+      "after": "33a51b4735b0962b2c9f7597c9aeb48ef97be42ab2cb981da7cc19cbe02cb2c8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-hammer-scene.jpg",
+      "before": null,
+      "after": "6c5779be6b514e13d06ea4c70b587227f2a3634b8472ab0d4a6455afc8092faa",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-harley-hammer-target.jpg",
+      "before": null,
+      "after": "bdd348f8ee8f5b461cae00cd9a7051f3945b6f4a72349f7ce2ea11485d7f06ef",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-boyle-cryogenics-scene.jpg",
+      "before": null,
+      "after": "377c34c035d3041e78ea765670caace9e45199ed088a47245e49332ef04cb3c4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-boyle-cryogenics-target.jpg",
+      "before": null,
+      "after": "e1bcadfdeab57717be01c1f335b701d2f1877ba5c80c3dc398876233f95e0814",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-joker-tricks-scene.jpg",
+      "before": null,
+      "after": "9b03462b5f0da8acbd3502c079439c73c885ec1aa46cb22243b672c1e565c436",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-joker-tricks-target.jpg",
+      "before": null,
+      "after": "192c03479cd1460b75fceed19165f4a4a1f6f97687ee8aeb892582216b4f9e24",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-scarface-scene.jpg",
+      "before": null,
+      "after": "c8fc6777241c7f38c82ad8a7a5f1305bfa23325f47a04ca30ee8a47cc59fee79",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-scarface-target.jpg",
+      "before": null,
+      "after": "6996e72481ce3a61b6a92fefdaa75c81cd819e5f45f23d95a381cba742502553",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-cobblepot-portrait-scene.jpg",
+      "before": null,
+      "after": "233fc688a116ce55e2819a7bb3be39199bd65526a4391ae3cac1ce92e8fdeb76",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-cobblepot-portrait-target.jpg",
+      "before": null,
+      "after": "7013c0d2e024aa5b3b476056252aefd98667c0d048cb568a51fc179f8ea0bef1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-hyenas-scene.jpg",
+      "before": null,
+      "after": "d956bf3ee08f01eba2bdc16c86e95d362c76c4e34788197fdbb5e192bb58470d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-hyenas-target.jpg",
+      "before": null,
+      "after": "710bd9168306ce3df4079fba49e997c16d5ff9c03838a24ad81d87654d61d8b2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-brothers-poster-scene.jpg",
+      "before": null,
+      "after": "88408081eb22e80ac2c127d0b427c3d7daa79627fe9ee3562cb9fc7417ded9f5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-brothers-poster-target.jpg",
+      "before": null,
+      "after": "57f3eac453c0ddb0e0f01490b46723b3cce6bade8eabe6ce07f7a8883128c97f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-three-monkeys-scene.jpg",
+      "before": null,
+      "after": "8d6593d528dffb0a70c9e41d6bc3b2de57ebfc1978929864eb1a9782ca6e07af",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-three-monkeys-target.jpg",
+      "before": null,
+      "after": "dbda2f33ba4670aeb7d10a96cfb5fb9b42c3eaddb7053cbd2f6b297261e8f83d",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-penguin-vip-scene.jpg",
+      "before": null,
+      "after": "c372035cff607e97d363286f5cbfb38787fb013acf3c2cf812e06eca46ebfac2",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-penguin-vip-target.jpg",
+      "before": null,
+      "after": "26cd4ab86dc95e1241c1bf7781e8f42c9d2f7037370e7e7342ad12e1c1b01fe8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-weapon-umbrella-scene.jpg",
+      "before": null,
+      "after": "d04fcd3a3ba4a512027f3528191f9ba860b644c9637e185dc552d63b3b5869c5",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-weapon-umbrella-target.jpg",
+      "before": null,
+      "after": "7d7d11c6cd9f093aa0c2e8dd6beed88d56f843841b1a3a9d49f0f1c37a8da99a",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-globe-scene.jpg",
+      "before": null,
+      "after": "a9e420ae50100435ffeb7b4d5f376d80a7a6994626530765aa0b9ce2256ad0a9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-globe-target.jpg",
+      "before": null,
+      "after": "9826e1e10da2a7a63060c3c4423a204333ce69b87b52d513cbdf05108b942f84",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-times-board-scene.jpg",
+      "before": null,
+      "after": "a753d49904f3e7266ffe5a0e02b61457bdc19080f857f5d0ead651ce43d3c465",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-times-board-target.jpg",
+      "before": null,
+      "after": "e9a0333ceacb3491d3a468d6ad8af6086c989a12e46d32b096c7959728099537",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-grundy-wanted-scene.jpg",
+      "before": null,
+      "after": "beb5c0b0170ffa3ae1ae55d7d164c705b94fc86214a677782457e8e278b43cb8",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-grundy-wanted-target.jpg",
+      "before": null,
+      "after": "61a12d158bcdd435c3c36c5690834e31925c0a5329045a9220d66814f30e4864",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-demon-statues-scene.jpg",
+      "before": null,
+      "after": "e20e084bde7f2d8a6ea733c95b2e1c96de874889d20813cd54a25a847c96e837",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-demon-statues-target.jpg",
+      "before": null,
+      "after": "647999c8bf1201929ddf977cf43ff5917545472865f30fdf91d694d19a92cfd4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-historic-view-scene.jpg",
+      "before": null,
+      "after": "4e88a1df5fd7c6d97924434a8690c798364a2345a411a8aec365fa5cc7bd5837",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-historic-view-target.jpg",
+      "before": null,
+      "after": "0348fee0337017ec9d9d00466fab87d12516ad0adabff17a0aeafc0062f25b12",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-perspective-target.jpg",
+      "before": null,
+      "after": "54eb2013bf19386137b33b059d8929502cb9315ea9ab3ddcb040d38d32ea37d1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-perspective-target.jpg",
+      "before": null,
+      "after": "4a7b45699835227cf4b6c7d2ae201f44ab589c03b469cd41905b2b37346d27ee",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-perspective-target.jpg",
+      "before": null,
+      "after": "a5fca3d48038c11f8cb9dcf59ef18f4c080eb67786acdceabea528935b28eff4",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-perspective-target.jpg",
+      "before": null,
+      "after": "178ca967149b13a5b0cc2eeaa7d83b9f0aecc8696db729fe44b975ce78eee869",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-perspective-target.jpg",
+      "before": null,
+      "after": "da7da899add00a0a08bd7a0ab94361c2cf902527936b77bf2a07185036acb6c1",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-perspective-target.jpg",
+      "before": null,
+      "after": "5961bb5acaf89ba2c316333e47de2b4ab29465a5e8657532e3f35d098dad3eec",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-perspective-target.jpg",
+      "before": null,
+      "after": "c5b07b92374f63891408411037bf02a3a5737ab96f64b7c159c181981a87d4ff",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-perspective-target.jpg",
+      "before": null,
+      "after": "bb8f23db2a544abc781ff88ac17a8e380418017d8cc0f423dbc586ff0d6c39b9",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-park-perspective.mp4",
+      "before": null,
+      "after": "2e9afa78cb6e9cdc416cdbe9ed2ed92e49ca1da66dee2a66ff9ed452063ecd27",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mile-perspective.mp4",
+      "before": null,
+      "after": "894c1d51eb436acb5d9992d0bbdf96729542667813a4fc4ee7bb9740c4563a04",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-industrial-perspective.mp4",
+      "before": null,
+      "after": "bc25ae2cbe657869f386dc15d41067f0b5cd04b7a202742845c8264b2950753f",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-subway-perspective.mp4",
+      "before": null,
+      "after": "58e72efb0b513806c5226693d3509680d5102d04c18b8817b94d2d02715905bf",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-bowery-perspective.mp4",
+      "before": null,
+      "after": "4860c79c02c47324f58e3f64ca922e9b7d804125b3bdff8711e25eb81db889cb",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-mill-perspective.mp4",
+      "before": null,
+      "after": "4bbf2b4c1205e08f3081ced2b4b266b78bc685c050ce830fe23c140ff7c2be56",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-museum-perspective.mp4",
+      "before": null,
+      "after": "f06139bbaa99585b3d0037a5f1db4a8123af74158e7e67cdc9e8212915642afd",
+      "action": "add media"
+    },
+    {
+      "file": "riddler-scans/city-wonder-perspective.mp4",
+      "before": null,
+      "after": "e9648e99d1554a6047fc2c1492deb2e6df520e5ce51cbc5b10c3b148904d90f9",
+      "action": "add media"
+    },
+    {
+      "file": "docs/research/riddler-city-20261026.md",
+      "before": null,
+      "after": "af92c60715c4e636487958cad7caaa940c6dd3e6bc375776f83c2ffc1166ce20",
+      "action": "add research"
+    },
+    {
+      "file": "docs/research/riddler-city-20261026.json",
+      "before": null,
+      "after": "97f6fcdf9358e7cc2eee598856d885543391258bf149e34695a90e5d7b425bf1",
+      "action": "add research"
+    },
+    {
+      "file": "docs/plans/arkham-soul-player.md",
+      "before": null,
+      "after": "8623770c538929a45644944531c0fe837a228f249ef61e655382924b88888d54",
+      "action": "add plan including separately authored later amendments"
+    }
+  ],
+  "unrelatedDailyChangesPreserved": true,
+  "excludedUnrelatedSourceFiles": [
+    "arkham_pages.py",
+    "build.py",
+    "patient_player.py",
+    "asylum-history.json",
+    "arkham-soul.js",
+    "arkham-soul.css"
+  ],
+  "handoff": {
+    "releaseSHA256": "89f96f8b71d4c913c0206bac86ce493745b76a922314c3eca00a321cd9dd7389",
+    "dailySHA256": "31b52af8bf03c9e5fa08590ecfb013e0396184b2e20742d2817fb24399aa8fe8",
+    "method": "insert latest City section into each current handoff independently; preserve other edits"
+  }
+}

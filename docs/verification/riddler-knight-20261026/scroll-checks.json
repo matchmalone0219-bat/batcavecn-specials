@@ -1,0 +1,8 @@
+{
+  "count": 3,
+  "checks": [
+    "expanded preview can scroll",
+    "choosing another Knight riddle resets preview scroll",
+    "new riddle heading visible after selection"
+  ]
+}

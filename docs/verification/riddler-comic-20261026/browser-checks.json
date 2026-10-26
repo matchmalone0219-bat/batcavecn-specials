@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checksPassed": 37,
+  "widths": [
+    320,
+    390,
+    1280,
+    1440
+  ],
+  "coverage": [
+    "game filters including multi-game dossiers",
+    "whole-card selection",
+    "mobile detail and return",
+    "keyboard selection",
+    "safe identity spoiler clone",
+    "saved game and selected item restoration",
+    "six legacy anchors and reload",
+    "artbook anchor relocation",
+    "no JavaScript reading",
+    "denied storage operation",
+    "no browser script errors"
+  ],
+  "evidence": "browser-output.txt",
+  "note": "Assertions completed without errors. CLI did not include console.log in returned output; full executed code is retained."
+}

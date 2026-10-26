@@ -1,0 +1,716 @@
+{
+  "date": "2026-10-26",
+  "method": "All eight videos sampled every 4 seconds over full duration: 899 frames. Original bottom captions OCR grouped 69 riddles, all scene/target pairs manually inspected; 8 exported clips reviewed at 0/7/14 seconds. Not continuous full playback.",
+  "videos": {
+    "city-02": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/02 - Batman： Arkham City - Riddles - Park Row.mp4",
+      "duration": 581.354,
+      "size": 74310106,
+      "sha256": "5396b199cf7d15b61c049688a4dd7db8df7e345fd7040cab4ffb7190752c79e8",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "26031/872",
+      "game": "city"
+    },
+    "city-06": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/06 - Batman： Arkham City - Riddles - Amusement Mile.mp4",
+      "duration": 391.814,
+      "size": 39841495,
+      "sha256": "35b7a79a39a3e33f6abae339d5aa8abac1115d29c7d2bb29ed0e250f4ce5c39e",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-11": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/11 - Batman： Arkham City - Riddles - Industrial District.mp4",
+      "duration": 457.014,
+      "size": 72641026,
+      "sha256": "73bb2cadbc4c520f274c1bbca258f5c387229b07e7b031a45e480e9f8c01df77",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-16": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/16 - Batman： Arkham City - Riddles - Subway.mp4",
+      "duration": 274.834,
+      "size": 35379469,
+      "sha256": "d50e55ec6b337fb83fb67e3ee041213dee6b8534756d8d3403f10e4979f244db",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-20": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/20 - Batman： Arkham City - Riddles - The Bowery.mp4",
+      "duration": 537.254,
+      "size": 64580811,
+      "sha256": "53bb262c3d11d4fa33ef051a0759c0f166a9b3d5f549e4dbb369330579d90dd5",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-24": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/24 - Batman： Arkham City - Riddles - Steel Mill.mp4",
+      "duration": 451.194,
+      "size": 65040882,
+      "sha256": "fbd44c54685737d0da473bba1a10034537aab0d8fd8efc78ac7189bd646b787a",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-28": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/28 - Batman： Arkham City - Riddles - Museum.mp4",
+      "duration": 462.254,
+      "size": 63567234,
+      "sha256": "172c509d0bec8f34a641bb0093608cc62fb0c17fe8941f9dfde69c16656c31dc",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    },
+    "city-32": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_City_Riddler_Riddles/32 - Batman： Arkham City - Riddles - Wonder City.mp4",
+      "duration": 425.254,
+      "size": 69560961,
+      "sha256": "9d627a910d615561328e99e58c60e022b3228ea90d5c3dd47748e0ab59ba057a",
+      "width": 1280,
+      "height": 720,
+      "codec": "AV1",
+      "fps": "30/1",
+      "game": "city"
+    }
+  },
+  "sources": [
+    {
+      "number": "02",
+      "url": "https://www.youtube.com/watch?v=i_1JffPT_H0",
+      "title": "Batman： Arkham City - Riddles - Park Row",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "06",
+      "url": "https://www.youtube.com/watch?v=R-hgP4RgFe0",
+      "title": "Batman： Arkham City - Riddles - Amusement Mile",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "11",
+      "url": "https://www.youtube.com/watch?v=kQ9UH8zDZnQ",
+      "title": "Batman： Arkham City - Riddles - Industrial District",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "16",
+      "url": "https://www.youtube.com/watch?v=i3K2eI0Q-JU",
+      "title": "Batman： Arkham City - Riddles - Subway",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "20",
+      "url": "https://www.youtube.com/watch?v=f_TcU1D0tI8",
+      "title": "Batman： Arkham City - Riddles - The Bowery",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "24",
+      "url": "https://www.youtube.com/watch?v=GQrGpoV5HJc",
+      "title": "Batman： Arkham City - Riddles - Steel Mill",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "28",
+      "url": "https://www.youtube.com/watch?v=vfGwlrBBQjI",
+      "title": "Batman： Arkham City - Riddles - Museum",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    },
+    {
+      "number": "32",
+      "url": "https://www.youtube.com/watch?v=HW4qmF6Hbu0",
+      "title": "Batman： Arkham City - Riddles - Wonder City",
+      "author": "Batman Arkham Videos",
+      "discovery": "YouTube search result title, uploader and chapter list; direct watch-page retrieval unavailable; original watermark retained"
+    }
+  ],
+  "groups": [
+    {
+      "video": "02",
+      "code": 1,
+      "first": 4,
+      "last": 36,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "02",
+      "code": 2,
+      "first": 40,
+      "last": 68,
+      "question": "DA campaign special: Get two votes, for the price of one."
+    },
+    {
+      "video": "02",
+      "code": 3,
+      "first": 72,
+      "last": 104,
+      "question": "BANG! BANG! Order in the court."
+    },
+    {
+      "video": "02",
+      "code": 4,
+      "first": 108,
+      "last": 144,
+      "question": "Who's crazy enough to date this guy?"
+    },
+    {
+      "video": "02",
+      "code": 5,
+      "first": 148,
+      "last": 184,
+      "question": "It's far from PURRFECT, but she calls it home."
+    },
+    {
+      "video": "02",
+      "code": 6,
+      "first": 188,
+      "last": 220,
+      "question": "You've been warned. People aren't the only unstable part of this city."
+    },
+    {
+      "video": "02",
+      "code": 7,
+      "first": 224,
+      "last": 268,
+      "question": "If you find the name, does the Cash come hand in hand?"
+    },
+    {
+      "video": "02",
+      "code": 8,
+      "first": 272,
+      "last": 300,
+      "question": "This den is where the vicious animals take your treasure. Is it theft, if it's already stolen?"
+    },
+    {
+      "video": "02",
+      "code": 9,
+      "first": 304,
+      "last": 332,
+      "question": "Has this flower turned over a new leaf?"
+    },
+    {
+      "video": "02",
+      "code": 10,
+      "first": 336,
+      "last": 392,
+      "question": "I wonder how you can land an appointment with this milliner? Perhaps it would be best to book?"
+    },
+    {
+      "video": "02",
+      "code": 11,
+      "first": 396,
+      "last": 440,
+      "question": "Do you have Strange thoughts? Maybe you should seek help?"
+    },
+    {
+      "video": "02",
+      "code": 12,
+      "first": 444,
+      "last": 496,
+      "question": "I am an actor who can transform a film with the final cut. Who am I?"
+    },
+    {
+      "video": "02",
+      "code": 13,
+      "first": 500,
+      "last": 532,
+      "question": "Six legs went in and only two came out. Where am I?"
+    },
+    {
+      "video": "02",
+      "code": 14,
+      "first": 536,
+      "last": 576,
+      "question": "Acing the chemistry test will illuminate you."
+    },
+    {
+      "video": "06",
+      "code": 15,
+      "first": 4,
+      "last": 56,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "06",
+      "code": 16,
+      "first": 60,
+      "last": 100,
+      "question": "Look out! Can you see where the madness began?"
+    },
+    {
+      "video": "06",
+      "code": 17,
+      "first": 104,
+      "last": 136,
+      "question": "If she is the ROOT of evil, how could anyone be expected to CONTAIN her?"
+    },
+    {
+      "video": "06",
+      "code": 18,
+      "first": 144,
+      "last": 188,
+      "question": "Which acrobat family gambled with their lives, and has now been left to fly solo?"
+    },
+    {
+      "video": "06",
+      "code": 19,
+      "first": 192,
+      "last": 220,
+      "question": "Would an invitation to party like the gods be a bolt out of the blue?"
+    },
+    {
+      "video": "06",
+      "code": 20,
+      "first": 224,
+      "last": 268,
+      "question": "Park in his spot and you may just get a ticket."
+    },
+    {
+      "video": "06",
+      "code": 21,
+      "first": 272,
+      "last": 308,
+      "question": "Always a shining example of justice? Not if you ask me."
+    },
+    {
+      "video": "06",
+      "code": 22,
+      "first": 312,
+      "last": 352,
+      "question": "If you're afraid, don't be scared to crow about it."
+    },
+    {
+      "video": "06",
+      "code": 23,
+      "first": 356,
+      "last": 388,
+      "question": "This place has taken a TURN for the worse. Is it a little BEAR for your tastes?"
+    },
+    {
+      "video": "11",
+      "code": 24,
+      "first": 4,
+      "last": 44,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "11",
+      "code": 25,
+      "first": 48,
+      "last": 84,
+      "question": "Which notorious family keeps talking trash?"
+    },
+    {
+      "video": "11",
+      "code": 26,
+      "first": 88,
+      "last": 124,
+      "question": "Breaking news! Get out while you still can."
+    },
+    {
+      "video": "11",
+      "code": 27,
+      "first": 128,
+      "last": 164,
+      "question": "Air, sea or land. It would be criminal not to use these wise guys, wouldn't it?"
+    },
+    {
+      "video": "11",
+      "code": 28,
+      "first": 168,
+      "last": 204,
+      "question": "Was this parasite ratted out, or does he continue to plague Gotham?"
+    },
+    {
+      "video": "11",
+      "code": 29,
+      "first": 208,
+      "last": 244,
+      "question": "Does Zsasz still pose a threat? This guy called to find out."
+    },
+    {
+      "video": "11",
+      "code": 30,
+      "first": 248,
+      "last": 304,
+      "question": "Did you hear the HOLE story of how Black Mask escaped?"
+    },
+    {
+      "video": "11",
+      "code": 31,
+      "first": 308,
+      "last": 364,
+      "question": "If you're planning on making your mark in Arkham City, you'll need a special kind of realtor."
+    },
+    {
+      "video": "11",
+      "code": 32,
+      "first": 372,
+      "last": 452,
+      "question": "Can you find this cool couple before the romance thaws?"
+    },
+    {
+      "video": "16",
+      "code": 33,
+      "first": 4,
+      "last": 56,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "16",
+      "code": 34,
+      "first": 60,
+      "last": 92,
+      "question": "BOARD at drive-time? I'm not going to broadcast any more clues!"
+    },
+    {
+      "video": "16",
+      "code": 35,
+      "first": 96,
+      "last": 140,
+      "question": "Coming back from the dead is cheating on any day of the week."
+    },
+    {
+      "video": "16",
+      "code": 36,
+      "first": 144,
+      "last": 188,
+      "question": "It's vacation time. Where shall I go? Somewhere venomous?"
+    },
+    {
+      "video": "16",
+      "code": 37,
+      "first": 192,
+      "last": 264,
+      "question": "This Killer was collared, but is he now on the loose?"
+    },
+    {
+      "video": "20",
+      "code": 38,
+      "first": 4,
+      "last": 72,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "20",
+      "code": 39,
+      "first": 80,
+      "last": 112,
+      "question": "My intellect towers above yours, Batman. I wonder if you'Il ever solve this riddle?"
+    },
+    {
+      "video": "20",
+      "code": 40,
+      "first": 116,
+      "last": 168,
+      "question": "The feuding families always sit down to a good meal. Will there be a massacre?"
+    },
+    {
+      "video": "20",
+      "code": 41,
+      "first": 172,
+      "last": 204,
+      "question": "Cowboy, trilby or bowler? Hats off to anyone brave enough to try one on."
+    },
+    {
+      "video": "20",
+      "code": 42,
+      "first": 208,
+      "last": 236,
+      "question": "Do you need to look SHARP to campaign for change?"
+    },
+    {
+      "video": "20",
+      "code": 43,
+      "first": 240,
+      "last": 276,
+      "question": "Was the writing on the wall from the moment you entered?"
+    },
+    {
+      "video": "20",
+      "code": 44,
+      "first": 280,
+      "last": 316,
+      "question": "Arkham City is not the place to be rich or famous. Bruce Wayne has never felt quite so wanted."
+    },
+    {
+      "video": "20",
+      "code": 45,
+      "first": 324,
+      "last": 364,
+      "question": "You're a dummy if you don't try and buy one."
+    },
+    {
+      "video": "20",
+      "code": 46,
+      "first": 368,
+      "last": 408,
+      "question": "Studies have shown that if you're not on your best behavior, you'll come out crazy. How Strange?"
+    },
+    {
+      "video": "20",
+      "code": 47,
+      "first": 412,
+      "last": 488,
+      "question": "You don't want to be caught off-guard in this place, do you?"
+    },
+    {
+      "video": "20",
+      "code": 48,
+      "first": 492,
+      "last": 532,
+      "question": "You don't have to be crazy to shop here, do you?"
+    },
+    {
+      "video": "24",
+      "code": 49,
+      "first": 4,
+      "last": 60,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "24",
+      "code": 50,
+      "first": 68,
+      "last": 100,
+      "question": "They say the more things change the more they stay the same. Which dummy said that?"
+    },
+    {
+      "video": "24",
+      "code": 51,
+      "first": 104,
+      "last": 200,
+      "question": "Once assembled, do these two become one again?"
+    },
+    {
+      "video": "24",
+      "code": 52,
+      "first": 204,
+      "last": 252,
+      "question": "Surely someone was clowning around when they qualified this person?"
+    },
+    {
+      "video": "24",
+      "code": 53,
+      "first": 260,
+      "last": 304,
+      "question": "Do you really need to hammer it home? Everyone knows Harley is stupid."
+    },
+    {
+      "video": "24",
+      "code": 54,
+      "first": 308,
+      "last": 356,
+      "question": "Who can BOYLE and Freeze at the same time?"
+    },
+    {
+      "video": "24",
+      "code": 55,
+      "first": 360,
+      "last": 440,
+      "question": "What's a funnyman without his box of tricks?"
+    },
+    {
+      "video": "28",
+      "code": 56,
+      "first": 4,
+      "last": 68,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "28",
+      "code": 57,
+      "first": 72,
+      "last": 108,
+      "question": "Who's in control here? The puppet or the puppeteer?"
+    },
+    {
+      "video": "28",
+      "code": 58,
+      "first": 112,
+      "last": 152,
+      "question": "Was he framed? Or does it run in the family?"
+    },
+    {
+      "video": "28",
+      "code": 59,
+      "first": 156,
+      "last": 212,
+      "question": "Have Joker's pets laughed themselves to death, or just eaten too much?"
+    },
+    {
+      "video": "28",
+      "code": 60,
+      "first": 216,
+      "last": 260,
+      "question": "Brothers in arms. Brothers at war. Who's right? Who's... Left?"
+    },
+    {
+      "video": "28",
+      "code": 61,
+      "first": 264,
+      "last": 332,
+      "question": "See no evil, hear no evil, speak no evil, or there will be explosive consequences."
+    },
+    {
+      "video": "28",
+      "code": 62,
+      "first": 336,
+      "last": 396,
+      "question": "Can anyone TOP the Penguin when it comes to the full VIP treatment?"
+    },
+    {
+      "video": "28",
+      "code": 63,
+      "first": 400,
+      "last": 424,
+      "question": "How do you protect yourself when it's raining bullets?"
+    },
+    {
+      "video": "32",
+      "code": 64,
+      "first": 4,
+      "last": 96,
+      "question": "This question can only be answered from an unusual perspective. Can you get yourself there?"
+    },
+    {
+      "video": "32",
+      "code": 65,
+      "first": 100,
+      "last": 144,
+      "question": "Crime is a global issue. You'll never stop it, Batman."
+    },
+    {
+      "video": "32",
+      "code": 66,
+      "first": 148,
+      "last": 192,
+      "question": "Read all about it! Is this a sign of the Times?"
+    },
+    {
+      "video": "32",
+      "code": 67,
+      "first": 196,
+      "last": 240,
+      "question": "Wanted: Dead... and alive?"
+    },
+    {
+      "video": "32",
+      "code": 68,
+      "first": 244,
+      "last": 292,
+      "question": "Do these demonic twins pose a threat?"
+    },
+    {
+      "video": "32",
+      "code": 69,
+      "first": 296,
+      "last": 416,
+      "question": "Where can you get a wonderful view of the past?"
+    }
+  ],
+  "counts": {
+    "cityNarrative": 61,
+    "cityPerspective": 8,
+    "combinedNarrative": 103,
+    "combinedPerspective": 17,
+    "images": 225,
+    "clips": 17
+  },
+  "coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ]
+}

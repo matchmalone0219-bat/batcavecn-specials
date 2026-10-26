@@ -1,0 +1,61 @@
+{
+  "checked": "2026-10-26",
+  "sources": [
+    {
+      "game": "asylum",
+      "file": "riddler-scans/asylum-scan-feedback.m4a",
+      "video": "01",
+      "sourceStart": 609.42,
+      "duration": 0.95,
+      "sha256": "1df79142221fc478b5f1058e72a5ef12b92f700e6fbb61ee73ee3fe9561c090f",
+      "originalSHA256": "22d26ddbe1e2e233059d6595cf0f97361a46c25bb96cfc5e64863e9456c1cb0c",
+      "kind": "原片环境分析与解谜反馈短音效",
+      "processing": "截取原声、单声道AAC、15ms起始及40ms结尾淡化；保留同期环境声音。"
+    },
+    {
+      "game": "city",
+      "file": "riddler-scans/city-scan-feedback.m4a",
+      "video": "city-02",
+      "sourceStart": 62.35,
+      "duration": 1.05,
+      "sha256": "ec34d285f74660c16ccce5e6a934d78c6f40975df285b59b1ddf5daa70ab2d9f",
+      "originalSHA256": "5396b199cf7d15b61c049688a4dd7db8df7e345fd7040cab4ffb7190752c79e8",
+      "kind": "原片环境分析与解谜反馈短音效",
+      "processing": "截取原声、单声道AAC、15ms起始及40ms结尾淡化；保留同期环境声音。"
+    },
+    {
+      "game": "knight",
+      "file": "riddler-scans/knight-scan-feedback.m4a",
+      "video": "knight-01",
+      "sourceStart": 793.1,
+      "duration": 1.05,
+      "sha256": "058733945345765baa745da8e3962b0138e0037160fc37e3b3ee74c179a3d621",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9",
+      "kind": "原片环境分析与解谜反馈短音效",
+      "processing": "截取原声、单声道AAC、15ms起始及40ms结尾淡化；保留同期环境声音。"
+    }
+  ],
+  "reference": {
+    "asylum": {
+      "video": "01",
+      "range": [
+        609.4,
+        612.5
+      ]
+    },
+    "city": {
+      "video": "city-02",
+      "range": [
+        62.3,
+        66
+      ]
+    },
+    "knight": {
+      "video": "knight-01",
+      "range": [
+        793,
+        795
+      ]
+    }
+  }
+}

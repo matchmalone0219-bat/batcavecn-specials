@@ -29,7 +29,10 @@ jobs:
         run: |
           python3 verify.py
           python3 verify-subtitles.py
+          python3 verify-soul.py
           python3 verify-easter-eggs.py
+          python3 verify-riddler.py
+          python3 verify-riddler-scan.py
           python3 verify-artbooks.py
           python3 verify-conroy.py
           python3 verify-build.py
@@ -48,6 +51,8 @@ jobs:
           node verify-opening.js
           python3 verify-opening.py
           node --check app.js
+          node --check arkham-soul.js
+          node --check arkham-riddler-scan.js
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5

@@ -1,0 +1,1997 @@
+{
+  "date": "2026-10-26",
+  "videos": {
+    "knight-01": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/01 - Batman： Arkham Knight - Riddler Trophies - Bleake Island.mp4",
+      "duration": 3876.794,
+      "size": 1641846218,
+      "sha256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    },
+    "knight-02-part": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/02 - Batman： Arkham Knight - Riddler Trophies - Miagani Island.f399.mp4.part",
+      "duration": 3627.633333,
+      "size": 770020949,
+      "sha256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight",
+      "partial": true,
+      "firstUndecodableSample": 1984,
+      "lastDecodedSample": 1976
+    },
+    "knight-03": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/03 - Batman： Arkham Knight - Riddler Trophies - Founders' Island.mp4",
+      "duration": 3593.014,
+      "size": 1825649996,
+      "sha256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    },
+    "knight-04": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/04 - Batman： Arkham Knight - Riddler Trophies - Stagg Enterprises Airships.mp4",
+      "duration": 2196.334,
+      "size": 795492967,
+      "sha256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    },
+    "knight-05": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/05 - Batman： Arkham Knight - Riddler Trophies - Panessa Studios.mp4",
+      "duration": 2082.414,
+      "size": 662114246,
+      "sha256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    },
+    "knight-06": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Arkham_Knight_Collectibles_720p/06 - Batman： Arkham Knight - Riddler Trophies - Arkham Knight HQ.mp4",
+      "duration": 2058.674,
+      "size": 598665755,
+      "sha256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837",
+      "width": 1920,
+      "height": 1080,
+      "codec": "AV1",
+      "fps": "60/1",
+      "game": "knight"
+    }
+  },
+  "riddles": [
+    {
+      "id": "knight-clocktower-empty-suit",
+      "title": "加入使命的代价",
+      "game": "knight",
+      "region": "布莱克岛 · 钟楼",
+      "english": "Joining your mission can come with a cost, this empty reminder shows just what she lost.",
+      "translation": "加入你的使命也有代价；这件空置的纪念物，诉说着她失去的一切。",
+      "scene": "knight-clocktower-empty-suit-scene",
+      "target": "knight-clocktower-empty-suit-target",
+      "solution": "在钟楼用遥控骇入装置打开隐藏陈列柜，扫描芭芭拉留下的蝙蝠女战衣。empty指如今无人穿着的制服，cost则指她在义警生涯中付出的身体代价。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-oracle"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼：加入你的使命也有代价；这件空置的纪念物，诉说着她失去的一切。",
+      "video": "knight-01",
+      "secretNumber": 1,
+      "comic": {
+        "book": "Batman: The Killing Joke（1988）；Suicide Squad #38（1990）",
+        "body": "《致命玩笑》中芭芭拉遭小丑枪击，此后以神谕身份继续行动。她的身份转变让空战衣同时成为受伤经历与另一种英雄生涯的纪念。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-cash-souvenir",
+      "title": "铁钩旁的旧纪念物",
+      "game": "knight",
+      "region": "布莱克岛 · GCPD接待台",
+      "english": "A souvenir from a previous life, why hold with a hand when a hook will suffice?",
+      "translation": "前一段人生留下的纪念品；既然铁钩够用，何必用手来拿？",
+      "scene": "knight-cash-souvenir-scene",
+      "target": "knight-cash-souvenir-target",
+      "solution": "扫描卡什接待桌上的阿卡姆纪念杯，并将他与桌面一同收入取景。previous life连接他先前在疯人院的工作，hook点出他失去手后使用的铁钩。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-living-hell"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD接待台：前一段人生留下的纪念品；既然铁钩够用，何必用手来拿？",
+      "video": "knight-01",
+      "secretNumber": 2,
+      "comic": {
+        "book": "Batman: Arkham Asylum—Living Hell（2003）",
+        "body": "Aaron Cash也出现在《疯人院：人间地狱》中。这道题使用游戏系列里他的警卫经历与铁钩形象，把熟悉的人物藏进一件日常用品。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-lighthouse-bones",
+      "title": "警示灯下的白骨",
+      "game": "knight",
+      "region": "布莱克岛 · 灯塔",
+      "english": "Bones stripped bare beneath a warning light, pay heed, seafarers, not to feel his bite.",
+      "translation": "警示灯下只剩白骨；航海者当心，别尝到他的利齿。",
+      "scene": "knight-lighthouse-bones-scene",
+      "target": "knight-lighthouse-bones-target",
+      "solution": "进入ACE化工厂附近的灯塔，扫描地板上堆积的骸骨。warning light把位置指向灯塔，bite把这处危险藏身处与杀手鳄的捕食意象相连。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-croc-profile"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 灯塔：警示灯下只剩白骨；航海者当心，别尝到他的利齿。",
+      "video": "knight-01",
+      "secretNumber": 3,
+      "comic": {
+        "book": "杀手鳄：鳄鱼皮肤、利齿与水栖生活",
+        "body": "漫画中的Waylon Jones以爬行动物般的外貌、强壮体格与锐利牙齿著称，长期活动于哥谭的水道和下水道。游戏让骨堆与海边位置承担人物提示。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-mercenary-file",
+      "title": "谁该排在通缉档案最上面",
+      "game": "knight",
+      "region": "布莱克岛 · GCPD通讯室",
+      "english": "Business is best when Bats need killing, a mercenary's file should receive top billing.",
+      "translation": "猎杀蝙蝠时生意最好；这位雇佣兵的档案，该列在最醒目的位置。",
+      "scene": "knight-mercenary-file-scene",
+      "target": "knight-mercenary-file-target",
+      "solution": "在GCPD通讯室扫描白板上的丧钟照片。mercenary对应他的受雇杀手身份，top billing既是优先列名，也带着接单收费的意味。白板要在相应剧情推进后才出现这张照片。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-deathstroke"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD通讯室：猎杀蝙蝠时生意最好；这位雇佣兵的档案，该列在最醒目的位置。",
+      "video": "knight-01",
+      "secretNumber": 4,
+      "comic": {
+        "book": "The New Teen Titans #2（1980）",
+        "body": "Slade Wilson以丧钟身份在《新少年泰坦》#2登场，核心身份是能力出众的雇佣兵与刺客。游戏把他带入蝙蝠侠的敌人网络，照片则把人物身份压缩成一张案卷。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-deacon-mission",
+      "title": "圣人还是罪人的庇护所",
+      "game": "knight",
+      "region": "布莱克岛 · 唐人街",
+      "english": "An open house for bed and dinner, is this sanctuary run by saint or sinner?",
+      "translation": "这里向食宿无着者敞开大门；经营庇护所的，究竟是圣人还是罪人？",
+      "scene": "knight-deacon-mission-scene",
+      "target": "knight-deacon-mission-target",
+      "solution": "扫描写着The Deacon’s Mission的布道所门面。食宿与庇护的承诺构成表层答案，saint或sinner则反问布莱克法尔的宗教领袖面目。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-cult"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 唐人街：这里向食宿无着者敞开大门；经营庇护所的，究竟是圣人还是罪人？",
+      "video": "knight-01",
+      "secretNumber": 5,
+      "comic": {
+        "book": "Batman: The Cult #1—4（1988）",
+        "body": "Deacon Blackfire是《蝙蝠侠：邪教》的核心反派。他以宗教话术组织追随者，利用社会边缘群体扩大势力；门面的慈善形象正好承载这层危险。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-ryder-research",
+      "title": "记者在哪里寻找污点",
+      "game": "knight",
+      "region": "布莱克岛 · GCPD采访室",
+      "english": "Always looking for names to besmirch, where does this newsman conduct his research?",
+      "translation": "总想找个名字抹黑，这位新闻人在哪里搜集材料？",
+      "scene": "knight-ryder-research-scene",
+      "target": "knight-ryder-research-target",
+      "solution": "扫描GCPD采访室内杰克·莱德使用的办公桌。newsman点出记者身份，research指桌上的工作材料；题目把他的好事性格藏在警局的日常空间中。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-creeper-book",
+        "dc-jack-arkham"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD采访室：总想找个名字抹黑，这位新闻人在哪里搜集材料？",
+      "video": "knight-01",
+      "secretNumber": 6,
+      "comic": {
+        "book": "Showcase #73（1968）；The Creeper by Steve Ditko",
+        "body": "杰克·莱德的漫画身份与怪客Creeper相连，最早出现在史蒂夫·迪特科的《Showcase》#73。这里呈现的是他作为新闻人的一面。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-distant-asylum",
+      "title": "再也关不住疯狂的地方",
+      "game": "knight",
+      "region": "布莱克岛 · 海岸观景处",
+      "english": "Overgrown, abandoned, the inmates set free, madness could never be held in me.",
+      "translation": "荒草蔓生，院落废弃，病人重获自由；疯狂终究无法被我囚禁。",
+      "scene": "knight-distant-asylum-scene",
+      "target": "knight-distant-asylum-target",
+      "solution": "站在海边高处，将镜头对准远处的阿卡姆疯人院并扫描。题目中的me是一整座机构；inmates与abandoned把景观题变成对系列起点的回望。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-arkham-morrison"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 海岸观景处：荒草蔓生，院落废弃，病人重获自由；疯狂终究无法被我囚禁。",
+      "video": "knight-01",
+      "secretNumber": 7,
+      "comic": {
+        "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
+        "body": "格兰特·莫里森与戴夫·麦基恩的《阿卡姆疯人院》把建筑、历史与病人的精神世界纠缠在一起。《骑士》用一座远景中的旧院，唤回这个囚禁疯狂的象征。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-gcpd-signal",
+      "title": "希望从哪里照向夜空",
+      "game": "knight",
+      "region": "布莱克岛 · GCPD屋顶",
+      "english": "Hope shines brightly in a city this dark, find the source of that signal and you'll soon hit your mark.",
+      "translation": "黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能击中目标。",
+      "scene": "knight-gcpd-signal-scene",
+      "target": "knight-gcpd-signal-target",
+      "solution": "登上GCPD屋顶，扫描蝙蝠信号灯本体。source要求寻找投射光束的装置，而非只看天上的蝙蝠标志；hit your mark同时指找到正确目标。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-debuts"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD屋顶：黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能击中目标。",
+      "video": "knight-01",
+      "secretNumber": 8,
+      "comic": {
+        "book": "Detective Comics #60（1942）",
+        "body": "蝙蝠信号在《侦探漫画》#60点亮夜空，此后成为警方呼叫蝙蝠侠的标志。谜面把实际用途与希望的象征叠在一起。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-langstrom-whiteboard",
+      "title": "医生失败的夜间视觉",
+      "game": "knight",
+      "region": "布莱克岛 · 朗斯特罗姆实验室",
+      "english": "A bat uses these to see at night, the doc's didn't work and his cure caused a fright.",
+      "translation": "蝙蝠靠它们在夜间感知；医生的那一双出了问题，疗法却带来了惊吓。",
+      "scene": "knight-langstrom-whiteboard-scene",
+      "target": "knight-langstrom-whiteboard-target",
+      "solution": "进入柯克·朗斯特罗姆的地下实验室，扫描画有耳部结构与蝙蝠草图的白板。these指耳朵与回声定位；医生试图治疗听觉问题，却使自己变成了人蝠。",
+      "sources": [
+        "bav-knight-riddles-01",
+        "dc-debuts"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 朗斯特罗姆实验室：蝙蝠靠它们在夜间感知；医生的那一双出了问题，疗法却带来了惊吓。",
+      "video": "knight-01",
+      "secretNumber": 9,
+      "comic": {
+        "book": "Detective Comics #400（1970）",
+        "body": "人蝠在《侦探漫画》#400登场。科学家朗斯特罗姆借蝙蝠生理研究改变自身，构成这位反派的基础设定；白板把实验过程变成可扫描的证据。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-masquerade-invitation",
+      "title": "谁在舞会上扮成了你",
+      "game": "knight",
+      "region": "布莱克岛 · 钟楼内室",
+      "english": "I bet you weren't invited to this lavish do, I wonder how many went dressed up as you?",
+      "translation": "我猜你没受邀参加这场盛会；真想知道，有多少人装扮成你赴宴？",
+      "scene": "knight-masquerade-invitation-scene",
+      "target": "knight-masquerade-invitation-target",
+      "solution": "扫描钟楼房间里装框的化装舞会海报。dressed up同时指盛装赴宴与角色扮装，谜语人用蝙蝠侠的面具身份开了个玩笑。",
+      "sources": [
+        "bav-knight-riddles-01"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼内室：我猜你没受邀参加这场盛会；真想知道，有多少人装扮成你赴宴？",
+      "video": "knight-01",
+      "secretNumber": 10,
+      "context": "海报属于游戏里的社交活动布景，面具图案与化装舞会名称共同构成解题线索。"
+    },
+    {
+      "id": "knight-lady-gotham",
+      "title": "城市中央的希望灯塔",
+      "game": "knight",
+      "region": "布莱克岛 · 海湾",
+      "english": "She stands at our center that we may not weaken, a symbol of hope, a towering beacon.",
+      "translation": "她伫立中央，使我们不致软弱；她是希望的象征，高耸的灯塔。",
+      "scene": "knight-lady-gotham-scene",
+      "target": "knight-lady-gotham-target",
+      "solution": "从海湾边能看见全貌的位置扫描哥谭女神像。she指女性雕像，center指它在几座岛之间的位置，beacon将高大的城市地标比作精神灯塔。",
+      "sources": [
+        "bav-knight-riddles-01"
+      ],
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 海湾：她伫立中央，使我们不致软弱；她是希望的象征，高耸的灯塔。",
+      "video": "knight-01",
+      "secretNumber": 11,
+      "context": "哥谭女神像是《阿卡姆骑士》海湾的重要地标。扫描时让整座雕像处于画面内，避免被近处建筑遮住。"
+    },
+    {
+      "id": "knight-cat-collar",
+      "title": "怎样让猫戴上项圈",
+      "game": "knight",
+      "region": "米亚加尼岛 · 平克尼孤儿院",
+      "english": "It doesn't take much to tame a Cat, make them wear this, and then call the bat.",
+      "translation": "驯服一只猫不费多少工夫：让她戴上这个，再把蝙蝠叫来。",
+      "scene": "knight-cat-collar-scene",
+      "target": "knight-cat-collar-target",
+      "solution": "扫描猫女脖子上的炸弹项圈。题目把Cat与bat分别写成猫女和蝙蝠侠的称呼；项圈既是控制宠物的意象，也是谜语人迫使两人参与试炼的装置。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-catwoman-profile"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院：驯服一只猫不费多少工夫：让她戴上这个，再把蝙蝠叫来。",
+      "video": "knight-02-part",
+      "secretNumber": 12,
+      "comic": {
+        "book": "Batman #1（1940）",
+        "body": "猫女以神秘珠宝窃贼The Cat的身份在《蝙蝠侠》#1登场，之后长期在敌手与盟友之间游移。《骑士》用人质项圈将她与蝙蝠侠的合作变成解谜条件。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-elliot-hospital",
+      "title": "韦恩家朋友的纪念病房",
+      "game": "knight",
+      "region": "米亚加尼岛 · 埃利奥特纪念医院",
+      "english": "Friends of the Waynes though not as wealthy, their memorial ward keeps Gotham healthy.",
+      "translation": "他们是韦恩家的朋友，财富略逊一筹；以他们命名的病房，照顾着哥谭的健康。",
+      "scene": "knight-elliot-hospital-scene",
+      "target": "knight-elliot-hospital-target",
+      "solution": "扫描Elliot Memorial Hospital的正面招牌。Waynes与friends把两家人的交往带进谜面，memorial ward则直接指向埃利奥特纪念医院。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-hush-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 埃利奥特纪念医院：他们是韦恩家的朋友，财富略逊一筹；以他们命名的病房，照顾着哥谭的健康。",
+      "video": "knight-02-part",
+      "secretNumber": 13,
+      "comic": {
+        "book": "Batman: Hush（2002—2003）；Detective Comics #846—850：Heart of Hush（2008）",
+        "body": "托马斯·埃利奥特是布鲁斯的儿时朋友，也是缄默Hush。《缄默之心》进一步展开他的家庭与嫉恨；医院名称把这个姓氏留在城市公共空间里。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-wonder-tower",
+      "title": "高塔上的Strange之人",
+      "game": "knight",
+      "region": "米亚加尼岛 · 眺望奇迹塔",
+      "english": "The highest building in Arkham City, A Strange man worked here, who took no pity.",
+      "translation": "阿卡姆之城最高的建筑里，曾有一位毫无怜悯的Strange之人工作。",
+      "scene": "knight-wonder-tower-scene",
+      "target": "knight-wonder-tower-target",
+      "solution": "从米亚加尼岛高处扫描远处的奇迹塔。Strange既可理解成古怪，也直接拼出雨果·斯特兰奇的姓；答案承接《阿卡姆之城》的指挥中枢。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-strange-debut"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 眺望奇迹塔：阿卡姆之城最高的建筑里，曾有一位毫无怜悯的Strange之人工作。",
+      "video": "knight-02-part",
+      "secretNumber": 14,
+      "comic": {
+        "book": "Detective Comics #36（1940）",
+        "body": "雨果·斯特兰奇在《侦探漫画》#36登场，是蝙蝠侠早期的科学型敌人。《之城》赋予他管理监狱城区的权力，《骑士》的远景谜题继续引用这段游戏历史。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-wayne-family-portrait",
+      "title": "塔楼里更幸福的时光",
+      "game": "knight",
+      "region": "米亚加尼岛 · 韦恩塔办公室",
+      "english": "The Prince of Gotham sits high in his tower, yet this picture recalls a happier hour.",
+      "translation": "哥谭的王子高坐塔楼，这幅画却留着更幸福的时光。",
+      "scene": "knight-wayne-family-portrait-scene",
+      "target": "knight-wayne-family-portrait-target",
+      "solution": "进入韦恩塔顶层办公室，扫描托马斯、玛莎与年幼布鲁斯的全家福。tower与Prince指向如今的企业继承人，happier hour将视线拉回失去双亲以前。",
+      "sources": [
+        "bav-knight-riddles-02",
+        "dc-origin-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 韦恩塔办公室：哥谭的王子高坐塔楼，这幅画却留着更幸福的时光。",
+      "video": "knight-02-part",
+      "secretNumber": 15,
+      "comic": {
+        "book": "Detective Comics #33（1939）",
+        "body": "布鲁斯失去父母的起源故事在《侦探漫画》#33展开。全家福补上这场创伤之前的家庭形象，让高塔中的财富与画里的亲情形成呼应。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-bane-shipping-crate",
+      "title": "巨汉没能运回家的行李",
+      "game": "knight",
+      "region": "创始人岛 · 亚当斯港",
+      "english": "Far away the deflated brute roams, leaving behind what he couldn't ship home.",
+      "translation": "泄了气的巨汉远行他乡，留下那些无法运回家的东西。",
+      "scene": "knight-bane-shipping-crate-scene",
+      "target": "knight-bane-shipping-crate-target",
+      "solution": "进入港口的集装箱，用蝙蝠爪拉开木箱面板，扫描里面带红色管路的贝恩装备。deflated把体形消退与泄气相连，ship既是船运，也呼应眼前的货箱。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-bane"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 亚当斯港：泄了气的巨汉远行他乡，留下那些无法运回家的东西。",
+      "video": "knight-03",
+      "secretNumber": 22,
+      "comic": {
+        "book": "Batman: Vengeance of Bane #1（1993）",
+        "body": "贝恩在《贝恩的复仇》#1登场，Venom药物带来的力量与体形变化成为他的标志。游戏让留下的装备代替本人出现，管路便是识别这位巨汉的关键。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-saint-dumas-tomb",
+      "title": "古老教团的守护圣人",
+      "game": "knight",
+      "region": "创始人岛 · 教堂墓地",
+      "english": "An ancient order, lust for power consumed, their patron saint is here entombed.",
+      "translation": "古老教团被权力欲吞噬；他们的守护圣人，长眠于此。",
+      "scene": "knight-saint-dumas-tomb-scene",
+      "target": "knight-saint-dumas-tomb-target",
+      "solution": "扫描墓地内写有Saint Dumas的墓碑。order同时可表示秩序与宗教教团，patron saint要求寻找圣徒之名；墓碑上的文字提供答案。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-azrael-sword",
+        "dc-azrael-lane"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 教堂墓地：古老教团被权力欲吞噬；他们的守护圣人，长眠于此。",
+      "video": "knight-03",
+      "secretNumber": 23,
+      "comic": {
+        "book": "Batman: Sword of Azrael #1—4（1992）；Michael Lane的阿兹拉尔传承",
+        "body": "《阿兹拉尔之剑》以Jean-Paul Valley和圣杜马教团展开故事。游戏中的阿兹拉尔是Michael Lane；漫画中的Lane与纯洁教团相连，游戏则重组了人物和教团的关系。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-calendar-hideout",
+      "title": "万圣夜缺席的日历杀手",
+      "game": "knight",
+      "region": "创始人岛 · 隐藏房间",
+      "english": "He saved the date! All Hallow's Eve! But this calendar killer took his leave.",
+      "translation": "他记住了日期——万圣夜！可这位日历杀手，已经离开。",
+      "scene": "knight-calendar-hideout-scene",
+      "target": "knight-calendar-hideout-target",
+      "solution": "进入隐蔽房间，扫描摆着日历、南瓜、蜡烛与照片的桌面。saved the date既是记下日期，也像一张节日邀约；房间的十月日历与万圣节陈设指向日历人。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-calendar",
+        "dc-long-halloween-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 隐藏房间：他记住了日期——万圣夜！可这位日历杀手，已经离开。",
+      "video": "knight-03",
+      "secretNumber": 24,
+      "comic": {
+        "book": "Detective Comics #259（1958）；Batman: The Long Halloween（1996—1997）",
+        "body": "Julian Day按节日安排犯罪；《漫长的万圣节》又让日历人成为解释节日杀手的人物。游戏房间以日期和节庆物件延续这种执念。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-distant-wayne-manor",
+      "title": "孤儿的豪宅与狂欢",
+      "game": "knight",
+      "region": "创始人岛 · 海岸高处",
+      "english": "A million dollar home for a spoilt child, his parents are dead but his parties are wild.",
+      "translation": "娇惯孩子住在百万豪宅里；父母虽已离世，派对却依旧狂放。",
+      "scene": "knight-distant-wayne-manor-scene",
+      "target": "knight-distant-wayne-manor-target",
+      "solution": "在临海高处向远方山坡上的韦恩庄园扫描。parents are dead揭开布鲁斯的家庭背景，wild parties则挖苦他在公众面前扮演的富家浪子。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-origin-history",
+        "dc-batman-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 海岸高处：娇惯孩子住在百万豪宅里；父母虽已离世，派对却依旧狂放。",
+      "video": "knight-03",
+      "secretNumber": 25,
+      "comic": {
+        "book": "Detective Comics #33（1939）；Batman: Year One（1987）",
+        "body": "失去父母构成布鲁斯成为蝙蝠侠的起点；《元年》展示他怎样经营公众视野中的富豪形象。这道题同时使用家族住宅和社交假面。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-cobblepot-manor",
+      "title": "企鹅旧巢的破败模样",
+      "game": "knight",
+      "region": "创始人岛 · 科波特旧宅",
+      "english": "This tumbledown ruin's not looking its best, what do you expect from the Penguin's old nest?",
+      "translation": "这处残垣断壁早已风光不再；企鹅的旧巢，你还期待怎样的气派？",
+      "scene": "knight-cobblepot-manor-scene",
+      "target": "knight-cobblepot-manor-target",
+      "solution": "扫描科波特家族旧宅的正面，画面包括上方的家族标识与残破建筑。nest借用鸟巢指企鹅人的家，ruin让宅邸衰败成为辨认线索。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-penguin-family"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 科波特旧宅：这处残垣断壁早已风光不再；企鹅的旧巢，你还期待怎样的气派？",
+      "video": "knight-03",
+      "secretNumber": 26,
+      "comic": {
+        "book": "Penguin: Pain and Prejudice（2011—2012）",
+        "body": "《企鹅人：痛苦与偏见》把奥斯瓦尔德的家庭出身、母亲与兄长关系放到叙事中心。旧宅属于游戏中的家族痕迹，也呼应漫画反复书写的阶层与家庭创伤。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-batmobile-steed",
+      "title": "黑暗骑士需要多少马力",
+      "game": "knight",
+      "region": "创始人岛 · 街道",
+      "english": "Crusaders of old had a trusty steed. How much horsepower does a Dark Knight need?",
+      "translation": "古时的远征骑士都有可靠坐骑；黑暗骑士，又需要多少马力？",
+      "scene": "knight-batmobile-steed-scene",
+      "target": "knight-batmobile-steed-target",
+      "solution": "离开驾驶座，站在蝙蝠车旁将车身完整扫描。steed是骑士的坐骑，horsepower则把马换成发动机；Dark Knight的Knight正好连接两种时代。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-batmobile-history"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 街道：古时的远征骑士都有可靠坐骑；黑暗骑士，又需要多少马力？",
+      "video": "knight-03",
+      "secretNumber": 27,
+      "context": "作者在创始人岛演示这道题；扫描目标随蝙蝠车移动，并非固定在岛上的某幢建筑。",
+      "comic": {
+        "book": "Detective Comics #48（1941）",
+        "body": "早期带蝙蝠装饰的专用座驾见于《侦探漫画》#48，此后外观与装备不断变化。《骑士》把车辆提升为主要行动工具，谜面也让它成为英雄的现代坐骑。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-gothcorp-sign",
+      "title": "改变他一生的冰冷公司",
+      "game": "knight",
+      "region": "创始人岛 · GothCorp大楼",
+      "english": "This cold corporation changed his life forever, curing his wife now a chronic endeavor.",
+      "translation": "这家冰冷的公司永远改变了他；治好妻子，成了漫长无尽的事业。",
+      "scene": "knight-gothcorp-sign-scene",
+      "target": "knight-gothcorp-sign-target",
+      "solution": "扫描GothCorp公司的发光标志。cold同时指低温研究与冷酷逐利；wife把答案连接到维克多·弗里斯为诺拉寻找疗法的经历。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-freeze"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · GothCorp大楼：这家冰冷的公司永远改变了他；治好妻子，成了漫长无尽的事业。",
+      "video": "knight-03",
+      "secretNumber": 28,
+      "comic": {
+        "book": "Batman #121（1959）；动画Heart of Ice（1992）",
+        "body": "急冻人的漫画前身是《蝙蝠侠》#121中的Mr. Zero。诺拉、GothCorp与冷冻事故构成的悲剧背景，则由1992年动画《冰之心》塑造，之后影响其他版本；公司招牌沿用了这组背景。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-grundy-gramophone",
+      "title": "七天轮回后仍响的歌",
+      "game": "knight",
+      "region": "创始人岛 · 地下纪念角",
+      "english": "He lives and dies in seven days, this beast you've tamed but his song still plays.",
+      "translation": "他在七日之中生死轮回；你已制服这头巨兽，他的歌却仍在播放。",
+      "scene": "knight-grundy-gramophone-scene",
+      "target": "knight-grundy-gramophone-target",
+      "solution": "找到地下通道旁摆着通缉像、蜡烛与留声机的纪念角，扫描整处陈设。seven days指所罗门·格兰迪童谣按星期排列的生死经历，song still plays则点出留声机。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-grundy"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 地下纪念角：他在七日之中生死轮回；你已制服这头巨兽，他的歌却仍在播放。",
+      "video": "knight-03",
+      "secretNumber": 29,
+      "comic": {
+        "book": "All-American Comics #61（1944）",
+        "body": "所罗门·格兰迪的名字来自童谣，漫画把他塑造成反复死而复生的巨人。谜面中的you’ve tamed又回望蝙蝠侠在《阿卡姆之城》与他的战斗。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-circus-of-strange",
+      "title": "疯狂马戏团里的猪教授",
+      "game": "knight",
+      "region": "创始人岛 · 漂亮娃娃会所",
+      "english": "Roll up! Roll up! For the circus of strange, this porcine professor is clearly deranged.",
+      "translation": "快来看，快来看！奇异马戏团开场，这位猪脸教授显然已陷入疯狂。",
+      "scene": "knight-circus-of-strange-scene",
+      "target": "knight-circus-of-strange-target",
+      "solution": "进入Pretty Dolls Parlor地下室，扫描Circus of Strange海报。Roll up模仿马戏团揽客的吆喝，porcine意为猪一般的，直接点出猪面教授Pyg。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-pyg-creators",
+        "dc-pyg-profile"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 漂亮娃娃会所：快来看，快来看！奇异马戏团开场，这位猪脸教授显然已陷入疯狂。",
+      "video": "knight-03",
+      "secretNumber": 30,
+      "comic": {
+        "book": "Batman #666（2007）；Batman and Robin（2009）早期故事",
+        "body": "Pyg先在《蝙蝠侠》#666出现，随后在格兰特·莫里森的《蝙蝠侠与罗宾》中成为重要敌人，怪异马戏团与Dollotron也是他那组恐怖形象的一部分。海报把漫画中的团体名称嵌进游戏现场。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-one-fishing-line",
+      "title": "只有一根线的垂钓",
+      "game": "knight",
+      "region": "创始人岛 · 海边低层通道",
+      "english": "A psycho killer's grim design, what has an angle but just one line?",
+      "translation": "精神变态杀手的阴森布置：什么有个角，却只有一根线？",
+      "scene": "knight-one-fishing-line-scene",
+      "target": "knight-one-fishing-line-target",
+      "solution": "扫描被摆成垂钓姿势的两具遗体。angle既有角度之义，也能表示垂钓；line在这里是钓线。谜面要求读懂杀手布置的场景，而非寻找墙上的几何图形。",
+      "sources": [
+        "bav-knight-riddles-03",
+        "dc-zsasz"
+      ],
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 海边低层通道：精神变态杀手的阴森布置：什么有个角，却只有一根线？",
+      "video": "knight-03",
+      "secretNumber": 31,
+      "comic": {
+        "book": "Batman: Shadow of the Bat #1（1992）",
+        "body": "维克多·扎斯在《蝙蝠侠：蝙蝠之影》#1登场，以杀人后留下计数刻痕的习惯著称。游戏将他的暴力痕迹转化为一处摆拍般的杀人现场。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-refrigeration-advert",
+      "title": "冷藏生意的伦敦老板",
+      "game": "knight",
+      "region": "斯塔格飞艇 · 舱内休息处",
+      "english": "Need something moved quickly, in a freezer? This company's owned by a cockney geezer!",
+      "translation": "有东西要迅速冷藏运走？这家公司老板，是个说伦敦腔的老家伙！",
+      "scene": "knight-refrigeration-advert-scene",
+      "target": "knight-refrigeration-advert-target",
+      "solution": "扫描舱壁上的冷藏运输广告。freezer是业务提示，cockney geezer则借伦敦口音指向企鹅人。广告把运输业务藏在飞艇的普通生活陈设里。",
+      "sources": [
+        "bav-knight-riddles-04",
+        "dc-penguin-profile"
+      ],
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 舱内休息处：有东西要迅速冷藏运走？这家公司老板，是个说伦敦腔的老家伙！",
+      "video": "knight-04",
+      "secretNumber": 32,
+      "comic": {
+        "book": "企鹅人的生意人与犯罪首领身份",
+        "body": "奥斯瓦尔德·科波特常以合法生意掩护犯罪活动。广告中的冷藏业务与游戏的企鹅人线索相接；英国口音属于《阿卡姆》版本的辨认特征。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-ryder-deadshot-magazine",
+      "title": "夸耀记者碰上神枪手",
+      "game": "knight",
+      "region": "斯塔格飞艇 · 研究舱",
+      "english": "A bragging reporter's worse than a narc, but perhaps the assassin has found his mark?",
+      "translation": "爱吹嘘的记者比告密者还烦；也许刺客已经找到了目标？",
+      "scene": "knight-ryder-deadshot-magazine-scene",
+      "target": "knight-ryder-deadshot-magazine-target",
+      "solution": "扫描舱内的GC Style杂志。封面是杰克·莱德，标题写着他如何打败死亡射手；reporter与assassin分别对应两人，mark指刺客锁定的目标，也呼应死亡射手的精准枪法。",
+      "sources": [
+        "bav-knight-riddles-04",
+        "dc-deadshot",
+        "dc-creeper-book"
+      ],
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 研究舱：爱吹嘘的记者比告密者还烦；也许刺客已经找到了目标？",
+      "video": "knight-04",
+      "secretNumber": 33,
+      "comic": {
+        "book": "Batman #59（1950）；Showcase #73（1968）",
+        "body": "死亡射手Floyd Lawton以超常枪法和受雇杀手身份著称；杰克·莱德则与怪客Creeper的漫画身份相连。杂志把两个人物放进一则游戏世界里的夸耀报道。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-albino-chimp",
+      "title": "并非幻影的白色宠物",
+      "game": "knight",
+      "region": "斯塔格飞艇 · 生物实验舱",
+      "english": "No Dark Knight, Stagg's pet is no figment, it's just lacking the usual pigment.",
+      "translation": "黑暗骑士，这只斯塔格的宠物并非幻影；它只是缺少通常的色素。",
+      "scene": "knight-albino-chimp-scene",
+      "target": "knight-albino-chimp-target",
+      "solution": "在生物实验舱找到毛色发白的黑猩猩并扫描。figment是想象出来的幻影，pigment是色素；押韵把异常毛色解释成白化特征。",
+      "sources": [
+        "bav-knight-riddles-04",
+        "dc-stagg-profile"
+      ],
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 生物实验舱：黑暗骑士，这只斯塔格的宠物并非幻影；它只是缺少通常的色素。",
+      "video": "knight-04",
+      "secretNumber": 34,
+      "comic": {
+        "book": "The Brave and the Bold #57（1965）：斯塔格的人物背景",
+        "body": "Simon Stagg在漫画里是与元素人Metamorpho密切相关的工业家，逐利与操纵他人的性格延续到游戏中。这里的白化实验动物属于飞艇现场，漫画联系在斯塔格本人。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-inferno-poster",
+      "title": "燃烧之前的电影工作",
+      "game": "knight",
+      "region": "帕内萨电影棚 · A摄影棚",
+      "english": "A visual artist with burning ambition: prove he made movies before his ignition.",
+      "translation": "这位视觉艺术家野心如火；请证明，他在点燃一切以前就曾参与电影制作。",
+      "scene": "knight-inferno-poster-scene",
+      "target": "knight-inferno-poster-target",
+      "solution": "打开A摄影棚内的双扇门，扫描墙上的The Inferno电影海报。visual artist对应电影特效工作，burning ambition与ignition用火焰暗示日后的萤火虫。",
+      "sources": [
+        "bav-knight-riddles-05",
+        "dc-firefly-origin"
+      ],
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · A摄影棚：这位视觉艺术家野心如火；请证明，他在点燃一切以前就曾参与电影制作。",
+      "video": "knight-05",
+      "secretNumber": 35,
+      "comic": {
+        "book": "Detective Comics #184（1952）",
+        "body": "Garfield Lynns最初就是电影特效从业者，后来成为萤火虫。海报使他的旧职业在摄影棚里留下痕迹；made movies在这里指参与电影制作。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-broken-robin-staff",
+      "title": "被折断的员工与长棍",
+      "game": "knight",
+      "region": "帕内萨电影棚 · 实验基地",
+      "english": "You? A father figure? Don't make me laugh. You overwork and break your staff.",
+      "translation": "你还算父亲般的榜样？别逗我笑了。你只会过度使唤，再折断自己的staff。",
+      "scene": "knight-broken-robin-staff-scene",
+      "target": "knight-broken-robin-staff-target",
+      "solution": "扫描实验基地桌上折断的罗宾长棍。staff既是手杖或长棍，也可指员工与手下；father figure又把蝙蝠侠和年轻搭档的关系拉进嘲讽。",
+      "sources": [
+        "bav-knight-riddles-05",
+        "dc-robin"
+      ],
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 实验基地：你还算父亲般的榜样？别逗我笑了。你只会过度使唤，再折断自己的staff。",
+      "video": "knight-05",
+      "secretNumber": 36,
+      "comic": {
+        "book": "蒂姆·德雷克与罗宾传承",
+        "body": "蒂姆继承罗宾身份后，以侦探头脑和长棍形成鲜明形象。这里用一件损坏装备，让谜语人对蝙蝠侠如何照顾搭档发难。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-joker-shrine",
+      "title": "她要永远守着的火焰",
+      "game": "knight",
+      "region": "帕内萨电影棚 · 后台",
+      "english": "She and her love are no longer together, she'll keep the flames burning forever and ever.",
+      "translation": "她与爱人已不能相聚；她仍要让火焰，永远燃烧下去。",
+      "scene": "knight-joker-shrine-scene",
+      "target": "knight-joker-shrine-target",
+      "solution": "扫描后台为小丑布置的祭坛，画面包括小丑形象、蜡烛和写着J+H的爱心。keep the flames burning既是维持烛火，也比喻哈莉不肯熄灭的感情。",
+      "sources": [
+        "bav-knight-riddles-05",
+        "dc-mad-love"
+      ],
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 后台：她与爱人已不能相聚；她仍要让火焰，永远燃烧下去。",
+      "video": "knight-05",
+      "secretNumber": 37,
+      "comic": {
+        "book": "The Batman Adventures: Mad Love（1994）",
+        "body": "《疯狂的爱》讲述哈琳·奎泽尔怎样成为哈莉，以及她与小丑关系里的迷恋、伤害与自我欺骗。游戏祭坛以悼念与涂写延续这段人物关系。",
+        "images": []
+      }
+    },
+    {
+      "id": "knight-unpaid-debts",
+      "title": "未偿还的旧债",
+      "game": "knight",
+      "region": "阿卡姆骑士总部 · 地下通道",
+      "english": "Vengeance burns darkly inside the betrayed, as they stare at reminders of debts unpaid.",
+      "translation": "被背叛者心中的复仇暗火燃烧；眼前的纪念，提醒着尚未偿还的旧债。",
+      "scene": "knight-unpaid-debts-scene",
+      "target": "knight-unpaid-debts-target",
+      "solution": "扫描总部通道里贴满蝙蝠侠与搭档照片的墙。reminders是反复观看的照片，debts unpaid指被视为尚未清算的背叛；照片的并置将私人怨恨变成了一面调查板。",
+      "sources": [
+        "bav-knight-riddles-06",
+        "dc-robin"
+      ],
+      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 地下通道：被背叛者心中的复仇暗火燃烧；眼前的纪念，提醒着尚未偿还的旧债。",
+      "video": "knight-06",
+      "secretNumber": 38,
+      "comic": {
+        "book": "Batman: A Death in the Family（1988）；Batman: Under the Hood（2005—2006）",
+        "body": "杰森·托德作为第二代罗宾遭小丑杀害的经历，以及归来后对蝙蝠侠的质问，为《骑士》的身份与复仇主题提供了可对照的漫画脉络。游戏里的阿卡姆骑士身份与事件顺序采用自身连续性。",
+        "images": [],
+        "spoiler": true
+      }
+    },
+    {
+      "id": "knight-white-rabbit-display",
+      "title": "爱丽丝追逐的白色长耳朵",
+      "game": "knight",
+      "region": "阿卡姆骑士总部 · 旧商店区",
+      "english": "With a fluffy white coat and ears standing tall, what burrowed the hole in which Alice did fall?",
+      "translation": "毛色蓬松雪白，双耳高高竖起；爱丽丝掉进的洞，又是谁挖出来的？",
+      "scene": "knight-white-rabbit-display-scene",
+      "target": "knight-white-rabbit-display-target",
+      "solution": "扫描旧商店橱窗里的白兔头套陈列。white coat、ears与Alice共同指向《爱丽丝梦游仙境》的白兔，burrowed把兔洞写成直接线索。",
+      "sources": [
+        "bav-knight-riddles-06"
+      ],
+      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 旧商店区：毛色蓬松雪白，双耳高高竖起；爱丽丝掉进的洞，又是谁挖出来的？",
+      "video": "knight-06",
+      "secretNumber": 39,
+      "context": "这是刘易斯·卡罗尔作品里的白兔意象。橱窗头套借用童话造型，题目本身无需对应到同名漫画角色。"
+    },
+    {
+      "id": "knight-fear-toxin-lab",
+      "title": "恐惧医生的研究成果",
+      "game": "knight",
+      "region": "阿卡姆骑士总部 · 恐惧毒气研究处",
+      "english": "A psychotic doctor who caught the fear bug, the fruits of his research: a powerful drug.",
+      "translation": "这位疯狂医生迷上了恐惧；研究结出的果实，是一种强效药剂。",
+      "scene": "knight-fear-toxin-lab-scene",
+      "target": "knight-fear-toxin-lab-target",
+      "solution": "扫描隔网后的恐惧毒气实验装置与散发绿烟的研究物。caught the bug表示迷上某事，也让恐惧像病原一样传播；drug则是稻草人把心理学研究武器化的结果。",
+      "sources": [
+        "bav-knight-riddles-06",
+        "dc-scarecrow"
+      ],
+      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 恐惧毒气研究处：这位疯狂医生迷上了恐惧；研究结出的果实，是一种强效药剂。",
+      "video": "knight-06",
+      "secretNumber": 40,
+      "comic": {
+        "book": "World’s Finest Comics #3（1941）",
+        "body": "乔纳森·克莱恩在《世界最佳漫画》#3以稻草人身份登场。恐惧心理、毒气和人体实验是他的标志，游戏将整座城市变成这种实验的对象。",
+        "images": []
+      }
+    }
+  ],
+  "images": [
+    {
+      "id": "knight-clocktower-empty-suit-scene",
+      "file": "riddler-scans/knight-clocktower-empty-suit-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0aa099e08da4f9934294b1098303afb486da6caeeca3e484fbb206ca0e23503e",
+      "video": "knight-01",
+      "timestamp": 64,
+      "caption": "布莱克岛 · 钟楼 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-clocktower-empty-suit-target",
+      "file": "riddler-scans/knight-clocktower-empty-suit-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6af0b586e493d3733d2322585c79ab8e1fa7b58089528eaed3196797fece3e78",
+      "video": "knight-01",
+      "timestamp": 96,
+      "caption": "布莱克岛 · 钟楼 · 加入使命的代价：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-cash-souvenir-scene",
+      "file": "riddler-scans/knight-cash-souvenir-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "272c4fa7676f62dcdbe1b5caad623c9f890faee2035563f8542e0886fab866bb",
+      "video": "knight-01",
+      "timestamp": 784,
+      "caption": "布莱克岛 · GCPD接待台 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-cash-souvenir-target",
+      "file": "riddler-scans/knight-cash-souvenir-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d1f97a92595e53c029902095f1e16b6d9a375adef3c4f488ba6e6a408c5787b3",
+      "video": "knight-01",
+      "timestamp": 792,
+      "caption": "布莱克岛 · GCPD接待台 · 铁钩旁的旧纪念物：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-lighthouse-bones-scene",
+      "file": "riddler-scans/knight-lighthouse-bones-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "776e87522eb75e1f27432ed3f024807196c333b032e5412b3a08a807912bfe7e",
+      "video": "knight-01",
+      "timestamp": 1066,
+      "caption": "布莱克岛 · 灯塔 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-lighthouse-bones-target",
+      "file": "riddler-scans/knight-lighthouse-bones-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8df4cc42348ead114b99ea472a2c3eb79526b8a0f967c2cb03d75eb52ea2bd9b",
+      "video": "knight-01",
+      "timestamp": 1074,
+      "caption": "布莱克岛 · 灯塔 · 警示灯下的白骨：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-mercenary-file-scene",
+      "file": "riddler-scans/knight-mercenary-file-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8b3686075fc8fa728333c7e372a47fc6bb00e03afb21d25933c5bf3ddf1a07df",
+      "video": "knight-01",
+      "timestamp": 1136,
+      "caption": "布莱克岛 · GCPD通讯室 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-mercenary-file-target",
+      "file": "riddler-scans/knight-mercenary-file-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "31a80e7fc4c50cc0a38aa6d7b0a97cfd0826e4fed306b6a6691ff6d1178386b5",
+      "video": "knight-01",
+      "timestamp": 1144,
+      "caption": "布莱克岛 · GCPD通讯室 · 谁该排在通缉档案最上面：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-deacon-mission-scene",
+      "file": "riddler-scans/knight-deacon-mission-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "916c39005f8b35f9f5e0551fbcbed857b3d0bbe6ba42997d003ba997a110b94f",
+      "video": "knight-01",
+      "timestamp": 1688,
+      "caption": "布莱克岛 · 唐人街 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-deacon-mission-target",
+      "file": "riddler-scans/knight-deacon-mission-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "42eba5d34e915d549f6189557d81025d7cab7e909767aa36ca876c4034ca8a23",
+      "video": "knight-01",
+      "timestamp": 1696,
+      "caption": "布莱克岛 · 唐人街 · 圣人还是罪人的庇护所：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-ryder-research-scene",
+      "file": "riddler-scans/knight-ryder-research-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "be90ec0bc792e12ef514d103dd0abafb2a254abefd33b74205be9abedf61e16e",
+      "video": "knight-01",
+      "timestamp": 1824,
+      "caption": "布莱克岛 · GCPD采访室 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-ryder-research-target",
+      "file": "riddler-scans/knight-ryder-research-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c0dfb6b0dad0b692173efa2477c8536dd7e815460076ce226af0f8b6e5d902d3",
+      "video": "knight-01",
+      "timestamp": 1832,
+      "caption": "布莱克岛 · GCPD采访室 · 记者在哪里寻找污点：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-distant-asylum-scene",
+      "file": "riddler-scans/knight-distant-asylum-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "cce5cf4caab7b25622810ce0490c522a94cc1decf9ad8d8f210ed53d09b32c2c",
+      "video": "knight-01",
+      "timestamp": 1872,
+      "caption": "布莱克岛 · 海岸观景处 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-distant-asylum-target",
+      "file": "riddler-scans/knight-distant-asylum-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "71de0685ad633299d0774a918257bb2e6c1e92e85c401702dd33146c9c92055e",
+      "video": "knight-01",
+      "timestamp": 1880,
+      "caption": "布莱克岛 · 海岸观景处 · 再也关不住疯狂的地方：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-gcpd-signal-scene",
+      "file": "riddler-scans/knight-gcpd-signal-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "acc1134f38527068ad9ac34ff7da362904ab6a0e53c3fb020738bb325aa4002e",
+      "video": "knight-01",
+      "timestamp": 2080,
+      "caption": "布莱克岛 · GCPD屋顶 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-gcpd-signal-target",
+      "file": "riddler-scans/knight-gcpd-signal-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "76d31fc383d4378bc29eab5db71bb34267bb26ae7346bece7239dc34fee2afb3",
+      "video": "knight-01",
+      "timestamp": 2088,
+      "caption": "布莱克岛 · GCPD屋顶 · 希望从哪里照向夜空：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-langstrom-whiteboard-scene",
+      "file": "riddler-scans/knight-langstrom-whiteboard-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "07a7dee4c25617fffacff6877356e70e4a03406fa623c6664b08f8ab8bff992b",
+      "video": "knight-01",
+      "timestamp": 2824,
+      "caption": "布莱克岛 · 朗斯特罗姆实验室 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-langstrom-whiteboard-target",
+      "file": "riddler-scans/knight-langstrom-whiteboard-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d28ef1fa44187ef721d3a53942d590d1114e64f6d9118e373a939c2382f8af57",
+      "video": "knight-01",
+      "timestamp": 2848,
+      "caption": "布莱克岛 · 朗斯特罗姆实验室 · 医生失败的夜间视觉：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-masquerade-invitation-scene",
+      "file": "riddler-scans/knight-masquerade-invitation-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "32045f380c5c3031b338b8ef6698a56b43f796f739f4ced758209f6c33890067",
+      "video": "knight-01",
+      "timestamp": 3480,
+      "caption": "布莱克岛 · 钟楼内室 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-masquerade-invitation-target",
+      "file": "riddler-scans/knight-masquerade-invitation-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0029fde3a8cadde42b4e89548aa831f137bf9b9a189dc113c97b2e13a0050912",
+      "video": "knight-01",
+      "timestamp": 3488,
+      "caption": "布莱克岛 · 钟楼内室 · 谁在舞会上扮成了你：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-lady-gotham-scene",
+      "file": "riddler-scans/knight-lady-gotham-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c3a1b67872383dd5c8776a8b3b49021f66558fa3fd185572ac3683aad0d31ed6",
+      "video": "knight-01",
+      "timestamp": 3640,
+      "caption": "布莱克岛 · 海湾 · 现场",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-lady-gotham-target",
+      "file": "riddler-scans/knight-lady-gotham-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0471142763db0967093d511c35ef7c64d7cc3e9b93a65388a424478b26977de8",
+      "video": "knight-01",
+      "timestamp": 3650,
+      "caption": "布莱克岛 · 海湾 · 城市中央的希望灯塔：扫描目标",
+      "source": "bav-knight-riddles-01",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "688cbbf8d23409e977957dac3ed574c4dd74c7fb499fbf678ed2ab365eceacc9"
+    },
+    {
+      "id": "knight-cat-collar-scene",
+      "file": "riddler-scans/knight-cat-collar-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fd4a90ffe64089acff184e55e326f9bcf5c8b5e3641a5095b71d5aee658c96a8",
+      "video": "knight-02-part",
+      "timestamp": 24,
+      "caption": "米亚加尼岛 · 平克尼孤儿院 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-cat-collar-target",
+      "file": "riddler-scans/knight-cat-collar-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "43a698779f179d307cbf0fe07bf3fc61a5a666210055681c408131ffe5f4bb56",
+      "video": "knight-02-part",
+      "timestamp": 44,
+      "caption": "米亚加尼岛 · 平克尼孤儿院 · 怎样让猫戴上项圈：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-elliot-hospital-scene",
+      "file": "riddler-scans/knight-elliot-hospital-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "b42ef269bdc38d337e0eb4d79533577280d0e66215b1ebc2d69aa162bd2fb86d",
+      "video": "knight-02-part",
+      "timestamp": 688,
+      "caption": "米亚加尼岛 · 埃利奥特纪念医院 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-elliot-hospital-target",
+      "file": "riddler-scans/knight-elliot-hospital-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "93d704a54db1d41c817ca145a43af33b6cd1919be89e30dc87c7efe7364e3226",
+      "video": "knight-02-part",
+      "timestamp": 696,
+      "caption": "米亚加尼岛 · 埃利奥特纪念医院 · 韦恩家朋友的纪念病房：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-wonder-tower-scene",
+      "file": "riddler-scans/knight-wonder-tower-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9d073534dd0c4b6b14862a9566507bf7c5d2e98675d86a4ca65f8e9c5541d81e",
+      "video": "knight-02-part",
+      "timestamp": 928,
+      "caption": "米亚加尼岛 · 眺望奇迹塔 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-wonder-tower-target",
+      "file": "riddler-scans/knight-wonder-tower-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fbf03aa32b8f24157d50aef7938cd0f7896708e9f9fa27fcca190f6f3beb0a5b",
+      "video": "knight-02-part",
+      "timestamp": 944,
+      "caption": "米亚加尼岛 · 眺望奇迹塔 · 高塔上的Strange之人：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-wayne-family-portrait-scene",
+      "file": "riddler-scans/knight-wayne-family-portrait-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "9f0a4fdb3ce405254445fc8726c475447c93a683c12554b3207266ec0c5d1551",
+      "video": "knight-02-part",
+      "timestamp": 1964,
+      "caption": "米亚加尼岛 · 韦恩塔办公室 · 现场",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-wayne-family-portrait-target",
+      "file": "riddler-scans/knight-wayne-family-portrait-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "fb020d6fd4c98ded708e132014434c39201a13cb6b3d3d453c34669a21931521",
+      "video": "knight-02-part",
+      "timestamp": 1970,
+      "caption": "米亚加尼岛 · 韦恩塔办公室 · 塔楼里更幸福的时光：扫描目标",
+      "source": "bav-knight-riddles-02",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "da3c512fea31810fb89e3098006bc41384c853d93d2c500ce8ed2e3c44c482cf"
+    },
+    {
+      "id": "knight-bane-shipping-crate-scene",
+      "file": "riddler-scans/knight-bane-shipping-crate-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "052f37845659bec5454ee31db5b71a301cc55c97da311b743c05a094ff89304d",
+      "video": "knight-03",
+      "timestamp": 24,
+      "caption": "创始人岛 · 亚当斯港 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-bane-shipping-crate-target",
+      "file": "riddler-scans/knight-bane-shipping-crate-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ead88f2bbcccc74c5f1be17ea1b52b2adf3d0fc35e3a8d272e790c307ccc38d6",
+      "video": "knight-03",
+      "timestamp": 48,
+      "caption": "创始人岛 · 亚当斯港 · 巨汉没能运回家的行李：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-saint-dumas-tomb-scene",
+      "file": "riddler-scans/knight-saint-dumas-tomb-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c870bb0b6685a1855773e9d2213240a92b10b01d4fa4cbbabed0b9ddcd3f7bdd",
+      "video": "knight-03",
+      "timestamp": 520,
+      "caption": "创始人岛 · 教堂墓地 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-saint-dumas-tomb-target",
+      "file": "riddler-scans/knight-saint-dumas-tomb-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5fa4b1961986149d99aa6696fe2b75f5d5e8a8211e0bd8ca91fdc8a7f0616539",
+      "video": "knight-03",
+      "timestamp": 536,
+      "caption": "创始人岛 · 教堂墓地 · 古老教团的守护圣人：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-calendar-hideout-scene",
+      "file": "riddler-scans/knight-calendar-hideout-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "182a66c354be5a419212de0261f37d8b36bceb2a3b0b12be06191c34e2a39766",
+      "video": "knight-03",
+      "timestamp": 1144,
+      "caption": "创始人岛 · 隐藏房间 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-calendar-hideout-target",
+      "file": "riddler-scans/knight-calendar-hideout-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3da3acaaa859ca73dc90324c10ca93621bca304d81cabdfcc0eef1a8d2eabe14",
+      "video": "knight-03",
+      "timestamp": 1160,
+      "caption": "创始人岛 · 隐藏房间 · 万圣夜缺席的日历杀手：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-distant-wayne-manor-scene",
+      "file": "riddler-scans/knight-distant-wayne-manor-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4486526988d74f8da9da99b2f494be891c8140b8d3feba1118308b066c13156b",
+      "video": "knight-03",
+      "timestamp": 1200,
+      "caption": "创始人岛 · 海岸高处 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-distant-wayne-manor-target",
+      "file": "riddler-scans/knight-distant-wayne-manor-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "3f892adc90277c2d726c0a40d22c5dc1777d8d9b5d461413b8367e976a946626",
+      "video": "knight-03",
+      "timestamp": 1212,
+      "caption": "创始人岛 · 海岸高处 · 孤儿的豪宅与狂欢：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-cobblepot-manor-scene",
+      "file": "riddler-scans/knight-cobblepot-manor-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0ab4005d9517a56d7c471b90e50bd96c49a5d8fb6a0adfbeaaeb7e099ad795ce",
+      "video": "knight-03",
+      "timestamp": 1952,
+      "caption": "创始人岛 · 科波特旧宅 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-cobblepot-manor-target",
+      "file": "riddler-scans/knight-cobblepot-manor-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "15a1947383109ecccf670e9b3442ba04a3278768acf1e6db328facd40d376473",
+      "video": "knight-03",
+      "timestamp": 1976,
+      "caption": "创始人岛 · 科波特旧宅 · 企鹅旧巢的破败模样：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-batmobile-steed-scene",
+      "file": "riddler-scans/knight-batmobile-steed-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8ac5408d2af42bb25bb62def4b6d53345f7d6b05a0d0be05c1077eb43ede251a",
+      "video": "knight-03",
+      "timestamp": 2074,
+      "caption": "创始人岛 · 街道 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-batmobile-steed-target",
+      "file": "riddler-scans/knight-batmobile-steed-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "53ea8b3dd71a2d3e7774df0186a0ff274fd67e091022da6c077d1d5014f17c09",
+      "video": "knight-03",
+      "timestamp": 2086,
+      "caption": "创始人岛 · 街道 · 黑暗骑士需要多少马力：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-gothcorp-sign-scene",
+      "file": "riddler-scans/knight-gothcorp-sign-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d78268eac00a3b2e242f927017eedaa76cc149cf0982f992af8299baa997628b",
+      "video": "knight-03",
+      "timestamp": 2352,
+      "caption": "创始人岛 · GothCorp大楼 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-gothcorp-sign-target",
+      "file": "riddler-scans/knight-gothcorp-sign-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "92992cd8134cce5464bf02b0495a446f9aaed01b3f9cff282464cd202b48a25a",
+      "video": "knight-03",
+      "timestamp": 2368,
+      "caption": "创始人岛 · GothCorp大楼 · 改变他一生的冰冷公司：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-grundy-gramophone-scene",
+      "file": "riddler-scans/knight-grundy-gramophone-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "97913be9537e11287a2a1568b51c94d9d9c867b00852f0eb4df7dafd469c1a9f",
+      "video": "knight-03",
+      "timestamp": 2648,
+      "caption": "创始人岛 · 地下纪念角 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-grundy-gramophone-target",
+      "file": "riddler-scans/knight-grundy-gramophone-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f9d85b7c4c05226fcc0e034bda5066dd813a249303aa95ca5ecf6abd082c15ef",
+      "video": "knight-03",
+      "timestamp": 2672,
+      "caption": "创始人岛 · 地下纪念角 · 七天轮回后仍响的歌：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-circus-of-strange-scene",
+      "file": "riddler-scans/knight-circus-of-strange-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8b447a8db9cdb0c9e88f54a02ad814dddee327926d44241bb6751614515c12df",
+      "video": "knight-03",
+      "timestamp": 2864,
+      "caption": "创始人岛 · 漂亮娃娃会所 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-circus-of-strange-target",
+      "file": "riddler-scans/knight-circus-of-strange-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ab2e11a39d468172930b9be78c0675e75e2f6433d0e1f7dbc6dacb46926b069f",
+      "video": "knight-03",
+      "timestamp": 2888,
+      "caption": "创始人岛 · 漂亮娃娃会所 · 疯狂马戏团里的猪教授：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-one-fishing-line-scene",
+      "file": "riddler-scans/knight-one-fishing-line-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "022fa537336f402af8e09a93eba8b24dab4782c6a3beef7554f574058296cd29",
+      "video": "knight-03",
+      "timestamp": 3416,
+      "caption": "创始人岛 · 海边低层通道 · 现场",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-one-fishing-line-target",
+      "file": "riddler-scans/knight-one-fishing-line-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "94987973ebe805df044e92b364bbb6a8da4b74dfd77bd2184b281929008b0c2d",
+      "video": "knight-03",
+      "timestamp": 3440,
+      "caption": "创始人岛 · 海边低层通道 · 只有一根线的垂钓：扫描目标",
+      "source": "bav-knight-riddles-03",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3ad85fb5c50f04892de1042517f5bdb1b3a00209be597a9689e7d37b61efaa71"
+    },
+    {
+      "id": "knight-refrigeration-advert-scene",
+      "file": "riddler-scans/knight-refrigeration-advert-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "dedbdd5e9e73c1f232640be44bbdeb00e86b37278c9a28393d0816201f27c828",
+      "video": "knight-04",
+      "timestamp": 704,
+      "caption": "斯塔格飞艇 · 舱内休息处 · 现场",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-refrigeration-advert-target",
+      "file": "riddler-scans/knight-refrigeration-advert-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ae49d155a1fb391bcabd723e51982c035336acae0b7dde89c616753512bf7896",
+      "video": "knight-04",
+      "timestamp": 714,
+      "caption": "斯塔格飞艇 · 舱内休息处 · 冷藏生意的伦敦老板：扫描目标",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-ryder-deadshot-magazine-scene",
+      "file": "riddler-scans/knight-ryder-deadshot-magazine-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d2312d43861ba9c8d81de19d6049849274b49ce915c0878385b7a7fc22d2c91b",
+      "video": "knight-04",
+      "timestamp": 1148,
+      "caption": "斯塔格飞艇 · 研究舱 · 现场",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-ryder-deadshot-magazine-target",
+      "file": "riddler-scans/knight-ryder-deadshot-magazine-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "d708b06ef43c5ad76f63db23877705acc026800d296106b79601c44a697690be",
+      "video": "knight-04",
+      "timestamp": 1156,
+      "caption": "斯塔格飞艇 · 研究舱 · 夸耀记者碰上神枪手：扫描目标",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-albino-chimp-scene",
+      "file": "riddler-scans/knight-albino-chimp-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8315fca72510ba2d1b5f49e552ebeb011ddb476809ed940821d57a27341b1d9e",
+      "video": "knight-04",
+      "timestamp": 1904,
+      "caption": "斯塔格飞艇 · 生物实验舱 · 现场",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-albino-chimp-target",
+      "file": "riddler-scans/knight-albino-chimp-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0c09a5f6bd24df700068fa68676e67ab766362cdba992873deb1699391b3d363",
+      "video": "knight-04",
+      "timestamp": 1910,
+      "caption": "斯塔格飞艇 · 生物实验舱 · 并非幻影的白色宠物：扫描目标",
+      "source": "bav-knight-riddles-04",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "3447b64c44414e43f99a246f44047d0781079d396b0eec68cc9e3b5ca8f086c6"
+    },
+    {
+      "id": "knight-inferno-poster-scene",
+      "file": "riddler-scans/knight-inferno-poster-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "246afea4f20ccb2c530d8c2452ba0f2718be9f62335025b2e9210520931084a5",
+      "video": "knight-05",
+      "timestamp": 164,
+      "caption": "帕内萨电影棚 · A摄影棚 · 现场",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-inferno-poster-target",
+      "file": "riddler-scans/knight-inferno-poster-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "4a4ec815acf22db298d6673bec42fd5f8e946cdcf240f2098f09d6e5cc82bc05",
+      "video": "knight-05",
+      "timestamp": 172,
+      "caption": "帕内萨电影棚 · A摄影棚 · 燃烧之前的电影工作：扫描目标",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-broken-robin-staff-scene",
+      "file": "riddler-scans/knight-broken-robin-staff-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6b6f2c085b4de1eacdc378b399bf44a56e866546e74e1c27505802a2442e9f2c",
+      "video": "knight-05",
+      "timestamp": 1416,
+      "caption": "帕内萨电影棚 · 实验基地 · 现场",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-broken-robin-staff-target",
+      "file": "riddler-scans/knight-broken-robin-staff-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6002e09db3ccb7809dacc45088e324ee9ef3e316b53ad736d3eb1191d83a418a",
+      "video": "knight-05",
+      "timestamp": 1424,
+      "caption": "帕内萨电影棚 · 实验基地 · 被折断的员工与长棍：扫描目标",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-joker-shrine-scene",
+      "file": "riddler-scans/knight-joker-shrine-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e61ad0100578e93ea2efbb3bedacf2607de10fab1a3aef5056be70a1584560fe",
+      "video": "knight-05",
+      "timestamp": 1760,
+      "caption": "帕内萨电影棚 · 后台 · 现场",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-joker-shrine-target",
+      "file": "riddler-scans/knight-joker-shrine-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "0ea861a4d90daead6c591b5fba55484984a9a0899521206557ce27a7ad09e676",
+      "video": "knight-05",
+      "timestamp": 1768,
+      "caption": "帕内萨电影棚 · 后台 · 她要永远守着的火焰：扫描目标",
+      "source": "bav-knight-riddles-05",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "47660ec18e3ae726f4311fbd3ac259372d0460c20f93cc2c0ca646740eef1c0f"
+    },
+    {
+      "id": "knight-unpaid-debts-scene",
+      "file": "riddler-scans/knight-unpaid-debts-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f87b65fae0c1fb9c67aafd67b3172447b896bb2a143ef292b0b3ea9fb1a2bb24",
+      "video": "knight-06",
+      "timestamp": 328,
+      "caption": "阿卡姆骑士总部 · 地下通道 · 现场",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-unpaid-debts-target",
+      "file": "riddler-scans/knight-unpaid-debts-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "6f8e0213f567fcfb1d12c4972e1554ba2157929a3065499e21a898ee5a1fa4a3",
+      "video": "knight-06",
+      "timestamp": 336,
+      "caption": "阿卡姆骑士总部 · 地下通道 · 未偿还的旧债：扫描目标",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-white-rabbit-display-scene",
+      "file": "riddler-scans/knight-white-rabbit-display-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ce09e1c65f8969b922bf457c052c33e38f4ed13e73423985bec46735f9df3847",
+      "video": "knight-06",
+      "timestamp": 1192,
+      "caption": "阿卡姆骑士总部 · 旧商店区 · 现场",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-white-rabbit-display-target",
+      "file": "riddler-scans/knight-white-rabbit-display-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c100287adbf7f274a908eee8d505d1abcfcc7f285d34f2fe75544cc549a32b8c",
+      "video": "knight-06",
+      "timestamp": 1200,
+      "caption": "阿卡姆骑士总部 · 旧商店区 · 爱丽丝追逐的白色长耳朵：扫描目标",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-fear-toxin-lab-scene",
+      "file": "riddler-scans/knight-fear-toxin-lab-scene.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "e30f6db2342e6d41ebb3a85ed38cd6e59d274727cc6c1f09ad073ef8ba6e76eb",
+      "video": "knight-06",
+      "timestamp": 1920,
+      "caption": "阿卡姆骑士总部 · 恐惧毒气研究处 · 现场",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    },
+    {
+      "id": "knight-fear-toxin-lab-target",
+      "file": "riddler-scans/knight-fear-toxin-lab-target.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "82a0bee27752e936a4d6fd89b1b413c9ac79afa5a93478b2d66bf47537faf878",
+      "video": "knight-06",
+      "timestamp": 1928,
+      "caption": "阿卡姆骑士总部 · 恐惧毒气研究处 · 恐惧医生的研究成果：扫描目标",
+      "source": "bav-knight-riddles-06",
+      "rights": "DC / Warner Bros.；Batman Arkham Videos实机录像截图",
+      "originalSHA256": "ebc35b1785251ab143f33c3f7e8570a8f5ba70a12a4f54b5aeff1e32013d2837"
+    }
+  ],
+  "groups": [
+    {
+      "video": "01",
+      "code": 1,
+      "first": 48,
+      "last": 104
+    },
+    {
+      "video": "01",
+      "code": 2,
+      "first": 744,
+      "last": 800
+    },
+    {
+      "video": "01",
+      "code": 3,
+      "first": 1040,
+      "last": 1088
+    },
+    {
+      "video": "01",
+      "code": 4,
+      "first": 1096,
+      "last": 1152
+    },
+    {
+      "video": "01",
+      "code": 5,
+      "first": 1672,
+      "last": 1704
+    },
+    {
+      "video": "01",
+      "code": 6,
+      "first": 1792,
+      "last": 1840
+    },
+    {
+      "video": "01",
+      "code": 7,
+      "first": 1848,
+      "last": 1888
+    },
+    {
+      "video": "01",
+      "code": 8,
+      "first": 2056,
+      "last": 2096
+    },
+    {
+      "video": "01",
+      "code": 9,
+      "first": 2800,
+      "last": 2864
+    },
+    {
+      "video": "01",
+      "code": 10,
+      "first": 3456,
+      "last": 3496
+    },
+    {
+      "video": "01",
+      "code": 11,
+      "first": 3616,
+      "last": 3656
+    },
+    {
+      "video": "02",
+      "code": 12,
+      "first": 8,
+      "last": 88
+    },
+    {
+      "video": "02",
+      "code": 13,
+      "first": 672,
+      "last": 712
+    },
+    {
+      "video": "02",
+      "code": 14,
+      "first": 904,
+      "last": 952
+    },
+    {
+      "video": "02",
+      "code": 15,
+      "first": 1928,
+      "last": 1976
+    },
+    {
+      "video": "03",
+      "code": 22,
+      "first": 8,
+      "last": 56
+    },
+    {
+      "video": "03",
+      "code": 23,
+      "first": 504,
+      "last": 560
+    },
+    {
+      "video": "03",
+      "code": 24,
+      "first": 1112,
+      "last": 1176
+    },
+    {
+      "video": "03",
+      "code": 25,
+      "first": 1184,
+      "last": 1224
+    },
+    {
+      "video": "03",
+      "code": 26,
+      "first": 1936,
+      "last": 1992
+    },
+    {
+      "video": "03",
+      "code": 27,
+      "first": 2064,
+      "last": 2112
+    },
+    {
+      "video": "03",
+      "code": 28,
+      "first": 2336,
+      "last": 2384
+    },
+    {
+      "video": "03",
+      "code": 29,
+      "first": 2632,
+      "last": 2680
+    },
+    {
+      "video": "03",
+      "code": 30,
+      "first": 2848,
+      "last": 2904
+    },
+    {
+      "video": "03",
+      "code": 31,
+      "first": 3400,
+      "last": 3456
+    },
+    {
+      "video": "04",
+      "code": 32,
+      "first": 688,
+      "last": 720
+    },
+    {
+      "video": "04",
+      "code": 33,
+      "first": 1128,
+      "last": 1168
+    },
+    {
+      "video": "04",
+      "code": 34,
+      "first": 1880,
+      "last": 1920
+    },
+    {
+      "video": "05",
+      "code": 35,
+      "first": 144,
+      "last": 176
+    },
+    {
+      "video": "05",
+      "code": 36,
+      "first": 1400,
+      "last": 1432
+    },
+    {
+      "video": "05",
+      "code": 37,
+      "first": 1728,
+      "last": 1776
+    },
+    {
+      "video": "06",
+      "code": 38,
+      "first": 304,
+      "last": 344
+    },
+    {
+      "video": "06",
+      "code": 39,
+      "first": 1176,
+      "last": 1208
+    },
+    {
+      "video": "06",
+      "code": 40,
+      "first": 1904,
+      "last": 1936
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "totalAvailable": 34,
+    "expected": 40,
+    "codes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "missingCodes": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "reason": "Miagani Island video is truncated; first undecodable 8-second sample is 1984s. Riddle #15 has a RIDDLE SOLVED frame at 1976s."
+  },
+  "timelineSamples": 1977,
+  "fullFrameOCRSamples": 232,
+  "existingRowsPreserved": true,
+  "originalPlaylist": "https://www.youtube.com/playlist?list=PLJms5sWamFOVwF4jDKk81BxrmEb76sbU9"
+}

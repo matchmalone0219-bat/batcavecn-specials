@@ -84,8 +84,10 @@ from arkham_easter_eggs import load_easter_eggs
 easter_eggs = load_easter_eggs()
 scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
 riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
+scan_packet = json.loads((CONTENT.parent / 'arkham-riddler-scans.json').read_text())
+story_packet = json.loads((CONTENT.parent / 'arkham-archive-research.json').read_text())
 omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])
-assert len(ark_pages) == 8 and len(ark_records) == 247 - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 24 + len(easter_eggs['images'])
+assert len(ark_pages) == 8 and len(ark_records) == 222 + len(story_packet['stories']) + len(scan_packet['riddles']) + len(scan_packet['techniques']) - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 24 + len(easter_eggs['images']) + len(scan_packet['images']) + len(scan_packet['clips'])
 assert len(interactive_pages) == 3 and len(interactive_records) == 32
 detective = interactive_pages['arkham/detective/index.html']
 patient_terminal = interactive_pages['arkham/patients/index.html']
@@ -104,16 +106,16 @@ for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['
     assert len(c['evidence']) == 3
     assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
 for filename, body in pages.items():
-    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages or filename == 'arkham/archive/asylum-history/index.html')
+    assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages)
 print('PASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]
 assert '<details class="spoiler">' in identity_html and ' open' not in identity_html
-assert ark_pages['arkham/archive/stories/index.html'].count('<details class="spoiler">') == 16
+assert ark_pages['arkham/archive/stories/index.html'].count('<details class="spoiler">') == len(story_packet['stories'])
 story_html = ark_pages['arkham/archive/stories/index.html']
-story_packet = json.loads((CONTENT.parent / 'arkham-archive-research.json').read_text())
 story_search = {urlsplit(r['url']).fragment: r for r in ark_records if '/archive/stories/#' in r['url']}
+assert set(story_search) == {story['id'] for story in story_packet['stories']} | {note['id'] for note in story_packet['notes'][2:5]}
 for story in story_packet['stories']:
     text = reading['stories'][story['id']]
     article = story_html.split(f'id="{story["id"]}"', 1)[1].split('</article>', 1)[0]
@@ -124,12 +126,24 @@ for story in story_packet['stories']:
     assert story['editorialAngle'] not in article
     assert '社区转录' in article and '展开故事梗概' in article
     assert story['originalText'] is None  # Summaries must not be represented as game text.
+    folded = article.split('<details class="spoiler">', 1)[1].split('</details>', 1)[0]
+    assert ' open' not in article
+    for body in [text.get('context'), text['sceneNote'], *(part['summary'] for part in text.get('parts', []))]:
+        if body:
+            assert body in folded and body not in json.dumps(story_search, ensure_ascii=False)
+    for scan_id in text.get('scanIds', []):
+        assert f'href="/arkham/archive/riddler/#{scan_id}"' in folded
+        scan_article = ark_pages['arkham/archive/riddler/index.html'].split(f'id="{scan_id}"', 1)[1].split('</article>', 1)[0]
+        assert f'href="/arkham/archive/stories/#{story["id"]}"' in scan_article
+    for related_id in text.get('relatedStories', []):
+        assert f'href="#{related_id}"' in folded
 for forbidden in ('现场实测', '城市机要档案', '机要档案正文', '调查重点：'):
     assert forbidden not in ark_pages['arkham/archive/clues/index.html'] + story_html
 print('PASS: Chinese story introductions, original English titles, attributed summaries, collapsed spoilers and safe search excerpts')
 history = json.loads((CONTENT.parent / 'asylum-history.json').read_text())
 history_html = ark_pages['arkham/archive/asylum-history/index.html']
-assert history_html.count('<details class="spoiler">') == 25
+assert history_html.count('data-soul-choice=') == 24
+assert history_html.count('data-soul-audio') == 1 and 'data-soul-player' in history_html
 assert [r['number'] for r in history['records']] == list(range(1, 25))
 assert all('location' not in r for r in history['records'])
 history_search = [r for r in search if '/archive/asylum-history/' in r['url']]
@@ -382,9 +396,9 @@ for r in history['records']:
     assert hashlib.sha256((DIST / 'assets' / t['audioFile']).read_bytes()).hexdigest() == t['audioSha256']
     assert abs(t['duration'] - (t['sourceEnd']-t['sourceStart'])) < .08
     section=ark_pages['arkham/archive/asylum-history/index.html'].split('id="'+r['id']+'"',1)[1].split('</article>',1)[0]
-    assert section.index('<details class="spoiler">') < section.index('<audio ') < section.index('</details>')
-    assert 'preload="none"' in section
-    assert t['cues'] and 'data-tape-data' in section and 'data-subtitle' in section
+    assert 'class="spoiler soul-fallback"' in section
+    assert t['cues'] and 'data-soul-track' in section
+    assert '/assets/' + t['audioFile'] in section
     end = 0
     for cue in t['cues']:
         assert end <= cue['start'] < cue['end'] <= t['duration'] + .08 and cue['text']
@@ -498,16 +512,24 @@ for route_key, html in pages.items():
 assert '/tas/people/kevin-conroy/' in pages["tas/index.html"] and 'href="/arkham/' not in pages["tas/people/kevin-conroy/index.html"]
 assert all(f'/assets/media/{f}' in crossover_page for n in crossover["nodes"] for k, f in n.get("images", {}).items() if k in ("tas", "arkham"))
 print(f'PASS: 蝙蝠侠之声 page with Conroy chapter, {len(crossover["nodes"])} people and characters, {len(crossover_works)} works; old addresses redirect; footers link only the shared page')
-from arkham_pages import riddle_hash
-riddle_doc = json.loads((CONTENT.parent / "arkham-riddles.json").read_text())
 riddler_page = pages["arkham/archive/riddler/index.html"]
-for riddle in riddle_doc["riddles"]:
-    form = re.search(rf'<form class="riddle-card" data-riddle="{riddle["id"]}" data-hashes="([0-9a-f ]+)"', riddler_page)
-    assert form and all(riddle_hash(answer) in form.group(1).split() for answer in riddle["answers"])
-    assert f'id="{riddle["case"]}"' in riddler_page and riddle["answers"][0] not in riddler_page.split('data-riddles')[1].split('</section>')[0]
+comic_cases = [case for case in riddler_packet['cases'] if case.get('comicReading')]
+assert riddler_page.count('data-riddler-item ') == len(scan_packet['riddles']) == 137
+assert riddler_page.count('data-riddler-solution') == 137
+assert riddler_page.count('data-riddler-technique') == 17
+assert len(re.findall(r'<video[^>]+preload="none"', riddler_page)) == 17
+assert all(row['english'] in riddler_page.replace('&#x27;', "'") for row in scan_packet['riddles'])
+assert all(word not in riddler_page for word in ('data-riddles', 'riddle-card', '专题原创谜题', 'class="artbook-chapter"'))
+for case in riddler_packet['cases']:
+    id = 'identity-wall' if case['id'] == 'jason' else case['id']
+    assert f'id="{id}"' in riddler_page
+    if case.get('comicReading'):
+        assert case['comicReading']['comic'] in riddler_page
+assert 'id="artbook-a12"' in pages['arkham/games/arkham-knight/index.html']
 hub = pages["arkham/archive/index.html"]
 assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 14' in hub and '0 / 36' in hub
-print(f'PASS: {len(riddle_doc["riddles"])} hashed Riddler puzzles link to their cases; investigation record lists cases, tapes, transmissions and puzzles')
+assert 'data-record="riddles"' not in hub
+print('PASS: 137 original scan riddles with folded solutions, 17 perspective demonstrations, 14 comic backgrounds, all 21 case anchors retained')
 for route_key, html in pages.items():
     if route_key.endswith(".html") and "<head>" in html:
         assert 'rel="icon"' in html, route_key
@@ -587,9 +609,9 @@ for key, item in recent_index.items():
 assert all('/assets/arkham-recent.js' not in html for key,html in pages.items() if not key.startswith('arkham/'))
 assert 'class="dossier-rail"' not in hub and 'dossier-shelf' not in hub, 'archive hub uses the pause menu, not rail or shelf cards'
 assert hub.count("data-browse-item") == 9 and hub.count("data-panel=") == 9 and "data-browser-fallback" in hub
-for record_key in ("cases", "patients", "transmissions", "riddles"):
+for record_key in ("cases", "patients", "transmissions"):
     assert hub.count(f'data-record="{record_key}"') == 2, record_key
-for label in ('已完成','已试听角色','已试听录音','已解答'):
+for label in ('已完成','已试听角色','已试听录音'):
     assert hub.count(f'data-record-label="{label}"') == 2, label
 for terminal_key in ('arkham/patients/index.html','arkham/transmissions/index.html'):
     assert 'class="spoiler ' in pages[terminal_key] and 'preload="none"' in pages[terminal_key], terminal_key

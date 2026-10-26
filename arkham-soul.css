@@ -1,0 +1,91 @@
+.arkham .soul-reading{max-width:none}
+.arkham .dossier-room:has(.soul-reading){padding-top:30px}
+.arkham .dossier-room:has(.soul-reading) .room-head h1{font-size:clamp(28px,3vw,38px)}
+.arkham .dossier-room:has(.soul-reading) .lead{font-size:15px;margin-bottom:10px}
+.arkham .soul-player{--soul-ink:#050505;--soul-gold:#ffb000;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:20px;align-items:start;padding:28px 12px 30px 0;margin:24px 0 48px;background:#050505;isolation:isolate;scroll-margin-top:24px}
+.arkham .soul-player [hidden]{display:none!important}
+.arkham .soul-art{margin:0;min-width:0;position:sticky;top:20px}
+.arkham .soul-art-title{color:var(--soul-gold);font-weight:800;font-size:clamp(20px,2vw,28px);margin:0 0 18px;padding:0 16px;line-height:1.4}
+.arkham .soul-art-paper{overflow:hidden;aspect-ratio:3/4;clip-path:polygon(0 3%,98% 0,100% 98%,3% 100%,5% 67%,1% 48%);background:#fff;transform:rotate(-2deg)}
+.arkham .soul-art-paper img{display:block;width:auto;height:100%;max-width:none;transform:translateX(-27%)}
+.arkham .soul-art.is-final .soul-art-paper{clip-path:none;transform:none;background:transparent}
+.arkham .soul-art.is-final .soul-art-paper img{width:100%;height:100%;object-fit:contain;transform:none}
+.arkham .soul-art figcaption{font-size:10px;color:#a9aaa8;margin:14px 0 0;padding:0 16px;line-height:1.6}
+.arkham .soul-art figcaption a{color:inherit}
+.arkham .soul-file{position:relative;min-width:0;margin-top:46px;scroll-margin-top:24px;background:var(--soul-ink);border:2px solid #c3c3bf;transform:rotate(.5deg);box-shadow:0 0 0 3px #050505}
+.arkham .soul-file::before,.arkham .soul-file::after{content:"";position:absolute;inset:0;border:2px solid #989a96;background:#050505;z-index:-1;pointer-events:none;transform:translate(10px,-13px) rotate(-2deg)}
+.arkham .soul-file::after{transform:translate(15px,-25px) rotate(1deg);border-color:#686b66;z-index:-2}
+.arkham .soul-file-body{padding:18px 18px 16px;background:#050505}
+.arkham .soul-now{display:flex;align-items:start;justify-content:space-between;gap:10px;margin:0 0 12px}
+.arkham .soul-now h2{font-size:21px;line-height:1.4;margin:0 0 4px;color:#f4f4f0}
+.arkham .soul-now [data-soul-title]{font-size:17px;line-height:1.5;margin:0;color:#deded8}
+.arkham .soul-now [data-soul-state]{font-size:10px;line-height:1.6;margin:5px 0 0;max-width:42%;text-align:right;color:#b8bbb4}
+.arkham .soul-directory-heading{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.arkham .soul-icon-grid{display:block}
+.arkham .soul-ready .soul-icon-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px 3px;align-items:start}
+.arkham .soul-player:not(.soul-ready) .soul-file{transform:none}
+.arkham .soul-player:not(.soul-ready) .soul-choice{flex-direction:row;justify-content:start;gap:12px;margin-top:12px}
+.arkham .soul-player:not(.soul-ready) .soul-choice .soul-glyph{width:44px}
+.arkham .soul-player:not(.soul-ready) .soul-fallback{font-size:14px;margin-bottom:14px}
+.arkham .soul-entry{min-width:0;padding:0;margin:0;scroll-margin-top:24px}
+.arkham .soul-choice,.arkham .soul-final>summary{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:start;min-height:60px;gap:2px;padding:3px;color:#d6d8d3;font-size:10px;line-height:1.4;text-decoration:none;cursor:pointer;background:transparent;border:0}
+.arkham .soul-glyph{display:block;width:100%;max-width:66px;height:auto;aspect-ratio:1;object-fit:contain;border:0}
+.arkham .soul-choice time,.arkham .soul-choice small{font-size:9px;line-height:1.3;color:#a9ada6}
+.arkham .soul-ready .soul-choice time{display:none}
+.arkham .soul-choice small:empty{display:none}
+.arkham .soul-ready [data-soul-row-state]{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.arkham .soul-choice:hover{color:var(--soul-gold);text-decoration:none}
+.arkham .soul-player .soul-choice[aria-current=true]{background:transparent!important;color:var(--soul-gold)!important;border-color:transparent!important;box-shadow:none!important;clip-path:none}
+.arkham .soul-player .soul-choice[aria-current=true] :is(span,small,time){color:var(--soul-gold)!important}
+.arkham .soul-choice[aria-current=true]::after{content:"";position:absolute;top:0;left:3px;right:3px;aspect-ratio:1;border:1px dashed var(--soul-gold);transform:rotate(-5deg);pointer-events:none}
+.arkham .soul-choice[aria-current=true] .soul-glyph{filter:brightness(.78) sepia(1) saturate(12)}
+.arkham .soul-final{position:relative;margin:0;padding:0;border:0;background:transparent}
+.arkham .soul-final>summary{list-style:none}
+.arkham .soul-final>summary::-webkit-details-marker{display:none}
+.arkham .soul-final>summary .soul-glyph{opacity:.35}
+.arkham .soul-final>summary small{font-size:8px;color:#b0b2ad}
+.arkham .soul-final[open]>summary .soul-glyph{opacity:.7}
+.arkham .soul-ready .soul-final[open]>summary{position:absolute;top:100%;left:0;right:0;min-height:20px;padding:2px;font-size:9px}
+.arkham .soul-ready .soul-final[open]>summary :is(img,span,small){display:none}
+.arkham .soul-ready .soul-final[open]>summary::after{content:"收起";color:#b0b2ad}
+.arkham .soul-subtitles{display:grid;align-items:center;min-height:132px;margin:14px 0 0;padding:14px 2px}
+.arkham .soul-subtitles p{font-size:clamp(17px,1.6vw,21px);line-height:1.8;text-align:center;margin:0;color:#e6e6e0;overflow-wrap:anywhere}
+.arkham .soul-timeline{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:center;margin:8px 0}
+.arkham .soul-timeline output{font-size:11px;font-variant-numeric:tabular-nums;color:#b9bcb6}
+.arkham .soul-timeline input{width:100%;min-width:0;margin:0;min-height:32px;accent-color:#ffb000;cursor:pointer}
+.arkham .soul-transport{display:flex;justify-content:space-between;gap:8px}
+.arkham .soul-player button{font:inherit;cursor:pointer}
+.arkham .soul-transport button{min-height:44px;padding:8px 12px;color:#e8e8e1;background:transparent;border:1px solid #767971;font-size:12px}
+.arkham .soul-transport [data-soul-play]{flex:1;color:#ffb000;border-color:#ffb000;font-weight:600}
+.arkham .soul-player button:disabled{opacity:.35;cursor:default}
+.arkham .soul-player :is(button,a,input,summary):focus-visible{outline:2px solid #ffb000;outline-offset:3px}
+.arkham .soul-options{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-size:11px;margin-top:8px}
+.arkham .soul-options label{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer}
+.arkham .soul-options input{width:17px;height:17px;accent-color:#ffb000}
+.arkham .soul-options a{color:#c4c8c0}
+.arkham .soul-sequence-note{font-size:10px;line-height:1.6;color:#a2a69d;margin:0 0 12px}
+.arkham .soul-theme{margin:0;padding:12px 0 0;border:0;border-top:1px solid #6a6f6366;background:transparent}
+.arkham .soul-theme summary{font-size:12px;cursor:pointer}
+.arkham .soul-theme p{font-size:14px;line-height:1.9;margin:12px 0 0}
+.arkham .soul-fallback{font-size:11px}
+.arkham .soul-directory-toggle{display:none}
+.arkham .soul-context{max-width:820px}
+@media(max-width:1100px) and (min-width:961px){.arkham .soul-player{grid-template-columns:minmax(0,.65fr) minmax(0,1.35fr);gap:8px}.arkham .soul-file-body{padding:14px 10px}}
+@media(max-width:700px){
+ .arkham .soul-player{grid-template-columns:minmax(0,1fr);gap:0;padding:14px 10px 20px;margin-top:18px}
+ .arkham .soul-art{position:static;display:grid;grid-template-columns:1fr 90px;gap:0 12px;align-items:center;margin:0 0 28px}
+ .arkham .soul-art-title{font-size:23px;padding:0;margin:0}
+ .arkham .soul-art-paper{grid-column:2;grid-row:1/3;aspect-ratio:3/4}
+ .arkham .soul-art figcaption{padding:0;margin-top:12px;font-size:9px}
+ .arkham .soul-file{margin-top:6px;transform:none}
+ .arkham .soul-file-body{padding:16px 10px}
+ .arkham .soul-now h2{font-size:19px}
+ .arkham .soul-now [data-soul-title]{font-size:15px}
+ .arkham .soul-icon-grid{gap:6px 2px}
+ .arkham .soul-choice,.arkham .soul-final>summary{min-height:44px;padding:2px;font-size:9px}
+ .arkham .soul-ready .soul-directory-toggle{display:block;width:100%;min-height:44px;text-align:left;padding:10px 0;background:transparent;color:#e2e3da;border:0;border-bottom:1px solid #85897f;font-size:12px}
+ .arkham .soul-directory-toggle[aria-expanded=true]{margin-bottom:12px}
+ .arkham .soul-subtitles{min-height:144px;margin-top:10px;padding:16px 4px}
+ .arkham .soul-subtitles p{font-size:18px}
+ .arkham .soul-transport button{padding:8px 10px;font-size:11px}
+}

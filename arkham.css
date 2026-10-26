@@ -78,16 +78,6 @@
 .dossier-entry h2{font-size:30px}
 .dossier-entry h3{font-size:21px;margin-top:25px}
 .dossier-entry .label{margin-bottom:12px}
-.dossier-entry.is-featured{border-left:3px solid var(--accent);padding-left:24px;background:#0d1d1f2b}
-.riddle-quote{margin:22px 0 28px;padding:20px 24px;background:rgba(18,34,36,.55);border:1px solid #2d4c4f;border-left:4px solid #63c0a4;border-radius:2px}
-.riddle-quote .riddle-en{font-size:20px;font-style:italic;font-family:Georgia,serif;color:#a3e8d2;margin:0 0 10px;line-height:1.4}
-.riddle-quote cite{display:block;font-size:12px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;margin-bottom:14px}
-.riddle-quote .riddle-zh{font-size:15px;line-height:1.7;color:var(--text);border-top:1px dashed #2d4c4f;padding-top:12px}
-.riddle-quote .riddle-wordplay{margin:8px 0 0;font-size:14px;color:#c7d8d2}
-.riddle-block{margin:24px 0}
-.comic-block{background:rgba(255,255,255,.02);border:1px solid var(--line);padding:18px 22px;border-radius:2px}
-.comic-origin{font-size:14px;color:#85b5a8;margin-bottom:10px}
-.comic-lore{font-size:15px;line-height:1.75}
 .dossier-related a{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 .dossier-related{font-size:13px}
 .dossier-photo{margin:26px 0;min-width:0}
@@ -116,19 +106,6 @@
 .clue-zone span{font-size:12px;opacity:.75}
 .clue-zone-status{margin:6px 0 0;font-size:14px;opacity:.85}
 .clue-zone-reset{margin-top:12px}
-.riddle-challenge[hidden],.riddle-solved[hidden]{display:none}
-.riddle-input button{padding:9px 14px;border:1px solid var(--line);background:transparent;color:inherit;font:inherit;font-size:14px;cursor:pointer}
-.riddle-challenge{margin:36px 0 48px}
-.riddle-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}
-.riddle-card{padding:20px 22px;border:1px solid var(--line);background:#ffffff06;scroll-margin-top:28px}
-.riddle-card.is-solved{border-color:var(--accent)}
-.riddle-question{font-size:17px;line-height:1.7;margin:8px 0 16px}
-.riddle-input{display:flex;gap:8px}
-.riddle-input input{flex:1;min-width:0;padding:10px 12px;border:1px solid var(--line);background:#0c0f10;color:var(--text);font:inherit;font-size:16px}
-.riddle-input button:disabled,.riddle-input input:disabled{opacity:.5;cursor:default}
-.riddle-status{min-height:1.6em;margin:10px 0 0;font-size:14px;color:var(--muted)}
-.riddle-solved{display:inline-block;margin-top:4px;color:var(--accent)}
-@media(max-width:760px){.riddle-grid{grid-template-columns:1fr}}
 .dossier-room details:not(.spoiler){font-size:14px;padding:14px 0}
 .dossier-room summary{cursor:pointer;color:var(--accent)}
 .dossier-room details[open]>summary{margin-bottom:16px}
@@ -382,7 +359,6 @@
 .arkham .facts-summary svg.ai{width:17px;height:17px;color:#9bada7}
 .arkham .detail-pager span svg.ai{width:14px;height:14px;margin:0 6px;vertical-align:-2px}
 .arkham .merch-chips svg.ai,.arkham .merch-selects svg.ai{width:15px;height:15px;margin-right:6px}
-.arkham .riddle-challenge h2 svg.ai{width:.9em;height:.9em;margin-right:12px;vertical-align:-.08em}
 @media(max-width:700px){.arkham .room-head>svg.ai{width:34px;height:34px}.arkham .room-head{gap:14px}}
 .arkham .facts-summary>p:not(.facts-icons) svg.ai{margin-right:8px;vertical-align:-3px}
 
@@ -617,3 +593,44 @@
 .arkham .recent-object small{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
 .arkham .recent-object strong{display:block;font-size:15px;font-weight:500;overflow-wrap:anywhere}
 
+
+.riddler-reading [hidden]{display:none!important}
+.riddler-reading .clue-zones{border-top:0}
+.riddler-reading>.scene-credit{font-size:12px;line-height:1.7;color:var(--muted);margin:12px 0 6px}
+.riddler-reading>.fine{font-size:11px;margin:6px 0 12px}
+.riddler-reading [data-riddler-status]{font-size:12px;color:var(--muted);margin:0}
+.riddler-reading .riddler-summary{font-size:13px;margin:6px 0 0}
+.riddler-reading .clue-browser.is-browsing .clue-list{display:block}
+.riddler-reading .clue-browser.is-browsing .riddler-summary{display:none}
+.riddler-reading .clue-preview-body h4{font-size:17px;margin:24px 0 12px}
+.riddler-reading .clue-preview-body h4:first-child{margin-top:14px}
+.riddler-quote{margin:16px 0;padding:16px;background:var(--bg);border:1px solid var(--line)}
+.riddler-quote p{margin:0 0 8px;overflow-wrap:anywhere}
+.riddler-quote p:last-child{margin-bottom:0}
+.riddler-book{font-weight:600;color:var(--accent)}
+.riddler-targets{padding-left:20px;font-size:13px}
+.riddler-targets li{margin-bottom:8px}
+.riddler-targets small{display:block;color:var(--muted);font-size:12px}
+.arkham [data-riddler-back]{border:0;border-bottom:1px solid var(--line);width:100%;padding:0 0 12px;margin-bottom:14px;background:none;color:var(--muted);font:inherit;font-size:13px;text-align:left;cursor:pointer}
+.riddler-reading [data-riddler-item]:focus-visible,.riddler-reading [data-riddler-back]:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+@media(min-width:961px){.riddler-reading [data-riddler-back]{display:none}}
+.riddler-reading .riddler-solution{margin-top:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.riddler-reading .riddler-solution>summary,.riddler-reading [data-riddler-demonstration]>summary{min-height:44px;display:flex;align-items:center;gap:12px;padding:8px 0;font-weight:600;list-style:none}
+.riddler-reading .riddler-solution>summary::-webkit-details-marker,.riddler-reading [data-riddler-demonstration]>summary::-webkit-details-marker{display:none}
+.riddler-reading .riddler-solution>summary:after,.riddler-reading [data-riddler-demonstration]>summary:after{content:'＋';margin-left:auto}
+.riddler-reading .riddler-solution[open]>summary:after,.riddler-reading [data-riddler-demonstration][open]>summary:after{content:'−'}
+.riddler-reading .riddler-solution>summary:focus-visible,.riddler-reading details>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.riddler-reading .riddler-answer{padding:0 0 10px}
+.riddler-reading .riddler-answer>.dossier-photo{margin:12px 0 20px}
+.riddler-reading .riddler-answer .dossier-photo img{max-height:480px}
+.riddler-reading .dossier-photo figcaption{font-size:12px;color:var(--muted);margin-top:6px}
+.riddler-techniques,.riddler-background{margin-top:38px;padding-top:26px;border-top:1px solid var(--line)}
+.riddler-techniques>h2,.riddler-background>h2{font-size:24px;margin:0 0 16px}
+.riddler-techniques article{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.riddler-techniques h3{font-size:20px;margin:8px 0 14px}
+.riddler-techniques video{display:block;width:100%;height:auto;background:#000}
+.riddler-background .dossier-entry h3{font-size:23px;margin-top:0}
+
+.riddler-reading .riddler-video-sources{font-size:12px;color:var(--muted);margin:6px 0}
+.riddler-reading .riddler-video-sources p{line-height:1.9}
+.riddler-reading .clue-zone-control{margin:0 0 12px}

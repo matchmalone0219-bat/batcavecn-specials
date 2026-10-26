@@ -1,0 +1,152 @@
+{
+  "scope": "Only this batch source, validation, handoff and 24 new media assets; prior edits retained",
+  "files": [
+    {
+      "file": "arkham_reading.py",
+      "sha256": "617fb9c2b6041f9b14df5dfe43bd8a8e85037f4fe6d27a885bc383c03e9c2fa3"
+    },
+    {
+      "file": "arkham_pages.py",
+      "sha256": "ccf7198c8e391a0af848153fbf66cf01d1f495b584240893f5c02ec80e249d91"
+    },
+    {
+      "file": "app.js",
+      "sha256": "a741648949de2a3962ecea9b67568984f4aeab6de8182c6ca8ecd05d5c47b5e1"
+    },
+    {
+      "file": "arkham.css",
+      "sha256": "753314d84c1e1363176e345b65dfadc0316abbb711ea606c2e5c52937971071e"
+    },
+    {
+      "file": "verify.py",
+      "sha256": "7620a28d6cb14c7b370791e73eda1bfffee71ab35b8c4bc8d55fd45982990cf7"
+    },
+    {
+      "file": "verify-build.py",
+      "sha256": "fe4d0a5555b2933fd2afff69005ae7a44f87a8c4292f8cc4fd2bc794c981112d"
+    },
+    {
+      "file": "PROJECT-HANDOFF-2026-10-25.md",
+      "sha256": "7d2f71417f6242797c59f6200a1eef9c175a0dcb51b7769dbc615a322988bc55"
+    },
+    {
+      "file": ".github/workflows/pages.yml",
+      "sha256": "ccd2358a186eb0cf2c5ba447abbbc24178fc9f35c0be3d3bd543f902a7036d59"
+    },
+    {
+      "file": "arkham_riddler.py",
+      "sha256": "b4dbb02d1805321fe4b7cd6eccef16ba8d7bf2ceb5ed5d66bf9d79a99821b6da"
+    },
+    {
+      "file": "arkham-riddler-scans.json",
+      "sha256": "d9001ae6061295d6db6f739d4f5f92779fef64cbe52a4d98dd29b77631d2b1c7"
+    },
+    {
+      "file": "verify-riddler.py",
+      "sha256": "0d6a2a26de2977527ba9c0fd2478bbd41089f788094bc1d93856391f649fd229"
+    },
+    {
+      "file": "riddler-scans/sharp-portrait-target.jpg",
+      "sha256": "4713bb2e7c28482f562d1c61633ed400c4e1127bf0edba28cf8de5b1c1dd5be3"
+    },
+    {
+      "file": "riddler-scans/jack-ryder-radio-target.jpg",
+      "sha256": "8ae6a4f9681618607448221eb0724099aa955f7603a906acac4290622ac28e4f"
+    },
+    {
+      "file": "riddler-scans/penguin-poster-target.jpg",
+      "sha256": "ab9828b0295ed5603dc2f7e2381666c6f0ba63821380dc2c4c1ab8438782d52b"
+    },
+    {
+      "file": "riddler-scans/riddler-cell-target.jpg",
+      "sha256": "3313b88a9cac375a63916d74cfbac5c83fe798e7f98bbbc0f80548d76908ec10"
+    },
+    {
+      "file": "riddler-scans/scarecrow-hideout-target.jpg",
+      "sha256": "5d4c133a9c692ebf4f35ed127421aac0d291ac5ccb7b7df4d174c49d8b90030b"
+    },
+    {
+      "file": "riddler-scans/cash-family-target.jpg",
+      "sha256": "ec0ee589fc0070ef2885428a3748baa4b59834a578748cf461c592a552924f33"
+    },
+    {
+      "file": "riddler-scans/maxie-zeus-cell-target.jpg",
+      "sha256": "c40d3da6225e8794cd0c485209bc83bd6f39298a514e8ef16bcb3cb074a10000"
+    },
+    {
+      "file": "riddler-scans/treatment-perspective-target.jpg",
+      "sha256": "62469836bc835ae9d33cfeb75a583d119988d695ce7966de2d88a2644a172eb4"
+    },
+    {
+      "file": "riddler-scans/amadeus-grave-target.jpg",
+      "sha256": "25256a737e6c8e29ff92752a94dab8dc3aaa2b1df79dd390097d80978e5e9a17"
+    },
+    {
+      "file": "riddler-scans/wayne-tower-target.jpg",
+      "sha256": "a6ccd06d6caf727f995118076cba89bc870e4a7506626d9af159e48c11eb511f"
+    },
+    {
+      "file": "riddler-scans/east-perspective-target.jpg",
+      "sha256": "f29db5bd82897b36467565e86f08abe1e6228838468ff3feb69223bf0c8ffdb7"
+    },
+    {
+      "file": "riddler-scans/sharp-portrait-scene.jpg",
+      "sha256": "90c5514478e74f58b1a48f4eb0a31da99f76cd598bf91ee26dc02c3997304dc6"
+    },
+    {
+      "file": "riddler-scans/jack-ryder-radio-scene.jpg",
+      "sha256": "64a7df966aa07a5671ef9c1283caac27265677c309a445385aa1083f515350ec"
+    },
+    {
+      "file": "riddler-scans/penguin-poster-scene.jpg",
+      "sha256": "21bbf6b8b3c65ee8f81cf60d778931e06fcf66fe64272ecaec81dd24b793943e"
+    },
+    {
+      "file": "riddler-scans/riddler-cell-scene.jpg",
+      "sha256": "9204cd04ed48b56aa18e39aa6ec5b0fbd88fe1b9dafd3767a7e21327f4432f35"
+    },
+    {
+      "file": "riddler-scans/scarecrow-hideout-scene.jpg",
+      "sha256": "ac1b4afc2e4d87d69dde137c78dd46baf1308a809af20aa93614601fa5f61e67"
+    },
+    {
+      "file": "riddler-scans/cash-family-scene.jpg",
+      "sha256": "92028cded6b181540339699ab05c775e9ae6a5a04ed39f5888afe9e7d368733f"
+    },
+    {
+      "file": "riddler-scans/maxie-zeus-cell-scene.jpg",
+      "sha256": "ee2d43f24214e36d09acf2c68a621d99a30627a77333493e6c415c1c849f8ec6"
+    },
+    {
+      "file": "riddler-scans/amadeus-grave-scene.jpg",
+      "sha256": "6f2d609c6c458ab012aca7afb0d9296a1abae6859ff573aa13aec94ffa3ed94d"
+    },
+    {
+      "file": "riddler-scans/wayne-tower-scene.jpg",
+      "sha256": "bbaf19ee9fcfa843cf193d42f495cf8903eab9e8e1dea514abf9770a5b407781"
+    },
+    {
+      "file": "riddler-scans/creeper-book.jpg",
+      "sha256": "4fe49a25f2c277af1d4cef6b40fd7926993947bb005952faec788cbf021f5f9f"
+    },
+    {
+      "file": "riddler-scans/detective-483.jpg",
+      "sha256": "7a1d46e6b4f43291e409cf6c01d00977a203b47bd7dec42a42507e43fa54d22f"
+    },
+    {
+      "file": "riddler-scans/treatment-perspective.mp4",
+      "sha256": "a451ecc552cc7a562f7b4033203a254d40f9636c8202eaa7f3495ff23e1f72cb"
+    },
+    {
+      "file": "riddler-scans/east-perspective.mp4",
+      "sha256": "d2aab9aa75e4268cd9d00962290f2d00266f073e7a1ec55b6759d2547ef5cc36"
+    }
+  ],
+  "matches": true,
+  "workflowBackup": "/Users/dinghaowei/Downloads/batcavecn/specials/backups/riddler-reveal-workflow-before-20261026.yml",
+  "dailyBuild": {
+    "pages": 160,
+    "searchRecords": 690,
+    "passed": true
+  }
+}

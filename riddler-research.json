@@ -268,6 +268,27 @@
       "url": "https://www.gamesradar.com/batman-arkham-knight-riddler-guide/5/",
       "level": "辅助攻略",
       "checked": "2026-10-02"
+    },
+    {
+      "id": "dc-origin-history",
+      "title": "DC：蝙蝠侠起源的演变",
+      "url": "https://www.dc.com/blog/2023/09/13/the-evolution-of-batman-s-origin",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "dc-mad-love",
+      "title": "DC：Mad Love豪华版",
+      "url": "https://www.dc.com/graphic-novels/batman-adventures-1992/batman-adventures-mad-love-deluxe-edition",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-26"
+    },
+    {
+      "id": "dc-hush-history",
+      "title": "DC：Thomas Elliot与Hush的漫画历程",
+      "url": "https://www.dc.com/blog/2025/03/21/hush-after-hush-tommy-elliot-s-twenty-year-journey",
+      "level": "DC官方书目或文章",
+      "checked": "2026-10-26"
     }
   ],
   "cityRegions": [
@@ -2608,7 +2629,18 @@
       "images": [
         "city-crime-alley"
       ],
-      "comicPagesVerified": true
+      "comicPagesVerified": true,
+      "comicReading": {
+        "scan": "犯罪巷路牌把谜面指向韦恩夫妇遇害的小巷。“六条腿”是走入巷中的一家三口，“两条腿”是幸存的布鲁斯；解题需要把人数与他的身世联系起来。",
+        "book": "《Detective Comics》#457（1976）",
+        "comic": "这一期为犯罪巷补上了Park Row的旧名，并写下莱斯莉·汤普金斯安慰幼年布鲁斯的往事，也确立了布鲁斯每年在父母忌日返回此地的传统。游戏用一个扫描目标唤起这段起源记忆；巷中的悼念互动可以与漫画的年度重访并读。",
+        "summary": "犯罪巷路牌与《Detective Comics》#457中的起源记忆。",
+        "sources": [
+          "city-park-row",
+          "dc-detective-457",
+          "dc-origin-history"
+        ]
+      }
     },
     {
       "id": "great-white",
@@ -2626,7 +2658,17 @@
       "images": [
         "asylum-great-white-shark"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《疯人院》医疗区的罐装标本指向沃伦·怀特，也就是“大白鲨”。玩家从残留的身体特征辨认人物，角色本身无需出现在现场。",
+        "book": "《Arkham Asylum: Living Hell》",
+        "comic": "Dan Slott等人创作的六期漫画以金融罪犯沃伦·怀特为主角：他企图用精神失常抗辩逃过牢狱，却把自己送进了阿卡姆。停尸房里的标本与这部漫画共同连接起“大白鲨”的姓名和疯人院经历。",
+        "summary": "罐装标本指向大白鲨沃伦·怀特，《Living Hell》讲述他的阿卡姆经历。",
+        "sources": [
+          "asylum-guide",
+          "dc-living-hell"
+        ]
+      }
     },
     {
       "id": "ratcatcher",
@@ -2646,7 +2688,18 @@
       "images": [
         "asylum-ratcatcher"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《疯人院》留下捕鼠人的装备，《之城》则在街头保留灭鼠广告。防护装备与职业名称构成两种辨认方式，扫描对象分别关联这名长期活动于地下的反派。",
+        "book": "《Detective Comics》#585（1988）",
+        "comic": "这一期由Alan Grant与John Wagner编剧、Norm Breyfogle绘画，讲述蝙蝠侠在鼠群出没的下水道面对捕鼠人。游戏中的装备和广告延续了角色的职业意象；漫画提供了人物与地下空间的故事背景。",
+        "summary": "捕鼠人的装备、灭鼠广告与《Detective Comics》#585的下水道故事。",
+        "sources": [
+          "asylum-guide",
+          "city-industrial",
+          "dc-ratcatcher"
+        ]
+      }
     },
     {
       "id": "graysons",
@@ -2665,7 +2718,17 @@
         "city-flying-graysons",
         "comic-robin-detective38"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》娱乐区的Flying Graysons海报是扫描目标。海报上的家族名将一个街头演出广告，变成辨认迪克·格雷森身世的线索。",
+        "book": "《Detective Comics》#38（1940）",
+        "comic": "初代罗宾的登场故事从哈利马戏团开始：格雷森夫妇因黑帮破坏表演设施而遇害，布鲁斯收留了幸存的迪克。游戏用仍留在墙上的家庭演出海报，呼应迪克成为罗宾之前的杂技演员身份。",
+        "summary": "格雷森演出海报呼应《Detective Comics》#38中初代罗宾的马戏团身世。",
+        "sources": [
+          "city-amusement-mile",
+          "dc-robin"
+        ]
+      }
     },
     {
       "id": "calendar",
@@ -2685,7 +2748,18 @@
       "images": [
         "city-calendar-man"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》的日历人牢房与《骑士》的日历人桌面，把日期与日历变成识别朱利安·戴的环境线索。",
+        "book": "《Detective Comics》#259（1958）",
+        "comic": "日历人首次登场于《Detective Comics》#259；围绕节日与日期犯罪，是他持续沿用的主题。游戏将这种对时间的执念变成可扫描的日历陈设；牢房内按节日变化的对话属于另一层互动内容。",
+        "summary": "日历人牢房和桌面延续角色围绕日期与节日犯罪的漫画主题。",
+        "sources": [
+          "city-park-row",
+          "knight-founders",
+          "dc-calendar"
+        ]
+      }
     },
     {
       "id": "oracle",
@@ -2704,7 +2778,17 @@
       "images": [
         "knight-batgirl"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《骑士》钟楼中的蝙蝠少女旧战衣，将扫描结果指向芭芭拉·戈登的过去身份。退役装备与她如今的信息工作形成对照。",
+        "book": "《The Killing Joke》／《Suicide Squad》#38（1990）",
+        "comic": "《致命玩笑》写下芭芭拉遭枪击的转折；她作为神谕的身份则在《Suicide Squad》#38揭晓，之后由“Oracle: Year One”补述重建生活的过程。旧战衣连接的是这段身份变化，游戏另有自己的事件顺序与人物关系。",
+        "summary": "钟楼旧战衣连接芭芭拉从蝙蝠少女转为神谕的漫画历程。",
+        "sources": [
+          "knight-bleake",
+          "dc-oracle"
+        ]
+      }
     },
     {
       "id": "zeus",
@@ -2758,7 +2842,17 @@
       "images": [
         "city-scarface"
       ],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》博物馆里的疤脸木偶是扫描对象。小型黑帮人偶的外形，足以把谜题带向腹语者与疤脸这组人物。",
+        "book": "《Detective Comics》#583（1988）",
+        "comic": "疤脸与腹语者在这一期共同登场，由Alan Grant、John Wagner与Norm Breyfogle等人创作。游戏将木偶单独摆进展柜，让玩家从一个陈列物追溯这对角色；木偶与操纵它的腹语者是两个不同的辨认对象。",
+        "summary": "博物馆疤脸木偶与腹语者在《Detective Comics》#583共同登场的背景。",
+        "sources": [
+          "city-museum",
+          "dc-scarface"
+        ]
+      }
     },
     {
       "id": "clayface",
@@ -2774,7 +2868,17 @@
         "dc-clayface"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》街头的《The Terror》电影海报指向巴兹尔·卡洛。扫描目标把他的演员身份，与“泥脸”这个反派名号联系起来。",
+        "book": "《Detective Comics》#40（1940）",
+        "comic": "泥脸的漫画登场起点是《Detective Comics》#40。后来有多位人物使用这一名号，各自拥有不同的经历与能力；这张电影海报对应的是演员卡洛这一条人物线。",
+        "summary": "《The Terror》海报把泥脸巴兹尔·卡洛的演员身份带回街头。",
+        "sources": [
+          "city-park-row",
+          "dc-clayface"
+        ]
+      }
     },
     {
       "id": "freeze",
@@ -2811,7 +2915,17 @@
         "dc-cult"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《骑士》中的Deacon’s Mission以布道所的名称指向Deacon Blackfire。解开地点线索之后，可以沿这个名字进入漫画中的邪教故事。",
+        "book": "《Batman: The Cult》#1–4",
+        "comic": "Jim Starlin与Bernie Wrightson创作的《The Cult》，讲述Blackfire操纵无家可归者建立追随者群体，并试图摧毁蝙蝠侠的意志。布道所的名称承接了角色的宗教身份，漫画则展开这种身份背后的控制与暴力。",
+        "summary": "布道所名称指向《Batman: The Cult》中的Deacon Blackfire。",
+        "sources": [
+          "knight-bleake",
+          "dc-cult"
+        ]
+      }
     },
     {
       "id": "manbat",
@@ -2827,7 +2941,17 @@
         "dc-debuts"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《骑士》朗斯特罗姆实验室的白板是扫描目标。研究者的姓名与实验记录，把现场物件连接到人蝙蝠这一角色。",
+        "book": "《Detective Comics》#400（1970）",
+        "comic": "人蝙蝠首次登场于《Detective Comics》#400。实验室白板将漫画中的人物带入游戏的科学研究场景；具体实验经过属于阿卡姆版本的故事。",
+        "summary": "朗斯特罗姆实验室白板与人蝙蝠在《Detective Comics》#400的登场背景。",
+        "sources": [
+          "knight-bleake",
+          "dc-debuts"
+        ]
+      }
     },
     {
       "id": "scarecrow",
@@ -2845,7 +2969,18 @@
         "dc-scarecrow"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》的稻草人面具与《骑士》的恐惧研究物件，将扫描线索指向乔纳森·克莱恩。面具对应外形，研究物则对应他以恐惧为武器的做法。",
+        "book": "《World’s Finest Comics》#3（1941）",
+        "comic": "稻草人的首次登场刊物是《World’s Finest Comics》#3。角色长期围绕心理学、恐惧与毒素展开；游戏把这些特征拆成可发现的场景物件，让人物在正式出场之外仍留下痕迹。",
+        "summary": "面具与恐惧研究物件，连接稻草人的漫画登场背景和人物主题。",
+        "sources": [
+          "city-amusement-mile",
+          "knight-hq",
+          "dc-scarecrow"
+        ]
+      }
     },
     {
       "id": "hatter",
@@ -2918,7 +3053,18 @@
         "knight-studios"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《之城》的文凭、锤子与旧服，以及《骑士》的小丑祭坛，分别关联哈莉的职业、装束和人物关系。它们是不同的扫描目标。",
+        "book": "《The Batman Adventures: Mad Love》",
+        "comic": "Paul Dini与Bruce Timm创作的《Mad Love》讲述哈莉的起源及她与小丑的关系。文凭与反派用品的并置，可以沿这部漫画阅读她的身份变化；《Mad Love》属于动画衍生漫画，阿卡姆系列采用独立的故事版本。",
+        "summary": "哈莉的文凭、旧服与用品，可与动画衍生漫画《Mad Love》的起源故事对读。",
+        "sources": [
+          "city-steel-mill",
+          "knight-studios",
+          "dc-mad-love"
+        ]
+      }
     },
     {
       "id": "jason",
@@ -2935,7 +3081,18 @@
         "dc-robin"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《骑士》总部的照片墙以人物关系构成扫描线索。照片中的复仇对象，与骑士身份背后的经历相连。",
+        "book": "《A Death in the Family》／《Under the Hood》",
+        "comic": "漫画中的第二代罗宾杰森·托德经历了《A Death in the Family》中的死亡，又以红头罩身份回归。《骑士》借用了他与蝙蝠侠之间的创伤和冲突，另行安排了阿卡姆宇宙里的失踪、幸存与复仇过程。",
+        "summary": "环境照片墙与身份叙事；具体身份信息默认折叠。",
+        "sources": [
+          "knight-hq",
+          "knight-stories",
+          "dc-robin"
+        ]
+      }
     },
     {
       "id": "hush",
@@ -2953,7 +3110,18 @@
         "knight-stories"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "《疯人院》的Elliot白板与《骑士》的纪念医院，以姓名和机构名称指向托马斯·埃利奥特。",
+        "book": "《Batman: Hush》／《Detective Comics》#846–850",
+        "comic": "《Hush》引入布鲁斯的童年朋友托马斯·埃利奥特。《Heart of Hush》继续发展他的外科能力与冒充布鲁斯的执念；DC的角色回顾也将这一版本与Paul Dini编写的《阿卡姆之城》联系起来。医院名称是人物线索，相关剧情则另有漫画与游戏的改写关系。",
+        "summary": "Elliot姓名与医院线索，连接《Hush》和《Heart of Hush》中的托马斯·埃利奥特。",
+        "sources": [
+          "asylum-guide",
+          "knight-miagani",
+          "dc-hush-history"
+        ]
+      }
     },
     {
       "id": "grayson-tim",
@@ -2972,7 +3140,19 @@
         "dc-robin"
       ],
       "images": [],
-      "comicPagesVerified": false
+      "comicPagesVerified": false,
+      "comicReading": {
+        "scan": "格雷森海报与《骑士》中的折断长棍，分别关联迪克·格雷森和蒂姆·德雷克。两件扫描物对应不同的罗宾。",
+        "book": "罗宾的代际传承：迪克·格雷森与蒂姆·德雷克",
+        "comic": "漫画里，迪克是从马戏团走出的初代罗宾，蒂姆则是后来的继任者。游戏用演出海报与武器区分他们的经历；对读罗宾的漫画历史，可以辨明同一个称号下的不同人物。",
+        "summary": "格雷森海报与折断长棍对应两位罗宾，分别追溯迪克与蒂姆的漫画背景。",
+        "sources": [
+          "city-amusement-mile",
+          "knight-studios",
+          "knight-stories",
+          "dc-robin"
+        ]
+      }
     }
   ],
   "mechanics": [
@@ -3124,7 +3304,7 @@
     {
       "id": "city-crime-alley",
       "file": "riddler-city-crime-alley.jpg",
-      "caption": "犯罪巷：韦恩夫妇遇害现场与未凋零的红玫瑰",
+      "caption": "《阿卡姆之城》犯罪巷路牌",
       "source": "city-park-row",
       "imageUrl": "https://cdn.mos.cms.futurecdn.net/city-crime-alley.jpg",
       "width": 1280,

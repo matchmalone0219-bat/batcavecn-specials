@@ -1,0 +1,12 @@
+{
+  "count": 7,
+  "checks": [
+    "switching while prior audio loads cancels stale playback",
+    "late response does not change selection",
+    "failed audio retains correct original recording link",
+    "without sequential play, ended event stays on current track",
+    "mobile full portrait creates no horizontal overflow",
+    "pausing final recording retains the revealed portrait",
+    "previous from final recording restores shadow artwork"
+  ]
+}

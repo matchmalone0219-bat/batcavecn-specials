@@ -45,11 +45,18 @@ def build(data=None):
         path.write_text(body)
     (DIST / "assets").mkdir(exist_ok=True)
     copy_asset(ROOT / 'conroy-profile.css', DIST / 'assets/conroy-profile.css')
+    for filename in ('arkham-riddler-scan.css', 'arkham-riddler-scan.js', 'arkham-batmark.svg'):
+        copy_asset(ROOT / filename, DIST / 'assets' / filename)
+    for filename in ('arkham-soul.css', 'arkham-soul.js'):
+        copy_asset(ROOT / filename, DIST / 'assets' / filename)
     for filename in ('tas-opening.css', 'tas-opening.js'):
         copy_asset(ROOT / filename, DIST / 'assets' / filename)
     for filename in ("style.css", "artbook.css", "arkham.css", "tas.css", "topic-navigation.css", "tas-motion.js", "tas-lightbox.js", "app.js", "arkham-city-background.jpg", "tas-home-title.jpg", "arkham-intro.js", "arkham-transition.js", "arkham-menu.js", "arkham-nav.js", "arkham-investigation.js", "arkham-clues.js", "arkham-recent.js", "arkham-channel-tuning.js", "arkham-investigation.css", "arkham-city-intro.mp4", "arkham-city-intro-720.mp4", "arkham-city-intro-music.m4a", "arkham-city-intro-poster.jpg", "arkham-bat-transition.m4a", "arkham-bat-transition.wav", "logo-arkham-transparent.svg", "logo-tas-transparent.svg", "icon-shared.svg"):
         copy_asset(ROOT / filename, DIST / "assets" / filename)
     (DIST / "assets/media").mkdir(exist_ok=True)
+    soul_assets = json.loads((ROOT / 'asylum-history.json').read_text())
+    for key in ('playerImage', 'playerFinalImage', 'playerIcon'):
+        copy_asset(ROOT / soul_assets[key]['file'], DIST / 'assets/media' / soul_assets[key]['file'])
     (DIST / 'assets/media/maps').mkdir(exist_ok=True)
     for map_game in ('asylum', 'city', 'knight'):
         map_asset = json.loads((ROOT / f'arkham-{map_game}-map.json').read_text())
@@ -63,6 +70,10 @@ def build(data=None):
     for asset in research_images + opening_assets():
         (DIST / "assets/media" / asset["file"]).parent.mkdir(parents=True, exist_ok=True)
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
+    for asset in json.loads((ROOT / 'riddler-scan-feedback.json').read_text())['sources']:
+        destination = DIST / 'assets/media' / asset['file']
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        copy_asset(ROOT / asset['file'], destination)
     (DIST / 'assets/media/recording-portraits').mkdir(exist_ok=True)
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])

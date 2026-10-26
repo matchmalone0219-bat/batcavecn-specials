@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-26",
+  "method": "Videos 03–09: full-duration samples every 6 seconds (1871 frames), on-device caption OCR, manual inspection of all 40 scan groups and exported targets, 0/7/14-second frame review of 7 derived demonstrations. Not a claim of uninterrupted full playback.",
+  "videos": {
+    "01": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/01 - Batman： Return to Arkham Asylum - Riddler's Challenge - Intensive Treatment (All Collectibles).mp4",
+      "duration": 1853.094,
+      "size": 604267904,
+      "sha256": "22d26ddbe1e2e233059d6595cf0f97361a46c25bb96cfc5e64863e9456c1cb0c",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "02": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/02 - Batman： Return to Arkham Asylum - Riddler's Challenge - Arkham Island East (All Collectibles).mp4",
+      "duration": 1133.954,
+      "size": 471221911,
+      "sha256": "51c56599eb289426cf8eeea4fde764c84f2f18c7ebea26847c7f1589a5215459",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "03": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/03 - Batman： Return to Arkham Asylum - Riddler's Challenge - Arkham Island North (All Collectibles).mp4",
+      "duration": 1126.814,
+      "size": 387803079,
+      "sha256": "208348c3ff47a23893f5e8c549d06dbb4017a11b6d9c55f21169d7b13de98031",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "04": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/04 - Batman： Return to Arkham Asylum - Riddler's Challenge - Arkham Island West (All Collectibles).mp4",
+      "duration": 1082.734,
+      "size": 352442554,
+      "sha256": "b020bae47e8c8d0f87a275471a41f4b6b871aa5cf7c5836446893702375b5dfe",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "05": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/05 - Batman： Return to Arkham Asylum - Riddler's Challenge - Medical Facility (All Collectibles).mp4",
+      "duration": 1780.094,
+      "size": 573258257,
+      "sha256": "c8cee7a64069fe268ed0c687424f102595bc1f14f5f0ffac7a0764757be69ccf",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "06": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/06 - Batman： Return to Arkham Asylum - Riddler's Challenge - Caves (All Collectibles).mp4",
+      "duration": 1920.334,
+      "size": 541363565,
+      "sha256": "dd22c7dae76eaf0a46213b75318131d5bde09a24dd1d256cbb744de262dc91ce",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "07": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/07 - Batman： Return to Arkham Asylum - Riddler's Challenge - Arkham Mansion (All Collectibles).mp4",
+      "duration": 1746.854,
+      "size": 678247223,
+      "sha256": "a9225fa5d39892310e6da548df6df5ff97b79f72c434966aeacb38bb5bd2c197",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "08": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/08 - Batman： Return to Arkham Asylum - Riddler's Challenge - Botanical Gardens (All Collectibles).mp4",
+      "duration": 1620.654,
+      "size": 527276392,
+      "sha256": "307d157a9b961a06665be17b0c7d498bff3a65b3a5add52b8c21db1cc5e6a675",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    },
+    "09": {
+      "file": "/Users/dinghaowei/Downloads/Gemini/Batman_Return_to_Arkham_Asylum_Riddler/09 - Batman： Return to Arkham Asylum - Riddler's Challenge - Penitentiary (All Collectibles).mp4",
+      "duration": 1944.014,
+      "size": 472259374,
+      "sha256": "6d8531f86460c703cd3a147f0317e7c78159984983cc222874151bce66d8dee1",
+      "codec": "AV1",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60
+    }
+  },
+  "groups": [
+    {
+      "video": "03",
+      "code": 56,
+      "first": 240,
+      "last": 282,
+      "question": "\"Now I see it, now you don't!\""
+    },
+    {
+      "video": "03",
+      "code": 61,
+      "first": 468,
+      "last": 516,
+      "question": "\"Let's face it, there are two Dents on the wall.\" (Cryptographic Sequencer)"
+    },
+    {
+      "video": "03",
+      "code": 66,
+      "first": 714,
+      "last": 744,
+      "question": "\"Tweedledum and Tweedledee SAW it, can you SEE it?\""
+    },
+    {
+      "video": "04",
+      "code": 87,
+      "first": 864,
+      "last": 906,
+      "question": "\"Does Scarecrow's gas break down barriers as it drives you insane?\" (Ultra Batclaw)"
+    },
+    {
+      "video": "04",
+      "code": 88,
+      "first": 912,
+      "last": 960,
+      "question": "\"Zsasz is counting on you finding his work.\" (Cryptographic Sequencer with Range Amplifier Upgrade)"
+    },
+    {
+      "video": "04",
+      "code": 89,
+      "first": 966,
+      "last": 1008,
+      "question": "\"Do you see what I can see? No? Then maybe I am in a stronger position.\""
+    },
+    {
+      "video": "05",
+      "code": 93,
+      "first": 432,
+      "last": 480,
+      "question": "\"Are you going to take your hat off to Harley, Bats?\""
+    },
+    {
+      "video": "05",
+      "code": 94,
+      "first": 486,
+      "last": 522,
+      "question": "\"Shhhhsshh! Rumors persist that Tommy Elliot operates in Arkham. Can it be true?\""
+    },
+    {
+      "video": "05",
+      "code": 98,
+      "first": 810,
+      "last": 840,
+      "question": "Is this bear the Bane of his life?"
+    },
+    {
+      "video": "05",
+      "code": 99,
+      "first": 846,
+      "last": 888,
+      "question": "\"Was this fire fly too hot off the press?\""
+    },
+    {
+      "video": "05",
+      "code": 104,
+      "first": 1128,
+      "last": 1182,
+      "question": "\"A question can only be answered from a new perspective. Don't you agree?\" (Explosive Gel / Ultra Batclaw)"
+    },
+    {
+      "video": "05",
+      "code": 109,
+      "first": 1380,
+      "last": 1410,
+      "question": "\"What silent killer of the oceans can be found in a tiny jar?\""
+    },
+    {
+      "video": "05",
+      "code": 114,
+      "first": 1548,
+      "last": 1578,
+      "question": "\"TICK! TOCK! News flash! Someone is not getting out of here alive.\""
+    },
+    {
+      "video": "05",
+      "code": 119,
+      "first": 1734,
+      "last": 1770,
+      "question": "\"Is the generosity of our benefactors on the Wayne?\""
+    },
+    {
+      "video": "06",
+      "code": 147,
+      "first": 1698,
+      "last": 1734,
+      "question": "\"A puzzle has many sides, but only some are visible.\""
+    },
+    {
+      "video": "07",
+      "code": 151,
+      "first": 246,
+      "last": 282,
+      "question": "\"This fiendish puzzle literally appears out of thin air.\""
+    },
+    {
+      "video": "07",
+      "code": 152,
+      "first": 288,
+      "last": 312,
+      "question": "\"What does a bird need in the rain?\""
+    },
+    {
+      "video": "07",
+      "code": 156,
+      "first": 534,
+      "last": 564,
+      "question": "\"Isn't the Warden too old for a puppet show?\""
+    },
+    {
+      "video": "07",
+      "code": 157,
+      "first": 570,
+      "last": 600,
+      "question": "\"Who is the main man in the main hall?\""
+    },
+    {
+      "video": "07",
+      "code": 161,
+      "first": 696,
+      "last": 720,
+      "question": "\"It'll be a cold day in Hell when this Ghul rises again.\""
+    },
+    {
+      "video": "07",
+      "code": 162,
+      "first": 726,
+      "last": 780,
+      "question": "\"Our records show that a Strange transfer request was made in this room.\" (Cryptographic Sequencer / Line Launcher)"
+    },
+    {
+      "video": "07",
+      "code": 166,
+      "first": 912,
+      "last": 966,
+      "question": "\"Did Amadeus go mad, or was he just dizzy?\""
+    },
+    {
+      "video": "07",
+      "code": 167,
+      "first": 972,
+      "last": 1008,
+      "question": "\"A game of Cat and mouse can be painful.\""
+    },
+    {
+      "video": "07",
+      "code": 172,
+      "first": 1254,
+      "last": 1290,
+      "question": "\"How do you mask your feelings without losing control?\""
+    },
+    {
+      "video": "08",
+      "code": 181,
+      "first": 234,
+      "last": 264,
+      "question": "\"What time is tea time in Wonderland?\""
+    },
+    {
+      "video": "08",
+      "code": 182,
+      "first": 270,
+      "last": 300,
+      "question": "\"Remember the Waynes? How could anyone forget?\""
+    },
+    {
+      "video": "08",
+      "code": 186,
+      "first": 468,
+      "last": 498,
+      "question": "\"The Ratcatcher needed more than just his charm to lead his army.\""
+    },
+    {
+      "video": "08",
+      "code": 187,
+      "first": 504,
+      "last": 570,
+      "question": "\"This challenge can only be seen by those with a different view on life.\""
+    },
+    {
+      "video": "08",
+      "code": 191,
+      "first": 708,
+      "last": 738,
+      "question": "\"Looks like all the king's horses trampled all the king's men.\""
+    },
+    {
+      "video": "08",
+      "code": 192,
+      "first": 744,
+      "last": 774,
+      "question": "\"Is this a tribute to what a mad dog left behind?\""
+    },
+    {
+      "video": "08",
+      "code": 196,
+      "first": 870,
+      "last": 906,
+      "question": "\"There's no closet in the Gardens, so someone is using the roof instead.\""
+    },
+    {
+      "video": "08",
+      "code": 197,
+      "first": 912,
+      "last": 942,
+      "question": "\"Is the number up for these guards?\""
+    },
+    {
+      "video": "09",
+      "code": 221,
+      "first": 696,
+      "last": 726,
+      "question": "\"This room is the end of days for even the most celebrated killer.\""
+    },
+    {
+      "video": "09",
+      "code": 222,
+      "first": 732,
+      "last": 798,
+      "question": "\"When is something right in front of you but still hidden from view?\" (Explosive Gel / Ultra Batclaw)"
+    },
+    {
+      "video": "09",
+      "code": 226,
+      "first": 1032,
+      "last": 1062,
+      "question": "\"All alone in your cell? Why don't you break the ice with the most dangerous prisoners?\""
+    },
+    {
+      "video": "09",
+      "code": 227,
+      "first": 1068,
+      "last": 1110,
+      "question": "\"A case of mistaken identity?*"
+    },
+    {
+      "video": "09",
+      "code": 228,
+      "first": 1116,
+      "last": 1152,
+      "question": "\"Two people, one voice, no gun?\""
+    },
+    {
+      "video": "09",
+      "code": 231,
+      "first": 1290,
+      "last": 1314,
+      "question": "\"What has four walls, two sides, and one ex-DA?\""
+    },
+    {
+      "video": "09",
+      "code": 232,
+      "first": 1320,
+      "last": 1386,
+      "question": "\"Prometheus, Arkham guards' most wanted and most hated.\" (Explosive Gel / Ultra Batclaw)"
+    },
+    {
+      "video": "09",
+      "code": 233,
+      "first": 1392,
+      "last": 1422,
+      "question": "\"How do you reflect on your successes and failures, Batman?\""
+    }
+  ],
+  "playlist": [
+    {
+      "id": "TSeTKL3ip8A",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Intensive Treatment (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=TSeTKL3ip8A"
+    },
+    {
+      "id": "-Qi7QpyKn7k",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Arkham Island East (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=-Qi7QpyKn7k"
+    },
+    {
+      "id": "Yyq1iQIr-GE",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Arkham Island North (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=Yyq1iQIr-GE"
+    },
+    {
+      "id": "yd0nMNq4Wo8",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Arkham Island West (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=yd0nMNq4Wo8"
+    },
+    {
+      "id": "jDX3AS9lQW8",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Medical Facility (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=jDX3AS9lQW8"
+    },
+    {
+      "id": "NurwGVR8zNA",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Caves (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=NurwGVR8zNA"
+    },
+    {
+      "id": "uWxbysxBslw",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Arkham Mansion (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=uWxbysxBslw"
+    },
+    {
+      "id": "AbWTOJFd_Kw",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Botanical Gardens (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=AbWTOJFd_Kw"
+    },
+    {
+      "id": "46RGtBivuOI",
+      "title": "Batman: Return to Arkham Asylum - Riddler's Challenge - Penitentiary (All Collectibles)",
+      "url": "https://www.youtube.com/watch?v=46RGtBivuOI"
+    }
+  ],
+  "counts": {
+    "narrative": 42,
+    "perspective": 9,
+    "cityRetained": 1,
+    "images": 95,
+    "clips": 9
+  }
+}

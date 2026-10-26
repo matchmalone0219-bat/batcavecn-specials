@@ -1,0 +1,68 @@
+.arkham .riddler-scan-ready{position:relative;--scan-color:#efba23}
+.arkham .riddler-scan-ready:has([data-riddler-scan=city]){--scan-color:#63ed83}
+.arkham .riddler-scan-trigger{position:relative;display:block;width:100%;padding:0;border:0;background:#050809;color:inherit;font:inherit;cursor:pointer;isolation:isolate;overflow:hidden}
+.arkham .riddler-scan-trigger>img{display:block;width:100%;height:100%;max-height:none;object-fit:contain;transition:opacity .25s ease}
+.arkham .riddler-scan-trigger>.riddler-scan-target{position:absolute;inset:0;opacity:0}
+.arkham .is-target .riddler-scan-scene{opacity:0}
+.arkham .is-target .riddler-scan-target{opacity:1}
+.arkham .riddler-scan-views{display:flex;gap:8px;margin:8px 0}
+.arkham .riddler-scan-views button{min-height:44px;padding:7px 12px;border:1px solid var(--line);background:transparent;color:var(--muted);font:inherit;font-size:12px;cursor:pointer}
+.arkham .riddler-scan-views button[aria-pressed=true]{background:var(--text);color:var(--bg)}
+.arkham .riddler-scan-views button:disabled{opacity:.55;cursor:default}
+.arkham .riddler-scan-views button:focus-visible{outline:2px solid var(--scan-color);outline-offset:2px}
+.arkham .riddler-scan-trigger:focus-visible{outline:2px solid var(--scan-color);outline-offset:4px}
+.arkham .riddler-scan-trigger[aria-disabled=true]{cursor:wait}
+.arkham .riddler-scan-effects{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.arkham .scan-tint,.arkham .scan-analysis{position:absolute;inset:0;opacity:0}
+.arkham .scan-tint{background:radial-gradient(ellipse at 50% 48%,#c9b74580 0,#837c1b50 48%,#000c 100%);mix-blend-mode:hard-light}
+.arkham [data-riddler-scan=city] .scan-tint{background:radial-gradient(ellipse at 50% 48%,#b8eaf429 0,#396d8440 55%,#071423b8 100%);mix-blend-mode:screen}
+.arkham [data-riddler-scan=city] .scan-analysis{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='28' viewBox='0 0 24 28'%3E%3Cpath d='M12 0L24 7V21L12 28L0 21V7Z' fill='none' stroke='%2395cde0' stroke-opacity='.35'/%3E%3C/svg%3E");mask-image:radial-gradient(ellipse,transparent 30%,#000 100%);-webkit-mask-image:radial-gradient(ellipse,transparent 30%,#000 100%)}
+.arkham .scan-batmark,.arkham .scan-swarm i{position:absolute;display:block;mask:url("arkham-batmark.svg") center/contain no-repeat;-webkit-mask:url("arkham-batmark.svg") center/contain no-repeat}
+.arkham .scan-batmark{left:calc(50% - 32px);top:30%;width:64px;height:30px;background:#e7e7de;opacity:0}
+.arkham .scan-solved{position:absolute;top:30%;left:14%;right:8%;display:flex;align-items:start;gap:8px;text-align:left;opacity:0;color:#f1f3e8;text-shadow:0 2px 3px #000}
+.arkham .scan-solved strong{display:block;font:600 clamp(16px,2vw,23px)/1.15 var(--arkham-condensed),sans-serif;letter-spacing:.015em}
+.arkham .scan-solved small{display:block;margin-top:5px;font:13px/1.5 var(--sans)}
+.arkham .scan-solved-icon{flex:none;width:18px;height:16px;background:var(--scan-color);clip-path:polygon(0 0,70% 0,100% 50%,70% 100%,0 100%);font-size:0;margin-top:4px}
+.arkham [data-riddler-scan=city] .scan-solved-icon{width:23px;height:25px;clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);color:#082315;text-align:center;font:800 19px/25px var(--sans);text-shadow:none;margin-top:0}
+.arkham [data-riddler-scan=asylum] .scan-solved{background:linear-gradient(100deg,#050505bd,transparent);padding:5px 8px}
+.arkham .riddler-scan-prompt{position:absolute;left:12px;bottom:12px;padding:6px 10px;background:#050a0bd9;color:#edf1e4;font:12px/1.5 var(--sans);border:1px solid #d2dbc64d;pointer-events:none}
+.arkham .riddler-scan-tools{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:6px;font-size:11px;line-height:1.6}
+.arkham .riddler-scan-tools a{color:var(--muted)}
+.arkham .riddler-scan-tools label{display:flex;align-items:center;gap:6px;min-height:32px;color:var(--muted);cursor:pointer}
+.arkham .riddler-scan-tools input{width:15px;height:15px;margin:0;accent-color:var(--scan-color)}
+.arkham .riddler-scan-state{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.arkham .riddler-scan-solution:not([open]){display:none}
+.arkham .riddler-comic{margin-top:22px;padding-top:12px;border:0;border-top:1px solid var(--line);background:transparent}
+.arkham .riddler-comic>summary{min-height:44px;display:flex;align-items:center;font-weight:600;cursor:pointer}
+.arkham .riddler-comic .dossier-photo{margin-top:16px}
+.arkham .is-scanning .scan-tint{animation:riddler-analysis-flash 1.05s ease-out both}
+.arkham .is-scanning .scan-batmark{animation:riddler-bat-confirm 1.05s ease-out both}
+.arkham .is-scanning:has([data-riddler-scan=city]) .scan-tint{animation-duration:1.15s}
+.arkham .is-scanning:has([data-riddler-scan=city]) .scan-batmark{display:none}
+.arkham .is-scanning .scan-analysis{animation:riddler-city-analysis 1.15s ease-out both}
+.arkham .is-scanning .scan-solved{animation:riddler-confirm 1.05s ease-out both}
+.arkham .is-scanning:has([data-riddler-scan=city]) .scan-solved{animation-duration:1.15s}
+.arkham .is-solved .scan-solved{opacity:1}
+.arkham .is-target .scan-solved{opacity:0}
+.arkham .is-scanning .scan-swarm i{width:70px;height:35px;background:#020404;opacity:0;left:var(--bat-x,45%);top:var(--bat-y,55%);animation:riddler-bats-out .28s ease-in calc(.55s + var(--bat-delay,0s)) both}
+.arkham .scan-swarm i:nth-child(2){--bat-x:12%;--bat-y:68%;--bat-delay:.02s}
+.arkham .scan-swarm i:nth-child(3){--bat-x:70%;--bat-y:55%;--bat-delay:.05s}
+.arkham .scan-swarm i:nth-child(4){--bat-x:32%;--bat-y:75%;--bat-delay:.08s}
+.arkham .scan-swarm i:nth-child(5){--bat-x:60%;--bat-y:33%;--bat-delay:.03s}
+.arkham .scan-swarm i:nth-child(6){--bat-x:5%;--bat-y:45%;--bat-delay:.1s}
+@keyframes riddler-analysis-flash{0%,18%{opacity:0}35%{opacity:.9}58%{opacity:.7}100%{opacity:0}}
+@keyframes riddler-bat-confirm{0%,25%{opacity:0;transform:scale(.6)}45%{opacity:.85;transform:scale(1)}60%,100%{opacity:0;transform:scale(1.1)}}
+@keyframes riddler-city-analysis{0%,15%{opacity:0}35%,66%{opacity:.85}100%{opacity:0}}
+@keyframes riddler-confirm{0%,50%{opacity:0;transform:translateX(-6px)}68%,100%{opacity:1;transform:translateX(0)}}
+@keyframes riddler-bats-out{0%{opacity:0;transform:translate(0,20px) scale(.2) rotate(-12deg)}25%{opacity:.95}75%{opacity:.85;transform:translate(12px,-12px) scale(1.8) rotate(7deg)}100%{opacity:0;transform:translate(-20px,-40px) scale(3) rotate(-8deg)}}
+@media(max-width:600px){.arkham .riddler-scan-prompt{left:8px;bottom:8px;padding:4px 7px;font-size:11px}.arkham .scan-solved{left:8%;top:25%}.arkham .scan-solved strong{font-size:17px}.arkham .scan-solved small{font-size:11px}.arkham .riddler-scan-tools label{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.arkham .riddler-scan-ready *{animation:none!important;transition:none!important}}
+.arkham .riddler-scan-ready:has([data-riddler-scan=knight]){--scan-color:#39ec74}
+.arkham [data-riddler-scan=knight] .scan-tint{background:radial-gradient(ellipse at 50% 48%,#b8eaf429 0,#396d8440 55%,#071423b8 100%);mix-blend-mode:screen}
+.arkham [data-riddler-scan=knight] .scan-analysis{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='28' viewBox='0 0 24 28'%3E%3Cpath d='M12 0L24 7V21L12 28L0 21V7Z' fill='none' stroke='%2395cde0' stroke-opacity='.35'/%3E%3C/svg%3E");mask-image:radial-gradient(ellipse,#000 25%,transparent 72%);-webkit-mask-image:radial-gradient(ellipse,#000 25%,transparent 72%)}
+.arkham [data-riddler-scan=knight] .scan-solved-icon{width:23px;height:27px;clip-path:none;color:#0c5b2d;text-align:center;font:700 23px/27px var(--arkham-condensed);text-shadow:none;box-shadow:0 0 10px #40eb8666}
+.arkham [data-riddler-scan=knight] .scan-solved strong{border-bottom:1px solid #87cfd999;padding-bottom:3px}
+.arkham .is-scanning:has([data-riddler-scan=knight]) :is(.scan-tint,.scan-solved){animation-duration:1.15s}
+.arkham [data-riddler-scan=knight] :is(.scan-batmark,.scan-swarm){display:none}
+.arkham .is-scanning:has([data-riddler-scan=knight]) .scan-analysis{animation:riddler-knight-analysis 1.15s ease-out both}
+@keyframes riddler-knight-analysis{0%,12%{opacity:0;transform:scale(.35)}30%{opacity:.95;transform:scale(.8)}65%{opacity:.7;transform:scale(1.8)}100%{opacity:0;transform:scale(2)}}

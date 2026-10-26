@@ -256,7 +256,7 @@ function episodeCatalogPage() {
 
 function clueZonePage() {
   const zones = document.querySelector('.clue-zones');
-  if (!zones || zones.closest('[data-clue-workspace]')) return;
+  if (!zones || zones.closest('[data-clue-workspace], [data-riddler-workspace]')) return;
   const gameButtons = [...zones.querySelectorAll('[data-zone-game]')];
   const boards = [...zones.querySelectorAll('[data-zone-board]')];
   const tiles = [...zones.querySelectorAll('[data-zone]')];
@@ -319,7 +319,6 @@ const protocolRecord = (() => {
       const name = String(src).split('/').pop();
       if (/^(patient|transmission)-[a-z0-9-]+\.m4a$/.test(name)) add('heard', name);
     },
-    solve(id) { add('riddles', id); },
     clear() { try { storage()?.removeItem(KEY); storage()?.removeItem(CASES); } catch {} window.ArkhamRecent?.clear(); }
   };
 })();
@@ -337,7 +336,7 @@ function protocolRecordPanel() {
     const solved = Object.keys(totals).filter(id => progress[id] === totals[id]).length;
     const patients = new Set(record.heard.map(name => name.match(/^patient-(.+)-\d+\.m4a$/)?.[1]).filter(Boolean)).size;
     const transmissions = record.heard.filter(name => name.startsWith('transmission-')).length;
-    const values = { cases: solved, patients, transmissions, riddles: record.riddles.length };
+    const values = { cases: solved, patients, transmissions };
     Object.entries(values).forEach(([name, value]) => {
       const all = total(name);
       fields(name).forEach(field => {
@@ -358,34 +357,137 @@ function protocolRecordPanel() {
   render();
 }
 
-function riddleChallenge() {
-  const section = document.querySelector('[data-riddles]');
-  if (!section || !window.crypto?.subtle) return;
-  const normalise = value => value.normalize('NFKC').toLowerCase().replace(/[\s·・.\-_'’]/g, '');
-  async function digest(value) {
-    const bytes = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(normalise(value)));
-    return [...new Uint8Array(bytes)].map(byte => byte.toString(16).padStart(2, '0')).join('');
+function riddlerArchive() {
+  const root = document.querySelector('[data-riddler-workspace]');
+  if (!root || root.dataset.riddlerReady) return;
+  root.dataset.riddlerReady = 'true';
+  const lifecycle = new AbortController();
+  const options = {signal: lifecycle.signal};
+  const browser = root.querySelector('.clue-browser');
+  const list = root.querySelector('.clue-list');
+  const items = [...root.querySelectorAll('[data-riddler-item]')];
+  const buttons = [...root.querySelectorAll('[data-riddler-game]')];
+  const techniques = [...root.querySelectorAll('[data-riddler-technique]')];
+  const regionSelect = root.querySelector('[data-riddler-region]');
+  let region = 'all';
+  const detail = root.querySelector('[data-riddler-detail]');
+  const back = root.querySelector('[data-riddler-back]');
+  const status = root.querySelector('[data-riddler-status]');
+  const references = [...root.querySelectorAll('[data-riddler-reference]')];
+  const background = [...root.querySelectorAll('[data-riddler-background], [data-riddler-technique]')];
+  const wide = matchMedia('(min-width: 961px)');
+  const key = 'protocol-arkham:riddler-browser:v1';
+  let saved = {};
+  try { saved = JSON.parse(sessionStorage.getItem(key) || '{}') || {}; } catch {}
+  let game = buttons.some(button => button.dataset.riddlerGame === saved.game) ? saved.game : 'all';
+  region = [...regionSelect.options].some(option => option.value === saved.region) ? saved.region : 'all';
+  let current = null;
+  const inGame = item => game === 'all' || item.dataset.games.split(' ').includes(game);
+  const matches = item => inGame(item) && (region === 'all' || item.dataset.region === region);
+  function save() {
+    try { sessionStorage.setItem(key, JSON.stringify({game, region, selected: current?.id, detailOpen: browser.classList.contains('is-detail'), listTop: list.scrollTop, hash: location.hash})); } catch {}
   }
-  const solved = new Set(protocolRecord.read().riddles);
-  section.querySelectorAll('[data-riddle]').forEach(form => {
-    const input = form.querySelector('input');
-    const status = form.querySelector('.riddle-status');
-    const link = form.querySelector('.riddle-solved');
-    function markSolved() {
-      form.classList.add('is-solved'); link.hidden = false;
-      input.disabled = true; form.querySelector('button').disabled = true;
-      status.textContent = '回答正确，线索已解锁。';
+  function select(item, open = false, remember = true) {
+    if (!item || item.hidden) return;
+    detail.dispatchEvent(new Event('riddler:dispose', {bubbles: true}));
+    current = item;
+    items.forEach(other => other.setAttribute('aria-current', String(other === item)));
+    const copy = document.createElement('div');
+    copy.className = 'clue-preview-body';
+    copy.append(item.querySelector('.label').cloneNode(true), item.querySelector('h3').cloneNode(true), item.querySelector('[data-detail]').cloneNode(true));
+    detail.replaceChildren(copy);
+    browser.querySelector('.clue-preview').scrollTop = 0;
+    detail.dispatchEvent(new Event('riddler:detail', {bubbles: true}));
+    browser.classList.toggle('is-detail', open && !wide.matches);
+    if (remember) { history.replaceState(history.state, '', '#' + item.id); save(); }
+    if (open && !wide.matches) {
+      const heading = detail.querySelector('h3');
+      heading.tabIndex = -1; heading.focus({preventScroll: true});
+      browser.scrollIntoView({block: 'start'});
     }
-    if (solved.has(form.dataset.riddle)) markSolved();
-    form.addEventListener('submit', async event => {
-      event.preventDefault();
-      if (!normalise(input.value)) { status.textContent = '请先输入你的答案。'; return; }
-      const hash = await digest(input.value);
-      if (form.dataset.hashes.split(' ').includes(hash)) { protocolRecord.solve(form.dataset.riddle); markSolved(); }
-      else { status.textContent = '答案并不正确，可参考下方场景细节重新推导。'; input.select(); }
+  }
+  function render(preferred = null, remember = true) {
+    items.forEach(item => { item.hidden = !matches(item); });
+    techniques.forEach(item => {
+      item.hidden = !matches(item);
+      if (item.hidden) item.querySelector('video')?.pause();
+    });
+    root.querySelector('.riddler-techniques').hidden = !techniques.some(item => !item.hidden);
+    buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.riddlerGame === game)));
+    [...regionSelect.options].forEach(option => { option.hidden = option.value !== 'all' && !items.some(item => inGame(item) && item.dataset.region === option.value); });
+    regionSelect.value = region;
+    status.textContent = `显示 ${items.filter(item => !item.hidden).length} 道原版扫描谜题`;
+    references.forEach(item => { item.hidden = true; });
+    select(preferred && !preferred.hidden ? preferred : current && !current.hidden ? current : items.find(item => !item.hidden), false, remember);
+  }
+  function revealHash() {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return false; }
+    const relocated = root.querySelector('[data-riddler-relocated]');
+    if (id === relocated.id) { location.replace(relocated.href); return true; }
+    const item = items.find(item => item.id === id);
+    if (item) {
+      if (!matches(item)) { game = 'all'; region = 'all'; }
+      render(item, false); select(item, !wide.matches, false); return true;
+    }
+    const reference = references.find(item => item.id === id);
+    if (reference) {
+      references.forEach(other => { other.hidden = other !== reference; });
+      reference.scrollIntoView({block: 'start'}); return true;
+    }
+    const related = background.find(item => item.id === id);
+    if (related) {
+      if (related.matches('[data-riddler-technique]') && !matches(related)) { game = related.dataset.games; region = 'all'; render(null, false); }
+      let parent = related.parentElement;
+      while (parent && parent !== root) {
+        if (parent.matches('details') && !parent.classList.contains('spoiler')) parent.open = true;
+        parent = parent.parentElement;
+      }
+      related.scrollIntoView({block: 'start'}); return true;
+    }
+    return false;
+  }
+  buttons.forEach(button => button.addEventListener('click', () => {
+    game = button.dataset.riddlerGame; region = 'all'; current = null; render(); list.scrollTop = 0;
+  }));
+  regionSelect.addEventListener('change', () => { region = regionSelect.value; current = null; render(); list.scrollTop = 0; });
+  items.forEach(item => {
+    item.tabIndex = 0; item.setAttribute('role', 'button');
+    item.setAttribute('aria-label', item.querySelector('h3').textContent);
+    item.addEventListener('click', event => { if (!event.target.closest('a')) select(item, true); });
+    item.addEventListener('keydown', event => {
+      if (event.target !== item || event.ctrlKey || event.metaKey || event.altKey) return;
+      const shown = items.filter(item => !item.hidden);
+      const index = shown.indexOf(item);
+      let next;
+      if (event.key === 'ArrowDown') next = shown[index + 1];
+      if (event.key === 'ArrowUp') next = shown[index - 1];
+      if (event.key === 'Home') next = shown[0];
+      if (event.key === 'End') next = shown[shown.length - 1];
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); select(item, true); }
+      if (next) { event.preventDefault(); select(next); next.focus({preventScroll: true}); next.scrollIntoView({block: 'nearest'}); }
     });
   });
-  section.hidden = false;
+  back.addEventListener('click', () => {
+    detail.dispatchEvent(new Event('riddler:cancel', {bubbles: true}));
+    browser.classList.remove('is-detail'); current?.focus({preventScroll: true}); current?.scrollIntoView({block: 'nearest'}); save();
+  });
+  const pauseClips = () => root.querySelectorAll('video').forEach(video => video.pause());
+  root.addEventListener('toggle', event => {
+    if (event.target.matches('[data-riddler-demonstration]') && !event.target.open) {
+      event.target.querySelector('video')?.pause();
+    }
+  }, true);
+  root.classList.add('clue-workspace-ready'); browser.classList.add('is-browsing');
+  root.querySelector('.clue-zone-games').hidden = false; root.querySelector('[data-riddler-region-control]').hidden = false; status.hidden = false; back.hidden = false;
+  const restored = saved.hash === location.hash && (!location.hash || location.hash === '#' + saved.selected) && items.find(item => item.id === saved.selected);
+  render(restored, false);
+  if (!restored) revealHash();
+  else { select(restored, Boolean(saved.detailOpen), false); list.scrollTop = Number(saved.listTop) || 0; }
+  window.addEventListener('hashchange', () => { revealHash(); save(); }, options);
+  window.addEventListener('pagehide', () => { save(); pauseClips(); }, options);
+  wide.addEventListener('change', () => browser.classList.remove('is-detail'), options);
+  document.addEventListener('arkham:page', () => { if (!root.isConnected) { pauseClips(); lifecycle.abort(); } }, options);
 }
 
 function collectiblesPage() {
@@ -437,7 +539,7 @@ function collectiblesPage() {
 function pageToc() {
   const main = document.querySelector('main');
   if (!main || main.querySelector('.chapter-nav, [data-merch-filter], .clue-zones, #episode-filter, .crossover, [data-patient-terminal], [data-transmissions-terminal]')) return;
-  const headings = [...main.querySelectorAll('h2')].filter(h => !h.closest('nav, details:not([open]), [hidden], .riddle-card'));
+  const headings = [...main.querySelectorAll('h2')].filter(h => !h.closest('nav, details:not([open]), [hidden]'));
   if (headings.length < 8 || document.body.scrollHeight < innerHeight * 4.5) return;
   const targets = headings.map((heading, index) => {
     const holder = heading.closest('[id]:not(main)');
@@ -583,7 +685,7 @@ function initialiseReadingPage() {
   pageToc();
   clueZonePage();
   protocolRecordPanel();
-  riddleChallenge();
+  riddlerArchive();
   editorPage();
 }
 initialiseReadingPage();

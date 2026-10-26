@@ -62,7 +62,10 @@ class BuildChecks(unittest.TestCase):
         from arkham_easter_eggs import load_easter_eggs
         video_scenes = len(load_easter_eggs()['entries'])
         crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
-        self.assertEqual((len(pages), len(records)), (160, 506 + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
+        from arkham_riddler import load_scans
+        scan_packet = load_scans()
+        story_count = len(json.loads((builder.ROOT / 'arkham-archive-research.json').read_text())['stories'])
+        self.assertEqual((len(pages), len(records)), (160, 481 + story_count + len(scan_packet['riddles']) + len(scan_packet['techniques']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route.startswith('arkham/'):

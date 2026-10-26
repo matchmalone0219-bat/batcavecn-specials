@@ -45,14 +45,3 @@ def recording_controls(patient, *, compact=False):
 </div>
 {'' if compact else transport}
 <script type="application/json" data-tape-data>{payload}</script>'''
-
-
-def history_recording_controls(audio, title):
-    payload = json.dumps([dict(src='/assets/' + audio['audioFile'], label=title, cues=audio['cues'])], ensure_ascii=False).replace('<', '\\u003c')
-    return (f'<button type="button" class="load-recording" data-load-recording hidden>播放本条录音</button>'
-            f'<audio controls preload="none" hidden aria-label="{esc(title)}"></audio>'
-            f'<div data-recording-fallback><a href="/assets/{esc(audio["audioFile"])}">打开本条录音</a></div>'
-            '<p class="fine" data-playback-state role="status">等待播放</p>'
-            '<div class="recording-subtitles" aria-label="录音文字"><p class="label" data-transcript-heading>AUDIO TRANSCRIPT · 实时字幕</p>'
-            '<p data-subtitle>点击播放，显示本段字幕。</p></div>'
-            f'<script type="application/json" data-tape-data>{payload}</script>')

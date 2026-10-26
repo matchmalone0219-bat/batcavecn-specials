@@ -1,0 +1,12 @@
+{
+  "changedPagesSinceStart": [
+    "arkham/sources/index.html",
+    "arkham/archive/index.html",
+    "arkham/archive/riddler/index.html",
+    "arkham/archive/asylum-history/index.html"
+  ],
+  "recordingsAndCuesUnchanged": true,
+  "patientAndTransmissionPagesUnchanged": true,
+  "tasPagesUnchanged": true,
+  "note": "Riddler page and search additions changed concurrently outside this player task; no changes reverted."
+}

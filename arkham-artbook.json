@@ -2102,7 +2102,7 @@
       "planId": "A12",
       "title": "谜语人的机械自画像",
       "summary": "废料机器人和大型机甲，把绿色问号扩展为一套个人化的机械语言。",
-      "target": "/arkham/archive/riddler/",
+      "target": "/arkham/games/arkham-knight/",
       "blocks": [
         {
           "title": "废料也要显得属于谜语人",
@@ -2188,7 +2188,7 @@
       "readingLinks": [
         {
           "title": "谜语人的机械自画像",
-          "url": "/arkham/archive/riddler/#artbook-a12"
+          "url": "/arkham/games/arkham-knight/#artbook-a12"
         }
       ],
       "batch": 2

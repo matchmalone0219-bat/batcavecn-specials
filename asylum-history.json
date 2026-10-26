@@ -1156,5 +1156,51 @@
       "caption": "安全控制室地面的圆形书写；最终记录的物件形态不同于前23处石碑。"
     }
   ],
-  "subtitleUpdated": "2026-10-25"
+  "subtitleUpdated": "2026-10-25",
+  "playerImage": {
+    "file": "asylum-history-player-art.webp",
+    "width": 838,
+    "height": 472,
+    "sha256": "58e989b0c29df0534b1ab886d122cc439765678ad9244dec91c9a4519b50325f",
+    "source": "chronicles-screens",
+    "sourceUrl": "https://www.faxagate.com/en/gaming/batman-arkham-asylum-spirit-of-arkham",
+    "imageUrl": "https://www.faxagate.com/resources/-/gaming/batman-arkham-asylum-spirit-of-arkham/main.webp",
+    "caption": "游戏档案中的石碑漫画插画与未揭示身份的人影。",
+    "rights": "原游戏画面 © DC / Warner Bros. / Rocksteady；截图来源 Faxagate，保留原图，未取得开放转载授权。",
+    "presentation": "用户选择保留石碑与人影图；播放最后一段时切换完整人物插画。"
+  },
+  "playerIcon": {
+    "file": "asylum-history-scarab.png",
+    "width": 82,
+    "height": 80,
+    "sha256": "b7d27773e8d9e72b393c58bb9b560ba7a2aafcfe3cbea08a25747fecf792395d",
+    "source": "local-asylum-recording-20261022",
+    "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+    "sourceTimestamp": 8,
+    "crop": [
+      1068,
+      305,
+      82,
+      80
+    ],
+    "rights": "原游戏界面图标 © DC / Warner Bros. / Rocksteady；取自用户提供录屏。"
+  },
+  "playerFinalImage": {
+    "file": "asylum-history-player-portrait.webp",
+    "width": 660,
+    "height": 820,
+    "sha256": "eebbef1ba0afbde2fafe10dc27544cc1022df3cb77d0f00bb93091d09b7f3997",
+    "source": "local-asylum-recording-20261022",
+    "sourceFile": "阿卡姆疯人院 病人访谈记录.mp4",
+    "sourceTimestamp": 8,
+    "crop": [
+      285,
+      125,
+      660,
+      820
+    ],
+    "caption": "阿卡姆之魂的游戏档案插画：人物与石碑。",
+    "rights": "原游戏档案插画 © DC / Warner Bros. / Rocksteady；取自用户提供录屏。",
+    "presentation": "仅用户主动展开并播放最后一段录音后显示；切回其他记录恢复人影图。"
+  }
 }

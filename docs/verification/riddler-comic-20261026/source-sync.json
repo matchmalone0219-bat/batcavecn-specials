@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "file": "app.js",
+      "sha256": "cdbcd17f507de71472b6c49279ff33d0053dfdb385b6e79e53ae24d46ee35927",
+      "matches": true
+    },
+    {
+      "file": "arkham-artbook.json",
+      "sha256": "b762334322bf6d40713cc3475ae63a96d1b548f955e6b6cf3fa006db2c23a966",
+      "matches": true
+    },
+    {
+      "file": "arkham-riddles.json",
+      "deletedInBoth": true
+    },
+    {
+      "file": "arkham.css",
+      "sha256": "b7b740d577845ab7ff639600706681b54ce26e09a8e2001099331a5505b1f181",
+      "matches": true
+    },
+    {
+      "file": "arkham_pages.py",
+      "sha256": "afcbc7f6cdb19456e9d1a244ebfc0c5822e1717d346c4d27ee8f74c3d64cacd6",
+      "matches": true
+    },
+    {
+      "file": "arkham_reading.py",
+      "sha256": "ae690c7f9d0facb72907177b1dceb61c58c2d866145cb95b5b8324b9fe7d26e6",
+      "matches": true
+    },
+    {
+      "file": "riddler-research.json",
+      "sha256": "a971f06bc75154fbaf4e0093003634bdb27025ca713a6e9a5235c091aac7d163",
+      "matches": true
+    },
+    {
+      "file": "verify.py",
+      "sha256": "6ce851838584ddbb4e44c984ea09a0e3575be1586f8da60cfb961a62aa4b5b73",
+      "matches": true
+    },
+    {
+      "file": "verify-build.py",
+      "sha256": "60508d478f6d50609a98264b3c38f0d1ac51bbb5ce26904860043f136630d9f8",
+      "matches": true
+    },
+    {
+      "file": "PROJECT-HANDOFF-2026-10-25.md",
+      "sha256": "be991e4877cc719cdc2c2e674ada9a9040eb1c43afc14a9b0f6547092da9a1c0",
+      "matches": true
+    }
+  ],
+  "backup": "/Users/dinghaowei/Downloads/batcavecn/specials/backups/riddler-comic-before-20261026.tar.gz",
+  "scope": "Only ten changed source/test/handoff files; no directory replacement",
+  "dailyBuild": {
+    "pages": 160,
+    "searchRecords": 679,
+    "result": "passed"
+  }
+}
