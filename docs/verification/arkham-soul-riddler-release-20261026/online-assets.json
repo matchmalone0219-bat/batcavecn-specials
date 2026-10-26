@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-26T22:55:52.936197+00:00",
+  "base": "https://matchmalone0219-bat.github.io/batcavecn-specials/",
+  "results": [
+    {
+      "path": "assets/arkham-riddler-scan.js",
+      "status": "pass",
+      "localSHA256": "bdd8e1943b1bc75f398b89432d92235098e523799543f0a4109fbeb77bd57763",
+      "onlineSHA256": "bdd8e1943b1bc75f398b89432d92235098e523799543f0a4109fbeb77bd57763",
+      "error": null
+    },
+    {
+      "path": "assets/arkham-riddler-scan.css",
+      "status": "pass",
+      "localSHA256": "da00a5e2ab0a2676bf015d023f0d07bd3b371deb65aafe4dd65418d42d129b20",
+      "onlineSHA256": "da00a5e2ab0a2676bf015d023f0d07bd3b371deb65aafe4dd65418d42d129b20",
+      "error": null
+    },
+    {
+      "path": "assets/arkham-soul.js",
+      "status": "pass",
+      "localSHA256": "b2ff510b89b4683e88c10238018c147826d1a7c861a5b4aae9ef9628e8baaae1",
+      "onlineSHA256": "b2ff510b89b4683e88c10238018c147826d1a7c861a5b4aae9ef9628e8baaae1",
+      "error": null
+    },
+    {
+      "path": "assets/arkham-soul.css",
+      "status": "pass",
+      "localSHA256": "3bfdf2440e9a53bdc29f5f29128fe9cc1a5e79b5952659cb39dcbd9f64568e7a",
+      "onlineSHA256": "3bfdf2440e9a53bdc29f5f29128fe9cc1a5e79b5952659cb39dcbd9f64568e7a",
+      "error": null
+    },
+    {
+      "path": "assets/media/asylum-history-scarab.png",
+      "status": "pass",
+      "localSHA256": "b7d27773e8d9e72b393c58bb9b560ba7a2aafcfe3cbea08a25747fecf792395d",
+      "onlineSHA256": "b7d27773e8d9e72b393c58bb9b560ba7a2aafcfe3cbea08a25747fecf792395d",
+      "error": null
+    },
+    {
+      "path": "assets/media/asylum-history-player-art.webp",
+      "status": "pass",
+      "localSHA256": "58e989b0c29df0534b1ab886d122cc439765678ad9244dec91c9a4519b50325f",
+      "onlineSHA256": "58e989b0c29df0534b1ab886d122cc439765678ad9244dec91c9a4519b50325f",
+      "error": null
+    },
+    {
+      "path": "assets/media/asylum-history-player-portrait.webp",
+      "status": "pass",
+      "localSHA256": "eebbef1ba0afbde2fafe10dc27544cc1022df3cb77d0f00bb93091d09b7f3997",
+      "onlineSHA256": "eebbef1ba0afbde2fafe10dc27544cc1022df3cb77d0f00bb93091d09b7f3997",
+      "error": null
+    },
+    {
+      "path": "assets/media/riddler-scans/asylum-scan-feedback.m4a",
+      "status": "pass",
+      "localSHA256": "1df79142221fc478b5f1058e72a5ef12b92f700e6fbb61ee73ee3fe9561c090f",
+      "onlineSHA256": "1df79142221fc478b5f1058e72a5ef12b92f700e6fbb61ee73ee3fe9561c090f",
+      "error": null
+    },
+    {
+      "path": "assets/media/riddler-scans/city-scan-feedback.m4a",
+      "status": "pass",
+      "localSHA256": "ec34d285f74660c16ccce5e6a934d78c6f40975df285b59b1ddf5daa70ab2d9f",
+      "onlineSHA256": "ec34d285f74660c16ccce5e6a934d78c6f40975df285b59b1ddf5daa70ab2d9f",
+      "error": null
+    },
+    {
+      "path": "assets/media/riddler-scans/knight-scan-feedback.m4a",
+      "status": "pass",
+      "localSHA256": "058733945345765baa745da8e3962b0138e0037160fc37e3b3ee74c179a3d621",
+      "onlineSHA256": "058733945345765baa745da8e3962b0138e0037160fc37e3b3ee74c179a3d621",
+      "error": null
+    }
+  ]
+}

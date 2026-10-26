@@ -1,0 +1,32 @@
+{
+  "contentCommit": "06df259cc7842cf4fa3f8b0bdb0ca4d640cc687e",
+  "mergedRemoteCommit": "835c2b5d2fee3c52882a3df126f4507b49b1fb4a",
+  "checkedAt": "2026-10-26T13:17:50.823473+00:00",
+  "workflowCommands": 26,
+  "riddlerBrowserChecks": 278,
+  "soulBrowserChecks": 64,
+  "builtPages": 160,
+  "publicPages": 159,
+  "searchRecords": 833,
+  "riddleObjects": 137,
+  "perspectiveDemonstrations": 17,
+  "soulRecordings": 24,
+  "unpublishedParallelStoryFiles": [
+    "arkham_reading.py",
+    "arkham-reading.json",
+    "arkham-archive-research.json"
+  ],
+  "localVerificationDirectory": "/private/tmp/batcavecn-release-20261026-40ab32e",
+  "notes": [
+    "Release validation used a detached temporary checkout because parallel Stories and later Knight edits remained in the original working tree.",
+    "The Soul browser check uses a hidden visibilitychange event for its background-pause assertion.",
+    "The existing 278-check Riddler script ran against port 8897 without feature-code changes."
+  ],
+  "confirmedAt": "2026-10-26T23:00:32.422336+00:00",
+  "deploymentRun": 40331420973,
+  "latestObservedDeployedCommit": "8de0f58c3983d20cbac34f387537f90d9be15952",
+  "latestDeploymentRun": 40415392940,
+  "onlineBrowserChecks": 32,
+  "onlineMatchingAssets": 10,
+  "latestOnlineRiddleObjects": 143
+}
