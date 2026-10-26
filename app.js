@@ -33,7 +33,7 @@ async function searchPage() {
       count.textContent = found.length ? `找到 ${found.length} 条相关记录 · 点击可直接查看。` : "未找到匹配记录，可尝试更换关键词。";
       for (const item of found) {
         const card = make("a", undefined, "route-card");
-        const scopedConroy = { arkham: "/arkham/people/kevin-conroy/", tas: "/tas/people/kevin-conroy/" }[site];
+        const scopedConroy = { arkham: "/?route=arkham#kevin-conroy", tas: "/?route=tas#kevin-conroy" }[site];
         card.href = item.scopedUrls?.[site] || (scopedConroy && item.url === "/#kevin-conroy" ? scopedConroy : item.url);
         card.append(make("p", `${item.site === "arkham" ? "PROTOCOL ARKHAM" : item.site === "tas" ? "DARK DECO" : "两站共同档案"} / ${item.status}`, "label"), make("h3", item.title), make("p", item.original), make("p", item.summary));
         results.append(card);
@@ -676,7 +676,107 @@ function browsePages() {
   });
 }
 
+// Shared Conroy feature: animation and game chapters sit in two lanes, switched in place without leaving the page.
+function voiceRoutes() {
+  const branch = document.querySelector('[data-voice-routes]');
+  if (!branch || branch.dataset.routesReady) return;
+  branch.dataset.routesReady = 'true';
+  const feature = branch.closest('.voices-feature') || document.body;
+  const sides = ['tas', 'arkham'];
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const panels = [...feature.querySelectorAll('[data-route-panel]')];
+  const tabs = [...feature.querySelectorAll('[data-route-tab]')];
+  feature.querySelectorAll('[data-route-ui]').forEach(node => { node.hidden = false; });
+  feature.classList.add('has-routes');
+  tabs.forEach(tab => tab.setAttribute('role', 'tab'));
+  panels.forEach(panel => {
+    panel.setAttribute('role', 'tabpanel');
+    const tab = tabs.find(item => item.getAttribute('aria-controls') === panel.id);
+    if (tab) panel.setAttribute('aria-labelledby', tab.id);
+  });
+  const laneOf = id => {
+    try { return id ? document.getElementById(decodeURIComponent(id))?.closest('[data-route-panel]')?.dataset.routePanel : undefined; }
+    catch { return undefined; }
+  };
+  function reveal(panel, side, origin) {
+    if (motion.matches || !panel.animate) return;
+    const box = panel.getBoundingClientRect();
+    const x = origin ? Math.round(((origin.left + origin.width / 2 - box.left) / box.width) * 100) : 50;
+    if (side === 'tas') {
+      // Dark Deco: the classic iris opening from the chosen door.
+      panel.animate([{clipPath: `circle(0% at ${x}% 0%)`}, {clipPath: `circle(160% at ${x}% 0%)`}], {duration: 760, easing: 'cubic-bezier(.3,0,.2,1)'});
+    } else {
+      // Protocol Arkham: a scan line sweeps down and brings the lane online.
+      panel.animate([{clipPath: 'inset(0 0 100% 0)'}, {clipPath: 'inset(0 0 0% 0)'}], {duration: 900, easing: 'cubic-bezier(.25,.7,.2,1)'});
+      panel.classList.add('is-scanning');
+      setTimeout(() => panel.classList.remove('is-scanning'), 950);
+    }
+  }
+  function show(side, options = {}) {
+    if (!sides.includes(side)) return;
+    const changed = feature.dataset.route !== side;
+    feature.dataset.route = side;
+    tabs.forEach(tab => {
+      const on = tab.dataset.routeTab === side;
+      tab.setAttribute('aria-selected', String(on));
+      tab.tabIndex = on ? 0 : -1;
+    });
+    panels.forEach(panel => {
+      const on = panel.dataset.routePanel === side;
+      panel.hidden = !on;
+      if (on && changed && options.animate && panel.classList.contains('xroute-lane')) reveal(panel, side, options.origin);
+    });
+    try {
+      const url = new URL(location.href);
+      url.searchParams.set('route', side);
+      history.replaceState(history.state, '', url);
+    } catch {}
+  }
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => show(tab.dataset.routeTab, {animate: true, origin: tab.getBoundingClientRect()}));
+    tab.addEventListener('keydown', event => {
+      const group = [...tab.closest('[role="tablist"]').querySelectorAll('[data-route-tab]')];
+      const index = group.indexOf(tab);
+      const next = {ArrowRight: index + 1, ArrowLeft: index - 1, Home: 0, End: group.length - 1}[event.key];
+      if (next === undefined) return;
+      event.preventDefault();
+      const target = group[(next + group.length) % group.length];
+      show(target.dataset.routeTab, {animate: true, origin: target.getBoundingClientRect()});
+      target.focus();
+    });
+  });
+  feature.querySelectorAll('[data-route-switch]').forEach(button => button.addEventListener('click', () => {
+    const side = button.dataset.routeSwitch;
+    const door = branch.querySelector(`[data-route-tab="${side}"]`);
+    show(side, {animate: true, origin: door?.getBoundingClientRect()});
+    branch.querySelector('.xroute-tabs')?.scrollIntoView({block: 'start', behavior: motion.matches ? 'auto' : 'smooth'});
+    door?.focus({preventScroll: true});
+  }));
+  // Contents links and shared links can point into the hidden lane: open that lane before the browser jumps.
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href*="#"]');
+    if (!link || link.origin !== location.origin || link.pathname !== location.pathname) return;
+    const side = laneOf(link.hash.slice(1));
+    if (side && side !== feature.dataset.route) show(side);
+  });
+  window.addEventListener('hashchange', () => {
+    const side = laneOf(location.hash.slice(1));
+    if (side && side !== feature.dataset.route) { show(side); document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({behavior: 'instant'}); }
+  });
+  const requested = new URLSearchParams(location.search).get('route');
+  const fromHash = laneOf(location.hash.slice(1));
+  show(fromHash || (sides.includes(requested) ? requested : 'tas'));
+  // Hiding a lane moves the content under it; return to the requested anchor once the lanes are settled.
+  const settle = () => {
+    if (!location.hash) return;
+    try { document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView({behavior: 'instant'}); } catch {}
+  };
+  settle();
+  const settledAt = scrollY;
+  if (document.readyState !== 'complete') window.addEventListener('load', () => { if (Math.abs(scrollY - settledAt) < 4) settle(); }, {once: true});
+}
 function initialiseReadingPage() {
+  voiceRoutes();
   searchPage();
   episodeCatalogPage();
   episodePreview();

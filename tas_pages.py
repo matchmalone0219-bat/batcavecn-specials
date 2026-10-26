@@ -108,7 +108,7 @@ def build_archive(data, shell):
         portrait, note = role_visual(r["id"])
         content+=f'<article class="artbook-role" id="{r["id"]}">{portrait}<div><h2>{esc(title)}</h2><p>{esc(r["characterAsListed"])}</p><strong>{esc(actor)}</strong>{note}</div></article>'
         records.append(dict(title=title+' · '+actor,original=r['characterAsListed'],summary='BTAS英语版角色配音；华纳合辑公告列名。',tags=['配音','声音',actor],site='tas',status='角色声音',url=base+'#'+r['id']))
-    content+='</div>'+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/tas/people/kevin-conroy/#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
+    content+='</div>'+record(second['notes'][3],base)+picture('harley-tas')+'<a class="route-card" href="/?route=tas#voice"><h2>凯文·康罗伊：黑暗骑士的传世之声</h2><p>双重声线演绎、主创试音回忆与生平文献归档。</p></a></div>'
     page('voices','角色与声音','十五组核心角色英语原版声优名册，重温现场群录的黄金时代。',content)
 
     base='/tas/archive/films/'

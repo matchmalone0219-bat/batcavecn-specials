@@ -68,6 +68,11 @@ class BuildChecks(unittest.TestCase):
         self.assertEqual((len(pages), len(records)), (160, 481 + story_count + len(scan_packet['riddles']) + len(scan_packet['techniques']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
+            if route in ('arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'):
+                # Old Conroy addresses redirect to the shared feature on their own reading route.
+                self.assertIn('http-equiv="refresh"', html)
+                self.assertIn('?route=' + route.split('/')[0], html)
+                continue
             if route.startswith('arkham/'):
                 self.assertIn('/assets/arkham.css', html)
                 self.assertNotIn('/assets/tas.css', html)

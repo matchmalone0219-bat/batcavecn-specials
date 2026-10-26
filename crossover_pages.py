@@ -1,9 +1,8 @@
 """Shared “蝙蝠侠之声” page: Conroy's chapter, character spreads and an end-credits cast list."""
 import json
 
-from content_pages import person_chapters
 from render_common import ROOT, esc, route, paragraphs
-from conroy_profile import cover, profile_sources, with_profile_styles, finding_packet, main_reading
+from conroy_profile import cover, profile_sources, with_profile_styles, finding_packet, main_reading, voices_chapters, BRANCH
 
 URL = "/"  # the shared archive lives on the home page, under #voices
 SITE_NAMES = {"tas": "Dark Deco", "arkham": "Protocol Arkham"}
@@ -87,7 +86,7 @@ def build_crossover(data, shell, lead=""):
     person = data["person"]
     conroy = (
         f'<section class="xconroy" id="kevin-conroy"><div class="xconroy-head"><div><p class="profile-eyebrow">01 / THE VOICE BEHIND THE MASK</p><h2>{esc(person["title"])}</h2><p class="xcredit-meta">{esc(person["original"])} · {esc(person["years"])}</p></div><p class="xconroy-intro">{esc(person["intro"])}</p></div>'
-        f'<div class="xconroy-body">{person_chapters(data)}{profile_sources(data)}</div></section>'
+        f'<div class="xconroy-body">{voices_chapters(data)}{profile_sources(data)}</div></section>'
     )
     source_list = '<div class="source-list profile-plain-sources">' + "".join(f'<article id="source-{esc(s["id"])}"><span class="label">{esc(s["type"])}</span><h3>{esc(s["title"])}</h3></article>' for s in doc["sources"]) + "</div>"
     body = (
@@ -105,14 +104,14 @@ def build_crossover(data, shell, lead=""):
             'original': person['original'], 'summary': finding_packet()['intro'] if section['id'] == 'finding' else section['body'].split('\n')[0],
             'tags': ['凯文·康罗伊', '人物生平', '蝙蝠侠之声'], 'site': 'shared', 'status': '人物章节',
             'url': URL + '#' + section['id'],
-            'scopedUrls': {site: f'/{site}/people/kevin-conroy/#{section["id"]}'
-                           for site in ('arkham', 'tas') if site in section.get('sites', ('shared', 'arkham', 'tas'))},
+            # Each site opens the shared chapter on its own route; branch chapters open on their medium's route.
+            'scopedUrls': {site: f'/?route={BRANCH.get(section["id"], site)}#{section["id"]}' for site in ('arkham', 'tas')},
         })
     pages = {"index.html": page, "voices/index.html": redirect("../", doc["title"], "#voices"), "crossover/index.html": redirect("../", doc["title"], "#voices"), "people/kevin-conroy/index.html": redirect("../../", doc["title"], "#kevin-conroy")}
     return pages, records
 
 
-def redirect(relative, title, default_hash=""):
-    target = esc(relative + default_hash)
-    script = f"location.replace(new URL({json.dumps(relative)}, location.href).href + (location.hash || {json.dumps(default_hash)}))"
-    return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} | Batman小站</title><link rel="icon" href="/assets/icon-shared.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css"><meta http-equiv="refresh" content="0; url={target}"><script>{script}</script></head><body><main class="section"><h1>{esc(title)}</h1><p>页面已移至 <a href="/{esc(default_hash)}">{esc(title)}</a>。</p></main></body></html>'
+def redirect(relative, title, default_hash="", query=""):
+    target = esc(relative + query + default_hash)
+    script = f"location.replace(new URL({json.dumps(relative + query)}, location.href).href + (location.hash || {json.dumps(default_hash)}))"
+    return f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} | Batman小站</title><link rel="icon" href="/assets/icon-shared.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/style.css"><meta http-equiv="refresh" content="0; url={target}"><script>{script}</script></head><body><main class="section"><h1>{esc(title)}</h1><p>页面已移至 <a href="/{esc(query + default_hash)}">{esc(title)}</a>。</p></main></body></html>'

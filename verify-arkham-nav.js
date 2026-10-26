@@ -56,9 +56,11 @@ function harness() {
   assert.equal(quick.requested,0,'Quick browsing must not preload transition pages');
   const blocked=harness(); blocked.transition.busy=true;
   assert.equal(blocked.click('/arkham/catalog/'),true); assert.equal(blocked.requested,0);
-  for (const path of ['/arkham/catalog/','/arkham/archive/','/arkham/people/kevin-conroy/','/arkham/collectibles/','/arkham/gallery/','/arkham/search/','/arkham/sources/']) {
+  for (const path of ['/arkham/catalog/','/arkham/archive/','/arkham/collectibles/','/arkham/gallery/','/arkham/search/','/arkham/sources/']) {
     const menu=harness(); assert.equal(menu.click(path),true,path); assert.ok(menu.callbacks,path);
   }
+  // 蝙蝠侠之声 opens the shared Conroy feature outside the Arkham site: a real page load.
+  const voices=harness(); assert.equal(voices.click('/?route=arkham#kevin-conroy'),false); assert.equal(voices.requested,0);
   // A page with its own stylesheet gets it before the swap; a page with extra scripts falls back to a real load.
   async function swap({styles=[], scripts=[], failStyle=false}) {
     const visited = [], scheduled = [], appended = [], removed = [];
@@ -101,5 +103,5 @@ function harness() {
   assert.equal(scripted.swapped, false); assert.equal(scripted.visited.length, 1, 'Pages needing other scripts must load natively');
   const broken = await swap({styles:['missing.css'], failStyle:true});
   assert.equal(broken.swapped, false); assert.equal(broken.visited.length, 1, 'A stylesheet that fails must fall back to a real load');
-  console.log('PASS: page stylesheets before swap, script and stylesheet fallbacks, failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, seven menu entries and native in-page reading links');
+  console.log('PASS: page stylesheets before swap, script and stylesheet fallbacks, failed-fetch fallback, scope separation, hash links, modifiers, downloads, new tabs, repeated clicks, six in-site menu entries, shared Voices entry and native in-page reading links');
 })().catch(error => {console.error(error);process.exitCode=1;});

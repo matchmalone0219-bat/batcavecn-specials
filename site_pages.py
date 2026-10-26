@@ -1,13 +1,13 @@
 """Assemble page routes and the search index without writing output."""
 from render_common import esc, route, cards, sources, tas_catalog, image_gallery
 from site_layout import shell, SEARCH_OPTIONS
-from content_pages import home, detail, caped_series, person
+from content_pages import home, detail, caped_series
 from arkham_ui import arkham_screen, arkham_catalog
 from tas_pages import build_archive
 from merchandise_pages import build_collectibles
 from arkham_pages import build_arkham_archive
 from arkham_interactions import build_interactions
-from crossover_pages import build_crossover
+from crossover_pages import build_crossover, redirect
 from conroy_profile import media_assets as conroy_media_assets, finding_assets
 from artbook_pages import finish as finish_artbooks
 
@@ -40,8 +40,9 @@ def render_pages(data):
     pages["tas/series/caped-crusader/index.html"] = caped_series(data)
     pages["arkham/menu/index.html"] = arkham_screen(data, True)
     pages["arkham/catalog/index.html"] = arkham_catalog(data)
-    pages["arkham/people/kevin-conroy/index.html"] = person(data, "arkham")
-    pages["tas/people/kevin-conroy/index.html"] = person(data, "tas")
+    # The Conroy feature is shared; the old site addresses open it on their own reading route.
+    for site in ("arkham", "tas"):
+        pages[f"{site}/people/kevin-conroy/index.html"] = redirect("../../../", data["person"]["title"], "#kevin-conroy", f"?route={site}")
     home_lead = gates('<p class="label">BATCAVECN / SPECIAL ARCHIVES</p><h1>两座哥谭，<br>同一种夜色。</h1><p class="lead">一座由手绘胶片与爵士乐构筑，沉淀着 1990 年代黑色电影的人文绝响；另一座由暴雨与铁血代码浇灌，把你直接掷入无路可退的猎杀困局。</p>')
     pages["404.html"] = shell(data, "shared", "页面不在档案里", gates('<p class="label">404</p><h1>这一页不在档案里。</h1><p class="lead">地址可能已经变更，或输入有误。从这里重新进入。</p>', compact=True))
     pages["editor/index.html"] = shell(data, "shared", "编辑文案", '<section class="section editor"><p class="label">BATCAVECN / LOCAL EDITOR</p><h1>编辑文案</h1><p class="lead">选择条目，修改文字，预览后保存。页面样式单独保留；每次保存自动备份。</p><p id="editor-status" role="status">正在读取本地内容…</p><form id="editor-form"><label for="entry">选择页面或条目</label><select id="entry"></select><label for="field">选择文字字段</label><select id="field"></select><label for="text">正文</label><textarea id="text" rows="8" required></textarea><div class="editor-actions"><button class="button" type="submit">保存到本地文件</button><button type="button" id="reset-text">撤销未保存修改</button><a id="preview-link" href="/arkham/" target="_blank" rel="noopener">查看页面 ↗</a></div></form><section class="editor-preview"><h2>文字预览</h2><div id="text-preview"></div></section></section>')
