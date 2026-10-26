@@ -125,11 +125,7 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc, 
         if entry['id'] == 'city-steel-mill-06':
             content += '<p><a href="/arkham/games/arkham-city/#artbook-a05">旧哥谭的建筑、招贴与物件叙事</a></p>'
         content += source_links(entry['sources'], sources, esc) + '<p><a href="/arkham/archive/clues/">浏览场景细节与彩蛋</a></p></article>'
-    content += '<section class="scene-mechanics" id="mechanics"><details><summary>谜题常用机制</summary><p>扫描构图、装备与机关状态，是理解谜语人挑战的几个角度。</p>'
-    for mechanic in riddler['mechanics']:
-        content += f'<article class="dossier-entry" id="{mechanic["id"]}"><h3>{esc(mechanic["name"])}</h3><p>{esc(mechanic["description"])}</p></article>'
-        record(mechanic['name'], mechanic['description'], '/arkham/archive/clues/', mechanic['id'], ['谜题机制', mechanic['games']])
-    return content + '</details></section></div>'
+    return content + '</div>'
 
 
 def story_page(archive, reading, entries, games, sources, record, esc):

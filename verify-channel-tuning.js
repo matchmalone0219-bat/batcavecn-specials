@@ -91,7 +91,7 @@ for(const signal of payload) {
 assert.ok(built.indexOf('/assets/arkham-channel-tuning.js')<built.indexOf('/assets/arkham-investigation.js'));
 assert.ok(built.includes('data-sequencer-modes hidden')&&built.includes('data-channel-tuning hidden'));
 assert.equal(built.includes('data-sequencer-list hidden'),false,'Without scripts the original channel list stays available');
-for(const route of ['arkham/detective','arkham/patients','tas','']) {
+for(const route of ['arkham/patients','tas','']) {
   assert.equal(fs.readFileSync(__dirname+'/dist/'+route+'/index.html','utf8').includes('/assets/arkham-channel-tuning.js'),false);
 }
 console.log('PASS: optional tuning, capture/loss, work isolation, pointer cancellation, keyboard limits, direct markers and list return; no storage or audio dependency');

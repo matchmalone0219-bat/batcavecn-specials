@@ -15,7 +15,7 @@ VOID = {'area', 'base', 'br', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'so
 class ScanPage(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.stack, self.ids, self.questions, self.solutions, self.videos = [], set(), [], 0, []
+        self.stack, self.ids, self.questions, self.solutions = [], set(), [], 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -27,10 +27,7 @@ class ScanPage(HTMLParser):
         if 'data-riddler-solution' in attrs:
             assert tag == 'details' and 'open' not in attrs
             self.solutions += 1
-        if tag == 'video':
-            assert attrs.get('preload') == 'none' and 'controls' in attrs and 'autoplay' not in attrs
-            assert any('data-riddler-demonstration' in a for _, a in self.stack)
-            self.videos.append(attrs)
+        assert tag != 'video', 'Guide demonstration video remains in the subject archive'
         if tag == 'img' and any('data-riddler-item' in a for _, a in self.stack):
             path = attrs['src']
             if '-scene.' not in path:
@@ -48,19 +45,17 @@ class ScanPage(HTMLParser):
 parsed = ScanPage()
 parsed.feed(page)
 assert len(parsed.questions) == parsed.solutions == len(packet['riddles']) == 143
-assert len(parsed.videos) == len(packet['techniques']) == 17
+assert 'techniques' not in packet and 'clips' not in packet
 assert 'type="text"' not in page and 'data-riddles' not in page
 for row in packet['riddles']:
     assert row['id'] in parsed.ids
     records = [record for record in search if record['url'].endswith('/riddler/#' + row['id'])]
     assert len(records) == 1 and records[0]['summary'] == row['summary']
     assert row['solution'] not in records[0]['summary']
-for row in packet['techniques']:
-    assert row['id'] in parsed.ids
 for case in json.loads((ROOT / 'riddler-research.json').read_text())['cases']:
     assert ('identity-wall' if case['id'] == 'jason' else case['id']) in parsed.ids
 assert str(ROOT) not in page and '/Downloads/Gemini/' not in page
-for asset in packet['images'] + packet['clips']:
+for asset in packet['images']:
     for path in (ROOT / asset['file'], ROOT / 'dist/assets/media' / asset['file']):
         assert hashlib.sha256(path.read_bytes()).hexdigest() == asset['sha256'], path
     if asset.get('video'):
@@ -78,10 +73,11 @@ for image in packet['images']:
     source = packet['videos'][image['video']]
     expected = (1280, 720) if source['width'] == 1280 else (1600, 900)
     assert (image['width'], image['height']) == expected
-assert len(packet['videos']) == 23
-assert sum(row['game'] == 'asylum' for row in packet['riddles'] + packet['techniques']) == 51
-city = [row for row in packet['riddles'] + packet['techniques'] if row['game'] == 'city']
-assert len(city) == 69 and sorted(row['secretNumber'] for row in city) == list(range(1, 70))
+assert len(packet['videos']) == 22
+assert sum(row['game'] == 'asylum' for row in packet['riddles']) == 42
+city = [row for row in packet['riddles'] if row['game'] == 'city']
+assert len(city) == len({row['secretNumber'] for row in city}) == 61
+assert all(1 <= row['secretNumber'] <= 69 for row in city)
 knight = [row for row in packet['riddles'] if row['game'] == 'knight']
 assert len(knight) == 40
 assert sorted(row['secretNumber'] for row in knight) == list(range(1, 41))
@@ -93,7 +89,6 @@ identity_html = page.split('id="' + identity['id'] + '"', 1)[1].split('</article
 assert '<details class="riddler-comic spoiler"><summary>身份相关漫画' in identity_html
 assert '<details class="riddler-comic spoiler" open' not in identity_html
 assert sum(row['id'] == 'crime-alley' for row in packet['riddles']) == 1
-assert all(row['game'] in ('asylum', 'city') for row in packet['techniques'])
 assert page.count('data-riddler-region') == 2
-assert page.count('https://www.youtube.com/watch?v=') >= 23
-print(f"PASS: 51 Asylum + 69 City + 40 Knight scans, 143 folded answers, protected identity, 17 on-demand demonstrations, native image sizes, complete video sources, 21 legacy anchors and {len(packet['images'])+len(packet['clips'])} media hashes")
+assert page.count('https://www.youtube.com/watch?v=') >= 22
+print(f"PASS: 42 Asylum + 61 City + 40 Knight subject scans, 143 folded answers, protected identity, native image sizes, complete video sources, 21 legacy anchors and {len(packet['images'])} media hashes")

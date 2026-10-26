@@ -1,5 +1,6 @@
 """Build the static archives; page rendering lives in topic modules."""
 import json
+import shutil
 from pathlib import Path
 from render_common import route  # Public import used by the local editor.
 from site_layout import shell  # Public import used by content verification.
@@ -38,6 +39,7 @@ def build(data=None):
     validate(data)
     pages, index, research_images = render_pages(data)
     DIST.mkdir(exist_ok=True)
+    shutil.rmtree(DIST / 'arkham/detective', ignore_errors=True)
     arkham_webp = prefer_webp(pages, ROOT, DIST)
     for filename, body in pages.items():
         path = DIST / filename
@@ -70,10 +72,15 @@ def build(data=None):
     for asset in research_images + opening_assets():
         (DIST / "assets/media" / asset["file"]).parent.mkdir(parents=True, exist_ok=True)
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
-    for asset in json.loads((ROOT / 'riddler-scan-feedback.json').read_text())['sources']:
+    feedback_assets = json.loads((ROOT / 'riddler-scan-feedback.json').read_text())['sources']
+    for asset in feedback_assets:
         destination = DIST / 'assets/media' / asset['file']
         destination.parent.mkdir(parents=True, exist_ok=True)
         copy_asset(ROOT / asset['file'], destination)
+    retained_scan_files = {asset['file'] for asset in research_images + feedback_assets}
+    for path in (DIST / 'assets/media/riddler-scans').glob('*'):
+        if path.is_file() and path.relative_to(DIST / 'assets/media').as_posix() not in retained_scan_files:
+            path.unlink()
     (DIST / 'assets/media/recording-portraits').mkdir(exist_ok=True)
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])

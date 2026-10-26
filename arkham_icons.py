@@ -5,7 +5,7 @@ from pathlib import Path
 from xml.etree import ElementTree
 
 ROOM_ICONS = {"": "dossiers", "riddler": "riddle", "clues": "district", "stories": "classified", "publications": "comics", "asylum-history": "asylum", "interviews": "patient", "rocksteady": "studio"}
-LINK_ICONS = {"/arkham/detective/": "evidence", "/arkham/patients/": "patient", "/arkham/transmissions/": "radio", "/arkham/catalog/": "games", "/arkham/archive/": "dossiers"}
+LINK_ICONS = {"/arkham/patients/": "patient", "/arkham/transmissions/": "radio", "/arkham/catalog/": "games", "/arkham/archive/": "dossiers"}
 
 ICONS = {
     'games': 'M3 6h6l2 2h10v10l-3 3H3z M3 11h18 M14 15h4',  # 作品档案

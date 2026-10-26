@@ -1,0 +1,28 @@
+{
+  "baselineCommit": "76da2141d431a775e2351b1e39052d0e3a19adae",
+  "checkedAt": "2026-10-26T23:52:33.147422+00:00",
+  "workflowChecks": 26,
+  "browserChecks": 149,
+  "builtPages": 159,
+  "publicPages": 158,
+  "searchRecords": 806,
+  "retainedSubjectRecords": 143,
+  "subjectRecordsUnchanged": true,
+  "unchangedSources": {
+    "arkham-archive-research.json": true,
+    "arkham-reading.json": true,
+    "patient-interviews.json": true,
+    "arkham-transmissions.json": true,
+    "asylum-history.json": true,
+    "arkham-soul.js": true,
+    "arkham-riddler-scan.js": true
+  },
+  "removedCasePage": true,
+  "removedGuideVideos": 17,
+  "removedGuidePosters": 17,
+  "removedMechanics": 12,
+  "unpublishedParallelWorkExcluded": [
+    "Gotham Stories expansion and cross-links",
+    "docs/plans/content-expansion-20261027.md"
+  ]
+}

@@ -1,6 +1,6 @@
 (() => {
   const key = 'protocol-arkham:recent-object:v1';
-  const kinds = new Set(['case', 'clue', 'patient', 'channel']);
+  const kinds = new Set(['clue', 'patient', 'channel']);
   function valid(value) {
     return value && kinds.has(value.kind) && typeof value.id === 'string' && /^[a-z0-9-]{1,80}$/.test(value.id);
   }

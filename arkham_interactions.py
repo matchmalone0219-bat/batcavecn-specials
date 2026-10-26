@@ -1,14 +1,13 @@
-"""Interactive investigations, patient listening terminal and intercepted transmissions."""
+"""Patient listening terminal and intercepted transmissions."""
 import json
 import math
 from render_common import ROOT, esc, paragraphs
 from patient_player import recording_controls
 from transmission_player import transmission_controls
-from arkham_icons import icon
 from arkham_sequencer import sequencer
 
 
-TERMINALS = [('/arkham/detective/', 'evidence', '案件重建'), ('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
+TERMINALS = [('/arkham/patients/', 'patient', '患者终端'), ('/arkham/transmissions/', 'radio', '频段监听')]
 # Interface positions, independent of the source recordings' frequency fields.
 TUNING_POSITIONS = {
     'joker-city': (24, 34), 'sharp-city': (62, 22), 'zsasz-city': (78, 70),
@@ -20,25 +19,19 @@ TUNING_POSITIONS = {
 
 
 def terminal_bar(current):
-    """Bottom bar shared by the three terminals: back, switch terminal, key hint."""
+    """Bottom bar shared by the two listening terminals: back, switch terminal, key hint."""
     links = ''.join(f'<a href="{href}"' + (' aria-current="page"' if href == current else '') + f'><i data-arkham-icon="{icon}"></i>{title}</a>' for href, icon, title in TERMINALS)
     return f'<nav class="terminal-bar" aria-label="切换终端"><a class="terminal-back" href="/arkham/archive/">← 哥谭档案馆</a><span class="terminal-switch"><span class="terminal-switch-label">TERMINALS</span>{links}</span><a class="terminal-esc" href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a></nav>'
 
 
 def build_interactions(data, shell):
-    research = json.loads((ROOT / 'riddler-research.json').read_text())
-    archive = json.loads((ROOT / 'arkham-archive-research.json').read_text())
     patients = json.loads((ROOT / 'patient-interviews.json').read_text())
     transmissions = json.loads((ROOT / 'arkham-transmissions.json').read_text())
     portraits = json.loads((ROOT / 'recording-portraits.json').read_text())
     portrait_assets = {asset['id']: asset for asset in portraits['assets']}
     assert set(portraits['patients']) == {patient['id'] for patient in patients['patients']}
     assert set(portraits['channels']) == {channel['id'] for channel in transmissions['channels']}
-    cases = json.loads((ROOT / 'arkham-interactions.json').read_text())['cases']
-    sources = {s['id']: s for packet in (research, archive, patients, transmissions) for s in packet['sources']}
-    images = {i['id']: i for i in research['images']}
-    entries = {e['id']: e for e in research['entries']}
-    topics = {c['id']: c for c in research['cases']}
+    sources = {s['id']: s for packet in (patients, transmissions) for s in packet['sources']}
     records = []
 
     def portrait(group, record_id, small=False):
@@ -47,47 +40,12 @@ def build_interactions(data, shell):
         alt = '' if small else asset['alt']
         return f'<img class="{classes}" src="/assets/media/{esc(asset["file"])}" width="{asset["width"]}" height="{asset["height"]}" alt="{esc(alt)}" loading="lazy" decoding="async">'
 
-    def links(items):
-        return '<div class="terminal-links">' + ''.join(f'<a href="{esc(i["url"])}">{esc(i["title"])}</a>' for i in items) + '</div>'
-
     def record(title, summary, url):
         records.append(dict(title=title, original=title, summary=summary, tags=['调查终端'], site='arkham', status='互动档案', url=url))
 
     def page(title, body, sequencer=False):
         extra = '<script src="/assets/arkham-channel-tuning.js" defer></script>' if sequencer else ''
         return shell(data, 'arkham', title, body, 'archive').replace('</head>', '<link rel="stylesheet" href="/assets/arkham-investigation.css">' + extra + '<script src="/assets/arkham-investigation.js" defer></script></head>')
-
-    case_data = []
-    fallback = ''
-    for n, c in enumerate(cases, 1):
-        assert c['entry'] in entries and c['research'] in topics
-        image = images[c['image']]
-        assert c['entry'] in topics[c['research']]['entries']
-        assert c['image'] in topics[c['research']]['images']
-        assert 0 <= c['hotspot']['x'] <= 100 and 0 <= c['hotspot']['y'] <= 100
-        for e in c['evidence']:
-            assert set(e['sources']) <= sources.keys()
-        item = dict(c, number=f'{n:02d}', src='/assets/media/' + image['file'], width=image['width'], height=image['height'], caption=image['caption'])
-        item['evidence'] = [dict(e, linksHtml=links(e['links']), iconHtml=icon('evidence' if index == 0 else 'dossiers')) for index, e in enumerate(c['evidence'])]
-        case_data.append(item)
-        fallback += f'<article id="case-{esc(c["id"])}"><h2>{esc(c["title"])}</h2><p>{esc(c["game"])} · {esc(c["region"])}</p><img src="{item["src"]}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["caption"])}">' + ''.join(f'<h3>{esc(e["title"])}</h3>{paragraphs(e["body"])}{links(e["links"])}' for e in c['evidence']) + f'<h3>案件总结</h3>{paragraphs(c["summary"])}</article>'
-        record(c['title'] + ' · 案件重建', c['subtitle'], '/arkham/detective/#case-' + c['id'])
-
-    payload = json.dumps(case_data, ensure_ascii=False).replace('<', '\\u003c')
-    first = case_data[0]
-    tabs = ''.join(f'<a href="#case-{esc(c["id"])}" data-case="{esc(c["id"])}"><span>{c["number"]}</span>{esc(c["title"])}</a>' for c in case_data)
-    detective = f'''<section class="section arkham-investigation" data-detective>
-<div class="terminal-heading"><p class="label"><i data-arkham-icon="evidence"></i>BATCOMPUTER / DETECTIVE MODE</p><h1>现场案件重建</h1><p class="lead">锁定关键物证，沿物证链推演现场始末与嫌犯心理侧写。</p><p class="fine">机密案件调查 · 含现场物证分析与嫌犯身份档案</p></div>
-<nav class="case-register" aria-label="选择调查">{tabs}</nav>
-<div class="investigation-workspace" hidden data-workspace>
-<section class="scene-console"><div class="console-bar"><span data-case-number>CASE 01</span><button type="button" class="terminal-motion" data-motion aria-pressed="true">终端动效：开</button><span data-mode-label>NORMAL VISION</span></div><h2 data-case-title>{esc(first['title'])}</h2><p class="scene-location" data-location>{esc(first['game'])} · {esc(first['region'])}</p>
-<div class="scan-controls scene-toolbar"><button type="button" data-mode aria-pressed="false">激活侦探模式 <small>ACTIVATE DETECTIVE MODE</small></button><span data-progress role="status">0 / 3 条证据</span><p class="terminal-feedback" data-feedback role="status">普通视野 · 激活侦探模式以锁定现场物证</p></div>
-<div class="investigation-scene" data-scene><img data-scene-image src="{first['src']}" width="{first['width']}" height="{first['height']}" alt="{esc(first['caption'])}"><div class="scan-grid" aria-hidden="true"></div><button type="button" class="scan-hotspot" data-scan hidden aria-label="扫描现场物件"><span>01</span><small>SCAN</small></button></div></section>
-<aside class="evidence-console" aria-label="证据详情"><p class="label">EVIDENCE CHAIN / 现场物证与关联档案</p><div class="evidence-chain" data-evidence-chain></div><div data-evidence-panel><p class="evidence-id" data-evidence-label>AWAITING SCAN</p><h2 data-evidence-title>现场等待扫描</h2><div data-evidence-body><p>激活侦探模式，选择画面中的扫描点。</p></div><div data-evidence-links></div></div></aside></div>
-<section class="case-summary" data-summary hidden><p class="label">CASE SUMMARY / 调查完成</p><h2>物证链已闭合，案情重建完成</h2><p data-summary-text></p><div class="terminal-links"><a href="/arkham/archive/riddler/" data-summary-link>查阅关联机密档案</a><button type="button" data-reset>重置本案调查</button></div></section>
-<div class="terminal-fallback" data-case-fallback>{fallback}</div>
-{terminal_bar("/arkham/detective/")}
-<script type="application/json" data-case-data>{payload}</script></section>'''
 
     def make_nab_spool(is_left=True, uid='spool'):
         tape_r = 78 if is_left else 55
@@ -366,7 +324,6 @@ def build_interactions(data, shell):
 </div>
 {terminal_bar("/arkham/patients/")}
 </section>'''
-    record('案件重建 · Detective Mode', '扫描现场物证，沿物证链推演案情始末与嫌犯背景。', '/arkham/detective/')
     record('患者终端', '《疯人院》与《之城》的患者访谈原声与导读。', '/arkham/patients/')
 
     channels = transmissions['channels']
@@ -429,7 +386,6 @@ def build_interactions(data, shell):
     record('频段监听 · Cryptographic Sequencer', '收听《之城》的电话与广播，以及《骑士》的密谈和案件录音。', '/arkham/transmissions/')
 
     return {
-        'arkham/detective/index.html': page('案件重建', detective),
         'arkham/patients/index.html': page('患者终端', terminal),
         'arkham/transmissions/index.html': page('频段监听', terminal_trans, sequencer=True).replace('</head>', '<link rel="stylesheet" href="/assets/arkham-sequencer.css"><script src="/assets/arkham-sequencer.js" defer></script></head>')
     }, records

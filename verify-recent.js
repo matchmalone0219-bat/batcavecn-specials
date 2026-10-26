@@ -14,6 +14,7 @@ function fixture({saved = null, blocked = false, hub = true, prefix = ''} = {}) 
   return {api:window.ArkhamRecent,row,link,title,state,events,values,key};
 }
 const empty=fixture();assert.equal(empty.row.hidden,true,'No placeholder continuation');
+empty.api.remember('case','graysons');assert.equal(empty.values.get(empty.key),'null','Removed cases cannot become continuation links');
 empty.api.remember('clue','city-a');assert.deepEqual(JSON.parse(empty.values.get(empty.key)),{kind:'clue',id:'city-a'});
 const continued=fixture({saved:{kind:'clue',id:'city-a'}});assert.equal(continued.link.href,'/arkham/archive/clues/#city-a');assert.equal(continued.title.textContent,'格雷森海报');
 continued.api.clear();assert.equal(continued.row.hidden,true);assert.equal(continued.values.has(continued.key),false);

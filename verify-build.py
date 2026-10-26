@@ -42,11 +42,18 @@ class BuildChecks(unittest.TestCase):
             with patch('sys.stdout', new=io.StringIO()):
                 builder.build()
             assets = {p: p.stat().st_mtime_ns for p in (builder.DIST / 'assets').rglob('*') if p.is_file()}
+            retired = builder.DIST / 'arkham/detective/index.html'
+            retired.parent.mkdir(parents=True)
+            retired.write_text('stale retired case page')
+            retired_clip = builder.DIST / 'assets/media/riddler-scans/caves-perspective.mp4'
+            retired_clip.write_bytes(b'stale guide video')
             data = json.loads(builder.CONTENT.read_text())
             data['sites']['tas']['intro'] = '构建边界验证文字。'
             with patch.object(builder, 'copy_asset', wraps=copy_asset) as copier, patch('sys.stdout', new=io.StringIO()):
                 pages = builder.build(data)
             self.assertIn('构建边界验证文字。', pages['tas/index.html'])
+            self.assertFalse(retired.parent.exists(), 'Incremental builds must remove the retired case route')
+            self.assertFalse(retired_clip.exists(), 'Incremental builds must remove retired guide media')
             self.assertEqual(assets, {p: p.stat().st_mtime_ns for p in assets})
             self.assertGreater(copier.call_count, 100)
             self.assertNotIn('构建边界验证文字。', builder.CONTENT.read_text())
@@ -64,7 +71,7 @@ class BuildChecks(unittest.TestCase):
         crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
         from arkham_riddler import load_scans
         scan_packet = load_scans()
-        self.assertEqual((len(pages), len(records)), (160, 497 + len(scan_packet['riddles']) + len(scan_packet['techniques']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
+        self.assertEqual((len(pages), len(records)), (159, 481 + len(scan_packet['riddles']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route in ('arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'):

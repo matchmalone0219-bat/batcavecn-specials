@@ -1,4 +1,4 @@
-"""Original scan riddles, folded solutions, comic context and perspective demonstrations."""
+"""Original scan riddles, folded solutions, comic context."""
 import json
 from pathlib import Path
 from arkham_reading import source_links
@@ -9,16 +9,13 @@ ROOT = Path(__file__).resolve().parent
 def load_scans():
     packet = json.loads((ROOT / 'arkham-riddler-scans.json').read_text())
     images = {image['id']: image for image in packet['images']}
-    clips = {clip['id']: clip for clip in packet['clips']}
-    ids = [row['id'] for row in packet['riddles'] + packet['techniques']]
+    ids = [row['id'] for row in packet['riddles']]
     assert len(ids) == len(set(ids))
     for row in packet['riddles']:
         assert all(row[key].strip() for key in ('english', 'translation', 'solution', 'summary'))
         assert {row['scene'], row['target']} <= images.keys()
         assert set(row.get('comic', {}).get('images', [])) <= images.keys()
-    for row in packet['techniques']:
-        assert row['clip'] in clips and row['poster'] in images
-    for asset in packet['images'] + packet['clips']:
+    for asset in packet['images']:
         assert len(asset['sha256']) == 64 and asset['file'].startswith('riddler-scans/')
     return packet
 
@@ -27,7 +24,6 @@ def riddler_page(riddler, packet, games, sources, picture, record, esc):
     base = '/arkham/archive/riddler/'
     entries = {entry['id']: entry for entry in riddler['entries']}
     images = {image['id']: image for image in packet['images']}
-    clips = {clip['id']: clip for clip in packet['clips']}
     questions = packet['riddles']
 
     def photo(id, caption=None, scan_game=None, scan_target=False):
@@ -85,14 +81,7 @@ def riddler_page(riddler, packet, games, sources, picture, record, esc):
         record(row['title'], row['summary'], base, row['id'], ['谜语人', '原版扫描题', games[row['game']], row['region']])
     content += '</div><aside class="browser-preview clue-preview" aria-label="当前谜题详情"><button type="button" data-riddler-back hidden>返回当前列表</button><div data-riddler-detail></div></aside></div>'
 
-    content += '<section class="riddler-techniques" id="scan-techniques"><h2>扫描技巧</h2><p>透视谜题的问号分布在不同表面。打开侦探模式，调整站位与视角，让两部分在画面中接合。</p>'
-    for row in packet['techniques']:
-        clip = clips[row['clip']]
-        poster = images[row['poster']]
-        content += f'<article id="{row["id"]}" data-riddler-technique data-games="{row["game"]}" data-region="{esc(row["region"].split(" · ")[0])}"><p class="label">{esc(games[row["game"]])} / {esc(row["region"])}</p><h3>{esc(row["title"])}</h3>{quote(row)}<details data-riddler-demonstration><summary>查看站位与扫描演示</summary><p>{esc(row["body"])}</p>'
-        content += f'<video controls playsinline preload="none" width="{poster["width"]}" height="{poster["height"]}" poster="/assets/media/{esc(poster["file"])}" aria-label="{esc(row["title"])}：无声实机演示"><source src="/assets/media/{esc(clip["file"])}" type="video/mp4"><a href="/assets/media/{esc(clip["file"])}">打开演示短片</a></video><p class="fine">无声实机片段 · 使用播放器查看站位变化。</p></details></article>'
-        record(row['title'], row['translation'], base, row['id'], ['谜语人', '扫描技巧', games[row['game']], row['region']])
-    content += '</section><section class="riddler-background" id="comic-background"><h2>漫画背景</h2><details><summary>按人物查阅漫画线索</summary>'
+    content += '<section class="riddler-background" id="comic-background"><h2>漫画背景</h2><details><summary>按人物查阅漫画线索</summary>'
     for case in riddler['cases']:
         if not case.get('comicReading') or case['id'] == 'crime-alley':
             continue

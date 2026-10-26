@@ -1,0 +1,35 @@
+{
+  "removedPages": [
+    "arkham/detective/index.html"
+  ],
+  "changedPages": [
+    "arkham/patients/index.html",
+    "arkham/archive/index.html",
+    "arkham/transmissions/index.html",
+    "arkham/archive/riddler/index.html",
+    "arkham/archive/clues/index.html",
+    "arkham/archive/publications/index.html",
+    "arkham/archive/rocksteady/index.html",
+    "arkham/archive/stories/index.html",
+    "arkham/archive/asylum-history/index.html"
+  ],
+  "removedSearchRecords": [
+    "/arkham/detective/#case-graysons",
+    "/arkham/detective/#case-scarface",
+    "/arkham/detective/#case-oracle",
+    "/arkham/detective/"
+  ],
+  "changedRetainedSearchRecords": [],
+  "unchangedSharedSources": {
+    "patient-interviews.json": true,
+    "arkham-transmissions.json": true,
+    "asylum-history.json": true,
+    "patient_player.py": true,
+    "transmission_player.py": true,
+    "arkham-soul.js": true,
+    "arkham-riddler-scan.js": true
+  },
+  "builtPages": 159,
+  "publicPages": 158,
+  "searchRecords": 847
+}

@@ -49,7 +49,7 @@ assert.ok(page.includes(packet.source.url));
 assert.ok(!/data-seq-audio[^>]*\ssrc=/.test(page));
 const records = JSON.parse(fs.readFileSync(`${__dirname}/dist/content/search.json`, 'utf8')).filter(r => r.url.endsWith('/transmissions/#password-terminal'));
 assert.equal(records.length, 1); assert.ok(!JSON.stringify(records).includes(config.passkeys.join('')));
-for (const site of ['tas', 'arkham/patients', 'arkham/detective']) {
+for (const site of ['tas', 'arkham/patients']) {
   const walk = folder => fs.readdirSync(folder, {withFileTypes: true}).flatMap(e => e.isDirectory() ? walk(folder + '/' + e.name) : [folder + '/' + e.name]);
   for (const file of walk(`${__dirname}/dist/${site}`).filter(f => f.endsWith('.html'))) assert.ok(!fs.readFileSync(file, 'utf8').includes('/assets/arkham-sequencer.js'), file);
 }

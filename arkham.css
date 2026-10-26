@@ -72,7 +72,6 @@
 .scene-sources ul{padding-left:18px}
 .scene-sources li{margin:10px 0;overflow-wrap:anywhere}
 .scene-sources small{display:block;color:var(--muted)}
-.scene-mechanics{margin:36px 0;padding-top:24px;border-top:1px solid var(--line)}
 .story-reading .original{font-size:16px;letter-spacing:.03em;overflow-wrap:anywhere}
 .dossier-entry{padding:38px 0;border-bottom:1px solid var(--line);scroll-margin-top:28px}
 .dossier-entry h2{font-size:30px}
@@ -615,20 +614,17 @@
 .riddler-reading [data-riddler-item]:focus-visible,.riddler-reading [data-riddler-back]:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(min-width:961px){.riddler-reading [data-riddler-back]{display:none}}
 .riddler-reading .riddler-solution{margin-top:20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.riddler-reading .riddler-solution>summary,.riddler-reading [data-riddler-demonstration]>summary{min-height:44px;display:flex;align-items:center;gap:12px;padding:8px 0;font-weight:600;list-style:none}
-.riddler-reading .riddler-solution>summary::-webkit-details-marker,.riddler-reading [data-riddler-demonstration]>summary::-webkit-details-marker{display:none}
-.riddler-reading .riddler-solution>summary:after,.riddler-reading [data-riddler-demonstration]>summary:after{content:'＋';margin-left:auto}
-.riddler-reading .riddler-solution[open]>summary:after,.riddler-reading [data-riddler-demonstration][open]>summary:after{content:'−'}
+.riddler-reading .riddler-solution>summary{min-height:44px;display:flex;align-items:center;gap:12px;padding:8px 0;font-weight:600;list-style:none}
+.riddler-reading .riddler-solution>summary::-webkit-details-marker{display:none}
+.riddler-reading .riddler-solution>summary:after{content:'＋';margin-left:auto}
+.riddler-reading .riddler-solution[open]>summary:after{content:'−'}
 .riddler-reading .riddler-solution>summary:focus-visible,.riddler-reading details>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .riddler-reading .riddler-answer{padding:0 0 10px}
 .riddler-reading .riddler-answer>.dossier-photo{margin:12px 0 20px}
 .riddler-reading .riddler-answer .dossier-photo img{max-height:480px}
 .riddler-reading .dossier-photo figcaption{font-size:12px;color:var(--muted);margin-top:6px}
-.riddler-techniques,.riddler-background{margin-top:38px;padding-top:26px;border-top:1px solid var(--line)}
-.riddler-techniques>h2,.riddler-background>h2{font-size:24px;margin:0 0 16px}
-.riddler-techniques article{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
-.riddler-techniques h3{font-size:20px;margin:8px 0 14px}
-.riddler-techniques video{display:block;width:100%;height:auto;background:#000}
+.riddler-background{margin-top:38px;padding-top:26px;border-top:1px solid var(--line)}
+.riddler-background>h2{font-size:24px;margin:0 0 16px}
 .riddler-background .dossier-entry h3{font-size:23px;margin-top:0}
 
 .riddler-reading .riddler-video-sources{font-size:12px;color:var(--muted);margin:6px 0}

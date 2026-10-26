@@ -87,9 +87,12 @@ scene_count = len(reading['scenes']) + len(easter_eggs['entries'])
 riddler_packet = json.loads((CONTENT.parent / 'riddler-research.json').read_text())
 scan_packet = json.loads((CONTENT.parent / 'arkham-riddler-scans.json').read_text())
 omitted_scene_records = len(riddler_packet['entries']) - len(reading['scenes'])
-assert len(ark_pages) == 8 and len(ark_records) == 238 + len(scan_packet['riddles']) + len(scan_packet['techniques']) - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 24 + len(easter_eggs['images']) + len(scan_packet['images']) + len(scan_packet['clips'])
-assert len(interactive_pages) == 3 and len(interactive_records) == 32
-detective = interactive_pages['arkham/detective/index.html']
+assert len(ark_pages) == 8 and len(ark_records) == 226 + len(scan_packet['riddles']) - omitted_scene_records + len(easter_eggs['entries']) and len(ark_images) == 24 + len(easter_eggs['images']) + len(scan_packet['images'])
+assert len(interactive_pages) == 2 and len(interactive_records) == 28
+assert 'arkham/detective/index.html' not in pages
+assert not (DIST / 'arkham/detective').exists()
+assert '/arkham/detective/' not in json.dumps(pages, ensure_ascii=False)
+assert '/arkham/detective/' not in json.dumps(search, ensure_ascii=False)
 patient_terminal = interactive_pages['arkham/patients/index.html']
 trans_terminal = interactive_pages['arkham/transmissions/index.html']
 assert patient_terminal.count('data-patient-file=') == 14
@@ -101,13 +104,9 @@ assert trans_terminal.count('data-waveform') == 11
 assert trans_terminal.count('data-subtitle') == 11
 assert trans_terminal.count('data-tape=') == 36
 assert 'Only You' in trans_terminal
-for c in json.loads((CONTENT.parent / 'arkham-interactions.json').read_text())['cases']:
-    assert f'id="case-{c["id"]}"' in detective
-    assert len(c['evidence']) == 3
-    assert c['summary'] not in json.dumps(interactive_records, ensure_ascii=False)
 for filename, body in pages.items():
     assert ('/assets/arkham-investigation.js' in body) == (filename in interactive_pages)
-print('PASS: three interactive terminals (cases, patients, transmissions), on-demand players, safe search summaries and isolated interaction assets')
+print('PASS: two listening terminals, on-demand players, safe search summaries and isolated assets; retired case route and links removed')
 identity_record = next(r for r in ark_records if r['url'].endswith('#identity-wall'))
 assert 'Jason' not in json.dumps(identity_record, ensure_ascii=False)
 identity_html = ark_pages['arkham/archive/riddler/index.html'].split('id="identity-wall"', 1)[1].split('</article>', 1)[0]
@@ -509,8 +508,9 @@ riddler_page = pages["arkham/archive/riddler/index.html"]
 comic_cases = [case for case in riddler_packet['cases'] if case.get('comicReading')]
 assert riddler_page.count('data-riddler-item ') == len(scan_packet['riddles']) == 143
 assert riddler_page.count('data-riddler-solution') == 143
-assert riddler_page.count('data-riddler-technique') == 17
-assert len(re.findall(r'<video[^>]+preload="none"', riddler_page)) == 17
+assert 'data-riddler-technique' not in riddler_page and '<video' not in riddler_page
+assert 'scan-techniques' not in riddler_page and '谜题常用机制' not in pages['arkham/archive/clues/index.html']
+assert all(not set(record['tags']) & {'扫描技巧', '谜题机制'} for record in search)
 assert all(row['english'] in riddler_page.replace('&#x27;', "'") for row in scan_packet['riddles'])
 assert all(word not in riddler_page for word in ('data-riddles', 'riddle-card', '专题原创谜题', 'class="artbook-chapter"'))
 for case in riddler_packet['cases']:
@@ -520,9 +520,9 @@ for case in riddler_packet['cases']:
         assert case['comicReading']['comic'] in riddler_page
 assert 'id="artbook-a12"' in pages['arkham/games/arkham-knight/index.html']
 hub = pages["arkham/archive/index.html"]
-assert 'data-protocol-record' in hub and '0 / 3' in hub and '0 / 14' in hub and '0 / 36' in hub
+assert 'data-protocol-record' in hub and 'data-record="cases"' not in hub and 'data-cases=' not in hub and '0 / 14' in hub and '0 / 36' in hub
 assert 'data-record="riddles"' not in hub
-print('PASS: 143 original scan riddles with folded solutions, 17 perspective demonstrations, 14 comic backgrounds, all 21 case anchors retained')
+print('PASS: 143 subject scan riddles with folded solutions, 14 comic backgrounds and 21 case anchors; guide sections removed')
 for route_key, html in pages.items():
     if route_key.endswith(".html") and "<head>" in html:
         assert 'rel="icon"' in html, route_key
@@ -592,25 +592,25 @@ assert '/assets/arkham-clues.js' in clue_html and all('/assets/arkham-clues.js' 
 merch_html = pages["arkham/collectibles/index.html"]
 assert merch_html.count("data-row-for=") == len([i for i in merch["items"] if i["site"] == "arkham"]) and "data-row-for" not in pages["tas/collectibles/index.html"]
 for room_key in [k for k in pages if k.startswith("arkham/archive/") and k.endswith("index.html") and k not in ('arkham/archive/interviews/index.html', 'arkham/archive/index.html')]:
-    assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 10, room_key
+    assert 'class="dossier-rail"' in pages[room_key] and pages[room_key].count('class="rail-item"') == 9, room_key
 hub = pages["arkham/archive/index.html"]
 recent_match = re.search(r'<script type="application/json" data-recent-index>(.*?)</script>', hub)
 assert recent_match and 'data-recent-object hidden' in hub
 recent_index = json.loads(recent_match[1])
 for key, item in recent_index.items():
-    assert key.split(':')[0] in ('case','clue','patient','channel') and item['url'].startswith('/arkham/')
+    assert key.split(':')[0] in ('clue','patient','channel') and item['url'].startswith('/arkham/')
     recent_url = urlsplit(item['url'])
     assert recent_url.path in parsed and recent_url.fragment in parsed[recent_url.path].ids, item
 assert all('/assets/arkham-recent.js' not in html for key,html in pages.items() if not key.startswith('arkham/'))
 assert 'class="dossier-rail"' not in hub and 'dossier-shelf' not in hub, 'archive hub uses the pause menu, not rail or shelf cards'
-assert hub.count("data-browse-item") == 9 and hub.count("data-panel=") == 9 and "data-browser-fallback" in hub
-for record_key in ("cases", "patients", "transmissions"):
+assert hub.count("data-browse-item") == 8 and hub.count("data-panel=") == 8 and "data-browser-fallback" in hub
+for record_key in ("patients", "transmissions"):
     assert hub.count(f'data-record="{record_key}"') == 2, record_key
-for label in ('已完成','已试听角色','已试听录音'):
+for label in ('已试听角色','已试听录音'):
     assert hub.count(f'data-record-label="{label}"') == 2, label
 for terminal_key in ('arkham/patients/index.html','arkham/transmissions/index.html'):
     assert 'class="spoiler ' in pages[terminal_key] and 'preload="none"' in pages[terminal_key], terminal_key
-for terminal_key in ("arkham/detective/index.html", "arkham/patients/index.html", "arkham/transmissions/index.html"):
+for terminal_key in ("arkham/patients/index.html", "arkham/transmissions/index.html"):
     page_html = pages[terminal_key]
     bar = page_html.split('class="terminal-bar"')[1].split('</nav>')[0]
     assert page_html.count('class="terminal-bar"') == 1 and 'dossier-shelf' not in page_html, terminal_key
@@ -619,7 +619,7 @@ arkham_html = {k: v for k, v in pages.items() if k.startswith("arkham/") and k.e
 assert not [k for k, v in arkham_html.items() if 'dossier-shelf' in v or '六部作品' in v]
 for link_key in ("arkham/catalog/index.html", "arkham/archive/asylum-history/index.html", "arkham/archive/rocksteady/index.html"):
     assert pages[link_key].count('class="file-link"') == 1, link_key
-print('PASS: Arkham archive rail on 6 room pages; hub is a pause menu with 9 entries and record counts; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained')
+print('PASS: Arkham archive rail on 6 room pages; hub has 8 entries and listening counts; one patient entry, legacy redirect and no duplicate search records; list + preview browsing retained')
 
 # TAS programme, screening halls and end-credit roster.
 catalog_html = (DIST / 'tas/catalog/index.html').read_text()

@@ -2,43 +2,15 @@
 .arkham-investigation [hidden]{display:none!important}
 .arkham-investigation .terminal-heading{padding-bottom:30px}
 .arkham-investigation .terminal-heading h1{font-family:var(--arkham-font);font-size:clamp(36px,6vw,64px);letter-spacing:.12em;font-weight:600;margin:12px 0}
-.arkham-investigation .terminal-heading .label,.arkham-investigation .console-bar,.arkham-investigation .evidence-id{color:var(--scan);font-family:var(--arkham-font);letter-spacing:.15em}
-.arkham-investigation .case-register{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px}
-.arkham-investigation .case-register a{display:flex;align-items:center;gap:16px;padding:18px;border:1px solid #8ba3a93b;background:#102226;color:#beccc9;text-decoration:none}
-.arkham-investigation .case-register a>span{font-size:24px;color:#8c9c9f}
-.arkham-investigation .case-register a[aria-current]{border-color:var(--scan);background:#1e353a;color:#cdded9}
-.arkham-investigation .case-register .is-complete:after{content:'✓';margin-left:auto;color:var(--scan)}
-.arkham-investigation .investigation-workspace{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:22px;align-items:start}
-.arkham-investigation .scene-console,.arkham-investigation .evidence-console,.arkham-investigation .patient-file{padding:24px;background:linear-gradient(145deg,#14272a,#0b1b1d);border:1px solid #8ba3a93b;min-width:0}
+.arkham-investigation .terminal-heading .label,.arkham-investigation .console-bar{color:var(--scan);font-family:var(--arkham-font);letter-spacing:.15em}
+.arkham-investigation .patient-file{padding:24px;background:linear-gradient(145deg,#14272a,#0b1b1d);border:1px solid #8ba3a93b;min-width:0}
 .arkham-investigation .console-bar{display:flex;justify-content:space-between;gap:12px;font-size:10px;padding-bottom:14px;border-bottom:1px solid #8ba3a93b}
-.arkham-investigation .scene-console h2{font-size:25px;margin:22px 0 6px}
-.arkham-investigation .scene-location{font-size:12px;color:#aebbb9;margin:0 0 20px}
-.arkham-investigation .investigation-scene{position:relative;overflow:hidden;background:#060d11}
-.arkham-investigation .investigation-scene img{display:block;width:100%;height:auto;filter:grayscale(1) brightness(.72);transition:filter .45s}
-.arkham-investigation .investigation-scene.is-detective img{filter:grayscale(1) sepia(.8) hue-rotate(155deg) saturate(2) brightness(.9) contrast(1.1)}
-.arkham-investigation .scan-grid{position:absolute;inset:0;pointer-events:none;opacity:0;background:repeating-linear-gradient(0deg,transparent 0 3px,#8bdcff12 3px 4px),linear-gradient(90deg,#91d5ff07 1px,transparent 1px),linear-gradient(#91d5ff07 1px,transparent 1px);background-size:auto,28px 28px,28px 28px;transition:opacity .45s}
-.arkham-investigation .is-detective .scan-grid{opacity:1}
-.arkham-investigation .scan-hotspot{position:absolute;transform:translate(-50%,-50%);width:58px;height:58px;border:1px solid var(--scan);background:#07121cbf;color:#edfffc;display:grid;place-content:center;cursor:pointer;box-shadow:0 0 0 7px #91d5ff15,0 0 30px #91d5ff36}
-.arkham-investigation .scan-hotspot span{font-size:20px;line-height:1.1}.arkham-investigation .scan-hotspot small{font-size:8px;letter-spacing:.2em}
 .arkham-investigation button{font-family:inherit;cursor:pointer}
 .arkham-investigation button:focus-visible,.arkham-investigation a:focus-visible{outline:2px solid #cdded9;outline-offset:4px}
-.arkham-investigation .scan-controls{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:20px 0}
-.arkham-investigation .scan-controls button,.arkham-investigation .load-recording{padding:14px 18px;background:#cdded9;color:#102226;border:1px solid #cdded9;font-size:14px}
-.arkham-investigation .scan-controls button small{display:block;font-size:9px;letter-spacing:.13em;margin-top:4px}
-.arkham-investigation [data-progress]{font-size:12px;white-space:nowrap;color:#c4d3d0}
+.arkham-investigation .load-recording{padding:14px 18px;background:#cdded9;color:#102226;border:1px solid #cdded9;font-size:14px}
 .arkham-investigation .terminal-sources{display:flex;flex-direction:column;gap:9px;font-size:11px;margin-top:18px}
 .arkham-investigation .terminal-sources a{color:#9ea8aa;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
-.arkham-investigation .evidence-chain{display:grid;gap:8px;margin:20px 0 28px}
-.arkham-investigation .evidence-chain button{border:1px solid #8ba3a94d;color:#c2d1ce;background:#14272a;text-align:left;padding:13px;font-size:13px}
-.arkham-investigation .evidence-chain button.is-found{color:#cdded9;border-color:#cdded98a}
 .arkham-investigation button:disabled{opacity:.4;cursor:default}
-.arkham-investigation .evidence-id{font-size:10px;line-height:1.8}
-.arkham-investigation .evidence-console h2{font-size:24px;line-height:1.5;margin:12px 0}
-.arkham-investigation [data-evidence-body]{color:#c2d1ce;line-height:1.9;min-height:120px}
-.arkham-investigation .terminal-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
-.arkham-investigation .terminal-links a,.arkham-investigation .terminal-links button{padding:10px 13px;border:1px solid #8b9b9e54;background:#102226;color:#cdded9;text-decoration:none;font-size:12px}
-.arkham-investigation .case-summary{margin-top:24px;padding:30px;background:#173135;border-top:1px solid var(--scan)}
-.arkham-investigation .case-summary h2{font-size:24px;margin:12px 0}.arkham-investigation .case-summary>p:last-of-type{max-width:850px;line-height:1.9}
 /* Patient Workspace - Arkham Asylum Medical Deck */
 .arkham-patient-terminal .terminal-heading-tags{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:8px}
 .arkham-patient-terminal .system-status-pips{font:10px/1 ui-monospace,monospace;letter-spacing:.12em;color:#cdded9;background:#102226;padding:5px 10px;border:1px solid #cdded944;border-radius:2px;box-shadow:inset 0 0 6px #cdded91a}
@@ -234,11 +206,8 @@
 .arkham-investigation .patient-player audio,.patient-room .patient-player audio{display:block;width:100%;max-width:100%;margin-top:20px;color-scheme:dark}
 .patient-room .load-recording,.arkham-investigation .load-recording{padding:12px 18px;background:#cdded9;color:#0a171a;border:0;cursor:pointer;font:600 13px var(--sans);letter-spacing:.06em}
 .patient-room [hidden]{display:none!important}
-.arkham-investigation .terminal-fallback article{padding:30px 0;border-top:1px solid #8ba3a93b}
-.arkham-investigation .terminal-fallback img{max-width:100%;height:auto}
 @keyframes terminal-reel{to{transform:rotate(360deg)}}
 @media(max-width:900px){
-  .arkham-investigation .investigation-workspace{grid-template-columns:1fr}
   .arkham-investigation .patient-workspace{grid-template-columns:1fr;gap:20px}
   .arkham-investigation .patient-selector{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px}
   .arkham-investigation .tape-console{grid-template-columns:1fr}
@@ -313,28 +282,11 @@
 }
 
 
-/* Feedback belongs to an active investigation, rather than an idle screen. */
 .arkham-investigation .console-bar{flex-wrap:wrap;gap:12px}
-.arkham-investigation .terminal-motion{font:inherit;color:#b5c3c1;background:transparent;border:1px solid #687376;padding:8px 10px;min-height:44px}
-.arkham-investigation .terminal-feedback{min-height:44px;font-size:12px;line-height:1.8;color:var(--scan);margin:12px 0 0}
-.arkham-investigation .evidence-chain button.is-next{background:var(--surface);border-color:var(--scan)}
-.arkham-investigation .evidence-chain button[aria-pressed=true]{background:var(--selection-bg);color:var(--selection-fg)}
-.arkham-investigation .is-recorded .scan-hotspot{box-shadow:0 0 0 4px #91d5ff15;opacity:.8}
-.arkham-investigation.is-scanning .scan-hotspot{animation:arkham-target-lock 420ms ease-out both}
-.arkham-investigation.is-scanning .investigation-scene:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(transparent 44%,#b9e7ff99 49%,transparent 54%);animation:arkham-scene-scan 420ms ease-out both}
-.arkham-investigation.is-retrieving [data-evidence-panel]{opacity:.55;transition:opacity .12s}
-.arkham-investigation.evidence-received [data-evidence-panel]{animation:arkham-evidence-confirm 500ms ease-out both}
-.arkham-investigation.case-resolved .case-summary{animation:arkham-evidence-confirm 650ms ease-out both}
-@keyframes arkham-target-lock{from{transform:translate(-50%,-50%) scale(1.6);box-shadow:0 0 0 14px #91d5ff22}to{transform:translate(-50%,-50%) scale(1);box-shadow:0 0 0 2px #91d5ff66}}
-@keyframes arkham-scene-scan{from{transform:translateY(-60%)}to{transform:translateY(60%)}}
-@keyframes arkham-evidence-confirm{from{opacity:.55;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
-.arkham-investigation.terminal-still .investigation-scene img,.arkham-investigation.terminal-still .scan-grid{transition:none}
-@media(prefers-reduced-motion:reduce){.arkham-investigation.is-scanning .scan-hotspot,.arkham-investigation.is-scanning .investigation-scene:after,.arkham-investigation.evidence-received [data-evidence-panel],.arkham-investigation.case-resolved .case-summary{animation:none}.arkham-investigation .investigation-scene img,.arkham-investigation .scan-grid{transition:none}}
-@media(max-width:640px){.arkham-investigation .case-register{grid-template-columns:1fr;gap:8px}.arkham-investigation .case-register a{padding:12px 16px}.arkham-investigation .case-register a>span{font-size:18px}}
 
 /* One selection language with the main menu: pale fill, clipped corner, dark text. */
-.arkham-investigation .case-register a[aria-current],.arkham-investigation .patient-selector a[aria-current],.arkham-investigation .transmission-channel-card[aria-current],.arkham-investigation .recording-game-tabs button[aria-pressed=true]{background:#cdded9;border-color:#cdded9;color:#121716;box-shadow:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
-.arkham-investigation .case-register a[aria-current]>span,.arkham-investigation .case-register a[aria-current].is-complete:after,.arkham-investigation .transmission-channel-card[aria-current] h3,.arkham-investigation .transmission-channel-card[aria-current] p,.arkham-investigation .transmission-channel-card[aria-current] svg.ai{color:#30484e}
+.arkham-investigation .patient-selector a[aria-current],.arkham-investigation .transmission-channel-card[aria-current],.arkham-investigation .recording-game-tabs button[aria-pressed=true]{background:#cdded9;border-color:#cdded9;color:#121716;box-shadow:none;clip-path:polygon(0 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%)}
+.arkham-investigation .transmission-channel-card[aria-current] h3,.arkham-investigation .transmission-channel-card[aria-current] p,.arkham-investigation .transmission-channel-card[aria-current] svg.ai{color:#30484e}
 .arkham-investigation .patient-selector a[aria-current] .patient-slot-num,.arkham-investigation .patient-selector a[aria-current] .patient-slot-info small,.arkham-investigation .patient-selector a[aria-current] .patient-tape-pips{color:#40575c}
 .arkham-investigation .patient-selector a[aria-current] .inmate-status-pip{background:#121716;border-color:#121716;box-shadow:none}
 .arkham-investigation .patient-selector a:hover,.arkham-investigation .patient-selector a[aria-current]{transform:none}
@@ -358,21 +310,6 @@
 .arkham-investigation .terminal-heading .lead{font-size:15px;line-height:1.6;margin:0}
 .arkham-investigation .terminal-heading .fine{font-size:12px;line-height:1.5;margin:0}
 .arkham-investigation .recording-game-tabs{margin:12px 0 18px}
-.arkham-investigation .case-register{margin:10px 0 18px;gap:8px}
-.arkham-investigation .case-register a{padding:8px 12px;font-size:14px;line-height:1.5;min-height:44px}
-.arkham-investigation .case-register a>span{font-size:20px;line-height:1}
-.arkham-investigation .scene-console,.arkham-investigation .evidence-console{padding:18px}
-.arkham-investigation .scene-console h2{font-size:24px;margin:14px 0 6px}
-.arkham-investigation .scene-console .console-bar{align-items:center;padding-bottom:8px}
-.arkham-investigation .scene-console .terminal-motion{padding:6px 8px;min-height:32px;font-size:11px}
-.arkham-investigation .scene-location{margin-bottom:10px}
-.arkham-investigation .scene-toolbar{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0}
-.arkham-investigation .scene-toolbar button{min-height:44px;padding:6px 10px;font-size:13px;line-height:1.4}
-.arkham-investigation .scene-toolbar button small{font-size:8px;line-height:1.2}
-.arkham-investigation .scene-toolbar .terminal-feedback{flex-basis:100%;margin:0;font-size:13px;line-height:1.5;min-height:0}
-.arkham-investigation .evidence-chain{margin:14px 0 20px}
-.arkham-investigation .evidence-chain button{display:flex;align-items:center;gap:10px;min-height:48px}
-.arkham-investigation .evidence-chain svg.ai{width:20px;height:20px;flex:none}
 .arkham-investigation .patient-file{padding:20px 24px}
 .arkham-investigation .patient-identity{padding:14px 0;gap:18px}
 .arkham-investigation .patient-dossier-meta h2{font-size:28px}
@@ -446,9 +383,6 @@
  .arkham-investigation .transmission-file .patient-identity p{font-size:12px;line-height:1.5;margin:4px 0}
  .arkham-investigation .transmission-file .patient-identity .label{font-size:9px}
  .arkham-investigation .transmission-file .console-bar{font-size:9px;line-height:1.5;flex-wrap:wrap}
- .arkham-investigation .case-register{display:flex;overflow:auto;scroll-snap-type:x proximity}
- .arkham-investigation .case-register a{min-width:220px;flex:none;scroll-snap-align:start}
- .arkham-investigation .scene-toolbar .terminal-feedback{font-size:12px}
 }
 @media(max-width:760px){
 .arkham-investigation .terminal-bar{gap:8px 18px}

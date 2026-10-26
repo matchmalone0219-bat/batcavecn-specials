@@ -58,5 +58,5 @@ for(const game of ['asylum','city','knight']) {
 assert.ok(html.includes('data-map-controls hidden'));
 assert.equal(fixtures[0].n.viewport.hidden,false,'Image failure does not hide another map');
 fixtures[2].n.in.handlers.click();assert.equal(fixtures[2].n.zoom.textContent,'150%','Other maps remain usable');
-for(const route of ['arkham/detective','arkham/patients','tas',''])assert.equal(fs.readFileSync(__dirname+'/dist/'+route+'/index.html','utf8').includes('/assets/arkham-map.js'),false);
+for(const route of ['arkham/patients','tas',''])assert.equal(fs.readFileSync(__dirname+'/dist/'+route+'/index.html','utf8').includes('/assets/arkham-map.js'),false);
 console.log('PASS: source image hash, reference annotations, three-game loading and independent views, folded fallback, zoom limits/center, keyboard, pointer cancellation and image failure');
