@@ -475,8 +475,8 @@
 /* The frame takes its height from aspect-ratio, so fitted images are pinned to it instead of relying on height:100%. */
 .arkham .pause-panel .pause-art:is(.is-contain,.is-small,.is-document){position:relative}
 .arkham .pause-panel .pause-art:is(.is-contain,.is-small) img{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;object-fit:contain}
-/* Whole document visible: fit by height, then scale just enough to push the scan's paper margins (about 26px above, 12px below in 918px) out of the frame. */
-.arkham .pause-panel .pause-art.is-document img:not(.pause-art-backdrop){position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:contain;transform:scale(1.042);transform-origin:50% 68.4%;filter:drop-shadow(0 10px 22px #000c)}
+/* Whole document visible: the sheet fits inside the frame; a blurred copy fills the sides. */
+.arkham .pause-panel .pause-art.is-document img:not(.pause-art-backdrop){position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 10px 22px #000c)}
 .arkham .pause-panel .pause-art.is-document .pause-art-backdrop{position:absolute;inset:-24px;width:calc(100% + 48px);height:calc(100% + 48px);object-fit:cover;filter:blur(18px) brightness(.58) saturate(.9)}
 .arkham .pause-panel .browser-panel-copy>p.pause-enter{margin:18px 0 0;font-size:13px;color:#91a4a8}
 .arkham .pause-enter kbd,.arkham .pause-controls kbd{display:inline-block;margin-right:6px;padding:1px 6px;border:1px solid #b3c0be77;border-radius:3px;font:11px/1.5 var(--arkham-condensed);color:#c6d7d1}

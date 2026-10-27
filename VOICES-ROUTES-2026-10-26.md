@@ -47,3 +47,5 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
   - DC 漫画封面在 arkham-archive-research.json 标注为私有研究素材、未取得转载授权，未用于前台。
   - 预览框高度来自 aspect-ratio，原 is-contain / is-small 的 height:100% 不生效，竖图和证书被裁。改为把这类图绝对定位铺满框后再 contain；证书另设 is-document，按高度完整显示并微放大 4.2%，把扫描页上下的纸页白边推出框外（原图不改）。
   - 证书两侧不留黑边：同一张图的模糊压暗副本（aria-hidden）铺满预览框作底，证书本体加投影。
+  - 证书原裁剪（设定集扫描 1 (80).jpg，x 101–1519）切掉了左侧约 60px 边框，上下又带纸页白边。按证书外框重裁为 [38,1981,1518,2860]，1480×879；arkham-artbook.json 的尺寸、裁剪坐标与 sha256 同步更新，webp 重新生成。预览不再需要放大，去掉 scale。
+  - 注意：build_webp.py 会为别的工作流新增、尚无 webp 的图片（如 riddler-scans）批量生成副本；只提交本轮相关的 webp。

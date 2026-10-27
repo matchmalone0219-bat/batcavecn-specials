@@ -505,8 +505,8 @@
     {
       "id": "a05-diploma",
       "file": "artbook/arkham/a05-diploma.jpg",
-      "width": 1418,
-      "height": 918,
+      "width": 1480,
+      "height": 879,
       "alt": "哈琳·奎泽尔的哥谭大学心理学学位证书道具",
       "kind": "环境叙事道具",
       "group": "装备",
@@ -515,16 +515,16 @@
         {
           "sourceFile": "1 (80).jpg",
           "cropNormalized": [
-            0.02,
-            0.565,
+            0.008,
+            0.572,
             0.302,
-            0.83
+            0.826
           ],
           "cropPixels": [
-            101,
-            1955,
-            1519,
-            2873
+            38,
+            1981,
+            1518,
+            2860
           ],
           "sourceSize": [
             5029,
@@ -533,7 +533,7 @@
           "sourceSHA256": "8921e88a481e511c129df73db68534a966e9f2319a9ee188f3255d884a14baac"
         }
       ],
-      "sha256": "5b66975b917e132e8bcd694c3003de20ea816b7d30be785597acde016468f7a4",
+      "sha256": "400ba223d47eec1f1492b838e09fe8859d7923a99025a7da751a906ce982b2da",
       "spoiler": false,
       "book": "rocksteady-2015"
     },

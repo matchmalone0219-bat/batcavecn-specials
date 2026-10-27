@@ -105,7 +105,7 @@ def build_arkham_archive(data,shell):
         return f'<span class="pause-count" data-record="{key}" data-total="{total}" data-record-label="{labels[key]}" title="{esc(label)}">{labels[key]} 0 / {total}</span>' if key else ''
     def art(href):
         i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ' is-contain' if i['height']>i['width'] else ''
-        if i['id']=='a05-diploma': fit=' is-document'  # show the whole certificate; the scan's paper margins sit outside the frame
+        if i['id']=='a05-diploma': fit=' is-document'  # show the whole certificate
         assert not i.get('spoiler'),i['id']
         # A document keeps its whole sheet in view; a blurred copy of it fills the frame around the sheet.
         backdrop = f'<img class="pause-art-backdrop" src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="" aria-hidden="true" loading="lazy">' if fit == ' is-document' else ''
