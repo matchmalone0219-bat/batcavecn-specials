@@ -107,7 +107,7 @@ def build_crossover(data, shell, lead=""):
         f'<a href="#{anchor}"><span class="voices-index-number">{number}</span><strong>{esc(title)}</strong><span>{esc(note)}</span></a>'
         for anchor, number, title, note in index_items) + '</nav>')
     body = (
-        f'<div class="crossover voices-feature" id="voices">{cover(doc["title"], doc["intro"], shared=True)}<p class="profile-continuity">{esc(doc["continuity"])}</p>{page_index}'
+        f'<div class="crossover voices-feature" id="voices">{cover(doc["title"], doc["intro"], shared=True)}{page_index}'
         f'{conroy}{main_reading()}<div class="xspreads" id="characters"><div class="profile-interlude"><p class="profile-eyebrow">02 / CHARACTERS IN TWO WORLDS</p><h2>动画与游戏之间</h2><p>人物的形象、声音与创作，在两座哥谭中相遇。</p></div>{spreads}</div>'
         f'<section class="xcredits" id="credits" aria-labelledby="xcredits-title"><p class="profile-eyebrow">03 / END CREDITS</p><h2 id="xcredits-title">演职员</h2>{cast}</section>'
         f'<section class="xsources" id="sources"><h2>资料来源</h2>{source_list}</section></div>'

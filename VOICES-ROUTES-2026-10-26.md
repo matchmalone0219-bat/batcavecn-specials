@@ -52,3 +52,4 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
   - 谜语人机关考据配图改为用户提供的谜语人藏身处画面（《阿卡姆骑士》截图，riddler-hideout.jpg，1600×900），登记在新增的 arkham-hub-art.json（含 sha256），build.py 复制到 dist，verify.py 校验哈希。竖图（如录音磁带截帧）在预览中与证书同样完整显示加模糊底；art_pool 纳入 recording-portraits。
   - a07-layers（哥谭故事）原裁剪左侧带约 17px 扫描页白边、顶部 3px 浅边：按插画边界重裁为 [2558,124,4928,2007]，缩放到 1800×1430；arkham-artbook.json 尺寸、裁剪与 sha256 同步更新，webp 重新生成。
 - 2026-10-27：两站“蝙蝠侠之声”（导航、阿卡姆主菜单）改为指向页首 /?route=arkham、/?route=tas，不再带 #kevin-conroy（中段锚点受上方图片加载影响，落点不一致）；页脚“凯文·康罗伊”与正文人物链接保留锚点。
+- 2026-10-27：按用户要求删去共同页封面下的连续性说明句（“阿卡姆系列与动画系列是两条独立的连续性……”，属防御性文案）：去掉 crossover.json 的 continuity 字段、渲染与 .profile-continuity 样式，本页目录上移接在封面之后。

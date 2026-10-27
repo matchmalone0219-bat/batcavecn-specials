@@ -48,7 +48,6 @@
 .profile-cover-portrait .profile-photo-credit{font-size:10px}
 .profile-cover-signature{position:absolute;right:16px;bottom:116px;margin:0;color:#fff8ec;font:400 clamp(58px,7.2vw,110px)/.79 Georgia,serif;letter-spacing:-.065em;text-align:right;text-shadow:0 2px 12px #15120d66;pointer-events:none}
 .profile-cover-signature>span{display:block;font:10px/1.6 ConroySans,var(--sans);letter-spacing:.12em;margin-top:18px}
-.profile-continuity{border-top:1px solid var(--line);padding:22px 0 0;max-width:760px;font-size:12px;line-height:1.9;color:var(--muted);margin:0 0 72px}
 .profile-return{font-size:12px;letter-spacing:.08em;margin:0 0 36px;color:var(--accent)}
 .voices-feature .xconroy{padding-top:0;border:0;margin-bottom:90px}
 .voices-feature .xconroy .xconroy-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:72px;padding:40px 0 44px;margin:0;border-top:1px solid var(--line);align-items:start}
@@ -143,7 +142,6 @@
  .profile-cover-signature>span{font-size:7px;margin-top:12px}
  .profile-cover-portrait .profile-photo figcaption{font-size:10px}
  .profile-cover-portrait .profile-photo-credit{font-size:9px}
- .profile-continuity{font-size:11px;margin-bottom:36px;padding-top:16px}
  .voices-feature .xconroy .xconroy-head{grid-template-columns:1fr;gap:20px;padding:26px 0}
  .voices-feature .xconroy-head h2{font-size:30px}
  .voices-feature .xconroy-intro{font-size:15px;line-height:2}
@@ -487,7 +485,7 @@
 
 /* Voices page, compact layout: an index up top, one row per character, an end-credits list,
    and reference lists that open on request. */
-.voices-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;margin:-40px 0 84px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.voices-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;margin:0 0 84px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .voices-index a{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 16px;align-items:baseline;padding:22px 0 24px;color:var(--text)}
 .voices-index-number{grid-row:span 2;font:400 34px/1 Georgia,serif;letter-spacing:-.04em;color:var(--accent)}
 .voices-index strong{font-weight:400;font-size:18px}
@@ -537,7 +535,7 @@
 .voices-feature .xsources>h2{margin-bottom:6px}
 
 @media(max-width:760px){
-.voices-index{grid-template-columns:1fr;margin:-16px 0 56px}
+.voices-index{grid-template-columns:1fr;margin:0 0 56px}
 .voices-index a{padding:16px 0;border-top:1px solid var(--line)}
 .voices-index a:first-child{border-top:0}
 .voices-index-number{font-size:28px}
