@@ -105,6 +105,7 @@ def build_arkham_archive(data,shell):
         return f'<span class="pause-count" data-record="{key}" data-total="{total}" data-record-label="{labels[key]}" title="{esc(label)}">{labels[key]} 0 / {total}</span>' if key else ''
     def art(href):
         i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ' is-contain' if i['height']>i['width'] else ''
+        if i['id']=='a05-diploma': fit=' is-document'  # show the whole certificate; the scan's paper margins sit outside the frame
         assert not i.get('spoiler'),i['id']
         return f'<figure class="pause-art{fit}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(i["alt"])}" loading="lazy"></figure>'
     groups=[('TERMINALS · 互动终端',terminals),('DOSSIERS · 档案室',rooms)]

@@ -45,3 +45,4 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
   - 患者终端 a05-diploma（哈琳·奎泽尔心理学学位证书）；频段监听 arkham-city-05（新增，Steam 官方截图：霓虹招牌间俯瞰街区的蝙蝠侠）；场景细节 arkham-city-06（新增，Steam 官方截图：斯奥尼斯钢铁厂招牌）；哥谭故事 a07-layers；漫画与出版文献 a16-lighthouse；谜语人暂用 a12-robot（待换三部曲奖杯拼图）；院史、Rocksteady 不变。
   - 新截图登记在 media.json（WB Games / DC，官方商店截图，Steam GOTY，1280×720 原文件），并生成 webp；verify.py 媒体数 32→34。两张也会出现在《阿卡姆之城》作品页与图片资料页。
   - DC 漫画封面在 arkham-archive-research.json 标注为私有研究素材、未取得转载授权，未用于前台。
+  - 预览框高度来自 aspect-ratio，原 is-contain / is-small 的 height:100% 不生效，竖图和证书被裁。改为把这类图绝对定位铺满框后再 contain；证书另设 is-document，按高度完整显示并微放大 4.2%，把扫描页上下的纸页白边推出框外（原图不改）。
