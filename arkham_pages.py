@@ -2,7 +2,7 @@
 import html
 import re
 import json
-from render_common import paragraphs
+from render_common import paragraphs, external_link_icon
 from arkham_soul import soul_player
 from arkham_reading import load_reading, scene_page, story_page
 from arkham_riddler import load_scans, riddler_page
@@ -145,7 +145,7 @@ def build_arkham_archive(data,shell):
 <div class="clue-map-body"><p class="clue-map-context" data-map-context hidden></p>
 <div class="clue-map-controls" data-map-controls hidden><button type="button" data-map-out aria-label="缩小地图">−</button><output data-map-zoom aria-live="off">100%</output><button type="button" data-map-in aria-label="放大地图">+</button><button type="button" data-map-reset>复位</button><span>放大后可拖动；方向键移动，Home复位。</span></div>
 <div class="clue-map-viewport" data-map-viewport tabindex="0" role="group" aria-label="{esc(map_asset["title"])}视野" style="aspect-ratio:{map_asset['width']}/{map_asset['height']}"><div class="clue-map-plane" data-map-plane><img src="{esc(map_url)}" width="{map_asset['width']}" height="{map_asset['height']}" alt="{esc(map_asset['alt'])}" loading="lazy" draggable="false" data-map-image></div></div>
-<p class="fine" data-map-error hidden>地图暂时无法载入，可打开来源页查看。</p><p class="clue-map-source"><a href="{esc(map_asset['source']['url'])}">地图来源：{esc(map_asset["source"]["label"])} ↗</a><a href="{esc(map_url)}">查看原图 ↗</a></p></div></details>'''
+<p class="fine" data-map-error hidden>地图暂时无法载入，可打开来源页查看。</p><p class="clue-map-source"><a href="{esc(map_asset['source']['url'])}">地图来源：{esc(map_asset["source"]["label"])}{external_link_icon()}</a><a href="{esc(map_url)}">查看原图</a></p></div></details>'''
     content=scene_page(riddler,archive,reading,GAMES,sources,picture,record,esc,map_view)
     page('clues','场景细节与彩蛋','招牌印记、遗留物证与隐秘布景：考据空间深处遗落的叙事碎片，还原主线之外的罪案回声。',content)
     pages['arkham/archive/clues/index.html']=pages['arkham/archive/clues/index.html'].replace('</head>','<script src="/assets/arkham-map.js" defer></script><script src="/assets/arkham-clues.js" defer></script></head>')
@@ -192,7 +192,7 @@ def build_arkham_archive(data,shell):
 
     source_html='<section class="section"><h2>哥谭档案馆来源</h2><p>出版方书目、游戏攻略、社区转录与主创访谈，按来源查阅。</p><div class="source-list">'
     for s in sources.values():
-        title = f'<a href="{esc(s["url"])}">{esc(s["title"])} ↗</a>' if s.get('url') else esc(s['title'])
+        title = f'<a href="{esc(s["url"])}">{esc(s["title"])}{external_link_icon()}</a>' if s.get('url') else esc(s['title'])
         item=f'<article><p class="label">{esc(s.get("level",s.get("evidence",s.get("type","资料来源"))))}</p><h3>{title}</h3></article>'
         source_html+=('<details class="spoiler"><summary>院史身份来源 · 含剧透</summary>'+item+'</details>') if s.get('spoiler') else item
     source_html+='</div></section>'

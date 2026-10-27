@@ -77,7 +77,7 @@ def build_crossover(data, shell, lead=""):
     for node in (n for n in doc["nodes"] if n["kind"] == "person"):
         tas, arkham = side_links(node, "tas"), side_links(node, "arkham")
         meta = " · ".join(x for x in (node["original"], node.get("years", "")) if x)
-        more = f'<a class="xcredit-more" href="{esc(node["url"])}">完整人物档案 →</a>' if node.get("url") else ""
+        more = f'<a class="xcredit-more" href="{esc(node["url"])}">完整人物档案</a>' if node.get("url") else ""
         refs = source_links([s for link in node["links"] for s in link["sources"]] + node.get('sourceRefs', []), sources)
         columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{SITE_NAMES[side]}</span></p><ol>{work_rows(links)}</ol></div>' for label, side, links in (("动画与漫画", "tas", tas), ("游戏", "arkham", arkham)) if links)
         story = '<div class="xcredit-story">' + paragraphs(node['body']) + '</div>' if node.get('body') else ''

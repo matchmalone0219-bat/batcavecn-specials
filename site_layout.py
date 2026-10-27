@@ -1,5 +1,5 @@
 """Topic navigation, styles and shared page chrome."""
-from render_common import esc
+from render_common import esc, external_link_icon
 from tas_deco import expand as expand_deco, screen_head
 from arkham_icons import expand as expand_icons, definitions as arkham_icon_definitions
 
@@ -96,5 +96,5 @@ def shell(data, site, title, body, active=""):
         more_html += f'<div class="topic-menu-controls">{ARKHAM_CONTROLS}</div>'
     if more_html:
         nav_html += f'<details class="topic-more"><summary>更多导航</summary><div class="topic-menu">{more_html}</div></details>'
-    html = f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else ""}">{brand_mark}<span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN ↗</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
+    html = f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>{esc(title)} · {esc(info["name"])} | Batman小站</title>{stylesheets(site)}{scripts}</head><body class="{esc(site)}"><a class="skip" href="#main">跳到正文</a><header><a class="brand" href="/{site + "/" if site in data["sites"] else ""}">{brand_mark}<span>{esc(info["english"])}<small>{esc(brand_subtitle)}</small></span></a><nav aria-label="主导航">{nav_html}</nav><a class="back-site" href="https://www.batcavecn.com/">BATCAVECN{external_link_icon()}</a></header><main id="main">{body}</main>{effects}<footer><div><p class="label">BATCAVECN SPECIAL ARCHIVES</p><p>{esc(info["name"])} · 非商业影迷资料库</p><p class="fine">非商业影迷项目 · 与 DC / Warner Bros. 无官方合作关系。</p></div><div class="footer-links">{footer_links}</div></footer></body></html>'
     return expand_icons(html) if site == "arkham" else expand_deco(html) if site == "tas" else html

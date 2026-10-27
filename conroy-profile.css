@@ -275,7 +275,7 @@
 .profile-main-copy strong{display:block;font-size:21px;line-height:1.6;font-weight:400;margin-bottom:9px}
 .profile-main-copy>span:last-child{display:block;font-size:12px;line-height:1.9;color:var(--muted)}
 .profile-main-action{font-size:11px;white-space:nowrap;color:var(--accent);display:flex;align-items:center;justify-content:space-between;gap:12px}
-.profile-main-action>span{font-size:24px}
+.profile-main-action .external-link-icon{margin-inline-start:0}
 .profile-main-row:hover .profile-main-copy strong{text-decoration:underline;text-underline-offset:6px}
 .profile-main-row:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
 @media(max-width:700px){
@@ -286,7 +286,7 @@
  .profile-main-row{grid-template-columns:59px minmax(0,1fr);gap:12px 16px;padding:24px 0}
  .profile-main-date{font-size:27px}.profile-main-date small{font-size:8px;margin-top:6px}
  .profile-main-type{font-size:9px;margin-bottom:9px}.profile-main-copy strong{font-size:17px;line-height:1.7;margin-bottom:10px}
- .profile-main-copy>span:last-child{font-size:11px}.profile-main-action{grid-column:2;justify-content:start;gap:14px;font-size:10px}.profile-main-action>span{font-size:19px}
+ .profile-main-copy>span:last-child{font-size:11px}.profile-main-action{grid-column:2;justify-content:start;gap:14px;font-size:10px}
 }
 @media(prefers-reduced-motion:reduce){.profile-main-row{transition:none}}
 

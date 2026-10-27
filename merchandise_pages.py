@@ -2,6 +2,7 @@
 import html
 import json
 from pathlib import Path
+from render_common import external_link_icon
 
 ROOT = Path(__file__).resolve().parent
 CATEGORIES = [('figures', '可动人偶与套装'), ('statues', '雕像与设计藏品'), ('vehicles', '载具与道具'), ('games', '积木与桌游')]
@@ -101,6 +102,6 @@ def build_collectibles(data, shell):
         pages[f'{site}/collectibles/index.html'] = shell(data,site,'周边档案',body,'collectibles')
         records.append(dict(title='周边档案',original='Collectibles',summary=intro,tags=['周边','人偶','雕像','载具','积木','桌游'],site=site,status='专题档案',url=base))
         used = {id for i in items for id in i['sourceRefs']}
-        additions[site] = '<section class="section"><h2>周边资料来源</h2><p>查阅厂商产品页、历史公告与产品资料。</p><div class="source-list">' + ''.join(f'<article><p class="label">{esc(s["type"])}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3></article>' for s in packet['sources'] if s['id'] in used) + '</div></section>'
+        additions[site] = '<section class="section"><h2>周边资料来源</h2><p>查阅厂商产品页、历史公告与产品资料。</p><div class="source-list">' + ''.join(f'<article><p class="label">{esc(s["type"])}</p><h3><a href="{esc(s["url"])}">{esc(s["title"])}{external_link_icon()}</a></h3></article>' for s in packet['sources'] if s['id'] in used) + '</div></section>'
         galleries[site] = '<section class="section"><h2>周边产品图</h2><p>人偶、载具与雕像产品宣传图；点击图片查看本地原图。</p><div class="merch-gallery">' + ''.join(picture(i['id']) for i in photos) + '</div></section>'
     return pages, records, additions, galleries, packet['images']

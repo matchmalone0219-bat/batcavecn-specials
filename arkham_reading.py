@@ -4,6 +4,7 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
+from render_common import external_link_icon
 from arkham_easter_eggs import load_easter_eggs, video_credit, egg_detail
 
 ROOT = Path(__file__).resolve().parent
@@ -38,7 +39,7 @@ def source_links(ids, sources, esc):
     for source_id in dict.fromkeys(ids):
         source = sources[source_id]
         kind = source.get('level', source.get('evidence', '资料来源'))
-        links.append(f'<a href="{esc(source["url"])}">{esc(source["title"])} ↗</a><small>{esc(kind)}</small>')
+        links.append(f'<a href="{esc(source["url"])}">{esc(source["title"])}{external_link_icon()}</a><small>{esc(kind)}</small>')
     return '<div class="scene-sources"><p class="label">资料来源</p><ul>' + ''.join(f'<li>{link}</li>' for link in links) + '</ul></div>'
 
 
@@ -144,7 +145,7 @@ def story_page(archive, reading, entries, games, sources, record, esc):
         for source_id in story['sources']:
             source = sources[source_id]
             url = source['url'] + '#' + quote(story['title'].replace(' ', '_'))
-            content += f'<li><a href="{esc(url)}">阅读英文故事：{esc(story["title"])} ↗</a><small>Arkham Wiki · 社区转录</small></li>'
+            content += f'<li><a href="{esc(url)}">阅读英文故事：{esc(story["title"])}{external_link_icon()}</a><small>Arkham Wiki · 社区转录</small></li>'
         content += '</ul></div></article>'
         record(text['title'], text['intro'], '/arkham/archive/stories/', story['id'], ['哥谭故事', games[story['game']]], story['title'])
     return content + '</div>'

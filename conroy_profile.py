@@ -1,7 +1,7 @@
 """Conroy's illustrated biography, scoped reading aids and plain-text references."""
 import json
 
-from render_common import ROOT, esc, paragraphs, route
+from render_common import ROOT, esc, paragraphs, route, external_link_icon
 
 
 def media_assets():
@@ -25,7 +25,7 @@ def main_reading():
     rows = ''.join(
         f'<a class="profile-main-row" href="{esc(a["url"])}"><span class="profile-main-date"><time datetime="{a["date"]}">{a["date"][:4]}<small>{a["date"][5:].replace("-", " / ")}</small></time></span>'
         f'<span class="profile-main-copy"><span class="profile-main-type">{esc(a["type"])}</span><strong>{esc(a["title"])}</strong><span>{esc(a["summary"])}</span></span>'
-        '<span class="profile-main-action">前往主站 <span aria-hidden="true">↗</span></span></a>'
+        f'<span class="profile-main-action">前往主站{external_link_icon()}</span></a>'
         for a in packet['articles']
     )
     return (

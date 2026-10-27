@@ -12,7 +12,7 @@
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
     box.setAttribute('aria-label', '图片放映');
-    box.innerHTML = '<figure class="lb-frame"><img alt=""><figcaption><span class="lb-count"></span><a class="lb-original" target="_blank" rel="noopener">原图 ↗</a></figcaption></figure>'
+    box.innerHTML = '<figure class="lb-frame"><img alt=""><figcaption><span class="lb-count"></span><a class="lb-original" target="_blank" rel="noopener">原图</a></figcaption></figure>'
       + '<button type="button" class="lb-close">关闭</button><button type="button" class="lb-prev" aria-label="上一张">‹</button><button type="button" class="lb-next" aria-label="下一张">›</button>';
     image = box.querySelector('img');
     count = box.querySelector('.lb-count');

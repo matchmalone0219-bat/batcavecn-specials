@@ -2,7 +2,7 @@
 import html
 import json
 from pathlib import Path
-from render_common import paragraphs
+from render_common import paragraphs, external_link_icon
 from artbook_pages import chapters as artbook_chapters, navigation as artbook_navigation, role_visual, production_preview as artbook_preview
 from tas_opening import render as opening_table, search_record as opening_record
 
@@ -78,7 +78,7 @@ def build_archive(data, shell):
         base='/tas/archive/'+(slug+'/' if slug else '')
         nav='<nav class="archive-nav" aria-label="档案馆分类">'+''.join(f'<a href="/tas/archive/{s}/" {"aria-current=page" if s==slug else ""}>{t}</a>' for s,t,_ in SECTIONS)+'</nav>'
         heading=esc(title).replace('幕后光影：Dark Deco 动画档案', '幕后光影：<br class="archive-title-break">Dark Deco 动画档案')
-        breadcrumb = '<a class="breadcrumb" href="/tas/archive/">← TAS档案馆</a>' if slug else ''
+        breadcrumb = '<a class="breadcrumb" href="/tas/archive/">TAS档案馆</a>' if slug else ''
         artbook_toc = artbook_navigation(base)
         if slug == 'production':
             artbook_toc = '<a href="#opening-edit">片头剪辑台 · 分镜互动</a>' + artbook_toc
@@ -162,6 +162,6 @@ def build_archive(data, shell):
         if w['id'] in ('btas','tnba','caped-crusader'):content+=work(w,base)
     content+='<a class="route-card" href="/tas/series/caped-crusader/"><h2>蝙蝠侠：披风斗士</h2><p>布鲁斯·蒂姆重构黑色电影美学：两季二十集分集档案与演化对照。</p></a></div>'
     page('history','创作与延续','Dark Deco美学确立、经典角色起源革新与现代精神续作全景解析。',content)
-    source_html='<section><h2>档案馆资料来源</h2><div class="source-list">'+''.join(f'<article><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3><p>{esc(s.get("evidence",s.get("type","")))}</p></article>' for s in sources.values())+'</div></section>'
+    source_html='<section><h2>档案馆资料来源</h2><div class="source-list">'+''.join(f'<article><h3><a href="{esc(s["url"])}">{esc(s["title"])}{external_link_icon()}</a></h3><p>{esc(s.get("evidence",s.get("type","")))}</p></article>' for s in sources.values())+'</div></section>'
     gallery='<section><h2>制作与出版图片</h2><p>扫描节选、商业复制品、包装与封面分别说明；小封面保留原始尺寸。</p><div class="research-gallery">'+''.join(picture(i) for i in images)+'</div></section>'
     return pages,records,source_html,gallery,list(images.values())

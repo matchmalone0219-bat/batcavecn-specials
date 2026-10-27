@@ -21,7 +21,7 @@ TUNING_POSITIONS = {
 def terminal_bar(current):
     """Bottom bar shared by the two listening terminals: back, switch terminal, key hint."""
     links = ''.join(f'<a href="{href}"' + (' aria-current="page"' if href == current else '') + f'><i data-arkham-icon="{icon}"></i>{title}</a>' for href, icon, title in TERMINALS)
-    return f'<nav class="terminal-bar" aria-label="切换终端"><a class="terminal-back" href="/arkham/archive/">← 哥谭档案馆</a><span class="terminal-switch"><span class="terminal-switch-label">TERMINALS</span>{links}</span><a class="terminal-esc" href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a></nav>'
+    return f'<nav class="terminal-bar" aria-label="切换终端"><a class="terminal-back" href="/arkham/archive/">哥谭档案馆</a><span class="terminal-switch"><span class="terminal-switch-label">TERMINALS</span>{links}</span><a class="terminal-esc" href="/arkham/menu/"><kbd>Esc</kbd> 主菜单</a></nav>'
 
 
 def build_interactions(data, shell):

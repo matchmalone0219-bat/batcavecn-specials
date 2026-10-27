@@ -36,7 +36,7 @@ def home(data, site):
 def detail(data, item):
     site = item["site"]
     title_block = f'<div class="detail-title"><p class="label">{'<i data-arkham-icon="games"></i>GAME DOSSIER' if site == "arkham" else "EPISODE DOSSIER"} / {"作品档案" if site == "arkham" else "分集档案"}</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div>'
-    body = f'<div class="section{" episode-feature" if site == "tas" else ""}"><a class="breadcrumb" href="/{site}/catalog/">← {"作品档案" if site == "arkham" else "分集目录"}</a>'
+    body = f'<div class="section{" episode-feature" if site == "tas" else ""}"><a class="breadcrumb" href="/{site}/catalog/">{"作品档案" if site == "arkham" else "分集目录"}</a>'
     if site == "arkham":
         image = next(a for a in json.loads((ROOT / "media.json").read_text())["assets"] if a["file"] == f'{item["id"]}-01.jpg')
         body += f'<div class="detail-hero"><img src="/assets/media/{esc(image["file"])}" width="{image["width"]}" height="{image["height"]}" alt="{esc(image["alt"])}" fetchpriority="high"></div>' + title_block
@@ -121,7 +121,7 @@ def pager(data, item):
 
 def caped_series(data):
     item = data["capedCrusader"]
-    body = f'<section class="section"><a class="breadcrumb" href="/tas/">← 动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a></nav><div class="reading">'
+    body = f'<section class="section"><a class="breadcrumb" href="/tas/">动画放映室</a><div class="detail-title"><p class="label">MODERN GOTHAM / 延续与再诠释</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div><dl class="facts"><div><dt>英语版蝙蝠侠配音</dt><dd>{actor_markup(item)}</dd></div><div><dt>第一季</dt><dd>10集 · 独立节目单</dd></div></dl><nav class="chapter-nav" aria-label="系列章节">' + ''.join(f'<a href="#{esc(s["id"])}">{esc(s["title"])}</a>' for s in item["sections"]) + '<a href="#programme">第一季节目单</a><a href="#programme-season2">第二季节目单</a></nav><div class="reading">'
     body += ''.join(f'<section id="{esc(s["id"])}"><h2>{esc(s["title"])}</h2>{paragraphs(s["body"])}</section>' for s in item["sections"])
     body += '<section id="programme"><h2>第一季节目单</h2><p>按Prime Video节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第一季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["episodes"]) + '</ol></section>'
     body += '<section id="programme-season2"><h2>第二季节目单</h2><p>按Prime Video第二季节目单顺序排列英文原名。</p><ol class="episode-register" aria-label="披风斗士第二季">' + ''.join(f'<li><span class="label">{e["number"]:02d}</span><div><strong>{esc(e["original"])}</strong></div></li>' for e in item["season2Episodes"]) + '</ol></section>'

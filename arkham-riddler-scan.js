@@ -84,7 +84,7 @@
     tools.className = 'riddler-scan-tools';
     const originalLink = document.createElement('a');
     originalLink.href = original.href;
-    originalLink.textContent = '查看原图 ↗';
+    originalLink.textContent = '查看原图';
     const soundLabel = document.createElement('label');
     const soundChoice = document.createElement('input');
     soundChoice.type = 'checkbox';

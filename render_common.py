@@ -16,6 +16,10 @@ def esc(value):
     return html.escape(str(value), quote=True)
 
 
+def external_link_icon():
+    return '<svg class="external-link-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true" focusable="false"><path d="M3 9 9 3M3 3h6v6"/></svg>'
+
+
 def route(item):
     if item["id"] == "caped-crusader":
         return "/tas/series/caped-crusader/"
@@ -41,7 +45,7 @@ def cards(items, catalog=False):
 
 def sources(data, ids=None):
     rows = [s for s in data["sources"] if ids is None or s["id"] in ids]
-    return '<div class="source-list">' + "".join(f'<article><span class="label">{esc(s["type"])}</span><h3><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></h3><p>{esc(s["scope"])}</p></article>' for s in rows) + '</div>'
+    return '<div class="source-list">' + "".join(f'<article><span class="label">{esc(s["type"])}</span><h3><a href="{esc(s["url"])}">{esc(s["title"])}{external_link_icon()}</a></h3><p>{esc(s["scope"])}</p></article>' for s in rows) + '</div>'
 
 
 def section_header(number, english, title, text=""):
