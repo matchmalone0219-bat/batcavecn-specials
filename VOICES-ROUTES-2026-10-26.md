@@ -27,3 +27,11 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
 
 ## 发布注意
 日常目录里还有另一路未提交的谜语人扫描溯源等改动（见 PROJECT-HANDOFF-2026-10-25.md 第5节）。远程 main 已到 5f070cf。推送这批时只同步上面列出的文件，并先在发布仓库里核对这些文件是否也被那路改动修改过（app.js、archive.json、site_layout.py、arkham_ui.py、verify.py 等）。
+
+## 2026-10-27：共同页压缩（分支 voices-compact，基于 384e4ae）
+- 用户反馈首页过长（桌面约 48 屏、手机约 61 屏）。特稿正文不动，压缩后三块：桌面降到约 29 屏、手机约 36 屏。
+- 顶部（两站连续性说明之后）加三项本页目录：凯文·康罗伊 / 两座哥谭的角色（`#characters`）/ 演职员（`#credits`），整项可点。
+- 角色对照：每组一行，左侧名字与概要，右侧动画与游戏两张小图（4:3），图片署名保持可见；作品列表和资料收进“作品与资料”。
+- 演职员：片尾名单式（职务、姓名、外文名与年份、一句概要），小传、作品与资料收进“小传与作品”。
+- 资料来源与人物资料出处默认折叠（“展开全部 N 条资料”）；正文引用编号不变。
+- 改动：crossover_pages.py、conroy_profile.py（`profile_sources`）、conroy-profile.css（末尾 compact 样式）、verify-conroy.py（目录、折叠与署名检查）。

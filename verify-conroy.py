@@ -130,4 +130,24 @@ for record in chapter_records:
         assert url.path == '/' and url.fragment == fragment
         assert url.query == f'route={BRANCH.get(fragment, site)}', target
 
+# Compact Voices page: an index up top, one row per character with credited images, an end-credits list, folded references.
+import re as _re
+crossover_doc = json.loads((ROOT / 'crossover.json').read_text())
+characters = [n for n in crossover_doc['nodes'] if n['kind'] in ('character', 'place')]
+people = [n for n in crossover_doc['nodes'] if n['kind'] == 'person']
+index = html.split('<nav class="voices-index"', 1)[1].split('</nav>', 1)[0]
+assert _re.findall(r'href="#([^"]+)"', index) == ['kevin-conroy', 'characters', 'credits']
+assert all(f'id="{anchor}"' in html for anchor in ('kevin-conroy', 'characters', 'credits'))
+assert html.index('class="voices-index"') < html.index('id="kevin-conroy"')
+for node in characters:
+    row = html.split(f'id="{node["id"]}"', 1)[1].split('</section>', 1)[0]
+    assert 'class="xs-pair"' in row and '<details class="xs-more">' in row, node['id']
+    # Image credits stay visible beside the images, outside the fold.
+    assert row.index('<details') > row.rfind('<figcaption>') if '<figcaption>' in row else True, node['id']
+for node in people:
+    row = html.split(f'id="{node["id"]}"', 1)[1].split('</article>', 1)[0]
+    assert '<details class="xcredit-more-details">' in row and node['summary'] in html, node['id']
+assert html.count('<details class="xsources-fold">') == 1 and f'展开全部 {len(crossover_doc["sources"])} 条资料' in html
+assert html.count('<details class="profile-sources-fold">') == 1
+
 print(f'PASS: sourced biography, {len(photos)} licensed photos, seven-part Finding Batman feature, shared Conroy feature with animation/game lanes, old addresses and scoped search open the right route')

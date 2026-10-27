@@ -68,10 +68,15 @@ def build_crossover(data, shell, lead=""):
     for node in (n for n in doc["nodes"] if n["kind"] in ("character", "place")):
         tas, arkham = side_links(node, "tas"), side_links(node, "arkham")
         images = node.get("images", {})
-        tas_side = (figure(images["tas"]) if images.get("tas") else "") + f'<p class="xs-medium">动画 · {years(tas)}<span>{SITE_NAMES["tas"]}</span></p><ol class="xs-works">{work_rows(tas)}</ol>'
-        ark_side = (figure(images["arkham"], images.get("arkhamPosition", "")) if images.get("arkham") else "") + f'<p class="xs-medium">游戏 · {years(arkham)}<span>{SITE_NAMES["arkham"]}</span></p><ol class="xs-works">{work_rows(arkham)}</ol>'
+        tas_side = (figure(images["tas"]) if images.get("tas") else "") + f'<p class="xs-medium">动画 · {years(tas)}<span>{SITE_NAMES["tas"]}</span></p>'
+        ark_side = (figure(images["arkham"], images.get("arkhamPosition", "")) if images.get("arkham") else "") + f'<p class="xs-medium">游戏 · {years(arkham)}<span>{SITE_NAMES["arkham"]}</span></p>'
         refs = source_links([s for link in node["links"] for s in link["sources"]] + node.get('sourceRefs', []), sources)
-        spreads += f'<section class="xspread{" has-images" if images else ""}" id="{esc(node["id"])}"><div class="xs-head"><h2>{esc(node["name"])}<span>{esc(node["original"])}</span></h2><p>{esc(node["summary"])}</p></div><div class="xs-split"><div class="xs-side xs-tas">{tas_side}</div><div class="xs-side xs-arkham">{ark_side}</div></div><p class="xs-refs">资料：{refs}</p></section>'
+        works_fold = (f'<details class="xs-more"><summary>作品与资料 · 动画{len(tas)} · 游戏{len(arkham)}</summary><div class="xs-split">'
+                      f'<div class="xs-side xs-tas"><p class="xs-medium">动画<span>{SITE_NAMES["tas"]}</span></p><ol class="xs-works">{work_rows(tas)}</ol></div>'
+                      f'<div class="xs-side xs-arkham"><p class="xs-medium">游戏<span>{SITE_NAMES["arkham"]}</span></p><ol class="xs-works">{work_rows(arkham)}</ol></div></div>'
+                      f'<p class="xs-refs">资料：{refs}</p></details>')
+        spreads += (f'<section class="xspread is-compact{" has-images" if images else ""}" id="{esc(node["id"])}"><div class="xs-head"><h2>{esc(node["name"])}<span>{esc(node["original"])}</span></h2><p>{esc(node["summary"])}</p></div>'
+                    f'<div class="xs-pair"><div class="xs-side xs-tas">{tas_side}</div><div class="xs-side xs-arkham">{ark_side}</div></div>{works_fold}</section>')
 
     cast = ""
     for node in (n for n in doc["nodes"] if n["kind"] == "person"):
@@ -81,18 +86,30 @@ def build_crossover(data, shell, lead=""):
         refs = source_links([s for link in node["links"] for s in link["sources"]] + node.get('sourceRefs', []), sources)
         columns = "".join(f'<div><p class="xcredit-medium">{label}<span>{SITE_NAMES[side]}</span></p><ol>{work_rows(links)}</ol></div>' for label, side, links in (("动画与漫画", "tas", tas), ("游戏", "arkham", arkham)) if links)
         story = '<div class="xcredit-story">' + paragraphs(node['body']) + '</div>' if node.get('body') else ''
-        cast += f'<article class="xcredit" id="{esc(node["id"])}"><p class="xcredit-role">{esc(node["role"])}</p><h3>{esc(node["name"])}</h3><p class="xcredit-meta">{esc(meta)}</p><p class="xcredit-summary">{esc(node["summary"])}</p>{story}<div class="xcredit-works">{columns}</div><p class="xcredit-refs">资料：{refs}</p>{more}</article>'
+        cast += (f'<article class="xcredit is-compact" id="{esc(node["id"])}"><div class="xcredit-line"><p class="xcredit-role">{esc(node["role"])}</p>'
+                 f'<div class="xcredit-name"><h3>{esc(node["name"])}</h3><p class="xcredit-meta">{esc(meta)}</p></div></div>'
+                 f'<p class="xcredit-summary">{esc(node["summary"])}</p>'
+                 f'<details class="xcredit-more-details"><summary>小传与作品</summary>{story}<div class="xcredit-works">{columns}</div><p class="xcredit-refs">资料：{refs}</p>{more}</details></article>')
 
     person = data["person"]
     conroy = (
         f'<section class="xconroy" id="kevin-conroy"><div class="xconroy-head"><div><p class="profile-eyebrow">01 / THE VOICE BEHIND THE MASK</p><h2>{esc(person["title"])}</h2><p class="xcredit-meta">{esc(person["original"])} · {esc(person["years"])}</p></div><p class="xconroy-intro">{esc(person["intro"])}</p></div>'
         f'<div class="xconroy-body">{voices_chapters(data)}{profile_sources(data)}</div></section>'
     )
-    source_list = '<div class="source-list profile-plain-sources">' + "".join(f'<article id="source-{esc(s["id"])}"><span class="label">{esc(s["type"])}</span><h3>{esc(s["title"])}</h3></article>' for s in doc["sources"]) + "</div>"
+    source_list = (f'<details class="xsources-fold"><summary>展开全部 {len(doc["sources"])} 条资料</summary><div class="source-list profile-plain-sources">'
+                   + "".join(f'<article id="source-{esc(s["id"])}"><span class="label">{esc(s["type"])}</span><h3>{esc(s["title"])}</h3></article>' for s in doc["sources"]) + "</div></details>")
+    characters = [n for n in doc["nodes"] if n["kind"] in ("character", "place")]
+    people = [n for n in doc["nodes"] if n["kind"] == "person"]
+    index_items = (("kevin-conroy", "01", person["title"], f"人物特稿 · {len([s for s in person['sections'] if s['id'] not in BRANCH]) + 1}章"),
+                   ("characters", "02", "两座哥谭的角色", f"动画与游戏对照 · {len(characters)}组"),
+                   ("credits", "03", "演职员", f"配音与主创 · {len(people)}位"))
+    page_index = ('<nav class="voices-index" aria-label="本页内容">' + "".join(
+        f'<a href="#{anchor}"><span class="voices-index-number">{number}</span><strong>{esc(title)}</strong><span>{esc(note)}</span></a>'
+        for anchor, number, title, note in index_items) + '</nav>')
     body = (
-        f'<div class="crossover voices-feature" id="voices">{cover(doc["title"], doc["intro"], shared=True)}<p class="profile-continuity">{esc(doc["continuity"])}</p>'
-        f'{conroy}{main_reading()}<div class="xspreads"><div class="profile-interlude"><p class="profile-eyebrow">02 / CHARACTERS IN TWO WORLDS</p><h2>动画与游戏之间</h2><p>人物的形象、声音与创作，在两座哥谭中相遇。</p></div>{spreads}</div>'
-        f'<section class="xcredits" aria-labelledby="xcredits-title"><h2 id="xcredits-title">演职员</h2>{cast}</section>'
+        f'<div class="crossover voices-feature" id="voices">{cover(doc["title"], doc["intro"], shared=True)}<p class="profile-continuity">{esc(doc["continuity"])}</p>{page_index}'
+        f'{conroy}{main_reading()}<div class="xspreads" id="characters"><div class="profile-interlude"><p class="profile-eyebrow">02 / CHARACTERS IN TWO WORLDS</p><h2>动画与游戏之间</h2><p>人物的形象、声音与创作，在两座哥谭中相遇。</p></div>{spreads}</div>'
+        f'<section class="xcredits" id="credits" aria-labelledby="xcredits-title"><p class="profile-eyebrow">03 / END CREDITS</p><h2 id="xcredits-title">演职员</h2>{cast}</section>'
         f'<section class="xsources" id="sources"><h2>资料来源</h2>{source_list}</section></div>'
     )
     page = with_profile_styles(shell(data, "shared", "两座哥谭", lead + body, "voices"))

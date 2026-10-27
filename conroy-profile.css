@@ -482,3 +482,68 @@
 .profile-chapter-quote cite{font-size:10px}
 }
 @media(prefers-reduced-motion:reduce){.xroute-tab,.xroute-door-image,.xroute-door-image img,.xroute-switch>span:last-child{transition:none}.xroute-skin-arkham.is-scanning::after{display:none}}
+
+/* Voices page, compact layout: an index up top, one row per character, an end-credits list,
+   and reference lists that open on request. */
+.voices-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;margin:-40px 0 84px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.voices-index a{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 16px;align-items:baseline;padding:22px 0 24px;color:var(--text)}
+.voices-index-number{grid-row:span 2;font:400 34px/1 Georgia,serif;letter-spacing:-.04em;color:var(--accent)}
+.voices-index strong{font-weight:400;font-size:18px}
+.voices-index a>span:last-child{font-size:12px;letter-spacing:.06em;color:var(--muted)}
+.voices-index a:hover strong{color:var(--accent)}
+.voices-index a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+#characters,#credits{scroll-margin-top:24px}
+
+.voices-feature .xspread.is-compact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:20px 48px;align-items:start;margin:0;padding:36px 0;border-top:1px solid var(--line)}
+.voices-feature .xspread.is-compact:first-of-type{border-top:0}
+.xspread.is-compact .xs-head{display:block;margin:0}
+.voices-feature .xspread.is-compact .xs-head h2{font-size:32px;line-height:1.25}
+.xspread.is-compact .xs-head h2 span{margin-top:6px;font-size:12px}
+.xspread.is-compact .xs-head p{margin-top:16px;font-size:15px;line-height:1.9}
+.xs-pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.xspread.is-compact .xs-pair .xs-side{padding:12px 12px 14px}
+.xspread.is-compact .xs-pair figure{margin:0 0 10px}
+.xspread.is-compact .xs-pair img{aspect-ratio:4/3}
+.xspread.is-compact .xs-pair figcaption{font-size:11px;line-height:1.55}
+.xspread.is-compact .xs-pair .xs-medium{margin:0;font-size:11px;letter-spacing:.14em}
+.xspread.is-compact:not(.has-images) .xs-pair .xs-side{padding:22px 16px}
+.xspread.is-compact:not(.has-images) .xs-pair .xs-medium{font-size:20px;letter-spacing:.06em}
+.xs-more{grid-column:1/-1}
+.xs-more>summary,.xcredit-more-details>summary,.xsources-fold>summary,.profile-sources-fold>summary{cursor:pointer;width:max-content;max-width:100%;font-size:13px;letter-spacing:.08em;color:var(--accent);padding:6px 0}
+.xs-more>summary:hover,.xcredit-more-details>summary:hover,.xsources-fold>summary:hover,.profile-sources-fold>summary:hover{text-decoration:underline;text-underline-offset:4px}
+.xs-more[open]>summary{margin-bottom:14px}
+.xs-more .xs-side{padding:20px 22px 22px}
+.xs-more .xs-works a{font-size:15px}
+
+.voices-feature .xcredits{text-align:left;padding-top:56px}
+.voices-feature .xcredits>.profile-eyebrow{text-align:center;margin-bottom:10px}
+.voices-feature .xcredits>h2{text-align:center;margin-bottom:28px}
+.voices-feature .xcredit.is-compact{max-width:880px;padding:26px 0;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:6px 40px}
+.xcredit-line{display:contents}
+.voices-feature .xcredit.is-compact .xcredit-role{text-align:right;padding-top:12px;font-size:11px;letter-spacing:.26em}
+.voices-feature .xcredit.is-compact h3{font-size:clamp(24px,2.6vw,30px);margin:0}
+.voices-feature .xcredit.is-compact .xcredit-meta{margin:4px 0 0;font-size:13px}
+.voices-feature .xcredit.is-compact .xcredit-summary{grid-column:2;max-width:none;margin:8px 0 0;font-size:14px;line-height:1.9;color:var(--muted)}
+.xcredit-more-details{grid-column:2}
+.xcredit-more-details[open]{padding-bottom:6px}
+.xcredit-more-details .xcredit-story{margin:12px 0 22px}
+.xcredit-more-details .xcredit-works{grid-template-columns:1fr 1fr}
+
+.profile-sources-fold[open]>summary,.xsources-fold[open]>summary{margin-bottom:6px}
+.voices-feature .xsources>h2{margin-bottom:6px}
+
+@media(max-width:760px){
+.voices-index{grid-template-columns:1fr;margin:-16px 0 56px}
+.voices-index a{padding:16px 0;border-top:1px solid var(--line)}
+.voices-index a:first-child{border-top:0}
+.voices-index-number{font-size:28px}
+.voices-feature .xspread.is-compact{grid-template-columns:1fr;gap:16px;padding:28px 0}
+.voices-feature .xspread.is-compact .xs-head h2{font-size:28px}
+.xspread.is-compact .xs-pair .xs-side{padding:8px 8px 10px}
+.xs-pair{gap:8px}
+.xs-more .xs-split{grid-template-columns:1fr}
+.voices-feature .xcredit.is-compact{grid-template-columns:1fr;gap:4px}
+.voices-feature .xcredit.is-compact .xcredit-role{text-align:left;padding-top:0}
+.voices-feature .xcredit.is-compact .xcredit-summary,.xcredit-more-details{grid-column:1}
+.xcredit-more-details .xcredit-works{grid-template-columns:1fr}
+}

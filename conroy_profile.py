@@ -124,7 +124,10 @@ def profile_sources(data, site='shared'):
         f'<small>{esc(s["type"])}' + (f' · {esc(s["published"])}' if s.get('published') else '') + '</small></div></li>'
         for n, s in enumerate(reference_rows(data, site), 1)
     )
-    return '<section class="profile-sources"><h2>人物资料出处</h2><ol class="profile-reference-list">' + rows + '</ol></section>'
+    count = len(reference_rows(data, site))
+    # Chapters cite these by number; the full list opens on request so the page does not end in a long list.
+    return (f'<section class="profile-sources"><h2>人物资料出处</h2><details class="profile-sources-fold"><summary>展开全部 {count} 条资料</summary>'
+            f'<ol class="profile-reference-list">{rows}</ol></details></section>')
 
 
 def with_profile_styles(html):
