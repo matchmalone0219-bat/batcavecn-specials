@@ -5,6 +5,142 @@ const make = (tag, text, className) => {
   return node;
 };
 
+function refreshArchiveSelects(root) {
+  root.querySelectorAll('select').forEach(select => select.dispatchEvent(new Event('archive:select-sync')));
+}
+
+function archiveSelects() {
+  if (!document.body.matches('.arkham,.tas')) return;
+  const selects = [...document.querySelectorAll('main select:not([data-archive-select])')];
+  if (!selects.length) return;
+  const lifecycle = new AbortController();
+  const events = {signal: lifecycle.signal};
+  selects.forEach((select, index) => {
+    select.dataset.archiveSelect = 'true';
+    const label = select.labels?.[0];
+    const labelCopy = label?.cloneNode(true);
+    labelCopy?.querySelectorAll('select,svg').forEach(node => node.remove());
+    const name = select.getAttribute('aria-label') || labelCopy?.textContent.trim() || '筛选';
+    const field = make('div', undefined, 'archive-select');
+    const trigger = make('button', undefined, 'archive-select-trigger');
+    const menu = make('div', undefined, 'archive-select-menu');
+    const id = 'archive-select-' + (select.id || index);
+    trigger.type = 'button'; trigger.id = id;
+    trigger.setAttribute('role', 'combobox');
+    trigger.setAttribute('aria-haspopup', 'listbox');
+    trigger.setAttribute('aria-controls', id + '-options');
+    trigger.setAttribute('aria-expanded', 'false');
+    menu.id = id + '-options'; menu.hidden = true;
+    menu.setAttribute('role', 'listbox'); menu.setAttribute('aria-label', name);
+    select.before(field); field.append(trigger, menu);
+    if (label) {
+      label.htmlFor = id;
+      if (label.contains(select)) label.after(select);
+    }
+    select.hidden = true;
+    let choices = [], active = 0, typed = '', typedAt = 0;
+    const opened = () => !menu.hidden;
+    function close() {
+      menu.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.removeAttribute('aria-activedescendant');
+    }
+    function highlight(at) {
+      active = at;
+      [...menu.children].forEach((node, i) => node.classList.toggle('is-active', i === active));
+      if (opened() && menu.children[active]) {
+        trigger.setAttribute('aria-activedescendant', menu.children[active].id);
+        menu.children[active].scrollIntoView({block: 'nearest'});
+      }
+    }
+    function sync() {
+      choices = [...select.options].filter(option => !option.hidden && !option.disabled && !option.parentElement.disabled);
+      trigger.textContent = select.selectedOptions[0]?.textContent || '';
+      trigger.setAttribute('aria-label', name + '：' + trigger.textContent);
+      trigger.disabled = select.disabled || choices.length < 2;
+      menu.replaceChildren(...choices.map((option, i) => {
+        const node = make('div', option.textContent, 'archive-select-option');
+        node.id = id + '-option-' + i;
+        node.setAttribute('role', 'option');
+        node.setAttribute('aria-selected', String(option.selected));
+        node.dataset.option = String(i);
+        return node;
+      }));
+      if (trigger.disabled) close();
+      highlight(Math.max(0, choices.findIndex(option => option.selected)));
+    }
+    function open() {
+      sync();
+      if (trigger.disabled) return;
+      const rect = trigger.getBoundingClientRect();
+      const width = Math.min(Math.max(rect.width, 240), innerWidth - 24);
+      menu.style.width = width + 'px';
+      menu.style.left = Math.max(12, Math.min(rect.left, innerWidth - width - 12)) - rect.left + 'px';
+      const below = innerHeight - rect.bottom - 12;
+      const above = rect.top - 12;
+      const up = below < 220 && above > below;
+      field.classList.toggle('opens-up', up);
+      menu.style.maxHeight = Math.max(44, Math.min(320, up ? above : below)) + 'px';
+      menu.hidden = false; trigger.setAttribute('aria-expanded', 'true');
+      highlight(active);
+    }
+    function choose(at) {
+      const option = choices[at];
+      if (!option) return;
+      const changed = select.value !== option.value;
+      select.value = option.value; close(); sync();
+      if (changed) {
+        select.dispatchEvent(new Event('input', {bubbles: true}));
+        select.dispatchEvent(new Event('change', {bubbles: true}));
+      }
+    }
+    trigger.addEventListener('click', () => opened() ? close() : open());
+    trigger.addEventListener('keydown', event => {
+      if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing) return;
+      if (event.key === 'Tab') { close(); return; }
+      if (event.key === 'Escape' && opened()) {
+        event.preventDefault(); event.stopPropagation(); close(); return;
+      }
+      if (['ArrowDown', 'ArrowUp', 'Home', 'End'].includes(event.key)) {
+        event.preventDefault(); event.stopPropagation();
+        const wasOpen = opened(); if (!wasOpen) open();
+        if (event.key === 'Home') highlight(0);
+        else if (event.key === 'End') highlight(choices.length - 1);
+        else if (wasOpen) highlight(Math.max(0, Math.min(choices.length - 1, active + (event.key === 'ArrowDown' ? 1 : -1))));
+      } else if ((event.key === 'Enter' || event.key === ' ') && opened()) {
+        event.preventDefault(); event.stopPropagation(); choose(active);
+      } else if (event.key.length === 1 && event.key !== ' ') {
+        event.preventDefault();
+        typed = Date.now() - typedAt > 700 ? event.key : typed + event.key; typedAt = Date.now();
+        if (!opened()) open();
+        const at = choices.findIndex(option => option.textContent.toLocaleLowerCase().startsWith(typed.toLocaleLowerCase()));
+        if (at >= 0) highlight(at);
+      }
+    });
+    menu.addEventListener('pointerdown', event => event.preventDefault());
+    menu.addEventListener('click', event => {
+      const option = event.target.closest('[data-option]');
+      if (option) { event.preventDefault(); choose(Number(option.dataset.option)); }
+    });
+    menu.addEventListener('pointermove', event => {
+      const option = event.target.closest('[data-option]');
+      if (option) highlight(Number(option.dataset.option));
+    });
+    select.addEventListener('change', sync);
+    select.addEventListener('archive:select-sync', sync);
+    select.form?.addEventListener('reset', () => setTimeout(() => { close(); sync(); }, 0), events);
+    document.addEventListener('pointerdown', event => { if (!field.contains(event.target)) close(); }, events);
+    document.addEventListener('focusin', event => { if (!field.contains(event.target)) close(); }, events);
+    window.addEventListener('resize', close, events);
+    window.addEventListener('pagehide', close, events);
+    const observer = new MutationObserver(sync);
+    observer.observe(select, {subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: ['hidden', 'disabled', 'selected']});
+    lifecycle.signal.addEventListener('abort', () => observer.disconnect(), {once: true});
+    sync();
+  });
+  document.addEventListener('arkham:page', () => { if (!selects.some(select => select.isConnected)) lifecycle.abort(); }, events);
+}
+
 async function searchPage() {
   const form = document.querySelector("#search-form");
   if (!form) return;
@@ -236,6 +372,7 @@ function episodeCatalogPage() {
     form.dispatchEvent(new CustomEvent('episodes:filtered', {bubbles: true}));
     document.querySelector('#episode-count').textContent = `显示 ${count} / ${rows.length} 集`;
     document.querySelector('#episode-empty').hidden = count > 0;
+    refreshArchiveSelects(form);
   }
   form.hidden = false;
   form.addEventListener('submit', event => event.preventDefault());
@@ -405,6 +542,7 @@ function riddlerArchive() {
     buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.riddlerGame === game)));
     [...regionSelect.options].forEach(option => { option.hidden = option.value !== 'all' && !items.some(item => inGame(item) && item.dataset.region === option.value); });
     regionSelect.value = region;
+    refreshArchiveSelects(root);
     status.textContent = `显示 ${items.filter(item => !item.hidden).length} 道原版扫描谜题`;
     references.forEach(item => { item.hidden = true; });
     select(preferred && !preferred.hidden ? preferred : current && !current.hidden ? current : items.find(item => !item.hidden), false, remember);
@@ -495,6 +633,7 @@ function collectiblesPage() {
     empty.hidden = shown > 0;
     document.querySelectorAll('[data-row-for]').forEach(row => { row.hidden = document.getElementById(row.dataset.rowFor).hidden; });
     document.querySelector('.merch-browser')?.dispatchEvent(new Event('browse:refresh'));
+    refreshArchiveSelects(form);
   }
   chips.forEach(chip => chip.addEventListener('click', () => { category = chip.dataset.merchCategory; render(); }));
   selects.forEach(select => select.addEventListener('change', render));
@@ -769,6 +908,7 @@ function initialiseReadingPage() {
   protocolRecordPanel();
   riddlerArchive();
   editorPage();
+  archiveSelects();
 }
 initialiseReadingPage();
 document.addEventListener('click', event => {

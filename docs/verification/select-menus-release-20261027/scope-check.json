@@ -1,0 +1,19 @@
+{
+  "base": "89ca8c0f550716122d1762fa55d292cd3a3ae1c5",
+  "modifiedSources": [
+    "app.js",
+    "arkham-clues.js",
+    "style.css",
+    "verify-clues.js"
+  ],
+  "sourceHashes": {
+    "app.js": "2358067f967b3e12a474b41c7979e59694b1108abc3c66552ef7910d4a97ec0b",
+    "arkham-clues.js": "8c89e0f324ed40da2d6dc42af44ecc9378ad72f92395381188c9c816979cd262",
+    "style.css": "2e0801c51d0ecc0e1e29ac2f4d04400131ecfd9bcda3b4afa8a4bb52cd1d46fb",
+    "verify-clues.js": "b8c15237ab1498871cacf8c8bdaa48a7728bfb6450a1184065b5d53f0d20c5f6"
+  },
+  "searchRecords": 806,
+  "searchUnchanged": true,
+  "pages": 159,
+  "unpublishedContentExcluded": true
+}

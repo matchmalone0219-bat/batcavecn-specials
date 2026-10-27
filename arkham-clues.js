@@ -71,6 +71,7 @@
     const tile = tiles.find(tile => tile.dataset.zone === zone);
     status.textContent = `${buttons.find(button => button.dataset.zoneGame === game).textContent.split(' · ')[0]} / ${tile ? tile.querySelector('strong').textContent : '全部地点'} · ${shown.length} 项场景与彩蛋`;
     reset.hidden = !zone;
+    window.refreshArchiveSelects?.(root);
     select(preferred && allowed(preferred) ? preferred : current && allowed(current) ? current : shown[0], false, remember);
   }
   function revealHash(remember = false) {
@@ -112,7 +113,7 @@
   });
   root.querySelectorAll('[data-zone-board]').forEach(board => { board.hidden = true; });
   root.querySelector('.clue-zone-games').hidden = false;
-  zoneSelect.parentElement.hidden = false; status.hidden = false; back.hidden = false;
+  root.querySelector('.clue-zone-control').hidden = false; status.hidden = false; back.hidden = false;
   root.classList.add('clue-workspace-ready'); browser.classList.add('is-browsing');
   districts();
   const restored = saved.hash === location.hash && items.find(item => item.id === saved.selected);

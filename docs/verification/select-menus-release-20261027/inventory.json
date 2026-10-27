@@ -1,0 +1,60 @@
+{
+  "arkham/collectibles/index.html": [
+    {
+      "data-merch-select": "maker"
+    },
+    {
+      "data-merch-select": "work"
+    }
+  ],
+  "arkham/search/index.html": [
+    {
+      "id": "scope"
+    }
+  ],
+  "arkham/archive/riddler/index.html": [
+    {
+      "data-riddler-region": null
+    }
+  ],
+  "arkham/archive/clues/index.html": [
+    {
+      "data-zone-select": null,
+      "aria-label": "选择地点"
+    }
+  ],
+  "tas/collectibles/index.html": [
+    {
+      "data-merch-select": "maker"
+    },
+    {
+      "data-merch-select": "work"
+    }
+  ],
+  "tas/catalog/index.html": [
+    {
+      "id": "episode-series"
+    },
+    {
+      "id": "episode-villain",
+      "data-credit": "villains"
+    },
+    {
+      "id": "episode-writer",
+      "data-credit": "writers"
+    },
+    {
+      "id": "episode-director",
+      "data-credit": "directors"
+    },
+    {
+      "id": "episode-studio",
+      "data-credit": "studio"
+    }
+  ],
+  "tas/search/index.html": [
+    {
+      "id": "scope"
+    }
+  ]
+}

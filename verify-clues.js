@@ -14,7 +14,7 @@ function fixture({hash = '', saved = {}, blocked = false, wide = true} = {}) {
       closest(){return null;},querySelector(selector){return selector==='h3'?this.children[0]?.children[1]:null;}};
   }
   const browser=node(), list=node(), detail=node(), back=node(), status=node(), reset=node(), control=node(), select=node(), games=node();
-  select.parentElement=control; Object.defineProperty(select,'options',{get(){return this.children;}});
+  select.parentElement=node(); control.hidden=true; select.hidden=true; Object.defineProperty(select,'options',{get(){return this.children;}});
   const maps=['asylum','city','knight'].map(game=>{const map=node();map.dataset.arkhamMap=game;map.context=node();map.querySelector=()=>map.context;return map;});
   const buttons=['all','city','knight','asylum','origins'].map(game=>Object.assign(node(game+' · 2'),{dataset:{zoneGame:game}}));
   const groups=['city-a','city-b','knight-a','asylum-a','origins-a'].map(id=>Object.assign(node(),{id:'zone-'+id,dataset:{zoneGroup:id.split('-')[0]}}));
@@ -29,7 +29,7 @@ function fixture({hash = '', saved = {}, blocked = false, wide = true} = {}) {
   }));
   list.querySelectorAll=()=>items;
   const root=node();
-  root.querySelector=selector=>({'.clue-browser':browser,'.clue-list':list,'[data-zone-select]':select,'.clue-zone-status':status,'.clue-zone-reset':reset,'[data-clue-detail]':detail,'[data-clue-back]':back,'.clue-zone-games':games}[selector]);
+  root.querySelector=selector=>({'.clue-browser':browser,'.clue-list':list,'[data-zone-select]':select,'.clue-zone-control':control,'.clue-zone-status':status,'.clue-zone-reset':reset,'[data-clue-detail]':detail,'[data-clue-back]':back,'.clue-zone-games':games}[selector]);
   root.querySelectorAll=selector=>({'[data-arkham-map]':maps,'[data-zone-group]':groups,'[data-zone-game]':buttons,'[data-zone]':tiles,'[data-zone-board]':groups}[selector]);
   const storage=new Map([['protocol-arkham:clue-browser:v1',JSON.stringify(saved)]]), events={};
   const location={hash};
@@ -37,13 +37,15 @@ function fixture({hash = '', saved = {}, blocked = false, wide = true} = {}) {
     sessionStorage:{getItem(key){if(blocked)throw Error();return storage.get(key);},setItem(key,value){if(blocked)throw Error();storage.set(key,value);}},
     matchMedia:()=>({matches:wide,addEventListener(){}}),scrollY:120,requestAnimationFrame:fn=>fn(),scrollTo(){},window:{addEventListener(name,fn){events[name]=fn;}}};
   vm.runInNewContext(source,context);
-  return {root,browser,list,detail,back,status,reset,select,buttons,groups,items,storage,events,location,maps,
+  return {root,browser,list,detail,back,status,reset,select,control,buttons,groups,items,storage,events,location,maps,
     selected(){return items.find(item=>item.attrs['aria-current']==='true');},
     game(id){buttons.find(button=>button.dataset.zoneGame===id).handlers.click();},
     zone(id){select.value=id;select.handlers.change();},
     click(id){items.find(item=>item.id===id).handlers.click({target:{closest:()=>null}});}};
 }
 const initial=fixture();
+assert.equal(initial.control.hidden,false,'Location control opens after the native select moves during enhancement');
+assert.equal(initial.select.hidden,true,'Enhanced native select stays hidden');
 assert.equal(initial.selected().id,'zone-city-a-1');
 assert.equal(initial.groups.filter(group=>!group.hidden).length,2,'Default opens City only');
 assert.equal(initial.maps[1].hidden,false);
