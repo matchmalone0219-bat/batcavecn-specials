@@ -107,7 +107,9 @@ def build_arkham_archive(data,shell):
         i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ' is-contain' if i['height']>i['width'] else ''
         if i['id']=='a05-diploma': fit=' is-document'  # show the whole certificate; the scan's paper margins sit outside the frame
         assert not i.get('spoiler'),i['id']
-        return f'<figure class="pause-art{fit}"><img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(i["alt"])}" loading="lazy"></figure>'
+        # A document keeps its whole sheet in view; a blurred copy of it fills the frame around the sheet.
+        backdrop = f'<img class="pause-art-backdrop" src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="" aria-hidden="true" loading="lazy">' if fit == ' is-document' else ''
+        return f'<figure class="pause-art{fit}">{backdrop}<img src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="{esc(i["alt"])}" loading="lazy"></figure>'
     groups=[('TERMINALS · 互动终端',terminals),('DOSSIERS · 档案室',rooms)]
     hub_entries=[e for _,g in groups for e in g]
     target={e[0]:f'hub-{n}' for n,e in enumerate(hub_entries)}
