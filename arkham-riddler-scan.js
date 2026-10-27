@@ -52,7 +52,7 @@
     target.classList.add('riddler-scan-target');
     target.setAttribute('aria-hidden', 'true');
     targetFigure.remove();
-    solution.querySelector('h4').textContent = '解法与双关';
+    solution.querySelector('h4').textContent = '扫描目标与双关考据';
     trigger.append(picture);
     const effects = document.createElement('span');
     effects.className = 'riddler-scan-effects';

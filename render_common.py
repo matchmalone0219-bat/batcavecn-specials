@@ -97,7 +97,7 @@ def episode_catalog(items, credits=None):
             query += " " + " ".join(record["writers"] + record["directors"] + record["villains"] + [record["studio"]])
         card = cards.get(item["id"]) if guided else None
         thumb = f'<img class="episode-thumb" src="/assets/media/{esc(card["file"])}" width="{card["width"]}" height="{card["height"]}" alt="" loading="lazy">' if card else ""
-        contents = f'<span class="label">{esc(item["guideNumber"])}</span>{thumb}<div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if guided else "分集条目"} · {esc(item["nameNote"])}</p>{credit_line}</div>'
+        contents = f'<span class="label">{esc(item["guideNumber"])}</span>{thumb}<div>{title}<p class="fine">{esc(item["airDate"])} · {"分集导读" if guided else "分集条目"}</p>{credit_line}</div>'
         if guided:
             contents = f'<a class="episode-row-link" href="{route(item)}">{contents}</a>'
         card_attribute = f' data-card="/assets/media/{esc(card["file"])}"' if card else ""

@@ -42,12 +42,7 @@ def riddler_page(riddler, packet, games, sources, picture, record, esc):
     feedback = json.loads((ROOT / 'riddler-scan-feedback.json').read_text())
     sounds = {asset['game']: '/assets/media/' + asset['file'] for asset in feedback['sources']}
     content = '<div class="dossier-reading riddler-reading" data-riddler-workspace' + ''.join(f' data-scan-{game}="{esc(src)}"' for game, src in sounds.items()) + '>'
-    content += f'<p class="scene-credit">{esc(packet["credit"])}</p><details class="riddler-video-sources"><summary>原视频 · {len(packet["videos"])}段</summary>'
-    for game in ('asylum', 'city', 'knight'):
-        video_sources = [source for source in packet['sources'] if source['id'].startswith(f'bav-{game}-riddles-')]
-        links = ' · '.join(f'<a href="{esc(source["url"])}">{esc(source["title"].split("：", 1)[1].removeprefix("《之城》").removesuffix("全收集").removesuffix("扫描谜题"))}</a>' for source in video_sources)
-        content += f'<p>{esc(games[game])}：{links}</p>'
-    content += f'</details><p class="fine">{esc(packet["versionNote"])}</p>'
+    content += f'<p class="scene-credit">{esc(packet["credit"])}</p>'
     content += '<section class="clue-zones"><h2>原版扫描谜题</h2><div class="clue-zone-games" role="group" aria-label="选择游戏" hidden>'
     for game, name in [('all', '全部作品'), *games.items()]:
         total = sum(game == 'all' or row['game'] == game for row in questions)
@@ -63,8 +58,8 @@ def riddler_page(riddler, packet, games, sources, picture, record, esc):
         label = games[row['game']] + ' / ' + row['region']
         detail = quote(row)
         detail += photo(row['scene'], scan_game=row['game'])
-        detail += '<details class="riddler-solution" data-riddler-solution><summary>查看扫描目标与解法</summary><div class="riddler-answer">'
-        detail += '<h4>扫描目标与双关</h4>'
+        detail += '<details class="riddler-solution" data-riddler-solution><summary>查看扫描目标与双关考据</summary><div class="riddler-answer">'
+        detail += '<h4>扫描目标与双关考据</h4>'
         detail += photo(row['target'], scan_target=True)
         detail += f'<p>{esc(row["solution"])}</p>'
         if row.get('context'):

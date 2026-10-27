@@ -134,7 +134,7 @@ def build_arkham_archive(data,shell):
     page('',hub_title,hub_intro,opening)
 
     content = riddler_page(riddler, scans, GAMES, sources, picture, record, esc)
-    page('riddler','谜语人扫描谜题：漫画溯源','先读原版谜面与现场图，再展开扫描目标、双关解法和漫画背景。',content)
+    page('riddler','谜语人扫描谜题：漫画溯源','先读原版谜面与现场图，再展开扫描目标、双关考据与漫画背景。',content)
     pages['arkham/archive/riddler/index.html'] = pages['arkham/archive/riddler/index.html'].replace('</head>', '<link rel="stylesheet" href="/assets/arkham-riddler-scan.css"><script src="/assets/arkham-riddler-scan.js" defer></script></head>')
 
     map_view=''

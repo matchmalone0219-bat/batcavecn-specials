@@ -130,7 +130,7 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc, 
 
 def story_page(archive, reading, entries, games, sources, record, esc):
     content = '<div class="dossier-reading story-reading"><p>《阿卡姆之城》与《阿卡姆骑士》会在解开部分谜语后，解锁补充人物经历和城市背景的短篇。这里选读其中十六篇：先看故事介绍，再展开梗概，或沿来源链接阅读社区转录。</p>'
-    content += f'<p class="fine">{esc(reading["titleNote"])}</p><nav class="chapter-nav" aria-label="哥谭故事目录">'
+    content += '<nav class="chapter-nav" aria-label="哥谭故事目录">'
     content += ''.join(f'<a href="#{s["id"]}">{esc(reading["stories"][s["id"]]["title"])}</a>' for s in archive['stories']) + '</nav>'
     for story in archive['stories']:
         text = reading['stories'][story['id']]

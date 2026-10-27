@@ -23,7 +23,7 @@ def home(data, site):
         for index, item in enumerate(items[:3]):
             tag = "a" if item["status"] == "详情样板" else "article"
             href = f' href="{route(item)}"' if tag == "a" else ""
-            body += f'<{tag}{href} class="programme-row"><span class="programme-number">0{index + 1}</span><div class="programme-title"><p>{esc(item["original"])}</p><h3>{esc(item["title"])}</h3><span>{esc(item["nameNote"])}</span></div><div class="programme-description"><p>{esc(item["summary"])}</p><span>{"分集导读" if tag == "a" else "分集条目"}</span></div></{tag}>'
+            body += f'<{tag}{href} class="programme-row"><span class="programme-number">0{index + 1}</span><div class="programme-title"><p>{esc(item["original"])}</p><h3>{esc(item["title"])}</h3></div><div class="programme-description"><p>{esc(item["summary"])}</p><span>{"分集导读" if tag == "a" else "分集条目"}</span></div></{tag}>'
         body += '<p class="programme-footnote">按本期放映次序浏览精选篇目。<br>BTAS85条与TNBA24条基础目录分别编目；动画电影另列。</p></section>'
         body += '<section class="section cinema-folio"><div class="programme-heading"><h2>翻开制作图册</h2><p>MODEL / STORYBOARD</p></div><p class="folio-intro">角色的动作与表情，片头的剪影与格斗。</p>' + production_preview() + '</section>'
         modern = data["capedCrusader"]
@@ -35,7 +35,7 @@ def home(data, site):
 
 def detail(data, item):
     site = item["site"]
-    title_block = f'<div class="detail-title"><p class="label">{'<i data-arkham-icon="games"></i>GAME DOSSIER' if site == "arkham" else "EPISODE DOSSIER"} / {"作品档案" if site == "arkham" else "分集档案"}</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p><p class="fine">{esc(item["nameNote"])}</p></div>'
+    title_block = f'<div class="detail-title"><p class="label">{'<i data-arkham-icon="games"></i>GAME DOSSIER' if site == "arkham" else "EPISODE DOSSIER"} / {"作品档案" if site == "arkham" else "分集档案"}</p><p class="original">{esc(item["original"])}</p><h1>{esc(item["title"])}</h1><p class="lead">{esc(item["summary"])}</p></div>'
     body = f'<div class="section{" episode-feature" if site == "tas" else ""}"><a class="breadcrumb" href="/{site}/catalog/">← {"作品档案" if site == "arkham" else "分集目录"}</a>'
     if site == "arkham":
         image = next(a for a in json.loads((ROOT / "media.json").read_text())["assets"] if a["file"] == f'{item["id"]}-01.jpg')
@@ -46,7 +46,7 @@ def detail(data, item):
             title_block = title_block.replace('<p class="original">', f'<div class="episode-title-card">{title_card}</div><p class="original">', 1)
         body += title_block
     if site == "arkham":
-        fields = [("官方发售日", item["date"]), ("日期口径", item["dateNote"]), ("开发", item["developer"]), ("发行", item["publisher"]), ("原版平台", item["platforms"])]
+        fields = [("官方发售日", item["date"]), ("发行版本", item["dateNote"]), ("开发", item["developer"]), ("发行", item["publisher"]), ("原版平台", item["platforms"])]
         summary_lines = [[f'{item["date"]} 发售', item["developer"], item["platforms"].split("（")[0]]]
     else:
         fields = [("所属系列", item["series"]), ("辅助指南编号", item["guideNumber"]), ("原始制作代码", item["productionCode"]), ("来源所载首播日", item["airDate"]), ("首播地区", item["airRegion"]), ("影音目录编号", item["mediaOrder"]), ("编剧", item["writer"]), ("导演", item["director"]), ("动画制作", item["animation"]), ("配乐", item["music"]), ("客串配音", item["guests"])]

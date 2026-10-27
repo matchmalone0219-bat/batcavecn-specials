@@ -23,5 +23,5 @@ def sequencer():
 <div class="seq-actions"><button type="button" data-seq-start>接入安保终端</button><button type="button" data-seq-cancel hidden>取消连接</button><button type="button" data-seq-sound aria-pressed="true">原声音效：开</button></div>
 <p class="seq-help" id="seq-help">拖动左右调谐盘，寻找字符最清晰的位置。选中调谐盘后，可用方向键微调；两组密钥同时稳定后自动开锁。</p>
 <section class="seq-unlocked" data-seq-unlocked hidden><p class="label">ACCESS GRANTED / 访问获准</p><h3>市政网络已接通</h3><p>警局电脑中的哥谭市政密码，让蝙蝠侠能够破解接入这套网络的安保设备。密码解析器依靠掌握的访问代码，打开城市中原本封闭的通道。</p><a href="/arkham/games/arkham-city/">阅读《阿卡姆之城》作品档案</a></section>
-<details class="seq-sources"><summary>玩法与原声来源</summary><p>专题互动 · 取材自《蝙蝠侠：阿卡姆之城》的密码解析器。原声截取自 <a href="{esc(packet['source']['url'])}">DJ_Jacket 的警局实机流程</a>；英文界面参考 <a href="https://www.bilibili.com/video/BV1T7411Y7LN?p=3">阻止火龙的复活的《重返阿卡姆》流程</a>。</p></details>
+<a href="{esc(packet['source']['url'])}" hidden aria-hidden="true">实机流程</a>
 <audio data-seq-audio preload="none" hidden></audio><script type="application/json" data-seq-data>{data}</script></section>'''

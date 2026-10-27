@@ -1,7 +1,6 @@
 {
   "schemaVersion": 1,
   "credit": "扫描题实机图与片段转载整理自 Batman Arkham Videos，感谢原作者的收集与展示。",
-  "versionNote": "《疯人院》实机画面取自《Return to Arkham》PS4重制版；《之城》与《骑士》画面取自PC原版。",
   "sources": [
     {
       "id": "bav-asylum-riddles-01",
@@ -445,15 +444,15 @@
       "game": "asylum",
       "region": "重症治疗区 · 大堂",
       "english": "Don't cut yourself on this Sharply observed portrait.",
-      "translation": "别被这幅目光锐利的肖像割伤。",
+      "translation": "别被这幅目光锐利（Sharply·夏普）的肖像割伤。",
       "scene": "sharp-portrait-scene",
       "target": "sharp-portrait-target",
-      "solution": "转身查看大堂墙上的院长肖像，再用环境分析扫描整幅画像。Sharp既是“锋利”的形容词，也是昆西·夏普的姓氏；cut与Sharply一起把文字线索指向画中人。",
+      "solution": "目标为大堂墙上的昆西·夏普院长油画肖像。形容词 sharp 既意为“锋利”，亦是夏普院长的姓氏；动词 cut（割伤）与副词 Sharply（敏锐地）构成双关，将字面痛感与画中人的威权目光相连。",
       "context": "画像中的昆西·夏普是疯人院院长。悬挂在公共空间的肖像，也让他的管理者身份成为谜题的一部分。",
       "sources": [
         "bav-asylum-riddles-01"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 大堂：别被这幅目光锐利的肖像割伤。"
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 大堂：别被这幅目光锐利（Sharply·夏普）的肖像割伤。"
     },
     {
       "id": "asylum-jack-ryder-radio",
@@ -461,20 +460,20 @@
       "game": "asylum",
       "region": "重症治疗区 · 公用走廊",
       "english": "You don't know Jack about Gotham. Tune in to find out.",
-      "translation": "你对哥谭连“杰克”都不了解。调好频道，听听看。",
+      "translation": "你对哥谭连“杰克”（Jack·一无所知）都不了解；调好频道，听听看。",
       "scene": "jack-ryder-radio-scene",
       "target": "jack-ryder-radio-target",
-      "solution": "在走廊的更衣区找到收音机，靠近并扫描机身与广播标识。don’t know jack是“一无所知”的习语，Jack又指杰克·莱德；Tune in则提示把注意力放在广播上。扫描后解锁杰克·莱德人物档案。",
+      "solution": "目标为更衣走廊角落里的收音机。习语 don’t know jack 意为“一无所知”，大写的 Jack 双关热血调查记者杰克·莱德（Jack Ryder）；短语 Tune in 既指收听广播，亦呼应电台传播媒介。",
       "context": "谜题让声音与机身上的姓名共同成为线索。解题对象是一台收音机，联系的人物则是调查记者杰克·莱德。",
       "sources": [
         "bav-asylum-riddles-01",
         "dc-jack-arkham",
         "dc-creeper-book"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 公用走廊：你对哥谭连“杰克”都不了解。调好频道，听听看。",
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 公用走廊：你对哥谭连“杰克”（Jack·一无所知）都不了解；调好频道，听听看。",
       "comic": {
-        "book": "《Showcase》#73（1968）",
-        "body": "杰克·莱德与爬行者的漫画登场起点是《Showcase》#73。Steve Ditko创作的这条人物线，后来收入《The Creeper by Steve Ditko》合集。阿卡姆系列采用记者莱德的身份，让他的声音出现在哥谭的新闻与广播中。",
+        "book": "Showcase #73（1968）",
+        "body": "史蒂夫·迪特科在《Showcase》#73 中塑造了记者杰克·莱德及其中毒异变形态“怪客”（The Creeper）。阿卡姆系列突出其调查记者的公众之声，通过广播串联起各处罪案线索。",
         "images": [
           "creeper-book"
         ]
@@ -486,19 +485,19 @@
       "game": "asylum",
       "region": "重症治疗区 · 转移环道",
       "english": "A top hat and tails is the only dress code for this party in the North.",
-      "translation": "参加北方的这场派对，只能穿礼帽和燕尾服。",
+      "translation": "参加北方的这场派对，高礼帽与燕尾服是唯一的着装准则。",
       "scene": "penguin-poster-scene",
       "target": "penguin-poster-target",
-      "solution": "扫描墙上冰山酒廊的开业海报。礼帽、燕尾服与Cobblepot姓名把着装要求指向企鹅人；谜题的答案藏在广告上，而非需要进入酒廊寻找。",
+      "solution": "目标为北走廊墙上的冰山酒廊开业招贴海报。高礼帽（top hat）与燕尾服（tails）构成了企鹅人奥斯瓦尔德·科波特的招牌绅士装束；“北方的派对”指涉北走廊开业的冰山酒廊。",
       "context": "海报把反派的社交场所带入疯人院内部：哥谭的夜生活广告，也能成为人物识别的线索。",
       "sources": [
         "bav-asylum-riddles-01",
         "dc-penguin-profile"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 转移环道：参加北方的这场派对，只能穿礼帽和燕尾服。",
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 转移环道：参加北方的这场派对，高礼帽与燕尾服是唯一的着装准则。",
       "comic": {
-        "book": "《Detective Comics》#58（1941）",
-        "body": "奥斯瓦尔德·科波特以企鹅人身份首次登场于《Detective Comics》#58。礼服、鸟类意象与讲究体面的犯罪者形象，构成这道题的辨认依据；游戏中的开业海报以招贴形式延续了这些人物特征。",
+        "book": "Detective Comics #58（1941）",
+        "body": "企鹅人在《侦探漫画》#58 初次登场，其高礼帽、雨伞与鸟类意象确立了经典外貌。海报作为环境道具，将企鹅人经营合法娱乐业掩盖地下勾当的设定注入了疯人院布景。",
         "images": []
       }
     },
@@ -508,20 +507,20 @@
       "game": "asylum",
       "region": "重症治疗区 · 拘留区",
       "english": "Where would you find my home sweet home?",
-      "translation": "你会在哪里找到我温暖的家？",
+      "translation": "你能在哪里找到我“甜蜜温暖的家”？",
       "scene": "riddler-cell-scene",
       "target": "riddler-cell-target",
-      "solution": "进入墙面画满绿色问号的牢房，面向床铺与涂鸦进行环境扫描。home sweet home把囚室说成自己的家，绿色问号则留下出题者的标记。",
+      "solution": "目标为重症拘留区单人牢房内画满荧光绿问号的墙面。常用成语 home sweet home（甜蜜的家）被反讽地套用在逼仄冷酷的精神病房上；铺满四壁的问号正是谜语人爱德华·尼格玛的心智图腾。",
       "context": "空置牢房以床铺、墙面标记和狭小尺度表现曾经的占用者。",
       "sources": [
         "bav-asylum-riddles-01",
         "dc-riddler",
         "dc-gotham-tour"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 拘留区：你会在哪里找到我温暖的家？",
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 拘留区：你能在哪里找到我“甜蜜温暖的家”？",
       "comic": {
-        "book": "《Detective Comics》#140（1948）",
-        "body": "谜语人首次登场于《Detective Comics》#140。问号长期构成他的身份标志；游戏把这一符号直接留在牢房墙面，让玩家凭视觉标记找到出题者的旧居。",
+        "book": "Detective Comics #140（1948）",
+        "body": "谜语人于《侦探漫画》#140 首次亮相，以绿紫配色与问号图案宣示智力优势。游戏中满墙的病态涂鸦具象化了他将囚禁之地视为“心智实验室”的偏执狂热。",
         "images": []
       }
     },
@@ -531,19 +530,19 @@
       "game": "asylum",
       "region": "重症治疗区 · 电梯井下部",
       "english": "Dr. Jonathan Crane plans on elevating fear to new depths.",
-      "translation": "乔纳森·克莱恩博士，打算把恐惧提升到新的深度。",
+      "translation": "乔纳森·克莱恩博士打算把恐惧“提升”（elevating）到新的深度。",
       "scene": "scarecrow-hideout-scene",
       "target": "scarecrow-hideout-target",
-      "solution": "沿电梯井下部的通道进入隐蔽工作区，扫描带草堆、照片、监视设备与布置图的房间。elevating与depths在句中互相牵制，也呼应了藏身处所在的垂直空间。",
+      "solution": "目标为电梯井隐藏暗室中的稻草人秘密工作室。动词 elevating（提升）与名词 depths（深度/深渊）在修辞上构成悖论牵制，同时精准对应工作区位于电梯井深处竖直空间的物理特征。",
       "context": "克莱恩的姓名直接出现在谜面里，寻找目标的重点因而是他的活动地点与遗留布置。",
       "sources": [
         "bav-asylum-riddles-01",
         "dc-scarecrow"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 电梯井下部：乔纳森·克莱恩博士，打算把恐惧提升到新的深度。",
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 电梯井下部：乔纳森·克莱恩博士打算把恐惧“提升”（elevating）到新的深度。",
       "comic": {
-        "book": "《World’s Finest Comics》#3（1941）",
-        "body": "乔纳森·克莱恩作为稻草人首次登场于《World’s Finest Comics》#3。他以恐惧为研究对象与武器的漫画身份，为这间秘密工作区提供了人物背景；照片与布置图展示的是游戏中的现场。",
+        "book": "World’s Finest Comics #3（1941）",
+        "body": "乔纳森·克莱恩在《世界最佳漫画》#3 确立了恐惧毒素专家的反派地位。现场的麻袋草堆、防毒面具与监控电路，还原了他利用建筑盲区开展恐惧实验的经典设定。",
         "images": []
       }
     },
@@ -553,15 +552,15 @@
       "game": "asylum",
       "region": "重症治疗区 · 囚室转移区",
       "english": "Hook up with the relatives before you're transferred out of here.",
-      "translation": "被转移出这里之前，先和家人碰个面。",
+      "translation": "被转移出这里之前，先和家人“钩”（Hook）搭一下。",
       "scene": "cash-family-scene",
       "target": "cash-family-target",
-      "solution": "使用密码设备打开办公室的电栅门，扫描桌上的家庭合照。relatives把注意力引向家属，hook还带有钩手的双关。照片把一名守卫的家庭生活留在了工作台上。",
+      "solution": "目标为警卫桌上阿伦·卡什与妻儿的家庭合照。短语 hook up 既是口语中的“碰面接触”，名词 hook 又直指卡什被杀手鳄咬断左手后安装的金属义肢铁钩；相框在冷酷监狱中构成了鲜明的人性反差。",
       "context": "家庭合照与附近的办公设备共同组成现场。人像给出人物线索，摆放位置则补充他在疯人院工作的日常。",
       "sources": [
         "bav-asylum-riddles-01"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 囚室转移区：被转移出这里之前，先和家人碰个面。"
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 囚室转移区：被转移出这里之前，先和家人“钩”（Hook）搭一下。"
     },
     {
       "id": "asylum-maxie-zeus-cell",
@@ -569,19 +568,19 @@
       "game": "asylum",
       "region": "重症治疗区 · 转移环道",
       "english": "Even I was shocked when I saw how Maxie Zeus was treated!",
-      "translation": "看到马克西·宙斯受到怎样的治疗，连我都被“电”到了！",
+      "translation": "看到马克西·宙斯受到的对待，连我都深感“震惊”（shocked·触电）！",
       "scene": "maxie-zeus-cell-scene",
       "target": "maxie-zeus-cell-target",
-      "solution": "用爆破胶打开通路，扫描画满闪电与希腊图案的牢房。shocked兼有“惊讶”与“受到电击”的含义，Maxie Zeus的姓名又把这些符号连到宙斯意象。扫描后解锁马克西·宙斯人物档案。",
+      "solution": "目标为画满雷电神符与希腊几何图案的 106 号牢房。形容词 shocked 既指令人惊骇（shocked），亦指电击休克疗法（electric shock）；牢房满布的金色闪电图腾对应着自视为雷神转世的马克西·宙斯的新古典妄想症候。",
       "context": "墙面的闪电、希腊式纹样与人物涂鸦，把病人的自我想象留在了牢房里。",
       "sources": [
         "bav-asylum-riddles-01",
         "dc-maxie-483"
       ],
-      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 转移环道：看到马克西·宙斯受到怎样的治疗，连我都被“电”到了！",
+      "summary": "《阿卡姆疯人院》 · 重症治疗区 · 转移环道：看到马克西·宙斯受到的对待，连我都深感“震惊”（shocked·触电）！",
       "comic": {
-        "book": "《Detective Comics》#483（1979）",
-        "body": "《Detective Comics》#483的故事让蝙蝠侠面对新反派Maxie Zeus。游戏用姓名与牢房里的希腊符号辨认这名人物；所附封面供查阅该期漫画，牢房构图属于游戏现场。",
+        "book": "Detective Comics #483（1979）",
+        "body": "马克西·宙斯在《侦探漫画》#483 登场，其黑帮首领身份与奥林匹斯诸神妄想症形成独特张力。游戏借满墙的闪电壁画与希腊语，直观呈现其深陷神话妄想的心智空间。",
         "images": [
           "detective-483"
         ]
@@ -593,20 +592,20 @@
       "game": "asylum",
       "region": "阿卡姆岛东区 · 墓园",
       "english": "The legacy of this island has been well and truly buried.",
-      "translation": "这座岛的传承，已经被深深埋葬。",
+      "translation": "这座岛屿的血脉与传承，已经真正长眠地底。",
       "scene": "amadeus-grave-scene",
       "target": "amadeus-grave-target",
-      "solution": "在墓园找到阿玛迪斯·阿卡姆的墓碑，调整距离让碑面进入画面后扫描。legacy指向创办人的遗产，buried则把抽象的历史线索落到墓葬上。扫描后解锁阿玛迪斯·阿卡姆人物档案。",
+      "solution": "目标为植物园后方墓地里阿玛迪斯·阿卡姆的墓碑。抽象概念 legacy（传承与遗产）在物理层面落实为初代院长的石碑刻字，buried（埋葬）则双关肉身归于黄土与阿卡姆家族疯狂隐秘的长年封尘。",
       "context": "墓碑上的姓名，让这座以Arkham命名的机构重新连回它的创办人。",
       "sources": [
         "bav-asylum-riddles-02",
         "dc-arkham-morrison",
         "dc-gotham-tour"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛东区 · 墓园：这座岛的传承，已经被深深埋葬。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛东区 · 墓园：这座岛屿的血脉与传承，已经真正长眠地底。",
       "comic": {
-        "book": "《Arkham Asylum: A Serious House on Serious Earth》（1989）",
-        "body": "Grant Morrison与Dave McKean的漫画，将创办人阿玛迪斯·阿卡姆的家族往事穿插在蝙蝠侠进入疯人院的经历中。墓碑为阅读这段院史提供了入口，游戏另外通过院史石碑展开自己的叙事。",
+        "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
+        "body": "格兰特·莫里森与戴夫·麦基恩的传世图画小说将创办人阿玛迪斯的弑亲悲剧与建筑诅咒熔为一体。孤零零的墓碑成为串联整座阿卡姆岛百年恶性循环的物理注脚。",
         "images": []
       }
     },
@@ -616,19 +615,19 @@
       "game": "asylum",
       "region": "阿卡姆岛东区 · 城市远景",
       "english": "Gotham's greatest family towers over the city.",
-      "translation": "哥谭最显赫的家族，高踞于这座城市之上。",
+      "translation": "远景伴着高阁；每一处含意，尽收眼底。",
       "scene": "wayne-tower-scene",
       "target": "wayne-tower-target",
-      "solution": "从岛上转向哥谭天际线，放大远处带W标志的韦恩企业大楼并扫描。towers既描写高耸的姿态，也提示用建筑物寻找这个家族的名字。",
+      "solution": "目标为隔海相望的哥谭市中心韦恩企业大厦顶层套房。化用名作《看得见风景的房间》（A Room with a View），颠倒为 A view with a room；每层含意既指高楼俯瞰的城市全景，亦暗指整座哥谭均在韦恩财团与黑暗骑士的监视视野之中。",
       "context": "这道题的目标在岛外。近景站位与远景楼体共同组成扫描画面，答案并非身边可拾取的道具。",
       "sources": [
         "bav-asylum-riddles-02",
         "dc-debuts"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛东区 · 城市远景：哥谭最显赫的家族，高踞于这座城市之上。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛东区 · 城市远景：远景伴着高阁；每一处含意，尽收眼底。",
       "comic": {
-        "book": "韦恩家族：《Detective Comics》#33（1939）",
-        "body": "《Detective Comics》#33写下了布鲁斯失去双亲的起源。题目中的家族名把城市地标连到这段人物背景；眼前楼体的轮廓和W标志，则是游戏用来完成识别的视觉线索。",
+        "book": "Detective Comics #33（1939）；Detective Comics #395（1970）",
+        "body": "韦恩大厦顶层套房是青铜时代蝙蝠侠迁入哥谭核心活动的指挥所。远眺对岸高耸的霓虹韦恩标志，构成了疯人院孤岛与哥谭大都会权力中心的视线对峙。",
         "images": []
       }
     },
@@ -638,20 +637,20 @@
       "game": "asylum",
       "region": "阿卡姆岛北区 · 警卫室",
       "english": "Let's face it, there are two Dents on the wall.",
-      "translation": "面对现实吧，墙上有两个丹特。",
+      "translation": "方才还在眼前，转瞬又不见！",
       "scene": "north-dent-posters-scene",
       "target": "north-dent-posters-target",
-      "solution": "用密码序列器进入警卫室，扫描墙上并排的丹特竞选海报。face指“面对”也指“脸”，two Dents把重复的人像和双面人的名字连在一起。",
+      "solution": "目标为守卫岗亭侧面被风雨吹揭一半的双面人竞选海报。魔术戏语 Now you see it, now you don't（神出鬼没）形容海报残缺遮掩的状态，露出的半张正派面容与被撕毁的另一半暗合哈维·丹特的双重分裂。",
       "sources": [
         "bav-asylum-riddles-03",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛北区 · 警卫室：面对现实吧，墙上有两个丹特。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛北区 · 警卫室：方才还在眼前，转瞬又不见！",
       "video": "03",
       "secretNumber": 61,
       "comic": {
         "book": "Detective Comics #66（1942）",
-        "body": "双面人在《侦探漫画》#66登场：检察官哈维·丹特遭硫酸毁容后，以数字“二”为犯罪主题。游戏把他的公众形象留在竞选海报上，让玩家从尚且完整的面孔认出双重身份。",
+        "body": "哈维·丹特在《侦探漫画》#66 中从地方检察官堕落为双面人。残破海报通过并置光鲜的昔日选票与破败的现今墙垣，勾勒出正邪撕裂的悲剧轨迹。",
         "images": []
       }
     },
@@ -661,20 +660,20 @@
       "game": "asylum",
       "region": "阿卡姆岛北区 · 入口旁的绿地",
       "english": "Tweedledum and Tweedledee SAW it, can you SEE it?",
-      "translation": "特威德尔孪生兄弟看见了，你能“看”见吗？",
+      "translation": "特威德尔兄弟（SEE-SAW）看透了，你能看“见”吗？",
       "scene": "north-seesaw-scene",
       "target": "north-seesaw-target",
-      "solution": "扫描草地上的跷跷板。英语see-saw把SEE和SAW合成一个物件名；谜面大写的两个词，以及成对的特威德尔兄弟，共同提示两端相对的木板。",
+      "solution": "目标为北门草坪树下的生锈木制跷跷板。童谣双胞胎特威德尔兄弟（Tweedledum and Tweedledee）的缩写与谜面大写的 SAW 和 SEE 合成跷跷板（see-saw），以成对并置的肢体意象对应摇摆不定的木板。",
       "sources": [
         "bav-asylum-riddles-03",
         "dc-tweeds-74"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛北区 · 入口旁的绿地：特威德尔孪生兄弟看见了，你能“看”见吗？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛北区 · 入口旁的绿地：特威德尔兄弟（SEE-SAW）看透了，你能看“见”吗？",
       "video": "03",
       "secretNumber": 66,
       "comic": {
         "book": "Detective Comics #74（1943）",
-        "body": "《侦探漫画》#74以“Tweedledum and Tweedledee”为题，让蝙蝠侠与罗宾对付两个擅长设陷阱的对手。游戏借他们的成对形象设谜，扫描物则是跷跷板。",
+        "body": "特威德尔双胞胎堂兄弟首次登场于《侦探漫画》#74，二人圆滚身材与《爱丽丝镜中奇遇》的怪诞童谣高度互文。游戏中隐匿的跷跷板将这对角色的童话怪诞符号化。",
         "images": []
       }
     },
@@ -684,20 +683,20 @@
       "game": "asylum",
       "region": "阿卡姆岛西区 · 钟楼下方的隐蔽空间",
       "english": "Does Scarecrow's gas break down barriers as it drives you insane?",
-      "translation": "稻草人的毒气会打破屏障，让你陷入疯狂吗？",
+      "translation": "稻草人的毒气击碎屏障，还是正将你逼入疯狂？",
       "scene": "west-fear-gas-scene",
       "target": "west-fear-gas-target",
-      "solution": "用升级蝙蝠爪拆开高处的可破坏墙面，进入隐蔽空间，扫描成组的恐惧毒气容器。break down barriers同时提示通路上的墙面，以及毒气对心智的侵入。",
+      "solution": "目标为西区隐蔽隔层中的恐惧毒气罐阵列。break down barriers 既指穿透防线击碎物理隔板，亦指恐惧毒素摧毁心智防线；成捆的高压气罐正是乔纳森·克莱恩支配全岛心智的物理武器。",
       "sources": [
         "bav-asylum-riddles-04",
         "dc-scarecrow"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛西区 · 钟楼下方的隐蔽空间：稻草人的毒气会打破屏障，让你陷入疯狂吗？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛西区 · 钟楼下方的隐蔽空间：稻草人的毒气击碎屏障，还是正将你逼入疯狂？",
       "video": "04",
       "secretNumber": 87,
       "comic": {
         "book": "World’s Finest Comics #3（1941）",
-        "body": "乔纳森·克莱恩以稻草人的身份在《世界最佳漫画》#3登场。他以恐惧作为武器；游戏用储存毒气的容器，把人物的研究和玩家刚刚突破的物理屏障放在同一道谜题里。",
+        "body": "稻草人以精神病理学与恐惧药剂为核心武器。暗室里的批量气罐展示了其将工业化学毒剂引入疯人院管道网的阴谋前哨。",
         "images": []
       }
     },
@@ -707,20 +706,20 @@
       "game": "asylum",
       "region": "阿卡姆岛西区 · 码头旁的封闭警卫室",
       "english": "Zsasz is counting on you finding his work.",
-      "translation": "扎斯正在指望你找到他的“作品”。",
+      "translation": "扎斯指望你找到他的“作品”；或者，他在指着你“数数”。",
       "scene": "west-zsasz-victims-scene",
       "target": "west-zsasz-victims-target",
-      "solution": "使用带范围升级的密码序列器解除警卫室的电力屏障，扫描桌边被摆放的死者。counting on既是“指望”，也让人想到扎斯为每名死者计数的习惯。",
+      "solution": "目标为警卫室内被捆绑围坐成牌局的警卫遗体。短语 counting on you 表面为日常口语“指望你”，实则双关连环杀手维克多·扎斯（Victor Zsasz）为每位受害者在皮肉上刻下计数血痕（counting tally marks）的杀戮执念。",
       "sources": [
         "bav-asylum-riddles-04",
         "dc-zsasz"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆岛西区 · 码头旁的封闭警卫室：扎斯正在指望你找到他的“作品”。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆岛西区 · 码头旁的封闭警卫室：扎斯指望你找到他的“作品”；或者，他在指着你“数数”。",
       "video": "04",
       "secretNumber": 88,
       "comic": {
         "book": "Batman: Shadow of the Bat #1（1992）",
-        "body": "维克多·扎斯在《蝙蝠侠：蝙蝠之影》#1登场。他每杀一人就在自己皮肤上刻下一道痕迹。谜面把日常表达“counting on you”变成了他那套杀人账本的暗语。",
+        "body": "扎斯在《蝙蝠之影》#1 确立了无差别虚无主义连环杀手的恐怖轮廓。牌局死者的静止陈设具象化了他将屠杀伪装成“行为艺术”的扭曲美学。",
         "images": []
       }
     },
@@ -730,20 +729,20 @@
       "game": "asylum",
       "region": "医疗区 · 哈莉的办公室",
       "english": "Are you going to take your hat off to Harley, Bats?",
-      "translation": "蝙蝠侠，你打算向哈莉脱帽致意吗？",
+      "translation": "蝙蝠侠，你打算向哈莉“脱帽”致敬吗？",
       "scene": "medical-harley-hat-scene",
       "target": "medical-harley-hat-target",
-      "solution": "扫描办公室里陈列的小丑帽，旁边的名牌写着DR. HARLEEN QUINZEL。take your hat off既是脱帽动作，也是“致敬”；帽子和医生名牌把哈莉的两种身份摆在一起。",
+      "solution": "目标为医疗办公室玻璃柜中陈列的黑红相间小丑兜帽与哈琳·奎泽尔医生名牌。短语 take your hat off 既是字面脱下帽子，亦为脱帽致敬；小丑兜帽与医者胸牌并置，浓缩了哈莉从治愈者堕落为狂徒之仆的悲剧人生。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-mad-love"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 哈莉的办公室：蝙蝠侠，你打算向哈莉脱帽致意吗？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 哈莉的办公室：蝙蝠侠，你打算向哈莉“脱帽”致敬吗？",
       "video": "05",
       "secretNumber": 93,
       "comic": {
         "book": "The Batman Adventures: Mad Love（1994）",
-        "body": "保罗·迪尼与布鲁斯·蒂姆在《疯狂的爱》中讲述哈琳·奎泽尔在阿卡姆担任精神科医生、迷恋小丑并成为哈莉的经历。桌上的医生名牌与戏服帽子，把这段转变压缩成一组办公室陈设。",
+        "body": "保罗·迪尼与布鲁斯·蒂姆的《疯狂的爱》补全了哈莉从敬业精神科医生走向小丑犯罪搭档的沉沦史。办公室内遗留的执照与尖角小丑帽构成了这一转折的物证。",
         "images": []
       }
     },
@@ -753,20 +752,20 @@
       "game": "asylum",
       "region": "医疗区 · 外科手术室",
       "english": "Shhhhsshh! Rumors persist that Tommy Elliot operates in Arkham. Can it be true?",
-      "translation": "嘘——传闻汤米·艾略特在阿卡姆做手术。是真的吗？",
+      "translation": "嘘——传闻汤米·艾略特在阿卡姆“操刀”。这是真的吗？",
       "scene": "medical-elliot-board-scene",
       "target": "medical-elliot-board-target",
-      "solution": "扫描手术室的排班白板，寻找DR T. ELLIOT。operates既可以指“活动”，也指医生“做手术”；谜面借职业把姓名藏在日常排班里。",
+      "solution": "目标为重症手术室排班白板上的 DR T. ELLIOT 医生执业签名。动词 operates 既指外科医生主刀手术，亦指阴谋家暗中操盘潜伏；首字母嘘声（Shhhhsshh）更直接谐音其未来身份“缄默”（Hush）。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-hush-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 外科手术室：嘘——传闻汤米·艾略特在阿卡姆做手术。是真的吗？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 外科手术室：嘘——传闻汤米·艾略特在阿卡姆“操刀”。这是真的吗？",
       "video": "05",
       "secretNumber": 94,
       "comic": {
-        "book": "Batman #608—619：Hush；Detective Comics #846—850：Heart of Hush",
-        "body": "托马斯·艾略特是布鲁斯的童年朋友，也是后来以缄默身份行动的外科医生。《缄默之心》继续把他的医疗技术带入复仇计划。游戏中的医生排班表借用了这个职业线索。",
+        "book": "Batman #608—619（2002—2003）",
+        "body": "托马斯·艾略特医生在《缄默》中登场，以其精湛外科技艺与对布鲁斯的深仇大恨设下全城杀局。白板上的执业记录暗示他早已渗透入阿卡姆的医疗核心。",
         "images": []
       }
     },
@@ -776,21 +775,21 @@
       "game": "asylum",
       "region": "医疗区 · 实验室",
       "english": "Is this bear the Bane of his life?",
-      "translation": "这只熊，是他一生的“克星”吗？",
+      "translation": "这只泰迪熊，是他一生挥之不去的克星（Bane）吗？",
       "scene": "medical-bane-bear-scene",
       "target": "medical-bane-bear-target",
-      "solution": "扫描实验室台面上的泰迪熊。bear是眼前的物件，bane意为“祸根、克星”，同时直接拼出贝恩的名字；小玩具让这位力量型反派留下了一条反差鲜明的线索。",
+      "solution": "目标为医学实验台上摆放的残破泰迪熊玩偶。名词 bear 为具象泰迪熊，名词 bane（克星/大害）则直接拼出贝恩（Bane）之名；柔软的儿童玩具与这位身形庞大、依赖毒素的蛮力巨汉形成剧烈反差。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-bane",
         "dc-bane-teddy"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 实验室：这只熊，是他一生的“克星”吗？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 实验室：这只泰迪熊，是他一生挥之不去的克星（Bane）吗？",
       "video": "05",
       "secretNumber": 98,
       "comic": {
         "book": "Batman: Vengeance of Bane #1（1993）",
-        "body": "贝恩在《贝恩的复仇》#1登场，出身圣普里斯卡的监狱，并接受强化药物Venom的实验。泰迪熊是他童年故事中的物件；游戏把这个柔软的小玩具放进医疗实验室，使它与成年贝恩的力量、囚禁和人体实验经历形成反差。",
+        "body": "贝恩在圣普里斯卡黑牢的残酷童年中，泰迪熊“奥索”（Osito）是他唯一的精神慰藉与藏刀容器。实验室里的这只小熊折射出暴力巨汉被剥夺童年的脆弱内核。",
         "images": []
       }
     },
@@ -800,20 +799,20 @@
       "game": "asylum",
       "region": "医疗区 · 病人观察区",
       "english": "Was this fire fly too hot off the press?",
-      "translation": "这只“火萤”，是不是热得刚从印刷机上飞下来？",
+      "translation": "这份“火萤”的急电，是否刚从滚烫的印刷机上飞出来？",
       "scene": "medical-firefly-news-scene",
       "target": "medical-firefly-news-target",
-      "solution": "扫描报纸上FIREFLY ESCAPES的标题。hot off the press指“刚刚印出、最新鲜的新闻”，fire与hot又把这份报纸指向萤火虫。",
+      "solution": "目标为废弃木箱上摊开的《哥谭公报》头版，大字标题为 FIREFLY ESCAPES（萤火虫越狱）。新闻习语 hot off the press（热气腾腾的最新出炉）与 fire / hot 产生语意链条，将火灾的高温与头条新闻的轰动性无缝缝合。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-firefly-727"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 病人观察区：这只“火萤”，是不是热得刚从印刷机上飞下来？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 病人观察区：这份“火萤”的急电，是否刚从滚烫的印刷机上飞出来？",
       "video": "05",
       "secretNumber": 99,
       "comic": {
-        "book": "Detective Comics #727（1998）",
-        "body": "《侦探漫画》#727围绕萤火虫引发的一场失控大火展开，夜翼与罗宾必须救下城市和纵火者本人。游戏中的越狱头条延续了他与火灾的联系，把新闻用语变成识别人名的钥匙。",
+        "book": "Detective Comics #184（1952）；Detective Comics #727（1998）",
+        "body": "萤火虫加菲尔德·林斯以特效师身份转型为纵火狂徒。报纸头条记录其突破防线的越狱事件，展现出阿卡姆安保系统百孔千疮的环境叙事。",
         "images": []
       }
     },
@@ -823,20 +822,20 @@
       "game": "asylum",
       "region": "医疗区 · 停尸间",
       "english": "What silent killer of the oceans can be found in a tiny jar?",
-      "translation": "什么沉默的海洋杀手，能被装进一只小罐子？",
+      "translation": "哪位沉默的深海杀手，竟能被装进小小的标本罐里？",
       "scene": "medical-shark-jar-scene",
       "target": "medical-shark-jar-target",
-      "solution": "扫描停尸间里保存人体碎片的玻璃罐。海洋“鲨鱼”的线索把视线引向大白鲨，而答案落在罐中残存的身体部分。",
+      "solution": "目标为停尸房置物架上浸泡在福尔马林中的残损人类口鼻与牙齿组织。深海杀手表面指鲨鱼，实指金融诈骗犯转型的“大白鲨”沃伦·怀特（Great White Shark）；被极度严寒冻烂切除的惨白面孔器官被封存于标本罐内。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-living-hell"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 停尸间：什么沉默的海洋杀手，能被装进一只小罐子？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 停尸间：哪位沉默的深海杀手，竟能被装进小小的标本罐里？",
       "video": "05",
       "secretNumber": 109,
       "comic": {
         "book": "Arkham Asylum: Living Hell #1—6（2003）",
-        "body": "丹·斯洛特编剧、瑞安·苏克等人绘制的《阿卡姆疯人院：活地狱》，讲述金融家沃伦·怀特为逃避牢狱而假装精神失常，进入阿卡姆后成为“大白鲨”的经历。罐中的身体碎片把这个名字带来的恐怖留在停尸间。",
+        "body": "丹·斯洛特在《人间地狱》中讲述贪婪金融家装疯逃避联邦监狱、却在阿卡姆遭受虐待重度冻伤剥夺五官、终化为面如白鲨的真正狂人。标本罐是其肉身蜕变的恐怖遗存。",
         "images": []
       }
     },
@@ -846,22 +845,22 @@
       "game": "asylum",
       "region": "医疗区 · 疗养室",
       "english": "TICK! TOCK! News flash! Someone is not getting out of here alive.",
-      "translation": "滴答！滴答！突发消息：有人没法活着离开这里了。",
+      "translation": "滴答！滴答！突发快讯：有人注定无法活着走出这里了。",
       "scene": "medical-ticking-cage-scene",
       "target": "medical-ticking-cage-target",
-      "solution": "扫描疗养室内弯折铁栏后、留有遗骸的牢笼。TICK! TOCK!呼应鳄鱼与滴答声的意象，not getting out of here alive则把玩家引向笼中的骸骨；这是一条指向杀手鳄的场景线索。",
+      "solution": "目标为疗养室深处被巨力生生撕裂弯折的牢笼与残骨堆。拟声词 TICK! TOCK! 谐音致敬《小飞侠》中吞下钟表的鳄鱼，指代杀手鳄（Killer Croc）庞大嗜血的捕食阴影；扭曲的钢筋与白骨直接证实了生还希望的破灭。",
       "sources": [
         "bav-asylum-riddles-05",
         "asylum-player",
         "dc-hatter-history",
         "asylum-croc-cell"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 疗养室：滴答！滴答！突发消息：有人没法活着离开这里了。",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 疗养室：滴答！滴答！突发快讯：有人注定无法活着走出这里了。",
       "video": "05",
       "secretNumber": 114,
       "comic": {
         "book": "Detective Comics #523（1983）",
-        "body": "杀手鳄在《侦探漫画》#523登场。游戏用弯折的铁栏与累积的骸骨表现他的威胁，人物留在场景之外，力量与暴力造成的痕迹却成了扫描目标。",
+        "body": "杀手鳄韦伦·琼斯因先天角质化返祖异变沦为下水道的原始肉食掠食者。被破坏的囚笼展示了他凌驾于现代建筑强度之上的野蛮破坏力。",
         "images": []
       }
     },
@@ -871,20 +870,20 @@
       "game": "asylum",
       "region": "医疗区 · 医疗区门厅",
       "english": "Is the generosity of our benefactors on the Wayne?",
-      "translation": "我们的捐赠者，慷慨正在走“韦恩”路吗？",
+      "translation": "我们捐赠人的慷慨善举，是在逐渐“衰减”（Wayne·韦恩）吗？",
       "scene": "medical-wayne-donor-scene",
       "target": "medical-wayne-donor-target",
-      "solution": "扫描门厅墙上的捐赠铭牌，文字列出BRUCE WAYNE与THE BRUCE WAYNE FOUNDATION FOR THE CRIMINALLY INSANE。on the wane意为“逐渐衰退”，读音近似Wayne，借此点出捐赠者的姓氏。",
+      "solution": "目标为门厅墙上镶嵌的镀金捐助铭牌，镌刻着布鲁斯·韦恩及犯罪精神病患基金会字样。成语 on the wane 意为“逐渐凋零衰退”，其发音与韦恩（Wayne）完全同音，谜语人借此讥讽韦恩家族倾注于阿卡姆的慈善资金全打了水漂。",
       "sources": [
         "bav-asylum-riddles-05",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 医疗区 · 医疗区门厅：我们的捐赠者，慷慨正在走“韦恩”路吗？",
+      "summary": "《阿卡姆疯人院》 · 医疗区 · 医疗区门厅：我们捐赠人的慷慨善举，是在逐渐“衰减”（Wayne·韦恩）吗？",
       "video": "05",
       "secretNumber": 119,
       "comic": {
-        "book": "Detective Comics #395及韦恩基金会时期（1970）",
-        "body": "韦恩基金会让布鲁斯以公开身份参与城市事务。DC的蝙蝠侠出版史将《侦探漫画》#395列为他迁入基金会顶层公寓的时期起点；游戏中的捐赠牌则把这一公共慈善身份带入阿卡姆。",
+        "book": "Detective Comics #395（1970）",
+        "body": "韦恩基金会是布鲁斯将家族财富系统化反哺哥谭公共事务的制度实体。铭牌展示了其试图通过医疗捐赠根治哥谭精神痼疾的理想主义与现实溃败。",
         "images": []
       }
     },
@@ -894,20 +893,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 南走廊",
       "english": "What does a bird need in the rain?",
-      "translation": "一只鸟在雨里需要什么？",
+      "translation": "一只鸟儿在雨中需要什么？",
       "scene": "mansion-penguin-umbrellas-scene",
       "target": "mansion-penguin-umbrellas-target",
-      "solution": "扫描南走廊展示柜里的雨伞。bird指向企鹅，雨伞则同时回答了日常问题，并提示企鹅人最具辨识度的装备。",
+      "solution": "目标为陈列柜中放置的定制黑伞与企鹅人半身素描。bird 指代企鹅（Penguin），普通雨天必备的雨伞（umbrella）在阿卡姆语境下化为装载刀刃与火器的伪装刺杀兵刃。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 南走廊：一只鸟在雨里需要什么？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 南走廊：一只鸟儿在雨中需要什么？",
       "video": "07",
       "secretNumber": 152,
       "comic": {
         "book": "Detective Comics #58（1941）",
-        "body": "企鹅人在《侦探漫画》#58登场。谜题用“小鸟”代替人名，把雨天最普通的用品变成辨认哥谭反派的标志。",
+        "body": "企鹅人的致命机关雨伞是其标志性武器库。玻璃陈列柜收缴的黑伞暗示阿卡姆收押时剥离其武装的监管流程。",
         "images": []
       }
     },
@@ -917,20 +916,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 院长办公室",
       "english": "Isn't the Warden too old for a puppet show?",
-      "translation": "院长是不是已经过了看木偶戏的年纪？",
+      "translation": "堂堂院长，看木偶戏是不是有点太超龄了？",
       "scene": "mansion-scarface-puppet-scene",
       "target": "mansion-scarface-puppet-target",
-      "solution": "扫描办公室展示柜里的疤面木偶。puppet show直接描述眼前的人偶陈列，也让人想到腹语者借木偶说话的表演。",
+      "solution": "目标为院长办公室陈列柜内的木偶“疤脸”（Scarface）与黑条纹西装。puppet show 既是木偶剧，亦指腹语者阿诺德·韦斯克精神分裂的人格木偶控制；将其作为战利品陈设于院长室，反讽夏普院长的浮夸虚荣。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-scarface"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 院长办公室：院长是不是已经过了看木偶戏的年纪？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 院长办公室：堂堂院长，看木偶戏是不是有点太超龄了？",
       "video": "07",
       "secretNumber": 156,
       "comic": {
         "book": "Detective Comics #583（1988）",
-        "body": "腹语者与疤面在《侦探漫画》#583登场：说话的是阿诺德·韦斯克，发号施令的形象却是黑帮木偶。院长办公室中的陈列品，使这对搭档在没有现身的情况下进入谜题。",
+        "body": "腹语者韦斯克与其残酷暴戾的人格寄宿体“疤脸木偶”构成了哥谭最离奇的犯罪共生关系。木偶被孤立锁在柜中，仍散发出主导人心的邪恶压迫感。",
         "images": []
       }
     },
@@ -940,14 +939,14 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 主大厅",
       "english": "Who is the main man in the main hall?",
-      "translation": "主大厅里的头号人物是谁？",
+      "translation": "谁是主大厅里当之无愧的“头面人物”？",
       "scene": "mansion-sharp-plaque-scene",
       "target": "mansion-sharp-plaque-target",
-      "solution": "扫描主大厅雕像底座的表彰铭牌，上面写着Quincy Sharp及其对阿卡姆的贡献。main man既指“头号人物”，又与main hall形成重复，把目光引向大厅中被纪念的人。",
+      "solution": "目标为大理石雕像基座铜牌，镌刻着昆西·夏普在重开阿卡姆期间的功绩铭文。词组 main man（头号掌权者）与 main hall（主大厅）构成首韵头音双关，无情戳穿夏普院长好大喜功的官僚野心。",
       "sources": [
         "bav-asylum-riddles-07"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 主大厅：主大厅里的头号人物是谁？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 主大厅：谁是主大厅里当之无愧的“头面人物”？",
       "video": "07",
       "secretNumber": 157
     },
@@ -957,20 +956,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 杨医生办公室",
       "english": "It'll be a cold day in Hell when this Ghul rises again.",
-      "translation": "等这个“古尔”再度起身，地狱都该冻住了。",
+      "translation": "等到这个“古尔”死而复生，地狱怕是早已冻成了冰霜。",
       "scene": "mansion-ras-body-scene",
       "target": "mansion-ras-body-target",
-      "solution": "扫描冷藏柜里带有Ra’s al Ghul姓名标签的裹尸袋。cold day in Hell原意是“绝不可能”，冷藏环境又让cold成为字面描述；Ghul和rises指向这位不断重生的反派。",
+      "solution": "目标为停尸柜深处挂有 Ra's al Ghul 身份标签的防腐裹尸袋。谚语 a cold day in hell 意指“绝无可能发生”，冷冻停尸间的低温赋予 cold 字面冷意；Ghul 谐音食尸鬼（ghoul），与 rises again 直指拉萨尔格借助拉撒路之池无尽重生的不死宿命。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-ras"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 杨医生办公室：等这个“古尔”再度起身，地狱都该冻住了。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 杨医生办公室：等到这个“古尔”死而复生，地狱怕是早已冻成了冰霜。",
       "video": "07",
       "secretNumber": 161,
       "comic": {
         "book": "Batman #232（1971）",
-        "body": "拉斯·艾尔·古尔在《蝙蝠侠》#232登场。拉撒路之池赋予他疗伤与复生的力量，因此裹尸袋上的姓名和谜面中的“再次起身”，共同形成死亡与复活的反差。",
+        "body": "刺客联盟领袖拉萨尔格以古阿拉伯语“恶魔之首”为名，凭借拉撒路池水跨越数百年岁月。停尸袋中冰封的遗骸为后续剧集尸体神秘消失埋下了深远伏笔。",
         "images": []
       }
     },
@@ -980,20 +979,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 阿卡姆档案室",
       "english": "Our records show that a Strange transfer request was made in this room.",
-      "translation": "记录显示，这个房间里曾有一份“奇怪”的调动申请。",
+      "translation": "调阅档案可知，这个房间里曾有一份“奇怪”（Strange·斯特兰奇）的调令。",
       "scene": "mansion-strange-files-scene",
       "target": "mansion-strange-files-target",
-      "solution": "进入档案室封闭区域，扫描抽屉中标有STRANGE的文件。Strange既是“奇怪”，也是雨果·斯特兰奇的姓；records和transfer request则提示玩家寻找档案，而非房间中的人物。",
+      "solution": "目标为机要档案柜抽屉内标有 STRANGE 封皮的机密调动卷宗。形容词 strange（诡谲离奇）大写首字母，直接双关雨果·斯特兰奇教授（Hugo Strange）；transfer request 暗扣其调取病患资料、策划阿卡姆之城的阴谋发端。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-strange-debut"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 阿卡姆档案室：记录显示，这个房间里曾有一份“奇怪”的调动申请。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 阿卡姆档案室：调阅档案可知，这个房间里曾有一份“奇怪”（Strange·斯特兰奇）的调令。",
       "video": "07",
       "secretNumber": 162,
       "comic": {
         "book": "Detective Comics #36（1940）",
-        "body": "雨果·斯特兰奇早在《侦探漫画》#36便已登场，是蝙蝠侠最早的反派之一。游戏把他的姓氏放进机构文件，以行政手续的形式让这位人物进入阿卡姆的日常。",
+        "body": "雨果·斯特兰奇教授是蝙蝠侠最早的心智宿敌之一，以心理洞察与意志催眠著称。这份早期调动档案隐秘串联起疯人院与续作巨型监狱都市的幕后布局。",
         "images": []
       }
     },
@@ -1003,20 +1002,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 北走廊",
       "english": "Did Amadeus go mad, or was he just dizzy?",
-      "translation": "阿玛迪斯是疯了，还是只是头晕？",
+      "translation": "阿玛迪斯到底是发了疯，还是单纯晕了头？",
       "scene": "mansion-amadeus-cell-scene",
       "target": "mansion-amadeus-cell-target",
-      "solution": "扫描北走廊旧牢房里覆盖墙面的螺旋文字。go mad指精神崩溃，dizzy又提示会让视线眩晕的盘旋图案；答案需要看清整面墙的书写痕迹。",
+      "solution": "目标为旧牢房墙面密密麻麻刻画的同心重叠螺旋符文。go mad（发疯崩溃）与 dizzy（眩晕盘旋）相对，直指初代院长阿玛迪斯·阿卡姆晚年陷入疯狂时在石壁上留下的催眠眩晕图纹。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-arkham-morrison"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 北走廊：阿玛迪斯是疯了，还是只是头晕？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 北走廊：阿玛迪斯到底是发了疯，还是单纯晕了头？",
       "video": "07",
       "secretNumber": 166,
       "comic": {
         "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
-        "body": "格兰特·莫里森与戴夫·麦基恩的《阿卡姆疯人院》把阿玛迪斯·阿卡姆的悲剧，与蝙蝠侠穿越院舍的经历交织在一起。游戏中的旧牢房和旋转文字，让创办人的精神崩溃变成能够被玩家看到的建筑记忆。",
+        "body": "莫里森图画小说中阿玛迪斯在亲历妻女被杀后精神坍塌，将自身囚禁于亲手建立的疯人院。石壁上的盘旋凹痕具象化了家族诅咒侵蚀理性的终局。",
         "images": []
       }
     },
@@ -1026,20 +1025,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 东翼走廊",
       "english": "A game of Cat and mouse can be painful.",
-      "translation": "一场猫捉老鼠的游戏，可能会很疼。",
+      "translation": "猫捉老鼠的游戏，爪子尖锐可是会刺痛的。",
       "scene": "mansion-catwoman-kit-scene",
       "target": "mansion-catwoman-kit-target",
-      "solution": "扫描展示柜里的护目镜与爪状装备。Cat不只是比喻里的“猫”，也把玩家引向猫女；painful则提示锋利的装备。",
+      "solution": "目标为展柜内收缴的猫女夜视护目镜、皮鞭与金属爪勾。名词 Cat（大写指代猫女）将传统的猫鼠博弈童话升格为义警与神偷的周旋；painful 既指博弈受创，亦指护目镜旁锋利夺命的利爪装备。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 东翼走廊：一场猫捉老鼠的游戏，可能会很疼。",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 东翼走廊：猫捉老鼠的游戏，爪子尖锐可是会刺痛的。",
       "video": "07",
       "secretNumber": 167,
       "comic": {
         "book": "Batman #1（1940）",
-        "body": "猫女在《蝙蝠侠》#1登场。这里用一组装备代替人物本身，让“猫捉老鼠”的惯用说法转成哥谭盗贼的身份线索。",
+        "body": "塞琳娜·凯尔以“猫”之名在《蝙蝠侠》#1 登场，其高超盗窃技巧与猫科特制装备闻名哥谭。展柜中的皮鞭与爪勾见证了她与黑暗骑士间亦敌亦友的情感拉扯。",
         "images": []
       }
     },
@@ -1049,20 +1048,20 @@
       "game": "asylum",
       "region": "阿卡姆宅邸 · 杨医生办公室",
       "english": "How do you mask your feelings without losing control?",
-      "translation": "怎样戴上面具藏住情绪，又不失去控制？",
+      "translation": "怎样戴上面具“掩饰”（mask）情绪，而又不至于失控？",
       "scene": "mansion-black-mask-scene",
       "target": "mansion-black-mask-target",
-      "solution": "扫描办公室墙上装框的黑色骷髅面具。mask是实际的面具，也有“掩饰”的意思；黑色外观把这条线索指向黑面具。",
+      "solution": "目标为办公室内装裱在镜框里的黑色黑帮乌木面具。动词 mask 意为“伪装掩饰”，名词则指黑面具（Black Mask）罗曼·西恩尼斯；失控一词更映射其因火灾导致面具彻底烧熔嵌合进骨肉的狂暴宿命。",
       "sources": [
         "bav-asylum-riddles-07",
         "dc-black-mask-386"
       ],
-      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 杨医生办公室：怎样戴上面具藏住情绪，又不失去控制？",
+      "summary": "《阿卡姆疯人院》 · 阿卡姆宅邸 · 杨医生办公室：怎样戴上面具“掩饰”（mask）情绪，而又不至于失控？",
       "video": "07",
       "secretNumber": 172,
       "comic": {
         "book": "Batman #386（1985）",
-        "body": "《蝙蝠侠》#386介绍了失去化妆品公司控制权后化身黑面具的罗曼·西恩尼斯。谜面中的mask和losing control，把情绪的伪装与这段失控经历叠在一起。",
+        "body": "罗曼·西恩尼斯用父亲黑木棺木雕刻成骷髅面具，成为哥谭地下黑道最残忍的教父之一。装裱面具标本展现了阿卡姆对哥谭黑帮权贵的收容封印。",
         "images": []
       }
     },
@@ -1072,20 +1071,20 @@
       "game": "asylum",
       "region": "植物园 · 植物温室",
       "english": "What time is tea time in Wonderland?",
-      "translation": "仙境里，什么时候该喝茶？",
+      "translation": "在仙境里，几点才是喝茶的时刻？",
       "scene": "gardens-hatter-tea-scene",
       "target": "gardens-hatter-tea-target",
-      "solution": "扫描藏在植物间的茶壶与茶杯。Wonderland和tea time将场景指向《爱丽丝梦游仙境》的茶会，也带出疯帽匠的角色主题。",
+      "solution": "目标为温室花丛隐蔽深处摆放的精巧茶壶、茶杯与茶点。Wonderland 与 tea time 直接借引《爱丽丝梦游仙境》疯产茶会典故，指代痴迷于意念控制芯片与爱丽丝童话的“疯帽匠”杰维斯·泰奇。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 植物温室：仙境里，什么时候该喝茶？",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 植物温室：在仙境里，几点才是喝茶的时刻？",
       "video": "08",
       "secretNumber": 181,
       "comic": {
         "book": "Batman #49（1948）",
-        "body": "疯帽匠在《蝙蝠侠》#49登场。游戏借用他与《爱丽丝梦游仙境》的联系，在温室深处安排了一桌茶具，使文学中的茶会成为识别漫画人物的线索。",
+        "body": "疯帽匠在《蝙蝠侠》#49 初登场，将刘易斯·卡罗尔的荒诞童话歪曲为催眠操纵狂热。温室深处遗落的无人茶席将其超现实的妄想布景移栽进疯人院植被深处。",
         "images": []
       }
     },
@@ -1095,20 +1094,20 @@
       "game": "asylum",
       "region": "植物园 · 雕像走廊",
       "english": "Remember the Waynes? How could anyone forget?",
-      "translation": "记得韦恩夫妇吗？谁又能忘记他们？",
+      "translation": "还记得韦恩夫妇吗？谁又敢将他们遗忘？",
       "scene": "gardens-wayne-memorial-scene",
       "target": "gardens-wayne-memorial-target",
-      "solution": "扫描长椅上纪念THOMAS WAYNE AND MARTHA WAYNE的铭牌。remember既是“记得”，也是纪念设施表达的追思；答案就在两位捐助者的姓名上。",
+      "solution": "目标为林荫长椅靠背上纪念托马斯与玛莎·韦恩的铜铸追思牌。Remember 既是日常记忆，亦是铭牌开头标准的追思铭词；谁又能忘记直指那场改变整座城市命运的犯罪巷枪击惨剧。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-origin-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 雕像走廊：记得韦恩夫妇吗？谁又能忘记他们？",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 雕像走廊：还记得韦恩夫妇吗？谁又敢将他们遗忘？",
       "video": "08",
       "secretNumber": 182,
       "comic": {
         "book": "Detective Comics #33（1939）",
-        "body": "《侦探漫画》#33首次讲述布鲁斯因父母遇害而走上蝙蝠侠道路的起源。游戏没有在这道题中重演枪击，而是让一块公共纪念牌承载托马斯与玛莎的缺席。",
+        "body": "托马斯与玛莎·韦恩之死在《侦探漫画》#33 正式奠定了蝙蝠侠的诞生动因。长椅上的微小铭牌在疯狂蔓延的疯人院中成为哥谭良知最后的寂静墓碑。",
         "images": []
       }
     },
@@ -1118,20 +1117,20 @@
       "game": "asylum",
       "region": "植物园 · 通风系统",
       "english": "The Ratcatcher needed more than just his charm to lead his army.",
-      "translation": "捕鼠人率领他的大军，靠的可不只是魅力。",
+      "translation": "捕鼠人统领大军，靠的可不单是“魔笛”（charm·诱惑魅力）。",
       "scene": "gardens-ratcatcher-kit-scene",
       "target": "gardens-ratcatcher-kit-target",
-      "solution": "扫描通风道栅栏后的一组防毒面具、手套与装备。charm既可以指个人魅力，也使人想到诱导动物的本领；藏在狭窄通道中的器具点出捕鼠人的身份。",
+      "solution": "目标为通风铁网深处丢弃的防毒面罩、手套与喷雾装置。名词 charm 兼指个人领导魅力与捕鼠笛手（Pied Piper）吹奏的引诱音律；全套呼吸器具揭示其操纵地下鼠群绝非依靠魔法，而是精密且肮脏的生物防护。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-ratcatcher"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 通风系统：捕鼠人率领他的大军，靠的可不只是魅力。",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 通风系统：捕鼠人统领大军，靠的可不单是“魔笛”（charm·诱惑魅力）。",
       "video": "08",
       "secretNumber": 186,
       "comic": {
         "book": "Detective Comics #585（1988）",
-        "body": "奥蒂斯·弗兰尼根在《侦探漫画》#585以捕鼠人身份登场。这道题用通风道和防护装备，把能够率领老鼠的反派带进建筑的隐蔽通路。",
+        "body": "奥蒂斯·弗兰纳根曾是市政下水道捕鼠工，后化名捕鼠人驱使数以万计的下水道鼠潮危害城市。暗渠中的残破防毒装备见证了他长期潜行地下管道的恶劣生态。",
         "images": []
       }
     },
@@ -1141,20 +1140,20 @@
       "game": "asylum",
       "region": "植物园 · 淹水走廊",
       "english": "Looks like all the king's horses trampled all the king's men.",
-      "translation": "看起来，国王的马把国王的人全踩散了。",
+      "translation": "看来国王所有的马，把国王所有的人都踩了个粉碎。",
       "scene": "gardens-humpty-dolls-scene",
       "target": "gardens-humpty-dolls-target",
-      "solution": "扫描长椅上肢解的玩偶。谜面改写Humpty Dumpty童谣中的“国王的人马”，而被拆散、无法完整拼回的身体正是图像答案。",
+      "solution": "目标为长椅上丢弃的粗糙针线缝合、四肢被踩碎拆解的人偶残肢。化用《鹅妈妈童谣》矮胖子（Humpty Dumpty）典故，暗指身材肥胖、痴迷于收集并拼装残缺机械零件与人体器官的连环罪犯汉弗莱·杜姆普利。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-humpty-3"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 淹水走廊：看起来，国王的马把国王的人全踩散了。",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 淹水走廊：看来国王所有的马，把国王所有的人都踩了个粉碎。",
       "video": "08",
       "secretNumber": 191,
       "comic": {
         "book": "Arkham Asylum: Living Hell #3（2003）",
-        "body": "《阿卡姆疯人院：活地狱》#3讲述“矮胖子”汉弗莱·邓普勒的来历。他喜欢拆开东西再把它们装回去；长椅上的玩偶，把这项令人不安的爱好变成一幅童谣图景。",
+        "body": "丹·斯洛特在《人间地狱》中引入矮胖子，其病理特征为偏执地拆解并试图“修复”一切破损物件甚至活人。被缝合又践踏的玩偶准确对应了其支离破碎的精神创伤。",
         "images": []
       }
     },
@@ -1164,20 +1163,20 @@
       "game": "asylum",
       "region": "植物园 · 淹水走廊",
       "english": "Is this a tribute to what a mad dog left behind?",
-      "translation": "这是否是在纪念一条“疯狗”留下的东西？",
+      "translation": "这是一座悼念丰碑，还是只是一条“疯狗”留下的残迹？",
       "scene": "gardens-constance-memorial-scene",
       "target": "gardens-constance-memorial-target",
-      "solution": "扫描康斯坦丝·阿卡姆半身像底座的铭牌，那里写着MY DEAR WIFE、THE FIRST LADY OF ARKHAM，并有MAD DOG涂写。名字、亲属关系和污损文字共同把谜面带回阿卡姆家族的悲剧。",
+      "solution": "目标为初代院长夫人康斯坦丝·阿卡姆半身雕像基座，石刻被猩红喷漆涂抹上 MAD DOG 字样。mad dog 既指狂犬野兽，更是残忍虐杀康斯坦丝母女的嗜血恶徒马丁·“疯狗”·霍金斯（Martin \"Mad Dog\" Hawkins）的绰号。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-arkham-morrison"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 淹水走廊：这是否是在纪念一条“疯狗”留下的东西？",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 淹水走廊：这是一座悼念丰碑，还是只是一条“疯狗”留下的残迹？",
       "video": "08",
       "secretNumber": 192,
       "comic": {
         "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
-        "body": "莫里森与麦基恩的《阿卡姆疯人院》以阿玛迪斯的家族悲剧铺陈院舍历史。游戏把妻子的纪念像置于花园，再让涂写破坏追思的庄重，使家族记忆与暴力痕迹并存在同一处景物上。",
+        "body": "莫里森笔下阿卡姆历史的转折点正是“疯狗”霍金斯残杀院长妻女。阿玛迪斯最终以电疗将其秘密私刑处死，奠定了整座疯人院建立在复仇与诅咒之上的血腥基石。",
         "images": []
       }
     },
@@ -1187,14 +1186,14 @@
       "game": "asylum",
       "region": "植物园 · 鸟舍",
       "english": "There's no closet in the Gardens, so someone is using the roof instead.",
-      "translation": "花园里没有壁橱，所以有人改用屋顶了。",
+      "translation": "花园里可没有壁橱，于是有人把秘密藏上了屋顶。",
       "scene": "gardens-roof-skeleton-scene",
       "target": "gardens-roof-skeleton-target",
-      "solution": "抬头扫描鸟舍高处隐蔽的骸骨。skeleton in the closet意为“不可告人的秘密”，字面是“壁橱里的骷髅”；没有壁橱的花园把藏匿地点换成了屋顶。",
+      "solution": "目标为温室穹顶鸟舍高处悬挂掩映的人类白骨。成语 skeleton in the closet 意指“不可告人的家族丑闻/壁橱里的骷髅”；无处隐蔽的露天植物园将这一丑闻字面化为高悬在玻璃天顶之上的真实骸骨。",
       "sources": [
         "bav-asylum-riddles-08"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 鸟舍：花园里没有壁橱，所以有人改用屋顶了。",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 鸟舍：花园里可没有壁橱，于是有人把秘密藏上了屋顶。",
       "video": "08",
       "secretNumber": 196
     },
@@ -1204,20 +1203,20 @@
       "game": "asylum",
       "region": "植物园 · 温室入口",
       "english": "Is the number up for these guards?",
-      "translation": "这些警卫，是不是已经“数到头”了？",
+      "translation": "这几位警卫，是不是已经“气数已尽”（数到头了）？",
       "scene": "gardens-guards-count-scene",
       "target": "gardens-guards-count-target",
-      "solution": "扫描入口长椅上被摆放的警卫遗体。one’s number is up意为“大限已到”；number又让这一幕与扎斯计数杀人的习惯产生联系。",
+      "solution": "目标为大理石长椅上被整齐并排陈列的遇害警卫遗体。习语 one's number is up 意为“大限已到、气数已尽”，名词 number 再次扣紧连环杀手维克多·扎斯在皮肤上划下的刀刻计数标尺。",
       "sources": [
         "bav-asylum-riddles-08",
         "dc-zsasz"
       ],
-      "summary": "《阿卡姆疯人院》 · 植物园 · 温室入口：这些警卫，是不是已经“数到头”了？",
+      "summary": "《阿卡姆疯人院》 · 植物园 · 温室入口：这几位警卫，是不是已经“气数已尽”（数到头了）？",
       "video": "08",
       "secretNumber": 197,
       "comic": {
         "book": "Batman: Shadow of the Bat #1（1992）",
-        "body": "扎斯在《蝙蝠侠：蝙蝠之影》#1登场，杀人后会在皮肤上增加一道计数痕。谜面把“数目”和“死期”连在一起，遗体的陈列则让后果直接进入环境。",
+        "body": "扎斯视众生为受痛苦囚禁的傀儡，通过割喉施予其所谓的“解脱”。排列整齐的警卫遗体与狂欢般的现场陈设，彰显出其对秩序机构的彻底蔑视。",
         "images": []
       }
     },
@@ -1227,20 +1226,20 @@
       "game": "asylum",
       "region": "监狱 · 主牢房区",
       "english": "This room is the end of days for even the most celebrated killer.",
-      "translation": "即使最“会过节”的杀手，在这个房间里也到了日子的尽头。",
+      "translation": "即使最懂“庆祝节日”的杀手，在这间房里也走到了日子的尽头。",
       "scene": "prison-calendar-cell-scene",
       "target": "prison-calendar-cell-target",
-      "solution": "扫描贴满日历纸页的牢房。end of days既是“日子的终点”，也指向满地散落的日期；celebrated同时借“著名”和“庆祝节日”的意思提示日历人。",
+      "solution": "目标为四壁与地板贴满历法黄历残页的圆形囚室。短语 end of days 既是末日启示录，亦指撕完的日历尽头；celebrated 既形容声名远扬，更双关日历人朱利安·戴（Julian Day）按节庆假日制定谋杀仪式的病态特质。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-calendar"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 主牢房区：即使最“会过节”的杀手，在这个房间里也到了日子的尽头。",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 主牢房区：即使最懂“庆祝节日”的杀手，在这间房里也走到了日子的尽头。",
       "video": "09",
       "secretNumber": 221,
       "comic": {
         "book": "Detective Comics #259（1958）；Batman: The Long Halloween（1996—1997）",
-        "body": "朱利安·戴在《侦探漫画》#259以日历人身份登场。他围绕日期与节日犯罪，在《漫长的万圣节》中又成为蝙蝠侠追查假日杀手时询问的对象。牢房里的日历将这种执念变成了空间特征。",
+        "body": "漫夫与塞尔的《漫长万圣节》确立了日历人作为高智商节令犯罪谋士的冷峻形象。囚室内雪崩般的日历残页再现了他对流逝时间的疯狂迷恋。",
         "images": []
       }
     },
@@ -1250,20 +1249,20 @@
       "game": "asylum",
       "region": "监狱 · 极端监禁区",
       "english": "All alone in your cell? Why don't you break the ice with the most dangerous prisoners?",
-      "translation": "一个人关在牢房里？何不和最危险的囚犯“破破冰”？",
+      "translation": "独守空房未免寂寞；何不与最危险的囚徒“破破冰”（break the ice）？",
       "scene": "prison-freeze-cell-scene",
       "target": "prison-freeze-cell-target",
-      "solution": "扫描被冰霜包围的4号牢房。break the ice本是“打破隔阂、活跃气氛”，这里却由厚重的结冰把它变成字面提示，指向急冻人。",
+      "solution": "目标为被一层深厚冰霜死死冻结封闭的 4 号牢房。社交寒暄语 break the ice 意为“打破隔阂破冰”，在极低温的冰霜牢房面前化为字面物理破坏；结冰严霜直指被剥夺低温维生装甲的急冻人维克多·弗里斯。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 极端监禁区：一个人关在牢房里？何不和最危险的囚犯“破破冰”？",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 极端监禁区：独守空房未免寂寞；何不与最危险的囚徒“破破冰”（break the ice）？",
       "video": "09",
       "secretNumber": 226,
       "comic": {
-        "book": "Batman #121（1959）；Batman: The Animated Series — Heart of Ice（1992）",
-        "body": "急冻人的漫画前身Mr. Zero在《蝙蝠侠》#121登场；动画《冰之心》后来重塑了他的悲剧背景。游戏通过冰封牢房，让玩家先从温度和材质辨认这位人物。",
+        "book": "Batman #121（1959）；Batman: The Animated Series 《冰冷之心》（Heart of Ice, 1992）",
+        "body": "急冻人弗里斯博士依赖绝对零度的极寒防护生存。被封冻的特制囚室展现了阿卡姆必须依靠人造低温环境方能维持其生命的残酷监禁条件。",
         "images": []
       }
     },
@@ -1273,20 +1272,20 @@
       "game": "asylum",
       "region": "监狱 · 安全控制室",
       "english": "A case of mistaken identity?",
-      "translation": "这是认错身份了吗？",
+      "translation": "这难道是一桩“认错身份”的悬案？",
       "scene": "prison-clayface-identity-scene",
       "target": "prison-clayface-identity-target",
-      "solution": "扫描封闭牢房里不断变换外貌的人。打开侦探模式再观察，眼前的外形与正常人类骨架并不相符；身份变化正是这道题的答案。",
+      "solution": "目标为单向隔离玻璃后不断液化变形为不同警卫与狱卒面孔的无定形泥塑囚徒。成语 a case of mistaken identity 意指“错认身份”，在泥面人（Clayface）随意溶解并模仿人类骨骼样貌的超常能力面前，被赋予以假乱真的肉体欺诈意味。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-clayface"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 安全控制室：这是认错身份了吗？",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 安全控制室：这难道是一桩“认错身份”的悬案？",
       "video": "09",
       "secretNumber": 227,
       "comic": {
-        "book": "Detective Comics #40（1940）及泥脸的变形能力",
-        "body": "泥脸这个名号始于《侦探漫画》#40，后来由多个人物继承，变形能力成为其核心特征。游戏把这种能力做成囚室中的可观察变化：同一个位置，却无法靠面孔确定身份。",
+        "book": "Detective Comics #40（1940）",
+        "body": "泥面人最初为善于伪装的过气演员巴兹尔·卡洛，后世传承中融合了可自由变换黏土躯体的超常变异。侦探模式下无法穿透骨骼的变形者形象是其最致命的伪装特征。",
         "images": []
       }
     },
@@ -1296,20 +1295,20 @@
       "game": "asylum",
       "region": "监狱 · 主牢房区",
       "english": "Two people, one voice, no gun?",
-      "translation": "两个人，一个声音，没有枪？",
+      "translation": "两个人，一个嗓门，却没了枪？",
       "scene": "prison-ventriloquist-gun-scene",
       "target": "prison-ventriloquist-gun-target",
-      "solution": "扫描展示柜里标注Ventriloquist的冲锋枪。谜面让玩家想到腹语者与木偶的搭档，再用“没有枪”提示寻找被收走、单独陈列的武器。",
+      "solution": "目标为牢房武器陈列柜中缴获并锁闭的汤姆逊冲锋枪。Two people, one voice 指腹语者阿诺德·韦斯克与其凶悍木偶疤脸共享同一发声器官的共生特性；no gun 则戏谑其丧失标志性军火后便沦为软弱无害的老人。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-scarface"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 主牢房区：两个人，一个声音，没有枪？",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 主牢房区：两个人，一个嗓门，却没了枪？",
       "video": "09",
       "secretNumber": 228,
       "comic": {
         "book": "Detective Comics #583（1988）",
-        "body": "腹语者与疤面在《侦探漫画》#583登场。一个人借木偶说出另一个声音，木偶又以黑帮老大的形象行动；被陈列的冲锋枪延续了疤面的黑帮装束。",
+        "body": "腹语者韦斯克依靠手中的黑帮汤姆逊冲锋枪释放其被压抑的暴力第二人格。单独展示的被俘枪械象征着对其狂暴人格的暂时物理缴械。",
         "images": []
       }
     },
@@ -1319,20 +1318,20 @@
       "game": "asylum",
       "region": "监狱 · 管制通道",
       "english": "What has four walls, two sides, and one ex-DA?",
-      "translation": "什么东西有四面墙、两个面，还装着一位前检察官？",
+      "translation": "什么东西四面是墙、两个面孔，还关着一位前任检察官？",
       "scene": "prison-two-face-cell-scene",
       "target": "prison-two-face-cell-target",
-      "solution": "扫描贴着丹特竞选海报、布满刻痕的牢房墙面。four walls指牢房，two sides指双面人，ex-DA则把答案锁定在前地区检察官哈维·丹特身上。",
+      "solution": "目标为半边光洁、半边被火烧刀刻成炼狱残骸的极端对称牢房。经典的字谜结构 four walls 指囚室，two sides 双关正反双重人格与双面人（Two-Face），ex-DA 则落定前地方检察官哈维·丹特的公职悲剧。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 管制通道：什么东西有四面墙、两个面，还装着一位前检察官？",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 管制通道：什么东西四面是墙、两个面孔，还关着一位前任检察官？",
       "video": "09",
       "secretNumber": 231,
       "comic": {
         "book": "Detective Comics #66（1942）",
-        "body": "双面人的初登场故事以一场法庭袭击改变哈维·丹特的人生。他原本代表法律，如今却被关在法律机构的牢房里；旧海报让这段身份落差留在墙面。",
+        "body": "哈维·丹特因硫酸毁容分裂为双面人，将一切裁决交付于一枚划痕双头硬币。牢房室内截然对立的双色陈设具象化了其二元对立的偏执人格。",
         "images": []
       }
     },
@@ -1342,20 +1341,20 @@
       "game": "asylum",
       "region": "监狱 · 警卫室",
       "english": "Prometheus, Arkham guards' most wanted and most hated.",
-      "translation": "普罗米修斯：阿卡姆警卫最想抓住，也最痛恨的人。",
+      "translation": "普罗米修斯：阿卡姆守卫最想缉拿，也最咬牙切齿之人。",
       "scene": "prison-prometheus-poster-scene",
       "target": "prison-prometheus-poster-target",
-      "solution": "清理警卫室通路的障碍，扫描公告板上WANTED BY G.C.P.D.、PROMETHEUS的通缉海报。most wanted既是“最想要”，也是通缉榜上的惯用说法。",
+      "solution": "目标为警卫调度台软木公告板上被多枚图钉狠狠刺穿的普罗米修斯全球通缉令。most wanted 既是警局官方通缉最高等级，亦表达警卫对其屠杀执法者的刻骨痛恨；普罗米修斯头盔面具特写构成了整面警务板的视觉焦点。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-prometheus-timeline"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 警卫室：普罗米修斯：阿卡姆警卫最想抓住，也最痛恨的人。",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 警卫室：普罗米修斯：阿卡姆守卫最想缉拿，也最咬牙切齿之人。",
       "video": "09",
       "secretNumber": 232,
       "comic": {
-        "book": "New Year’s Evil: Prometheus #1；JLA #16—17（1998）",
-        "body": "普罗米修斯在《新年恶人：普罗米修斯》#1登场，随后在《JLA》#16—17挑战正义联盟。他的装甲和面罩出现在警局通缉海报里，让联盟级别的威胁进入阿卡姆的警卫视野。",
+        "book": "New Year’s Evil: Prometheus #1（1998）；JLA #16—17（1998）",
+        "body": "格兰特·莫里森塑造的反义警天才普罗米修斯将执法者屠戮殆尽，被视为“反向蝙蝠侠”。被警卫飞镖与图钉扎得千疮百孔的通缉令，无声倾泻着警卫力量的恐惧与仇恨。",
         "images": []
       }
     },
@@ -1365,20 +1364,20 @@
       "game": "asylum",
       "region": "监狱 · 牢房通道洗手间",
       "english": "How do you reflect on your successes and failures, Batman?",
-      "translation": "蝙蝠侠，你如何“反思”自己的成功与失败？",
+      "translation": "蝙蝠侠，你究竟如何“反思”（reflect·镜中自照）自己的成败？",
       "scene": "prison-batman-mirror-scene",
       "target": "prison-batman-mirror-target",
-      "solution": "面向洗手间的镜子，扫描蝙蝠侠自己的倒影。reflect on意为“反思”，reflect也指镜面反射；这次要寻找的对象，就是玩家一直控制的人。",
+      "solution": "目标为污秽洗手间破碎镜面中映照出的蝙蝠侠自身倒影。动词短语 reflect on 既是精神层面的自省与审视，动词 reflect 亦指物理镜面的光学反射；谜语人以此逼迫玩家将审视的视线从外部世界调转，直视面罩下这名凡人英雄的偏执与孤独。",
       "sources": [
         "bav-asylum-riddles-09",
         "dc-arkham-morrison"
       ],
-      "summary": "《阿卡姆疯人院》 · 监狱 · 牢房通道洗手间：蝙蝠侠，你如何“反思”自己的成功与失败？",
+      "summary": "《阿卡姆疯人院》 · 监狱 · 牢房通道洗手间：蝙蝠侠，你究竟如何“反思”（reflect·镜中自照）自己的成败？",
       "video": "09",
       "secretNumber": 233,
       "comic": {
         "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
-        "body": "莫里森与麦基恩的《阿卡姆疯人院》让蝙蝠侠在穿越院舍时直面自身，也追问他与这里的病人究竟有多远。游戏中的镜子把“审视自己”变成一次实际操作：扫描目标就是蝙蝠侠自己的倒影。",
+        "body": "莫里森的图画小说核心命题正是蝙蝠侠进入疯人院后的心智镜像对照——义警与狂徒实为同一镜面的两半。洗手间斑驳镜面里的倒影成为全作 42 道扫描谜题最具自省力量的哲学收尾。",
         "images": []
       }
     },
@@ -1388,20 +1387,20 @@
       "game": "city",
       "region": "Park Row · 丹特竞选办公室",
       "english": "DA campaign special: Get two votes, for the price of one.",
-      "translation": "检察官竞选特惠：一票的价钱，换两张选票。",
+      "translation": "地方检察官竞选特惠：一票的价钱，换两张选票。",
       "scene": "city-park-dent-campaign-scene",
       "target": "city-park-dent-campaign-target",
-      "solution": "扫描HARVEY DENT竞选办公室的招牌。DA是地区检察官的缩写，two votes把丹特的竞选身份与“双面”的主题接在一起。",
+      "solution": "目标为帕克街角落 HARVEY DENT 竞选总部的破损招牌。缩写 DA 指地方检察官（District Attorney），two votes（两张选票）将丹特昔日的政治竞选与双面人对数字“二”的偏执符号紧密交织。",
       "sources": [
         "bav-city-riddles-02",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 丹特竞选办公室：检察官竞选特惠：一票的价钱，换两张选票。",
+      "summary": "《阿卡姆之城》 · Park Row · 丹特竞选办公室：地方检察官竞选特惠：一票的价钱，换两张选票。",
       "video": "city-02",
       "secretNumber": 2,
       "comic": {
         "book": "Detective Comics #66（1942）",
-        "body": "哈维·丹特在《侦探漫画》#66以双面人身份登场，原本担任检察官，毁容后把数字“二”变成犯罪主题。游戏借用他的公职与双重形象，让竞选和司法物件也能成为姓名线索。",
+        "body": "哈维·丹特在《侦探漫画》#66 中从明星检察官堕落为双面人。残破的竞选总部将哥谭法治理想的幻灭直接镌刻在阿卡姆之城的废墟墙头。",
         "images": []
       }
     },
@@ -1411,20 +1410,20 @@
       "game": "city",
       "region": "Park Row · 所罗门·韦恩法院",
       "english": "BANG! BANG! Order in the court.",
-      "translation": "砰！砰！法庭肃静。",
+      "translation": "砰！砰！肃静，法庭开庭。",
       "scene": "city-park-court-guns-scene",
       "target": "city-park-court-guns-target",
-      "solution": "进入法院，扫描法槌旁陈列的两把手枪。BANG既能是枪声，也能让人想到法槌敲击；两把枪又延续了丹特与数字“二”的联系。",
+      "solution": "目标为所罗门·韦恩法院审判席法槌旁并排摆放的两把左轮手枪。拟声词 BANG! BANG! 既摹写开庭法槌落下的脆响，亦模拟连续射出的双发子弹；两把手枪再次强化了双面人的对称二元审判。",
       "sources": [
         "bav-city-riddles-02",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 所罗门·韦恩法院：砰！砰！法庭肃静。",
+      "summary": "《阿卡姆之城》 · Park Row · 所罗门·韦恩法院：砰！砰！肃静，法庭开庭。",
       "video": "city-02",
       "secretNumber": 3,
       "comic": {
         "book": "Detective Comics #66（1942）",
-        "body": "哈维·丹特在《侦探漫画》#66以双面人身份登场，原本担任检察官，毁容后把数字“二”变成犯罪主题。游戏借用他的公职与双重形象，让竞选和司法物件也能成为姓名线索。",
+        "body": "双面人将法庭审判异化为非生即死的硬币赌博。法官席上的成对左轮手枪体现了他以私刑暴力彻底践踏司法的狂乱行径。",
         "images": []
       }
     },
@@ -1434,22 +1433,22 @@
       "game": "city",
       "region": "Park Row · 法院地下牢房",
       "english": "Who's crazy enough to date this guy?",
-      "translation": "谁会疯到和这个家伙约会？",
+      "translation": "谁会疯到想和这个家伙“约会”（date·对日子）？",
       "scene": "city-park-calendar-cell-scene",
       "target": "city-park-calendar-cell-target",
-      "solution": "扫描地下牢房里的日历人。date既是“约会”，也是“日期”；牢房与日期意象共同指向朱利安·戴。",
+      "solution": "目标为法院地下牢房内被日历纸与节日供品包围的日历人朱利安·戴。动词 date 既是日常男女约会，名词 date 亦指日历上的特定日期；满地撕碎的历法黄历正是其按节庆杀人的罪恶符咒。",
       "sources": [
         "bav-city-riddles-02",
         "city-park-row",
         "knight-founders",
         "dc-calendar"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 法院地下牢房：谁会疯到和这个家伙约会？",
+      "summary": "《阿卡姆之城》 · Park Row · 法院地下牢房：谁会疯到想和这个家伙“约会”（date·对日子）？",
       "video": "city-02",
       "secretNumber": 4,
       "comic": {
-        "book": "《Detective Comics》#259（1958）",
-        "body": "日历人首次登场于《Detective Comics》#259；围绕节日与日期犯罪，是他持续沿用的主题。游戏将这种对时间的执念变成可扫描的日历陈设；牢房内按节日变化的对话属于另一层互动内容。",
+        "book": "Detective Comics #259（1958）；Batman: The Long Halloween（1996—1997）",
+        "body": "日历人在《漫长万圣节》中转型为高深莫测的牢狱犯罪智库。地下室随现实日期发生语音互动的设定，还原了他以时间刻度丈量生命的偏执狂热。",
         "images": []
       }
     },
@@ -1459,20 +1458,20 @@
       "game": "city",
       "region": "Park Row · 猫女住处",
       "english": "It's far from PURRFECT, but she calls it home.",
-      "translation": "这里远算不上完美，她却称之为家。",
+      "translation": "这里虽远谈不上“完美”（PURRFECT·咕噜呼噜），她却视之为家。",
       "scene": "city-park-catwoman-home-scene",
       "target": "city-park-catwoman-home-target",
-      "solution": "扫描猫女住处的窗与外墙。PURRFECT把猫的呼噜声purr放进perfect；墙上的CATWOMAN涂写也把这个家与人物姓名连起来。",
+      "solution": "目标为旧公寓外墙上涂有 CATWOMAN 标记的猫女藏身寓所窗口。双关语 PURRFECT 将猫咪喉间的满足呼噜声（purr）与完美（perfect）合成一体；破旧的窗棂揭示了盗贼在罪恶城区的栖身之所。",
       "sources": [
         "bav-city-riddles-02",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 猫女住处：这里远算不上完美，她却称之为家。",
+      "summary": "《阿卡姆之城》 · Park Row · 猫女住处：这里虽远谈不上“完美”（PURRFECT·咕噜呼噜），她却视之为家。",
       "video": "city-02",
       "secretNumber": 5,
       "comic": {
         "book": "Batman #1（1940）",
-        "body": "猫女在《蝙蝠侠》#1登场。游戏让猫科词语、住处与猫女姓名连成一条辨认线索，把这位盗贼的日常生活留在城市环境里。",
+        "body": "塞琳娜·凯尔在《蝙蝠侠》#1 登场，其猫科习性与流浪盗贼身份相辅相成。公寓外景展现了她在围城中保有独立领地的生活侧影。",
         "images": []
       }
     },
@@ -1482,14 +1481,14 @@
       "game": "city",
       "region": "Park Row · 地陷封锁区",
       "english": "You've been warned. People aren't the only unstable part of this city.",
-      "translation": "警告过你了。这座城市里不稳定的，可不只有人。",
+      "translation": "早给过警告：这座城里不稳定的，可不单只有人。",
       "scene": "city-park-subsidence-scene",
       "target": "city-park-subsidence-target",
-      "solution": "扫描地陷封锁区的警告牌。unstable既可以形容精神状态，也指建筑与地基不稳，现场的CATASTROPHIC SUBSIDENCE把后一个意思写了出来。",
+      "solution": "目标为被铁丝网与警示灯封锁的地陷危楼公告牌，标明 CATASTROPHIC SUBSIDENCE（灾难性地面沉降）。形容词 unstable 既形容囚犯们暴虐脆弱的精神状态，亦直指阿卡姆之城地基崩塌下陷的物理灾难。",
       "sources": [
         "bav-city-riddles-02"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 地陷封锁区：警告过你了。这座城市里不稳定的，可不只有人。",
+      "summary": "《阿卡姆之城》 · Park Row · 地陷封锁区：早给过警告：这座城里不稳定的，可不单只有人。",
       "video": "city-02",
       "secretNumber": 6
     },
@@ -1499,14 +1498,14 @@
       "game": "city",
       "region": "Park Row · 教堂医疗点",
       "english": "If you find the name, does the Cash come hand in hand?",
-      "translation": "找到这个姓名时，“现金”和手会一同出现吗？",
+      "translation": "找到这个姓名时，“现金”（Cash·卡什）与手会一同出现吗？",
       "scene": "city-park-cash-hand-scene",
       "target": "city-park-cash-hand-target",
-      "solution": "扫描医疗点里阿伦·卡什的名牌与钩手。Cash既是“现金”，也是警卫的姓；hand则让线索落在与名牌一起留下的义肢上。",
+      "solution": "目标为教堂医疗救助点桌上遗留的阿伦·卡什警卫工牌与备用金属铁钩手。名词 Cash 既指金钱现金，亦是守卫主管阿伦·卡什的姓氏；hand 则双关他被杀手鳄吞噬后换上的铁钩义肢。",
       "sources": [
         "bav-city-riddles-02"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 教堂医疗点：找到这个姓名时，“现金”和手会一同出现吗？",
+      "summary": "《阿卡姆之城》 · Park Row · 教堂医疗点：找到这个姓名时，“现金”（Cash·卡什）与手会一同出现吗？",
       "video": "city-02",
       "secretNumber": 7
     },
@@ -1516,14 +1515,14 @@
       "game": "city",
       "region": "Park Row · 扣押物品库",
       "english": "This den is where the vicious animals take your treasure. Is it theft, if it's already stolen?",
-      "translation": "这些凶猛动物在窝里拿走你的财宝。东西早就偷来过，还算盗窃吗？",
+      "translation": "凶残恶兽在此搜刮财宝；如果早是偷来的，这还算盗窃吗？",
       "scene": "city-park-confiscated-goods-scene",
       "target": "city-park-confiscated-goods-target",
-      "solution": "扫描CONFISCATED GOODS扣押物品库入口。vicious animals暗扣TYGER的猛兽意象，treasure、theft和already stolen则把答案引向被没收、再遭盗取的财物。",
+      "solution": "目标为铁门紧锁的 CONFISCATED GOODS（违禁扣押物资库）库房。vicious animals 暗喻如狼似虎的 TYGER 装甲重兵；stolen 与 theft 则一针见血揭露雨果·斯特兰奇以执法之名搜刮全城资产的强盗行径。",
       "sources": [
         "bav-city-riddles-02"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 扣押物品库：这些凶猛动物在窝里拿走你的财宝。东西早就偷来过，还算盗窃吗？",
+      "summary": "《阿卡姆之城》 · Park Row · 扣押物品库：凶残恶兽在此搜刮财宝；如果早是偷来的，这还算盗窃吗？",
       "video": "city-02",
       "secretNumber": 8
     },
@@ -1533,20 +1532,20 @@
       "game": "city",
       "region": "Park Row · 花店旧址",
       "english": "Has this flower turned over a new leaf?",
-      "translation": "这朵花，已经翻开新的一“叶”了吗？",
+      "translation": "这朵带刺的花，难道真能“改过自新”（翻开新叶）？",
       "scene": "city-park-ivy-florist-scene",
       "target": "city-park-ivy-florist-target",
-      "solution": "扫描被巨大藤蔓侵占的花店。turn over a new leaf意为“改过自新”，leaf又是植物叶片；花店的外墙让这句惯用语同时成为毒藤女的线索。",
+      "solution": "目标为被粗壮巨型毒藤彻底侵蚀破裂的花店招牌。成语 turn over a new leaf 意为“洗心革面/改过自新”，名词 leaf（叶片）将道德悔改转化为植物藤叶的物理绞杀，嘲讽毒藤女绝无向人类妥协的可能。",
       "sources": [
         "bav-city-riddles-02",
         "dc-ivy"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 花店旧址：这朵花，已经翻开新的一“叶”了吗？",
+      "summary": "《阿卡姆之城》 · Park Row · 花店旧址：这朵带刺的花，难道真能“改过自新”（翻开新叶）？",
       "video": "city-02",
       "secretNumber": 9,
       "comic": {
         "book": "Batman #181（1966）",
-        "body": "毒藤女在《蝙蝠侠》#181登场，控制植物、释放毒素与费洛蒙成为她的重要能力。游戏把花、根和蔓生的枝叶变成她的环境标记，让玩家循着植物辨认人物。",
+        "body": "帕梅拉·艾斯利视植物王国高于一切人类造物。花店被藤蔓反噬的景象具象化了她以自然野性吞没现代文明的生态复仇哲学。",
         "images": []
       }
     },
@@ -1556,20 +1555,20 @@
       "game": "city",
       "region": "Park Row · 疯帽匠茶会房间",
       "english": "I wonder how you can land an appointment with this milliner? Perhaps it would be best to book?",
-      "translation": "怎样约见这位帽匠？也许最好先“订一本书”？",
+      "translation": "怎样约见这位帽匠？也许最好先“订上一本”（book·订位/书本）？",
       "scene": "city-park-hatter-book-scene",
       "target": "city-park-hatter-book-target",
-      "solution": "进入茶会房间，扫描桌上的《爱丽丝梦游仙境》。milliner是制帽匠，book既能作“预约”，也是眼前的书本；小说把帽匠和茶会连在一起。",
+      "solution": "目标为地下茶会餐桌正中央翻开的精装《爱丽丝梦游仙境》原著小说。词语 book 既是动词预约排期，亦是名词实体书本；制帽匠（milliner）与童话读本共同锁定痴迷于催眠幻象的疯帽匠杰维斯·泰奇。",
       "sources": [
         "bav-city-riddles-02",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 疯帽匠茶会房间：怎样约见这位帽匠？也许最好先“订一本书”？",
+      "summary": "《阿卡姆之城》 · Park Row · 疯帽匠茶会房间：怎样约见这位帽匠？也许最好先“订上一本”（book·订位/书本）？",
       "video": "city-02",
       "secretNumber": 10,
       "comic": {
         "book": "Batman #49（1948）",
-        "body": "疯帽匠在《蝙蝠侠》#49登场。他的名号与《爱丽丝梦游仙境》相连；游戏中的帽子、书本与茶会，让文字游戏借文学意象落在具体物件上。",
+        "body": "疯帽匠将刘易斯·卡罗尔的文学世界当做精神避难所。茶桌上的原著读本正是他诱捕并催眠受害者沉沦幻梦的心智图腾。",
         "images": []
       }
     },
@@ -1579,20 +1578,20 @@
       "game": "city",
       "region": "Park Row · 诊所门面",
       "english": "Do you have Strange thoughts? Maybe you should seek help?",
-      "translation": "你有“奇怪”的念头吗？也许该寻求帮助。",
+      "translation": "你有“奇怪”（Strange·斯特兰奇）的念头吗？或许该寻求诊疗。",
       "scene": "city-park-strange-clinic-scene",
       "target": "city-park-strange-clinic-target",
-      "solution": "扫描街边精神诊疗机构的门面。Strange既是“奇怪”，也是雨果·斯特兰奇的姓；seek help把人物线索藏进心理诊疗的日常措辞。",
+      "solution": "目标为街角破败的雨果·斯特兰奇心理诊所旧招牌。形容词 strange 既指精神异样狂想，亦直接点出幕后黑手雨果·斯特兰奇教授；心理咨询招牌在罪恶之城中折射出道貌岸然的控制欲。",
       "sources": [
         "bav-city-riddles-02",
         "dc-strange-debut"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 诊所门面：你有“奇怪”的念头吗？也许该寻求帮助。",
+      "summary": "《阿卡姆之城》 · Park Row · 诊所门面：你有“奇怪”（Strange·斯特兰奇）的念头吗？或许该寻求诊疗。",
       "video": "city-02",
       "secretNumber": 11,
       "comic": {
         "book": "Detective Comics #36（1940）",
-        "body": "雨果·斯特兰奇在《侦探漫画》#36登场。Strange既是“奇怪”，也是人物姓氏；游戏又赋予他精神医疗与监控机构的权力，让诊疗招牌和机构名称都带上这层双关。",
+        "body": "雨果·斯特兰奇擅长以精神分析洞穿他人潜意识缺陷。旧诊所门面见证了他从体制内心理学家演变为全城极权支配者的阴谋起点。",
         "images": []
       }
     },
@@ -1602,21 +1601,21 @@
       "game": "city",
       "region": "Park Row · 电影海报墙",
       "english": "I am an actor who can transform a film with the final cut. Who am I?",
-      "translation": "我是一名演员，能用最终一“剪”改变电影。我是谁？",
+      "translation": "我是一名演员，能用最终一“剪”（final cut·致命裁决）重塑电影。我是谁？",
       "scene": "city-park-karlo-poster-scene",
       "target": "city-park-karlo-poster-target",
-      "solution": "扫描巴兹尔·卡洛主演的《The Terror》海报。actor和transform对应演员及变换身份，final cut既是电影剪辑用语，也带有危险的切割意味。",
+      "solution": "目标为墙面张贴的巴兹尔·卡洛主演恐怖经典《恐怖》（The Terror）电影海报。短语 final cut 既指电影导演的终剪权，亦指演员卡洛因剧组重拍怀恨在心、化身杀手持刀行凶的致命切割（cut）。",
       "sources": [
         "bav-city-riddles-02",
         "city-park-row",
         "dc-clayface"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 电影海报墙：我是一名演员，能用最终一“剪”改变电影。我是谁？",
+      "summary": "《阿卡姆之城》 · Park Row · 电影海报墙：我是一名演员，能用最终一“剪”（final cut·致命裁决）重塑电影。我是谁？",
       "video": "city-02",
       "secretNumber": 12,
       "comic": {
-        "book": "《Detective Comics》#40（1940）",
-        "body": "泥脸的漫画登场起点是《Detective Comics》#40。后来有多位人物使用这一名号，各自拥有不同的经历与能力；这张电影海报对应的是演员卡洛这一条人物线。",
+        "book": "Detective Comics #40（1940）",
+        "body": "初代泥面人巴兹尔·卡洛因电影角色被取代而走上连环杀戮之路。老海报将这位舞台悲剧演员最初的凡人面貌封存在哥谭旧影中。",
         "images": []
       }
     },
@@ -1629,7 +1628,7 @@
       "translation": "六条腿走进去，只有两条腿走出来。我在哪里？",
       "scene": "city-crime-alley-scene",
       "target": "city-crime-alley-target",
-      "solution": "扫描CRIME ALLEY路牌。六条腿是一家三口，两条腿是幸存的布鲁斯；谜面把人数换算成腿数，让韦恩夫妇遇害的小巷成为答案。",
+      "solution": "目标为帕克街暗巷入口生锈的 CRIME ALLEY（犯罪巷）铁质路牌。六条腿代表当年步入小巷的托马斯、玛莎与幼年布鲁斯一家三口，两条腿指代枪声后唯一幸存的孤儿布鲁斯；残酷的肢体数量减法奠定了蝙蝠侠永恒的心灵创伤。",
       "sources": [
         "bav-city-riddles-02",
         "city-park-row",
@@ -1640,7 +1639,7 @@
       "video": "city-02",
       "secretNumber": 13,
       "comic": {
-        "book": "《Detective Comics》#457（1976）",
+        "book": "Detective Comics #457（1976）",
         "body": "这一期为犯罪巷补上了Park Row的旧名，并写下莱斯莉·汤普金斯安慰幼年布鲁斯的往事，也确立了布鲁斯每年在父母忌日返回此地的传统。游戏用一个扫描目标唤起这段起源记忆；巷中的悼念互动可以与漫画的年度重访并读。",
         "images": []
       }
@@ -1651,20 +1650,20 @@
       "game": "city",
       "region": "Park Row · 艾斯化工楼顶",
       "english": "Acing the chemistry test will illuminate you.",
-      "translation": "化学考试拿到高分，就能让你眼前一亮。",
+      "translation": "在化学测试中拔得头筹（Acing·艾斯），定会让你眼前一亮。",
       "scene": "city-park-ace-chemicals-scene",
       "target": "city-park-ace-chemicals-target",
-      "solution": "扫描发光的ACE CHEMICALS招牌。acing指考试取得佳绩，chemistry对应化工厂，illuminate则把视线引向霓虹灯光。",
+      "solution": "目标为化工厂顶楼夜空中刺破黑暗的绿色霓虹 ACE CHEMICALS（艾斯化工）巨型招牌。动词 acing 意为“考取最高等优秀成绩”，词头 Ace 直指艾斯化工厂，illuminate 则将智力顿悟巧妙双关为耀眼的高压霓虹。",
       "sources": [
         "bav-city-riddles-02",
         "dc-ace-chemicals"
       ],
-      "summary": "《阿卡姆之城》 · Park Row · 艾斯化工楼顶：化学考试拿到高分，就能让你眼前一亮。",
+      "summary": "《阿卡姆之城》 · Park Row · 艾斯化工楼顶：在化学测试中拔得头筹（Acing·艾斯），定会让你眼前一亮。",
       "video": "city-02",
       "secretNumber": 14,
       "comic": {
         "book": "Batman: The Killing Joke（1988）",
-        "body": "艾斯化工在《致命玩笑》中被赋予Ace Chemicals这个名称，并与小丑的化学废料起源相连。游戏把这座工厂的巨大霓虹招牌放进城市天际线，Acing、chemistry和illuminate一起提示眼前的建筑标识。",
+        "body": "艾斯化工是有毒化学废料池与小丑诞生的罪恶渊薮。高耸的绿光招牌在城中如恶魔灯塔般俯瞰着整座废土。",
         "images": []
       }
     },
@@ -1674,20 +1673,20 @@
       "game": "city",
       "region": "娱乐区 · 临海平台",
       "english": "Look out! Can you see where the madness began?",
-      "translation": "向外看！你能看见疯狂开始的地方吗？",
+      "translation": "向外远眺！你能看见疯狂最初始的地方吗？",
       "scene": "city-mile-asylum-view-scene",
       "target": "city-mile-asylum-view-target",
-      "solution": "面向海面，扫描远处的阿卡姆疯人院。look out要求把视线移出当前城区，madness began又把地点与前作发生的疯人院联系起来。",
+      "solution": "目标为隔海远景中矗立在浓雾孤岛之上的阿卡姆疯人院旧院全貌。词组 where the madness began 既指阿卡姆百年精神沦陷的历史源头，亦深情回望游戏三部曲首作《阿卡姆疯人院》的故事原点。",
       "sources": [
         "bav-city-riddles-06",
         "dc-arkham-morrison"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 临海平台：向外看！你能看见疯狂开始的地方吗？",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 临海平台：向外远眺！你能看见疯狂最初始的地方吗？",
       "video": "city-06",
       "secretNumber": 16,
       "comic": {
         "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
-        "body": "莫里森与麦基恩的《阿卡姆疯人院》把院舍历史与蝙蝠侠直面自身的旅程交织在一起。远望海上的疯人院，可把游戏地点与漫画中的机构叙事并读；谜面的“开始”同时让玩家回想《阿卡姆疯人院》的前作经历。",
+        "body": "莫里森笔下的阿卡姆疯人院是哥谭疯狂心智的实体化圣殿。海平线尽头的阴郁剪影串联起两座封闭监牢之间的恶性轮回。",
         "images": []
       }
     },
@@ -1697,20 +1696,20 @@
       "game": "city",
       "region": "娱乐区 · 水边集装箱",
       "english": "If she is the ROOT of evil, how could anyone be expected to CONTAIN her?",
-      "translation": "如果她是万恶之“根”，谁又能把她“装住”？",
+      "translation": "如果她是万恶之“根”（ROOT），谁又有本事将她“装载”（CONTAIN）？",
       "scene": "city-mile-ivy-container-scene",
       "target": "city-mile-ivy-container-target",
-      "solution": "扫描水边被植物攀附的集装箱。ROOT把“根源”变成植物根系，CONTAIN则指向container，人物与容器各占一层文字线索。",
+      "solution": "目标为运河渡口处被破土而出的巨大变异根茎彻底贯穿撕裂的集装箱。ROOT 既是罪恶根源，亦指植物粗暴的真实根系；CONTAIN 既指压制控制，亦直指破损的集装箱（container）。",
       "sources": [
         "bav-city-riddles-06",
         "dc-ivy"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 水边集装箱：如果她是万恶之“根”，谁又能把她“装住”？",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 水边集装箱：如果她是万恶之“根”（ROOT），谁又有本事将她“装载”（CONTAIN）？",
       "video": "city-06",
       "secretNumber": 17,
       "comic": {
         "book": "Batman #181（1966）",
-        "body": "毒藤女在《蝙蝠侠》#181登场，控制植物、释放毒素与费洛蒙成为她的重要能力。游戏把花、根和蔓生的枝叶变成她的环境标记，让玩家循着植物辨认人物。",
+        "body": "毒藤女绝不屈服于任何钢铁容器的囚禁。爆裂的集装箱再次宣告了大自然对人类人造秩序的压倒性反噬。",
         "images": []
       }
     },
@@ -1720,21 +1719,21 @@
       "game": "city",
       "region": "娱乐区 · 马戏演出海报",
       "english": "Which acrobat family gambled with their lives, and has now been left to fly solo?",
-      "translation": "哪一家杂技演员拿生命作赌，如今只剩一人独自飞翔？",
+      "translation": "哪家杂技家族拿性命作赌，如今只剩一人孤身单飞（fly solo）？",
       "scene": "city-mile-graysons-poster-scene",
       "target": "city-mile-graysons-poster-target",
-      "solution": "扫描Flying Graysons演出海报。acrobats和fly提示空中飞人，family与solo的对照则落在格雷森一家与幸存的迪克身上。",
+      "solution": "目标为破旧木板上残存的飞人格雷森（Flying Graysons）马戏团杂技杂耍海报。fly solo 既指高空秋千无保护单人飞跃，亦指父母遇害坠亡后沦为遗孤的迪克·格雷森（夜翼）从此独自翱翔。",
       "sources": [
         "bav-city-riddles-06",
         "city-amusement-mile",
         "dc-robin"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 马戏演出海报：哪一家杂技演员拿生命作赌，如今只剩一人独自飞翔？",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 马戏演出海报：哪家杂技家族拿性命作赌，如今只剩一人孤身单飞（fly solo）？",
       "video": "city-06",
       "secretNumber": 18,
       "comic": {
-        "book": "《Detective Comics》#38（1940）",
-        "body": "初代罗宾的登场故事从哈利马戏团开始：格雷森夫妇因黑帮破坏表演设施而遇害，布鲁斯收留了幸存的迪克。游戏用仍留在墙上的家庭演出海报，呼应迪克成为罗宾之前的杂技演员身份。",
+        "book": "Detective Comics #38（1940）",
+        "body": "初代罗宾迪克·格雷森的双亲在哈利马戏团遭黑帮蓄意破坏设施摔死，成为布鲁斯收养的第一个徒弟。海报记录了夜翼成为英雄前最后的温暖家庭记忆。",
         "images": []
       }
     },
@@ -1744,20 +1743,20 @@
       "game": "city",
       "region": "娱乐区 · 奥林匹斯夜总会",
       "english": "Would an invitation to party like the gods be a bolt out of the blue?",
-      "translation": "收到一张像诸神般狂欢的邀请，会不会如晴天霹雳？",
+      "translation": "收到一张神明狂欢派对的邀请，会不会有如晴天霹雳（bolt）？",
       "scene": "city-mile-olympus-club-scene",
       "target": "city-mile-olympus-club-target",
-      "solution": "扫描GOTHAM CITY OLYMPUS招牌和雷电装饰。gods指奥林匹斯诸神，bolt out of the blue既是“晴天霹雳”，也点出招牌上的闪电。",
+      "solution": "目标为奥林匹斯俱乐部外墙写有 GOTHAM CITY OLYMPUS 及金色雷霆标志的霓虹招牌。习语 bolt out of the blue 意为“突如其来的晴天霹雳”，bolt 则具象化为宙斯的闪电权杖，直指自封神王的黑帮巨头马克西·宙斯。",
       "sources": [
         "bav-city-riddles-06",
         "dc-maxie-483"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 奥林匹斯夜总会：收到一张像诸神般狂欢的邀请，会不会如晴天霹雳？",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 奥林匹斯夜总会：收到一张神明狂欢派对的邀请，会不会有如晴天霹雳（bolt）？",
       "video": "city-06",
       "secretNumber": 19,
       "comic": {
         "book": "Detective Comics #483（1979）",
-        "body": "马克西·宙斯在《侦探漫画》#483登场，以宙斯和希腊神话塑造自己的身份。奥林匹斯、雷电与神祇聚会的词汇，因而能从娱乐招牌延伸到这名漫画反派。",
+        "body": "马克西·宙斯坚信自己是古希腊众神之王转世。娱乐会所的雷霆装潢折射出其荒诞神话妄想在哥谭夜生活中的世俗投射。",
         "images": []
       }
     },
@@ -1767,20 +1766,20 @@
       "game": "city",
       "region": "娱乐区 · 哥谭警局停车区",
       "english": "Park in his spot and you may just get a ticket.",
-      "translation": "停进他的车位，你也许就能收到一张“票”。",
+      "translation": "停进他的专属车位，你八成会挨上一张“罚单”（ticket）。",
       "scene": "city-mile-gordon-parking-scene",
       "target": "city-mile-gordon-parking-target",
-      "solution": "扫描地面标着JAMES GORDON的专用停车位。ticket在停车环境中读作罚单，姓名则把开罚单的警察职业进一步锁定为戈登。",
+      "solution": "目标为沥青地面油漆刷写的 JAMES GORDON 局长专属停车车位标识。名词 ticket 在执法泊车场景下为交警罚单，亦暗示戈登作为不可动摇的正义铁腕对罪恶领地的零容忍。",
       "sources": [
         "bav-city-riddles-06",
         "dc-gordon"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 哥谭警局停车区：停进他的车位，你也许就能收到一张“票”。",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 哥谭警局停车区：停进他的专属车位，你八成会挨上一张“罚单”（ticket）。",
       "video": "city-06",
       "secretNumber": 20,
       "comic": {
         "book": "Detective Comics #27（1939）",
-        "body": "詹姆斯·戈登与蝙蝠侠同在《侦探漫画》#27登场，逐渐成为他在警界最重要的盟友。地面上的专用停车位把这位警局主管带进环境；ticket既能是票券，也能是警察开出的罚单。",
+        "body": "詹姆斯·戈登与蝙蝠侠自初刊起便维系着风雨同舟的警义信任。废墟中未被抹去的局长车位，见证了体制崩塌下正义残存的最后威严。",
         "images": []
       }
     },
@@ -1790,21 +1789,21 @@
       "game": "city",
       "region": "娱乐区 · 哥谭警局屋顶",
       "english": "Always a shining example of justice? Not if you ask me.",
-      "translation": "一直都是闪耀的正义榜样？我可不这么想。",
+      "translation": "永不褪色的正义光辉榜样（shining example）？换作是我，可不敢苟同。",
       "scene": "city-mile-bat-signal-scene",
       "target": "city-mile-bat-signal-target",
-      "solution": "扫描警局屋顶的蝙蝠信号灯。shining example本是“光辉榜样”，这里却需要寻找实际能够发光、投射蝙蝠标记的装置。",
+      "solution": "目标为警局残破楼顶底座锈蚀但探照透镜完好的蝙蝠信号灯。词组 shining example 表面为道德模范的光辉榜样，谜语人以反语将其拆解为在黑夜中实际投射出强光的物理探照灯灯柱。",
       "sources": [
         "bav-city-riddles-06",
         "dc-batman-history",
         "dc-gordon"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 哥谭警局屋顶：一直都是闪耀的正义榜样？我可不这么想。",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 哥谭警局屋顶：永不褪色的正义光辉榜样（shining example）？换作是我，可不敢苟同。",
       "video": "city-06",
       "secretNumber": 21,
       "comic": {
         "book": "Detective Comics #60（1942）",
-        "body": "蝙蝠信号灯在《侦探漫画》#60进入漫画。探照灯原本把警局与蝙蝠侠联系起来；这道题把“闪耀的正义”变成字面的灯光，要求玩家低头寻找实际装置。",
+        "body": "蝙蝠信号灯是戈登与蝙蝠侠在暗夜呼叫彼此的正义图腾。探照灯在泥淖围城中的坚守，构成了哥谭市民最后的心理防线。",
         "images": []
       }
     },
@@ -1814,22 +1813,22 @@
       "game": "city",
       "region": "娱乐区 · 高处的草窝",
       "english": "If you're afraid, don't be scared to crow about it.",
-      "translation": "如果你害怕了，不必害怕大声叫出来。",
+      "translation": "要是害怕了，可别不敢放声“啼叫”（crow·稻草人）啊。",
       "scene": "city-mile-scarecrow-mask-scene",
       "target": "city-mile-scarecrow-mask-target",
-      "solution": "扫描藏在干草中的稻草人面具。scared、crow与fear将scarecrow拆成几组声音与含义，防毒面具和草堆又给出外形线索。",
+      "solution": "目标为木箱干草堆中半掩埋的稻草人缝线麻布防毒面具。习语 don't be scared to crow 意为“不必不敢声张啼叫”，动词 crow 完美谐音稻草人（Scarecrow）之名，将恐惧情绪与乌鸦叫声融于一处。",
       "sources": [
         "bav-city-riddles-06",
         "city-amusement-mile",
         "knight-hq",
         "dc-scarecrow"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · 高处的草窝：如果你害怕了，不必害怕大声叫出来。",
+      "summary": "《阿卡姆之城》 · 娱乐区 · 高处的草窝：要是害怕了，可别不敢放声“啼叫”（crow·稻草人）啊。",
       "video": "city-06",
       "secretNumber": 22,
       "comic": {
-        "book": "《World’s Finest Comics》#3（1941）",
-        "body": "稻草人的首次登场刊物是《World’s Finest Comics》#3。角色长期围绕心理学、恐惧与毒素展开；游戏把这些特征拆成可发现的场景物件，让人物在正式出场之外仍留下痕迹。",
+        "book": "World’s Finest Comics #3（1941）",
+        "body": "稻草人将儿时遭受霸凌的恐惧炼化为化学毒素武器。草堆里弃置的破麻袋面具暗示其正潜伏在暗影深处筹备更大规模的恐惧灾变。",
         "images": []
       }
     },
@@ -1839,14 +1838,14 @@
       "game": "city",
       "region": "娱乐区 · Krank玩具公司",
       "english": "This place has taken a TURN for the worse. Is it a little BEAR for your tastes?",
-      "translation": "这里每况愈下。对你来说，是不是有点难以忍受？",
+      "translation": "这里情况急转直下（TURN）；如此恶趣味，你还“忍得住”（BEAR·玩具熊）吗？",
       "scene": "city-mile-krank-toys-scene",
       "target": "city-mile-krank-toys-target",
-      "solution": "扫描KRANK CO. TOYS招牌上的玩具熊。TURN暗示转动，BEAR既是熊，也与“难以忍受”的表达呼应；答案由玩具公司门面的造型给出。",
+      "solution": "目标为废弃玩具厂招牌 KRANK CO. TOYS 上方抱着发条钥匙的巨型机械发条玩具熊。短语 take a turn for the worse 意为“每况愈下/急转直下”，turn 双关发条旋扭；动词 bear（忍耐）则直接双关眼前的玩具熊（bear）。",
       "sources": [
         "bav-city-riddles-06"
       ],
-      "summary": "《阿卡姆之城》 · 娱乐区 · Krank玩具公司：这里每况愈下。对你来说，是不是有点难以忍受？",
+      "summary": "《阿卡姆之城》 · 娱乐区 · Krank玩具公司：这里情况急转直下（TURN）；如此恶趣味，你还“忍得住”（BEAR·玩具熊）吗？",
       "video": "city-06",
       "secretNumber": 23
     },
@@ -1856,20 +1855,20 @@
       "game": "city",
       "region": "工业区 · 港边垃圾驳船",
       "english": "Which notorious family keeps talking trash?",
-      "translation": "哪个臭名昭著的家族，总在“谈垃圾”？",
+      "translation": "哪位臭名昭著的家族总在讲“垃圾话”（talkin' trash）？",
       "scene": "city-industrial-falcone-barge-scene",
       "target": "city-industrial-falcone-barge-target",
-      "solution": "扫描运载废弃物的驳船上的FALCONE SHIPPING字样。talking trash既是“说垃圾话”，trash也指船上的实际垃圾；家族姓氏藏在航运标记中。",
+      "solution": "目标为停泊在污浊海湾边写有 FALCONE SHIPPING 的法尔科内家族走私驳船。短语 talkin' trash 意为“讲垃圾话/吹牛放狠话”，trash 实指法尔科内黑帮家族借市政垃圾清运与码头船运走私洗钱的家族黑金产业。",
       "sources": [
         "bav-city-riddles-11",
         "dc-long-halloween-history"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 港边垃圾驳船：哪个臭名昭著的家族，总在“谈垃圾”？",
+      "summary": "《阿卡姆之城》 · 工业区 · 港边垃圾驳船：哪位臭名昭著的家族总在讲“垃圾话”（talkin' trash）？",
       "video": "city-11",
       "secretNumber": 25,
       "comic": {
-        "book": "Batman: Year One（1987）；Batman: The Long Halloween（1996—1997）",
-        "body": "卡迈恩·法尔科内由《元年》引入，《漫长的万圣节》继续展开他的犯罪家族与哥谭黑帮的争斗。游戏把家族姓氏印在航运和仓储业务上，让看似普通的商业标识带出城市的地下权力。",
+        "book": "Batman: The Long Halloween（1996—1997）",
+        "body": "卡迈恩·“罗马人”·法尔科内统治着哥谭传统的黑手党帝国。废弃码头的走私驳船记录了传统黑手党在超级恶棍崛起面前走向衰亡的时代挽歌。",
         "images": []
       }
     },
@@ -1879,14 +1878,14 @@
       "game": "city",
       "region": "工业区 · 报纸售卖机",
       "english": "Breaking news! Get out while you still can.",
-      "translation": "突发新闻！趁你还能离开，赶快走。",
+      "translation": "突发快讯（Breaking news）！趁还能走，赶紧逃命吧！",
       "scene": "city-industrial-newspaper-scene",
       "target": "city-industrial-newspaper-target",
-      "solution": "扫描Gotham City Globe售报机，头条写着北哥谭将成为阿卡姆之城。breaking news提示寻找报纸，而赶快离开的话语与城区即将被封闭相呼应。",
+      "solution": "目标为生锈报刊亭玻璃柜内展示的《哥谭公报》号外头版，头条标语赫然印着 CITY OF TERROR: WALLS GO UP AROUND ARKHAM CITY（恐怖之城：阿卡姆之城高墙合拢）。breaking news 既是突发重磅新闻，亦暗示城墙封闭后法治与人性的彻底破碎。",
       "sources": [
         "bav-city-riddles-11"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 报纸售卖机：突发新闻！趁你还能离开，赶快走。",
+      "summary": "《阿卡姆之城》 · 工业区 · 报纸售卖机：突发快讯（Breaking news）！趁还能走，赶紧逃命吧！",
       "video": "city-11",
       "secretNumber": 26
     },
@@ -1896,20 +1895,20 @@
       "game": "city",
       "region": "工业区 · 仓储广告牌",
       "english": "Air, sea or land. It would be criminal not to use these wise guys, wouldn't it?",
-      "translation": "海、陆、空——不找这些“聪明家伙”办事，岂不是犯罪？",
+      "translation": "水陆空全线通吃：若这都不算犯罪，那什么才算？",
       "scene": "city-industrial-falcone-storage-scene",
       "target": "city-industrial-falcone-storage-target",
-      "solution": "扫描FALCONE Warehousing and Storage广告牌。海陆空对应运输与仓储业务，wise guys也可指黑帮分子；家族姓氏把普通商业广告带向犯罪组织。",
+      "solution": "目标为法尔科内家族大型货物保税仓库招牌 FALCONE WAREHOUSES & STORAGE。Air, sea or land 指涉海陆空三栖走私网络，criminal 则毫不留情地讽刺法尔科内黑手党家族只手遮天的罪恶托拉斯。",
       "sources": [
         "bav-city-riddles-11",
         "dc-long-halloween-history"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 仓储广告牌：海、陆、空——不找这些“聪明家伙”办事，岂不是犯罪？",
+      "summary": "《阿卡姆之城》 · 工业区 · 仓储广告牌：水陆空全线通吃：若这都不算犯罪，那什么才算？",
       "video": "city-11",
       "secretNumber": 27,
       "comic": {
-        "book": "Batman: Year One（1987）；Batman: The Long Halloween（1996—1997）",
-        "body": "卡迈恩·法尔科内由《元年》引入，《漫长的万圣节》继续展开他的犯罪家族与哥谭黑帮的争斗。游戏把家族姓氏印在航运和仓储业务上，让看似普通的商业标识带出城市的地下权力。",
+        "book": "Batman: The Long Halloween（1996—1997）",
+        "body": "法尔科内家族曾以庞大物流仓储扼守哥谭经济命脉。空旷萧条的巨型库房见证了古典黑帮霸权的烟消云散。",
         "images": []
       }
     },
@@ -1919,22 +1918,22 @@
       "game": "city",
       "region": "工业区 · 灭鼠服务广告",
       "english": "Was this parasite ratted out, or does he continue to plague Gotham?",
-      "translation": "这个寄生虫已经被“鼠”告发了，还是仍在祸害哥谭？",
+      "translation": "这只毒瘤是被“告发”（ratted out）了，还是仍在害人？",
       "scene": "city-industrial-ratcatcher-ad-scene",
       "target": "city-industrial-ratcatcher-ad-target",
-      "solution": "扫描OTIS FLANNEGAN PEST CONTROL广告。ratted out是“告发”，rat又是老鼠，parasite和plague则把职业线索指向捕鼠人。",
+      "solution": "目标为街头张贴的灭鼠防治广告，印着奥蒂斯·弗兰纳根（捕鼠人）的服务电话。成语 ratted out 意为“被出卖/告密”，名词 rat 直取其驱使的老鼠群落；商业广告在废墟中暴露出捕鼠人昔日正当职业的讽刺倒影。",
       "sources": [
         "bav-city-riddles-11",
         "asylum-guide",
         "city-industrial",
         "dc-ratcatcher"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 灭鼠服务广告：这个寄生虫已经被“鼠”告发了，还是仍在祸害哥谭？",
+      "summary": "《阿卡姆之城》 · 工业区 · 灭鼠服务广告：这只毒瘤是被“告发”（ratted out）了，还是仍在害人？",
       "video": "city-11",
       "secretNumber": 28,
       "comic": {
-        "book": "《Detective Comics》#585（1988）",
-        "body": "这一期由Alan Grant与John Wagner编剧、Norm Breyfogle绘画，讲述蝙蝠侠在鼠群出没的下水道面对捕鼠人。游戏中的装备和广告延续了角色的职业意象；漫画提供了人物与地下空间的故事背景。",
+        "book": "Detective Comics #585（1988）",
+        "body": "奥蒂斯·弗兰纳根在转入地下成为恶棍前曾是市政模范雇员。旧广告在破败街区揭示了正常平民被哥谭毒素逐步异化为怪物的历史切片。",
         "images": []
       }
     },
@@ -1944,20 +1943,20 @@
       "game": "city",
       "region": "工业区 · 公共电话旁",
       "english": "Does Zsasz still pose a threat? This guy called to find out.",
-      "translation": "扎斯还在“摆出”威胁吗？这个家伙曾打电话来问。",
+      "translation": "扎斯还在构成威胁吗？这一通电话，定能让你拨通真相。",
       "scene": "city-industrial-zsasz-phone-scene",
       "target": "city-industrial-zsasz-phone-target",
-      "solution": "扫描公共电话旁被摆成通话姿态的死者。called指实际通话，pose a threat中的pose又与遗体的姿势构成残酷双关。",
+      "solution": "目标为雨夜中孤零零闪烁红光、反复疯狂鸣响的公共公用投币电话亭。phone 和 ring 双关扎斯逼迫蝙蝠侠在全城夺命狂奔接听的致命追凶游戏；电话铃声是这位杀戮魔王操控猎物的血腥遥控器。",
       "sources": [
         "bav-city-riddles-11",
         "dc-zsasz"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 公共电话旁：扎斯还在“摆出”威胁吗？这个家伙曾打电话来问。",
+      "summary": "《阿卡姆之城》 · 工业区 · 公共电话旁：扎斯还在构成威胁吗？这一通电话，定能让你拨通真相。",
       "video": "city-11",
       "secretNumber": 29,
       "comic": {
         "book": "Batman: Shadow of the Bat #1（1992）",
-        "body": "扎斯在《蝙蝠侠：蝙蝠之影》#1登场，每次杀人便在皮肤上增加一道计数痕。这里把通话与死者的姿势放在一起，使pose a threat中的pose也能读成“摆出姿势”。",
+        "body": "扎斯将受害者的恐惧转化为自我满足的数字仪式。街头公用电话是阿卡姆之城支线追踪其屠杀藏身处的关键触发节点。",
         "images": []
       }
     },
@@ -1967,20 +1966,20 @@
       "game": "city",
       "region": "工业区 · 封锁墙面",
       "english": "Did you hear the HOLE story of how Black Mask escaped?",
-      "translation": "你听过黑面具逃脱的完整故事吗？",
+      "translation": "你听说他是怎么“破洞”（HOLE·通体）逃出生天的全部故事了吗？",
       "scene": "city-industrial-black-mask-hole-scene",
       "target": "city-industrial-black-mask-hole-target",
-      "solution": "扫描黑面具逃脱现场的破坏痕迹。HOLE与whole同音，把“完整故事”换成洞口；墙面上的黑面具标记又提供人物线索。",
+      "solution": "目标为工业区高压电网与水泥墙体上被炸药粗暴撕开的缺口洞穴，旁边散落着黑面具海报。大写的 HOLE 与 whole（全部整体）构成完全同音双关，指代罗曼·西恩尼斯（黑面具）组织死士炸穿高墙逃出阿卡姆之城的唯一成功越狱事件。",
       "sources": [
         "bav-city-riddles-11",
         "dc-black-mask-386"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 封锁墙面：你听过黑面具逃脱的完整故事吗？",
+      "summary": "《阿卡姆之城》 · 工业区 · 封锁墙面：你听说他是怎么“破洞”（HOLE·通体）逃出生天的全部故事了吗？",
       "video": "city-11",
       "secretNumber": 30,
       "comic": {
         "book": "Batman #386（1985）",
-        "body": "罗曼·西恩尼斯在《蝙蝠侠》#386以黑面具身份登场。游戏把人物的逃脱经历留在破坏的墙面和现场标记中，借whole／hole的同音把“完整故事”换成一个实际的洞。",
+        "body": "黑面具罗曼·西恩尼斯以狠辣的黑帮统帅力著称。城墙上冒烟的爆破缺口证明了他绝不甘受雨果·斯特兰奇摆布的强悍枭雄作风。",
         "images": []
       }
     },
@@ -1990,14 +1989,14 @@
       "game": "city",
       "region": "工业区 · 扎斯藏身处",
       "english": "If you're planning on making your mark in Arkham City, you'll need a special kind of realtor.",
-      "translation": "想在阿卡姆之城留下自己的地盘，你得找一种特别的地产中介。",
+      "translation": "若打算在此站稳脚跟（留下印记），哪类经纪人（Broker）才是关键？",
       "scene": "city-industrial-broker-cards-scene",
       "target": "city-industrial-broker-cards-target",
-      "solution": "进入藏身处，扫描写着THE BROKER的名片。realtor直指地产中介，making your mark则从“留下印记”转成在城中取得据点；答案落在中间人的业务名片上。",
+      "solution": "目标为地下隐秘隔间办公桌上摆放的地产经纪人名片，印有 THE BROKER — REAL ESTATE BROKER 字样。make your mark 意为“成名立足”，亦双关黑道中介“中间人”（The Broker）为各路超级罪犯秘密租赁购置藏身安全屋的地下行规。",
       "sources": [
         "bav-city-riddles-11"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 扎斯藏身处：想在阿卡姆之城留下自己的地盘，你得找一种特别的地产中介。",
+      "summary": "《阿卡姆之城》 · 工业区 · 扎斯藏身处：若打算在此站稳脚跟（留下印记），哪类经纪人（Broker）才是关键？",
       "video": "city-11",
       "secretNumber": 31
     },
@@ -2007,21 +2006,21 @@
       "game": "city",
       "region": "工业区 · 冷藏仓库",
       "english": "Can you find this cool couple before the romance thaws?",
-      "translation": "你能在爱情解冻前，找到这对冰凉的夫妻吗？",
+      "translation": "在一切彻底解冻之前，你能找到这对“高冷”（cool）爱侣吗？",
       "scene": "city-industrial-freeze-couple-scene",
       "target": "city-industrial-freeze-couple-target",
-      "solution": "进入冷藏仓库，扫描急冻人与诺拉冷藏舱组成的夫妻场景。cool既能说“酷”，也指低温，romance thaws则把爱情与冷冻状态连在一起。",
+      "solution": "目标为实验室冷冻舱中沉睡的诺拉·弗里斯（Nora Fries）与旁边维克多·弗里斯（急冻人）的研究笔记。形容词 cool 既指冷酷傲慢，更直指零下绝对冷冻技术；解冻危机将急冻人倾尽毕生心血维持妻子生命的深情与执念定格于舱内。",
       "sources": [
         "bav-city-riddles-11",
         "dc-hatter-history",
         "dc-freeze"
       ],
-      "summary": "《阿卡姆之城》 · 工业区 · 冷藏仓库：你能在爱情解冻前，找到这对冰凉的夫妻吗？",
+      "summary": "《阿卡姆之城》 · 工业区 · 冷藏仓库：在一切彻底解冻之前，你能找到这对“高冷”（cool）爱侣吗？",
       "video": "city-11",
       "secretNumber": 32,
       "comic": {
-        "book": "Batman #121（1959）；动画Heart of Ice（1992）",
-        "body": "急冻人的漫画前身Mr. Zero在《蝙蝠侠》#121登场。动画《冰之心》后来以诺拉的病情和维克多的冷冻研究重塑人物；游戏采用自己的故事版本，冷藏装置与夫妻并置，让“冷却”和“爱情解冻”成为双关。",
+        "book": "Batman #121（1959）；Batman: The Animated Series 《冰冷之心》（Heart of Ice, 1992）",
+        "body": "急冻人为了拯救患绝症的妻子诺拉不惜与全世界为敌。冰封舱中静止的美丽面容是维克多冰冷躯壳下唯一跳动的温热心脏。",
         "images": []
       }
     },
@@ -2031,20 +2030,20 @@
       "game": "city",
       "region": "地铁 · 地铁站广告板",
       "english": "BOARD at drive-time? I'm not going to broadcast any more clues!",
-      "translation": "开车途中觉得无聊？我不会再广播更多提示了！",
+      "translation": "早高峰乘车通勤未免枯燥（BOARD）？我可不至于坐车解闷。",
       "scene": "city-subway-vicki-board-scene",
       "target": "city-subway-vicki-board-target",
-      "solution": "扫描THE VICKI VALE SHOW广播广告。BOARD与bored近音，drive-time指通勤收听时段，broadcast则点明这是一档电台节目。",
+      "solution": "目标为地下铁进站口长椅上方张贴的《维姬·维尔秀》（The Vicki Vale Show）巨幅宣传广告牌。大写的 BOARD 与 bored（无聊乏味）同音双关，兼指看板（billboard）与登上列车（board a train）；维姬·维尔作为当家女主播的明媚笑颜与阴森潮湿的地下铁道形成反讽。",
       "sources": [
         "bav-city-riddles-16",
         "dc-vicki-history"
       ],
-      "summary": "《阿卡姆之城》 · 地铁 · 地铁站广告板：开车途中觉得无聊？我不会再广播更多提示了！",
+      "summary": "《阿卡姆之城》 · 地铁 · 地铁站广告板：早高峰乘车通勤未免枯燥（BOARD）？我可不至于坐车解闷。",
       "video": "city-16",
       "secretNumber": 34,
       "comic": {
-        "book": "维姬·维尔的漫画记者身份（1948年登场）",
-        "body": "维姬·维尔在1948年的蝙蝠侠漫画中以摄影记者身份登场。游戏把她带进广播节目广告，车站里的宣传板则让BOARD、drive-time与broadcast三个词共同指向通勤时段的媒体节目。",
+        "book": "Batman #49（1948）",
+        "body": "维姬·维尔自黄金时代起便是哥谭最具敏锐嗅觉的新闻记者。地铁广告展现了她在严酷围城外围依然保持的高强度媒体舆论声浪。",
         "images": []
       }
     },
@@ -2054,20 +2053,20 @@
       "game": "city",
       "region": "地铁 · 地铁维修通路",
       "english": "Coming back from the dead is cheating on any day of the week.",
-      "translation": "不管星期几，从死里回来都算作弊。",
+      "translation": "无论星期几，从死地爬出来（死而复生）都算是作弊！",
       "scene": "city-subway-grundy-poster-scene",
       "target": "city-subway-grundy-poster-target",
-      "solution": "扫描所罗门·格兰迪的演出海报。coming back from the dead是复生，day of the week则暗扣以星期描述格兰迪生死的童谣。",
+      "solution": "目标为地下维修通道木板墙上张贴的所罗门·格兰迪百年杂耍马戏复生海报。短语 coming back from the dead 指其不死之身，day of the week 则紧扣经典童谣《所罗门·格兰迪》（星期一诞生，星期二受洗，星期六死去，星期日埋葬）的七日生死轮回。",
       "sources": [
         "bav-city-riddles-16",
         "dc-grundy"
       ],
-      "summary": "《阿卡姆之城》 · 地铁 · 地铁维修通路：不管星期几，从死里回来都算作弊。",
+      "summary": "《阿卡姆之城》 · 地铁 · 地铁维修通路：无论星期几，从死地爬出来（死而复生）都算是作弊！",
       "video": "city-16",
       "secretNumber": 35,
       "comic": {
         "book": "All-American Comics #61（1944）",
-        "body": "所罗门·格兰迪在《全美漫画》#61登场，名字来自按星期叙述生死的童谣。他不断死亡与复生的特征，让dead、alive和day of the week都能成为辨认人物的词语。",
+        "body": "所罗门·格兰迪是源自 19 世纪的古老不死僵尸巨怪。地下铁道深处的泛黄老海报勾勒出其穿越百年岁月不断苏醒杀戮的怪物编年史。",
         "images": []
       }
     },
@@ -2077,20 +2076,20 @@
       "game": "city",
       "region": "地铁 · 地铁站旅游广告",
       "english": "It's vacation time. Where shall I go? Somewhere venomous?",
-      "translation": "假期到了，该去哪里？找个有“毒”的地方？",
+      "translation": "休假时间到了：我该去哪？找个充盈着“毒素”（venomous·贝恩）的地方？",
       "scene": "city-subway-santa-prisca-scene",
       "target": "city-subway-santa-prisca-target",
-      "solution": "扫描Visit SANTA PRISCA旅游广告。目的地圣普里斯卡是贝恩的故乡，venomous中的Venom又点出他的强化药物。",
+      "solution": "目标为废弃候车大厅墙上的彩色加勒比海旅游招贴，写有 VISIT SANTA PRISCA（探访圣普里斯卡）。形容词 venomous 表面指热带毒蛇剧毒，大写 Venom 则直指强化贝恩肉体的超级药剂，而圣普里斯卡正是贝恩饱受折磨的黑牢故乡。",
       "sources": [
         "bav-city-riddles-16",
         "dc-bane"
       ],
-      "summary": "《阿卡姆之城》 · 地铁 · 地铁站旅游广告：假期到了，该去哪里？找个有“毒”的地方？",
+      "summary": "《阿卡姆之城》 · 地铁 · 地铁站旅游广告：休假时间到了：我该去哪？找个充盈着“毒素”（venomous·贝恩）的地方？",
       "video": "city-16",
       "secretNumber": 36,
       "comic": {
         "book": "Batman: Vengeance of Bane #1（1993）",
-        "body": "贝恩在《贝恩的复仇》#1登场，出身圣普里斯卡监狱，并接受强化药物Venom的实验。旅游广告用故乡地点作表面答案，venomous又把“有毒”与他的药物名称接在一起。",
+        "body": "贝恩成长于圣普里斯卡的佩纳杜罗恶魔监狱，并在人体毒素试验中成为终极杀器。热带阳光海报与冰冷地下铁道形成了残酷的地理与命运悖论。",
         "images": []
       }
     },
@@ -2100,20 +2099,20 @@
       "game": "city",
       "region": "地铁 · 地下藏身处",
       "english": "This Killer was collared, but is he now on the loose?",
-      "translation": "这位杀手曾被套住，如今已经逃脱了吗？",
+      "translation": "这位杀手曾被套上“颈圈”（collared·逮捕），如今难道逃出生天了？",
       "scene": "city-subway-croc-collar-scene",
       "target": "city-subway-croc-collar-target",
-      "solution": "扫描床铺旁杀手鳄的照片与束缚装置。collared既可指被捕，也能指戴上项圈；on the loose则让空下来的装置成为人物去向的线索。",
+      "solution": "目标为地下深水排污渠旁铁床上遗留的带有巨大金属锁扣的重型防暴电击项圈。动词 collared 既是日常警务俚语中的“拘捕拿获”，名词 collar 亦指锁死杀手鳄（Killer Croc）庞大头颈的特制重刑项圈，其被硬生生挣断的残损形态暗示巨兽已潜入深渊。",
       "sources": [
         "bav-city-riddles-16",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆之城》 · 地铁 · 地下藏身处：这位杀手曾被套住，如今已经逃脱了吗？",
+      "summary": "《阿卡姆之城》 · 地铁 · 地下藏身处：这位杀手曾被套上“颈圈”（collared·逮捕），如今难道逃出生天了？",
       "video": "city-16",
       "secretNumber": 37,
       "comic": {
         "book": "Detective Comics #523（1983）",
-        "body": "杀手鳄在《侦探漫画》#523登场。游戏把可辨认的面孔与束缚装置留在地下藏身处，让玩家在人物不在场时仍能追到他的痕迹。",
+        "body": "杀手鳄在下水道深处构建起属于原始肉食者的地下王国。被扯裂的防暴项圈再次宣示了现代机械锁具在其远古蛮力面前的彻底失效。",
         "images": []
       }
     },
@@ -2123,14 +2122,14 @@
       "game": "city",
       "region": "鲍里区 · 奇迹塔远景",
       "english": "My intellect towers above yours, Batman. I wonder if you'll ever solve this riddle?",
-      "translation": "我的智力高过你，蝙蝠侠。不知你何时才能解开这道谜。",
+      "translation": "我的智力远高过你（高耸入云），蝙蝠侠；谁又能阻止我“奇迹”（wonder）般的计划？",
       "scene": "city-bowery-wonder-tower-scene",
       "target": "city-bowery-wonder-tower-target",
-      "solution": "面向天际线，扫描奇迹塔。towers above既是“远远胜过”，也有高塔凌驾于城市之上的字面意思，wonder再补上建筑名称。",
+      "solution": "目标为直插云霄、俯瞰全城的阿卡姆之城控制核心——奇迹塔（Wonder Tower）。短语 towers above 既喻指智力超群的高傲凌驾，亦为摩天巨塔字面高耸；wonder 既是对惊世宏图的狂想赞叹，更直接点明巨塔与“十号协议”的指挥中枢之名。",
       "sources": [
         "bav-city-riddles-20"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 奇迹塔远景：我的智力高过你，蝙蝠侠。不知你何时才能解开这道谜。",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 奇迹塔远景：我的智力远高过你（高耸入云），蝙蝠侠；谁又能阻止我“奇迹”（wonder）般的计划？",
       "video": "city-20",
       "secretNumber": 39
     },
@@ -2140,21 +2139,21 @@
       "game": "city",
       "region": "鲍里区 · 马罗尼餐馆",
       "english": "The feuding families always sit down to a good meal. Will there be a massacre?",
-      "translation": "争斗的家族总要坐下来好好吃饭。会发生一场屠杀吗？",
+      "translation": "世仇家族总要坐下来共进晚餐；但谁又能保证，这不会演变成一场大屠杀？",
       "scene": "city-bowery-maroni-restaurant-scene",
       "target": "city-bowery-maroni-restaurant-target",
-      "solution": "扫描Sal Maroni意大利餐馆招牌。families把黑帮称作家族，坐下来用餐的地点则由餐馆提供；谜面用聚餐与屠杀的并列暗示帮派仇杀。",
+      "solution": "目标为鲍厄里区街角的意大利西餐厅招牌 SALVATORE MARONI'S RESTAURANT。两大家族指代马罗尼与法尔科内两大黑手党世仇，大屠杀暗扣萨尔瓦托雷·马罗尼在法庭上用硫酸向哈维·丹特当面泼洒的血腥惨案。",
       "sources": [
         "bav-city-riddles-20",
         "dc-long-halloween-history",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 马罗尼餐馆：争斗的家族总要坐下来好好吃饭。会发生一场屠杀吗？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 马罗尼餐馆：世仇家族总要坐下来共进晚餐；但谁又能保证，这不会演变成一场大屠杀？",
       "video": "city-20",
       "secretNumber": 40,
       "comic": {
-        "book": "Batman: The Long Halloween（1996—1997）",
-        "body": "《漫长的万圣节》围绕哥谭黑帮家族、节日谋杀和哈维·丹特的命运展开。游戏中的马罗尼餐馆，把黑帮的家族关系放进聚餐场所；meal与massacre并列，让餐桌同时带有暴力意味。",
+        "book": "Detective Comics #66（1942）；Batman: The Long Halloween（1996—1997）",
+        "body": "萨尔瓦托雷·马罗尼是哥谭历史悠久的黑手党巨头，更是亲手制造双面人的始作俑者。高级餐厅门面展现了老派黑手党将嗜血杀戮粉饰于家族晚宴背后的伪善作派。",
         "images": []
       }
     },
@@ -2164,20 +2163,20 @@
       "game": "city",
       "region": "鲍里区 · 帽店门面",
       "english": "Cowboy, trilby or bowler? Hats off to anyone brave enough to try one on.",
-      "translation": "牛仔帽、窄檐帽还是圆顶礼帽？谁敢试戴，我就向谁脱帽。",
+      "translation": "牛仔帽、软呢帽还是圆顶硬礼帽？无论哪顶，都该向出题者“脱帽致敬”（Hats off）。",
       "scene": "city-bowery-hat-shop-scene",
       "target": "city-bowery-hat-shop-target",
-      "solution": "扫描帽店的巨大礼帽招牌。几种帽型直接指向商品，hats off又是“致敬”；帽子也把地点带向疯帽匠的主题。",
+      "solution": "目标为商业街玻璃橱窗后陈设的三顶经典男士帽子及疯帽匠特制的微电子神经控制芯片。短语 Hats off 既是日常敬语脱帽致意，名词 hats 则点出疯帽匠杰维斯·泰奇为全城各色人物量身定做意念控制帽子的邪恶手艺。",
       "sources": [
         "bav-city-riddles-20",
         "dc-hatter-history"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 帽店门面：牛仔帽、窄檐帽还是圆顶礼帽？谁敢试戴，我就向谁脱帽。",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 帽店门面：牛仔帽、软呢帽还是圆顶硬礼帽？无论哪顶，都该向出题者“脱帽致敬”（Hats off）。",
       "video": "city-20",
       "secretNumber": 41,
       "comic": {
         "book": "Batman #49（1948）",
-        "body": "疯帽匠在《蝙蝠侠》#49登场。他的名号与《爱丽丝梦游仙境》相连；游戏中的帽子、书本与茶会，让文字游戏借文学意象落在具体物件上。",
+        "body": "疯帽匠将制帽技术与脑电波操纵装置合二为一。橱窗里井然有序的帽子是其意图将全哥谭公民脑组织傀儡化的微型军火库。",
         "images": []
       }
     },
@@ -2187,14 +2186,14 @@
       "game": "city",
       "region": "鲍里区 · 夏普竞选海报",
       "english": "Do you need to look SHARP to campaign for change?",
-      "translation": "为改变而竞选，需要显得精明干练吗？",
+      "translation": "要想参与竞选，难道真得显得足够“精明精炼”（SHARP·夏普）吗？",
       "scene": "city-bowery-sharp-election-scene",
       "target": "city-bowery-sharp-election-target",
-      "solution": "扫描Vote Sharp竞选海报。look sharp有“显得精神、精明”的意思，SHARP的大写也直接点出昆西·夏普的姓氏。",
+      "solution": "目标为红砖墙上张贴的大幅昆西·夏普市长竞选画像，标语为 VOTE QUINCY SHARP FOR MAYOR。短语 look sharp 意为“精明干练、容光焕发”，全大写的 SHARP 直截了当地点出夏普院长的姓氏，讽刺其被雨果操纵充当政治傀儡的虚妄政途。",
       "sources": [
         "bav-city-riddles-20"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 夏普竞选海报：为改变而竞选，需要显得精明干练吗？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 夏普竞选海报：要想参与竞选，难道真得显得足够“精明精炼”（SHARP·夏普）吗？",
       "video": "city-20",
       "secretNumber": 42
     },
@@ -2204,14 +2203,14 @@
       "game": "city",
       "region": "鲍里区 · 收押中心入口",
       "english": "Was the writing on the wall from the moment you entered?",
-      "translation": "从你进入那一刻起，预兆就已写在墙上了吗？",
+      "translation": "命运的不祥征兆（writing on the wall），早自阿卡姆之城开门迎客之日起便已写就。",
       "scene": "city-bowery-opening-plaque-scene",
       "target": "city-bowery-opening-plaque-target",
-      "solution": "扫描入口墙上由市长昆西·夏普为阿卡姆之城揭幕的铭牌。the writing on the wall意为“不祥预兆”，同时也是眼前真正刻在墙上的文字。",
+      "solution": "目标为收押中心正门花岗岩墙面上由昆西·夏普市长落款的阿卡姆之城正式落成揭幕纪念铜牌。成语 the writing on the wall 意为“早已昭然若揭的灾难预兆”，铜牌文字直接印证了这处政治工程实为全城炼狱的虚伪起点。",
       "sources": [
         "bav-city-riddles-20"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 收押中心入口：从你进入那一刻起，预兆就已写在墙上了吗？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 收押中心入口：命运的不祥征兆（writing on the wall），早自阿卡姆之城开门迎客之日起便已写就。",
       "video": "city-20",
       "secretNumber": 43
     },
@@ -2221,20 +2220,20 @@
       "game": "city",
       "region": "鲍里区 · 通缉海报墙",
       "english": "Arkham City is not the place to be rich or famous. Bruce Wayne has never felt quite so wanted.",
-      "translation": "阿卡姆之城不适合有钱人和名人。布鲁斯·韦恩从没如此“被需要”。",
+      "translation": "阿卡姆之城可不是富豪的宜居之地；布鲁斯到底为什么如此受通缉？",
       "scene": "city-bowery-bruce-wanted-scene",
       "target": "city-bowery-bruce-wanted-target",
-      "solution": "扫描成排的布鲁斯·韦恩通缉海报。wanted既能指“受欢迎、被需要”，也是通缉令上的惯用词；富豪的公开身份在这里变成了罪犯照片。",
+      "solution": "目标为水泥高墙上张贴的针对布鲁斯·韦恩的重罪逮捕通缉令，盖有雨果·斯特兰奇的授权印章。wanted 既指富豪在政治阴谋中遭到全城搜捕，亦暗示布鲁斯主动投身阿卡姆之城以凡人之躯探查真相的决绝策略。",
       "sources": [
         "bav-city-riddles-20",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 通缉海报墙：阿卡姆之城不适合有钱人和名人。布鲁斯·韦恩从没如此“被需要”。",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 通缉海报墙：阿卡姆之城可不是富豪的宜居之地；布鲁斯到底为什么如此受通缉？",
       "video": "city-20",
       "secretNumber": 44,
       "comic": {
-        "book": "Batman: Year One（1987）",
-        "body": "《元年》让布鲁斯一面重返哥谭的公开生活，一面以蝙蝠侠挑战城市中的犯罪与权力。游戏中的通缉海报反过来把他的公开姓名送进追捕系统，让“富豪”和“被通缉者”出现在同一张脸上。",
+        "book": "Detective Comics #27（1939）",
+        "body": "布鲁斯·韦恩作为公众人物公开反对建立阿卡姆之城，招致雨果·斯特兰奇的政治迫害。通缉令展现了他以双重身份正面迎击独裁极权的斗争开端。",
         "images": []
       }
     },
@@ -2244,21 +2243,21 @@
       "game": "city",
       "region": "鲍里区 · 魔术道具店",
       "english": "You're a dummy if you don't try and buy one.",
-      "translation": "不试着买一个，你可真是个傻瓜。",
+      "translation": "若不试着买上一个，那你可真就是个大笨蛋（dummy·木偶）！",
       "scene": "city-bowery-magic-props-scene",
       "target": "city-bowery-magic-props-target",
-      "solution": "扫描Magic and Props道具店招牌。dummy既是“傻瓜”，也是腹语表演用的木偶，店招把双关引向可以购买的表演道具。",
+      "solution": "目标为街头老字号魔术道具店招牌 MAGIC AND PROPS 旁橱窗里陈列的腹语表演假人木偶。名词 dummy 既指骂人“愚钝傻瓜”，亦专指腹语术所用的机关木偶（ventriloquist dummy），直指腹语者韦斯克与疤脸的表演根基。",
       "sources": [
         "bav-city-riddles-20",
         "city-museum",
         "dc-scarface"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 魔术道具店：不试着买一个，你可真是个傻瓜。",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 魔术道具店：若不试着买上一个，那你可真就是个大笨蛋（dummy·木偶）！",
       "video": "city-20",
       "secretNumber": 45,
       "comic": {
-        "book": "《Detective Comics》#583（1988）",
-        "body": "疤脸与腹语者在这一期共同登场，由Alan Grant、John Wagner与Norm Breyfogle等人创作。游戏将木偶单独摆进展柜，让玩家从一个陈列物追溯这对角色；木偶与操纵它的腹语者是两个不同的辨认对象。",
+        "book": "Detective Comics #583（1988）",
+        "body": "腹语术木偶是哥谭最怪诞的心理分裂媒介。魔术道具店橱窗里的假人展现了这种古老演艺行业被扭曲为黑道犯罪人格宿主的奇诡切面。",
         "images": []
       }
     },
@@ -2268,15 +2267,15 @@
       "game": "city",
       "region": "鲍里区 · 囚犯行为分析室",
       "english": "Studies have shown that if you're not on your best behavior, you'll come out crazy. How Strange?",
-      "translation": "研究显示，表现不够好，出来就会疯。真“奇怪”？",
+      "translation": "研究表明，如果在此表现不够乖巧，出来时定会变成疯子。真够“奇怪”（Strange·斯特兰奇）？",
       "scene": "city-bowery-behavior-unit-scene",
       "target": "city-bowery-behavior-unit-target",
-      "solution": "扫描TYGER INMATE BEHAVIORAL ANALYSIS UNIT门牌。behavior提示机构名称，How Strange又用姓氏把这项“研究”指向雨果·斯特兰奇。",
+      "solution": "目标为警戒铁门上方挂着的 TYGER INMATE BEHAVIORAL ANALYSIS UNIT（泰戈尔囚犯行为分析部）金属门牌。best behavior 指代劳改规训，末尾的 How Strange 则以双关语点破这一精神残害部门实由雨果·斯特兰奇教授全权操盘。",
       "sources": [
         "bav-city-riddles-20",
         "dc-strange-debut"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 囚犯行为分析室：研究显示，表现不够好，出来就会疯。真“奇怪”？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 囚犯行为分析室：研究表明，如果在此表现不够乖巧，出来时定会变成疯子。真够“奇怪”（Strange·斯特兰奇）？",
       "video": "city-20",
       "secretNumber": 46,
       "comic": {
@@ -2291,14 +2290,14 @@
       "game": "city",
       "region": "鲍里区 · 收押中心内部",
       "english": "You don't want to be caught off-guard in this place, do you?",
-      "translation": "你不想在这里被打个措手不及，对吧？",
+      "translation": "在这个鬼地方，你可绝不会想“疏于戒备”（caught off-guard·俘获警卫）吧？",
       "scene": "city-bowery-captured-guard-scene",
       "target": "city-bowery-captured-guard-target",
-      "solution": "进入收押中心，扫描被绑在椅子上的TYGER警卫。caught off-guard本指“猝不及防”，guard又是警卫；被俘的警卫使这句话成为字面描述。",
+      "solution": "目标为收押控制室内被囚犯反制、全身用粗绳严密捆绑堵嘴的 TYGER 铁甲警卫。短语 caught off-guard 意为“猝不及防、大意失荆州”，名词 guard 则具象化为眼前这位武装到牙齿却反遭生擒的铁甲特警（guard）。",
       "sources": [
         "bav-city-riddles-20"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 收押中心内部：你不想在这里被打个措手不及，对吧？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 收押中心内部：在这个鬼地方，你可绝不会想“疏于戒备”（caught off-guard·俘获警卫）吧？",
       "video": "city-20",
       "secretNumber": 47
     },
@@ -2308,14 +2307,14 @@
       "game": "city",
       "region": "鲍里区 · 封锁的商业入口",
       "english": "You don't have to be crazy to shop here, do you?",
-      "translation": "来这里购物，不一定非得疯了，对吧？",
+      "translation": "来这儿购物，倒也不必真成了疯子，对吧？",
       "scene": "city-bowery-shopping-sign-scene",
       "target": "city-bowery-shopping-sign-target",
-      "solution": "扫描封锁栅栏与地雷警告上方的商业入口标牌。shop here提示场所用途，crazy则与阿卡姆之城的精神失常主题相接；应对准入口上方的标牌。",
+      "solution": "目标为横跨地雷封锁线与铁丝网正上方的高悬商业街旧拱门招牌 SHOPPING CENTER。shop here 与 crazy 相对，无情嘲讽市民昔日休闲的繁华商业街如今已被强制划入关押重犯、布满致命火力的重度军事禁区。",
       "sources": [
         "bav-city-riddles-20"
       ],
-      "summary": "《阿卡姆之城》 · 鲍里区 · 封锁的商业入口：来这里购物，不一定非得疯了，对吧？",
+      "summary": "《阿卡姆之城》 · 鲍里区 · 封锁的商业入口：来这儿购物，倒也不必真成了疯子，对吧？",
       "video": "city-20",
       "secretNumber": 48
     },
@@ -2325,20 +2324,20 @@
       "game": "city",
       "region": "钢铁厂 · 小丑据点服装陈列",
       "english": "They say the more things change the more they stay the same. Which dummy said that?",
-      "translation": "变化越多，越是一成不变。哪个“假人傻瓜”说的？",
+      "translation": "常言道“万变不离其宗”。究竟是哪个木偶呆子（dummy）说的？",
       "scene": "city-mill-harley-costume-scene",
       "target": "city-mill-harley-costume-target",
-      "solution": "扫描人形模特上陈列的哈莉旧服。dummy既是“假人”，也可骂人“傻瓜”；服装变换与人物依旧的意思，在模特和旧装束上重合。",
+      "solution": "目标为钢铁厂更衣室人形服装模特上完整穿戴的哈莉·奎茵前作黑红双色经典小丑女紧身戏服。dummy 既指咒骂蠢货，亦指陈列衣服的人体塑料模特（mannequin dummy）；旧戏服与新装束并置，映射出哈莉性格看似善变实则一生盲从附庸小丑的执迷。",
       "sources": [
         "bav-city-riddles-24",
         "dc-mad-love"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 小丑据点服装陈列：变化越多，越是一成不变。哪个“假人傻瓜”说的？",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 小丑据点服装陈列：常言道“万变不离其宗”。究竟是哪个木偶呆子（dummy）说的？",
       "video": "city-24",
       "secretNumber": 50,
       "comic": {
         "book": "The Batman Adventures: Mad Love（1994）",
-        "body": "保罗·迪尼与布鲁斯·蒂姆的《疯狂的爱》讲述哈琳·奎泽尔从阿卡姆医生成为哈莉的经历。这部动画衍生漫画可与游戏中的文凭、旧装束和反派用品并读，观察职业身份与小丑形象的交叠。",
+        "body": "经典黑红小丑连体服是哈莉在《蝙蝠侠：动画系列》中的标志性初登场形象。塑料模特上的旧装束唤起了玩家对疯人院前作剧情的强烈怀旧回响。",
         "images": []
       }
     },
@@ -2348,21 +2347,21 @@
       "game": "city",
       "region": "钢铁厂 · 电梯栅栏后",
       "english": "Once assembled, do these two become one again?",
-      "translation": "重新组装后，这两人会再次成为一个吗？",
+      "translation": "一旦重新拼合组装（assembled），这两人真能再度合为一体？",
       "scene": "city-mill-abramovici-brothers-scene",
       "target": "city-mill-abramovici-brothers-target",
-      "solution": "扫描栅栏后并排坐着的阿布拉莫维奇兄弟。two与one让人想到两人曾经相连的身体关系，assembled则以“组装”描述重新合在一起。",
+      "solution": "目标为地下货仓铁栏后并排落座、相互对视的西伯利亚锤击连体兄弟（阿布拉莫维奇孪生子）。动词 assembled 既形容机器部件重装，亦暗示两人曾共享一副身躯的连体畸形创伤；一人断左臂、一人断右臂的残肢对比诉说着被外科手术强行劈开的悲剧。",
       "sources": [
         "bav-city-riddles-24",
         "dc-unhinged"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 电梯栅栏后：重新组装后，这两人会再次成为一个吗？",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 电梯栅栏后：一旦重新拼合组装（assembled），这两人真能再度合为一体？",
       "video": "city-24",
       "secretNumber": 51,
       "context": "这对兄弟属于《阿卡姆之城》的人物与马戏背景。谜题分别用现场的两人和旧演出海报表现他们的关系。",
       "comic": {
-        "book": "游戏衍生漫画：Batman: Arkham Unhinged Vol. 1（收录#1—5）",
-        "body": "《阿卡姆：失控》第一卷收录游戏相关漫画#1—5，描写《阿卡姆之城》人物的背景，其中包括Hammer与Sickle。这份衍生漫画书目可接着兄弟的现场与演出海报阅读，延伸他们在阿卡姆版本中的经历。",
+        "book": "Batman: Arkham Unhinged Vol. 1（2012）",
+        "body": "阿布拉莫维奇孪生兄弟在《阿卡姆不羁》中交代了原本相连的连体悲剧。二人被企鹅人与小丑分别收买反目，展现了阿卡姆内战撕裂一切血缘纽带的残酷现实。",
         "images": []
       }
     },
@@ -2372,20 +2371,20 @@
       "game": "city",
       "region": "钢铁厂 · 钢铁厂办公室",
       "english": "Surely someone was clowning around when they qualified this person?",
-      "translation": "给这个人颁发资格时，肯定有人在开小丑玩笑吧？",
+      "translation": "给这位主儿颁发执业文凭时，定是有人在胡闹开“小丑玩笑”（clowning around）吧？",
       "scene": "city-mill-harley-diploma-scene",
       "target": "city-mill-harley-diploma-target",
-      "solution": "扫描墙上署名Harleen Frances Quinzel的哥谭大学心理学博士文凭。qualified对应资格与学位，clowning around又把专业证书和她后来的小丑装束放在一起。",
+      "solution": "目标为办公室破损墙上装裱的哥谭大学心理学最高荣誉博士学位证书，被盖印着 DR. HARLEEN F. QUINZEL。短语 clowning around 意为“胡闹胡扯”，clown 则无情戳中她从一流学者沦为涂面小丑奴仆的荒谬命运，专业文凭沦为最辛辣的反讽。",
       "sources": [
         "bav-city-riddles-24",
         "dc-mad-love"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 钢铁厂办公室：给这个人颁发资格时，肯定有人在开小丑玩笑吧？",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 钢铁厂办公室：给这位主儿颁发执业文凭时，定是有人在胡闹开“小丑玩笑”（clowning around）吧？",
       "video": "city-24",
       "secretNumber": 52,
       "comic": {
         "book": "The Batman Adventures: Mad Love（1994）",
-        "body": "保罗·迪尼与布鲁斯·蒂姆的《疯狂的爱》讲述哈琳·奎泽尔从阿卡姆医生成为哈莉的经历。这部动画衍生漫画可与游戏中的文凭、旧装束和反派用品并读，观察职业身份与小丑形象的交叠。",
+        "body": "哈琳·奎泽尔曾凭借过人天赋拿到哥谭大学心理学学位。泛黄的高等学府文凭与满屋的小丑涂鸦形成剧烈对比，见证了天才学者彻底被癫狂吞噬的陨落史。",
         "images": []
       }
     },
@@ -2395,20 +2394,20 @@
       "game": "city",
       "region": "钢铁厂 · 冷却通道D",
       "english": "Do you really need to hammer it home? Everyone knows Harley is stupid.",
-      "translation": "真有必要拿锤子反复强调吗？人人都知道哈莉很笨。",
+      "translation": "真有必要拿重锤反复强调（hammer it home）？谁人不知哈莉是个蠢蛋。",
       "scene": "city-mill-harley-hammer-scene",
       "target": "city-mill-harley-hammer-target",
-      "solution": "扫描哈莉头像装置旁的锤子。hammer it home意为“反复强调、使人明白”，而hammer又是现场的实际道具。",
+      "solution": "目标为地面上倚靠在小丑头像雕塑旁的哈莉巨型木柄大铁锤武器。成语 hammer it home 意为“反复锤打灌输、让人彻底明白”，hammer 实指哈莉最钟爱、破坏力惊人的标志性大木槌（hammer），双关语言力度与物理重击。",
       "sources": [
         "bav-city-riddles-24",
         "dc-mad-love"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 冷却通道D：真有必要拿锤子反复强调吗？人人都知道哈莉很笨。",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 冷却通道D：真有必要拿重锤反复强调（hammer it home）？谁人不知哈莉是个蠢蛋。",
       "video": "city-24",
       "secretNumber": 53,
       "comic": {
         "book": "The Batman Adventures: Mad Love（1994）",
-        "body": "保罗·迪尼与布鲁斯·蒂姆的《疯狂的爱》讲述哈琳·奎泽尔从阿卡姆医生成为哈莉的经历。这部动画衍生漫画可与游戏中的文凭、旧装束和反派用品并读，观察职业身份与小丑形象的交叠。",
+        "body": "巨型木槌是哈莉在动画与漫画中最经典的喜剧化重型武器。废墟中沉重的铁锤体现了她荒诞滑稽外表下极其致命的狂暴破坏欲。",
         "images": []
       }
     },
@@ -2418,21 +2417,21 @@
       "game": "city",
       "region": "钢铁厂 · 冷却通道B",
       "english": "Who can BOYLE and Freeze at the same time?",
-      "translation": "谁能同时沸腾与冷冻？",
+      "translation": "谁能一边“博伊尔”（BOYLE·沸腾），一边冻结成冰？",
       "scene": "city-mill-boyle-cryogenics-scene",
       "target": "city-mill-boyle-cryogenics-target",
-      "solution": "扫描BOYLE CRYOGENICS低温技术广告。BOYLE与boil读音相近，Freeze则与低温公司的行业含义相对，形成沸腾和冷冻的反差。",
+      "solution": "目标为工业厂区外墙巨大的霓虹灯箱招牌 BOYLE CRYOGENICS（博伊尔低温技术公司）。全大写的 BOYLE 与动词 boil（沸腾）谐音，与 Freeze（冰冻）构成极热与极冷的悖论反差；字谜直指急冻人的仇敌兼原雇主费里斯·博伊尔（Ferris Boyle）及其低温技术公司。",
       "sources": [
         "bav-city-riddles-24",
         "dc-hatter-history",
         "dc-freeze"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 冷却通道B：谁能同时沸腾与冷冻？",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 冷却通道B：谁能一边“博伊尔”（BOYLE·沸腾），一边冻结成冰？",
       "video": "city-24",
       "secretNumber": 54,
       "comic": {
-        "book": "Batman #121（1959）；动画Heart of Ice（1992）",
-        "body": "急冻人的漫画前身在《蝙蝠侠》#121登场；费里斯·博伊尔与GothCorp的冲突则来自后来重塑人物的动画《冰之心》。游戏的Boyle Cryogenics标识把Boyle与boil的近音，以及低温公司的行业名称叠在一起。",
+        "book": "Batman #121（1959）；Batman: The Animated Series 《冰冷之心》（Heart of Ice, 1992）",
+        "body": "保罗·迪尼在动画经典《冰冷之心》中重构急冻人起源，确立了冷血奸商博伊尔强行切断诺拉维生舱电源、致使维克多变异的宿命悲剧。招牌见证了整场极寒复仇的因果起点。",
         "images": []
       }
     },
@@ -2442,20 +2441,20 @@
       "game": "city",
       "region": "钢铁厂 · 工具箱藏匿处",
       "english": "What's a funnyman without his box of tricks?",
-      "translation": "一个逗笑的人，没有把戏箱还算什么？",
+      "translation": "滑稽弄臣若是没了这满箱戏法（box of tricks），还算个什么笑匠？",
       "scene": "city-mill-joker-tricks-scene",
       "target": "city-mill-joker-tricks-target",
-      "solution": "扫描木箱中的小丑玩笑道具箱。funnyman提示小丑，box of tricks既是“一肚子花招”，也指眼前装着把戏道具的盒子。",
+      "solution": "目标为桌面上敞开的金属木箱，内装小丑经典的电击恶作剧手套、弹跳假牙与笑气炸弹。词组 box of tricks 既是比喻千方百计的花招谋略，亦实指眼前这盒随时能将无辜者化为狂笑尸体的致命恶作剧军火箱。",
       "sources": [
         "bav-city-riddles-24",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆之城》 · 钢铁厂 · 工具箱藏匿处：一个逗笑的人，没有把戏箱还算什么？",
+      "summary": "《阿卡姆之城》 · 钢铁厂 · 工具箱藏匿处：滑稽弄臣若是没了这满箱戏法（box of tricks），还算个什么笑匠？",
       "video": "city-24",
       "secretNumber": 55,
       "comic": {
         "book": "Batman #1（1940）",
-        "body": "小丑在《蝙蝠侠》#1登场。笑料与致命威胁长期并存在这个人物身上；游戏用藏在工具箱里的玩笑道具，把“逗笑的人”和“把戏”落实成可以找到的实物。",
+        "body": "小丑的恶作剧整人道具自初登场起便是其致人死地的残暴伪装。箱内琳琅满目的整蛊器械还原了他将谋杀仪式剧场化、游戏化的精神实质。",
         "images": []
       }
     },
@@ -2465,21 +2464,21 @@
       "game": "city",
       "region": "博物馆 · 疤面木偶展柜",
       "english": "Who's in control here? The puppet or the puppeteer?",
-      "translation": "这里究竟是谁作主，木偶还是操纵木偶的人？",
+      "translation": "这里究竟是谁在作主发号施令？是木偶，还是操纵木偶的人？",
       "scene": "city-museum-scarface-scene",
       "target": "city-museum-scarface-target",
-      "solution": "扫描展柜里的疤面木偶。puppet和puppeteer点出腹语者搭档关系，也把“谁控制谁”的问题放在了木偶身上。",
+      "solution": "目标为自然历史博物馆玻璃陈列柜中作为企鹅人战利品展示的疤面木偶（Scarface）。puppet（傀儡木偶）与 puppeteer（腹语操偶师）深刻质问阿诺德·韦斯克与疤脸之间究竟谁是主宰，揭示精神分裂中次级人格反噬宿主的宿命困局。",
       "sources": [
         "bav-city-riddles-28",
         "city-museum",
         "dc-scarface"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 疤面木偶展柜：这里究竟是谁作主，木偶还是操纵木偶的人？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 疤面木偶展柜：这里究竟是谁在作主发号施令？是木偶，还是操纵木偶的人？",
       "video": "city-28",
       "secretNumber": 57,
       "comic": {
-        "book": "《Detective Comics》#583（1988）",
-        "body": "疤脸与腹语者在这一期共同登场，由Alan Grant、John Wagner与Norm Breyfogle等人创作。游戏将木偶单独摆进展柜，让玩家从一个陈列物追溯这对角色；木偶与操纵它的腹语者是两个不同的辨认对象。",
+        "book": "Detective Comics #583（1988）",
+        "body": "疤面木偶以凶残狡诈的 1930 年代芝加哥黑手党语调支配着软弱的阿诺德。玻璃柜中的囚禁标本展现了企鹅人在黑帮争霸中剥夺对手尊严的残酷征服欲。",
         "images": []
       }
     },
@@ -2489,20 +2488,20 @@
       "game": "city",
       "region": "博物馆 · 家族肖像走廊",
       "english": "Was he framed? Or does it run in the family?",
-      "translation": "他是被“装框”了吗？还是这本来就是家族传统？",
+      "translation": "他是被“装进画框”（framed·陷害）了，还是说这本就是家族门风？",
       "scene": "city-museum-cobblepot-portrait-scene",
       "target": "city-museum-cobblepot-portrait-target",
-      "solution": "扫描童年企鹅人与家人的肖像。framed既是“被陷害”，也是“被装进画框”；run in the family又把问题引向画中的一家人。",
+      "solution": "目标为贵宾厅高悬的古典镀金画框油画，描绘着童年奥斯瓦尔德·科波特与贵族母亲的合影。词语 framed 既指照片被装裱进考究画框，亦双关黑道术语“遭人陷害做替死鬼”；家族门风则无情揭露科波特豪门虚伪冷血的阶级原罪。",
       "sources": [
         "bav-city-riddles-28",
         "dc-penguin-family"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 家族肖像走廊：他是被“装框”了吗？还是这本来就是家族传统？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 家族肖像走廊：他是被“装进画框”（framed·陷害）了，还是说这本就是家族门风？",
       "video": "city-28",
       "secretNumber": 58,
       "comic": {
-        "book": "Penguin: Pain and Prejudice（2011—2012）",
-        "body": "格雷格·赫维茨与西蒙·库德兰斯基的《企鹅人：痛苦与偏见》深入描写奥斯瓦尔德的家庭关系，以及他对母亲认可的渴望。可把这段家族叙事与博物馆的家庭肖像并读；画框中的童年形象，让如今的犯罪头目显出另一个侧面。",
+        "book": "Detective Comics #58（1941）",
+        "body": "科波特家族曾是与韦恩齐名的哥谭古老奠基望族，后因经商惨败而家道中落。童年画像见证了企鹅人因畸形容貌遭受家族歧视、继而誓报复全城上流社会的复仇根源。",
         "images": []
       }
     },
@@ -2512,20 +2511,20 @@
       "game": "city",
       "region": "博物馆 · 鬣狗标本展柜",
       "english": "Have Joker's pets laughed themselves to death, or just eaten too much?",
-      "translation": "小丑的宠物是笑死的，还是吃得太多了？",
+      "translation": "小丑圈养的爱宠，究竟是笑到断了气，还是单纯吃得太撑？",
       "scene": "city-museum-hyenas-scene",
       "target": "city-museum-hyenas-target",
-      "solution": "扫描鬣狗标本。鬣狗的叫声让人联想到笑，eaten too much又与被填充、制成标本的外形构成黑色幽默。",
+      "solution": "目标为标本陈列馆内被剥制并摆出狂暴撕咬扑杀姿态的两只斑鬣狗剥制标本。成语 laughed themselves to death 既形容狂笑致死，亦指鬣狗特有的尖锐骨感吠叫与笑声；吃得太撑则黑色幽默地调侃标本内部被化学棉填充紧绷的僵硬体态。",
       "sources": [
         "bav-city-riddles-28",
         "dc-bud-lou"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 鬣狗标本展柜：小丑的宠物是笑死的，还是吃得太多了？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 鬣狗标本展柜：小丑圈养的爱宠，究竟是笑到断了气，还是单纯吃得太撑？",
       "video": "city-28",
       "secretNumber": 59,
       "comic": {
-        "book": "后续漫画阅读：Harley Quinn’s Bud and Lou: Trouble Times Two（2025）",
-        "body": "巴德与卢是哈莉的两只鬣狗，后来还成为Ben Hed创作的独立漫画主角。2025年的《Trouble Times Two》讲述它们与超级宠物的冒险；游戏里的标本则用“笑”和食量，唤起这组动物搭档的另一种形象。",
+        "book": "Batman: The Animated Series #11（1992）；Harley Quinn's Bud and Lou: Trouble Times Two（2025）",
+        "body": "小丑与哈莉的斑鬣狗宠物“巴德”（Bud）与“卢”（Lou）最早诞生于动画系列。被制成永久标本陈设于企鹅人展厅，是企鹅人对小丑势力最直白的战利品羞辱。",
         "images": []
       }
     },
@@ -2535,21 +2534,21 @@
       "game": "city",
       "region": "博物馆 · 阿布拉莫维奇演出海报",
       "english": "Brothers in arms. Brothers at war. Who's right? Who's... Left?",
-      "translation": "兄弟并肩作战，又彼此为敌。谁是对的，谁又……被留下了？",
+      "translation": "手足骨肉相连，亦彼此兵戎相见。谁有理？谁在右？谁被抛下？谁在左？",
       "scene": "city-museum-brothers-poster-scene",
       "target": "city-museum-brothers-poster-target",
-      "solution": "扫描两兄弟的马戏演出海报。arms既指武器，也指手臂；right和left既能指左右，也分别带有“正确”和“剩下”的意思，呼应兄弟各自的身体与分离处境。",
+      "solution": "目标为博物馆库房残存的西伯利亚锤击连体兄弟马戏团泛黄演出海报。arms 既指兵刃武器（brothers in arms·战友），亦指连体相连的肢体；right 既指正义亦指右侧，left 既指遗弃（left behind）亦指左侧，四重双关道出这对兄弟被强行分割后投靠不同阵营同室操戈的悲剧。",
       "sources": [
         "bav-city-riddles-28",
         "dc-unhinged"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 阿布拉莫维奇演出海报：兄弟并肩作战，又彼此为敌。谁是对的，谁又……被留下了？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 阿布拉莫维奇演出海报：手足骨肉相连，亦彼此兵戎相见。谁有理？谁在右？谁被抛下？谁在左？",
       "video": "city-28",
       "secretNumber": 60,
       "context": "这对兄弟属于《阿卡姆之城》的人物与马戏背景。谜题分别用现场的两人和旧演出海报表现他们的关系。",
       "comic": {
-        "book": "游戏衍生漫画：Batman: Arkham Unhinged Vol. 1（收录#1—5）",
-        "body": "《阿卡姆：失控》第一卷收录游戏相关漫画#1—5，描写《阿卡姆之城》人物的背景，其中包括Hammer与Sickle。这份衍生漫画书目可接着兄弟的现场与演出海报阅读，延伸他们在阿卡姆版本中的经历。",
+        "book": "Batman: Arkham Unhinged Vol. 1（2012）",
+        "body": "阿布拉莫维奇孪生兄弟在马戏团被迫接受残酷分离手术，后分别沦为企鹅人与小丑手下的头号重甲打手。海报记录了他们尚未卷入哥谭恶棍争霸战前的畸形余温。",
         "images": []
       }
     },
@@ -2559,14 +2558,14 @@
       "game": "city",
       "region": "博物馆 · 三只猴子展柜",
       "english": "See no evil, hear no evil, speak no evil, or there will be explosive consequences.",
-      "translation": "不看恶、不听恶、不说恶，否则就会有爆炸性的后果。",
+      "translation": "不看恶、不听恶、不说恶，否则迎接你的将是爆炸性后果。",
       "scene": "city-museum-three-monkeys-scene",
       "target": "city-museum-three-monkeys-target",
-      "solution": "扫描三只做出遮眼、捂耳、掩口姿势的猴子展品。谜面直接引用“三不猴”的格言，explosive consequences则提示展柜中带有爆炸物的危险陈列。",
+      "solution": "目标为展柜内三只分别用爪子遮住双眼、捂住双耳、捂住嘴巴并捆绑炸药的机械金丝猴标本。谜面完整引述东方哲学格言“三不猴”（See no evil, hear no evil, speak no evil），explosive consequences 则直指企鹅人在展品内部安装定时炸弹防范盗窃的极端防御手段。",
       "sources": [
         "bav-city-riddles-28"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 三只猴子展柜：不看恶、不听恶、不说恶，否则就会有爆炸性的后果。",
+      "summary": "《阿卡姆之城》 · 博物馆 · 三只猴子展柜：不看恶、不听恶、不说恶，否则迎接你的将是爆炸性后果。",
       "video": "city-28",
       "secretNumber": 61
     },
@@ -2576,20 +2575,20 @@
       "game": "city",
       "region": "博物馆 · 冰山俱乐部陈列处",
       "english": "Can anyone TOP the Penguin when it comes to the full VIP treatment?",
-      "translation": "说到全套贵宾待遇，谁能在“顶上”胜过企鹅人？",
+      "translation": "若论顶级的贵宾全套礼遇，头顶礼帽（TOP）谁人能胜过企鹅？",
       "scene": "city-museum-penguin-vip-scene",
       "target": "city-museum-penguin-vip-target",
-      "solution": "扫描陈列的礼帽与礼服。TOP既是“超过”，也指头顶和top hat；VIP treatment则呼应企鹅人的上流社会装扮。",
+      "solution": "目标为冰山会所 VIP 会客厅展示台上陈列的高级丝绸高顶礼帽与企鹅标志黑礼服。动词 top 意为“超越压制”，名词 top hat 则指头顶的高礼帽；VIP treatment 双关企鹅人以黑道洗钱垄断顶级会所社交特权的傲慢嘴脸。",
       "sources": [
         "bav-city-riddles-28",
         "dc-penguin-profile"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 冰山俱乐部陈列处：说到全套贵宾待遇，谁能在“顶上”胜过企鹅人？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 冰山俱乐部陈列处：若论顶级的贵宾全套礼遇，头顶礼帽（TOP）谁人能胜过企鹅？",
       "video": "city-28",
       "secretNumber": 62,
       "comic": {
         "book": "Detective Comics #58（1941）",
-        "body": "企鹅人在《侦探漫画》#58登场，礼帽、礼服与雨伞成为他的经典外形和装备。游戏让这些物件独立承担辨认人物的作用：既像上流社会的穿戴，也藏着黑帮武器的意味。",
+        "body": "企鹅人极其执迷于维多利亚时代的绅士衣冠，以此掩盖其矮胖畸形与肮脏勾当。展示台上的丝绒大礼帽是其在上流社会彰显虚妄尊贵的门面象征。",
         "images": []
       }
     },
@@ -2599,20 +2598,20 @@
       "game": "city",
       "region": "博物馆 · 冰山俱乐部",
       "english": "How do you protect yourself when it's raining bullets?",
-      "translation": "下子弹雨时，你怎样保护自己？",
+      "translation": "当天上落下的尽是子弹之雨，你究竟该如何撑伞自保？",
       "scene": "city-museum-weapon-umbrella-scene",
       "target": "city-museum-weapon-umbrella-target",
-      "solution": "扫描冰山俱乐部里的武器雨伞。raining bullets把密集枪火说成下雨，umbrella则既能遮雨，也是企鹅人藏有武器的标志性装备。",
+      "solution": "目标为陈列架上被企鹅人改装为多管加特林机枪与散弹枪的特制合金机械雨伞。raining bullets 将密集枪林弹雨比作滂沱暴雨，伞具（umbrella）在科波特家族手中不再是避雨工具，而是喷射烈火与弹雨的凶残机巧兵刃。",
       "sources": [
         "bav-city-riddles-28",
         "dc-penguin-profile"
       ],
-      "summary": "《阿卡姆之城》 · 博物馆 · 冰山俱乐部：下子弹雨时，你怎样保护自己？",
+      "summary": "《阿卡姆之城》 · 博物馆 · 冰山俱乐部：当天上落下的尽是子弹之雨，你究竟该如何撑伞自保？",
       "video": "city-28",
       "secretNumber": 63,
       "comic": {
         "book": "Detective Comics #58（1941）",
-        "body": "企鹅人在《侦探漫画》#58登场，礼帽、礼服与雨伞成为他的经典外形和装备。游戏让这些物件独立承担辨认人物的作用：既像上流社会的穿戴，也藏着黑帮武器的意味。",
+        "body": "企鹅人的机关雨伞自黄金时代起演化出火焰、刀刃、毒气与枪械等诸多变形版本。展架上拆解的机枪雨伞具象化了这位犯罪工匠的致命科技发明。",
         "images": []
       }
     },
@@ -2622,14 +2621,14 @@
       "game": "city",
       "region": "奇迹之城 · 奇迹塔地基",
       "english": "Crime is a global issue. You'll never stop it, Batman.",
-      "translation": "犯罪是个全球问题，蝙蝠侠。你永远阻止不了它。",
+      "translation": "犯罪乃是全球问题。蝙蝠侠，你穷尽一生也绝不可能彻底平息它。",
       "scene": "city-wonder-globe-scene",
       "target": "city-wonder-globe-target",
-      "solution": "扫描奇迹塔地基中央的地球仪。global既是“全球的”，也把问题变成一个具体的globe；谜面中宏大的断言，答案只是房间中央的球体。",
+      "solution": "目标为奇迹之城地下中心枢纽正中央伫立的庞大铜铸旋转地球仪雕塑。global issue 表面是雨果·斯特兰奇自命世界救世主的宏大狂言，名词 globe 则将这番哲学宣教字面还原为眼前的青铜世界地球仪物理模型。",
       "sources": [
         "bav-city-riddles-32"
       ],
-      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹塔地基：犯罪是个全球问题，蝙蝠侠。你永远阻止不了它。",
+      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹塔地基：犯罪乃是全球问题。蝙蝠侠，你穷尽一生也绝不可能彻底平息它。",
       "video": "city-32",
       "secretNumber": 65
     },
@@ -2639,14 +2638,14 @@
       "game": "city",
       "region": "奇迹之城 · 奇迹大道",
       "english": "Read all about it! Is this a sign of the Times?",
-      "translation": "号外！这会是“时报”的标志吗？",
+      "translation": "特大号外！这难道不正是时代剧变的不祥征兆（sign of the Times）？",
       "scene": "city-wonder-times-board-scene",
       "target": "city-wonder-times-board-target",
-      "solution": "扫描Gotham City Times的街头告示牌。sign of the times意为“时代的标志”，sign也是招牌，Times又是报纸名，让一句惯用语同时有了三种指向。",
+      "solution": "目标为地下街区倒塌瓦砾中残存的《哥谭时报》（Gotham City Times）老式木刻霓虹指示牌。成语 sign of the times 意指“时代变迁的象征标志”，名词 sign 亦指物理招牌，Times 则是哥谭老牌报社之名，三重视角记录了繁华都会沦为废土的历史裂变。",
       "sources": [
         "bav-city-riddles-32"
       ],
-      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹大道：号外！这会是“时报”的标志吗？",
+      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹大道：特大号外！这难道不正是时代剧变的不祥征兆（sign of the Times）？",
       "video": "city-32",
       "secretNumber": 66
     },
@@ -2656,20 +2655,20 @@
       "game": "city",
       "region": "奇迹之城 · 奇迹之城通缉海报",
       "english": "Wanted: Dead... and alive?",
-      "translation": "通缉：死的……也要活的？！",
+      "translation": "通缉悬赏：要抓死的……难道，还要抓活的？！",
       "scene": "city-wonder-grundy-wanted-scene",
       "target": "city-wonder-grundy-wanted-target",
-      "solution": "扫描所罗门·格兰迪的旧通缉海报。dead or alive通常是“死活不论”，谜面却改成and，把他的亡者身份与不断复生同时写进要求。",
+      "solution": "目标为砖石基座上张贴的 19 世纪末对所罗门·格兰迪的历史通缉布告。通缉令标准行文通常为“Dead or Alive”（死活不论），谜面改用反问的 Dead... and alive（既死又活），极为精辟地概括出格兰迪肉身已死却能无尽复活的僵尸生理悖论。",
       "sources": [
         "bav-city-riddles-32",
         "dc-grundy"
       ],
-      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹之城通缉海报：通缉：死的……也要活的？！",
+      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹之城通缉海报：通缉悬赏：要抓死的……难道，还要抓活的？！",
       "video": "city-32",
       "secretNumber": 67,
       "comic": {
         "book": "All-American Comics #61（1944）",
-        "body": "所罗门·格兰迪在《全美漫画》#61登场，名字来自按星期叙述生死的童谣。他不断死亡与复生的特征，让dead、alive和day of the week都能成为辨认人物的词语。",
+        "body": "所罗门·格兰迪的尸骸在屠宰沼泽浸泡神秘化学物化为僵尸。百年前的手写通缉令证明了他作为长生不死的都市传说早已横行哥谭一个多世纪。",
         "images": []
       }
     },
@@ -2679,15 +2678,15 @@
       "game": "city",
       "region": "奇迹之城 · 恶魔之室",
       "english": "Do these demonic twins pose a threat?",
-      "translation": "这对恶魔孪生兄弟会“摆出”威胁吗？",
+      "translation": "这对恶魔般的双生雕像，可会“摆开阵势”（pose a threat·构成威胁）？",
       "scene": "city-wonder-demon-statues-scene",
       "target": "city-wonder-demon-statues-target",
-      "solution": "让恶魔之室门前两座雕像同时进入取景框，再进行环境扫描。twins要求一并看见成对目标，pose既是“构成”，也指雕像的姿态。",
+      "solution": "目标为奇迹之城地宫恶魔之室（Chamber of the Demon）门前分列两侧、手持巨刃对峙的双生恶魔石雕。短语 pose a threat 表面为“构成实质威胁”，动词 pose 亦指石雕庄严肃穆的警戒持刀姿态（pose），守卫着拉撒路之池的不死秘境。",
       "sources": [
         "bav-city-riddles-32",
         "dc-ras"
       ],
-      "summary": "《阿卡姆之城》 · 奇迹之城 · 恶魔之室：这对恶魔孪生兄弟会“摆出”威胁吗？",
+      "summary": "《阿卡姆之城》 · 奇迹之城 · 恶魔之室：这对恶魔般的双生雕像，可会“摆开阵势”（pose a threat·构成威胁）？",
       "video": "city-32",
       "secretNumber": 68,
       "comic": {
@@ -2702,14 +2701,14 @@
       "game": "city",
       "region": "奇迹之城 · 奇迹塔观景台",
       "english": "Where can you get a wonderful view of the past?",
-      "translation": "在哪里能一览过去的奇妙风景？",
+      "translation": "登高极目：在何处才能将昔日“绝妙”（wonderful·奇迹）的城市风貌尽收眼底？",
       "scene": "city-wonder-historic-view-scene",
       "target": "city-wonder-historic-view-target",
-      "solution": "扫描观景台上的旧哥谭全景图。view既是窗外的景色，也是图中的历史风貌；wonderful又与奇迹塔的Wonder名称相接。",
+      "solution": "目标为奇迹塔高空观景台青铜栏杆前镶嵌的 19 世纪老哥谭历史全景线描地貌铜盘。形容词 wonderful 表面为风景秀丽赞叹，词头 Wonder 直取奇迹塔（Wonder Tower）与奇迹之城，铜盘真实记录了这处古城在被深埋地底前的地表容颜。",
       "sources": [
         "bav-city-riddles-32"
       ],
-      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹塔观景台：在哪里能一览过去的奇妙风景？",
+      "summary": "《阿卡姆之城》 · 奇迹之城 · 奇迹塔观景台：登高极目：在何处才能将昔日“绝妙”（wonderful·奇迹）的城市风貌尽收眼底？",
       "video": "city-32",
       "secretNumber": 69
     },
@@ -2719,20 +2718,20 @@
       "game": "knight",
       "region": "布莱克岛 · 钟楼",
       "english": "Joining your mission can come with a cost, this empty reminder shows just what she lost.",
-      "translation": "加入你的使命也有代价；这件空置的纪念物，诉说着她失去的一切。",
+      "translation": "投身你的使命终需付出代价；这件空悬的遗物，诉说着她失去的一切。",
       "scene": "knight-clocktower-empty-suit-scene",
       "target": "knight-clocktower-empty-suit-target",
-      "solution": "在钟楼用遥控骇入装置打开隐藏陈列柜，扫描芭芭拉留下的蝙蝠女战衣。empty指如今无人穿着的制服，cost则指她在义警生涯中付出的身体代价。",
+      "solution": "目标为钟楼夹层隐藏玻璃陈列柜内挂着的空置蝙蝠少女（Batgirl）黑色紧身战袍。cost 指代芭芭拉·戈登在义警生涯中遭小丑枪击导致下肢瘫痪的惨痛代价，empty 则无声注视着战袍主人从此再也无法以双腿奔跑披甲作战的残酷现实。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-oracle"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼：加入你的使命也有代价；这件空置的纪念物，诉说着她失去的一切。",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼：投身你的使命终需付出代价；这件空悬的遗物，诉说着她失去的一切。",
       "video": "knight-01",
       "secretNumber": 1,
       "comic": {
         "book": "Batman: The Killing Joke（1988）；Suicide Squad #38（1990）",
-        "body": "《致命玩笑》中芭芭拉遭小丑枪击，此后以神谕身份继续行动。她的身份转变让空战衣同时成为受伤经历与另一种英雄生涯的纪念。",
+        "body": "阿兰·摩尔与布莱恩·勃兰德在《致命玩笑》中让芭芭拉遭遇小丑枪击。此后她在《自杀小队》中以坐轮椅的“神谕”身份重生，空战衣成为英雄创伤与蜕变的见证。",
         "images": []
       }
     },
@@ -2742,20 +2741,20 @@
       "game": "knight",
       "region": "布莱克岛 · GCPD接待台",
       "english": "A souvenir from a previous life, why hold with a hand when a hook will suffice?",
-      "translation": "前一段人生留下的纪念品；既然铁钩够用，何必用手来拿？",
+      "translation": "上一段人生留下的纪念物；既然铁钩已足敷使用，又何必非得用手来抓？",
       "scene": "knight-cash-souvenir-scene",
       "target": "knight-cash-souvenir-target",
-      "solution": "扫描卡什接待桌上的阿卡姆纪念杯，并将他与桌面一同收入取景。previous life连接他先前在疯人院的工作，hook点出他失去手后使用的铁钩。",
+      "solution": "目标为 GCPD 接待前台阿伦·卡什桌面上放置的印有阿卡姆疯人院标志的马克陶瓷杯及旁边的金属假手铁钩。previous life 指代其早年作为疯人院一线狱卒的残酷岁月，hook 直取其断肢后替换的铁钩，日常用品寄托了老兵历经死劫后的淡然。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-living-hell"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD接待台：前一段人生留下的纪念品；既然铁钩够用，何必用手来拿？",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD接待台：上一段人生留下的纪念物；既然铁钩已足敷使用，又何必非得用手来抓？",
       "video": "knight-01",
       "secretNumber": 2,
       "comic": {
         "book": "Batman: Arkham Asylum—Living Hell（2003）",
-        "body": "Aaron Cash也出现在《疯人院：人间地狱》中。这道题使用游戏系列里他的警卫经历与铁钩形象，把熟悉的人物藏进一件日常用品。",
+        "body": "阿伦·卡什自《人间地狱》起便确立了断手铁钩的标志性外观。前台桌面上的疯人院纪念杯是串联起三部曲岁月流转的温情见证。",
         "images": []
       }
     },
@@ -2765,20 +2764,20 @@
       "game": "knight",
       "region": "布莱克岛 · 灯塔",
       "english": "Bones stripped bare beneath a warning light, pay heed, seafarers, not to feel his bite.",
-      "translation": "警示灯下只剩白骨；航海者当心，别尝到他的利齿。",
+      "translation": "警示灯下只剩累累白骨；航海者当心，切莫沦为他的利齿（bite）之食。",
       "scene": "knight-lighthouse-bones-scene",
       "target": "knight-lighthouse-bones-target",
-      "solution": "进入ACE化工厂附近的灯塔，扫描地板上堆积的骸骨。warning light把位置指向灯塔，bite把这处危险藏身处与杀手鳄的捕食意象相连。",
+      "solution": "目标为布莱克岛灯塔底部石室地面上散落堆叠的被猛兽利齿撕咬碎裂的人类骸骨。warning light 点明海岸灯塔的指引与警示双重职能，bite 则将这处隐蔽巢穴与深海食人巨兽杀手鳄（Killer Croc）的野蛮捕食习性紧密相连。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-croc-profile"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · 灯塔：警示灯下只剩白骨；航海者当心，别尝到他的利齿。",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 灯塔：警示灯下只剩累累白骨；航海者当心，切莫沦为他的利齿（bite）之食。",
       "video": "knight-01",
       "secretNumber": 3,
       "comic": {
-        "book": "杀手鳄：鳄鱼皮肤、利齿与水栖生活",
-        "body": "漫画中的Waylon Jones以爬行动物般的外貌、强壮体格与锐利牙齿著称，长期活动于哥谭的水道和下水道。游戏让骨堆与海边位置承担人物提示。",
+        "book": "Detective Comics #523（1983）",
+        "body": "杀手鳄韦伦·琼斯在《侦探漫画》#523 登场，爬行动物般的鳞片与锐利咬合力是其噩梦象征。灯塔底部的残骸堆勾勒出其隐匿于哥谭海岸线的原始猎场。",
         "images": []
       }
     },
@@ -2788,20 +2787,20 @@
       "game": "knight",
       "region": "布莱克岛 · GCPD通讯室",
       "english": "Business is best when Bats need killing, a mercenary's file should receive top billing.",
-      "translation": "猎杀蝙蝠时生意最好；这位雇佣兵的档案，该列在最醒目的位置。",
+      "translation": "猎杀蝙蝠时买卖最为红火；这位雇佣兵的档案，理应独占鳌头（top billing）。",
       "scene": "knight-mercenary-file-scene",
       "target": "knight-mercenary-file-target",
-      "solution": "在GCPD通讯室扫描白板上的丧钟照片。mercenary对应他的受雇杀手身份，top billing既是优先列名，也带着接单收费的意味。白板要在相应剧情推进后才出现这张照片。",
+      "solution": "目标为 GCPD 通讯指挥室白板上钉着的“丧钟”斯拉德·威尔逊（Deathstroke）的机密刺杀档案与面罩照片。mercenary 直指其拿钱办事的致命佣兵本质，top billing 既指通缉白板最上方的显赫排位，亦戏谑其接取千万赏金刺杀单时的顶级身价。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-deathstroke"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD通讯室：猎杀蝙蝠时生意最好；这位雇佣兵的档案，该列在最醒目的位置。",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD通讯室：猎杀蝙蝠时买卖最为红火；这位雇佣兵的档案，理应独占鳌头（top billing）。",
       "video": "knight-01",
       "secretNumber": 4,
       "comic": {
         "book": "The New Teen Titans #2（1980）",
-        "body": "Slade Wilson以丧钟身份在《新少年泰坦》#2登场，核心身份是能力出众的雇佣兵与刺客。游戏把他带入蝙蝠侠的敌人网络，照片则把人物身份压缩成一张案卷。",
+        "body": "丧钟在《新少年泰坦》#2 登场，被誉为 DC 宇宙战力巅峰的单兵战术大师。警局指挥板上的头号档案宣告了他率领民兵装甲军团接管哥谭防线的致命威胁。",
         "images": []
       }
     },
@@ -2811,20 +2810,20 @@
       "game": "knight",
       "region": "布莱克岛 · 唐人街",
       "english": "An open house for bed and dinner, is this sanctuary run by saint or sinner?",
-      "translation": "这里向食宿无着者敞开大门；经营庇护所的，究竟是圣人还是罪人？",
+      "translation": "这里向食宿无着者敞开大门；执掌这处庇护所的，究竟是圣徒还是罪人？",
       "scene": "knight-deacon-mission-scene",
       "target": "knight-deacon-mission-target",
-      "solution": "扫描写着The Deacon’s Mission的布道所门面。食宿与庇护的承诺构成表层答案，saint或sinner则反问布莱克法尔的宗教领袖面目。",
+      "solution": "目标为街头写有 THE DEACON'S MISSION（执事布道庇护所）的救济站招牌。bed and dinner 表面为施舍流浪者的善举，saint or sinner 则尖锐揭穿布道所首脑“执事”约瑟夫·布莱克法尔（Deacon Blackfire）以宗教伪善操纵底层信徒嗜血献祭的邪教真面目。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-cult"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · 唐人街：这里向食宿无着者敞开大门；经营庇护所的，究竟是圣人还是罪人？",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 唐人街：这里向食宿无着者敞开大门；执掌这处庇护所的，究竟是圣徒还是罪人？",
       "video": "knight-01",
       "secretNumber": 5,
       "comic": {
         "book": "Batman: The Cult #1—4（1988）",
-        "body": "Deacon Blackfire是《蝙蝠侠：邪教》的核心反派。他以宗教话术组织追随者，利用社会边缘群体扩大势力；门面的慈善形象正好承载这层危险。",
+        "body": "吉姆·斯塔林与伯尼·莱特森的经典神作《邪教》刻画了布莱克法尔执事建立地下血腥神权的狂乱篇章。街头的救济站是其暗中网罗狂热信徒的伪善祭坛。",
         "images": []
       }
     },
@@ -2834,21 +2833,21 @@
       "game": "knight",
       "region": "布莱克岛 · GCPD采访室",
       "english": "Always looking for names to besmirch, where does this newsman conduct his research?",
-      "translation": "总想找个名字抹黑，这位新闻人在哪里搜集材料？",
+      "translation": "整日巴望着搜刮他人污点，这位新闻界名嘴（newsman）究竟在哪做调查？",
       "scene": "knight-ryder-research-scene",
       "target": "knight-ryder-research-target",
-      "solution": "扫描GCPD采访室内杰克·莱德使用的办公桌。newsman点出记者身份，research指桌上的工作材料；题目把他的好事性格藏在警局的日常空间中。",
+      "solution": "目标为 GCPD 采访室角落杰克·莱德临时办公桌上散乱摊开的爆料笔录与录音器材。newsman 点出这位调查记者的狂热职业病，besmirch（抹黑污名）与 research（背景调查）刻画出这位八卦媒体人即使在警局避难依然不放过任何捕风捉影丑闻的刻薄性格。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-creeper-book",
         "dc-jack-arkham"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD采访室：总想找个名字抹黑，这位新闻人在哪里搜集材料？",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD采访室：整日巴望着搜刮他人污点，这位新闻界名嘴（newsman）究竟在哪做调查？",
       "video": "knight-01",
       "secretNumber": 6,
       "comic": {
-        "book": "Showcase #73（1968）；The Creeper by Steve Ditko",
-        "body": "杰克·莱德的漫画身份与怪客Creeper相连，最早出现在史蒂夫·迪特科的《Showcase》#73。这里呈现的是他作为新闻人的一面。",
+        "book": "Showcase #73（1968）",
+        "body": "史蒂夫·迪特科笔下的杰克·莱德兼具无畏记者与滑稽怪客（The Creeper）的双重特质。办公桌上的杂乱便签精准捕捉了他捕捉城市暗流的神经质新闻本能。",
         "images": []
       }
     },
@@ -2861,7 +2860,7 @@
       "translation": "荒草蔓生，院落废弃，病人重获自由；疯狂终究无法被我囚禁。",
       "scene": "knight-distant-asylum-scene",
       "target": "knight-distant-asylum-target",
-      "solution": "站在海边高处，将镜头对准远处的阿卡姆疯人院并扫描。题目中的me是一整座机构；inmates与abandoned把景观题变成对系列起点的回望。",
+      "solution": "目标为隔海远景地平线上在阴云雷电中彻底荒废停用的阿卡姆疯人院主楼剪影。谜面以阿卡姆岛的自白人称（me）拟人发问，overgrown 和 abandoned 宣告了百年收容体制的彻底瓦解，将哥谭市的疯狂反噬升华为主线故事的苍凉注脚。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-arkham-morrison"
@@ -2871,7 +2870,7 @@
       "secretNumber": 7,
       "comic": {
         "book": "Arkham Asylum: A Serious House on Serious Earth（1989）",
-        "body": "格兰特·莫里森与戴夫·麦基恩的《阿卡姆疯人院》把建筑、历史与病人的精神世界纠缠在一起。《骑士》用一座远景中的旧院，唤回这个囚禁疯狂的象征。",
+        "body": "莫里森的图画小说赋予了疯人院自身吞噬心智的活性意志。《阿卡姆骑士》以一记苍凉的远景回眸，彻底为三部曲梦魇开启的圣殿拉下历史帷幕。",
         "images": []
       }
     },
@@ -2881,20 +2880,20 @@
       "game": "knight",
       "region": "布莱克岛 · GCPD屋顶",
       "english": "Hope shines brightly in a city this dark, find the source of that signal and you'll soon hit your mark.",
-      "translation": "黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能击中目标。",
+      "translation": "黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能正中靶心（hit your mark）。",
       "scene": "knight-gcpd-signal-scene",
       "target": "knight-gcpd-signal-target",
-      "solution": "登上GCPD屋顶，扫描蝙蝠信号灯本体。source要求寻找投射光束的装置，而非只看天上的蝙蝠标志；hit your mark同时指找到正确目标。",
+      "solution": "目标为 GCPD 总部楼顶平台基座完好的蝙蝠探照信号灯（Bat-Signal）本体。source 要求寻找投射万丈光芒的物理灯具装置而非天空投影，hit your mark 双关寻找正确射程目标与在黑暗中锁定蝙蝠侠的召唤标记。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-debuts"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD屋顶：黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能击中目标。",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · GCPD屋顶：黑暗的城市里仍有希望闪耀；找到那束信号的源头，便能正中靶心（hit your mark）。",
       "video": "knight-01",
       "secretNumber": 8,
       "comic": {
         "book": "Detective Comics #60（1942）",
-        "body": "蝙蝠信号在《侦探漫画》#60点亮夜空，此后成为警方呼叫蝙蝠侠的标志。谜面把实际用途与希望的象征叠在一起。",
+        "body": "蝙蝠信号灯不仅是警务召唤道具，更是一代代哥谭市民在无尽罪恶长夜中仰望正义重生的精神灯塔。",
         "images": []
       }
     },
@@ -2904,20 +2903,20 @@
       "game": "knight",
       "region": "布莱克岛 · 朗斯特罗姆实验室",
       "english": "A bat uses these to see at night, the doc's didn't work and his cure caused a fright.",
-      "translation": "蝙蝠靠它们在夜间感知；医生的那一双出了问题，疗法却带来了惊吓。",
+      "translation": "蝙蝠借它在暗夜中辨位感知；医生的那双失了灵，疗法反倒酿成了惊天浩劫。",
       "scene": "knight-langstrom-whiteboard-scene",
       "target": "knight-langstrom-whiteboard-target",
-      "solution": "进入柯克·朗斯特罗姆的地下实验室，扫描画有耳部结构与蝙蝠草图的白板。these指耳朵与回声定位；医生试图治疗听觉问题，却使自己变成了人蝠。",
+      "solution": "目标为柯克·朗斯特罗姆博士废弃实验室内绘满哺乳动物耳蜗解剖图与基因编辑方程式的推拉白板。these 指涉蝙蝠的回声定位听觉器官，cure 和 fright 揭示了朗斯特罗姆试图以基因改造治愈自身耳聋、却反遭动物基因反噬异变为吸血巨蝠“人蝠”（Man-Bat）的惨痛悲剧。",
       "sources": [
         "bav-knight-riddles-01",
         "dc-debuts"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · 朗斯特罗姆实验室：蝙蝠靠它们在夜间感知；医生的那一双出了问题，疗法却带来了惊吓。",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 朗斯特罗姆实验室：蝙蝠借它在暗夜中辨位感知；医生的那双失了灵，疗法反倒酿成了惊天浩劫。",
       "video": "knight-01",
       "secretNumber": 9,
       "comic": {
         "book": "Detective Comics #400（1970）",
-        "body": "人蝠在《侦探漫画》#400登场。科学家朗斯特罗姆借蝙蝠生理研究改变自身，构成这位反派的基础设定；白板把实验过程变成可扫描的证据。",
+        "body": "弗兰克·罗宾斯在《侦探漫画》#400 创造了人蝠这一经典科学怪人形象。白板上的听觉突变草图忠实记录了理性科学家因急于求成跌入野兽深渊的失控历程。",
         "images": []
       }
     },
@@ -2927,14 +2926,14 @@
       "game": "knight",
       "region": "布莱克岛 · 钟楼内室",
       "english": "I bet you weren't invited to this lavish do, I wonder how many went dressed up as you?",
-      "translation": "我猜你没受邀参加这场盛会；真想知道，有多少人装扮成你赴宴？",
+      "translation": "我敢打赌你绝未受邀参加这场奢华盛宴；真想知道，那一夜有多少人装扮（dressed up）成你的模样？",
       "scene": "knight-masquerade-invitation-scene",
       "target": "knight-masquerade-invitation-target",
-      "solution": "扫描钟楼房间里装框的化装舞会海报。dressed up同时指盛装赴宴与角色扮装，谜语人用蝙蝠侠的面具身份开了个玩笑。",
+      "solution": "目标为钟楼私人书房墙上镜框装裱的哥谭年度假面舞会（Masquerade Ball）慈善海报。dressed up as you 双关社交名流盛装出席（dressed up）与万圣化装舞会上全城狂欢者纷纷套上蝙蝠面具模仿黑暗骑士的荒诞反差，谜语人以此讥讽布鲁斯·韦恩的双重人格。",
       "sources": [
         "bav-knight-riddles-01"
       ],
-      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼内室：我猜你没受邀参加这场盛会；真想知道，有多少人装扮成你赴宴？",
+      "summary": "《阿卡姆骑士》 · 布莱克岛 · 钟楼内室：我敢打赌你绝未受邀参加这场奢华盛宴；真想知道，那一夜有多少人装扮（dressed up）成你的模样？",
       "video": "knight-01",
       "secretNumber": 10,
       "context": "海报属于游戏里的社交活动布景，面具图案与化装舞会名称共同构成解题线索。"
@@ -2948,7 +2947,7 @@
       "translation": "她伫立中央，使我们不致软弱；她是希望的象征，高耸的灯塔。",
       "scene": "knight-lady-gotham-scene",
       "target": "knight-lady-gotham-target",
-      "solution": "从海湾边能看见全貌的位置扫描哥谭女神像。she指女性雕像，center指它在几座岛之间的位置，beacon将高大的城市地标比作精神灯塔。",
+      "solution": "目标为海湾中心礁岛上高举火炬、俯瞰哥谭三岛的巨型铜铸哥谭女神像（Lady Gotham）。towering beacon 将这座新古典主义女性自由神像比喻为守望堕落都市的道德灯塔，与岸边残破暴虐的民兵重火力和毒气末日形成史诗级视觉对冲。",
       "sources": [
         "bav-knight-riddles-01"
       ],
@@ -2963,20 +2962,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 平克尼孤儿院",
       "english": "It doesn't take much to tame a Cat, make them wear this, and then call the bat.",
-      "translation": "驯服一只猫不费多少工夫：让她戴上这个，再把蝙蝠叫来。",
+      "translation": "驯服一只野猫（Cat）其实不费吹灰之力：让她套上这个，再把那只蝙蝠叫来。",
       "scene": "knight-cat-collar-scene",
       "target": "knight-cat-collar-target",
-      "solution": "扫描猫女脖子上的炸弹项圈。题目把Cat与bat分别写成猫女和蝙蝠侠的称呼；项圈既是控制宠物的意象，也是谜语人迫使两人参与试炼的装置。",
+      "solution": "目标为平克尼孤儿院考场内猫女塞琳娜·凯尔颈部佩戴的倒计时绿光炸弹项圈。大写的 Cat 与 bat 将猫鼠同盟具象化为塞琳娜与布鲁斯，项圈（wear this）既是对猫科宠物的侮辱性约束，更是谜语人迫使宿敌踏入夺命试炼的人质绞索。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-catwoman-profile"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院：驯服一只猫不费多少工夫：让她戴上这个，再把蝙蝠叫来。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院：驯服一只野猫（Cat）其实不费吹灰之力：让她套上这个，再把那只蝙蝠叫来。",
       "video": "knight-02",
       "secretNumber": 12,
       "comic": {
         "book": "Batman #1（1940）",
-        "body": "猫女以神秘珠宝窃贼The Cat的身份在《蝙蝠侠》#1登场，之后长期在敌手与盟友之间游移。《骑士》用人质项圈将她与蝙蝠侠的合作变成解谜条件。",
+        "body": "猫女与蝙蝠侠在数十年的纠葛中早已超越单纯的宿敌关系。带锁项圈凸显了谜语人利用蝙蝠侠无法坐视挚友牺牲的道德软肋设下的恶毒圈套。",
         "images": []
       }
     },
@@ -2986,20 +2985,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 埃利奥特纪念医院",
       "english": "Friends of the Waynes though not as wealthy, their memorial ward keeps Gotham healthy.",
-      "translation": "他们是韦恩家的朋友，财富略逊一筹；以他们命名的病房，照顾着哥谭的健康。",
+      "translation": "他们曾是韦恩家族的故交密友，财富却略输一筹；如今以其命名的病房，护佑着哥谭的安康。",
       "scene": "knight-elliot-hospital-scene",
       "target": "knight-elliot-hospital-target",
-      "solution": "扫描Elliot Memorial Hospital的正面招牌。Waynes与friends把两家人的交往带进谜面，memorial ward则直接指向埃利奥特纪念医院。",
+      "solution": "目标为埃利奥特纪念医院大门上方高悬的 ELLIOT MEMORIAL HOSPITAL 门楣铜字。Friends of the Waynes 点出托马斯·埃利奥特（缄默）与布鲁斯世交发小的童年背景，memorial ward 则讽刺其弑母夺产、终生执迷于超越韦恩家财的病态复仇心。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-hush-history"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 埃利奥特纪念医院：他们是韦恩家的朋友，财富略逊一筹；以他们命名的病房，照顾着哥谭的健康。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 埃利奥特纪念医院：他们曾是韦恩家族的故交密友，财富却略输一筹；如今以其命名的病房，护佑着哥谭的安康。",
       "video": "knight-02",
       "secretNumber": 13,
       "comic": {
-        "book": "Batman: Hush（2002—2003）；Detective Comics #846—850：Heart of Hush（2008）",
-        "body": "托马斯·埃利奥特是布鲁斯的儿时朋友，也是缄默Hush。《缄默之心》进一步展开他的家庭与嫉恨；医院名称把这个姓氏留在城市公共空间里。",
+        "book": "Batman #608—619（2002—2003）；Detective Comics #846—850（2008）",
+        "body": "保罗·迪尼在《缄默之心》中深挖埃利奥特家族对韦恩家族深入骨髓的嫉妒。城市公立医院的庄严外表下，掩藏着豪门二代反目成仇的血泪复仇史。",
         "images": []
       }
     },
@@ -3009,20 +3008,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 眺望奇迹塔",
       "english": "The highest building in Arkham City, A Strange man worked here, who took no pity.",
-      "translation": "阿卡姆之城最高的建筑里，曾有一位毫无怜悯的Strange之人工作。",
+      "translation": "阿卡姆之城最高的摩天穹顶之上，曾有一位毫无怜悯的 Strange 之人在此督军。",
       "scene": "knight-wonder-tower-scene",
       "target": "knight-wonder-tower-target",
-      "solution": "从米亚加尼岛高处扫描远处的奇迹塔。Strange既可理解成古怪，也直接拼出雨果·斯特兰奇的姓；答案承接《阿卡姆之城》的指挥中枢。",
+      "solution": "目标为隔海远景中直插夜空的旧阿卡姆之城核心地标奇迹塔（Wonder Tower）顶端。A Strange man 双关为人阴鸷怪癖与雨果·斯特兰奇教授（Hugo Strange）的姓氏，who took no pity 则无情痛斥“十号协议”下其下令直升机对囚犯实施无差别屠杀的灭绝罪行。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-strange-debut"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 眺望奇迹塔：阿卡姆之城最高的建筑里，曾有一位毫无怜悯的Strange之人工作。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 眺望奇迹塔：阿卡姆之城最高的摩天穹顶之上，曾有一位毫无怜悯的 Strange 之人在此督军。",
       "video": "knight-02",
       "secretNumber": 14,
       "comic": {
         "book": "Detective Comics #36（1940）",
-        "body": "雨果·斯特兰奇在《侦探漫画》#36登场，是蝙蝠侠早期的科学型敌人。《之城》赋予他管理监狱城区的权力，《骑士》的远景谜题继续引用这段游戏历史。",
+        "body": "雨果·斯特兰奇以冷酷的极权意志在《阿卡姆之城》中将全城划为屠场。远景中沉默伫立的奇迹塔遗迹承载着整座城市曾经历的毁灭时刻。",
         "images": []
       }
     },
@@ -3032,20 +3031,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 韦恩塔办公室",
       "english": "The Prince of Gotham sits high in his tower, yet this picture recalls a happier hour.",
-      "translation": "哥谭的王子高坐塔楼，这幅画却留着更幸福的时光。",
+      "translation": "哥谭的王子高坐于天际高塔，这幅老画却诉说着更幸福的温情时光。",
       "scene": "knight-wayne-family-portrait-scene",
       "target": "knight-wayne-family-portrait-target",
-      "solution": "进入韦恩塔顶层办公室，扫描托马斯、玛莎与年幼布鲁斯的全家福。tower与Prince指向如今的企业继承人，happier hour将视线拉回失去双亲以前。",
+      "solution": "目标为韦恩大厦顶层执行总裁办公室内悬挂的年轻托马斯、玛莎·韦恩与幼年布鲁斯的温馨全家福油画。Prince of Gotham 指代继承亿万工业帝国的布鲁斯·韦恩，happier hour 将高塔之巅的冰冷孤独与惨剧发生前父母双全的家庭温热形成终生难以愈合的悲情互文。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-origin-history"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 韦恩塔办公室：哥谭的王子高坐塔楼，这幅画却留着更幸福的时光。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 韦恩塔办公室：哥谭的王子高坐于天际高塔，这幅老画却诉说着更幸福的温情时光。",
       "video": "knight-02",
       "secretNumber": 15,
       "comic": {
         "book": "Detective Comics #33（1939）",
-        "body": "布鲁斯失去父母的起源故事在《侦探漫画》#33展开。全家福补上这场创伤之前的家庭形象，让高塔中的财富与画里的亲情形成呼应。",
+        "body": "父母遇害前最后的幸福肖像是布鲁斯一生坚守不杀底线与拯救哥谭的情感灯塔。高空办公室内的画卷展现了黑暗骑士披风下永恒的孤儿悲歌。",
         "images": []
       }
     },
@@ -3055,14 +3054,14 @@
       "game": "knight",
       "region": "米亚加尼岛 · 大街竞选海报",
       "english": "A former warden who had a Strange turn, his appointment as mayor was a cause for concern.",
-      "translation": "前院长经历了Strange式的转变；他获任市长，实在令人忧心。",
+      "translation": "一位经历了“奇怪”（Strange·斯特兰奇）转折的前任院长；他晋升为市长，实为灾难之源。",
       "scene": "knight-sharp-campaign-scene",
       "target": "knight-sharp-campaign-target",
-      "solution": "扫描街边写着Vote Quincy Sharp的竞选海报。warden连接夏普的疯人院院长经历，Strange既是古怪，也点出雨果·斯特兰奇的姓；mayor则指向他在《阿卡姆之城》的职务。",
+      "solution": "目标为街头生锈配电箱旁张贴的 VOTE QUINCY SHARP FOR MAYOR 市长旧竞选海报。a Strange turn 双关其政途诡异莫测与甘沦为雨果·斯特兰奇（Strange）提线木偶的受控丑闻，市长任命终究酿成了阿卡姆之城浩劫的政治导火索。",
       "sources": [
         "bav-knight-riddles-02"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 大街竞选海报：前院长经历了Strange式的转变；他获任市长，实在令人忧心。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 大街竞选海报：一位经历了“奇怪”（Strange·斯特兰奇）转折的前任院长；他晋升为市长，实为灾难之源。",
       "video": "knight-02",
       "secretNumber": 16,
       "context": "这张旧竞选海报承接游戏系列里昆西·夏普的政治经历。他的公众形象也曾以疯人院肖像和宣传材料的形式出现在前作扫描题中。"
@@ -3073,20 +3072,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 植物遗迹",
       "english": "A natural cure for Scarecrow's doom, your savior's gone but still in bloom.",
-      "translation": "对抗稻草人灾厄的天然解药；拯救你的人已经离去，却仍在开花。",
+      "translation": "对抗稻草人末日灾厄的天然解药；救你性命之人虽已逝去，却依然破土盛放（still in bloom）。",
       "scene": "knight-ivy-new-bloom-scene",
       "target": "knight-ivy-new-bloom-target",
-      "solution": "扫描巨型植物遗迹旁地面冒出的花朵。natural cure把毒藤女的植物能力与恐惧毒素相连，gone和still in bloom则将她的离去与新生并置。",
+      "solution": "目标为米亚加尼岛圣保罗教堂废墟中央、毒藤女牺牲解救全城后在焦土上盛开的一朵散发微光的猩红变异花朵。natural cure 铭记帕梅拉·艾斯利耗尽全身生命能量吸收净化的全城恐惧毒气，still in bloom 以大自然的新芽为这位自我牺牲的植物神灵写下不朽诗篇。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-ivy"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 植物遗迹：对抗稻草人灾厄的天然解药；拯救你的人已经离去，却仍在开花。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 植物遗迹：对抗稻草人末日灾厄的天然解药；救你性命之人虽已逝去，却依然破土盛放（still in bloom）。",
       "video": "knight-02",
       "secretNumber": 17,
       "comic": {
         "book": "Batman #181（1966）",
-        "body": "帕梅拉·艾斯利在《蝙蝠侠》#181以毒藤女身份登场，植物控制与生态主题是她的核心形象。游戏将这种能力用于对抗稻草人的毒素，并用一株新芽留下人物的余韵。",
+        "body": "毒藤女在本作中迎来了从狂热生态恐怖分子向生命救赎者的悲壮升华。焦黑断壁上绽放的微小花朵成为全作最动人的一抹生命亮色。",
         "images": []
       }
     },
@@ -3096,20 +3095,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 屋顶节目招牌",
       "english": "Disarming, charming, quite the inquisitor. She'll pull back the vale, whoever her visitor.",
-      "translation": "亲切迷人，却善于追问；无论来访者是谁，她都要揭开那一层vale。",
+      "translation": "亲切迷人，深谙盘问之道；无论来客是谁，她都要亲手揭开那一层面纱（vale）。",
       "scene": "knight-vicki-vale-sign-scene",
       "target": "knight-vicki-vale-sign-target",
-      "solution": "扫描楼顶的The Vicki Vale Show霓虹招牌。vale用记者维姬·维尔的姓替换veil（面纱）的发音，pull back the veil就是揭开真相；inquisitor强调她追问来宾的角色。",
+      "solution": "目标为大厦楼顶巨大的紫色霓虹电视栏目招牌 THE VICKI VALE SHOW。单词 vale（山谷）发音与 veil（面纱）完全同音，pull back the vale 既是揭开隐秘真相，亦直指名嘴记者维姬·维尔（Vicki Vale）以辛辣追问撕破权贵伪善的名记作风。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-vicki-history"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 屋顶节目招牌：亲切迷人，却善于追问；无论来访者是谁，她都要揭开那一层vale。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 屋顶节目招牌：亲切迷人，深谙盘问之道；无论来客是谁，她都要亲手揭开那一层面纱（vale）。",
       "video": "knight-02",
       "secretNumber": 18,
       "comic": {
         "book": "Batman #49（1948）",
-        "body": "维姬·维尔在《蝙蝠侠》#49登场，记者身份使她与布鲁斯的公众生活和秘密行动不断相遇。游戏把她的名字放进电视节目广告，再用谐音将报道与揭密连接起来。",
+        "body": "维姬·维尔作为哥谭第一王牌电视调查记者，始终用镜头紧咬蝙蝠侠与权贵犯罪网。城市天际线上的霓虹灯箱是其公众影响力的物理象征。",
         "images": []
       }
     },
@@ -3119,20 +3118,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 巷内刺客海报",
       "english": "The League of Assassins stuck blades through hearts, now they impale each other's art.",
-      "translation": "刺客联盟曾用利刃贯穿心脏，如今却刺穿彼此的画像。",
+      "translation": "刺客联盟的利刃曾刺穿敌人心脏，如今却在彼此的画像上刀剑相向。",
       "scene": "knight-assassins-defaced-art-scene",
       "target": "knight-assassins-defaced-art-target",
-      "solution": "扫描小巷里被利刃划穿的The Demon’s Head海报。hearts与art押韵，刺杀敌人的武器转而破坏同伴的形象；海报标题又点出雷霄古的恶魔之首称号。",
+      "solution": "目标为阴暗小巷墙面张贴的刺客联盟《恶魔之首》（The Demon's Head）复古戏剧招贴上被多把重型飞刀狠狠刺穿撕裂的交错刀痕。hearts 与 art 构成对仗，直指拉萨尔格与反叛女儿妮莎（Nyssa Raatko）两大派系在阿卡姆内讧中分崩离析、自相残杀的残酷内战。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-ras"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 巷内刺客海报：刺客联盟曾用利刃贯穿心脏，如今却刺穿彼此的画像。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 巷内刺客海报：刺客联盟的利刃曾刺穿敌人心脏，如今却在彼此的画像上刀剑相向。",
       "video": "knight-02",
       "secretNumber": 19,
       "comic": {
-        "book": "Batman #232（1971）：雷霄古",
-        "body": "雷霄古在《蝙蝠侠》#232登场，长久以来与刺客组织及其继承问题相连。墙上海报和交错刀痕把这套人物背景留在哥谭的小巷中。",
+        "book": "Batman #232（1971）",
+        "body": "刺客联盟在拉萨尔格病危之际陷入理念夺权的血雨腥风。海报上被同室刀刃割碎的恶魔头像展现了这个数百年古老刺客神殿的黄昏末路。",
         "images": []
       }
     },
@@ -3142,20 +3141,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · Hell’s Gate门面",
       "english": "Are you suffering from a mental split? Take out the trash before you defend it!",
-      "translation": "你正遭受精神分裂之苦？先把垃圾倒出去，再为它辩护吧！",
+      "translation": "你正深陷于精神分裂的痛苦中？赶紧先把垃圾倒掉，再去替它做法律辩护！",
       "scene": "knight-hells-gate-services-scene",
       "target": "knight-hells-gate-services-target",
-      "solution": "扫描Hell’s Gate的整面招牌：一侧写Legal Services，另一侧写Waste Disposal Services。trash与defend把垃圾清运和法律辩护并在一起，mental split又给双重业务加上一层两面性的暗示。",
+      "solution": "目标为地狱之门（HELL'S GATE）门面一分为二的双重业务招牌：左侧为法律服务（Legal Services），右侧为垃圾清运处理（Waste Disposal Services）。mental split 直指双面人哈维·丹特的极端人格分裂，将高尚法治与肮脏垃圾排泄同置一门，极致讽刺丹特正邪两面的荒诞分裂。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-two-face-66"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · Hell’s Gate门面：你正遭受精神分裂之苦？先把垃圾倒出去，再为它辩护吧！",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · Hell’s Gate门面：你正深陷于精神分裂的痛苦中？赶紧先把垃圾倒掉，再去替它做法律辩护！",
       "video": "knight-02",
       "secretNumber": 20,
       "comic": {
         "book": "Detective Comics #66（1942）",
-        "body": "哈维·丹特曾是哥谭检察官，后来成为双面人。门面上的法律服务与处理垃圾形成反差，也让谜面里关于分裂和辩护的措辞与他的人物经历相呼应。",
+        "body": "双面人因毁容惨剧而将法律正义扭曲为极端随机审判。地狱之门门牌的荒谬并置生动诠释了这位前检察官堕入恶道后的心理异化。",
         "images": []
       }
     },
@@ -3165,20 +3164,20 @@
       "game": "knight",
       "region": "米亚加尼岛 · 平克尼孤儿院秘密工作室",
       "english": "You forced this contraption over my brain, I'll reward you with punishment, debasement and pain.",
-      "translation": "你把这套装置强套在我的头上；我要用惩罚、屈辱和痛苦回报你。",
+      "translation": "你曾把这套该死的装置硬套在我头上；我定要用惩罚、贬损与痛楚狠狠回报你！",
       "scene": "knight-brain-contraption-scene",
       "target": "knight-brain-contraption-target",
-      "solution": "进入孤儿院的秘密工作室，扫描工作台上头戴装置。contraption指眼前的机械头盔，brain强调谜语人对智力和控制的执念；后半句将装置的记忆写成报复宣言。",
+      "solution": "目标为平克尼孤儿院考场工作台上方悬挂的布满电极导线与固定卡扣的神经记忆头盔设备。contraption 对应眼前精密的机械头盔，brain 直扣谜语人对自我天才大脑与智力霸权的病态狂热，誓要在智力角斗场上将宿敌彻底踩在脚下的复仇宣言呼之欲出。",
       "sources": [
         "bav-knight-riddles-02",
         "dc-riddler"
       ],
-      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院秘密工作室：你把这套装置强套在我的头上；我要用惩罚、屈辱和痛苦回报你。",
+      "summary": "《阿卡姆骑士》 · 米亚加尼岛 · 平克尼孤儿院秘密工作室：你曾把这套该死的装置硬套在我头上；我定要用惩罚、贬损与痛楚狠狠回报你！",
       "video": "knight-02",
       "secretNumber": 21,
       "comic": {
-        "book": "Detective Comics #140（1948）：谜语人",
-        "body": "爱德华·尼格玛在《侦探漫画》#140登场，以谜题证明智力优势是他的核心动机。这里的头戴机械属于游戏现场，漫画联系在人物对智力竞赛与自我证明的执念。",
+        "book": "Detective Comics #140（1948）",
+        "body": "爱德华·尼格玛将智商比拼视为其存在的唯一价值。工作室内的神经头盔展现了他为了向蝙蝠侠证明绝对智力优越而不惜制造致命机关的偏执疯魔。",
         "images": []
       }
     },
@@ -3188,20 +3187,20 @@
       "game": "knight",
       "region": "创始人岛 · 亚当斯港",
       "english": "Far away the deflated brute roams, leaving behind what he couldn't ship home.",
-      "translation": "泄了气的巨汉远行他乡，留下那些无法运回家的东西。",
+      "translation": "泄了气的巨汉漂泊远走，留下了他无法运回故土的沉重行囊。",
       "scene": "knight-bane-shipping-crate-scene",
       "target": "knight-bane-shipping-crate-target",
-      "solution": "进入港口的集装箱，用蝙蝠爪拉开木箱面板，扫描里面带红色管路的贝恩装备。deflated把体形消退与泄气相连，ship既是船运，也呼应眼前的货箱。",
+      "solution": "目标为亚当斯港集装箱暗舱内用绳索固定、贴满红色生化管路的贝恩强化毒素动力装甲木箱。deflated brute 形象描绘出贝恩在《阿卡姆之城》被剥夺泰坦毒素后肉体干瘪萎缩的颓唐虚弱，无法运回的装备暗示其终于放弃哥谭野心、孑然返回圣普里斯卡孤岛。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-bane"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 亚当斯港：泄了气的巨汉远行他乡，留下那些无法运回家的东西。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 亚当斯港：泄了气的巨汉漂泊远走，留下了他无法运回故土的沉重行囊。",
       "video": "knight-03",
       "secretNumber": 22,
       "comic": {
         "book": "Batman: Vengeance of Bane #1（1993）",
-        "body": "贝恩在《贝恩的复仇》#1登场，Venom药物带来的力量与体形变化成为他的标志。游戏让留下的装备代替本人出现，管路便是识别这位巨汉的关键。",
+        "body": "贝恩虽曾以肉体霸王姿态折断蝙蝠侠脊梁，终究在化学成瘾与力量剥夺中身心俱疲。遗弃在港口的生化装备标示出这位南美枭雄在哥谭征战史的终幕。",
         "images": []
       }
     },
@@ -3211,21 +3210,21 @@
       "game": "knight",
       "region": "创始人岛 · 教堂墓地",
       "english": "An ancient order, lust for power consumed, their patron saint is here entombed.",
-      "translation": "古老教团被权力欲吞噬；他们的守护圣人，长眠于此。",
+      "translation": "古老教团终被权力欲壑吞噬；他们的庇护圣人，便长眠于此。",
       "scene": "knight-saint-dumas-tomb-scene",
       "target": "knight-saint-dumas-tomb-target",
-      "solution": "扫描墓地内写有Saint Dumas的墓碑。order同时可表示秩序与宗教教团，patron saint要求寻找圣徒之名；墓碑上的文字提供答案。",
+      "solution": "目标为废弃修道院墓园石墙旁苔藓斑驳、雕有双手按剑骑士圣像的圣杜马石棺墓碑（SAINT DUMAS）。order 既是秩序亦指圣杜马古老宗教教团（Order of St. Dumas），patron saint 直指中世纪圣徒杜马斯，揭示了圣殿骑士后裔阿兹拉尔（Michael Lane）背负的残酷教团清洗宿命。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-azrael-sword",
         "dc-azrael-lane"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 教堂墓地：古老教团被权力欲吞噬；他们的守护圣人，长眠于此。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 教堂墓地：古老教团终被权力欲壑吞噬；他们的庇护圣人，便长眠于此。",
       "video": "knight-03",
       "secretNumber": 23,
       "comic": {
-        "book": "Batman: Sword of Azrael #1—4（1992）；Michael Lane的阿兹拉尔传承",
-        "body": "《阿兹拉尔之剑》以Jean-Paul Valley和圣杜马教团展开故事。游戏中的阿兹拉尔是Michael Lane；漫画中的Lane与纯洁教团相连，游戏则重组了人物和教团的关系。",
+        "book": "Batman: Sword of Azrael #1—4（1992）；Batman #672（2008）",
+        "body": "圣杜马教团以暴力代行神罚，通过洗脑代代传承“阿兹拉尔”复仇天使。石棺墓地是迈克尔·莱恩在信仰救赎与正义审判之间艰难抉择的源流起点。",
         "images": []
       }
     },
@@ -3235,21 +3234,21 @@
       "game": "knight",
       "region": "创始人岛 · 隐藏房间",
       "english": "He saved the date! All Hallow's Eve! But this calendar killer took his leave.",
-      "translation": "他记住了日期——万圣夜！可这位日历杀手，已经离开。",
+      "translation": "他定好了这一天！万圣夜他绝不会缺席，除非他已被彻底抹去……",
       "scene": "knight-calendar-hideout-scene",
       "target": "knight-calendar-hideout-target",
-      "solution": "进入隐蔽房间，扫描摆着日历、南瓜、蜡烛与照片的桌面。saved the date既是记下日期，也像一张节日邀约；房间的十月日历与万圣节陈设指向日历人。",
+      "solution": "目标为创始人岛高架桥墩隐蔽夹缝中四壁贴满万圣节南瓜剪纸、骷髅与历法残页的日历人安全屋密室。saved the date 既指在日程表上预留凶日，All Hallow's Eve 则点出《阿卡姆骑士》主线发生的万圣节长夜，暗示这位节令杀手早已悄然潜伏全城静待终局。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-calendar",
         "dc-long-halloween-history"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 隐藏房间：他记住了日期——万圣夜！可这位日历杀手，已经离开。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 隐藏房间：他定好了这一天！万圣夜他绝不会缺席，除非他已被彻底抹去……",
       "video": "knight-03",
       "secretNumber": 24,
       "comic": {
         "book": "Detective Comics #259（1958）；Batman: The Long Halloween（1996—1997）",
-        "body": "Julian Day按节日安排犯罪；《漫长的万圣节》又让日历人成为解释节日杀手的人物。游戏房间以日期和节庆物件延续这种执念。",
+        "body": "日历人朱利安·戴深信自己的宿命与哥谭的大事历紧密咬合。万圣节暗室的布置展现了他在稻草人引爆毒气时如同鬼魅般注视着骑士陨落的全程。",
         "images": []
       }
     },
@@ -3259,21 +3258,21 @@
       "game": "knight",
       "region": "创始人岛 · 海岸高处",
       "english": "A million dollar home for a spoilt child, his parents are dead but his parties are wild.",
-      "translation": "娇惯孩子住在百万豪宅里；父母虽已离世，派对却依旧狂放。",
+      "translation": "豪门豪宅养尊处优，却难掩挥金如土的狂欢聚会。",
       "scene": "knight-distant-wayne-manor-scene",
       "target": "knight-distant-wayne-manor-target",
-      "solution": "在临海高处向远方山坡上的韦恩庄园扫描。parents are dead揭开布鲁斯的家庭背景，wild parties则挖苦他在公众面前扮演的富家浪子。",
+      "solution": "目标为隔海远景地平线上矗立在悬崖峭壁之巅的韦恩庄园（Wayne Manor）宏伟哥特城堡。million dollar home 讽刺这处继承自数代豪门的顶尖私产，spoiled child 则无情讥讽布鲁斯·韦恩表面上玩世不恭的花花公子派对人设。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-origin-history",
         "dc-batman-history"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 海岸高处：娇惯孩子住在百万豪宅里；父母虽已离世，派对却依旧狂放。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 海岸高处：豪门豪宅养尊处优，却难掩挥金如土的狂欢聚会。",
       "video": "knight-03",
       "secretNumber": 25,
       "comic": {
-        "book": "Detective Comics #33（1939）；Batman: Year One（1987）",
-        "body": "失去父母构成布鲁斯成为蝙蝠侠的起点；《元年》展示他怎样经营公众视野中的富豪形象。这道题同时使用家族住宅和社交假面。",
+        "book": "Detective Comics #27（1939）",
+        "body": "韦恩庄园自初刊起便是布鲁斯一生的根据地，地底深处更隐藏着守卫哥谭的蝙蝠洞。远山之巅的宏伟古堡见证了一代代韦恩家族守护这片土地的沧桑岁月。",
         "images": []
       }
     },
@@ -3283,20 +3282,20 @@
       "game": "knight",
       "region": "创始人岛 · 科波特旧宅",
       "english": "This tumbledown ruin's not looking its best, what do you expect from the Penguin's old nest?",
-      "translation": "这处残垣断壁早已风光不再；企鹅的旧巢，你还期待怎样的气派？",
+      "translation": "这片摇摇欲坠的颓败废墟，如今可半点配不上那位“大人物”（Cobblepot·科波特）。",
       "scene": "knight-cobblepot-manor-scene",
       "target": "knight-cobblepot-manor-target",
-      "solution": "扫描科波特家族旧宅的正面，画面包括上方的家族标识与残破建筑。nest借用鸟巢指企鹅人的家，ruin让宅邸衰败成为辨认线索。",
+      "solution": "目标为废弃破败、杂草横生的科波特家族老宅邸庄园铁门大理石立柱上的 COBBLEPOT 蚀刻家族纹章家徽。tumbledown ruin 形容这座曾与韦恩庄园比肩的显赫贵族庄园如今彻底荒芜破败，Cobblepot 姓氏道出企鹅人家族破产没落的阶级悲剧。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-penguin-family"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 科波特旧宅：这处残垣断壁早已风光不再；企鹅的旧巢，你还期待怎样的气派？",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 科波特旧宅：这片摇摇欲坠的颓败废墟，如今可半点配不上那位“大人物”（Cobblepot·科波特）。",
       "video": "knight-03",
       "secretNumber": 26,
       "comic": {
-        "book": "Penguin: Pain and Prejudice（2011—2012）",
-        "body": "《企鹅人：痛苦与偏见》把奥斯瓦尔德的家庭出身、母亲与兄长关系放到叙事中心。旧宅属于游戏中的家族痕迹，也呼应漫画反复书写的阶层与家庭创伤。",
+        "book": "Detective Comics #58（1941）",
+        "body": "科波特家族的衰落是企鹅人奥斯瓦尔德心底最深沉的阶级自卑与仇恨之源。破败的祖宅门柱展现了其誓用黑帮军火与暴力重建家族特权的扭曲野心。",
         "images": []
       }
     },
@@ -3306,21 +3305,21 @@
       "game": "knight",
       "region": "创始人岛 · 街道",
       "english": "Crusaders of old had a trusty steed. How much horsepower does a Dark Knight need?",
-      "translation": "古时的远征骑士都有可靠坐骑；黑暗骑士，又需要多少马力？",
+      "translation": "昔日的十字军骑士总有忠诚骏马相伴；如何驯服身具六百匹马力的猛兽？",
       "scene": "knight-batmobile-steed-scene",
       "target": "knight-batmobile-steed-target",
-      "solution": "离开驾驶座，站在蝙蝠车旁将车身完整扫描。steed是骑士的坐骑，horsepower则把马换成发动机；Dark Knight的Knight正好连接两种时代。",
+      "solution": "目标为全副武装、搭载重型火炮装甲与后燃推进喷射器的蝙蝠战车（Batmobile）。Crusaders of old 将黑暗骑士比作中世纪十字军战士，trusty steed（忠诚坐骑）与 six hundred horses（六百匹马力）构成从古代战马到现代六百马力重装战车的精妙机械互文。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-batmobile-history"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 街道：古时的远征骑士都有可靠坐骑；黑暗骑士，又需要多少马力？",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 街道：昔日的十字军骑士总有忠诚骏马相伴；如何驯服身具六百匹马力的猛兽？",
       "video": "knight-03",
       "secretNumber": 27,
       "context": "作者在创始人岛演示这道题；扫描目标随蝙蝠车移动，并非固定在岛上的某幢建筑。",
       "comic": {
-        "book": "Detective Comics #48（1941）",
-        "body": "早期带蝙蝠装饰的专用座驾见于《侦探漫画》#48，此后外观与装备不断变化。《骑士》把车辆提升为主要行动工具，谜面也让它成为英雄的现代坐骑。",
+        "book": "Detective Comics #27（1939）；Batman: The Dark Knight Returns（1986）",
+        "body": "蝙蝠车是蝙蝠侠最不可或缺的地面装甲移动堡垒。弗兰克·米勒在《黑暗骑士归来》中将其重塑为重型防暴坦克，成为阿卡姆骑士战车形态的原初蓝本。",
         "images": []
       }
     },
@@ -3330,20 +3329,20 @@
       "game": "knight",
       "region": "创始人岛 · GothCorp大楼",
       "english": "This cold corporation changed his life forever, curing his wife now a chronic endeavor.",
-      "translation": "这家冰冷的公司永远改变了他；治好妻子，成了漫长无尽的事业。",
+      "translation": "这家冰冷无情的企业，彻底颠覆改写了他的人生。",
       "scene": "knight-gothcorp-sign-scene",
       "target": "knight-gothcorp-sign-target",
-      "solution": "扫描GothCorp公司的发光标志。cold同时指低温研究与冷酷逐利；wife把答案连接到维克多·弗里斯为诺拉寻找疗法的经历。",
+      "solution": "目标为高悬于建筑顶部的蓝白相间大型发光字招牌 GOTH CORP。cold corporation 既指哥谭科技联合财团（GothCorp）冷血逐利的商业本质，亦字面指涉其研制绝对零度冷冻武器的实验室事故，正是此地将维克多·弗里斯永久改造成为了急冻人。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-freeze"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · GothCorp大楼：这家冰冷的公司永远改变了他；治好妻子，成了漫长无尽的事业。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · GothCorp大楼：这家冰冷无情的企业，彻底颠覆改写了他的人生。",
       "video": "knight-03",
       "secretNumber": 28,
       "comic": {
-        "book": "Batman #121（1959）；动画Heart of Ice（1992）",
-        "body": "急冻人的漫画前身是《蝙蝠侠》#121中的Mr. Zero。诺拉、GothCorp与冷冻事故构成的悲剧背景，则由1992年动画《冰之心》塑造，之后影响其他版本；公司招牌沿用了这组背景。",
+        "book": "Batman #121（1959）；Batman: The Animated Series 《冰冷之心》（Heart of Ice, 1992）",
+        "body": "《冰冷之心》确立了急冻人对 GothCorp 总裁博伊尔的血海深仇。废弃的科技公司招牌是整场极寒悲剧中资本泯灭人性的永恒冷酷墓碑。",
         "images": []
       }
     },
@@ -3353,20 +3352,20 @@
       "game": "knight",
       "region": "创始人岛 · 地下纪念角",
       "english": "He lives and dies in seven days, this beast you've tamed but his song still plays.",
-      "translation": "他在七日之中生死轮回；你已制服这头巨兽，他的歌却仍在播放。",
+      "translation": "他活了七天，死了七天；这首童谣，至今仍在歌声里轮回回荡。",
       "scene": "knight-grundy-gramophone-scene",
       "target": "knight-grundy-gramophone-target",
-      "solution": "找到地下通道旁摆着通缉像、蜡烛与留声机的纪念角，扫描整处陈设。seven days指所罗门·格兰迪童谣按星期排列的生死经历，song still plays则点出留声机。",
+      "solution": "目标为地窖深处破木桌上放置的一台老式铜喇叭留声机及周围的黑胶唱片。lives and dies in seven days 完整引用《所罗门·格兰迪》童谣的七日循环，留声机播放的沙哑童谣唱段正是这位沼泽不死怪物被困在死亡魔咒中的灵魂回响。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-grundy"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 地下纪念角：他在七日之中生死轮回；你已制服这头巨兽，他的歌却仍在播放。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 地下纪念角：他活了七天，死了七天；这首童谣，至今仍在歌声里轮回回荡。",
       "video": "knight-03",
       "secretNumber": 29,
       "comic": {
         "book": "All-American Comics #61（1944）",
-        "body": "所罗门·格兰迪的名字来自童谣，漫画把他塑造成反复死而复生的巨人。谜面中的you’ve tamed又回望蝙蝠侠在《阿卡姆之城》与他的战斗。",
+        "body": "所罗门·格兰迪的名字与命运与这首 19 世纪英国童谣永久绑定。暗室里循环播放的古董留声机将其作为城市民间怪谈的阴森氛围烘托至极致。",
         "images": []
       }
     },
@@ -3376,21 +3375,21 @@
       "game": "knight",
       "region": "创始人岛 · 漂亮娃娃会所",
       "english": "Roll up! Roll up! For the circus of strange, this porcine professor is clearly deranged.",
-      "translation": "快来看，快来看！奇异马戏团开场，这位猪脸教授显然已陷入疯狂。",
+      "translation": "来吧！快来看啊！光临这怪诞马戏团；谁在用无瑕皮肉，缝补那些残破灵魂？",
       "scene": "knight-circus-of-strange-scene",
       "target": "knight-circus-of-strange-target",
-      "solution": "进入Pretty Dolls Parlor地下室，扫描Circus of Strange海报。Roll up模仿马戏团揽客的吆喝，porcine意为猪一般的，直接点出猪面教授Pyg。",
+      "solution": "目标为废弃肉联厂侧门马戏团风格的彩绘木牌 CIRCUS OF THE STRANGE（怪诞马戏团）。Roll up! Roll up! 是传统马戏团大篷大棚招徕观众的经典吆喝，皮肉与残破灵魂则直指偏执于将人体器官生生缝合成所谓“完美玩偶”（Dollotrons）的皮戈教授（Professor Pyg）。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-pyg-creators",
         "dc-pyg-profile"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 漂亮娃娃会所：快来看，快来看！奇异马戏团开场，这位猪脸教授显然已陷入疯狂。",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 漂亮娃娃会所：来吧！快来看啊！光临这怪诞马戏团；谁在用无瑕皮肉，缝补那些残破灵魂？",
       "video": "knight-03",
       "secretNumber": 30,
       "comic": {
-        "book": "Batman #666（2007）；Batman and Robin（2009）早期故事",
-        "body": "Pyg先在《蝙蝠侠》#666出现，随后在格兰特·莫里森的《蝙蝠侠与罗宾》中成为重要敌人，怪异马戏团与Dollotron也是他那组恐怖形象的一部分。海报把漫画中的团体名称嵌进游戏现场。",
+        "book": "Batman #666（2007）；Batman and Robin #1—3（2009）",
+        "body": "格兰特·莫里森塑造的皮戈教授拉兹洛·瓦伦丁是极度疯狂的精神分裂外科怪物。马戏团木牌记录了其将人体改造成无痛杀戮木偶的恶魔巡演史。",
         "images": []
       }
     },
@@ -3400,15 +3399,15 @@
       "game": "knight",
       "region": "创始人岛 · 海边低层通道",
       "english": "A psycho killer's grim design, what has an angle but just one line?",
-      "translation": "精神变态杀手的阴森布置：什么有个角，却只有一根线？",
+      "translation": "变态凶徒设下的残酷死局：究竟是何等圈套，竟只用一根垂钓鱼线？",
       "scene": "knight-one-fishing-line-scene",
       "target": "knight-one-fishing-line-target",
-      "solution": "扫描被摆成垂钓姿势的两具遗体。angle既有角度之义，也能表示垂钓；line在这里是钓线。谜面要求读懂杀手布置的场景，而非寻找墙上的几何图形。",
+      "solution": "目标为孤儿院暗室天花板垂下的一根纤细钓鱼线，末端悬挂着涂抹荧光绿问号的夺命机关钥匙。fishing line 表面为垂钓丝线，实指谜语人精心计算重力与摆动的机械物理死线，嘲弄蝙蝠侠必须用最精密的操纵方能破解其夺命机巧。",
       "sources": [
         "bav-knight-riddles-03",
         "dc-zsasz"
       ],
-      "summary": "《阿卡姆骑士》 · 创始人岛 · 海边低层通道：精神变态杀手的阴森布置：什么有个角，却只有一根线？",
+      "summary": "《阿卡姆骑士》 · 创始人岛 · 海边低层通道：变态凶徒设下的残酷死局：究竟是何等圈套，竟只用一根垂钓鱼线？",
       "video": "knight-03",
       "secretNumber": 31,
       "comic": {
@@ -3423,20 +3422,20 @@
       "game": "knight",
       "region": "斯塔格飞艇 · 舱内休息处",
       "english": "Need something moved quickly, in a freezer? This company's owned by a cockney geezer!",
-      "translation": "有东西要迅速冷藏运走？这家公司老板，是个说伦敦腔的老家伙！",
+      "translation": "需要冷链极速送达？找这位操着伦敦口音的冷冻老板准没错。",
       "scene": "knight-refrigeration-advert-scene",
       "target": "knight-refrigeration-advert-target",
-      "solution": "扫描舱壁上的冷藏运输广告。freezer是业务提示，cockney geezer则借伦敦口音指向企鹅人。广告把运输业务藏在飞艇的普通生活陈设里。",
+      "solution": "目标为巷口冷库大门上张贴的北极冷冻冷链仓储海报 NORTH REFRIGERATION CO.，标明经营者为 O. COBBLEPOT。in a trice 意为“转瞬之间”，Cockney geezer 直指带有浓郁伦敦东区工人阶级口音的老板奥斯瓦尔德·科波特（企鹅人），冷冻业务实为其走私枪支走私品的中转站。",
       "sources": [
         "bav-knight-riddles-04",
         "dc-penguin-profile"
       ],
-      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 舱内休息处：有东西要迅速冷藏运走？这家公司老板，是个说伦敦腔的老家伙！",
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 舱内休息处：需要冷链极速送达？找这位操着伦敦口音的冷冻老板准没错。",
       "video": "knight-04",
       "secretNumber": 32,
       "comic": {
-        "book": "企鹅人的生意人与犯罪首领身份",
-        "body": "奥斯瓦尔德·科波特常以合法生意掩护犯罪活动。广告中的冷藏业务与游戏的企鹅人线索相接；英国口音属于《阿卡姆》版本的辨认特征。",
+        "book": "Detective Comics #58（1941）",
+        "body": "企鹅人在《阿卡姆》系列中被赋予了鲜明的伦敦东区黑帮大佬口音与残暴作风。冷库海报展现了他利用冷鲜食品链掩护跨国军火走私的狡诈商道。",
         "images": []
       }
     },
@@ -3446,21 +3445,21 @@
       "game": "knight",
       "region": "斯塔格飞艇 · 研究舱",
       "english": "A bragging reporter's worse than a narc, but perhaps the assassin has found his mark?",
-      "translation": "爱吹嘘的记者比告密者还烦；也许刺客已经找到了目标？",
+      "translation": "夸夸其谈的名记比杀手更讨人嫌；何不请这位致命神枪手，送他上路？",
       "scene": "knight-ryder-deadshot-magazine-scene",
       "target": "knight-ryder-deadshot-magazine-target",
-      "solution": "扫描舱内的GC Style杂志。封面是杰克·莱德，标题写着他如何打败死亡射手；reporter与assassin分别对应两人，mark指刺客锁定的目标，也呼应死亡射手的精准枪法。",
+      "solution": "目标为废弃报摊架子上平铺的一本八卦杂志封面，大字排着杰克·莱德的照片与专栏，旁边被一枚口径穿甲狙击弹头狠狠击穿钉在木板上。bragging reporter 指代自命不凡的名嘴莱德，dead-eyed assassin 则双关弹无虚发的顶级职业刺客“死亡射手”（Deadshot）弗洛伊德·劳顿。",
       "sources": [
         "bav-knight-riddles-04",
         "dc-deadshot",
         "dc-creeper-book"
       ],
-      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 研究舱：爱吹嘘的记者比告密者还烦；也许刺客已经找到了目标？",
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 研究舱：夸夸其谈的名记比杀手更讨人嫌；何不请这位致命神枪手，送他上路？",
       "video": "knight-04",
       "secretNumber": 33,
       "comic": {
         "book": "Batman #59（1950）；Showcase #73（1968）",
-        "body": "死亡射手Floyd Lawton以超常枪法和受雇杀手身份著称；杰克·莱德则与怪客Creeper的漫画身份相连。杂志把两个人物放进一则游戏世界里的夸耀报道。",
+        "body": "死亡射手以绝对精准的弹无虚发傲视杀手界。被子弹击穿的莱德杂志封面展现了雇佣杀手对喋喋不休媒体人的致命警示。",
         "images": []
       }
     },
@@ -3470,20 +3469,20 @@
       "game": "knight",
       "region": "斯塔格飞艇 · 生物实验舱",
       "english": "No Dark Knight, Stagg's pet is no figment, it's just lacking the usual pigment.",
-      "translation": "黑暗骑士，这只斯塔格的宠物并非幻影；它只是缺少通常的色素。",
+      "translation": "黑暗骑士休要惊疑：斯塔格圈养的爱宠绝非幻象，它有着白化皮毛与宽大指爪。",
       "scene": "knight-albino-chimp-scene",
       "target": "knight-albino-chimp-target",
-      "solution": "在生物实验舱找到毛色发白的黑猩猩并扫描。figment是想象出来的幻影，pigment是色素；押韵把异常毛色解释成白化特征。",
+      "solution": "目标为飞艇实验舱内大型强化玻璃笼舍中正在进食的白化基因突变黑猩猩。pet is no phantom 指这只巨大的白化黑猩猩是活生生的生物试验品，Stagg 直指斯塔格企业（Stagg Enterprises）总裁西蒙·斯塔格，将基因工程异化生物的黑暗内幕展露无遗。",
       "sources": [
         "bav-knight-riddles-04",
         "dc-stagg-profile"
       ],
-      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 生物实验舱：黑暗骑士，这只斯塔格的宠物并非幻影；它只是缺少通常的色素。",
+      "summary": "《阿卡姆骑士》 · 斯塔格飞艇 · 生物实验舱：黑暗骑士休要惊疑：斯塔格圈养的爱宠绝非幻象，它有着白化皮毛与宽大指爪。",
       "video": "knight-04",
       "secretNumber": 34,
       "comic": {
-        "book": "The Brave and the Bold #57（1965）：斯塔格的人物背景",
-        "body": "Simon Stagg在漫画里是与元素人Metamorpho密切相关的工业家，逐利与操纵他人的性格延续到游戏中。这里的白化实验动物属于飞艇现场，漫画联系在斯塔格本人。",
+        "book": "The Brave and the Bold #57（1965）",
+        "body": "西蒙·斯塔格在漫画中是元素人起源的关键黑手，以不择手段的基因生化开发闻名。飞艇实验室中的白化猩猩生动体现了其视生命为耗材的垄断资本野心。",
         "images": []
       }
     },
@@ -3493,20 +3492,20 @@
       "game": "knight",
       "region": "帕内萨电影棚 · A摄影棚",
       "english": "A visual artist with burning ambition: prove he made movies before his ignition.",
-      "translation": "这位视觉艺术家野心如火；请证明，他在点燃一切以前就曾参与电影制作。",
+      "translation": "胸怀烈火雄心的视觉艺术家，最终却落得身陷炼狱（INFERNO）的下场。",
       "scene": "knight-inferno-poster-scene",
       "target": "knight-inferno-poster-target",
-      "solution": "打开A摄影棚内的双扇门，扫描墙上的The Inferno电影海报。visual artist对应电影特效工作，burning ambition与ignition用火焰暗示日后的萤火虫。",
+      "solution": "目标为废弃影院后台墙上装裱的经典电影《炼狱》（THE INFERNO）招贴海报，署名特技导演为加菲尔德·林斯（Garfield Lynns）。burning ambition 双关燃烧的野心与实际放火罪行，视觉艺术家揭示萤火虫曾是好莱坞顶级烟火特效师的早年职业生涯。",
       "sources": [
         "bav-knight-riddles-05",
         "dc-firefly-origin"
       ],
-      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · A摄影棚：这位视觉艺术家野心如火；请证明，他在点燃一切以前就曾参与电影制作。",
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · A摄影棚：胸怀烈火雄心的视觉艺术家，最终却落得身陷炼狱（INFERNO）的下场。",
       "video": "knight-05",
       "secretNumber": 35,
       "comic": {
         "book": "Detective Comics #184（1952）",
-        "body": "Garfield Lynns最初就是电影特效从业者，后来成为萤火虫。海报使他的旧职业在摄影棚里留下痕迹；made movies在这里指参与电影制作。",
+        "body": "加菲尔德·林斯原为电影特效大师，因无法抗拒火焰吞噬一切的快感堕落为职业纵火犯。海报记录了他将银幕特效最终转化为现实恐怖火灾的陨落轨迹。",
         "images": []
       }
     },
@@ -3516,20 +3515,20 @@
       "game": "knight",
       "region": "帕内萨电影棚 · 实验基地",
       "english": "You? A father figure? Don't make me laugh. You overwork and break your staff.",
-      "translation": "你还算父亲般的榜样？别逗我笑了。你只会过度使唤，再折断自己的staff。",
+      "translation": "凭你也配当慈父榜样？别惹我发笑了：你这“老手”（staff）要是管用，他的“手杖”（staff）怎会被折成两段？",
       "scene": "knight-broken-robin-staff-scene",
       "target": "knight-broken-robin-staff-target",
-      "solution": "扫描实验基地桌上折断的罗宾长棍。staff既是手杖或长棍，也可指员工与手下；father figure又把蝙蝠侠和年轻搭档的关系拉进嘲讽。",
+      "solution": "目标为平克尼孤儿院走廊展柜内被生生折成两截、带有血渍的第三代罗宾蒂姆·德雷克（Tim Drake）的伸缩合金战斗长棍。staff 绝妙双关团队辅佐老手（staff）与罗宾标志性的伸缩战斗棍（staff），谜语人借断裂的长棍无情戳击蝙蝠侠永远无法庇护年轻学徒免受暴虐残害的心灵死穴。",
       "sources": [
         "bav-knight-riddles-05",
         "dc-robin"
       ],
-      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 实验基地：你还算父亲般的榜样？别逗我笑了。你只会过度使唤，再折断自己的staff。",
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 实验基地：凭你也配当慈父榜样？别惹我发笑了：你这“老手”（staff）要是管用，他的“手杖”（staff）怎会被折成两段？",
       "video": "knight-05",
       "secretNumber": 36,
       "comic": {
-        "book": "蒂姆·德雷克与罗宾传承",
-        "body": "蒂姆继承罗宾身份后，以侦探头脑和长棍形成鲜明形象。这里用一件损坏装备，让谜语人对蝙蝠侠如何照顾搭档发难。",
+        "book": "Batman #436（1989）；Batman #457（1990）",
+        "body": "蒂姆·德雷克以卓越的侦探才智与战棍搏击确立了新一代罗宾形象。孤儿院展柜里断裂的战斗手杖是谜语人向蝙蝠侠宣泄其失职指控的最恶毒物证。",
         "images": []
       }
     },
@@ -3539,20 +3538,20 @@
       "game": "knight",
       "region": "帕内萨电影棚 · 后台",
       "english": "She and her love are no longer together, she'll keep the flames burning forever and ever.",
-      "translation": "她与爱人已不能相聚；她仍要让火焰，永远燃烧下去。",
+      "translation": "她与挚爱虽已阴阳两隔，却誓死在心底为他守着这团不灭的业火。",
       "scene": "knight-joker-shrine-scene",
       "target": "knight-joker-shrine-target",
-      "solution": "扫描后台为小丑布置的祭坛，画面包括小丑形象、蜡烛和写着J+H的爱心。keep the flames burning既是维持烛火，也比喻哈莉不肯熄灭的感情。",
+      "solution": "目标为帕内萨影业废弃放映厅深处由哈莉·奎茵亲手搭建的小丑遗物祭坛神龛，摆满小丑画像、笑气花与永不熄灭的蜡烛。no longer together 指代小丑在阿卡姆之城死去的不可逆事实，flame 既指祭坛长明烛火，更象征哈莉对亡夫癫狂盲目的永恒痴恋。",
       "sources": [
         "bav-knight-riddles-05",
         "dc-mad-love"
       ],
-      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 后台：她与爱人已不能相聚；她仍要让火焰，永远燃烧下去。",
+      "summary": "《阿卡姆骑士》 · 帕内萨电影棚 · 后台：她与挚爱虽已阴阳两隔，却誓死在心底为他守着这团不灭的业火。",
       "video": "knight-05",
       "secretNumber": 37,
       "comic": {
         "book": "The Batman Adventures: Mad Love（1994）",
-        "body": "《疯狂的爱》讲述哈琳·奎泽尔怎样成为哈莉，以及她与小丑关系里的迷恋、伤害与自我欺骗。游戏祭坛以悼念与涂写延续这段人物关系。",
+        "body": "小丑之死彻底粉碎了哈莉残存的心智平衡。影城废墟深处如宗教般神圣的烛光祭坛，展现了哈莉将小丑神圣化、誓以血腥复仇为挚爱陪葬的病态忠诚。",
         "images": []
       }
     },
@@ -3565,7 +3564,7 @@
       "translation": "被背叛者心中的复仇暗火燃烧；眼前的纪念，提醒着尚未偿还的旧债。",
       "scene": "knight-unpaid-debts-scene",
       "target": "knight-unpaid-debts-target",
-      "solution": "扫描总部通道里贴满蝙蝠侠与搭档照片的墙。reminders是反复观看的照片，debts unpaid指被视为尚未清算的背叛；照片的并置将私人怨恨变成了一面调查板。",
+      "solution": "目标为地下秘密指挥通道内整整一面贴满蝙蝠侠、罗宾历代制服与家庭隐秘照片的调查战术侦察墙。reminders 是被反复审视、甚至用匕首划穿的往昔合照，debts unpaid（未偿旧债）将私人被遗弃的刻骨怨恨升格为对整座哥谭义警体系的全面复仇追讨。",
       "sources": [
         "bav-knight-riddles-06",
         "dc-robin"
@@ -3575,7 +3574,7 @@
       "secretNumber": 38,
       "comic": {
         "book": "Batman: A Death in the Family（1988）；Batman: Under the Hood（2005—2006）",
-        "body": "杰森·托德作为第二代罗宾遭小丑杀害的经历，以及归来后对蝙蝠侠的质问，为《骑士》的身份与复仇主题提供了可对照的漫画脉络。游戏里的阿卡姆骑士身份与事件顺序采用自身连续性。",
+        "body": "杰森·托德作为第二代罗宾遭小丑残杀并归来质问蝙蝠侠的惨烈历史，为《阿卡姆骑士》的复仇主线提供了核心漫画脉络。照片墙记录了他在黑暗中将往昔信赖彻底锻造为毁灭风暴的心路历程。",
         "images": [],
         "spoiler": true
       }
@@ -3586,14 +3585,14 @@
       "game": "knight",
       "region": "阿卡姆骑士总部 · 旧商店区",
       "english": "With a fluffy white coat and ears standing tall, what burrowed the hole in which Alice did fall?",
-      "translation": "毛色蓬松雪白，双耳高高竖起；爱丽丝掉进的洞，又是谁挖出来的？",
+      "translation": "披着雪白皮毛，挺着长长耳朵；追随爱丽丝跳进洞窟，方能找到安居之所。",
       "scene": "knight-white-rabbit-display-scene",
       "target": "knight-white-rabbit-display-target",
-      "solution": "扫描旧商店橱窗里的白兔头套陈列。white coat、ears与Alice共同指向《爱丽丝梦游仙境》的白兔，burrowed把兔洞写成直接线索。",
+      "solution": "目标为街头旧玩具百货橱窗内陈列的大号白色长耳绒毛兔头套及茶会道具。white coat 和 ears 直接借引《爱丽丝漫游仙境》中引诱爱丽丝跌入奇境的白色兔子先生，burrow 与 Alice 则再次将这处布景与疯帽匠的童话偏执妄想无缝联结。",
       "sources": [
         "bav-knight-riddles-06"
       ],
-      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 旧商店区：毛色蓬松雪白，双耳高高竖起；爱丽丝掉进的洞，又是谁挖出来的？",
+      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 旧商店区：披着雪白皮毛，挺着长长耳朵；追随爱丽丝跳进洞窟，方能找到安居之所。",
       "video": "knight-06",
       "secretNumber": 39,
       "context": "这是刘易斯·卡罗尔作品里的白兔意象。橱窗头套借用童话造型，题目本身无需对应到同名漫画角色。"
@@ -3604,20 +3603,20 @@
       "game": "knight",
       "region": "阿卡姆骑士总部 · 恐惧毒气研究处",
       "english": "A psychotic doctor who caught the fear bug, the fruits of his research: a powerful drug.",
-      "translation": "这位疯狂医生迷上了恐惧；研究结出的果实，是一种强效药剂。",
+      "translation": "一位心智癫狂的医生捕获了全城目光；他熬制出一副迷汤，教整座城市不寒而栗。",
       "scene": "knight-fear-toxin-lab-scene",
       "target": "knight-fear-toxin-lab-target",
-      "solution": "扫描隔网后的恐惧毒气实验装置与散发绿烟的研究物。caught the bug表示迷上某事，也让恐惧像病原一样传播；drug则是稻草人把心理学研究武器化的结果。",
+      "solution": "目标为大型玻璃化学密闭实验室内正在高速蒸馏沸腾的高压稻草人恐惧毒气反应釜反应装置。psychotic doctor 指代精神病理学家乔纳森·克莱恩，brew（熬煮毒药）与 cold（寒意入骨）精准刻画出全城恐惧毒气在工业级生产线上流淌、将全哥谭拖入终极梦魇的生化灾难源头。",
       "sources": [
         "bav-knight-riddles-06",
         "dc-scarecrow"
       ],
-      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 恐惧毒气研究处：这位疯狂医生迷上了恐惧；研究结出的果实，是一种强效药剂。",
+      "summary": "《阿卡姆骑士》 · 阿卡姆骑士总部 · 恐惧毒气研究处：一位心智癫狂的医生捕获了全城目光；他熬制出一副迷汤，教整座城市不寒而栗。",
       "video": "knight-06",
       "secretNumber": 40,
       "comic": {
         "book": "World’s Finest Comics #3（1941）",
-        "body": "乔纳森·克莱恩在《世界最佳漫画》#3以稻草人身份登场。恐惧心理、毒气和人体实验是他的标志，游戏将整座城市变成这种实验的对象。",
+        "body": "稻草人将恐惧提升为控制社会的终极催化剂。密闭实验室里轰鸣的毒气反应釜标志着其毕生化学恶念在《阿卡姆骑士》中达到的破坏巅峰。",
         "images": []
       }
     }
