@@ -767,3 +767,11 @@ if fonts_subset:
     for name in ('SourceHanSansCN-ExtraLight.woff2', 'SourceHanSansCN-Regular.woff2'):
         assert (DIST / 'assets/fonts' / name).stat().st_size < 1_500_000, name
 print('PASS: TAS screening lightbox on every TAS page; iris entry; fonts ' + ('subset' if fonts_subset else 'copied in full (fonttools not installed)'))
+
+# Dossiers hub artwork outside the artbook / store / recording pipelines keeps its file hash.
+hub_art = json.loads((CONTENT.parent / 'arkham-hub-art.json').read_text())['assets']
+for asset in hub_art:
+    assert hashlib.sha256((CONTENT.parent / asset['file']).read_bytes()).hexdigest() == asset['sha256'], asset['file']
+    assert (DIST / 'assets/media' / asset['file']).is_file()
+    assert f'/assets/media/{asset["file"].rsplit(".", 1)[0]}' in pages['arkham/archive/index.html']
+print(f'PASS: {len(hub_art)} hub artwork file with recorded hash')

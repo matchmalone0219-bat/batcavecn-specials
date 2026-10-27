@@ -1,0 +1,16 @@
+{
+  "note": "哥谭档案馆总览配图中不属于设定集、商店截图或录像截帧的单张图片。",
+  "assets": [
+    {
+      "id": "riddler-hideout",
+      "file": "riddler-hideout.jpg",
+      "width": 1600,
+      "height": 900,
+      "sha256": "c6a998213148e9231c7fdd856604ac3f99fa01619c1fe550cc8a1eafda5cff2f",
+      "alt": "谜语人藏身处：贴满谜题图纸的墙面与工作台",
+      "source": "用户于2026-10-27提供的游戏画面，原始出处待补",
+      "rights": "版权归原权利人",
+      "review": "已目视检查；未裁剪、未调色"
+    }
+  ]
+}

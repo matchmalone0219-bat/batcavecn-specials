@@ -84,6 +84,8 @@ def build(data=None):
     (DIST / 'assets/media/recording-portraits').mkdir(exist_ok=True)
     for asset in json.loads((ROOT / 'recording-portraits.json').read_text())['assets']:
         copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
+    for asset in json.loads((ROOT / 'arkham-hub-art.json').read_text())['assets']:
+        copy_asset(ROOT / asset['file'], DIST / 'assets/media' / asset['file'])
     (DIST / 'assets/audio').mkdir(exist_ok=True)
     for source, destination in arkham_webp.items():
         destination.parent.mkdir(parents=True, exist_ok=True)

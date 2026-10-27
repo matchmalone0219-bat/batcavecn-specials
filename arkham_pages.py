@@ -96,16 +96,20 @@ def build_arkham_archive(data,shell):
     terminals=[('/arkham/patients/','patient','患者终端','PATIENT RECORD DATABASE','调取《疯人院》与《之城》的患者访谈原声与导读。','patients','患者录音 · 已试听角色',patient_total),
                ('/arkham/transmissions/','radio','频段监听','CRYPTOGRAPHIC SEQUENCER','收听《之城》与《骑士》的电话、广播和案件录音。','transmissions','频段监听 · 已试听录音',transmission_total)]
     rooms=[(f'/arkham/archive/{s}/',ROOM_ICONS[s],t,ROOM_EN[s],d,None,None,0) for s,t,d in ROOMS]
-    hub_art={'/arkham/patients/':'a05-diploma','/arkham/transmissions/':'arkham-city-05','/arkham/archive/riddler/':'a12-robot','/arkham/archive/clues/':'arkham-city-06','/arkham/archive/stories/':'a07-layers','/arkham/archive/publications/':'a16-lighthouse','/arkham/archive/asylum-history/':'chronicle-east','/arkham/archive/rocksteady/':'a02-batman'}
+    hub_art={'/arkham/patients/':'a05-diploma','/arkham/transmissions/':'arkham-city-05','/arkham/archive/riddler/':'riddler-hideout','/arkham/archive/clues/':'arkham-city-06','/arkham/archive/stories/':'a07-layers','/arkham/archive/publications/':'a16-lighthouse','/arkham/archive/asylum-history/':'chronicle-east','/arkham/archive/rocksteady/':'a02-batman'}
     art_pool={i['id']:i for i in json.loads((ROOT/'arkham-artbook.json').read_text())['images']}
     art_pool.update({i['id']:i for i in json.loads((ROOT/'media.json').read_text())['assets'] if i['site']=='arkham'})
     art_pool.update({i['id']:{**i,'alt':i['caption']} for i in history['images']+riddler['images']})
+    art_pool.update({i['id']:i for i in json.loads((ROOT/'arkham-hub-art.json').read_text())['assets']})
+    portrait_games={'asylum':'阿卡姆疯人院','city':'阿卡姆之城','knight':'阿卡姆骑士'}
+    art_pool.update({'portrait-'+i['id']:{**i,'id':'portrait-'+i['id'],'alt':f"{i['alt']} · 《{portrait_games[i['origin']['game']]}》游戏画面"} for i in json.loads((ROOT/'recording-portraits.json').read_text())['assets']})
     def count(key,label,total):
         labels={'patients':'已试听角色','transmissions':'已试听录音'}
         return f'<span class="pause-count" data-record="{key}" data-total="{total}" data-record-label="{labels[key]}" title="{esc(label)}">{labels[key]} 0 / {total}</span>' if key else ''
     def art(href):
-        i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ' is-contain' if i['height']>i['width'] else ''
-        if i['id']=='a05-diploma': fit=' is-document'  # show the whole certificate
+        i=art_pool[hub_art[href]];fit=' is-small' if i['width']<900 else ''
+        # Documents and tall images show whole, with a blurred copy filling the frame around them.
+        if i['id']=='a05-diploma' or i['height']>i['width']: fit=' is-document'
         assert not i.get('spoiler'),i['id']
         # A document keeps its whole sheet in view; a blurred copy of it fills the frame around the sheet.
         backdrop = f'<img class="pause-art-backdrop" src="/assets/media/{esc(i["file"])}" width="{i["width"]}" height="{i["height"]}" alt="" aria-hidden="true" loading="lazy">' if fit == ' is-document' else ''
