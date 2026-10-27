@@ -1098,7 +1098,7 @@
     },
     {
       "id": "local-asylum-recording-20261022",
-      "title": "《阿卡姆疯人院》阿卡姆之魂记录 · 用户提供游戏录制",
+      "title": "《阿卡姆疯人院》阿卡姆之魂记录 · 玩家录制",
       "evidence": "本地玩家录制 · 英语原声",
       "checked": "2026-10-22",
       "files": [
@@ -1183,7 +1183,7 @@
       82,
       80
     ],
-    "rights": "原游戏界面图标 © DC / Warner Bros. / Rocksteady；取自用户提供录屏。"
+    "rights": "原游戏界面图标 © DC / Warner Bros. / Rocksteady；取自玩家录制的游戏画面。"
   },
   "playerFinalImage": {
     "file": "asylum-history-player-portrait.webp",
@@ -1200,7 +1200,7 @@
       820
     ],
     "caption": "阿卡姆之魂的游戏档案插画：人物与石碑。",
-    "rights": "原游戏档案插画 © DC / Warner Bros. / Rocksteady；取自用户提供录屏。",
+    "rights": "原游戏档案插画 © DC / Warner Bros. / Rocksteady；取自玩家录制的游戏画面。",
     "presentation": "仅用户主动展开并播放最后一段录音后显示；切回其他记录恢复人影图。"
   }
 }

@@ -154,4 +154,7 @@ assert html.count('<details class="profile-sources-fold">') == 1
 profile_css = (ROOT / 'conroy-profile.css').read_text()
 assert 'border-left' not in profile_css and 'border-inline-start' not in profile_css
 
+# Internal production wording stays out of the pages; sources are labelled by type (e.g. 玩家录制).
+assert all('用户提供' not in body for body in pages.values())
+
 print(f'PASS: sourced biography, {len(photos)} licensed photos, seven-part Finding Batman feature, shared Conroy feature with animation/game lanes, old addresses and scoped search open the right route')

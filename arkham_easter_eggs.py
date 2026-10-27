@@ -35,21 +35,33 @@ def load_easter_eggs():
     return packet
 
 
+def city_video_label(source_id):
+    """Neutral labels for the Arkham City videos, so links never spell out a finding."""
+    number = int(source_id.rsplit('-', 1)[1])
+    return '总集' if number == 1 else ('追加彩蛋' if number == 39 else f'彩蛋 {number - 1:02}')
+
+
 def video_credit(packet, esc):
+    # One credit line at the top. Arkham City's numbered videos are linked from the entries that use them.
     links = []
-    city_links = []
     for source in packet['sources']:
         if '-city-' in source['id']:
-            number = int(source['id'].rsplit('-', 1)[1])
-            label = '总集' if number == 1 else ('追加彩蛋' if number == 39 else f'彩蛋 {number - 1:02}')
-            city_links.append(f'<li><a href="{esc(source["url"])}">{label}</a></li>')
+            if city_video_label(source['id']) == '总集':
+                links.append(f'<a href="{esc(source["url"])}">《阿卡姆之城》总集</a>')
             continue
         label = '《疯人院》彩蛋与秘密' if source['id'] == packet['source']['id'] else '《骑士》Part ' + source['id'].rsplit('-', 1)[1]
         links.append(f'<a href="{esc(source["url"])}">{esc(label)}</a>')
     return ('<p class="scene-credit">彩蛋资料转载整理自 Batman Arkham Videos，感谢原作者的收集与展示。原视频：'
-            + ' · '.join(links) + '。</p>'
-            + '<details class="scene-video-sources"><summary>《阿卡姆之城》原视频 · 总集与38段分集</summary><ol>'
-            + ''.join(city_links) + '</ol></details>')
+            + ' · '.join(links) + '。</p>')
+
+
+def city_video_line(entry, packet, esc):
+    if entry['game'] != 'city':
+        return ''
+    sources = {source['id']: source for source in packet['sources']}
+    ids = [entry['source']] + [s for s in entry.get('relatedSources', []) if s != entry['source']]
+    links = ' · '.join(f'<a href="{esc(sources[s]["url"])}">{city_video_label(s)}</a>' for s in ids)
+    return f'<p class="clue-source">原视频：{links}</p>'
 
 
 def egg_detail(entry, packet, esc):
@@ -70,4 +82,4 @@ def egg_detail(entry, packet, esc):
         blocks += section
     if entry['spoiler']:
         blocks = '<details class="spoiler"><summary>展开画面与解读 · 含剧透</summary>' + blocks + '</details>'
-    return detail + blocks
+    return detail + blocks + city_video_line(entry, packet, esc)

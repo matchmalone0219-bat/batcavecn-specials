@@ -60,9 +60,14 @@ assert page.count('data-browse-item') == 234
 assert 'data-zone-game="asylum" aria-pressed="false">阿卡姆疯人院 · 22</button>' in page
 assert 'data-zone-game="knight" aria-pressed="false">阿卡姆骑士 · 126</button>' in page
 assert 'data-zone-game="city" aria-pressed="false">阿卡姆之城 · 86</button>' in page
-assert '<details class="scene-video-sources"><summary>《阿卡姆之城》原视频 · 总集与38段分集</summary>' in page
+# No long folded video list up top; each Arkham City entry links the videos it draws on, with neutral labels.
+assert 'scene-video-sources' not in page
 for source in packet['sources']:
-    assert page.count(source['url']) == 1
+    assert page.count(source['url']) == 1 if '-city-' not in source['id'] else page.count(source['url']) >= 1, source['id']
+for entry in (e for e in packet['entries'] if e['game'] == 'city'):
+    article = page.split(f'<article id="{entry["id"]}"', 1)[1].split('</article>', 1)[0]
+    line = article.split('<p class="clue-source">', 1)[1].split('</p>', 1)[0]
+    assert next(s['url'] for s in packet['sources'] if s['id'] == entry['source']) in line, entry['id']
 search = json.loads((ROOT / 'dist/content/search.json').read_text())
 spoiler_images = set()
 for entry in packet['entries']:

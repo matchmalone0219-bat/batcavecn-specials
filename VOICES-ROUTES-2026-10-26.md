@@ -36,3 +36,8 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
 - 资料来源与人物资料出处默认折叠（“展开全部 N 条资料”）；正文引用编号不变。
 - 改动：crossover_pages.py、conroy_profile.py（`profile_sources`）、conroy-profile.css（末尾 compact 样式）、verify-conroy.py（目录、折叠与署名检查）。
 - 2026-10-27：引语块（封面与章节，含动画线/游戏线变体）去掉左侧竖线，改为上下细横线加顶部短横强调；verify-conroy.py 检查 conroy-profile.css 不含 border-left。
+- 2026-10-27：阿卡姆体检修正（1–4）
+  1. 场景细节页：删去《阿卡姆之城》39 段原视频折叠目录（违反文案规范“禁止前台堆砌长篇视频折叠目录”）。开头署名保留《疯人院》《骑士》各段与《之城》总集；每个《之城》条目底部列出所用视频（主来源加相关来源），用中性序号“彩蛋 NN / 总集 / 追加彩蛋”。verify-easter-eggs.py 相应更新。
+  2. 共同页特稿：目录编号不透明度 0.85、声音对照小标签 #6e5a40 改为全局规则（原只作用于已停用的阿卡姆版页面）；手机端该标签 8px→10px。紧凑角色卡的“Dark Deco”标签与展开后作品年份的透明度一并提高，对比度全部 ≥4.5:1。
+  3. 小丑、哈莉的游戏配图原为同一张宣传图，改为《阿卡姆疯人院》设定集中的各自角色设定图（crossover.json）。
+  4. “用户提供录屏 / 用户提供游戏录制”改为来源类型“玩家录制（画面）”（arkham_soul.py、asylum-history、arkham-transmissions、patient-interviews、crossover 的来源标题与类型）；后台元数据未改。verify-conroy.py 检查页面不含“用户提供”。

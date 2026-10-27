@@ -584,8 +584,7 @@
       ],
       "images": {
         "tas": "tas-episode-the-laughing-fish-03.jpg",
-        "arkham": "arkham-city-04.jpg",
-        "arkhamPosition": "88% 40%"
+        "arkham": "recording-portraits/asylum-joker.jpg"
       }
     },
     {
@@ -648,8 +647,7 @@
       ],
       "images": {
         "tas": "tas-episode-harley-and-ivy-03.jpg",
-        "arkham": "arkham-city-04.jpg",
-        "arkhamPosition": "12% 30%"
+        "arkham": "recording-portraits/asylum-harley.jpg"
       }
     },
     {
@@ -1275,15 +1273,15 @@
     },
     {
       "id": "local-city-recording-20261022",
-      "title": "《阿卡姆之城》录音磁带合集 · 用户提供游戏录制",
-      "type": "用户提供游戏录制",
+      "title": "《阿卡姆之城》录音磁带合集 · 玩家录制",
+      "type": "玩家录制",
       "scope": "《阿卡姆之城》录音磁带中的疯帽匠、谜语人与企鹅人。",
       "checked": "2026-10-24"
     },
     {
       "id": "local-knight-recording-20261022",
-      "title": "《阿卡姆骑士》八组录音 · 用户提供游戏录制",
-      "type": "用户提供游戏录制",
+      "title": "《阿卡姆骑士》八组录音 · 玩家录制",
+      "type": "玩家录制",
       "scope": "《阿卡姆骑士》频段录音中的稻草人、谜语人与企鹅人。",
       "checked": "2026-10-24"
     },

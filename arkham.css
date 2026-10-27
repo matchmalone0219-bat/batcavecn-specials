@@ -596,6 +596,8 @@
 .riddler-reading [hidden]{display:none!important}
 .riddler-reading .clue-zones{border-top:0}
 .riddler-reading>.scene-credit{font-size:12px;line-height:1.7;color:var(--muted);margin:12px 0 6px}
+.arkham .clue-source{font-size:12px;line-height:1.8;color:var(--muted);margin:18px 0 0}
+.arkham .clue-source a{text-decoration:underline;text-underline-offset:3px}
 .riddler-reading>.fine{font-size:11px;margin:6px 0 12px}
 .riddler-reading [data-riddler-status]{font-size:12px;color:var(--muted);margin:0}
 .riddler-reading .riddler-summary{font-size:13px;margin:6px 0 0}
