@@ -35,3 +35,4 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
 - 演职员：片尾名单式（职务、姓名、外文名与年份、一句概要），小传、作品与资料收进“小传与作品”。
 - 资料来源与人物资料出处默认折叠（“展开全部 N 条资料”）；正文引用编号不变。
 - 改动：crossover_pages.py、conroy_profile.py（`profile_sources`）、conroy-profile.css（末尾 compact 样式）、verify-conroy.py（目录、折叠与署名检查）。
+- 2026-10-27：引语块（封面与章节，含动画线/游戏线变体）去掉左侧竖线，改为上下细横线加顶部短横强调；verify-conroy.py 检查 conroy-profile.css 不含 border-left。

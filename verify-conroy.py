@@ -150,4 +150,8 @@ for node in people:
 assert html.count('<details class="xsources-fold">') == 1 and f'展开全部 {len(crossover_doc["sources"])} 条资料' in html
 assert html.count('<details class="profile-sources-fold">') == 1
 
+# Project rule: no left bars on cards or quotes; quotes use horizontal hairlines.
+profile_css = (ROOT / 'conroy-profile.css').read_text()
+assert 'border-left' not in profile_css and 'border-inline-start' not in profile_css
+
 print(f'PASS: sourced biography, {len(photos)} licensed photos, seven-part Finding Batman feature, shared Conroy feature with animation/game lanes, old addresses and scoped search open the right route')
