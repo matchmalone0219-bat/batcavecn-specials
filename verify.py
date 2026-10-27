@@ -254,14 +254,14 @@ for e in data["episodes"]:
         partner = next(p for p in data["episodes"] if p["id"] == other)
         assert e["id"] in partner["related"]
 media = json.loads((CONTENT.parent / "media.json").read_text())
-assert len(media["assets"]) == 32
-assert len({a["sha256"] for a in media["assets"]}) == 32
+assert len(media["assets"]) == 34
+assert len({a["sha256"] for a in media["assets"]}) == 34
 for a in media["assets"]:
     assert a["width"] >= 800 and a["height"] >= 400
     assert a["imageUrl"].startswith("https://") and a["sourcePage"].startswith("https://")
     assert hashlib.sha256((CONTENT.parent / a["file"]).read_bytes()).hexdigest() == a["sha256"]
     assert (DIST / "assets/media" / a["file"]).is_file()
-print("PASS: 32 sourced original images; TNBA separate; paired episode links reciprocal")
+print("PASS: 34 sourced original images; TNBA separate; paired episode links reciprocal")
 catalog_art = json.loads((CONTENT.parent / "catalog-art.json").read_text())["assets"]
 assert len(catalog_art) == len(data["games"]) == 8
 assert {a["item"] for a in catalog_art} == {g["id"] for g in data["games"]}

@@ -41,3 +41,7 @@ conroy_profile.py（新的 `voices_chapters`、门、作品切换、年表标记
   2. 共同页特稿：目录编号不透明度 0.85、声音对照小标签 #6e5a40 改为全局规则（原只作用于已停用的阿卡姆版页面）；手机端该标签 8px→10px。紧凑角色卡的“Dark Deco”标签与展开后作品年份的透明度一并提高，对比度全部 ≥4.5:1。
   3. 小丑、哈莉的游戏配图原为同一张宣传图，改为《阿卡姆疯人院》设定集中的各自角色设定图（crossover.json）。
   4. “用户提供录屏 / 用户提供游戏录制”改为来源类型“玩家录制（画面）”（arkham_soul.py、asylum-history、arkham-transmissions、patient-interviews、crossover 的来源标题与类型）；后台元数据未改。verify-conroy.py 检查页面不含“用户提供”。
+- 2026-10-27：哥谭档案馆总览配图（arkham_pages.py `hub_art`）
+  - 患者终端 a05-diploma（哈琳·奎泽尔心理学学位证书）；频段监听 arkham-city-05（新增，Steam 官方截图：霓虹招牌间俯瞰街区的蝙蝠侠）；场景细节 arkham-city-06（新增，Steam 官方截图：斯奥尼斯钢铁厂招牌）；哥谭故事 a07-layers；漫画与出版文献 a16-lighthouse；谜语人暂用 a12-robot（待换三部曲奖杯拼图）；院史、Rocksteady 不变。
+  - 新截图登记在 media.json（WB Games / DC，官方商店截图，Steam GOTY，1280×720 原文件），并生成 webp；verify.py 媒体数 32→34。两张也会出现在《阿卡姆之城》作品页与图片资料页。
+  - DC 漫画封面在 arkham-archive-research.json 标注为私有研究素材、未取得转载授权，未用于前台。

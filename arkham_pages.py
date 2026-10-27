@@ -96,7 +96,7 @@ def build_arkham_archive(data,shell):
     terminals=[('/arkham/patients/','patient','患者终端','PATIENT RECORD DATABASE','调取《疯人院》与《之城》的患者访谈原声与导读。','patients','患者录音 · 已试听角色',patient_total),
                ('/arkham/transmissions/','radio','频段监听','CRYPTOGRAPHIC SEQUENCER','收听《之城》与《骑士》的电话、广播和案件录音。','transmissions','频段监听 · 已试听录音',transmission_total)]
     rooms=[(f'/arkham/archive/{s}/',ROOM_ICONS[s],t,ROOM_EN[s],d,None,None,0) for s,t,d in ROOMS]
-    hub_art={'/arkham/patients/':'a03-light','/arkham/transmissions/':'arkham-knight-03','/arkham/archive/riddler/':'city-subsidence','/arkham/archive/clues/':'city-flying-graysons','/arkham/archive/stories/':'city-subsidence','/arkham/archive/publications/':'a05-diploma','/arkham/archive/asylum-history/':'chronicle-east','/arkham/archive/rocksteady/':'a02-batman'}
+    hub_art={'/arkham/patients/':'a05-diploma','/arkham/transmissions/':'arkham-city-05','/arkham/archive/riddler/':'a12-robot','/arkham/archive/clues/':'arkham-city-06','/arkham/archive/stories/':'a07-layers','/arkham/archive/publications/':'a16-lighthouse','/arkham/archive/asylum-history/':'chronicle-east','/arkham/archive/rocksteady/':'a02-batman'}
     art_pool={i['id']:i for i in json.loads((ROOT/'arkham-artbook.json').read_text())['images']}
     art_pool.update({i['id']:i for i in json.loads((ROOT/'media.json').read_text())['assets'] if i['site']=='arkham'})
     art_pool.update({i['id']:{**i,'alt':i['caption']} for i in history['images']+riddler['images']})
