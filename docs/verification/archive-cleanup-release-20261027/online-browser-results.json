@@ -1,0 +1,20 @@
+{
+  "count": 14,
+  "checks": [
+    "published archive has eight entries",
+    "published archive has no case count or case links",
+    "all 143 subject records published",
+    "no guide section or demonstration videos published",
+    "published scanning reveals the actual target",
+    "published scene/target comparison works",
+    "published mechanics descriptions removed",
+    "patients: only listening terminal links remain online",
+    "patients: actual online audio and Chinese subtitles work",
+    "patients: folding pauses online playback",
+    "transmissions: only listening terminal links remain online",
+    "transmissions: actual online audio and Chinese subtitles work",
+    "transmissions: folding pauses online playback",
+    "no online browser script errors"
+  ],
+  "errors": []
+}

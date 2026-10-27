@@ -5,3 +5,6 @@
 - scope.json：143道保留题目、录音数据与相关阅读脚本不变；未发布的故事扩充与规划隔离在原工作区。
 
 发布说明见根目录ARKHAM-ARCHIVE-CLEANUP-RELEASE-2026-10-27.md。
+- github-jobs.json：本次GitHub build与deploy成功记录。
+- online-http.json：35个旧地址404、6项线上资源哈希一致，以及806条搜索与发布候选一致。
+- online-check.js、online-browser-results.json：14项正式站操作复验通过，无脚本错误。

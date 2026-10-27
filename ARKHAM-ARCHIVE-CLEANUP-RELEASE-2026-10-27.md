@@ -15,4 +15,12 @@
 
 患者、通信与院史录音数据，以及Soul与Riddler扫描脚本，均与发布基线逐字节保持；143道物件／人物题逐项保持。证据见`docs/verification/archive-cleanup-release-20261027/`。此前两轮本地验收目录保留为工作区快照，其中818条搜索包含未发布的故事扩充；本次发布计数以独立副本的806条为准。
 
-推送后由既有GitHub Pages工作流自动部署；最终部署与线上检查结果在本记录后续补充。
+## 推送与上线确认
+
+已按用户授权推送main，部署内容提交`1c1d944e00bc962d0a17f2c871958316fc268312`。[GitHub运行40422834067](https://github.com/matchmalone0219-bat/batcavecn-specials/actions/runs/40422834067)的build、deploy均成功。
+
+正式站核对：案件旧页与34项旧演示资源共35个地址均返回404；6项关键脚本／样式哈希与发布候选一致；搜索806条并与独立副本完全相同。14项线上操作检查通过，包括143道资料题仍在、机制与视频区消失、目标图扫描／对照，以及患者和通信录音的真实播放、中文字幕与折叠暂停，无脚本错误。
+
+最终确认记录另以`[skip ci]`提交，不重复部署页面内容。并行故事扩充、互链与资料扩充规划仍留在本地，未混入本批。
+
+线上入口：[档案馆](https://matchmalone0219-bat.github.io/batcavecn-specials/arkham/archive/)、[谜语人资料页](https://matchmalone0219-bat.github.io/batcavecn-specials/arkham/archive/riddler/)。

@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-10-26T23:59:12.432395+00:00",
+  "base": "https://matchmalone0219-bat.github.io/batcavecn-specials/",
+  "retiredURLs": [
+    {
+      "path": "arkham/detective/",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/caves-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/caves-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-bowery-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-bowery-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-industrial-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-industrial-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-mile-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-mile-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-mill-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-mill-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-museum-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-museum-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-park-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-park-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-subway-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-subway-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-wonder-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/city-wonder-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/east-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/east-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/gardens-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/gardens-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/mansion-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/mansion-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/medical-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/medical-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/north-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/north-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/prison-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/prison-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/treatment-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/treatment-perspective.mp4",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/west-perspective-target.jpg",
+      "status": 404
+    },
+    {
+      "path": "assets/media/riddler-scans/west-perspective.mp4",
+      "status": 404
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/app.js",
+      "expectedSHA256": "9519ec7c3fecfa4fa3b0c20bbe28a4de3b615e73fd82883b90633db454c36628",
+      "onlineSHA256": "9519ec7c3fecfa4fa3b0c20bbe28a4de3b615e73fd82883b90633db454c36628",
+      "pass": true
+    },
+    {
+      "path": "assets/arkham-investigation.js",
+      "expectedSHA256": "163b8911968ebb6aa26b7a674eada484558b942c9827bbc7af11242e9c2ed0c7",
+      "onlineSHA256": "163b8911968ebb6aa26b7a674eada484558b942c9827bbc7af11242e9c2ed0c7",
+      "pass": true
+    },
+    {
+      "path": "assets/arkham-investigation.css",
+      "expectedSHA256": "abe1f09757e94163cd398b224c0b73f8999174d5f9bd6bb1490f32037a185f7a",
+      "onlineSHA256": "abe1f09757e94163cd398b224c0b73f8999174d5f9bd6bb1490f32037a185f7a",
+      "pass": true
+    },
+    {
+      "path": "assets/arkham-recent.js",
+      "expectedSHA256": "36e606ea4da4a14bcad8ac343560bb482bceaba8e29283d08308e94cd4db2138",
+      "onlineSHA256": "36e606ea4da4a14bcad8ac343560bb482bceaba8e29283d08308e94cd4db2138",
+      "pass": true
+    },
+    {
+      "path": "assets/arkham.css",
+      "expectedSHA256": "71631a21232b51d89ce6ad6648cd3ac658e614b95f2401f1d76c90680e39d400",
+      "onlineSHA256": "71631a21232b51d89ce6ad6648cd3ac658e614b95f2401f1d76c90680e39d400",
+      "pass": true
+    },
+    {
+      "path": "assets/arkham-riddler-scan.js",
+      "expectedSHA256": "bdd8e1943b1bc75f398b89432d92235098e523799543f0a4109fbeb77bd57763",
+      "onlineSHA256": "bdd8e1943b1bc75f398b89432d92235098e523799543f0a4109fbeb77bd57763",
+      "pass": true
+    }
+  ],
+  "checkedPages": [
+    "arkham/archive/",
+    "arkham/archive/riddler/",
+    "arkham/archive/clues/"
+  ],
+  "searchRecords": 806,
+  "searchMatchesPublishedCandidate": true
+}
