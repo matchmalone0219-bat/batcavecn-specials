@@ -66,6 +66,7 @@ def build(data=None):
     copy_asset(ROOT / 'arkham-map.js', DIST / 'assets/arkham-map.js')
     media = json.loads((ROOT / "media.json").read_text())
     media["assets"] += json.loads((ROOT / "episode-media.json").read_text())["assets"]
+    media["assets"] += json.loads((ROOT / "tnba-title-frames.json").read_text())["assets"]
     media["assets"] += json.loads((ROOT / "catalog-art.json").read_text())["assets"]
     for asset in media["assets"]:
         copy_asset(ROOT / asset["file"], DIST / "assets/media" / asset["file"])
@@ -108,6 +109,7 @@ def build(data=None):
     (DIST / "content").mkdir(exist_ok=True)
     copy_asset(ROOT / "media.json", DIST / "content/media.json")
     copy_asset(ROOT / "episode-media.json", DIST / "content/episode-media.json")
+    copy_asset(ROOT / "tnba-title-frames.json", DIST / "content/tnba-title-frames.json")
     (DIST / "content/archive.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     (DIST / "content/search.json").write_text(json.dumps(index, ensure_ascii=False))
     ship_fonts(ROOT, DIST)

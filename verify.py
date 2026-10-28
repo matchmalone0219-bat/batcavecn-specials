@@ -624,14 +624,23 @@ print('PASS: Arkham archive rail on 6 room pages; hub has 8 entries and listenin
 # TAS programme, screening halls and end-credit roster.
 catalog_html = (DIST / 'tas/catalog/index.html').read_text()
 assert catalog_html.count('data-episode-run') == 3 and 'class="air-years"' in catalog_html and 'data-episode-preview' in catalog_html
-assert catalog_html.count('class="episode-thumb"') == 85 and catalog_html.count('data-card=') == 85
+assert catalog_html.count('class="episode-thumb"') == 109 and catalog_html.count('data-card=') == 109
+tnba_title_frames = json.loads((CONTENT.parent / 'tnba-title-frames.json').read_text())['assets']
+assert len(tnba_title_frames) == 24 and {a['item'] for a in tnba_title_frames} == {e['id'] for e in data['tnbaEpisodes']}
+for a in tnba_title_frames:
+    assert a['role'] == 'episode-title-frame' and a['width'] == 1920 and a['height'] == 1080
+    assert a['imageUrl'].startswith('https://') and a['sourcePage'].startswith('https://')
+    assert hashlib.sha256((CONTENT.parent / a['file']).read_bytes()).hexdigest() == a['sha256']
+    assert hashlib.sha256((DIST / 'assets/media' / a['file']).read_bytes()).hexdigest() == a['sha256']
+    assert catalog_html.count(f'src="/assets/media/{a["file"]}"') == 1
+    assert catalog_html.count(f'data-card="/assets/media/{a["file"]}"') == 1
 archive_html = (DIST / 'tas/archive/index.html').read_text()
 assert archive_html.count('class="screening-hall ') == 6 and 'class="archive-shelf"' not in archive_html
 assert all(f'/tas/archive/{slug}/' in archive_html for slug in ('production', 'voices', 'films', 'publications', 'music', 'history'))
 assert (DIST / 'tas/archive/voices/index.html').read_text().count('<article class="artbook-role" id=') == 15
 for page in DIST.glob('tas/**/index.html'):
     assert 'data-deco=' not in page.read_text(), page
-print('PASS: TAS programme in two broadcast runs with 85 title-card rows and ticket preview; six screening halls; end-credit roster')
+print('PASS: TAS programme with 85 title cards and 24 TNBA title frames; ticket preview; six screening halls; end-credit roster')
 
 # Content batch: real VR releases, upgraded episode routes, series-scoped pager and actor lists.
 assert games['arkham-vr']['date'] == '2016-10-11' and games['arkham-vr']['actor'] == 'Kevin Conroy'

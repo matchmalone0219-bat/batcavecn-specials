@@ -76,7 +76,9 @@ def credit_options(credits, key, minimum=1):
 
 
 def title_cards():
-    return {a["item"]: a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a.get("role") == "title-card"}
+    cards = {a["item"]: a for a in json.loads((ROOT / "episode-media.json").read_text())["assets"] if a.get("role") == "title-card"}
+    cards.update({a["item"]: a for a in json.loads((ROOT / "tnba-title-frames.json").read_text())["assets"]})
+    return cards
 
 
 def episode_catalog(items, credits=None):
