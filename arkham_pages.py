@@ -132,7 +132,7 @@ def build_arkham_archive(data,shell):
     rows=''.join(f'<p class="pause-group">{label}</p><ol class="pause-rows">'+''.join(f'<li><a href="{h}">{token(ic)}<span><strong>{esc(t)}</strong><small>{esc(d)}</small></span>{count(k,kl,kt)}</a></li>' for h,ic,t,en,d,k,kl,kt in g)+'</ol>' for label,g in groups)
     opening=('''<section class="section archive-pause" data-protocol-record>'''
              f'<div class="pause-head"><div class="pause-title"><p class="game-eyebrow">{token(ROOM_ICONS[""])}GOTHAM DOSSIERS / 哥谭档案馆</p><h1>{esc(hub_title)}</h1><p class="lead">{esc(hub_intro)}</p></div>'
-             f'<details class="pause-brief"><summary>档案导言</summary><h2>一张海报，<br>一段哥谭往事。</h2><p>一张马戏团演出海报、一幅藏在墙后的城市蓝图，或是一套封存在钟楼里的旧战衣——场景中的细节留下了人物过往的线索，也补充着主线之外的哥谭历史。</p><p class="fine">{len(scans["riddles"])}道原版扫描题 · {sum(bool(c.get("comicReading")) for c in riddler["cases"])-1}组漫画背景 · {len(reading["scenes"])+len(reading["easterEggs"]["entries"])}处场景与彩蛋 · {len(archive["stories"])}篇哥谭故事导读 · 10部关联文献。</p></details></div>'
+             f'<details class="pause-brief"><summary>档案导言</summary><h2>一张海报，<br>一段哥谭往事。</h2><p>一张马戏团演出海报、一幅藏在墙后的城市蓝图，或是一套封存在钟楼里的旧战衣——场景中的细节留下了人物过往的线索，也补充着主线之外的哥谭历史。</p><p class="fine">{len(scans["riddles"])}道原版扫描题 · {sum(bool(c.get("comicReading")) for c in riddler["cases"])-1}组漫画背景 · {len(reading["scenes"])+len(reading["easterEggs"]["entries"])}处场景与彩蛋 · {len(archive["stories"])}组哥谭故事导读 · 10部关联文献。</p></details></div>'
              f'<div class="recent-object" data-recent-object hidden><a data-recent-link href="/arkham/archive/">{token("record")}<span><small>继续上次浏览</small><strong data-recent-title></strong></span></a></div><script type="application/json" data-recent-index>{recent_payload}</script>'
              f'<div class="game-browser pause-browser" data-browser data-browse-mode="panels" data-browse-hover hidden><div class="browser-side">{side}</div><div class="browser-preview">{panels}</div></div>'
              f'<div class="pause-fallback" data-browser-fallback>{rows}</div>'
@@ -140,7 +140,7 @@ def build_arkham_archive(data,shell):
              '<p class="pause-note"><strong>从哪里开始</strong>想看图片里的彩蛋，选择“场景细节与彩蛋”；想读人物与城市背景，选择“哥谭故事”。患者终端与频段监听提供原声录音，重要剧情默认折叠。</p></section>')
     page('',hub_title,hub_intro,opening)
 
-    content = riddler_page(riddler, scans, GAMES, sources, picture, record, esc)
+    content = riddler_page(riddler, scans, GAMES, sources, picture, record, esc, reading)
     page('riddler','谜语人扫描谜题：漫画溯源','先读原版谜面与现场图，再展开扫描目标、双关考据与漫画背景。',content)
     pages['arkham/archive/riddler/index.html'] = pages['arkham/archive/riddler/index.html'].replace('</head>', '<link rel="stylesheet" href="/assets/arkham-riddler-scan.css"><script src="/assets/arkham-riddler-scan.js" defer></script></head>')
 
@@ -157,7 +157,7 @@ def build_arkham_archive(data,shell):
     page('clues','场景细节与彩蛋','招牌印记、遗留物证与隐秘布景：考据空间深处遗落的叙事碎片，还原主线之外的罪案回声。',content)
     pages['arkham/archive/clues/index.html']=pages['arkham/archive/clues/index.html'].replace('</head>','<script src="/assets/arkham-map.js" defer></script><script src="/assets/arkham-clues.js" defer></script></head>')
 
-    content=story_page(archive,reading,entries,GAMES,sources,record,esc)
+    content=story_page(archive,reading,entries,scans,GAMES,sources,picture,record,esc)
     for n in archive['notes'][2:5]:content+=note(n,'/arkham/archive/stories/')
     page('stories','哥谭故事：游戏内背景短篇','阅读《阿卡姆之城》与《阿卡姆骑士》的背景短篇导读，了解人物经历和场景背后的故事。',content)
 
@@ -203,5 +203,5 @@ def build_arkham_archive(data,shell):
         item=f'<article><p class="label">{esc(s.get("level",s.get("evidence",s.get("type","资料来源"))))}</p><h3>{title}</h3></article>'
         source_html+=('<details class="spoiler"><summary>院史身份来源 · 含剧透</summary>'+item+'</details>') if s.get('spoiler') else item
     source_html+='</div></section>'
-    gallery=f'<section class="section"><h2>场景与出版研究图</h2><p>{len(images)}张游戏截图、官方文章配图与书目封面。</p><div class="dossier-gallery">'+''.join(('<details class="spoiler"><summary>院史最终记录画面 · 含重要剧透，展开查看</summary>'+picture(i)+'</details>') if images[i].get('spoiler') else picture(i) for i in images)+'</div></section>'
+    gallery=f'<section class="section"><h2>场景与出版研究图</h2><p>{len(images)}张游戏截图、官方文章配图与书目封面。</p><div class="dossier-gallery">'+''.join(('<details class="spoiler"><summary>'+('故事界面 · 含剧透，展开查看' if images[i].get('storyId') else '院史最终记录画面 · 含重要剧透，展开查看')+'</summary>'+picture(i)+'</details>') if images[i].get('spoiler') else picture(i) for i in images)+'</div></section>'
     return pages,records,source_html,gallery,list(images.values())+reading['easterEggs']['images']+scans['images']

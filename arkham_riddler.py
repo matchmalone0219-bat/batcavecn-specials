@@ -20,7 +20,7 @@ def load_scans():
     return packet
 
 
-def riddler_page(riddler, packet, games, sources, picture, record, esc):
+def riddler_page(riddler, packet, games, sources, picture, record, esc, reading):
     base = '/arkham/archive/riddler/'
     entries = {entry['id']: entry for entry in riddler['entries']}
     images = {image['id']: image for image in packet['images']}
@@ -71,6 +71,9 @@ def riddler_page(riddler, packet, games, sources, picture, record, esc):
             detail += f'<details class="{comic_class}"><summary>{comic_label}</summary><p class="riddler-book">{esc(comic["book"])}</p><p>{esc(comic["body"])}</p>'
             detail += ''.join(photo(id) for id in comic['images'])
             detail += '</details>'
+        for story_id, story in reading['stories'].items():
+            if row['id'] in story.get('scanIds', []):
+                detail += f'<p><a href="/arkham/archive/stories/#{story_id}">阅读相关哥谭故事：{esc(story["title"])}</a></p>'
         detail += source_links(row['sources'], sources, esc) + '</div></details>'
         content += f'<article id="{row["id"]}" data-riddler-item data-games="{row["game"]}" data-region="{esc(row["region"].split(" · " )[0])}"><p class="label">{esc(label)}</p><h3>{esc(row["title"])}</h3><p class="riddler-summary">{esc(row["translation"])}</p><div class="clue-detail" data-detail>{detail}</div></article>'
         record(row['title'], row['summary'], base, row['id'], ['谜语人', '原版扫描题', games[row['game']], row['region']])

@@ -71,7 +71,8 @@ class BuildChecks(unittest.TestCase):
         crossover_nodes = len(json.loads((Path(builder.__file__).parent / 'crossover.json').read_text())['nodes'])
         from arkham_riddler import load_scans
         scan_packet = load_scans()
-        self.assertEqual((len(pages), len(records)), (159, 481 + len(scan_packet['riddles']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
+        story_count = len(json.loads((builder.ROOT / 'arkham-archive-research.json').read_text())['stories'])
+        self.assertEqual((len(pages), len(records)), (159, 465 + story_count + len(scan_packet['riddles']) + crossover_nodes - omitted_scenes + video_scenes + artbook_records + len(data['person']['sections'])))
         for route, html in pages.items():
             self.assertIn('/assets/style.css', html)
             if route in ('arkham/people/kevin-conroy/index.html', 'tas/people/kevin-conroy/index.html'):

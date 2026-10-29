@@ -1,0 +1,282 @@
+{
+  "checked": "2026-10-28",
+  "status": "本地视频及21个目标界面已检查；本轮尚未修改站点正文、图片引用或gameCaptureVerified字段",
+  "source": {
+    "localFile": "/Users/dinghaowei/Downloads/Gemini/Arkham_City_Stories_Zevik.mp4",
+    "candidateUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+    "attribution": "本地文件名标注Zevik；候选URL来自上一轮搜索；未读取下载工具的原始元数据",
+    "sha256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1152,
+          "height": 720,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "8:5",
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "312.726349",
+        "size": "78075812"
+      }
+    },
+    "decodeCheck": "全片音画解码无错误"
+  },
+  "coverage": {
+    "groups": 14,
+    "singlePartGroups": 10,
+    "multiPartGroups": 4,
+    "parts": 21,
+    "matchedCurrentIds": true
+  },
+  "stories": [
+    {
+      "id": "city-island-sold",
+      "title": "Arkham Island Sold",
+      "times": [
+        21
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 21,
+          "sha256": "afc544584ae8c8cf157da6c173d16013e282630815b6e04a5506b7e4d9a33d51"
+        }
+      ]
+    },
+    {
+      "id": "city-medical",
+      "title": "Arkham City Medical Team",
+      "times": [
+        27
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 27,
+          "sha256": "bf717dce656e588131f75ff6c8df93d0533387d553e09338eecf7f498df0da3b"
+        }
+      ]
+    },
+    {
+      "id": "city-seismic",
+      "title": "Seismic Disturbances",
+      "times": [
+        37
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 37,
+          "sha256": "91b6457f38f1dede0f8ce9fee830691f8b307b4357e5205d77bd543ca0ba078f"
+        }
+      ]
+    },
+    {
+      "id": "city-purchase",
+      "title": "Compulsory Purchase",
+      "times": [
+        41
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 41,
+          "sha256": "8bc51813b9f68e07649a306221a104cdb3b41c9c2910d518199607f2d400048a"
+        }
+      ]
+    },
+    {
+      "id": "city-study",
+      "title": "Studying the Bat",
+      "times": [
+        47
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 47,
+          "sha256": "567d8d3bdd6ff246389ba6d5172c96024b97a71bb0b4131967f34763a64669e4"
+        }
+      ]
+    },
+    {
+      "id": "city-robin",
+      "title": "A New Robin",
+      "times": [
+        233
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 233,
+          "sha256": "c3d20bd4ae76e5e0fc00cbf449619a1748c2502608ca0477015fb6a972ac9674"
+        }
+      ]
+    },
+    {
+      "id": "city-ratcatcher",
+      "title": "The Ratcatcher",
+      "times": [
+        228
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 228,
+          "sha256": "192658d246500ba9517f57f5cc4d86fa69c4d9a37d470575c928fb3434763bda"
+        }
+      ]
+    },
+    {
+      "id": "city-broker",
+      "title": "Brokering Deals",
+      "times": [
+        255
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 255,
+          "sha256": "59d5f026a7196a92d8bcad721a5c9be5709fbed0d3e512453fb521cc2b8a36e1"
+        }
+      ]
+    },
+    {
+      "id": "city-election",
+      "title": "Election Time",
+      "times": [
+        223
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 223,
+          "sha256": "3ca968bdd139b247438d005014fc69dde1a831fa9c44785fa5971650a78e52f2"
+        }
+      ]
+    },
+    {
+      "id": "city-gordon-sharp",
+      "title": "Gordon vs. Sharp",
+      "times": [
+        124,
+        130
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 124,
+          "sha256": "e6a481f60b2162c0b58c7392ec8d5294ee0ef535a489a355d782014ea050cf64"
+        },
+        {
+          "part": 2,
+          "timestamp": 130,
+          "sha256": "7fcdbb7305bce1a545929a1b60c020f651bbff8e381e9397316b9f82e16c1359"
+        }
+      ]
+    },
+    {
+      "id": "city-mad-hatter",
+      "title": "The Mad Hatter",
+      "times": [
+        154,
+        158
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 154,
+          "sha256": "62b4786559602e01b44fcc1f9ac8f286ad262a923eecfda8e276f6a247701caa"
+        },
+        {
+          "part": 2,
+          "timestamp": 158,
+          "sha256": "a17a3d3b0c393b0b457ae692b615e67eb45e3ec61abe15dd46941bec347ad206"
+        }
+      ]
+    },
+    {
+      "id": "city-illegal-operations",
+      "title": "Illegal Operations",
+      "times": [
+        186
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 186,
+          "sha256": "cbb56f4aaa2396b460310745872bca482bbeb96219eb293706b570deef2ccbc5"
+        }
+      ]
+    },
+    {
+      "id": "city-cold-start",
+      "title": "A Cold Start",
+      "times": [
+        176,
+        181
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 176,
+          "sha256": "03c2157e0e310041e6a3dfd69ddd75c8c890de27aaa2cb072cae387526cfa3a0"
+        },
+        {
+          "part": 2,
+          "timestamp": 181,
+          "sha256": "5dac63bef618080f359dd37cd35a1a6a3545eacc3c2c8b178a516455bef10b9f"
+        }
+      ]
+    },
+    {
+      "id": "city-cobblepot-feud",
+      "title": "The Cobblepot Feud",
+      "times": [
+        190,
+        194,
+        199,
+        204,
+        210
+      ],
+      "frames": [
+        {
+          "part": 1,
+          "timestamp": 190,
+          "sha256": "cafae15e3bb155aa4bc42c4234c98f50179e5f6aae345e38117dfcf215775a48"
+        },
+        {
+          "part": 2,
+          "timestamp": 194,
+          "sha256": "d82e8e429540a7d2b5602115d67d4bf8adfe49033aa005b38c823bb3488e7fb0"
+        },
+        {
+          "part": 3,
+          "timestamp": 199,
+          "sha256": "d124d7b726b919fa41f914f46e8f491a1b19d33c1603a8a731d844e6bc05ad36"
+        },
+        {
+          "part": 4,
+          "timestamp": 204,
+          "sha256": "18f1094ae509a75ec0337cb7c2de809da8657f8d25dbdc60e48fef7efdfa71b0"
+        },
+        {
+          "part": 5,
+          "timestamp": 210,
+          "sha256": "4b201d2a32368a1520b45151d850c3fd3b262165590f25bac44825611c58094b"
+        }
+      ]
+    }
+  ]
+}

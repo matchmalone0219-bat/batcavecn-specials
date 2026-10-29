@@ -1,0 +1,700 @@
+{
+  "checked": "2026-10-28",
+  "source": {
+    "id": "knight-story-capture-bv1dx411x7ap",
+    "title": "MotowayNorth：〖蝙蝠侠：阿卡姆骑士〗哥谭都市传说",
+    "url": "https://www.bilibili.com/video/BV1dx411x7aP/",
+    "evidence": "玩家录制 · 天邈汉化",
+    "access": "本地录像逐项定位14组故事的3页界面；读取所选画面并与现有梗概核对",
+    "checked": "2026-10-28",
+    "uploader": "MotowayNorth",
+    "translation": "天邈汉化补丁（非官方中文）",
+    "published": "2017-09-07",
+    "rights": "原视频标注未经作者授权禁止转载；未取得开放转载授权；游戏画面及汉化权利归各自权利人",
+    "localFile": "/Users/dinghaowei/Downloads/Gemini/Arkham_Knight_Stories_BV1dx411x7aP.mp4",
+    "sha256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+    "width": 1920,
+    "height": 1080,
+    "duration": 1108.0,
+    "fps": 30,
+    "size": 83767032
+  },
+  "scope": "现有14组Knight故事界面定位与配图；不生成原文转录，不覆盖City，不部署",
+  "extraction": [
+    "ffmpeg",
+    "-ss",
+    "<timestamp>",
+    "-i",
+    "<source>",
+    "-frames:v",
+    "1",
+    "-vf",
+    "scale=1600:900:flags=lanczos",
+    "-c:v",
+    "libwebp",
+    "-quality",
+    "90",
+    "-y",
+    "<output>"
+  ],
+  "stories": [
+    {
+      "id": "knight-alfred",
+      "english": "Faithful Servant",
+      "screenTitle": "忠心耿耿",
+      "times": [
+        5,
+        15,
+        20
+      ],
+      "visual": "韦恩庄园",
+      "image": {
+        "id": "story-knight-alfred",
+        "file": "story-captures/knight-alfred.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-alfred",
+        "caption": "《阿卡姆骑士》〈Faithful Servant〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "600d39dfee49b226d9e1ea405f3308ca9fc797a36a03fdbfa2525b42b05798d9",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 5,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 5,
+          "frameSHA256": "488129e4c7420c4946c92a97bf26307723488fd8c39fc718e467d95d71428fe3"
+        },
+        {
+          "page": 2,
+          "timestamp": 15,
+          "frameSHA256": "b0b2f7369073dfa21d93274b57cc576c30eebf246f080fe3a97667e3cbac4ac9"
+        },
+        {
+          "page": 3,
+          "timestamp": 20,
+          "frameSHA256": "9251b1b8883d0512fcd8ebe2835e904064400c9221d3a60bc8532b44f9b13826"
+        }
+      ]
+    },
+    {
+      "id": "knight-tower",
+      "english": "Wonder Tower",
+      "screenTitle": "奇迹之塔",
+      "times": [
+        25,
+        30,
+        35
+      ],
+      "visual": "奇迹之塔",
+      "image": {
+        "id": "story-knight-tower",
+        "file": "story-captures/knight-tower.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-tower",
+        "caption": "《阿卡姆骑士》〈Wonder Tower〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "aa1835ce4e9f33ee1690444d87eebcb3ee0d7458d4789f0ccb2a42e362a73610",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 25,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 25,
+          "frameSHA256": "3dc140a96558dea33ffeaa8e4f3d535c911a12322ddc7e731d7154d7ad7ceb99"
+        },
+        {
+          "page": 2,
+          "timestamp": 30,
+          "frameSHA256": "06fcd0f715c3fd28035a66ee6a0b1b0bdcdae48c4aee27de9872360f5f00f2bd"
+        },
+        {
+          "page": 3,
+          "timestamp": 35,
+          "frameSHA256": "c6bcaa6b8a368d2b6160a3ba4e0101b62e18bbe0589c71e8dfeca168bb2df6ee"
+        }
+      ]
+    },
+    {
+      "id": "knight-guardian-angel",
+      "english": "Guardian Angel",
+      "screenTitle": "守护天使",
+      "times": [
+        45,
+        55,
+        60
+      ],
+      "visual": "圣杜马墓",
+      "image": {
+        "id": "story-knight-guardian-angel",
+        "file": "story-captures/knight-guardian-angel.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-guardian-angel",
+        "caption": "《阿卡姆骑士》〈Guardian Angel〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "5ece841eb28527bad563c2f7ae4679f0fda91a494dd74b0e0bfa5f336d15ef93",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 45,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 45,
+          "frameSHA256": "5534238b7c4fd90ce575214512062a8205521714e61a9c95712f43ad005f74d0"
+        },
+        {
+          "page": 2,
+          "timestamp": 55,
+          "frameSHA256": "9a38d76e672eb828e9cb308d7f379b48b409b23fe049bcab6053a9ba8c34e3fc"
+        },
+        {
+          "page": 3,
+          "timestamp": 60,
+          "frameSHA256": "32ff95c1bb3903300f9d75762445f9541ed23126b6e3998d8a84ca1bfa82fd35"
+        }
+      ]
+    },
+    {
+      "id": "knight-bane",
+      "english": "Homecoming",
+      "screenTitle": "归乡",
+      "times": [
+        70,
+        75,
+        85
+      ],
+      "visual": "贝恩的运输货柜",
+      "image": {
+        "id": "story-knight-bane",
+        "file": "story-captures/knight-bane.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-bane",
+        "caption": "《阿卡姆骑士》〈Homecoming〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "2cfd21cc460c3db33aee3ebad338de97caa31fe237e26599d5fcd246f660c0aa",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 70,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 70,
+          "frameSHA256": "4ec2c580e72b6254f04ce2cf190f6fcde8b343f6ad997259534298243249383d"
+        },
+        {
+          "page": 2,
+          "timestamp": 75,
+          "frameSHA256": "37b1cd9726689269bfcb5a372e834245e8e72349a1ec076d2882b988c684f19a"
+        },
+        {
+          "page": 3,
+          "timestamp": 85,
+          "frameSHA256": "b6b27638574d34f3924fb47a972d012b2c5307870683cdb7ecb2b5dbb39f8ed8"
+        }
+      ]
+    },
+    {
+      "id": "knight-batgirl",
+      "english": "The Trap",
+      "screenTitle": "陷阱",
+      "times": [
+        95,
+        105,
+        115
+      ],
+      "visual": "蝙蝠少女战衣",
+      "image": {
+        "id": "story-knight-batgirl",
+        "file": "story-captures/knight-batgirl.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-batgirl",
+        "caption": "《阿卡姆骑士》〈The Trap〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "343bc6182692931efd7dd8336e9247c993a65b84d71ddf2ffaa2afe1cbc608e7",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 95,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 95,
+          "frameSHA256": "ee95b3849b3c73818b84c977cc77e79c389776cdcdc3bb14ffb7bb99907fa47f"
+        },
+        {
+          "page": 2,
+          "timestamp": 105,
+          "frameSHA256": "7a5c8c925241e331924a633409c0e104136e0e0d6d2eca740aa582c1939e407c"
+        },
+        {
+          "page": 3,
+          "timestamp": 115,
+          "frameSHA256": "eb9f197b85ba5ff332f844b3c7c05a1eca72c4ef073d11fbe2b1284cbf2a94f9"
+        }
+      ]
+    },
+    {
+      "id": "knight-calendar",
+      "english": "Resolutions",
+      "screenTitle": "决心",
+      "times": [
+        125,
+        135,
+        140
+      ],
+      "visual": "日历人的藏身处",
+      "image": {
+        "id": "story-knight-calendar",
+        "file": "story-captures/knight-calendar.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-calendar",
+        "caption": "《阿卡姆骑士》〈Resolutions〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "8db62f3d8dcc3894a4aeed02a21acf4185832f91cae983f0108d9f7ef074e099",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 125,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 125,
+          "frameSHA256": "754a3eb21fa3a197b6dd4efe9c70e36449a57494a04db4822ce570b4468a1a7d"
+        },
+        {
+          "page": 2,
+          "timestamp": 135,
+          "frameSHA256": "58bce3662ade64efe0f489933b24a924b3f6472158849ed299c08e03a927d5e8"
+        },
+        {
+          "page": 3,
+          "timestamp": 140,
+          "frameSHA256": "d140ca28104500095d2d0e58bc94b310d5321796b6d1e6a87d8f12c1defbb176"
+        }
+      ]
+    },
+    {
+      "id": "knight-nora",
+      "english": "Frozen Out",
+      "screenTitle": "寒冷彻骨",
+      "times": [
+        345,
+        355,
+        365
+      ],
+      "visual": "GothCorp招牌",
+      "image": {
+        "id": "story-knight-nora",
+        "file": "story-captures/knight-nora.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-nora",
+        "caption": "《阿卡姆骑士》〈Frozen Out〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "90c7fad8b1a8516d1c5cc35b32044f5ccf36d380e245b89613f0b785d63fb718",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 345,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 345,
+          "frameSHA256": "f7ad1e9a408466eee1a029c08cb4443db376ac449a9683e19e1bda6d1fa7d700"
+        },
+        {
+          "page": 2,
+          "timestamp": 355,
+          "frameSHA256": "816d4f73e56985a10f9faee043d0b1ddafef062e81673b5fbe9a3dccce6c9922"
+        },
+        {
+          "page": 3,
+          "timestamp": 365,
+          "frameSHA256": "7fab7bb8f24bd9119095ecfd308a3aa6ee28346cfb98af241d4bb87fe452631f"
+        }
+      ]
+    },
+    {
+      "id": "knight-sharp",
+      "english": "Visiting Hours",
+      "screenTitle": "探监时间",
+      "times": [
+        825,
+        845,
+        850
+      ],
+      "visual": "夏普竞选海报",
+      "image": {
+        "id": "story-knight-sharp",
+        "file": "story-captures/knight-sharp.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-sharp",
+        "caption": "《阿卡姆骑士》〈Visiting Hours〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "973bb4cecf1f1eabb3d4ab3fcba1cae142c9b9c2c9902f74b0d44b5d5ac26513",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 825,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 825,
+          "frameSHA256": "2b5acec911cfb21a4ccfec0809c0bf1c330220966d6c934119dfbe4c186c6b1a"
+        },
+        {
+          "page": 2,
+          "timestamp": 845,
+          "frameSHA256": "93ad8c1058cfbfb5d21916cc37028ec8bbcdcb1b1490f0e157fc952b7f92c080"
+        },
+        {
+          "page": 3,
+          "timestamp": 850,
+          "frameSHA256": "409efa048dd954a53e76a98ace2a1ba4ece25740c870a5a3690138db97d69795"
+        }
+      ]
+    },
+    {
+      "id": "knight-riddler",
+      "english": "Social Outcast",
+      "screenTitle": "社交平台",
+      "times": [
+        885,
+        895,
+        900
+      ],
+      "visual": "谜语人的装置",
+      "image": {
+        "id": "story-knight-riddler",
+        "file": "story-captures/knight-riddler.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-riddler",
+        "caption": "《阿卡姆骑士》〈Social Outcast〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "f43716fa771d7e3a5e7994b9fcaa5a90f23fef0a1f4b562493109d20938d7e52",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 885,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 885,
+          "frameSHA256": "aa3ae013e9bd9a10861400ec6a32fa22e30a83f6b5801b91d824b140c78e3de8"
+        },
+        {
+          "page": 2,
+          "timestamp": 895,
+          "frameSHA256": "20aad6ad9e9012f168afb368ba7eb1b83d1aa59634346e8199f169ab71b7029c"
+        },
+        {
+          "page": 3,
+          "timestamp": 900,
+          "frameSHA256": "0c54556b75fb150b2037e42ef155a0a8702cceedd850785d7aa677fe2ba22f5c"
+        }
+      ]
+    },
+    {
+      "id": "knight-critter",
+      "english": "Critter",
+      "screenTitle": "虫子",
+      "times": [
+        909,
+        915,
+        925
+      ],
+      "visual": "恐惧毒剂实验室",
+      "image": {
+        "id": "story-knight-critter",
+        "file": "story-captures/knight-critter.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-critter",
+        "caption": "《阿卡姆骑士》〈Critter〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "ce48fddb912acacf493d33e4385a2362ffd4c5363d288d236e8ec9975734146d",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 909,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 909,
+          "frameSHA256": "98efddeb132fd3071e69f31de0e9ec157f7ba1ea9ea3cc0ff51e08eda6163ca2"
+        },
+        {
+          "page": 2,
+          "timestamp": 915,
+          "frameSHA256": "8edc5ca1776cc173f7f81997d29abba7408f8abb984ca9247836eb2fcbf5a072"
+        },
+        {
+          "page": 3,
+          "timestamp": 925,
+          "frameSHA256": "a61027103fd3ac6a33845f1950398b501f33e13aa8a0c933671dd6d991a6f75e"
+        }
+      ]
+    },
+    {
+      "id": "knight-lab-rat",
+      "english": "Lab Rat",
+      "screenTitle": "小白鼠",
+      "times": [
+        935,
+        945,
+        955
+      ],
+      "visual": "白化猩猩",
+      "image": {
+        "id": "story-knight-lab-rat",
+        "file": "story-captures/knight-lab-rat.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-lab-rat",
+        "caption": "《阿卡姆骑士》〈Lab Rat〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "5fc8a69402866c0983e1150280f4ea23705ab0386547a506eb4f6675b0d5cc0d",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 935,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 935,
+          "frameSHA256": "2c99cb782b102af8ee073e19f2061551e68f50fcdae2420b0e5520fa5308783b"
+        },
+        {
+          "page": 2,
+          "timestamp": 945,
+          "frameSHA256": "83eb99deca3132a81340185bbec549a156bf9f4ebf322d85f3b43d81a7a596a2"
+        },
+        {
+          "page": 3,
+          "timestamp": 955,
+          "frameSHA256": "2c51a770a9cfe1b7e800dc27a0743a8d18d3443f3c2336bf7f800f3de57a6c52"
+        }
+      ]
+    },
+    {
+      "id": "knight-revenant",
+      "english": "Revenant",
+      "screenTitle": "还魂",
+      "times": [
+        965,
+        975,
+        985
+      ],
+      "visual": "格兰迪的留声机",
+      "image": {
+        "id": "story-knight-revenant",
+        "file": "story-captures/knight-revenant.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-revenant",
+        "caption": "《阿卡姆骑士》〈Revenant〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "79ec2a128db8a0f1443291c745057ad8c307efc3778309f938865914aa7f6347",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 965,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 965,
+          "frameSHA256": "e5bb8e77ef05edde5d5441e2e50dd2ed3d2c61e070185a9337632a43a29bac19"
+        },
+        {
+          "page": 2,
+          "timestamp": 975,
+          "frameSHA256": "587b5bf6449cf8b4019d59cc84c1cbbb3b69b0e736bb91dd99d9d2d62d801b63"
+        },
+        {
+          "page": 3,
+          "timestamp": 985,
+          "frameSHA256": "2db90ed525f3b03a63d598eef0fc4777abcdcfa019cbc38d56c0a3f3a5278df2"
+        }
+      ]
+    },
+    {
+      "id": "knight-office-romance",
+      "english": "Office Romance",
+      "screenTitle": "职场恋情",
+      "times": [
+        995,
+        1005,
+        1015
+      ],
+      "visual": "罗宾折断的长棍",
+      "image": {
+        "id": "story-knight-office-romance",
+        "file": "story-captures/knight-office-romance.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-office-romance",
+        "caption": "《阿卡姆骑士》〈Office Romance〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "83640ee126e9b025eb8b6bd5f4323670a15fdb442cc14c69d353830b75b6dd35",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 995,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 995,
+          "frameSHA256": "84bcf03c52fd92c51b64584b47e3a257ac05a397c1918bf61c2c5236f2ff703d"
+        },
+        {
+          "page": 2,
+          "timestamp": 1005,
+          "frameSHA256": "d3777e9e0a4c7b1a148bc9d7041f827a2b489f096328bcd29ce5f6bd2ee22b0b"
+        },
+        {
+          "page": 3,
+          "timestamp": 1015,
+          "frameSHA256": "f6ea74bf512d42ad32d68e7adb7e2ad4dc015f7bfff16fef855725a0f56dc2f9"
+        }
+      ]
+    },
+    {
+      "id": "knight-showtime",
+      "english": "Showtime",
+      "screenTitle": "好戏上演",
+      "times": [
+        1055,
+        1065,
+        1075
+      ],
+      "visual": "维姬·维尔节目广告牌",
+      "image": {
+        "id": "story-knight-showtime",
+        "file": "story-captures/knight-showtime.webp",
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+        "storyId": "knight-showtime",
+        "caption": "《阿卡姆骑士》〈Showtime〉游戏内故事界面（天邈汉化）",
+        "type": "游戏故事界面 · 玩家录制",
+        "width": 1600,
+        "height": 900,
+        "sha256": "27909f84e95a2ad0e94e27d4fbb492caf4d633b3c3125c88444e0e1a5366b019",
+        "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+        "timestamp": 1055,
+        "screenPage": 1,
+        "screenPageCount": 3,
+        "spoiler": true,
+        "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+        "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+      },
+      "reviewFrames": [
+        {
+          "page": 1,
+          "timestamp": 1055,
+          "frameSHA256": "119a855826101874e08281fc478a25671ff5576b76abf152fb3b300e93f75c6e"
+        },
+        {
+          "page": 2,
+          "timestamp": 1065,
+          "frameSHA256": "cf43bb58290aa75342b95187014814990663bd1b5307be1272a674061fc141e1"
+        },
+        {
+          "page": 3,
+          "timestamp": 1075,
+          "frameSHA256": "9d08898a4af2d6155ff150c1b1be48f871aaa994fe2bde4556fbc4e7885f3b39"
+        }
+      ]
+    }
+  ]
+}

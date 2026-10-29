@@ -114,6 +114,46 @@
       "url": "https://arkhamcity.fandom.com/wiki/City_Stories:_Arkham_City",
       "level": "社区索引",
       "checked": "2026-10-02"
+    },
+    {
+      "id": "knight-story-capture-bv1dx411x7ap",
+      "title": "MotowayNorth：〖蝙蝠侠：阿卡姆骑士〗哥谭都市传说",
+      "url": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "evidence": "玩家录制 · 天邈汉化",
+      "access": "本地录像逐项定位14组故事的3页界面；读取所选画面并与现有梗概核对",
+      "checked": "2026-10-28",
+      "uploader": "MotowayNorth",
+      "translation": "天邈汉化补丁（非官方中文）",
+      "published": "2017-09-07",
+      "rights": "原视频标注未经作者授权禁止转载；未取得开放转载授权；游戏画面及汉化权利归各自权利人",
+      "localFile": "/Users/dinghaowei/Downloads/Gemini/Arkham_Knight_Stories_BV1dx411x7aP.mp4",
+      "sha256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "width": 1920,
+      "height": 1080,
+      "duration": 1108.0,
+      "fps": 30,
+      "size": 83767032
+    },
+    {
+      "id": "city-story-capture-zevik",
+      "title": "Zevik：Batman Arkham City — ALL Arkham City Stories (HD demonstration)",
+      "url": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "uploader": "Zevik",
+      "evidence": "玩家录制 · 英文界面",
+      "language": "en",
+      "access": "读取本地录像中现有14组／21篇故事界面，逐项匹配标题、分篇与画面",
+      "checked": "2026-10-28",
+      "attribution": "本地文件名标注Zevik；候选URL来自上一轮搜索；未读取下载工具的原始元数据",
+      "localFile": "/Users/dinghaowei/Downloads/Gemini/Arkham_City_Stories_Zevik.mp4",
+      "sha256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "width": 1152,
+      "height": 720,
+      "sampleAspectRatio": "1:1",
+      "displayAspectRatio": "8:5",
+      "duration": 312.726349,
+      "fps": 30,
+      "size": 78075812,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权"
     }
   ],
   "works": [
@@ -298,15 +338,31 @@
       "entryIds": [
         "city-amusement-mile-08"
       ],
-      "gist": "旧岛售予TYGER并用作航空基地。",
+      "gist": "疯人院暴乱后，夏普在记者会上宣布出售阿卡姆岛，并通过竞标把岛交给 TYGER。旧岛随后成为直升机基地，这家公司也获得了新监狱的治安合同。",
       "editorialAngle": "远景怎样交代旧地点的新用途？",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-island-sold-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 21,
+            "frameSHA256": "afc544584ae8c8cf157da6c173d16013e282630815b6e04a5506b7e4d9a33d51"
+          }
+        ]
+      }
     },
     {
       "id": "city-medical",
@@ -316,15 +372,31 @@
       "entryIds": [
         "city-church-intro"
       ],
-      "gist": "教堂医疗队获得Wayne捐助，供给受阻。",
+      "gist": "阿伦·卡什和医护人员在教堂设立医疗站。布鲁斯捐赠医疗物资、防护卷帘和防弹装备；斯特兰奇却拒绝让更多补给进入围城，医疗队只能依靠已有物资继续工作。",
       "editorialAngle": "从前线战地医疗设施透视阿卡姆之城的生存困境与物资断绝。",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-medical-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 27,
+            "frameSHA256": "bf717dce656e588131f75ff6c8df93d0533387d553e09338eecf7f498df0da3b"
+          }
+        ]
+      }
     },
     {
       "id": "city-seismic",
@@ -334,15 +406,31 @@
       "entryIds": [
         "city-park-row-02"
       ],
-      "gist": "沉降引发居住条件争议，调查受阻。",
+      "gist": "阿卡姆之城启用前数周，东北部街道沉降并遭水淹。反对者要求调查，斯特兰奇却否决了提议，安排自己的专家将灾变定为孤立事件，并拒绝改善囚犯的居住条件。",
       "editorialAngle": "告示和解锁故事能否共同解释地形？",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-seismic-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 37,
+            "frameSHA256": "91b6457f38f1dede0f8ce9fee830691f8b307b4357e5205d77bd543ca0ba078f"
+          }
+        ]
+      }
     },
     {
       "id": "city-purchase",
@@ -352,15 +440,31 @@
       "entryIds": [
         "city-industrial-04"
       ],
-      "gist": "市政动议推动圈地征收。",
+      "gist": "夏普推动市议会通过强制征购议案，把老城区划入阿卡姆之城。面对布鲁斯的反对，他反过来以韦恩夫妇遇害的地点为理由，为这项监狱计划辩护。",
       "editorialAngle": "研究报摊与城市治理叙事的联系。",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-purchase-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 41,
+            "frameSHA256": "8bc51813b9f68e07649a306221a104cdb3b41c9c2910d518199607f2d400048a"
+          }
+        ]
+      }
     },
     {
       "id": "city-study",
@@ -370,15 +474,31 @@
       "entryIds": [
         "city-bowery-07"
       ],
-      "gist": "Strange借TYGER行动研究Batman。",
-      "editorialAngle": "把行为分析室放回Strange的研究计划。",
+      "gist": "斯特兰奇让 TYGER 以协助警方为名进入哥谭，实际把蝙蝠侠当作研究目标。小队在交锋中不断失利，他却从这些失败中分析对手的行动方式。",
+      "editorialAngle": "TYGER的失败如何成为斯特兰奇研究对手的材料？",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-study-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 47,
+            "frameSHA256": "567d8d3bdd6ff246389ba6d5172c96024b97a71bb0b4131967f34763a64669e4"
+          }
+        ]
+      }
     },
     {
       "id": "city-robin",
@@ -388,15 +508,31 @@
       "entryIds": [
         "city-amusement-mile-02"
       ],
-      "gist": "格雷森家庭经历连接Robin与Nightwing。",
+      "gist": "迪克·格雷森的父母在马戏演出中被黑帮杀害。布鲁斯收留迪克，并引导他以罗宾身份行动；后来迪克独立成为夜翼，披风之下又有了新的罗宾。",
       "editorialAngle": "留意同一人物在不同阶段的身份变化。",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-robin-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 233,
+            "frameSHA256": "c3d20bd4ae76e5e0fc00cbf449619a1748c2502608ca0477015fb6a972ac9674"
+          }
+        ]
+      }
     },
     {
       "id": "city-ratcatcher",
@@ -406,15 +542,31 @@
       "entryIds": [
         "city-industrial-06"
       ],
-      "gist": "捕鼠者的小生意与Penguin发生冲突。",
+      "gist": "捕鼠者让老鼠从外面运来肥皂、薄荷糖等日用品，在围城里出售。企鹅人将这门生意视为竞争，最终把他拖进博物馆；此后无人再见到他。",
       "editorialAngle": "广告与角色缺席怎样组成场景叙事？",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-ratcatcher-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 228,
+            "frameSHA256": "192658d246500ba9517f57f5cc4d86fa69c4d9a37d470575c928fb3434763bda"
+          }
+        ]
+      }
     },
     {
       "id": "city-broker",
@@ -424,15 +576,31 @@
       "entryIds": [
         "city-industrial-05"
       ],
-      "gist": "Broker替罪犯安排地产，包括谜语人。",
+      "gist": "谢尔曼·法恩以地产掮客的身份替罪犯寻找据点，客户包括大白鲨、扎斯、小丑和谜语人。谜语人看中的房产，也由他协助安排。",
       "editorialAngle": "黑市中介如何协助超级反派在哥谭建立地下犯罪据点？",
       "sources": [
-        "city-stories"
+        "city-stories",
+        "city-story-capture-zevik"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-broker-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 255,
+            "frameSHA256": "59d5f026a7196a92d8bcad721a5c9be5709fbed0d3e512453fb521cc2b8a36e1"
+          }
+        ]
+      }
     },
     {
       "id": "knight-alfred",
@@ -442,15 +610,43 @@
       "entryIds": [
         "knight-founders-10"
       ],
-      "gist": "Alfred察觉Bruce在Joker死后异常。",
+      "gist": "小丑死后，阿尔弗雷德留意到布鲁斯常常不吃送来的饭，仍不断训练和巡夜。管家试图照顾他的身体，却无法让他放下那种仿佛时间不足的紧迫感。",
       "editorialAngle": "从照护者视角整理Bruce的状态。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "City结局"
+      "spoiler": "City结局",
+      "images": [
+        "story-knight-alfred"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "忠心耿耿",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 5,
+            "frameSHA256": "488129e4c7420c4946c92a97bf26307723488fd8c39fc718e467d95d71428fe3"
+          },
+          {
+            "page": 2,
+            "timestamp": 15,
+            "frameSHA256": "b0b2f7369073dfa21d93274b57cc576c30eebf246f080fe3a97667e3cbac4ac9"
+          },
+          {
+            "page": 3,
+            "timestamp": 20,
+            "frameSHA256": "9251b1b8883d0512fcd8ebe2835e904064400c9221d3a60bc8532b44f9b13826"
+          }
+        ]
+      }
     },
     {
       "id": "knight-tower",
@@ -460,15 +656,43 @@
       "entryIds": [
         "knight-miagani-01"
       ],
-      "gist": "Strange与Ra’s讨论Arkham City计划。",
+      "gist": "奇迹之塔内，斯特兰奇向拉斯谈起阿卡姆之城，并追问拉撒路池的秘密。拉斯随即扼住他的喉咙，让两人合作背后的支配关系显露出来。",
       "editorialAngle": "同一建筑怎样连接两作的权力结构？",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "City后期"
+      "spoiler": "City后期",
+      "images": [
+        "story-knight-tower"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "奇迹之塔",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 25,
+            "frameSHA256": "3dc140a96558dea33ffeaa8e4f3d535c911a12322ddc7e731d7154d7ad7ceb99"
+          },
+          {
+            "page": 2,
+            "timestamp": 30,
+            "frameSHA256": "06fcd0f715c3fd28035a66ee6a0b1b0bdcdae48c4aee27de9872360f5f00f2bd"
+          },
+          {
+            "page": 3,
+            "timestamp": 35,
+            "frameSHA256": "c6bcaa6b8a368d2b6160a3ba4e0101b62e18bbe0589c71e8dfeca168bb2df6ee"
+          }
+        ]
+      }
     },
     {
       "id": "knight-bane",
@@ -478,15 +702,43 @@
       "entryIds": [
         "knight-founders-02"
       ],
-      "gist": "Bane回到Santa Prisca打击毒品势力。",
-      "editorialAngle": "联系遗留装备与异地去向；容器位置仍有攻略冲突。",
+      "gist": "贝恩返回圣普里斯卡，却遭到使用 Venom 的毒枭武装袭击。他逐个报复当地头目，留下十二颗首级，继而把目标转向佩纳杜罗监狱。",
+      "editorialAngle": "货柜遗物与圣普里斯卡的去向；Venom与TITAN分别辨明。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-bane"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "归乡",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 70,
+            "frameSHA256": "4ec2c580e72b6254f04ce2cf190f6fcde8b343f6ad997259534298243249383d"
+          },
+          {
+            "page": 2,
+            "timestamp": 75,
+            "frameSHA256": "37b1cd9726689269bfcb5a372e834245e8e72349a1ec076d2882b988c684f19a"
+          },
+          {
+            "page": 3,
+            "timestamp": 85,
+            "frameSHA256": "b6b27638574d34f3924fb47a972d012b2c5307870683cdb7ecb2b5dbb39f8ed8"
+          }
+        ]
+      }
     },
     {
       "id": "knight-batgirl",
@@ -496,15 +748,43 @@
       "entryIds": [
         "knight-bleake-06"
       ],
-      "gist": "Batgirl救人时遇到Joker设下的圈套。",
-      "editorialAngle": "封存战衣见证的创伤陷阱与身份转变。",
+      "gist": "蝙蝠少女突破阻拦接近一名被扣为人质的警察，却发现警服下的人是小丑。他以戈登的安危威胁她，把一次救援变成新的圈套。",
+      "editorialAngle": "封存战衣与一次人质身份反转；不与后来的枪击事件混同。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-batgirl"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "陷阱",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 95,
+            "frameSHA256": "ee95b3849b3c73818b84c977cc77e79c389776cdcdc3bb14ffb7bb99907fa47f"
+          },
+          {
+            "page": 2,
+            "timestamp": 105,
+            "frameSHA256": "7a5c8c925241e331924a633409c0e104136e0e0d6d2eca740aa582c1939e407c"
+          },
+          {
+            "page": 3,
+            "timestamp": 115,
+            "frameSHA256": "eb9f197b85ba5ff332f844b3c7c05a1eca72c4ef073d11fbe2b1284cbf2a94f9"
+          }
+        ]
+      }
     },
     {
       "id": "knight-calendar",
@@ -514,15 +794,43 @@
       "entryIds": [
         "knight-founders-06"
       ],
-      "gist": "日历人以日记记录另类节日。",
+      "gist": "日历人以日记记录逃离阿卡姆之城后的犯罪，把冷门纪念日也纳入杀人日程。临近万圣节，他又因稻草人的计划没有包括自己而愤愤不平。",
       "editorialAngle": "比较City节日人物与Knight日记叙事。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-calendar"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "决心",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 125,
+            "frameSHA256": "754a3eb21fa3a197b6dd4efe9c70e36449a57494a04db4822ce570b4468a1a7d"
+          },
+          {
+            "page": 2,
+            "timestamp": 135,
+            "frameSHA256": "58bce3662ade64efe0f489933b24a924b3f6472158849ed299c08e03a927d5e8"
+          },
+          {
+            "page": 3,
+            "timestamp": 140,
+            "frameSHA256": "d140ca28104500095d2d0e58bc94b310d5321796b6d1e6a87d8f12c1defbb176"
+          }
+        ]
+      }
     },
     {
       "id": "knight-nora",
@@ -532,15 +840,43 @@
       "entryIds": [
         "knight-founders-04"
       ],
-      "gist": "故事转向Nora的意识与感受。",
+      "gist": "第三人称叙述贴近诺拉断续的知觉：她在寒冷中听见维克托经过设备传来的金属声，回忆曾经的生活，也感到自己与眼前这个人日益疏远。被保存的身体没有让两人的关系停在原处。",
       "editorialAngle": "与Heart of Ice比较，两段故事如何讲述维克托与诺拉？",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "背景剧情"
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-nora"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "寒冷彻骨",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 345,
+            "frameSHA256": "f7ad1e9a408466eee1a029c08cb4443db376ac449a9683e19e1bda6d1fa7d700"
+          },
+          {
+            "page": 2,
+            "timestamp": 355,
+            "frameSHA256": "816d4f73e56985a10f9faee043d0b1ddafef062e81673b5fbe9a3dccce6c9922"
+          },
+          {
+            "page": 3,
+            "timestamp": 365,
+            "frameSHA256": "7fab7bb8f24bd9119095ecfd308a3aa6ee28346cfb98af241d4bb87fe452631f"
+          }
+        ]
+      }
     },
     {
       "id": "knight-sharp",
@@ -550,15 +886,43 @@
       "entryIds": [
         "knight-miagani-09"
       ],
-      "gist": "Sharp在囚禁中仍受Strange暗示影响。",
+      "gist": "被关押的夏普仿佛再次见到斯特兰奇。这个来访者其实源于留在他潜意识中的催眠暗示，并将他推向最后一道自毁指令。",
       "editorialAngle": "区分心理暗示、幻象与字面复活。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "Sharp结局暗示"
+      "spoiler": "Sharp结局暗示",
+      "images": [
+        "story-knight-sharp"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "探监时间",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 825,
+            "frameSHA256": "2b5acec911cfb21a4ccfec0809c0bf1c330220966d6c934119dfbe4c186c6b1a"
+          },
+          {
+            "page": 2,
+            "timestamp": 845,
+            "frameSHA256": "93ad8c1058cfbfb5d21916cc37028ec8bbcdcb1b1490f0e157fc952b7f92c080"
+          },
+          {
+            "page": 3,
+            "timestamp": 850,
+            "frameSHA256": "409efa048dd954a53e76a98ace2a1ba4ece25740c870a5a3690138db97d69795"
+          }
+        ]
+      }
     },
     {
       "id": "knight-riddler",
@@ -568,15 +932,572 @@
       "entryIds": [
         "knight-miagani-04"
       ],
-      "gist": "谜语人受挫后获准购买地下设施。",
+      "gist": "谜语人的网络动员失败，又想起自己在阿卡姆之城被迫戴着爆炸头盔绕圈的羞辱。愤怒之际，市议会批准了他以公司名义购买废弃下水道和水处理设施的申请，他终于重新露出笑容。",
       "editorialAngle": "整理羞辱、报复和挑战场地之间的联系。",
       "sources": [
-        "knight-story-text-index"
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
       ],
-      "evidence": "社区转录条目已读；游戏解锁画面未核",
-      "gameCaptureVerified": false,
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
       "originalText": null,
-      "spoiler": "City谜语人支线结局"
+      "spoiler": "City谜语人支线结局",
+      "images": [
+        "story-knight-riddler"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "社交平台",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 885,
+            "frameSHA256": "aa3ae013e9bd9a10861400ec6a32fa22e30a83f6b5801b91d824b140c78e3de8"
+          },
+          {
+            "page": 2,
+            "timestamp": 895,
+            "frameSHA256": "20aad6ad9e9012f168afb368ba7eb1b83d1aa59634346e8199f169ab71b7029c"
+          },
+          {
+            "page": 3,
+            "timestamp": 900,
+            "frameSHA256": "0c54556b75fb150b2037e42ef155a0a8702cceedd850785d7aa677fe2ba22f5c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-election",
+      "game": "city",
+      "title": "Election Time",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-bowery-06"
+      ],
+      "gist": "夏普将平息疯人院暴乱的功劳揽在身上，凭借建设超级监狱的承诺当选市长，随后任命斯特兰奇管理这座设施。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-election-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 223,
+            "frameSHA256": "3ca968bdd139b247438d005014fc69dde1a831fa9c44785fa5971650a78e52f2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-gordon-sharp",
+      "game": "city",
+      "title": "Gordon vs. Sharp",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-amusement-mile-09",
+        "city-amusement-mile-06"
+      ],
+      "gist": "戈登阻止建城的司法尝试失败，又面对夏普要求辞职的压力。蝙蝠侠建议改由布鲁斯·韦恩发起公共反对行动。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-gordon-sharp-1",
+        "story-city-gordon-sharp-2"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 2,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 124,
+            "frameSHA256": "e6a481f60b2162c0b58c7392ec8d5294ee0ef535a489a355d782014ea050cf64"
+          },
+          {
+            "part": 2,
+            "timestamp": 130,
+            "frameSHA256": "7fcdbb7305bce1a545929a1b60c020f651bbff8e381e9397316b9f82e16c1359"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-mad-hatter",
+      "game": "city",
+      "title": "The Mad Hatter",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-bowery-03",
+        "city-park-row-04"
+      ],
+      "gist": "斯特兰奇研究疯帽匠的精神控制技术，制成让人更易接受暗示的药物，随后邀请夏普喝茶。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-mad-hatter-1",
+        "story-city-mad-hatter-2"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 2,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 154,
+            "frameSHA256": "62b4786559602e01b44fcc1f9ac8f286ad262a923eecfda8e276f6a247701caa"
+          },
+          {
+            "part": 2,
+            "timestamp": 158,
+            "frameSHA256": "a17a3d3b0c393b0b457ae692b615e67eb45e3ec61abe15dd46941bec347ad206"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-illegal-operations",
+      "game": "city",
+      "title": "Illegal Operations",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-bowery-01"
+      ],
+      "gist": "斯特兰奇用脑叶切除掩盖囚犯实验，并完善了控制 TYGER 忠诚的催眠暗示技术。小丑暴乱时释放的病人也出自这些实验。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-illegal-operations-1"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 1,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 186,
+            "frameSHA256": "cbb56f4aaa2396b460310745872bca482bbeb96219eb293706b570deef2ccbc5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-cold-start",
+      "game": "city",
+      "title": "A Cold Start",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-industrial-02",
+        "city-steel-mill-01"
+      ],
+      "gist": "斯特兰奇以诺拉的安置和实验室诱使急冻人入城，却没有兑现交还诺拉的承诺。维克托武装自己追索妻子，遭到 TYGER 伏击。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-cold-start-1",
+        "story-city-cold-start-2"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 2,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 176,
+            "frameSHA256": "03c2157e0e310041e6a3dfd69ddd75c8c890de27aaa2cb072cae387526cfa3a0"
+          },
+          {
+            "part": 2,
+            "timestamp": 181,
+            "frameSHA256": "5dac63bef618080f359dd37cd35a1a6a3545eacc3c2c8b178a516455bef10b9f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "city-cobblepot-feud",
+      "game": "city",
+      "title": "The Cobblepot Feud",
+      "titleTranslation": null,
+      "entryIds": [
+        "city-bowery-02",
+        "city-museum-06",
+        "city-museum-07",
+        "city-museum-02",
+        "city-museum-08"
+      ],
+      "gist": "五篇记述科波特家族与韦恩家的竞争、奥斯瓦尔德的成长、博物馆犯罪据点和他最终被围入监狱的经过。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "city-stories",
+        "city-story-capture-zevik"
+      ],
+      "evidence": "2026-10-28 已读取本地Zevik录像中对应英文故事界面，核对标题、分篇与既有梗概；保留社区转录来源；完整画幅截图按原顺序接入，originalText不填入OCR全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-city-cobblepot-feud-1",
+        "story-city-cobblepot-feud-2",
+        "story-city-cobblepot-feud-3",
+        "story-city-cobblepot-feud-4",
+        "story-city-cobblepot-feud-5"
+      ],
+      "capture": {
+        "source": "city-story-capture-zevik",
+        "language": "en",
+        "partCount": 5,
+        "reviewFrames": [
+          {
+            "part": 1,
+            "timestamp": 190,
+            "frameSHA256": "cafae15e3bb155aa4bc42c4234c98f50179e5f6aae345e38117dfcf215775a48"
+          },
+          {
+            "part": 2,
+            "timestamp": 194,
+            "frameSHA256": "d82e8e429540a7d2b5602115d67d4bf8adfe49033aa005b38c823bb3488e7fb0"
+          },
+          {
+            "part": 3,
+            "timestamp": 199,
+            "frameSHA256": "d124d7b726b919fa41f914f46e8f491a1b19d33c1603a8a731d844e6bc05ad36"
+          },
+          {
+            "part": 4,
+            "timestamp": 204,
+            "frameSHA256": "18f1094ae509a75ec0337cb7c2de809da8657f8d25dbdc60e48fef7efdfa71b0"
+          },
+          {
+            "part": 5,
+            "timestamp": 210,
+            "frameSHA256": "4b201d2a32368a1520b45151d850c3fd3b262165590f25bac44825611c58094b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-guardian-angel",
+      "game": "knight",
+      "title": "Guardian Angel",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-09"
+      ],
+      "gist": "阿兹拉尔观察蝙蝠侠击倒劫匪，留意其战法与疲态，却无法接受他放过罪犯性命，因而认定哥谭需要自己的神圣裁决。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-guardian-angel"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "守护天使",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 45,
+            "frameSHA256": "5534238b7c4fd90ce575214512062a8205521714e61a9c95712f43ad005f74d0"
+          },
+          {
+            "page": 2,
+            "timestamp": 55,
+            "frameSHA256": "9a38d76e672eb828e9cb308d7f379b48b409b23fe049bcab6053a9ba8c34e3fc"
+          },
+          {
+            "page": 3,
+            "timestamp": 60,
+            "frameSHA256": "32ff95c1bb3903300f9d75762445f9541ed23126b6e3998d8a84ca1bfa82fd35"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-critter",
+      "game": "knight",
+      "title": "Critter",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-hq-02"
+      ],
+      "gist": "稻草人在货柜中向被绑的 Roach 展示昆虫的致幻分泌物，并准备在人身上试验，企图弥补旧毒剂的失败。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-critter"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "虫子",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 909,
+            "frameSHA256": "98efddeb132fd3071e69f31de0e9ec157f7ba1ea9ea3cc0ff51e08eda6163ca2"
+          },
+          {
+            "page": 2,
+            "timestamp": 915,
+            "frameSHA256": "8edc5ca1776cc173f7f81997d29abba7408f8abb984ca9247836eb2fcbf5a072"
+          },
+          {
+            "page": 3,
+            "timestamp": 925,
+            "frameSHA256": "a61027103fd3ac6a33845f1950398b501f33e13aa8a0c933671dd6d991a6f75e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-lab-rat",
+      "game": "knight",
+      "title": "Lab Rat",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-airships-01"
+      ],
+      "gist": "被斯塔格指为叛徒的亚历克斯·萨托里乌斯沦为实验对象。即使停止供给毒剂，他仍看见烈焰逼近，在并不存在的火中惊叫。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-lab-rat"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "小白鼠",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 935,
+            "frameSHA256": "2c99cb782b102af8ee073e19f2061551e68f50fcdae2420b0e5520fa5308783b"
+          },
+          {
+            "page": 2,
+            "timestamp": 945,
+            "frameSHA256": "83eb99deca3132a81340185bbec549a156bf9f4ebf322d85f3b43d81a7a596a2"
+          },
+          {
+            "page": 3,
+            "timestamp": 955,
+            "frameSHA256": "2c51a770a9cfe1b7e800dc27a0743a8d18d3443f3c2336bf7f800f3de57a6c52"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-revenant",
+      "game": "knight",
+      "title": "Revenant",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-founders-07"
+      ],
+      "gist": "停尸房员工扎克循声打开特殊冷藏柜，发现格兰迪再次呼吸，继而听见他吼出童谣的开头。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-revenant"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "还魂",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 965,
+            "frameSHA256": "e5bb8e77ef05edde5d5441e2e50dd2ed3d2c61e070185a9337632a43a29bac19"
+          },
+          {
+            "page": 2,
+            "timestamp": 975,
+            "frameSHA256": "587b5bf6449cf8b4019d59cc84c1cbbb3b69b0e736bb91dd99d9d2d62d801b63"
+          },
+          {
+            "page": 3,
+            "timestamp": 985,
+            "frameSHA256": "2db90ed525f3b03a63d598eef0fc4777abcdcfa019cbc38d56c0a3f3a5278df2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-office-romance",
+      "game": "knight",
+      "title": "Office Romance",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-studios-01"
+      ],
+      "gist": "两人研究亚当斯的血液时，短暂的亲近被提姆主动打断；芭芭拉也没有挽留，两人继续将哥谭的工作置于私人关系之前。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-office-romance"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "职场恋情",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 995,
+            "frameSHA256": "84bcf03c52fd92c51b64584b47e3a257ac05a397c1918bf61c2c5236f2ff703d"
+          },
+          {
+            "page": 2,
+            "timestamp": 1005,
+            "frameSHA256": "d3777e9e0a4c7b1a148bc9d7041f827a2b489f096328bcd29ce5f6bd2ee22b0b"
+          },
+          {
+            "page": 3,
+            "timestamp": 1015,
+            "frameSHA256": "f6ea74bf512d42ad32d68e7adb7e2ad4dc015f7bfff16fef855725a0f56dc2f9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "knight-showtime",
+      "game": "knight",
+      "title": "Showtime",
+      "titleTranslation": null,
+      "entryIds": [
+        "knight-miagani-07"
+      ],
+      "gist": "夏普获判无罪后，维姬在法院外追问武器流入围城的责任，并出示带有他签名的文件，当场打断其辩解。",
+      "editorialAngle": "结合人物选择与相关物件阅读这组游戏短篇。",
+      "sources": [
+        "knight-story-text-index",
+        "knight-story-capture-bv1dx411x7ap"
+      ],
+      "evidence": "2026-10-28 已在MotowayNorth自录、天邈汉化视频中定位并读取3页故事界面；与既有梗概核对；保留英文社区转录来源；originalText不填入OCR或汉化全文",
+      "gameCaptureVerified": true,
+      "originalText": null,
+      "spoiler": "背景剧情",
+      "images": [
+        "story-knight-showtime"
+      ],
+      "capture": {
+        "source": "knight-story-capture-bv1dx411x7ap",
+        "screenTitle": "好戏上演",
+        "translation": "天邈汉化（非官方中文）",
+        "displayedPage": 1,
+        "pageCount": 3,
+        "reviewFrames": [
+          {
+            "page": 1,
+            "timestamp": 1055,
+            "frameSHA256": "119a855826101874e08281fc478a25671ff5576b76abf152fb3b300e93f75c6e"
+          },
+          {
+            "page": 2,
+            "timestamp": 1065,
+            "frameSHA256": "cf43bb58290aa75342b95187014814990663bd1b5307be1272a674061fc141e1"
+          },
+          {
+            "page": 3,
+            "timestamp": 1075,
+            "frameSHA256": "9d08898a4af2d6155ff150c1b1be48f871aaa994fe2bde4556fbc4e7885f3b39"
+          }
+        ]
+      }
     }
   ],
   "notes": [
@@ -764,6 +1685,671 @@
       "rights": "DC及原作品权利人保留权利；未取得开放转载授权",
       "use": "私有GitHub研究素材；未接入公开网站",
       "review": "已解码、尺寸核查、目视检查；不放大冒充高清图"
+    },
+    {
+      "id": "story-knight-alfred",
+      "file": "story-captures/knight-alfred.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-alfred",
+      "caption": "《阿卡姆骑士》〈Faithful Servant〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "600d39dfee49b226d9e1ea405f3308ca9fc797a36a03fdbfa2525b42b05798d9",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 5,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-tower",
+      "file": "story-captures/knight-tower.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-tower",
+      "caption": "《阿卡姆骑士》〈Wonder Tower〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "aa1835ce4e9f33ee1690444d87eebcb3ee0d7458d4789f0ccb2a42e362a73610",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 25,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-guardian-angel",
+      "file": "story-captures/knight-guardian-angel.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-guardian-angel",
+      "caption": "《阿卡姆骑士》〈Guardian Angel〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5ece841eb28527bad563c2f7ae4679f0fda91a494dd74b0e0bfa5f336d15ef93",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 45,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-bane",
+      "file": "story-captures/knight-bane.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-bane",
+      "caption": "《阿卡姆骑士》〈Homecoming〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "2cfd21cc460c3db33aee3ebad338de97caa31fe237e26599d5fcd246f660c0aa",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 70,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-batgirl",
+      "file": "story-captures/knight-batgirl.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-batgirl",
+      "caption": "《阿卡姆骑士》〈The Trap〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "343bc6182692931efd7dd8336e9247c993a65b84d71ddf2ffaa2afe1cbc608e7",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 95,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-calendar",
+      "file": "story-captures/knight-calendar.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-calendar",
+      "caption": "《阿卡姆骑士》〈Resolutions〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "8db62f3d8dcc3894a4aeed02a21acf4185832f91cae983f0108d9f7ef074e099",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 125,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-nora",
+      "file": "story-captures/knight-nora.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-nora",
+      "caption": "《阿卡姆骑士》〈Frozen Out〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "90c7fad8b1a8516d1c5cc35b32044f5ccf36d380e245b89613f0b785d63fb718",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 345,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-sharp",
+      "file": "story-captures/knight-sharp.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-sharp",
+      "caption": "《阿卡姆骑士》〈Visiting Hours〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "973bb4cecf1f1eabb3d4ab3fcba1cae142c9b9c2c9902f74b0d44b5d5ac26513",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 825,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-riddler",
+      "file": "story-captures/knight-riddler.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-riddler",
+      "caption": "《阿卡姆骑士》〈Social Outcast〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "f43716fa771d7e3a5e7994b9fcaa5a90f23fef0a1f4b562493109d20938d7e52",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 885,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-critter",
+      "file": "story-captures/knight-critter.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-critter",
+      "caption": "《阿卡姆骑士》〈Critter〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "ce48fddb912acacf493d33e4385a2362ffd4c5363d288d236e8ec9975734146d",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 909,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-lab-rat",
+      "file": "story-captures/knight-lab-rat.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-lab-rat",
+      "caption": "《阿卡姆骑士》〈Lab Rat〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5fc8a69402866c0983e1150280f4ea23705ab0386547a506eb4f6675b0d5cc0d",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 935,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-revenant",
+      "file": "story-captures/knight-revenant.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-revenant",
+      "caption": "《阿卡姆骑士》〈Revenant〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "79ec2a128db8a0f1443291c745057ad8c307efc3778309f938865914aa7f6347",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 965,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-office-romance",
+      "file": "story-captures/knight-office-romance.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-office-romance",
+      "caption": "《阿卡姆骑士》〈Office Romance〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "83640ee126e9b025eb8b6bd5f4323670a15fdb442cc14c69d353830b75b6dd35",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 995,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-knight-showtime",
+      "file": "story-captures/knight-showtime.webp",
+      "source": "knight-story-capture-bv1dx411x7ap",
+      "sourceUrl": "https://www.bilibili.com/video/BV1dx411x7aP/",
+      "storyId": "knight-showtime",
+      "caption": "《阿卡姆骑士》〈Showtime〉游戏内故事界面（天邈汉化）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1600,
+      "height": 900,
+      "sha256": "27909f84e95a2ad0e94e27d4fbb492caf4d633b3c3125c88444e0e1a5366b019",
+      "originalSHA256": "5e2ca37bc2bc8a861d0270d8be4053d142eb6caab492769ac22edfffceb59b5e",
+      "timestamp": 1055,
+      "screenPage": 1,
+      "screenPageCount": 3,
+      "spoiler": true,
+      "rights": "游戏画面及汉化权利归各自权利人；录像来自MotowayNorth，原视频未授予开放转载许可",
+      "review": "完整画幅，保留游戏菜单及汉化文字；已读取并核对故事、页码与对应展示场景"
+    },
+    {
+      "id": "story-city-island-sold-1",
+      "file": "story-captures/city-island-sold-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-island-sold",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Arkham Island Sold〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "3bf7b841cf63644fdb91aa89a217eedf492536fa0ebf67355e53a1a8ab98c93c",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 21,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-medical-1",
+      "file": "story-captures/city-medical-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-medical",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Arkham City Medical Team〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "1b90f1e41b999695cd8d263e27c6142fd8e616a9d6c887d1a30a74c52203b3d3",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 27,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-seismic-1",
+      "file": "story-captures/city-seismic-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-seismic",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Seismic Disturbances〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "45d6c2cbada51cc3309de303cc5c0696369df0e617ddbb7b5d4d6d137c9c4aa8",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 37,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-purchase-1",
+      "file": "story-captures/city-purchase-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-purchase",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Compulsory Purchase〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "b9d46449f617a6c46bc50754fd2b620803b81d0542d13eef86dc45f9eb03d277",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 41,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-study-1",
+      "file": "story-captures/city-study-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-study",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Studying the Bat〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "c3bc9529663b81344a5e04d018fd97a77b9cc6feba06aa2e6e152de4a0479660",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 47,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-robin-1",
+      "file": "story-captures/city-robin-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-robin",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈A New Robin〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "c64d2033c85c69fe4487b63933c63a317a56d46473cc70302d751689425d1b5f",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 233,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-ratcatcher-1",
+      "file": "story-captures/city-ratcatcher-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-ratcatcher",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈The Ratcatcher〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "a8a7f511fbcfcfad12908fc8cd3b0ff2a721cf90bcebfeec0093b2e8d88cccca",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 228,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-broker-1",
+      "file": "story-captures/city-broker-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-broker",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Brokering Deals〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "90c634b27897f00d42c752fe08e055650d8898957f2b9d2baed56c116806a0bb",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 255,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-election-1",
+      "file": "story-captures/city-election-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-election",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Election Time〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "1a6eaedd7ee9b6eadbf38dda3f5274adddb9805494ecb15d4eeca426dbe79e9d",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 223,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-gordon-sharp-1",
+      "file": "story-captures/city-gordon-sharp-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-gordon-sharp",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Gordon vs. Sharp〉第1篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "1443f78509ed981ae90017f4cefc003b835d6985db01e1c31518212eb519c244",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 124,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-gordon-sharp-2",
+      "file": "story-captures/city-gordon-sharp-2.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-gordon-sharp",
+      "storyPart": 2,
+      "caption": "《阿卡姆之城》〈Gordon vs. Sharp〉第2篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "15799f38fa3a948dc210d6edf7c6ecd3f82309f7829388399163756a0b9ddd5e",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 130,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-mad-hatter-1",
+      "file": "story-captures/city-mad-hatter-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-mad-hatter",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈The Mad Hatter〉第1篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "80a8a902db3c74ab1375fe483b94c100059422a5cbbf41a22be471392c8aa4f6",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 154,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-mad-hatter-2",
+      "file": "story-captures/city-mad-hatter-2.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-mad-hatter",
+      "storyPart": 2,
+      "caption": "《阿卡姆之城》〈The Mad Hatter〉第2篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "3e26428abb6e26b81b7f70d12f0a9cd52c4703992f5b173cf5ddd7ec526ece10",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 158,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-illegal-operations-1",
+      "file": "story-captures/city-illegal-operations-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-illegal-operations",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈Illegal Operations〉游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "c668a2fb028890267f9f24a9e62fbaa71eb74614e80676ca1ccc7af3ecced10a",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 186,
+      "partCount": 1,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cold-start-1",
+      "file": "story-captures/city-cold-start-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cold-start",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈A Cold Start〉第1篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "ea83b894f6f25963f58465bde50a69e9ade8cd4ab0b784748eb5d55bfb4c539c",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 176,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cold-start-2",
+      "file": "story-captures/city-cold-start-2.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cold-start",
+      "storyPart": 2,
+      "caption": "《阿卡姆之城》〈A Cold Start〉第2篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "9463394f8062e5241c9fb4231e87f4e3d7b2ee2243ac1eb4f7f6943805080eac",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 181,
+      "partCount": 2,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cobblepot-feud-1",
+      "file": "story-captures/city-cobblepot-feud-1.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cobblepot-feud",
+      "storyPart": 1,
+      "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第1篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "c7897217e2bc18a0ccf286e7bbac1aeb6c41c74a1f7006f42d40ef88c5780b0a",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 190,
+      "partCount": 5,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cobblepot-feud-2",
+      "file": "story-captures/city-cobblepot-feud-2.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cobblepot-feud",
+      "storyPart": 2,
+      "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第2篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "424dee128048779ae02793aec31e45e764523319dfed754fb2c54b586a78c0d2",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 194,
+      "partCount": 5,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cobblepot-feud-3",
+      "file": "story-captures/city-cobblepot-feud-3.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cobblepot-feud",
+      "storyPart": 3,
+      "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第3篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "6a363cb3cc04653d4646d3c2006cc6e7c3c1b9f14750f1903d3591594b2f9c3e",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 199,
+      "partCount": 5,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cobblepot-feud-4",
+      "file": "story-captures/city-cobblepot-feud-4.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cobblepot-feud",
+      "storyPart": 4,
+      "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第4篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "42092f7dca18e3d73504a78043ef36eda9e6fe59d5d57db3229a44d04dfb4ed8",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 204,
+      "partCount": 5,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+    },
+    {
+      "id": "story-city-cobblepot-feud-5",
+      "file": "story-captures/city-cobblepot-feud-5.webp",
+      "source": "city-story-capture-zevik",
+      "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+      "storyId": "city-cobblepot-feud",
+      "storyPart": 5,
+      "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第5篇游戏内故事界面（英文）",
+      "type": "游戏故事界面 · 玩家录制",
+      "width": 1152,
+      "height": 720,
+      "sha256": "4fe03eb326908bfb0c0875379bc3465fbad07bfe9d6b664d6955140fa6484104",
+      "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+      "timestamp": 210,
+      "partCount": 5,
+      "spoiler": true,
+      "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+      "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
     }
   ],
   "counts": {
@@ -771,7 +2357,7 @@
     "packageSources": 14,
     "uniqueSourcesAcrossResearch": 50,
     "works": 10,
-    "storyRecords": 16,
+    "storyRecords": 28,
     "editorialNotes": 6,
     "newImages": 7
   },

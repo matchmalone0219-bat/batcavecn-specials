@@ -23,8 +23,17 @@ def load_reading(riddler, archive):
         assert scene['image'] in images and set(scene['sources']) <= source_ids
         assert all(scene[key].strip() for key in ('title', 'description', 'context'))
     assert set(reading['stories']) == {s['id'] for s in archive['stories']}
+    themes = {theme['id'] for theme in reading['storyThemes']}
+    scans = {row['id']: row for row in json.loads((ROOT / 'arkham-riddler-scans.json').read_text())['riddles']}
+    stories = {story['id']: story for story in archive['stories']}
     for story in reading['stories'].values():
         assert all(story[key].strip() for key in ('title', 'intro', 'summary', 'sceneNote'))
+        assert story['theme'] in themes
+        assert set(story.get('relatedStories', [])) <= stories.keys()
+        assert all(part['title'].strip() and part['summary'].strip() for part in story.get('parts', []))
+    for story_id, text in reading['stories'].items():
+        assert len(text.get('scanIds', [])) == len(set(text.get('scanIds', [])))
+        assert all(scan_id in scans and scans[scan_id]['game'] == stories[story_id]['game'] for scan_id in text.get('scanIds', []))
     reading['easterEggs'] = load_easter_eggs()
     assert not (set(scene_ids) & {entry['id'] for entry in reading['easterEggs']['entries']})
     return reading
@@ -129,23 +138,62 @@ def scene_page(riddler, archive, reading, games, sources, picture, record, esc, 
     return content + '</div>'
 
 
-def story_page(archive, reading, entries, games, sources, record, esc):
-    content = '<div class="dossier-reading story-reading"><p>《阿卡姆之城》与《阿卡姆骑士》会在解开部分谜语后，解锁补充人物经历和城市背景的短篇。这里选读其中十六篇：先看故事介绍，再展开梗概，或沿来源链接阅读社区转录。</p>'
-    content += '<nav class="chapter-nav" aria-label="哥谭故事目录">'
-    content += ''.join(f'<a href="#{s["id"]}">{esc(reading["stories"][s["id"]]["title"])}</a>' for s in archive['stories']) + '</nav>'
-    for story in archive['stories']:
+def story_page(archive, reading, entries, scans, games, sources, picture, record, esc):
+    stories = archive['stories']
+    scan_rows = {row['id']: row for row in scans['riddles']}
+    themes = {theme['id']: theme['title'] for theme in reading['storyThemes']}
+    content = f'<div class="dossier-reading story-reading"><p>《阿卡姆之城》与《阿卡姆骑士》会在解开部分谜语后，解锁补充人物经历和城市背景的短篇。这里选读其中{len(stories)}组：按作品浏览，或沿主题串联人物与城市的往事。多篇故事依原顺序阅读，梗概与故事联系含剧透，默认折叠。</p>'
+    content += '<nav class="chapter-nav" aria-label="按作品阅读哥谭故事">'
+    for game in dict.fromkeys(story['game'] for story in stories):
+        total = sum(story['game'] == game for story in stories)
+        content += f'<a href="#stories-{game}">{games[game]} · {total}组</a>'
+    content += '</nav><details class="story-themes"><summary>按主题选读</summary>'
+    for theme_id, title in themes.items():
+        content += f'<section id="story-theme-{theme_id}"><h3>{esc(title)}</h3><nav class="chapter-nav" aria-label="{esc(title)}故事">'
+        content += ''.join(f'<a href="#{s["id"]}">{esc(reading["stories"][s["id"]]["title"])}</a>' for s in stories if reading['stories'][s['id']]['theme'] == theme_id)
+        content += '</nav></section>'
+    content += '</details>'
+    current_game = None
+    for story in sorted(stories, key=lambda story: list(games).index(story['game'])):
+        if story['game'] != current_game:
+            if current_game is not None:
+                content += '</section>'
+            current_game = story['game']
+            rows = [s for s in stories if s['game'] == current_game]
+            content += f'<section class="dossier-group" id="stories-{current_game}"><h2>{games[current_game]} · {len(rows)}组故事</h2><nav class="chapter-nav" aria-label="{games[current_game]}故事目录">'
+            content += ''.join(f'<a href="#{s["id"]}">{esc(reading["stories"][s["id"]]["title"])}</a>' for s in rows) + '</nav>'
         text = reading['stories'][story['id']]
         scene_names = '、'.join(entries[e].get('object', '场景物件') for e in story['entryIds'])
-        content += f'<article class="dossier-entry" id="{story["id"]}"><p class="label">{games[story["game"]]} / 哥谭故事</p><h2>{esc(text["title"])}</h2><p class="original">{esc(story["title"])}</p><p>{esc(text["intro"])}</p>'
-        content += f'<p class="dossier-related">关联场景：{esc(scene_names)}</p><details class="spoiler"><summary>展开故事梗概 · 含剧透</summary><p>{esc(text["summary"])}</p><h3>与场景的联系</h3><p>{esc(text["sceneNote"])}</p>'
+        content += f'<article class="dossier-entry" id="{story["id"]}"><p class="label">{games[story["game"]]} / {esc(themes[text["theme"]])}</p><h3>{esc(text["title"])}</h3><p class="original">{esc(story["title"])}</p><p>{esc(text["intro"])}</p>'
+        content += f'<p class="dossier-related">关联场景：{esc(scene_names)}</p><details class="spoiler"><summary>展开故事梗概 · 含剧透</summary><p>{esc(text["summary"])}</p>'
+        if not text.get('parts'):
+            content += ''.join(picture(image_id) for image_id in story.get('images', []))
+        for part_index, part in enumerate(text.get('parts', [])):
+            content += f'<section class="story-part"><h4>{esc(part["title"])}</h4><p>{esc(part["summary"])}</p>'
+            content += ''.join(picture(image_id) for image_id in story.get('images', [])[part_index:part_index + 1])
+            content += '</section>'
+        if text.get('context'):
+            content += f'<h4>故事联系与解读</h4><p>{esc(text["context"])}</p>'
+        content += f'<h4>与场景的联系</h4><p>{esc(text["sceneNote"])}</p>'
+        for scan_id in text.get('scanIds', []):
+            content += f'<p><a href="/arkham/archive/riddler/#{scan_id}">查看相关扫描谜题：{esc(scan_rows[scan_id]["title"])}</a></p>'
         for entry_id in story['entryIds']:
             if entry_id in {s['entry'] for s in reading['scenes']}:
                 content += f'<p><a href="/arkham/archive/clues/#{entry_id}">查看场景图片与解读</a></p>'
+            else:
+                content += f'<p><a href="/arkham/archive/clues/#{entry_id}">查看场景位置资料：{esc(entries[entry_id].get("object", "场景物件"))}</a></p>'
+        for related_id in text.get('relatedStories', []):
+            content += f'<p><a href="#{related_id}">继续阅读：{esc(reading["stories"][related_id]["title"])}</a></p>'
         content += '</details><div class="scene-sources"><p class="label">故事来源</p><ul>'
         for source_id in story['sources']:
             source = sources[source_id]
+            if source_id == story.get('capture', {}).get('source'):
+                timestamp = story['capture']['reviewFrames'][0]['timestamp']
+                url = source['url'] + ('&' if '?' in source['url'] else '?') + f't={timestamp}'
+                content += f'<li><a href="{esc(url)}">观看故事界面录像</a><small>{esc(source["uploader"])} · {esc(source["evidence"])}</small></li>'
+                continue
             url = source['url'] + '#' + quote(story['title'].replace(' ', '_'))
             content += f'<li><a href="{esc(url)}">阅读英文故事：{esc(story["title"])}{external_link_icon()}</a><small>Arkham Wiki · 社区转录</small></li>'
         content += '</ul></div></article>'
         record(text['title'], text['intro'], '/arkham/archive/stories/', story['id'], ['哥谭故事', games[story['game']]], story['title'])
-    return content + '</div>'
+    return content + '</section></div>'

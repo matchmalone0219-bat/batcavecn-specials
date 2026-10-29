@@ -1,0 +1,707 @@
+{
+  "checked": "2026-10-28",
+  "source": {
+    "id": "city-story-capture-zevik",
+    "title": "Zevik：Batman Arkham City — ALL Arkham City Stories (HD demonstration)",
+    "url": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+    "uploader": "Zevik",
+    "evidence": "玩家录制 · 英文界面",
+    "language": "en",
+    "access": "读取本地录像中现有14组／21篇故事界面，逐项匹配标题、分篇与画面",
+    "checked": "2026-10-28",
+    "attribution": "本地文件名标注Zevik；候选URL来自上一轮搜索；未读取下载工具的原始元数据",
+    "localFile": "/Users/dinghaowei/Downloads/Gemini/Arkham_City_Stories_Zevik.mp4",
+    "sha256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+    "width": 1152,
+    "height": 720,
+    "sampleAspectRatio": "1:1",
+    "displayAspectRatio": "8:5",
+    "duration": 312.726349,
+    "fps": 30,
+    "size": 78075812,
+    "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权"
+  },
+  "scope": "现有14组City故事、21篇界面配图；保留原始1152×720、1:1像素、8:5画幅；不录入全文，不部署",
+  "extraction": [
+    "ffmpeg",
+    "-ss",
+    "<timestamp>",
+    "-i",
+    "<source>",
+    "-frames:v",
+    "1",
+    "-c:v",
+    "libwebp",
+    "-quality",
+    "90",
+    "-y",
+    "<output>"
+  ],
+  "stories": [
+    {
+      "id": "city-island-sold",
+      "english": "Arkham Island Sold",
+      "times": [
+        21
+      ],
+      "images": [
+        {
+          "id": "story-city-island-sold-1",
+          "file": "story-captures/city-island-sold-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-island-sold",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Arkham Island Sold〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "3bf7b841cf63644fdb91aa89a217eedf492536fa0ebf67355e53a1a8ab98c93c",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 21,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 21,
+          "frameSHA256": "afc544584ae8c8cf157da6c173d16013e282630815b6e04a5506b7e4d9a33d51"
+        }
+      ]
+    },
+    {
+      "id": "city-medical",
+      "english": "Arkham City Medical Team",
+      "times": [
+        27
+      ],
+      "images": [
+        {
+          "id": "story-city-medical-1",
+          "file": "story-captures/city-medical-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-medical",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Arkham City Medical Team〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "1b90f1e41b999695cd8d263e27c6142fd8e616a9d6c887d1a30a74c52203b3d3",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 27,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 27,
+          "frameSHA256": "bf717dce656e588131f75ff6c8df93d0533387d553e09338eecf7f498df0da3b"
+        }
+      ]
+    },
+    {
+      "id": "city-seismic",
+      "english": "Seismic Disturbances",
+      "times": [
+        37
+      ],
+      "images": [
+        {
+          "id": "story-city-seismic-1",
+          "file": "story-captures/city-seismic-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-seismic",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Seismic Disturbances〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "45d6c2cbada51cc3309de303cc5c0696369df0e617ddbb7b5d4d6d137c9c4aa8",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 37,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 37,
+          "frameSHA256": "91b6457f38f1dede0f8ce9fee830691f8b307b4357e5205d77bd543ca0ba078f"
+        }
+      ]
+    },
+    {
+      "id": "city-purchase",
+      "english": "Compulsory Purchase",
+      "times": [
+        41
+      ],
+      "images": [
+        {
+          "id": "story-city-purchase-1",
+          "file": "story-captures/city-purchase-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-purchase",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Compulsory Purchase〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "b9d46449f617a6c46bc50754fd2b620803b81d0542d13eef86dc45f9eb03d277",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 41,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 41,
+          "frameSHA256": "8bc51813b9f68e07649a306221a104cdb3b41c9c2910d518199607f2d400048a"
+        }
+      ]
+    },
+    {
+      "id": "city-study",
+      "english": "Studying the Bat",
+      "times": [
+        47
+      ],
+      "images": [
+        {
+          "id": "story-city-study-1",
+          "file": "story-captures/city-study-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-study",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Studying the Bat〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "c3bc9529663b81344a5e04d018fd97a77b9cc6feba06aa2e6e152de4a0479660",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 47,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 47,
+          "frameSHA256": "567d8d3bdd6ff246389ba6d5172c96024b97a71bb0b4131967f34763a64669e4"
+        }
+      ]
+    },
+    {
+      "id": "city-robin",
+      "english": "A New Robin",
+      "times": [
+        233
+      ],
+      "images": [
+        {
+          "id": "story-city-robin-1",
+          "file": "story-captures/city-robin-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-robin",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈A New Robin〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "c64d2033c85c69fe4487b63933c63a317a56d46473cc70302d751689425d1b5f",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 233,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 233,
+          "frameSHA256": "c3d20bd4ae76e5e0fc00cbf449619a1748c2502608ca0477015fb6a972ac9674"
+        }
+      ]
+    },
+    {
+      "id": "city-ratcatcher",
+      "english": "The Ratcatcher",
+      "times": [
+        228
+      ],
+      "images": [
+        {
+          "id": "story-city-ratcatcher-1",
+          "file": "story-captures/city-ratcatcher-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-ratcatcher",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈The Ratcatcher〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "a8a7f511fbcfcfad12908fc8cd3b0ff2a721cf90bcebfeec0093b2e8d88cccca",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 228,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 228,
+          "frameSHA256": "192658d246500ba9517f57f5cc4d86fa69c4d9a37d470575c928fb3434763bda"
+        }
+      ]
+    },
+    {
+      "id": "city-broker",
+      "english": "Brokering Deals",
+      "times": [
+        255
+      ],
+      "images": [
+        {
+          "id": "story-city-broker-1",
+          "file": "story-captures/city-broker-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-broker",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Brokering Deals〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "90c634b27897f00d42c752fe08e055650d8898957f2b9d2baed56c116806a0bb",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 255,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 255,
+          "frameSHA256": "59d5f026a7196a92d8bcad721a5c9be5709fbed0d3e512453fb521cc2b8a36e1"
+        }
+      ]
+    },
+    {
+      "id": "city-election",
+      "english": "Election Time",
+      "times": [
+        223
+      ],
+      "images": [
+        {
+          "id": "story-city-election-1",
+          "file": "story-captures/city-election-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-election",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Election Time〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "1a6eaedd7ee9b6eadbf38dda3f5274adddb9805494ecb15d4eeca426dbe79e9d",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 223,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 223,
+          "frameSHA256": "3ca968bdd139b247438d005014fc69dde1a831fa9c44785fa5971650a78e52f2"
+        }
+      ]
+    },
+    {
+      "id": "city-gordon-sharp",
+      "english": "Gordon vs. Sharp",
+      "times": [
+        124,
+        130
+      ],
+      "images": [
+        {
+          "id": "story-city-gordon-sharp-1",
+          "file": "story-captures/city-gordon-sharp-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-gordon-sharp",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Gordon vs. Sharp〉第1篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "1443f78509ed981ae90017f4cefc003b835d6985db01e1c31518212eb519c244",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 124,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-gordon-sharp-2",
+          "file": "story-captures/city-gordon-sharp-2.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-gordon-sharp",
+          "storyPart": 2,
+          "caption": "《阿卡姆之城》〈Gordon vs. Sharp〉第2篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "15799f38fa3a948dc210d6edf7c6ecd3f82309f7829388399163756a0b9ddd5e",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 130,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 124,
+          "frameSHA256": "e6a481f60b2162c0b58c7392ec8d5294ee0ef535a489a355d782014ea050cf64"
+        },
+        {
+          "part": 2,
+          "timestamp": 130,
+          "frameSHA256": "7fcdbb7305bce1a545929a1b60c020f651bbff8e381e9397316b9f82e16c1359"
+        }
+      ]
+    },
+    {
+      "id": "city-mad-hatter",
+      "english": "The Mad Hatter",
+      "times": [
+        154,
+        158
+      ],
+      "images": [
+        {
+          "id": "story-city-mad-hatter-1",
+          "file": "story-captures/city-mad-hatter-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-mad-hatter",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈The Mad Hatter〉第1篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "80a8a902db3c74ab1375fe483b94c100059422a5cbbf41a22be471392c8aa4f6",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 154,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-mad-hatter-2",
+          "file": "story-captures/city-mad-hatter-2.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-mad-hatter",
+          "storyPart": 2,
+          "caption": "《阿卡姆之城》〈The Mad Hatter〉第2篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "3e26428abb6e26b81b7f70d12f0a9cd52c4703992f5b173cf5ddd7ec526ece10",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 158,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 154,
+          "frameSHA256": "62b4786559602e01b44fcc1f9ac8f286ad262a923eecfda8e276f6a247701caa"
+        },
+        {
+          "part": 2,
+          "timestamp": 158,
+          "frameSHA256": "a17a3d3b0c393b0b457ae692b615e67eb45e3ec61abe15dd46941bec347ad206"
+        }
+      ]
+    },
+    {
+      "id": "city-illegal-operations",
+      "english": "Illegal Operations",
+      "times": [
+        186
+      ],
+      "images": [
+        {
+          "id": "story-city-illegal-operations-1",
+          "file": "story-captures/city-illegal-operations-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-illegal-operations",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈Illegal Operations〉游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "c668a2fb028890267f9f24a9e62fbaa71eb74614e80676ca1ccc7af3ecced10a",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 186,
+          "partCount": 1,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 186,
+          "frameSHA256": "cbb56f4aaa2396b460310745872bca482bbeb96219eb293706b570deef2ccbc5"
+        }
+      ]
+    },
+    {
+      "id": "city-cold-start",
+      "english": "A Cold Start",
+      "times": [
+        176,
+        181
+      ],
+      "images": [
+        {
+          "id": "story-city-cold-start-1",
+          "file": "story-captures/city-cold-start-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cold-start",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈A Cold Start〉第1篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "ea83b894f6f25963f58465bde50a69e9ade8cd4ab0b784748eb5d55bfb4c539c",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 176,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-cold-start-2",
+          "file": "story-captures/city-cold-start-2.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cold-start",
+          "storyPart": 2,
+          "caption": "《阿卡姆之城》〈A Cold Start〉第2篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "9463394f8062e5241c9fb4231e87f4e3d7b2ee2243ac1eb4f7f6943805080eac",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 181,
+          "partCount": 2,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 176,
+          "frameSHA256": "03c2157e0e310041e6a3dfd69ddd75c8c890de27aaa2cb072cae387526cfa3a0"
+        },
+        {
+          "part": 2,
+          "timestamp": 181,
+          "frameSHA256": "5dac63bef618080f359dd37cd35a1a6a3545eacc3c2c8b178a516455bef10b9f"
+        }
+      ]
+    },
+    {
+      "id": "city-cobblepot-feud",
+      "english": "The Cobblepot Feud",
+      "times": [
+        190,
+        194,
+        199,
+        204,
+        210
+      ],
+      "images": [
+        {
+          "id": "story-city-cobblepot-feud-1",
+          "file": "story-captures/city-cobblepot-feud-1.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cobblepot-feud",
+          "storyPart": 1,
+          "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第1篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "c7897217e2bc18a0ccf286e7bbac1aeb6c41c74a1f7006f42d40ef88c5780b0a",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 190,
+          "partCount": 5,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-cobblepot-feud-2",
+          "file": "story-captures/city-cobblepot-feud-2.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cobblepot-feud",
+          "storyPart": 2,
+          "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第2篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "424dee128048779ae02793aec31e45e764523319dfed754fb2c54b586a78c0d2",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 194,
+          "partCount": 5,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-cobblepot-feud-3",
+          "file": "story-captures/city-cobblepot-feud-3.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cobblepot-feud",
+          "storyPart": 3,
+          "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第3篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "6a363cb3cc04653d4646d3c2006cc6e7c3c1b9f14750f1903d3591594b2f9c3e",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 199,
+          "partCount": 5,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-cobblepot-feud-4",
+          "file": "story-captures/city-cobblepot-feud-4.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cobblepot-feud",
+          "storyPart": 4,
+          "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第4篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "42092f7dca18e3d73504a78043ef36eda9e6fe59d5d57db3229a44d04dfb4ed8",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 204,
+          "partCount": 5,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        },
+        {
+          "id": "story-city-cobblepot-feud-5",
+          "file": "story-captures/city-cobblepot-feud-5.webp",
+          "source": "city-story-capture-zevik",
+          "sourceUrl": "https://www.youtube.com/watch?v=V8rJSfDh0A4",
+          "storyId": "city-cobblepot-feud",
+          "storyPart": 5,
+          "caption": "《阿卡姆之城》〈The Cobblepot Feud〉第5篇游戏内故事界面（英文）",
+          "type": "游戏故事界面 · 玩家录制",
+          "width": 1152,
+          "height": 720,
+          "sha256": "4fe03eb326908bfb0c0875379bc3465fbad07bfe9d6b664d6955140fa6484104",
+          "originalSHA256": "2e2e525b8133555725f3fe442b46f88528e128664be7ebbf50d846252180c364",
+          "timestamp": 210,
+          "partCount": 5,
+          "spoiler": true,
+          "rights": "游戏画面版权归原权利人；录像来源Zevik；未取得开放转载授权",
+          "review": "已读取英文标题、分篇编号和界面内容；完整画幅及游戏文字保留，未放大、拉伸或裁切"
+        }
+      ],
+      "reviewFrames": [
+        {
+          "part": 1,
+          "timestamp": 190,
+          "frameSHA256": "cafae15e3bb155aa4bc42c4234c98f50179e5f6aae345e38117dfcf215775a48"
+        },
+        {
+          "part": 2,
+          "timestamp": 194,
+          "frameSHA256": "d82e8e429540a7d2b5602115d67d4bf8adfe49033aa005b38c823bb3488e7fb0"
+        },
+        {
+          "part": 3,
+          "timestamp": 199,
+          "frameSHA256": "d124d7b726b919fa41f914f46e8f491a1b19d33c1603a8a731d844e6bc05ad36"
+        },
+        {
+          "part": 4,
+          "timestamp": 204,
+          "frameSHA256": "18f1094ae509a75ec0337cb7c2de809da8657f8d25dbdc60e48fef7efdfa71b0"
+        },
+        {
+          "part": 5,
+          "timestamp": 210,
+          "frameSHA256": "4b201d2a32368a1520b45151d850c3fd3b262165590f25bac44825611c58094b"
+        }
+      ]
+    }
+  ]
+}
